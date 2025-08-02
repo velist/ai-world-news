@@ -45,7 +45,6 @@ jobs:
       - name: 提交更新的新闻数据
         run: |
           git add public/news-data.json
-          git add dist/
           if ! git diff --cached --quiet; then
             git commit -m "🤖 自动更新AI新闻数据 - $(date +'%Y-%m-%d %H:%M:%S UTC')"
             git push
