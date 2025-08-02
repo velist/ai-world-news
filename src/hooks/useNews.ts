@@ -1,6 +1,5 @@
 import { useState, useEffect } from 'react';
 import { NewsItem } from '@/types/news';
-import { supabase } from '@/integrations/supabase/client';
 
 export const useNews = () => {
   const [news, setNews] = useState<NewsItem[]>([]);
@@ -14,13 +13,14 @@ export const useNews = () => {
       setError(null);
       
       try {
-        const { data, error } = await supabase.functions.invoke('fetch-news');
+        // 从静态JSON文件获取新闻数据
+        const response = await fetch('/news-data.json');
         
-        if (error) {
-          console.error('Error fetching news:', error);
-          setError('获取新闻失败，请稍后重试');
-          return;
+        if (!response.ok) {
+          throw new Error(`HTTP error! status: ${response.status}`);
         }
+        
+        const data = await response.json();
         
         if (data?.success && data?.data) {
           setNews(data.data);
@@ -37,8 +37,8 @@ export const useNews = () => {
 
     fetchNews();
     
-    // 设置定时刷新新闻（每15分钟）
-    const interval = setInterval(fetchNews, 15 * 60 * 1000);
+    // 设置定时刷新新闻（每30分钟检查一次）
+    const interval = setInterval(fetchNews, 30 * 60 * 1000);
     return () => clearInterval(interval);
   }, []);
 
@@ -59,15 +59,22 @@ export const useNews = () => {
       setLoading(true);
       setError(null);
       // 触发新的获取
-      setTimeout(() => {
-        supabase.functions.invoke('fetch-news').then(({ data, error }) => {
-          if (error) {
+      setTimeout(async () => {
+        try {
+          const response = await fetch('/news-data.json?t=' + Date.now());
+          if (response.ok) {
+            const data = await response.json();
+            if (data?.success && data?.data) {
+              setNews(data.data);
+            }
+          } else {
             setError('刷新失败');
-          } else if (data?.success && data?.data) {
-            setNews(data.data);
           }
+        } catch (err) {
+          setError('刷新失败');
+        } finally {
           setLoading(false);
-        });
+        }
       }, 100);
     }
   };

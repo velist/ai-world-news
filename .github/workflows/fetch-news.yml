@@ -1,0 +1,61 @@
+name: 获取AI新闻并更新
+
+on:
+  schedule:
+    # 每天UTC时间0点、6点、12点、18点运行（北京时间8点、14点、20点、2点）
+    - cron: '0 0,6,12,18 * * *'
+  workflow_dispatch: # 允许手动触发
+
+jobs:
+  fetch-and-update-news:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: 设置Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '18'
+          cache: 'npm'
+
+      - name: 安装依赖
+        run: npm install
+
+      - name: 获取新闻数据
+        env:
+          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
+          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
+          SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
+          TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
+          TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+        run: node scripts/fetch-news.js
+
+      - name: 构建项目
+        run: npm run build
+
+      - name: 配置Git
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+      - name: 提交更新的新闻数据
+        run: |
+          git add public/news-data.json
+          git add dist/
+          if ! git diff --cached --quiet; then
+            git commit -m "🤖 自动更新AI新闻数据 - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+            git push
+          else
+            echo "没有新的新闻数据需要更新"
+          fi
+
+      - name: 部署到GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./dist
+          publish_branch: gh-pages
