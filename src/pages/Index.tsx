@@ -8,7 +8,7 @@ import { NewsItem } from '@/types/news';
 import { Loader2 } from 'lucide-react';
 
 const Index = () => {
-  const { news, loading, categories, selectedCategory, setSelectedCategory } = useNews();
+  const { news, loading, error, categories, selectedCategory, setSelectedCategory, refreshNews } = useNews();
   const [selectedNews, setSelectedNews] = useState<NewsItem | null>(null);
 
   if (selectedNews) {
@@ -34,18 +34,34 @@ const Index = () => {
           />
         </div>
 
+        {/* Error State */}
+        {error && (
+          <div className="flex flex-col items-center justify-center py-12">
+            <div className="text-red-500 mb-4 text-center">
+              <p className="font-semibold">新闻获取失败</p>
+              <p className="text-sm">{error}</p>
+            </div>
+            <button
+              onClick={refreshNews}
+              className="px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
+            >
+              重新获取
+            </button>
+          </div>
+        )}
+
         {/* Loading State */}
         {loading && (
           <div className="flex items-center justify-center py-12">
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Loader2 className="w-5 h-5 animate-spin" />
-              <span>正在加载最新新闻...</span>
+              <span>正在获取最新AI新闻...</span>
             </div>
           </div>
         )}
 
         {/* News Grid */}
-        {!loading && (
+        {!loading && !error && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {news.map((item, index) => (
               <div
@@ -63,7 +79,7 @@ const Index = () => {
         )}
 
         {/* Empty State */}
-        {!loading && news.length === 0 && (
+        {!loading && !error && news.length === 0 && (
           <div className="text-center py-12">
             <h3 className="text-lg font-semibold mb-2">暂无新闻</h3>
             <p className="text-muted-foreground">请稍后再试，或切换其他分类查看</p>
