@@ -2,9 +2,14 @@ name: 获取AI新闻并更新
 
 on:
   schedule:
-    # 每天UTC时间0点、6点、12点、18点运行（北京时间8点、14点、20点、2点）
-    - cron: '0 0,6,12,18 * * *'
+    # 每15分钟运行一次，确保全天覆盖
+    - cron: '*/15 * * * *'
   workflow_dispatch: # 允许手动触发
+
+permissions:
+  contents: write
+  pages: write
+  id-token: write
 
 jobs:
   fetch-and-update-news:
@@ -29,6 +34,8 @@ jobs:
         env:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
           NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
+          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
+          CURRENTS_API_KEY: ${{ secrets.CURRENTS_API_KEY }}
           SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
           TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
