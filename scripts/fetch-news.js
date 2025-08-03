@@ -338,16 +338,60 @@ async function fetchNews() {
 function categorizeNews(title, content) {
   const titleLower = title.toLowerCase();
   const contentLower = (content || '').toLowerCase();
+  const fullText = titleLower + ' ' + contentLower;
   
-  if (titleLower.includes('gpt') || titleLower.includes('llm') || titleLower.includes('model')) {
-    return 'AI 模型';
-  } else if (titleLower.includes('chip') || titleLower.includes('gpu') || titleLower.includes('nvidia')) {
-    return '科技';
-  } else if (titleLower.includes('economy') || titleLower.includes('market') || titleLower.includes('revenue')) {
-    return '经济';
-  } else {
-    return '深度分析';
+  // AI模型相关关键词 - 这是主要分类
+  const aiModelKeywords = [
+    'gpt', 'chatgpt', 'llm', 'large language model', 'model', 'ai model',
+    'openai', 'claude', 'gemini', 'llama', 'qwen', 'glm', 'baichuan',
+    'deepseek', 'mistral', 'stable diffusion', 'midjourney', 'dall-e',
+    'transformer', 'neural network', 'deep learning model', 'foundation model',
+    'generative ai', 'text generation', 'image generation', 'multimodal',
+    'anthropic', 'google ai', 'microsoft ai', 'meta ai', 'alibaba ai',
+    '智谱', 'chatglm', 'wenxin', 'tongyi', 'spark', 'ernie', 'pangu',
+    'fine-tuning', 'pre-training', 'training data', 'ai training',
+    'hugging face', 'pytorch', 'tensorflow', 'machine learning model'
+  ];
+  
+  // 科技硬件相关
+  const techKeywords = [
+    'chip', 'gpu', 'cpu', 'nvidia', 'amd', 'intel', 'hardware',
+    'semiconductor', 'processor', 'computing', 'quantum', 'cloud',
+    'datacenter', 'server', 'infrastructure', 'apple', 'microsoft',
+    'google', 'amazon', 'tesla', 'robotics', 'automation'
+  ];
+  
+  // 经济商业相关
+  const economyKeywords = [
+    'economy', 'market', 'revenue', 'profit', 'investment', 'funding',
+    'valuation', 'ipo', 'stock', 'business', 'enterprise', 'startup',
+    'venture capital', 'acquisition', 'merger', 'financial', 'billion',
+    'million', 'deal', 'partnership', 'collaboration'
+  ];
+  
+  // 检查AI模型关键词
+  for (const keyword of aiModelKeywords) {
+    if (fullText.includes(keyword)) {
+      return 'AI 模型';
+    }
   }
+  
+  // 检查科技关键词
+  for (const keyword of techKeywords) {
+    if (fullText.includes(keyword)) {
+      return '科技';
+    }
+  }
+  
+  // 检查经济关键词
+  for (const keyword of economyKeywords) {
+    if (fullText.includes(keyword)) {
+      return '经济';
+    }
+  }
+  
+  // 默认分类为深度分析
+  return '深度分析';
 }
 
 async function main() {

@@ -4,7 +4,7 @@ import { NewsItem } from '@/types/news';
 export const useNews = () => {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
-  const [selectedCategory, setSelectedCategory] = useState('AI 模型');
+  const [selectedCategory, setSelectedCategory] = useState('全部');
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
@@ -43,11 +43,13 @@ export const useNews = () => {
     return () => clearInterval(interval);
   }, []);
 
-  const filteredNews = news.filter(item => 
-    selectedCategory === 'AI 模型' ? true : item.category === selectedCategory
-  );
+  // 修复过滤逻辑：全部显示所有新闻，其他分类只显示对应分类的新闻
+  const filteredNews = selectedCategory === '全部' 
+    ? news 
+    : news.filter(item => item.category === selectedCategory);
 
-  const categories = ['AI 模型', '科技', '经济', '深度分析'];
+  // 添加"全部"分类作为首选项
+  const categories = ['全部', 'AI 模型', '科技', '经济', '深度分析'];
 
   return {
     news: filteredNews,

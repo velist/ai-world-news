@@ -9,6 +9,8 @@ interface CategoryTabsProps {
 export const CategoryTabs = ({ categories, activeCategory, onCategoryChange }: CategoryTabsProps) => {
   const getCategoryIcon = (category: string) => {
     switch (category.toLowerCase()) {
+      case '全部':
+        return '📰';
       case 'ai模型':
       case 'ai 模型':
         return '🤖';
