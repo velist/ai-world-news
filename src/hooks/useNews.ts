@@ -4,7 +4,7 @@ import { NewsItem } from '@/types/news';
 export const useNews = () => {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
-  const [selectedCategory, setSelectedCategory] = useState('全部');
+  const [selectedCategory, setSelectedCategory] = useState('AI');
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
