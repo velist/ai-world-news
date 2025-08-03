@@ -334,8 +334,126 @@ async function fetchNews() {
   return sortedNews.slice(0, 100);
 }
 
-// 分类新闻
-function categorizeNews(title, content) {
+// 使用智谱清言AI进行新闻分类
+async function categorizeNewsWithAI(title, content, originalTitle = '', originalContent = '') {
+  try {
+    const zhipuApiKey = process.env.ZHIPU_API_KEY;
+    if (!zhipuApiKey) {
+      console.log('智谱清言API密钥未配置，使用传统关键词分类');
+      return categorizeNewsTraditional(title, content);
+    }
+
+    const prompt = `请根据以下新闻内容，将其准确分类为以下4个类别之一：AI、科技、经济、深度分析
+
+分类规则：
+1. **AI类别**：包含人工智能、机器学习、AI模型、AI应用、AI公司、自动驾驶、机器人等所有与AI相关的内容
+2. **科技类别**：硬件产品、软件应用、游戏、社交媒体、网络安全等传统科技内容（不含AI）
+3. **经济类别**：股市、金融、加密货币、投资、经济政策等财经内容（不含AI相关投资）
+4. **深度分析类别**：其他内容或需要深度分析的复杂话题
+
+新闻标题：${title}
+新闻内容：${content.substring(0, 800)}
+
+请只回复一个类别名称：AI、科技、经济 或 深度分析`;
+
+    const response = await fetch('https://open.bigmodel.cn/api/paas/v4/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${zhipuApiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'glm-4-flash',
+        messages: [{
+          role: 'user',
+          content: prompt
+        }],
+        max_tokens: 50,
+        temperature: 0.1
+      })
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      const aiCategory = data.choices[0]?.message?.content?.trim();
+      
+      // 验证AI返回的分类是否有效
+      const validCategories = ['AI', '科技', '经济', '深度分析'];
+      if (validCategories.includes(aiCategory)) {
+        console.log(`AI分类结果: ${title.substring(0, 50)}... → ${aiCategory}`);
+        return aiCategory;
+      } else {
+        console.log(`AI分类结果无效(${aiCategory})，使用传统分类`);
+        return categorizeNewsTraditional(title, content);
+      }
+    } else {
+      console.error('智谱清言API请求失败:', response.status);
+      return categorizeNewsTraditional(title, content);
+    }
+  } catch (error) {
+    console.error('AI分类出错:', error.message);
+    return categorizeNewsTraditional(title, content);
+  }
+}
+
+// 使用火山方舟AI进行新闻分类（备用）
+async function categorizeNewsWithVolcEngine(title, content) {
+  try {
+    const volcApiKey = process.env.VOLC_API_KEY;
+    if (!volcApiKey) {
+      return categorizeNewsTraditional(title, content);
+    }
+
+    const prompt = `请根据以下新闻内容，将其准确分类为以下4个类别之一：AI、科技、经济、深度分析
+
+分类规则：
+1. **AI类别**：包含人工智能、机器学习、AI模型、AI应用、AI公司、自动驾驶、机器人等所有与AI相关的内容
+2. **科技类别**：硬件产品、软件应用、游戏、社交媒体、网络安全等传统科技内容（不含AI）
+3. **经济类别**：股市、金融、加密货币、投资、经济政策等财经内容（不含AI相关投资）
+4. **深度分析类别**：其他内容或需要深度分析的复杂话题
+
+新闻标题：${title}
+新闻内容：${content.substring(0, 800)}
+
+请只回复一个类别名称：AI、科技、经济 或 深度分析`;
+
+    const response = await fetch('https://ark.cn-beijing.volces.com/api/v3/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${volcApiKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'ep-20241230140956-bxrzw',
+        messages: [{
+          role: 'user',
+          content: prompt
+        }],
+        max_tokens: 50,
+        temperature: 0.1
+      })
+    });
+
+    if (response.ok) {
+      const data = await response.json();
+      const aiCategory = data.choices[0]?.message?.content?.trim();
+      
+      const validCategories = ['AI', '科技', '经济', '深度分析'];
+      if (validCategories.includes(aiCategory)) {
+        console.log(`火山方舟分类结果: ${title.substring(0, 50)}... → ${aiCategory}`);
+        return aiCategory;
+      }
+    }
+    
+    return categorizeNewsTraditional(title, content);
+  } catch (error) {
+    console.error('火山方舟分类出错:', error.message);
+    return categorizeNewsTraditional(title, content);
+  }
+}
+
+// 传统关键词分类（备用方案）
+function categorizeNewsTraditional(title, content) {
   const titleLower = title.toLowerCase();
   const contentLower = (content || '').toLowerCase();
   const fullText = titleLower + ' ' + contentLower;
@@ -423,6 +541,24 @@ function categorizeNews(title, content) {
   return '深度分析';
 }
 
+// 主分类函数，优先使用AI分类，失败时使用传统分类
+async function categorizeNews(title, content, originalTitle = '', originalContent = '') {
+  // 首先尝试智谱清言AI分类
+  const aiCategory = await categorizeNewsWithAI(title, content, originalTitle, originalContent);
+  if (aiCategory && aiCategory !== 'error') {
+    return aiCategory;
+  }
+  
+  // 如果智谱清言失败，尝试火山方舟
+  const volcCategory = await categorizeNewsWithVolcEngine(title, content);
+  if (volcCategory && volcCategory !== 'error') {
+    return volcCategory;
+  }
+  
+  // 最后使用传统关键词分类
+  return categorizeNewsTraditional(title, content);
+}
+
 async function main() {
   try {
     console.log('开始获取AI新闻数据...');
@@ -505,7 +641,7 @@ async function main() {
             imageUrl: item.urlToImage || `/placeholder.svg`,
             source: item.source.name,
             publishedAt: item.publishedAt,
-            category: categorizeNews(item.title, item.content || item.description || ''),
+            category: await categorizeNews(translatedTitle, translatedContent, item.title, item.content || item.description || ''),
             originalUrl: item.url,
             aiInsight: aiInsight
           };

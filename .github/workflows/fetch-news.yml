@@ -40,6 +40,8 @@ jobs:
           SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
           TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
           TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
+          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
+          VOLC_API_KEY: ${{ secrets.VOLC_API_KEY }}
         run: node scripts/fetch-news.js
 
       - name: 构建项目
@@ -59,7 +61,7 @@ jobs:
           git pull origin main
           
           # 重新运行新闻获取以确保数据是最新的
-          node scripts/fetch-news.js
+          ZHIPU_API_KEY="${{ secrets.ZHIPU_API_KEY }}" VOLC_API_KEY="${{ secrets.VOLC_API_KEY }}" NEWS_API_KEY="${{ secrets.NEWS_API_KEY }}" NEWSDATA_API_KEY="${{ secrets.NEWSDATA_API_KEY }}" GNEWS_API_KEY="${{ secrets.GNEWS_API_KEY }}" CURRENTS_API_KEY="${{ secrets.CURRENTS_API_KEY }}" SILICONFLOW_API_KEY="${{ secrets.SILICONFLOW_API_KEY }}" TENCENT_SECRET_ID="${{ secrets.TENCENT_SECRET_ID }}" TENCENT_SECRET_KEY="${{ secrets.TENCENT_SECRET_KEY }}" node scripts/fetch-news.js
           
           # 检查是否有变化
           if git diff --quiet public/news-data.json; then
