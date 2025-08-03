@@ -89,115 +89,156 @@ async function fetchNews() {
   
   let allNews = [];
   
-  // 尝试NewsAPI - 增加到50条
+  // 计算24小时前的时间戳，确保获取最新新闻
+  const yesterday = new Date();
+  yesterday.setDate(yesterday.getDate() - 1);
+  const fromDate = yesterday.toISOString().split('T')[0]; // YYYY-MM-DD 格式
+  
+  // 尝试NewsAPI - 获取最近24小时的新闻
   if (newsApiKey) {
     try {
       const response = await fetch(
-        `https://newsapi.org/v2/everything?q=artificial+intelligence+OR+AI+OR+machine+learning+OR+deep+learning+OR+ChatGPT+OR+OpenAI+OR+Google+AI&language=en&sortBy=publishedAt&pageSize=50&apiKey=${newsApiKey}`
+        `https://newsapi.org/v2/everything?q=artificial+intelligence+OR+AI+OR+machine+learning+OR+deep+learning+OR+ChatGPT+OR+OpenAI+OR+Google+AI+OR+claude+OR+gemini&language=en&sortBy=publishedAt&from=${fromDate}&pageSize=100&apiKey=${newsApiKey}`
       );
       
       if (response.ok) {
         const data = await response.json();
-        allNews = [...allNews, ...data.articles];
-        console.log(`NewsAPI 获取到 ${data.articles.length} 条新闻`);
+        if (data.articles && data.articles.length > 0) {
+          allNews = [...allNews, ...data.articles];
+          console.log(`NewsAPI 获取到 ${data.articles.length} 条新闻`);
+        } else {
+          console.log('NewsAPI 没有返回文章数据');
+        }
+      } else {
+        console.error(`NewsAPI 请求失败: ${response.status} ${response.statusText}`);
       }
     } catch (error) {
       console.error('NewsAPI error:', error);
     }
   }
   
-  // 尝试NewsData - 增加到50条
-  if (newsdataApiKey && allNews.length < 30) {
+  // 尝试NewsData - 获取最近的新闻
+  if (newsdataApiKey && allNews.length < 50) {
     try {
       const response = await fetch(
-        `https://newsdata.io/api/1/news?apikey=${newsdataApiKey}&q=artificial+intelligence+OR+AI+OR+machine+learning&category=technology&language=en&size=50`
+        `https://newsdata.io/api/1/news?apikey=${newsdataApiKey}&q=artificial+intelligence+OR+AI+OR+machine+learning+OR+ChatGPT&category=technology&language=en&size=50&timeframe=24`
       );
       
       if (response.ok) {
         const data = await response.json();
-        const formattedNews = data.results?.map((item) => ({
-          title: item.title,
-          description: item.description,
-          content: item.content || item.description,
-          urlToImage: item.image_url,
-          source: { name: item.source_id },
-          publishedAt: item.pubDate,
-          url: item.link
-        })) || [];
-        
-        allNews = [...allNews, ...formattedNews];
-        console.log(`NewsData 获取到 ${formattedNews.length} 条新闻`);
+        if (data.results && data.results.length > 0) {
+          const formattedNews = data.results.map((item) => ({
+            title: item.title,
+            description: item.description,
+            content: item.content || item.description,
+            urlToImage: item.image_url,
+            source: { name: item.source_id },
+            publishedAt: item.pubDate,
+            url: item.link
+          }));
+          
+          allNews = [...allNews, ...formattedNews];
+          console.log(`NewsData 获取到 ${formattedNews.length} 条新闻`);
+        } else {
+          console.log('NewsData 没有返回结果数据');
+        }
+      } else {
+        console.error(`NewsData 请求失败: ${response.status} ${response.statusText}`);
       }
     } catch (error) {
       console.error('NewsData error:', error);
     }
   }
   
-  // 尝试GNews - 新增
-  if (gnewsApiKey && allNews.length < 50) {
+  // 尝试GNews - 获取最近的新闻
+  if (gnewsApiKey && allNews.length < 80) {
     try {
       const response = await fetch(
-        `https://gnews.io/api/v4/search?q=artificial+intelligence+OR+AI+OR+machine+learning&lang=en&country=us&max=50&apikey=${gnewsApiKey}`
+        `https://gnews.io/api/v4/search?q=artificial+intelligence+OR+AI+OR+machine+learning+OR+ChatGPT+OR+OpenAI&lang=en&country=us&max=50&from=${fromDate}T00:00:00Z&apikey=${gnewsApiKey}`
       );
       
       if (response.ok) {
         const data = await response.json();
-        const formattedNews = data.articles?.map((item) => ({
-          title: item.title,
-          description: item.description,
-          content: item.content || item.description,
-          urlToImage: item.image,
-          source: { name: item.source.name },
-          publishedAt: item.publishedAt,
-          url: item.url
-        })) || [];
-        
-        allNews = [...allNews, ...formattedNews];
-        console.log(`GNews 获取到 ${formattedNews.length} 条新闻`);
+        if (data.articles && data.articles.length > 0) {
+          const formattedNews = data.articles.map((item) => ({
+            title: item.title,
+            description: item.description,
+            content: item.content || item.description,
+            urlToImage: item.image,
+            source: { name: item.source.name },
+            publishedAt: item.publishedAt,
+            url: item.url
+          }));
+          
+          allNews = [...allNews, ...formattedNews];
+          console.log(`GNews 获取到 ${formattedNews.length} 条新闻`);
+        } else {
+          console.log('GNews 没有返回文章数据');
+        }
+      } else {
+        console.error(`GNews 请求失败: ${response.status} ${response.statusText}`);
       }
     } catch (error) {
       console.error('GNews error:', error);
     }
   }
   
-  // 尝试Currents API - 新增
-  if (currentsApiKey && allNews.length < 60) {
+  // 尝试Currents API - 获取最近的新闻
+  if (currentsApiKey && allNews.length < 100) {
     try {
       const response = await fetch(
-        `https://api.currentsapi.services/v1/search?keywords=artificial+intelligence+AI+machine+learning&language=en&apiKey=${currentsApiKey}`
+        `https://api.currentsapi.services/v1/search?keywords=artificial+intelligence+AI+machine+learning+ChatGPT&language=en&start_date=${fromDate}&apiKey=${currentsApiKey}`
       );
       
       if (response.ok) {
         const data = await response.json();
-        const formattedNews = data.news?.map((item) => ({
-          title: item.title,
-          description: item.description,
-          content: item.description,
-          urlToImage: item.image,
-          source: { name: item.author },
-          publishedAt: item.published,
-          url: item.url
-        })) || [];
-        
-        allNews = [...allNews, ...formattedNews];
-        console.log(`Currents API 获取到 ${formattedNews.length} 条新闻`);
+        if (data.news && data.news.length > 0) {
+          const formattedNews = data.news.map((item) => ({
+            title: item.title,
+            description: item.description,
+            content: item.description,
+            urlToImage: item.image,
+            source: { name: item.author || 'Currents API' },
+            publishedAt: item.published,
+            url: item.url
+          }));
+          
+          allNews = [...allNews, ...formattedNews];
+          console.log(`Currents API 获取到 ${formattedNews.length} 条新闻`);
+        } else {
+          console.log('Currents API 没有返回新闻数据');
+        }
+      } else {
+        console.error(`Currents API 请求失败: ${response.status} ${response.statusText}`);
       }
     } catch (error) {
       console.error('Currents API error:', error);
     }
   }
   
+  // 过滤最近48小时的新闻，确保时效性
+  const twoDaysAgo = new Date();
+  twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+  
+  const recentNews = allNews.filter(item => {
+    const publishedDate = new Date(item.publishedAt);
+    return publishedDate > twoDaysAgo && item.title && item.description;
+  });
+  
+  console.log(`过滤后剩余 ${recentNews.length} 条最近2天的新闻`);
+  
   // 去重和排序
-  const uniqueNews = allNews.filter((item, index, self) => 
+  const uniqueNews = recentNews.filter((item, index, self) => 
     index === self.findIndex(t => t.title === item.title)
   );
   
-  // 按发布时间排序，取最新的80条
+  // 按发布时间排序，取最新的100条
   const sortedNews = uniqueNews.sort((a, b) => 
     new Date(b.publishedAt) - new Date(a.publishedAt)
   );
   
-  return sortedNews.slice(0, 80);
+  console.log(`去重后有 ${uniqueNews.length} 条新闻，返回最新的100条`);
+  return sortedNews.slice(0, 100);
 }
 
 // 分类新闻
@@ -220,60 +261,62 @@ async function main() {
   try {
     console.log('开始获取AI新闻数据...');
     
-    // 获取原始新闻
+    // 首先尝试读取现有的新闻数据，用于保留历史内容
+    let existingNews = [];
+    const publicDir = path.join(process.cwd(), 'public');
+    const newsFilePath = path.join(publicDir, 'news-data.json');
+    
+    if (fs.existsSync(newsFilePath)) {
+      try {
+        const existingData = JSON.parse(fs.readFileSync(newsFilePath, 'utf8'));
+        if (existingData.data && Array.isArray(existingData.data)) {
+          // 只保留48小时内的历史新闻
+          const twoDaysAgo = new Date();
+          twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+          
+          existingNews = existingData.data.filter(item => {
+            const publishedDate = new Date(item.publishedAt);
+            return publishedDate > twoDaysAgo;
+          });
+          console.log(`从现有数据中保留 ${existingNews.length} 条历史新闻`);
+        }
+      } catch (error) {
+        console.error('读取现有新闻数据失败:', error);
+      }
+    }
+    
+    // 获取最新新闻
     const rawNews = await fetchNews();
     console.log(`获取到 ${rawNews.length} 条新闻`);
     
     if (rawNews.length === 0) {
-      console.log('没有获取到新闻数据，使用默认数据');
-      const defaultNews = [
-        {
-          id: `news_${Date.now()}_0`,
-          title: "人工智能技术持续发展，多模态模型引领新趋势",
-          summary: "AI技术在各个领域都有新的突破和应用，多模态AI模型正在改变人机交互方式",
-          content: "人工智能技术正在快速发展，从机器学习到深度学习，从自然语言处理到计算机视觉，AI正在改变我们的生活方式。最新的多模态AI模型能够同时处理文本、图像、音频等多种数据类型，为各行各业带来革命性的应用可能。",
-          imageUrl: "/ai-chip.jpg",
-          source: "AI Tech News",
-          publishedAt: new Date().toISOString(),
-          category: "AI 模型",
-          originalUrl: "#",
-          aiInsight: "多模态AI技术的快速发展将继续推动各行业的数字化转型，预计未来几年我们将看到更多创新应用的出现。这种技术融合将使AI系统更加智能和实用。"
-        },
-        {
-          id: `news_${Date.now()}_1`,
-          title: "大语言模型竞争激烈，开源vs闭源模式并存",
-          summary: "各大科技公司在大语言模型领域展开激烈竞争，开源和闭源两种模式各有优势",
-          content: "随着ChatGPT的成功，全球科技巨头都在大语言模型领域投入巨资。开源模型如LLaMA、Qwen等与闭源的GPT-4、Claude等形成竞争格局。开源模型降低了AI技术的使用门槛，而闭源模型在性能和安全性方面仍有优势。",
-          imageUrl: "/ai-hero.jpg",
-          source: "AI Research Daily",
-          publishedAt: new Date(Date.now() - 3600000).toISOString(),
-          category: "AI 模型",
-          originalUrl: "#",
-          aiInsight: "开源与闭源模型的并存将推动整个AI生态系统的健康发展。开源模型促进技术普及和创新，闭源模型确保高质量服务，两者相辅相成将加速AI技术的成熟和应用。"
+      console.error('❌ 所有新闻源都无法获取数据！');
+      console.error('请检查以下可能的原因：');
+      console.error('1. API密钥是否正确设置');
+      console.error('2. API配额是否用完');
+      console.error('3. 网络连接是否正常');
+      
+      if (existingNews.length > 0) {
+        console.log('使用现有历史数据，共', existingNews.length, '条');
+        const newsData = {
+          success: true,
+          data: existingNews,
+          timestamp: new Date().toISOString(),
+          total: existingNews.length,
+          note: '由于API获取失败，显示历史数据'
+        };
+        
+        if (!fs.existsSync(publicDir)) {
+          fs.mkdirSync(publicDir, { recursive: true });
         }
-      ];
-      
-      // 保存默认新闻数据
-      const publicDir = path.join(process.cwd(), 'public');
-      if (!fs.existsSync(publicDir)) {
-        fs.mkdirSync(publicDir, { recursive: true });
+        
+        fs.writeFileSync(newsFilePath, JSON.stringify(newsData, null, 2), 'utf8');
+        console.log('已保存历史新闻数据到 public/news-data.json');
+        return;
+      } else {
+        console.error('没有可用的历史数据，程序退出');
+        process.exit(1);
       }
-      
-      const newsData = {
-        success: true,
-        data: defaultNews,
-        timestamp: new Date().toISOString(),
-        total: defaultNews.length
-      };
-      
-      fs.writeFileSync(
-        path.join(publicDir, 'news-data.json'),
-        JSON.stringify(newsData, null, 2),
-        'utf8'
-      );
-      
-      console.log('已保存默认新闻数据到 public/news-data.json');
-      return;
     }
     
     // 处理每条新闻
@@ -309,28 +352,36 @@ async function main() {
     
     // 过滤掉处理失败的新闻
     const validNews = processedNews.filter(item => item !== null);
-    
     console.log(`成功处理 ${validNews.length} 条新闻`);
     
+    // 合并新旧数据，去重
+    const allCombinedNews = [...validNews, ...existingNews];
+    const uniqueCombinedNews = allCombinedNews.filter((item, index, self) => 
+      index === self.findIndex(t => t.title === item.title)
+    );
+    
+    // 按发布时间排序，保留最新的150条
+    const finalNews = uniqueCombinedNews.sort((a, b) => 
+      new Date(b.publishedAt) - new Date(a.publishedAt)
+    ).slice(0, 150);
+    
+    console.log(`最终保存 ${finalNews.length} 条新闻（新增 ${validNews.length} 条，历史 ${existingNews.length} 条）`);
+    
     // 保存新闻数据到public目录
-    const publicDir = path.join(process.cwd(), 'public');
     if (!fs.existsSync(publicDir)) {
       fs.mkdirSync(publicDir, { recursive: true });
     }
     
     const newsData = {
       success: true,
-      data: validNews,
+      data: finalNews,
       timestamp: new Date().toISOString(),
-      total: validNews.length
+      total: finalNews.length,
+      newArticles: validNews.length,
+      historicalArticles: existingNews.length
     };
     
-    fs.writeFileSync(
-      path.join(publicDir, 'news-data.json'),
-      JSON.stringify(newsData, null, 2),
-      'utf8'
-    );
-    
+    fs.writeFileSync(newsFilePath, JSON.stringify(newsData, null, 2), 'utf8');
     console.log('新闻数据已保存到 public/news-data.json');
     
   } catch (error) {
