@@ -541,6 +541,71 @@ function categorizeNewsTraditional(title, content) {
   return '深度分析';
 }
 
+// 验证和处理图片URL（简化版，避免太多HTTP请求）
+async function validateAndProcessImage(imageUrl, title = '') {
+  if (!imageUrl || imageUrl === '/placeholder.svg') {
+    return generateFallbackImage(title);
+  }
+  
+  // 检查URL格式是否有效
+  try {
+    const url = new URL(imageUrl);
+    // 检查是否是常见的图片扩展名或来自可信的图片服务
+    const validImageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
+    const trustedDomains = ['images.unsplash.com', 'cdn.', 'img.', 'static.', 'media.'];
+    
+    const hasValidExtension = validImageExtensions.some(ext => 
+      url.pathname.toLowerCase().includes(ext)
+    );
+    const isFromTrustedDomain = trustedDomains.some(domain => 
+      url.hostname.includes(domain)
+    );
+    
+    // 如果URL看起来有效，就使用它，否则使用备用图片
+    if (hasValidExtension || isFromTrustedDomain || url.hostname.includes('unsplash')) {
+      return imageUrl;
+    } else {
+      console.log(`图片URL可能无效: ${imageUrl}, 使用备用图片`);
+      return generateFallbackImage(title);
+    }
+  } catch (error) {
+    console.log(`图片URL格式错误: ${imageUrl}, 使用备用图片`);
+    return generateFallbackImage(title);
+  }
+}
+
+// 生成备用图片
+function generateFallbackImage(title = '') {
+  // 根据标题内容生成不同的备用图片
+  const titleLower = title.toLowerCase();
+  
+  if (titleLower.includes('ai') || titleLower.includes('artificial intelligence') || 
+      titleLower.includes('machine learning') || titleLower.includes('chatgpt') || 
+      titleLower.includes('openai') || titleLower.includes('claude') || titleLower.includes('人工智能')) {
+    return 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format';
+  }
+  
+  if (titleLower.includes('robot') || titleLower.includes('automation') || 
+      titleLower.includes('机器人') || titleLower.includes('自动化')) {
+    return 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop&auto=format';
+  }
+  
+  if (titleLower.includes('tech') || titleLower.includes('computer') || 
+      titleLower.includes('software') || titleLower.includes('app') || 
+      titleLower.includes('科技') || titleLower.includes('技术')) {
+    return 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop&auto=format';
+  }
+  
+  if (titleLower.includes('crypto') || titleLower.includes('bitcoin') || 
+      titleLower.includes('finance') || titleLower.includes('stock') ||
+      titleLower.includes('比特币') || titleLower.includes('金融') || titleLower.includes('股市')) {
+    return 'https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?w=800&h=600&fit=crop&auto=format';
+  }
+  
+  // 默认科技新闻图片
+  return 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop&auto=format';
+}
+
 // 主分类函数，优先使用AI分类，失败时使用传统分类
 async function categorizeNews(title, content, originalTitle = '', originalContent = '') {
   // 首先尝试智谱清言AI分类
@@ -633,12 +698,15 @@ async function main() {
           // 生成AI点评
           const aiInsight = await generateAIInsight(translatedTitle, translatedContent);
           
+          // 验证和处理图片
+          const validImageUrl = await validateAndProcessImage(item.urlToImage, translatedTitle);
+          
           return {
             id: `news_${Date.now()}_${index}`,
             title: translatedTitle,
             summary: translatedSummary,
             content: translatedContent,
-            imageUrl: item.urlToImage || `/placeholder.svg`,
+            imageUrl: validImageUrl,
             source: item.source.name,
             publishedAt: item.publishedAt,
             category: await categorizeNews(translatedTitle, translatedContent, item.title, item.content || item.description || ''),
