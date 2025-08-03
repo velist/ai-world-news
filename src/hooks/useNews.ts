@@ -13,9 +13,8 @@ export const useNews = () => {
       setError(null);
       
       try {
-        // 从静态JSON文件获取新闻数据 - 适配GitHub Pages路径
-        const basePath = import.meta.env.MODE === 'production' ? '/ai-world-news' : '';
-        const response = await fetch(`${basePath}/news-data.json`);
+        // 从静态JSON文件获取新闻数据 - 使用根路径
+        const response = await fetch(`/news-data.json`);
         
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -64,8 +63,7 @@ export const useNews = () => {
       // 触发新的获取
       setTimeout(async () => {
         try {
-          const basePath = import.meta.env.MODE === 'production' ? '/ai-world-news' : '';
-          const response = await fetch(`${basePath}/news-data.json?t=` + Date.now());
+          const response = await fetch(`/news-data.json?t=` + Date.now());
           if (response.ok) {
             const data = await response.json();
             if (data?.success && data?.data) {
