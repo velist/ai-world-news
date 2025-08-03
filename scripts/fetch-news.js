@@ -340,57 +340,86 @@ function categorizeNews(title, content) {
   const contentLower = (content || '').toLowerCase();
   const fullText = titleLower + ' ' + contentLower;
   
-  // AI模型相关关键词 - 这是主要分类
-  const aiModelKeywords = [
-    'gpt', 'chatgpt', 'llm', 'large language model', 'model', 'ai model',
-    'openai', 'claude', 'gemini', 'llama', 'qwen', 'glm', 'baichuan',
-    'deepseek', 'mistral', 'stable diffusion', 'midjourney', 'dall-e',
-    'transformer', 'neural network', 'deep learning model', 'foundation model',
-    'generative ai', 'text generation', 'image generation', 'multimodal',
-    'anthropic', 'google ai', 'microsoft ai', 'meta ai', 'alibaba ai',
+  // AI相关关键词 - 这是最重要的分类，包含AI模型、AI应用、AI技术等
+  const aiKeywords = [
+    // AI模型和技术
+    'artificial intelligence', 'ai', 'machine learning', 'deep learning',
+    'gpt', 'chatgpt', 'llm', 'large language model', 'ai model', 'neural network',
+    'openai', 'claude', 'gemini', 'llama', 'qwen', 'glm', 'baichuan', 'deepseek',
+    'mistral', 'stable diffusion', 'midjourney', 'dall-e', 'transformer',
+    'foundation model', 'generative ai', 'text generation', 'image generation',
+    'multimodal', 'anthropic', 'google ai', 'microsoft ai', 'meta ai', 'alibaba ai',
     '智谱', 'chatglm', 'wenxin', 'tongyi', 'spark', 'ernie', 'pangu',
     'fine-tuning', 'pre-training', 'training data', 'ai training',
-    'hugging face', 'pytorch', 'tensorflow', 'machine learning model'
+    'hugging face', 'pytorch', 'tensorflow', 'machine learning model',
+    
+    // AI应用和产品
+    'ai assistant', 'ai chatbot', 'ai agent', 'ai application', 'ai software',
+    'ai tool', 'ai platform', 'ai service', 'ai system', 'ai solution',
+    'voice ai', 'ai voice', 'ai speech', 'ai video', 'ai image', 'ai text',
+    'ai writing', 'ai coding', 'ai programming', 'copilot', 'ai search',
+    
+    // AI生活和应用场景
+    'ai in healthcare', 'ai medicine', 'ai education', 'ai learning',
+    'ai automation', 'ai robot', 'robotics', 'autonomous', 'self-driving',
+    'ai finance', 'ai trading', 'ai analysis', 'ai recommendation',
+    'ai translation', 'ai customer service', 'ai workplace', 'ai productivity',
+    
+    // AI公司和新闻
+    'ai startup', 'ai company', 'ai investment', 'ai funding', 'ai research',
+    'ai development', 'ai innovation', 'ai breakthrough', 'ai advancement',
+    'ai ethics', 'ai safety', 'ai regulation', 'ai policy', 'ai governance'
   ];
   
-  // 科技硬件相关
+  // 科技硬件相关（但排除AI相关的硬件）
   const techKeywords = [
-    'chip', 'gpu', 'cpu', 'nvidia', 'amd', 'intel', 'hardware',
-    'semiconductor', 'processor', 'computing', 'quantum', 'cloud',
-    'datacenter', 'server', 'infrastructure', 'apple', 'microsoft',
-    'google', 'amazon', 'tesla', 'robotics', 'automation'
+    'smartphone', 'phone', 'iphone', 'android', 'samsung', 'huawei', 'xiaomi',
+    'laptop', 'computer', 'pc', 'mac', 'windows', 'ios', 'software',
+    'app', 'application', 'game', 'gaming', 'console', 'playstation',
+    'xbox', 'nintendo', 'streaming', 'netflix', 'youtube', 'social media',
+    'facebook', 'twitter', 'instagram', 'tiktok', 'internet', 'web',
+    'browser', 'security', 'cybersecurity', 'privacy', 'data breach'
   ];
   
-  // 经济商业相关
+  // 经济商业相关（排除AI相关的商业新闻）
   const economyKeywords = [
-    'economy', 'market', 'revenue', 'profit', 'investment', 'funding',
-    'valuation', 'ipo', 'stock', 'business', 'enterprise', 'startup',
-    'venture capital', 'acquisition', 'merger', 'financial', 'billion',
-    'million', 'deal', 'partnership', 'collaboration'
+    'stock market', 'wall street', 'nasdaq', 'dow jones', 'trading',
+    'cryptocurrency', 'bitcoin', 'ethereum', 'blockchain', 'nft',
+    'bank', 'banking', 'finance', 'financial', 'economy', 'economic',
+    'inflation', 'recession', 'gdp', 'federal reserve', 'interest rate',
+    'merger', 'acquisition', 'ipo', 'earnings', 'revenue', 'profit'
   ];
   
-  // 检查AI模型关键词
-  for (const keyword of aiModelKeywords) {
+  // 优先检查AI关键词 - 这是最重要的分类
+  for (const keyword of aiKeywords) {
     if (fullText.includes(keyword)) {
-      return 'AI 模型';
+      return 'AI';
     }
   }
   
-  // 检查科技关键词
+  // 检查科技关键词（但不包含AI）
   for (const keyword of techKeywords) {
     if (fullText.includes(keyword)) {
       return '科技';
     }
   }
   
-  // 检查经济关键词
+  // 检查经济关键词（但不包含AI）
   for (const keyword of economyKeywords) {
     if (fullText.includes(keyword)) {
       return '经济';
     }
   }
   
-  // 默认分类为深度分析
+  // 避免华为手机等硬件产品进入深度分析
+  const hardwareKeywords = ['magic v5', 'honor', 'mate', 'pro max', 'ultra', 'fold', 'flip'];
+  for (const keyword of hardwareKeywords) {
+    if (fullText.includes(keyword)) {
+      return '科技';
+    }
+  }
+  
+  // 默认分类为深度分析（但应该很少进入这里）
   return '深度分析';
 }
 

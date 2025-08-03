@@ -11,6 +11,8 @@ export const CategoryTabs = ({ categories, activeCategory, onCategoryChange }: C
     switch (category.toLowerCase()) {
       case '全部':
         return '📰';
+      case 'ai':
+        return '🤖';
       case 'ai模型':
       case 'ai 模型':
         return '🤖';

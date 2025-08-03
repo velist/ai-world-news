@@ -48,8 +48,8 @@ export const useNews = () => {
     ? news 
     : news.filter(item => item.category === selectedCategory);
 
-  // 添加"全部"分类作为首选项
-  const categories = ['全部', 'AI 模型', '科技', '经济', '深度分析'];
+  // 添加"全部"分类作为首选项，将"AI模型"改为"AI"
+  const categories = ['全部', 'AI', '科技', '经济', '深度分析'];
 
   return {
     news: filteredNews,
