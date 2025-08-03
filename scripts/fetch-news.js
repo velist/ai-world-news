@@ -83,6 +83,7 @@ async function generateAIInsight(title, content) {
 // 获取新闻数据
 async function fetchNews() {
   const newsApiKey = process.env.NEWS_API_KEY; // newsapi.ai
+  const newsApiOrgKey = process.env.NEWSAPI_ORG_KEY; // newsapi.org
   const newsdataApiKey = process.env.NEWSDATA_API_KEY;
   const gnewsApiKey = process.env.GNEWS_API_KEY;
   const currentsApiKey = process.env.CURRENTS_API_KEY;
@@ -96,8 +97,35 @@ async function fetchNews() {
   
   console.log(`获取 ${fromDate} 以来的AI新闻...`);
   
-  // 优先尝试NewsAPI.ai - 获取最近的新闻
-  if (newsApiKey) {
+  // 首先尝试NewsAPI.org - 这个API更稳定
+  if (newsApiOrgKey) {
+    try {
+      console.log('正在尝试NewsAPI.org...');
+      const response = await fetch(
+        `https://newsapi.org/v2/everything?q=artificial+intelligence+OR+AI+OR+machine+learning+OR+deep+learning+OR+ChatGPT+OR+OpenAI+OR+Google+AI+OR+claude+OR+gemini&language=en&sortBy=publishedAt&from=${fromDate}&pageSize=50&apiKey=${newsApiOrgKey}`
+      );
+      
+      if (response.ok) {
+        const data = await response.json();
+        if (data.articles && data.articles.length > 0) {
+          allNews = [...allNews, ...data.articles];
+          console.log(`✅ NewsAPI.org 获取到 ${data.articles.length} 条新闻`);
+        } else {
+          console.log('⚠️ NewsAPI.org 没有返回文章数据');
+        }
+      } else {
+        const errorData = await response.json();
+        console.error(`❌ NewsAPI.org 请求失败: ${response.status} ${response.statusText}`, errorData);
+      }
+    } catch (error) {
+      console.error('❌ NewsAPI.org 连接错误:', error.message);
+    }
+  } else {
+    console.log('⚠️ NewsAPI.org 密钥未配置');
+  }
+  
+  // 备用：尝试NewsAPI.ai - 获取最近的新闻
+  if (newsApiKey && allNews.length < 30) {
     try {
       console.log('正在尝试NewsAPI.ai...');
       const response = await fetch(
@@ -128,7 +156,7 @@ async function fetchNews() {
             },
             resultType: "articles",
             articlesSortBy: "date",
-            articlesCount: 50
+            articlesCount: 30
           })
         }
       );
@@ -158,7 +186,7 @@ async function fetchNews() {
     } catch (error) {
       console.error('❌ NewsAPI.ai 连接错误:', error.message);
     }
-  } else {
+  } else if (!newsApiKey && allNews.length < 30) {
     console.log('⚠️ NewsAPI.ai 密钥未配置');
   }
   
