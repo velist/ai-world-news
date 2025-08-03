@@ -1,8 +1,27 @@
+User-agent: *
+Allow: /
+
+# 优先收录的重要页面
+Allow: /index.html
+Allow: /news-data.json
+
+# 阻止收录的文件
+Disallow: /assets/
+Disallow: /*.js$
+Disallow: /*.css$
+
+# 特定搜索引擎优化
 User-agent: Googlebot
 Allow: /
+Crawl-delay: 1
 
 User-agent: Bingbot
 Allow: /
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Allow: /
+Crawl-delay: 2
 
 User-agent: Twitterbot
 Allow: /
@@ -10,5 +29,5 @@ Allow: /
 User-agent: facebookexternalhit
 Allow: /
 
-User-agent: *
-Allow: /
+# Sitemap地址
+Sitemap: https://news.aipush.fun/sitemap.xml
