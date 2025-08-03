@@ -8,13 +8,21 @@ export const useNews = () => {
   const [error, setError] = useState<string | null>(null);
 
   useEffect(() => {
-    const fetchNews = async () => {
+    const fetchNews = async (bypassCache = false) => {
       setLoading(true);
       setError(null);
       
       try {
-        // 从静态JSON文件获取新闻数据 - 使用根路径
-        const response = await fetch(`/news-data.json`);
+        // 从静态JSON文件获取新闻数据 - 添加时间戳防止缓存
+        const timestamp = bypassCache ? Date.now() : Math.floor(Date.now() / (5 * 60 * 1000)); // 5分钟缓存
+        const response = await fetch(`/news-data.json?t=${timestamp}`, {
+          cache: 'no-cache',
+          headers: {
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'Pragma': 'no-cache',
+            'Expires': '0'
+          }
+        });
         
         if (!response.ok) {
           throw new Error(`HTTP error! status: ${response.status}`);
@@ -37,8 +45,8 @@ export const useNews = () => {
 
     fetchNews();
     
-    // 设置定时刷新新闻（每30分钟检查一次）
-    const interval = setInterval(fetchNews, 30 * 60 * 1000);
+    // 设置定时刷新新闻（每5分钟检查一次，更频繁）
+    const interval = setInterval(() => fetchNews(true), 5 * 60 * 1000);
     return () => clearInterval(interval);
   }, []);
 
@@ -60,10 +68,17 @@ export const useNews = () => {
     refreshNews: () => {
       setLoading(true);
       setError(null);
-      // 触发新的获取
+      // 立即触发新的获取，绕过所有缓存
       setTimeout(async () => {
         try {
-          const response = await fetch(`/news-data.json?t=` + Date.now());
+          const response = await fetch(`/news-data.json?t=${Date.now()}`, {
+            cache: 'no-cache',
+            headers: {
+              'Cache-Control': 'no-cache, no-store, must-revalidate',
+              'Pragma': 'no-cache',
+              'Expires': '0'
+            }
+          });
           if (response.ok) {
             const data = await response.json();
             if (data?.success && data?.data) {

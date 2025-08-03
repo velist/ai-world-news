@@ -1,15 +1,43 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import { AppHeader } from '@/components/AppHeader';
 import { CategoryTabs } from '@/components/CategoryTabs';
 import { NewsCard } from '@/components/NewsCard';
 import { NewsDetail } from '@/components/NewsDetail';
 import { useNews } from '@/hooks/useNews';
 import { NewsItem } from '@/types/news';
-import { Loader2 } from 'lucide-react';
+import { Loader2, RefreshCw, Clock } from 'lucide-react';
 
 const Index = () => {
   const { news, loading, error, categories, selectedCategory, setSelectedCategory, refreshNews } = useNews();
   const [selectedNews, setSelectedNews] = useState<NewsItem | null>(null);
+  const [lastUpdateTime, setLastUpdateTime] = useState<Date>(new Date());
+
+  // 更新最后刷新时间
+  useEffect(() => {
+    if (!loading && !error && news.length > 0) {
+      setLastUpdateTime(new Date());
+    }
+  }, [news, loading, error]);
+
+  const handleRefresh = () => {
+    refreshNews();
+    setLastUpdateTime(new Date());
+  };
+
+  const formatUpdateTime = (date: Date) => {
+    const now = new Date();
+    const diff = now.getTime() - date.getTime();
+    const minutes = Math.floor(diff / (1000 * 60));
+    
+    if (minutes < 1) {
+      return '刚刚更新';
+    } else if (minutes < 60) {
+      return `${minutes}分钟前更新`;
+    } else {
+      const hours = Math.floor(minutes / 60);
+      return `${hours}小时前更新`;
+    }
+  };
 
   if (selectedNews) {
     return (
@@ -34,6 +62,25 @@ const Index = () => {
           />
         </div>
 
+        {/* Update Status and Refresh */}
+        {!error && (
+          <div className="flex items-center justify-between bg-muted/50 rounded-lg px-4 py-3">
+            <div className="flex items-center space-x-2 text-sm text-muted-foreground">
+              <Clock className="w-4 h-4" />
+              <span>{formatUpdateTime(lastUpdateTime)}</span>
+              <span className="text-xs opacity-75">• 每5分钟自动刷新</span>
+            </div>
+            <button
+              onClick={handleRefresh}
+              disabled={loading}
+              className="flex items-center space-x-2 px-3 py-1.5 bg-primary/10 hover:bg-primary/20 text-primary rounded-md transition-colors disabled:opacity-50"
+            >
+              <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
+              <span className="text-sm">刷新</span>
+            </button>
+          </div>
+        )}
+
         {/* Error State */}
         {error && (
           <div className="flex flex-col items-center justify-center py-12">
@@ -42,10 +89,12 @@ const Index = () => {
               <p className="text-sm">{error}</p>
             </div>
             <button
-              onClick={refreshNews}
-              className="px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors"
+              onClick={handleRefresh}
+              disabled={loading}
+              className="flex items-center space-x-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors disabled:opacity-50"
             >
-              重新获取
+              <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
+              <span>重新获取</span>
             </button>
           </div>
         )}
