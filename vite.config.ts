@@ -5,7 +5,7 @@ import { componentTagger } from "lovable-tagger";
 
 // https://vitejs.dev/config/
 export default defineConfig(({ mode }) => ({
-  base: mode === 'production' ? '/ai-world-news/' : '/',
+  base: '/', // 使用自定义域名，直接使用根路径
   server: {
     host: "::",
     port: 8080,
