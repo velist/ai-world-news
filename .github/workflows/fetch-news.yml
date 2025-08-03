@@ -44,9 +44,6 @@ jobs:
           VOLC_API_KEY: ${{ secrets.VOLC_API_KEY }}
         run: node scripts/fetch-news.js
 
-      - name: 构建项目
-        run: npm run build
-
       - name: 配置Git
         run: |
           git config --local user.email "action@github.com"
@@ -83,10 +80,3 @@ jobs:
               fi
             done
           fi
-
-      - name: 部署到GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./dist
-          publish_branch: gh-pages
