@@ -82,7 +82,7 @@ async function generateAIInsight(title, content) {
 
 // 获取新闻数据
 async function fetchNews() {
-  const newsApiKey = process.env.NEWS_API_KEY;
+  const newsApiKey = process.env.NEWS_API_KEY; // newsapi.ai
   const newsdataApiKey = process.env.NEWSDATA_API_KEY;
   const gnewsApiKey = process.env.GNEWS_API_KEY;
   const currentsApiKey = process.env.CURRENTS_API_KEY;
@@ -94,67 +94,125 @@ async function fetchNews() {
   yesterday.setDate(yesterday.getDate() - 1);
   const fromDate = yesterday.toISOString().split('T')[0]; // YYYY-MM-DD 格式
   
-  // 尝试NewsAPI - 获取最近24小时的新闻
+  console.log(`获取 ${fromDate} 以来的AI新闻...`);
+  
+  // 优先尝试NewsAPI.ai - 获取最近的新闻
   if (newsApiKey) {
     try {
+      console.log('正在尝试NewsAPI.ai...');
       const response = await fetch(
-        `https://newsapi.org/v2/everything?q=artificial+intelligence+OR+AI+OR+machine+learning+OR+deep+learning+OR+ChatGPT+OR+OpenAI+OR+Google+AI+OR+claude+OR+gemini&language=en&sortBy=publishedAt&from=${fromDate}&pageSize=100&apiKey=${newsApiKey}`
+        `https://newsapi.ai/api/v1/article/getArticles`, {
+          method: 'POST',
+          headers: {
+            'Content-Type': 'application/json',
+          },
+          body: JSON.stringify({
+            apiKey: newsApiKey,
+            query: {
+              $query: {
+                $and: [
+                  {
+                    $or: [
+                      { conceptUri: "http://en.wikipedia.org/wiki/Artificial_intelligence" },
+                      { conceptUri: "http://en.wikipedia.org/wiki/Machine_learning" },
+                      { keywordLoc: "title", keyword: "AI" },
+                      { keywordLoc: "title", keyword: "artificial intelligence" },
+                      { keywordLoc: "title", keyword: "ChatGPT" },
+                      { keywordLoc: "title", keyword: "OpenAI" }
+                    ]
+                  },
+                  { lang: "eng" },
+                  { dateStart: fromDate }
+                ]
+              }
+            },
+            resultType: "articles",
+            articlesSortBy: "date",
+            articlesCount: 50
+          })
+        }
       );
       
       if (response.ok) {
         const data = await response.json();
-        if (data.articles && data.articles.length > 0) {
-          allNews = [...allNews, ...data.articles];
-          console.log(`NewsAPI 获取到 ${data.articles.length} 条新闻`);
+        if (data.articles && data.articles.results && data.articles.results.length > 0) {
+          const formattedNews = data.articles.results.map((item) => ({
+            title: item.title,
+            description: item.body?.substring(0, 200) + '...' || item.title,
+            content: item.body || item.title,
+            urlToImage: item.image,
+            source: { name: item.source.title || 'NewsAPI.ai' },
+            publishedAt: item.dateTime,
+            url: item.url
+          }));
+          
+          allNews = [...allNews, ...formattedNews];
+          console.log(`✅ NewsAPI.ai 获取到 ${formattedNews.length} 条新闻`);
         } else {
-          console.log('NewsAPI 没有返回文章数据');
+          console.log('⚠️ NewsAPI.ai 没有返回文章数据');
         }
       } else {
-        console.error(`NewsAPI 请求失败: ${response.status} ${response.statusText}`);
+        const errorData = await response.json();
+        console.error(`❌ NewsAPI.ai 请求失败: ${response.status} ${response.statusText}`, errorData);
       }
     } catch (error) {
-      console.error('NewsAPI error:', error);
+      console.error('❌ NewsAPI.ai 连接错误:', error.message);
     }
+  } else {
+    console.log('⚠️ NewsAPI.ai 密钥未配置');
   }
   
-  // 尝试NewsData - 获取最近的新闻
+  // 备用：尝试NewsData API - 获取最近的新闻
   if (newsdataApiKey && allNews.length < 50) {
     try {
+      console.log('正在尝试NewsData API...');
       const response = await fetch(
-        `https://newsdata.io/api/1/news?apikey=${newsdataApiKey}&q=artificial+intelligence+OR+AI+OR+machine+learning+OR+ChatGPT&category=technology&language=en&size=50&timeframe=24`
+        `https://newsdata.io/api/1/news?apikey=${newsdataApiKey}&q=artificial%20intelligence%20OR%20AI%20OR%20machine%20learning%20OR%20ChatGPT%20OR%20OpenAI%20OR%20claude&category=technology&language=en&size=50`
       );
       
       if (response.ok) {
         const data = await response.json();
         if (data.results && data.results.length > 0) {
-          const formattedNews = data.results.map((item) => ({
+          // 过滤最近24小时的新闻
+          const recentResults = data.results.filter(item => {
+            const publishedDate = new Date(item.pubDate);
+            const yesterday = new Date();
+            yesterday.setDate(yesterday.getDate() - 1);
+            return publishedDate > yesterday && item.title && item.description;
+          });
+          
+          const formattedNews = recentResults.map((item) => ({
             title: item.title,
             description: item.description,
             content: item.content || item.description,
             urlToImage: item.image_url,
-            source: { name: item.source_id },
+            source: { name: item.source_id || 'NewsData' },
             publishedAt: item.pubDate,
             url: item.link
           }));
           
           allNews = [...allNews, ...formattedNews];
-          console.log(`NewsData 获取到 ${formattedNews.length} 条新闻`);
+          console.log(`✅ NewsData API 获取到 ${formattedNews.length} 条最新新闻`);
         } else {
-          console.log('NewsData 没有返回结果数据');
+          console.log('⚠️ NewsData API 没有返回结果数据');
         }
       } else {
-        console.error(`NewsData 请求失败: ${response.status} ${response.statusText}`);
+        const errorData = await response.json();
+        console.error(`❌ NewsData API 请求失败: ${response.status} ${response.statusText}`, errorData);
       }
     } catch (error) {
-      console.error('NewsData error:', error);
+      console.error('❌ NewsData API 连接错误:', error.message);
     }
+  } else {
+    console.log('⚠️ NewsData API 密钥未配置');
   }
   
   // 尝试GNews - 获取最近的新闻
   if (gnewsApiKey && allNews.length < 80) {
     try {
+      console.log('正在尝试GNews API...');
       const response = await fetch(
-        `https://gnews.io/api/v4/search?q=artificial+intelligence+OR+AI+OR+machine+learning+OR+ChatGPT+OR+OpenAI&lang=en&country=us&max=50&from=${fromDate}T00:00:00Z&apikey=${gnewsApiKey}`
+        `https://gnews.io/api/v4/search?q=artificial%20intelligence%20OR%20AI%20OR%20machine%20learning%20OR%20ChatGPT%20OR%20OpenAI&lang=en&country=us&max=50&from=${fromDate}T00:00:00Z&apikey=${gnewsApiKey}`
       );
       
       if (response.ok) {
@@ -165,29 +223,33 @@ async function fetchNews() {
             description: item.description,
             content: item.content || item.description,
             urlToImage: item.image,
-            source: { name: item.source.name },
+            source: { name: item.source.name || 'GNews' },
             publishedAt: item.publishedAt,
             url: item.url
           }));
           
           allNews = [...allNews, ...formattedNews];
-          console.log(`GNews 获取到 ${formattedNews.length} 条新闻`);
+          console.log(`✅ GNews 获取到 ${formattedNews.length} 条新闻`);
         } else {
-          console.log('GNews 没有返回文章数据');
+          console.log('⚠️ GNews 没有返回文章数据');
         }
       } else {
-        console.error(`GNews 请求失败: ${response.status} ${response.statusText}`);
+        const errorData = await response.json();
+        console.error(`❌ GNews 请求失败: ${response.status} ${response.statusText}`, errorData);
       }
     } catch (error) {
-      console.error('GNews error:', error);
+      console.error('❌ GNews 连接错误:', error.message);
     }
+  } else if (!gnewsApiKey) {
+    console.log('⚠️ GNews API 密钥未配置');
   }
   
   // 尝试Currents API - 获取最近的新闻
   if (currentsApiKey && allNews.length < 100) {
     try {
+      console.log('正在尝试Currents API...');
       const response = await fetch(
-        `https://api.currentsapi.services/v1/search?keywords=artificial+intelligence+AI+machine+learning+ChatGPT&language=en&start_date=${fromDate}&apiKey=${currentsApiKey}`
+        `https://api.currentsapi.services/v1/search?keywords=artificial%20intelligence%20AI%20machine%20learning%20ChatGPT&language=en&start_date=${fromDate}&apiKey=${currentsApiKey}`
       );
       
       if (response.ok) {
@@ -204,16 +266,19 @@ async function fetchNews() {
           }));
           
           allNews = [...allNews, ...formattedNews];
-          console.log(`Currents API 获取到 ${formattedNews.length} 条新闻`);
+          console.log(`✅ Currents API 获取到 ${formattedNews.length} 条新闻`);
         } else {
-          console.log('Currents API 没有返回新闻数据');
+          console.log('⚠️ Currents API 没有返回新闻数据');
         }
       } else {
-        console.error(`Currents API 请求失败: ${response.status} ${response.statusText}`);
+        const errorData = await response.json();
+        console.error(`❌ Currents API 请求失败: ${response.status} ${response.statusText}`, errorData);
       }
     } catch (error) {
-      console.error('Currents API error:', error);
+      console.error('❌ Currents API 连接错误:', error.message);
     }
+  } else if (!currentsApiKey) {
+    console.log('⚠️ Currents API 密钥未配置');
   }
   
   // 过滤最近48小时的新闻，确保时效性
