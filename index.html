@@ -41,6 +41,27 @@
     <!-- 搜索引擎验证文件(稍后添加) -->
     <!-- <meta name="google-site-verification" content="待配置" /> -->
     <!-- <meta name="msvalidate.01" content="待配置" /> -->
+    
+    <!-- 结构化数据 -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebSite",
+      "name": "AI推趣",
+      "alternateName": "AI World News",
+      "url": "https://news.aipush.fun",
+      "description": "实时AI新闻推送系统，智能翻译国际AI科技资讯",
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": "https://news.aipush.fun/?q={search_term_string}",
+        "query-input": "required name=search_term_string"
+      },
+      "publisher": {
+        "@type": "Organization",
+        "name": "AI推趣团队"
+      }
+    }
+    </script>
     <script type="module" crossorigin src="/assets/index-BBMfi9R9.js"></script>
     <link rel="stylesheet" crossorigin href="/assets/index-B0SV-Dsq.css">
   </head>
@@ -48,7 +69,8 @@
   <body>
     <div id="root"></div>
     
-    <!-- 百度统计(可选) -->
+    <!-- 百度统计 -->
+    <!-- 获取百度统计ID后取消注释并替换YOUR_BAIDU_ANALYTICS_ID -->
     <!-- <script>
     var _hmt = _hmt || [];
     (function() {
@@ -59,13 +81,17 @@
     })();
     </script> -->
     
-    <!-- Google Analytics(可选) -->
-    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=YOUR_GA_ID"></script>
+    <!-- Google Analytics 4 -->
+    <!-- 获取GA4跟踪ID后取消注释并替换G-XXXXXXXXXX -->
+    <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
     <script>
       window.dataLayer = window.dataLayer || [];
       function gtag(){dataLayer.push(arguments);}
       gtag('js', new Date());
-      gtag('config', 'YOUR_GA_ID');
+      gtag('config', 'G-XXXXXXXXXX', {
+        'send_page_view': true,
+        'anonymize_ip': true
+      });
     </script> -->
   </body>
 </html>
