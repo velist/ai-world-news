@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { X, Menu, Newspaper, FileText, MessageCircle, ExternalLink } from 'lucide-react';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 interface SideMenuProps {
   isOpen: boolean;

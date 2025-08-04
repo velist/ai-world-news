@@ -1,7 +1,7 @@
 import React from 'react';
 import { RefreshCw, X } from 'lucide-react';
 import { useVersionCheck } from '@/hooks/useVersionCheck';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 export const UpdateNotification: React.FC = () => {
   const { hasUpdate, refreshPage, dismissUpdate } = useVersionCheck();

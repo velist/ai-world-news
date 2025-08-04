@@ -7,7 +7,7 @@ import { SideMenu } from '@/components/SideMenu';
 import { DailyBriefing } from '@/components/DailyBriefing';
 import { Disclaimer } from '@/components/Disclaimer';
 import { useNews } from '@/hooks/useNews';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from '@/contexts/LanguageContext';
 import { NewsItem } from '@/types/news';
 import { Loader2, RefreshCw, Clock } from 'lucide-react';
 

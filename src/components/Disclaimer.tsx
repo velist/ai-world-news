@@ -1,6 +1,6 @@
 import React from 'react';
 import { X, Shield, AlertTriangle, ExternalLink, FileText } from 'lucide-react';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from '@/contexts/LanguageContext';
 
 interface DisclaimerProps {
   isOpen: boolean;

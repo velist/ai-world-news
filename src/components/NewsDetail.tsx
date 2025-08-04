@@ -4,7 +4,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { useTitleTranslation } from "@/hooks/useTitleTranslation";
-import { useLanguage } from "@/hooks/useLanguage";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface NewsDetailProps {
   title: string;
@@ -205,41 +205,100 @@ export const NewsDetail = ({
           </Card>
         )}
 
-        {/* Original Link */}
-        {originalUrl && (
-          <div className="space-y-4 pt-6">
-            {/* Source Attribution */}
-            <div className="text-center text-sm text-muted-foreground border-t border-border/50 pt-4">
-              <p>
-                {isZh ? '新闻来源：' : 'Source: '}
-                <span className="font-medium text-foreground">{source}</span>
-              </p>
-              <p className="mt-1">
-                {isZh ? '原文链接：' : 'Original URL: '}
-                <a 
-                  href={originalUrl} 
-                  target="_blank" 
-                  rel="noopener noreferrer"
-                  className="text-primary hover:text-primary/80 underline"
+        {/* Source Information Card */}
+        <Card className="bg-gradient-card border border-border/50 shadow-soft">
+          <CardContent className="p-6">
+            <div className="space-y-4">
+              {/* Card Header */}
+              <div className="flex items-center space-x-2">
+                <ExternalLink className="w-5 h-5 text-primary" />
+                <h3 className="text-lg font-semibold text-foreground">
+                  {isZh ? '文章来源信息' : 'Source Information'}
+                </h3>
+              </div>
+              
+              <Separator />
+              
+              {/* Source Details */}
+              <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
+                <div className="space-y-2">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-sm font-medium text-muted-foreground">
+                      {isZh ? '来源媒体：' : 'Source Media:'}
+                    </span>
+                    <span className="text-sm text-foreground font-medium">
+                      {source}
+                    </span>
+                  </div>
+                  
+                  <div className="flex items-center space-x-2">
+                    <span className="text-sm font-medium text-muted-foreground">
+                      {isZh ? 'API推送：' : 'API Push:'}
+                    </span>
+                    <span className="text-sm text-foreground">
+                      {isZh ? 'AI新闻聚合系统' : 'AI News Aggregation'}
+                    </span>
+                  </div>
+                </div>
+                
+                <div className="space-y-2">
+                  <div className="flex items-center space-x-2">
+                    <span className="text-sm font-medium text-muted-foreground">
+                      {isZh ? '免责声明：' : 'Disclaimer:'}
+                    </span>
+                    <span className="text-sm text-foreground">
+                      {isZh ? '观点不代表本站' : 'Views not ours'}
+                    </span>
+                  </div>
+                  
+                  <div className="flex items-center space-x-2">
+                    <span className="text-sm font-medium text-muted-foreground">
+                      {isZh ? '发布时间：' : 'Published:'}
+                    </span>
+                    <span className="text-sm text-foreground">
+                      {formatDate(publishedAt)}
+                    </span>
+                  </div>
+                </div>
+              </div>
+              
+              <Separator />
+              
+              {/* Action Buttons */}
+              <div className="flex flex-col sm:flex-row gap-3">
+                <Button
+                  variant="default"
+                  size="lg"
+                  className="flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white flex-1"
+                  onClick={() => window.open(originalUrl, '_blank')}
                 >
-                  {originalUrl}
-                </a>
-              </p>
+                  <ExternalLink className="w-5 h-5" />
+                  <span className="font-medium">{isZh ? '阅读原文' : 'Read Original'}</span>
+                </Button>
+                
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="flex items-center justify-center space-x-2 flex-1"
+                  onClick={handleShare}
+                >
+                  <Share2 className="w-5 h-5" />
+                  <span className="font-medium">{isZh ? '分享文章' : 'Share Article'}</span>
+                </Button>
+              </div>
+              
+              {/* Disclaimer Notice */}
+              <div className="bg-amber-50 border border-amber-200 rounded-lg p-3">
+                <p className="text-xs text-amber-800 leading-relaxed">
+                  {isZh 
+                    ? '免责声明：本文内容来源于第三方媒体，不代表本平台立场。本平台仅提供信息存储空间服务，不拥有所有权，不承担相关法律责任。如涉及版权问题，请及时联系我们。'
+                    : 'Disclaimer: This article content is from third-party media and does not represent the position of this platform. This platform only provides information storage space services, does not own ownership, and does not assume relevant legal responsibilities. For copyright issues, please contact us promptly.'
+                  }
+                </p>
+              </div>
             </div>
-            
-            <div className="flex justify-center">
-              <Button
-                variant="default"
-                size="lg"
-                className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3"
-                onClick={() => window.open(originalUrl, '_blank')}
-              >
-                <ExternalLink className="w-5 h-5" />
-                <span className="font-medium">{isZh ? '查看完整原文' : 'View Complete Original'}</span>
-              </Button>
-            </div>
-          </div>
-        )}
+          </CardContent>
+        </Card>
       </div>
     </div>
   );

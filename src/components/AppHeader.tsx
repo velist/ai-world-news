@@ -1,7 +1,7 @@
 import { Sparkles, Globe, Users, Menu } from "lucide-react";
 import { useState } from "react";
 import { LanguageSwitcher } from "./LanguageSwitcher";
-import { useLanguage } from "@/hooks/useLanguage";
+import { useLanguage } from "@/contexts/LanguageContext";
 
 interface AppHeaderProps {
   onMenuClick: () => void;

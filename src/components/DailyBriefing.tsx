@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { Calendar, Clock, Sparkles, ExternalLink, Loader2, X } from 'lucide-react';
-import { useLanguage } from '@/hooks/useLanguage';
+import { useLanguage } from '@/contexts/LanguageContext';
 import { useContentFilter } from '@/hooks/useContentFilter';
 
 interface DailyBriefingProps {
@@ -217,8 +217,9 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
                         {item.title}
                       </h3>
                       
-                      <p className="text-sm text-gray-600 line-clamp-1">
-                        {item.description}
+                      {/* 只显示一句话描述，不显示完整摘要 */}
+                      <p className="text-sm text-gray-600 line-clamp-1 italic">
+                        {item.description.substring(0, 80)}...
                       </p>
                       
                       <div className="flex items-center justify-between text-xs text-gray-400 mt-2">
