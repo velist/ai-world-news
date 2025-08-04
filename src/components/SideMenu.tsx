@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { X, Menu, Newspaper, FileText, MessageCircle, ExternalLink } from 'lucide-react';
+import { X, Menu, Newspaper, FileText, MessageCircle, ExternalLink, Rss } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 interface SideMenuProps {
@@ -17,6 +17,12 @@ export const SideMenu: React.FC<SideMenuProps> = ({ isOpen, onClose, onMenuClick
       icon: Newspaper,
       label: isZh ? 'AI专题简报' : 'AI Topic Briefing',
       description: isZh ? '实时AI新闻精选' : 'Real-time AI News Selection'
+    },
+    {
+      id: 'rss-subscribe',
+      icon: Rss,
+      label: isZh ? 'RSS订阅' : 'RSS Subscribe',
+      description: isZh ? '订阅最新AI新闻' : 'Subscribe to Latest AI News'
     },
     {
       id: 'disclaimer',

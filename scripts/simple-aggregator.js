@@ -20,6 +20,16 @@ const RSS_SOURCES = [
     name: '钛媒体',
     url: 'https://www.tmtpost.com/feed',
     category: '科技'
+  },
+  {
+    name: 'InfoQ中文',
+    url: 'https://www.infoq.cn/feed',
+    category: '科技'
+  },
+  {
+    name: 'IT之家',
+    url: 'https://www.ithome.com/rss/',
+    category: '科技'
   }
 ];
 
@@ -37,6 +47,22 @@ function isAINews(title, content) {
     text.toLowerCase().includes(keyword.toLowerCase()) ||
     text.includes(keyword)
   );
+}
+
+// 判断是否为国内AI新闻
+function isDomesticAINews(title, content, source) {
+  if (!isAINews(title, content)) return false;
+  
+  const domesticSources = ['36氪', '钛媒体', 'InfoQ中文', 'IT之家'];
+  const domesticKeywords = ['中国', '国内', '百度', '阿里', '腾讯', '字节', '华为', '小米', '京东', '美团', '滴滴', '网易', '新浪', '搜狐', '携程'];
+  
+  const text = (title + ' ' + (content || '')).toLowerCase();
+  const isDomesticSource = domesticSources.includes(source.name);
+  const hasDomesticKeywords = domesticKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
+  
+  return isDomesticSource || hasDomesticKeywords;
 }
 
 // 清理内容
@@ -87,6 +113,13 @@ function processNewsItem(item, source) {
   const summary = cleanContent(item.contentSnippet || item.content || '');
   const truncatedSummary = summary.length > 200 ? summary.substring(0, 200) + '...' : summary;
   
+  let category;
+  if (isAINews(item.title, item.content)) {
+    category = isDomesticAINews(item.title, item.content, source) ? '国内AI' : '国外AI';
+  } else {
+    category = source.category;
+  }
+  
   return {
     id: generateId(item.title, item.pubDate),
     title: item.title || '无标题',
@@ -95,7 +128,7 @@ function processNewsItem(item, source) {
     imageUrl: extractImageUrl(item),
     source: source.name,
     publishedAt: item.pubDate || new Date().toISOString(),
-    category: isAINews(item.title, item.content) ? 'AI' : source.category,
+    category: category,
     originalUrl: item.link,
     aiInsight: generateAIInsight(item.title, item.contentSnippet || item.content)
   };

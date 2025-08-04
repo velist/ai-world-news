@@ -31,3 +31,34 @@ export default defineConfig(({ mode }) => ({
     },
   },
 }));
+
+// 生成RSS feed
+function generateRSSFeed(newsItems) {
+  const siteUrl = 'https://ai-world-news.com';
+  const siteTitle = 'AI世界新闻';
+  const siteDescription = '最新AI资讯与深度报道';
+  
+  const items = newsItems.slice(0, 20).map(item => `
+    <item>
+      <title><![CDATA[${item.title}]]></title>
+      <description><![CDATA[${item.summary || item.content}]]></description>
+      <link>${item.originalUrl}</link>
+      <guid>${item.id}</guid>
+      <pubDate>${new Date(item.publishedAt).toUTCString()}</pubDate>
+      <source url="${siteUrl}">${item.source}</source>
+    </item>
+  `).join('');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title><![CDATA[${siteTitle}]]></title>
+    <description><![CDATA[${siteDescription}]]></description>
+    <link>${siteUrl}</link>
+    <atom:link href="${siteUrl}/rss.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-CN</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    ${items}
+  </channel>
+</rss>`;
+}

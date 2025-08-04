@@ -38,6 +38,9 @@ const Index = () => {
       case 'daily-briefing':
         setDailyBriefingOpen(true);
         break;
+      case 'rss-subscribe':
+        window.open('/rss.xml', '_blank');
+        break;
       case 'disclaimer':
         setDisclaimerOpen(true);
         break;
