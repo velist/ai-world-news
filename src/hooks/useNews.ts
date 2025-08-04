@@ -6,7 +6,7 @@ import { useNewsTranslation } from './useNewsTranslation';
 export const useNews = () => {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
-  const [selectedCategory, setSelectedCategory] = useState('AI');
+  const [selectedCategory, setSelectedCategory] = useState('全部'); // 默认选择"全部"分类
   const [error, setError] = useState<string | null>(null);
   const { filterNews } = useContentFilter();
   const { getLocalizedNewsArray, getLocalizedCategory } = useNewsTranslation();
