@@ -46,10 +46,14 @@ export const useTitleTranslation = () => {
         title = title.replace(/[,，。.!！?？;；:：]*$/, '');
       }
       
-      // 处理特殊的翻译问题
-      title = title.replace(/^请提供您希望翻译的英文内容.*/, '请提供完整内容进行翻译');
-      title = title.replace(/^巴基斯坦的AI时刻.*/, '巴基斯坦的AI发展时刻');
-      title = title.replace(/Exaone\s*生态系统新增AI模型.*/, 'Exaone生态系统新增AI模型');
+      // 处理特殊的翻译问题 - 检测明显错误的翻译提示
+      if (title.includes('请提供您希望翻译的英文内容') || 
+          title.includes('我会为您进行专业的翻译') ||
+          title.includes('请提供完整的英文文本') ||
+          title.includes('请提供您需要翻译的') ||
+          title.includes('请提供需要翻译的英文内容')) {
+        return '新闻标题生成中...';
+      }
       
       // 如果标题太长，进行合理截断
       if (title.length > 60) {

@@ -39,9 +39,22 @@ export const NewsDetail = ({
   const improveContent = (content: string) => {
     if (!content) return isZh ? '正文内容获取中...' : 'Content loading...';
     
-    // 如果内容太短或明显不完整，提供友好提示
-    if (content.length < 100) {
-      return content + (isZh ? '\n\n[内容较短，可能为摘要或部分内容]' : '\n\n[Content may be abbreviated or partial]');
+    // 检测内容是否过短或不完整
+    if (content.length < 200) {
+      // 如果内容很短，提供提示并建议查看原文
+      const hint = isZh ? 
+        '\n\n📝 内容较短，可能为摘要。点击下方"查看原文"获取完整内容。' : 
+        '\n\n📝 Content may be abbreviated. Click "View Original" below for complete article.';
+      return content + hint;
+    }
+    
+    // 检测内容是否被截断（通常以省略号或特定模式结尾）
+    if (content.endsWith('...') || content.endsWith('…') || 
+        content.includes('以下是') || content.includes('The following is')) {
+      const hint = isZh ? 
+        '\n\n🔗 内容可能不完整，建议查看原始文章获取完整信息。' :
+        '\n\n🔗 Content may be incomplete. Please check the original article for full information.';
+      return content + hint;
     }
     
     return content;
@@ -194,14 +207,15 @@ export const NewsDetail = ({
 
         {/* Original Link */}
         {originalUrl && (
-          <div className="flex justify-center pt-4">
+          <div className="flex justify-center pt-6">
             <Button
-              variant="outline"
-              className="flex items-center space-x-2"
+              variant="default"
+              size="lg"
+              className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3"
               onClick={() => window.open(originalUrl, '_blank')}
             >
-              <ExternalLink className="w-4 h-4" />
-              <span>{isZh ? '阅读原文' : 'Read Original'}</span>
+              <ExternalLink className="w-5 h-5" />
+              <span className="font-medium">{isZh ? '查看完整原文' : 'View Complete Original'}</span>
             </Button>
           </div>
         )}

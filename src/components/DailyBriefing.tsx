@@ -44,7 +44,32 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
       
       if (data.success && data.data) {
         // 筛选AI相关新闻，最多10条
-        const aiNews = filterAINews(data.data);
+        const aiNews = data.data.filter((news: any) => {
+          const title = (news.title || '').toLowerCase();
+          const category = (news.category || '').toLowerCase();
+          const summary = (news.summary || '').toLowerCase();
+          const content = (news.content || '').toLowerCase();
+          
+          // AI相关关键词
+          const aiKeywords = [
+            'ai', 'artificial intelligence', '人工智能', 'machine learning', '机器学习',
+            'deep learning', '深度学习', 'neural network', '神经网络', 'chatgpt', 'gpt',
+            'openai', 'anthropic', 'claude', 'llm', 'large language model', '大语言模型',
+            'generative ai', '生成式ai', 'transformer', 'diffusion', 'stable diffusion',
+            'midjourney', 'dall-e', 'computer vision', '计算机视觉', 'nlp', 'natural language',
+            '自然语言', 'robotics', '机器人', 'automation', '自动化', 'algorithm', '算法',
+            'nvidia', 'gpu', 'tensor', 'pytorch', 'tensorflow', 'hugging face',
+            'google ai', 'microsoft ai', 'meta ai', 'apple ai', 'amazon ai',
+            'deepmind', 'research', '研究', 'model', '模型', 'training', '训练'
+          ];
+          
+          return aiKeywords.some(keyword => 
+            title.includes(keyword) || 
+            category.includes(keyword) || 
+            summary.includes(keyword) ||
+            content.includes(keyword)
+          );
+        }).slice(0, 10); // 只取前10条
         
         const topNews = aiNews.map((news: any, index: number) => ({
           id: news.id || `briefing_${index}`,
