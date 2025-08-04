@@ -133,14 +133,23 @@ function isDomesticAINews(title, content, source) {
     text.includes(brand) || text.toLowerCase().includes(brand.toLowerCase())
   );
   
-  // 如果是汽车科技新闻，且没有明显的AI技术创新内容，则归类为科技而非AI
-  if ((isCarTech || isCarBrand) && !hasCoreAICompany && !hasAIProduct) {
-    return false;
-  }
-  
-  // 特别处理OTA升级新闻 - 如果主要是功能更新而非AI创新，则不归类为AI
-  if (isOTAUpdate && !hasCoreAICompany && !hasAIProduct) {
-    return false;
+  // 如果是汽车科技新闻，检查是否包含真正的AI技术创新
+  if (isCarTech || isCarBrand || isOTAUpdate) {
+    // 汽车新闻需要包含真正的AI技术创新才归类为AI
+    const realAITechKeywords = [
+      '大模型', '算法', '机器学习', '深度学习', '神经网络', '自然语言处理', '计算机视觉', '强化学习', '生成式AI',
+      '文心一言', '通义千问', '讯飞星火', '智谱AI', '商汤AI', '旷视AI', '依图AI', '云从AI', '科大讯飞',
+      'AI芯片', 'AI算法', 'AI框架', 'AI平台', 'AI大模型', 'AI研究', 'AI技术创新'
+    ];
+    
+    const hasRealAITech = realAITechKeywords.some(keyword => 
+      text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+    );
+    
+    // 如果没有真正的AI技术创新，则不归类为AI新闻
+    if (!hasRealAITech) {
+      return false;
+    }
   }
   
   return hasCoreAICompany || hasAIProduct || hasAIKeywords || hasResearchInstitution;
@@ -278,7 +287,7 @@ async function main() {
   const allNews = [];
   const seenTitles = new Set();
   
-  // 读取现有的国际新闻数据
+  // 读取现有的新闻数据
   const fs = await import('fs').then(m => m.promises);
   let existingNews = [];
   
@@ -287,20 +296,31 @@ async function main() {
     const parsedData = JSON.parse(existingData);
     if (parsedData.success && parsedData.data) {
       existingNews = parsedData.data;
-      console.log(`读取到 ${existingNews.length} 条现有国际新闻`);
+      console.log(`读取到 ${existingNews.length} 条现有新闻，将重新分类处理`);
       
-      // 将现有新闻添加到去重集合中
-      existingNews.forEach(item => {
+      // 重新处理现有新闻的分类
+      for (const item of existingNews) {
+        let newCategory;
+        if (isAINews(item.title, item.content)) {
+          newCategory = isDomesticAINews(item.title, item.content, { name: item.source }) ? '国内AI' : '国外AI';
+        } else {
+          newCategory = '科技'; // 默认分类
+        }
+        
+        // 更新分类
+        item.category = newCategory;
+        
+        // 添加到去重集合
         const titleKey = item.title.toLowerCase().trim();
         seenTitles.add(titleKey);
-      });
+      }
+      
+      // 添加重新分类的现有新闻到总列表
+      allNews.push(...existingNews);
     }
   } catch (error) {
     console.log('没有找到现有新闻数据，将创建新的数据文件');
   }
-  
-  // 添加现有新闻到总列表
-  allNews.push(...existingNews);
   
   // 获取RSS国内新闻
   for (const source of RSS_SOURCES) {
@@ -361,5 +381,28 @@ async function main() {
   }
 }
 
+// 测试分类逻辑
+function testClassification() {
+  const title1 = '比亚迪方程豹豹 5 天神版、钛 3 全系车型 OTA 升级推送：泊车辅助进化、智能座舱升级';
+  const content1 = 'IT之家 8 月 4 日消息，据比亚迪集团-方程豹事业部总经理熊甜波分享，方程豹豹 5 天神版、钛 3 全系车型开启 OTA 推送，新版本泊车辅助进化、智能座舱升级，同时有多项功能新增及优化。据介绍，本次升级核心聚焦行车辅助驾驶和泊车辅助驾驶场景，内容包含窄车位后视镜自动折叠、车头泊入、偏置停放、前车近距离变道闪灯鸣笛、手车互联等功能。IT之家附方程豹豹 5 天神版、钛 3 全系车型此次 OTA';
+
+  const title2 = '比亚迪方程豹钛 3 上市后首次 OTA：手车互联全面升级，支持无人机动态起降';
+  const content2 = 'IT之家 8 月 4 日消息，比亚迪方程豹钛 3 上市后首次 OTA 今日开启推送，主要为天神之眼 C-辅助驾驶三目版、DiLink 智能座舱、灵莺・比亚迪智能车载无人机系统功能新增与优化。IT之家整理如下：天神之眼 C-辅助驾驶三目版新增泊车辅助：窄车位泊入时后视镜自动折叠功能新增泊车辅助：垂直、斜列车位的车头泊入功能，垂直车位车头泊入后可车尾泊出新增泊车辅助：偏置停放选择，搜索到可泊车位并弹出偏置选项设置后，可选择偏左 / 中 / 右泊入新增辅助驾驶：高快领航辅助开启时，若遇前车近距离变道，闪灯鸣笛提醒注意碰撞风险功能优化领航辅助：限速范围内，优先遵循用户自定义调节车速优化辅助驾驶：多场景文言提醒：在即将超出和正在超出系统边界时给予提示DiLink 智能座舱手车互联功能支持更多品牌机型：vivo、iQOO、小米、红米品牌的部分型号新增无麦 K 歌功能，可在酷狗音乐、酷我音乐和 QQ 音乐歌词页中点击麦克风按钮开启新增仪表自动亮度功能：开启后，组合仪表将根据车外光强自动调节屏幕亮度优化冰箱门与室内灯联动逻辑，提升用户体验（四驱 Ultra 版、四驱无人机版）灵莺・比亚迪智能车载无人机系统开放动态起降功能：精准判断相对风速，准确把控起飞和降落时机，实现 25km/h 车速下的动态起降；且无人机起飞即可开启智能跟随方程豹钛 3 于今年 4 月 16 日上市，续航 501km，售价 13.38 万元起。普通版的长宽高分别为 4605×1900×1720mm，另有一款灵鸢智能无人机版本长宽高分别为 4605x1900x1930 毫米；两款车型的轴距均为 2745 毫米。车辆可选双电机四驱系统，前桥为交流异步电机，最大功率 110 千瓦；后桥为永磁同步电机，最大功率 200 千瓦，0-100 公里 / 小时加速时间为 4.9 秒。';
+
+  console.log('=== 分类测试 ===');
+  console.log('比亚迪方程豹豹 5:');
+  console.log('  是否为AI新闻:', isAINews(title1, content1));
+  console.log('  是否为国内AI新闻:', isDomesticAINews(title1, content1));
+  console.log('  最终分类:', isAINews(title1, content1) ? (isDomesticAINews(title1, content1) ? '国内AI' : '国外AI') : '科技');
+  
+  console.log('比亚迪方程豹钛 3:');
+  console.log('  是否为AI新闻:', isAINews(title2, content2));
+  console.log('  是否为国内AI新闻:', isDomesticAINews(title2, content2));
+  console.log('  最终分类:', isAINews(title2, content2) ? (isDomesticAINews(title2, content2) ? '国内AI' : '国外AI') : '科技');
+}
+
 // 运行
-main().catch(console.error);
+main().then(() => {
+  console.log('\n=== 运行分类测试 ===');
+  testClassification();
+}).catch(console.error);

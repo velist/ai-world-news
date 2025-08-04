@@ -1,6 +1,11 @@
 import { Router } from 'express';
 import { promises as fs } from 'fs';
 import path from 'path';
+import { fileURLToPath } from 'url';
+import { dirname } from 'path';
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = dirname(__filename);
 
 const router = Router();
 
@@ -38,22 +43,16 @@ function generateRSSFeed(newsItems) {
 // RSS feed endpoint
 router.get('/rss.xml', async (req, res) => {
   try {
-    const newsDataPath = path.resolve('public/news-data.json');
+    const newsData = req.newsDataCache || [];
+    console.log('RSS feed - 请求处理，缓存数据数量:', newsData.length);
+    console.log('RSS feed - 缓存数据类型:', typeof newsData);
+    console.log('RSS feed - 是否为数组:', Array.isArray(newsData));
     
-    // 检查新闻数据文件是否存在
-    if (await fs.access(newsDataPath).catch(() => false)) {
-      const newsData = JSON.parse(await fs.readFile(newsDataPath, 'utf8'));
-      const rssFeed = generateRSSFeed(newsData.data || []);
-      
-      res.setHeader('Content-Type', 'application/rss+xml');
-      res.setHeader('Cache-Control', 'public, max-age=1800'); // 30分钟缓存
-      res.send(rssFeed);
-    } else {
-      // 如果没有新闻数据，返回空的RSS feed
-      const emptyFeed = generateRSSFeed([]);
-      res.setHeader('Content-Type', 'application/rss+xml');
-      res.send(emptyFeed);
-    }
+    const rssFeed = generateRSSFeed(newsData);
+    
+    res.setHeader('Content-Type', 'application/rss+xml');
+    res.setHeader('Cache-Control', 'public, max-age=1800'); // 30分钟缓存
+    res.send(rssFeed);
   } catch (error) {
     console.error('RSS feed generation error:', error);
     res.status(500).send('Internal Server Error');
@@ -63,44 +62,32 @@ router.get('/rss.xml', async (req, res) => {
 // JSON feed endpoint (alternative to RSS)
 router.get('/feed.json', async (req, res) => {
   try {
-    const newsDataPath = path.resolve('public/news-data.json');
+    const newsData = req.newsDataCache || [];
+    console.log('JSON feed - 使用缓存数据，新闻数量:', newsData.length);
     
-    if (await fs.access(newsDataPath).catch(() => false)) {
-      const newsData = JSON.parse(await fs.readFile(newsDataPath, 'utf8'));
-      
-      const jsonFeed = {
-        version: 'https://jsonfeed.org/version/1.1',
-        title: 'AI世界新闻',
-        description: '最新AI资讯与深度报道',
-        home_page_url: 'https://ai-world-news.com',
-        feed_url: 'https://ai-world-news.com/feed.json',
-        items: (newsData.data || []).slice(0, 20).map(item => ({
-          id: item.id,
-          title: item.title,
-          content_text: item.content,
-          summary: item.summary,
-          url: item.originalUrl,
-          image: item.imageUrl,
-          date_published: item.publishedAt,
-          author: {
-            name: item.source
-          }
-        }))
-      };
-      
-      res.setHeader('Content-Type', 'application/feed+json');
-      res.setHeader('Cache-Control', 'public, max-age=1800');
-      res.json(jsonFeed);
-    } else {
-      res.json({
-        version: 'https://jsonfeed.org/version/1.1',
-        title: 'AI世界新闻',
-        description: '最新AI资讯与深度报道',
-        home_page_url: 'https://ai-world-news.com',
-        feed_url: 'https://ai-world-news.com/feed.json',
-        items: []
-      });
-    }
+    const jsonFeed = {
+      version: 'https://jsonfeed.org/version/1.1',
+      title: 'AI世界新闻',
+      description: '最新AI资讯与深度报道',
+      home_page_url: 'https://ai-world-news.com',
+      feed_url: 'https://ai-world-news.com/feed.json',
+      items: newsData.slice(0, 20).map(item => ({
+        id: item.id,
+        title: item.title,
+        content_text: item.content,
+        summary: item.summary,
+        url: item.originalUrl,
+        image: item.imageUrl,
+        date_published: item.publishedAt,
+        author: {
+          name: item.source
+        }
+      }))
+    };
+    
+    res.setHeader('Content-Type', 'application/feed+json');
+    res.setHeader('Cache-Control', 'public, max-age=1800');
+    res.json(jsonFeed);
   } catch (error) {
     console.error('JSON feed generation error:', error);
     res.status(500).send('Internal Server Error');
@@ -110,7 +97,9 @@ router.get('/feed.json', async (req, res) => {
 // 站点地图
 router.get('/sitemap.xml', async (req, res) => {
   try {
-    const newsDataPath = path.resolve('public/news-data.json');
+    const newsData = req.newsDataCache || [];
+    console.log('Sitemap - 使用缓存数据，新闻数量:', newsData.length);
+    
     const siteUrl = 'https://ai-world-news.com';
     
     let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
@@ -127,20 +116,16 @@ router.get('/sitemap.xml', async (req, res) => {
   </url>
 `;
     
-    if (await fs.access(newsDataPath).catch(() => false)) {
-      const newsData = JSON.parse(await fs.readFile(newsDataPath, 'utf8'));
-      
-      // 添加最新新闻到站点地图
-      (newsData.data || []).slice(0, 50).forEach(item => {
-        sitemap += `
+    // 添加最新新闻到站点地图
+    newsData.slice(0, 50).forEach(item => {
+      sitemap += `
   <url>
     <loc>${item.originalUrl}</loc>
     <lastmod>${new Date(item.publishedAt).toISOString().split('T')[0]}</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>`;
-      });
-    }
+    });
     
     sitemap += '\n</urlset>';
     

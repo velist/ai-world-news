@@ -2,12 +2,41 @@ import express from 'express';
 import feedRouter from './routes/feed.js';
 import { fileURLToPath } from 'url';
 import { dirname, join } from 'path';
+import { promises as fs } from 'fs';
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
 
 const app = express();
 const PORT = process.env.PORT || 3001;
+
+// 全局新闻数据缓存
+let newsDataCache = null;
+let dataLoaded = false;
+
+// 启动时加载新闻数据
+async function loadNewsData() {
+  try {
+    // 使用相对于项目根目录的路径
+    const filePath = '../public/news-data.json';
+    const absolutePath = join(__dirname, filePath);
+    console.log('尝试加载新闻数据，路径:', absolutePath);
+    
+    const data = await fs.readFile(absolutePath, 'utf8');
+    const parsed = JSON.parse(data);
+    newsDataCache = parsed.data || [];
+    dataLoaded = true;
+    console.log('新闻数据加载成功，数量:', newsDataCache.length);
+  } catch (error) {
+    console.error('加载新闻数据失败:', error.message);
+    newsDataCache = [];
+  }
+}
+
+// 延迟加载数据，确保服务器完全启动
+setTimeout(async () => {
+  await loadNewsData();
+}, 1000);
 
 // 中间件
 app.use(express.json());
@@ -26,8 +55,13 @@ app.use((req, res, next) => {
   }
 });
 
-// 路由
-app.use('/api', feedRouter);
+// 路由 - 将新闻数据缓存传递给路由
+app.use('/api', (req, res, next) => {
+  req.newsDataCache = newsDataCache;
+  req.dataLoaded = dataLoaded;
+  console.log('请求处理 - 数据加载状态:', dataLoaded, '缓存数据数量:', newsDataCache ? newsDataCache.length : 0);
+  next();
+}, feedRouter);
 
 // 健康检查
 app.get('/health', (req, res) => {
