@@ -61,7 +61,11 @@ export const useNews = () => {
   // 修复过滤逻辑：全部显示所有新闻，其他分类只显示对应分类的新闻
   const filteredNews = selectedCategory === getLocalizedCategory('全部') 
     ? news 
-    : news.filter(item => item.category === selectedCategory);
+    : news.filter(item => {
+        // 将原始分类映射到本地化分类进行比较
+        const localizedItemCategory = getLocalizedCategory(item.category);
+        return localizedItemCategory === selectedCategory;
+      });
 
   // 添加"全部"分类作为首选项，将"AI模型"改为"AI"
   const rawCategories = ['全部', 'AI', '科技', '经济', '深度分析'];
