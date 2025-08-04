@@ -3,6 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
+import { useTitleTranslation } from "@/hooks/useTitleTranslation";
+import { useLanguage } from "@/hooks/useLanguage";
 
 interface NewsDetailProps {
   title: string;
@@ -27,6 +29,25 @@ export const NewsDetail = ({
   aiInsight,
   onBack,
 }: NewsDetailProps) => {
+  const { improveTitle, improveSummary } = useTitleTranslation();
+  const { isZh } = useLanguage();
+  
+  // 使用改进的标题
+  const displayTitle = improveTitle(title);
+  
+  // 改进内容显示
+  const improveContent = (content: string) => {
+    if (!content) return isZh ? '正文内容获取中...' : 'Content loading...';
+    
+    // 如果内容太短或明显不完整，提供友好提示
+    if (content.length < 100) {
+      return content + (isZh ? '\n\n[内容较短，可能为摘要或部分内容]' : '\n\n[Content may be abbreviated or partial]');
+    }
+    
+    return content;
+  };
+  
+  const displayContent = improveContent(content);
   const getCategoryStyle = (category: string) => {
     switch (category.toLowerCase()) {
       case 'ai模型':
@@ -111,7 +132,7 @@ export const NewsDetail = ({
           </Badge>
           
           <h1 className="text-3xl font-bold leading-tight text-foreground">
-            {title}
+            {displayTitle}
           </h1>
           
           <div className="flex items-center space-x-4 text-sm text-muted-foreground">
@@ -130,7 +151,7 @@ export const NewsDetail = ({
         <div className="overflow-hidden rounded-xl shadow-medium">
           <img 
             src={imageUrl} 
-            alt={title}
+            alt={displayTitle}
             className="w-full h-64 md:h-80 object-cover"
           />
         </div>
@@ -140,8 +161,16 @@ export const NewsDetail = ({
           <CardContent className="p-6">
             <div className="prose prose-lg max-w-none">
               <div className="text-foreground leading-relaxed whitespace-pre-wrap">
-                {content}
+                {displayContent}
               </div>
+              {/* 如果内容过短，提供原文链接提示 */}
+              {content.length < 200 && originalUrl && (
+                <div className="mt-4 p-3 bg-blue-50 border border-blue-200 rounded-lg">
+                  <p className="text-sm text-blue-800">
+                    {isZh ? '内容较短，建议查看原文获取完整信息' : 'Content is brief, please check the original article for complete information'}
+                  </p>
+                </div>
+              )}
             </div>
           </CardContent>
         </Card>
@@ -172,7 +201,7 @@ export const NewsDetail = ({
               onClick={() => window.open(originalUrl, '_blank')}
             >
               <ExternalLink className="w-4 h-4" />
-              <span>阅读原文</span>
+              <span>{isZh ? '阅读原文' : 'Read Original'}</span>
             </Button>
           </div>
         )}

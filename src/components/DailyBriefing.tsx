@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
-import { Calendar, Clock, Sparkles, ExternalLink, Loader2, X, MessageCircle } from 'lucide-react';
+import { Calendar, Clock, Sparkles, ExternalLink, Loader2, X } from 'lucide-react';
 import { useLanguage } from '@/hooks/useLanguage';
+import { useContentFilter } from '@/hooks/useContentFilter';
 
 interface DailyBriefingProps {
   isOpen: boolean;
@@ -18,9 +19,9 @@ interface BriefingItem {
 
 export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose }) => {
   const { isZh } = useLanguage();
+  const { filterAINews } = useContentFilter();
   const [briefingData, setBriefingData] = useState<BriefingItem[]>([]);
   const [loading, setLoading] = useState(true);
-  const [showWechatInfo, setShowWechatInfo] = useState(false);
   
   const currentDate = new Date().toLocaleDateString(isZh ? 'zh-CN' : 'en-US', {
     year: 'numeric',
@@ -37,27 +38,29 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
   const generateBriefing = async () => {
     setLoading(true);
     try {
-      // 模拟从API获取今日重要新闻并生成摘要
-      const response = await fetch('/news-data.json');
+      // 获取AI相关新闻并生成晨报
+      const response = await fetch('/news-data.json?' + Date.now());
       const data = await response.json();
       
       if (data.success && data.data) {
-        // 选择前5条重要新闻生成晨报
-        const topNews = data.data.slice(0, 5).map((news: any, index: number) => ({
+        // 筛选AI相关新闻，最多10条
+        const aiNews = filterAINews(data.data);
+        
+        const topNews = aiNews.map((news: any, index: number) => ({
           id: news.id || `briefing_${index}`,
           title: news.title || 'Untitled',
           summary: news.aiInsight ? 
             (news.aiInsight.length > 200 ? news.aiInsight.substring(0, 200) + '...' : news.aiInsight) :
             (news.summary || '暂无摘要'),
           category: news.category || 'AI',
-          importance: index < 2 ? 'high' : index < 4 ? 'medium' : 'low' as const,
+          importance: index < 3 ? 'high' : index < 7 ? 'medium' : 'low' as const,
           timestamp: news.publishedAt || new Date().toISOString()
         }));
         
         setBriefingData(topNews);
       }
     } catch (error) {
-      console.error('获取晨报数据失败:', error);
+      console.error('获取AI晨报数据失败:', error);
     } finally {
       setLoading(false);
     }
@@ -78,26 +81,6 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
       case 'medium': return isZh ? '一般' : 'Medium';
       case 'low': return isZh ? '关注' : 'Low';
       default: return '';
-    }
-  };
-
-  const handleWechatSubscribe = () => {
-    setShowWechatInfo(true);
-  };
-
-  const copyWechatId = async () => {
-    try {
-      await navigator.clipboard.writeText('forxy9');
-      alert(isZh ? '微信号已复制！请在微信中搜索添加' : 'WeChat ID copied! Search in WeChat to add');
-    } catch (err) {
-      // 降级方案
-      const input = document.createElement('input');
-      input.value = 'forxy9';
-      document.body.appendChild(input);
-      input.select();
-      document.execCommand('copy');
-      document.body.removeChild(input);
-      alert(isZh ? '微信号已复制！请在微信中搜索添加' : 'WeChat ID copied! Search in WeChat to add');
     }
   };
 
@@ -126,7 +109,7 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
             <Calendar className="w-4 h-4" />
             <span>{currentDate}</span>
             <Clock className="w-4 h-4 ml-4" />
-            <span>{isZh ? '智能生成' : 'AI Generated'}</span>
+            <span>{isZh ? 'AI智能生成' : 'AI Generated'}</span>
           </div>
         </div>
 
@@ -136,7 +119,7 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
             <div className="flex items-center justify-center py-12">
               <div className="flex items-center space-x-2 text-gray-500">
                 <Loader2 className="w-5 h-5 animate-spin" />
-                <span>{isZh ? '正在生成今日AI晨报...' : 'Generating daily briefing...'}</span>
+                <span>{isZh ? '正在生成AI专题晨报...' : 'Generating AI briefing...'}</span>
               </div>
             </div>
           ) : (
@@ -145,8 +128,8 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
                 <p className="text-sm text-blue-800">
                   {isZh 
-                    ? '本晨报由AI智能分析今日重要新闻，为您提供精准的行业洞察和趋势解读。'
-                    : 'This briefing is AI-generated based on today\'s important news, providing precise industry insights and trend analysis.'
+                    ? '本AI专题晨报精选10条人工智能领域重要新闻，为您提供最新的技术趋势和行业动态。'
+                    : 'This AI briefing features 10 selected important news from the artificial intelligence field, providing you with the latest technology trends and industry developments.'
                   }
                 </p>
               </div>
@@ -184,46 +167,15 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
           )}
         </div>
 
-        {/* 底部订阅区域 */}
-        <div className="border-t border-gray-200 p-6 bg-gray-50">
+        {/* 底部信息 */}
+        <div className="border-t border-gray-200 p-4 bg-gray-50">
           <div className="text-center">
-            <div className="flex items-center justify-center space-x-2 mb-2">
-              <MessageCircle className="w-5 h-5 text-blue-600" />
-              <h3 className="font-semibold text-gray-900">
-                {isZh ? '订阅每日AI晨报' : 'Subscribe to Daily AI Briefing'}
-              </h3>
-            </div>
-            <p className="text-sm text-gray-600 mb-4">
+            <p className="text-sm text-gray-500">
               {isZh 
-                ? '每天8点准时推送，不错过任何重要AI资讯'
-                : 'Delivered daily at 8 AM, never miss important AI news'
+                ? '每日AI晨报由智能算法自动生成，持续关注人工智能领域最新动态'
+                : 'Daily AI briefing is automatically generated by intelligent algorithms, continuously tracking the latest developments in artificial intelligence'
               }
             </p>
-            
-            {!showWechatInfo ? (
-              <button
-                onClick={handleWechatSubscribe}
-                className="bg-green-500 hover:bg-green-600 text-white px-6 py-2 rounded-lg transition-colors flex items-center space-x-2 mx-auto"
-              >
-                <MessageCircle className="w-4 h-4" />
-                <span>{isZh ? '微信订阅' : 'Subscribe via WeChat'}</span>
-              </button>
-            ) : (
-              <div className="bg-white border border-gray-200 rounded-lg p-4 max-w-sm mx-auto">
-                <div className="text-center">
-                  <MessageCircle className="w-8 h-8 text-green-500 mx-auto mb-2" />
-                  <p className="text-sm text-gray-600 mb-2">
-                    {isZh ? '扫码或搜索微信号添加好友' : 'Scan QR or search WeChat ID'}
-                  </p>
-                  <button
-                    onClick={copyWechatId}
-                    className="bg-gray-100 hover:bg-gray-200 text-gray-800 px-4 py-2 rounded text-sm transition-colors"
-                  >
-                    forxy9 {isZh ? '(点击复制)' : '(Click to copy)'}
-                  </button>
-                </div>
-              </div>
-            )}
           </div>
         </div>
       </div>

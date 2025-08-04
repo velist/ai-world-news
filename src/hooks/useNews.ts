@@ -1,11 +1,13 @@
 import { useState, useEffect } from 'react';
 import { NewsItem } from '@/types/news';
+import { useContentFilter } from './useContentFilter';
 
 export const useNews = () => {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('AI');
   const [error, setError] = useState<string | null>(null);
+  const { filterNews } = useContentFilter();
 
   useEffect(() => {
     const fetchNews = async (bypassCache = false) => {
@@ -31,7 +33,9 @@ export const useNews = () => {
         const data = await response.json();
         
         if (data?.success && data?.data) {
-          setNews(data.data);
+          // 应用内容过滤，移除政治敏感内容
+          const filteredData = filterNews(data.data);
+          setNews(filteredData);
         } else {
           setError('新闻数据格式错误');
         }
