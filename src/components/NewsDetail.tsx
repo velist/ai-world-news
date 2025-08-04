@@ -207,16 +207,37 @@ export const NewsDetail = ({
 
         {/* Original Link */}
         {originalUrl && (
-          <div className="flex justify-center pt-6">
-            <Button
-              variant="default"
-              size="lg"
-              className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3"
-              onClick={() => window.open(originalUrl, '_blank')}
-            >
-              <ExternalLink className="w-5 h-5" />
-              <span className="font-medium">{isZh ? '查看完整原文' : 'View Complete Original'}</span>
-            </Button>
+          <div className="space-y-4 pt-6">
+            {/* Source Attribution */}
+            <div className="text-center text-sm text-muted-foreground border-t border-border/50 pt-4">
+              <p>
+                {isZh ? '新闻来源：' : 'Source: '}
+                <span className="font-medium text-foreground">{source}</span>
+              </p>
+              <p className="mt-1">
+                {isZh ? '原文链接：' : 'Original URL: '}
+                <a 
+                  href={originalUrl} 
+                  target="_blank" 
+                  rel="noopener noreferrer"
+                  className="text-primary hover:text-primary/80 underline"
+                >
+                  {originalUrl}
+                </a>
+              </p>
+            </div>
+            
+            <div className="flex justify-center">
+              <Button
+                variant="default"
+                size="lg"
+                className="flex items-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white px-8 py-3"
+                onClick={() => window.open(originalUrl, '_blank')}
+              >
+                <ExternalLink className="w-5 h-5" />
+                <span className="font-medium">{isZh ? '查看完整原文' : 'View Complete Original'}</span>
+              </Button>
+            </div>
           </div>
         )}
       </div>

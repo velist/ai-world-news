@@ -43,40 +43,79 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
       const data = await response.json();
       
       if (data.success && data.data) {
-        // 筛选AI相关新闻，最多10条
+        // 筛选纯AI相关新闻，最多10条
         const aiNews = data.data.filter((news: any) => {
           const title = (news.title || '').toLowerCase();
           const category = (news.category || '').toLowerCase();
           const summary = (news.summary || '').toLowerCase();
           const content = (news.content || '').toLowerCase();
           
-          // AI相关关键词
-          const aiKeywords = [
+          // 核心AI关键词 - 严格筛选
+          const coreAIKeywords = [
             'ai', 'artificial intelligence', '人工智能', 'machine learning', '机器学习',
             'deep learning', '深度学习', 'neural network', '神经网络', 'chatgpt', 'gpt',
             'openai', 'anthropic', 'claude', 'llm', 'large language model', '大语言模型',
-            'generative ai', '生成式ai', 'transformer', 'diffusion', 'stable diffusion',
+            'generative ai', '生成式ai', 'transformer', 'diffusion model', 'stable diffusion',
             'midjourney', 'dall-e', 'computer vision', '计算机视觉', 'nlp', 'natural language',
-            '自然语言', 'robotics', '机器人', 'automation', '自动化', 'algorithm', '算法',
-            'nvidia', 'gpu', 'tensor', 'pytorch', 'tensorflow', 'hugging face',
-            'google ai', 'microsoft ai', 'meta ai', 'apple ai', 'amazon ai',
-            'deepmind', 'research', '研究', 'model', '模型', 'training', '训练'
+            '自然语言处理', 'conversational ai', '对话式ai', 'prompt engineering', '提示工程'
           ];
           
-          return aiKeywords.some(keyword => 
-            title.includes(keyword) || 
-            category.includes(keyword) || 
-            summary.includes(keyword) ||
-            content.includes(keyword)
+          // AI公司和技术平台
+          const aiCompanies = [
+            'openai', 'anthropic', 'deepmind', 'hugging face', 'nvidia ai',
+            'google deepmind', 'microsoft ai', 'meta ai', 'apple intelligence', 'amazon ai'
+          ];
+          
+          // AI技术和架构
+          const aiTechnologies = [
+            'transformer architecture', 'attention mechanism', '注意力机制',
+            'reinforcement learning', '强化学习', 'supervised learning', '监督学习',
+            'unsupervised learning', '无监督学习', 'foundation model', '基础模型',
+            'multimodal ai', '多模态ai', 'autonomous system', '自主系统'
+          ];
+          
+          // 排除的非AI相关关键词
+          const excludeKeywords = [
+            'cryptocurrency', 'bitcoin', 'blockchain', '加密货币', '比特币',
+            'cybersecurity', '网络攻击', 'data breach', '数据泄露',
+            'quantum computing', '量子计算', 'startup funding', '创业融资'
+          ];
+          
+          // 检查是否包含排除关键词
+          const hasExcludeKeyword = excludeKeywords.some(keyword => 
+            title.includes(keyword) || summary.includes(keyword)
           );
+          
+          if (hasExcludeKeyword) {
+            return false;
+          }
+          
+          // 计算AI相关性分数
+          let aiScore = 0;
+          
+          // 核心AI关键词权重最高
+          coreAIKeywords.forEach(keyword => {
+            if (title.includes(keyword)) aiScore += 3;
+            if (summary.includes(keyword)) aiScore += 2;
+            if (content.includes(keyword)) aiScore += 1;
+          });
+          
+          // AI公司和技术权重中等
+          [...aiCompanies, ...aiTechnologies].forEach(keyword => {
+            if (title.includes(keyword)) aiScore += 2;
+            if (summary.includes(keyword)) aiScore += 1;
+          });
+          
+          // 必须达到最低分数才算AI相关
+          return aiScore >= 3;
         }).slice(0, 10); // 只取前10条
         
         const topNews = aiNews.map((news: any, index: number) => ({
           id: news.id || `briefing_${index}`,
           title: news.title || 'Untitled',
-          summary: news.aiInsight ? 
-            (news.aiInsight.length > 200 ? news.aiInsight.substring(0, 200) + '...' : news.aiInsight) :
-            (news.summary || '暂无摘要'),
+          description: news.aiInsight ? 
+            (news.aiInsight.length > 100 ? news.aiInsight.substring(0, 100) + '...' : news.aiInsight) :
+            (news.summary || '暂无描述'),
           category: news.category || 'AI',
           importance: index < 3 ? 'high' : index < 7 ? 'medium' : 'low' as const,
           timestamp: news.publishedAt || new Date().toISOString()
@@ -153,8 +192,8 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
                 <p className="text-sm text-blue-800">
                   {isZh 
-                    ? '本AI专题晨报精选10条人工智能领域重要新闻，为您提供最新的技术趋势和行业动态。'
-                    : 'This AI briefing features 10 selected important news from the artificial intelligence field, providing you with the latest technology trends and industry developments.'
+                    ? '本AI专题晨报精选10条纯人工智能领域重要新闻，采用智能算法严格筛选，确保内容与AI技术、应用和发展直接相关。'
+                    : 'This AI briefing features 10 selected important news purely from the artificial intelligence field, using intelligent algorithms to ensure content is directly related to AI technology, applications, and development.'
                   }
                 </p>
               </div>
@@ -162,29 +201,30 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
               {/* 新闻列表 */}
               {briefingData.map((item, index) => (
                 <div key={item.id} className="border border-gray-200 rounded-lg p-4 hover:shadow-md transition-shadow">
-                  <div className="flex items-start justify-between mb-2">
-                    <div className="flex items-center space-x-2">
-                      <span className="text-lg font-bold text-gray-400">#{index + 1}</span>
-                      <span className={`px-2 py-1 text-xs rounded-full border ${getImportanceColor(item.importance)}`}>
-                        {getImportanceLabel(item.importance)}
-                      </span>
-                      <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">
-                        {item.category}
-                      </span>
+                  <div className="flex items-start space-x-3">
+                    <span className="text-lg font-bold text-gray-400 flex-shrink-0">#{index + 1}</span>
+                    <div className="flex-1">
+                      <div className="flex items-center space-x-2 mb-2">
+                        <span className={`px-2 py-1 text-xs rounded-full border ${getImportanceColor(item.importance)}`}>
+                          {getImportanceLabel(item.importance)}
+                        </span>
+                        <span className="text-xs text-gray-500 bg-gray-100 px-2 py-1 rounded">
+                          {item.category}
+                        </span>
+                      </div>
+                      
+                      <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2">
+                        {item.title}
+                      </h3>
+                      
+                      <p className="text-sm text-gray-600 line-clamp-1">
+                        {item.description}
+                      </p>
+                      
+                      <div className="flex items-center justify-between text-xs text-gray-400 mt-2">
+                        <span>{new Date(item.timestamp).toLocaleTimeString()}</span>
+                      </div>
                     </div>
-                  </div>
-                  
-                  <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2">
-                    {item.title}
-                  </h3>
-                  
-                  <p className="text-sm text-gray-600 line-clamp-3 mb-3">
-                    {item.summary}
-                  </p>
-                  
-                  <div className="flex items-center justify-between text-xs text-gray-400">
-                    <span>{new Date(item.timestamp).toLocaleTimeString()}</span>
-                    <ExternalLink className="w-3 h-3" />
                   </div>
                 </div>
               ))}
