@@ -754,6 +754,39 @@ async function main() {
     fs.writeFileSync(newsFilePath, JSON.stringify(newsData, null, 2), 'utf8');
     console.log('新闻数据已保存到 public/news-data.json');
     
+    // 更新版本信息
+    const versionFilePath = path.join(publicDir, 'version.json');
+    let versionData = {
+      version: "1.0.2",
+      buildTime: new Date().toISOString(),
+      features: [
+        "中英文语言切换",
+        "自动版本检测",
+        "缓存优化",
+        "定时新闻更新",
+        "AI内容过滤优化"
+      ],
+      lastUpdate: new Date().toISOString(),
+      updateInterval: "1小时"
+    };
+    
+    // 如果版本文件存在，读取现有数据
+    if (fs.existsSync(versionFilePath)) {
+      try {
+        const existingVersion = JSON.parse(fs.readFileSync(versionFilePath, 'utf8'));
+        versionData = {
+          ...existingVersion,
+          buildTime: new Date().toISOString(),
+          lastUpdate: new Date().toISOString()
+        };
+      } catch (error) {
+        console.log('版本文件读取失败，创建新版本');
+      }
+    }
+    
+    fs.writeFileSync(versionFilePath, JSON.stringify(versionData, null, 2), 'utf8');
+    console.log('版本信息已更新到 public/version.json');
+    
   } catch (error) {
     console.error('获取新闻时出错:', error);
     process.exit(1);
