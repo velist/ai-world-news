@@ -343,19 +343,18 @@ async function categorizeNewsWithAI(title, content, originalTitle = '', original
       return categorizeNewsTraditional(title, content);
     }
 
-    const prompt = `请根据以下新闻内容，将其准确分类为以下5个类别之一：国内AI、国外AI、科技、经济、深度分析
+    const prompt = `请根据以下新闻内容，将其准确分类为以下4个类别之一：中国AI、国际AI、科技新闻、AI趣味新闻
 
 分类规则：
-1. **国内AI类别**：与中国公司、机构或个人相关的AI新闻，包括百度、阿里、腾讯、华为、字节、智谱、商汤等中国AI企业，以及中国政府AI政策、中国AI研究成果等
-2. **国外AI类别**：与美国、欧洲等其他国家相关的AI新闻，包括OpenAI、Google、Microsoft、Meta、Anthropic等国外AI企业，以及国外AI研究进展
-3. **科技类别**：硬件产品、软件应用、游戏、社交媒体、网络安全等传统科技内容（不含AI）
-4. **经济类别**：股市、金融、加密货币、投资、经济政策等财经内容（不含AI相关投资）
-5. **深度分析类别**：其他内容或需要深度分析的复杂话题
+1. **中国AI类别**：与中国公司、机构或个人相关的AI新闻，包括百度、阿里、腾讯、华为、字节、智谱、商汤、DeepSeek等中国AI企业，以及中国政府AI政策、中国AI研究成果等
+2. **国际AI类别**：与美国、欧洲等其他国家相关的AI新闻，包括OpenAI、Google、Microsoft、Meta、Anthropic等国外AI企业，以及国外AI研究进展
+3. **科技新闻类别**：AI技术相关但不是纯模型新闻，如AI芯片、AI框架、IDE、编程、软件开发、Agent等
+4. **AI趣味新闻类别**：AI绘画、AI写作、AI作曲、AI游戏、AI娱乐等趣味应用
 
 新闻标题：${title}
 新闻内容：${content.substring(0, 800)}
 
-请只回复一个类别名称：国内AI、国外AI、科技、经济 或 深度分析`;
+请只回复一个类别名称：中国AI、国际AI、科技新闻 或 AI趣味新闻`;
 
     const response = await fetch('https://open.bigmodel.cn/api/paas/v4/chat/completions', {
       method: 'POST',
@@ -379,7 +378,7 @@ async function categorizeNewsWithAI(title, content, originalTitle = '', original
       const aiCategory = data.choices[0]?.message?.content?.trim();
       
       // 验证AI返回的分类是否有效
-      const validCategories = ['国内AI', '国外AI', '科技', '经济', '深度分析'];
+      const validCategories = ['中国AI', '国际AI', '科技新闻', 'AI趣味新闻'];
       if (validCategories.includes(aiCategory)) {
         console.log(`AI分类结果: ${title.substring(0, 50)}... → ${aiCategory}`);
         return aiCategory;
@@ -405,19 +404,18 @@ async function categorizeNewsWithVolcEngine(title, content) {
       return categorizeNewsTraditional(title, content);
     }
 
-    const prompt = `请根据以下新闻内容，将其准确分类为以下5个类别之一：国内AI、国外AI、科技、经济、深度分析
+    const prompt = `请根据以下新闻内容，将其准确分类为以下4个类别之一：中国AI、国际AI、科技新闻、AI趣味新闻
 
 分类规则：
-1. **国内AI类别**：与中国公司、机构或个人相关的AI新闻，包括百度、阿里、腾讯、华为、字节、智谱、商汤等中国AI企业，以及中国政府AI政策、中国AI研究成果等
-2. **国外AI类别**：与美国、欧洲等其他国家相关的AI新闻，包括OpenAI、Google、Microsoft、Meta、Anthropic等国外AI企业，以及国外AI研究进展
-3. **科技类别**：硬件产品、软件应用、游戏、社交媒体、网络安全等传统科技内容（不含AI）
-4. **经济类别**：股市、金融、加密货币、投资、经济政策等财经内容（不含AI相关投资）
-5. **深度分析类别**：其他内容或需要深度分析的复杂话题
+1. **中国AI类别**：与中国公司、机构或个人相关的AI新闻，包括百度、阿里、腾讯、华为、字节、智谱、商汤、DeepSeek等中国AI企业，以及中国政府AI政策、中国AI研究成果等
+2. **国际AI类别**：与美国、欧洲等其他国家相关的AI新闻，包括OpenAI、Google、Microsoft、Meta、Anthropic等国外AI企业，以及国外AI研究进展
+3. **科技新闻类别**：AI技术相关但不是纯模型新闻，如AI芯片、AI框架、IDE、编程、软件开发、Agent等
+4. **AI趣味新闻类别**：AI绘画、AI写作、AI作曲、AI游戏、AI娱乐等趣味应用
 
 新闻标题：${title}
 新闻内容：${content.substring(0, 800)}
 
-请只回复一个类别名称：国内AI、国外AI、科技、经济 或 深度分析`;
+请只回复一个类别名称：中国AI、国际AI、科技新闻 或 AI趣味新闻`;
 
     const response = await fetch('https://ark.cn-beijing.volces.com/api/v3/chat/completions', {
       method: 'POST',
@@ -440,7 +438,7 @@ async function categorizeNewsWithVolcEngine(title, content) {
       const data = await response.json();
       const aiCategory = data.choices[0]?.message?.content?.trim();
       
-      const validCategories = ['国内AI', '国外AI', '科技', '经济', '深度分析'];
+      const validCategories = ['中国AI', '国际AI', '科技新闻', 'AI趣味新闻'];
       if (validCategories.includes(aiCategory)) {
         console.log(`火山方舟分类结果: ${title.substring(0, 50)}... → ${aiCategory}`);
         return aiCategory;
@@ -454,93 +452,156 @@ async function categorizeNewsWithVolcEngine(title, content) {
   }
 }
 
-// 传统关键词分类（备用方案）
+// 传统关键词分类（备用方案）- 与RSS聚合器保持一致
 function categorizeNewsTraditional(title, content) {
-  const titleLower = title.toLowerCase();
-  const contentLower = (content || '').toLowerCase();
-  const fullText = titleLower + ' ' + contentLower;
+  const text = (title + ' ' + (content || '')).toLowerCase();
   
-  // AI相关关键词 - 这是最重要的分类，包含AI模型、AI应用、AI技术等
-  const aiKeywords = [
-    // AI模型和技术
-    'artificial intelligence', 'ai', 'machine learning', 'deep learning',
-    'gpt', 'chatgpt', 'llm', 'large language model', 'ai model', 'neural network',
-    'openai', 'claude', 'gemini', 'llama', 'qwen', 'glm', 'baichuan', 'deepseek',
-    'mistral', 'stable diffusion', 'midjourney', 'dall-e', 'transformer',
-    'foundation model', 'generative ai', 'text generation', 'image generation',
-    'multimodal', 'anthropic', 'google ai', 'microsoft ai', 'meta ai', 'alibaba ai',
-    '智谱', 'chatglm', 'wenxin', 'tongyi', 'spark', 'ernie', 'pangu',
-    'fine-tuning', 'pre-training', 'training data', 'ai training',
-    'hugging face', 'pytorch', 'tensorflow', 'machine learning model',
+  // 需要排除的内容（政治、经济、普通科技等）
+  const excludeKeywords = [
+    // 政治相关
+    '政策', '监管', '法规', '政府', '国家战略', '白宫', '总统',
     
-    // AI应用和产品
-    'ai assistant', 'ai chatbot', 'ai agent', 'ai application', 'ai software',
-    'ai tool', 'ai platform', 'ai service', 'ai system', 'ai solution',
-    'voice ai', 'ai voice', 'ai speech', 'ai video', 'ai image', 'ai text',
-    'ai writing', 'ai coding', 'ai programming', 'copilot', 'ai search',
+    // 经济相关
+    '市场份额', '销量', '营收', '利润', '融资', '上市', '股价', '市值',
+    '投资', '募资', '轮融资', '估值', '收购', '兼并',
     
-    // AI生活和应用场景
-    'ai in healthcare', 'ai medicine', 'ai education', 'ai learning',
-    'ai automation', 'ai robot', 'robotics', 'autonomous', 'self-driving',
-    'ai finance', 'ai trading', 'ai analysis', 'ai recommendation',
-    'ai translation', 'ai customer service', 'ai workplace', 'ai productivity',
+    // 普通科技产品
+    '手机', '平板', '笔记本', '电脑', '显示器', '键盘', '鼠标', '耳机',
+    '充电器', '电池', '内存', '硬盘', '处理器', '显卡', '主板',
+    '鸿蒙', 'HarmonyOS', 'Android', 'iOS', 'Windows', 'macOS',
     
-    // AI公司和新闻
-    'ai startup', 'ai company', 'ai investment', 'ai funding', 'ai research',
-    'ai development', 'ai innovation', 'ai breakthrough', 'ai advancement',
-    'ai ethics', 'ai safety', 'ai regulation', 'ai policy', 'ai governance'
+    // 汽车相关
+    '电动汽车', '新能源车', '充电桩', '电池技术', '汽车', '车辆',
+    'OTA升级', '泊车辅助', '智能座舱', '手车互联',
+    
+    // 其他不需要的内容
+    '娱乐', '游戏', '体育', '音乐', '电影', '电视', '明星', '网红'
   ];
   
-  // 科技硬件相关（但排除AI相关的硬件）
+  // 首先检查是否包含需要排除的关键词
+  const hasExcluded = excludeKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
+  
+  if (hasExcluded) {
+    return null; // 排除非AI内容
+  }
+  
+  // AI核心关键词 - 专注于AI技术和模型
+  const aiCoreKeywords = [
+    'AI', 'artificial intelligence', '人工智能', 'machine learning', '深度学习', 
+    'ChatGPT', 'GPT', '大模型', 'LLM', 'natural language processing', '计算机视觉',
+    '强化学习', '生成式AI', 'AIGC', '神经网络', '算法', '数据科学', '自动化',
+    '机器人', '语音识别', '图像识别', '模式识别', '知识图谱', '智能驾驶', '自动驾驶',
+    '无人驾驶', 'AI芯片', 'AI框架', 'Transformer', 'BERT', 'ResNet', 'CNN', 
+    'RNN', 'LSTM', 'GAN', '扩散模型', 'Agent', '智能体', '多模态', '推理', '训练', '微调', '预训练'
+  ];
+  
+  // AI模型和产品名称
+  const aiModels = [
+    // 国际模型
+    'ChatGPT', 'GPT-4', 'GPT-3', 'Claude', 'Gemini', 'Llama', 'Mistral',
+    'Midjourney', 'Stable Diffusion', 'DALL-E', 'Sora', 'o1', 'o3',
+    
+    // 中国模型
+    '文心一言', '通义千问', '讯飞星火', '悟道', '紫东太初', '羲和', '混元', 
+    '豆包', '天工', '商量', '日日新', 'SenseChat', 'GLM', '清言',
+    'QWEN', '智谱', 'DeepSeek', '月之暗面', '零一万物', '百川智能', '阶跃星辰'
+  ];
+  
+  // AI公司和研究机构
+  const aiCompanies = [
+    // 国际公司
+    'OpenAI', 'Google', 'Microsoft', 'Meta', 'Facebook', 'Apple', 'Amazon',
+    'NVIDIA', 'AMD', 'Intel', 'Anthropic', 'Cohere', 'Character.AI',
+    
+    // 中国公司
+    '百度', '阿里', '腾讯', '字节', '华为', '智谱', '商汤', '旷视', '依图', '云从', 
+    '科大讯飞', '360', '猎豹', '寒武纪', '地平线', 'Momenta', 'Minimax'
+  ];
+  
+  // AI技术和概念
+  const aiTechnologies = [
+    'IDE', '集成开发环境', '编程', '代码生成', '代码补全', '软件开发',
+    '计算机编程', '程序设计', '软件工程', '开发工具', '开发环境',
+    '自动化编程', '智能编程', 'AI编程', '代码助手', '编程助手'
+  ];
+  
+  // 检查是否包含AI核心关键词
+  const hasAICore = aiCoreKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
+  
+  // 检查是否包含AI模型
+  const hasAIModels = aiModels.some(model => 
+    text.includes(model) || text.toLowerCase().includes(model.toLowerCase())
+  );
+  
+  // 检查是否包含AI公司
+  const hasAICompanies = aiCompanies.some(company => 
+    text.includes(company) || text.toLowerCase().includes(company.toLowerCase())
+  );
+  
+  // 检查是否包含AI技术
+  const hasAITech = aiTechnologies.some(tech => 
+    text.includes(tech) || text.toLowerCase().includes(tech.toLowerCase())
+  );
+  
+  // 必须至少包含一种AI相关内容
+  if (!hasAICore && !hasAIModels && !hasAICompanies && !hasAITech) {
+    return null; // 不是AI新闻
+  }
+  
+  // 检查是否为中国AI相关
+  const chineseAIKeywords = [
+    '百度', '阿里', '腾讯', '字节', '华为', '智谱', '商汤', '旷视', '依图', '云从', 
+    '科大讯飞', '文心一言', '通义千问', '讯飞星火', '悟道', '紫东太初', '羲和', '混元', 
+    '豆包', '天工', '商量', '日日新', 'SenseChat', 'GLM', '清言', 'QWEN', 'DeepSeek',
+    '月之暗面', '零一万物', '百川智能', '阶跃星辰', 'Minimax',
+    '中科院', '清华大学', '北京大学', '浙江大学', '上海交通大学', 
+    '复旦大学', '南京大学', '中国科学技术大学', '哈尔滨工业大学', '西安交通大学',
+    '中国AI', '国产AI', '中文AI', '华人AI团队', '国内大模型', '本土AI', '自主AI'
+  ];
+  
+  const isChineseAI = chineseAIKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
+  
+  // 检查是否为AI趣味新闻
+  const funAIKeywords = [
+    '有趣', '好玩', '新奇', '神奇', '惊人', '震撼', '创意', '趣味',
+    'AI绘画', 'AI写作', 'AI作曲', 'AI游戏', 'AI娱乐', 'AI聊天',
+    'ChatGPT写诗', 'AI作画', 'AI生成图片', 'AI创作', 'AI设计'
+  ];
+  
+  const isFunAI = funAIKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
+  
+  // 检查是否为科技新闻（AI技术相关但不是纯模型新闻）
   const techKeywords = [
-    'smartphone', 'phone', 'iphone', 'android', 'samsung', 'huawei', 'xiaomi',
-    'laptop', 'computer', 'pc', 'mac', 'windows', 'ios', 'software',
-    'app', 'application', 'game', 'gaming', 'console', 'playstation',
-    'xbox', 'nintendo', 'streaming', 'netflix', 'youtube', 'social media',
-    'facebook', 'twitter', 'instagram', 'tiktok', 'internet', 'web',
-    'browser', 'security', 'cybersecurity', 'privacy', 'data breach'
+    'AI芯片', 'AI框架', 'IDE', '编程', '代码', '软件开发', '开发工具',
+    'AI技术', 'AI应用', 'AI系统', 'AI平台', 'AI基础设施', 'Agent', '智能体'
   ];
   
-  // 经济商业相关（排除AI相关的商业新闻）
-  const economyKeywords = [
-    'stock market', 'wall street', 'nasdaq', 'dow jones', 'trading',
-    'cryptocurrency', 'bitcoin', 'ethereum', 'blockchain', 'nft',
-    'bank', 'banking', 'finance', 'financial', 'economy', 'economic',
-    'inflation', 'recession', 'gdp', 'federal reserve', 'interest rate',
-    'merger', 'acquisition', 'ipo', 'earnings', 'revenue', 'profit'
-  ];
+  const isTechNews = techKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
   
-  // 优先检查AI关键词 - 这是最重要的分类
-  for (const keyword of aiKeywords) {
-    if (fullText.includes(keyword)) {
-      return 'AI';
-    }
+  // 分类逻辑 - 优先级调整
+  if (isChineseAI) {
+    return '中国AI';
   }
   
-  // 检查科技关键词（但不包含AI）
-  for (const keyword of techKeywords) {
-    if (fullText.includes(keyword)) {
-      return '科技';
-    }
+  if (isFunAI) {
+    return 'AI趣味新闻';
   }
   
-  // 检查经济关键词（但不包含AI）
-  for (const keyword of economyKeywords) {
-    if (fullText.includes(keyword)) {
-      return '经济';
-    }
+  if (isTechNews) {
+    return '科技新闻';
   }
   
-  // 避免华为手机等硬件产品进入深度分析
-  const hardwareKeywords = ['magic v5', 'honor', 'mate', 'pro max', 'ultra', 'fold', 'flip'];
-  for (const keyword of hardwareKeywords) {
-    if (fullText.includes(keyword)) {
-      return '科技';
-    }
-  }
-  
-  // 默认分类为深度分析（但应该很少进入这里）
-  return '深度分析';
+  return '国际AI';
 }
 
 // 验证和处理图片URL（简化版，避免太多HTTP请求）
@@ -627,29 +688,17 @@ async function categorizeNews(title, content, originalTitle = '', originalConten
   // 首先尝试智谱清言AI分类
   const aiCategory = await categorizeNewsWithAI(title, content, originalTitle, originalContent);
   if (aiCategory && aiCategory !== 'error') {
-    // 如果是AI类别，进一步区分为国内AI还是国外AI
-    if (aiCategory === 'AI') {
-      return isDomesticAINews(title, content, '') ? '国内AI' : '国外AI';
-    }
     return aiCategory;
   }
   
   // 如果智谱清言失败，尝试火山方舟
   const volcCategory = await categorizeNewsWithVolcEngine(title, content);
   if (volcCategory && volcCategory !== 'error') {
-    // 如果是AI类别，进一步区分为国内AI还是国外AI
-    if (volcCategory === 'AI') {
-      return isDomesticAINews(title, content, '') ? '国内AI' : '国外AI';
-    }
     return volcCategory;
   }
   
   // 最后使用传统关键词分类
   const traditionalCategory = categorizeNewsTraditional(title, content);
-  // 如果是AI类别，进一步区分为国内AI还是国外AI
-  if (traditionalCategory === 'AI') {
-    return isDomesticAINews(title, content, '') ? '国内AI' : '国外AI';
-  }
   return traditionalCategory;
 }
 
@@ -749,9 +798,9 @@ async function main() {
       })
     );
     
-    // 过滤掉处理失败的新闻
-    const validNews = processedNews.filter(item => item !== null);
-    console.log(`成功处理 ${validNews.length} 条新闻`);
+    // 过滤掉处理失败的新闻和非AI新闻
+    const validNews = processedNews.filter(item => item !== null && item.category !== null);
+    console.log(`成功处理 ${validNews.length} 条AI新闻`);
     
     // 合并新旧数据，去重
     const allCombinedNews = [...validNews, ...existingNews];

@@ -31,134 +31,183 @@ const RSS_SOURCES = [
     url: 'https://www.ithome.com/rss/',
     category: '科技'
   },
-  ];
+];
 
-// AI关键词
-const AI_KEYWORDS = [
+// AI核心关键词 - 专注于AI技术和模型
+const AI_CORE_KEYWORDS = [
   'AI', '人工智能', '机器学习', '深度学习', 'ChatGPT', 'GPT', '大模型', 'LLM',
-  '自然语言处理', '计算机视觉', '强化学习', '生成式AI', 'AIGC', '智能',
-  '算法', '数据科学', '自动化', '机器人', '语音识别', '图像识别',
-  '文心一言', '通义千问', '讯飞星火', '智谱', '商汤', '旷视', '依图', '云从', '科大讯飞'
+  '自然语言处理', '计算机视觉', '强化学习', '生成式AI', 'AIGC', '神经网络',
+  '算法', '数据科学', '自动化', '机器人', '语音识别', '图像识别', '模式识别',
+  '知识图谱', '智能驾驶', '自动驾驶', '无人驾驶', 'AI芯片', 'AI框架',
+  'Transformer', 'BERT', 'ResNet', 'CNN', 'RNN', 'LSTM', 'GAN', '扩散模型',
+  'Agent', '智能体', '多模态', '推理', '训练', '微调', '预训练'
+];
+
+// AI模型和产品名称
+const AI_MODELS = [
+  // 国际模型
+  'ChatGPT', 'GPT-4', 'GPT-3', 'Claude', 'Gemini', 'Llama', 'Mistral',
+  'Midjourney', 'Stable Diffusion', 'DALL-E', 'Sora', 'o1', 'o3',
+  
+  // 中国模型
+  '文心一言', '通义千问', '讯飞星火', '悟道', '紫东太初', '羲和', '混元', 
+  '豆包', '天工', '商量', '日日新', 'SenseChat', 'GLM', '清言',
+  'QWEN', '智谱', 'DeepSeek', '月之暗面', '零一万物', '百川智能', '阶跃星辰'
+];
+
+// AI公司和研究机构
+const AI_COMPANIES = [
+  // 国际公司
+  'OpenAI', 'Google', 'Microsoft', 'Meta', 'Facebook', 'Apple', 'Amazon',
+  'NVIDIA', 'AMD', 'Intel', 'Anthropic', 'Cohere', 'Character.AI',
+  
+  // 中国公司
+  '百度', '阿里', '腾讯', '字节', '华为', '智谱', '商汤', '旷视', '依图', '云从', 
+  '科大讯飞', '360', '猎豹', '寒武纪', '地平线', 'Momenta', 'Minimax'
+];
+
+// AI技术和概念
+const AI_TECHNOLOGIES = [
+  'IDE', '集成开发环境', '编程', '代码生成', '代码补全', '软件开发',
+  '计算机编程', '程序设计', '软件工程', '开发工具', '开发环境',
+  '自动化编程', '智能编程', 'AI编程', '代码助手', '编程助手'
+];
+
+// 需要排除的内容（政治、经济、普通科技等）
+const EXCLUDE_KEYWORDS = [
+  // 政治相关
+  '政策', '监管', '法规', '政府', '国家战略', '白宫', '总统',
+  
+  // 经济相关
+  '市场份额', '销量', '营收', '利润', '融资', '上市', '股价', '市值',
+  '投资', '募资', '轮融资', '估值', '收购', '兼并',
+  
+  // 普通科技产品
+  '手机', '平板', '笔记本', '电脑', '显示器', '键盘', '鼠标', '耳机',
+  '充电器', '电池', '内存', '硬盘', '处理器', '显卡', '主板',
+  '鸿蒙', 'HarmonyOS', 'Android', 'iOS', 'Windows', 'macOS',
+  
+  // 汽车相关
+  '电动汽车', '新能源车', '充电桩', '电池技术', '汽车', '车辆',
+  'OTA升级', '泊车辅助', '智能座舱', '手车互联',
+  
+  // 其他不需要的内容
+  '娱乐', '游戏', '体育', '音乐', '电影', '电视', '明星', '网红'
 ];
 
 // 判断是否为AI新闻
 function isAINews(title, content) {
   const text = (title + ' ' + (content || '')).toLowerCase();
   
-  // 检查是否包含AI关键词
-  const hasAIKeywords = AI_KEYWORDS.some(keyword => 
-    text.toLowerCase().includes(keyword.toLowerCase()) ||
-    text.includes(keyword)
+  // 首先检查是否包含需要排除的关键词
+  const hasExcluded = EXCLUDE_KEYWORDS.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
   );
   
-  if (!hasAIKeywords) {
+  if (hasExcluded) {
     return false;
   }
   
-  // 检查是否为汽车OTA升级新闻（这些通常不属于真正的AI新闻）
-  const carBrands = ['比亚迪', '方程豹', '特斯拉', '蔚来', '小鹏', '理想', '奔驰', '宝马', '奥迪', '大众', '丰田', '本田'];
-  const isCarBrand = carBrands.some(brand => 
-    text.includes(brand) || text.toLowerCase().includes(brand.toLowerCase())
-  );
-  
-  const carTechKeywords = ['OTA升级', '泊车辅助', '智能座舱', '手车互联', '升级推送'];
-  const isCarTech = carTechKeywords.some(keyword => 
+  // 检查是否包含AI核心关键词
+  const hasAICore = AI_CORE_KEYWORDS.some(keyword => 
     text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
   );
   
-  // 如果是汽车品牌的技术升级新闻，且不包含真正的AI技术创新，则不认为是AI新闻
-  if (isCarBrand && isCarTech) {
-    // 检查是否包含真正的AI技术创新关键词
-    const realAIKeywords = ['大模型', '算法', '机器学习', '深度学习', '神经网络', '自然语言处理', '计算机视觉', '强化学习', '生成式AI', '文心一言', '通义千问', '讯飞星火', '智谱AI', '商汤AI', '旷视AI', '依图AI', '云从AI', '科大讯飞'];
-    const hasRealAI = realAIKeywords.some(keyword => 
-      text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
-    );
-    
-    return hasRealAI;
-  }
+  // 检查是否包含AI模型
+  const hasAIModels = AI_MODELS.some(model => 
+    text.includes(model) || text.toLowerCase().includes(model.toLowerCase())
+  );
   
-  return true;
-}
-
-// 判断是否为国内AI新闻
-function isDomesticAINews(title, content, source) {
-  if (!isAINews(title, content)) return false;
-  
-  // 核心AI公司（专注于AI技术的公司）
-  const coreAICompanies = ['百度', '阿里', '腾讯', '字节', '华为', '智谱', '商汤', '旷视', '依图', '云从', '科大讯飞', '360', '猎豹', '寒武纪', '地平线', 'Momenta', '小马智行', '文远知行', 'AutoX', '元戎启行', '轻舟智航', '智加科技', '图森未来'];
-  
-  // AI产品和服务
-  const aiProducts = ['文心一言', '通义千问', '讯飞星火', '悟道', '紫东太初', '羲和', '混元', 'GLM', 'Claude中文版', '豆包', '天工', '商量', '日日新', 'SenseChat', '绝影', '若琪', '小冰', '小度', '天猫精灵', '小爱同学', '华为小艺', 'OPPO小布', 'vivo小V'];
-  
-  // AI相关关键词
-  const aiKeywords = ['中国AI', '国产AI', '中文AI', '华人AI团队', 'AI大模型', 'AI芯片', 'AI算法', 'AI框架', 'AI平台', 'AI服务', 'AI解决方案', 'AI研究', 'AI技术', 'AI创新', 'AI突破', 'AI进展'];
-  
-  // 科研机构
-  const researchInstitutions = ['中科院', '清华大学', '北京大学', '浙江大学', '上海交通大学', '复旦大学', '南京大学', '中国科学技术大学', '哈尔滨工业大学', '西安交通大学'];
-  
-  const text = (title + ' ' + (content || '')).toLowerCase();
-  
-  // 检查是否为核心AI公司
-  const hasCoreAICompany = coreAICompanies.some(company => 
+  // 检查是否包含AI公司
+  const hasAICompanies = AI_COMPANIES.some(company => 
     text.includes(company) || text.toLowerCase().includes(company.toLowerCase())
   );
   
-  // 检查是否为AI产品
-  const hasAIProduct = aiProducts.some(product => 
-    text.includes(product) || text.toLowerCase().includes(product.toLowerCase())
+  // 检查是否包含AI技术
+  const hasAITech = AI_TECHNOLOGIES.some(tech => 
+    text.includes(tech) || text.toLowerCase().includes(tech.toLowerCase())
   );
   
-  // 检查是否包含AI关键词
-  const hasAIKeywords = aiKeywords.some(keyword => 
-    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
-  );
-  
-  // 检查是否包含科研机构
-  const hasResearchInstitution = researchInstitutions.some(institution => 
-    text.includes(institution) || text.toLowerCase().includes(institution.toLowerCase())
-  );
-  
-  // 排除汽车OTA升级等非核心AI新闻
-  const carTechKeywords = ['OTA升级', '泊车辅助', '智能座舱', '手车互联', '无人驾驶版', '无人机版', '方程豹', '豹'];
-  const isCarTech = carTechKeywords.some(keyword => 
-    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
-  );
-  
-  // 检查是否为汽车OTA升级新闻（主要包含功能更新而非AI技术创新）
-  const isOTAUpdate = text.includes('OTA升级') || text.includes('OTA推送') || text.includes('升级推送');
-  
-  // 检查是否为汽车品牌新闻
-  const carBrands = ['比亚迪', '方程豹', '特斯拉', '蔚来', '小鹏', '理想', '奔驰', '宝马', '奥迪', '大众', '丰田', '本田'];
-  const isCarBrand = carBrands.some(brand => 
-    text.includes(brand) || text.toLowerCase().includes(brand.toLowerCase())
-  );
-  
-  // 如果是汽车科技新闻，检查是否包含真正的AI技术创新
-  if (isCarTech || isCarBrand || isOTAUpdate) {
-    // 汽车新闻需要包含真正的AI技术创新才归类为AI
-    const realAITechKeywords = [
-      '大模型', '算法', '机器学习', '深度学习', '神经网络', '自然语言处理', '计算机视觉', '强化学习', '生成式AI',
-      '文心一言', '通义千问', '讯飞星火', '智谱AI', '商汤AI', '旷视AI', '依图AI', '云从AI', '科大讯飞',
-      'AI芯片', 'AI算法', 'AI框架', 'AI平台', 'AI大模型', 'AI研究', 'AI技术创新'
-    ];
-    
-    const hasRealAITech = realAITechKeywords.some(keyword => 
-      text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
-    );
-    
-    // 如果没有真正的AI技术创新，则不归类为AI新闻
-    if (!hasRealAITech) {
-      return false;
-    }
+  // 必须至少包含一种AI相关内容
+  return hasAICore || hasAIModels || hasAICompanies || hasAITech;
+}
+
+// 判断新闻类别
+function getNewsCategory(title, content) {
+  if (!isAINews(title, content)) {
+    return null; // 不是AI新闻，不包含在系统中
   }
   
-  return hasCoreAICompany || hasAIProduct || hasAIKeywords || hasResearchInstitution;
+  const text = (title + ' ' + (content || '')).toLowerCase();
+  
+  // 检查是否为中国AI相关
+  const chineseAIKeywords = [
+    '百度', '阿里', '腾讯', '字节', '华为', '智谱', '商汤', '旷视', '依图', '云从', 
+    '科大讯飞', '文心一言', '通义千问', '讯飞星火', '悟道', '紫东太初', '羲和', '混元', 
+    '豆包', '天工', '商量', '日日新', 'SenseChat', 'GLM', '清言', 'QWEN', 'DeepSeek',
+    '月之暗面', '零一万物', '百川智能', '阶跃星辰', 'Minimax',
+    '中科院', '清华大学', '北京大学', '浙江大学', '上海交通大学', 
+    '复旦大学', '南京大学', '中国科学技术大学', '哈尔滨工业大学', '西安交通大学',
+    '中国AI', '国产AI', '中文AI', '华人AI团队', '国内大模型', '本土AI', '自主AI'
+  ];
+  
+  const isChineseAI = chineseAIKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
+  
+  // 检查是否为AI趣味新闻
+  const funAIKeywords = [
+    '有趣', '好玩', '新奇', '神奇', '惊人', '震撼', '创意', '趣味',
+    'AI绘画', 'AI写作', 'AI作曲', 'AI游戏', 'AI娱乐', 'AI聊天',
+    'ChatGPT写诗', 'AI作画', 'AI生成图片', 'AI创作', 'AI设计'
+  ];
+  
+  const isFunAI = funAIKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
+  
+  // 检查是否为科技新闻（AI技术相关但不是纯模型新闻）
+  const techKeywords = [
+    'AI芯片', 'AI框架', 'IDE', '编程', '代码', '软件开发', '开发工具',
+    'AI技术', 'AI应用', 'AI系统', 'AI平台', 'AI基础设施', 'Agent', '智能体'
+  ];
+  
+  const isTechNews = techKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
+  
+  // 分类逻辑 - 优先级调整
+  if (isChineseAI) {
+    return '中国AI';
+  }
+  
+  if (isFunAI) {
+    return 'AI趣味新闻';
+  }
+  
+  if (isTechNews) {
+    return '科技新闻';
+  }
+  
+  return '国际AI';
 }
 
 // 清理内容
 function cleanContent(content) {
   if (!content) return '';
-  return content.replace(/<[^>]*>/g, '').replace(/\s+/g, ' ').trim();
+  
+  // 移除HTML标签
+  let cleaned = content.replace(/<[^>]*>/g, '');
+  
+  // 移除多余的空白字符
+  cleaned = cleaned.replace(/\s+/g, ' ').trim();
+  
+  // 如果内容是"点击查看原文>"或其他无用信息，返回空字符串
+  if (cleaned === '点击查看原文>' || cleaned.length < 10) {
+    return '';
+  }
+  
+  return cleaned;
 }
 
 // 生成ID
@@ -171,7 +220,7 @@ function generateId(title, pubDate) {
 
 // 提取图片
 function extractImageUrl(item) {
-  const imgMatch = (item.content || '').match(/<img[^>]+src="([^">]+)"/);
+  const imgMatch = (item.content || '').match(/<img[^>]+src=\"([^\">]+)\"/);
   if (imgMatch) return imgMatch[1];
   
   if (item.enclosure && item.enclosure.url && item.enclosure.type?.startsWith('image/')) {
@@ -233,18 +282,12 @@ function generateSimpleInsight(title, content) {
     return '这篇新闻涉及ChatGPT相关技术发展，反映了大语言模型在各个领域的应用趋势和商业化进程。';
   } else if (text.includes('机器学习') || text.includes('深度学习')) {
     return '该新闻展示了机器学习/深度学习技术的最新进展，对AI技术发展具有重要意义。';
-  } else if (text.includes('创业') || text.includes('融资')) {
-    return '此新闻反映了AI行业的投资热点和创业趋势，值得关注行业动态。';
-  } else if (text.includes('政策') || text.includes('监管')) {
-    return '该新闻涉及AI相关政策法规，对行业发展环境和监管框架有重要影响。';
-  } else if (text.includes('自动驾驶') || text.includes('无人驾驶')) {
-    return '该新闻反映了自动驾驶技术的最新发展，对智能交通和汽车产业具有重要影响。';
-  } else if (text.includes('芯片') || text.includes('半导体')) {
-    return '此新闻涉及AI芯片技术发展，对算力基础设施和AI硬件创新具有重要意义。';
   } else if (text.includes('大模型') || text.includes('llm')) {
     return '该新闻展示了大语言模型技术的最新进展，对AI能力提升和应用拓展具有重要价值。';
-  } else if (text.includes('机器人') || text.includes('robot')) {
-    return '此新闻反映了机器人技术的最新发展，对智能制造和服务业自动化具有重要影响。';
+  } else if (text.includes('芯片') || text.includes('半导体')) {
+    return '此新闻涉及AI芯片技术发展，对算力基础设施和AI硬件创新具有重要意义。';
+  } else if (text.includes('编程') || text.includes('代码') || text.includes('ide')) {
+    return '该新闻反映了AI在编程开发领域的应用进展，对软件开发和编程效率提升具有重要影响。';
   } else {
     return '这篇新闻反映了AI领域的最新发展动态，对了解行业趋势具有重要参考价值。';
   }
@@ -252,24 +295,32 @@ function generateSimpleInsight(title, content) {
 
 // 处理单个新闻项
 async function processNewsItem(item, source) {
-  const summary = cleanContent(item.contentSnippet || item.content || '');
+  const content = cleanContent(item.contentSnippet || item.content || '');
+  
+  // 如果内容为空，尝试从其他字段获取
+  let summary = content;
+  if (!summary) {
+    // 尝试从标题生成简单摘要
+    summary = item.title || '无标题';
+  }
+  
   const truncatedSummary = summary.length > 200 ? summary.substring(0, 200) + '...' : summary;
   
-  let category;
-  if (isAINews(item.title, item.content)) {
-    category = isDomesticAINews(item.title, item.content, source) ? '国内AI' : '国外AI';
-  } else {
-    category = source.category;
+  const category = getNewsCategory(item.title, item.content);
+  
+  // 如果不是AI相关新闻，则跳过
+  if (!category) {
+    return null;
   }
   
   // 生成AI点评
-  const aiInsight = await generateAIInsight(item.title, item.contentSnippet || item.content);
+  const aiInsight = await generateAIInsight(item.title, content);
   
   return {
     id: generateId(item.title, item.pubDate),
     title: item.title || '无标题',
     summary: truncatedSummary,
-    content: cleanContent(item.content || item.contentSnippet || ''),
+    content: content,
     imageUrl: extractImageUrl(item),
     source: source.name,
     publishedAt: item.pubDate || new Date().toISOString(),
@@ -279,10 +330,9 @@ async function processNewsItem(item, source) {
   };
 }
 
-
 // 主函数
 async function main() {
-  console.log('开始聚合RSS国内AI新闻...');
+  console.log('开始聚合RSS AI新闻...');
   
   const allNews = [];
   const seenTitles = new Set();
@@ -300,11 +350,11 @@ async function main() {
       
       // 重新处理现有新闻的分类
       for (const item of existingNews) {
-        let newCategory;
-        if (isAINews(item.title, item.content)) {
-          newCategory = isDomesticAINews(item.title, item.content, { name: item.source }) ? '国内AI' : '国外AI';
-        } else {
-          newCategory = '科技'; // 默认分类
+        const newCategory = getNewsCategory(item.title, item.content);
+        
+        // 如果不是AI相关新闻，则跳过
+        if (!newCategory) {
+          continue;
         }
         
         // 更新分类
@@ -322,22 +372,20 @@ async function main() {
     console.log('没有找到现有新闻数据，将创建新的数据文件');
   }
   
-  // 获取RSS国内新闻
+  // 获取RSS新闻
   for (const source of RSS_SOURCES) {
     try {
       console.log(`正在爬取 ${source.name}...`);
       const feed = await parser.parseURL(source.url);
       
-      const filteredItems = feed.items
-        .filter(item => isAINews(item.title, item.contentSnippet || item.content))
-        .slice(0, 10);
-      
-      // 异步处理每个新闻项
+      // 过滤AI新闻并处理
       const newsItems = [];
-      for (const item of filteredItems) {
+      for (const item of feed.items.slice(0, 15)) {
         try {
           const processedItem = await processNewsItem(item, source);
-          newsItems.push(processedItem);
+          if (processedItem) {
+            newsItems.push(processedItem);
+          }
         } catch (error) {
           console.error(`处理新闻项失败: ${item.title}`, error.message);
         }
@@ -383,22 +431,67 @@ async function main() {
 
 // 测试分类逻辑
 function testClassification() {
-  const title1 = '比亚迪方程豹豹 5 天神版、钛 3 全系车型 OTA 升级推送：泊车辅助进化、智能座舱升级';
-  const content1 = 'IT之家 8 月 4 日消息，据比亚迪集团-方程豹事业部总经理熊甜波分享，方程豹豹 5 天神版、钛 3 全系车型开启 OTA 推送，新版本泊车辅助进化、智能座舱升级，同时有多项功能新增及优化。据介绍，本次升级核心聚焦行车辅助驾驶和泊车辅助驾驶场景，内容包含窄车位后视镜自动折叠、车头泊入、偏置停放、前车近距离变道闪灯鸣笛、手车互联等功能。IT之家附方程豹豹 5 天神版、钛 3 全系车型此次 OTA';
-
-  const title2 = '比亚迪方程豹钛 3 上市后首次 OTA：手车互联全面升级，支持无人机动态起降';
-  const content2 = 'IT之家 8 月 4 日消息，比亚迪方程豹钛 3 上市后首次 OTA 今日开启推送，主要为天神之眼 C-辅助驾驶三目版、DiLink 智能座舱、灵莺・比亚迪智能车载无人机系统功能新增与优化。IT之家整理如下：天神之眼 C-辅助驾驶三目版新增泊车辅助：窄车位泊入时后视镜自动折叠功能新增泊车辅助：垂直、斜列车位的车头泊入功能，垂直车位车头泊入后可车尾泊出新增泊车辅助：偏置停放选择，搜索到可泊车位并弹出偏置选项设置后，可选择偏左 / 中 / 右泊入新增辅助驾驶：高快领航辅助开启时，若遇前车近距离变道，闪灯鸣笛提醒注意碰撞风险功能优化领航辅助：限速范围内，优先遵循用户自定义调节车速优化辅助驾驶：多场景文言提醒：在即将超出和正在超出系统边界时给予提示DiLink 智能座舱手车互联功能支持更多品牌机型：vivo、iQOO、小米、红米品牌的部分型号新增无麦 K 歌功能，可在酷狗音乐、酷我音乐和 QQ 音乐歌词页中点击麦克风按钮开启新增仪表自动亮度功能：开启后，组合仪表将根据车外光强自动调节屏幕亮度优化冰箱门与室内灯联动逻辑，提升用户体验（四驱 Ultra 版、四驱无人机版）灵莺・比亚迪智能车载无人机系统开放动态起降功能：精准判断相对风速，准确把控起飞和降落时机，实现 25km/h 车速下的动态起降；且无人机起飞即可开启智能跟随方程豹钛 3 于今年 4 月 16 日上市，续航 501km，售价 13.38 万元起。普通版的长宽高分别为 4605×1900×1720mm，另有一款灵鸢智能无人机版本长宽高分别为 4605x1900x1930 毫米；两款车型的轴距均为 2745 毫米。车辆可选双电机四驱系统，前桥为交流异步电机，最大功率 110 千瓦；后桥为永磁同步电机，最大功率 200 千瓦，0-100 公里 / 小时加速时间为 4.9 秒。';
-
   console.log('=== 分类测试 ===');
-  console.log('比亚迪方程豹豹 5:');
-  console.log('  是否为AI新闻:', isAINews(title1, content1));
-  console.log('  是否为国内AI新闻:', isDomesticAINews(title1, content1));
-  console.log('  最终分类:', isAINews(title1, content1) ? (isDomesticAINews(title1, content1) ? '国内AI' : '国外AI') : '科技');
   
-  console.log('比亚迪方程豹钛 3:');
-  console.log('  是否为AI新闻:', isAINews(title2, content2));
-  console.log('  是否为国内AI新闻:', isDomesticAINews(title2, content2));
-  console.log('  最终分类:', isAINews(title2, content2) ? (isDomesticAINews(title2, content2) ? '国内AI' : '国外AI') : '科技');
+  // 测试用例
+  const testCases = [
+    {
+      title: '比亚迪方程豹豹 5 天神版、钛 3 全系车型 OTA 升级推送：泊车辅助进化、智能座舱升级',
+      content: 'IT之家 8 月 4 日消息，据比亚迪集团-方程豹事业部总经理熊甜波分享，方程豹豹 5 天神版、钛 3 全系车型开启 OTA 推送，新版本泊车辅助进化、智能座舱升级，同时有多项功能新增及优化。',
+      expected: null
+    },
+    {
+      title: '华为 nova Flip 小折叠手机获鸿蒙 HarmonyOS 5.1 版本升级：界面焕新、互联能力升级等',
+      content: '华为 nova Flip 小折叠手机的鸿蒙 HarmonyOS 5.1 版本今日开始分批推送给花粉 Beta 版尝鲜报名入选成功的用户，新版本采用全新系统架构，带来智能、流畅、安全、便捷的全场景智能体验。',
+      expected: null
+    },
+    {
+      title: '华为发布全新AI大模型：基于HarmonyOS生态，支持手机端侧推理',
+      content: '华为今日发布全新AI大模型，基于HarmonyOS生态系统，支持手机端侧推理，在自然语言处理方面有重大突破，标志着中国在AI技术领域的又一重要进展。',
+      expected: '中国AI'
+    },
+    {
+      title: '豆包大模型升级：支持200K上下文，性能超越GPT-4',
+      content: '字节跳动旗下的豆包大模型今日发布重大升级，新版本支持200K长上下文，在多项基准测试中性能超越GPT-4，标志着中国AI技术的重要突破。',
+      expected: '中国AI'
+    },
+    {
+      title: '智谱AI发布新一代GLM-4大模型：多项性能指标领先',
+      content: '智谱AI今日正式发布GLM-4大模型，在自然语言理解、逻辑推理、代码生成等方面均有显著提升，成为中国AI领域的又一重要成果。',
+      expected: '中国AI'
+    },
+    {
+      title: 'OpenAI发布GPT-5：性能大幅提升，支持多模态输入',
+      content: 'OpenAI今日宣布发布GPT-5模型，在推理能力、多模态理解、创造性思维等方面都有重大突破，再次引领全球AI技术发展。',
+      expected: '国际AI'
+    },
+    {
+      title: '荣耀 6 月香港市场份额 20.2% 破历史新高，首超苹果进入 TOP2',
+      content: '荣耀终端股份有限公司销售与服务总裁王班今日分享"战报"：荣耀 6 月香港市场份额 20.2% 突破历史新高，首次超越苹果进入市场份额 TOP2。',
+      expected: null
+    },
+    {
+      title: 'VS Code推出AI编程助手：支持代码生成和调试',
+      content: '微软宣布为VS Code推出全新的AI编程助手，支持代码生成、智能调试、代码优化等功能，大大提升开发效率。',
+      expected: '科技新闻'
+    },
+    {
+      title: 'AI绘画工具Midjourney推出新功能：可以生成更真实的艺术作品',
+      content: 'Midjourney今日发布更新，其AI绘画工具现在可以生成更加真实和细腻的艺术作品，为创意工作者提供更多可能性。',
+      expected: 'AI趣味新闻'
+    }
+  ];
+  
+  testCases.forEach((testCase, index) => {
+    const actualCategory = getNewsCategory(testCase.title, testCase.content);
+    
+    console.log(`测试用例 ${index + 1}:`);
+    console.log(`  标题: ${testCase.title.substring(0, 60)}...`);
+    console.log(`  实际分类: ${actualCategory}`);
+    console.log(`  期望分类: ${testCase.expected}`);
+    console.log(`  结果: ${actualCategory === testCase.expected ? '✅ 通过' : '❌ 失败'}`);
+    console.log('');
+  });
 }
 
 // 运行
