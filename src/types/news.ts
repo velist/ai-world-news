@@ -9,6 +9,10 @@ export interface NewsItem {
   category: string;
   originalUrl?: string;
   aiInsight?: string;
+  // 用于存储原始英文内容（如果有的话）
+  originalTitle?: string;
+  originalSummary?: string;
+  originalContent?: string;
 }
 
 export interface NewsCategory {

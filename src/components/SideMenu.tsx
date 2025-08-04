@@ -15,8 +15,8 @@ export const SideMenu: React.FC<SideMenuProps> = ({ isOpen, onClose, onMenuClick
     {
       id: 'daily-briefing',
       icon: Newspaper,
-      label: isZh ? '每日AI晨报' : 'Daily AI Briefing',
-      description: isZh ? '精选AI新闻摘要' : 'Curated AI News Summary'
+      label: isZh ? 'AI专题简报' : 'AI Topic Briefing',
+      description: isZh ? '实时AI新闻精选' : 'Real-time AI News Selection'
     },
     {
       id: 'disclaimer',

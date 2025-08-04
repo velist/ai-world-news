@@ -1,6 +1,7 @@
 import { useState, useEffect } from 'react';
 import { NewsItem } from '@/types/news';
 import { useContentFilter } from './useContentFilter';
+import { useNewsTranslation } from './useNewsTranslation';
 
 export const useNews = () => {
   const [news, setNews] = useState<NewsItem[]>([]);
@@ -8,6 +9,7 @@ export const useNews = () => {
   const [selectedCategory, setSelectedCategory] = useState('AI');
   const [error, setError] = useState<string | null>(null);
   const { filterNews } = useContentFilter();
+  const { getLocalizedNewsArray, getLocalizedCategory } = useNewsTranslation();
 
   useEffect(() => {
     const fetchNews = async (bypassCache = false) => {
@@ -35,7 +37,9 @@ export const useNews = () => {
         if (data?.success && data?.data) {
           // 应用内容过滤，移除政治敏感内容
           const filteredData = filterNews(data.data);
-          setNews(filteredData);
+          // 应用语言本地化
+          const localizedData = getLocalizedNewsArray(filteredData);
+          setNews(localizedData);
         } else {
           setError('新闻数据格式错误');
         }
@@ -55,12 +59,13 @@ export const useNews = () => {
   }, []);
 
   // 修复过滤逻辑：全部显示所有新闻，其他分类只显示对应分类的新闻
-  const filteredNews = selectedCategory === '全部' 
+  const filteredNews = selectedCategory === getLocalizedCategory('全部') 
     ? news 
     : news.filter(item => item.category === selectedCategory);
 
   // 添加"全部"分类作为首选项，将"AI模型"改为"AI"
-  const categories = ['全部', 'AI', '科技', '经济', '深度分析'];
+  const rawCategories = ['全部', 'AI', '科技', '经济', '深度分析'];
+  const categories = rawCategories.map(cat => getLocalizedCategory(cat));
 
   return {
     news: filteredNews,
@@ -86,7 +91,8 @@ export const useNews = () => {
           if (response.ok) {
             const data = await response.json();
             if (data?.success && data?.data) {
-              setNews(data.data);
+              const localizedData = getLocalizedNewsArray(data.data);
+              setNews(localizedData);
             }
           } else {
             setError('刷新失败');

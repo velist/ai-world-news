@@ -2,7 +2,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Clock, ExternalLink, Share2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
-import { useTitleTranslation } from "@/hooks/useTitleTranslation";
+import { useNewsTranslation } from "@/hooks/useNewsTranslation";
 
 interface NewsCardProps {
   id: string;
@@ -25,25 +25,23 @@ export const NewsCard = ({
   category,
   onClick,
 }: NewsCardProps) => {
-  const { improveTitle, improveSummary } = useTitleTranslation();
+  const { getLocalizedCategory } = useNewsTranslation();
   
-  // 使用改进的标题和摘要
-  const displayTitle = improveTitle(title);
-  const displaySummary = improveSummary(summary);
+  // 直接使用传入的标题和摘要（已经在useNews中本地化）
+  const displayTitle = title;
+  const displaySummary = summary;
   const getCategoryStyle = (category: string) => {
-    switch (category.toLowerCase()) {
-      case 'ai模型':
-      case 'ai 模型':
-      case 'ai':
-        return 'bg-gradient-ai text-white border-0';
-      case '科技':
-        return 'bg-gradient-tech text-white border-0';
-      case '经济':
-        return 'bg-gradient-economy text-white border-0';
-      case '深度分析':
-        return 'bg-gradient-analysis text-white border-0';
-      default:
-        return 'bg-gradient-primary text-white border-0';
+    const normalizedCategory = category.toLowerCase();
+    if (normalizedCategory.includes('ai') || normalizedCategory.includes('ai模型') || normalizedCategory.includes('ai 模型')) {
+      return 'bg-gradient-ai text-white border-0';
+    } else if (normalizedCategory.includes('tech') || normalizedCategory.includes('科技')) {
+      return 'bg-gradient-tech text-white border-0';
+    } else if (normalizedCategory.includes('economy') || normalizedCategory.includes('经济')) {
+      return 'bg-gradient-economy text-white border-0';
+    } else if (normalizedCategory.includes('analysis') || normalizedCategory.includes('深度分析')) {
+      return 'bg-gradient-analysis text-white border-0';
+    } else {
+      return 'bg-gradient-primary text-white border-0';
     }
   };
 
@@ -143,7 +141,7 @@ export const NewsCard = ({
           />
           <div className="absolute top-3 left-3">
             <Badge className={getCategoryStyle(category)}>
-              {category}
+              {getLocalizedCategory(category)}
             </Badge>
           </div>
           <div className="absolute top-3 right-3">

@@ -3,8 +3,8 @@ import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
-import { useTitleTranslation } from "@/hooks/useTitleTranslation";
 import { useLanguage } from "@/contexts/LanguageContext";
+import { useNewsTranslation } from "@/hooks/useNewsTranslation";
 
 interface NewsDetailProps {
   title: string;
@@ -29,11 +29,11 @@ export const NewsDetail = ({
   aiInsight,
   onBack,
 }: NewsDetailProps) => {
-  const { improveTitle, improveSummary } = useTitleTranslation();
   const { isZh } = useLanguage();
+  const { getLocalizedCategory } = useNewsTranslation();
   
-  // 使用改进的标题
-  const displayTitle = improveTitle(title);
+  // 直接使用传入的标题（已经在useNews中本地化）
+  const displayTitle = title;
   
   // 改进内容显示
   const improveContent = (content: string) => {
@@ -62,18 +62,17 @@ export const NewsDetail = ({
   
   const displayContent = improveContent(content);
   const getCategoryStyle = (category: string) => {
-    switch (category.toLowerCase()) {
-      case 'ai模型':
-      case 'ai 模型':
-        return 'bg-gradient-ai text-white border-0';
-      case '科技':
-        return 'bg-gradient-tech text-white border-0';
-      case '经济':
-        return 'bg-gradient-economy text-white border-0';
-      case '深度分析':
-        return 'bg-gradient-analysis text-white border-0';
-      default:
-        return 'bg-gradient-primary text-white border-0';
+    const normalizedCategory = category.toLowerCase();
+    if (normalizedCategory.includes('ai') || normalizedCategory.includes('ai模型') || normalizedCategory.includes('ai 模型')) {
+      return 'bg-gradient-ai text-white border-0';
+    } else if (normalizedCategory.includes('tech') || normalizedCategory.includes('科技')) {
+      return 'bg-gradient-tech text-white border-0';
+    } else if (normalizedCategory.includes('economy') || normalizedCategory.includes('经济')) {
+      return 'bg-gradient-economy text-white border-0';
+    } else if (normalizedCategory.includes('analysis') || normalizedCategory.includes('深度分析')) {
+      return 'bg-gradient-analysis text-white border-0';
+    } else {
+      return 'bg-gradient-primary text-white border-0';
     }
   };
 
@@ -118,7 +117,7 @@ export const NewsDetail = ({
               className="flex items-center space-x-2"
             >
               <ArrowLeft className="w-4 h-4" />
-              <span>返回</span>
+              <span>{isZh ? '返回' : 'Back'}</span>
             </Button>
             
             <div className="flex items-center space-x-2">
@@ -129,7 +128,7 @@ export const NewsDetail = ({
                 className="flex items-center space-x-2"
               >
                 <Share2 className="w-4 h-4" />
-                <span>分享</span>
+                <span>{isZh ? '分享' : 'Share'}</span>
               </Button>
             </div>
           </div>
@@ -194,7 +193,7 @@ export const NewsDetail = ({
             <CardHeader className="pb-3">
               <div className="flex items-center space-x-2">
                 <MessageSquare className="w-5 h-5 text-primary" />
-                <h3 className="text-lg font-semibold text-foreground">AI 观点解析</h3>
+                <h3 className="text-lg font-semibold text-foreground">{isZh ? 'AI 观点解析' : 'AI Analysis'}</h3>
               </div>
             </CardHeader>
             <CardContent className="pt-0">
