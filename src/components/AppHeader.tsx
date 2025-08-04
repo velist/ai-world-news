@@ -1,9 +1,13 @@
-import { Sparkles, Globe, Users } from "lucide-react";
+import { Sparkles, Globe, Users, Menu } from "lucide-react";
 import { useState } from "react";
 import { LanguageSwitcher } from "./LanguageSwitcher";
 import { useLanguage } from "@/hooks/useLanguage";
 
-export const AppHeader = () => {
+interface AppHeaderProps {
+  onMenuClick: () => void;
+}
+
+export const AppHeader: React.FC<AppHeaderProps> = ({ onMenuClick }) => {
   const [showToast, setShowToast] = useState(false);
   const { isZh } = useLanguage();
 
@@ -29,8 +33,18 @@ export const AppHeader = () => {
     <div className="relative overflow-hidden bg-gradient-hero rounded-b-3xl shadow-large">
       <div className="absolute inset-0 bg-black/10" />
       
-      {/* 语言切换器 - 左上角 */}
+      {/* 菜单按钮 - 左上角 */}
       <div className="absolute top-4 left-4 z-10">
+        <button
+          onClick={onMenuClick}
+          className="flex items-center space-x-1.5 px-3 py-1.5 bg-white/10 hover:bg-white/20 backdrop-blur-sm rounded-full text-white transition-all duration-200 group"
+        >
+          <Menu className="w-4 h-4" />
+        </button>
+      </div>
+      
+      {/* 语言切换器 - 右上角 */}
+      <div className="absolute top-4 right-4 z-10">
         <LanguageSwitcher />
       </div>
       

@@ -3,6 +3,9 @@ import { AppHeader } from '@/components/AppHeader';
 import { CategoryTabs } from '@/components/CategoryTabs';
 import { NewsCard } from '@/components/NewsCard';
 import { NewsDetail } from '@/components/NewsDetail';
+import { SideMenu } from '@/components/SideMenu';
+import { DailyBriefing } from '@/components/DailyBriefing';
+import { Disclaimer } from '@/components/Disclaimer';
 import { useNews } from '@/hooks/useNews';
 import { useLanguage } from '@/hooks/useLanguage';
 import { NewsItem } from '@/types/news';
@@ -13,6 +16,9 @@ const Index = () => {
   const { isZh } = useLanguage();
   const [selectedNews, setSelectedNews] = useState<NewsItem | null>(null);
   const [lastUpdateTime, setLastUpdateTime] = useState<Date>(new Date());
+  const [sideMenuOpen, setSideMenuOpen] = useState(false);
+  const [dailyBriefingOpen, setDailyBriefingOpen] = useState(false);
+  const [disclaimerOpen, setDisclaimerOpen] = useState(false);
 
   // 更新最后刷新时间
   useEffect(() => {
@@ -24,6 +30,18 @@ const Index = () => {
   const handleRefresh = () => {
     refreshNews();
     setLastUpdateTime(new Date());
+  };
+
+  const handleMenuClick = (menuItem: string) => {
+    setSideMenuOpen(false);
+    switch (menuItem) {
+      case 'daily-briefing':
+        setDailyBriefingOpen(true);
+        break;
+      case 'disclaimer':
+        setDisclaimerOpen(true);
+        break;
+    }
   };
 
   const formatUpdateTime = (date: Date) => {
@@ -52,7 +70,26 @@ const Index = () => {
 
   return (
     <div className="min-h-screen bg-background">
-      <AppHeader />
+      <AppHeader onMenuClick={() => setSideMenuOpen(true)} />
+      
+      {/* 侧边菜单 */}
+      <SideMenu 
+        isOpen={sideMenuOpen}
+        onClose={() => setSideMenuOpen(false)}
+        onMenuClick={handleMenuClick}
+      />
+      
+      {/* 每日晨报弹窗 */}
+      <DailyBriefing 
+        isOpen={dailyBriefingOpen}
+        onClose={() => setDailyBriefingOpen(false)}
+      />
+      
+      {/* 免责声明弹窗 */}
+      <Disclaimer 
+        isOpen={disclaimerOpen}
+        onClose={() => setDisclaimerOpen(false)}
+      />
       
       <div className="max-w-6xl mx-auto px-4 py-6 space-y-6">
         {/* Category Tabs */}
