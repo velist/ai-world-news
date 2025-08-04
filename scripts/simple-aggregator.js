@@ -30,8 +30,8 @@ const RSS_SOURCES = [
     name: 'IT之家',
     url: 'https://www.ithome.com/rss/',
     category: '科技'
-  }
-];
+  },
+  ];
 
 // AI关键词
 const AI_KEYWORDS = [
@@ -53,8 +53,8 @@ function isAINews(title, content) {
 function isDomesticAINews(title, content, source) {
   if (!isAINews(title, content)) return false;
   
-  const domesticSources = ['36氪', '钛媒体', 'InfoQ中文', 'IT之家'];
-  const domesticKeywords = ['中国', '国内', '百度', '阿里', '腾讯', '字节', '华为', '小米', '京东', '美团', '滴滴', '网易', '新浪', '搜狐', '携程'];
+  const domesticSources = ['机器之心', '36氪', '钛媒体', 'InfoQ中文', 'IT之家', '新浪科技', '腾讯科技', '网易科技'];
+  const domesticKeywords = ['中国', '国内', '百度', '阿里', '腾讯', '字节', '华为', '小米', '京东', '美团', '滴滴', '网易', '新浪', '搜狐', '携程', '智谱', '文心一言', '通义千问', '讯飞星火', '商汤', '旷视', '依图', '云从'];
   
   const text = (title + ' ' + (content || '')).toLowerCase();
   const isDomesticSource = domesticSources.includes(source.name);
@@ -136,11 +136,36 @@ function processNewsItem(item, source) {
 
 // 主函数
 async function main() {
-  console.log('开始聚合AI新闻...');
+  console.log('开始聚合RSS国内AI新闻...');
   
   const allNews = [];
   const seenTitles = new Set();
   
+  // 读取现有的国际新闻数据
+  const fs = await import('fs').then(m => m.promises);
+  let existingNews = [];
+  
+  try {
+    const existingData = await fs.readFile('public/news-data.json', 'utf8');
+    const parsedData = JSON.parse(existingData);
+    if (parsedData.success && parsedData.data) {
+      existingNews = parsedData.data;
+      console.log(`读取到 ${existingNews.length} 条现有国际新闻`);
+      
+      // 将现有新闻添加到去重集合中
+      existingNews.forEach(item => {
+        const titleKey = item.title.toLowerCase().trim();
+        seenTitles.add(titleKey);
+      });
+    }
+  } catch (error) {
+    console.log('没有找到现有新闻数据，将创建新的数据文件');
+  }
+  
+  // 添加现有新闻到总列表
+  allNews.push(...existingNews);
+  
+  // 获取RSS国内新闻
   for (const source of RSS_SOURCES) {
     try {
       console.log(`正在爬取 ${source.name}...`);
@@ -177,8 +202,6 @@ async function main() {
   };
   
   // 保存文件
-  const fs = await import('fs').then(m => m.promises);
-  
   try {
     await fs.writeFile(
       'public/news-data.json',

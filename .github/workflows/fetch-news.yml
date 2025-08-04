@@ -31,7 +31,7 @@ jobs:
       - name: 安装依赖
         run: npm install
 
-      - name: 获取新闻数据
+      - name: 获取国际新闻数据
         env:
           NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
           NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
@@ -43,6 +43,12 @@ jobs:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           VOLC_API_KEY: ${{ secrets.VOLC_API_KEY }}
         run: node scripts/fetch-news.js
+
+      - name: 获取RSS国内新闻数据
+        run: node scripts/simple-aggregator.js
+
+      - name: 生成RSS feed
+        run: node scripts/generate-feed.js
 
       - name: 配置Git
         run: |
@@ -59,6 +65,8 @@ jobs:
           
           # 重新运行新闻获取以确保数据是最新的
           ZHIPU_API_KEY="${{ secrets.ZHIPU_API_KEY }}" VOLC_API_KEY="${{ secrets.VOLC_API_KEY }}" NEWS_API_KEY="${{ secrets.NEWS_API_KEY }}" NEWSDATA_API_KEY="${{ secrets.NEWSDATA_API_KEY }}" GNEWS_API_KEY="${{ secrets.GNEWS_API_KEY }}" CURRENTS_API_KEY="${{ secrets.CURRENTS_API_KEY }}" SILICONFLOW_API_KEY="${{ secrets.SILICONFLOW_API_KEY }}" TENCENT_SECRET_ID="${{ secrets.TENCENT_SECRET_ID }}" TENCENT_SECRET_KEY="${{ secrets.TENCENT_SECRET_KEY }}" node scripts/fetch-news.js
+          node scripts/simple-aggregator.js
+          node scripts/generate-feed.js
           
           # 检查是否有变化
           if git diff --quiet public/news-data.json; then
