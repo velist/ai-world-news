@@ -30,6 +30,12 @@ jobs:
       - name: 安装依赖
         run: npm install
 
+      - name: 聚合新闻数据
+        run: npm run aggregate-news
+        
+      - name: 生成RSS feed
+        run: npm run generate-feed
+        
       - name: 构建项目
         run: npm run build
 
