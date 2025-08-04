@@ -1,8 +1,11 @@
 import { Sparkles, Globe, Users } from "lucide-react";
 import { useState } from "react";
+import { LanguageSwitcher } from "./LanguageSwitcher";
+import { useLanguage } from "@/hooks/useLanguage";
 
 export const AppHeader = () => {
   const [showToast, setShowToast] = useState(false);
+  const { isZh } = useLanguage();
 
   const handleCopyWechat = async () => {
     try {
@@ -25,18 +28,24 @@ export const AppHeader = () => {
   return (
     <div className="relative overflow-hidden bg-gradient-hero rounded-b-3xl shadow-large">
       <div className="absolute inset-0 bg-black/10" />
+      
+      {/* 语言切换器 - 左上角 */}
+      <div className="absolute top-4 left-4 z-10">
+        <LanguageSwitcher />
+      </div>
+      
       <div className="relative px-4 py-8 text-center text-white">
         <div className="flex items-center justify-center space-x-2 mb-2">
           <Sparkles className="w-6 h-6" />
           <h1 className="text-2xl md:text-3xl font-bold">
-            实时AI新闻推送系统
+            {isZh ? '实时AI新闻推送系统' : 'Real-time AI News System'}
           </h1>
         </div>
         
         <div className="flex items-center justify-center space-x-2 opacity-90 mb-3">
           <Globe className="w-4 h-4" />
           <p className="text-sm md:text-base">
-            国际新闻推送 · AI翻译 · AI点评
+            {isZh ? '国际新闻推送 · AI翻译 · AI点评' : 'Global News · AI Translation · AI Analysis'}
           </p>
         </div>
 
@@ -47,21 +56,20 @@ export const AppHeader = () => {
             onClick={handleCopyWechat}
             className="text-sm hover:text-blue-200 transition-colors underline decoration-dotted underline-offset-2"
           >
-            点击加入AI交流社群，一起成长
+            {isZh ? '点击加入AI交流社群，一起成长' : 'Join AI Community for Growth'}
           </button>
         </div>
         
         {/* Toast提示 */}
         {showToast && (
           <div className="fixed top-20 left-1/2 transform -translate-x-1/2 bg-green-500 text-white px-4 py-2 rounded-lg shadow-lg z-50 animate-in fade-in slide-in-from-top-2">
-            复制成功，打开微信搜索！
+            {isZh ? '复制成功，打开微信搜索！' : 'Copied! Search in WeChat!'}
           </div>
         )}
         
         {/* Decorative elements */}
-        <div className="absolute top-4 left-4 w-2 h-2 bg-white/30 rounded-full animate-pulse" />
         <div className="absolute top-8 right-8 w-1 h-1 bg-white/40 rounded-full animate-pulse delay-300" />
-        <div className="absolute bottom-6 left-8 w-1 h-1 bg-white/50 rounded-full animate-pulse delay-700" />
+        <div className="absolute bottom-6 right-8 w-1 h-1 bg-white/50 rounded-full animate-pulse delay-700" />
       </div>
     </div>
   );

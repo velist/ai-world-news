@@ -4,11 +4,13 @@ import { CategoryTabs } from '@/components/CategoryTabs';
 import { NewsCard } from '@/components/NewsCard';
 import { NewsDetail } from '@/components/NewsDetail';
 import { useNews } from '@/hooks/useNews';
+import { useLanguage } from '@/hooks/useLanguage';
 import { NewsItem } from '@/types/news';
 import { Loader2, RefreshCw, Clock } from 'lucide-react';
 
 const Index = () => {
   const { news, loading, error, categories, selectedCategory, setSelectedCategory, refreshNews } = useNews();
+  const { isZh } = useLanguage();
   const [selectedNews, setSelectedNews] = useState<NewsItem | null>(null);
   const [lastUpdateTime, setLastUpdateTime] = useState<Date>(new Date());
 
@@ -30,12 +32,12 @@ const Index = () => {
     const minutes = Math.floor(diff / (1000 * 60));
     
     if (minutes < 1) {
-      return '刚刚更新';
+      return isZh ? '刚刚更新' : 'Just updated';
     } else if (minutes < 60) {
-      return `${minutes}分钟前更新`;
+      return isZh ? `${minutes}分钟前更新` : `Updated ${minutes}m ago`;
     } else {
       const hours = Math.floor(minutes / 60);
-      return `${hours}小时前更新`;
+      return isZh ? `${hours}小时前更新` : `Updated ${hours}h ago`;
     }
   };
 
@@ -68,7 +70,7 @@ const Index = () => {
             <div className="flex items-center space-x-2 text-sm text-muted-foreground">
               <Clock className="w-4 h-4" />
               <span>{formatUpdateTime(lastUpdateTime)}</span>
-              <span className="text-xs opacity-75">• 每5分钟自动刷新</span>
+              <span className="text-xs opacity-75">• {isZh ? '每5分钟自动刷新' : 'Auto refresh every 5min'}</span>
             </div>
             <button
               onClick={handleRefresh}
@@ -76,7 +78,7 @@ const Index = () => {
               className="flex items-center space-x-2 px-3 py-1.5 bg-primary/10 hover:bg-primary/20 text-primary rounded-md transition-colors disabled:opacity-50"
             >
               <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
-              <span className="text-sm">刷新</span>
+              <span className="text-sm">{isZh ? '刷新' : 'Refresh'}</span>
             </button>
           </div>
         )}
@@ -85,7 +87,7 @@ const Index = () => {
         {error && (
           <div className="flex flex-col items-center justify-center py-12">
             <div className="text-red-500 mb-4 text-center">
-              <p className="font-semibold">新闻获取失败</p>
+              <p className="font-semibold">{isZh ? '新闻获取失败' : 'Failed to fetch news'}</p>
               <p className="text-sm">{error}</p>
             </div>
             <button
@@ -94,7 +96,7 @@ const Index = () => {
               className="flex items-center space-x-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors disabled:opacity-50"
             >
               <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
-              <span>重新获取</span>
+              <span>{isZh ? '重新获取' : 'Retry'}</span>
             </button>
           </div>
         )}
@@ -104,7 +106,7 @@ const Index = () => {
           <div className="flex items-center justify-center py-12">
             <div className="flex items-center space-x-2 text-muted-foreground">
               <Loader2 className="w-5 h-5 animate-spin" />
-              <span>正在获取最新AI新闻...</span>
+              <span>{isZh ? '正在获取最新AI新闻...' : 'Loading latest AI news...'}</span>
             </div>
           </div>
         )}
@@ -130,8 +132,8 @@ const Index = () => {
         {/* Empty State */}
         {!loading && !error && news.length === 0 && (
           <div className="text-center py-12">
-            <h3 className="text-lg font-semibold mb-2">暂无新闻</h3>
-            <p className="text-muted-foreground">请稍后再试，或切换其他分类查看</p>
+            <h3 className="text-lg font-semibold mb-2">{isZh ? '暂无新闻' : 'No news available'}</h3>
+            <p className="text-muted-foreground">{isZh ? '请稍后再试，或切换其他分类查看' : 'Please try again later or switch to another category'}</p>
           </div>
         )}
       </div>

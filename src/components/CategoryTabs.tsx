@@ -1,4 +1,5 @@
 import { Tabs, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { useLanguage } from "@/hooks/useLanguage";
 
 interface CategoryTabsProps {
   categories: string[];
@@ -7,6 +8,8 @@ interface CategoryTabsProps {
 }
 
 export const CategoryTabs = ({ categories, activeCategory, onCategoryChange }: CategoryTabsProps) => {
+  const { isZh } = useLanguage();
+
   const getCategoryIcon = (category: string) => {
     switch (category.toLowerCase()) {
       case '全部':
@@ -27,6 +30,26 @@ export const CategoryTabs = ({ categories, activeCategory, onCategoryChange }: C
     }
   };
 
+  const getCategoryName = (category: string) => {
+    if (!isZh) {
+      switch (category) {
+        case '全部':
+          return 'All';
+        case 'AI':
+          return 'AI';
+        case '科技':
+          return 'Tech';
+        case '经济':
+          return 'Economy';
+        case '深度分析':
+          return 'Analysis';
+        default:
+          return category;
+      }
+    }
+    return category;
+  };
+
   return (
     <div className="w-full overflow-x-auto">
       <Tabs value={activeCategory} onValueChange={onCategoryChange}>
@@ -38,7 +61,7 @@ export const CategoryTabs = ({ categories, activeCategory, onCategoryChange }: C
               className="flex items-center space-x-2 px-4 py-2 rounded-lg text-sm font-medium transition-all duration-200 data-[state=active]:bg-gradient-primary data-[state=active]:text-white data-[state=active]:shadow-medium whitespace-nowrap"
             >
               <span className="text-base">{getCategoryIcon(category)}</span>
-              <span>{category}</span>
+              <span>{getCategoryName(category)}</span>
             </TabsTrigger>
           ))}
         </TabsList>
