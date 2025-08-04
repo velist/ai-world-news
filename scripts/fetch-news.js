@@ -552,6 +552,25 @@ function categorizeNewsTraditional(title, content) {
     return null; // 不是AI新闻
   }
   
+  // 首先检查是否为国外AI公司/产品 - 优先级最高
+  const foreignAIKeywords = [
+    // 美国AI公司
+    'OpenAI', 'Google', 'Microsoft', 'Meta', 'Facebook', 'Apple', 'Amazon', 'Tesla',
+    'NVIDIA', 'AMD', 'Intel', 'Anthropic', 'Cohere', 'Character.AI', 'Broadcom',
+    'Palantir', 'Databricks', 'Snowflake', 'Salesforce', 'Oracle', 'IBM',
+    // 国外AI产品和模型
+    'ChatGPT', 'GPT-4', 'GPT-3', 'Claude', 'Gemini', 'Llama', 'Mistral',
+    'Midjourney', 'Stable Diffusion', 'DALL-E', 'Sora', 'Copilot', 'Bard',
+    // 其他国家AI公司
+    'DeepMind', 'Stability AI', 'Hugging Face', 'Runway', 'Adept',
+    // 明确的地理标识
+    'Silicon Valley', 'San Francisco', 'Seattle', 'Austin', 'London', 'Europe'
+  ];
+  
+  const isForeignAI = foreignAIKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
+  
   // 检查是否为中国AI相关
   const chineseAIKeywords = [
     '百度', '阿里', '腾讯', '字节', '华为', '智谱', '商汤', '旷视', '依图', '云从', 
@@ -588,19 +607,28 @@ function categorizeNewsTraditional(title, content) {
     text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
   );
   
-  // 分类逻辑 - 优先级调整
+  // 分类逻辑 - 修正优先级
+  // 1. 首先判断是否为中国AI（优先级最高，避免被国外关键词误分类）
   if (isChineseAI) {
     return '中国AI';
   }
   
+  // 2. 然后判断是否为国外AI
+  if (isForeignAI) {
+    return '国际AI';
+  }
+  
+  // 3. 判断是否为趣味新闻
   if (isFunAI) {
     return 'AI趣味新闻';
   }
   
+  // 4. 判断是否为科技新闻
   if (isTechNews) {
     return '科技新闻';
   }
   
+  // 5. 默认分类为国际AI
   return '国际AI';
 }
 
