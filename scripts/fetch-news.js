@@ -588,10 +588,17 @@ function categorizeNewsTraditional(title, content) {
     '百度', '阿里', '腾讯', '字节', '华为', '智谱', '商汤', '旷视', '依图', '云从', 
     '科大讯飞', '文心一言', '通义千问', '讯飞星火', '悟道', '紫东太初', '羲和', '混元', 
     '豆包', '天工', '商量', '日日新', 'SenseChat', 'GLM', '清言', 'QWEN', 'DeepSeek',
-    '月之暗面', '零一万物', '百川智能', '阶跃星辰', 'Minimax',
+    '月之暗面', '零一万物', '百川智能', '阶跃星辰', 'Minimax', 'MiniMax',
     '中科院', '清华大学', '北京大学', '浙江大学', '上海交通大学', 
     '复旦大学', '南京大学', '中国科学技术大学', '哈尔滨工业大学', '西安交通大学',
-    '中国AI', '国产AI', '中文AI', '华人AI团队', '国内大模型', '本土AI', '自主AI'
+    '中国AI', '国产AI', '中文AI', '华人AI团队', '国内大模型', '本土AI', '自主AI',
+    // 新增更多中国AI公司和产品
+    '小米', '京东', '美团', '滴滴', '网易', '新浪', '搜狐', '携程', '快手', 'vivo', 'OPPO',
+    '蚂蚁集团', '蚂蚁金服', '支付宝', '钉钉', '飞书', '企业微信',
+    '昆仑万维', '面壁智能', '生数科技', '出门问问', '思必驰', '云知声',
+    '第四范式', '明略科技', '澜舟科技', '竹间智能', '小冰公司', '微软小冰',
+    '中文版', '中国版', '国内版', '中文模型', '国产模型', '自研模型',
+    'WAIC', '世界人工智能大会', '中国人工智能学会', 'CAAI'
   ];
   
   const isChineseAI = chineseAIKeywords.some(keyword => 
@@ -804,9 +811,51 @@ async function main() {
       }
     }
     
+    // 过滤低质量摘要新闻
+    const filteredNews = rawNews.filter(item => {
+      // 需要排除的新闻源（低质量摘要）
+      const excludeSources = ['BizToc', 'biztoc'];
+      
+      // 需要排除的标题特征（摘要类新闻）
+      const excludeTitlePatterns = [
+        /特斯拉为何向埃隆·马斯克授予.*美元的股票？/,
+        /欧佩克\+增加石油产量将如何影响/,
+        /为什么现在有数千名波音工人/,
+        /特朗普对印度的新关税将产生什么影响/,
+        /美联储就业报告为何导致/,
+        /亚马逊为何关闭其Wondery播客工作室/,
+        /人工智能如何改变航空公司票价策略/,
+        /.*\？.*\？.*\？.*\？/ // 包含多个问号的摘要标题
+      ];
+      
+      // 检查新闻源是否需要排除
+      const isExcludedSource = excludeSources.some(source => 
+        (item.source?.name && item.source.name.toLowerCase().includes(source.toLowerCase()))
+      );
+      
+      if (isExcludedSource) {
+        console.log(`❌ 排除低质量摘要新闻源: ${item.source?.name} - ${item.title.substring(0, 50)}...`);
+        return false;
+      }
+      
+      // 检查标题是否为摘要类新闻
+      const isExcludedTitle = excludeTitlePatterns.some(pattern => 
+        pattern.test(item.title)
+      );
+      
+      if (isExcludedTitle) {
+        console.log(`❌ 排除摘要类标题: ${item.title.substring(0, 50)}...`);
+        return false;
+      }
+      
+      return true;
+    });
+    
+    console.log(`过滤后剩余 ${filteredNews.length} 条新闻（原始 ${rawNews.length} 条）`);
+    
     // 处理每条新闻
     const processedNews = await Promise.all(
-      rawNews.map(async (item, index) => {
+      filteredNews.map(async (item, index) => {
         try {
           // 翻译标题和摘要
           const translatedTitle = await translateText(item.title);
