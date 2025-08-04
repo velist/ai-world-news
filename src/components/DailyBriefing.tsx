@@ -117,10 +117,10 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
         
         const topNews = localizedNews.map((news: any, index: number) => ({
           id: news.id || `briefing_${index}`,
-          title: news.title || 'Untitled',
-          description: news.aiInsight ? 
+          // 使用新闻标题作为一句话描述，因为标题本身就是概括性的
+          description: news.title || (news.aiInsight ? 
             (news.aiInsight.length > 80 ? news.aiInsight.substring(0, 80) + '...' : news.aiInsight) :
-            (news.summary ? (news.summary.length > 80 ? news.summary.substring(0, 80) + '...' : news.summary) : (isZh ? '暂无描述' : 'No description')),
+            (news.summary ? (news.summary.length > 80 ? news.summary.substring(0, 80) + '...' : news.summary) : (isZh ? '暂无描述' : 'No description'))),
           category: news.category || 'AI',
           importance: index < 3 ? 'high' : index < 7 ? 'medium' : 'low' as const,
           timestamp: news.publishedAt || new Date().toISOString()
