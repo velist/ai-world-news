@@ -218,12 +218,8 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
                         </span>
                       </div>
                       
-                      <h3 className="font-semibold text-gray-900 mb-2 line-clamp-2">
-                        {item.title}
-                      </h3>
-                      
-                      {/* 只显示一句话描述，不显示完整摘要 */}
-                      <p className="text-sm text-gray-600 line-clamp-1 italic">
+                      {/* 简报只显示一句话描述，不显示标题 */}
+                      <p className="text-sm text-gray-700 leading-relaxed">
                         {item.description}
                       </p>
                       
