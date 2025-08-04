@@ -5,6 +5,17 @@ console.log('生成RSS feed...');
 import { readFileSync, writeFileSync, existsSync } from 'fs';
 import path from 'path';
 
+// XML转义函数
+function escapeXml(text) {
+  if (!text) return '';
+  return text.toString()
+    .replace(/&/g, '&amp;')
+    .replace(/</g, '&lt;')
+    .replace(/>/g, '&gt;')
+    .replace(/"/g, '&quot;')
+    .replace(/'/g, '&apos;');
+}
+
 // 生成RSS feed
 function generateRSSFeed(newsItems) {
   const siteUrl = 'https://ai-world-news.com';
@@ -15,10 +26,10 @@ function generateRSSFeed(newsItems) {
     <item>
       <title><![CDATA[${item.title}]]></title>
       <description><![CDATA[${item.summary || item.content}]]></description>
-      <link>${item.originalUrl}</link>
+      <link>${escapeXml(item.originalUrl)}</link>
       <guid>${item.id}</guid>
       <pubDate>${new Date(item.publishedAt).toUTCString()}</pubDate>
-      <source url="${siteUrl}">${item.source}</source>
+      <source url="${siteUrl}">${escapeXml(item.source)}</source>
     </item>
   `).join('');
 

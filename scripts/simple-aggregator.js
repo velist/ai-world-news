@@ -281,23 +281,59 @@ async function generateAIInsight(title, content) {
   }
 }
 
-// 简化的AI洞察生成（备用方案）
+// 改进的AI洞察生成（备用方案）
 function generateSimpleInsight(title, content) {
   const text = (title + ' ' + (content || '')).toLowerCase();
   
+  // 基于关键词的智能分析
+  let insight = '';
+  let techAspect = '';
+  let industryImpact = '';
+  let futureTrend = '';
+  
+  // 技术发展分析
   if (text.includes('chatgpt') || text.includes('gpt')) {
-    return '这篇新闻涉及ChatGPT相关技术发展，反映了大语言模型在各个领域的应用趋势和商业化进程。';
-  } else if (text.includes('机器学习') || text.includes('深度学习')) {
-    return '该新闻展示了机器学习/深度学习技术的最新进展，对AI技术发展具有重要意义。';
+    techAspect = 'ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展';
+    industryImpact = '这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用';
+    futureTrend = '未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务';
   } else if (text.includes('大模型') || text.includes('llm')) {
-    return '该新闻展示了大语言模型技术的最新进展，对AI能力提升和应用拓展具有重要价值。';
-  } else if (text.includes('芯片') || text.includes('半导体')) {
-    return '此新闻涉及AI芯片技术发展，对算力基础设施和AI硬件创新具有重要意义。';
-  } else if (text.includes('编程') || text.includes('代码') || text.includes('ide')) {
-    return '该新闻反映了AI在编程开发领域的应用进展，对软件开发和编程效率提升具有重要影响。';
+    techAspect = '大语言模型技术的进步标志着AI理解和生成能力的显著提升';
+    industryImpact = '这对知识工作、创意产业和智能助手市场将产生深远影响';
+    futureTrend = '预计未来大模型将向更高效、更专业化的方向发展';
+  } else if (text.includes('芯片') || text.includes('半导体') || text.includes('nvidia')) {
+    techAspect = 'AI芯片技术的发展直接影响着AI计算能力和效率的提升';
+    industryImpact = '这将加速AI在数据中心、边缘计算和消费电子领域的部署';
+    futureTrend = '未来AI芯片将更加注重能效比和专用化设计';
+  } else if (text.includes('自动驾驶') || text.includes('智能驾驶')) {
+    techAspect = '自动驾驶技术融合了计算机视觉、深度学习和传感器技术';
+    industryImpact = '这将革命性地改变交通运输行业和城市规划模式';
+    futureTrend = '未来自动驾驶将向更高级别的无人驾驶和智慧交通发展';
+  } else if (text.includes('机器人') || text.includes('智能体') || text.includes('agent')) {
+    techAspect = '智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力';
+    industryImpact = '这将在制造业、服务业和家庭生活中创造新的应用场景';
+    futureTrend = '未来机器人将更加智能化、人性化，能够承担更复杂的任务';
+  } else if (text.includes('编程') || text.includes('代码') || text.includes('ide') || text.includes('开发')) {
+    techAspect = 'AI编程助手技术展现了代码理解、生成和优化的强大能力';
+    industryImpact = '这将显著提升软件开发效率，降低编程门槛';
+    futureTrend = '未来AI将更深度参与软件开发全流程，推动编程范式变革';
+  } else if (text.includes('百度') || text.includes('阿里') || text.includes('腾讯') || text.includes('华为')) {
+    techAspect = '中国科技巨头在AI领域的布局体现了技术自主创新的重要性';
+    industryImpact = '这将推动中国AI产业的快速发展和国际竞争力提升';
+    futureTrend = '未来中国AI企业将在全球AI生态系统中发挥更重要作用';
+  } else if (text.includes('openai') || text.includes('google') || text.includes('microsoft')) {
+    techAspect = '国际AI巨头的技术突破引领着全球AI发展方向';
+    industryImpact = '这将影响全球AI产业格局和技术标准制定';
+    futureTrend = '未来国际AI竞争将更加激烈，技术创新速度将持续加快';
   } else {
-    return '这篇新闻反映了AI领域的最新发展动态，对了解行业趋势具有重要参考价值。';
+    techAspect = '该技术发展体现了AI在特定领域的应用创新';
+    industryImpact = '这将为相关行业带来新的机遇和挑战';
+    futureTrend = '未来AI技术将更加成熟，应用场景将不断扩展';
   }
+  
+  // 构建综合分析
+  insight = `从技术发展角度看，${techAspect}。从行业影响来看，${industryImpact}。未来趋势方面，${futureTrend}。这一发展对于推动AI技术进步和产业应用具有重要意义。`;
+  
+  return insight;
 }
 
 // 处理单个新闻项
