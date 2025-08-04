@@ -27,6 +27,11 @@ const RSS_SOURCES = [
     name: 'InfoQ中文',
     url: 'https://www.infoq.cn/feed',
     category: '科技'
+  },
+  {
+    name: 'IT之家',
+    url: 'https://www.ithome.com/rss/',
+    category: '科技'
   }
 ];
 
@@ -44,6 +49,22 @@ function isAINews(title, content) {
     text.toLowerCase().includes(keyword.toLowerCase()) ||
     text.includes(keyword)
   );
+}
+
+// 判断是否为国内AI新闻
+function isDomesticAINews(title, content, source) {
+  if (!isAINews(title, content)) return false;
+  
+  const domesticSources = ['36氪', '钛媒体', 'InfoQ中文', 'IT之家'];
+  const domesticKeywords = ['中国', '国内', '百度', '阿里', '腾讯', '字节', '华为', '小米', '京东', '美团', '滴滴', '网易', '新浪', '搜狐', '携程'];
+  
+  const text = (title + ' ' + (content || '')).toLowerCase();
+  const isDomesticSource = domesticSources.includes(source.name);
+  const hasDomesticKeywords = domesticKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
+  
+  return isDomesticSource || hasDomesticKeywords;
 }
 
 // 清理内容
@@ -94,6 +115,13 @@ function processNewsItem(item, source) {
   const summary = cleanContent(item.contentSnippet || item.content || '');
   const truncatedSummary = summary.length > 200 ? summary.substring(0, 200) + '...' : summary;
   
+  let category;
+  if (isAINews(item.title, item.content)) {
+    category = isDomesticAINews(item.title, item.content, source) ? '国内AI' : '国外AI';
+  } else {
+    category = source.category;
+  }
+  
   return {
     id: generateId(item.title, item.pubDate),
     title: item.title || '无标题',
@@ -102,7 +130,7 @@ function processNewsItem(item, source) {
     imageUrl: extractImageUrl(item),
     source: source.name,
     publishedAt: item.pubDate || new Date().toISOString(),
-    category: isAINews(item.title, item.content) ? 'AI' : source.category,
+    category: category,
     originalUrl: item.link,
     aiInsight: generateAIInsight(item.title, item.contentSnippet || item.content)
   };
@@ -202,11 +230,141 @@ class NewsAggregator {
       try {
         const count = await aggregateNews();
         console.log(`[${new Date().toLocaleString()}] 定时聚合完成，获取 ${count} 条新闻`);
+        
+        // 聚合完成后自动生成RSS feed
+        await generateRSSFiles();
+        console.log(`[${new Date().toLocaleString()}] RSS feed已更新`);
       } catch (error) {
         console.error(`[${new Date().toLocaleString()}] 定时聚合失败:`, error.message);
       }
     }
   }
+}
+
+// 生成RSS文件
+async function generateRSSFiles() {
+  try {
+    const fs = await import('fs').then(m => m.promises);
+    
+    // 读取新闻数据
+    const newsDataPath = 'public/news-data.json';
+    let newsItems = [];
+    
+    if (await fs.access(newsDataPath).catch(() => false)) {
+      const newsData = JSON.parse(await fs.readFile(newsDataPath, 'utf8'));
+      newsItems = newsData.data || [];
+    }
+    
+    // 生成RSS feed
+    const rssFeed = generateRSSFeed(newsItems);
+    await fs.writeFile('public/rss.xml', rssFeed, 'utf8');
+    
+    // 生成JSON feed
+    const jsonFeed = generateJSONFeed(newsItems);
+    await fs.writeFile('public/feed.json', JSON.stringify(jsonFeed, null, 2), 'utf8');
+    
+    // 生成站点地图
+    const sitemap = generateSitemap(newsItems);
+    await fs.writeFile('public/sitemap.xml', sitemap, 'utf8');
+    
+    console.log(`RSS feed已更新，包含 ${newsItems.length} 条新闻`);
+  } catch (error) {
+    console.error('生成RSS文件失败:', error.message);
+  }
+}
+
+// 生成RSS feed
+function generateRSSFeed(newsItems) {
+  const siteUrl = 'https://ai-world-news.com';
+  const siteTitle = 'AI世界新闻';
+  const siteDescription = '最新AI资讯与深度报道';
+  
+  const items = newsItems.slice(0, 20).map(item => `
+    <item>
+      <title><![CDATA[${item.title}]]></title>
+      <description><![CDATA[${item.summary || item.content}]]></description>
+      <link>${item.originalUrl}</link>
+      <guid>${item.id}</guid>
+      <pubDate>${new Date(item.publishedAt).toUTCString()}</pubDate>
+      <source url="${siteUrl}">${item.source}</source>
+    </item>
+  `).join('');
+
+  return `<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title><![CDATA[${siteTitle}]]></title>
+    <description><![CDATA[${siteDescription}]]></description>
+    <link>${siteUrl}</link>
+    <atom:link href="${siteUrl}/rss.xml" rel="self" type="application/rss+xml"/>
+    <language>zh-CN</language>
+    <lastBuildDate>${new Date().toUTCString()}</lastBuildDate>
+    ${items}
+  </channel>
+</rss>`;
+}
+
+// 生成JSON feed
+function generateJSONFeed(newsItems) {
+  const siteUrl = 'https://ai-world-news.com';
+  
+  return {
+    version: 'https://jsonfeed.org/version/1.1',
+    title: 'AI世界新闻',
+    description: '最新AI资讯与深度报道',
+    home_page_url: siteUrl,
+    feed_url: `${siteUrl}/feed.json`,
+    items: newsItems.slice(0, 20).map(item => ({
+      id: item.id,
+      title: item.title,
+      content_text: item.content,
+      summary: item.summary,
+      url: item.originalUrl,
+      image: item.imageUrl,
+      date_published: item.publishedAt,
+      author: {
+        name: item.source
+      }
+    }))
+  };
+}
+
+// 生成站点地图
+function generateSitemap(newsItems) {
+  const siteUrl = 'https://ai-world-news.com';
+  
+  let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <url>
+    <loc>${siteUrl}</loc>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+  </url>
+  <url>
+    <loc>${siteUrl}/rss.xml</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>${siteUrl}/feed.json</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+  </url>
+`;
+  
+  // 添加最新新闻到站点地图
+  newsItems.slice(0, 50).forEach(item => {
+    sitemap += `
+  <url>
+    <loc>${item.originalUrl}</loc>
+    <lastmod>${new Date(item.publishedAt).toISOString().split('T')[0]}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>`;
+  });
+  
+  sitemap += '\n</urlset>';
+  return sitemap;
 }
 
 // 如果直接运行此脚本
