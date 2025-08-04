@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Clock, ExternalLink, Share2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { useTitleTranslation } from "@/hooks/useTitleTranslation";
 
 interface NewsCardProps {
   id: string;
@@ -24,6 +25,11 @@ export const NewsCard = ({
   category,
   onClick,
 }: NewsCardProps) => {
+  const { improveTitle, improveSummary } = useTitleTranslation();
+  
+  // 使用改进的标题和摘要
+  const displayTitle = improveTitle(title);
+  const displaySummary = improveSummary(summary);
   const getCategoryStyle = (category: string) => {
     switch (category.toLowerCase()) {
       case 'ai模型':
@@ -62,7 +68,7 @@ export const NewsCard = ({
     e.stopPropagation(); // 阻止卡片点击事件
     
     const shareUrl = `https://news.aipush.fun/?news=${id}`;
-    const shareText = `${title} - 来自AI推趣新闻`;
+    const shareText = `${displayTitle} - 来自AI推趣新闻`;
     
     // 检测是否在微信浏览器中
     const isWechat = /micromessenger/i.test(navigator.userAgent);
@@ -77,7 +83,7 @@ export const NewsCard = ({
     if (navigator.share) {
       navigator.share({
         title: shareText,
-        text: summary.substring(0, 100) + '...',
+        text: displaySummary.substring(0, 100) + '...',
         url: shareUrl,
       }).catch(console.error);
     } else {
@@ -126,7 +132,7 @@ export const NewsCard = ({
         <div className="relative overflow-hidden rounded-t-lg">
           <img 
             src={imageUrl} 
-            alt={title}
+            alt={displayTitle}
             className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
             onError={(e) => {
@@ -156,11 +162,11 @@ export const NewsCard = ({
       
       <CardContent className="p-4 space-y-3">
         <h3 className="font-semibold text-lg leading-tight text-foreground line-clamp-2 group-hover:text-primary transition-colors duration-200">
-          {title}
+          {displayTitle}
         </h3>
         
         <p className="text-muted-foreground text-sm leading-relaxed line-clamp-3">
-          {summary}
+          {displaySummary}
         </p>
         
         <div className="flex items-center justify-between pt-2">
