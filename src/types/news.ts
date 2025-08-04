@@ -13,6 +13,8 @@ export interface NewsItem {
   originalTitle?: string;
   originalSummary?: string;
   originalContent?: string;
+  // 标识是否为翻译内容
+  isTranslatedContent?: boolean;
 }
 
 export interface NewsCategory {

@@ -33,13 +33,27 @@ export const useNewsTranslation = () => {
       // 中文用户：直接使用当前的翻译内容
       return news;
     } else {
-      // 英文用户：尝试获取原始英文内容
-      return {
-        ...news,
-        title: news.originalTitle || news.title || 'Loading title...',
-        summary: news.originalSummary || news.summary || 'No summary available',
-        content: news.originalContent || news.content || 'No content available'
-      };
+      // 英文用户：优先使用原始英文内容，如果没有则使用翻译内容并添加说明
+      const hasOriginalContent = news.originalTitle || news.originalSummary || news.originalContent;
+      
+      if (hasOriginalContent) {
+        return {
+          ...news,
+          title: news.originalTitle || news.title,
+          summary: news.originalSummary || news.summary,
+          content: news.originalContent || news.content
+        };
+      } else {
+        // 如果没有原始英文内容，为英文用户提供翻译内容但添加说明
+        return {
+          ...news,
+          title: news.title,
+          summary: news.summary,
+          content: news.content,
+          // 添加说明标识这是翻译内容
+          isTranslatedContent: true
+        };
+      }
     }
   };
 

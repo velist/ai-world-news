@@ -15,6 +15,7 @@ interface NewsDetailProps {
   category: string;
   originalUrl?: string;
   aiInsight?: string;
+  isTranslatedContent?: boolean;
   onBack: () => void;
 }
 
@@ -27,6 +28,7 @@ export const NewsDetail = ({
   category,
   originalUrl,
   aiInsight,
+  isTranslatedContent,
   onBack,
 }: NewsDetailProps) => {
   const { isZh } = useLanguage();
@@ -143,9 +145,19 @@ export const NewsDetail = ({
             {category}
           </Badge>
           
-          <h1 className="text-3xl font-bold leading-tight text-foreground">
-            {displayTitle}
-          </h1>
+          <div className="space-y-2">
+            <h1 className="text-3xl font-bold leading-tight text-foreground">
+              {displayTitle}
+            </h1>
+            {/* 翻译内容提示 */}
+            {!isZh && isTranslatedContent && (
+              <div className="bg-blue-50 border border-blue-200 rounded-lg p-2">
+                <p className="text-sm text-blue-800">
+                  ℹ️ This content is translated from Chinese. Original English version not available.
+                </p>
+              </div>
+            )}
+          </div>
           
           <div className="flex items-center space-x-4 text-sm text-muted-foreground">
             <div className="flex items-center space-x-1">
