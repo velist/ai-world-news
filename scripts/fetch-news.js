@@ -343,18 +343,19 @@ async function categorizeNewsWithAI(title, content, originalTitle = '', original
       return categorizeNewsTraditional(title, content);
     }
 
-    const prompt = `请根据以下新闻内容，将其准确分类为以下4个类别之一：AI、科技、经济、深度分析
+    const prompt = `请根据以下新闻内容，将其准确分类为以下5个类别之一：国内AI、国外AI、科技、经济、深度分析
 
 分类规则：
-1. **AI类别**：包含人工智能、机器学习、AI模型、AI应用、AI公司、自动驾驶、机器人等所有与AI相关的内容
-2. **科技类别**：硬件产品、软件应用、游戏、社交媒体、网络安全等传统科技内容（不含AI）
-3. **经济类别**：股市、金融、加密货币、投资、经济政策等财经内容（不含AI相关投资）
-4. **深度分析类别**：其他内容或需要深度分析的复杂话题
+1. **国内AI类别**：与中国公司、机构或个人相关的AI新闻，包括百度、阿里、腾讯、华为、字节、智谱、商汤等中国AI企业，以及中国政府AI政策、中国AI研究成果等
+2. **国外AI类别**：与美国、欧洲等其他国家相关的AI新闻，包括OpenAI、Google、Microsoft、Meta、Anthropic等国外AI企业，以及国外AI研究进展
+3. **科技类别**：硬件产品、软件应用、游戏、社交媒体、网络安全等传统科技内容（不含AI）
+4. **经济类别**：股市、金融、加密货币、投资、经济政策等财经内容（不含AI相关投资）
+5. **深度分析类别**：其他内容或需要深度分析的复杂话题
 
 新闻标题：${title}
 新闻内容：${content.substring(0, 800)}
 
-请只回复一个类别名称：AI、科技、经济 或 深度分析`;
+请只回复一个类别名称：国内AI、国外AI、科技、经济 或 深度分析`;
 
     const response = await fetch('https://open.bigmodel.cn/api/paas/v4/chat/completions', {
       method: 'POST',
@@ -378,7 +379,7 @@ async function categorizeNewsWithAI(title, content, originalTitle = '', original
       const aiCategory = data.choices[0]?.message?.content?.trim();
       
       // 验证AI返回的分类是否有效
-      const validCategories = ['AI', '科技', '经济', '深度分析'];
+      const validCategories = ['国内AI', '国外AI', '科技', '经济', '深度分析'];
       if (validCategories.includes(aiCategory)) {
         console.log(`AI分类结果: ${title.substring(0, 50)}... → ${aiCategory}`);
         return aiCategory;
@@ -404,18 +405,19 @@ async function categorizeNewsWithVolcEngine(title, content) {
       return categorizeNewsTraditional(title, content);
     }
 
-    const prompt = `请根据以下新闻内容，将其准确分类为以下4个类别之一：AI、科技、经济、深度分析
+    const prompt = `请根据以下新闻内容，将其准确分类为以下5个类别之一：国内AI、国外AI、科技、经济、深度分析
 
 分类规则：
-1. **AI类别**：包含人工智能、机器学习、AI模型、AI应用、AI公司、自动驾驶、机器人等所有与AI相关的内容
-2. **科技类别**：硬件产品、软件应用、游戏、社交媒体、网络安全等传统科技内容（不含AI）
-3. **经济类别**：股市、金融、加密货币、投资、经济政策等财经内容（不含AI相关投资）
-4. **深度分析类别**：其他内容或需要深度分析的复杂话题
+1. **国内AI类别**：与中国公司、机构或个人相关的AI新闻，包括百度、阿里、腾讯、华为、字节、智谱、商汤等中国AI企业，以及中国政府AI政策、中国AI研究成果等
+2. **国外AI类别**：与美国、欧洲等其他国家相关的AI新闻，包括OpenAI、Google、Microsoft、Meta、Anthropic等国外AI企业，以及国外AI研究进展
+3. **科技类别**：硬件产品、软件应用、游戏、社交媒体、网络安全等传统科技内容（不含AI）
+4. **经济类别**：股市、金融、加密货币、投资、经济政策等财经内容（不含AI相关投资）
+5. **深度分析类别**：其他内容或需要深度分析的复杂话题
 
 新闻标题：${title}
 新闻内容：${content.substring(0, 800)}
 
-请只回复一个类别名称：AI、科技、经济 或 深度分析`;
+请只回复一个类别名称：国内AI、国外AI、科技、经济 或 深度分析`;
 
     const response = await fetch('https://ark.cn-beijing.volces.com/api/v3/chat/completions', {
       method: 'POST',
@@ -438,7 +440,7 @@ async function categorizeNewsWithVolcEngine(title, content) {
       const data = await response.json();
       const aiCategory = data.choices[0]?.message?.content?.trim();
       
-      const validCategories = ['AI', '科技', '经济', '深度分析'];
+      const validCategories = ['国内AI', '国外AI', '科技', '经济', '深度分析'];
       if (validCategories.includes(aiCategory)) {
         console.log(`火山方舟分类结果: ${title.substring(0, 50)}... → ${aiCategory}`);
         return aiCategory;
@@ -606,22 +608,49 @@ function generateFallbackImage(title = '') {
   return 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop&auto=format';
 }
 
+// 判断是否为国内AI新闻
+function isDomesticAINews(title, content, source) {
+  const text = (title + ' ' + content).toLowerCase();
+  const domesticSources = ['36氪', '钛媒体', 'InfoQ中文', 'IT之家', '机器之心', '新浪科技', '腾讯科技', '网易科技', '百度科技'];
+  const domesticKeywords = ['中国', '国内', '百度', '阿里', '腾讯', '字节', '华为', '小米', '京东', '美团', '滴滴', '网易', '新浪', '搜狐', '携程', '智谱', '文心一言', '通义千问', '讯飞星火', '商汤', '旷视', '依图', '云从'];
+  
+  const isDomesticSource = domesticSources.some(s => source.toLowerCase().includes(s.toLowerCase()));
+  const hasDomesticKeywords = domesticKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
+  
+  return isDomesticSource || hasDomesticKeywords;
+}
+
 // 主分类函数，优先使用AI分类，失败时使用传统分类
 async function categorizeNews(title, content, originalTitle = '', originalContent = '') {
   // 首先尝试智谱清言AI分类
   const aiCategory = await categorizeNewsWithAI(title, content, originalTitle, originalContent);
   if (aiCategory && aiCategory !== 'error') {
+    // 如果是AI类别，进一步区分为国内AI还是国外AI
+    if (aiCategory === 'AI') {
+      return isDomesticAINews(title, content, '') ? '国内AI' : '国外AI';
+    }
     return aiCategory;
   }
   
   // 如果智谱清言失败，尝试火山方舟
   const volcCategory = await categorizeNewsWithVolcEngine(title, content);
   if (volcCategory && volcCategory !== 'error') {
+    // 如果是AI类别，进一步区分为国内AI还是国外AI
+    if (volcCategory === 'AI') {
+      return isDomesticAINews(title, content, '') ? '国内AI' : '国外AI';
+    }
     return volcCategory;
   }
   
   // 最后使用传统关键词分类
-  return categorizeNewsTraditional(title, content);
+  const traditionalCategory = categorizeNewsTraditional(title, content);
+  // 如果是AI类别，进一步区分为国内AI还是国外AI
+  if (traditionalCategory === 'AI') {
+    return isDomesticAINews(title, content, '') ? '国内AI' : '国外AI';
+  }
+  return traditionalCategory;
 }
 
 async function main() {

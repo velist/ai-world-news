@@ -67,8 +67,8 @@ export const useNews = () => {
         return localizedItemCategory === selectedCategory;
       });
 
-  // 添加"全部"分类作为首选项，将"AI模型"改为"AI"
-  const rawCategories = ['全部', 'AI', '科技', '经济', '深度分析'];
+  // 添加"全部"分类作为首选项，包括国内AI、国外AI分类
+  const rawCategories = ['全部', '国内AI', '国外AI', '科技', '经济', '深度分析'];
   const categories = rawCategories.map(cat => getLocalizedCategory(cat));
 
   return {

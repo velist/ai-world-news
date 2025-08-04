@@ -7,9 +7,13 @@ export const useNewsTranslation = () => {
     if (!category) return isZh ? '其他' : 'Other';
     
     const categoryMap: Record<string, { zh: string; en: string }> = {
-      'ai': { zh: 'AI模型', en: 'AI Models' },
-      'ai模型': { zh: 'AI模型', en: 'AI Models' },
-      'ai 模型': { zh: 'AI模型', en: 'AI Models' },
+      'ai': { zh: 'AI', en: 'AI' },
+      'ai模型': { zh: 'AI', en: 'AI' },
+      'ai 模型': { zh: 'AI', en: 'AI' },
+      '国内ai': { zh: '国内AI', en: 'Domestic AI' },
+      '国内AI': { zh: '国内AI', en: 'Domestic AI' },
+      '国外ai': { zh: '国外AI', en: 'International AI' },
+      '国外AI': { zh: '国外AI', en: 'International AI' },
       'tech': { zh: '科技', en: 'Technology' },
       '科技': { zh: '科技', en: 'Technology' },
       'economy': { zh: '经济', en: 'Economy' },
