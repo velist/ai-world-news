@@ -552,7 +552,19 @@ function categorizeNewsTraditional(title, content) {
     return null; // 不是AI新闻
   }
   
-  // 首先检查是否为国外AI公司/产品 - 优先级最高
+  // 检查是否为AI趣味新闻 - 需要在国外AI检查之前
+  const funAIKeywords = [
+    '有趣', '好玩', '新奇', '神奇', '惊人', '震撼', '创意', '趣味',
+    'AI绘画', 'AI写作', 'AI作曲', 'AI游戏', 'AI娱乐', 'AI聊天',
+    'ChatGPT写诗', 'AI作画', 'AI生成图片', 'AI创作', 'AI设计', '比赛', '获奖',
+    '娱乐', '创意', '艺术', '音乐', '诗歌', '小说', '故事'
+  ];
+  
+  const isFunAI = funAIKeywords.some(keyword => 
+    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
+  );
+  
+  // 首先检查是否为国外AI公司/产品 - 但排除趣味性内容
   const foreignAIKeywords = [
     // 美国AI公司
     'OpenAI', 'Google', 'Microsoft', 'Meta', 'Facebook', 'Apple', 'Amazon', 'Tesla',
@@ -607,20 +619,20 @@ function categorizeNewsTraditional(title, content) {
     text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
   );
   
-  // 分类逻辑 - 修正优先级
+  // 分类逻辑 - 修正优先级，趣味新闻优先级较高
   // 1. 首先判断是否为中国AI（优先级最高，避免被国外关键词误分类）
-  if (isChineseAI) {
+  if (isChineseAI && !isFunAI) {
     return '中国AI';
   }
   
-  // 2. 然后判断是否为国外AI
-  if (isForeignAI) {
-    return '国际AI';
-  }
-  
-  // 3. 判断是否为趣味新闻
+  // 2. 判断是否为趣味新闻（优先级高于国际AI）
   if (isFunAI) {
     return 'AI趣味新闻';
+  }
+  
+  // 3. 然后判断是否为国外AI
+  if (isForeignAI) {
+    return '国际AI';
   }
   
   // 4. 判断是否为科技新闻
