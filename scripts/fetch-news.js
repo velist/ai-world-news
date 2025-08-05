@@ -345,11 +345,33 @@ async function categorizeNewsWithAI(title, content, originalTitle = '', original
 
     const prompt = `请根据以下新闻内容，将其准确分类为以下4个类别之一：中国AI、国际AI、科技新闻、AI趣味新闻
 
-分类规则：
-1. **中国AI类别**：与中国公司、机构或个人相关的AI新闻，包括百度、阿里、腾讯、华为、字节、智谱、商汤、DeepSeek等中国AI企业，以及中国政府AI政策、中国AI研究成果等
-2. **国际AI类别**：与美国、欧洲等其他国家相关的AI新闻，包括OpenAI、Google、Microsoft、Meta、Anthropic等国外AI企业，以及国外AI研究进展
-3. **科技新闻类别**：AI技术相关但不是纯模型新闻，如AI芯片、AI框架、IDE、编程、软件开发、Agent等
-4. **AI趣味新闻类别**：AI绘画、AI写作、AI作曲、AI游戏、AI娱乐等趣味应用
+**严格的AI新闻分类规则**：
+
+1. **中国AI类别**：专门报道中国AI公司、机构或个人的AI技术新闻，包括：
+   - 中国AI企业（智谱、商汤、旷视、依图、云从、百度AI、阿里AI、腾讯AI、华为AI、科大讯飞等）
+   - 中国AI模型（文心一言、通义千问、讯飞星火、DeepSeek、月之暗面、零一万物、百川智能等）
+   - 中国AI研究成果、技术突破、产品发布
+   - 中国AI政策、行业标准、人才培养
+
+2. **国际AI类别**：专门报道国外AI公司、机构或个人的AI技术新闻，包括：
+   - 国外AI企业（OpenAI、Google AI、Microsoft AI、Meta AI、Anthropic、Cohere等）
+   - 国外AI模型（ChatGPT、GPT-4、Claude、Gemini、Llama、Mistral等）
+   - 国外AI研究进展、技术突破、产品发布
+
+3. **科技新闻类别**：报道AI技术基础设施、开发工具、应用场景的新闻，包括：
+   - AI芯片、AI框架、开发工具、IDE、编程环境
+   - AI技术在软件开发、编程辅助、代码生成中的应用
+   - AI Agent、多模态技术、推理优化等技术层面内容
+
+4. **AI趣味新闻类别**：报道AI在创意、娱乐、艺术等领域的趣味应用，包括：
+   - AI绘画、AI写作、AI作曲、AI游戏、AI娱乐
+   - AI创意作品、有趣应用、新奇体验
+
+**需要排除的内容**：
+- 股票、财经、投资、融资等商业新闻
+- 政策、法规、政府等政治新闻
+- 普通科技产品、手机、电脑等消费电子新闻
+- 汽车、房地产、教育、医疗等非AI领域新闻
 
 新闻标题：${title}
 新闻内容：${content.substring(0, 800)}
@@ -406,11 +428,33 @@ async function categorizeNewsWithVolcEngine(title, content) {
 
     const prompt = `请根据以下新闻内容，将其准确分类为以下4个类别之一：中国AI、国际AI、科技新闻、AI趣味新闻
 
-分类规则：
-1. **中国AI类别**：与中国公司、机构或个人相关的AI新闻，包括百度、阿里、腾讯、华为、字节、智谱、商汤、DeepSeek等中国AI企业，以及中国政府AI政策、中国AI研究成果等
-2. **国际AI类别**：与美国、欧洲等其他国家相关的AI新闻，包括OpenAI、Google、Microsoft、Meta、Anthropic等国外AI企业，以及国外AI研究进展
-3. **科技新闻类别**：AI技术相关但不是纯模型新闻，如AI芯片、AI框架、IDE、编程、软件开发、Agent等
-4. **AI趣味新闻类别**：AI绘画、AI写作、AI作曲、AI游戏、AI娱乐等趣味应用
+**严格的AI新闻分类规则**：
+
+1. **中国AI类别**：专门报道中国AI公司、机构或个人的AI技术新闻，包括：
+   - 中国AI企业（智谱、商汤、旷视、依图、云从、百度AI、阿里AI、腾讯AI、华为AI、科大讯飞等）
+   - 中国AI模型（文心一言、通义千问、讯飞星火、DeepSeek、月之暗面、零一万物、百川智能等）
+   - 中国AI研究成果、技术突破、产品发布
+   - 中国AI政策、行业标准、人才培养
+
+2. **国际AI类别**：专门报道国外AI公司、机构或个人的AI技术新闻，包括：
+   - 国外AI企业（OpenAI、Google AI、Microsoft AI、Meta AI、Anthropic、Cohere等）
+   - 国外AI模型（ChatGPT、GPT-4、Claude、Gemini、Llama、Mistral等）
+   - 国外AI研究进展、技术突破、产品发布
+
+3. **科技新闻类别**：报道AI技术基础设施、开发工具、应用场景的新闻，包括：
+   - AI芯片、AI框架、开发工具、IDE、编程环境
+   - AI技术在软件开发、编程辅助、代码生成中的应用
+   - AI Agent、多模态技术、推理优化等技术层面内容
+
+4. **AI趣味新闻类别**：报道AI在创意、娱乐、艺术等领域的趣味应用，包括：
+   - AI绘画、AI写作、AI作曲、AI游戏、AI娱乐
+   - AI创意作品、有趣应用、新奇体验
+
+**需要排除的内容**：
+- 股票、财经、投资、融资等商业新闻
+- 政策、法规、政府等政治新闻
+- 普通科技产品、手机、电脑等消费电子新闻
+- 汽车、房地产、教育、医疗等非AI领域新闻
 
 新闻标题：${title}
 新闻内容：${content.substring(0, 800)}
@@ -458,24 +502,41 @@ function categorizeNewsTraditional(title, content) {
   
   // 需要排除的内容（政治、经济、普通科技等）
   const excludeKeywords = [
-    // 政治相关
-    '政策', '监管', '法规', '政府', '国家战略', '白宫', '总统',
+    // 股票和财经相关
+    '股票', '股市', '上证', '深证', '创业板', '科创板', '纳斯达克', '纽交所', '道琼斯',
+    '股价', '市值', '涨停', '跌停', '财报', '收益', '盈利', '亏损', '财务报表',
+    '投资', '融资', '募资', '轮融资', '估值', '收购', '兼并', '并购', 'IPO', '上市',
+    '基金', '债券', '期货', '证券', '银行', '保险', '金融', '财经', '经济数据',
+    '美联储', '央行', '利率', '通胀', 'GDP', '经济指标', '市场分析', '行业报告',
+    '成本控制', '成本削减', '财务成本', '运营成本', '管理成本',
+    '加密货币', '虚拟货币', '比特币', '以太坊', '数字货币', '稳定币', 'Stablecoin',
+    '区块链', 'BlockChain', '代币', 'Token', '挖矿', 'Mining', '交易所', 'Exchange',
+    'SEC', '证券交易委员会', '金融监管', '金融法规', '监管条例', '许可证', 'Licensing',
     
-    // 经济相关
-    '市场份额', '销量', '营收', '利润', '融资', '上市', '股价', '市值',
-    '投资', '募资', '轮融资', '估值', '收购', '兼并',
+    // 政治相关（精确匹配，避免误伤AI技术新闻）
+    '政府政策', '监管政策', '法规制定', '政府战略', '国家战略', '白宫', '总统', '国会', '议会',
+    '选举投票', '选举结果', '投票法案', '法律制定', '法规条例', '官方规定', '部委行政', '行政机关',
     
-    // 普通科技产品
-    '手机', '平板', '笔记本', '电脑', '显示器', '键盘', '鼠标', '耳机',
-    '充电器', '电池', '内存', '硬盘', '处理器', '显卡', '主板',
-    '鸿蒙', 'HarmonyOS', 'Android', 'iOS', 'Windows', 'macOS',
+    // 普通科技产品（非AI相关）
+    '手机', '平板', '笔记本', '电脑', '显示器', '键盘', '鼠标', '耳机', '音响',
+    '充电器', '电池', '内存', '硬盘', '处理器', '显卡', '主板', '路由器', '智能手表',
+    '鸿蒙', 'HarmonyOS', 'Android', 'iOS', 'Windows', 'macOS', 'Linux', 'Ubuntu',
+    'iPhone', 'iPad', 'MacBook', '三星', '小米', '华为手机', 'OPPO', 'vivo',
     
-    // 汽车相关
-    '电动汽车', '新能源车', '充电桩', '电池技术', '汽车', '车辆',
-    'OTA升级', '泊车辅助', '智能座舱', '手车互联',
+    // 汽车相关（非AI驾驶技术）
+    '电动汽车', '新能源车', '充电桩', '电池技术', '汽车', '车辆', '传统汽车',
+    '发动机', '变速箱', '底盘', '车身', '汽车制造', '汽车销售', '4S店',
     
-    // 其他不需要的内容
-    '娱乐', '游戏', '体育', '音乐', '电影', '电视', '明星', '网红'
+    // 传统电子产品
+    '电视', '冰箱', '空调', '洗衣机', '微波炉', '电饭煲', '智能家居',
+    
+    // 娱乐和生活方式
+    '娱乐', '游戏', '体育', '音乐', '电影', '电视节目', '明星', '网红', '综艺',
+    '美食', '旅游', '健身', '时尚', '购物', '电商', '快递', '物流', '外卖',
+    
+    // 其他非AI内容
+    '房地产', '房价', '楼市', '教育', '学校', '大学', '医疗', '医院', '药品',
+    '天气', '环境', '污染', '能源', '石油', '天然气', '电力', '煤炭'
   ];
   
   // 首先检查是否包含需要排除的关键词
@@ -489,12 +550,33 @@ function categorizeNewsTraditional(title, content) {
   
   // AI核心关键词 - 专注于AI技术和模型
   const aiCoreKeywords = [
-    'AI', 'artificial intelligence', '人工智能', 'machine learning', '深度学习', 
-    'ChatGPT', 'GPT', '大模型', 'LLM', 'natural language processing', '计算机视觉',
-    '强化学习', '生成式AI', 'AIGC', '神经网络', '算法', '数据科学', '自动化',
-    '机器人', '语音识别', '图像识别', '模式识别', '知识图谱', '智能驾驶', '自动驾驶',
-    '无人驾驶', 'AI芯片', 'AI框架', 'Transformer', 'BERT', 'ResNet', 'CNN', 
-    'RNN', 'LSTM', 'GAN', '扩散模型', 'Agent', '智能体', '多模态', '推理', '训练', '微调', '预训练'
+    // 基础AI概念
+    'AI', 'artificial intelligence', '人工智能', 'AGI', '通用人工智能',
+    'machine learning', '机器学习', 'deep learning', '深度学习', 'neural network', '神经网络',
+    
+    // 大语言模型
+    'LLM', 'large language model', '大语言模型', '大模型', '语言模型',
+    'ChatGPT', 'GPT-4', 'GPT-3', 'Claude', 'Gemini', 'Llama', 'Mistral', 'Mixtral',
+    
+    // AI技术分支
+    'natural language processing', 'NLP', '自然语言处理', 'computer vision', '计算机视觉',
+    'reinforcement learning', '强化学习', 'generative AI', '生成式AI', 'AIGC',
+    'speech recognition', '语音识别', 'image recognition', '图像识别', 'pattern recognition', '模式识别',
+    
+    // AI架构和算法
+    'Transformer', 'BERT', 'ResNet', 'CNN', 'RNN', 'LSTM', 'GAN', '扩散模型', 'diffusion model',
+    'attention mechanism', '注意力机制', 'backpropagation', '反向传播', 'gradient descent', '梯度下降',
+    
+    // AI应用领域
+    'AI芯片', 'AI框架', 'AI平台', 'AI基础设施', 'AI系统', 'AI服务',
+    'Agent', '智能体', 'AI agent', 'multi-agent', '多智能体', 'autonomous agent', '自主智能体',
+    'multimodal', '多模态', 'multimodal AI', 'AI推理', 'AI训练', 'AI微调', 'AI预训练',
+    'prompt engineering', '提示工程', 'fine-tuning', '微调', 'training', '训练', 'inference', '推理',
+    
+    // 专业AI应用
+    'knowledge graph', '知识图谱', 'data science', '数据科学', 'algorithm', '算法',
+    'autonomous driving', '自动驾驶', 'self-driving', '无人驾驶', 'intelligent driving', '智能驾驶',
+    'robotics', '机器人', 'automation', '自动化', 'intelligent automation', '智能自动化'
   ];
   
   // AI模型和产品名称
@@ -509,15 +591,23 @@ function categorizeNewsTraditional(title, content) {
     'QWEN', '智谱', 'DeepSeek', '月之暗面', '零一万物', '百川智能', '阶跃星辰'
   ];
   
-  // AI公司和研究机构
+  // AI公司和研究机构（更加严格的定义）
   const aiCompanies = [
-    // 国际公司
-    'OpenAI', 'Google', 'Microsoft', 'Meta', 'Facebook', 'Apple', 'Amazon',
-    'NVIDIA', 'AMD', 'Intel', 'Anthropic', 'Cohere', 'Character.AI',
+    // 纯AI公司
+    'OpenAI', 'Anthropic', 'Cohere', 'Character.AI', 'Perplexity', 'Inflection',
+    '智谱', '商汤', '旷视', '依图', '云从', 'Momenta', '地平线', '寒武纪', 
+    'MiniMax', '月之暗面', '零一万物', '百川智能', '阶跃星辰', '生数科技',
+    '面壁智能', '澜舟科技', '竹间智能', '思必驰', '云知声', '第四范式',
+    '明略科技', '出门问问', '深鉴科技', '比特大陆', '比特大陆',
     
-    // 中国公司
-    '百度', '阿里', '腾讯', '字节', '华为', '智谱', '商汤', '旷视', '依图', '云从', 
-    '科大讯飞', '360', '猎豹', '寒武纪', '地平线', 'Momenta', 'Minimax'
+    // 大型科技公司的AI部门（需要配合AI关键词）
+    'Google AI', 'Google DeepMind', 'Microsoft AI', 'Microsoft Research',
+    'Meta AI', 'FAIR', 'Apple AI', 'Amazon AI', 'AWS AI', 'IBM Research',
+    '百度AI', '阿里AI', '腾讯AI', '字节AI', '华为AI', '科大讯飞',
+    
+    // AI研究机构
+    'DeepMind', 'OpenAI', '艾伦AI研究所', '斯坦福AI实验室', 'MIT CSAIL',
+    '清华大学AI', '北京大学AI', '中科院自动化所', '中科院计算所'
   ];
   
   // AI技术和概念
@@ -547,8 +637,22 @@ function categorizeNewsTraditional(title, content) {
     text.includes(tech) || text.toLowerCase().includes(tech.toLowerCase())
   );
   
+  // 严格的AI内容验证逻辑
+  const hasAIContent = hasAICore || hasAIModels;
+  
+  // 对于大型科技公司，必须同时包含AI关键词才通过
+  const largeTechCompanies = ['Google', 'Microsoft', 'Meta', 'Apple', 'Amazon', 'Facebook', '百度', '阿里', '腾讯', '字节', '华为', '小米'];
+  const hasLargeTechCompany = largeTechCompanies.some(company => 
+    text.includes(company) || text.toLowerCase().includes(company.toLowerCase())
+  );
+  
+  // 如果包含大型科技公司但没有AI内容，排除
+  if (hasLargeTechCompany && !hasAIContent) {
+    return null;
+  }
+  
   // 必须至少包含一种AI相关内容
-  if (!hasAICore && !hasAIModels && !hasAICompanies && !hasAITech) {
+  if (!hasAIContent && !hasAICompanies && !hasAITech) {
     return null; // 不是AI新闻
   }
   
@@ -615,29 +719,34 @@ function categorizeNewsTraditional(title, content) {
     text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
   );
   
-  // 分类逻辑 - 修正优先级，趣味新闻优先级较高
-  // 1. 首先判断是否为中国AI（优先级最高，避免被国外关键词误分类）
-  if (isChineseAI && !isFunAI) {
-    return '中国AI';
-  }
-  
-  // 2. 判断是否为趣味新闻（优先级高于国际AI）
-  if (isFunAI) {
+  // 严格的分类逻辑 - 确保AI内容纯净度
+  // 1. 首先检查是否为AI趣味新闻（需要明确包含趣味关键词）
+  if (isFunAI && (hasAICore || hasAIModels)) {
     return 'AI趣味新闻';
   }
   
-  // 3. 然后判断是否为国外AI
-  if (isForeignAI) {
+  // 2. 判断是否为中国AI（需要明确的中国AI标识）
+  if (isChineseAI && (hasAICore || hasAIModels)) {
+    return '中国AI';
+  }
+  
+  // 3. 判断是否为国际AI（需要明确的国外AI标识）
+  if (isForeignAI && (hasAICore || hasAIModels)) {
     return '国际AI';
   }
   
-  // 4. 判断是否为科技新闻
-  if (isTechNews) {
+  // 4. 判断是否为科技新闻（AI技术相关但不是纯模型新闻）
+  if (isTechNews && (hasAICore || hasAIModels)) {
     return '科技新闻';
   }
   
-  // 5. 默认分类为国际AI
-  return '国际AI';
+  // 5. 如果没有任何明确分类但有AI内容，默认分类为国际AI
+  if (hasAIContent) {
+    return '国际AI';
+  }
+  
+  // 6. 如果都不符合，排除该新闻
+  return null;
 }
 
 // 验证和处理图片URL（简化版，避免太多HTTP请求）
