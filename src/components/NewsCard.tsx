@@ -59,8 +59,8 @@ export const NewsCard = ({
       const diff = now.getTime() - date.getTime();
       const absDiff = Math.abs(diff);
       
-      // 如果时间差很小（小于5分钟），可能是时区或时间同步问题
-      if (absDiff < 5 * 60 * 1000) {
+      // 如果时间差很小（小于1分钟），显示刚刚发布
+      if (absDiff < 60 * 1000) {
         return '刚刚发布';
       }
       

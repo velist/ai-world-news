@@ -587,6 +587,26 @@ function isHighQualityContent(title, content, source) {
     return false;
   }
   
+  // 排除应用榜单、产品推荐类新闻
+  const excludeAppListPatterns = [
+    /应用榜单/,
+    /应用上榜/,
+    /应用推荐/,
+    /APP榜单/,
+    /APP推荐/,
+    /产品推荐/,
+    /工具推荐/,
+    /AGICamp.*周.*应用榜单/,
+    /第.*周.*应用榜单/,
+    /.*榜单发布.*应用/,
+    /.*等应用上榜/,
+  ];
+  
+  if (excludeAppListPatterns.some(pattern => pattern.test(title))) {
+    console.log(`排除应用榜单新闻: ${title}`);
+    return false;
+  }
+  
   // 排除特定来源的无内容新闻
   const excludeSources = ['InfoQ中文'];
   if (excludeSources.includes(source.name) && content.trim().length < 50) {
