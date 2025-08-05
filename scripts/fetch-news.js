@@ -1,5 +1,6 @@
 import fs from 'fs';
 import path from 'path';
+import { generateAISummary } from './ai-summary.js';
 
 // 翻译函数
 async function translateText(text, targetLang = 'zh') {
@@ -1029,6 +1030,10 @@ async function main() {
           const translatedSummary = await translateText(item.description || item.title);
           const translatedContent = item.content ? await translateText(item.content) : translatedSummary;
           
+          // 使用AI生成高质量摘要
+          console.log(`正在为新闻生成AI摘要: ${translatedTitle}`);
+          const aiSummary = await generateAISummary(translatedTitle, item.url, translatedContent);
+          
           // 生成AI点评
           const aiInsight = await generateAIInsight(translatedTitle, translatedContent);
           
@@ -1038,7 +1043,7 @@ async function main() {
           return {
             id: `news_${Date.now()}_${index}`,
             title: translatedTitle,
-            summary: translatedSummary,
+            summary: aiSummary || translatedSummary, // 优先使用AI生成的摘要
             content: translatedContent,
             imageUrl: validImageUrl,
             source: item.source.name,

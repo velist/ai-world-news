@@ -2,6 +2,7 @@ console.log('开始聚合AI新闻...');
 
 import Parser from 'rss-parser';
 import crypto from 'crypto';
+import { generateAISummary } from './ai-summary.js';
 const parser = new Parser();
 
 // RSS源配置
@@ -436,13 +437,17 @@ async function processNewsItem(item, source) {
     return null;
   }
   
+  // 使用AI生成高质量摘要
+  console.log(`正在为新闻生成AI摘要: ${item.title}`);
+  const aiSummary = await generateAISummary(item.title, item.link, finalContent);
+  
   // 生成AI点评
   const aiInsight = await generateAIInsight(item.title, finalContent);
   
   return {
     id: generateId(item.title, item.pubDate),
     title: item.title || '无标题',
-    summary: truncatedSummary,
+    summary: aiSummary || truncatedSummary, // 优先使用AI生成的摘要
     content: finalContent,
     imageUrl: extractImageUrl(item),
     source: source.name,
