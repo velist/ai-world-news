@@ -55,22 +55,24 @@ export const NewsCard = ({
         return '时间未知';
       }
       
-      // 检查是否是未来的时间
-      if (date.getTime() > now.getTime()) {
-        return '刚刚发布';
-      }
-      
+      // 修复时区问题：直接使用时间戳比较，避免时区转换
       const diff = now.getTime() - date.getTime();
       
-      // 确保时间差不为负数
-      if (diff < 0) {
+      // 如果时间差为负数（未来时间），使用绝对值处理
+      const absDiff = Math.abs(diff);
+      
+      // 如果时间差很小（小于24小时），可能是时区问题，显示为刚刚发布
+      if (diff < 0 && absDiff < 24 * 60 * 60 * 1000) {
         return '刚刚发布';
       }
       
-      const hours = Math.floor(diff / (1000 * 60 * 60));
+      // 确保使用非负数进行计算
+      const positiveDiff = Math.max(0, diff);
+      
+      const hours = Math.floor(positiveDiff / (1000 * 60 * 60));
       
       if (hours < 1) {
-        const minutes = Math.floor(diff / (1000 * 60));
+        const minutes = Math.floor(positiveDiff / (1000 * 60));
         return minutes <= 0 ? '刚刚发布' : `${minutes}分钟前`;
       } else if (hours < 24) {
         return `${hours}小时前`;
@@ -155,10 +157,17 @@ export const NewsCard = ({
             className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
             onError={(e) => {
-              // 图片加载失败时使用智能备用图片
+              // 增强的图片加载处理
               const target = e.target as HTMLImageElement;
+              
+              // 检查是否已经是备用图片，避免无限循环
+              if (target.src.includes('unsplash.com/photo-1677442136019-21780ecad995')) {
+                return;
+              }
+              
               const title = displayTitle.toLowerCase();
               
+              // 优化的备用图片选择
               if (title.includes('ai') || title.includes('人工智能') || title.includes('大模型') || title.includes('chatgpt')) {
                 target.src = "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format";
               } else if (title.includes('机器人') || title.includes('自动化') || title.includes('自动驾驶')) {

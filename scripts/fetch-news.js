@@ -749,7 +749,7 @@ function categorizeNewsTraditional(title, content) {
   return null;
 }
 
-// 验证和处理图片URL（简化版，避免太多HTTP请求）
+// 验证和处理图片URL（优化版，减少不必要的替换）
 async function validateAndProcessImage(imageUrl, title = '') {
   if (!imageUrl || imageUrl === '/placeholder.svg') {
     return generateFallbackImage(title);
@@ -759,9 +759,9 @@ async function validateAndProcessImage(imageUrl, title = '') {
   try {
     const url = new URL(imageUrl);
     
-    // 更宽松的图片验证逻辑
+    // 优化的图片验证逻辑 - 更加宽松
     // 1. 首先检查是否是明显的非图片URL（如html、php、aspx等）
-    const nonImageExtensions = ['.html', '.htm', '.php', '.aspx', '.jsp', '.cgi'];
+    const nonImageExtensions = ['.html', '.htm', '.php', '.aspx', '.jsp', '.cgi', '.css', '.js'];
     const hasNonImageExtension = nonImageExtensions.some(ext => 
       url.pathname.toLowerCase().includes(ext)
     );
@@ -771,37 +771,47 @@ async function validateAndProcessImage(imageUrl, title = '') {
       return generateFallbackImage(title);
     }
     
-    // 2. 检查是否是常见的图片扩展名
-    const validImageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.svg'];
-    const hasValidExtension = validImageExtensions.some(ext => 
-      url.pathname.toLowerCase().includes(ext)
-    );
-    
-    // 3. 检查是否来自可信的图片服务
+    // 2. 检查是否来自可信的图片服务或新闻网站
     const trustedDomains = [
       'images.unsplash.com', 'cdn.', 'img.', 'static.', 'media.', 'image.',
       'ithome.com', '36kr.com', 'tmtpost.com', 'infoq.cn', 'jiqizhixin.com',
-      'unsplash.com', 'pexels.com', 'gettyimages.com'
+      'unsplash.com', 'pexels.com', 'gettyimages.com', 'baidu.com', 'qq.com',
+      'sina.com.cn', 'sohu.com', '163.com', 'toutiao.com', 'ifeng.com',
+      'githubusercontent.com', 'raw.githubusercontent.com'
     ];
     
     const isFromTrustedDomain = trustedDomains.some(domain => 
       url.hostname.includes(domain)
     );
     
+    // 3. 检查是否是常见的图片扩展名
+    const validImageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.svg', '.avif'];
+    const hasValidExtension = validImageExtensions.some(ext => 
+      url.pathname.toLowerCase().includes(ext)
+    );
+    
     // 4. 检查路径中是否包含图片相关关键词
-    const imageKeywords = ['image', 'img', 'picture', 'photo', 'upload', 'file'];
+    const imageKeywords = ['image', 'img', 'picture', 'photo', 'upload', 'file', 'avatar', 'thumbnail', 'banner'];
     const hasImageKeywords = imageKeywords.some(keyword => 
       url.pathname.toLowerCase().includes(keyword)
     );
     
-    // 5. 检查URL是否包含明显的图片标识符
-    const hasImageIdentifier = url.pathname.toLowerCase().includes('image') || 
-                               url.pathname.toLowerCase().includes('img') ||
-                               url.pathname.toLowerCase().includes('photo') ||
-                               url.pathname.toLowerCase().includes('upload');
+    // 5. 检查URL参数中是否包含图片尺寸
+    const hasImageSize = url.searchParams.has('w') || url.searchParams.has('h') || 
+                       url.searchParams.has('width') || url.searchParams.has('height');
     
-    // 如果URL看起来有效，就使用它，否则使用备用图片
-    if (hasValidExtension || isFromTrustedDomain || hasImageKeywords || hasImageIdentifier) {
+    // 6. 检查URL中是否包含图片处理服务
+    const hasImageProcessing = url.pathname.includes('resize') || url.pathname.includes('crop') ||
+                               url.pathname.includes('format') || url.pathname.includes('quality');
+    
+    // 更加宽松的验证规则 - 只要满足以下条件之一就认为是有效图片
+    const isValidImage = isFromTrustedDomain || 
+                        hasValidExtension || 
+                        hasImageKeywords || 
+                        hasImageSize || 
+                        hasImageProcessing;
+    
+    if (isValidImage) {
       return imageUrl;
     } else {
       console.log(`图片URL可能无效: ${imageUrl}, 使用备用图片`);
@@ -813,7 +823,7 @@ async function validateAndProcessImage(imageUrl, title = '') {
   }
 }
 
-// 生成备用图片
+// 生成备用图片（优化版）
 function generateFallbackImage(title = '') {
   // 根据标题内容生成不同的备用图片
   const titleLower = title.toLowerCase();
@@ -837,7 +847,7 @@ function generateFallbackImage(title = '') {
   if (titleLower.includes('tech') || titleLower.includes('computer') || 
       titleLower.includes('software') || titleLower.includes('app') || 
       titleLower.includes('科技') || titleLower.includes('技术') ||
-      titleLower.includes('芯片') || titleLower.includes('芯片') || titleLower.includes('gpu')) {
+      titleLower.includes('芯片') || titleLower.includes('gpu') || titleLower.includes('处理器')) {
     return 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop&auto=format';
   }
   
@@ -860,6 +870,13 @@ function generateFallbackImage(title = '') {
       titleLower.includes('云') || titleLower.includes('服务器') ||
       titleLower.includes('计算') || titleLower.includes('infrastructure')) {
     return 'https://images.unsplash.com/photo-1451187580459-43490279c0fa?w=800&h=600&fit=crop&auto=format';
+  }
+  
+  // 编程和开发
+  if (titleLower.includes('编程') || titleLower.includes('development') || 
+      titleLower.includes('software') || titleLower.includes('ide') ||
+      titleLower.includes('framework') || titleLower.includes('library')) {
+    return 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop&auto=format';
   }
   
   // 默认AI新闻图片
