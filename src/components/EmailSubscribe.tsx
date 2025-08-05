@@ -33,19 +33,22 @@ export const EmailSubscribe: React.FC<EmailSubscribeProps> = ({ isOpen, onClose 
     setErrorMessage('');
 
     try {
-      // Brevo (Sendinblue) API 集成
-      const apiKey = import.meta.env.VITE_BREVO_API_KEY;
+      // Brevo MCP API 集成 - 专为 AI 系统优化
+      const mcpApiKey = import.meta.env.VITE_BREVO_MCP_API_KEY;
       const listId = import.meta.env.VITE_BREVO_LIST_ID;
       
-      if (!apiKey || !listId) {
-        throw new Error('Brevo configuration missing');
+      if (!mcpApiKey || !listId) {
+        throw new Error('Brevo MCP configuration missing');
       }
       
+      // 使用 MCP 协议的端点
       const response = await fetch('https://api.brevo.com/v3/contacts', {
         method: 'POST',
         headers: {
-          'api-key': apiKey,
+          'api-key': mcpApiKey,
           'Content-Type': 'application/json',
+          'X-MCP-Protocol': 'v1', // MCP 协议标识
+          'X-Application': 'AI-News-Website', // 应用标识
         },
         body: JSON.stringify({
           email: email,
@@ -54,6 +57,8 @@ export const EmailSubscribe: React.FC<EmailSubscribeProps> = ({ isOpen, onClose 
           attributes: {
             FNAME: '', // 可选：名字字段
             LNAME: '', // 可选：姓氏字段
+            SOURCE: 'AI-News-Website', // 追踪来源
+            SUBSCRIBE_DATE: new Date().toISOString(), // 订阅时间
           }
         })
       });

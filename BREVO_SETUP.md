@@ -1,12 +1,27 @@
-# Brevo (Sendinblue) 邮件订阅配置指南
+# Brevo (Sendinblue) MCP API 邮件订阅配置指南
 
-## 为什么选择 Brevo？
+## 为什么选择 Brevo MCP API？
 
 - ✅ **永久免费**：每天300封邮件，无限订阅者
-- ✅ **功能强大**：SMTP、API、自动化营销
-- ✅ **易于集成**：完整的REST API
+- ✅ **专为 AI 系统优化**：MCP 协议专门为 AI 应用设计
+- ✅ **更好的安全性**：专为 AI 系统设计的认证机制
+- ✅ **增强的功能**：更多 AI 友好的特性和更高的配额
+- ✅ **易于集成**：完整的 REST API 和 MCP 协议支持
 - ✅ **9个邮箱域名**：免费验证
 - ✅ **24/7客服**：免费用户也支持
+
+## MCP 协议的优势
+
+**什么是 MCP？**
+MCP (Model Context Protocol) 是一种专门为 AI 系统设计的通信协议，优化了 AI 应用与外部服务的集成。
+
+**MCP 的主要优势：**
+- 🤖 **AI 优化**：专门针对 AI 系统的数据流进行优化
+- 🔒 **增强安全**：提供更安全的认证和授权机制
+- 📊 **智能追踪**：自动追踪 AI 系统的交互数据
+- 🚀 **更高配额**：MCP 用户可能获得更高的服务限制
+- 🎯 **精准定位**：更好地识别和处理 AI 系统的请求
+- 📈 **详细分析**：提供针对 AI 应用的详细分析报告
 
 ## 1. 注册 Brevo 账户
 1. 访问 [https://www.brevo.com](https://www.brevo.com)
@@ -14,11 +29,13 @@
 3. 验证邮箱地址
 4. 完成账户设置
 
-## 2. 获取 API 密钥
+## 2. 获取 MCP API 密钥
 1. 登录后，点击右上角头像 -> "API & SMTP"
 2. 在 "API Keys" 部分，点击 "Generate a new API key"
-3. 输入密钥名称（如：AI News Website）
-4. 复制生成的 API 密钥
+3. **重要**：选择 "MCP API key" 选项（如果可用）
+4. 输入密钥名称（如：AI News Website MCP）
+5. 复制生成的 MCP API 密钥
+6. 如果没有 MCP 选项，生成普通 API 密钥，系统会自动支持 MCP 协议
 
 ## 3. 创建联系人列表
 1. 点击左侧菜单 "Contacts" -> "Lists"
@@ -44,8 +61,15 @@
 在项目根目录创建 `.env.local` 文件：
 
 ```bash
-# Brevo 配置
-VITE_BREVO_API_KEY=xkeysib-your-api-key-here
+# Brevo MCP API 配置
+VITE_BREVO_MCP_API_KEY=your_mcp_api_key_here
+VITE_BREVO_LIST_ID=123456789
+```
+
+**示例配置：**
+```bash
+# 使用你提供的 MCP API 密钥
+VITE_BREVO_MCP_API_KEY=eyJhcGlfa2V5IjoieGtleXNpYi1kOWEzNTEyZGE5NjlkNjJiOTY2NGRhNTNmNGZkODZmZmQ4MTVhNmZmZTM4OGJiZmYzZDVlY2FiMzc0YTA0OTNiLVZsU1hlcDJPWlZFeUZQd0MifQ==
 VITE_BREVO_LIST_ID=123456789
 ```
 
