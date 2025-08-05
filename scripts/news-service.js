@@ -53,12 +53,13 @@ function isAINews(title, content) {
 
 // 判断是否为国内AI新闻
 function isDomesticAINews(title, content, source) {
-  if (!isAINews(title, content)) return false;
+  const fullContent = content['content:encoded'] || content.content || content.contentSnippet || '';
+  if (!isAINews(title, fullContent)) return false;
   
   const domesticSources = ['36氪', '钛媒体', 'InfoQ中文', 'IT之家'];
   const domesticKeywords = ['中国', '国内', '百度', '阿里', '腾讯', '字节', '华为', '小米', '京东', '美团', '滴滴', '网易', '新浪', '搜狐', '携程'];
   
-  const text = (title + ' ' + (content || '')).toLowerCase();
+  const text = (title + ' ' + fullContent).toLowerCase();
   const isDomesticSource = domesticSources.includes(source.name);
   const hasDomesticKeywords = domesticKeywords.some(keyword => 
     text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
@@ -112,12 +113,15 @@ function generateAIInsight(title, content) {
 
 // 处理单个新闻项
 function processNewsItem(item, source) {
-  const summary = cleanContent(item.contentSnippet || item.content || '');
+  // 优先使用 content:encoded 字段，它包含完整的HTML内容
+  const fullContent = item['content:encoded'] || item.content || item.contentSnippet || '';
+  const summary = cleanContent(fullContent);
   const truncatedSummary = summary.length > 200 ? summary.substring(0, 200) + '...' : summary;
   
   let category;
-  if (isAINews(item.title, item.content)) {
-    category = isDomesticAINews(item.title, item.content, source) ? '国内AI' : '国外AI';
+  const itemContent = item['content:encoded'] || item.content || item.contentSnippet || '';
+  if (isAINews(item.title, itemContent)) {
+    category = isDomesticAINews(item.title, item, source) ? '国内AI' : '国外AI';
   } else {
     category = source.category;
   }
@@ -126,13 +130,13 @@ function processNewsItem(item, source) {
     id: generateId(item.title, item.pubDate),
     title: item.title || '无标题',
     summary: truncatedSummary,
-    content: cleanContent(item.content || item.contentSnippet || ''),
+    content: summary,
     imageUrl: extractImageUrl(item),
     source: source.name,
     publishedAt: item.pubDate || new Date().toISOString(),
     category: category,
     originalUrl: item.link,
-    aiInsight: generateAIInsight(item.title, item.contentSnippet || item.content)
+    aiInsight: generateAIInsight(item.title, fullContent)
   };
 }
 
@@ -149,7 +153,7 @@ async function aggregateNews() {
       const feed = await parser.parseURL(source.url);
       
       const newsItems = feed.items
-        .filter(item => isAINews(item.title, item.contentSnippet || item.content))
+        .filter(item => isAINews(item.title, item['content:encoded'] || item.content || item.contentSnippet))
         .map(item => processNewsItem(item, source))
         .slice(0, 10);
       
