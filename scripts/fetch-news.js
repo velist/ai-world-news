@@ -649,19 +649,44 @@ async function validateAndProcessImage(imageUrl, title = '') {
   // 检查URL格式是否有效
   try {
     const url = new URL(imageUrl);
-    // 检查是否是常见的图片扩展名或来自可信的图片服务
-    const validImageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp'];
-    const trustedDomains = ['images.unsplash.com', 'cdn.', 'img.', 'static.', 'media.'];
     
+    // 更宽松的图片验证逻辑
+    // 1. 首先检查是否是明显的非图片URL（如html、php、aspx等）
+    const nonImageExtensions = ['.html', '.htm', '.php', '.aspx', '.jsp', '.cgi'];
+    const hasNonImageExtension = nonImageExtensions.some(ext => 
+      url.pathname.toLowerCase().includes(ext)
+    );
+    
+    if (hasNonImageExtension) {
+      console.log(`图片URL可能是网页: ${imageUrl}, 使用备用图片`);
+      return generateFallbackImage(title);
+    }
+    
+    // 2. 检查是否是常见的图片扩展名
+    const validImageExtensions = ['.jpg', '.jpeg', '.png', '.gif', '.webp', '.bmp', '.svg'];
     const hasValidExtension = validImageExtensions.some(ext => 
       url.pathname.toLowerCase().includes(ext)
     );
+    
+    // 3. 检查是否来自可信的图片服务
+    const trustedDomains = [
+      'images.unsplash.com', 'cdn.', 'img.', 'static.', 'media.', 'image.',
+      'ithome.com', '36kr.com', 'tmtpost.com', 'infoq.cn', 'jiqizhixin.com',
+      'unsplash.com', 'pexels.com', 'gettyimages.com'
+    ];
+    
     const isFromTrustedDomain = trustedDomains.some(domain => 
       url.hostname.includes(domain)
     );
     
+    // 4. 检查路径中是否包含图片相关关键词
+    const imageKeywords = ['image', 'img', 'picture', 'photo', 'upload', 'file'];
+    const hasImageKeywords = imageKeywords.some(keyword => 
+      url.pathname.toLowerCase().includes(keyword)
+    );
+    
     // 如果URL看起来有效，就使用它，否则使用备用图片
-    if (hasValidExtension || isFromTrustedDomain || url.hostname.includes('unsplash')) {
+    if (hasValidExtension || isFromTrustedDomain || hasImageKeywords) {
       return imageUrl;
     } else {
       console.log(`图片URL可能无效: ${imageUrl}, 使用备用图片`);

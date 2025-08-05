@@ -46,19 +46,34 @@ export const NewsCard = ({
   };
 
   const formatTime = (timestamp: string) => {
-    const date = new Date(timestamp);
-    const now = new Date();
-    const diff = now.getTime() - date.getTime();
-    const hours = Math.floor(diff / (1000 * 60 * 60));
-    
-    if (hours < 1) {
-      const minutes = Math.floor(diff / (1000 * 60));
-      return `${minutes}分钟前`;
-    } else if (hours < 24) {
-      return `${hours}小时前`;
-    } else {
-      const days = Math.floor(hours / 24);
-      return `${days}天前`;
+    try {
+      const date = new Date(timestamp);
+      const now = new Date();
+      
+      // 检查日期是否有效
+      if (isNaN(date.getTime())) {
+        return '时间未知';
+      }
+      
+      // 检查是否是未来的时间
+      if (date.getTime() > now.getTime()) {
+        return '刚刚发布';
+      }
+      
+      const diff = now.getTime() - date.getTime();
+      const hours = Math.floor(diff / (1000 * 60 * 60));
+      
+      if (hours < 1) {
+        const minutes = Math.floor(diff / (1000 * 60));
+        return minutes <= 0 ? '刚刚发布' : `${minutes}分钟前`;
+      } else if (hours < 24) {
+        return `${hours}小时前`;
+      } else {
+        const days = Math.floor(hours / 24);
+        return `${days}天前`;
+      }
+    } catch (error) {
+      return '时间未知';
     }
   };
 
