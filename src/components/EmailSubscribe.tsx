@@ -33,25 +33,25 @@ export const EmailSubscribe: React.FC<EmailSubscribeProps> = ({ isOpen, onClose 
     setErrorMessage('');
 
     try {
-      // Mailchimp API 集成
-      const apiKey = import.meta.env.VITE_MAILCHIMP_API_KEY;
-      const listId = import.meta.env.VITE_MAILCHIMP_LIST_ID;
-      const serverPrefix = import.meta.env.VITE_MAILCHIMP_SERVER_PREFIX || 'us21';
+      // Brevo (Sendinblue) API 集成
+      const apiKey = import.meta.env.VITE_BREVO_API_KEY;
+      const listId = import.meta.env.VITE_BREVO_LIST_ID;
       
       if (!apiKey || !listId) {
-        throw new Error('Mailchimp configuration missing');
+        throw new Error('Brevo configuration missing');
       }
       
-      const response = await fetch(`https://${serverPrefix}.api.mailchimp.com/3.0/lists/${listId}/members`, {
+      const response = await fetch('https://api.brevo.com/v3/contacts', {
         method: 'POST',
         headers: {
-          'Authorization': `apikey ${apiKey}`,
+          'api-key': apiKey,
           'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-          email_address: email,
-          status: 'subscribed',
-          merge_fields: {
+          email: email,
+          listIds: [parseInt(listId)],
+          updateEnabled: true,
+          attributes: {
             FNAME: '', // 可选：名字字段
             LNAME: '', // 可选：姓氏字段
           }
@@ -69,7 +69,7 @@ export const EmailSubscribe: React.FC<EmailSubscribeProps> = ({ isOpen, onClose 
         }, 3000);
       } else {
         const errorData = await response.json();
-        if (errorData.title === 'Member Exists') {
+        if (errorData.code === 'duplicate_parameter') {
           setErrorMessage(isZh ? '该邮箱已经订阅过了' : 'This email is already subscribed');
         } else {
           setErrorMessage(isZh ? '订阅失败，请稍后再试' : 'Subscription failed, please try again later');
