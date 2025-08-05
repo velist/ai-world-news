@@ -120,15 +120,15 @@ function cleanExtractedContent(text) {
     .replace(/.*?版权.*?|.*?声明.*?|.*?免责.*?/gi, '')
     .trim();
 
-  // 如果内容太长，截取前2000字符用于AI处理
-  if (cleaned.length > 2000) {
-    cleaned = cleaned.substring(0, 2000);
+  // 如果内容太长，截取前1500字符用于AI处理（节省免费token）
+  if (cleaned.length > 1500) {
+    cleaned = cleaned.substring(0, 1500);
   }
 
   return cleaned;
 }
 
-// 使用硅基流动AI生成摘要
+// 使用硅基流动AI生成摘要（免费模型）
 async function generateSummaryWithSiliconFlow(title, content) {
   try {
     const siliconflowKey = process.env.SILICONFLOW_API_KEY;
@@ -144,7 +144,10 @@ async function generateSummaryWithSiliconFlow(title, content) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'Qwen/Qwen2.5-7B-Instruct',
+        // 硅基流动免费模型选择（请根据实际免费模型列表调整）：
+        // 可选：Qwen/Qwen2.5-7B-Instruct, Qwen/Qwen2.5-14B-Instruct, 
+        //       deepseek-ai/DeepSeek-V2.5, 等
+        model: 'Qwen/Qwen2.5-7B-Instruct', // 使用最稳定的免费模型
         messages: [
           {
             role: 'system',
@@ -161,8 +164,8 @@ async function generateSummaryWithSiliconFlow(title, content) {
 请生成一个120-150字的新闻摘要：`
           }
         ],
-        max_tokens: 200,
-        temperature: 0.3
+        max_tokens: 180, // 减少token使用
+        temperature: 0.2 // 降低temperature以节省token
       })
     });
 
@@ -184,7 +187,7 @@ async function generateSummaryWithSiliconFlow(title, content) {
   return null;
 }
 
-// 使用智谱清言AI生成摘要
+// 使用智谱清言AI生成摘要（GLM-4.5-flash免费模型）
 async function generateSummaryWithZhipu(title, content) {
   try {
     const zhipuApiKey = process.env.ZHIPUAI_API_KEY;
@@ -200,7 +203,7 @@ async function generateSummaryWithZhipu(title, content) {
         'Content-Type': 'application/json',
       },
       body: JSON.stringify({
-        model: 'glm-4-flash',
+        model: 'glm-4-flash', // GLM-4.5的flash模型（免费）
         messages: [
           {
             role: 'system',
@@ -217,8 +220,8 @@ async function generateSummaryWithZhipu(title, content) {
 请生成一个120-150字的新闻摘要：`
           }
         ],
-        max_tokens: 200,
-        temperature: 0.3
+        max_tokens: 180, // 减少token使用
+        temperature: 0.2 // 降低temperature以节省token
       })
     });
 
@@ -278,7 +281,12 @@ export async function generateAISummary(title, originalUrl, existingContent = ''
     }
 
     // 如果没有抓取到原文，使用现有内容
-    const contentToUse = fullContent || existingContent || title;
+    let contentToUse = fullContent || existingContent || title;
+
+    // 进一步限制内容长度以适应免费模型
+    if (contentToUse.length > 1000) {
+      contentToUse = contentToUse.substring(0, 1000);
+    }
 
     if (contentToUse.length < 50) {
       console.log('内容太短，直接返回标题');
