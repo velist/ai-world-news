@@ -32,7 +32,8 @@ const NewsDetailPage = () => {
           throw new Error(isZh ? '无法获取新闻数据' : 'Failed to fetch news data');
         }
         
-        const allNews: NewsItem[] = await response.json();
+        const newsResponse = await response.json();
+        const allNews: NewsItem[] = newsResponse.data || newsResponse;
         const foundNews = allNews.find(item => item.id === id);
         
         if (!foundNews) {
