@@ -112,20 +112,172 @@ export const NewsDetail = ({
   };
 
   const handleShare = async () => {
+    const shareUrl = window.location.href;
+    const shareText = `${title} - 来自AI推趣新闻`;
+    
+    // 检测是否在微信浏览器中
+    const isWechat = /micromessenger/i.test(navigator.userAgent);
+    
+    if (isWechat) {
+      // 微信环境：创建友好的分享引导界面
+      showWechatShareGuide(shareUrl, shareText);
+      return;
+    }
+    
+    // 检查是否支持原生分享API
     if (navigator.share) {
       try {
         await navigator.share({
-          title: title,
+          title: shareText,
           text: content.substring(0, 100) + '...',
-          url: window.location.href,
+          url: shareUrl,
         });
       } catch (err) {
         console.log('Error sharing:', err);
       }
     } else {
       // Fallback to clipboard
-      navigator.clipboard.writeText(window.location.href);
+      if (navigator.clipboard) {
+        await navigator.clipboard.writeText(shareUrl);
+        alert('链接已复制到剪贴板！');
+      }
     }
+  };
+
+  // 微信分享引导功能
+  const showWechatShareGuide = (shareUrl: string, shareText: string) => {
+    // 创建遮罩层
+    const overlay = document.createElement('div');
+    overlay.style.cssText = `
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0, 0, 0, 0.8);
+      z-index: 9999;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
+    `;
+
+    // 创建引导内容  
+    const guideContent = document.createElement('div');
+    guideContent.style.cssText = `
+      background: white;
+      border-radius: 12px;
+      padding: 24px;
+      margin: 20px;
+      max-width: 320px;
+      text-align: center;
+      box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
+      position: relative;
+    `;
+
+    // 创建箭头指向右上角的动画
+    const arrow = document.createElement('div');
+    arrow.style.cssText = `
+      position: absolute;
+      top: -40px;
+      right: 20px;
+      width: 0;
+      height: 0;
+      border-left: 20px solid transparent;
+      border-right: 20px solid transparent;
+      border-bottom: 40px solid #007AFF;
+      animation: bounce 1s infinite;
+    `;
+
+    // 添加CSS动画
+    const style = document.createElement('style');
+    style.textContent = `
+      @keyframes bounce {
+        0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
+        40% { transform: translateY(-10px); }
+        60% { transform: translateY(-5px); }
+      }
+    `;
+    document.head.appendChild(style);
+
+    guideContent.innerHTML = `
+      <div style="color: #007AFF; font-size: 24px; margin-bottom: 16px;">📤</div>
+      <h3 style="margin: 0 0 16px 0; color: #333; font-size: 18px; font-weight: 600;">
+        分享到微信
+      </h3>
+      <p style="margin: 0 0 20px 0; color: #666; font-size: 14px; line-height: 1.5;">
+        请点击微信右上角的 <strong>"···"</strong> 菜单按钮<br>
+        选择 <strong>"分享给朋友"</strong> 或 <strong>"分享到朋友圈"</strong>
+      </p>
+      <div style="display: flex; gap: 12px; margin-top: 20px;">
+        <button id="wechat-copy-link" style="
+          flex: 1;
+          background: #f0f0f0;
+          border: none;
+          padding: 12px;
+          border-radius: 8px;
+          font-size: 14px;
+          color: #333;
+          cursor: pointer;
+        ">复制链接</button>
+        <button id="wechat-close-guide" style="
+          flex: 1;
+          background: #007AFF;
+          border: none;
+          padding: 12px;
+          border-radius: 8px;
+          font-size: 14px;
+          color: white;
+          cursor: pointer;
+        ">知道了</button>
+      </div>
+    `;
+
+    guideContent.appendChild(arrow);
+    overlay.appendChild(guideContent);
+    document.body.appendChild(overlay);
+
+    // 绑定按钮事件
+    const copyButton = guideContent.querySelector('#wechat-copy-link');
+    const closeButton = guideContent.querySelector('#wechat-close-guide');
+
+    copyButton?.addEventListener('click', () => {
+      if (navigator.clipboard) {
+        navigator.clipboard.writeText(shareUrl).then(() => {
+          copyButton.textContent = '已复制!';
+          setTimeout(() => {
+            document.body.removeChild(overlay);
+            document.head.removeChild(style);
+          }, 1000);
+        });
+      } else {
+        // 兼容性处理
+        const input = document.createElement('input');
+        input.value = shareUrl;
+        document.body.appendChild(input);
+        input.select();
+        document.execCommand('copy');
+        document.body.removeChild(input);
+        copyButton.textContent = '已复制!';
+        setTimeout(() => {
+          document.body.removeChild(overlay);
+          document.head.removeChild(style);
+        }, 1000);
+      }
+    });
+
+    closeButton?.addEventListener('click', () => {
+      document.body.removeChild(overlay);
+      document.head.removeChild(style);
+    });
+
+    // 点击遮罩关闭
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) {
+        document.body.removeChild(overlay);
+        document.head.removeChild(style);
+      }
+    });
   };
 
   return (

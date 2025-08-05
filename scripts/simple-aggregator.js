@@ -186,13 +186,103 @@ async function isAINews(title, content) {
   return await isAINewsWithAI(title, content);
 }
 
-// 判断新闻类别
+// 判断新闻类别 - 使用AI进行严谨分类
 async function getNewsCategory(title, content) {
+  // 首先使用AI判断是否为AI新闻
   const isAI = await isAINews(title, content);
   if (!isAI) {
     return null; // 不是AI新闻，不包含在系统中
   }
   
+  // 使用AI进行详细分类
+  return await categorizeAINewsWithAI(title, content);
+}
+
+// 使用智谱清言AI进行详细新闻分类
+async function categorizeAINewsWithAI(title, content) {
+  const text = `标题：${title}\n内容：${content || ''}`;
+  
+  try {
+    const zhipuAIKey = process.env.ZHIPUAI_API_KEY;
+    if (!zhipuAIKey) {
+      // 如果没有智谱清言API密钥，使用传统方法
+      return categorizeAINewsTraditional(title, content);
+    }
+    
+    const response = await fetch('https://open.bigmodel.cn/api/paas/v4/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${zhipuAIKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'glm-4-flash',
+        messages: [
+          {
+            role: 'system',
+            content: `你是一个专业的AI新闻分类专家。请将以下AI相关新闻准确分类为以下4个类别之一：
+
+**分类标准**：
+1. **国内AI** - 中国AI公司、机构、产品、技术的新闻，包括：
+   - 中国AI企业：百度、阿里、腾讯、字节、华为、智谱、商汤、旷视、科大讯飞、DeepSeek、月之暗面、零一万物、百川智能等
+   - 中国AI产品：文心一言、通义千问、讯飞星火、混元、豆包、GLM、清言等
+   - 中国AI研究机构和高校的AI研究成果
+   - 中国AI政策、行业发展、技术突破
+
+2. **国外AI** - 国外AI公司、机构、产品、技术的新闻，包括：
+   - 国外AI企业：OpenAI、Google、Microsoft、Meta、Anthropic、Cohere等
+   - 国外AI产品：ChatGPT、Claude、Gemini、Llama等
+   - 国外AI研究机构的成果
+   - 国际AI政策、技术发展
+
+3. **科技新闻** - AI技术应用但偏向工程技术的新闻，包括：
+   - AI芯片、AI框架、开发工具
+   - AI系统架构、技术平台
+   - 编程、软件开发中的AI应用
+   - AI基础设施、计算平台
+
+4. **AI趣味新闻** - AI创意应用和有趣应用的新闻，包括：
+   - AI艺术创作（绘画、写作、音乐）
+   - AI游戏、娱乐应用
+   - AI的有趣、创意、新奇应用
+   - AI与生活结合的趣味案例
+
+请只回复以下4个选项之一：国内AI、国外AI、科技新闻、AI趣味新闻`
+          },
+          {
+            role: 'user',
+            content: text
+          }
+        ],
+        max_tokens: 20,
+        temperature: 0.1
+      })
+    });
+    
+    if (response.ok) {
+      const data = await response.json();
+      const result = data.choices[0]?.message?.content?.trim();
+      
+      // 确保返回的是有效的分类
+      const validCategories = ['国内AI', '国外AI', '科技新闻', 'AI趣味新闻'];
+      if (validCategories.includes(result)) {
+        return result;
+      } else {
+        console.log(`AI分类结果无效: ${result}，使用传统方法`);
+        return categorizeAINewsTraditional(title, content);
+      }
+    } else {
+      console.error('智谱清言AI分类失败:', response.status, response.statusText);
+      return categorizeAINewsTraditional(title, content);
+    }
+  } catch (error) {
+    console.error('AI分类错误:', error);
+    return categorizeAINewsTraditional(title, content);
+  }
+}
+
+// 传统关键词分类方法（作为备用）
+function categorizeAINewsTraditional(title, content) {
   const text = (title + ' ' + (content || '')).toLowerCase();
   
   // 检查是否为中国AI相关
