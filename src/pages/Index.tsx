@@ -6,6 +6,7 @@ import { NewsDetail } from '@/components/NewsDetail';
 import { SideMenu } from '@/components/SideMenu';
 import { DailyBriefing } from '@/components/DailyBriefing';
 import { Disclaimer } from '@/components/Disclaimer';
+import { EmailSubscribe } from '@/components/EmailSubscribe';
 import { useNews } from '@/hooks/useNews';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { NewsItem } from '@/types/news';
@@ -19,6 +20,7 @@ const Index = () => {
   const [sideMenuOpen, setSideMenuOpen] = useState(false);
   const [dailyBriefingOpen, setDailyBriefingOpen] = useState(false);
   const [disclaimerOpen, setDisclaimerOpen] = useState(false);
+  const [emailSubscribeOpen, setEmailSubscribeOpen] = useState(false);
 
   // 更新最后刷新时间
   useEffect(() => {
@@ -39,7 +41,7 @@ const Index = () => {
         setDailyBriefingOpen(true);
         break;
       case 'rss-subscribe':
-        window.open('/rss.xml', '_blank');
+        setEmailSubscribeOpen(true);
         break;
       case 'disclaimer':
         setDisclaimerOpen(true);
@@ -92,6 +94,12 @@ const Index = () => {
       <Disclaimer 
         isOpen={disclaimerOpen}
         onClose={() => setDisclaimerOpen(false)}
+      />
+      
+      {/* 邮箱订阅弹窗 */}
+      <EmailSubscribe 
+        isOpen={emailSubscribeOpen}
+        onClose={() => setEmailSubscribeOpen(false)}
       />
       
       <div className="max-w-6xl mx-auto px-4 py-6 space-y-6">

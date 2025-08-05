@@ -21,8 +21,8 @@ export const SideMenu: React.FC<SideMenuProps> = ({ isOpen, onClose, onMenuClick
     {
       id: 'rss-subscribe',
       icon: Rss,
-      label: isZh ? 'RSS订阅' : 'RSS Subscribe',
-      description: isZh ? '订阅最新AI新闻' : 'Subscribe to Latest AI News'
+      label: isZh ? '邮件订阅' : 'Email Subscribe',
+      description: isZh ? '订阅最新AI新闻推送' : 'Subscribe to AI News Updates'
     },
     {
       id: 'disclaimer',
