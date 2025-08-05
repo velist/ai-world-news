@@ -1,21 +1,19 @@
 import { useState, useEffect } from 'react';
+import { Helmet } from 'react-helmet-async';
 import { AppHeader } from '@/components/AppHeader';
 import { CategoryTabs } from '@/components/CategoryTabs';
 import { NewsCard } from '@/components/NewsCard';
-import { NewsDetail } from '@/components/NewsDetail';
 import { SideMenu } from '@/components/SideMenu';
 import { DailyBriefing } from '@/components/DailyBriefing';
 import { Disclaimer } from '@/components/Disclaimer';
 import { EmailSubscribe } from '@/components/EmailSubscribe';
 import { useNews } from '@/hooks/useNews';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { NewsItem } from '@/types/news';
 import { Loader2, RefreshCw, Clock } from 'lucide-react';
 
 const Index = () => {
   const { news, loading, error, categories, selectedCategory, setSelectedCategory, refreshNews } = useNews();
   const { isZh } = useLanguage();
-  const [selectedNews, setSelectedNews] = useState<NewsItem | null>(null);
   const [lastUpdateTime, setLastUpdateTime] = useState<Date>(new Date());
   const [sideMenuOpen, setSideMenuOpen] = useState(false);
   const [dailyBriefingOpen, setDailyBriefingOpen] = useState(false);
@@ -64,18 +62,30 @@ const Index = () => {
     }
   };
 
-  if (selectedNews) {
-    return (
-      <NewsDetail
-        {...selectedNews}
-        onBack={() => setSelectedNews(null)}
-      />
-    );
-  }
-
   return (
-    <div className="min-h-screen bg-background">
-      <AppHeader onMenuClick={() => setSideMenuOpen(true)} />
+    <>
+      <Helmet>
+        <title>AI推趣新闻 - 最新AI资讯聚合平台</title>
+        <meta name="description" content="AI推趣新闻为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content={window.location.origin} />
+        <meta property="og:title" content="AI推趣新闻 - 最新AI资讯聚合平台" />
+        <meta property="og:description" content="AI推趣新闻为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
+        <meta property="og:image" content={`${window.location.origin}/og-image.png`} />
+        <meta property="og:site_name" content="AI推趣新闻" />
+        
+        {/* Twitter */}
+        <meta property="twitter:card" content="summary_large_image" />
+        <meta property="twitter:url" content={window.location.origin} />
+        <meta property="twitter:title" content="AI推趣新闻 - 最新AI资讯聚合平台" />
+        <meta property="twitter:description" content="AI推趣新闻为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
+        <meta property="twitter:image" content={`${window.location.origin}/og-image.png`} />
+      </Helmet>
+      
+      <div className="min-h-screen bg-background">
+        <AppHeader onMenuClick={() => setSideMenuOpen(true)} />
       
       {/* 侧边菜单 */}
       <SideMenu 
@@ -170,7 +180,6 @@ const Index = () => {
               >
                 <NewsCard
                   {...item}
-                  onClick={() => setSelectedNews(item)}
                 />
               </div>
             ))}
@@ -184,8 +193,9 @@ const Index = () => {
             <p className="text-muted-foreground">{isZh ? '请稍后再试，或切换其他分类查看' : 'Please try again later or switch to another category'}</p>
           </div>
         )}
+        </div>
       </div>
-    </div>
+    </>
   );
 };
 

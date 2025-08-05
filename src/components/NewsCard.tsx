@@ -3,6 +3,7 @@ import { Clock, ExternalLink, Share2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
+import { Link } from "react-router-dom";
 
 interface NewsCardProps {
   id: string;
@@ -12,7 +13,6 @@ interface NewsCardProps {
   source: string;
   publishedAt: string;
   category: string;
-  onClick: () => void;
 }
 
 export const NewsCard = ({
@@ -23,7 +23,6 @@ export const NewsCard = ({
   source,
   publishedAt,
   category,
-  onClick,
 }: NewsCardProps) => {
   const { getLocalizedCategory } = useNewsTranslation();
   
@@ -86,8 +85,9 @@ export const NewsCard = ({
 
   const handleShare = (e: React.MouseEvent) => {
     e.stopPropagation(); // 阻止卡片点击事件
+    e.preventDefault(); // 阻止Link导航
     
-    const shareUrl = `https://news.aipush.fun/?news=${id}`;
+    const shareUrl = `${window.location.origin}/news/${id}`;
     const shareText = `${displayTitle} - 来自AI推趣新闻`;
     
     // 检测是否在微信浏览器中
@@ -280,10 +280,10 @@ export const NewsCard = ({
   };
 
   return (
-    <Card 
-      className="cursor-pointer overflow-hidden bg-gradient-card border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 transform hover:-translate-y-1 group"
-      onClick={onClick}
-    >
+    <Link to={`/news/${id}`} className="block">
+      <Card 
+        className="cursor-pointer overflow-hidden bg-gradient-card border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 transform hover:-translate-y-1 group"
+      >
       <CardHeader className="p-0">
         <div className="relative overflow-hidden rounded-t-lg">
           <img 
@@ -357,5 +357,6 @@ export const NewsCard = ({
         </div>
       </CardContent>
     </Card>
+    </Link>
   );
 };
