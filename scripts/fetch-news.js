@@ -205,9 +205,9 @@ async function fetchNews() {
           // 过滤最近48小时的新闻
           const recentResults = data.results.filter(item => {
             const publishedDate = new Date(item.pubDate);
-            const twoDaysAgo = new Date();
-            twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
-            return publishedDate > twoDaysAgo && item.title && item.description;
+            const twoDaysAgoFilter = new Date();
+            twoDaysAgoFilter.setDate(twoDaysAgoFilter.getDate() - 2);
+            return publishedDate > twoDaysAgoFilter && item.title && item.description;
           });
           
           const formattedNews = recentResults.map((item) => ({
@@ -311,12 +311,12 @@ async function fetchNews() {
   }
   
   // 过滤最近48小时的新闻，确保时效性
-  const twoDaysAgo = new Date();
-  twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+  const twoDaysAgoFinal = new Date();
+  twoDaysAgoFinal.setDate(twoDaysAgoFinal.getDate() - 2);
   
   const recentNews = allNews.filter(item => {
     const publishedDate = new Date(item.publishedAt);
-    return publishedDate > twoDaysAgo && item.title && item.description;
+    return publishedDate > twoDaysAgoFinal && item.title && item.description;
   });
   
   console.log(`过滤后剩余 ${recentNews.length} 条最近2天的新闻`);
@@ -931,12 +931,12 @@ async function main() {
         const existingData = JSON.parse(fs.readFileSync(newsFilePath, 'utf8'));
         if (existingData.data && Array.isArray(existingData.data)) {
           // 只保留48小时内的历史新闻
-          const twoDaysAgo = new Date();
-          twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+          const twoDaysAgoHistory = new Date();
+          twoDaysAgoHistory.setDate(twoDaysAgoHistory.getDate() - 2);
           
           existingNews = existingData.data.filter(item => {
             const publishedDate = new Date(item.publishedAt);
-            return publishedDate > twoDaysAgo;
+            return publishedDate > twoDaysAgoHistory;
           });
           console.log(`从现有数据中保留 ${existingNews.length} 条历史新闻`);
         }
