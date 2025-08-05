@@ -55,32 +55,31 @@ export const NewsCard = ({
         return '时间未知';
       }
       
-      // 修复时区问题：直接使用时间戳比较，避免时区转换
+      // 计算时间差（毫秒）
       const diff = now.getTime() - date.getTime();
-      
-      // 如果时间差为负数（未来时间），使用绝对值处理
       const absDiff = Math.abs(diff);
       
-      // 如果时间差很小（小于24小时），可能是时区问题，显示为刚刚发布
-      if (diff < 0 && absDiff < 24 * 60 * 60 * 1000) {
+      // 如果时间差很小（小于5分钟），可能是时区或时间同步问题
+      if (absDiff < 5 * 60 * 1000) {
         return '刚刚发布';
       }
       
-      // 确保使用非负数进行计算
-      const positiveDiff = Math.max(0, diff);
+      // 如果时间戳在未来（负数差值），说明可能是时区问题，使用绝对值计算
+      const actualDiff = diff < 0 ? absDiff : diff;
       
-      const hours = Math.floor(positiveDiff / (1000 * 60 * 60));
+      const minutes = Math.floor(actualDiff / (1000 * 60));
+      const hours = Math.floor(actualDiff / (1000 * 60 * 60));
+      const days = Math.floor(actualDiff / (1000 * 60 * 60 * 24));
       
-      if (hours < 1) {
-        const minutes = Math.floor(positiveDiff / (1000 * 60));
-        return minutes <= 0 ? '刚刚发布' : `${minutes}分钟前`;
+      if (minutes < 60) {
+        return `${minutes}分钟前`;
       } else if (hours < 24) {
         return `${hours}小时前`;
       } else {
-        const days = Math.floor(hours / 24);
         return `${days}天前`;
       }
     } catch (error) {
+      console.error('Time formatting error:', error);
       return '时间未知';
     }
   };
