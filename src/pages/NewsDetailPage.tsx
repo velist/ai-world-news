@@ -27,7 +27,7 @@ const NewsDetailPage = () => {
         setError(null);
         
         // 从本地存储的新闻数据中查找
-        const response = await fetch('/news.json');
+        const response = await fetch(`/news-data.json?t=${Date.now()}`);
         if (!response.ok) {
           throw new Error(isZh ? '无法获取新闻数据' : 'Failed to fetch news data');
         }
