@@ -65,22 +65,22 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>AI推趣新闻 - 最新AI资讯聚合平台</title>
-        <meta name="description" content="AI推趣新闻为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
+        <title>AI推 - 最新AI资讯聚合平台</title>
+        <meta name="description" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content={window.location.origin} />
-        <meta property="og:title" content="AI推趣新闻 - 最新AI资讯聚合平台" />
-        <meta property="og:description" content="AI推趣新闻为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
+        <meta property="og:title" content="AI推 - 最新AI资讯聚合平台" />
+        <meta property="og:description" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
         <meta property="og:image" content={`${window.location.origin}/og-image.png`} />
-        <meta property="og:site_name" content="AI推趣新闻" />
+        <meta property="og:site_name" content="AI推" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={window.location.origin} />
-        <meta property="twitter:title" content="AI推趣新闻 - 最新AI资讯聚合平台" />
-        <meta property="twitter:description" content="AI推趣新闻为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
+        <meta property="twitter:title" content="AI推 - 最新AI资讯聚合平台" />
+        <meta property="twitter:description" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
         <meta property="twitter:image" content={`${window.location.origin}/og-image.png`} />
       </Helmet>
       

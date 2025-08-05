@@ -88,7 +88,7 @@ const NewsDetailPage = () => {
   return (
     <>
       <Helmet>
-        <title>{news.title} - AI推趣新闻</title>
+        <title>{news.title} - AI推</title>
         <meta name="description" content={news.summary} />
         
         {/* Open Graph / Facebook */}
@@ -96,15 +96,17 @@ const NewsDetailPage = () => {
         <meta property="og:url" content={`${window.location.origin}/news/${news.id}`} />
         <meta property="og:title" content={news.title} />
         <meta property="og:description" content={news.summary} />
-        <meta property="og:image" content={news.imageUrl} />
-        <meta property="og:site_name" content="AI推趣新闻" />
+        <meta property="og:image" content={news.imageUrl || `${window.location.origin}/favicon-large.svg`} />
+        <meta property="og:image:width" content="1200" />
+        <meta property="og:image:height" content="630" />
+        <meta property="og:site_name" content="AI推" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={`${window.location.origin}/news/${news.id}`} />
         <meta property="twitter:title" content={news.title} />
         <meta property="twitter:description" content={news.summary} />
-        <meta property="twitter:image" content={news.imageUrl} />
+        <meta property="twitter:image" content={news.imageUrl || `${window.location.origin}/favicon-large.svg`} />
         
         {/* Article specific */}
         <meta property="article:published_time" content={news.publishedAt} />
@@ -115,7 +117,7 @@ const NewsDetailPage = () => {
         <meta name="weixin:card" content="summary_large_image" />
         <meta name="weixin:title" content={news.title} />
         <meta name="weixin:description" content={news.summary} />
-        <meta name="weixin:image" content={news.imageUrl} />
+        <meta name="weixin:image" content={news.imageUrl || `${window.location.origin}/favicon-large.svg`} />
       </Helmet>
       
       <NewsDetail

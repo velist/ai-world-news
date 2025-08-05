@@ -88,7 +88,7 @@ export const NewsCard = ({
     e.preventDefault(); // 阻止Link导航
     
     const shareUrl = `${window.location.origin}/news/${id}`;
-    const shareText = `${displayTitle} - 来自AI推趣新闻`;
+    const shareText = `${displayTitle} - 来自AI推`;
     
     // 检测是否在微信浏览器中
     const isWechat = /micromessenger/i.test(navigator.userAgent);
