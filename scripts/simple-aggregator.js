@@ -419,9 +419,12 @@ async function processNewsItem(item, source) {
   
   // 如果内容为空，尝试从其他字段获取
   let summary = content;
+  let finalContent = content;
   if (!summary) {
     // 尝试从标题生成简单摘要
     summary = item.title || '无标题';
+    // 如果没有内容，使用标题作为内容
+    finalContent = item.title || '无标题';
   }
   
   const truncatedSummary = summary.length > 200 ? summary.substring(0, 200) + '...' : summary;
@@ -434,13 +437,13 @@ async function processNewsItem(item, source) {
   }
   
   // 生成AI点评
-  const aiInsight = await generateAIInsight(item.title, content);
+  const aiInsight = await generateAIInsight(item.title, finalContent);
   
   return {
     id: generateId(item.title, item.pubDate),
     title: item.title || '无标题',
     summary: truncatedSummary,
-    content: content,
+    content: finalContent,
     imageUrl: extractImageUrl(item),
     source: source.name,
     publishedAt: standardizeDate(item.pubDate),
@@ -457,8 +460,20 @@ function isHighQualityContent(title, content, source) {
     return false;
   }
   
-  // 检查内容质量
+  // 检查内容质量 - 但如果标题足够详细，允许内容为空
   if (!content || content.trim().length < 20) {
+    // 如果标题包含足够的信息（超过15个字符且包含AI关键词），允许通过
+    if (title.length > 15) {
+      const aiKeywords = ['AI', '人工智能', '大模型', 'ChatGPT', 'GPT', '混元', '文心一言', '通义千问', 
+                         '智谱', 'Agent', '智能体', '开源', '模型', 'LLM', 'DeepSeek', '月之暗面'];
+      const hasAIKeyword = aiKeywords.some(keyword => 
+        title.toLowerCase().includes(keyword.toLowerCase())
+      );
+      if (hasAIKeyword) {
+        console.log(`标题包含AI关键词，允许通过: ${title}`);
+        return true;
+      }
+    }
     return false;
   }
   
