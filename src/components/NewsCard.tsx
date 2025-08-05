@@ -61,6 +61,12 @@ export const NewsCard = ({
       }
       
       const diff = now.getTime() - date.getTime();
+      
+      // 确保时间差不为负数
+      if (diff < 0) {
+        return '刚刚发布';
+      }
+      
       const hours = Math.floor(diff / (1000 * 60 * 60));
       
       if (hours < 1) {
@@ -149,9 +155,21 @@ export const NewsCard = ({
             className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
             onError={(e) => {
-              // 图片加载失败时使用占位符
+              // 图片加载失败时使用智能备用图片
               const target = e.target as HTMLImageElement;
-              target.src = "/placeholder.svg";
+              const title = displayTitle.toLowerCase();
+              
+              if (title.includes('ai') || title.includes('人工智能') || title.includes('大模型') || title.includes('chatgpt')) {
+                target.src = "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format";
+              } else if (title.includes('机器人') || title.includes('自动化') || title.includes('自动驾驶')) {
+                target.src = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop&auto=format";
+              } else if (title.includes('科技') || title.includes('技术') || title.includes('芯片')) {
+                target.src = "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop&auto=format";
+              } else if (title.includes('数据') || title.includes('代码') || title.includes('编程')) {
+                target.src = "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop&auto=format";
+              } else {
+                target.src = "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format";
+              }
             }}
           />
           <div className="absolute top-3 left-3">
