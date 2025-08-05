@@ -271,6 +271,24 @@ function cleanContent(content) {
   return cleaned;
 }
 
+// 标准化日期格式
+function standardizeDate(dateString) {
+  if (!dateString) return new Date().toISOString();
+  
+  try {
+    const date = new Date(dateString);
+    // 检查日期是否有效
+    if (isNaN(date.getTime())) {
+      return new Date().toISOString();
+    }
+    // 统一返回ISO 8601格式
+    return date.toISOString();
+  } catch (error) {
+    console.error('日期解析错误:', error);
+    return new Date().toISOString();
+  }
+}
+
 // 生成ID
 function generateId(title, pubDate) {
   const hash = crypto.createHash('md5')
@@ -425,7 +443,7 @@ async function processNewsItem(item, source) {
     content: content,
     imageUrl: extractImageUrl(item),
     source: source.name,
-    publishedAt: item.pubDate || new Date().toISOString(),
+    publishedAt: standardizeDate(item.pubDate),
     category: category,
     originalUrl: item.link,
     aiInsight: aiInsight
@@ -545,13 +563,19 @@ async function main() {
     }
   }
   
-  allNews.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
+  // 重新标准化所有新闻的时间戳
+  const finalNews = allNews.map(item => ({
+    ...item,
+    publishedAt: standardizeDate(item.publishedAt)
+  }));
+  
+  finalNews.sort((a, b) => new Date(b.publishedAt) - new Date(a.publishedAt));
   
   const data = {
     success: true,
     timestamp: new Date().toISOString(),
-    total: allNews.length,
-    data: allNews
+    total: finalNews.length,
+    data: finalNews
   };
   
   // 保存文件
