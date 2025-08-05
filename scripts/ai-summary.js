@@ -130,58 +130,69 @@ function cleanExtractedContent(text) {
 
 // 使用硅基流动AI生成摘要（免费模型）
 async function generateSummaryWithSiliconFlow(title, content) {
-  try {
-    const siliconflowKey = process.env.SILICONFLOW_API_KEY;
-    if (!siliconflowKey) {
-      console.log('硅基流动API密钥未配置');
-      return null;
-    }
+  // 免费模型选择列表（按优先级排序）
+  const freeModels = [
+    'Qwen/Qwen2.5-7B-Instruct',    // 主选：最适合中文文本理解和生成
+    'Qwen/Qwen3-8B',               // 备选：新版本模型
+    'THUDM/GLM-4-9B-0414',         // 备选：GLM系列
+    'internlm/internlm2_5-7b-chat' // 备选：书生模型
+  ];
 
-    const response = await fetch('https://api.siliconflow.cn/v1/chat/completions', {
-      method: 'POST',
-      headers: {
-        'Authorization': `Bearer ${siliconflowKey}`,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify({
-        // 硅基流动免费模型选择（请根据实际免费模型列表调整）：
-        // 可选：Qwen/Qwen2.5-7B-Instruct, Qwen/Qwen2.5-14B-Instruct, 
-        //       deepseek-ai/DeepSeek-V2.5, 等
-        model: 'Qwen/Qwen2.5-7B-Instruct', // 使用最稳定的免费模型
-        messages: [
-          {
-            role: 'system',
-            content: '你是一个专业的新闻摘要编辑。请根据提供的新闻标题和内容，生成一个简洁、准确、吸引人的摘要，字数控制在120-150字以内。摘要应该突出新闻的核心信息和重要观点，使用简洁明了的语言。'
-          },
-          {
-            role: 'user',
-            content: `请为以下新闻生成摘要：
+  for (const model of freeModels) {
+    try {
+      const siliconflowKey = process.env.SILICONFLOW_API_KEY;
+      if (!siliconflowKey) {
+        console.log('硅基流动API密钥未配置');
+        return null;
+      }
+
+      const response = await fetch('https://api.siliconflow.cn/v1/chat/completions', {
+        method: 'POST',
+        headers: {
+          'Authorization': `Bearer ${siliconflowKey}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          model: model,
+          messages: [
+            {
+              role: 'system',
+              content: '你是一个专业的新闻摘要编辑。请根据提供的新闻标题和内容，生成一个简洁、准确、吸引人的摘要，字数控制在120-150字以内。摘要应该突出新闻的核心信息和重要观点，使用简洁明了的语言。'
+            },
+            {
+              role: 'user',
+              content: `请为以下新闻生成摘要：
 
 标题：${title}
 
 内容：${content}
 
 请生成一个120-150字的新闻摘要：`
-          }
-        ],
-        max_tokens: 180, // 减少token使用
-        temperature: 0.2 // 降低temperature以节省token
-      })
-    });
+            }
+          ],
+          max_tokens: 180, // 减少token使用
+          temperature: 0.2 // 降低temperature以节省token
+        })
+      });
 
-    if (response.ok) {
-      const data = await response.json();
-      const summary = data.choices[0]?.message?.content?.trim();
-      
-      if (summary && summary.length > 50) {
-        console.log(`硅基流动生成摘要成功，长度: ${summary.length}`);
-        return summary;
+      if (response.ok) {
+        const data = await response.json();
+        const summary = data.choices[0]?.message?.content?.trim();
+        
+        if (summary && summary.length > 50) {
+          console.log(`硅基流动生成摘要成功（模型：${model}），长度: ${summary.length}`);
+          return summary;
+        }
+      } else {
+        console.error(`硅基流动API调用失败（模型：${model}）: ${response.status} ${response.statusText}`);
+        // 继续尝试下一个模型
+        continue;
       }
-    } else {
-      console.error('硅基流动API调用失败:', response.status, response.statusText);
+    } catch (error) {
+      console.error(`硅基流动摘要生成错误（模型：${model}）:`, error);
+      // 继续尝试下一个模型
+      continue;
     }
-  } catch (error) {
-    console.error('硅基流动摘要生成错误:', error);
   }
   
   return null;
