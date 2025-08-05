@@ -82,14 +82,14 @@ const EXCLUDE_KEYWORDS = [
   '市场份额', '销量', '营收', '利润', '融资', '上市', '股价', '市值',
   '投资', '募资', '轮融资', '估值', '收购', '兼并',
   
-  // 普通科技产品
-  '手机', '平板', '笔记本', '电脑', '显示器', '键盘', '鼠标', '耳机',
+  // 普通科技产品 (但不影响AI新闻)
+  '平板', '笔记本', '电脑', '显示器', '键盘', '鼠标', '耳机',
   '充电器', '电池', '内存', '硬盘', '处理器', '显卡', '主板',
-  '鸿蒙', 'HarmonyOS', 'Android', 'iOS', 'Windows', 'macOS',
+  'Android', 'iOS', 'Windows', 'macOS',
   
-  // 汽车相关
+  // 汽车相关 (但不影响AI自动驾驶新闻)
   '电动汽车', '新能源车', '充电桩', '电池技术', '汽车', '车辆',
-  'OTA升级', '泊车辅助', '智能座舱', '手车互联',
+  '手车互联',
   
   // 其他不需要的内容
   '娱乐', '游戏', '体育', '音乐', '电影', '电视', '明星', '网红'
@@ -320,7 +320,7 @@ function generateSimpleInsight(title, content) {
     techAspect = '中国科技巨头在AI领域的布局体现了技术自主创新的重要性';
     industryImpact = '这将推动中国AI产业的快速发展和国际竞争力提升';
     futureTrend = '未来中国AI企业将在全球AI生态系统中发挥更重要作用';
-  } else if (text.includes('openai') || text.includes('google') || text.includes('microsoft')) {
+  } else if (text.includes('openai') || text.includes('google') || text.includes('microsoft') || text.includes('meta') || text.includes('facebook') || text.includes('apple') || text.includes('amazon') || text.includes('nvidia') || text.includes('anthropic')) {
     techAspect = '国际AI巨头的技术突破引领着全球AI发展方向';
     industryImpact = '这将影响全球AI产业格局和技术标准制定';
     futureTrend = '未来国际AI竞争将更加激烈，技术创新速度将持续加快';

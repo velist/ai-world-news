@@ -605,17 +605,6 @@ function categorizeNewsTraditional(title, content) {
     text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
   );
   
-  // 检查是否为AI趣味新闻
-  const funAIKeywords = [
-    '有趣', '好玩', '新奇', '神奇', '惊人', '震撼', '创意', '趣味',
-    'AI绘画', 'AI写作', 'AI作曲', 'AI游戏', 'AI娱乐', 'AI聊天',
-    'ChatGPT写诗', 'AI作画', 'AI生成图片', 'AI创作', 'AI设计'
-  ];
-  
-  const isFunAI = funAIKeywords.some(keyword => 
-    text.includes(keyword) || text.toLowerCase().includes(keyword.toLowerCase())
-  );
-  
   // 检查是否为科技新闻（AI技术相关但不是纯模型新闻）
   const techKeywords = [
     'AI芯片', 'AI框架', 'IDE', '编程', '代码', '软件开发', '开发工具',
