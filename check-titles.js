@@ -25,12 +25,11 @@ const emptyContent = data.data.filter(item => !item.content || item.content.trim
 console.log(`空内容或模板内容: ${emptyContent.length}条`);
 console.log(`高质量内容: ${data.total - emptyContent.length}条`);
 
-// 显示几个高质量新闻示例
-console.log('\n高质量新闻示例:');
-data.data.slice(0, 3).forEach((item, index) => {
+// 显示所有新闻标题以便检查无意义标题
+console.log('\n所有新闻标题:');
+data.data.forEach((item, index) => {
   console.log(`${index + 1}. ${item.title}`);
   console.log(`   来源: ${item.source}`);
   console.log(`   内容长度: ${item.content.length}字符`);
-  console.log(`   分类: ${item.category}`);
   console.log('');
 });
