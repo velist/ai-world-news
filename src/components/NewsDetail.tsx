@@ -79,14 +79,36 @@ export const NewsDetail = ({
   };
 
   const formatDate = (timestamp: string) => {
-    const date = new Date(timestamp);
-    return date.toLocaleDateString('zh-CN', {
-      year: 'numeric',
-      month: 'long',
-      day: 'numeric',
-      hour: '2-digit',
-      minute: '2-digit',
-    });
+    try {
+      const date = new Date(timestamp);
+      
+      // 检查日期是否有效
+      if (isNaN(date.getTime())) {
+        return '时间未知';
+      }
+      
+      // 为了保持发布日期的一致性，我们使用UTC日期而不进行时区转换
+      // 这样可以确保无论在哪个时区查看，显示的发布日期都是一致的
+      const utcYear = date.getUTCFullYear();
+      const utcMonth = date.getUTCMonth();
+      const utcDay = date.getUTCDate();
+      const utcHours = date.getUTCHours();
+      const utcMinutes = date.getUTCMinutes();
+      
+      // 创建一个本地日期对象，但使用UTC的年月日
+      const displayDate = new Date(utcYear, utcMonth, utcDay, utcHours, utcMinutes);
+      
+      return displayDate.toLocaleDateString('zh-CN', {
+        year: 'numeric',
+        month: 'long',
+        day: 'numeric',
+        hour: '2-digit',
+        minute: '2-digit',
+      });
+    } catch (error) {
+      console.error('Date formatting error:', error);
+      return '时间未知';
+    }
   };
 
   const handleShare = async () => {
