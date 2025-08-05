@@ -90,10 +90,10 @@ async function fetchNews() {
   
   let allNews = [];
   
-  // 计算24小时前的时间戳，确保获取最新新闻
-  const yesterday = new Date();
-  yesterday.setDate(yesterday.getDate() - 1);
-  const fromDate = yesterday.toISOString().split('T')[0]; // YYYY-MM-DD 格式
+  // 计算48小时前的时间戳，确保能获取2天内的新闻
+  const twoDaysAgo = new Date();
+  twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+  const fromDate = twoDaysAgo.toISOString().split('T')[0]; // YYYY-MM-DD 格式
   
   console.log(`获取 ${fromDate} 以来的AI新闻...`);
   
@@ -201,12 +201,12 @@ async function fetchNews() {
       if (response.ok) {
         const data = await response.json();
         if (data.results && data.results.length > 0) {
-          // 过滤最近24小时的新闻
+          // 过滤最近48小时的新闻
           const recentResults = data.results.filter(item => {
             const publishedDate = new Date(item.pubDate);
-            const yesterday = new Date();
-            yesterday.setDate(yesterday.getDate() - 1);
-            return publishedDate > yesterday && item.title && item.description;
+            const twoDaysAgo = new Date();
+            twoDaysAgo.setDate(twoDaysAgo.getDate() - 2);
+            return publishedDate > twoDaysAgo && item.title && item.description;
           });
           
           const formattedNews = recentResults.map((item) => ({
