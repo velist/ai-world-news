@@ -33,23 +33,52 @@ export const EmailSubscribe: React.FC<EmailSubscribeProps> = ({ isOpen, onClose 
     setErrorMessage('');
 
     try {
-      // 这里可以集成实际的邮箱订阅服务
-      // 比如Mailchimp, ConvertKit, 或者自建的API
-      // 暂时模拟一个API调用
-      await new Promise(resolve => setTimeout(resolve, 2000));
+      // Mailchimp API 集成
+      const apiKey = import.meta.env.VITE_MAILCHIMP_API_KEY;
+      const listId = import.meta.env.VITE_MAILCHIMP_LIST_ID;
+      const serverPrefix = import.meta.env.VITE_MAILCHIMP_SERVER_PREFIX || 'us21';
       
-      // 模拟成功响应
-      setSubmitStatus('success');
-      setEmail('');
+      if (!apiKey || !listId) {
+        throw new Error('Mailchimp configuration missing');
+      }
       
-      // 3秒后自动关闭
-      setTimeout(() => {
-        onClose();
-        setSubmitStatus('idle');
-      }, 3000);
+      const response = await fetch(`https://${serverPrefix}.api.mailchimp.com/3.0/lists/${listId}/members`, {
+        method: 'POST',
+        headers: {
+          'Authorization': `apikey ${apiKey}`,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email_address: email,
+          status: 'subscribed',
+          merge_fields: {
+            FNAME: '', // 可选：名字字段
+            LNAME: '', // 可选：姓氏字段
+          }
+        })
+      });
+
+      if (response.ok) {
+        setSubmitStatus('success');
+        setEmail('');
+        
+        // 3秒后自动关闭
+        setTimeout(() => {
+          onClose();
+          setSubmitStatus('idle');
+        }, 3000);
+      } else {
+        const errorData = await response.json();
+        if (errorData.title === 'Member Exists') {
+          setErrorMessage(isZh ? '该邮箱已经订阅过了' : 'This email is already subscribed');
+        } else {
+          setErrorMessage(isZh ? '订阅失败，请稍后再试' : 'Subscription failed, please try again later');
+        }
+        setSubmitStatus('error');
+      }
     } catch (error) {
       setSubmitStatus('error');
-      setErrorMessage(isZh ? '订阅失败，请稍后再试' : 'Subscription failed, please try again later');
+      setErrorMessage(isZh ? '网络错误，请稍后再试' : 'Network error, please try again later');
     } finally {
       setIsSubmitting(false);
     }
