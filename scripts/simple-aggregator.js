@@ -95,8 +95,56 @@ const EXCLUDE_KEYWORDS = [
   '娱乐', '游戏', '体育', '音乐', '电影', '电视', '明星', '网红'
 ];
 
-// 判断是否为AI新闻
-function isAINews(title, content) {
+// 使用智谱清言API进行AI判断
+async function isAINewsWithAI(title, content) {
+  const text = `标题：${title}\n内容：${content || ''}`;
+  
+  try {
+    const zhipuAIKey = process.env.ZHIPUAI_API_KEY;
+    if (!zhipuAIKey) {
+      // 如果没有智谱清言API密钥，使用传统方法
+      return isAINewsTraditional(title, content);
+    }
+    
+    const response = await fetch('https://open.bigmodel.cn/api/paas/v4/chat/completions', {
+      method: 'POST',
+      headers: {
+        'Authorization': `Bearer ${zhipuAIKey}`,
+        'Content-Type': 'application/json',
+      },
+      body: JSON.stringify({
+        model: 'glm-4-flash',
+        messages: [
+          {
+            role: 'system',
+            content: '你是一个专业的AI新闻内容审核专家。请判断以下新闻内容是否与人工智能（AI）相关。如果是AI相关新闻，请只回复"true"；如果不是AI相关新闻，请只回复"false"。注意：只判断是否与AI技术、AI应用、AI研究、AI产业等相关，不要包括普通的科技新闻、数码产品新闻、商业新闻等。'
+          },
+          {
+            role: 'user',
+            content: text
+          }
+        ],
+        max_tokens: 10,
+        temperature: 0.1
+      })
+    });
+    
+    if (response.ok) {
+      const data = await response.json();
+      const result = data.choices[0]?.message?.content?.trim().toLowerCase();
+      return result === 'true';
+    } else {
+      console.error('智谱清言API调用失败:', response.status, response.statusText);
+      return isAINewsTraditional(title, content);
+    }
+  } catch (error) {
+    console.error('AI判断错误:', error);
+    return isAINewsTraditional(title, content);
+  }
+}
+
+// 传统关键词匹配方法（作为备用）
+function isAINewsTraditional(title, content) {
   const text = (title + ' ' + (content || '')).toLowerCase();
   
   // 首先检查是否包含需要排除的关键词
@@ -132,9 +180,15 @@ function isAINews(title, content) {
   return hasAICore || hasAIModels || hasAICompanies || hasAITech;
 }
 
+// 判断是否为AI新闻（主函数）
+async function isAINews(title, content) {
+  return await isAINewsWithAI(title, content);
+}
+
 // 判断新闻类别
-function getNewsCategory(title, content) {
-  if (!isAINews(title, content)) {
+async function getNewsCategory(title, content) {
+  const isAI = await isAINews(title, content);
+  if (!isAI) {
     return null; // 不是AI新闻，不包含在系统中
   }
   
@@ -185,7 +239,7 @@ function getNewsCategory(title, content) {
   
   // 分类逻辑 - 优先级调整
   if (isChineseAI) {
-    return '中国AI';
+    return '国内AI';
   }
   
   if (isFunAI) {
@@ -196,7 +250,7 @@ function getNewsCategory(title, content) {
     return '科技新闻';
   }
   
-  return '国际AI';
+  return '国外AI';
 }
 
 // 清理内容
@@ -340,6 +394,11 @@ function generateSimpleInsight(title, content) {
 async function processNewsItem(item, source) {
   const content = cleanContent(item.contentSnippet || item.content || '');
   
+  // 检查内容质量
+  if (!isHighQualityContent(item.title, content, source)) {
+    return null;
+  }
+  
   // 如果内容为空，尝试从其他字段获取
   let summary = content;
   if (!summary) {
@@ -349,7 +408,7 @@ async function processNewsItem(item, source) {
   
   const truncatedSummary = summary.length > 200 ? summary.substring(0, 200) + '...' : summary;
   
-  const category = getNewsCategory(item.title, item.content);
+  const category = await getNewsCategory(item.title, item.content);
   
   // 如果不是AI相关新闻，则跳过
   if (!category) {
@@ -373,6 +432,42 @@ async function processNewsItem(item, source) {
   };
 }
 
+// 检查内容质量
+function isHighQualityContent(title, content, source) {
+  // 检查标题质量
+  if (!title || title.length < 5) {
+    return false;
+  }
+  
+  // 检查内容质量
+  if (!content || content.trim().length < 20) {
+    return false;
+  }
+  
+  // 排除无意义的标题模式
+  const meaninglessPatterns = [
+    /^让.*/,
+    /^爱的.*/,
+    /^所有的.*/,
+    /^具身智能.*/, // 很多无内容的视频标题
+    /^刚刚.*/,
+    /^今日.*/,
+    /^最新.*/,
+  ];
+  
+  if (meaninglessPatterns.some(pattern => pattern.test(title))) {
+    return false;
+  }
+  
+  // 排除特定来源的无内容新闻
+  const excludeSources = ['InfoQ中文'];
+  if (excludeSources.includes(source.name) && content.trim().length < 50) {
+    return false;
+  }
+  
+  return true;
+}
+
 // 主函数
 async function main() {
   console.log('开始聚合RSS AI新闻...');
@@ -393,7 +488,7 @@ async function main() {
       
       // 重新处理现有新闻的分类
       for (const item of existingNews) {
-        const newCategory = getNewsCategory(item.title, item.content);
+        const newCategory = await getNewsCategory(item.title, item.content);
         
         // 如果不是AI相关新闻，则跳过
         if (!newCategory) {
@@ -473,7 +568,7 @@ async function main() {
 }
 
 // 测试分类逻辑
-function testClassification() {
+async function testClassification() {
   console.log('=== 分类测试 ===');
   
   // 测试用例
@@ -491,22 +586,22 @@ function testClassification() {
     {
       title: '华为发布全新AI大模型：基于HarmonyOS生态，支持手机端侧推理',
       content: '华为今日发布全新AI大模型，基于HarmonyOS生态系统，支持手机端侧推理，在自然语言处理方面有重大突破，标志着中国在AI技术领域的又一重要进展。',
-      expected: '中国AI'
+      expected: '国内AI'
     },
     {
       title: '豆包大模型升级：支持200K上下文，性能超越GPT-4',
       content: '字节跳动旗下的豆包大模型今日发布重大升级，新版本支持200K长上下文，在多项基准测试中性能超越GPT-4，标志着中国AI技术的重要突破。',
-      expected: '中国AI'
+      expected: '国内AI'
     },
     {
       title: '智谱AI发布新一代GLM-4大模型：多项性能指标领先',
       content: '智谱AI今日正式发布GLM-4大模型，在自然语言理解、逻辑推理、代码生成等方面均有显著提升，成为中国AI领域的又一重要成果。',
-      expected: '中国AI'
+      expected: '国内AI'
     },
     {
       title: 'OpenAI发布GPT-5：性能大幅提升，支持多模态输入',
       content: 'OpenAI今日宣布发布GPT-5模型，在推理能力、多模态理解、创造性思维等方面都有重大突破，再次引领全球AI技术发展。',
-      expected: '国际AI'
+      expected: '国外AI'
     },
     {
       title: '荣耀 6 月香港市场份额 20.2% 破历史新高，首超苹果进入 TOP2',
@@ -525,16 +620,17 @@ function testClassification() {
     }
   ];
   
-  testCases.forEach((testCase, index) => {
-    const actualCategory = getNewsCategory(testCase.title, testCase.content);
+  for (let i = 0; i < testCases.length; i++) {
+    const testCase = testCases[i];
+    const actualCategory = await getNewsCategory(testCase.title, testCase.content);
     
-    console.log(`测试用例 ${index + 1}:`);
+    console.log(`测试用例 ${i + 1}:`);
     console.log(`  标题: ${testCase.title.substring(0, 60)}...`);
     console.log(`  实际分类: ${actualCategory}`);
     console.log(`  期望分类: ${testCase.expected}`);
     console.log(`  结果: ${actualCategory === testCase.expected ? '✅ 通过' : '❌ 失败'}`);
     console.log('');
-  });
+  }
 }
 
 // 运行

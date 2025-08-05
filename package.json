@@ -13,7 +13,8 @@
     "aggregate-news": "node scripts/simple-aggregator.js",
     "start-news-service": "node scripts/news-service.js",
     "generate-feed": "node scripts/generate-feed.js",
-    "build-with-feed": "npm run aggregate-news && npm run generate-feed && npm run build"
+    "build-with-feed": "npm run aggregate-news && npm run generate-feed && npm run build",
+    "test-ai-judgment": "node scripts/test-ai-judgment.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
