@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState, useEffect, useMemo } from 'react';
 import { NewsItem } from '@/types/news';
 import { useContentFilter } from './useContentFilter';
 import { useNewsTranslation } from './useNewsTranslation';
@@ -71,21 +71,33 @@ export const useNews = () => {
     return () => clearInterval(interval);
   }, []);
 
-  // 修复过滤逻辑：全部显示所有新闻，其他分类只显示对应分类的新闻
-  const filteredNews = selectedCategory === getLocalizedCategory('全部') 
-    ? news 
-    : news.filter(item => {
-        // 将原始分类映射到本地化分类进行比较
-        const localizedItemCategory = getLocalizedCategory(item.category);
-        return localizedItemCategory === selectedCategory;
-      });
+  // 使用useMemo确保排序逻辑正确执行，依赖news和selectedCategory
+  const sortedFilteredNews = useMemo(() => {
+    console.log('重新计算排序后的新闻', { newsCount: news.length, selectedCategory });
+    
+    // 修复过滤逻辑：全部显示所有新闻，其他分类只显示对应分类的新闻
+    const filteredNews = selectedCategory === getLocalizedCategory('全部') 
+      ? news 
+      : news.filter(item => {
+          // 将原始分类映射到本地化分类进行比较
+          const localizedItemCategory = getLocalizedCategory(item.category);
+          return localizedItemCategory === selectedCategory;
+        });
 
-  // 对过滤后的新闻重新排序，确保时间顺序正确
-  const sortedFilteredNews = [...filteredNews].sort((a, b) => {
-    const timeA = new Date(a.publishedAt).getTime();
-    const timeB = new Date(b.publishedAt).getTime();
-    return timeB - timeA; // 降序：最新的在前面
-  });
+    // 对过滤后的新闻重新排序，确保时间顺序正确
+    const sorted = [...filteredNews].sort((a, b) => {
+      const timeA = new Date(a.publishedAt).getTime();
+      const timeB = new Date(b.publishedAt).getTime();
+      return timeB - timeA; // 降序：最新的在前面
+    });
+    
+    console.log('排序后前3条新闻时间:', sorted.slice(0, 3).map(item => ({ 
+      title: item.title.substring(0, 30), 
+      time: item.publishedAt 
+    })));
+    
+    return sorted;
+  }, [news, selectedCategory, getLocalizedCategory]);
 
 // 添加"全部"分类作为首选项，匹配后端的四分类体系
   const rawCategories = ['全部', '中国AI', '国际AI', '科技新闻', 'AI趣味新闻'];

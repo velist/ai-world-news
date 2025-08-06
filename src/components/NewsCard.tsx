@@ -58,6 +58,11 @@ export const NewsCard = ({
       const diff = now.getTime() - date.getTime();
       const absDiff = Math.abs(diff);
       
+      // 调试输出（开发环境）
+      if (process.env.NODE_ENV === 'development') {
+        console.log(`时间调试: ${displayTitle.substring(0, 30)} - ${timestamp} - diff: ${diff}ms - ${Math.floor(diff / (1000 * 60 * 60))}小时`);
+      }
+      
       // 如果时间差很小（小于1分钟），显示刚刚发布
       if (absDiff < 60 * 1000) {
         return '刚刚发布';
