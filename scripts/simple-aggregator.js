@@ -651,8 +651,11 @@ async function main() {
         seenTitles.add(titleKey);
       }
       
-      // 添加重新分类的现有新闻到总列表
-      allNews.push(...existingNews);
+      // 对现有新闻先排序，然后添加到总列表
+      const sortedExistingNews = existingNews.sort((a, b) => 
+        new Date(b.publishedAt) - new Date(a.publishedAt)
+      );
+      allNews.push(...sortedExistingNews);
     }
   } catch (error) {
     console.log('没有找到现有新闻数据，将创建新的数据文件');
