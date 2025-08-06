@@ -155,9 +155,9 @@ const NewsDetailPage = () => {
         <meta property="og:url" content={generateWeChatShareUrl(news.id)} />
         <meta property="og:title" content={news.title} />
         <meta property="og:description" content={news.summary} />
-        <meta property="og:image" content={news.imageUrl || `https://news.aipush.fun/share-icon.svg`} />
-        <meta property="og:image:width" content="1200" />
-        <meta property="og:image:height" content="630" />
+        <meta property="og:image" content={news.imageUrl || `https://news.aipush.fun/wechat-thumb.svg`} />
+        <meta property="og:image:width" content="256" />
+        <meta property="og:image:height" content="256" />
         <meta property="og:site_name" content="AI推" />
         
         {/* Twitter */}
@@ -165,7 +165,7 @@ const NewsDetailPage = () => {
         <meta property="twitter:url" content={generateWeChatShareUrl(news.id)} />
         <meta property="twitter:title" content={news.title} />
         <meta property="twitter:description" content={news.summary} />
-        <meta property="twitter:image" content={news.imageUrl || `https://news.aipush.fun/share-icon.svg`} />
+        <meta property="twitter:image" content={news.imageUrl || `https://news.aipush.fun/wechat-thumb.svg`} />
         
         {/* Article specific */}
         <meta property="article:published_time" content={news.publishedAt} />
@@ -176,7 +176,14 @@ const NewsDetailPage = () => {
         <meta name="weixin:card" content="summary_large_image" />
         <meta name="weixin:title" content={news.title} />
         <meta name="weixin:description" content={news.summary} />
-        <meta name="weixin:image" content={news.imageUrl || `https://news.aipush.fun/share-icon.svg`} />
+        <meta name="weixin:image" content={news.imageUrl || `https://news.aipush.fun/wechat-thumb.svg`} />
+        
+        {/* 微信朋友圈专用 */}
+        <meta property="wx:card" content="summary_large_image" />
+        <meta property="wx:title" content={news.title} />
+        <meta property="wx:desc" content={news.summary} />
+        <meta property="wx:image" content={news.imageUrl || `https://news.aipush.fun/wechat-thumb.svg`} />
+        <meta property="wx:url" content={generateWeChatShareUrl(news.id)} />
         
         {/* 微信环境优化 */}
         {isWeChat && (
