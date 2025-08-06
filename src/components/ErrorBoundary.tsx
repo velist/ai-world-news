@@ -1,5 +1,4 @@
 import React from 'react';
-import { useLanguage } from '@/contexts/LanguageContext';
 
 interface ErrorBoundaryState {
   hasError: boolean;
@@ -43,8 +42,18 @@ export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoun
     window.location.href = '/';
   };
 
+  isWeChatEnvironment = () => {
+    return /micromessenger/i.test(navigator.userAgent);
+  };
+
+  isZhLanguage = () => {
+    // 简单的语言检测，不使用hook
+    const lang = navigator.language || 'zh-CN';
+    return lang.startsWith('zh');
+  };
+
   render() {
-    const { isZh } = useLanguage();
+    const isZh = this.isZhLanguage();
     
     if (this.state.hasError) {
       return (
@@ -61,7 +70,7 @@ export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoun
               }
             </p>
             
-            {/micromessenger/i.test(navigator.userAgent) && (
+            {this.isWeChatEnvironment() && (
               <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-6">
                 <p className="text-sm text-blue-800">
                   {isZh 
@@ -112,9 +121,9 @@ export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoun
  * 用于捕获未处理的JavaScript错误
  */
 export const useGlobalErrorHandler = () => {
-  const { isZh } = useLanguage();
+  const isZh = navigator.language.startsWith('zh');
   
-  useEffect(() => {
+  React.useEffect(() => {
     const handleError = (event: ErrorEvent) => {
       console.error('Global error caught:', event.error);
       
