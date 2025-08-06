@@ -18,7 +18,7 @@
       return ua.indexOf('micromessenger') !== -1;
     }
     
-    // SPA 路由处理 - 微信环境优化版本
+    // SPA 路由处理 - 微信环境彻底优化版本
     (function(l) {
       console.log('404页面加载，当前URL:', l.href);
       console.log('是否微信环境:', isWeChat());
@@ -42,12 +42,15 @@
         console.log('检测到新闻路径，新闻ID:', sharedNewsId);
       }
       
-      // 微信环境特殊处理
+      // 微信环境特殊处理 - 使用Hash路由避免404问题
       if (isWeChat()) {
         if (sharedNewsId) {
-          console.log('微信环境检测到新闻分享链接，跳转到新闻页:', sharedNewsId);
+          console.log('微信环境检测到新闻分享链接，使用Hash路由:', sharedNewsId);
+          // 使用Hash路由避免GitHub Pages 404问题
+          var hashUrl = '/#/news/' + sharedNewsId;
+          console.log('跳转到Hash URL:', hashUrl);
           setTimeout(function() {
-            window.location.replace('/news/' + sharedNewsId);
+            window.location.replace(hashUrl);
           }, 100);
         } else {
           console.log('微信环境非新闻链接，跳转到首页');
@@ -73,11 +76,16 @@
   </div>
   
   <script>
-    // 简化的备用跳转机制
+    // 优化的备用跳转机制 - 避免干扰新闻页面跳转
     setTimeout(function() {
-      if (window.location.pathname !== '/') {
-        console.log('执行备用跳转到首页');
+      var currentPath = window.location.pathname;
+      var isNewsPath = /^\/news\/([^\/]+)$/.test(currentPath);
+      
+      if (currentPath !== '/' && !isNewsPath) {
+        console.log('非新闻路径，执行备用跳转到首页');
         window.location.replace('/');
+      } else if (isNewsPath) {
+        console.log('检测到新闻路径，不执行备用跳转');
       }
     }, 2000);
   </script>

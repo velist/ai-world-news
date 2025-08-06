@@ -25,8 +25,8 @@ export const useWeChatEnvironment = () => {
       const sharedNewsId = urlParams.get('news_id');
       
       if (sharedNewsId && !window.location.pathname.includes('/news/')) {
-        const targetUrl = `/news/${sharedNewsId}`;
-        console.log('🔄 检测到分享链接，重定向到:', targetUrl);
+        const targetUrl = `#/news/${sharedNewsId}`;
+        console.log('🔄 检测到分享链接，重定向到Hash路由:', targetUrl);
         window.location.replace(targetUrl);
         return true;
       }
@@ -97,7 +97,7 @@ export const useWeChatEnvironment = () => {
  * 确保分享链接在微信环境中能正常打开
  */
 export const generateWeChatShareUrl = (newsId: string): string => {
-  return `https://news.aipush.fun/news/${newsId}`;
+  return `https://news.aipush.fun/#/news/${newsId}`;
 };
 
 /**

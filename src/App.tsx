@@ -2,7 +2,7 @@ import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { HashRouter, BrowserRouter, Routes, Route } from "react-router-dom";
 import { HelmetProvider } from "react-helmet-async";
 import { UpdateNotification } from "@/components/UpdateNotification";
 import { LanguageProvider } from "@/contexts/LanguageContext";
@@ -19,6 +19,9 @@ const App = () => {
   // 启用微信环境优化
   const { isWeChat } = useWeChatEnvironment();
   const [hasError, setHasError] = useState(false);
+  
+  // 根据环境选择路由器
+  const Router = isWeChat ? HashRouter : BrowserRouter;
   
   // 启用全局错误处理
   useGlobalErrorHandler();
@@ -64,7 +67,7 @@ const App = () => {
               <Toaster />
               <Sonner />
               <UpdateNotification />
-              <BrowserRouter>
+              <Router>
                 <Routes>
                   <Route path="/" element={<Index />} />
                   <Route path="/news/:id" element={<NewsDetailPage />} />
