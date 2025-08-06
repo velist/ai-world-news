@@ -16,6 +16,7 @@ import Index from "./pages/Index";
 import NewsDetailPage from "./pages/NewsDetailPage";
 import NotFound from "./pages/NotFound";
 import { WeChatDebugPage } from "./pages/WeChatDebugPage";
+import { DeploymentStatus } from "@/components/DeploymentStatus";
 
 const queryClient = new QueryClient();
 
@@ -124,6 +125,7 @@ const App = () => {
               <Toaster />
               <Sonner />
               <UpdateNotification />
+              <DeploymentStatus />
               <Router>
                 <WeChatHashRouterHandler />
                 <Routes>
