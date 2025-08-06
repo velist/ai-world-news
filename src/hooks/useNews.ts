@@ -53,10 +53,13 @@ export const useNews = () => {
             return timeB - timeA; // 降序：最新的在前面
           });
           
-          console.log('排序后前5条新闻时间:', sortedData.slice(0, 5).map(item => ({ 
+          console.log('排序后前10条新闻完整时间:', sortedData.slice(0, 10).map((item, index) => ({ 
+            index: index + 1,
             title: item.title.substring(0, 40), 
             time: item.publishedAt,
-            source: item.source
+            timeNum: new Date(item.publishedAt).getTime(),
+            source: item.source,
+            contentLength: item.content?.length || 0
           })));
           
           // 应用语言本地化
@@ -103,6 +106,15 @@ export const useNews = () => {
     console.log('排序后前3条新闻时间:', sorted.slice(0, 3).map(item => ({ 
       title: item.title.substring(0, 30), 
       time: item.publishedAt 
+    })));
+    
+    // 紧急调试：检查前10条时间是否正确
+    console.log('🚨 前端最终前10条新闻时间检查:', sorted.slice(0, 10).map((item, index) => ({
+      index: index + 1,
+      title: item.title.substring(0, 40),
+      time: item.publishedAt,
+      timestamp: new Date(item.publishedAt).getTime(),
+      source: item.source
     })));
     
     return sorted;
