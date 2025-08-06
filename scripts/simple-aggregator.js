@@ -651,10 +651,20 @@ async function main() {
         seenTitles.add(titleKey);
       }
       
-      // 对现有新闻先排序，然后添加到总列表
-      const sortedExistingNews = existingNews.sort((a, b) => 
+      // 对现有新闻进行过滤和排序，然后添加到总列表
+      const validExistingNews = existingNews.filter(item => {
+        // 应用相同的过滤规则到现有新闻
+        if (item.source === 'InfoQ中文' && item.content && item.content.trim().length < 50) {
+          console.log(`过滤掉低质量InfoQ新闻: ${item.title}`);
+          return false;
+        }
+        return true;
+      });
+      
+      const sortedExistingNews = validExistingNews.sort((a, b) => 
         new Date(b.publishedAt) - new Date(a.publishedAt)
       );
+      console.log(`保留了 ${sortedExistingNews.length} 条现有新闻，过滤掉了 ${existingNews.length - sortedExistingNews.length} 条低质量新闻`);
       allNews.push(...sortedExistingNews);
     }
   } catch (error) {

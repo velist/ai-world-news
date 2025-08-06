@@ -42,14 +42,25 @@ export const useNews = () => {
         const data = await response.json();
         
         if (data?.success && data?.data) {
+          console.log(`获取到原始新闻数据: ${data.data.length} 条`);
+          
           // 应用内容过滤，移除政治敏感内容
           const filteredData = filterNews(data.data);
+          console.log(`内容过滤后新闻数据: ${filteredData.length} 条 (被过滤掉 ${data.data.length - filteredData.length} 条)`);
+          
           // 按时间降序排序 - 最新的在前面
           const sortedData = filteredData.sort((a, b) => {
             const timeA = new Date(a.publishedAt).getTime();
             const timeB = new Date(b.publishedAt).getTime();
             return timeB - timeA; // 降序：最新的在前面
           });
+          
+          console.log('排序后前5条新闻时间:', sortedData.slice(0, 5).map(item => ({ 
+            title: item.title.substring(0, 40), 
+            time: item.publishedAt,
+            source: item.source
+          })));
+          
           // 应用语言本地化
           const localizedData = getLocalizedNewsArray(sortedData);
           setNews(localizedData);
