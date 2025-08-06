@@ -80,12 +80,19 @@ export const useNews = () => {
         return localizedItemCategory === selectedCategory;
       });
 
+  // 对过滤后的新闻重新排序，确保时间顺序正确
+  const sortedFilteredNews = [...filteredNews].sort((a, b) => {
+    const timeA = new Date(a.publishedAt).getTime();
+    const timeB = new Date(b.publishedAt).getTime();
+    return timeB - timeA; // 降序：最新的在前面
+  });
+
 // 添加"全部"分类作为首选项，匹配后端的四分类体系
   const rawCategories = ['全部', '中国AI', '国际AI', '科技新闻', 'AI趣味新闻'];
   const categories = rawCategories.map(cat => getLocalizedCategory(cat));
 
   return {
-    news: filteredNews,
+    news: sortedFilteredNews,
     loading,
     error,
     categories,
