@@ -73,7 +73,10 @@ const Index = () => {
         <meta property="og:url" content={window.location.origin} />
         <meta property="og:title" content="AI推 - 最新AI资讯聚合平台" />
         <meta property="og:description" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
-        <meta property="og:image" content={`${window.location.origin}/og-image.png`} />
+        <meta property="og:image" content={`${window.location.origin}/share-icon.svg`} />
+        <meta property="og:image:width" content="512" />
+        <meta property="og:image:height" content="512" />
+        <meta property="og:image:type" content="image/svg+xml" />
         <meta property="og:site_name" content="AI推" />
         
         {/* Twitter */}
@@ -81,7 +84,7 @@ const Index = () => {
         <meta property="twitter:url" content={window.location.origin} />
         <meta property="twitter:title" content="AI推 - 最新AI资讯聚合平台" />
         <meta property="twitter:description" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
-        <meta property="twitter:image" content={`${window.location.origin}/og-image.png`} />
+        <meta property="twitter:image" content={`${window.location.origin}/share-icon.svg`} />
       </Helmet>
       
       <div className="min-h-screen bg-background">
