@@ -8,6 +8,7 @@ import { UpdateNotification } from "@/components/UpdateNotification";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import { useWeChatEnvironment } from "@/hooks/useWeChatEnvironment";
 import { ErrorBoundary, useGlobalErrorHandler } from "@/components/ErrorBoundary";
+import { WeChatHashRouterHandler } from "@/components/WeChatHashRouterHandler";
 import { isWeChatBrowser } from "@/utils/browserDetection";
 import { normalizeUrl, extractPathFromQuery, restoreUrlHistory } from "@/utils/urlNormalization";
 import { useState, useEffect } from "react";
@@ -123,6 +124,7 @@ const App = () => {
               <Sonner />
               <UpdateNotification />
               <Router>
+                <WeChatHashRouterHandler />
                 <Routes>
                   <Route path="/" element={<Index />} />
                   <Route path="/news/:id" element={<NewsDetailPage />} />
