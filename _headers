@@ -1,10 +1,16 @@
-# 静态资源缓存控制
+# 动态数据文件：强制无缓存，确保微信等浏览器获取最新内容
 /news-data.json
   Cache-Control: no-cache, no-store, must-revalidate
   Pragma: no-cache
   Expires: 0
+  X-Robots-Tag: noindex
 
-# CSS和JS文件可以缓存更长时间
+# 版本文件：短期缓存
+/version.json
+  Cache-Control: public, max-age=300
+  X-Robots-Tag: noindex
+
+# CSS和JS文件：长期缓存（有hash）
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
 
@@ -12,10 +18,37 @@
 /*.png
   Cache-Control: public, max-age=86400
 /*.jpg
+  Cache-Control: public, max-age=86400  
+/*.jpeg
   Cache-Control: public, max-age=86400
 /*.svg
   Cache-Control: public, max-age=86400
+/*.webp
+  Cache-Control: public, max-age=86400
 
-# HTML文件短期缓存
+# HTML文件：短期缓存，确保新内容能及时更新
 /*.html
   Cache-Control: public, max-age=300
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+
+# 主页特殊处理：更短缓存时间
+/
+  Cache-Control: public, max-age=60
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+
+# RSS和sitemap
+/rss.xml
+  Cache-Control: public, max-age=1800
+  Content-Type: application/rss+xml; charset=utf-8
+  
+/sitemap.xml  
+  Cache-Control: public, max-age=3600
+  Content-Type: application/xml; charset=utf-8
+
+# 安全头：防止iframe嵌套和XSS
+/*
+  X-Frame-Options: SAMEORIGIN
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
