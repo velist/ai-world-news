@@ -18,7 +18,7 @@
       return ua.indexOf('micromessenger') !== -1;
     }
     
-    // SPA 路由处理 - 微信环境优化版本
+    // SPA 路由处理 - 微信环境简化版本
     (function(l) {
       console.log('404页面加载，当前URL:', l.href);
       console.log('是否微信环境:', isWeChat());
@@ -33,24 +33,16 @@
         )
       }
       
-      // 处理路由跳转
-      var targetPath = l.pathname + l.search + l.hash;
-      console.log('准备跳转到:', targetPath);
-      
-      // 微信环境特殊处理
+      // 微信环境直接跳转到首页，避免复杂路由处理
       if (isWeChat()) {
-        // 微信内嵌浏览器使用硬跳转，并添加时间戳避免缓存
-        var timestamp = Date.now();
-        var separator = targetPath.includes('?') ? '&' : '?';
-        var antiCacheUrl = targetPath + separator + '_wechat_cache_bust=' + timestamp;
-        
-        console.log('微信环境使用防缓存跳转:', antiCacheUrl);
-        
+        console.log('微信环境直接跳转到首页');
         setTimeout(function() {
-          window.location.replace(antiCacheUrl);
-        }, 50);
+          window.location.replace('/');
+        }, 100);
       } else {
         // 普通浏览器使用历史记录替换
+        var targetPath = l.pathname + l.search + l.hash;
+        console.log('准备跳转到:', targetPath);
         window.history.replaceState(null, null, targetPath);
         window.location.reload();
       }
@@ -65,21 +57,13 @@
   </div>
   
   <script>
-    // 增强的备用跳转机制 - 针对微信环境优化
+    // 简化的备用跳转机制
     setTimeout(function() {
       if (window.location.pathname !== '/') {
-        console.log('执行备用跳转');
-        
-        if (isWeChat()) {
-          // 微信环境使用防缓存跳转
-          var timestamp = Date.now();
-          var antiCacheUrl = '/?_wechat_backup_redirect=' + timestamp;
-          window.location.replace(antiCacheUrl);
-        } else {
-          window.location.href = '/';
-        }
+        console.log('执行备用跳转到首页');
+        window.location.replace('/');
       }
-    }, 1500);
+    }, 2000);
   </script>
 </body>
 </html>
