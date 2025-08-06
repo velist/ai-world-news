@@ -1,0 +1,186 @@
+{
+  "timestamp": "2025-08-06T15:37:11.090Z",
+  "allPassed": true,
+  "results": [
+    {
+      "name": "404页面简化",
+      "file": "../public/404.html",
+      "passed": true,
+      "checks": [
+        {
+          "check": "微信环境直接跳转到首页",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "_wechat_cache_bust",
+          "passed": true,
+          "required": false,
+          "shouldNotExist": true
+        },
+        {
+          "check": "执行备用跳转到首页",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "window.location.replace('/')",
+          "passed": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "微信环境Hook简化",
+      "file": "../src/hooks/useWeChatEnvironment.ts",
+      "passed": true,
+      "checks": [
+        {
+          "check": "generateAntiCacheUrl",
+          "passed": false,
+          "required": false,
+          "shouldNotExist": true
+        },
+        {
+          "check": "optimizeURLHandling",
+          "passed": true,
+          "required": false,
+          "shouldNotExist": true
+        },
+        {
+          "check": "optimizePageLoading",
+          "passed": true,
+          "required": false,
+          "shouldNotExist": true
+        },
+        {
+          "check": "sessionStorage",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "useState",
+          "passed": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "错误边界组件",
+      "file": "../src/components/ErrorBoundary.tsx",
+      "passed": true,
+      "checks": [
+        {
+          "check": "class ErrorBoundary",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "useGlobalErrorHandler",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "微信环境",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "window.location.href = '/'",
+          "passed": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "App组件集成",
+      "file": "../src/App.tsx",
+      "passed": true,
+      "checks": [
+        {
+          "check": "ErrorBoundary",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "useGlobalErrorHandler",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "hasError",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "useWeChatEnvironment",
+          "passed": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "新闻详情页优化",
+      "file": "../src/pages/NewsDetailPage.tsx",
+      "passed": true,
+      "checks": [
+        {
+          "check": "MAX_RETRIES",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "generateAntiCacheUrl",
+          "passed": true,
+          "required": false,
+          "shouldNotExist": true
+        },
+        {
+          "check": "setRetryCount(0)",
+          "passed": true,
+          "required": true
+        },
+        {
+          "check": "retryCount < MAX_RETRIES",
+          "passed": true,
+          "required": true
+        }
+      ]
+    },
+    {
+      "name": "新闻Hook简化",
+      "file": "../src/hooks/useNews.ts",
+      "passed": true,
+      "checks": [
+        {
+          "check": "&r=${Math.random()}",
+          "passed": true,
+          "required": false,
+          "shouldNotExist": true
+        },
+        {
+          "check": "&v=${Math.floor(forceTimestamp/1000)}",
+          "passed": true,
+          "required": false,
+          "shouldNotExist": true
+        },
+        {
+          "check": "&bust=true",
+          "passed": true,
+          "required": false,
+          "shouldNotExist": true
+        },
+        {
+          "check": "?t=${forceTimestamp}",
+          "passed": true,
+          "required": true
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "total": 6,
+    "passed": 6,
+    "failed": 0
+  }
+}

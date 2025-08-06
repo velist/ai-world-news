@@ -5,7 +5,7 @@ import { NewsDetail } from '@/components/NewsDetail';
 import { NewsItem } from '@/types/news';
 import { Loader2 } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { generateWeChatShareUrl, isWeChatEnvironment, generateAntiCacheUrl } from '@/hooks/useWeChatEnvironment';
+import { generateWeChatShareUrl, isWeChatEnvironment } from '@/hooks/useWeChatEnvironment';
 
 const NewsDetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -15,6 +15,10 @@ const NewsDetailPage = () => {
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
   const [retryCount, setRetryCount] = useState(0);
+
+  // 限制重试次数，避免无限循环
+  const MAX_RETRIES = 2;
+  const RETRY_DELAY = 1500;
 
   // 检测是否为微信浏览器
   const isWeChat = isWeChatEnvironment();
@@ -31,12 +35,9 @@ const NewsDetailPage = () => {
         setLoading(true);
         setError(null);
         
-        // 为微信浏览器添加更强的缓存破坏参数
-        const dataUrl = isWeChat ? 
-          generateAntiCacheUrl('/news-data.json') : 
-          `/news-data.json?t=${Date.now()}`;
-        
-        const response = await fetch(dataUrl, {
+        // 简化缓存破坏参数
+        const cacheParam = `?t=${Date.now()}`;
+        const response = await fetch(`/news-data.json${cacheParam}`, {
           method: 'GET',
           headers: {
             'Cache-Control': 'no-cache',
@@ -57,14 +58,15 @@ const NewsDetailPage = () => {
         }
         
         setNews(foundNews);
+        setRetryCount(0); // 重置重试计数
       } catch (error) {
         console.error('Error fetching news:', error, 'Retry count:', retryCount);
         
-        // 在微信浏览器中增加重试机制
-        if (isWeChat && retryCount < 3) {
+        // 在微信浏览器中限制重试
+        if (isWeChat && retryCount < MAX_RETRIES) {
           setTimeout(() => {
             setRetryCount(prev => prev + 1);
-          }, 1000 * (retryCount + 1)); // 递增延迟
+          }, RETRY_DELAY);
           return;
         }
         

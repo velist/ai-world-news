@@ -20,9 +20,9 @@ export const useNews = () => {
         // 检测是否为微信浏览器
         const isWeChat = /micromessenger/i.test(navigator.userAgent);
         
-        // 从静态JSON文件获取新闻数据 - 强制破坏缓存立即获取最新数据
+        // 从静态JSON文件获取新闻数据 - 简化缓存破坏参数
         const forceTimestamp = Date.now();
-        const cacheParam = `?t=${forceTimestamp}&r=${Math.random()}&v=${Math.floor(forceTimestamp/1000)}&bust=true`;
+        const cacheParam = `?t=${forceTimestamp}`;
         
         const response = await fetch(`/news-data.json${cacheParam}`, {
           cache: 'no-cache',
