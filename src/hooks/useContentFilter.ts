@@ -34,6 +34,13 @@ export const useContentFilter = () => {
 
   const filterNews = (newsArray: any[]) => {
     return newsArray.filter(news => {
+      // 首先过滤低质量InfoQ新闻
+      if (news.source === 'InfoQ中文' && news.content && news.content.trim().length < 50) {
+        console.log(`前端过滤掉低质量InfoQ新闻: ${news.title}`);
+        return false;
+      }
+      
+      // 然后应用内容安全过滤
       return isContentSafe(
         news.title || "", 
         news.content || news.summary || "", 
