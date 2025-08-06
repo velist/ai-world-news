@@ -5,6 +5,7 @@ import { NewsDetail } from '@/components/NewsDetail';
 import { NewsItem } from '@/types/news';
 import { Loader2 } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { generateWeChatShareUrl, isWeChatEnvironment, generateAntiCacheUrl } from '@/hooks/useWeChatEnvironment';
 
 const NewsDetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -16,7 +17,7 @@ const NewsDetailPage = () => {
   const [retryCount, setRetryCount] = useState(0);
 
   // 检测是否为微信浏览器
-  const isWeChat = /micromessenger/i.test(navigator.userAgent);
+  const isWeChat = isWeChatEnvironment();
 
   useEffect(() => {
     const fetchNewsById = async () => {
@@ -31,11 +32,11 @@ const NewsDetailPage = () => {
         setError(null);
         
         // 为微信浏览器添加更强的缓存破坏参数
-        const cacheParam = isWeChat ? 
-          `?t=${Date.now()}&r=${Math.random()}&v=${retryCount}` : 
-          `?t=${Date.now()}`;
+        const dataUrl = isWeChat ? 
+          generateAntiCacheUrl('/news-data.json') : 
+          `/news-data.json?t=${Date.now()}`;
         
-        const response = await fetch(`/news-data.json${cacheParam}`, {
+        const response = await fetch(dataUrl, {
           method: 'GET',
           headers: {
             'Cache-Control': 'no-cache',
@@ -129,20 +130,20 @@ const NewsDetailPage = () => {
         
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="article" />
-        <meta property="og:url" content={`${window.location.origin}/news/${news.id}`} />
+        <meta property="og:url" content={generateWeChatShareUrl(news.id)} />
         <meta property="og:title" content={news.title} />
         <meta property="og:description" content={news.summary} />
-        <meta property="og:image" content={news.imageUrl || `${window.location.origin}/share-icon.svg`} />
+        <meta property="og:image" content={news.imageUrl || `https://news.aipush.fun/share-icon.svg`} />
         <meta property="og:image:width" content="1200" />
         <meta property="og:image:height" content="630" />
         <meta property="og:site_name" content="AI推" />
         
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
-        <meta property="twitter:url" content={`${window.location.origin}/news/${news.id}`} />
+        <meta property="twitter:url" content={generateWeChatShareUrl(news.id)} />
         <meta property="twitter:title" content={news.title} />
         <meta property="twitter:description" content={news.summary} />
-        <meta property="twitter:image" content={news.imageUrl || `${window.location.origin}/share-icon.svg`} />
+        <meta property="twitter:image" content={news.imageUrl || `https://news.aipush.fun/share-icon.svg`} />
         
         {/* Article specific */}
         <meta property="article:published_time" content={news.publishedAt} />
@@ -153,7 +154,12 @@ const NewsDetailPage = () => {
         <meta name="weixin:card" content="summary_large_image" />
         <meta name="weixin:title" content={news.title} />
         <meta name="weixin:description" content={news.summary} />
-        <meta name="weixin:image" content={news.imageUrl || `${window.location.origin}/share-icon.svg`} />
+        <meta name="weixin:image" content={news.imageUrl || `https://news.aipush.fun/share-icon.svg`} />
+        
+        {/* 微信环境优化 */}
+        {isWeChat && (
+          <meta name="weixin:optimized" content="true" />
+        )}
       </Helmet>
       
       <NewsDetail

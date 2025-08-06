@@ -3,6 +3,7 @@ import { Clock, ExternalLink, Share2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
+import { generateWeChatShareUrl } from "@/hooks/useWeChatEnvironment";
 import { Link } from "react-router-dom";
 
 interface NewsCardProps {
@@ -92,7 +93,8 @@ export const NewsCard = ({
     e.stopPropagation(); // 阻止卡片点击事件
     e.preventDefault(); // 阻止Link导航
     
-    const shareUrl = `${window.location.origin}/news/${id}`;
+    // 使用微信环境专用分享URL生成器
+    const shareUrl = generateWeChatShareUrl(id);
     const shareText = `${displayTitle} - 来自AI推`;
     
     // 检测是否在微信浏览器中
