@@ -108,7 +108,16 @@ export const useNews = () => {
           if (response.ok) {
             const data = await response.json();
             if (data?.success && data?.data) {
-              const localizedData = getLocalizedNewsArray(data.data);
+              // 应用内容过滤，移除政治敏感内容
+              const filteredData = filterNews(data.data);
+              // 按时间降序排序 - 最新的在前面
+              const sortedData = filteredData.sort((a, b) => {
+                const timeA = new Date(a.publishedAt).getTime();
+                const timeB = new Date(b.publishedAt).getTime();
+                return timeB - timeA; // 降序：最新的在前面
+              });
+              // 应用语言本地化
+              const localizedData = getLocalizedNewsArray(sortedData);
               setNews(localizedData);
             }
           } else {
