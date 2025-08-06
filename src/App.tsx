@@ -8,6 +8,8 @@ import { UpdateNotification } from "@/components/UpdateNotification";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import { useWeChatEnvironment } from "@/hooks/useWeChatEnvironment";
 import { ErrorBoundary, useGlobalErrorHandler } from "@/components/ErrorBoundary";
+import { isWeChatBrowser, restoreUrlHistory } from "@/utils/browserDetection";
+import { normalizeUrl, extractPathFromQuery } from "@/utils/urlNormalization";
 import { useState, useEffect } from "react";
 import Index from "./pages/Index";
 import NewsDetailPage from "./pages/NewsDetailPage";
@@ -19,12 +21,51 @@ const App = () => {
   // 启用微信环境优化
   const { isWeChat } = useWeChatEnvironment();
   const [hasError, setHasError] = useState(false);
+  const [isInitialized, setIsInitialized] = useState(false);
   
   // 根据环境选择路由器
-  const Router = isWeChat ? HashRouter : BrowserRouter;
+  const Router = isWeChatBrowser() ? HashRouter : BrowserRouter;
   
   // 启用全局错误处理
   useGlobalErrorHandler();
+  
+  // URL规范化初始化
+  useEffect(() => {
+    const initializeApp = () => {
+      try {
+        // 恢复URL历史记录（仅普通环境）
+        if (!isWeChatBrowser()) {
+          restoreUrlHistory();
+        }
+        
+        // 规范化URL（仅微信环境）
+        normalizeUrl();
+        
+        console.log('应用初始化完成:', {
+          isWeChat: isWeChatBrowser(),
+          currentPath: window.location.pathname,
+          currentHash: window.location.hash,
+          routerType: isWeChatBrowser() ? 'HashRouter' : 'BrowserRouter'
+        });
+        
+        setIsInitialized(true);
+      } catch (error) {
+        console.error('应用初始化失败:', error);
+        setHasError(true);
+      }
+    };
+    
+    // 延迟初始化，确保DOM完全加载
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initializeApp);
+    } else {
+      initializeApp();
+    }
+    
+    return () => {
+      document.removeEventListener('DOMContentLoaded', initializeApp);
+    };
+  }, []);
   
   // 微信环境专用错误监控
   useEffect(() => {
@@ -38,6 +79,20 @@ const App = () => {
       return () => window.removeEventListener('error', handleError);
     }
   }, [isWeChat]);
+  
+  // 显示加载状态
+  if (!isInitialized) {
+    return (
+      <ErrorBoundary>
+        <div className="min-h-screen flex items-center justify-center">
+          <div className="text-center">
+            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900 mx-auto mb-4"></div>
+            <p className="text-gray-600">正在初始化应用...</p>
+          </div>
+        </div>
+      </ErrorBoundary>
+    );
+  }
   
   if (hasError) {
     return (

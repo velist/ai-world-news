@@ -19,16 +19,23 @@ export const useWeChatEnvironment = () => {
     
     console.log('🔧 微信环境优化已启用');
     
-    // 1. 微信环境专用路由处理（只处理分享链接）
+    // 1. 微信环境专用路由处理（简化版本，主要处理URL规范化）
     const handleWeChatRouting = () => {
-      const urlParams = new URLSearchParams(window.location.search);
-      const sharedNewsId = urlParams.get('news_id');
+      // 检查是否需要URL规范化
+      const hash = window.location.hash;
+      const path = window.location.pathname;
       
-      if (sharedNewsId && !window.location.pathname.includes('/news/')) {
-        const targetUrl = `#/news/${sharedNewsId}`;
-        console.log('🔄 检测到分享链接，重定向到Hash路由:', targetUrl);
-        window.location.replace(targetUrl);
-        return true;
+      // 如果是微信环境且有Hash路由，尝试规范化URL
+      if (hash && hash !== '#') {
+        const cleanPath = hash.slice(1); // 移除 # 符号
+        if (cleanPath !== path) {
+          console.log('🔄 微信环境URL规范化:', { from: path, to: cleanPath });
+          try {
+            window.history.replaceState({}, '', cleanPath);
+          } catch (error) {
+            console.warn('URL规范化失败:', error);
+          }
+        }
       }
       
       return false;
@@ -94,10 +101,18 @@ export const useWeChatEnvironment = () => {
 
 /**
  * 微信环境专用分享URL生成器
- * 确保分享链接在微信环境中能正常打开
+ * 根据环境生成合适的分享链接
  */
 export const generateWeChatShareUrl = (newsId: string): string => {
-  return `https://news.aipush.fun/#/news/${newsId}`;
+  const isWeChat = /micromessenger/i.test(navigator.userAgent);
+  
+  if (isWeChat) {
+    // 微信环境使用Hash路由
+    return `https://news.aipush.fun/#/news/${newsId}`;
+  } else {
+    // 普通环境使用标准路径
+    return `https://news.aipush.fun/news/${newsId}`;
+  }
 };
 
 /**
