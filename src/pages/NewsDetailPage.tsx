@@ -13,6 +13,10 @@ const NewsDetailPage = () => {
   const [news, setNews] = useState<NewsItem | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
+  const [retryCount, setRetryCount] = useState(0);
+
+  // 检测是否为微信浏览器
+  const isWeChat = /micromessenger/i.test(navigator.userAgent);
 
   useEffect(() => {
     const fetchNewsById = async () => {
@@ -26,8 +30,19 @@ const NewsDetailPage = () => {
         setLoading(true);
         setError(null);
         
-        // 从本地存储的新闻数据中查找
-        const response = await fetch(`/news-data.json?t=${Date.now()}`);
+        // 为微信浏览器添加更强的缓存破坏参数
+        const cacheParam = isWeChat ? 
+          `?t=${Date.now()}&r=${Math.random()}&v=${retryCount}` : 
+          `?t=${Date.now()}`;
+        
+        const response = await fetch(`/news-data.json${cacheParam}`, {
+          method: 'GET',
+          headers: {
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache'
+          }
+        });
+        
         if (!response.ok) {
           throw new Error(isZh ? '无法获取新闻数据' : 'Failed to fetch news data');
         }
@@ -42,7 +57,16 @@ const NewsDetailPage = () => {
         
         setNews(foundNews);
       } catch (error) {
-        console.error('Error fetching news:', error);
+        console.error('Error fetching news:', error, 'Retry count:', retryCount);
+        
+        // 在微信浏览器中增加重试机制
+        if (isWeChat && retryCount < 3) {
+          setTimeout(() => {
+            setRetryCount(prev => prev + 1);
+          }, 1000 * (retryCount + 1)); // 递增延迟
+          return;
+        }
+        
         setError(error instanceof Error ? error.message : (isZh ? '获取新闻失败' : 'Failed to fetch news'));
       } finally {
         setLoading(false);
@@ -50,7 +74,7 @@ const NewsDetailPage = () => {
     };
 
     fetchNewsById();
-  }, [id, isZh]);
+  }, [id, isZh, retryCount, isWeChat]);
 
   const handleBack = () => {
     navigate('/');
@@ -59,9 +83,21 @@ const NewsDetailPage = () => {
   if (loading) {
     return (
       <div className="min-h-screen bg-background flex items-center justify-center">
-        <div className="flex items-center space-x-2 text-muted-foreground">
-          <Loader2 className="w-5 h-5 animate-spin" />
-          <span>{isZh ? '正在加载新闻...' : 'Loading news...'}</span>
+        <div className="flex flex-col items-center space-y-4 text-muted-foreground">
+          <Loader2 className="w-8 h-8 animate-spin" />
+          <span className="text-center">
+            {isZh ? '正在加载新闻...' : 'Loading news...'}
+            {isWeChat && retryCount > 0 && (
+              <div className="text-xs mt-2 opacity-75">
+                {isZh ? `重试中 (${retryCount}/3)` : `Retrying (${retryCount}/3)`}
+              </div>
+            )}
+          </span>
+          {isWeChat && (
+            <div className="text-xs text-center opacity-60 max-w-xs">
+              {isZh ? '微信浏览器首次加载可能较慢，请稍候...' : 'First loading in WeChat may be slow, please wait...'}
+            </div>
+          )}
         </div>
       </div>
     );
