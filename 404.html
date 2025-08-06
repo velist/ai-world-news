@@ -18,7 +18,7 @@
       return ua.indexOf('micromessenger') !== -1;
     }
     
-    // SPA 路由处理 - 微信环境简化版本
+    // SPA 路由处理 - 微信环境优化版本
     (function(l) {
       console.log('404页面加载，当前URL:', l.href);
       console.log('是否微信环境:', isWeChat());
@@ -33,12 +33,28 @@
         )
       }
       
-      // 微信环境直接跳转到首页，避免复杂路由处理
+      // 检查是否为新闻详情页路径
+      var newsPathMatch = l.pathname.match(/^\/news\/([^\/]+)$/);
+      var sharedNewsId = null;
+      
+      if (newsPathMatch) {
+        sharedNewsId = newsPathMatch[1];
+        console.log('检测到新闻路径，新闻ID:', sharedNewsId);
+      }
+      
+      // 微信环境特殊处理
       if (isWeChat()) {
-        console.log('微信环境直接跳转到首页');
-        setTimeout(function() {
-          window.location.replace('/');
-        }, 100);
+        if (sharedNewsId) {
+          console.log('微信环境检测到新闻分享链接，跳转到新闻页:', sharedNewsId);
+          setTimeout(function() {
+            window.location.replace('/news/' + sharedNewsId);
+          }, 100);
+        } else {
+          console.log('微信环境非新闻链接，跳转到首页');
+          setTimeout(function() {
+            window.location.replace('/');
+          }, 100);
+        }
       } else {
         // 普通浏览器使用历史记录替换
         var targetPath = l.pathname + l.search + l.hash;
