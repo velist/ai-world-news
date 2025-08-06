@@ -1,9 +1,10 @@
+import { useCallback } from 'react';
 import { useLanguage } from '@/contexts/LanguageContext';
 
 export const useNewsTranslation = () => {
   const { isZh } = useLanguage();
 
-  const getLocalizedCategory = (category: string) => {
+  const getLocalizedCategory = useCallback((category: string) => {
     if (!category) return isZh ? '其他' : 'Other';
     
     const categoryMap: Record<string, { zh: string; en: string }> = {
@@ -35,10 +36,10 @@ export const useNewsTranslation = () => {
     const mapping = categoryMap[normalizedCategory] || categoryMap[category] || { zh: category, en: category };
     
     return isZh ? mapping.zh : mapping.en;
-  };
+  }, [isZh]);
 
   // 获取新闻的本地化内容 - 中文用户看翻译，英文用户看原文
-  const getLocalizedNews = (news: any) => {
+  const getLocalizedNews = useCallback((news: any) => {
     if (!news) return null;
     
     if (isZh) {
@@ -67,12 +68,12 @@ export const useNewsTranslation = () => {
         };
       }
     }
-  };
+  }, [isZh]);
 
-  const getLocalizedNewsArray = (newsArray: any[]) => {
+  const getLocalizedNewsArray = useCallback((newsArray: any[]) => {
     if (!newsArray || !Array.isArray(newsArray)) return [];
     return newsArray.map(news => getLocalizedNews(news));
-  };
+  }, [getLocalizedNews]);
 
   return {
     getLocalizedCategory,
