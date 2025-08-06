@@ -19,23 +19,34 @@ export const useWeChatEnvironment = () => {
     
     console.log('🔧 微信环境优化已启用');
     
-    // 1. 微信环境专用路由处理（简化版本，主要处理URL规范化）
+    // 1. 微信环境专用路由处理（修复版本，保持Hash路由稳定性）
     const handleWeChatRouting = () => {
-      // 检查是否需要URL规范化
       const hash = window.location.hash;
       const path = window.location.pathname;
       
-      // 如果是微信环境且有Hash路由，尝试规范化URL
-      if (hash && hash !== '#') {
-        const cleanPath = hash.slice(1); // 移除 # 符号
-        if (cleanPath !== path) {
-          console.log('🔄 微信环境URL规范化:', { from: path, to: cleanPath });
+      // 检查是否是直接访问的Hash路由新闻详情页
+      if (hash && hash.startsWith('#/news/')) {
+        console.log('📱 微信环境检测到新闻Hash路由:', hash);
+        
+        // 如果当前路径不是首页，重定向到首页并保持Hash
+        if (path !== '/' && path !== '/index.html') {
+          console.log('🔄 重定向到首页以保持Hash路由:', hash);
           try {
-            window.history.replaceState({}, '', cleanPath);
+            window.location.replace('/' + hash);
           } catch (error) {
-            console.warn('URL规范化失败:', error);
+            console.warn('重定向失败:', error);
           }
+          return true;
         }
+        
+        // 保持Hash路由，不进行URL规范化
+        return false;
+      }
+      
+      // 其他Hash路由保持原样，不进行规范化
+      if (hash && hash !== '#') {
+        console.log('🔒 微信环境保持Hash路由:', hash);
+        return false;
       }
       
       return false;
@@ -104,15 +115,8 @@ export const useWeChatEnvironment = () => {
  * 根据环境生成合适的分享链接
  */
 export const generateWeChatShareUrl = (newsId: string): string => {
-  const isWeChat = /micromessenger/i.test(navigator.userAgent);
-  
-  if (isWeChat) {
-    // 微信环境使用Hash路由
-    return `https://news.aipush.fun/#/news/${newsId}`;
-  } else {
-    // 普通环境使用标准路径
-    return `https://news.aipush.fun/news/${newsId}`;
-  }
+  // 无论当前环境如何，微信分享统一使用Hash路由
+  return `https://news.aipush.fun/#/news/${newsId}`;
 };
 
 /**

@@ -12,20 +12,19 @@ export const extractPathFromHash = (): string => {
 };
 
 /**
- * 规范化URL - 在微信环境中处理Hash路由
+ * 规范化URL - 在微信环境中保持Hash路由稳定性
  */
 export const normalizeUrl = (): void => {
   const isWeChat = /micromessenger/i.test(navigator.userAgent);
   
   if (isWeChat && window.location.hash) {
     const path = extractPathFromHash();
+    
+    // 微信环境下，保持Hash路由不变，避免破坏路由状态
     if (path && path !== '/') {
-      // 更新URL，使其看起来更干净
-      try {
-        window.history.replaceState({}, '', path);
-      } catch (error) {
-        console.warn('无法更新URL历史记录:', error);
-      }
+      console.log('🔒 微信环境保持Hash路由:', window.location.hash);
+      // 不进行URL规范化，保持Hash路由
+      return;
     }
   }
 };
