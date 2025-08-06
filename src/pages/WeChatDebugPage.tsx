@@ -6,7 +6,7 @@ interface ConsoleLog {
   timestamp: string;
   level: 'info' | 'warn' | 'error';
   message: string;
-  data?: any;
+  data?: unknown;
 }
 
 /**
@@ -16,7 +16,7 @@ interface ConsoleLog {
 export const WeChatDebugPage = () => {
   const [logs, setLogs] = useState<ConsoleLog[]>([]);
   const [isVisible, setIsVisible] = useState(false);
-  const [debugInfo, setDebugInfo] = useState<any>({});
+  const [debugInfo, setDebugInfo] = useState<Record<string, unknown>>({});
   const navigate = useNavigate();
 
   // 捕获控制台日志
@@ -25,7 +25,7 @@ export const WeChatDebugPage = () => {
     const originalConsoleWarn = console.warn;
     const originalConsoleError = console.error;
 
-    const addLog = (level: 'info' | 'warn' | 'error', args: any[]) => {
+    const addLog = (level: 'info' | 'warn' | 'error', args: unknown[]) => {
       const message = args.map(arg => 
         typeof arg === 'object' ? JSON.stringify(arg, null, 2) : String(arg)
       ).join(' ');
