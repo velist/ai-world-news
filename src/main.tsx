@@ -2,8 +2,11 @@ import { createRoot } from 'react-dom/client'
 import App from './App.tsx'
 import './index.css'
 
-// Register Service Worker
-if ('serviceWorker' in navigator) {
+// 微信环境检测
+const isWeChat = /micromessenger/i.test(navigator.userAgent);
+
+// Register Service Worker - 但在微信环境中跳过
+if ('serviceWorker' in navigator && !isWeChat) {
   window.addEventListener('load', () => {
     navigator.serviceWorker.register('/sw.js')
       .then((registration) => {
@@ -26,6 +29,19 @@ if ('serviceWorker' in navigator) {
         console.log('SW registration failed: ', registrationError);
       });
   });
+} else if (isWeChat) {
+  console.log('微信环境检测到，跳过Service Worker注册');
+  
+  // 在微信环境中清理可能存在的Service Worker
+  if ('serviceWorker' in navigator) {
+    navigator.serviceWorker.getRegistrations().then(function(registrations) {
+      for(let registration of registrations) {
+        registration.unregister().then(function(boolean) {
+          console.log('微信环境下注销Service Worker:', boolean);
+        });
+      }
+    });
+  }
 }
 
 createRoot(document.getElementById("root")!).render(<App />);

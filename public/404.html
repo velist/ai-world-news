@@ -3,10 +3,27 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI 世界新闻</title>
+  <title>AI推 - 实时AI新闻推送系统</title>
+  <meta name="description" content="正在为您跳转到AI推新闻首页..." />
+  
+  <!-- 微信环境优化 -->
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
+  <meta http-equiv="Pragma" content="no-cache" />
+  <meta http-equiv="Expires" content="0" />
+  
   <script>
-    // GitHub Pages SPA 路由修复
+    // 检测微信环境
+    function isWeChat() {
+      var ua = navigator.userAgent.toLowerCase();
+      return ua.indexOf('micromessenger') !== -1;
+    }
+    
+    // SPA 路由处理 - 兼容GitHub Pages和微信环境
     (function(l) {
+      console.log('404页面加载，当前URL:', l.href);
+      console.log('是否微信环境:', isWeChat());
+      
+      // 处理URL参数重写
       if (l.search[1] === '/' ) {
         var decoded = l.search.slice(1).split('&').map(function(s) { 
           return s.replace(/~and~/g, '&')
@@ -15,13 +32,40 @@
             l.pathname.slice(0, -1) + decoded + l.hash
         )
       }
+      
+      // 处理路由跳转
+      var targetPath = l.pathname + l.search + l.hash;
+      console.log('准备跳转到:', targetPath);
+      
+      // 微信环境特殊处理
+      if (isWeChat()) {
+        // 微信内嵌浏览器使用硬跳转
+        setTimeout(function() {
+          window.location.replace('/' + targetPath.replace(/^\/+/, ''));
+        }, 100);
+      } else {
+        // 普通浏览器使用历史记录替换
+        window.history.replaceState(null, null, targetPath);
+        window.location.reload();
+      }
     }(window.location))
   </script>
 </head>
 <body>
+  <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
+    <h2>🔄 页面跳转中...</h2>
+    <p>正在为您跳转到AI推新闻首页</p>
+    <p><small>如果页面没有自动跳转，请<a href="/" style="color: #0066cc;">点击这里</a></small></p>
+  </div>
+  
   <script>
-    // 重定向到主页
-    window.location.href = '/ai-world-news/';
+    // 备用跳转机制
+    setTimeout(function() {
+      if (window.location.pathname !== '/') {
+        console.log('执行备用跳转');
+        window.location.href = '/';
+      }
+    }, 2000);
   </script>
 </body>
 </html>
