@@ -23,15 +23,19 @@ const NewsDetailPage = () => {
   // 检测是否为微信浏览器
   const isWeChat = isWeChatEnvironment();
 
-  // 微信环境下从Hash中提取新闻ID
+  // 微信环境下从Hash中提取新闻ID（备用处理）
   useEffect(() => {
     if (isWeChat && !id && window.location.hash) {
       const hash = window.location.hash;
+      console.log('🔍 NewsDetailPage备用Hash处理:', { hash, currentId: id });
+      
       const match = hash.match(/#\/news\/(.+)/);
       if (match && match[1]) {
-        console.log('🔍 从Hash中提取新闻ID:', match[1]);
+        console.log('🔧 NewsDetailPage从Hash中提取新闻ID:', match[1]);
         // 使用提取的ID重新导航
-        navigate(`/news/${match[1]}`, { replace: true });
+        setTimeout(() => {
+          navigate(`/news/${match[1]}`, { replace: true });
+        }, 50);
         return;
       }
     }

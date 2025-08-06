@@ -15,6 +15,7 @@ import { useState, useEffect } from "react";
 import Index from "./pages/Index";
 import NewsDetailPage from "./pages/NewsDetailPage";
 import NotFound from "./pages/NotFound";
+import { WeChatDebugPage } from "./pages/WeChatDebugPage";
 
 const queryClient = new QueryClient();
 
@@ -128,6 +129,7 @@ const App = () => {
                 <Routes>
                   <Route path="/" element={<Index />} />
                   <Route path="/news/:id" element={<NewsDetailPage />} />
+                  <Route path="/debug" element={<WeChatDebugPage />} />
                   {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                   <Route path="*" element={<NotFound />} />
                 </Routes>
