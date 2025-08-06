@@ -8,8 +8,8 @@ import { UpdateNotification } from "@/components/UpdateNotification";
 import { LanguageProvider } from "@/contexts/LanguageContext";
 import { useWeChatEnvironment } from "@/hooks/useWeChatEnvironment";
 import { ErrorBoundary, useGlobalErrorHandler } from "@/components/ErrorBoundary";
-import { isWeChatBrowser, restoreUrlHistory } from "@/utils/browserDetection";
-import { normalizeUrl, extractPathFromQuery } from "@/utils/urlNormalization";
+import { isWeChatBrowser } from "@/utils/browserDetection";
+import { normalizeUrl, extractPathFromQuery, restoreUrlHistory } from "@/utils/urlNormalization";
 import { useState, useEffect } from "react";
 import Index from "./pages/Index";
 import NewsDetailPage from "./pages/NewsDetailPage";
@@ -129,7 +129,7 @@ const App = () => {
                   {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                   <Route path="*" element={<NotFound />} />
                 </Routes>
-              </BrowserRouter>
+              </Router>
             </TooltipProvider>
           </LanguageProvider>
         </HelmetProvider>
