@@ -6,7 +6,7 @@ import { NewsItem } from '@/types/news';
 import { Loader2 } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { generateWeChatShareUrl, isWeChatEnvironment } from '@/hooks/useWeChatEnvironment';
-import { useWeChatShare } from '@/hooks/useWeChatShare';
+import { personalSubscriptionShareService } from '@/services/personalSubscriptionShareService';
 
 const NewsDetailPage = () => {
   const { id } = useParams<{ id: string }>();
@@ -37,7 +37,12 @@ const NewsDetailPage = () => {
     imgUrl: `https://news.aipush.fun/wechat-share-300.png?v=2025080702`
   };
   
-  useWeChatShare(shareConfig);
+  // 使用个人订阅号分享服务
+  useEffect(() => {
+    if (news && personalSubscriptionShareService.isWeChatEnvironment()) {
+      personalSubscriptionShareService.configureShare(shareConfig);
+    }
+  }, [news]);
 
   // 微信环境下从Hash中提取新闻ID（备用处理）
   useEffect(() => {

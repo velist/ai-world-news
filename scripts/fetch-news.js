@@ -19,7 +19,7 @@ async function translateText(text, targetLang = 'zh') {
           messages: [
             {
               role: 'user',
-              content: `请将以下英文翻译成中文，保持原意和专业性：\n\n${text}`
+              content: `请将以下英文翻译成中文，保持原意和专业性。只返回翻译结果，不要添加任何解释、注释或思考过程：\n\n${text}`
             }
           ],
           max_tokens: 1000,
@@ -29,7 +29,12 @@ async function translateText(text, targetLang = 'zh') {
       
       if (response.ok) {
         const data = await response.json();
-        return data.choices[0]?.message?.content || text;
+        let translatedText = data.choices[0]?.message?.content || text;
+        
+        // 清理翻译结果中的注释和思考过程
+        translatedText = cleanTranslatedTitle(translatedText);
+        
+        return translatedText;
       }
     }
     
@@ -38,6 +43,21 @@ async function translateText(text, targetLang = 'zh') {
     console.error('Translation error:', error);
     return text;
   }
+}
+
+// 清理翻译标题中的注释和思考过程
+function cleanTranslatedTitle(text) {
+  return text
+    // 移除"注："及其后的内容
+    .replace(/\s*注：.*$/g, '')
+    // 移除"注:"及其后的内容（中文冒号）
+    .replace(/\s*注:.*$/g, '')
+    // 移除换行符
+    .replace(/\n/g, ' ')
+    // 移除多余空格
+    .replace(/\s+/g, ' ')
+    // 移除首尾空格
+    .trim();
 }
 
 // AI点评函数
