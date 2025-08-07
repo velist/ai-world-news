@@ -1,5 +1,6 @@
 import { useEffect } from 'react';
 import { isWeChatEnvironment } from './useWeChatEnvironment';
+import { wechatService } from '../services/wechatService';
 
 interface WeChatShareConfig {
   title: string;
@@ -14,54 +15,32 @@ export const useWeChatShare = (config: WeChatShareConfig) => {
   useEffect(() => {
     if (!isWeChat) return;
 
-    // 动态设置微信分享配置
-    const setupWeChatShare = () => {
-      // 检查微信JS-SDK是否可用
-      if (typeof window !== 'undefined' && (window as any).wx) {
-        const wx = (window as any).wx;
+    // 延迟执行以确保页面完全加载
+    const timer = setTimeout(async () => {
+      try {
+        // 初始化微信SDK
+        await wechatService.initWeChatSDK();
         
-        // 确保图片URL包含时间戳破坏缓存
-        const imgUrl = config.imgUrl.includes('?') 
-          ? `${config.imgUrl}&t=${Date.now()}` 
-          : `${config.imgUrl}?t=${Date.now()}`;
-        
-        // 配置微信分享到朋友圈
-        wx.ready(() => {
-          wx.updateTimelineShareData({
-            title: config.title, // 分享标题
-            link: config.link, // 分享链接
-            imgUrl: imgUrl, // 分享图标（带时间戳）
-            success: () => {
-              console.log('微信朋友圈分享配置成功');
-            }
-          });
+        // 配置分享内容
+        wechatService.configureShare({
+          title: config.title,
+          desc: config.desc,
+          link: config.link,
+          imgUrl: config.imgUrl
+        });
 
-          // 配置微信分享给朋友
-          wx.updateAppMessageShareData({
-            title: config.title, // 分享标题
-            desc: config.desc, // 分享描述
-            link: config.link, // 分享链接
-            imgUrl: imgUrl, // 分享图标（带时间戳）
-            success: () => {
-              console.log('微信分享给朋友配置成功');
-            }
-          });
-        });
-        
-        // 处理配置错误
-        wx.error((res: any) => {
-          console.warn('微信JS-SDK配置失败:', res);
-          // 降级到meta标签方案
-          setupMetaTagFallback();
-        });
-      } else {
-        // 如果没有JS-SDK，使用meta标签方式
+        // 设置meta标签作为降级方案
+        setupMetaTagFallback();
+
+      } catch (error) {
+        console.error('微信分享配置失败:', error);
+        // 降级到meta标签方案
         setupMetaTagFallback();
       }
-    };
+    }, 100);
 
     const setupMetaTagFallback = () => {
-      console.log('使用meta标签进行微信分享配置');
+      console.log('设置meta标签分享信息');
       
       // 确保图片URL包含时间戳破坏缓存
       const imgUrl = config.imgUrl.includes('?') 
@@ -99,11 +78,12 @@ export const useWeChatShare = (config: WeChatShareConfig) => {
         meta.setAttribute('content', content);
       };
 
-      // 更新各种格式的meta标签，图片使用带时间戳的URL
+      // 更新各种格式的meta标签
       updateMetaTag('og:title', config.title);
       updateMetaTag('og:description', config.desc);
       updateMetaTag('og:image', imgUrl);
       updateMetaTag('og:url', config.link);
+      updateMetaTag('og:type', 'website');
       
       updateNameMetaTag('description', config.desc);
       updateNameMetaTag('title', config.title);
@@ -117,16 +97,23 @@ export const useWeChatShare = (config: WeChatShareConfig) => {
       updateNameMetaTag('wxcard:desc', config.desc);
       updateNameMetaTag('wxcard:imgUrl', imgUrl);
       updateNameMetaTag('wxcard:link', config.link);
-    };
 
-    // 延迟执行以确保页面完全加载
-    const timer = setTimeout(setupWeChatShare, 100);
+      // Twitter Card
+      updateNameMetaTag('twitter:card', 'summary_large_image');
+      updateNameMetaTag('twitter:title', config.title);
+      updateNameMetaTag('twitter:description', config.desc);
+      updateNameMetaTag('twitter:image', imgUrl);
+
+      // 更新页面标题
+      document.title = config.title;
+    };
 
     return () => clearTimeout(timer);
   }, [config.title, config.desc, config.link, config.imgUrl, isWeChat]);
 
   return {
     isWeChat,
-    shareConfig: config
+    shareConfig: config,
+    wechatService
   };
 };
