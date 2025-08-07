@@ -7,10 +7,10 @@ import axios from 'axios';
 
 const router = express.Router();
 
-// 微信配置 - 实际部署时需要从环境变量获取
+// 微信配置 - 使用你提供的真实配置
 const WECHAT_CONFIG = {
-  appId: process.env.WECHAT_APP_ID || 'your_app_id',
-  appSecret: process.env.WECHAT_APP_SECRET || 'your_app_secret',
+  appId: 'wx9334c03d16a456a1',
+  appSecret: '25ba6ec50d763e2d35c5cbccb0bc02e5',
 };
 
 // Token和ticket缓存

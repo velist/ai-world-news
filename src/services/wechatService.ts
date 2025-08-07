@@ -32,22 +32,47 @@ export class WeChatService {
    */
   async getWeChatConfig(url: string): Promise<WeChatConfig> {
     try {
-      // 模拟配置 - 实际项目中需要调用后端API
-      // const response = await fetch(`/api/wechat/signature?url=${encodeURIComponent(url)}`);
-      // const config = await response.json();
-      // return config;
+      // 调用后端API获取签名配置
+      const response = await fetch(`/api/wechat/signature?url=${encodeURIComponent(url)}`, {
+        method: 'GET',
+        headers: {
+          'Content-Type': 'application/json',
+        }
+      });
 
-      // 临时使用静态配置进行测试
-      console.warn('使用临时微信配置，实际部署时需要实现后端签名服务');
+      if (!response.ok) {
+        throw new Error(`获取微信配置失败: ${response.status}`);
+      }
+
+      const config = await response.json();
       
+      // 验证配置完整性
+      if (!config.appId || !config.timestamp || !config.nonceStr || !config.signature) {
+        throw new Error('微信配置参数不完整');
+      }
+
+      console.log('成功获取微信配置:', { appId: config.appId, timestamp: config.timestamp });
       return {
-        appId: 'wx_demo_app_id', // 需要替换为真实的AppId
-        timestamp: Math.floor(Date.now() / 1000),
-        nonceStr: this.generateNonceStr(),
-        signature: 'temp_signature' // 需要后端生成真实签名
+        appId: config.appId,
+        timestamp: config.timestamp,
+        nonceStr: config.nonceStr,
+        signature: config.signature
       };
+      
     } catch (error) {
       console.error('获取微信配置失败:', error);
+      
+      // 开发环境降级配置
+      if (process.env.NODE_ENV === 'development') {
+        console.warn('开发环境使用真实AppId但临时签名，生产环境请配置完整的后端API');
+        return {
+          appId: 'wx9334c03d16a456a1', // 使用真实的AppId
+          timestamp: Math.floor(Date.now() / 1000),
+          nonceStr: this.generateNonceStr(),
+          signature: 'temp_signature_' + Date.now() // 临时签名，实际需要后端生成
+        };
+      }
+      
       throw error;
     }
   }
