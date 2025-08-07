@@ -12,7 +12,7 @@ interface DebugLog {
 export const WeChatDebugPage = () => {
   const [logs, setLogs] = useState<DebugLog[]>([]);
   const [testing, setTesting] = useState(false);
-  const [workerUrl, setWorkerUrl] = useState('https://wechat-signature-api.vee5208.workers.dev');
+  const [workerUrl, setWorkerUrl] = useState('https://wechat-debug-api.vee5208.workers.dev');
 
   const addLog = (type: string, message: string, data?: any) => {
     const log: DebugLog = {
