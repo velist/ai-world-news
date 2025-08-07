@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <!-- 首页 -->
+  <url>
+    <loc>https://news.aipush.fun/</loc>
+    <changefreq>hourly</changefreq>
+    <priority>1.0</priority>
+    <lastmod>2025-01-08</lastmod>
+  </url>
+  
+  <!-- GPT-5定价分析专题页面 - 新增SEO重点页面 -->
+  <url>
+    <loc>https://news.aipush.fun/#/gpt5-pricing-analysis</loc>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+    <lastmod>2025-01-08</lastmod>
+  </url>
+  
+  <!-- 关于我们 -->
+  <url>
+    <loc>https://news.aipush.fun/#/about</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-01-08</lastmod>
+  </url>
+  
+  <!-- 服务介绍 -->
+  <url>
+    <loc>https://news.aipush.fun/#/services</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-01-08</lastmod>
+  </url>
+  
+  <!-- 联系我们 -->
+  <url>
+    <loc>https://news.aipush.fun/#/contact</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+    <lastmod>2025-01-08</lastmod>
+  </url>
+  
+  <!-- 博客首页 -->
+  <url>
+    <loc>https://news.aipush.fun/#/blog</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-01-08</lastmod>
+  </url>
+  
+  <!-- 网站介绍 -->
+  <url>
+    <loc>https://news.aipush.fun/#/website-intro</loc>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+    <lastmod>2025-01-08</lastmod>
+  </url>
+  
+  <!-- RSS Feed -->
+  <url>
+    <loc>https://news.aipush.fun/rss.xml</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-01-08</lastmod>
+  </url>
+  
+  <!-- JSON Feed -->
+  <url>
+    <loc>https://news.aipush.fun/feed.json</loc>
+    <changefreq>daily</changefreq>
+    <priority>0.8</priority>
+    <lastmod>2025-01-08</lastmod>
+  </url>
+</urlset>

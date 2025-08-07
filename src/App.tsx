@@ -22,6 +22,7 @@ import ContactPage from "./pages/ContactPage";
 import BlogPage from "./pages/BlogPage";
 import BlogArticlePage from "./pages/BlogArticlePage";
 import WebsiteIntroPage from "./pages/WebsiteIntroPage";
+import GPT5PricingAnalysisPage from "./pages/GPT5PricingAnalysisPage";
 
 const queryClient = new QueryClient();
 
@@ -144,6 +145,7 @@ const App = () => {
                   <Route path="/blog/:slug" element={<BlogArticlePage />} />
                   <Route path="/website-intro" element={<WebsiteIntroPage />} />
                   <Route path="/debug" element={<WeChatDebugPage />} />
+                  <Route path="/gpt5-pricing-analysis" element={<GPT5PricingAnalysisPage />} />
                   {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                   <Route path="*" element={<NotFound />} />
                 </Routes>

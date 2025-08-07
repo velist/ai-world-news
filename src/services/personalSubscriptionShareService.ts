@@ -61,30 +61,64 @@ export class PersonalSubscriptionShareService {
     // 移除旧的meta标签
     this.removeOldMetaTags();
 
+    // 确保图片URL正确且符合微信要求
+    const optimizedImageUrl = this.optimizeImageUrl(shareConfig.imgUrl);
+    
     // 设置基础meta标签
     this.setMetaTag('name', 'description', shareConfig.desc);
     this.setMetaTag('name', 'keywords', this.generateKeywords(shareConfig.title));
 
-    // Open Graph 标签（微信分享主要依赖）
+    // Open Graph 标签（微信分享主要依赖）- 顺序很重要
     this.setMetaTag('property', 'og:type', 'article');
     this.setMetaTag('property', 'og:title', shareConfig.title);
     this.setMetaTag('property', 'og:description', shareConfig.desc);
-    this.setMetaTag('property', 'og:image', this.optimizeImageUrl(shareConfig.imgUrl));
     this.setMetaTag('property', 'og:url', shareConfig.link);
     this.setMetaTag('property', 'og:site_name', 'AI推');
+    
+    // 图片标签 - 针对微信优化
+    this.setMetaTag('property', 'og:image', optimizedImageUrl);
+    this.setMetaTag('property', 'og:image:secure_url', optimizedImageUrl);
+    this.setMetaTag('property', 'og:image:width', '300');
+    this.setMetaTag('property', 'og:image:height', '300');
+    this.setMetaTag('property', 'og:image:type', 'image/png');
+    this.setMetaTag('property', 'og:image:alt', shareConfig.title);
 
-    // 微信专用标签
+    // 微信专用标签（重要）
     this.setMetaTag('name', 'wechat:title', shareConfig.title);
     this.setMetaTag('name', 'wechat:desc', shareConfig.desc);
-    this.setMetaTag('name', 'wechat:image', this.optimizeImageUrl(shareConfig.imgUrl));
+    this.setMetaTag('name', 'wechat:image', optimizedImageUrl);
+    
+    // 微信分享的隐式标签
+    this.setMetaTag('name', 'wxcard:title', shareConfig.title);
+    this.setMetaTag('name', 'wxcard:desc', shareConfig.desc);
+    this.setMetaTag('name', 'wxcard:imgUrl', optimizedImageUrl);
+    this.setMetaTag('name', 'wxcard:link', shareConfig.link);
+
+    // Schema.org 微数据
+    this.setMetaTag('itemprop', 'name', shareConfig.title);
+    this.setMetaTag('itemprop', 'description', shareConfig.desc);
+    this.setMetaTag('itemprop', 'image', optimizedImageUrl);
+    this.setMetaTag('itemprop', 'url', shareConfig.link);
 
     // Twitter Card（增强兼容性）
     this.setMetaTag('name', 'twitter:card', 'summary_large_image');
+    this.setMetaTag('name', 'twitter:site', '@aipush_news');
     this.setMetaTag('name', 'twitter:title', shareConfig.title);
     this.setMetaTag('name', 'twitter:description', shareConfig.desc);
-    this.setMetaTag('name', 'twitter:image', this.optimizeImageUrl(shareConfig.imgUrl));
+    this.setMetaTag('name', 'twitter:image', optimizedImageUrl);
 
-    console.log('📋 Meta标签配置完成');
+    // 添加微信特殊要求的标签
+    this.setMetaTag('name', 'format-detection', 'telephone=no');
+    this.setMetaTag('name', 'x5-orientation', 'portrait');
+    this.setMetaTag('name', 'x5-fullscreen', 'true');
+    
+    // 强制刷新页面缓存，帮助微信重新抓取
+    this.setMetaTag('http-equiv', 'Cache-Control', 'no-cache, no-store, must-revalidate');
+    this.setMetaTag('http-equiv', 'Pragma', 'no-cache');
+    this.setMetaTag('http-equiv', 'Expires', '0');
+
+    console.log('📋 Meta标签配置完成，优化图片URL:', optimizedImageUrl);
+    console.log('🔧 所有标签:', this.getAllMetaTags());
   }
 
   /**
@@ -210,7 +244,7 @@ export class PersonalSubscriptionShareService {
   /**
    * 工具方法
    */
-  private setMetaTag(type: 'name' | 'property', key: string, content: string): void {
+  private setMetaTag(type: 'name' | 'property' | 'itemprop' | 'http-equiv', key: string, content: string): void {
     let meta = document.querySelector(`meta[${type}="${key}"]`) as HTMLMetaElement;
     if (!meta) {
       meta = document.createElement('meta');
@@ -220,11 +254,26 @@ export class PersonalSubscriptionShareService {
     meta.setAttribute('content', content);
   }
 
+  private getAllMetaTags(): Record<string, string> {
+    const metaTags: Record<string, string> = {};
+    document.querySelectorAll('meta[property^="og:"], meta[name^="twitter:"], meta[name^="wechat:"], meta[name^="wxcard:"], meta[itemprop]').forEach(meta => {
+      const key = meta.getAttribute('property') || meta.getAttribute('name') || meta.getAttribute('itemprop');
+      const content = meta.getAttribute('content');
+      if (key && content) {
+        metaTags[key] = content;
+      }
+    });
+    return metaTags;
+  }
+
   private removeOldMetaTags(): void {
     const metaSelectors = [
       'meta[property^="og:"]',
       'meta[name^="twitter:"]',
       'meta[name^="wechat:"]',
+      'meta[itemprop="name"]',
+      'meta[itemprop="description"]',
+      'meta[itemprop="image"]',
       'meta[name="description"]',
       'meta[name="keywords"]'
     ];
@@ -236,18 +285,37 @@ export class PersonalSubscriptionShareService {
   }
 
   private optimizeImageUrl(imgUrl: string): string {
+    // 使用已部署的PNG分享图片（确保可访问性）
+    const defaultShareImage = 'https://news.aipush.fun/wechat-share-300.png';
+    
     if (!imgUrl) {
-      return 'https://news.aipush.fun/wechat-share-300.png';
+      return defaultShareImage;
     }
 
     // 确保HTTPS
     if (imgUrl.startsWith('http://')) {
       imgUrl = imgUrl.replace('http://', 'https://');
     }
-
-    // 添加时间戳避免缓存
-    const separator = imgUrl.includes('?') ? '&' : '?';
-    return `${imgUrl}${separator}t=${Date.now()}`;
+    
+    // 如果是相对路径，转换为绝对路径
+    if (imgUrl.startsWith('/')) {
+      imgUrl = `https://news.aipush.fun${imgUrl}`;
+    }
+    
+    // 移除时间戳参数，微信分享不支持带参数的图片
+    imgUrl = imgUrl.split('?')[0];
+    
+    // 对于新闻文章，统一使用默认分享图片（保持品牌一致性）
+    if (imgUrl.includes('news.aipush.fun') || imgUrl.includes('placeholder') || imgUrl.includes('wechat-share') || imgUrl.includes('cat-share')) {
+      return defaultShareImage;
+    }
+    
+    // 确保图片URL有效且为可访问格式
+    if (!imgUrl.includes('http') || imgUrl.endsWith('.svg')) {
+      return defaultShareImage;
+    }
+    
+    return imgUrl;
   }
 
   private generateKeywords(title: string): string {
