@@ -21,6 +21,7 @@ import ServicesPage from "./pages/ServicesPage";
 import ContactPage from "./pages/ContactPage";
 import BlogPage from "./pages/BlogPage";
 import BlogArticlePage from "./pages/BlogArticlePage";
+import WebsiteIntroPage from "./pages/WebsiteIntroPage";
 
 const queryClient = new QueryClient();
 
@@ -139,6 +140,7 @@ const App = () => {
                   <Route path="/contact" element={<ContactPage />} />
                   <Route path="/blog" element={<BlogPage />} />
                   <Route path="/blog/:slug" element={<BlogArticlePage />} />
+                  <Route path="/website-intro" element={<WebsiteIntroPage />} />
                   <Route path="/debug" element={<WeChatDebugPage />} />
                   {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                   <Route path="*" element={<NotFound />} />

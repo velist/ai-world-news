@@ -6,6 +6,8 @@ import { Badge } from '@/components/ui/badge';
 import { Button } from '@/components/ui/button';
 import { Separator } from '@/components/ui/separator';
 import { useLanguage } from '@/contexts/LanguageContext';
+import ReactMarkdown from 'react-markdown';
+import remarkGfm from 'remark-gfm';
 import { 
   ArrowLeft, 
   Calendar, 
@@ -60,6 +62,223 @@ const BlogArticlePage = () => {
       
       // 模拟文章数据 - 实际项目中这里应该调用API
       const mockArticles: { [key: string]: BlogArticle } = {
+        'website-introduction': {
+          id: 'website-introduction',
+          title: isZh ? 'AI推平台介绍：让AI资讯触手可及' : 'AI Push Platform Introduction: Making AI News Accessible',
+          content: isZh ? `
+# AI推：让AI资讯触手可及
+
+AI推致力于成为全球领先的人工智能新闻资讯平台，通过先进的AI技术为用户提供最新、准确、有价值的AI科技资讯。
+
+## 平台概览
+
+### 什么是AI推？
+
+AI推(news.aipush.fun)是一个专业的人工智能新闻资讯平台，我们使用先进的AI技术自动聚合、翻译和分析全球AI相关新闻。平台致力于为AI从业者、研究人员、投资人和技术爱好者提供最及时、准确、有价值的人工智能资讯。
+
+### 核心优势
+
+- **AI驱动的智能内容聚合** - 使用先进算法自动筛选优质内容
+- **实时多语言翻译服务** - 无缝中英文切换，消除语言障碍
+- **专业的AI内容分析和点评** - 深度解读技术动态和行业趋势
+
+### 服务对象
+
+- **AI从业者和研究人员** - 获取最新技术动态和研究进展
+- **科技媒体和投资人** - 掌握行业发展趋势和投资机会
+- **技术爱好者和学习者** - 学习AI知识，了解技术应用
+
+## 核心功能
+
+### AI智能聚合
+使用先进AI算法自动聚合全球优质AI新闻资讯，确保内容的时效性和权威性。
+
+### 智能翻译
+AI驱动的多语言翻译，中英文无缝切换，让全球AI资讯触手可及。
+
+### 实时更新
+7×24小时持续监控，第一时间推送最新资讯，让您始终走在AI发展前沿。
+
+### 可信来源
+精选400+权威媒体源，确保信息准确可靠，为您的决策提供强有力支撑。
+
+### 移动优化
+完美适配移动设备，支持微信内浏览分享，随时随地获取AI资讯。
+
+### 数据分析
+深度数据分析，洞察AI行业发展趋势，为您提供有价值的行业洞察。
+
+## 平台数据
+
+- **400+** 权威媒体源
+- **10K+** 日活用户
+- **20+** 支持语言
+- **24h** 实时更新
+
+## 技术架构
+
+### 前端技术
+- React 18 + TypeScript
+- Vite + SWC 快速构建
+- Tailwind CSS 响应式设计
+- React Router 路由管理
+- React Helmet 异步SEO优化
+
+### AI技术
+- 智能内容聚合算法
+- 多语言翻译引擎
+- 内容质量评估系统
+- 个性化推荐算法
+- 实时数据分析
+
+### 安全与性能
+- CDN全球加速
+- HTTPS安全传输
+- 数据加密保护
+- 防DDoS攻击
+- 实时监控告警
+
+### 移动端优化
+- PWA渐进式应用
+- 微信浏览器适配
+- 触摸友好界面
+- 离线阅读支持
+- 社交分享优化
+
+## 为什么选择AI推？
+
+### 专业专注
+专注AI领域，深度挖掘有价值的技术资讯和行业动态
+
+### 智能高效
+AI技术驱动，自动化处理海量信息，提供精准筛选
+
+### 用户至上
+以用户需求为导向，持续优化产品体验和服务质量
+
+## 开始使用AI推
+
+立即体验专业的AI新闻资讯服务，让您时刻掌握人工智能发展动态。
+
+感谢您选择AI推，让我们一起探索人工智能的无限可能！
+
+---
+
+*访问 [news.aipush.fun](https://news.aipush.fun) 开始您的AI资讯之旅*
+          ` : `
+# AI Push: Making AI News Accessible
+
+AI Push is committed to becoming the world's leading artificial intelligence news platform, providing the latest, accurate, and valuable AI technology information through advanced AI technology.
+
+## Platform Overview
+
+### What is AI Push?
+
+AI Push (news.aipush.fun) is a professional artificial intelligence news platform. We use advanced AI technology to automatically aggregate, translate, and analyze global AI-related news. The platform is dedicated to providing the most timely, accurate, and valuable AI information for AI professionals, researchers, investors, and tech enthusiasts.
+
+### Core Advantages
+
+- **AI-driven smart content aggregation** - Advanced algorithms automatically filter quality content
+- **Real-time multilingual translation** - Seamless Chinese-English switching, eliminating language barriers
+- **Professional AI content analysis** - In-depth interpretation of technology trends and industry dynamics
+
+### Target Users
+
+- **AI professionals and researchers** - Get the latest technology trends and research progress
+- **Tech media and investors** - Master industry development trends and investment opportunities
+- **Tech enthusiasts and learners** - Learn AI knowledge and understand technology applications
+
+## Key Features
+
+### AI Smart Aggregation
+Advanced AI algorithms automatically aggregate global quality AI news, ensuring content timeliness and authority.
+
+### Smart Translation
+AI-driven multilingual translation, seamless Chinese-English switching, making global AI information accessible.
+
+### Real-time Updates
+24/7 continuous monitoring, first-time push of latest information, keeping you at the forefront of AI development.
+
+### Trusted Sources
+Curated 400+ authoritative sources, ensuring accurate and reliable information for strong decision support.
+
+### Mobile Optimized
+Perfect mobile adaptation, supports WeChat browsing and sharing, access AI news anytime, anywhere.
+
+### Data Analytics
+Deep data analysis, insights into AI industry trends, providing valuable industry insights.
+
+## Platform Statistics
+
+- **400+** Media Sources
+- **10K+** Daily Users
+- **20+** Languages
+- **24h** Real-time Updates
+
+## Technology Stack
+
+### Frontend Technology
+- React 18 + TypeScript
+- Vite + SWC fast build
+- Tailwind CSS responsive design
+- React Router routing management
+- React Helmet async SEO optimization
+
+### AI Technology
+- Smart content aggregation algorithms
+- Multilingual translation engine
+- Content quality assessment system
+- Personalized recommendation algorithms
+- Real-time data analysis
+
+### Security & Performance
+- CDN global acceleration
+- HTTPS secure transmission
+- Data encryption protection
+- Anti-DDoS attacks
+- Real-time monitoring alerts
+
+### Mobile Optimization
+- PWA progressive application
+- WeChat browser adaptation
+- Touch-friendly interface
+- Offline reading support
+- Social sharing optimization
+
+## Why Choose AI Push?
+
+### Professional Focus
+Focused on AI field, deeply exploring valuable tech news and industry trends
+
+### Smart & Efficient
+AI-driven technology, automated processing of massive information with precise filtering
+
+### User-Centric
+User-oriented approach, continuously optimizing product experience and service quality
+
+## Start Using AI Push
+
+Experience professional AI news service now and stay updated with AI development trends.
+
+Thank you for choosing AI Push. Let's explore the infinite possibilities of AI together!
+
+---
+
+*Visit [news.aipush.fun](https://news.aipush.fun) to start your AI news journey*
+          `,
+          excerpt: isZh 
+            ? '全面了解AI推平台的核心功能、技术特色和服务优势，探索专业的人工智能新闻资讯平台如何为用户提供价值。'
+            : 'Comprehensive overview of AI Push platform\'s core features, technical advantages, and service benefits, exploring how a professional AI news platform delivers value to users.',
+          category: isZh ? '平台介绍' : 'Platform Introduction',
+          publishedAt: '2025-08-07',
+          readTime: 12,
+          author: 'AI推编辑部',
+          tags: ['平台介绍', 'AI推', '产品功能'],
+          views: 2580,
+          likes: 178,
+          comments: 45,
+          featured: true
+        },
         'chatgpt-vs-wenxin': {
           id: 'chatgpt-vs-wenxin',
           title: isZh ? 'ChatGPT vs 文心一言：2025年中文大模型对比分析' : 'ChatGPT vs Wenxin: 2025 Chinese LLM Comparison',
@@ -533,14 +752,43 @@ Regardless of which model you choose, the key is to make the most suitable choic
           {/* Article Content */}
           <Card className="p-8">
             <CardContent className="p-0">
-              <div className="prose prose-lg max-w-none">
-                <div 
-                  className="leading-relaxed"
-                  style={{ whiteSpace: 'pre-wrap' }}
-                  dangerouslySetInnerHTML={{ 
-                    __html: article.content.replace(/\n\n/g, '</p><p>').replace(/^/, '<p>').replace(/$/, '</p>').replace(/# (.*)/g, '<h2>$1</h2>').replace(/## (.*)/g, '<h3>$1</h3>').replace(/\*\*(.*?)\*\*/g, '<strong>$1</strong>') 
+              <div className="prose prose-lg prose-slate max-w-none dark:prose-invert">
+                <ReactMarkdown
+                  remarkPlugins={[remarkGfm]}
+                  components={{
+                    h1: ({...props}) => <h1 className="text-3xl font-bold mt-8 mb-4 text-foreground" {...props} />,
+                    h2: ({...props}) => <h2 className="text-2xl font-semibold mt-6 mb-3 text-foreground" {...props} />,
+                    h3: ({...props}) => <h3 className="text-xl font-semibold mt-4 mb-2 text-foreground" {...props} />,
+                    h4: ({...props}) => <h4 className="text-lg font-medium mt-3 mb-2 text-foreground" {...props} />,
+                    p: ({...props}) => <p className="mb-4 leading-relaxed text-foreground" {...props} />,
+                    ul: ({...props}) => <ul className="list-disc list-inside mb-4 space-y-2 text-foreground" {...props} />,
+                    ol: ({...props}) => <ol className="list-decimal list-inside mb-4 space-y-2 text-foreground" {...props} />,
+                    li: ({...props}) => <li className="text-foreground" {...props} />,
+                    strong: ({...props}) => <strong className="font-semibold text-foreground" {...props} />,
+                    em: ({...props}) => <em className="italic text-foreground" {...props} />,
+                    blockquote: ({...props}) => <blockquote className="border-l-4 border-primary/30 pl-4 my-4 italic text-muted-foreground bg-muted/30 py-2 rounded-r" {...props} />,
+                    code: ({className, children, ...props}) => {
+                      const match = /language-(\w+)/.exec(className || '');
+                      return match ? (
+                        <pre className="bg-muted p-4 rounded-lg overflow-x-auto my-4">
+                          <code className={`language-${match[1]} text-sm`} {...props}>
+                            {children}
+                          </code>
+                        </pre>
+                      ) : (
+                        <code className="bg-muted px-2 py-1 rounded text-sm font-mono" {...props}>
+                          {children}
+                        </code>
+                      );
+                    },
+                    table: ({...props}) => <table className="w-full border-collapse border border-border my-4" {...props} />,
+                    th: ({...props}) => <th className="border border-border px-4 py-2 bg-muted font-semibold text-left" {...props} />,
+                    td: ({...props}) => <td className="border border-border px-4 py-2" {...props} />,
+                    hr: ({...props}) => <hr className="my-8 border-border" {...props} />
                   }}
-                />
+                >
+                  {article.content}
+                </ReactMarkdown>
               </div>
             </CardContent>
           </Card>
