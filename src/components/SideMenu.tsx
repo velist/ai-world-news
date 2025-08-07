@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
-import { X, Menu, Newspaper, FileText, MessageCircle, ExternalLink, Rss } from 'lucide-react';
+import { X, Menu, Newspaper, FileText, MessageCircle, ExternalLink, Rss, BookOpen, Info, Settings, Mail, Home } from 'lucide-react';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useNavigate } from 'react-router-dom';
 
 interface SideMenuProps {
   isOpen: boolean;
@@ -10,21 +11,76 @@ interface SideMenuProps {
 
 export const SideMenu: React.FC<SideMenuProps> = ({ isOpen, onClose, onMenuClick }) => {
   const { isZh } = useLanguage();
+  const navigate = useNavigate();
+
+  const navigationItems = [
+    {
+      id: 'home',
+      icon: Home,
+      label: isZh ? '首页' : 'Home',
+      description: isZh ? '返回新闻主页' : 'Back to news home',
+      path: '/',
+      isExternal: false
+    },
+    {
+      id: 'blog',
+      icon: BookOpen,
+      label: isZh ? 'AI博客' : 'AI Blog',
+      description: isZh ? '深度AI技术解读' : 'In-depth AI analysis',
+      path: '/blog',
+      isExternal: false
+    },
+    {
+      id: 'about',
+      icon: Info,
+      label: isZh ? '关于我们' : 'About Us',
+      description: isZh ? '了解AI推团队' : 'Learn about AI Push',
+      path: '/about',
+      isExternal: false
+    },
+    {
+      id: 'services',
+      icon: Settings,
+      label: isZh ? '服务介绍' : 'Services',
+      description: isZh ? '我们提供的服务' : 'Services we provide',
+      path: '/services',
+      isExternal: false
+    },
+    {
+      id: 'contact',
+      icon: Mail,
+      label: isZh ? '联系我们' : 'Contact Us',
+      description: isZh ? '获取帮助和支持' : 'Get help and support',
+      path: '/contact',
+      isExternal: false
+    }
+  ];
 
   const menuItems = [
     {
       id: 'daily-briefing',
       icon: Newspaper,
       label: isZh ? 'AI专题简报' : 'AI Topic Briefing',
-      description: isZh ? '实时AI新闻精选' : 'Real-time AI News Selection'
+      description: isZh ? '实时AI新闻精选' : 'Real-time AI News Selection',
+      isExternal: true
     },
     {
       id: 'disclaimer',
       icon: FileText,
       label: isZh ? '免责声明' : 'Disclaimer',
-      description: isZh ? '网站使用条款' : 'Website Terms'
+      description: isZh ? '网站使用条款' : 'Website Terms',
+      isExternal: true
     }
   ];
+
+  const handleItemClick = (item: any) => {
+    if (item.isExternal) {
+      onMenuClick(item.id);
+    } else {
+      navigate(item.path);
+      onClose();
+    }
+  };
 
   return (
     <>
@@ -58,30 +114,68 @@ export const SideMenu: React.FC<SideMenuProps> = ({ isOpen, onClose, onMenuClick
         </div>
 
         {/* 菜单内容 */}
-        <div className="p-4 space-y-2">
-          {menuItems.map((item) => {
-            const Icon = item.icon;
-            return (
-              <button
-                key={item.id}
-                onClick={() => onMenuClick(item.id)}
-                className="w-full flex items-center space-x-3 p-4 rounded-lg hover:bg-gray-50 transition-colors text-left group"
-              >
-                <div className="flex-shrink-0">
-                  <Icon className="w-5 h-5 text-gray-600 group-hover:text-blue-600" />
-                </div>
-                <div className="flex-1">
-                  <div className="font-medium text-gray-900 group-hover:text-blue-600">
-                    {item.label}
+        <div className="p-4 space-y-4">
+          {/* 导航链接区域 */}
+          <div className="space-y-2">
+            <div className="text-xs font-medium text-gray-500 uppercase tracking-wide px-2 mb-3">
+              {isZh ? '网站导航' : 'Navigation'}
+            </div>
+            {navigationItems.map((item) => {
+              const Icon = item.icon;
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => handleItemClick(item)}
+                  className="w-full flex items-center space-x-3 p-3 rounded-lg hover:bg-gray-50 transition-colors text-left group"
+                >
+                  <div className="flex-shrink-0">
+                    <Icon className="w-5 h-5 text-gray-600 group-hover:text-blue-600" />
                   </div>
-                  <div className="text-sm text-gray-500">
-                    {item.description}
+                  <div className="flex-1">
+                    <div className="font-medium text-gray-900 group-hover:text-blue-600">
+                      {item.label}
+                    </div>
+                    <div className="text-sm text-gray-500">
+                      {item.description}
+                    </div>
                   </div>
-                </div>
-                <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-blue-600" />
-              </button>
-            );
-          })}
+                </button>
+              );
+            })}
+          </div>
+
+          {/* 分隔线 */}
+          <div className="border-t border-gray-200"></div>
+
+          {/* 功能菜单区域 */}
+          <div className="space-y-2">
+            <div className="text-xs font-medium text-gray-500 uppercase tracking-wide px-2 mb-3">
+              {isZh ? '功能菜单' : 'Features'}
+            </div>
+            {menuItems.map((item) => {
+              const Icon = item.icon;
+              return (
+                <button
+                  key={item.id}
+                  onClick={() => handleItemClick(item)}
+                  className="w-full flex items-center space-x-3 p-3 rounded-lg hover:bg-gray-50 transition-colors text-left group"
+                >
+                  <div className="flex-shrink-0">
+                    <Icon className="w-5 h-5 text-gray-600 group-hover:text-blue-600" />
+                  </div>
+                  <div className="flex-1">
+                    <div className="font-medium text-gray-900 group-hover:text-blue-600">
+                      {item.label}
+                    </div>
+                    <div className="text-sm text-gray-500">
+                      {item.description}
+                    </div>
+                  </div>
+                  <ExternalLink className="w-4 h-4 text-gray-400 group-hover:text-blue-600" />
+                </button>
+              );
+            })}
+          </div>
         </div>
 
         {/* 菜单底部 */}

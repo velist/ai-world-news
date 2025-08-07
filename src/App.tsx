@@ -16,6 +16,11 @@ import Index from "./pages/Index";
 import NewsDetailPage from "./pages/NewsDetailPage";
 import NotFound from "./pages/NotFound";
 import { WeChatDebugPage } from "./pages/WeChatDebugPage";
+import AboutPage from "./pages/AboutPage";
+import ServicesPage from "./pages/ServicesPage";
+import ContactPage from "./pages/ContactPage";
+import BlogPage from "./pages/BlogPage";
+import BlogArticlePage from "./pages/BlogArticlePage";
 
 const queryClient = new QueryClient();
 
@@ -129,6 +134,11 @@ const App = () => {
                 <Routes>
                   <Route path="/" element={<Index />} />
                   <Route path="/news/:id" element={<NewsDetailPage />} />
+                  <Route path="/about" element={<AboutPage />} />
+                  <Route path="/services" element={<ServicesPage />} />
+                  <Route path="/contact" element={<ContactPage />} />
+                  <Route path="/blog" element={<BlogPage />} />
+                  <Route path="/blog/:slug" element={<BlogArticlePage />} />
                   <Route path="/debug" element={<WeChatDebugPage />} />
                   {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                   <Route path="*" element={<NotFound />} />
