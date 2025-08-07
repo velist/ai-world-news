@@ -32,8 +32,9 @@ export class WeChatService {
    */
   async getWeChatConfig(url: string): Promise<WeChatConfig> {
     try {
-      // 调用后端API获取签名配置
-      const response = await fetch(`/api/wechat/signature?url=${encodeURIComponent(url)}`, {
+      // 调用Cloudflare Worker API获取签名配置
+      const workerUrl = 'https://wechat-signature-api.vee5208.workers.dev/api/wechat/signature';
+      const response = await fetch(`${workerUrl}?url=${encodeURIComponent(url)}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',

@@ -301,7 +301,8 @@ export class SubscriptionAccountShareService {
   }
 
   private async getSignatureConfig(): Promise<any> {
-    const response = await fetch(`/api/wechat/signature?url=${encodeURIComponent(window.location.href)}`);
+    const workerUrl = 'https://wechat-signature-api.vee5208.workers.dev/api/wechat/signature';
+    const response = await fetch(`${workerUrl}?url=${encodeURIComponent(window.location.href)}`);
     if (!response.ok) throw new Error('获取签名失败');
     return response.json();
   }
