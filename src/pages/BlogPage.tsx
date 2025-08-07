@@ -159,6 +159,7 @@ const BlogPage = () => {
   };
 
   const handlePostClick = (postId: string) => {
+    console.log('Clicking on post:', postId); // 调试信息
     navigate(`/blog/${postId}`);
   };
 
@@ -318,7 +319,10 @@ const BlogPage = () => {
                         {isZh ? "精选" : "Featured"}
                       </Badge>
                     </div>
-                    <CardTitle className="text-xl leading-tight hover:text-primary">
+                    <CardTitle 
+                      className="text-xl leading-tight hover:text-primary cursor-pointer"
+                      onClick={() => handlePostClick(post.id)}
+                    >
                       {post.title}
                     </CardTitle>
                   </CardHeader>
@@ -347,7 +351,12 @@ const BlogPage = () => {
                           <span>{post.readTime} {isZh ? '分钟' : 'min'}</span>
                         </div>
                       </div>
-                      <Button variant="ghost" size="sm" className="text-primary hover:text-primary/80">
+                      <Button 
+                        variant="ghost" 
+                        size="sm" 
+                        className="text-primary hover:text-primary/80"
+                        onClick={() => handlePostClick(post.id)}
+                      >
                         {isZh ? "阅读更多" : "Read More"}
                         <ArrowRight className="w-4 h-4 ml-1" />
                       </Button>
