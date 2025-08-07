@@ -1,6 +1,7 @@
 import { useEffect } from 'react';
 import { isWeChatEnvironment } from './useWeChatEnvironment';
 import { wechatService } from '../services/wechatService';
+import { subscriptionShareService } from '../services/subscriptionShareService';
 
 interface WeChatShareConfig {
   title: string;
@@ -18,37 +19,41 @@ export const useWeChatShare = (config: WeChatShareConfig) => {
     // 延迟执行以确保页面完全加载
     const timer = setTimeout(async () => {
       try {
-        // 初始化微信SDK
-        await wechatService.initWeChatSDK();
+        console.log('开始配置微信分享...');
         
-        // 配置分享内容
-        wechatService.configureShare({
+        // 使用智能分享服务（自动检测权限并选择最佳方案）
+        await subscriptionShareService.configureShare({
           title: config.title,
           desc: config.desc,
           link: config.link,
           imgUrl: config.imgUrl
         });
 
-        // 设置meta标签作为降级方案
-        setupMetaTagFallback();
+        // 同时保留原有的服务作为备用
+        // 如果确认有完整JS-SDK权限，也可以调用原服务
+        // await wechatService.initWeChatSDK();
+        // wechatService.configureShare(config);
+
+        console.log('微信分享配置完成');
 
       } catch (error) {
-        console.error('微信分享配置失败:', error);
-        // 降级到meta标签方案
-        setupMetaTagFallback();
+        console.error('微信分享配置失败，使用降级方案:', error);
+        
+        // 最终降级方案：纯Meta标签设置
+        setupFallbackShare();
       }
     }, 100);
 
-    const setupMetaTagFallback = () => {
-      console.log('设置meta标签分享信息');
+    const setupFallbackShare = () => {
+      console.log('使用最基础的Meta标签分享方案');
       
-      // 确保图片URL包含时间戳破坏缓存
+      // 确保图片URL包含时间戳
       const imgUrl = config.imgUrl.includes('?') 
         ? `${config.imgUrl}&t=${Date.now()}` 
         : `${config.imgUrl}?t=${Date.now()}`;
 
-      // 动态更新页面的meta标签
-      const updateMetaTag = (property: string, content: string) => {
+      // 基础Meta标签设置
+      const setMeta = (property: string, content: string) => {
         let meta = document.querySelector(`meta[property="${property}"]`) as HTMLMetaElement;
         if (!meta) {
           meta = document.createElement('meta');
@@ -58,7 +63,7 @@ export const useWeChatShare = (config: WeChatShareConfig) => {
         meta.setAttribute('content', content);
       };
 
-      const updateNameMetaTag = (name: string, content: string) => {
+      const setNameMeta = (name: string, content: string) => {
         let meta = document.querySelector(`meta[name="${name}"]`) as HTMLMetaElement;
         if (!meta) {
           meta = document.createElement('meta');
@@ -68,44 +73,34 @@ export const useWeChatShare = (config: WeChatShareConfig) => {
         meta.setAttribute('content', content);
       };
 
-      const updateItemPropTag = (itemProp: string, content: string) => {
-        let meta = document.querySelector(`meta[itemprop="${itemProp}"]`) as HTMLMetaElement;
-        if (!meta) {
-          meta = document.createElement('meta');
-          meta.setAttribute('itemprop', itemProp);
-          document.head.appendChild(meta);
-        }
-        meta.setAttribute('content', content);
-      };
+      // 设置页面标题
+      document.title = config.title;
 
-      // 更新各种格式的meta标签
-      updateMetaTag('og:title', config.title);
-      updateMetaTag('og:description', config.desc);
-      updateMetaTag('og:image', imgUrl);
-      updateMetaTag('og:url', config.link);
-      updateMetaTag('og:type', 'website');
+      // Open Graph标签
+      setMeta('og:type', 'website');
+      setMeta('og:title', config.title);
+      setMeta('og:description', config.desc);
+      setMeta('og:image', imgUrl);
+      setMeta('og:url', config.link);
+      setMeta('og:site_name', 'AI推');
       
-      updateNameMetaTag('description', config.desc);
-      updateNameMetaTag('title', config.title);
-      
-      updateItemPropTag('name', config.title);
-      updateItemPropTag('description', config.desc);
-      updateItemPropTag('image', imgUrl);
+      // 基础Meta标签
+      setNameMeta('description', config.desc);
+      setNameMeta('title', config.title);
       
       // 微信专用标签
-      updateNameMetaTag('wxcard:title', config.title);
-      updateNameMetaTag('wxcard:desc', config.desc);
-      updateNameMetaTag('wxcard:imgUrl', imgUrl);
-      updateNameMetaTag('wxcard:link', config.link);
+      setNameMeta('wxcard:title', config.title);
+      setNameMeta('wxcard:desc', config.desc);
+      setNameMeta('wxcard:imgUrl', imgUrl);
+      setNameMeta('wxcard:link', config.link);
 
       // Twitter Card
-      updateNameMetaTag('twitter:card', 'summary_large_image');
-      updateNameMetaTag('twitter:title', config.title);
-      updateNameMetaTag('twitter:description', config.desc);
-      updateNameMetaTag('twitter:image', imgUrl);
+      setNameMeta('twitter:card', 'summary_large_image');
+      setNameMeta('twitter:title', config.title);
+      setNameMeta('twitter:description', config.desc);
+      setNameMeta('twitter:image', imgUrl);
 
-      // 更新页面标题
-      document.title = config.title;
+      console.log('基础分享标签设置完成');
     };
 
     return () => clearTimeout(timer);
@@ -114,6 +109,7 @@ export const useWeChatShare = (config: WeChatShareConfig) => {
   return {
     isWeChat,
     shareConfig: config,
-    wechatService
+    wechatService,
+    subscriptionShareService
   };
 };
