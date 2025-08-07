@@ -282,6 +282,18 @@ export const NewsDetail = ({
 
   return (
     <div className="min-h-screen bg-background">
+      {/* 微信分享缩略图 - 隐藏但必须存在于DOM中 */}
+      <img 
+        src={imageUrl || `https://news.aipush.fun/wechat-share-300.png?v=2025080702`}
+        alt={title}
+        style={{ 
+          position: 'absolute', 
+          left: '-9999px', 
+          width: '300px', 
+          height: '300px',
+          opacity: 0
+        }}
+      />
       {/* Header */}
       <div className="sticky top-0 z-10 bg-background/80 backdrop-blur-sm border-b border-border/50">
         <div className="max-w-4xl mx-auto px-4 py-3">

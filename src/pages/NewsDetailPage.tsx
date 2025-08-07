@@ -29,12 +29,12 @@ const NewsDetailPage = () => {
     title: news.title,
     desc: news.summary || '来自AI推的最新资讯',
     link: generateWeChatShareUrl(news.id),
-    imgUrl: news.imageUrl || `https://news.aipush.fun/wechat-thumb.png?v=${Date.now()}`
+    imgUrl: news.imageUrl || `https://news.aipush.fun/wechat-share-300.png?v=2025080702`
   } : {
     title: '加载中...',
     desc: '正在加载新闻内容',
     link: window.location.href,
-    imgUrl: `https://news.aipush.fun/wechat-thumb.png?v=${Date.now()}`
+    imgUrl: `https://news.aipush.fun/wechat-share-300.png?v=2025080702`
   };
   
   useWeChatShare(shareConfig);
@@ -169,12 +169,12 @@ const NewsDetailPage = () => {
         {/* 微信分享专用 - 优先级最高 */}
         <meta itemProp="name" content={news.title} />
         <meta itemProp="description" content={news.summary || '最新AI资讯分享'} />
-        <meta itemProp="image" content={news.imageUrl || `https://news.aipush.fun/wechat-thumb.png?v=2025080701`} />
+        <meta itemProp="image" content={news.imageUrl || `https://news.aipush.fun/wechat-share-300.png?v=2025080702`} />
         
         {/* 微信JS-SDK分享配置 */}
         <meta name="wxcard:title" content={news.title} />
         <meta name="wxcard:desc" content={news.summary || '来自AI推的最新资讯'} />
-        <meta name="wxcard:imgUrl" content={news.imageUrl || `https://news.aipush.fun/wechat-thumb.png?v=2025080701`} />
+        <meta name="wxcard:imgUrl" content={news.imageUrl || `https://news.aipush.fun/wechat-share-300.png?v=2025080702`} />
         <meta name="wxcard:link" content={generateWeChatShareUrl(news.id)} />
         
         {/* Open Graph / Facebook */}
@@ -182,7 +182,7 @@ const NewsDetailPage = () => {
         <meta property="og:url" content={generateWeChatShareUrl(news.id)} />
         <meta property="og:title" content={news.title} />
         <meta property="og:description" content={news.summary || '最新AI资讯分享'} />
-        <meta property="og:image" content={news.imageUrl || `https://news.aipush.fun/wechat-thumb.png?v=2025080701`} />
+        <meta property="og:image" content={news.imageUrl || `https://news.aipush.fun/wechat-share-300.png?v=2025080702`} />
         <meta property="og:image:width" content="256" />
         <meta property="og:image:height" content="256" />
         <meta property="og:image:type" content="image/png" />
@@ -193,7 +193,7 @@ const NewsDetailPage = () => {
         <meta property="twitter:url" content={generateWeChatShareUrl(news.id)} />
         <meta property="twitter:title" content={news.title} />
         <meta property="twitter:description" content={news.summary || '最新AI资讯分享'} />
-        <meta property="twitter:image" content={news.imageUrl || `https://news.aipush.fun/wechat-thumb.png?v=2025080701`} />
+        <meta property="twitter:image" content={news.imageUrl || `https://news.aipush.fun/wechat-share-300.png?v=2025080702`} />
         
         {/* Article specific */}
         <meta property="article:published_time" content={news.publishedAt} />
