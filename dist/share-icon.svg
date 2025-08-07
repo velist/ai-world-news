@@ -1,0 +1,61 @@
+<svg width="512" height="512" viewBox="0 0 512 512" xmlns="http://www.w3.org/2000/svg">
+  <!-- 背景 -->
+  <rect width="512" height="512" fill="#f0f8ff" rx="64"/>
+  
+  <!-- 外圈装饰 -->
+  <circle cx="256" cy="256" r="240" fill="#ffffff" stroke="#e0e0e0" stroke-width="2"/>
+  <circle cx="256" cy="256" r="220" fill="#fafafa"/>
+  
+  <!-- 猫咪主体 (放大到适合512x512) -->
+  <ellipse cx="256" cy="288" rx="192" ry="160" fill="#FFB366"/>
+  
+  <!-- 猫咪耳朵 -->
+  <path d="M128 192 L192 128 L224 192 Z" fill="#FFB366"/>
+  <path d="M288 192 L320 128 L384 192 Z" fill="#FFB366"/>
+  
+  <!-- 耳朵内部 -->
+  <path d="M152 176 L184 144 L200 176 Z" fill="#FF9999"/>
+  <path d="M312 176 L328 144 L360 176 Z" fill="#FF9999"/>
+  
+  <!-- 猫咪脸部 -->
+  <ellipse cx="256" cy="256" rx="128" ry="96" fill="#FFFFFF"/>
+  
+  <!-- 眼镜框 -->
+  <rect x="128" y="208" width="256" height="96" rx="48" fill="#333333"/>
+  
+  <!-- 眼镜镜片 -->
+  <circle cx="192" cy="256" r="48" fill="#000000" opacity="0.8"/>
+  <circle cx="320" cy="256" r="48" fill="#000000" opacity="0.8"/>
+  
+  <!-- 眼镜反光 -->
+  <circle cx="208" cy="240" r="12.8" fill="#FFFFFF" opacity="0.6"/>
+  <circle cx="336" cy="240" r="12.8" fill="#FFFFFF" opacity="0.6"/>
+  
+  <!-- 鼻子 -->
+  <ellipse cx="256" cy="320" rx="16" ry="12.8" fill="#FF6B9D"/>
+  
+  <!-- 嘴巴 -->
+  <path d="M224 352 Q256 368 288 352" stroke="#333333" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- 胡须 -->
+  <line x1="160" y1="288" x2="96" y2="272" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+  <line x1="160" y1="320" x2="96" y2="320" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+  <line x1="352" y1="288" x2="416" y2="272" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+  <line x1="352" y1="320" x2="416" y2="320" stroke="#333333" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- 猫咪身体下部 -->
+  <ellipse cx="256" cy="416" rx="96" ry="64" fill="#FFB366"/>
+  
+  <!-- 小爪子 -->
+  <ellipse cx="192" cy="464" rx="24" ry="16" fill="#FFFFFF"/>
+  <ellipse cx="256" cy="464" rx="24" ry="16" fill="#FFFFFF"/>
+  <ellipse cx="320" cy="464" rx="24" ry="16" fill="#FFFFFF"/>
+  
+  <!-- 猫咪条纹 -->
+  <path d="M192 96 Q224 112 256 96 Q288 112 320 96" stroke="#FF9999" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M160 128 Q192 144 224 128" stroke="#FF9999" stroke-width="6" fill="none" stroke-linecap="round"/>
+  <path d="M288 128 Q320 144 352 128" stroke="#FF9999" stroke-width="6" fill="none" stroke-linecap="round"/>
+  
+  <!-- AI推 文字标识 -->
+  <text x="256" y="520" text-anchor="middle" font-family="Arial, sans-serif" font-size="48" font-weight="bold" fill="#333333">AI推</text>
+</svg>

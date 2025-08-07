@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 基础页面信息 -->
+    <title>微信分享测试页面 - AI推</title>
+    <meta name="description" content="这是一个专门用于测试微信分享功能的页面，包含完整的Open Graph和微信专用标签配置。">
+    <meta name="keywords" content="AI推,人工智能,新闻,资讯,微信分享,测试">
+    
+    <!-- Open Graph 标准标签 -->
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="微信分享测试页面 - AI推">
+    <meta property="og:description" content="这是一个专门用于测试微信分享功能的页面，包含完整的Open Graph和微信专用标签配置。">
+    <meta property="og:image" content="https://news.aipush.fun/wechat-share-300.png">
+    <meta property="og:image:secure_url" content="https://news.aipush.fun/wechat-share-300.png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="AI推 - 人工智能新闻资讯">
+    <meta property="og:url" content="https://news.aipush.fun/wechat-share-test.html">
+    <meta property="og:site_name" content="AI推">
+    <meta property="og:locale" content="zh_CN">
+    
+    <!-- 微信专用标签 -->
+    <meta name="wechat:title" content="微信分享测试页面 - AI推">
+    <meta name="wechat:desc" content="这是一个专门用于测试微信分享功能的页面，包含完整的Open Graph和微信专用标签配置。">
+    <meta name="wechat:image" content="https://news.aipush.fun/wechat-share-300.png">
+    
+    <!-- 微信分享隐式标签 -->
+    <meta name="wxcard:title" content="微信分享测试页面 - AI推">
+    <meta name="wxcard:desc" content="这是一个专门用于测试微信分享功能的页面，包含完整的Open Graph和微信专用标签配置。">
+    <meta name="wxcard:imgUrl" content="https://news.aipush.fun/wechat-share-300.png">
+    <meta name="wxcard:link" content="https://news.aipush.fun/wechat-share-test.html">
+    
+    <!-- Schema.org 微数据 -->
+    <meta itemprop="name" content="微信分享测试页面 - AI推">
+    <meta itemprop="description" content="这是一个专门用于测试微信分享功能的页面，包含完整的Open Graph和微信专用标签配置。">
+    <meta itemprop="image" content="https://news.aipush.fun/wechat-share-300.png">
+    <meta itemprop="url" content="https://news.aipush.fun/wechat-share-test.html">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@aipush_news">
+    <meta name="twitter:title" content="微信分享测试页面 - AI推">
+    <meta name="twitter:description" content="这是一个专门用于测试微信分享功能的页面，包含完整的Open Graph和微信专用标签配置。">
+    <meta name="twitter:image" content="https://news.aipush.fun/wechat-share-300.png">
+    
+    <!-- 微信浏览器特殊配置 -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true">
+    
+    <!-- 缓存控制 -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            color: #333;
+        }
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border-radius: 10px;
+        }
+        .section {
+            margin: 20px 0;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: 8px;
+            border-left: 4px solid #007bff;
+        }
+        .tag-list {
+            max-height: 200px;
+            overflow-y: auto;
+            font-family: monospace;
+            font-size: 12px;
+            background: #f1f3f4;
+            padding: 10px;
+            border-radius: 4px;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #007bff;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin: 10px 5px;
+        }
+        .share-image {
+            max-width: 200px;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🔧 微信分享测试页面</h1>
+        <p>AI推 - 人工智能新闻资讯平台</p>
+    </div>
+
+    <div class="section">
+        <h2>📱 环境检测</h2>
+        <div id="environment-info">检测中...</div>
+    </div>
+
+    <div class="section">
+        <h2>🖼️ 分享图片</h2>
+        <img src="https://news.aipush.fun/wechat-share-300.png" alt="AI推分享图片" class="share-image" id="share-image">
+        <div id="image-status">图片加载状态检测中...</div>
+    </div>
+
+    <div class="section">
+        <h2>📋 Meta标签配置</h2>
+        <div class="tag-list" id="meta-tags">加载中...</div>
+    </div>
+
+    <div class="section">
+        <h2>🔧 调试工具</h2>
+        <a href="#" class="button" onclick="runDebugScript()">运行完整调试</a>
+        <a href="#" class="button" onclick="testShareConfig()">测试分享配置</a>
+        <a href="#" class="button" onclick="refreshMetaTags()">刷新Meta标签</a>
+    </div>
+
+    <div class="section">
+        <h2>📊 调试结果</h2>
+        <pre id="debug-output">点击上方按钮开始调试...</pre>
+    </div>
+
+    <script>
+        // 环境检测
+        function detectEnvironment() {
+            const info = {
+                userAgent: navigator.userAgent,
+                isWeChat: /micromessenger/i.test(navigator.userAgent),
+                url: window.location.href,
+                protocol: window.location.protocol,
+                timestamp: new Date().toISOString()
+            };
+            
+            document.getElementById('environment-info').innerHTML = `
+                <strong>微信环境:</strong> ${info.isWeChat ? '✅ 是' : '❌ 否'}<br>
+                <strong>协议:</strong> ${info.protocol === 'https:' ? '✅ HTTPS' : '❌ ' + info.protocol}<br>
+                <strong>当前URL:</strong> ${info.url}<br>
+                <strong>检测时间:</strong> ${info.timestamp}
+            `;
+        }
+
+        // 检测图片加载
+        function checkImageLoad() {
+            const img = document.getElementById('share-image');
+            const status = document.getElementById('image-status');
+            
+            img.onload = function() {
+                status.innerHTML = '✅ 图片加载成功';
+                status.style.color = 'green';
+            };
+            
+            img.onerror = function() {
+                status.innerHTML = '❌ 图片加载失败';
+                status.style.color = 'red';
+            };
+        }
+
+        // 显示所有Meta标签
+        function showMetaTags() {
+            const metaTags = [];
+            document.querySelectorAll('meta').forEach(meta => {
+                const attrs = {};
+                for (let attr of meta.attributes) {
+                    attrs[attr.name] = attr.value;
+                }
+                metaTags.push(attrs);
+            });
+            
+            document.getElementById('meta-tags').innerHTML = metaTags.map(tag => {
+                return Object.entries(tag).map(([key, value]) => `${key}="${value}"`).join(' ');
+            }).join('\\n');
+        }
+
+        // 运行调试脚本
+        function runDebugScript() {
+            const output = document.getElementById('debug-output');
+            output.innerHTML = '正在运行调试...\\n';
+            
+            // 收集所有调试信息
+            const debugInfo = {
+                environment: {
+                    isWeChat: /micromessenger/i.test(navigator.userAgent),
+                    userAgent: navigator.userAgent,
+                    url: window.location.href,
+                    timestamp: new Date().toISOString()
+                },
+                metaTags: {},
+                images: [],
+                issues: []
+            };
+            
+            // 收集Meta标签
+            document.querySelectorAll('meta').forEach(meta => {
+                const key = meta.getAttribute('property') || meta.getAttribute('name') || meta.getAttribute('itemprop');
+                if (key) {
+                    debugInfo.metaTags[key] = meta.getAttribute('content');
+                }
+            });
+            
+            // 检查分享必需标签
+            const requiredTags = ['og:title', 'og:description', 'og:image', 'og:url'];
+            requiredTags.forEach(tag => {
+                if (!debugInfo.metaTags[tag]) {
+                    debugInfo.issues.push(`缺少 ${tag}`);
+                }
+            });
+            
+            // 检查图片URL
+            const imageUrl = debugInfo.metaTags['og:image'];
+            if (imageUrl) {
+                if (!imageUrl.startsWith('https://')) {
+                    debugInfo.issues.push('图片URL不是HTTPS');
+                }
+                if (imageUrl.includes('.svg')) {
+                    debugInfo.issues.push('使用SVG图片，微信可能不支持');
+                }
+            }
+            
+            output.innerHTML = JSON.stringify(debugInfo, null, 2);
+        }
+
+        // 测试分享配置
+        function testShareConfig() {
+            const output = document.getElementById('debug-output');
+            
+            const shareConfig = {
+                title: document.querySelector('meta[property="og:title"]')?.content || document.title,
+                description: document.querySelector('meta[property="og:description"]')?.content,
+                image: document.querySelector('meta[property="og:image"]')?.content,
+                url: document.querySelector('meta[property="og:url"]')?.content
+            };
+            
+            output.innerHTML = `分享配置测试:\\n${JSON.stringify(shareConfig, null, 2)}\\n\\n配置完整性检查:\\n` +
+                `标题: ${shareConfig.title ? '✅' : '❌'}\\n` +
+                `描述: ${shareConfig.description ? '✅' : '❌'}\\n` +
+                `图片: ${shareConfig.image ? '✅' : '❌'}\\n` +
+                `链接: ${shareConfig.url ? '✅' : '❌'}`;
+        }
+
+        // 刷新Meta标签显示
+        function refreshMetaTags() {
+            showMetaTags();
+            document.getElementById('debug-output').innerHTML = 'Meta标签已刷新';
+        }
+
+        // 页面加载时执行
+        window.onload = function() {
+            detectEnvironment();
+            checkImageLoad();
+            showMetaTags();
+        };
+    </script>
+
+    <!-- Schema.org 结构化数据 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "微信分享测试页面 - AI推",
+        "description": "这是一个专门用于测试微信分享功能的页面，包含完整的Open Graph和微信专用标签配置。",
+        "url": "https://news.aipush.fun/wechat-share-test.html",
+        "image": "https://news.aipush.fun/wechat-share-300.png",
+        "publisher": {
+            "@type": "Organization",
+            "name": "AI推",
+            "url": "https://news.aipush.fun",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://news.aipush.fun/favicon.svg"
+            }
+        }
+    }
+    </script>
+</body>
+</html>
