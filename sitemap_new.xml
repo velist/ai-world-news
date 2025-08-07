@@ -48,7 +48,25 @@
     <xhtml:link rel="alternate" hreflang="en" href="https://news.aipush.fun/blog?lang=en" />
   </url>
 
+  <url>
+    <loc>https://news.aipush.fun/website-intro</loc>
+    <lastmod>2025-08-07</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://news.aipush.fun/website-intro" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://news.aipush.fun/website-intro?lang=en" />
+  </url>
+
   <!-- 博客文章页面 -->
+  <url>
+    <loc>https://news.aipush.fun/blog/website-introduction</loc>
+    <lastmod>2025-08-07</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.8</priority>
+    <xhtml:link rel="alternate" hreflang="zh" href="https://news.aipush.fun/blog/website-introduction" />
+    <xhtml:link rel="alternate" hreflang="en" href="https://news.aipush.fun/blog/website-introduction?lang=en" />
+  </url>
+  
   <url>
     <loc>https://news.aipush.fun/blog/chatgpt-vs-wenxin</loc>
     <lastmod>2025-08-07</lastmod>
