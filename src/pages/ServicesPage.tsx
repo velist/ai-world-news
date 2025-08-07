@@ -111,45 +111,20 @@ const ServicesPage = () => {
 
   const usagePlan = [
     {
-      name: isZh ? "免费版" : "Free Plan",
-      price: isZh ? "免费" : "Free",
-      description: isZh ? "适合个人用户日常阅读" : "Perfect for individual daily reading",
+      name: isZh ? "免费使用" : "Free Access",
+      price: isZh ? "完全免费" : "Completely Free",
+      description: isZh ? "适合所有用户，无任何使用限制" : "Perfect for all users with no restrictions",
       features: [
-        isZh ? "每日50篇文章" : "50 articles per day",
-        isZh ? "基础分类浏览" : "Basic category browsing", 
+        isZh ? "完整新闻阅读" : "Full news access",
+        isZh ? "智能分类浏览" : "Smart category browsing", 
+        isZh ? "中英文翻译" : "Chinese-English translation",
         isZh ? "移动端访问" : "Mobile access",
-        isZh ? "标准搜索功能" : "Standard search"
+        isZh ? "智能搜索功能" : "Smart search function",
+        isZh ? "实时资讯推送" : "Real-time news push",
+        isZh ? "个性化推荐" : "Personalized recommendations"
       ],
-      buttonText: isZh ? "立即使用" : "Start Free",
-      popular: false
-    },
-    {
-      name: isZh ? "专业版" : "Pro Plan",
-      price: isZh ? "¥29/月" : "$4.99/mo",
-      description: isZh ? "适合AI从业者和研究人员" : "Ideal for AI professionals and researchers",
-      features: [
-        isZh ? "无限文章阅读" : "Unlimited articles",
-        isZh ? "高级筛选功能" : "Advanced filtering",
-        isZh ? "邮件订阅推送" : "Email subscription",
-        isZh ? "优先客服支持" : "Priority support",
-        isZh ? "API接口访问" : "API access"
-      ],
-      buttonText: isZh ? "选择专业版" : "Choose Pro",
+      buttonText: isZh ? "立即使用" : "Start Using",
       popular: true
-    },
-    {
-      name: isZh ? "企业版" : "Enterprise",
-      price: isZh ? "联系咨询" : "Contact",
-      description: isZh ? "适合企业团队和机构用户" : "For enterprise teams and institutions", 
-      features: [
-        isZh ? "定制化内容源" : "Custom content sources",
-        isZh ? "私有化部署" : "Private deployment",
-        isZh ? "团队协作功能" : "Team collaboration",
-        isZh ? "专属客服经理" : "Dedicated account manager",
-        isZh ? "数据导出分析" : "Data export & analysis"
-      ],
-      buttonText: isZh ? "联系销售" : "Contact Sales",
-      popular: false
     }
   ];
 

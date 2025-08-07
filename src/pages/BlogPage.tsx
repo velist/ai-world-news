@@ -46,6 +46,19 @@ const BlogPage = () => {
   // 模拟博客文章数据
   const blogPosts: BlogPost[] = [
     {
+      id: 'website-introduction',
+      title: isZh ? 'AI推平台介绍：让AI资讯触手可及' : 'AI Push Platform Introduction: Making AI News Accessible',
+      excerpt: isZh 
+        ? '全面了解AI推平台的核心功能、技术特色和服务优势，探索专业的人工智能新闻资讯平台如何为用户提供价值。'
+        : 'Comprehensive overview of AI Push platform\'s core features, technical advantages, and service benefits, exploring how a professional AI news platform delivers value to users.',
+      category: isZh ? '平台介绍' : 'Platform Introduction',
+      publishedAt: '2025-08-07',
+      readTime: 12,
+      author: 'AI推编辑部',
+      tags: ['平台介绍', 'AI推', '产品功能'],
+      featured: true
+    },
+    {
       id: 'chatgpt-vs-wenxin',
       title: isZh ? 'ChatGPT vs 文心一言：2025年中文大模型对比分析' : 'ChatGPT vs Wenxin: 2025 Chinese LLM Comparison',
       excerpt: isZh 
@@ -143,6 +156,10 @@ const BlogPage = () => {
 
   const handleCategoryChange = (categoryId: string) => {
     setSelectedCategory(categoryId);
+  };
+
+  const handlePostClick = (postId: string) => {
+    navigate(`/blog/${postId}`);
   };
 
   const formatDate = (dateString: string) => {
@@ -286,7 +303,11 @@ const BlogPage = () => {
 
             <div className="grid md:grid-cols-2 gap-8">
               {featuredPosts.map((post) => (
-                <Card key={post.id} className="overflow-hidden hover:shadow-lg transition-shadow">
+                <Card 
+                  key={post.id} 
+                  className="overflow-hidden hover:shadow-lg transition-shadow cursor-pointer"
+                  onClick={() => handlePostClick(post.id)}
+                >
                   <CardHeader className="pb-4">
                     <div className="flex items-center justify-between mb-3">
                       <Badge variant="secondary" className="text-xs">
@@ -297,7 +318,7 @@ const BlogPage = () => {
                         {isZh ? "精选" : "Featured"}
                       </Badge>
                     </div>
-                    <CardTitle className="text-xl leading-tight hover:text-primary cursor-pointer">
+                    <CardTitle className="text-xl leading-tight hover:text-primary">
                       {post.title}
                     </CardTitle>
                   </CardHeader>
@@ -380,7 +401,11 @@ const BlogPage = () => {
 
                 <div className="space-y-6">
                   {recentPosts.map((post) => (
-                    <Card key={post.id} className="p-6 hover:shadow-lg transition-shadow">
+                    <Card 
+                      key={post.id} 
+                      className="p-6 hover:shadow-lg transition-shadow cursor-pointer" 
+                      onClick={() => handlePostClick(post.id)}
+                    >
                       <div className="flex flex-col md:flex-row md:items-start space-y-4 md:space-y-0 md:space-x-6">
                         <div className="flex-1 space-y-3">
                           <div className="flex items-center space-x-3">
@@ -395,7 +420,7 @@ const BlogPage = () => {
                             </div>
                           </div>
                           
-                          <h3 className="text-lg font-semibold leading-tight hover:text-primary cursor-pointer">
+                          <h3 className="text-lg font-semibold leading-tight hover:text-primary">
                             {post.title}
                           </h3>
                           
@@ -412,7 +437,15 @@ const BlogPage = () => {
                           </div>
                         </div>
 
-                        <Button variant="outline" size="sm" className="flex-shrink-0">
+                        <Button 
+                          variant="outline" 
+                          size="sm" 
+                          className="flex-shrink-0"
+                          onClick={(e) => {
+                            e.stopPropagation();
+                            handlePostClick(post.id);
+                          }}
+                        >
                           {isZh ? "阅读" : "Read"}
                           <ArrowRight className="w-4 h-4 ml-1" />
                         </Button>
