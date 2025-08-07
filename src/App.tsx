@@ -46,8 +46,10 @@ const App = () => {
           restoreUrlHistory();
         }
         
-        // 规范化URL（仅微信环境）
-        normalizeUrl();
+        // 规范化URL（仅微信环境，且避免在首页执行）
+        if (isWeChatBrowser() && window.location.pathname !== '/') {
+          normalizeUrl();
+        }
         
         console.log('应用初始化完成:', {
           isWeChat: isWeChatBrowser(),

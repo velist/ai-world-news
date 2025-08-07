@@ -19,7 +19,7 @@ export const useWeChatEnvironment = () => {
     
     console.log('🔧 微信环境优化已启用');
     
-    // 1. 微信环境专用路由处理（修复版本，保持Hash路由稳定性）
+    // 1. 微信环境专用路由处理（简化版本，避免重定向循环）
     const handleWeChatRouting = () => {
       const hash = window.location.hash;
       const path = window.location.pathname;
@@ -28,18 +28,9 @@ export const useWeChatEnvironment = () => {
       if (hash && hash.startsWith('#/news/')) {
         console.log('📱 微信环境检测到新闻Hash路由:', hash);
         
-        // 如果当前路径不是首页，重定向到首页并保持Hash
-        if (path !== '/' && path !== '/index.html') {
-          console.log('🔄 重定向到首页以保持Hash路由:', hash);
-          try {
-            window.location.replace('/' + hash);
-          } catch (error) {
-            console.warn('重定向失败:', error);
-          }
-          return true;
-        }
-        
-        // 保持Hash路由，不进行URL规范化
+        // 不进行重定向，让React Router处理Hash路由
+        // 这样避免了无限重定向循环
+        console.log('🔒 保持Hash路由不变，由React Router处理');
         return false;
       }
       
