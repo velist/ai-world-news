@@ -20,12 +20,17 @@ export const useWeChatShare = (config: WeChatShareConfig) => {
       if (typeof window !== 'undefined' && (window as any).wx) {
         const wx = (window as any).wx;
         
+        // 确保图片URL包含时间戳破坏缓存
+        const imgUrl = config.imgUrl.includes('?') 
+          ? `${config.imgUrl}&t=${Date.now()}` 
+          : `${config.imgUrl}?t=${Date.now()}`;
+        
         // 配置微信分享到朋友圈
         wx.ready(() => {
           wx.updateTimelineShareData({
             title: config.title, // 分享标题
             link: config.link, // 分享链接
-            imgUrl: config.imgUrl, // 分享图标
+            imgUrl: imgUrl, // 分享图标（带时间戳）
             success: () => {
               console.log('微信朋友圈分享配置成功');
             }
@@ -36,60 +41,82 @@ export const useWeChatShare = (config: WeChatShareConfig) => {
             title: config.title, // 分享标题
             desc: config.desc, // 分享描述
             link: config.link, // 分享链接
-            imgUrl: config.imgUrl, // 分享图标
+            imgUrl: imgUrl, // 分享图标（带时间戳）
             success: () => {
               console.log('微信分享给朋友配置成功');
             }
           });
         });
+        
+        // 处理配置错误
+        wx.error((res: any) => {
+          console.warn('微信JS-SDK配置失败:', res);
+          // 降级到meta标签方案
+          setupMetaTagFallback();
+        });
       } else {
         // 如果没有JS-SDK，使用meta标签方式
-        console.log('使用meta标签进行微信分享配置');
-        
-        // 动态更新页面的meta标签
-        const updateMetaTag = (property: string, content: string) => {
-          let meta = document.querySelector(`meta[property="${property}"]`) as HTMLMetaElement;
-          if (!meta) {
-            meta = document.createElement('meta');
-            meta.setAttribute('property', property);
-            document.head.appendChild(meta);
-          }
-          meta.setAttribute('content', content);
-        };
-
-        const updateNameMetaTag = (name: string, content: string) => {
-          let meta = document.querySelector(`meta[name="${name}"]`) as HTMLMetaElement;
-          if (!meta) {
-            meta = document.createElement('meta');
-            meta.setAttribute('name', name);
-            document.head.appendChild(meta);
-          }
-          meta.setAttribute('content', content);
-        };
-
-        const updateItemPropTag = (itemProp: string, content: string) => {
-          let meta = document.querySelector(`meta[itemprop="${itemProp}"]`) as HTMLMetaElement;
-          if (!meta) {
-            meta = document.createElement('meta');
-            meta.setAttribute('itemprop', itemProp);
-            document.head.appendChild(meta);
-          }
-          meta.setAttribute('content', content);
-        };
-
-        // 更新各种格式的meta标签
-        updateMetaTag('og:title', config.title);
-        updateMetaTag('og:description', config.desc);
-        updateMetaTag('og:image', config.imgUrl);
-        updateMetaTag('og:url', config.link);
-        
-        updateNameMetaTag('description', config.desc);
-        updateNameMetaTag('title', config.title);
-        
-        updateItemPropTag('name', config.title);
-        updateItemPropTag('description', config.desc);
-        updateItemPropTag('image', config.imgUrl);
+        setupMetaTagFallback();
       }
+    };
+
+    const setupMetaTagFallback = () => {
+      console.log('使用meta标签进行微信分享配置');
+      
+      // 确保图片URL包含时间戳破坏缓存
+      const imgUrl = config.imgUrl.includes('?') 
+        ? `${config.imgUrl}&t=${Date.now()}` 
+        : `${config.imgUrl}?t=${Date.now()}`;
+
+      // 动态更新页面的meta标签
+      const updateMetaTag = (property: string, content: string) => {
+        let meta = document.querySelector(`meta[property="${property}"]`) as HTMLMetaElement;
+        if (!meta) {
+          meta = document.createElement('meta');
+          meta.setAttribute('property', property);
+          document.head.appendChild(meta);
+        }
+        meta.setAttribute('content', content);
+      };
+
+      const updateNameMetaTag = (name: string, content: string) => {
+        let meta = document.querySelector(`meta[name="${name}"]`) as HTMLMetaElement;
+        if (!meta) {
+          meta = document.createElement('meta');
+          meta.setAttribute('name', name);
+          document.head.appendChild(meta);
+        }
+        meta.setAttribute('content', content);
+      };
+
+      const updateItemPropTag = (itemProp: string, content: string) => {
+        let meta = document.querySelector(`meta[itemprop="${itemProp}"]`) as HTMLMetaElement;
+        if (!meta) {
+          meta = document.createElement('meta');
+          meta.setAttribute('itemprop', itemProp);
+          document.head.appendChild(meta);
+        }
+        meta.setAttribute('content', content);
+      };
+
+      // 更新各种格式的meta标签，图片使用带时间戳的URL
+      updateMetaTag('og:title', config.title);
+      updateMetaTag('og:description', config.desc);
+      updateMetaTag('og:image', imgUrl);
+      updateMetaTag('og:url', config.link);
+      
+      updateNameMetaTag('description', config.desc);
+      updateNameMetaTag('title', config.title);
+      
+      updateItemPropTag('name', config.title);
+      updateItemPropTag('description', config.desc);
+      updateItemPropTag('image', imgUrl);
+      
+      // 微信专用标签
+      updateNameMetaTag('wxcard:title', config.title);
+      updateNameMetaTag('wxcard:desc', config.desc);
+      updateNameMetaTag('wxcard:imgUrl', imgUrl);
+      updateNameMetaTag('wxcard:link', config.link);
     };
 
     // 延迟执行以确保页面完全加载
