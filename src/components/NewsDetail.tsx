@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
-import { enhancedShareImageService } from "@/services/enhancedShareImageService";
+import { simplePosterService } from "@/services/simplePosterService";
 import { useState } from "react";
 
 interface NewsDetailProps {
@@ -147,7 +147,7 @@ export const NewsDetail = ({
     }
   };
 
-  // 生成海报分享 - 使用增强版AI服务
+  // 生成简洁海报分享 - 极速版本
   const handlePosterShare = async () => {
     if (isGeneratingPoster) return;
 
@@ -156,28 +156,17 @@ export const NewsDetail = ({
       const newsData = {
         id: `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
         title: displayTitle,
-        summary: content.substring(0, 200) + (content.length > 200 ? '...' : ''),
-        imageUrl: imageUrl,
-        publishedAt: publishedAt,
-        source: source,
-        category: category
+        summary: content.substring(0, 150) + (content.length > 150 ? '...' : '')
       };
 
-      // 获取智能生成建议
-      const options = enhancedShareImageService.getGenerationRecommendation(newsData);
-      
-      console.log('🎨 开始生成AI增强分享图片...');
-      const imageResult = await enhancedShareImageService.generateShareImage(newsData, {
-        ...options,
-        priority: 'high' // 用户主动触发，提高优先级
-      });
+      // 使用极简版海报生成服务
+      const imageResult = await simplePosterService.generateSimplePoster(newsData);
 
-      // 创建分享模态框显示结果
-      await showShareImageModal(imageResult, newsData);
+      // 显示简洁分享模态框
+      showSimpleShareModal(imageResult, newsData);
       
     } catch (error) {
-      console.error('AI分享图片生成失败:', error);
-      alert(isZh ? 'AI图片生成失败，请稍后重试' : 'AI image generation failed, please try again');
+      alert(isZh ? '海报生成失败，请稍后重试' : 'Failed to generate poster, please try again');
     } finally {
       setIsGeneratingPoster(false);
     }
@@ -374,6 +363,114 @@ export const NewsDetail = ({
         }
       };
     });
+  };
+
+  // 显示简洁分享模态框 - 无参数版本
+  const showSimpleShareModal = (imageData: string, newsData: any): void => {
+    // 创建遮罩层
+    const overlay = document.createElement('div');
+    overlay.style.cssText = `
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 10000;
+    `;
+
+    const container = document.createElement('div');
+    container.style.cssText = `
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 90%;
+      max-height: 90%;
+      text-align: center;
+      overflow: auto;
+    `;
+
+    // 成功提示
+    const successDiv = document.createElement('div');
+    successDiv.style.cssText = `
+      margin-bottom: 15px;
+      color: #28a745;
+      font-weight: bold;
+      font-size: 18px;
+    `;
+    successDiv.textContent = '✅ 海报生成成功！';
+
+    // 图片显示
+    const img = document.createElement('img');
+    img.src = imageData;
+    img.style.cssText = `
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.15);
+    `;
+
+    // 操作按钮容器
+    const buttonContainer = document.createElement('div');
+    buttonContainer.style.cssText = `
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 15px;
+    `;
+
+    // 保存按钮
+    const saveBtn = document.createElement('button');
+    saveBtn.textContent = '💾 保存图片';
+    saveBtn.style.cssText = `
+      padding: 10px 20px;
+      background: #007AFF;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    `;
+    saveBtn.onclick = () => {
+      simplePosterService.downloadPoster(imageData, `${newsData.title.substring(0, 20)}.png`);
+    };
+
+    // 关闭按钮
+    const closeBtn = document.createElement('button');
+    closeBtn.textContent = '❌ 关闭';
+    closeBtn.style.cssText = `
+      padding: 10px 20px;
+      background: #6c757d;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      font-weight: bold;
+    `;
+    closeBtn.onclick = () => {
+      document.body.removeChild(overlay);
+    };
+
+    // 组装元素
+    buttonContainer.appendChild(saveBtn);
+    buttonContainer.appendChild(closeBtn);
+    
+    container.appendChild(successDiv);
+    container.appendChild(img);
+    container.appendChild(buttonContainer);
+    overlay.appendChild(container);
+    document.body.appendChild(overlay);
+
+    // 点击遮罩关闭
+    overlay.onclick = (e) => {
+      if (e.target === overlay) {
+        document.body.removeChild(overlay);
+      }
+    };
   };
 
   // 显示分享选项
