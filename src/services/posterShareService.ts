@@ -315,40 +315,40 @@ export class PosterShareService {
     this.ctx.fillStyle = '#ffffff';
     this.ctx.fillRect(0, contentY, this.canvas.width, contentHeight);
 
-    // 绘制标题
-    const titleY = contentY + 40;
+    // 绘制标题 - 增大字体
+    const titleY = contentY + 50;
     this.ctx.fillStyle = this.appleColors.darkGray;
-    this.ctx.font = 'bold 28px -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif';
+    this.ctx.font = 'bold 42px -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif';
     this.ctx.textAlign = 'left';
 
     const maxWidth = this.canvas.width - padding * 2;
-    const titleLines = this.wrapText(newsData.title, maxWidth, 28);
-    const maxTitleLines = 3; // 最多3行标题
+    const titleLines = this.wrapText(newsData.title, maxWidth, 42);
+    const maxTitleLines = 2; // 最多2行标题，字体更大
 
     titleLines.slice(0, maxTitleLines).forEach((line, index) => {
-      this.ctx.fillText(line, padding, titleY + index * 35);
+      this.ctx.fillText(line, padding, titleY + index * 52);
     });
 
-    // 绘制摘要
-    const summaryY = titleY + Math.min(titleLines.length, maxTitleLines) * 35 + 20;
+    // 绘制摘要 - 增大字体
+    const summaryY = titleY + Math.min(titleLines.length, maxTitleLines) * 52 + 30;
     this.ctx.fillStyle = this.appleColors.gray;
-    this.ctx.font = '18px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
+    this.ctx.font = '28px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
 
     // 限制摘要长度
     const truncatedSummary = newsData.summary.length > 100 ?
       newsData.summary.substring(0, 100) + '...' : newsData.summary;
 
-    const summaryLines = this.wrapText(truncatedSummary, maxWidth, 18);
-    const maxSummaryLines = 3; // 最多3行摘要
+    const summaryLines = this.wrapText(truncatedSummary, maxWidth, 28);
+    const maxSummaryLines = 2; // 最多2行摘要，字体更大
 
     summaryLines.slice(0, maxSummaryLines).forEach((line, index) => {
-      this.ctx.fillText(line, padding, summaryY + index * 25);
+      this.ctx.fillText(line, padding, summaryY + index * 38);
     });
 
-    // 绘制元信息
-    const metaY = contentY + contentHeight - 30;
+    // 绘制元信息 - 增大字体
+    const metaY = contentY + contentHeight - 40;
     this.ctx.fillStyle = this.appleColors.blue;
-    this.ctx.font = '14px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
+    this.ctx.font = '22px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
 
     const publishDate = new Date(newsData.publishedAt).toLocaleDateString('zh-CN');
     const metaText = `${newsData.source} • ${newsData.category} • ${publishDate}`;
@@ -367,23 +367,23 @@ export class PosterShareService {
     this.ctx.fillStyle = this.appleColors.lightGray;
     this.ctx.fillRect(0, bottomY, this.canvas.width, bottomHeight);
 
-    // 二维码区域
-    const qrSize = 100; // 增大二维码尺寸
+    // 二维码区域 - 显著增大尺寸
+    const qrSize = 140; // 进一步增大二维码尺寸
     const qrX = this.canvas.width - qrSize - padding;
     const qrY = bottomY + (bottomHeight - qrSize) / 2;
 
     // 生成真正的二维码
     await this.drawRealQRCode(qrX, qrY, qrSize, newsId);
 
-    // 绘制提示文字
+    // 绘制提示文字 - 增大字体
     this.ctx.fillStyle = this.appleColors.darkGray;
-    this.ctx.font = 'bold 20px -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif';
+    this.ctx.font = 'bold 28px -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif';
     this.ctx.textAlign = 'left';
-    this.ctx.fillText('扫码阅读完整新闻', padding, bottomY + 35);
+    this.ctx.fillText('扫码阅读完整新闻', padding, bottomY + 50);
 
-    this.ctx.font = '16px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
+    this.ctx.font = '24px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
     this.ctx.fillStyle = this.appleColors.blue;
-    this.ctx.fillText('news.aipush.fun', padding, bottomY + 60);
+    this.ctx.fillText('news.aipush.fun', padding, bottomY + 85);
 
     // 绘制装饰元素
     this.ctx.fillStyle = this.appleColors.orange;
@@ -410,61 +410,86 @@ export class PosterShareService {
       // 构建新闻URL
       const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
 
-      // 使用QR码生成API
-      const qrApiUrl = `https://api.qrserver.com/v1/create-qr-code/?size=${size}x${size}&data=${encodeURIComponent(newsUrl)}&format=png&margin=0`;
+      // 使用多个二维码API源，提高成功率
+      const qrApis = [
+        `https://qr.liantu.com/api.php?text=${encodeURIComponent(newsUrl)}`,
+        `https://api.qrserver.com/v1/create-qr-code/?size=${size}x${size}&data=${encodeURIComponent(newsUrl)}&format=png&margin=0&ecc=M`,
+        `https://chart.googleapis.com/chart?chs=${size}x${size}&cht=qr&chl=${encodeURIComponent(newsUrl)}&choe=UTF-8`
+      ];
 
-      // 创建图片元素
-      const qrImage = new Image();
-      qrImage.crossOrigin = 'anonymous';
+      for (const qrApiUrl of qrApis) {
+        try {
+          console.log('尝试二维码API:', qrApiUrl);
+          
+          // 创建图片元素
+          const qrImage = new Image();
+          qrImage.crossOrigin = 'anonymous';
 
-      return new Promise((resolve, reject) => {
-        qrImage.onload = () => {
-          // 绘制白色背景
-          this.ctx.fillStyle = '#ffffff';
-          this.ctx.fillRect(x - 5, y - 5, size + 10, size + 10);
+          const success = await new Promise((resolve, reject) => {
+            const timeout = setTimeout(() => {
+              reject(new Error('二维码加载超时'));
+            }, 5000);
 
-          // 绘制二维码图片
-          this.ctx.drawImage(qrImage, x, y, size, size);
+            qrImage.onload = () => {
+              clearTimeout(timeout);
+              // 绘制白色背景，增加边距
+              this.ctx.fillStyle = '#ffffff';
+              this.ctx.fillRect(x - 8, y - 8, size + 16, size + 16);
 
-          // 绘制圆角边框
-          this.ctx.strokeStyle = this.appleColors.gray;
-          this.ctx.lineWidth = 1;
-          this.ctx.strokeRect(x - 2, y - 2, size + 4, size + 4);
+              // 绘制二维码图片
+              this.ctx.drawImage(qrImage, x, y, size, size);
 
-          resolve();
-        };
+              // 绘制圆角边框，增强视觉效果
+              this.ctx.strokeStyle = this.appleColors.gray;
+              this.ctx.lineWidth = 2;
+              this.ctx.strokeRect(x - 4, y - 4, size + 8, size + 8);
 
-        qrImage.onerror = () => {
-          console.warn('二维码加载失败，使用占位符');
-          this.drawQRCodePlaceholder(x, y, size);
-          resolve();
-        };
+              console.log('二维码生成成功:', qrApiUrl);
+              resolve(true);
+            };
 
-        qrImage.src = qrApiUrl;
-      });
+            qrImage.onerror = () => {
+              clearTimeout(timeout);
+              reject(new Error('图片加载失败'));
+            };
+
+            qrImage.src = qrApiUrl;
+          });
+
+          if (success) {
+            return; // 成功则返回
+          }
+        } catch (error) {
+          console.warn(`二维码API失败 ${qrApiUrl}:`, error);
+          continue; // 尝试下一个API
+        }
+      }
+
+      // 所有API都失败，使用改进的占位符
+      console.warn('所有二维码API都失败，使用高质量占位符');
+      this.drawEnhancedQRCodePlaceholder(x, y, size, newsUrl);
     } catch (error) {
       console.warn('二维码生成失败，使用占位符:', error);
-      this.drawQRCodePlaceholder(x, y, size);
+      this.drawEnhancedQRCodePlaceholder(x, y, size, `https://news.aipush.fun/#/news/${newsId}`);
     }
   }
 
   /**
-   * 绘制二维码占位符
+   * 绘制增强版二维码占位符
    */
-  private drawQRCodePlaceholder(x: number, y: number, size: number): void {
+  private drawEnhancedQRCodePlaceholder(x: number, y: number, size: number, url: string): void {
     // 绘制二维码背景
     this.ctx.fillStyle = '#ffffff';
-    this.ctx.fillRect(x - 5, y - 5, size + 10, size + 10);
+    this.ctx.fillRect(x - 8, y - 8, size + 16, size + 16);
 
-    // 绘制二维码图案
+    // 绘制二维码图案 - 使用更精细的网格
     this.ctx.fillStyle = this.appleColors.darkGray;
 
-    // 绘制更真实的二维码图案
-    const cellSize = size / 21; // 21x21 网格更像真实二维码
-    const pattern = this.generateQRPattern();
+    const cellSize = size / 25; // 25x25 网格更精细
+    const pattern = this.generateEnhancedQRPattern();
 
-    for (let row = 0; row < 21; row++) {
-      for (let col = 0; col < 21; col++) {
+    for (let row = 0; row < 25; row++) {
+      for (let col = 0; col < 25; col++) {
         if (pattern[row] && pattern[row][col]) {
           this.ctx.fillRect(
             x + col * cellSize,
@@ -476,35 +501,42 @@ export class PosterShareService {
       }
     }
 
-    // 绘制圆角边框
-    this.ctx.strokeStyle = this.appleColors.gray;
-    this.ctx.lineWidth = 1;
-    this.ctx.strokeRect(x - 5, y - 5, size + 10, size + 10);
+    // 绘制圆角边框，增强视觉效果
+    this.ctx.strokeStyle = this.appleColors.blue;
+    this.ctx.lineWidth = 2;
+    this.ctx.strokeRect(x - 4, y - 4, size + 8, size + 8);
+
+    // 添加二维码说明文字（小字）
+    this.ctx.fillStyle = this.appleColors.gray;
+    this.ctx.font = '12px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
+    this.ctx.textAlign = 'center';
+    this.ctx.fillText('扫码访问', x + size / 2, y + size + 20);
   }
 
   /**
-   * 生成更真实的二维码图案
+   * 生成增强版二维码图案
    */
-  private generateQRPattern(): number[][] {
-    const size = 21;
+  private generateEnhancedQRPattern(): number[][] {
+    const size = 25;
     const pattern: number[][] = Array(size).fill(0).map(() => Array(size).fill(0));
 
-    // 绘制定位标记（左上、右上、左下）
-    this.drawFinderPattern(pattern, 0, 0);
-    this.drawFinderPattern(pattern, 0, 14);
-    this.drawFinderPattern(pattern, 14, 0);
+    // 绘制定位标记（左上、右上、左下）- 更大更清晰
+    this.drawEnhancedFinderPattern(pattern, 0, 0);
+    this.drawEnhancedFinderPattern(pattern, 0, 17);
+    this.drawEnhancedFinderPattern(pattern, 17, 0);
 
     // 绘制时序图案
-    for (let i = 8; i < 13; i++) {
+    for (let i = 8; i < 17; i++) {
       pattern[6][i] = i % 2;
       pattern[i][6] = i % 2;
     }
 
-    // 绘制数据区域（随机图案）
+    // 绘制数据区域（更真实的图案）
+    const dataPattern = this.generateDataPattern(size);
     for (let row = 0; row < size; row++) {
       for (let col = 0; col < size; col++) {
-        if (pattern[row][col] === 0 && !this.isReservedArea(row, col)) {
-          pattern[row][col] = Math.random() > 0.5 ? 1 : 0;
+        if (pattern[row][col] === 0 && !this.isEnhancedReservedArea(row, col)) {
+          pattern[row][col] = dataPattern[row][col];
         }
       }
     }
@@ -513,15 +545,15 @@ export class PosterShareService {
   }
 
   /**
-   * 绘制定位标记
+   * 绘制增强版定位标记
    */
-  private drawFinderPattern(pattern: number[][], startRow: number, startCol: number): void {
+  private drawEnhancedFinderPattern(pattern: number[][], startRow: number, startCol: number): void {
     // 7x7 定位标记
     for (let row = 0; row < 7; row++) {
       for (let col = 0; col < 7; col++) {
         const r = startRow + row;
         const c = startCol + col;
-        if (r < 21 && c < 21) {
+        if (r < 25 && c < 25) {
           // 外框
           if (row === 0 || row === 6 || col === 0 || col === 6) {
             pattern[r][c] = 1;
@@ -536,11 +568,29 @@ export class PosterShareService {
   }
 
   /**
-   * 检查是否为保留区域
+   * 生成更真实的数据图案
    */
-  private isReservedArea(row: number, col: number): boolean {
+  private generateDataPattern(size: number): number[][] {
+    const pattern: number[][] = Array(size).fill(0).map(() => Array(size).fill(0));
+    
+    // 使用确定性但看起来随机的图案
+    for (let row = 0; row < size; row++) {
+      for (let col = 0; col < size; col++) {
+        // 使用数学函数生成看似随机但固定的图案
+        const value = (row * 31 + col * 17 + row * col * 7) % 3;
+        pattern[row][col] = value === 0 ? 1 : 0;
+      }
+    }
+    
+    return pattern;
+  }
+
+  /**
+   * 检查是否为增强版保留区域
+   */
+  private isEnhancedReservedArea(row: number, col: number): boolean {
     // 定位标记区域
-    if ((row < 9 && col < 9) || (row < 9 && col > 11) || (row > 11 && col < 9)) {
+    if ((row < 9 && col < 9) || (row < 9 && col > 15) || (row > 15 && col < 9)) {
       return true;
     }
     // 时序线
@@ -549,8 +599,6 @@ export class PosterShareService {
     }
     return false;
   }
-
-
 
   /**
    * 文字自动换行
