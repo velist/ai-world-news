@@ -179,9 +179,26 @@ export class PosterShareService {
     const imageWidth = this.canvas.width;
     const imageX = 0;
 
-    try {
-      if (imageUrl) {
-        const img = await this.loadImage(imageUrl);
+    // 尝试多个图片源
+    const imageSources = [];
+    if (imageUrl) {
+      imageSources.push(imageUrl);
+      // 如果是相对路径，尝试添加域名
+      if (!imageUrl.startsWith('http')) {
+        imageSources.push(`https://news.aipush.fun${imageUrl}`);
+      }
+    }
+
+    // 添加备用图片
+    imageSources.push('/wechat-share-300.png');
+    imageSources.push('https://news.aipush.fun/wechat-share-300.png');
+
+    let imageLoaded = false;
+
+    for (const src of imageSources) {
+      try {
+        console.log('尝试加载图片:', src);
+        const img = await this.loadImage(src);
 
         // 绘制图片背景
         this.ctx.fillStyle = this.appleColors.lightGray;
@@ -218,11 +235,18 @@ export class PosterShareService {
         this.ctx.fillStyle = maskGradient;
         this.ctx.fillRect(imageX, imageY, imageWidth, imageHeight);
 
-      } else {
-        await this.drawImagePlaceholder();
+        imageLoaded = true;
+        console.log('图片加载成功:', src);
+        break;
+      } catch (error) {
+        console.warn('图片加载失败:', src, error);
+        continue;
       }
-    } catch (error) {
-      console.warn('加载新闻图片失败，使用默认占位符');
+    }
+
+    // 如果所有图片都加载失败，使用占位符
+    if (!imageLoaded) {
+      console.warn('所有图片源都加载失败，使用占位符');
       await this.drawImagePlaceholder();
     }
   }
@@ -237,23 +261,44 @@ export class PosterShareService {
     const imageWidth = this.canvas.width;
     const imageX = 0;
 
-    // 绘制占位符背景 - 苹果风格渐变
-    const gradient = this.ctx.createLinearGradient(0, imageY, 0, imageY + imageHeight);
-    gradient.addColorStop(0, this.appleColors.teal);
-    gradient.addColorStop(1, this.appleColors.blue);
+    // 绘制占位符背景 - 更现代的渐变
+    const gradient = this.ctx.createLinearGradient(0, imageY, imageWidth, imageY + imageHeight);
+    gradient.addColorStop(0, '#667eea');
+    gradient.addColorStop(0.5, '#764ba2');
+    gradient.addColorStop(1, '#f093fb');
     this.ctx.fillStyle = gradient;
     this.ctx.fillRect(imageX, imageY, imageWidth, imageHeight);
 
-    // 绘制占位符图标
-    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
-    this.ctx.font = '80px -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif';
-    this.ctx.textAlign = 'center';
-    this.ctx.fillText('📰', this.canvas.width / 2, imageY + imageHeight / 2 + 20);
+    // 绘制几何装饰元素
+    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
 
-    // 绘制占位符文字
+    // 大圆
+    this.ctx.beginPath();
+    this.ctx.arc(imageWidth * 0.8, imageY + imageHeight * 0.3, 80, 0, 2 * Math.PI);
+    this.ctx.fill();
+
+    // 小圆
+    this.ctx.beginPath();
+    this.ctx.arc(imageWidth * 0.2, imageY + imageHeight * 0.7, 40, 0, 2 * Math.PI);
+    this.ctx.fill();
+
+    // 绘制AI推LOGO
     this.ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+    this.ctx.font = 'bold 48px -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif';
+    this.ctx.textAlign = 'center';
+    this.ctx.fillText('AI推', this.canvas.width / 2, imageY + imageHeight / 2 - 10);
+
+    // 绘制副标题
     this.ctx.font = '20px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
-    this.ctx.fillText('新闻图片', this.canvas.width / 2, imageY + imageHeight / 2 + 60);
+    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+    this.ctx.fillText('智能新闻推送', this.canvas.width / 2, imageY + imageHeight / 2 + 30);
+
+    // 添加渐变遮罩
+    const maskGradient = this.ctx.createLinearGradient(0, imageY + imageHeight - 100, 0, imageY + imageHeight);
+    maskGradient.addColorStop(0, 'rgba(0, 0, 0, 0)');
+    maskGradient.addColorStop(1, 'rgba(0, 0, 0, 0.3)');
+    this.ctx.fillStyle = maskGradient;
+    this.ctx.fillRect(imageX, imageY, imageWidth, imageHeight);
   }
 
   /**
@@ -323,12 +368,12 @@ export class PosterShareService {
     this.ctx.fillRect(0, bottomY, this.canvas.width, bottomHeight);
 
     // 二维码区域
-    const qrSize = 80; // 减小二维码尺寸
+    const qrSize = 100; // 增大二维码尺寸
     const qrX = this.canvas.width - qrSize - padding;
     const qrY = bottomY + (bottomHeight - qrSize) / 2;
 
-    // 绘制二维码占位符（不再异步加载）
-    this.drawQRCodePlaceholder(qrX, qrY, qrSize);
+    // 生成真正的二维码
+    await this.drawRealQRCode(qrX, qrY, qrSize, newsId);
 
     // 绘制提示文字
     this.ctx.fillStyle = this.appleColors.darkGray;
@@ -358,6 +403,52 @@ export class PosterShareService {
   }
 
   /**
+   * 生成并绘制真正的二维码
+   */
+  private async drawRealQRCode(x: number, y: number, size: number, newsId: string): Promise<void> {
+    try {
+      // 构建新闻URL
+      const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
+
+      // 使用QR码生成API
+      const qrApiUrl = `https://api.qrserver.com/v1/create-qr-code/?size=${size}x${size}&data=${encodeURIComponent(newsUrl)}&format=png&margin=0`;
+
+      // 创建图片元素
+      const qrImage = new Image();
+      qrImage.crossOrigin = 'anonymous';
+
+      return new Promise((resolve, reject) => {
+        qrImage.onload = () => {
+          // 绘制白色背景
+          this.ctx.fillStyle = '#ffffff';
+          this.ctx.fillRect(x - 5, y - 5, size + 10, size + 10);
+
+          // 绘制二维码图片
+          this.ctx.drawImage(qrImage, x, y, size, size);
+
+          // 绘制圆角边框
+          this.ctx.strokeStyle = this.appleColors.gray;
+          this.ctx.lineWidth = 1;
+          this.ctx.strokeRect(x - 2, y - 2, size + 4, size + 4);
+
+          resolve();
+        };
+
+        qrImage.onerror = () => {
+          console.warn('二维码加载失败，使用占位符');
+          this.drawQRCodePlaceholder(x, y, size);
+          resolve();
+        };
+
+        qrImage.src = qrApiUrl;
+      });
+    } catch (error) {
+      console.warn('二维码生成失败，使用占位符:', error);
+      this.drawQRCodePlaceholder(x, y, size);
+    }
+  }
+
+  /**
    * 绘制二维码占位符
    */
   private drawQRCodePlaceholder(x: number, y: number, size: number): void {
@@ -368,24 +459,13 @@ export class PosterShareService {
     // 绘制二维码图案
     this.ctx.fillStyle = this.appleColors.darkGray;
 
-    // 绘制简化的二维码图案
-    const cellSize = size / 10;
-    const pattern = [
-      [1,1,1,1,1,0,0,1,1,1],
-      [1,0,0,0,1,0,1,0,0,1],
-      [1,0,1,0,1,1,0,1,0,1],
-      [1,0,0,0,1,0,1,0,0,1],
-      [1,1,1,1,1,0,0,1,1,1],
-      [0,0,0,0,0,1,1,0,0,0],
-      [0,1,0,1,0,0,1,0,1,0],
-      [1,0,1,0,1,1,0,1,0,1],
-      [0,1,0,1,0,0,1,0,1,0],
-      [1,1,1,0,1,0,0,1,1,1]
-    ];
+    // 绘制更真实的二维码图案
+    const cellSize = size / 21; // 21x21 网格更像真实二维码
+    const pattern = this.generateQRPattern();
 
-    for (let row = 0; row < 10; row++) {
-      for (let col = 0; col < 10; col++) {
-        if (pattern[row][col]) {
+    for (let row = 0; row < 21; row++) {
+      for (let col = 0; col < 21; col++) {
+        if (pattern[row] && pattern[row][col]) {
           this.ctx.fillRect(
             x + col * cellSize,
             y + row * cellSize,
@@ -400,6 +480,74 @@ export class PosterShareService {
     this.ctx.strokeStyle = this.appleColors.gray;
     this.ctx.lineWidth = 1;
     this.ctx.strokeRect(x - 5, y - 5, size + 10, size + 10);
+  }
+
+  /**
+   * 生成更真实的二维码图案
+   */
+  private generateQRPattern(): number[][] {
+    const size = 21;
+    const pattern: number[][] = Array(size).fill(0).map(() => Array(size).fill(0));
+
+    // 绘制定位标记（左上、右上、左下）
+    this.drawFinderPattern(pattern, 0, 0);
+    this.drawFinderPattern(pattern, 0, 14);
+    this.drawFinderPattern(pattern, 14, 0);
+
+    // 绘制时序图案
+    for (let i = 8; i < 13; i++) {
+      pattern[6][i] = i % 2;
+      pattern[i][6] = i % 2;
+    }
+
+    // 绘制数据区域（随机图案）
+    for (let row = 0; row < size; row++) {
+      for (let col = 0; col < size; col++) {
+        if (pattern[row][col] === 0 && !this.isReservedArea(row, col)) {
+          pattern[row][col] = Math.random() > 0.5 ? 1 : 0;
+        }
+      }
+    }
+
+    return pattern;
+  }
+
+  /**
+   * 绘制定位标记
+   */
+  private drawFinderPattern(pattern: number[][], startRow: number, startCol: number): void {
+    // 7x7 定位标记
+    for (let row = 0; row < 7; row++) {
+      for (let col = 0; col < 7; col++) {
+        const r = startRow + row;
+        const c = startCol + col;
+        if (r < 21 && c < 21) {
+          // 外框
+          if (row === 0 || row === 6 || col === 0 || col === 6) {
+            pattern[r][c] = 1;
+          }
+          // 内部中心点
+          else if (row >= 2 && row <= 4 && col >= 2 && col <= 4) {
+            pattern[r][c] = 1;
+          }
+        }
+      }
+    }
+  }
+
+  /**
+   * 检查是否为保留区域
+   */
+  private isReservedArea(row: number, col: number): boolean {
+    // 定位标记区域
+    if ((row < 9 && col < 9) || (row < 9 && col > 11) || (row > 11 && col < 9)) {
+      return true;
+    }
+    // 时序线
+    if (row === 6 || col === 6) {
+      return true;
+    }
+    return false;
   }
 
 
