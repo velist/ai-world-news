@@ -4,7 +4,9 @@ import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
 import { generateWeChatShareUrl } from "@/hooks/useWeChatEnvironment";
+import { posterPreGenerationService } from "@/services/posterPreGenerationService";
 import { Link } from "react-router-dom";
+import { useEffect, useRef } from "react";
 
 interface NewsCardProps {
   id: string;
@@ -26,6 +28,32 @@ export const NewsCard = ({
   category,
 }: NewsCardProps) => {
   const { getLocalizedCategory } = useNewsTranslation();
+  const cardRef = useRef<HTMLDivElement>(null);
+  
+  // 集成预生成服务
+  useEffect(() => {
+    if (cardRef.current) {
+      const newsData = {
+        id,
+        title,
+        summary,
+        imageUrl,
+        publishedAt,
+        source,
+        category
+      };
+      
+      // 注册元素到可视性观察器
+      posterPreGenerationService.observeNewsElement(cardRef.current, newsData);
+      
+      return () => {
+        // 清理观察器
+        if (cardRef.current) {
+          posterPreGenerationService.unobserveNewsElement(cardRef.current);
+        }
+      };
+    }
+  }, [id, title, summary, imageUrl, publishedAt, source, category]);
   
   // 直接使用传入的标题和摘要（已经在useNews中本地化）
   const displayTitle = title;
@@ -289,6 +317,7 @@ export const NewsCard = ({
   return (
     <Link to={`/news/${id}`} className="block">
       <Card 
+        ref={cardRef}
         className="cursor-pointer overflow-hidden bg-gradient-card border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 transform hover:-translate-y-1 group"
       >
       <CardHeader className="p-0">
