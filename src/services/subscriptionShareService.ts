@@ -129,9 +129,18 @@ export class SubscriptionAccountShareService {
    */
   setupMetaTagShare(shareConfig: ShareConfig): void {
     console.log('设置Meta标签分享方案');
-    
-    const imgUrl = this.addTimestamp(shareConfig.imgUrl);
-    
+
+    // 优先使用PNG格式图片
+    let imgUrl = shareConfig.imgUrl;
+    if (imgUrl.includes('wechat-thumb.svg')) {
+      imgUrl = imgUrl.replace('wechat-thumb.svg', 'wechat-share-300.png');
+    }
+    if (imgUrl.includes('wechat-thumb.png') && !imgUrl.includes('wechat-share-300.png')) {
+      imgUrl = imgUrl.replace('wechat-thumb.png', 'wechat-share-300.png');
+    }
+
+    imgUrl = this.addTimestamp(imgUrl);
+
     // 确保图片尺寸符合微信要求（最小300x300）
     const optimizedImgUrl = this.optimizeImageForWeChat(imgUrl);
 
@@ -265,7 +274,7 @@ export class SubscriptionAccountShareService {
   private addTimestamp(url: string): string {
     if (!url) return url;
     const separator = url.includes('?') ? '&' : '?';
-    return `${url}${separator}t=${Date.now()}`;
+    return `${url}${separator}t=${Date.now()}&v=2025080802`;
   }
 
   private optimizeImageForWeChat(imgUrl: string): string {

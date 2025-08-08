@@ -238,12 +238,21 @@ export class WeChatService {
   }
 
   /**
-   * 为URL添加时间戳
+   * 为URL添加时间戳防止缓存，并优化图片格式
    */
   private addTimestampToUrl(url: string): string {
     if (!url) return url;
+
+    // 优先使用PNG格式的微信分享图片
+    if (url.includes('wechat-thumb.svg')) {
+      url = url.replace('wechat-thumb.svg', 'wechat-share-300.png');
+    }
+    if (url.includes('wechat-thumb.png') && !url.includes('wechat-share-300.png')) {
+      url = url.replace('wechat-thumb.png', 'wechat-share-300.png');
+    }
+
     const separator = url.includes('?') ? '&' : '?';
-    return `${url}${separator}t=${Date.now()}`;
+    return `${url}${separator}t=${Date.now()}&v=2025080802`;
   }
 
   /**

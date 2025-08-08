@@ -68,23 +68,29 @@ const Index = () => {
         <title>AI推 - 最新AI资讯聚合平台</title>
         <meta name="description" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
         
+        {/* 微信分享专用标签 */}
+        <meta name="wxcard:title" content="AI推 - 最新AI资讯聚合平台" />
+        <meta name="wxcard:desc" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
+        <meta name="wxcard:imgUrl" content={`${window.location.origin}/wechat-share-300.png?v=2025080802`} />
+        <meta name="wxcard:link" content={window.location.origin} />
+
         {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content={window.location.origin} />
         <meta property="og:title" content="AI推 - 最新AI资讯聚合平台" />
         <meta property="og:description" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
-        <meta property="og:image" content={`${window.location.origin}/wechat-thumb.svg`} />
-        <meta property="og:image:width" content="256" />
-        <meta property="og:image:height" content="256" />
-        <meta property="og:image:type" content="image/svg+xml" />
+        <meta property="og:image" content={`${window.location.origin}/wechat-share-300.png?v=2025080802`} />
+        <meta property="og:image:width" content="300" />
+        <meta property="og:image:height" content="300" />
+        <meta property="og:image:type" content="image/png" />
         <meta property="og:site_name" content="AI推" />
-        
+
         {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={window.location.origin} />
         <meta property="twitter:title" content="AI推 - 最新AI资讯聚合平台" />
         <meta property="twitter:description" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
-        <meta property="twitter:image" content={`${window.location.origin}/wechat-thumb.svg`} />
+        <meta property="twitter:image" content={`${window.location.origin}/wechat-share-300.png?v=2025080802`} />
       </Helmet>
       
       <div className="min-h-screen bg-background">

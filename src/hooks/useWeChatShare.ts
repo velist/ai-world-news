@@ -46,11 +46,18 @@ export const useWeChatShare = (config: WeChatShareConfig) => {
 
     const setupFallbackShare = () => {
       console.log('使用最基础的Meta标签分享方案');
-      
-      // 确保图片URL包含时间戳
-      const imgUrl = config.imgUrl.includes('?') 
-        ? `${config.imgUrl}&t=${Date.now()}` 
-        : `${config.imgUrl}?t=${Date.now()}`;
+
+      // 确保图片URL包含时间戳，优先使用PNG格式
+      let imgUrl = config.imgUrl;
+      if (imgUrl.includes('wechat-thumb.svg')) {
+        imgUrl = imgUrl.replace('wechat-thumb.svg', 'wechat-share-300.png');
+      }
+      if (imgUrl.includes('wechat-thumb.png') && !imgUrl.includes('wechat-share-300.png')) {
+        imgUrl = imgUrl.replace('wechat-thumb.png', 'wechat-share-300.png');
+      }
+      imgUrl = imgUrl.includes('?')
+        ? `${imgUrl}&t=${Date.now()}`
+        : `${imgUrl}?t=${Date.now()}`;
 
       // 基础Meta标签设置
       const setMeta = (property: string, content: string) => {
@@ -81,13 +88,16 @@ export const useWeChatShare = (config: WeChatShareConfig) => {
       setMeta('og:title', config.title);
       setMeta('og:description', config.desc);
       setMeta('og:image', imgUrl);
+      setMeta('og:image:width', '300');
+      setMeta('og:image:height', '300');
+      setMeta('og:image:type', 'image/png');
       setMeta('og:url', config.link);
       setMeta('og:site_name', 'AI推');
-      
+
       // 基础Meta标签
       setNameMeta('description', config.desc);
       setNameMeta('title', config.title);
-      
+
       // 微信专用标签
       setNameMeta('wxcard:title', config.title);
       setNameMeta('wxcard:desc', config.desc);
