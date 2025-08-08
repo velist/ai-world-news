@@ -14,7 +14,10 @@
     "start-news-service": "node scripts/news-service.js",
     "generate-feed": "node scripts/generate-feed.js",
     "build-with-feed": "npm run aggregate-news && npm run generate-feed && npm run build",
-    "test-ai-judgment": "node scripts/test-ai-judgment.js"
+    "test-ai-judgment": "node scripts/test-ai-judgment.js",
+    "deploy": "node scripts/auto-deploy.cjs",
+    "deploy:quick": "node scripts/auto-deploy.cjs 快速部署",
+    "deploy:fix": "node scripts/auto-deploy.cjs 修复部署"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
