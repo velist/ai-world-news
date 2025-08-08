@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
-import { posterShareService } from "@/services/posterShareService";
+import { enhancedShareImageService } from "@/services/enhancedShareImageService";
 import { useState } from "react";
 
 interface NewsDetailProps {
@@ -147,7 +147,7 @@ export const NewsDetail = ({
     }
   };
 
-  // 生成海报分享
+  // 生成海报分享 - 使用增强版AI服务
   const handlePosterShare = async () => {
     if (isGeneratingPoster) return;
 
@@ -163,14 +163,217 @@ export const NewsDetail = ({
         category: category
       };
 
-      const dataUrl = await posterShareService.generateNewsPoster(newsData);
-      await posterShareService.shareToWeChat(dataUrl);
+      // 获取智能生成建议
+      const options = enhancedShareImageService.getGenerationRecommendation(newsData);
+      
+      console.log('🎨 开始生成AI增强分享图片...');
+      const imageResult = await enhancedShareImageService.generateShareImage(newsData, {
+        ...options,
+        priority: 'high' // 用户主动触发，提高优先级
+      });
+
+      // 创建分享模态框显示结果
+      await showShareImageModal(imageResult, newsData);
+      
     } catch (error) {
-      console.error('海报生成失败:', error);
-      alert(isZh ? '海报生成失败，请稍后重试' : 'Failed to generate poster, please try again');
+      console.error('AI分享图片生成失败:', error);
+      alert(isZh ? 'AI图片生成失败，请稍后重试' : 'AI image generation failed, please try again');
     } finally {
       setIsGeneratingPoster(false);
     }
+  };
+
+  // 显示AI生成的分享图片模态框
+  const showShareImageModal = async (imageData: string, newsData: any): Promise<void> => {
+    return new Promise((resolve) => {
+      // 创建遮罩层
+      const overlay = document.createElement('div');
+      overlay.style.cssText = `
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0,0,0,0.9);
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        z-index: 10000;
+        backdrop-filter: blur(5px);
+      `;
+
+      const container = document.createElement('div');
+      container.style.cssText = `
+        background: white;
+        padding: 20px;
+        border-radius: 15px;
+        max-width: 90%;
+        max-height: 90%;
+        text-align: center;
+        overflow: auto;
+        box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+      `;
+
+      // 生成状态显示
+      const statusDiv = document.createElement('div');
+      statusDiv.style.cssText = `
+        margin-bottom: 20px;
+        padding: 10px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border-radius: 8px;
+        font-weight: bold;
+      `;
+      statusDiv.innerHTML = `
+        <div style="display: flex; align-items: center; justify-content: center; gap: 10px;">
+          <span>🤖</span>
+          <span>AI增强分享图片生成完成</span>
+          <span>✨</span>
+        </div>
+      `;
+
+      // 图片显示
+      const img = document.createElement('img');
+      img.src = imageData;
+      img.style.cssText = `
+        max-width: 100%;
+        height: auto;
+        margin: 20px 0;
+        border-radius: 10px;
+        box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+      `;
+
+      // 服务状态显示
+      const serviceStatus = enhancedShareImageService.getServiceStatus();
+      const statusInfo = document.createElement('div');
+      statusInfo.style.cssText = `
+        background: #f8f9fa;
+        padding: 15px;
+        border-radius: 8px;
+        margin: 15px 0;
+        font-size: 14px;
+        text-align: left;
+      `;
+      statusInfo.innerHTML = `
+        <div style="font-weight: bold; margin-bottom: 10px; color: #333;">📊 生成统计</div>
+        <div>• 总请求数: ${serviceStatus.performance.totalRequests}</div>
+        <div>• 平均用时: ${serviceStatus.performance.averageTime}ms</div>
+        <div>• AI成功率: ${serviceStatus.performance.aiSuccessRate}</div>
+        <div>• 可用AI服务: ${serviceStatus.mcp.totalServices}个</div>
+      `;
+
+      // 操作按钮
+      const buttonContainer = document.createElement('div');
+      buttonContainer.style.cssText = `
+        display: flex;
+        gap: 10px;
+        justify-content: center;
+        flex-wrap: wrap;
+        margin-top: 20px;
+      `;
+
+      // 微信分享按钮
+      const wechatBtn = document.createElement('button');
+      wechatBtn.textContent = '📱 微信分享';
+      wechatBtn.style.cssText = `
+        padding: 12px 24px;
+        background: linear-gradient(135deg, #1aad19 0%, #2dc653 100%);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: transform 0.2s;
+      `;
+      wechatBtn.onmouseover = () => wechatBtn.style.transform = 'scale(1.05)';
+      wechatBtn.onmouseout = () => wechatBtn.style.transform = 'scale(1)';
+      wechatBtn.onclick = async () => {
+        try {
+          // 尝试原生分享API
+          if (navigator.share) {
+            const response = await fetch(imageData);
+            const blob = await response.blob();
+            const file = new File([blob], 'ai-news-share.png', { type: 'image/png' });
+            
+            await navigator.share({
+              title: newsData.title,
+              text: '来自AI推的智能新闻分享',
+              files: [file]
+            });
+          } else {
+            // 降级到显示提示
+            alert('长按图片保存，然后在微信中发送');
+          }
+        } catch (error) {
+          console.warn('原生分享失败:', error);
+          alert('长按图片保存，然后在微信中发送');
+        }
+      };
+
+      // 下载按钮
+      const downloadBtn = document.createElement('button');
+      downloadBtn.textContent = '💾 保存图片';
+      downloadBtn.style.cssText = `
+        padding: 12px 24px;
+        background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: transform 0.2s;
+      `;
+      downloadBtn.onmouseover = () => downloadBtn.style.transform = 'scale(1.05)';
+      downloadBtn.onmouseout = () => downloadBtn.style.transform = 'scale(1)';
+      downloadBtn.onclick = () => {
+        const link = document.createElement('a');
+        link.download = `ai-news-${newsData.id}.png`;
+        link.href = imageData;
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+      };
+
+      // 关闭按钮
+      const closeBtn = document.createElement('button');
+      closeBtn.textContent = '❌ 关闭';
+      closeBtn.style.cssText = `
+        padding: 12px 24px;
+        background: #6c757d;
+        color: white;
+        border: none;
+        border-radius: 8px;
+        cursor: pointer;
+        font-weight: bold;
+        transition: transform 0.2s;
+      `;
+      closeBtn.onmouseover = () => closeBtn.style.transform = 'scale(1.05)';
+      closeBtn.onmouseout = () => closeBtn.style.transform = 'scale(1)';
+      closeBtn.onclick = () => {
+        document.body.removeChild(overlay);
+        resolve();
+      };
+
+      // 组装元素
+      buttonContainer.appendChild(wechatBtn);
+      buttonContainer.appendChild(downloadBtn);
+      buttonContainer.appendChild(closeBtn);
+      
+      container.appendChild(statusDiv);
+      container.appendChild(img);
+      container.appendChild(statusInfo);
+      container.appendChild(buttonContainer);
+      overlay.appendChild(container);
+      document.body.appendChild(overlay);
+
+      // 点击遮罩关闭
+      overlay.onclick = (e) => {
+        if (e.target === overlay) {
+          document.body.removeChild(overlay);
+          resolve();
+        }
+      };
+    });
   };
 
   // 显示分享选项
