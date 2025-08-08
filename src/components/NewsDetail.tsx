@@ -1,11 +1,12 @@
-import { ArrowLeft, Clock, ExternalLink, Share2, MessageSquare } from "lucide-react";
+import { ArrowLeft, Clock, ExternalLink, Share2, MessageSquare, Image as ImageIcon } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
-import { PosterShareButton } from "@/components/PosterShareButton";
+import { posterShareService } from "@/services/posterShareService";
+import { useState } from "react";
 
 interface NewsDetailProps {
   title: string;
@@ -34,7 +35,8 @@ export const NewsDetail = ({
 }: NewsDetailProps) => {
   const { isZh } = useLanguage();
   const { getLocalizedCategory } = useNewsTranslation();
-  
+  const [isGeneratingPoster, setIsGeneratingPoster] = useState(false);
+
   // 直接使用传入的标题（已经在useNews中本地化）
   const displayTitle = title;
   
@@ -115,16 +117,16 @@ export const NewsDetail = ({
   const handleShare = async () => {
     const shareUrl = window.location.href;
     const shareText = `${title} - 来自AI推趣新闻`;
-    
+
     // 检测是否在微信浏览器中
     const isWechat = /micromessenger/i.test(navigator.userAgent);
-    
+
     if (isWechat) {
-      // 微信环境：创建友好的分享引导界面
-      showWechatShareGuide(shareUrl, shareText);
+      // 微信环境：显示分享选项
+      showShareOptions(shareUrl, shareText);
       return;
     }
-    
+
     // 检查是否支持原生分享API
     if (navigator.share) {
       try {
@@ -145,8 +147,34 @@ export const NewsDetail = ({
     }
   };
 
-  // 微信分享引导功能
-  const showWechatShareGuide = (shareUrl: string, shareText: string) => {
+  // 生成海报分享
+  const handlePosterShare = async () => {
+    if (isGeneratingPoster) return;
+
+    setIsGeneratingPoster(true);
+    try {
+      const newsData = {
+        id: `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+        title: displayTitle,
+        summary: content.substring(0, 200) + (content.length > 200 ? '...' : ''),
+        imageUrl: imageUrl,
+        publishedAt: publishedAt,
+        source: source,
+        category: category
+      };
+
+      const dataUrl = await posterShareService.generateNewsPoster(newsData);
+      await posterShareService.shareToWeChat(dataUrl);
+    } catch (error) {
+      console.error('海报生成失败:', error);
+      alert(isZh ? '海报生成失败，请稍后重试' : 'Failed to generate poster, please try again');
+    } finally {
+      setIsGeneratingPoster(false);
+    }
+  };
+
+  // 显示分享选项
+  const showShareOptions = (shareUrl: string, shareText: string) => {
     // 创建遮罩层
     const overlay = document.createElement('div');
     overlay.style.cssText = `
@@ -163,80 +191,117 @@ export const NewsDetail = ({
       font-family: -apple-system, BlinkMacSystemFont, 'Helvetica Neue', sans-serif;
     `;
 
-    // 创建引导内容  
-    const guideContent = document.createElement('div');
-    guideContent.style.cssText = `
+    // 创建分享选项内容
+    const shareContent = document.createElement('div');
+    shareContent.style.cssText = `
       background: white;
-      border-radius: 12px;
+      border-radius: 16px;
       padding: 24px;
       margin: 20px;
-      max-width: 320px;
+      max-width: 350px;
       text-align: center;
       box-shadow: 0 8px 32px rgba(0, 0, 0, 0.3);
       position: relative;
     `;
 
-    // 创建箭头指向右上角的动画
-    const arrow = document.createElement('div');
-    arrow.style.cssText = `
-      position: absolute;
-      top: -40px;
-      right: 20px;
-      width: 0;
-      height: 0;
-      border-left: 20px solid transparent;
-      border-right: 20px solid transparent;
-      border-bottom: 40px solid #007AFF;
-      animation: bounce 1s infinite;
-    `;
+    shareContent.innerHTML = `
+      <h3 style="margin: 0 0 20px 0; color: #1D1D1F; font-size: 20px; font-weight: 600;">选择分享方式</h3>
 
-    // 添加CSS动画
-    const style = document.createElement('style');
-    style.textContent = `
-      @keyframes bounce {
-        0%, 20%, 50%, 80%, 100% { transform: translateY(0); }
-        40% { transform: translateY(-10px); }
-        60% { transform: translateY(-5px); }
-      }
-    `;
-    document.head.appendChild(style);
-
-    guideContent.innerHTML = `
-      <div style="color: #007AFF; font-size: 24px; margin-bottom: 16px;">📤</div>
-      <h3 style="margin: 0 0 16px 0; color: #333; font-size: 18px; font-weight: 600;">
-        分享到微信
-      </h3>
-      <p style="margin: 0 0 20px 0; color: #666; font-size: 14px; line-height: 1.5;">
-        请点击微信右上角的 <strong>"···"</strong> 菜单按钮<br>
-        选择 <strong>"分享给朋友"</strong> 或 <strong>"分享到朋友圈"</strong>
-      </p>
-      <div style="display: flex; gap: 12px; margin-top: 20px;">
-        <button id="wechat-copy-link" style="
-          flex: 1;
-          background: #f0f0f0;
-          border: none;
-          padding: 12px;
-          border-radius: 8px;
-          font-size: 14px;
-          color: #333;
-          cursor: pointer;
-        ">复制链接</button>
-        <button id="wechat-close-guide" style="
-          flex: 1;
-          background: #007AFF;
-          border: none;
-          padding: 12px;
-          border-radius: 8px;
-          font-size: 14px;
+      <div style="display: flex; flex-direction: column; gap: 12px;">
+        <button id="posterShareBtn" style="
+          background: linear-gradient(135deg, #007AFF 0%, #AF52DE 100%);
           color: white;
+          border: none;
+          border-radius: 12px;
+          padding: 16px;
+          font-size: 16px;
+          font-weight: 500;
           cursor: pointer;
-        ">知道了</button>
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          transition: transform 0.2s;
+        " onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+          <span style="font-size: 18px;">🎨</span>
+          生成海报分享 (推荐)
+        </button>
+
+        <button id="linkShareBtn" style="
+          background: #F2F2F7;
+          color: #1D1D1F;
+          border: 1px solid #E5E5EA;
+          border-radius: 12px;
+          padding: 16px;
+          font-size: 16px;
+          font-weight: 500;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          transition: all 0.2s;
+        " onmouseover="this.style.background='#E5E5EA'" onmouseout="this.style.background='#F2F2F7'">
+          <span style="font-size: 18px;">🔗</span>
+          复制链接分享
+        </button>
       </div>
+
+      <p style="margin: 16px 0 0 0; color: #8E8E93; font-size: 14px;">
+        海报分享不会被微信拦截，推荐使用
+      </p>
+
+      <button id="closeBtn" style="
+        position: absolute;
+        top: 12px;
+        right: 12px;
+        background: none;
+        border: none;
+        font-size: 24px;
+        color: #8E8E93;
+        cursor: pointer;
+        width: 32px;
+        height: 32px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border-radius: 50%;
+      " onmouseover="this.style.background='#F2F2F7'" onmouseout="this.style.background='none'">
+        ×
+      </button>
     `;
 
-    guideContent.appendChild(arrow);
-    overlay.appendChild(guideContent);
+    overlay.appendChild(shareContent);
     document.body.appendChild(overlay);
+
+    // 事件处理
+    const posterBtn = document.getElementById('posterShareBtn');
+    const linkBtn = document.getElementById('linkShareBtn');
+    const closeBtn = document.getElementById('closeBtn');
+
+    posterBtn?.addEventListener('click', async () => {
+      document.body.removeChild(overlay);
+      await handlePosterShare();
+    });
+
+    linkBtn?.addEventListener('click', async () => {
+      if (navigator.clipboard) {
+        await navigator.clipboard.writeText(shareUrl);
+        alert('链接已复制到剪贴板！');
+      }
+      document.body.removeChild(overlay);
+    });
+
+    closeBtn?.addEventListener('click', () => {
+      document.body.removeChild(overlay);
+    });
+
+    // 点击遮罩关闭
+    overlay.addEventListener('click', (e) => {
+      if (e.target === overlay) {
+        document.body.removeChild(overlay);
+      }
+    });
 
     // 绑定按钮事件
     const copyButton = guideContent.querySelector('#wechat-copy-link');
@@ -463,45 +528,36 @@ export const NewsDetail = ({
               <Separator />
               
               {/* Action Buttons */}
-              <div className="flex flex-col gap-3">
-                {/* 第一行：原文和传统分享 */}
-                <div className="flex flex-col sm:flex-row gap-3">
-                  <Button
-                    variant="default"
-                    size="lg"
-                    className="flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white flex-1"
-                    onClick={() => window.open(originalUrl, '_blank')}
-                  >
-                    <ExternalLink className="w-5 h-5" />
-                    <span className="font-medium">{isZh ? '阅读原文' : 'Read Original'}</span>
-                  </Button>
+              <div className="flex flex-col sm:flex-row gap-3">
+                <Button
+                  variant="default"
+                  size="lg"
+                  className="flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white flex-1"
+                  onClick={() => window.open(originalUrl, '_blank')}
+                >
+                  <ExternalLink className="w-5 h-5" />
+                  <span className="font-medium">{isZh ? '阅读原文' : 'Read Original'}</span>
+                </Button>
 
-                  <Button
-                    variant="outline"
-                    size="lg"
-                    className="flex items-center justify-center space-x-2 flex-1"
-                    onClick={handleShare}
-                  >
-                    <Share2 className="w-5 h-5" />
-                    <span className="font-medium">{isZh ? '分享链接' : 'Share Link'}</span>
-                  </Button>
-                </div>
-
-                {/* 第二行：海报分享 */}
-                <div className="flex justify-center">
-                  <PosterShareButton
-                    newsData={{
-                      id: `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
-                      title: displayTitle,
-                      summary: content.substring(0, 200) + (content.length > 200 ? '...' : ''),
-                      imageUrl: imageUrl,
-                      publishedAt: publishedAt,
-                      source: source,
-                      category: category
-                    }}
-                    className="w-full sm:w-auto"
-                  />
-                </div>
+                <Button
+                  variant="outline"
+                  size="lg"
+                  className="flex items-center justify-center space-x-2 flex-1"
+                  onClick={handleShare}
+                  disabled={isGeneratingPoster}
+                >
+                  {isGeneratingPoster ? (
+                    <>
+                      <ImageIcon className="w-5 h-5 animate-spin" />
+                      <span className="font-medium">{isZh ? '生成中...' : 'Generating...'}</span>
+                    </>
+                  ) : (
+                    <>
+                      <Share2 className="w-5 h-5" />
+                      <span className="font-medium">{isZh ? '分享文章' : 'Share Article'}</span>
+                    </>
+                  )}
+                </Button>
               </div>
               
               {/* Disclaimer Notice */}

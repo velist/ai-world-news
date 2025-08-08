@@ -31,9 +31,25 @@ export class PosterShareService {
     width: 750,
     height: 1334,
     backgroundColor: '#ffffff',
-    brandColor: '#2c3e50',
-    textColor: '#333333',
-    accentColor: '#3498db'
+    brandColor: '#007AFF', // 苹果蓝
+    textColor: '#1D1D1F', // 苹果深灰
+    accentColor: '#FF3B30'  // 苹果红
+  };
+
+  // 苹果风格配色方案
+  private appleColors = {
+    blue: '#007AFF',
+    green: '#34C759',
+    orange: '#FF9500',
+    red: '#FF3B30',
+    purple: '#AF52DE',
+    pink: '#FF2D92',
+    yellow: '#FFCC00',
+    teal: '#5AC8FA',
+    indigo: '#5856D6',
+    gray: '#8E8E93',
+    darkGray: '#1D1D1F',
+    lightGray: '#F2F2F7'
   };
 
   private constructor() {
@@ -63,31 +79,21 @@ export class PosterShareService {
     this.ctx.fillRect(0, 0, config.width, config.height);
 
     try {
-      // 1. 绘制背景渐变
+      // 按照新的布局结构绘制
+      // 1. 绘制背景
       await this.drawBackground();
 
-      // 2. 绘制品牌标识
+      // 2. 绘制顶部品牌区域（15%高度）
       await this.drawBrandHeader();
 
-      // 3. 绘制新闻图片
-      if (newsData.imageUrl) {
-        await this.drawNewsImage(newsData.imageUrl);
-      }
+      // 3. 绘制图片区域（45%高度）
+      await this.drawNewsImage(newsData.imageUrl);
 
-      // 4. 绘制标题
-      await this.drawTitle(newsData.title);
+      // 4. 绘制内容区域（25%高度）
+      await this.drawContentArea(newsData);
 
-      // 5. 绘制摘要
-      await this.drawSummary(newsData.summary);
-
-      // 6. 绘制元信息
-      await this.drawMetaInfo(newsData);
-
-      // 7. 生成并绘制二维码
-      await this.drawQRCode(newsData.id);
-
-      // 8. 绘制底部信息
-      await this.drawFooter();
+      // 5. 绘制底部区域（15%高度）
+      await this.drawBottomArea(newsData.id);
 
       // 返回base64图片
       return this.canvas.toDataURL('image/png', 0.9);
@@ -99,78 +105,122 @@ export class PosterShareService {
   }
 
   /**
-   * 绘制背景渐变
+   * 绘制背景
    */
   private async drawBackground(): Promise<void> {
+    // 使用苹果风格的渐变背景
     const gradient = this.ctx.createLinearGradient(0, 0, 0, this.canvas.height);
-    gradient.addColorStop(0, '#f8f9fa');
-    gradient.addColorStop(1, '#ffffff');
-    
+    gradient.addColorStop(0, this.appleColors.lightGray);
+    gradient.addColorStop(0.5, '#ffffff');
+    gradient.addColorStop(1, this.appleColors.lightGray);
+
     this.ctx.fillStyle = gradient;
     this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
   }
 
   /**
-   * 绘制品牌标识
+   * 绘制顶部品牌区域（15%高度）
    */
   private async drawBrandHeader(): Promise<void> {
-    const headerHeight = 120;
-    
-    // 绘制品牌背景
+    const headerHeight = this.canvas.height * 0.15; // 15%高度
+
+    // 绘制品牌背景 - 使用苹果风格渐变
     const gradient = this.ctx.createLinearGradient(0, 0, this.canvas.width, 0);
-    gradient.addColorStop(0, '#667eea');
-    gradient.addColorStop(1, '#764ba2');
-    
+    gradient.addColorStop(0, this.appleColors.blue);
+    gradient.addColorStop(0.5, this.appleColors.purple);
+    gradient.addColorStop(1, this.appleColors.pink);
+
     this.ctx.fillStyle = gradient;
     this.ctx.fillRect(0, 0, this.canvas.width, headerHeight);
 
+    // 绘制圆角效果
+    this.ctx.save();
+    this.ctx.globalCompositeOperation = 'destination-out';
+    this.ctx.fillStyle = '#000000';
+    // 左上角
+    this.ctx.beginPath();
+    this.ctx.arc(0, 0, 20, 0, Math.PI / 2);
+    this.ctx.fill();
+    // 右上角
+    this.ctx.beginPath();
+    this.ctx.arc(this.canvas.width, 0, 20, Math.PI / 2, Math.PI);
+    this.ctx.fill();
+    this.ctx.restore();
+
+    // LOGO占位符 - 圆形
+    const logoSize = 60;
+    const logoX = this.canvas.width / 2;
+    const logoY = headerHeight / 2;
+
+    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.3)';
+    this.ctx.beginPath();
+    this.ctx.arc(logoX, logoY, logoSize / 2, 0, 2 * Math.PI);
+    this.ctx.fill();
+
     // 绘制品牌文字
     this.ctx.fillStyle = '#ffffff';
-    this.ctx.font = 'bold 48px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+    this.ctx.font = 'bold 36px -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif';
     this.ctx.textAlign = 'center';
-    this.ctx.fillText('AI推', this.canvas.width / 2, 70);
+    this.ctx.fillText('AI推', logoX, logoY + 8);
 
     // 绘制副标题
-    this.ctx.font = '24px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-    this.ctx.fillText('实时AI新闻推送', this.canvas.width / 2, 100);
+    this.ctx.font = '16px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
+    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+    this.ctx.fillText('智能新闻推送', logoX, logoY + 45);
   }
 
   /**
-   * 绘制新闻图片
+   * 绘制图片区域（45%高度）
    */
-  private async drawNewsImage(imageUrl: string): Promise<void> {
+  private async drawNewsImage(imageUrl?: string): Promise<void> {
+    const headerHeight = this.canvas.height * 0.15;
+    const imageY = headerHeight;
+    const imageHeight = this.canvas.height * 0.45; // 45%高度
+    const imageWidth = this.canvas.width;
+    const imageX = 0;
+
     try {
-      const img = await this.loadImage(imageUrl);
-      const imageY = 140;
-      const imageHeight = 300;
-      const imageWidth = this.canvas.width - 60;
-      const imageX = 30;
+      if (imageUrl) {
+        const img = await this.loadImage(imageUrl);
 
-      // 绘制图片背景
-      this.ctx.fillStyle = '#f0f0f0';
-      this.ctx.fillRect(imageX, imageY, imageWidth, imageHeight);
+        // 绘制图片背景
+        this.ctx.fillStyle = this.appleColors.lightGray;
+        this.ctx.fillRect(imageX, imageY, imageWidth, imageHeight);
 
-      // 计算图片缩放比例
-      const scale = Math.min(imageWidth / img.width, imageHeight / img.height);
-      const scaledWidth = img.width * scale;
-      const scaledHeight = img.height * scale;
-      const offsetX = (imageWidth - scaledWidth) / 2;
-      const offsetY = (imageHeight - scaledHeight) / 2;
+        // 计算图片缩放比例（填充整个区域）
+        const scale = Math.max(imageWidth / img.width, imageHeight / img.height);
+        const scaledWidth = img.width * scale;
+        const scaledHeight = img.height * scale;
+        const offsetX = (imageWidth - scaledWidth) / 2;
+        const offsetY = (imageHeight - scaledHeight) / 2;
 
-      // 绘制图片
-      this.ctx.drawImage(
-        img,
-        imageX + offsetX,
-        imageY + offsetY,
-        scaledWidth,
-        scaledHeight
-      );
+        // 裁剪区域
+        this.ctx.save();
+        this.ctx.beginPath();
+        this.ctx.rect(imageX, imageY, imageWidth, imageHeight);
+        this.ctx.clip();
 
-      // 绘制图片边框
-      this.ctx.strokeStyle = '#e0e0e0';
-      this.ctx.lineWidth = 2;
-      this.ctx.strokeRect(imageX, imageY, imageWidth, imageHeight);
+        // 绘制图片
+        this.ctx.drawImage(
+          img,
+          imageX + offsetX,
+          imageY + offsetY,
+          scaledWidth,
+          scaledHeight
+        );
 
+        this.ctx.restore();
+
+        // 添加渐变遮罩增强可读性
+        const maskGradient = this.ctx.createLinearGradient(0, imageY + imageHeight - 100, 0, imageY + imageHeight);
+        maskGradient.addColorStop(0, 'rgba(0, 0, 0, 0)');
+        maskGradient.addColorStop(1, 'rgba(0, 0, 0, 0.3)');
+        this.ctx.fillStyle = maskGradient;
+        this.ctx.fillRect(imageX, imageY, imageWidth, imageHeight);
+
+      } else {
+        await this.drawImagePlaceholder();
+      }
     } catch (error) {
       console.warn('加载新闻图片失败，使用默认占位符');
       await this.drawImagePlaceholder();
@@ -181,165 +231,178 @@ export class PosterShareService {
    * 绘制图片占位符
    */
   private async drawImagePlaceholder(): Promise<void> {
-    const imageY = 140;
-    const imageHeight = 300;
-    const imageWidth = this.canvas.width - 60;
-    const imageX = 30;
+    const headerHeight = this.canvas.height * 0.15;
+    const imageY = headerHeight;
+    const imageHeight = this.canvas.height * 0.45;
+    const imageWidth = this.canvas.width;
+    const imageX = 0;
 
-    // 绘制占位符背景
-    this.ctx.fillStyle = '#f8f9fa';
+    // 绘制占位符背景 - 苹果风格渐变
+    const gradient = this.ctx.createLinearGradient(0, imageY, 0, imageY + imageHeight);
+    gradient.addColorStop(0, this.appleColors.teal);
+    gradient.addColorStop(1, this.appleColors.blue);
+    this.ctx.fillStyle = gradient;
     this.ctx.fillRect(imageX, imageY, imageWidth, imageHeight);
 
     // 绘制占位符图标
-    this.ctx.fillStyle = '#dee2e6';
-    this.ctx.font = '72px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.8)';
+    this.ctx.font = '80px -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif';
     this.ctx.textAlign = 'center';
     this.ctx.fillText('📰', this.canvas.width / 2, imageY + imageHeight / 2 + 20);
 
-    // 绘制边框
-    this.ctx.strokeStyle = '#e0e0e0';
-    this.ctx.lineWidth = 2;
-    this.ctx.strokeRect(imageX, imageY, imageWidth, imageHeight);
+    // 绘制占位符文字
+    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.9)';
+    this.ctx.font = '20px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
+    this.ctx.fillText('新闻图片', this.canvas.width / 2, imageY + imageHeight / 2 + 60);
   }
 
   /**
-   * 绘制标题
+   * 绘制内容区域（25%高度）
    */
-  private async drawTitle(title: string): Promise<void> {
-    const startY = 480;
-    const maxWidth = this.canvas.width - 60;
-    const lineHeight = 50;
+  private async drawContentArea(newsData: NewsData): Promise<void> {
+    const headerHeight = this.canvas.height * 0.15;
+    const imageHeight = this.canvas.height * 0.45;
+    const contentY = headerHeight + imageHeight;
+    const contentHeight = this.canvas.height * 0.25; // 25%高度
+    const padding = 30;
 
-    this.ctx.fillStyle = this.defaultConfig.brandColor;
-    this.ctx.font = 'bold 36px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
+    // 绘制内容背景
+    this.ctx.fillStyle = '#ffffff';
+    this.ctx.fillRect(0, contentY, this.canvas.width, contentHeight);
+
+    // 绘制标题
+    const titleY = contentY + 40;
+    this.ctx.fillStyle = this.appleColors.darkGray;
+    this.ctx.font = 'bold 28px -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif';
     this.ctx.textAlign = 'left';
 
-    // 自动换行
-    const lines = this.wrapText(title, maxWidth, 36);
-    lines.forEach((line, index) => {
-      this.ctx.fillText(line, 30, startY + index * lineHeight);
+    const maxWidth = this.canvas.width - padding * 2;
+    const titleLines = this.wrapText(newsData.title, maxWidth, 28);
+    const maxTitleLines = 3; // 最多3行标题
+
+    titleLines.slice(0, maxTitleLines).forEach((line, index) => {
+      this.ctx.fillText(line, padding, titleY + index * 35);
     });
-  }
 
-  /**
-   * 绘制摘要
-   */
-  private async drawSummary(summary: string): Promise<void> {
-    const startY = 620;
-    const maxWidth = this.canvas.width - 60;
-    const lineHeight = 40;
+    // 绘制摘要
+    const summaryY = titleY + Math.min(titleLines.length, maxTitleLines) * 35 + 20;
+    this.ctx.fillStyle = this.appleColors.gray;
+    this.ctx.font = '18px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
 
-    this.ctx.fillStyle = this.defaultConfig.textColor;
-    this.ctx.font = '28px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-    this.ctx.textAlign = 'left';
+    // 限制摘要长度
+    const truncatedSummary = newsData.summary.length > 100 ?
+      newsData.summary.substring(0, 100) + '...' : newsData.summary;
 
-    // 限制摘要长度并自动换行
-    const truncatedSummary = summary.length > 120 ? summary.substring(0, 120) + '...' : summary;
-    const lines = this.wrapText(truncatedSummary, maxWidth, 28);
-    
-    lines.slice(0, 4).forEach((line, index) => { // 最多4行
-      this.ctx.fillText(line, 30, startY + index * lineHeight);
+    const summaryLines = this.wrapText(truncatedSummary, maxWidth, 18);
+    const maxSummaryLines = 3; // 最多3行摘要
+
+    summaryLines.slice(0, maxSummaryLines).forEach((line, index) => {
+      this.ctx.fillText(line, padding, summaryY + index * 25);
     });
-  }
 
-  /**
-   * 绘制元信息
-   */
-  private async drawMetaInfo(newsData: NewsData): Promise<void> {
-    const startY = 800;
-    
-    this.ctx.fillStyle = '#666666';
-    this.ctx.font = '24px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-    this.ctx.textAlign = 'left';
+    // 绘制元信息
+    const metaY = contentY + contentHeight - 30;
+    this.ctx.fillStyle = this.appleColors.blue;
+    this.ctx.font = '14px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
 
     const publishDate = new Date(newsData.publishedAt).toLocaleDateString('zh-CN');
-    const metaText = `${newsData.source} | ${newsData.category} | ${publishDate}`;
-    
-    this.ctx.fillText(metaText, 30, startY);
+    const metaText = `${newsData.source} • ${newsData.category} • ${publishDate}`;
+    this.ctx.fillText(metaText, padding, metaY);
   }
 
   /**
-   * 生成并绘制二维码
+   * 绘制底部区域（15%高度）
    */
-  private async drawQRCode(newsId: string): Promise<void> {
-    const qrSize = 200;
-    const qrX = this.canvas.width - qrSize - 30;
-    const qrY = 850;
+  private async drawBottomArea(newsId: string): Promise<void> {
+    const bottomY = this.canvas.height * 0.85; // 从85%开始
+    const bottomHeight = this.canvas.height * 0.15; // 15%高度
+    const padding = 30;
 
-    // 生成新闻链接
-    const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
-    
-    try {
-      // 使用在线二维码生成服务
-      const qrCodeUrl = `https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}x${qrSize}&data=${encodeURIComponent(newsUrl)}&format=png&margin=10`;
-      const qrImg = await this.loadImage(qrCodeUrl);
-      
-      // 绘制二维码背景
-      this.ctx.fillStyle = '#ffffff';
-      this.ctx.fillRect(qrX - 10, qrY - 10, qrSize + 20, qrSize + 20);
-      
-      // 绘制二维码
-      this.ctx.drawImage(qrImg, qrX, qrY, qrSize, qrSize);
-      
-      // 绘制二维码边框
-      this.ctx.strokeStyle = '#e0e0e0';
-      this.ctx.lineWidth = 2;
-      this.ctx.strokeRect(qrX - 10, qrY - 10, qrSize + 20, qrSize + 20);
+    // 绘制底部背景
+    this.ctx.fillStyle = this.appleColors.lightGray;
+    this.ctx.fillRect(0, bottomY, this.canvas.width, bottomHeight);
 
-    } catch (error) {
-      console.warn('生成二维码失败，使用文字替代');
-      await this.drawQRCodePlaceholder(qrX, qrY, qrSize, newsUrl);
-    }
+    // 二维码区域
+    const qrSize = 80; // 减小二维码尺寸
+    const qrX = this.canvas.width - qrSize - padding;
+    const qrY = bottomY + (bottomHeight - qrSize) / 2;
 
-    // 绘制二维码说明
-    this.ctx.fillStyle = '#666666';
-    this.ctx.font = '20px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-    this.ctx.textAlign = 'center';
-    this.ctx.fillText('扫码阅读完整新闻', qrX + qrSize / 2, qrY + qrSize + 30);
+    // 绘制二维码占位符（不再异步加载）
+    this.drawQRCodePlaceholder(qrX, qrY, qrSize);
+
+    // 绘制提示文字
+    this.ctx.fillStyle = this.appleColors.darkGray;
+    this.ctx.font = 'bold 20px -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif';
+    this.ctx.textAlign = 'left';
+    this.ctx.fillText('扫码阅读完整新闻', padding, bottomY + 35);
+
+    this.ctx.font = '16px -apple-system, BlinkMacSystemFont, "SF Pro Text", sans-serif';
+    this.ctx.fillStyle = this.appleColors.blue;
+    this.ctx.fillText('news.aipush.fun', padding, bottomY + 60);
+
+    // 绘制装饰元素
+    this.ctx.fillStyle = this.appleColors.orange;
+    this.ctx.beginPath();
+    this.ctx.arc(padding + 200, bottomY + 45, 3, 0, 2 * Math.PI);
+    this.ctx.fill();
+
+    this.ctx.fillStyle = this.appleColors.green;
+    this.ctx.beginPath();
+    this.ctx.arc(padding + 220, bottomY + 35, 2, 0, 2 * Math.PI);
+    this.ctx.fill();
+
+    this.ctx.fillStyle = this.appleColors.pink;
+    this.ctx.beginPath();
+    this.ctx.arc(padding + 240, bottomY + 55, 2.5, 0, 2 * Math.PI);
+    this.ctx.fill();
   }
 
   /**
    * 绘制二维码占位符
    */
-  private async drawQRCodePlaceholder(x: number, y: number, size: number, url: string): Promise<void> {
-    // 绘制占位符背景
-    this.ctx.fillStyle = '#f8f9fa';
-    this.ctx.fillRect(x, y, size, size);
+  private drawQRCodePlaceholder(x: number, y: number, size: number): void {
+    // 绘制二维码背景
+    this.ctx.fillStyle = '#ffffff';
+    this.ctx.fillRect(x - 5, y - 5, size + 10, size + 10);
 
-    // 绘制占位符文字
-    this.ctx.fillStyle = '#666666';
-    this.ctx.font = '16px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-    this.ctx.textAlign = 'center';
-    this.ctx.fillText('二维码', x + size / 2, y + size / 2 - 10);
-    this.ctx.fillText('生成中...', x + size / 2, y + size / 2 + 10);
+    // 绘制二维码图案
+    this.ctx.fillStyle = this.appleColors.darkGray;
 
-    // 绘制边框
-    this.ctx.strokeStyle = '#e0e0e0';
-    this.ctx.lineWidth = 2;
-    this.ctx.strokeRect(x, y, size, size);
-  }
+    // 绘制简化的二维码图案
+    const cellSize = size / 10;
+    const pattern = [
+      [1,1,1,1,1,0,0,1,1,1],
+      [1,0,0,0,1,0,1,0,0,1],
+      [1,0,1,0,1,1,0,1,0,1],
+      [1,0,0,0,1,0,1,0,0,1],
+      [1,1,1,1,1,0,0,1,1,1],
+      [0,0,0,0,0,1,1,0,0,0],
+      [0,1,0,1,0,0,1,0,1,0],
+      [1,0,1,0,1,1,0,1,0,1],
+      [0,1,0,1,0,0,1,0,1,0],
+      [1,1,1,0,1,0,0,1,1,1]
+    ];
 
-  /**
-   * 绘制底部信息
-   */
-  private async drawFooter(): Promise<void> {
-    const footerY = this.canvas.height - 80;
-    
-    // 绘制分割线
-    this.ctx.strokeStyle = '#e0e0e0';
+    for (let row = 0; row < 10; row++) {
+      for (let col = 0; col < 10; col++) {
+        if (pattern[row][col]) {
+          this.ctx.fillRect(
+            x + col * cellSize,
+            y + row * cellSize,
+            cellSize,
+            cellSize
+          );
+        }
+      }
+    }
+
+    // 绘制圆角边框
+    this.ctx.strokeStyle = this.appleColors.gray;
     this.ctx.lineWidth = 1;
-    this.ctx.beginPath();
-    this.ctx.moveTo(30, footerY - 30);
-    this.ctx.lineTo(this.canvas.width - 30, footerY - 30);
-    this.ctx.stroke();
-
-    // 绘制底部文字
-    this.ctx.fillStyle = '#999999';
-    this.ctx.font = '20px -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif';
-    this.ctx.textAlign = 'center';
-    this.ctx.fillText('AI推 - 专业的AI新闻资讯平台', this.canvas.width / 2, footerY);
-    this.ctx.fillText('news.aipush.fun', this.canvas.width / 2, footerY + 25);
+    this.ctx.strokeRect(x - 5, y - 5, size + 10, size + 10);
   }
+
+
 
   /**
    * 文字自动换行
