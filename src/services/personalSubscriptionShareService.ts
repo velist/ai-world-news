@@ -37,33 +37,53 @@ export class PersonalSubscriptionShareService {
       return;
     }
 
-    console.log('🔧 个人订阅号分享配置开始');
+    console.log('🔧 个人订阅号分享配置开始', shareConfig);
 
-    // 1. 设置页面基础信息
-    this.setupPageMeta(shareConfig);
+    // 立即设置页面标题（最高优先级）
+    document.title = shareConfig.title;
 
-    // 2. 尝试基础JS-SDK配置（如果可用）
-    await this.tryBasicJSSDK(shareConfig);
+    // 1. 预验证分享图片
+    const validatedImageUrl = await this.validateAndOptimizeImage(shareConfig.imgUrl);
+    const optimizedConfig = { ...shareConfig, imgUrl: validatedImageUrl };
 
-    // 3. 设置结构化数据
-    this.setupStructuredData(shareConfig);
+    // 2. 创建微信分享代理URL（解决Hash路由问题）
+    const proxyUrl = this.createWeChatShareProxyUrl(optimizedConfig);
+    const proxyConfig = { ...optimizedConfig, link: proxyUrl };
 
-    console.log('✅ 个人订阅号分享配置完成');
+    // 3. 设置页面基础信息（同步执行，确保及时生效）
+    this.setupPageMeta(proxyConfig);
+
+    // 4. 设置结构化数据
+    this.setupStructuredData(proxyConfig);
+
+    // 5. 尝试基础JS-SDK配置（异步，不阻塞主流程）
+    this.tryBasicJSSDK(proxyConfig).catch(err =>
+      console.log('JS-SDK配置失败（预期行为）:', err)
+    );
+
+    // 6. 强制刷新页面缓存
+    this.forceRefreshCache();
+
+    console.log('✅ 个人订阅号分享配置完成', {
+      title: proxyConfig.title,
+      image: validatedImageUrl,
+      proxyUrl: proxyUrl,
+      metaCount: this.getMetaTagCount()
+    });
   }
 
   /**
    * 设置页面Meta标签
    */
   private setupPageMeta(shareConfig: ShareConfig): void {
-    // 清理并设置页面标题
-    document.title = shareConfig.title;
+    console.log('🏷️ 开始设置Meta标签:', shareConfig.title);
 
-    // 移除旧的meta标签
+    // 移除旧的meta标签（避免冲突）
     this.removeOldMetaTags();
 
-    // 确保图片URL正确且符合微信要求
-    const optimizedImageUrl = this.optimizeImageUrl(shareConfig.imgUrl);
-    
+    // 使用已优化的图片URL
+    const optimizedImageUrl = shareConfig.imgUrl;
+
     // 设置基础meta标签
     this.setMetaTag('name', 'description', shareConfig.desc);
     this.setMetaTag('name', 'keywords', this.generateKeywords(shareConfig.title));
@@ -74,10 +94,12 @@ export class PersonalSubscriptionShareService {
     this.setMetaTag('property', 'og:description', shareConfig.desc);
     this.setMetaTag('property', 'og:url', shareConfig.link);
     this.setMetaTag('property', 'og:site_name', 'AI推');
-    
-    // 图片标签 - 针对微信优化
+    this.setMetaTag('property', 'og:locale', 'zh_CN');
+
+    // 图片标签 - 针对微信优化（多个格式确保兼容性）
     this.setMetaTag('property', 'og:image', optimizedImageUrl);
     this.setMetaTag('property', 'og:image:secure_url', optimizedImageUrl);
+    this.setMetaTag('property', 'og:image:url', optimizedImageUrl);
     this.setMetaTag('property', 'og:image:width', '300');
     this.setMetaTag('property', 'og:image:height', '300');
     this.setMetaTag('property', 'og:image:type', 'image/png');
@@ -87,12 +109,17 @@ export class PersonalSubscriptionShareService {
     this.setMetaTag('name', 'wechat:title', shareConfig.title);
     this.setMetaTag('name', 'wechat:desc', shareConfig.desc);
     this.setMetaTag('name', 'wechat:image', optimizedImageUrl);
-    
-    // 微信分享的隐式标签
+
+    // 微信分享的隐式标签（多种格式）
     this.setMetaTag('name', 'wxcard:title', shareConfig.title);
     this.setMetaTag('name', 'wxcard:desc', shareConfig.desc);
     this.setMetaTag('name', 'wxcard:imgUrl', optimizedImageUrl);
     this.setMetaTag('name', 'wxcard:link', shareConfig.link);
+
+    // 微信内置浏览器专用标签
+    this.setMetaTag('name', 'weixin:title', shareConfig.title);
+    this.setMetaTag('name', 'weixin:desc', shareConfig.desc);
+    this.setMetaTag('name', 'weixin:imgUrl', optimizedImageUrl);
 
     // Schema.org 微数据
     this.setMetaTag('itemprop', 'name', shareConfig.title);
@@ -111,14 +138,10 @@ export class PersonalSubscriptionShareService {
     this.setMetaTag('name', 'format-detection', 'telephone=no');
     this.setMetaTag('name', 'x5-orientation', 'portrait');
     this.setMetaTag('name', 'x5-fullscreen', 'true');
-    
-    // 强制刷新页面缓存，帮助微信重新抓取
-    this.setMetaTag('http-equiv', 'Cache-Control', 'no-cache, no-store, must-revalidate');
-    this.setMetaTag('http-equiv', 'Pragma', 'no-cache');
-    this.setMetaTag('http-equiv', 'Expires', '0');
+    this.setMetaTag('name', 'mobile-web-app-capable', 'yes');
 
-    console.log('📋 Meta标签配置完成，优化图片URL:', optimizedImageUrl);
-    console.log('🔧 所有标签:', this.getAllMetaTags());
+    console.log('✅ Meta标签配置完成，图片URL:', optimizedImageUrl);
+    console.log('📊 Meta标签统计:', this.getMetaTagCount(), '个');
   }
 
   /**
@@ -287,7 +310,7 @@ export class PersonalSubscriptionShareService {
   private optimizeImageUrl(imgUrl: string): string {
     // 使用已部署的PNG分享图片（确保可访问性）
     const defaultShareImage = 'https://news.aipush.fun/wechat-share-300.png';
-    
+
     if (!imgUrl) {
       return defaultShareImage;
     }
@@ -296,26 +319,113 @@ export class PersonalSubscriptionShareService {
     if (imgUrl.startsWith('http://')) {
       imgUrl = imgUrl.replace('http://', 'https://');
     }
-    
+
     // 如果是相对路径，转换为绝对路径
     if (imgUrl.startsWith('/')) {
       imgUrl = `https://news.aipush.fun${imgUrl}`;
     }
-    
+
     // 移除时间戳参数，微信分享不支持带参数的图片
     imgUrl = imgUrl.split('?')[0];
-    
+
     // 对于新闻文章，统一使用默认分享图片（保持品牌一致性）
     if (imgUrl.includes('news.aipush.fun') || imgUrl.includes('placeholder') || imgUrl.includes('wechat-share') || imgUrl.includes('cat-share')) {
       return defaultShareImage;
     }
-    
+
     // 确保图片URL有效且为可访问格式
     if (!imgUrl.includes('http') || imgUrl.endsWith('.svg')) {
       return defaultShareImage;
     }
-    
+
     return imgUrl;
+  }
+
+  /**
+   * 验证并优化分享图片
+   */
+  private async validateAndOptimizeImage(imgUrl: string): Promise<string> {
+    const optimizedUrl = this.optimizeImageUrl(imgUrl);
+
+    try {
+      // 验证图片是否可访问
+      const response = await fetch(optimizedUrl, { method: 'HEAD', mode: 'no-cors' });
+      console.log('图片验证结果:', optimizedUrl, response.status);
+      return optimizedUrl;
+    } catch (error) {
+      console.warn('图片验证失败，使用默认图片:', error);
+      return 'https://news.aipush.fun/wechat-share-300.png';
+    }
+  }
+
+  /**
+   * 强制刷新页面缓存
+   */
+  private forceRefreshCache(): void {
+    // 添加缓存破坏参数到当前URL
+    const url = new URL(window.location.href);
+    url.searchParams.set('_wechat_refresh', Date.now().toString());
+
+    // 更新浏览器历史记录（不刷新页面）
+    window.history.replaceState({}, '', url.toString());
+
+    // 设置强制刷新的Meta标签
+    this.setMetaTag('http-equiv', 'Cache-Control', 'no-cache, no-store, must-revalidate, max-age=0');
+    this.setMetaTag('http-equiv', 'Pragma', 'no-cache');
+    this.setMetaTag('http-equiv', 'Expires', '0');
+  }
+
+  /**
+   * 获取Meta标签数量（用于调试）
+   */
+  private getMetaTagCount(): number {
+    return document.querySelectorAll('meta[property^="og:"], meta[name^="twitter:"], meta[name^="wechat:"], meta[name^="wxcard:"]').length;
+  }
+
+  /**
+   * 创建微信分享代理URL（解决Hash路由问题）
+   */
+  private createWeChatShareProxyUrl(shareConfig: ShareConfig): string {
+    // 从原始链接中提取新闻ID
+    const newsId = this.extractNewsIdFromUrl(shareConfig.link);
+
+    if (!newsId) {
+      console.warn('无法从链接中提取新闻ID，使用原始链接');
+      return shareConfig.link;
+    }
+
+    // 构建代理URL
+    const proxyUrl = new URL('/wechat-share-proxy.html', 'https://news.aipush.fun');
+    proxyUrl.searchParams.set('id', newsId);
+    proxyUrl.searchParams.set('title', shareConfig.title);
+    proxyUrl.searchParams.set('desc', shareConfig.desc);
+    proxyUrl.searchParams.set('image', shareConfig.imgUrl);
+    proxyUrl.searchParams.set('url', shareConfig.link);
+    proxyUrl.searchParams.set('t', Date.now().toString());
+
+    console.log('创建微信分享代理URL:', proxyUrl.toString());
+    return proxyUrl.toString();
+  }
+
+  /**
+   * 从URL中提取新闻ID
+   */
+  private extractNewsIdFromUrl(url: string): string | null {
+    const patterns = [
+      /#\/news\/([^\/\?&]+)/,     // #/news/news_123
+      /\/news\/([^\/\?&]+)/,      // /news/news_123
+      /newsId=([^&]+)/,           // ?newsId=news_123
+      /id=([^&]+)/                // ?id=news_123
+    ];
+
+    for (const pattern of patterns) {
+      const match = url.match(pattern);
+      if (match && match[1]) {
+        return match[1];
+      }
+    }
+
+    return null;
   }
 
   private generateKeywords(title: string): string {
@@ -325,7 +435,7 @@ export class PersonalSubscriptionShareService {
   }
 
   private generateNonceStr(): string {
-    return Math.random().toString(36).substr(2, 15);
+    return Math.random().toString(36).substring(2, 17);
   }
 
   /**
