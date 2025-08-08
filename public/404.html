@@ -41,10 +41,16 @@
       var l = window.location;
       console.log('404页面加载，当前URL:', l.href);
       console.log('是否微信环境:', isWeChatBrowser());
-      
+
       var path = l.pathname;
       var search = l.search;
       var hash = l.hash;
+
+      // 如果是静态资源文件，不进行重定向
+      if (path.match(/\.(js|css|png|jpg|jpeg|gif|svg|ico|json|xml|txt)$/)) {
+        console.log('静态资源文件，不重定向:', path);
+        return;
+      }
       
       // 检查是否为新闻详情页路径
       var newsId = extractNewsIdFromPath(path);

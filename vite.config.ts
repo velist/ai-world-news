@@ -13,12 +13,14 @@ export default defineConfig(({ mode }) => ({
   build: {
     rollupOptions: {
       output: {
-        // 添加时间戳到文件名，确保缓存更新
+        // 添加时间戳到文件名，确保缓存更新，使用正斜杠路径
         entryFileNames: `assets/[name]-[hash]-${Date.now()}.js`,
         chunkFileNames: `assets/[name]-[hash]-${Date.now()}.js`,
         assetFileNames: `assets/[name]-[hash]-${Date.now()}.[ext]`
       }
-    }
+    },
+    // 确保输出路径使用正斜杠
+    outDir: 'dist'
   },
   plugins: [
     react(),
