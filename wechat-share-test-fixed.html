@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>微信分享功能测试 - 修复版</title>
+    
+    <!-- 微信分享专用标签 -->
+    <meta name="wxcard:title" content="AI推 - 微信分享测试页面" />
+    <meta name="wxcard:desc" content="测试微信分享功能是否正常工作，包括标题、描述和缩略图显示。" />
+    <meta name="wxcard:imgUrl" content="https://news.aipush.fun/wechat-share-300.png?v=2025080802" />
+    <meta name="wxcard:link" content="https://news.aipush.fun/wechat-share-test-fixed.html" />
+    
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://news.aipush.fun/wechat-share-test-fixed.html" />
+    <meta property="og:title" content="AI推 - 微信分享测试页面" />
+    <meta property="og:description" content="测试微信分享功能是否正常工作，包括标题、描述和缩略图显示。" />
+    <meta property="og:image" content="https://news.aipush.fun/wechat-share-300.png?v=2025080802" />
+    <meta property="og:image:width" content="300" />
+    <meta property="og:image:height" content="300" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:site_name" content="AI推" />
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="AI推 - 微信分享测试页面" />
+    <meta name="twitter:description" content="测试微信分享功能是否正常工作，包括标题、描述和缩略图显示。" />
+    <meta name="twitter:image" content="https://news.aipush.fun/wechat-share-300.png?v=2025080802" />
+    
+    <!-- 基础Meta标签 -->
+    <meta name="description" content="测试微信分享功能是否正常工作，包括标题、描述和缩略图显示。" />
+    <meta name="keywords" content="AI推,微信分享,测试,AI新闻" />
+    
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            line-height: 1.6;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+        }
+        .container {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        .status {
+            padding: 15px;
+            margin: 10px 0;
+            border-radius: 8px;
+            border-left: 4px solid;
+        }
+        .success {
+            background: rgba(76, 175, 80, 0.2);
+            border-color: #4CAF50;
+        }
+        .warning {
+            background: rgba(255, 193, 7, 0.2);
+            border-color: #FFC107;
+        }
+        .info {
+            background: rgba(33, 150, 243, 0.2);
+            border-color: #2196F3;
+        }
+        .test-image {
+            max-width: 200px;
+            border-radius: 10px;
+            margin: 20px 0;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .meta-info {
+            background: rgba(255, 255, 255, 0.1);
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-family: monospace;
+            font-size: 14px;
+        }
+        .share-button {
+            background: #25D366;
+            color: white;
+            padding: 12px 24px;
+            border: none;
+            border-radius: 8px;
+            font-size: 16px;
+            cursor: pointer;
+            margin: 10px 5px;
+            transition: background 0.3s;
+        }
+        .share-button:hover {
+            background: #128C7E;
+        }
+        .timestamp {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>🔧 微信分享功能测试 - 修复版</h1>
+        <p class="timestamp">测试时间: <span id="timestamp"></span></p>
+        
+        <div class="status info">
+            <strong>📋 测试目标:</strong><br>
+            验证微信分享功能修复后的效果，确保标题、描述和缩略图正确显示。
+        </div>
+        
+        <h2>🖼️ 分享图片测试</h2>
+        <div class="status success">
+            <strong>✅ 新分享图片:</strong> wechat-share-300.png (300x300px PNG格式)
+        </div>
+        <img src="/wechat-share-300.png?v=2025080802" alt="微信分享图片" class="test-image" />
+        
+        <h2>📱 环境检测</h2>
+        <div id="env-info"></div>
+        
+        <h2>🏷️ Meta标签检查</h2>
+        <div id="meta-tags"></div>
+        
+        <h2>🔗 分享测试</h2>
+        <div class="status info">
+            <strong>📝 测试步骤:</strong><br>
+            1. 在微信中打开此页面<br>
+            2. 点击右上角分享按钮<br>
+            3. 选择"发送给朋友"或"分享到朋友圈"<br>
+            4. 检查分享卡片是否显示正确的标题、描述和图片
+        </div>
+        
+        <button class="share-button" onclick="testShare()">📤 测试原生分享</button>
+        <button class="share-button" onclick="copyLink()">📋 复制链接</button>
+        
+        <h2>🔍 修复内容</h2>
+        <div class="meta-info">
+            <strong>修复项目:</strong><br>
+            ✅ 创建了 wechat-share-300.png 分享图片<br>
+            ✅ 更新了所有 Meta 标签引用<br>
+            ✅ 优化了图片URL处理逻辑<br>
+            ✅ 增强了微信分享服务<br>
+            ✅ 添加了版本号防止缓存<br>
+        </div>
+        
+        <div class="status warning">
+            <strong>⚠️ 注意事项:</strong><br>
+            • 微信可能需要一些时间来更新缓存<br>
+            • 如果仍显示旧图片，请等待几分钟后重试<br>
+            • 确保在真实微信环境中测试
+        </div>
+    </div>
+
+    <script>
+        // 显示时间戳
+        document.getElementById('timestamp').textContent = new Date().toLocaleString('zh-CN');
+        
+        // 环境检测
+        function detectEnvironment() {
+            const envInfo = document.getElementById('env-info');
+            const isWeChat = /micromessenger/i.test(navigator.userAgent);
+            const isHttps = location.protocol === 'https:';
+            const currentUrl = window.location.href;
+            
+            envInfo.innerHTML = `
+                <div class="status ${isWeChat ? 'success' : 'warning'}">
+                    微信环境: ${isWeChat ? '✅ 是 (微信内置浏览器)' : '❌ 否 (请在微信中打开)'}
+                </div>
+                <div class="status ${isHttps ? 'success' : 'warning'}">
+                    HTTPS协议: ${isHttps ? '✅ 是' : '❌ 否'}
+                </div>
+                <div class="meta-info">
+                    当前URL: ${currentUrl}
+                </div>
+            `;
+        }
+        
+        // Meta标签检查
+        function checkMetaTags() {
+            const metaInfo = document.getElementById('meta-tags');
+            const tags = [
+                { name: 'og:title', selector: 'meta[property="og:title"]' },
+                { name: 'og:description', selector: 'meta[property="og:description"]' },
+                { name: 'og:image', selector: 'meta[property="og:image"]' },
+                { name: 'wxcard:title', selector: 'meta[name="wxcard:title"]' },
+                { name: 'wxcard:imgUrl', selector: 'meta[name="wxcard:imgUrl"]' }
+            ];
+            
+            let html = '';
+            tags.forEach(tag => {
+                const element = document.querySelector(tag.selector);
+                const content = element ? element.getAttribute('content') : '未设置';
+                const status = element ? 'success' : 'warning';
+                html += `<div class="status ${status}">
+                    <strong>${tag.name}:</strong> ${content}
+                </div>`;
+            });
+            
+            metaInfo.innerHTML = html;
+        }
+        
+        // 测试分享
+        function testShare() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'AI推 - 微信分享测试页面',
+                    text: '测试微信分享功能是否正常工作，包括标题、描述和缩略图显示。',
+                    url: window.location.href
+                }).catch(console.error);
+            } else {
+                alert('当前浏览器不支持原生分享API');
+            }
+        }
+        
+        // 复制链接
+        function copyLink() {
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(window.location.href).then(() => {
+                    alert('链接已复制到剪贴板！');
+                });
+            } else {
+                alert('当前浏览器不支持剪贴板API');
+            }
+        }
+        
+        // 初始化
+        detectEnvironment();
+        checkMetaTags();
+    </script>
+</body>
+</html>
