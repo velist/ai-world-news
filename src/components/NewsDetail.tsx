@@ -5,6 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
+import { PosterShareButton } from "@/components/PosterShareButton";
 
 interface NewsDetailProps {
   title: string;
@@ -462,26 +463,45 @@ export const NewsDetail = ({
               <Separator />
               
               {/* Action Buttons */}
-              <div className="flex flex-col sm:flex-row gap-3">
-                <Button
-                  variant="default"
-                  size="lg"
-                  className="flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white flex-1"
-                  onClick={() => window.open(originalUrl, '_blank')}
-                >
-                  <ExternalLink className="w-5 h-5" />
-                  <span className="font-medium">{isZh ? '阅读原文' : 'Read Original'}</span>
-                </Button>
-                
-                <Button
-                  variant="outline"
-                  size="lg"
-                  className="flex items-center justify-center space-x-2 flex-1"
-                  onClick={handleShare}
-                >
-                  <Share2 className="w-5 h-5" />
-                  <span className="font-medium">{isZh ? '分享文章' : 'Share Article'}</span>
-                </Button>
+              <div className="flex flex-col gap-3">
+                {/* 第一行：原文和传统分享 */}
+                <div className="flex flex-col sm:flex-row gap-3">
+                  <Button
+                    variant="default"
+                    size="lg"
+                    className="flex items-center justify-center space-x-2 bg-blue-600 hover:bg-blue-700 text-white flex-1"
+                    onClick={() => window.open(originalUrl, '_blank')}
+                  >
+                    <ExternalLink className="w-5 h-5" />
+                    <span className="font-medium">{isZh ? '阅读原文' : 'Read Original'}</span>
+                  </Button>
+
+                  <Button
+                    variant="outline"
+                    size="lg"
+                    className="flex items-center justify-center space-x-2 flex-1"
+                    onClick={handleShare}
+                  >
+                    <Share2 className="w-5 h-5" />
+                    <span className="font-medium">{isZh ? '分享链接' : 'Share Link'}</span>
+                  </Button>
+                </div>
+
+                {/* 第二行：海报分享 */}
+                <div className="flex justify-center">
+                  <PosterShareButton
+                    newsData={{
+                      id: `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+                      title: displayTitle,
+                      summary: content.substring(0, 200) + (content.length > 200 ? '...' : ''),
+                      imageUrl: imageUrl,
+                      publishedAt: publishedAt,
+                      source: source,
+                      category: category
+                    }}
+                    className="w-full sm:w-auto"
+                  />
+                </div>
               </div>
               
               {/* Disclaimer Notice */}
