@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- 页面标题 -->
+    <title>微信分享测试 - AI推人工智能资讯</title>
+    
+    <!-- 基础Meta标签 -->
+    <meta name="description" content="AI推微信分享功能测试页面，验证人工智能新闻网站的社交分享配置，检查标题、描述和图片是否正常显示">
+    <meta name="keywords" content="AI推,人工智能,微信分享,测试,新闻资讯">
+    
+    <!-- Open Graph标签 (Facebook/微信通用) -->
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="AI推">
+    <meta property="og:title" content="微信分享测试 - AI推人工智能资讯">
+    <meta property="og:description" content="AI推微信分享功能测试页面，验证人工智能新闻网站的社交分享配置，检查标题、描述和图片是否正常显示">
+    <meta property="og:url" content="https://news.aipush.fun/wechat-test-optimized.html">
+    <meta property="og:image" content="https://news.aipush.fun/wechat-share-300.png">
+    <meta property="og:image:secure_url" content="https://news.aipush.fun/wechat-share-300.png">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:image:alt" content="AI推 - 人工智能新闻资讯平台">
+    <meta property="og:locale" content="zh_CN">
+    
+    <!-- 微信专用标签 -->
+    <meta name="wechat:title" content="微信分享测试 - AI推人工智能资讯">
+    <meta name="wechat:desc" content="AI推微信分享功能测试页面，验证人工智能新闻网站的社交分享配置">
+    <meta name="wechat:image" content="https://news.aipush.fun/wechat-share-300.png">
+    
+    <!-- 微信分享卡片标签 -->
+    <meta name="wxcard:title" content="微信分享测试 - AI推">
+    <meta name="wxcard:desc" content="AI推人工智能新闻资讯平台分享功能测试">
+    <meta name="wxcard:imgUrl" content="https://news.aipush.fun/wechat-share-300.png">
+    <meta name="wxcard:link" content="https://news.aipush.fun/wechat-test-optimized.html">
+    
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@aipush_news">
+    <meta name="twitter:title" content="微信分享测试 - AI推人工智能资讯">
+    <meta name="twitter:description" content="AI推微信分享功能测试页面，验证社交分享配置">
+    <meta name="twitter:image" content="https://news.aipush.fun/wechat-share-300.png">
+    <meta name="twitter:image:alt" content="AI推 - 人工智能新闻资讯">
+    
+    <!-- Schema.org 微数据 -->
+    <meta itemprop="name" content="微信分享测试 - AI推人工智能资讯">
+    <meta itemprop="description" content="AI推微信分享功能测试页面，验证社交分享配置">
+    <meta itemprop="image" content="https://news.aipush.fun/wechat-share-300.png">
+    <meta itemprop="url" content="https://news.aipush.fun/wechat-test-optimized.html">
+    
+    <!-- 微信浏览器特殊配置 -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true">
+    
+    <!-- 强制刷新缓存 -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <!-- 预加载分享图片 -->
+    <link rel="preload" as="image" href="https://news.aipush.fun/wechat-share-300.png">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'PingFang SC', 'Hiragino Sans GB', 'Microsoft YaHei', sans-serif;
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 16px;
+            line-height: 1.6;
+            color: #333;
+            background: #f5f5f5;
+        }
+        
+        .header {
+            text-align: center;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 40px 20px;
+            border-radius: 12px;
+            margin-bottom: 24px;
+            box-shadow: 0 8px 24px rgba(102, 126, 234, 0.3);
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 8px;
+            font-weight: 700;
+        }
+        
+        .header p {
+            font-size: 16px;
+            opacity: 0.9;
+            margin-bottom: 4px;
+        }
+        
+        .info {
+            background: white;
+            padding: 24px;
+            border-radius: 12px;
+            margin: 20px 0;
+            box-shadow: 0 2px 12px rgba(0,0,0,0.1);
+        }
+        
+        .status {
+            padding: 12px 16px;
+            border-radius: 8px;
+            margin: 12px 0;
+            font-weight: 500;
+            border-left: 4px solid;
+        }
+        
+        .success { 
+            background: #f0f9f0; 
+            color: #2e7d2e; 
+            border-left-color: #4caf50;
+        }
+        
+        .info-box { 
+            background: #f0f8ff; 
+            color: #1565c0; 
+            border-left-color: #2196f3;
+        }
+        
+        .warning {
+            background: #fff8e1;
+            color: #f57c00;
+            border-left-color: #ff9800;
+        }
+        
+        .share-preview {
+            background: #f8f9fa;
+            border: 2px solid #e9ecef;
+            border-radius: 12px;
+            padding: 20px;
+            margin: 20px 0;
+        }
+        
+        .share-image {
+            width: 80px;
+            height: 80px;
+            border-radius: 8px;
+            border: 1px solid #ddd;
+            float: left;
+            margin-right: 16px;
+        }
+        
+        .share-content h3 {
+            font-size: 18px;
+            color: #333;
+            margin-bottom: 8px;
+            font-weight: 600;
+        }
+        
+        .share-content p {
+            font-size: 14px;
+            color: #666;
+            line-height: 1.4;
+            margin-bottom: 4px;
+        }
+        
+        .test-steps {
+            counter-reset: step-counter;
+        }
+        
+        .test-steps li {
+            counter-increment: step-counter;
+            margin: 12px 0;
+            padding-left: 40px;
+            position: relative;
+        }
+        
+        .test-steps li:before {
+            content: counter(step-counter);
+            position: absolute;
+            left: 0;
+            top: 0;
+            background: #667eea;
+            color: white;
+            width: 24px;
+            height: 24px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        
+        .clearfix:after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+        
+        .timestamp {
+            color: #999;
+            font-size: 12px;
+        }
+    </style>
+</head>
+<body>
+    <div class="header">
+        <h1>🧪 微信分享测试页面</h1>
+        <p>AI推 - 人工智能新闻资讯平台</p>
+        <p class="timestamp">优化版本 - <span id="timestamp"></span></p>
+    </div>
+
+    <div class="info">
+        <h2>📋 页面状态检查</h2>
+        <div class="status success">
+            ✅ 页面成功加载 - 优化版本 2025年1月8日
+        </div>
+        <div class="status info-box">
+            ℹ️ 包含完整的微信分享Meta标签配置
+        </div>
+        <div class="status info-box">
+            🖼️ 分享图片: wechat-share-300.png (300x300)
+        </div>
+    </div>
+
+    <div class="info">
+        <h2>🎯 预期分享效果</h2>
+        <div class="share-preview clearfix">
+            <img src="https://news.aipush.fun/wechat-share-300.png" alt="分享图片预览" class="share-image">
+            <div class="share-content">
+                <h3>微信分享测试 - AI推人工智能资讯</h3>
+                <p>AI推微信分享功能测试页面，验证人工智能新闻网站的社交分享配置，检查标题、描述和图片是否正常显示</p>
+                <p class="timestamp">news.aipush.fun</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="info">
+        <h2>🔧 分享测试步骤</h2>
+        <ol class="test-steps">
+            <li><strong>确认微信环境</strong>：在微信内置浏览器中打开此页面</li>
+            <li><strong>触发分享</strong>：点击右上角"..."菜单按钮</li>
+            <li><strong>选择分享</strong>：选择"分享给朋友"或"分享到朋友圈"</li>
+            <li><strong>检查预览</strong>：验证是否显示完整的标题、描述和图片</li>
+            <li><strong>完成分享</strong>：发送给朋友或发布到朋友圈</li>
+        </ol>
+    </div>
+
+    <div class="info">
+        <h2>📱 当前环境信息</h2>
+        <div id="env-info">正在检测...</div>
+    </div>
+
+    <div class="info">
+        <h2>🔍 Meta标签验证</h2>
+        <div id="meta-info">正在检查Meta标签...</div>
+    </div>
+
+    <script>
+        // 显示时间戳
+        document.getElementById('timestamp').textContent = new Date().toLocaleString('zh-CN');
+        
+        // 环境检测
+        function detectEnvironment() {
+            const envInfo = document.getElementById('env-info');
+            const isWeChat = /micromessenger/i.test(navigator.userAgent);
+            const isHttps = location.protocol === 'https:';
+            const currentUrl = window.location.href;
+            
+            envInfo.innerHTML = `
+                <div class="status ${isWeChat ? 'success' : 'warning'}">
+                    微信环境: ${isWeChat ? '✅ 是 (微信内置浏览器)' : '❌ 否 (请在微信中打开)'}
+                </div>
+                <div class="status ${isHttps ? 'success' : 'warning'}">
+                    HTTPS协议: ${isHttps ? '✅ 是' : '❌ 否'}
+                </div>
+                <div class="status info-box">
+                    当前URL: ${currentUrl}
+                </div>
+                <div class="status info-box">
+                    用户代理: ${navigator.userAgent.substring(0, 80)}...
+                </div>
+            `;
+        }
+
+        // Meta标签检查
+        function checkMetaTags() {
+            const metaInfo = document.getElementById('meta-info');
+            const requiredTags = [
+                'og:title',
+                'og:description', 
+                'og:image',
+                'og:url',
+                'wechat:title',
+                'wechat:desc',
+                'wechat:image'
+            ];
+            
+            let metaStatus = '';
+            requiredTags.forEach(tag => {
+                const meta = document.querySelector(`meta[property="${tag}"], meta[name="${tag}"]`);
+                const hasTag = !!meta;
+                const content = meta ? meta.getAttribute('content') : '';
+                
+                metaStatus += `
+                    <div class="status ${hasTag ? 'success' : 'warning'}">
+                        ${hasTag ? '✅' : '❌'} ${tag}: ${hasTag ? '已配置' : '未找到'}
+                        ${content ? `<br><small style="margin-left: 20px; color: #666;">${content}</small>` : ''}
+                    </div>
+                `;
+            });
+            
+            metaInfo.innerHTML = metaStatus;
+        }
+
+        // 页面加载完成后执行检测
+        window.onload = function() {
+            detectEnvironment();
+            checkMetaTags();
+        };
+
+        // 图片加载检查
+        const shareImage = document.querySelector('.share-image');
+        if (shareImage) {
+            shareImage.onload = function() {
+                console.log('✅ 分享图片加载成功');
+            };
+            shareImage.onerror = function() {
+                console.log('❌ 分享图片加载失败');
+                this.style.background = '#f0f0f0';
+                this.alt = '图片加载失败';
+            };
+        }
+    </script>
+
+    <!-- Schema.org 结构化数据 -->
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "WebPage",
+        "name": "微信分享测试 - AI推人工智能资讯",
+        "description": "AI推微信分享功能测试页面，验证人工智能新闻网站的社交分享配置",
+        "url": "https://news.aipush.fun/wechat-test-optimized.html",
+        "image": "https://news.aipush.fun/wechat-share-300.png",
+        "publisher": {
+            "@type": "Organization",
+            "name": "AI推",
+            "url": "https://news.aipush.fun",
+            "logo": {
+                "@type": "ImageObject",
+                "url": "https://news.aipush.fun/wechat-share-300.png"
+            }
+        },
+        "mainEntity": {
+            "@type": "SoftwareApplication",
+            "name": "微信分享测试",
+            "description": "测试微信分享功能的专用页面",
+            "applicationCategory": "WebApplication"
+        }
+    }
+    </script>
+</body>
+</html>
