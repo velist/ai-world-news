@@ -1,0 +1,431 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>头条样式海报生成测试</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: #f5f5f5;
+        }
+        .test-container {
+            background: white;
+            padding: 30px;
+            border-radius: 12px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .preview-area {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+        .form-section {
+            flex: 1;
+            min-width: 300px;
+        }
+        .preview-section {
+            flex: 1;
+            text-align: center;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+            margin-bottom: 15px;
+            font-size: 14px;
+        }
+        textarea {
+            height: 100px;
+            resize: vertical;
+        }
+        button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 24px;
+            border-radius: 6px;
+            cursor: pointer;
+            font-size: 16px;
+            width: 100%;
+        }
+        button:hover {
+            background: #0056b3;
+        }
+        button:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+        }
+        .poster-preview {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .status {
+            padding: 10px;
+            border-radius: 6px;
+            margin: 10px 0;
+        }
+        .success {
+            background: #d4edda;
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .error {
+            background: #f8d7da;
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .loading {
+            background: #d1ecf1;
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .form-group {
+            margin-bottom: 20px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: 600;
+            color: #555;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎯 头条样式海报生成器</h1>
+    
+    <div class="test-container">
+        <div class="preview-area">
+            <div class="form-section">
+                <div class="form-group">
+                    <label>新闻标题</label>
+                    <textarea id="titleInput" placeholder="输入新闻标题...">OpenAI正式发布GPT-5：性能大幅提升，多模态能力全面增强，定价策略引发行业关注</textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>新闻摘要</label>
+                    <textarea id="summaryInput" placeholder="输入新闻摘要...">OpenAI今日正式发布了备受期待的GPT-5模型，相比GPT-4在语言理解、推理能力和多模态处理方面都有显著提升。新模型支持更长的上下文长度，推理速度提升30%，在数学、科学和编程任务上表现尤为突出。</textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>发布时间</label>
+                    <input type="datetime-local" id="dateInput" />
+                </div>
+                
+                <div class="form-group">
+                    <label>新闻来源</label>
+                    <input type="text" id="sourceInput" value="AI推-专注AI科技新闻" placeholder="输入新闻来源..." />
+                </div>
+                
+                <button onclick="generatePoster()" id="generateBtn">🚀 生成头条样式海报</button>
+                
+                <div id="status"></div>
+            </div>
+            
+            <div class="preview-section">
+                <h3>海报预览</h3>
+                <div id="posterPreview">
+                    <p style="color: #999; padding: 40px;">点击生成按钮查看海报效果</p>
+                </div>
+                <button onclick="downloadPoster()" id="downloadBtn" style="margin-top: 15px; display: none;">📥 下载海报</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 设置默认时间为当前时间
+        document.getElementById('dateInput').value = new Date().toISOString().slice(0, 16);
+        
+        let currentPosterData = null;
+
+        // 头条风格海报生成服务
+        class SimplePosterService {
+            constructor() {
+                this.canvas = document.createElement('canvas');
+                this.ctx = this.canvas.getContext('2d');
+                
+                this.templateConfig = {
+                    width: 750,
+                    height: 1334,
+                    backgroundColor: '#f5f5f5',
+                    textColor: '#333333',
+                    dateColor: '#666666',
+                    authorColor: '#666666',
+                    padding: 40,
+                    qrSize: 100
+                };
+            }
+
+            async generateSimplePoster(newsData) {
+                const config = this.templateConfig;
+                
+                this.canvas.width = config.width;
+                this.canvas.height = config.height;
+                
+                this.ctx.imageSmoothingEnabled = true;
+                this.ctx.imageSmoothingQuality = 'high';
+                
+                try {
+                    this.drawBackground();
+                    this.drawDate(newsData.publishedAt);
+                    this.drawTitle(newsData.title);
+                    this.drawAuthor(newsData.source);
+                    await this.drawQRCodeArea(newsData.id);
+                    this.drawBrandLogo();
+                    
+                    return this.canvas.toDataURL('image/png', 1.0);
+                } catch (error) {
+                    throw new Error('海报生成失败');
+                }
+            }
+
+            drawBackground() {
+                const { width, height, backgroundColor } = this.templateConfig;
+                this.ctx.fillStyle = backgroundColor;
+                this.ctx.fillRect(0, 0, width, height);
+            }
+
+            drawDate(publishedAt) {
+                const { padding, dateColor } = this.templateConfig;
+                
+                let dateStr = '08/10';
+                if (publishedAt) {
+                    const date = new Date(publishedAt);
+                    const month = String(date.getMonth() + 1).padStart(2, '0');
+                    const day = String(date.getDate()).padStart(2, '0');
+                    dateStr = `${month}/${day}`;
+                }
+                
+                this.ctx.fillStyle = dateColor;
+                this.ctx.font = 'bold 80px -apple-system, BlinkMacSystemFont, "SF Pro Display", sans-serif';
+                this.ctx.textAlign = 'left';
+                
+                this.ctx.fillText(dateStr.split('/')[0], padding, padding + 80);
+                
+                this.ctx.fillStyle = '#333333';
+                this.ctx.fillRect(padding, padding + 100, 80, 4);
+                
+                this.ctx.fillStyle = dateColor;
+                this.ctx.fillText(dateStr.split('/')[1], padding, padding + 160);
+            }
+
+            drawTitle(title) {
+                const { width, padding, textColor } = this.templateConfig;
+                
+                this.ctx.fillStyle = textColor;
+                this.ctx.font = 'bold 48px "Microsoft YaHei", "PingFang SC", sans-serif';
+                this.ctx.textAlign = 'left';
+                
+                const maxWidth = width - padding * 2;
+                const lines = this.wrapText(title, maxWidth);
+                
+                const startY = 350;
+                lines.slice(0, 4).forEach((line, index) => {
+                    this.ctx.fillText(line, padding, startY + index * 65);
+                });
+            }
+
+            drawAuthor(source) {
+                const { padding, authorColor } = this.templateConfig;
+                const authorY = 680;
+                
+                this.ctx.fillStyle = authorColor;
+                this.ctx.font = '28px "Microsoft YaHei", sans-serif';
+                this.ctx.textAlign = 'left';
+                
+                const authorName = source || 'AI推-专注AI科技新闻';
+                this.ctx.fillText(authorName, padding, authorY);
+            }
+
+            async drawQRCodeArea(newsId) {
+                const { width, padding, qrSize } = this.templateConfig;
+                
+                const qrY = 950;
+                const qrX = padding;
+                
+                const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
+                
+                const qrApis = [
+                    `https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}x${qrSize}&data=${encodeURIComponent(newsUrl)}&format=png&margin=1&ecc=H&color=000000&bgcolor=ffffff`,
+                    `https://quickchart.io/qr?text=${encodeURIComponent(newsUrl)}&size=${qrSize}&format=png&ecLevel=H&margin=1&dark=000000&light=ffffff`
+                ];
+                
+                let qrGenerated = false;
+                
+                for (const apiUrl of qrApis) {
+                    try {
+                        const img = await this.loadImageWithTimeout(apiUrl, 5000);
+                        this.ctx.drawImage(img, qrX, qrY, qrSize, qrSize);
+                        qrGenerated = true;
+                        break;
+                    } catch (error) {
+                        continue;
+                    }
+                }
+                
+                if (!qrGenerated) {
+                    this.drawQRPlaceholder(qrX, qrY, qrSize);
+                }
+                
+                this.ctx.fillStyle = '#666666';
+                this.ctx.font = '24px "Microsoft YaHei", sans-serif';
+                this.ctx.textAlign = 'left';
+                
+                const textX = qrX + qrSize + 20;
+                this.ctx.fillText('长按识别二维码', textX, qrY + 35);
+                this.ctx.fillText('阅读文章', textX, qrY + 70);
+            }
+
+            drawQRPlaceholder(x, y, size) {
+                this.ctx.fillStyle = '#ffffff';
+                this.ctx.fillRect(x, y, size, size);
+                
+                this.ctx.strokeStyle = '#000000';
+                this.ctx.lineWidth = 2;
+                this.ctx.strokeRect(x, y, size, size);
+                
+                this.ctx.fillStyle = '#000000';
+                const cellSize = size / 21;
+                
+                this.drawFinderPattern(x + cellSize, y + cellSize, cellSize * 7);
+                this.drawFinderPattern(x + cellSize * 13, y + cellSize, cellSize * 7);
+                this.drawFinderPattern(x + cellSize, y + cellSize * 13, cellSize * 7);
+            }
+
+            drawFinderPattern(x, y, size) {
+                const cellSize = size / 7;
+                
+                this.ctx.fillRect(x, y, size, size);
+                
+                this.ctx.fillStyle = '#ffffff';
+                this.ctx.fillRect(x + cellSize, y + cellSize, cellSize * 5, cellSize * 5);
+                
+                this.ctx.fillStyle = '#000000';
+                this.ctx.fillRect(x + cellSize * 2, y + cellSize * 2, cellSize * 3, cellSize * 3);
+            }
+
+            drawBrandLogo() {
+                const { width, height } = this.templateConfig;
+                
+                this.ctx.fillStyle = '#ff4757';
+                this.ctx.fillRect(width - 120, height - 80, 80, 40);
+                
+                this.ctx.fillStyle = '#ffffff';
+                this.ctx.font = 'bold 18px "Microsoft YaHei", sans-serif';
+                this.ctx.textAlign = 'center';
+                this.ctx.fillText('头条', width - 80, height - 55);
+            }
+
+            wrapText(text, maxWidth) {
+                const characters = text.split('');
+                const lines = [];
+                let currentLine = '';
+
+                for (const char of characters) {
+                    const testLine = currentLine + char;
+                    const metrics = this.ctx.measureText(testLine);
+                    
+                    if (metrics.width > maxWidth && currentLine !== '') {
+                        lines.push(currentLine);
+                        currentLine = char;
+                    } else {
+                        currentLine = testLine;
+                    }
+                }
+                
+                if (currentLine) {
+                    lines.push(currentLine);
+                }
+                
+                return lines;
+            }
+
+            loadImageWithTimeout(src, timeout = 5000) {
+                return new Promise((resolve, reject) => {
+                    const img = new Image();
+                    img.crossOrigin = 'anonymous';
+                    
+                    const timer = setTimeout(() => {
+                        reject(new Error('图片加载超时'));
+                    }, timeout);
+                    
+                    img.onload = () => {
+                        clearTimeout(timer);
+                        resolve(img);
+                    };
+                    
+                    img.onerror = () => {
+                        clearTimeout(timer);
+                        reject(new Error('图片加载失败'));
+                    };
+                    
+                    img.src = src;
+                });
+            }
+        }
+
+        const posterService = new SimplePosterService();
+
+        async function generatePoster() {
+            const generateBtn = document.getElementById('generateBtn');
+            const status = document.getElementById('status');
+            const preview = document.getElementById('posterPreview');
+            const downloadBtn = document.getElementById('downloadBtn');
+            
+            if (generateBtn.disabled) return;
+            
+            generateBtn.disabled = true;
+            generateBtn.textContent = '🔄 生成中...';
+            status.innerHTML = '<div class="loading">⏳ 正在生成头条样式海报，请稍候...</div>';
+            
+            try {
+                const newsData = {
+                    id: `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+                    title: document.getElementById('titleInput').value || '默认新闻标题',
+                    summary: document.getElementById('summaryInput').value || '默认新闻摘要',
+                    publishedAt: document.getElementById('dateInput').value,
+                    source: document.getElementById('sourceInput').value || 'AI推'
+                };
+                
+                const imageResult = await posterService.generateSimplePoster(newsData);
+                currentPosterData = imageResult;
+                
+                preview.innerHTML = `<img src="${imageResult}" class="poster-preview" alt="生成的海报" />`;
+                status.innerHTML = '<div class="success">✅ 海报生成成功！样式完全按照头条风格设计</div>';
+                downloadBtn.style.display = 'block';
+                
+            } catch (error) {
+                status.innerHTML = '<div class="error">❌ 生成失败：' + error.message + '</div>';
+                preview.innerHTML = '<p style="color: #999; padding: 40px;">生成失败，请重试</p>';
+                downloadBtn.style.display = 'none';
+            }
+            
+            generateBtn.disabled = false;
+            generateBtn.textContent = '🚀 生成头条样式海报';
+        }
+
+        function downloadPoster() {
+            if (!currentPosterData) return;
+            
+            const link = document.createElement('a');
+            link.download = `头条样式海报_${new Date().getTime()}.png`;
+            link.href = currentPosterData;
+            document.body.appendChild(link);
+            link.click();
+            document.body.removeChild(link);
+        }
+    </script>
+</body>
+</html>

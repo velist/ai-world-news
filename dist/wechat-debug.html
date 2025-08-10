@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI推 - 微信分享调试工具</title>
+    
+    <!-- 完整的微信分享Meta标签 -->
+    <meta name="description" content="AI推微信分享功能调试工具，检测分享配置是否正确。">
+    <meta name="keywords" content="AI推,微信分享,调试工具,Meta标签检测">
+    <meta name="author" content="AI推团队">
+    
+    <!-- Open Graph标签（微信分享核心） -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="AI推 - 微信分享调试工具">
+    <meta property="og:description" content="AI推微信分享功能调试工具，检测分享配置是否正确，确保标题、描述和缩略图正常显示。">
+    <meta property="og:image" content="https://news.aipush.fun/wechat-share-300.png">
+    <meta property="og:image:width" content="300">
+    <meta property="og:image:height" content="300">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:alt" content="AI推 - 最新AI资讯聚合平台">
+    <meta property="og:url" content="https://news.aipush.fun/wechat-debug.html">
+    <meta property="og:site_name" content="AI推">
+    <meta property="og:locale" content="zh_CN">
+    
+    <!-- 微信专用标签 -->
+    <meta name="wxcard:title" content="AI推 - 微信分享调试工具">
+    <meta name="wxcard:desc" content="AI推微信分享功能调试工具，检测分享配置是否正确，确保标题、描述和缩略图正常显示。">
+    <meta name="wxcard:imgUrl" content="https://news.aipush.fun/wechat-share-300.png">
+    <meta name="wxcard:link" content="https://news.aipush.fun/wechat-debug.html">
+    
+    <!-- Twitter Card标签 -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@aipush_news">
+    <meta name="twitter:title" content="AI推 - 微信分享调试工具">
+    <meta name="twitter:description" content="AI推微信分享功能调试工具，检测分享配置是否正确，确保标题、描述和缩略图正常显示。">
+    <meta name="twitter:image" content="https://news.aipush.fun/wechat-share-300.png">
+    
+    <!-- 微信特殊要求 -->
+    <meta name="format-detection" content="telephone=no">
+    <meta name="x5-orientation" content="portrait">
+    <meta name="x5-fullscreen" content="true">
+    
+    <!-- 防缓存 -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    
+    <!-- 微信JS-SDK -->
+    <script src="https://res.wx.qq.com/open/js/jweixin-1.6.0.js"></script>
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            min-height: 100vh;
+            padding: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            background: rgba(255, 255, 255, 0.1);
+            padding: 30px;
+            border-radius: 15px;
+            backdrop-filter: blur(10px);
+            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.1);
+        }
+        
+        .header {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        
+        .header h1 {
+            font-size: 28px;
+            margin-bottom: 10px;
+        }
+        
+        .header p {
+            opacity: 0.9;
+            font-size: 16px;
+        }
+        
+        .section {
+            margin: 25px 0;
+            padding: 20px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .section h2 {
+            font-size: 20px;
+            margin-bottom: 15px;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+        
+        .status {
+            padding: 12px 15px;
+            margin: 8px 0;
+            border-radius: 8px;
+            font-size: 14px;
+            line-height: 1.4;
+        }
+        
+        .status.success {
+            background: rgba(76, 175, 80, 0.2);
+            border-left: 4px solid #4CAF50;
+        }
+        
+        .status.warning {
+            background: rgba(255, 193, 7, 0.2);
+            border-left: 4px solid #FFC107;
+        }
+        
+        .status.error {
+            background: rgba(244, 67, 54, 0.2);
+            border-left: 4px solid #F44336;
+        }
+        
+        .status.info {
+            background: rgba(33, 150, 243, 0.2);
+            border-left: 4px solid #2196F3;
+        }
+        
+        .meta-tag {
+            font-family: 'Courier New', monospace;
+            font-size: 12px;
+            background: rgba(0, 0, 0, 0.2);
+            padding: 8px;
+            border-radius: 4px;
+            margin: 5px 0;
+            word-break: break-all;
+        }
+        
+        .button {
+            background: #25D366;
+            color: white;
+            padding: 12px 20px;
+            border: none;
+            border-radius: 8px;
+            font-size: 14px;
+            cursor: pointer;
+            margin: 5px;
+            transition: background 0.3s;
+        }
+        
+        .button:hover {
+            background: #128C7E;
+        }
+        
+        .button.secondary {
+            background: rgba(255, 255, 255, 0.2);
+        }
+        
+        .button.secondary:hover {
+            background: rgba(255, 255, 255, 0.3);
+        }
+        
+        .image-test {
+            text-align: center;
+            margin: 20px 0;
+        }
+        
+        .image-test img {
+            max-width: 150px;
+            border-radius: 10px;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+        }
+        
+        .timestamp {
+            text-align: center;
+            opacity: 0.7;
+            font-size: 12px;
+            margin-top: 20px;
+        }
+        
+        .actions {
+            text-align: center;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>🔧 AI推 - 微信分享调试工具</h1>
+            <p>检测微信分享配置，确保标题、描述和缩略图正确显示</p>
+            <div class="timestamp" id="timestamp"></div>
+        </div>
+        
+        <div class="section">
+            <h2>📱 环境检测</h2>
+            <div id="env-info"></div>
+        </div>
+        
+        <div class="section">
+            <h2>🏷️ Meta标签检查</h2>
+            <div id="meta-info"></div>
+        </div>
+        
+        <div class="section">
+            <h2>🖼️ 分享图片测试</h2>
+            <div class="image-test">
+                <img src="https://news.aipush.fun/wechat-share-300.png" alt="微信分享图片" id="share-image">
+                <div class="status info">
+                    <strong>图片URL:</strong> https://news.aipush.fun/wechat-share-300.png<br>
+                    <strong>尺寸:</strong> 300x300px<br>
+                    <strong>格式:</strong> PNG
+                </div>
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>🔗 分享测试</h2>
+            <div class="actions">
+                <button class="button" onclick="testShare()">📤 测试原生分享</button>
+                <button class="button secondary" onclick="copyLink()">📋 复制链接</button>
+                <button class="button secondary" onclick="refreshPage()">🔄 刷新检测</button>
+            </div>
+            <div class="status info">
+                <strong>测试步骤:</strong><br>
+                1. 在微信中打开此页面<br>
+                2. 点击右上角分享按钮<br>
+                3. 选择"发送给朋友"或"分享到朋友圈"<br>
+                4. 检查分享卡片是否显示正确的标题、描述和图片
+            </div>
+        </div>
+        
+        <div class="section">
+            <h2>📋 诊断报告</h2>
+            <div id="diagnosis"></div>
+        </div>
+    </div>
+    
+    <script>
+        // 显示时间戳
+        document.getElementById('timestamp').textContent = '检测时间: ' + new Date().toLocaleString('zh-CN');
+        
+        // 环境检测
+        function detectEnvironment() {
+            const envInfo = document.getElementById('env-info');
+            const isWeChat = /micromessenger/i.test(navigator.userAgent);
+            const isHttps = location.protocol === 'https:';
+            const currentUrl = window.location.href;
+            
+            let html = '';
+            
+            html += `<div class="status ${isWeChat ? 'success' : 'warning'}">
+                <strong>微信环境:</strong> ${isWeChat ? '✅ 是 (微信内置浏览器)' : '❌ 否 (请在微信中打开)'}
+            </div>`;
+            
+            html += `<div class="status ${isHttps ? 'success' : 'error'}">
+                <strong>HTTPS协议:</strong> ${isHttps ? '✅ 是' : '❌ 否 (微信分享需要HTTPS)'}
+            </div>`;
+            
+            html += `<div class="status info">
+                <strong>当前URL:</strong> ${currentUrl}
+            </div>`;
+            
+            html += `<div class="status info">
+                <strong>User Agent:</strong> ${navigator.userAgent}
+            </div>`;
+            
+            envInfo.innerHTML = html;
+        }
+        
+        // Meta标签检查
+        function checkMetaTags() {
+            const metaInfo = document.getElementById('meta-info');
+            const requiredTags = [
+                { name: 'og:title', selector: 'meta[property="og:title"]', required: true },
+                { name: 'og:description', selector: 'meta[property="og:description"]', required: true },
+                { name: 'og:image', selector: 'meta[property="og:image"]', required: true },
+                { name: 'og:url', selector: 'meta[property="og:url"]', required: true },
+                { name: 'og:type', selector: 'meta[property="og:type"]', required: false },
+                { name: 'og:site_name', selector: 'meta[property="og:site_name"]', required: false },
+                { name: 'wxcard:title', selector: 'meta[name="wxcard:title"]', required: false },
+                { name: 'wxcard:desc', selector: 'meta[name="wxcard:desc"]', required: false },
+                { name: 'wxcard:imgUrl', selector: 'meta[name="wxcard:imgUrl"]', required: false }
+            ];
+            
+            let html = '';
+            let allRequired = true;
+            
+            requiredTags.forEach(tag => {
+                const element = document.querySelector(tag.selector);
+                const hasTag = !!element;
+                const content = element ? element.getAttribute('content') : '';
+                
+                if (tag.required && !hasTag) {
+                    allRequired = false;
+                }
+                
+                const statusClass = hasTag ? 'success' : (tag.required ? 'error' : 'warning');
+                const statusIcon = hasTag ? '✅' : (tag.required ? '❌' : '⚠️');
+                
+                html += `<div class="status ${statusClass}">
+                    <strong>${statusIcon} ${tag.name}:</strong> ${hasTag ? '已配置' : '未设置'}
+                    ${content ? `<div class="meta-tag">${content}</div>` : ''}
+                </div>`;
+            });
+            
+            metaInfo.innerHTML = html;
+            return allRequired;
+        }
+        
+        // 图片加载测试
+        function testImageLoad() {
+            const img = document.getElementById('share-image');
+            img.onload = function() {
+                console.log('✅ 分享图片加载成功');
+            };
+            img.onerror = function() {
+                console.error('❌ 分享图片加载失败');
+                img.style.border = '2px solid #F44336';
+            };
+        }
+        
+        // 生成诊断报告
+        function generateDiagnosis() {
+            const diagnosis = document.getElementById('diagnosis');
+            const isWeChat = /micromessenger/i.test(navigator.userAgent);
+            const isHttps = location.protocol === 'https:';
+            const hasRequiredMeta = checkMetaTags();
+            
+            let html = '';
+            let issues = [];
+            let suggestions = [];
+            
+            if (!isWeChat) {
+                issues.push('当前不在微信环境中');
+                suggestions.push('请在微信中打开此页面进行测试');
+            }
+            
+            if (!isHttps) {
+                issues.push('未使用HTTPS协议');
+                suggestions.push('微信分享需要HTTPS协议，请确保网站使用HTTPS');
+            }
+            
+            if (!hasRequiredMeta) {
+                issues.push('缺少必需的Meta标签');
+                suggestions.push('请检查og:title、og:description、og:image、og:url等标签');
+            }
+            
+            if (issues.length === 0) {
+                html += `<div class="status success">
+                    <strong>✅ 配置检查通过!</strong><br>
+                    所有必需的配置都已正确设置，微信分享应该可以正常工作。
+                </div>`;
+            } else {
+                html += `<div class="status warning">
+                    <strong>⚠️ 发现 ${issues.length} 个问题:</strong><br>
+                    ${issues.map(issue => `• ${issue}`).join('<br>')}
+                </div>`;
+                
+                html += `<div class="status info">
+                    <strong>💡 建议修复:</strong><br>
+                    ${suggestions.map(suggestion => `• ${suggestion}`).join('<br>')}
+                </div>`;
+            }
+            
+            diagnosis.innerHTML = html;
+        }
+        
+        // 测试分享
+        function testShare() {
+            if (navigator.share) {
+                navigator.share({
+                    title: 'AI推 - 微信分享调试工具',
+                    text: 'AI推微信分享功能调试工具，检测分享配置是否正确，确保标题、描述和缩略图正常显示。',
+                    url: window.location.href
+                }).catch(console.error);
+            } else {
+                alert('当前浏览器不支持原生分享API\n请使用微信内置浏览器的分享功能');
+            }
+        }
+        
+        // 复制链接
+        function copyLink() {
+            if (navigator.clipboard) {
+                navigator.clipboard.writeText(window.location.href).then(() => {
+                    alert('链接已复制到剪贴板！');
+                });
+            } else {
+                // 降级方案
+                const textArea = document.createElement('textarea');
+                textArea.value = window.location.href;
+                document.body.appendChild(textArea);
+                textArea.select();
+                document.execCommand('copy');
+                document.body.removeChild(textArea);
+                alert('链接已复制到剪贴板！');
+            }
+        }
+        
+        // 刷新页面
+        function refreshPage() {
+            window.location.reload();
+        }
+        
+        // 初始化
+        detectEnvironment();
+        checkMetaTags();
+        testImageLoad();
+        generateDiagnosis();
+    </script>
+</body>
+</html>
