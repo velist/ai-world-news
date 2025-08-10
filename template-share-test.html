@@ -140,7 +140,7 @@
     </style>
 </head>
 <body>
-    <h1>🎨 模板分享图生成器<span class="feature-badge">NEW</span></h1>
+    <h1>🎨 模板分享图生成器 v2.0<span class="feature-badge">NEW</span></h1>
     
     <div class="template-info">
         <strong>✨ 基于精美蓝色渐变模板</strong><br>
@@ -496,6 +496,7 @@
         const templateService = new TemplateShareImageService();
 
         async function generateTemplateShare() {
+            console.log('🚀 生成分享图开始 - 版本 v2.0');
             const generateBtn = document.getElementById('generateBtn');
             const status = document.getElementById('status');
             const preview = document.getElementById('sharePreview');
@@ -516,14 +517,17 @@
                     source: document.getElementById('sourceInput').value || 'AI推'
                 };
                 
+                console.log('📋 新闻数据:', newsData);
                 const imageResult = await templateService.generateShareImage(newsData);
                 currentShareData = { imageResult, newsData };
                 
                 preview.innerHTML = `<img src="${imageResult}" class="share-preview" alt="生成的分享图" />`;
                 status.innerHTML = '<div class="success">✅ 精美分享图生成成功！完美适配社交媒体分享</div>';
                 downloadBtn.style.display = 'block';
+                console.log('✅ 分享图生成完成');
                 
             } catch (error) {
+                console.error('❌ 生成过程出错:', error);
                 status.innerHTML = '<div class="error">❌ 生成失败：' + error.message + '</div>';
                 preview.innerHTML = '<p style="color: #999; padding: 60px 20px; background: #f8f9fa; border-radius: 12px; border: 2px dashed #dee2e6;">生成失败，请重试</p>';
                 downloadBtn.style.display = 'none';
