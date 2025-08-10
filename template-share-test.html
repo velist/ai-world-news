@@ -280,11 +280,17 @@
                 this.ctx.imageSmoothingQuality = 'high';
                 
                 try {
-                    await this.drawBackground();
-                    this.drawTitleArea(newsData.title);
-                    this.drawContentCard(newsData.content);
-                    await this.drawBottomArea(newsData.id);
-                    this.drawBrandArea();
+                    // 1. 首先加载模板背景图片
+                    await this.loadTemplateBackground();
+                    
+                    // 2. 在蓝色标题区域叠加标题
+                    this.overlayTitle(newsData.title);
+                    
+                    // 3. 在白色内容区域叠加内容
+                    this.overlayContent(newsData.content);
+                    
+                    // 4. 在灰色占位符上叠加二维码
+                    await this.overlayQRCode(newsData.id);
                     
                     return this.canvas.toDataURL('image/jpeg', 0.9);
                     
@@ -294,89 +300,65 @@
                 }
             }
 
-            async drawBackground() {
-                const gradient = this.ctx.createLinearGradient(0, 0, 0, this.config.height);
-                gradient.addColorStop(0, '#4A90E2');
-                gradient.addColorStop(0.5, '#357ABD');
-                gradient.addColorStop(1, '#7FB3D3');
+            async loadTemplateBackground() {
+                // 加载真实的模板图片作为背景
+                const templateImg = await this.loadImageWithTimeout('share-template-blank.jpg', 10000);
                 
-                this.ctx.fillStyle = gradient;
-                this.ctx.fillRect(0, 0, this.config.width, this.config.height);
-                
-                this.drawDecorativeCurves();
+                // 将模板图片绘制到canvas上
+                this.ctx.drawImage(templateImg, 0, 0, this.config.width, this.config.height);
             }
 
-            drawDecorativeCurves() {
-                this.ctx.save();
-                
-                this.ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
-                this.ctx.beginPath();
-                this.ctx.moveTo(0, 800);
-                this.ctx.quadraticCurveTo(400, 900, 800, 850);
-                this.ctx.lineTo(800, 1200);
-                this.ctx.lineTo(0, 1200);
-                this.ctx.closePath();
-                this.ctx.fill();
-                
-                this.ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
-                this.ctx.beginPath();
-                this.ctx.moveTo(600, 0);
-                this.ctx.quadraticCurveTo(750, 300, 650, 600);
-                this.ctx.lineTo(800, 600);
-                this.ctx.lineTo(800, 0);
-                this.ctx.closePath();
-                this.ctx.fill();
-                
-                this.ctx.restore();
-            }
-
-            drawTitleArea(title) {
+            overlayTitle(title) {
                 const { fonts } = this.config;
                 
-                let displayTitle = title;
-                if (title.length > 12) {
-                    displayTitle = title.substring(0, 12);
-                }
-                
+                // 在蓝色标题区域叠加标题
                 this.ctx.fillStyle = fonts.title.color;
                 this.ctx.font = `bold ${fonts.title.size}px ${fonts.title.family}`;
                 this.ctx.textAlign = 'center';
                 this.ctx.textBaseline = 'middle';
                 
-                this.ctx.fillText(displayTitle, this.config.width / 2, 140);
+                // 标题区域：蓝色渐变区域中央
+                const titleY = 150; // 蓝色标题区域中心Y坐标
+                
+                // 如果标题过长，分行显示
+                if (title.length > 20) {
+                    const midPoint = Math.floor(title.length / 2);
+                    const line1 = title.substring(0, midPoint);
+                    const line2 = title.substring(midPoint);
+                    
+                    this.ctx.fillText(line1, this.config.width / 2, titleY - 30);
+                    this.ctx.fillText(line2, this.config.width / 2, titleY + 30);
+                } else {
+                    this.ctx.fillText(title, this.config.width / 2, titleY);
+                }
             }
 
-            drawContentCard(content) {
-                const { contentArea, fonts } = this.config;
+            overlayContent(content) {
+                const { fonts, contentArea } = this.config;
                 
-                this.drawRoundedRect(
-                    contentArea.x,
-                    contentArea.y,
-                    contentArea.width,
-                    contentArea.height,
-                    contentArea.borderRadius,
-                    contentArea.backgroundColor
-                );
-                
-                const maxContentLength = 120;
-                let displayContent = content;
-                if (content.length > maxContentLength) {
-                    displayContent = content.substring(0, maxContentLength) + '...';
-                }
-                
+                // 在白色内容卡片区域叠加内容
                 this.ctx.fillStyle = fonts.content.color;
                 this.ctx.font = `${fonts.content.size}px ${fonts.content.family}`;
                 this.ctx.textAlign = 'left';
                 this.ctx.textBaseline = 'top';
                 
+                // 限制内容长度
+                const maxContentLength = 150;
+                let displayContent = content;
+                if (content.length > maxContentLength) {
+                    displayContent = content.substring(0, maxContentLength) + '...';
+                }
+                
+                // 文字换行处理
                 const lines = this.wrapText(
                     displayContent,
                     contentArea.width - contentArea.padding * 2,
                     fonts.content.size
                 );
                 
+                // 在白色卡片区域内绘制文字
                 const startY = contentArea.y + contentArea.padding;
-                lines.slice(0, 10).forEach((line, index) => {
+                lines.slice(0, 8).forEach((line, index) => {
                     this.ctx.fillText(
                         line,
                         contentArea.x + contentArea.padding,
@@ -385,35 +367,7 @@
                 });
             }
 
-            async drawBottomArea(newsId) {
-                const { bottomArea } = this.config;
-                
-                this.drawRoundedRect(
-                    bottomArea.qrCode.x,
-                    bottomArea.qrCode.y,
-                    bottomArea.qrCode.width,
-                    bottomArea.qrCode.height,
-                    bottomArea.qrCode.borderRadius,
-                    bottomArea.qrCode.backgroundColor
-                );
-                
-                try {
-                    await this.drawQRCode(newsId);
-                } catch (error) {
-                    this.drawQRPlaceholder();
-                }
-                
-                this.ctx.fillStyle = this.config.fonts.qrText.color;
-                this.ctx.font = `${this.config.fonts.qrText.size}px ${this.config.fonts.qrText.family}`;
-                this.ctx.textAlign = 'center';
-                this.ctx.fillText(
-                    '长按识别二维码阅读新闻',
-                    bottomArea.qrCode.x + bottomArea.qrCode.width / 2,
-                    bottomArea.qrCode.y + bottomArea.qrCode.height + 25
-                );
-            }
-
-            async drawQRCode(newsId) {
+            async overlayQRCode(newsId) {
                 const { bottomArea } = this.config;
                 const qrSize = 180;
                 
@@ -424,75 +378,35 @@
                     `https://quickchart.io/qr?text=${encodeURIComponent(newsUrl)}&size=${qrSize}&format=png&ecLevel=H&margin=0`
                 ];
                 
+                // 尝试生成并叠加二维码到灰色占位符上
                 for (const apiUrl of qrApis) {
                     try {
-                        const img = await this.loadImageWithTimeout(apiUrl, 5000);
+                        const qrImg = await this.loadImageWithTimeout(apiUrl, 5000);
                         
-                        const qrX = bottomArea.qrCode.x;
-                        const qrY = bottomArea.qrCode.y;
-                        
-                        this.ctx.drawImage(img, qrX, qrY, qrSize, qrSize);
+                        // 直接覆盖灰色占位符区域
+                        this.ctx.drawImage(
+                            qrImg, 
+                            bottomArea.qrCode.x, 
+                            bottomArea.qrCode.y, 
+                            qrSize, 
+                            qrSize
+                        );
                         return;
                     } catch (error) {
                         continue;
                     }
                 }
                 
-                throw new Error('所有二维码API都失败');
-            }
-
-            drawQRPlaceholder() {
-                const { bottomArea, fonts } = this.config;
-                
+                // 如果二维码生成失败，在占位符上显示"加载中"
                 this.ctx.fillStyle = '#ffffff';
-                this.ctx.font = `bold 24px ${fonts.qrText.family}`;
+                this.ctx.font = 'bold 20px Microsoft YaHei';
                 this.ctx.textAlign = 'center';
                 this.ctx.textBaseline = 'middle';
-                
                 this.ctx.fillText(
-                    '二维码',
-                    bottomArea.qrCode.x + bottomArea.qrCode.width / 2,
-                    bottomArea.qrCode.y + bottomArea.qrCode.height / 2
+                    '二维码加载中',
+                    bottomArea.qrCode.x + qrSize / 2,
+                    bottomArea.qrCode.y + qrSize / 2
                 );
-            }
-
-            drawBrandArea() {
-                const { bottomArea, fonts } = this.config;
-                
-                // 橙色吉祥物占位符
-                this.ctx.fillStyle = '#FF8C42';
-                this.ctx.beginPath();
-                this.ctx.arc(bottomArea.mascot.x, bottomArea.mascot.y, 25, 0, 2 * Math.PI);
-                this.ctx.fill();
-                
-                // 品牌名称
-                this.ctx.fillStyle = fonts.brand.color;
-                this.ctx.font = `bold ${fonts.brand.size}px ${fonts.brand.family}`;
-                this.ctx.textAlign = 'center';
-                this.ctx.fillText('AI推', bottomArea.brand.x, bottomArea.brand.y);
-                
-                // 品牌副标题
-                this.ctx.fillStyle = fonts.brandSubtitle.color;
-                this.ctx.font = `${fonts.brandSubtitle.size}px ${fonts.brandSubtitle.family}`;
-                this.ctx.fillText('国内外AI新闻推送', bottomArea.brand.x, bottomArea.brand.y + 25);
-            }
-
-            drawRoundedRect(x, y, width, height, radius, fillStyle) {
-                this.ctx.save();
-                this.ctx.fillStyle = fillStyle;
-                this.ctx.beginPath();
-                this.ctx.moveTo(x + radius, y);
-                this.ctx.lineTo(x + width - radius, y);
-                this.ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
-                this.ctx.lineTo(x + width, y + height - radius);
-                this.ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
-                this.ctx.lineTo(x + radius, y + height);
-                this.ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
-                this.ctx.lineTo(x, y + radius);
-                this.ctx.quadraticCurveTo(x, y, x + radius, y);
-                this.ctx.closePath();
-                this.ctx.fill();
-                this.ctx.restore();
             }
 
             wrapText(text, maxWidth, fontSize) {
