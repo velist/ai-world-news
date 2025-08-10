@@ -5,7 +5,7 @@ import { Badge } from "@/components/ui/badge";
 import { Separator } from "@/components/ui/separator";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
-import { simplePosterService } from "@/services/simplePosterService";
+import { simplePosterService } from "@/services/simplePosterServiceNew";
 import { useState } from "react";
 
 interface NewsDetailProps {
@@ -156,7 +156,9 @@ export const NewsDetail = ({
       const newsData = {
         id: `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
         title: displayTitle,
-        summary: content.substring(0, 150) + (content.length > 150 ? '...' : '')
+        summary: content.substring(0, 150) + (content.length > 150 ? '...' : ''),
+        publishedAt: publishedAt,
+        source: source
       };
 
       // 使用极简版海报生成服务
