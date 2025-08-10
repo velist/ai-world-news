@@ -301,8 +301,8 @@
             }
 
             async loadTemplateBackground() {
-                // 加载真实的模板图片作为背景
-                const templateImg = await this.loadImageWithTimeout('share-template-blank.jpg', 10000);
+                // 加载真实的模板图片作为背景 - 使用GitHub Pages URL
+                const templateImg = await this.loadImageWithTimeout('https://velist.github.io/ai-world-news/share-template-blank.jpg', 10000);
                 
                 // 将模板图片绘制到canvas上
                 this.ctx.drawImage(templateImg, 0, 0, this.config.width, this.config.height);
