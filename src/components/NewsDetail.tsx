@@ -6,6 +6,7 @@ import { Separator } from "@/components/ui/separator";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
 import { simplePosterService } from "@/services/simplePosterServiceNew";
+import { templateShareImageService } from "@/services/templateShareImageService";
 import { useState } from "react";
 
 interface NewsDetailProps {
@@ -38,6 +39,7 @@ export const NewsDetail = ({
   const { isZh } = useLanguage();
   const { getLocalizedCategory } = useNewsTranslation();
   const [isGeneratingPoster, setIsGeneratingPoster] = useState(false);
+  const [isGeneratingTemplateShare, setIsGeneratingTemplateShare] = useState(false);
 
   // 直接使用传入的标题（已经在useNews中本地化）
   const displayTitle = title;
@@ -173,6 +175,33 @@ export const NewsDetail = ({
       alert(isZh ? '海报生成失败，请稍后重试' : 'Failed to generate poster, please try again');
     } finally {
       setIsGeneratingPoster(false);
+    }
+  };
+
+  // 生成模板风格分享图 - 蓝色渐变模板
+  const handleTemplateShareImage = async () => {
+    if (isGeneratingTemplateShare) return;
+
+    setIsGeneratingTemplateShare(true);
+    try {
+      const newsData = {
+        id: id || `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+        title: displayTitle,
+        content: content.length > 120 ? content.substring(0, 120) + '...' : content,
+        publishedAt: publishedAt,
+        source: source
+      };
+
+      // 使用模板分享图生成服务
+      const imageResult = await templateShareImageService.generateShareImage(newsData);
+
+      // 显示模板分享图模态框
+      showTemplateShareModal(imageResult, newsData);
+      
+    } catch (error) {
+      alert(isZh ? '分享图生成失败，请稍后重试' : 'Failed to generate share image, please try again');
+    } finally {
+      setIsGeneratingTemplateShare(false);
     }
   };
 
@@ -477,6 +506,116 @@ export const NewsDetail = ({
     };
   };
 
+  // 显示模板分享图模态框
+  const showTemplateShareModal = (imageData: string, newsData: any): void => {
+    // 创建遮罩层
+    const overlay = document.createElement('div');
+    overlay.style.cssText = `
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(0,0,0,0.8);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      z-index: 10000;
+    `;
+
+    const container = document.createElement('div');
+    container.style.cssText = `
+      background: white;
+      padding: 20px;
+      border-radius: 10px;
+      max-width: 90%;
+      max-height: 90%;
+      text-align: center;
+      overflow: auto;
+    `;
+
+    // 成功提示
+    const successDiv = document.createElement('div');
+    successDiv.style.cssText = `
+      margin-bottom: 15px;
+      color: #4A90E2;
+      font-weight: bold;
+      font-size: 18px;
+    `;
+    successDiv.textContent = '✅ 精美分享图生成成功！';
+
+    // 图片显示
+    const img = document.createElement('img');
+    img.src = imageData;
+    img.style.cssText = `
+      max-width: 100%;
+      height: auto;
+      margin: 15px 0;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+    `;
+
+    // 按钮容器
+    const buttonContainer = document.createElement('div');
+    buttonContainer.style.cssText = `
+      display: flex;
+      gap: 10px;
+      justify-content: center;
+      margin-top: 20px;
+    `;
+
+    // 下载按钮
+    const saveBtn = document.createElement('button');
+    saveBtn.textContent = '💾 下载分享图';
+    saveBtn.style.cssText = `
+      padding: 12px 24px;
+      background: linear-gradient(45deg, #4A90E2, #357ABD);
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14px;
+    `;
+    saveBtn.onclick = () => {
+      templateShareImageService.downloadShareImage(imageData, `${newsData.title.substring(0, 20)}-分享图.jpg`);
+    };
+
+    // 关闭按钮
+    const closeBtn = document.createElement('button');
+    closeBtn.textContent = '❌ 关闭';
+    closeBtn.style.cssText = `
+      padding: 12px 24px;
+      background: #6c757d;
+      color: white;
+      border: none;
+      border-radius: 8px;
+      cursor: pointer;
+      font-weight: bold;
+      font-size: 14px;
+    `;
+    closeBtn.onclick = () => {
+      document.body.removeChild(overlay);
+    };
+
+    // 组装元素
+    buttonContainer.appendChild(saveBtn);
+    buttonContainer.appendChild(closeBtn);
+    
+    container.appendChild(successDiv);
+    container.appendChild(img);
+    container.appendChild(buttonContainer);
+    overlay.appendChild(container);
+    document.body.appendChild(overlay);
+
+    // 点击遮罩关闭
+    overlay.onclick = (e) => {
+      if (e.target === overlay) {
+        document.body.removeChild(overlay);
+      }
+    };
+  };
+
   // 显示分享选项
   const showShareOptions = (shareUrl: string, shareText: string) => {
     // 创建遮罩层
@@ -531,6 +670,25 @@ export const NewsDetail = ({
           生成海报分享 (推荐)
         </button>
 
+        <button id="templateShareBtn" style="
+          background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+          color: white;
+          border: none;
+          border-radius: 12px;
+          padding: 16px;
+          font-size: 16px;
+          font-weight: 500;
+          cursor: pointer;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          gap: 8px;
+          transition: transform 0.2s;
+        " onmouseover="this.style.transform='scale(1.02)'" onmouseout="this.style.transform='scale(1)'">
+          <span style="font-size: 18px;">🖼️</span>
+          精美模板分享图
+        </button>
+
         <button id="linkShareBtn" style="
           background: #F2F2F7;
           color: #1D1D1F;
@@ -580,12 +738,18 @@ export const NewsDetail = ({
 
     // 事件处理
     const posterBtn = document.getElementById('posterShareBtn');
+    const templateBtn = document.getElementById('templateShareBtn');
     const linkBtn = document.getElementById('linkShareBtn');
     const closeBtn = document.getElementById('closeBtn');
 
     posterBtn?.addEventListener('click', async () => {
       document.body.removeChild(overlay);
       await handlePosterShare();
+    });
+
+    templateBtn?.addEventListener('click', async () => {
+      document.body.removeChild(overlay);
+      await handleTemplateShareImage();
     });
 
     linkBtn?.addEventListener('click', async () => {
