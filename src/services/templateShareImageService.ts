@@ -1,6 +1,6 @@
 /**
- * 基于模板的分享图生成服务
- * 使用蓝色渐变背景模板，包含标题内容区和底部二维码/品牌区
+ * 基于用户提供模板的分享图生成服务
+ * 直接使用模板图片，只替换标题、内容和二维码
  */
 
 interface TemplateNewsData {
@@ -15,76 +15,46 @@ export class TemplateShareImageService {
   private static instance: TemplateShareImageService;
   private canvas: HTMLCanvasElement;
   private ctx: CanvasRenderingContext2D;
+  private templateImage: HTMLImageElement | null = null;
   
-  // 模板配置
+  // 基于实际模板的坐标配置（需要根据实际模板调整）
   private readonly config = {
-    width: 800,
-    height: 1200,
+    width: 800,  // 模板实际宽度
+    height: 1280, // 模板实际高度
     
-    // 内容区域配置
+    // 标题区域 (模板顶部白色文字区域)
+    titleArea: {
+      x: 80,
+      y: 80,
+      width: 640,
+      maxLines: 1,
+      fontSize: 42,
+      fontFamily: '"Microsoft YaHei", "PingFang SC", sans-serif',
+      fontWeight: 'bold',
+      color: '#ffffff',
+      textAlign: 'center' as CanvasTextAlign
+    },
+    
+    // 内容区域 (模板中间白色卡片区域)
     contentArea: {
-      x: 75,
-      y: 240,
-      width: 650,
-      height: 450,
-      borderRadius: 30,
-      backgroundColor: '#ffffff',
-      padding: 40
+      x: 100,  // 白色卡片内的左边距
+      y: 300,  // 白色卡片顶部位置
+      width: 600, // 可用文字宽度
+      height: 350, // 可用文字高度
+      maxLines: 8,
+      fontSize: 26,
+      fontFamily: '"Microsoft YaHei", "PingFang SC", sans-serif',
+      fontWeight: 'normal',
+      color: '#333333',
+      lineHeight: 40,
+      textAlign: 'left' as CanvasTextAlign
     },
     
-    // 底部区域配置
-    bottomArea: {
-      y: 1030,
-      qrCode: {
-        x: 103,
-        y: 1033,
-        width: 170,
-        height: 170,
-        backgroundColor: '#666666',
-        borderRadius: 8
-      },
-      mascot: {
-        x: 530,
-        y: 1060
-      },
-      brand: {
-        x: 640,
-        y: 1120,
-        text: 'AI推',
-        subtitle: '国内外AI新闻推送'
-      }
-    },
-    
-    // 文字配置
-    fonts: {
-      title: {
-        size: 50,
-        color: '#ffffff',
-        family: '"Microsoft YaHei", "PingFang SC", sans-serif',
-        lineHeight: 70
-      },
-      content: {
-        size: 28,
-        color: '#333333',
-        family: '"Microsoft YaHei", "PingFang SC", sans-serif',
-        lineHeight: 42
-      },
-      qrText: {
-        size: 18,
-        color: '#666666',
-        family: '"Microsoft YaHei", sans-serif'
-      },
-      brand: {
-        size: 28,
-        color: '#333333',
-        family: '"Microsoft YaHei", sans-serif',
-        weight: 'bold'
-      },
-      brandSubtitle: {
-        size: 18,
-        color: '#666666',
-        family: '"Microsoft YaHei", sans-serif'
-      }
+    // 二维码区域 (模板左下角灰色区域)
+    qrCodeArea: {
+      x: 190,   // 二维码中心X (根据实际模板调整)
+      y: 1120,  // 二维码中心Y (根据实际模板调整)
+      size: 140 // 二维码尺寸
     }
   };
 
@@ -101,31 +71,21 @@ export class TemplateShareImageService {
   }
 
   /**
-   * 生成基于模板的分享图
+   * 生成基于模板的分享图 - 直接使用用户模板
    */
   async generateShareImage(newsData: TemplateNewsData): Promise<string> {
-    // 设置画布尺寸
-    this.canvas.width = this.config.width;
-    this.canvas.height = this.config.height;
-    
-    this.ctx.imageSmoothingEnabled = true;
-    this.ctx.imageSmoothingQuality = 'high';
-    
     try {
-      // 1. 绘制背景（蓝色渐变）
-      await this.drawBackground();
+      // 1. 加载并绘制模板背景
+      await this.loadAndDrawTemplate();
       
-      // 2. 绘制标题区域
-      this.drawTitleArea(newsData.title);
+      // 2. 在指定位置替换标题
+      this.drawTitle(newsData.title);
       
-      // 3. 绘制内容卡片
-      this.drawContentCard(newsData.content);
+      // 3. 在白色卡片区域替换内容
+      this.drawContent(newsData.content);
       
-      // 4. 绘制底部二维码区域
-      await this.drawBottomArea(newsData.id);
-      
-      // 5. 绘制吉祥物和品牌信息
-      this.drawBrandArea();
+      // 4. 替换二维码
+      await this.drawQRCode(newsData.id);
       
       return this.canvas.toDataURL('image/jpeg', 0.9);
       
@@ -136,159 +96,87 @@ export class TemplateShareImageService {
   }
 
   /**
-   * 绘制蓝色渐变背景
+   * 加载并绘制模板背景图
    */
-  private async drawBackground(): Promise<void> {
-    // 创建径向渐变
-    const gradient = this.ctx.createLinearGradient(0, 0, 0, this.config.height);
-    gradient.addColorStop(0, '#4A90E2');
-    gradient.addColorStop(0.5, '#357ABD');
-    gradient.addColorStop(1, '#7FB3D3');
-    
-    this.ctx.fillStyle = gradient;
-    this.ctx.fillRect(0, 0, this.config.width, this.config.height);
-    
-    // 添加装饰性曲线
-    this.drawDecorativeCurves();
-  }
-
-  /**
-   * 绘制装饰性曲线
-   */
-  private drawDecorativeCurves(): void {
-    this.ctx.save();
-    
-    // 底部波浪曲线
-    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
-    this.ctx.beginPath();
-    this.ctx.moveTo(0, 800);
-    this.ctx.quadraticCurveTo(400, 900, 800, 850);
-    this.ctx.lineTo(800, 1200);
-    this.ctx.lineTo(0, 1200);
-    this.ctx.closePath();
-    this.ctx.fill();
-    
-    // 右侧装饰曲线
-    this.ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
-    this.ctx.beginPath();
-    this.ctx.moveTo(600, 0);
-    this.ctx.quadraticCurveTo(750, 300, 650, 600);
-    this.ctx.lineTo(800, 600);
-    this.ctx.lineTo(800, 0);
-    this.ctx.closePath();
-    this.ctx.fill();
-    
-    this.ctx.restore();
-  }
-
-  /**
-   * 绘制标题区域
-   */
-  private drawTitleArea(title: string): void {
-    const { fonts } = this.config;
-    
-    // 处理标题长度，如果太长则截取
-    let displayTitle = title;
-    if (title.length > 12) {
-      displayTitle = title.substring(0, 12);
+  private async loadAndDrawTemplate(): Promise<void> {
+    if (!this.templateImage) {
+      this.templateImage = await this.loadImageWithTimeout('/share-template-blank.jpg', 10000);
     }
     
-    this.ctx.fillStyle = fonts.title.color;
-    this.ctx.font = `bold ${fonts.title.size}px ${fonts.title.family}`;
-    this.ctx.textAlign = 'center';
-    this.ctx.textBaseline = 'middle';
+    // 设置画布尺寸为模板图片的实际尺寸
+    this.canvas.width = this.templateImage.width;
+    this.canvas.height = this.templateImage.height;
     
-    // 居中绘制标题
-    this.ctx.fillText(displayTitle, this.config.width / 2, 140);
+    // 更新配置以匹配实际尺寸
+    this.config.width = this.templateImage.width;
+    this.config.height = this.templateImage.height;
+    
+    this.ctx.imageSmoothingEnabled = true;
+    this.ctx.imageSmoothingQuality = 'high';
+    
+    // 直接绘制模板图片作为背景
+    this.ctx.drawImage(this.templateImage, 0, 0);
   }
 
   /**
-   * 绘制内容卡片
+   * 在模板顶部绘制标题
    */
-  private drawContentCard(content: string): void {
-    const { contentArea, fonts } = this.config;
+  private drawTitle(title: string): void {
+    const { titleArea } = this.config;
     
-    // 绘制白色圆角背景
-    this.drawRoundedRect(
-      contentArea.x,
-      contentArea.y,
-      contentArea.width,
-      contentArea.height,
-      contentArea.borderRadius,
-      contentArea.backgroundColor
-    );
+    // 设置标题样式
+    this.ctx.fillStyle = titleArea.color;
+    this.ctx.font = `${titleArea.fontWeight} ${titleArea.fontSize}px ${titleArea.fontFamily}`;
+    this.ctx.textAlign = titleArea.textAlign;
+    this.ctx.textBaseline = 'middle';
     
-    // 处理内容文字
-    const maxContentLength = 120; // 最大字符数
+    // 标题长度限制，根据模板宽度调整
+    let displayTitle = title;
+    const maxTitleLength = Math.floor(this.config.width / 30); // 动态计算最大长度
+    if (title.length > maxTitleLength) {
+      displayTitle = title.substring(0, maxTitleLength - 3) + '...';
+    }
+    
+    // 居中绘制标题
+    const centerX = this.config.width / 2;
+    this.ctx.fillText(displayTitle, centerX, titleArea.y);
+  }
+
+  /**
+   * 在白色卡片区域绘制内容
+   */
+  private drawContent(content: string): void {
+    const { contentArea } = this.config;
+    
+    // 设置内容样式
+    this.ctx.fillStyle = contentArea.color;
+    this.ctx.font = `${contentArea.fontWeight} ${contentArea.fontSize}px ${contentArea.fontFamily}`;
+    this.ctx.textAlign = contentArea.textAlign;
+    this.ctx.textBaseline = 'top';
+    
+    // 内容长度限制
+    const maxContentLength = 180;
     let displayContent = content;
     if (content.length > maxContentLength) {
       displayContent = content.substring(0, maxContentLength) + '...';
     }
     
-    // 绘制内容文字
-    this.ctx.fillStyle = fonts.content.color;
-    this.ctx.font = `${fonts.content.size}px ${fonts.content.family}`;
-    this.ctx.textAlign = 'left';
-    this.ctx.textBaseline = 'top';
-    
     // 文字换行处理
-    const lines = this.wrapText(
-      displayContent,
-      contentArea.width - contentArea.padding * 2,
-      fonts.content.size
-    );
+    const lines = this.wrapText(displayContent, contentArea.width);
     
-    const startY = contentArea.y + contentArea.padding;
-    lines.slice(0, 10).forEach((line, index) => {
-      this.ctx.fillText(
-        line,
-        contentArea.x + contentArea.padding,
-        startY + index * fonts.content.lineHeight
-      );
-    });
-  }
-
-  /**
-   * 绘制底部区域（二维码）
-   */
-  private async drawBottomArea(newsId: string): Promise<void> {
-    const { bottomArea } = this.config;
-    
-    // 绘制二维码背景
-    this.drawRoundedRect(
-      bottomArea.qrCode.x,
-      bottomArea.qrCode.y,
-      bottomArea.qrCode.width,
-      bottomArea.qrCode.height,
-      bottomArea.qrCode.borderRadius,
-      bottomArea.qrCode.backgroundColor
-    );
-    
-    // 生成并绘制二维码
-    try {
-      await this.drawQRCode(newsId);
-    } catch (error) {
-      // 如果二维码生成失败，绘制文字占位符
-      this.drawQRPlaceholder();
+    // 绘制文字行，限制最大行数
+    const maxLines = Math.min(lines.length, contentArea.maxLines);
+    for (let i = 0; i < maxLines; i++) {
+      const y = contentArea.y + i * contentArea.lineHeight;
+      this.ctx.fillText(lines[i], contentArea.x, y);
     }
-    
-    // 绘制二维码说明文字
-    this.ctx.fillStyle = this.config.fonts.qrText.color;
-    this.ctx.font = `${this.config.fonts.qrText.size}px ${this.config.fonts.qrText.family}`;
-    this.ctx.textAlign = 'center';
-    this.ctx.fillText(
-      '长按识别二维码阅读新闻',
-      bottomArea.qrCode.x + bottomArea.qrCode.width / 2,
-      bottomArea.qrCode.y + bottomArea.qrCode.height + 25
-    );
   }
 
   /**
-   * 绘制二维码
+   * 在指定位置绘制二维码，替换模板中的占位符
    */
   private async drawQRCode(newsId: string): Promise<void> {
-    const { bottomArea } = this.config;
-    const qrSize = 120; // 二维码实际尺寸
+    const { qrCodeArea } = this.config;
     
     // 构建新闻URL
     let newsUrl: string;
@@ -300,102 +188,67 @@ export class TemplateShareImageService {
     
     // 二维码API列表
     const qrApis = [
-      `https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}x${qrSize}&data=${encodeURIComponent(newsUrl)}&format=png&margin=1&ecc=H`,
-      `https://quickchart.io/qr?text=${encodeURIComponent(newsUrl)}&size=${qrSize}&format=png&ecLevel=H&margin=1`
+      `https://api.qrserver.com/v1/create-qr-code/?size=${qrCodeArea.size}x${qrCodeArea.size}&data=${encodeURIComponent(newsUrl)}&format=png&margin=1&ecc=H&color=000000&bgcolor=ffffff`,
+      `https://quickchart.io/qr?text=${encodeURIComponent(newsUrl)}&size=${qrCodeArea.size}&format=png&ecLevel=H&margin=1&dark=000000&light=ffffff`,
+      `https://chart.googleapis.com/chart?chs=${qrCodeArea.size}x${qrCodeArea.size}&cht=qr&chl=${encodeURIComponent(newsUrl)}&choe=UTF-8&chld=H|1`
     ];
+    
+    let qrGenerated = false;
     
     for (const apiUrl of qrApis) {
       try {
-        const img = await this.loadImageWithTimeout(apiUrl, 5000);
+        const qrImage = await this.loadImageWithTimeout(apiUrl, 5000);
         
-        // 居中绘制二维码
-        const qrX = bottomArea.qrCode.x + (bottomArea.qrCode.width - qrSize) / 2;
-        const qrY = bottomArea.qrCode.y + (bottomArea.qrCode.height - qrSize) / 2;
+        // 在模板指定位置绘制二维码，覆盖原有的占位区域
+        const qrX = qrCodeArea.x - qrCodeArea.size / 2;
+        const qrY = qrCodeArea.y - qrCodeArea.size / 2;
         
-        this.ctx.drawImage(img, qrX, qrY, qrSize, qrSize);
-        return;
+        // 绘制二维码
+        this.ctx.drawImage(qrImage, qrX, qrY, qrCodeArea.size, qrCodeArea.size);
+        
+        qrGenerated = true;
+        break;
       } catch (error) {
         continue;
       }
     }
     
-    throw new Error('所有二维码API都失败');
+    // 如果二维码生成失败，绘制简单占位符
+    if (!qrGenerated) {
+      this.drawQRCodePlaceholder();
+    }
   }
 
   /**
    * 绘制二维码占位符
    */
-  private drawQRPlaceholder(): void {
-    const { bottomArea, fonts } = this.config;
+  private drawQRCodePlaceholder(): void {
+    const { qrCodeArea } = this.config;
     
+    const qrX = qrCodeArea.x - qrCodeArea.size / 2;
+    const qrY = qrCodeArea.y - qrCodeArea.size / 2;
+    
+    // 白色背景
     this.ctx.fillStyle = '#ffffff';
-    this.ctx.font = `bold 24px ${fonts.qrText.family}`;
+    this.ctx.fillRect(qrX, qrY, qrCodeArea.size, qrCodeArea.size);
+    
+    // 黑色边框
+    this.ctx.strokeStyle = '#000000';
+    this.ctx.lineWidth = 2;
+    this.ctx.strokeRect(qrX, qrY, qrCodeArea.size, qrCodeArea.size);
+    
+    // 文字提示
+    this.ctx.fillStyle = '#666666';
+    this.ctx.font = 'bold 20px "Microsoft YaHei"';
     this.ctx.textAlign = 'center';
     this.ctx.textBaseline = 'middle';
-    
-    this.ctx.fillText(
-      '二维码',
-      bottomArea.qrCode.x + bottomArea.qrCode.width / 2,
-      bottomArea.qrCode.y + bottomArea.qrCode.height / 2
-    );
-  }
-
-  /**
-   * 绘制品牌区域
-   */
-  private drawBrandArea(): void {
-    const { bottomArea, fonts } = this.config;
-    
-    // 绘制吉祥物占位符（橙色圆形）
-    this.ctx.fillStyle = '#FF8C42';
-    this.ctx.beginPath();
-    this.ctx.arc(bottomArea.mascot.x, bottomArea.mascot.y, 25, 0, 2 * Math.PI);
-    this.ctx.fill();
-    
-    // 绘制品牌名称
-    this.ctx.fillStyle = fonts.brand.color;
-    this.ctx.font = `bold ${fonts.brand.size}px ${fonts.brand.family}`;
-    this.ctx.textAlign = 'center';
-    this.ctx.fillText('AI推', bottomArea.brand.x, bottomArea.brand.y);
-    
-    // 绘制品牌副标题
-    this.ctx.fillStyle = fonts.brandSubtitle.color;
-    this.ctx.font = `${fonts.brandSubtitle.size}px ${fonts.brandSubtitle.family}`;
-    this.ctx.fillText('国内外AI新闻推送', bottomArea.brand.x, bottomArea.brand.y + 25);
-  }
-
-  /**
-   * 绘制圆角矩形
-   */
-  private drawRoundedRect(
-    x: number, 
-    y: number, 
-    width: number, 
-    height: number, 
-    radius: number, 
-    fillStyle: string
-  ): void {
-    this.ctx.save();
-    this.ctx.fillStyle = fillStyle;
-    this.ctx.beginPath();
-    this.ctx.moveTo(x + radius, y);
-    this.ctx.lineTo(x + width - radius, y);
-    this.ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
-    this.ctx.lineTo(x + width, y + height - radius);
-    this.ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
-    this.ctx.lineTo(x + radius, y + height);
-    this.ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
-    this.ctx.lineTo(x, y + radius);
-    this.ctx.quadraticCurveTo(x, y, x + radius, y);
-    this.ctx.closePath();
-    this.ctx.fill();
-    this.ctx.restore();
+    this.ctx.fillText('二维码', qrCodeArea.x, qrCodeArea.y);
   }
 
   /**
    * 文字换行处理
    */
-  private wrapText(text: string, maxWidth: number, fontSize: number): string[] {
+  private wrapText(text: string, maxWidth: number): string[] {
     const lines: string[] = [];
     let currentLine = '';
     

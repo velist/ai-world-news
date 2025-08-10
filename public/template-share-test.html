@@ -197,305 +197,174 @@
         
         let currentShareData = null;
 
-        // 模板分享图生成服务
+        // 基于用户模板的分享图生成服务
         class TemplateShareImageService {
             constructor() {
                 this.canvas = document.createElement('canvas');
                 this.ctx = this.canvas.getContext('2d');
+                this.templateImage = null;
                 
                 this.config = {
                     width: 800,
-                    height: 1200,
+                    height: 1280,
+                    
+                    titleArea: {
+                        x: 80,
+                        y: 80,
+                        fontSize: 42,
+                        fontFamily: '"Microsoft YaHei", "PingFang SC", sans-serif',
+                        fontWeight: 'bold',
+                        color: '#ffffff',
+                        textAlign: 'center'
+                    },
                     
                     contentArea: {
-                        x: 75,
-                        y: 240,
-                        width: 650,
-                        height: 450,
-                        borderRadius: 30,
-                        backgroundColor: '#ffffff',
-                        padding: 40
+                        x: 100,
+                        y: 300,
+                        width: 600,
+                        maxLines: 8,
+                        fontSize: 26,
+                        fontFamily: '"Microsoft YaHei", "PingFang SC", sans-serif',
+                        fontWeight: 'normal',
+                        color: '#333333',
+                        lineHeight: 40,
+                        textAlign: 'left'
                     },
                     
-                    bottomArea: {
-                        y: 1030,
-                        qrCode: {
-                            x: 103,
-                            y: 1033,
-                            width: 170,
-                            height: 170,
-                            backgroundColor: '#666666',
-                            borderRadius: 8
-                        },
-                        mascot: {
-                            x: 530,
-                            y: 1060
-                        },
-                        brand: {
-                            x: 640,
-                            y: 1120,
-                            text: 'AI推',
-                            subtitle: '国内外AI新闻推送'
-                        }
-                    },
-                    
-                    fonts: {
-                        title: {
-                            size: 50,
-                            color: '#ffffff',
-                            family: '"Microsoft YaHei", "PingFang SC", sans-serif',
-                            lineHeight: 70
-                        },
-                        content: {
-                            size: 28,
-                            color: '#333333',
-                            family: '"Microsoft YaHei", "PingFang SC", sans-serif',
-                            lineHeight: 42
-                        },
-                        qrText: {
-                            size: 18,
-                            color: '#666666',
-                            family: '"Microsoft YaHei", sans-serif'
-                        },
-                        brand: {
-                            size: 28,
-                            color: '#333333',
-                            family: '"Microsoft YaHei", sans-serif',
-                            weight: 'bold'
-                        },
-                        brandSubtitle: {
-                            size: 18,
-                            color: '#666666',
-                            family: '"Microsoft YaHei", sans-serif'
-                        }
+                    qrCodeArea: {
+                        x: 190,
+                        y: 1120,
+                        size: 140
                     }
                 };
             }
 
             async generateShareImage(newsData) {
-                this.canvas.width = this.config.width;
-                this.canvas.height = this.config.height;
-                
-                this.ctx.imageSmoothingEnabled = true;
-                this.ctx.imageSmoothingQuality = 'high';
-                
                 try {
-                    await this.drawBackground();
-                    this.drawTitleArea(newsData.title);
-                    this.drawContentCard(newsData.content);
-                    await this.drawBottomArea(newsData.id);
-                    this.drawBrandArea();
+                    await this.loadAndDrawTemplate();
+                    this.drawTitle(newsData.title);
+                    this.drawContent(newsData.content);
+                    await this.drawQRCode(newsData.id);
                     
                     return this.canvas.toDataURL('image/jpeg', 0.9);
-                    
                 } catch (error) {
                     console.error('分享图生成失败:', error);
                     throw new Error('分享图生成失败，请稍后重试');
                 }
             }
 
-            async drawBackground() {
-                const gradient = this.ctx.createLinearGradient(0, 0, 0, this.config.height);
-                gradient.addColorStop(0, '#4A90E2');
-                gradient.addColorStop(0.5, '#357ABD');
-                gradient.addColorStop(1, '#7FB3D3');
-                
-                this.ctx.fillStyle = gradient;
-                this.ctx.fillRect(0, 0, this.config.width, this.config.height);
-                
-                this.drawDecorativeCurves();
-            }
-
-            drawDecorativeCurves() {
-                this.ctx.save();
-                
-                this.ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
-                this.ctx.beginPath();
-                this.ctx.moveTo(0, 800);
-                this.ctx.quadraticCurveTo(400, 900, 800, 850);
-                this.ctx.lineTo(800, 1200);
-                this.ctx.lineTo(0, 1200);
-                this.ctx.closePath();
-                this.ctx.fill();
-                
-                this.ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
-                this.ctx.beginPath();
-                this.ctx.moveTo(600, 0);
-                this.ctx.quadraticCurveTo(750, 300, 650, 600);
-                this.ctx.lineTo(800, 600);
-                this.ctx.lineTo(800, 0);
-                this.ctx.closePath();
-                this.ctx.fill();
-                
-                this.ctx.restore();
-            }
-
-            drawTitleArea(title) {
-                const { fonts } = this.config;
-                
-                let displayTitle = title;
-                if (title.length > 12) {
-                    displayTitle = title.substring(0, 12);
+            async loadAndDrawTemplate() {
+                if (!this.templateImage) {
+                    this.templateImage = await this.loadImageWithTimeout('/share-template-blank.jpg', 10000);
                 }
                 
-                this.ctx.fillStyle = fonts.title.color;
-                this.ctx.font = `bold ${fonts.title.size}px ${fonts.title.family}`;
-                this.ctx.textAlign = 'center';
-                this.ctx.textBaseline = 'middle';
+                this.canvas.width = this.templateImage.width;
+                this.canvas.height = this.templateImage.height;
                 
-                this.ctx.fillText(displayTitle, this.config.width / 2, 140);
+                this.config.width = this.templateImage.width;
+                this.config.height = this.templateImage.height;
+                
+                this.ctx.imageSmoothingEnabled = true;
+                this.ctx.imageSmoothingQuality = 'high';
+                
+                this.ctx.drawImage(this.templateImage, 0, 0);
             }
 
-            drawContentCard(content) {
-                const { contentArea, fonts } = this.config;
+            drawTitle(title) {
+                const { titleArea } = this.config;
                 
-                this.drawRoundedRect(
-                    contentArea.x,
-                    contentArea.y,
-                    contentArea.width,
-                    contentArea.height,
-                    contentArea.borderRadius,
-                    contentArea.backgroundColor
-                );
+                this.ctx.fillStyle = titleArea.color;
+                this.ctx.font = `${titleArea.fontWeight} ${titleArea.fontSize}px ${titleArea.fontFamily}`;
+                this.ctx.textAlign = titleArea.textAlign;
+                this.ctx.textBaseline = 'middle';
                 
-                const maxContentLength = 120;
+                let displayTitle = title;
+                const maxTitleLength = Math.floor(this.config.width / 30);
+                if (title.length > maxTitleLength) {
+                    displayTitle = title.substring(0, maxTitleLength - 3) + '...';
+                }
+                
+                const centerX = this.config.width / 2;
+                this.ctx.fillText(displayTitle, centerX, titleArea.y);
+            }
+
+            drawContent(content) {
+                const { contentArea } = this.config;
+                
+                this.ctx.fillStyle = contentArea.color;
+                this.ctx.font = `${contentArea.fontWeight} ${contentArea.fontSize}px ${contentArea.fontFamily}`;
+                this.ctx.textAlign = contentArea.textAlign;
+                this.ctx.textBaseline = 'top';
+                
+                const maxContentLength = 180;
                 let displayContent = content;
                 if (content.length > maxContentLength) {
                     displayContent = content.substring(0, maxContentLength) + '...';
                 }
                 
-                this.ctx.fillStyle = fonts.content.color;
-                this.ctx.font = `${fonts.content.size}px ${fonts.content.family}`;
-                this.ctx.textAlign = 'left';
-                this.ctx.textBaseline = 'top';
+                const lines = this.wrapText(displayContent, contentArea.width);
                 
-                const lines = this.wrapText(
-                    displayContent,
-                    contentArea.width - contentArea.padding * 2,
-                    fonts.content.size
-                );
-                
-                const startY = contentArea.y + contentArea.padding;
-                lines.slice(0, 10).forEach((line, index) => {
-                    this.ctx.fillText(
-                        line,
-                        contentArea.x + contentArea.padding,
-                        startY + index * fonts.content.lineHeight
-                    );
-                });
-            }
-
-            async drawBottomArea(newsId) {
-                const { bottomArea } = this.config;
-                
-                this.drawRoundedRect(
-                    bottomArea.qrCode.x,
-                    bottomArea.qrCode.y,
-                    bottomArea.qrCode.width,
-                    bottomArea.qrCode.height,
-                    bottomArea.qrCode.borderRadius,
-                    bottomArea.qrCode.backgroundColor
-                );
-                
-                try {
-                    await this.drawQRCode(newsId);
-                } catch (error) {
-                    this.drawQRPlaceholder();
+                const maxLines = Math.min(lines.length, contentArea.maxLines);
+                for (let i = 0; i < maxLines; i++) {
+                    const y = contentArea.y + i * contentArea.lineHeight;
+                    this.ctx.fillText(lines[i], contentArea.x, y);
                 }
-                
-                this.ctx.fillStyle = this.config.fonts.qrText.color;
-                this.ctx.font = `${this.config.fonts.qrText.size}px ${this.config.fonts.qrText.family}`;
-                this.ctx.textAlign = 'center';
-                this.ctx.fillText(
-                    '长按识别二维码阅读新闻',
-                    bottomArea.qrCode.x + bottomArea.qrCode.width / 2,
-                    bottomArea.qrCode.y + bottomArea.qrCode.height + 25
-                );
             }
 
             async drawQRCode(newsId) {
-                const { bottomArea } = this.config;
-                const qrSize = 120;
+                const { qrCodeArea } = this.config;
                 
                 const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
                 
                 const qrApis = [
-                    `https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}x${qrSize}&data=${encodeURIComponent(newsUrl)}&format=png&margin=1&ecc=H`,
-                    `https://quickchart.io/qr?text=${encodeURIComponent(newsUrl)}&size=${qrSize}&format=png&ecLevel=H&margin=1`
+                    `https://api.qrserver.com/v1/create-qr-code/?size=${qrCodeArea.size}x${qrCodeArea.size}&data=${encodeURIComponent(newsUrl)}&format=png&margin=1&ecc=H`,
+                    `https://quickchart.io/qr?text=${encodeURIComponent(newsUrl)}&size=${qrCodeArea.size}&format=png&ecLevel=H&margin=1`
                 ];
+                
+                let qrGenerated = false;
                 
                 for (const apiUrl of qrApis) {
                     try {
-                        const img = await this.loadImageWithTimeout(apiUrl, 5000);
+                        const qrImage = await this.loadImageWithTimeout(apiUrl, 5000);
                         
-                        const qrX = bottomArea.qrCode.x + (bottomArea.qrCode.width - qrSize) / 2;
-                        const qrY = bottomArea.qrCode.y + (bottomArea.qrCode.height - qrSize) / 2;
+                        const qrX = qrCodeArea.x - qrCodeArea.size / 2;
+                        const qrY = qrCodeArea.y - qrCodeArea.size / 2;
                         
-                        this.ctx.drawImage(img, qrX, qrY, qrSize, qrSize);
-                        return;
+                        this.ctx.drawImage(qrImage, qrX, qrY, qrCodeArea.size, qrCodeArea.size);
+                        
+                        qrGenerated = true;
+                        break;
                     } catch (error) {
                         continue;
                     }
                 }
                 
-                throw new Error('所有二维码API都失败');
+                if (!qrGenerated) {
+                    this.drawQRCodePlaceholder();
+                }
             }
 
-            drawQRPlaceholder() {
-                const { bottomArea, fonts } = this.config;
+            drawQRCodePlaceholder() {
+                const { qrCodeArea } = this.config;
+                
+                const qrX = qrCodeArea.x - qrCodeArea.size / 2;
+                const qrY = qrCodeArea.y - qrCodeArea.size / 2;
                 
                 this.ctx.fillStyle = '#ffffff';
-                this.ctx.font = `bold 24px ${fonts.qrText.family}`;
+                this.ctx.fillRect(qrX, qrY, qrCodeArea.size, qrCodeArea.size);
+                
+                this.ctx.strokeStyle = '#000000';
+                this.ctx.lineWidth = 2;
+                this.ctx.strokeRect(qrX, qrY, qrCodeArea.size, qrCodeArea.size);
+                
+                this.ctx.fillStyle = '#666666';
+                this.ctx.font = 'bold 20px "Microsoft YaHei"';
                 this.ctx.textAlign = 'center';
                 this.ctx.textBaseline = 'middle';
-                
-                this.ctx.fillText(
-                    '二维码',
-                    bottomArea.qrCode.x + bottomArea.qrCode.width / 2,
-                    bottomArea.qrCode.y + bottomArea.qrCode.height / 2
-                );
+                this.ctx.fillText('二维码', qrCodeArea.x, qrCodeArea.y);
             }
 
-            drawBrandArea() {
-                const { bottomArea, fonts } = this.config;
-                
-                // 橙色吉祥物占位符
-                this.ctx.fillStyle = '#FF8C42';
-                this.ctx.beginPath();
-                this.ctx.arc(bottomArea.mascot.x, bottomArea.mascot.y, 25, 0, 2 * Math.PI);
-                this.ctx.fill();
-                
-                // 品牌名称
-                this.ctx.fillStyle = fonts.brand.color;
-                this.ctx.font = `bold ${fonts.brand.size}px ${fonts.brand.family}`;
-                this.ctx.textAlign = 'center';
-                this.ctx.fillText('AI推', bottomArea.brand.x, bottomArea.brand.y);
-                
-                // 品牌副标题
-                this.ctx.fillStyle = fonts.brandSubtitle.color;
-                this.ctx.font = `${fonts.brandSubtitle.size}px ${fonts.brandSubtitle.family}`;
-                this.ctx.fillText('国内外AI新闻推送', bottomArea.brand.x, bottomArea.brand.y + 25);
-            }
-
-            drawRoundedRect(x, y, width, height, radius, fillStyle) {
-                this.ctx.save();
-                this.ctx.fillStyle = fillStyle;
-                this.ctx.beginPath();
-                this.ctx.moveTo(x + radius, y);
-                this.ctx.lineTo(x + width - radius, y);
-                this.ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
-                this.ctx.lineTo(x + width, y + height - radius);
-                this.ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
-                this.ctx.lineTo(x + radius, y + height);
-                this.ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
-                this.ctx.lineTo(x, y + radius);
-                this.ctx.quadraticCurveTo(x, y, x + radius, y);
-                this.ctx.closePath();
-                this.ctx.fill();
-                this.ctx.restore();
-            }
-
-            wrapText(text, maxWidth, fontSize) {
+            wrapText(text, maxWidth) {
                 const lines = [];
                 let currentLine = '';
                 
