@@ -1,0 +1,604 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>模板分享图生成测试</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', sans-serif;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+        }
+        .test-container {
+            background: white;
+            padding: 30px;
+            border-radius: 16px;
+            box-shadow: 0 8px 32px rgba(0,0,0,0.1);
+            margin-bottom: 20px;
+        }
+        .preview-area {
+            display: flex;
+            gap: 30px;
+            align-items: flex-start;
+        }
+        .form-section {
+            flex: 1;
+            min-width: 350px;
+        }
+        .preview-section {
+            flex: 1;
+            text-align: center;
+        }
+        input, textarea {
+            width: 100%;
+            padding: 12px;
+            border: 2px solid #e1e5e9;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-size: 14px;
+            transition: border-color 0.3s;
+        }
+        input:focus, textarea:focus {
+            outline: none;
+            border-color: #4A90E2;
+        }
+        textarea {
+            height: 120px;
+            resize: vertical;
+            font-family: inherit;
+        }
+        button {
+            background: linear-gradient(135deg, #4A90E2 0%, #357ABD 100%);
+            color: white;
+            border: none;
+            padding: 14px 28px;
+            border-radius: 8px;
+            cursor: pointer;
+            font-size: 16px;
+            font-weight: 600;
+            width: 100%;
+            transition: transform 0.2s, box-shadow 0.2s;
+        }
+        button:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(74, 144, 226, 0.4);
+        }
+        button:active {
+            transform: translateY(0);
+        }
+        button:disabled {
+            background: #6c757d;
+            cursor: not-allowed;
+            transform: none;
+            box-shadow: none;
+        }
+        .share-preview {
+            max-width: 100%;
+            border: 2px solid #e1e5e9;
+            border-radius: 12px;
+            box-shadow: 0 4px 20px rgba(0,0,0,0.15);
+        }
+        .status {
+            padding: 15px;
+            border-radius: 8px;
+            margin: 15px 0;
+            font-weight: 500;
+        }
+        .success {
+            background: linear-gradient(135deg, #d4edda 0%, #c3e6cb 100%);
+            color: #155724;
+            border: 1px solid #c3e6cb;
+        }
+        .error {
+            background: linear-gradient(135deg, #f8d7da 0%, #f5c6cb 100%);
+            color: #721c24;
+            border: 1px solid #f5c6cb;
+        }
+        .loading {
+            background: linear-gradient(135deg, #cce7ff 0%, #b3d9ff 100%);
+            color: #0c5460;
+            border: 1px solid #bee5eb;
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-bottom: 30px;
+            font-size: 32px;
+            font-weight: 700;
+        }
+        .form-group {
+            margin-bottom: 25px;
+        }
+        label {
+            display: block;
+            margin-bottom: 8px;
+            font-weight: 600;
+            color: #555;
+            font-size: 15px;
+        }
+        .feature-badge {
+            display: inline-block;
+            background: linear-gradient(135deg, #FF6B6B 0%, #FF8E53 100%);
+            color: white;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            font-weight: 600;
+            margin-left: 10px;
+        }
+        .template-info {
+            background: #f8f9fa;
+            border-left: 4px solid #4A90E2;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 4px;
+        }
+    </style>
+</head>
+<body>
+    <h1>🎨 模板分享图生成器<span class="feature-badge">NEW</span></h1>
+    
+    <div class="template-info">
+        <strong>✨ 基于精美蓝色渐变模板</strong><br>
+        包含标题区域、内容卡片、二维码和品牌标识，完美适配社交媒体分享
+    </div>
+    
+    <div class="test-container">
+        <div class="preview-area">
+            <div class="form-section">
+                <div class="form-group">
+                    <label>🏷️ 新闻标题</label>
+                    <textarea id="titleInput" placeholder="输入新闻标题...">OpenAI发布GPT-5：性能飞跃式提升，多模态能力全面增强</textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>📝 新闻内容</label>
+                    <textarea id="contentInput" placeholder="输入新闻内容...">OpenAI今日正式发布了备受期待的GPT-5模型，这一里程碑式的更新带来了前所未有的性能提升。新模型在自然语言理解、推理能力和多模态处理方面都有显著进步，处理速度提升30%，准确性大幅增强。GPT-5支持更长的上下文长度，能够处理复杂的多轮对话，在编程、数学、科学研究等专业领域表现尤为突出。</textarea>
+                </div>
+                
+                <div class="form-group">
+                    <label>📅 发布时间</label>
+                    <input type="datetime-local" id="dateInput" />
+                </div>
+                
+                <div class="form-group">
+                    <label>📰 新闻来源</label>
+                    <input type="text" id="sourceInput" value="AI推-专注AI科技新闻" placeholder="输入新闻来源..." />
+                </div>
+                
+                <button onclick="generateTemplateShare()" id="generateBtn">
+                    🚀 生成精美分享图
+                </button>
+                
+                <div id="status"></div>
+            </div>
+            
+            <div class="preview-section">
+                <h3 style="color: #333; margin-bottom: 20px;">🖼️ 分享图预览</h3>
+                <div id="sharePreview">
+                    <p style="color: #999; padding: 60px 20px; background: #f8f9fa; border-radius: 12px; border: 2px dashed #dee2e6;">
+                        点击生成按钮查看精美分享图效果
+                    </p>
+                </div>
+                <button onclick="downloadShare()" id="downloadBtn" style="margin-top: 20px; display: none;">
+                    💾 下载分享图
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // 设置默认时间为当前时间
+        document.getElementById('dateInput').value = new Date().toISOString().slice(0, 16);
+        
+        let currentShareData = null;
+
+        // 模板分享图生成服务
+        class TemplateShareImageService {
+            constructor() {
+                this.canvas = document.createElement('canvas');
+                this.ctx = this.canvas.getContext('2d');
+                
+                this.config = {
+                    width: 800,
+                    height: 1200,
+                    
+                    contentArea: {
+                        x: 75,
+                        y: 240,
+                        width: 650,
+                        height: 450,
+                        borderRadius: 30,
+                        backgroundColor: '#ffffff',
+                        padding: 40
+                    },
+                    
+                    bottomArea: {
+                        y: 1030,
+                        qrCode: {
+                            x: 103,
+                            y: 1033,
+                            width: 170,
+                            height: 170,
+                            backgroundColor: '#666666',
+                            borderRadius: 8
+                        },
+                        mascot: {
+                            x: 530,
+                            y: 1060
+                        },
+                        brand: {
+                            x: 640,
+                            y: 1120,
+                            text: 'AI推',
+                            subtitle: '国内外AI新闻推送'
+                        }
+                    },
+                    
+                    fonts: {
+                        title: {
+                            size: 50,
+                            color: '#ffffff',
+                            family: '"Microsoft YaHei", "PingFang SC", sans-serif',
+                            lineHeight: 70
+                        },
+                        content: {
+                            size: 28,
+                            color: '#333333',
+                            family: '"Microsoft YaHei", "PingFang SC", sans-serif',
+                            lineHeight: 42
+                        },
+                        qrText: {
+                            size: 18,
+                            color: '#666666',
+                            family: '"Microsoft YaHei", sans-serif'
+                        },
+                        brand: {
+                            size: 28,
+                            color: '#333333',
+                            family: '"Microsoft YaHei", sans-serif',
+                            weight: 'bold'
+                        },
+                        brandSubtitle: {
+                            size: 18,
+                            color: '#666666',
+                            family: '"Microsoft YaHei", sans-serif'
+                        }
+                    }
+                };
+            }
+
+            async generateShareImage(newsData) {
+                this.canvas.width = this.config.width;
+                this.canvas.height = this.config.height;
+                
+                this.ctx.imageSmoothingEnabled = true;
+                this.ctx.imageSmoothingQuality = 'high';
+                
+                try {
+                    await this.drawBackground();
+                    this.drawTitleArea(newsData.title);
+                    this.drawContentCard(newsData.content);
+                    await this.drawBottomArea(newsData.id);
+                    this.drawBrandArea();
+                    
+                    return this.canvas.toDataURL('image/jpeg', 0.9);
+                    
+                } catch (error) {
+                    console.error('分享图生成失败:', error);
+                    throw new Error('分享图生成失败，请稍后重试');
+                }
+            }
+
+            async drawBackground() {
+                const gradient = this.ctx.createLinearGradient(0, 0, 0, this.config.height);
+                gradient.addColorStop(0, '#4A90E2');
+                gradient.addColorStop(0.5, '#357ABD');
+                gradient.addColorStop(1, '#7FB3D3');
+                
+                this.ctx.fillStyle = gradient;
+                this.ctx.fillRect(0, 0, this.config.width, this.config.height);
+                
+                this.drawDecorativeCurves();
+            }
+
+            drawDecorativeCurves() {
+                this.ctx.save();
+                
+                this.ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+                this.ctx.beginPath();
+                this.ctx.moveTo(0, 800);
+                this.ctx.quadraticCurveTo(400, 900, 800, 850);
+                this.ctx.lineTo(800, 1200);
+                this.ctx.lineTo(0, 1200);
+                this.ctx.closePath();
+                this.ctx.fill();
+                
+                this.ctx.fillStyle = 'rgba(255, 255, 255, 0.05)';
+                this.ctx.beginPath();
+                this.ctx.moveTo(600, 0);
+                this.ctx.quadraticCurveTo(750, 300, 650, 600);
+                this.ctx.lineTo(800, 600);
+                this.ctx.lineTo(800, 0);
+                this.ctx.closePath();
+                this.ctx.fill();
+                
+                this.ctx.restore();
+            }
+
+            drawTitleArea(title) {
+                const { fonts } = this.config;
+                
+                let displayTitle = title;
+                if (title.length > 12) {
+                    displayTitle = title.substring(0, 12);
+                }
+                
+                this.ctx.fillStyle = fonts.title.color;
+                this.ctx.font = `bold ${fonts.title.size}px ${fonts.title.family}`;
+                this.ctx.textAlign = 'center';
+                this.ctx.textBaseline = 'middle';
+                
+                this.ctx.fillText(displayTitle, this.config.width / 2, 140);
+            }
+
+            drawContentCard(content) {
+                const { contentArea, fonts } = this.config;
+                
+                this.drawRoundedRect(
+                    contentArea.x,
+                    contentArea.y,
+                    contentArea.width,
+                    contentArea.height,
+                    contentArea.borderRadius,
+                    contentArea.backgroundColor
+                );
+                
+                const maxContentLength = 120;
+                let displayContent = content;
+                if (content.length > maxContentLength) {
+                    displayContent = content.substring(0, maxContentLength) + '...';
+                }
+                
+                this.ctx.fillStyle = fonts.content.color;
+                this.ctx.font = `${fonts.content.size}px ${fonts.content.family}`;
+                this.ctx.textAlign = 'left';
+                this.ctx.textBaseline = 'top';
+                
+                const lines = this.wrapText(
+                    displayContent,
+                    contentArea.width - contentArea.padding * 2,
+                    fonts.content.size
+                );
+                
+                const startY = contentArea.y + contentArea.padding;
+                lines.slice(0, 10).forEach((line, index) => {
+                    this.ctx.fillText(
+                        line,
+                        contentArea.x + contentArea.padding,
+                        startY + index * fonts.content.lineHeight
+                    );
+                });
+            }
+
+            async drawBottomArea(newsId) {
+                const { bottomArea } = this.config;
+                
+                this.drawRoundedRect(
+                    bottomArea.qrCode.x,
+                    bottomArea.qrCode.y,
+                    bottomArea.qrCode.width,
+                    bottomArea.qrCode.height,
+                    bottomArea.qrCode.borderRadius,
+                    bottomArea.qrCode.backgroundColor
+                );
+                
+                try {
+                    await this.drawQRCode(newsId);
+                } catch (error) {
+                    this.drawQRPlaceholder();
+                }
+                
+                this.ctx.fillStyle = this.config.fonts.qrText.color;
+                this.ctx.font = `${this.config.fonts.qrText.size}px ${this.config.fonts.qrText.family}`;
+                this.ctx.textAlign = 'center';
+                this.ctx.fillText(
+                    '长按识别二维码阅读新闻',
+                    bottomArea.qrCode.x + bottomArea.qrCode.width / 2,
+                    bottomArea.qrCode.y + bottomArea.qrCode.height + 25
+                );
+            }
+
+            async drawQRCode(newsId) {
+                const { bottomArea } = this.config;
+                const qrSize = 120;
+                
+                const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
+                
+                const qrApis = [
+                    `https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}x${qrSize}&data=${encodeURIComponent(newsUrl)}&format=png&margin=1&ecc=H`,
+                    `https://quickchart.io/qr?text=${encodeURIComponent(newsUrl)}&size=${qrSize}&format=png&ecLevel=H&margin=1`
+                ];
+                
+                for (const apiUrl of qrApis) {
+                    try {
+                        const img = await this.loadImageWithTimeout(apiUrl, 5000);
+                        
+                        const qrX = bottomArea.qrCode.x + (bottomArea.qrCode.width - qrSize) / 2;
+                        const qrY = bottomArea.qrCode.y + (bottomArea.qrCode.height - qrSize) / 2;
+                        
+                        this.ctx.drawImage(img, qrX, qrY, qrSize, qrSize);
+                        return;
+                    } catch (error) {
+                        continue;
+                    }
+                }
+                
+                throw new Error('所有二维码API都失败');
+            }
+
+            drawQRPlaceholder() {
+                const { bottomArea, fonts } = this.config;
+                
+                this.ctx.fillStyle = '#ffffff';
+                this.ctx.font = `bold 24px ${fonts.qrText.family}`;
+                this.ctx.textAlign = 'center';
+                this.ctx.textBaseline = 'middle';
+                
+                this.ctx.fillText(
+                    '二维码',
+                    bottomArea.qrCode.x + bottomArea.qrCode.width / 2,
+                    bottomArea.qrCode.y + bottomArea.qrCode.height / 2
+                );
+            }
+
+            drawBrandArea() {
+                const { bottomArea, fonts } = this.config;
+                
+                // 橙色吉祥物占位符
+                this.ctx.fillStyle = '#FF8C42';
+                this.ctx.beginPath();
+                this.ctx.arc(bottomArea.mascot.x, bottomArea.mascot.y, 25, 0, 2 * Math.PI);
+                this.ctx.fill();
+                
+                // 品牌名称
+                this.ctx.fillStyle = fonts.brand.color;
+                this.ctx.font = `bold ${fonts.brand.size}px ${fonts.brand.family}`;
+                this.ctx.textAlign = 'center';
+                this.ctx.fillText('AI推', bottomArea.brand.x, bottomArea.brand.y);
+                
+                // 品牌副标题
+                this.ctx.fillStyle = fonts.brandSubtitle.color;
+                this.ctx.font = `${fonts.brandSubtitle.size}px ${fonts.brandSubtitle.family}`;
+                this.ctx.fillText('国内外AI新闻推送', bottomArea.brand.x, bottomArea.brand.y + 25);
+            }
+
+            drawRoundedRect(x, y, width, height, radius, fillStyle) {
+                this.ctx.save();
+                this.ctx.fillStyle = fillStyle;
+                this.ctx.beginPath();
+                this.ctx.moveTo(x + radius, y);
+                this.ctx.lineTo(x + width - radius, y);
+                this.ctx.quadraticCurveTo(x + width, y, x + width, y + radius);
+                this.ctx.lineTo(x + width, y + height - radius);
+                this.ctx.quadraticCurveTo(x + width, y + height, x + width - radius, y + height);
+                this.ctx.lineTo(x + radius, y + height);
+                this.ctx.quadraticCurveTo(x, y + height, x, y + height - radius);
+                this.ctx.lineTo(x, y + radius);
+                this.ctx.quadraticCurveTo(x, y, x + radius, y);
+                this.ctx.closePath();
+                this.ctx.fill();
+                this.ctx.restore();
+            }
+
+            wrapText(text, maxWidth, fontSize) {
+                const lines = [];
+                let currentLine = '';
+                
+                for (let i = 0; i < text.length; i++) {
+                    const testLine = currentLine + text[i];
+                    const metrics = this.ctx.measureText(testLine);
+                    
+                    if (metrics.width > maxWidth && currentLine !== '') {
+                        lines.push(currentLine);
+                        currentLine = text[i];
+                    } else {
+                        currentLine = testLine;
+                    }
+                }
+                
+                if (currentLine) {
+                    lines.push(currentLine);
+                }
+                
+                return lines;
+            }
+
+            loadImageWithTimeout(src, timeout = 5000) {
+                return new Promise((resolve, reject) => {
+                    const img = new Image();
+                    img.crossOrigin = 'anonymous';
+                    
+                    const timer = setTimeout(() => {
+                        reject(new Error('图片加载超时'));
+                    }, timeout);
+                    
+                    img.onload = () => {
+                        clearTimeout(timer);
+                        resolve(img);
+                    };
+                    
+                    img.onerror = () => {
+                        clearTimeout(timer);
+                        reject(new Error('图片加载失败'));
+                    };
+                    
+                    img.src = src;
+                });
+            }
+
+            downloadShareImage(dataUrl, filename = 'ai-news-share.jpg') {
+                const link = document.createElement('a');
+                link.download = filename;
+                link.href = dataUrl;
+                document.body.appendChild(link);
+                link.click();
+                document.body.removeChild(link);
+            }
+        }
+
+        const templateService = new TemplateShareImageService();
+
+        async function generateTemplateShare() {
+            const generateBtn = document.getElementById('generateBtn');
+            const status = document.getElementById('status');
+            const preview = document.getElementById('sharePreview');
+            const downloadBtn = document.getElementById('downloadBtn');
+            
+            if (generateBtn.disabled) return;
+            
+            generateBtn.disabled = true;
+            generateBtn.textContent = '🔄 生成中...';
+            status.innerHTML = '<div class="loading">⏳ 正在生成精美分享图，请稍候...</div>';
+            
+            try {
+                const newsData = {
+                    id: `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+                    title: document.getElementById('titleInput').value || '默认新闻标题',
+                    content: document.getElementById('contentInput').value || '默认新闻内容',
+                    publishedAt: document.getElementById('dateInput').value,
+                    source: document.getElementById('sourceInput').value || 'AI推'
+                };
+                
+                const imageResult = await templateService.generateShareImage(newsData);
+                currentShareData = { imageResult, newsData };
+                
+                preview.innerHTML = `<img src="${imageResult}" class="share-preview" alt="生成的分享图" />`;
+                status.innerHTML = '<div class="success">✅ 精美分享图生成成功！完美适配社交媒体分享</div>';
+                downloadBtn.style.display = 'block';
+                
+            } catch (error) {
+                status.innerHTML = '<div class="error">❌ 生成失败：' + error.message + '</div>';
+                preview.innerHTML = '<p style="color: #999; padding: 60px 20px; background: #f8f9fa; border-radius: 12px; border: 2px dashed #dee2e6;">生成失败，请重试</p>';
+                downloadBtn.style.display = 'none';
+            }
+            
+            generateBtn.disabled = false;
+            generateBtn.textContent = '🚀 生成精美分享图';
+        }
+
+        function downloadShare() {
+            if (!currentShareData) return;
+            
+            templateService.downloadShareImage(
+                currentShareData.imageResult, 
+                `AI推分享图_${currentShareData.newsData.title.substring(0, 15)}_${new Date().getTime()}.jpg`
+            );
+        }
+    </script>
+</body>
+</html>
