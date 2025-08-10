@@ -301,15 +301,41 @@
             }
 
             async loadTemplateBackground() {
-                // 加载真实的模板图片作为背景 - 使用GitHub Pages URL
-                const templateImg = await this.loadImageWithTimeout('https://velist.github.io/ai-world-news/share-template-blank.jpg', 10000);
+                console.log('🔍 开始加载模板图片...');
+                try {
+                    // 添加时间戳破坏缓存
+                    const timestamp = Date.now();
+                    const templateUrl = `https://velist.github.io/ai-world-news/share-template-blank.jpg?t=${timestamp}`;
+                    console.log('📡 模板图片URL:', templateUrl);
+                    
+                    const templateImg = await this.loadImageWithTimeout(templateUrl, 15000);
+                    console.log('✅ 模板图片加载成功，尺寸:', templateImg.width, 'x', templateImg.height);
+                    
+                    // 将模板图片绘制到canvas上
+                    this.ctx.drawImage(templateImg, 0, 0, this.config.width, this.config.height);
+                    console.log('🎨 模板背景绘制完成');
+                    
+                } catch (error) {
+                    console.error('❌ 模板图片加载失败:', error);
+                    // 如果模板加载失败，使用备用背景
+                    this.drawFallbackBackground();
+                }
+            }
+
+            drawFallbackBackground() {
+                console.log('🔄 使用备用蓝色背景');
+                const gradient = this.ctx.createLinearGradient(0, 0, 0, this.config.height);
+                gradient.addColorStop(0, '#4A90E2');
+                gradient.addColorStop(0.5, '#357ABD');
+                gradient.addColorStop(1, '#7FB3D3');
                 
-                // 将模板图片绘制到canvas上
-                this.ctx.drawImage(templateImg, 0, 0, this.config.width, this.config.height);
+                this.ctx.fillStyle = gradient;
+                this.ctx.fillRect(0, 0, this.config.width, this.config.height);
             }
 
             overlayTitle(title) {
                 const { fonts } = this.config;
+                console.log('📝 开始绘制标题:', title);
                 
                 // 在蓝色标题区域叠加标题
                 this.ctx.fillStyle = fonts.title.color;
@@ -328,8 +354,10 @@
                     
                     this.ctx.fillText(line1, this.config.width / 2, titleY - 30);
                     this.ctx.fillText(line2, this.config.width / 2, titleY + 30);
+                    console.log('📝 双行标题绘制完成');
                 } else {
                     this.ctx.fillText(title, this.config.width / 2, titleY);
+                    console.log('📝 单行标题绘制完成');
                 }
             }
 
