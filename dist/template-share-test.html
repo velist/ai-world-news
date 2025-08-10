@@ -208,9 +208,9 @@
                     height: 1200,
                     
                     contentArea: {
-                        x: 75,
+                        x: 40,
                         y: 240,
-                        width: 650,
+                        width: 720,
                         height: 450,
                         borderRadius: 30,
                         backgroundColor: '#ffffff',
@@ -220,10 +220,10 @@
                     bottomArea: {
                         y: 1030,
                         qrCode: {
-                            x: 103,
-                            y: 1033,
-                            width: 170,
-                            height: 170,
+                            x: 100,
+                            y: 1030,
+                            width: 180,
+                            height: 180,
                             backgroundColor: '#666666',
                             borderRadius: 8
                         },
@@ -241,16 +241,16 @@
                     
                     fonts: {
                         title: {
-                            size: 50,
+                            size: 96,
                             color: '#ffffff',
                             family: '"Microsoft YaHei", "PingFang SC", sans-serif',
-                            lineHeight: 70
+                            lineHeight: 110
                         },
                         content: {
-                            size: 28,
+                            size: 42,
                             color: '#333333',
                             family: '"Microsoft YaHei", "PingFang SC", sans-serif',
-                            lineHeight: 42
+                            lineHeight: 58
                         },
                         qrText: {
                             size: 18,
@@ -415,21 +415,21 @@
 
             async drawQRCode(newsId) {
                 const { bottomArea } = this.config;
-                const qrSize = 120;
+                const qrSize = 180;
                 
                 const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
                 
                 const qrApis = [
-                    `https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}x${qrSize}&data=${encodeURIComponent(newsUrl)}&format=png&margin=1&ecc=H`,
-                    `https://quickchart.io/qr?text=${encodeURIComponent(newsUrl)}&size=${qrSize}&format=png&ecLevel=H&margin=1`
+                    `https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}x${qrSize}&data=${encodeURIComponent(newsUrl)}&format=png&margin=0&ecc=H`,
+                    `https://quickchart.io/qr?text=${encodeURIComponent(newsUrl)}&size=${qrSize}&format=png&ecLevel=H&margin=0`
                 ];
                 
                 for (const apiUrl of qrApis) {
                     try {
                         const img = await this.loadImageWithTimeout(apiUrl, 5000);
                         
-                        const qrX = bottomArea.qrCode.x + (bottomArea.qrCode.width - qrSize) / 2;
-                        const qrY = bottomArea.qrCode.y + (bottomArea.qrCode.height - qrSize) / 2;
+                        const qrX = bottomArea.qrCode.x;
+                        const qrY = bottomArea.qrCode.y;
                         
                         this.ctx.drawImage(img, qrX, qrY, qrSize, qrSize);
                         return;
