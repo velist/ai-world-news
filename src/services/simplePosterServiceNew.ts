@@ -158,7 +158,7 @@ export class SimplePosterService {
   }
 
   /**
-   * 绘制二维码区域 - 修复版本
+   * 绘制二维码区域 - 修复版本，使用当前页面URL
    */
   private async drawQRCodeArea(newsId: string): Promise<void> {
     const { width, padding, qrSize } = this.templateConfig;
@@ -166,8 +166,15 @@ export class SimplePosterService {
     const qrY = 950;
     const qrX = padding;
     
-    // 构建URL
-    const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
+    // 使用当前页面URL或构建正确的新闻URL
+    let newsUrl: string;
+    if (typeof window !== 'undefined' && window.location) {
+      // 如果在浏览器环境中，使用当前页面URL
+      newsUrl = window.location.href;
+    } else {
+      // 备用方案：构建URL
+      newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
+    }
     
     // 使用最可靠的二维码API，增加错误纠正级别
     const qrApis = [
@@ -267,20 +274,24 @@ export class SimplePosterService {
   }
 
   /**
-   * 绘制右下角品牌logo
+   * 绘制右下角品牌logo - AI推风格
    */
   private drawBrandLogo(): void {
     const { width, height } = this.templateConfig;
     
-    // 红色背景矩形 (模拟头条logo)
+    // 红色背景矩形 (调整宽度以容纳更多文字)
     this.ctx.fillStyle = '#ff4757';
-    this.ctx.fillRect(width - 120, height - 80, 80, 40);
+    this.ctx.fillRect(width - 160, height - 100, 140, 80);
     
-    // 白色"头条"文字
+    // 白色"AI推"文字
     this.ctx.fillStyle = '#ffffff';
-    this.ctx.font = 'bold 18px "Microsoft YaHei", sans-serif';
+    this.ctx.font = 'bold 20px "Microsoft YaHei", sans-serif';
     this.ctx.textAlign = 'center';
-    this.ctx.fillText('头条', width - 80, height - 55);
+    this.ctx.fillText('AI推', width - 90, height - 70);
+    
+    // 网址文字
+    this.ctx.font = '12px "Microsoft YaHei", sans-serif';
+    this.ctx.fillText('news.aipush.fun', width - 90, height - 45);
   }
 
   /**

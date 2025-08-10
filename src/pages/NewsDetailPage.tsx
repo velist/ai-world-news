@@ -216,6 +216,7 @@ const NewsDetailPage = () => {
       </Helmet>
       
       <NewsDetail
+        id={id} // 传递新闻ID
         {...news}
         onBack={handleBack}
       />

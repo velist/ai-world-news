@@ -9,6 +9,7 @@ import { simplePosterService } from "@/services/simplePosterServiceNew";
 import { useState } from "react";
 
 interface NewsDetailProps {
+  id?: string; // 新闻ID，用于生成分享链接
   title: string;
   content: string;
   imageUrl: string;
@@ -22,6 +23,7 @@ interface NewsDetailProps {
 }
 
 export const NewsDetail = ({
+  id,
   title,
   content,
   imageUrl,
@@ -154,7 +156,7 @@ export const NewsDetail = ({
     setIsGeneratingPoster(true);
     try {
       const newsData = {
-        id: `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`,
+        id: id || `news_${Date.now()}_${Math.random().toString(36).substr(2, 9)}`, // 优先使用真实ID
         title: displayTitle,
         summary: content.substring(0, 150) + (content.length > 150 ? '...' : ''),
         publishedAt: publishedAt,
