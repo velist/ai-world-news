@@ -17,44 +17,45 @@ export class TemplateShareImageService {
   private ctx: CanvasRenderingContext2D;
   private templateImage: HTMLImageElement | null = null;
   
-  // 基于实际模板的坐标配置（需要根据实际模板调整）
+  // 基于实际模板的坐标配置（根据用户模板精确调整）
   private readonly config = {
     width: 800,  // 模板实际宽度
     height: 1280, // 模板实际高度
     
-    // 标题区域 (模板顶部白色文字区域)
+    // 标题区域 (模板顶部蓝色区域的白色文字)
     titleArea: {
       x: 80,
-      y: 80,
+      y: 130,  // 调整到蓝色区域内合适位置
       width: 640,
-      maxLines: 1,
-      fontSize: 42,
+      maxLines: 2, // 允许两行标题
+      fontSize: 36, // 减小字体避免超出
       fontFamily: '"Microsoft YaHei", "PingFang SC", sans-serif',
       fontWeight: 'bold',
       color: '#ffffff',
+      lineHeight: 50,
       textAlign: 'center' as CanvasTextAlign
     },
     
     // 内容区域 (模板中间白色卡片区域)
     contentArea: {
-      x: 100,  // 白色卡片内的左边距
-      y: 300,  // 白色卡片顶部位置
-      width: 600, // 可用文字宽度
-      height: 350, // 可用文字高度
-      maxLines: 8,
-      fontSize: 26,
+      x: 120,  // 白色卡片内的左边距
+      y: 320,  // 白色卡片顶部位置  
+      width: 560, // 可用文字宽度
+      height: 400, // 可用文字高度
+      maxLines: 10,
+      fontSize: 32,  // 增大字体
       fontFamily: '"Microsoft YaHei", "PingFang SC", sans-serif',
       fontWeight: 'normal',
       color: '#333333',
-      lineHeight: 40,
+      lineHeight: 45,
       textAlign: 'left' as CanvasTextAlign
     },
     
-    // 二维码区域 (模板左下角灰色区域)
+    // 二维码区域 (直接覆盖模板左下角的灰色占位符)
     qrCodeArea: {
-      x: 190,   // 二维码中心X (根据实际模板调整)
-      y: 1120,  // 二维码中心Y (根据实际模板调整)
-      size: 140 // 二维码尺寸
+      x: 192,   // 灰色占位符的中心X
+      y: 1120,  // 灰色占位符的中心Y
+      size: 150 // 二维码尺寸，稍微大一点覆盖占位符
     }
   };
 
@@ -119,7 +120,7 @@ export class TemplateShareImageService {
   }
 
   /**
-   * 在模板顶部绘制标题
+   * 在模板顶部绘制标题 - 支持多行
    */
   private drawTitle(title: string): void {
     const { titleArea } = this.config;
@@ -128,18 +129,20 @@ export class TemplateShareImageService {
     this.ctx.fillStyle = titleArea.color;
     this.ctx.font = `${titleArea.fontWeight} ${titleArea.fontSize}px ${titleArea.fontFamily}`;
     this.ctx.textAlign = titleArea.textAlign;
-    this.ctx.textBaseline = 'middle';
+    this.ctx.textBaseline = 'top';
     
-    // 标题长度限制，根据模板宽度调整
-    let displayTitle = title;
-    const maxTitleLength = Math.floor(this.config.width / 30); // 动态计算最大长度
-    if (title.length > maxTitleLength) {
-      displayTitle = title.substring(0, maxTitleLength - 3) + '...';
-    }
+    // 文字换行处理
+    const lines = this.wrapText(title, titleArea.width);
+    const maxLines = Math.min(lines.length, titleArea.maxLines);
     
-    // 居中绘制标题
+    // 居中绘制多行标题
     const centerX = this.config.width / 2;
-    this.ctx.fillText(displayTitle, centerX, titleArea.y);
+    const startY = titleArea.y;
+    
+    for (let i = 0; i < maxLines; i++) {
+      const y = startY + i * titleArea.lineHeight;
+      this.ctx.fillText(lines[i], centerX, y);
+    }
   }
 
   /**

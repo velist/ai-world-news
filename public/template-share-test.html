@@ -210,31 +210,34 @@
                     
                     titleArea: {
                         x: 80,
-                        y: 80,
-                        fontSize: 42,
+                        y: 130,
+                        width: 640,
+                        maxLines: 2,
+                        fontSize: 36,
                         fontFamily: '"Microsoft YaHei", "PingFang SC", sans-serif',
                         fontWeight: 'bold',
                         color: '#ffffff',
+                        lineHeight: 50,
                         textAlign: 'center'
                     },
                     
                     contentArea: {
-                        x: 100,
-                        y: 300,
-                        width: 600,
-                        maxLines: 8,
-                        fontSize: 26,
+                        x: 120,
+                        y: 320,
+                        width: 560,
+                        maxLines: 10,
+                        fontSize: 32,
                         fontFamily: '"Microsoft YaHei", "PingFang SC", sans-serif',
                         fontWeight: 'normal',
                         color: '#333333',
-                        lineHeight: 40,
+                        lineHeight: 45,
                         textAlign: 'left'
                     },
                     
                     qrCodeArea: {
-                        x: 190,
+                        x: 192,
                         y: 1120,
-                        size: 140
+                        size: 150
                     }
                 };
             }
@@ -276,16 +279,18 @@
                 this.ctx.fillStyle = titleArea.color;
                 this.ctx.font = `${titleArea.fontWeight} ${titleArea.fontSize}px ${titleArea.fontFamily}`;
                 this.ctx.textAlign = titleArea.textAlign;
-                this.ctx.textBaseline = 'middle';
+                this.ctx.textBaseline = 'top';
                 
-                let displayTitle = title;
-                const maxTitleLength = Math.floor(this.config.width / 30);
-                if (title.length > maxTitleLength) {
-                    displayTitle = title.substring(0, maxTitleLength - 3) + '...';
-                }
+                const lines = this.wrapText(title, titleArea.width);
+                const maxLines = Math.min(lines.length, titleArea.maxLines);
                 
                 const centerX = this.config.width / 2;
-                this.ctx.fillText(displayTitle, centerX, titleArea.y);
+                const startY = titleArea.y;
+                
+                for (let i = 0; i < maxLines; i++) {
+                    const y = startY + i * titleArea.lineHeight;
+                    this.ctx.fillText(lines[i], centerX, y);
+                }
             }
 
             drawContent(content) {
