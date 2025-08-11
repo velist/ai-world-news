@@ -115,50 +115,84 @@
     
     // 提取当前页面的新闻数据
     function extractNewsData() {
+        // 尝试从 URL 获取新闻ID
         const urlPath = window.location.hash || window.location.pathname;
         const newsIdMatch = urlPath.match(/news[\/:]([a-zA-Z0-9_-]+)/);
         const newsId = newsIdMatch ? newsIdMatch[1] : 'news_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
         
+        // 从页面提取标题
         let title = document.title;
         const h1 = document.querySelector('h1');
-        const titleElement = document.querySelector('.news-title, .article-title, [data-title]');
-        
-        if (h1 && h1.textContent.trim()) {
-            title = h1.textContent.trim();
-        } else if (titleElement && titleElement.textContent.trim()) {
-            title = titleElement.textContent.trim();
-        }
-        
-        title = title.replace(/\s*[\|\-]\s*AI推.*$/, '').trim();
-        if (!title || title.length < 5) {
-            title = 'OpenAI发布GPT-5：性能飞跃式提升，多模态能力全面增强';
-        }
-        
-        let summary = '';
-        const contentSelectors = [
-            '.news-content p:first-of-type',
-            '.article-content p:first-of-type', 
-            '[data-content] p:first-of-type',
-            'main p:first-of-type',
-            '.content p:first-of-type'
+        const titleSelectors = [
+            'h1',
+            '.news-title', 
+            '.article-title', 
+            '[data-title]',
+            'h2',
+            '.title'
         ];
         
-        for (const selector of contentSelectors) {
+        for (const selector of titleSelectors) {
             const element = document.querySelector(selector);
-            if (element && element.textContent.trim()) {
-                summary = element.textContent.trim();
+            if (element && element.textContent.trim() && element.textContent.trim().length > 5) {
+                title = element.textContent.trim();
                 break;
             }
         }
         
-        if (!summary || summary.length < 20) {
-            summary = 'OpenAI今日正式发布了备受期待的GPT-5模型，这一里程碑式的更新带来了前所未有的性能提升。新模型在自然语言理解、推理能力和多模态处理方面都有显著进步，处理速度提升30%，准确性大幅增强。';
+        // 清理标题
+        title = title.replace(/\s*[\|\-]\s*AI推.*$/, '').trim();
+        if (!title || title.length < 5) {
+            title = 'AI新闻分享';
         }
+        
+        // 从页面提取实际内容
+        let summary = '';
+        const contentSelectors = [
+            '.news-content p:not(:empty)',
+            '.article-content p:not(:empty)',
+            '[data-content] p:not(:empty)',
+            'main p:not(:empty)',
+            '.content p:not(:empty)',
+            'article p:not(:empty)',
+            'p:not(:empty)'
+        ];
+        
+        // 查找最适合的内容段落
+        for (const selector of contentSelectors) {
+            const elements = document.querySelectorAll(selector);
+            for (const element of elements) {
+                const text = element.textContent.trim();
+                // 跳过太短或明显是导航/元数据的内容
+                if (text.length > 50 && 
+                    !text.match(/^(\d{4}年\d{1,2}月\d{1,2}日|Published|Author|Source|Tags|标签|来源|作者|发布时间)/) &&
+                    !text.includes('返回') &&
+                    !text.includes('分享') &&
+                    !text.includes('点击') &&
+                    !text.includes('Copyright')) {
+                    summary = text;
+                    console.log('✅ 找到内容:', summary.substring(0, 100) + '...');
+                    break;
+                }
+            }
+            if (summary) break;
+        }
+        
+        // 如果没有找到内容，使用标题对应的默认内容
+        if (!summary || summary.length < 30) {
+            if (title.includes('AI') || title.includes('人工智能')) {
+                summary = '最新AI技术发展动态，人工智能领域的前沿资讯和深度分析。包括最新的模型发布、技术突破和行业趋势，为您带来最及时的AI新闻报道。';
+            } else {
+                summary = '最新科技资讯和深度分析，带您了解科技前沿动态和行业趋势。及时获取最新的技术发展和市场情报，为您的决策提供有价值的参考。';
+            }
+        }
+        
+        console.log('✅ 提取到的新闻数据:', { title: title.substring(0, 50), summary: summary.substring(0, 100) });
         
         return {
             id: newsId,
             title: title,
-            summary: summary.length > 160 ? summary.substring(0, 160) + '...' : summary,
+            summary: summary.length > 140 ? summary.substring(0, 140) + '...' : summary,
             publishedAt: new Date().toISOString(),
             source: 'AI推'
         };
@@ -210,12 +244,12 @@
         img.src = imageUrl;
         img.alt = '分享图';
         img.style.cssText = `
-            width: 480px;
+            width: 90vw;
+            max-width: 600px;
             height: auto;
             display: block;
             margin: 0 auto;
             border-radius: 8px;
-            max-width: 100%;
             box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         `;
         
