@@ -4,119 +4,121 @@
     
     console.log('🎯 分享功能增强脚本开始初始化');
     
-    // 立即禁用原有的分享弹窗函数
-    function disableOriginalSharePopup() {
-        // 重写可能存在的分享弹窗函数
-        if (window.showShareOptions) {
-            window.showShareOptions = function() {
-                console.log('🚫 原有分享弹窗已被禁用');
-                return;
-            };
-        }
+    // 立即劫持所有可能的分享相关函数
+    function hijackAllShareFunctions() {
+        // 保存原有的事件监听器函数，用于完全替换
+        const originalAddEventListener = EventTarget.prototype.addEventListener;
         
-        // 监听DOM变化，移除任何分享弹窗
-        const observer = new MutationObserver((mutations) => {
-            mutations.forEach((mutation) => {
-                mutation.addedNodes.forEach((node) => {
-                    if (node.nodeType === 1) { // Element node
-                        // 移除包含"选择分享方式"的弹窗
-                        if (node.innerHTML && node.innerHTML.includes('选择分享方式')) {
-                            console.log('🚫 检测到原有分享弹窗，立即移除');
-                            node.remove();
-                        }
-                        // 检查子节点
-                        const sharePopups = node.querySelectorAll('*');
-                        sharePopups.forEach(popup => {
-                            if (popup.innerHTML && popup.innerHTML.includes('选择分享方式')) {
-                                console.log('🚫 检测到子节点分享弹窗，立即移除');
-                                popup.remove();
-                            }
-                        });
+        // 重写addEventListener，拦截所有分享相关的事件监听
+        EventTarget.prototype.addEventListener = function(type, listener, options) {
+            if (type === 'click' && typeof listener === 'function') {
+                // 创建包装函数，检查是否是分享相关的点击
+                const wrappedListener = function(event) {
+                    const target = event.target;
+                    const isShareClick = (
+                        target.closest('[data-share]') ||
+                        target.closest('.share-button') ||
+                        target.closest('button[title*="分享"]') ||
+                        target.closest('button[aria-label*="分享"]') ||
+                        target.textContent?.includes('分享') ||
+                        target.innerHTML?.includes('分享') ||
+                        target.id?.includes('share') ||
+                        target.className?.includes('share')
+                    );
+                    
+                    if (isShareClick) {
+                        console.log('🚫 拦截到分享点击事件，阻止原有处理器');
+                        event.preventDefault();
+                        event.stopPropagation();
+                        event.stopImmediatePropagation();
+                        
+                        // 立即触发我们的分享逻辑
+                        handleDirectShare(target);
+                        return false;
                     }
-                });
-            });
-        });
-        
-        observer.observe(document.body, {
-            childList: true,
-            subtree: true
-        });
-        
-        console.log('✅ 原有分享弹窗监听器已设置');
-    }
-    
-    // 等待页面和服务加载完成
-    function waitForService(callback) {
-        if (window.templateShareService) {
-            callback();
-        } else {
-            setTimeout(() => waitForService(callback), 100);
-        }
-    }
-    
-    // 替换原有的分享功能
-    function enhanceShareFunction() {
-        waitForService(() => {
-            console.log('🎯 分享功能增强已加载');
-            
-            // 直接拦截所有点击事件，优先级最高
-            document.addEventListener('click', async function(event) {
-                // 检测分享按钮（包括各种可能的选择器）
-                const target = event.target;
-                const isShareButton = (
-                    target.closest('[data-share]') ||
-                    target.closest('.share-button') ||
-                    target.closest('button[title*="分享"]') ||
-                    target.closest('button[aria-label*="分享"]') ||
-                    target.textContent?.includes('分享') ||
-                    target.innerHTML?.includes('分享') ||
-                    target.id?.includes('share') ||
-                    target.className?.includes('share')
-                );
+                    
+                    // 非分享相关的点击，正常处理
+                    return listener.call(this, event);
+                };
                 
-                if (isShareButton) {
-                    // 立即阻止事件传播和默认行为
-                    event.preventDefault();
-                    event.stopPropagation();
-                    event.stopImmediatePropagation();
-                    
-                    console.log('🚀 拦截到分享按钮点击，直接生成分享图');
-                    
-                    try {
-                        // 获取当前页面信息
-                        const newsData = extractNewsData();
-                        
-                        if (!newsData) {
-                            console.warn('⚠️ 无法提取新闻数据');
-                            return;
-                        }
-                        
-                        // 显示生成中状态
-                        showGeneratingStatus(target);
-                        
-                        // 生成分享图
-                        const shareImageUrl = await window.templateShareService.generateShareImage(newsData);
-                        
-                        // 直接显示分享图
-                        showShareImage(shareImageUrl, newsData);
-                        
-                    } catch (error) {
-                        console.error('❌ 分享图生成失败:', error);
-                        showErrorMessage('分享图生成失败，请重试');
-                    }
+                return originalAddEventListener.call(this, type, wrappedListener, options);
+            }
+            
+            return originalAddEventListener.call(this, type, listener, options);
+        };
+        
+        // 立即禁用可能存在的分享函数
+        const shareMethodsToBlock = [
+            'showShareOptions',
+            'showShareModal', 
+            'openShareDialog',
+            'displayShareMenu',
+            'shareContent'
+        ];
+        
+        shareMethodsToBlock.forEach(methodName => {
+            if (window[methodName]) {
+                console.log(`🚫 禁用原有分享函数: ${methodName}`);
+                window[methodName] = () => {
+                    console.log(`🚫 ${methodName} 已被拦截`);
+                    return false;
+                };
+            }
+        });
+        
+        console.log('✅ 所有分享函数已被劫持');
+    }
+    
+    // 直接处理分享逻辑
+    async function handleDirectShare(button) {
+        console.log('🎯 开始直接分享处理');
+        
+        try {
+            // 等待templateShareService加载
+            await waitForTemplateService();
+            
+            // 提取新闻数据
+            const newsData = extractNewsData();
+            if (!newsData) {
+                showErrorMessage('无法提取新闻数据');
+                return;
+            }
+            
+            // 显示生成状态
+            showGeneratingStatus(button);
+            
+            // 生成分享图
+            const shareImageUrl = await window.templateShareService.generateShareImage(newsData);
+            
+            // 直接显示分享图
+            showShareImageDirect(shareImageUrl, newsData);
+            
+        } catch (error) {
+            console.error('❌ 直接分享处理失败:', error);
+            showErrorMessage('分享图生成失败，请重试');
+        }
+    }
+    
+    // 等待templateShareService服务
+    function waitForTemplateService() {
+        return new Promise((resolve) => {
+            function check() {
+                if (window.templateShareService) {
+                    resolve();
+                } else {
+                    setTimeout(check, 50);
                 }
-            });
+            }
+            check();
         });
     }
     
     // 提取当前页面的新闻数据
     function extractNewsData() {
-        // 尝试从URL获取新闻ID
         const urlPath = window.location.hash || window.location.pathname;
         const newsIdMatch = urlPath.match(/news[\/:]([a-zA-Z0-9_-]+)/);
         const newsId = newsIdMatch ? newsIdMatch[1] : 'news_' + Date.now() + '_' + Math.random().toString(36).substr(2, 9);
         
-        // 尝试从页面提取标题
         let title = document.title;
         const h1 = document.querySelector('h1');
         const titleElement = document.querySelector('.news-title, .article-title, [data-title]');
@@ -127,13 +129,11 @@
             title = titleElement.textContent.trim();
         }
         
-        // 清理标题
         title = title.replace(/\s*[\|\-]\s*AI推.*$/, '').trim();
         if (!title || title.length < 5) {
             title = 'OpenAI发布GPT-5：性能飞跃式提升，多模态能力全面增强';
         }
         
-        // 尝试提取内容摘要
         let summary = '';
         const contentSelectors = [
             '.news-content p:first-of-type',
@@ -151,9 +151,8 @@
             }
         }
         
-        // 如果没有找到摘要，使用默认内容
         if (!summary || summary.length < 20) {
-            summary = 'OpenAI今日正式发布了备受期待的GPT-5模型，这一里程碑式的更新带来了前所未有的性能提升。新模型在自然语言理解、推理能力和多模态处理方面都有显著进步，处理速度提升30%，准确性大幅增强。GPT-5支持更长的上下文长度，能够处理复杂的多轮对话，在编程、数学、科学研究等专业领域表现尤为突出。';
+            summary = 'OpenAI今日正式发布了备受期待的GPT-5模型，这一里程碑式的更新带来了前所未有的性能提升。新模型在自然语言理解、推理能力和多模态处理方面都有显著进步，处理速度提升30%，准确性大幅增强。';
         }
         
         return {
@@ -174,7 +173,6 @@
             button.textContent = '生成中...';
         }
         
-        // 3秒后恢复按钮状态
         setTimeout(() => {
             button.style.opacity = '1';
             button.style.pointerEvents = 'auto';
@@ -184,15 +182,13 @@
         }, 3000);
     }
     
-    // 直接显示分享图（移除弹窗）
-    function showShareImage(imageUrl, newsData) {
-        // 移除可能存在的旧分享图
+    // 直接显示分享图
+    function showShareImageDirect(imageUrl, newsData) {
         const existingImage = document.querySelector('.direct-share-image');
         if (existingImage) {
             existingImage.remove();
         }
         
-        // 创建分享图容器
         const shareContainer = document.createElement('div');
         shareContainer.className = 'direct-share-image';
         shareContainer.style.cssText = `
@@ -236,9 +232,11 @@
             font-size: 12px;
         `;
         
-        closeBtn.onclick = () => shareContainer.remove();
+        closeBtn.onclick = () => {
+            shareContainer.remove();
+            overlay.remove();
+        };
         
-        // 点击背景关闭
         const overlay = document.createElement('div');
         overlay.style.cssText = `
             position: fixed;
@@ -260,7 +258,7 @@
         document.body.appendChild(overlay);
         document.body.appendChild(shareContainer);
         
-        console.log('✅ 分享图已生成并显示');
+        console.log('✅ 分享图已直接生成并显示');
     }
     
     // 显示错误信息
@@ -283,20 +281,18 @@
         setTimeout(() => errorDiv.remove(), 3000);
     }
     
-    // 立即启动禁用原有弹窗功能
-    disableOriginalSharePopup();
+    // 立即启动劫持
+    hijackAllShareFunctions();
     
-    // 页面加载完成后初始化
+    // 页面加载完成后再次确保劫持生效
     if (document.readyState === 'loading') {
         document.addEventListener('DOMContentLoaded', () => {
-            disableOriginalSharePopup(); // 再次确保禁用
-            enhanceShareFunction();
+            setTimeout(hijackAllShareFunctions, 100);
         });
     } else {
-        disableOriginalSharePopup(); // 再次确保禁用
-        enhanceShareFunction();
+        setTimeout(hijackAllShareFunctions, 100);
     }
     
 })();
 
-console.log('🎯 分享功能增强脚本已加载 - 直接生成分享图，无弹窗');
+console.log('🔥 终极分享功能劫持脚本已加载 - 直接生成模板分享图');
