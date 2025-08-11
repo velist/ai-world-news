@@ -210,12 +210,13 @@
         img.src = imageUrl;
         img.alt = '分享图';
         img.style.cssText = `
-            width: 350px;
+            width: 400px;
             height: auto;
             display: block;
             margin: 0 auto;
             border-radius: 8px;
             max-width: 100%;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
         `;
         
         const closeBtn = document.createElement('button');
