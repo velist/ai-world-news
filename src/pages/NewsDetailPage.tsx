@@ -205,6 +205,13 @@ const NewsDetailPage = () => {
         <meta property="article:author" content={news.source} />
         <meta property="article:section" content={news.category} />
         
+        {/* Canonical URL - 解决Google索引问题 */}
+        <link rel="canonical" href={`https://news.aipush.fun/news/${news.id}`} />
+        
+        {/* SEO优化 */}
+        <meta name="robots" content="index,follow" />
+        <meta name="googlebot" content="index,follow" />
+        
         {/* 微信环境优化 */}
         {isWeChat && (
           <>

@@ -7,6 +7,32 @@ const GPT5PricingAnalysisPage = () => {
       <Helmet>
         <title>GPT-5定价策略深度分析 | OpenAI API收费标准完整指南2025 | AI推</title>
         <meta name="description" content="【2025最新】GPT-5 API定价策略全面解析：免费vs付费版本对比，开发者API接入成本分析，ChatGPT Plus/Pro订阅服务详解。" />
+        
+        {/* Canonical URL - 解决Google索引问题 */}
+        <link rel="canonical" href="https://news.aipush.fun/gpt5-pricing-analysis" />
+        
+        {/* SEO优化 */}
+        <meta name="robots" content="index,follow" />
+        <meta name="googlebot" content="index,follow" />
+        
+        {/* Open Graph / Facebook */}
+        <meta property="og:type" content="article" />
+        <meta property="og:url" content="https://news.aipush.fun/gpt5-pricing-analysis" />
+        <meta property="og:title" content="GPT-5定价策略深度分析 | OpenAI API收费标准完整指南2025" />
+        <meta property="og:description" content="【2025最新】GPT-5 API定价策略全面解析：免费vs付费版本对比，开发者API接入成本分析，ChatGPT Plus/Pro订阅服务详解。" />
+        <meta property="og:image" content="https://news.aipush.fun/favicon.svg" />
+        <meta property="og:site_name" content="AI推" />
+        
+        {/* Twitter */}
+        <meta name="twitter:card" content="summary_large_image" />
+        <meta name="twitter:url" content="https://news.aipush.fun/gpt5-pricing-analysis" />
+        <meta name="twitter:title" content="GPT-5定价策略深度分析 | OpenAI API收费标准完整指南2025" />
+        <meta name="twitter:description" content="【2025最新】GPT-5 API定价策略全面解析：免费vs付费版本对比，开发者API接入成本分析，ChatGPT Plus/Pro订阅服务详解。" />
+        <meta name="twitter:image" content="https://news.aipush.fun/favicon.svg" />
+        
+        {/* Article specific */}
+        <meta property="article:section" content="AI技术分析" />
+        <meta property="article:tag" content="GPT-5,OpenAI,API,定价,ChatGPT,人工智能" />
       </Helmet>
 
       <div className="min-h-screen bg-gray-50 py-8">

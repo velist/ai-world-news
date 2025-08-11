@@ -68,6 +68,13 @@ const Index = () => {
         <title>AI推 - 最新AI资讯聚合平台</title>
         <meta name="description" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
         
+        {/* Canonical URL - 解决Google索引问题 */}
+        <link rel="canonical" href="https://news.aipush.fun/" />
+        
+        {/* SEO优化 */}
+        <meta name="robots" content="index,follow" />
+        <meta name="googlebot" content="index,follow" />
+        
         {/* 微信分享专用标签 */}
         <meta name="wxcard:title" content="AI推 - 最新AI资讯聚合平台" />
         <meta name="wxcard:desc" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
