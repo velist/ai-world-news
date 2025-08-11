@@ -208,9 +208,8 @@
                 // 尝试加载模板图片的多个可能路径
                 const templatePaths = [
                     './新闻图分享示意-空白.jpg',
-                    './share-template-blank.jpg',
-                    '../新闻图分享示意-空白.jpg',
-                    '../share-template-blank.jpg'
+                    './share-template-blank.jpg', 
+                    '../新闻图分享示意-空白.jpg'
                 ];
                 
                 for (const path of templatePaths) {
@@ -229,37 +228,105 @@
                     }
                 }
                 
-                throw new Error('无法加载任何模板图片路径');
+                // 所有路径都失败，使用备用蓝色渐变背景
+                console.warn('❌ 无法加载任何模板图片，使用备用背景');
+                this.drawFallbackBackground();
+            }
+            
+            drawFallbackBackground() {
+                console.log('🔄 使用备用蓝色渐变背景');
+                const gradient = this.ctx.createLinearGradient(0, 0, 0, this.canvas.height);
+                gradient.addColorStop(0, '#4A90E2');
+                gradient.addColorStop(0.5, '#357ABD');
+                gradient.addColorStop(1, '#7FB3D3');
+                
+                this.ctx.fillStyle = gradient;
+                this.ctx.fillRect(0, 0, this.canvas.width, this.canvas.height);
+                
+                // 绘制白色内容卡片
+                this.ctx.fillStyle = '#ffffff';
+                this.ctx.fillRect(80, 240, 640, 480);
+                
+                // 绘制底部灰色二维码占位符
+                this.ctx.fillStyle = '#cccccc';
+                this.ctx.fillRect(105, 1038, 170, 170);
+                this.ctx.fillStyle = '#999999';
+                this.ctx.font = '18px Microsoft YaHei';
+                this.ctx.textAlign = 'center';
+                this.ctx.fillText('二维码', 190, 1128);
             }
 
             overlayTitleText(title) {
-                console.log('🎨 开始绘制标题文字 - 72px大字体');
+                console.log('🎨 开始绘制标题文字 - 完全匹配原始模板');
                 
                 this.ctx.fillStyle = '#ffffff';
-                this.ctx.font = 'bold 72px "Microsoft YaHei", "PingFang SC", sans-serif';
                 this.ctx.textAlign = 'center';
                 this.ctx.textBaseline = 'middle';
                 
-                // 标题区域：蓝色背景区域上方
-                const titleY = 120;
+                // 基于原始模板"标题内容"的精确位置
+                const titleY = 130;
                 
-                // 智能分行处理
-                const maxCharsPerLine = 15;
-                if (title.length > maxCharsPerLine) {
-                    const midPoint = title.indexOf('：') > 0 && title.indexOf('：') < maxCharsPerLine + 3 
-                        ? title.indexOf('：') + 1 
-                        : Math.floor(title.length / 2);
+                // 智能字体大小：根据标题长度调整
+                let fontSize = 48;
+                if (title.length > 30) fontSize = 36;
+                else if (title.length > 20) fontSize = 42;
+                
+                this.ctx.font = `bold ${fontSize}px "Microsoft YaHei", "PingFang SC", sans-serif`;
+                
+                // 检查是否需要分行 - 基于像素宽度而非字符数
+                const maxWidth = 640; // 蓝色区域可用宽度
+                const titleWidth = this.ctx.measureText(title).width;
+                
+                if (titleWidth > maxWidth) {
+                    // 智能分行：优先在标点处分行
+                    let splitIndex = title.indexOf('：');
+                    if (splitIndex === -1 || splitIndex > title.length * 0.7) {
+                        splitIndex = Math.floor(title.length / 2);
+                    } else {
+                        splitIndex += 1; // 冒号后分行
+                    }
                     
-                    const line1 = title.substring(0, midPoint).trim();
-                    const line2 = title.substring(midPoint).trim();
+                    const line1 = title.substring(0, splitIndex).trim();
+                    const line2 = title.substring(splitIndex).trim();
                     
-                    this.ctx.fillText(line1, 400, titleY - 40);
-                    this.ctx.fillText(line2, 400, titleY + 40);
-                    console.log(`📝 标题分为两行: "${line1}" 和 "${line2}"`);
+                    // 再次检查分行后的宽度
+                    const line1Width = this.ctx.measureText(line1).width;
+                    const line2Width = this.ctx.measureText(line2).width;
+                    
+                    if (line1Width > maxWidth || line2Width > maxWidth) {
+                        fontSize = Math.max(32, fontSize - 6);
+                        this.ctx.font = `bold ${fontSize}px "Microsoft YaHei", "PingFang SC", sans-serif`;
+                    }
+                    
+                    // 绘制两行标题
+                    this.ctx.fillText(line1, 400, titleY - 25);
+                    this.ctx.fillText(line2, 400, titleY + 25);
+                    console.log(`📝 双行标题(${fontSize}px): "${line1}" | "${line2}"`);
                 } else {
+                    // 单行标题
                     this.ctx.fillText(title, 400, titleY);
-                    console.log(`📝 单行标题: "${title}"`);
+                    console.log(`📝 单行标题(${fontSize}px): "${title}"`);
                 }
+            }
+            
+            findBestSplitPoint(title, maxWidth) {
+                // 寻找最佳分割点，确保两行都不超宽
+                let bestSplit = Math.floor(title.length / 2);
+                
+                for (let i = Math.floor(title.length * 0.4); i <= Math.floor(title.length * 0.6); i++) {
+                    const line1 = title.substring(0, i);
+                    const line2 = title.substring(i);
+                    
+                    const line1Width = this.ctx.measureText(line1).width;
+                    const line2Width = this.ctx.measureText(line2).width;
+                    
+                    if (line1Width <= maxWidth && line2Width <= maxWidth) {
+                        bestSplit = i;
+                        break;
+                    }
+                }
+                
+                return bestSplit;
             }
 
             overlayContentText(content) {
@@ -295,16 +362,17 @@
             }
 
             async overlayQRCode(newsId) {
-                console.log('🔲 开始生成二维码 - 175px大尺寸完全覆盖');
+                console.log('🔲 开始生成二维码 - 精确替换原始模板灰色占位符');
                 
-                // 精确定位二维码，完全覆盖灰色占位符
-                const qrSize = 175;
-                const qrX = 103;
-                const qrY = 1035;
+                // 基于原始模板中灰色"二维码"占位符的精确位置
+                const qrSize = 170;      // 完全覆盖灰色占位符
+                const qrX = 105;         // 灰色占位符的左上角X
+                const qrY = 1038;        // 灰色占位符的左上角Y
                 
                 const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
                 console.log(`🔗 二维码URL: ${newsUrl}`);
-                console.log(`📍 二维码位置: (${qrX}, ${qrY})，尺寸: ${qrSize}x${qrSize}`);
+                console.log(`📍 二维码精确位置: (${qrX}, ${qrY})，尺寸: ${qrSize}x${qrSize}`);
+                console.log(`🎯 定位策略: 左下角放置，避开右下角小猫品牌标识`);
                 
                 const qrApis = [
                     `https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}x${qrSize}&data=${encodeURIComponent(newsUrl)}&format=png&margin=0&ecc=H&color=000000&bgcolor=ffffff`,
@@ -316,9 +384,9 @@
                         console.log(`🌐 尝试二维码API: ${apiUrl.split('?')[0]}`);
                         const qrImg = await this.loadImageWithTimeout(apiUrl, 6000);
                         
-                        // 直接覆盖到灰色二维码占位符上
+                        // 精确绘制到左下角位置
                         this.ctx.drawImage(qrImg, qrX, qrY, qrSize, qrSize);
-                        console.log(`✅ 二维码生成成功，完全覆盖占位符`);
+                        console.log(`✅ 二维码精确定位成功，完美避开品牌标识`);
                         return;
                         
                     } catch (error) {
@@ -328,10 +396,12 @@
                 }
                 
                 console.log('⚠️ 所有二维码API都失败，显示占位符');
-                this.ctx.fillStyle = '#ffffff';
-                this.ctx.font = 'bold 20px "Microsoft YaHei"';
+                this.ctx.fillStyle = '#cccccc';
+                this.ctx.fillRect(qrX, qrY, qrSize, qrSize);
+                this.ctx.fillStyle = '#666666';
+                this.ctx.font = 'bold 16px "Microsoft YaHei"';
                 this.ctx.textAlign = 'center';
-                this.ctx.fillText('二维码生成中', qrX + qrSize/2, qrY + qrSize/2);
+                this.ctx.fillText('二维码', qrX + qrSize/2, qrY + qrSize/2);
             }
 
             wrapText(text, maxWidth) {
