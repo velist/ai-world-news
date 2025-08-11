@@ -97,20 +97,23 @@ class TemplateShareService {
     }
 
     overlayContentText(content) {
+        // 内容文字 - 显示在白色卡片内
         this.ctx.fillStyle = '#333333';
-        this.ctx.font = '32px "Microsoft YaHei", "PingFang SC", sans-serif';
+        this.ctx.font = '30px "Microsoft YaHei", "PingFang SC", sans-serif'; // 稍微减小字体
         this.ctx.textAlign = 'left';
         this.ctx.textBaseline = 'top';
         
-        const contentX = 120;
-        const contentY = 320;
-        const maxWidth = 560;
-        const lineHeight = 45;
+        // 根据模板调整内容位置 - 白色卡片内部
+        const contentX = 120; // 靠左对齐
+        const contentY = 300; // 稍微上移以匹配模板
+        const maxWidth = 560; // 限制最大宽度
+        const lineHeight = 42; // 稍微减小行高
         
-        let displayContent = content.length > 160 ? content.substring(0, 160) + '...' : content;
+        let displayContent = content.length > 150 ? content.substring(0, 150) + '...' : content; // 缩短内容
         const lines = this.wrapText(displayContent, maxWidth);
         
-        lines.slice(0, 8).forEach((line, index) => {
+        // 最多显示7行，确保不超出白色卡片范围
+        lines.slice(0, 7).forEach((line, index) => {
             this.ctx.fillText(line, contentX, contentY + (index * lineHeight));
         });
     }
