@@ -198,11 +198,11 @@
             transform: translate(-50%, -50%);
             z-index: 10000;
             background: white;
-            padding: 15px;
+            padding: 10px;
             border-radius: 12px;
             box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-            max-width: 95vw;
-            max-height: 95vh;
+            max-width: 98vw;
+            max-height: 98vh;
             overflow: auto;
         `;
         
@@ -210,7 +210,7 @@
         img.src = imageUrl;
         img.alt = '分享图';
         img.style.cssText = `
-            width: 400px;
+            width: 480px;
             height: auto;
             display: block;
             margin: 0 auto;
