@@ -302,24 +302,37 @@
 
             async loadTemplateBackground() {
                 console.log('🔍 开始加载模板图片...');
-                try {
-                    // 添加时间戳破坏缓存
-                    const timestamp = Date.now();
-                    const templateUrl = `https://velist.github.io/ai-world-news/share-template-blank.jpg?t=${timestamp}`;
-                    console.log('📡 模板图片URL:', templateUrl);
-                    
-                    const templateImg = await this.loadImageWithTimeout(templateUrl, 15000);
-                    console.log('✅ 模板图片加载成功，尺寸:', templateImg.width, 'x', templateImg.height);
-                    
-                    // 将模板图片绘制到canvas上
-                    this.ctx.drawImage(templateImg, 0, 0, this.config.width, this.config.height);
-                    console.log('🎨 模板背景绘制完成');
-                    
-                } catch (error) {
-                    console.error('❌ 模板图片加载失败:', error);
-                    // 如果模板加载失败，使用备用背景
-                    this.drawFallbackBackground();
+                
+                // 尝试多个可能的模板路径和方法
+                const templateUrls = [
+                    './share-template-blank.jpg',  // 原始路径
+                    '/share-template-blank.jpg',   // 绝对路径
+                    './新闻图分享示意-空白.jpg',      // 用户期望的模板名称
+                    '/新闻图分享示意-空白.jpg'       // 用户期望的模板绝对路径
+                ];
+                
+                for (const templateUrl of templateUrls) {
+                    try {
+                        console.log(`📡 尝试加载模板图片URL: ${templateUrl}`);
+                        
+                        // 不使用时间戳破坏缓存，避免404错误
+                        const templateImg = await this.loadImageWithTimeout(templateUrl, 10000);
+                        console.log(`✅ 模板图片加载成功！路径: ${templateUrl}, 尺寸: ${templateImg.width} x ${templateImg.height}`);
+                        
+                        // 将模板图片绘制到canvas上，确保完全覆盖
+                        this.ctx.drawImage(templateImg, 0, 0, this.config.width, this.config.height);
+                        console.log('🎨 模板背景绘制完成');
+                        return; // 成功加载，退出方法
+                        
+                    } catch (error) {
+                        console.warn(`⚠️ 模板加载失败 [${templateUrl}]:`, error.message);
+                        continue; // 尝试下一个URL
+                    }
                 }
+                
+                // 所有模板路径都失败，使用备用背景
+                console.error('❌ 所有模板图片路径都加载失败，使用备用蓝色背景');
+                this.drawFallbackBackground();
             }
 
             drawFallbackBackground() {
@@ -460,25 +473,30 @@
                 return lines;
             }
 
-            loadImageWithTimeout(src, timeout = 5000) {
+            loadImageWithTimeout(src, timeout = 10000) {
                 return new Promise((resolve, reject) => {
                     const img = new Image();
+                    
+                    // 重要：设置跨域属性 - 匿名访问以避免跨域问题
                     img.crossOrigin = 'anonymous';
                     
                     const timer = setTimeout(() => {
-                        reject(new Error('图片加载超时'));
+                        reject(new Error(`图片加载超时: ${src}`));
                     }, timeout);
                     
                     img.onload = () => {
                         clearTimeout(timer);
+                        console.log(`🖼️ 图片加载成功: ${src} (${img.width}×${img.height})`);
                         resolve(img);
                     };
                     
                     img.onerror = () => {
                         clearTimeout(timer);
-                        reject(new Error('图片加载失败'));
+                        reject(new Error(`图片加载失败: ${src}`));
                     };
                     
+                    // 添加额外的调试信息
+                    console.log(`🚀 开始加载图片: ${src}`);
                     img.src = src;
                 });
             }

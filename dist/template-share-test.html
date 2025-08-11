@@ -305,7 +305,7 @@
                 try {
                     // 添加时间戳破坏缓存
                     const timestamp = Date.now();
-                    const templateUrl = `https://velist.github.io/ai-world-news/share-template-blank.jpg?t=${timestamp}`;
+                    const templateUrl = `./share-template-blank.jpg?t=${timestamp}`;
                     console.log('📡 模板图片URL:', templateUrl);
                     
                     const templateImg = await this.loadImageWithTimeout(templateUrl, 15000);
