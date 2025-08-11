@@ -22,21 +22,26 @@ class TemplateShareService {
 
     async loadTemplateBackground() {
         const templatePaths = [
-            './新闻图分享示意-空白.jpg',
+            '/新闻图分享示意-空白.jpg',  // 绝对路径
+            '/share-template-blank.jpg',
+            './新闻图分享示意-空白.jpg', // 相对路径备用
             './share-template-blank.jpg'
         ];
         
         for (const path of templatePaths) {
             try {
-                const templateImg = await this.loadImageWithTimeout(path, 8000);
+                console.log(`🔍 尝试加载模板: ${path}`);
+                const templateImg = await this.loadImageWithTimeout(path, 10000); // 增加超时时间
                 this.ctx.drawImage(templateImg, 0, 0, 800, 1200);
                 console.log(`✅ 模板加载成功: ${path}`);
                 return;
             } catch (error) {
+                console.warn(`⚠️ 模板加载失败: ${path} - ${error.message}`);
                 continue;
             }
         }
         
+        console.error('❌ 所有模板加载失败，使用备用背景');
         // 所有模板加载失败，使用备用背景
         this.drawFallbackBackground();
     }
