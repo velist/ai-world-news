@@ -2,6 +2,49 @@
 (function() {
     'use strict';
     
+    console.log('🎯 分享功能增强脚本开始初始化');
+    
+    // 立即禁用原有的分享弹窗函数
+    function disableOriginalSharePopup() {
+        // 重写可能存在的分享弹窗函数
+        if (window.showShareOptions) {
+            window.showShareOptions = function() {
+                console.log('🚫 原有分享弹窗已被禁用');
+                return;
+            };
+        }
+        
+        // 监听DOM变化，移除任何分享弹窗
+        const observer = new MutationObserver((mutations) => {
+            mutations.forEach((mutation) => {
+                mutation.addedNodes.forEach((node) => {
+                    if (node.nodeType === 1) { // Element node
+                        // 移除包含"选择分享方式"的弹窗
+                        if (node.innerHTML && node.innerHTML.includes('选择分享方式')) {
+                            console.log('🚫 检测到原有分享弹窗，立即移除');
+                            node.remove();
+                        }
+                        // 检查子节点
+                        const sharePopups = node.querySelectorAll('*');
+                        sharePopups.forEach(popup => {
+                            if (popup.innerHTML && popup.innerHTML.includes('选择分享方式')) {
+                                console.log('🚫 检测到子节点分享弹窗，立即移除');
+                                popup.remove();
+                            }
+                        });
+                    }
+                });
+            });
+        });
+        
+        observer.observe(document.body, {
+            childList: true,
+            subtree: true
+        });
+        
+        console.log('✅ 原有分享弹窗监听器已设置');
+    }
+    
     // 等待页面和服务加载完成
     function waitForService(callback) {
         if (window.templateShareService) {
@@ -16,15 +59,28 @@
         waitForService(() => {
             console.log('🎯 分享功能增强已加载');
             
-            // 监听所有分享按钮点击
+            // 直接拦截所有点击事件，优先级最高
             document.addEventListener('click', async function(event) {
-                const shareButton = event.target.closest('[data-share], .share-button, button[title*="分享"], button[aria-label*="分享"]');
+                // 检测分享按钮（包括各种可能的选择器）
+                const target = event.target;
+                const isShareButton = (
+                    target.closest('[data-share]') ||
+                    target.closest('.share-button') ||
+                    target.closest('button[title*="分享"]') ||
+                    target.closest('button[aria-label*="分享"]') ||
+                    target.textContent?.includes('分享') ||
+                    target.innerHTML?.includes('分享') ||
+                    target.id?.includes('share') ||
+                    target.className?.includes('share')
+                );
                 
-                if (shareButton) {
+                if (isShareButton) {
+                    // 立即阻止事件传播和默认行为
                     event.preventDefault();
                     event.stopPropagation();
+                    event.stopImmediatePropagation();
                     
-                    console.log('🚀 点击分享按钮，开始生成分享图');
+                    console.log('🚀 拦截到分享按钮点击，直接生成分享图');
                     
                     try {
                         // 获取当前页面信息
@@ -36,7 +92,7 @@
                         }
                         
                         // 显示生成中状态
-                        showGeneratingStatus(shareButton);
+                        showGeneratingStatus(target);
                         
                         // 生成分享图
                         const shareImageUrl = await window.templateShareService.generateShareImage(newsData);
@@ -227,10 +283,17 @@
         setTimeout(() => errorDiv.remove(), 3000);
     }
     
+    // 立即启动禁用原有弹窗功能
+    disableOriginalSharePopup();
+    
     // 页面加载完成后初始化
     if (document.readyState === 'loading') {
-        document.addEventListener('DOMContentLoaded', enhanceShareFunction);
+        document.addEventListener('DOMContentLoaded', () => {
+            disableOriginalSharePopup(); // 再次确保禁用
+            enhanceShareFunction();
+        });
     } else {
+        disableOriginalSharePopup(); // 再次确保禁用
         enhanceShareFunction();
     }
     
