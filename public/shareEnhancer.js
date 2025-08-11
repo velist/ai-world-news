@@ -182,7 +182,7 @@
         }, 3000);
     }
     
-    // 直接显示分享图
+    // 直接显示分享图 - 增大显示尺寸
     function showShareImageDirect(imageUrl, newsData) {
         const existingImage = document.querySelector('.direct-share-image');
         if (existingImage) {
@@ -198,11 +198,11 @@
             transform: translate(-50%, -50%);
             z-index: 10000;
             background: white;
-            padding: 20px;
+            padding: 15px;
             border-radius: 12px;
             box-shadow: 0 8px 32px rgba(0,0,0,0.3);
-            max-width: 90vw;
-            max-height: 90vh;
+            max-width: 95vw;
+            max-height: 95vh;
             overflow: auto;
         `;
         
@@ -210,11 +210,12 @@
         img.src = imageUrl;
         img.alt = '分享图';
         img.style.cssText = `
-            max-width: 100%;
+            width: 350px;
             height: auto;
             display: block;
             margin: 0 auto;
             border-radius: 8px;
+            max-width: 100%;
         `;
         
         const closeBtn = document.createElement('button');
@@ -226,10 +227,11 @@
             background: #ff4757;
             color: white;
             border: none;
-            padding: 5px 10px;
-            border-radius: 4px;
+            padding: 8px 12px;
+            border-radius: 6px;
             cursor: pointer;
-            font-size: 12px;
+            font-size: 14px;
+            font-weight: 500;
         `;
         
         closeBtn.onclick = () => {
@@ -244,7 +246,7 @@
             left: 0;
             width: 100%;
             height: 100%;
-            background: rgba(0,0,0,0.5);
+            background: rgba(0,0,0,0.6);
             z-index: 9999;
         `;
         overlay.onclick = () => {
@@ -258,7 +260,7 @@
         document.body.appendChild(overlay);
         document.body.appendChild(shareContainer);
         
-        console.log('✅ 分享图已直接生成并显示');
+        console.log('✅ 分享图已直接生成并显示（增大尺寸）');
     }
     
     // 显示错误信息
