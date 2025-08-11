@@ -140,7 +140,7 @@
     </style>
 </head>
 <body>
-    <h1>🎯 真实模板分享图生成器 - 终极版 v5.0 [强制更新] <span class="feature-badge">FIXED</span></h1>
+    <h1>🎨 模板分享图生成器<span class="feature-badge">NEW</span></h1>
     
     <div class="template-info">
         <strong>✨ 基于精美蓝色渐变模板</strong><br>
@@ -197,495 +197,176 @@
         
         let currentShareData = null;
 
-        // 模板分享图生成服务
+        // 基于用户模板的分享图生成服务
         class TemplateShareImageService {
             constructor() {
                 this.canvas = document.createElement('canvas');
                 this.ctx = this.canvas.getContext('2d');
+                this.templateImage = null;
                 
                 this.config = {
                     width: 800,
-                    height: 1200,
+                    height: 1280,
+                    
+                    titleArea: {
+                        x: 80,
+                        y: 130,
+                        width: 640,
+                        maxLines: 2,
+                        fontSize: 36,
+                        fontFamily: '"Microsoft YaHei", "PingFang SC", sans-serif',
+                        fontWeight: 'bold',
+                        color: '#ffffff',
+                        lineHeight: 50,
+                        textAlign: 'center'
+                    },
                     
                     contentArea: {
-                        x: 40,
-                        y: 240,
-                        width: 720,
-                        height: 450,
-                        borderRadius: 30,
-                        backgroundColor: '#ffffff',
-                        padding: 40
+                        x: 120,
+                        y: 320,
+                        width: 560,
+                        maxLines: 10,
+                        fontSize: 32,
+                        fontFamily: '"Microsoft YaHei", "PingFang SC", sans-serif',
+                        fontWeight: 'normal',
+                        color: '#333333',
+                        lineHeight: 45,
+                        textAlign: 'left'
                     },
                     
-                    bottomArea: {
-                        y: 1030,
-                        qrCode: {
-                            x: 100,
-                            y: 1030,
-                            width: 180,
-                            height: 180,
-                            backgroundColor: '#666666',
-                            borderRadius: 8
-                        },
-                        mascot: {
-                            x: 530,
-                            y: 1060
-                        },
-                        brand: {
-                            x: 640,
-                            y: 1120,
-                            text: 'AI推',
-                            subtitle: '国内外AI新闻推送'
-                        }
-                    },
-                    
-                    fonts: {
-                        title: {
-                            size: 96,
-                            color: '#ffffff',
-                            family: '"Microsoft YaHei", "PingFang SC", sans-serif',
-                            lineHeight: 110
-                        },
-                        content: {
-                            size: 42,
-                            color: '#333333',
-                            family: '"Microsoft YaHei", "PingFang SC", sans-serif',
-                            lineHeight: 58
-                        },
-                        qrText: {
-                            size: 18,
-                            color: '#666666',
-                            family: '"Microsoft YaHei", sans-serif'
-                        },
-                        brand: {
-                            size: 28,
-                            color: '#333333',
-                            family: '"Microsoft YaHei", sans-serif',
-                            weight: 'bold'
-                        },
-                        brandSubtitle: {
-                            size: 18,
-                            color: '#666666',
-                            family: '"Microsoft YaHei", sans-serif'
-                        }
+                    qrCodeArea: {
+                        x: 192,
+                        y: 1120,
+                        size: 150
                     }
                 };
             }
 
             async generateShareImage(newsData) {
-                this.canvas.width = this.config.width;
-                this.canvas.height = this.config.height;
-                
-                this.ctx.imageSmoothingEnabled = true;
-                this.ctx.imageSmoothingQuality = 'high';
-                
                 try {
-                    // 1. 首先加载模板背景图片
-                    await this.loadTemplateBackground();
-                    
-                    // 2. 在蓝色标题区域叠加标题
-                    this.overlayTitle(newsData.title);
-                    
-                    // 3. 在白色内容区域叠加内容
-                    this.overlayContent(newsData.content);
-                    
-                    // 4. 在灰色占位符上叠加二维码
-                    await this.overlayQRCode(newsData.id);
+                    await this.loadAndDrawTemplate();
+                    this.drawTitle(newsData.title);
+                    this.drawContent(newsData.content);
+                    await this.drawQRCode(newsData.id);
                     
                     return this.canvas.toDataURL('image/jpeg', 0.9);
-                    
                 } catch (error) {
                     console.error('分享图生成失败:', error);
                     throw new Error('分享图生成失败，请稍后重试');
                 }
             }
 
-            async loadTemplateBackground() {
-                console.log('🔍 开始加载模板图片...');
-                
-                // 尝试多个可能的模板路径和方法
-                const templateUrls = [
-                    './share-template-blank.jpg',  // 原始路径
-                    '/share-template-blank.jpg',   // 绝对路径
-                    './新闻图分享示意-空白.jpg',      // 用户期望的模板名称
-                    '/新闻图分享示意-空白.jpg'       // 用户期望的模板绝对路径
-                ];
-                
-                for (const templateUrl of templateUrls) {
-                    try {
-                        console.log(`📡 尝试加载模板图片URL: ${templateUrl}`);
-                        
-                        // 不使用时间戳破坏缓存，避免404错误
-                        const templateImg = await this.loadImageWithTimeout(templateUrl, 10000);
-                        console.log(`✅ 模板图片加载成功！路径: ${templateUrl}, 尺寸: ${templateImg.width} x ${templateImg.height}`);
-                        
-                        // 将模板图片绘制到canvas上，确保完全覆盖
-                        this.ctx.drawImage(templateImg, 0, 0, this.config.width, this.config.height);
-                        console.log('🎨 模板背景绘制完成');
-                        return; // 成功加载，退出方法
-                        
-                    } catch (error) {
-                        console.warn(`⚠️ 模板加载失败 [${templateUrl}]:`, error.message);
-                        continue; // 尝试下一个URL
-                    }
+            async loadAndDrawTemplate() {
+                if (!this.templateImage) {
+                    this.templateImage = await this.loadImageWithTimeout('/share-template-blank.jpg', 10000);
                 }
                 
-                // 所有模板路径都失败，使用备用背景
-                console.error('❌ 所有模板图片路径都加载失败，使用备用蓝色背景');
-                this.drawFallbackBackground();
+                this.canvas.width = this.templateImage.width;
+                this.canvas.height = this.templateImage.height;
+                
+                this.config.width = this.templateImage.width;
+                this.config.height = this.templateImage.height;
+                
+                this.ctx.imageSmoothingEnabled = true;
+                this.ctx.imageSmoothingQuality = 'high';
+                
+                this.ctx.drawImage(this.templateImage, 0, 0);
             }
 
-            drawFallbackBackground() {
-                console.log('🔄 使用备用蓝色背景');
-                const gradient = this.ctx.createLinearGradient(0, 0, 0, this.config.height);
-                gradient.addColorStop(0, '#4A90E2');
-                gradient.addColorStop(0.5, '#357ABD');
-                gradient.addColorStop(1, '#7FB3D3');
+            drawTitle(title) {
+                const { titleArea } = this.config;
                 
-                this.ctx.fillStyle = gradient;
-                this.ctx.fillRect(0, 0, this.config.width, this.config.height);
-            }
-
-            overlayTitle(title) {
-                const { fonts } = this.config;
-                console.log('📝 开始绘制标题:', title);
-                
-                // 在蓝色标题区域叠加标题
-                this.ctx.fillStyle = fonts.title.color;
-                this.ctx.font = `bold ${fonts.title.size}px ${fonts.title.family}`;
-                this.ctx.textAlign = 'center';
-                this.ctx.textBaseline = 'middle';
-                
-                // 标题区域：蓝色渐变区域中央
-                const titleY = 150; // 蓝色标题区域中心Y坐标
-                
-                // 如果标题过长，分行显示
-                if (title.length > 20) {
-                    const midPoint = Math.floor(title.length / 2);
-                    const line1 = title.substring(0, midPoint);
-                    const line2 = title.substring(midPoint);
-                    
-                    this.ctx.fillText(line1, this.config.width / 2, titleY - 30);
-                    this.ctx.fillText(line2, this.config.width / 2, titleY + 30);
-                    console.log('📝 双行标题绘制完成');
-                } else {
-                    this.ctx.fillText(title, this.config.width / 2, titleY);
-                    console.log('📝 单行标题绘制完成');
-                }
-            }
-
-            overlayContent(content) {
-                const { fonts, contentArea } = this.config;
-                
-                // 在白色内容卡片区域叠加内容
-                this.ctx.fillStyle = fonts.content.color;
-                this.ctx.font = `${fonts.content.size}px ${fonts.content.family}`;
-                this.ctx.textAlign = 'left';
+                this.ctx.fillStyle = titleArea.color;
+                this.ctx.font = `${titleArea.fontWeight} ${titleArea.fontSize}px ${titleArea.fontFamily}`;
+                this.ctx.textAlign = titleArea.textAlign;
                 this.ctx.textBaseline = 'top';
                 
-                // 限制内容长度
-                const maxContentLength = 150;
+                const lines = this.wrapText(title, titleArea.width);
+                const maxLines = Math.min(lines.length, titleArea.maxLines);
+                
+                const centerX = this.config.width / 2;
+                const startY = titleArea.y;
+                
+                for (let i = 0; i < maxLines; i++) {
+                    const y = startY + i * titleArea.lineHeight;
+                    this.ctx.fillText(lines[i], centerX, y);
+                }
+            }
+
+            drawContent(content) {
+                const { contentArea } = this.config;
+                
+                this.ctx.fillStyle = contentArea.color;
+                this.ctx.font = `${contentArea.fontWeight} ${contentArea.fontSize}px ${contentArea.fontFamily}`;
+                this.ctx.textAlign = contentArea.textAlign;
+                this.ctx.textBaseline = 'top';
+                
+                const maxContentLength = 180;
                 let displayContent = content;
                 if (content.length > maxContentLength) {
                     displayContent = content.substring(0, maxContentLength) + '...';
                 }
                 
-                // 文字换行处理
-                const lines = this.wrapText(
-                    displayContent,
-                    contentArea.width - contentArea.padding * 2,
-                    fonts.content.size
-                );
+                const lines = this.wrapText(displayContent, contentArea.width);
                 
-                // 在白色卡片区域内绘制文字
-                const startY = contentArea.y + contentArea.padding;
-                lines.slice(0, 8).forEach((line, index) => {
-                    this.ctx.fillText(
-                        line,
-                        contentArea.x + contentArea.padding,
-                        startY + index * fonts.content.lineHeight
-                    );
-                });
+                const maxLines = Math.min(lines.length, contentArea.maxLines);
+                for (let i = 0; i < maxLines; i++) {
+                    const y = contentArea.y + i * contentArea.lineHeight;
+                    this.ctx.fillText(lines[i], contentArea.x, y);
+                }
             }
 
-            async overlayQRCode(newsId) {
-                const { bottomArea } = this.config;
-                const qrSize = 180;
+            async drawQRCode(newsId) {
+                const { qrCodeArea } = this.config;
                 
                 const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
                 
                 const qrApis = [
-                    `https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}x${qrSize}&data=${encodeURIComponent(newsUrl)}&format=png&margin=0&ecc=H`,
-                    `https://quickchart.io/qr?text=${encodeURIComponent(newsUrl)}&size=${qrSize}&format=png&ecLevel=H&margin=0`
+                    `https://api.qrserver.com/v1/create-qr-code/?size=${qrCodeArea.size}x${qrCodeArea.size}&data=${encodeURIComponent(newsUrl)}&format=png&margin=1&ecc=H`,
+                    `https://quickchart.io/qr?text=${encodeURIComponent(newsUrl)}&size=${qrCodeArea.size}&format=png&ecLevel=H&margin=1`
                 ];
                 
-                // 尝试生成并叠加二维码到灰色占位符上
-                for (const apiUrl of qrApis) {
-                    try {
-                        const qrImg = await this.loadImageWithTimeout(apiUrl, 5000);
-                        
-                        // 直接覆盖灰色占位符区域
-                        this.ctx.drawImage(
-                            qrImg, 
-                            bottomArea.qrCode.x, 
-                            bottomArea.qrCode.y, 
-                            qrSize, 
-                            qrSize
-                        );
-                        return;
-                    } catch (error) {
-                        continue;
-                    }
-                }
-                
-                // 如果二维码生成失败，在占位符上显示"加载中"
-                this.ctx.fillStyle = '#ffffff';
-                this.ctx.font = 'bold 20px Microsoft YaHei';
-                this.ctx.textAlign = 'center';
-                this.ctx.textBaseline = 'middle';
-                this.ctx.fillText(
-                    '二维码加载中',
-                    bottomArea.qrCode.x + qrSize / 2,
-                    bottomArea.qrCode.y + qrSize / 2
-                );
-            }
-
-            wrapText(text, maxWidth, fontSize) {
-                const lines = [];
-                let currentLine = '';
-                
-                for (let i = 0; i < text.length; i++) {
-                    const testLine = currentLine + text[i];
-                    const metrics = this.ctx.measureText(testLine);
-                    
-                    if (metrics.width > maxWidth && currentLine !== '') {
-                        lines.push(currentLine);
-                        currentLine = text[i];
-                    } else {
-                        currentLine = testLine;
-                    }
-                }
-                
-                if (currentLine) {
-                    lines.push(currentLine);
-                }
-                
-                return lines;
-            }
-
-            loadImageWithTimeout(src, timeout = 10000) {
-                return new Promise((resolve, reject) => {
-                    const img = new Image();
-                    
-                    // 重要：设置跨域属性 - 匿名访问以避免跨域问题
-                    img.crossOrigin = 'anonymous';
-                    
-                    const timer = setTimeout(() => {
-                        reject(new Error(`图片加载超时: ${src}`));
-                    }, timeout);
-                    
-                    img.onload = () => {
-                        clearTimeout(timer);
-                        console.log(`🖼️ 图片加载成功: ${src} (${img.width}×${img.height})`);
-                        resolve(img);
-                    };
-                    
-                    img.onerror = () => {
-                        clearTimeout(timer);
-                        reject(new Error(`图片加载失败: ${src}`));
-                    };
-                    
-                    // 添加额外的调试信息
-                    console.log(`🚀 开始加载图片: ${src}`);
-                    img.src = src;
-                });
-            }
-
-            downloadShareImage(dataUrl, filename = 'ai-news-share.jpg') {
-                const link = document.createElement('a');
-                link.download = filename;
-                link.href = dataUrl;
-                document.body.appendChild(link);
-                link.click();
-                document.body.removeChild(link);
-            }
-        }
-
-        // 真实模板分享图服务 - 终极版
-        class RealTemplateShareImageService {
-            constructor() {
-                this.canvas = document.createElement('canvas');
-                this.ctx = this.canvas.getContext('2d');
-                
-                // 设置Canvas尺寸匹配模板
-                this.canvas.width = 800;
-                this.canvas.height = 1200;
-                
-                console.log('🎯 真实模板服务初始化完成，Canvas尺寸: 800x1200');
-            }
-
-            async generateShareImage(newsData) {
-                console.log('🚀 开始生成真实模板分享图...');
-                console.log(`📋 数据: 标题="${newsData.title.substring(0, 30)}..."，内容="${newsData.content.substring(0, 50)}..."`);
-                
-                try {
-                    // 步骤1: 加载真实模板图片作为背景
-                    console.log('📸 步骤1: 加载真实模板图片背景');
-                    await this.loadRealTemplateBackground();
-                    
-                    // 步骤2: 在蓝色标题区域叠加标题
-                    console.log('🏷️ 步骤2: 叠加标题文字');
-                    this.overlayTitleText(newsData.title);
-                    
-                    // 步骤3: 在白色内容区域叠加内容
-                    console.log('📝 步骤3: 叠加内容文字');
-                    this.overlayContentText(newsData.content);
-                    
-                    // 步骤4: 生成并叠加二维码
-                    console.log('🔲 步骤4: 生成并叠加二维码');
-                    await this.overlayQRCode(newsData.id);
-                    
-                    const result = this.canvas.toDataURL('image/jpeg', 0.92);
-                    console.log('✅ 真实模板分享图生成完成！');
-                    
-                    return result;
-                    
-                } catch (error) {
-                    console.error(`❌ 生成失败: ${error.message}`);
-                    throw error;
-                }
-            }
-
-            async loadRealTemplateBackground() {
-                // 尝试加载模板图片的多个可能路径
-                const templatePaths = [
-                    './新闻图分享示意-空白.jpg',
-                    './share-template-blank.jpg',
-                    '../新闻图分享示意-空白.jpg',
-                    '../share-template-blank.jpg'
-                ];
-                
-                for (const path of templatePaths) {
-                    try {
-                        console.log(`🔍 尝试加载模板: ${path}`);
-                        const templateImg = await this.loadImageWithTimeout(path, 8000);
-                        
-                        // 成功加载，绘制到Canvas
-                        this.ctx.drawImage(templateImg, 0, 0, 800, 1200);
-                        console.log(`✅ 模板加载成功: ${path}，尺寸: ${templateImg.width}x${templateImg.height}`);
-                        return; // 成功加载，退出函数
-                        
-                    } catch (error) {
-                        console.log(`⚠️ 模板路径失败: ${path} - ${error.message}`);
-                        continue;
-                    }
-                }
-                
-                // 所有路径都失败，抛出错误
-                throw new Error('无法加载任何模板图片路径');
-            }
-
-            overlayTitleText(title) {
-                console.log('🎨 开始绘制标题文字');
-                
-                this.ctx.fillStyle = '#ffffff';
-                this.ctx.font = 'bold 72px "Microsoft YaHei", "PingFang SC", sans-serif';
-                this.ctx.textAlign = 'center';
-                this.ctx.textBaseline = 'middle';
-                
-                // 标题区域：蓝色背景区域上方，Y坐标根据模板调整
-                const titleY = 120; // 调整到蓝色区域上方
-                
-                // 如果标题过长，智能分行
-                const maxCharsPerLine = 15; // 减少每行字符数
-                if (title.length > maxCharsPerLine) {
-                    const midPoint = title.indexOf('：') > 0 && title.indexOf('：') < maxCharsPerLine + 3 
-                        ? title.indexOf('：') + 1 
-                        : Math.floor(title.length / 2);
-                    
-                    const line1 = title.substring(0, midPoint).trim();
-                    const line2 = title.substring(midPoint).trim();
-                    
-                    this.ctx.fillText(line1, 400, titleY - 40); // 增加行间距
-                    this.ctx.fillText(line2, 400, titleY + 40);
-                    console.log(`📝 标题分为两行: "${line1}" 和 "${line2}"`);
-                } else {
-                    this.ctx.fillText(title, 400, titleY);
-                    console.log(`📝 单行标题: "${title}"`);
-                }
-            }
-
-            overlayContentText(content) {
-                console.log('📄 开始绘制内容文字');
-                
-                this.ctx.fillStyle = '#333333';
-                this.ctx.font = '36px "Microsoft YaHei", "PingFang SC", sans-serif';
-                this.ctx.textAlign = 'left';
-                this.ctx.textBaseline = 'top';
-                
-                // 根据真实模板精确定位内容区域：白色卡片内
-                const contentX = 120; // 白色卡片左边距
-                const contentY = 280; // 白色卡片顶部Y坐标
-                const maxWidth = 560; // 白色卡片内部宽度
-                const lineHeight = 48; // 增大行高以适应大字体
-                
-                // 限制内容长度，确保显示效果
-                const maxContentLength = 160;
-                let displayContent = content;
-                if (content.length > maxContentLength) {
-                    displayContent = content.substring(0, maxContentLength) + '...';
-                }
-                
-                // 文字自动换行
-                const lines = this.wrapText(displayContent, maxWidth);
-                console.log(`📝 内容分为 ${lines.length} 行显示`);
-                
-                // 绘制每一行（最多8行以确保不超出白色卡片区域）
-                lines.slice(0, 8).forEach((line, index) => {
-                    const y = contentY + (index * lineHeight);
-                    this.ctx.fillText(line, contentX, y);
-                });
-            }
-
-            async overlayQRCode(newsId) {
-                console.log('🔲 开始生成二维码');
-                
-                // 根据真实模板精确定位二维码，完全覆盖灰色"二维码"占位符
-                const qrSize = 175; // 增大尺寸以完全覆盖
-                const qrX = 103; // 精确对齐灰色占位符左边缘
-                const qrY = 1035; // 精确对齐灰色占位符顶部
-                
-                const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
-                console.log(`🔗 二维码URL: ${newsUrl}`);
-                console.log(`📍 二维码位置: (${qrX}, ${qrY})，尺寸: ${qrSize}x${qrSize}`);
-                
-                const qrApis = [
-                    `https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}x${qrSize}&data=${encodeURIComponent(newsUrl)}&format=png&margin=0&ecc=H&color=000000&bgcolor=ffffff`,
-                    `https://quickchart.io/qr?text=${encodeURIComponent(newsUrl)}&size=${qrSize}&format=png&ecLevel=H&margin=0&dark=000000&light=ffffff`
-                ];
+                let qrGenerated = false;
                 
                 for (const apiUrl of qrApis) {
                     try {
-                        console.log(`🌐 尝试二维码API: ${apiUrl.split('?')[0]}`);
-                        const qrImg = await this.loadImageWithTimeout(apiUrl, 6000);
+                        const qrImage = await this.loadImageWithTimeout(apiUrl, 5000);
                         
-                        // 直接覆盖到灰色二维码占位符上
-                        this.ctx.drawImage(qrImg, qrX, qrY, qrSize, qrSize);
-                        console.log(`✅ 二维码生成成功，完全覆盖占位符`);
-                        return;
+                        const qrX = qrCodeArea.x - qrCodeArea.size / 2;
+                        const qrY = qrCodeArea.y - qrCodeArea.size / 2;
                         
+                        this.ctx.drawImage(qrImage, qrX, qrY, qrCodeArea.size, qrCodeArea.size);
+                        
+                        qrGenerated = true;
+                        break;
                     } catch (error) {
-                        console.log(`⚠️ 二维码API失败: ${error.message}`);
                         continue;
                     }
                 }
                 
-                // 如果所有API都失败，显示占位文字
-                console.log('⚠️ 所有二维码API都失败，显示占位符');
+                if (!qrGenerated) {
+                    this.drawQRCodePlaceholder();
+                }
+            }
+
+            drawQRCodePlaceholder() {
+                const { qrCodeArea } = this.config;
+                
+                const qrX = qrCodeArea.x - qrCodeArea.size / 2;
+                const qrY = qrCodeArea.y - qrCodeArea.size / 2;
+                
                 this.ctx.fillStyle = '#ffffff';
+                this.ctx.fillRect(qrX, qrY, qrCodeArea.size, qrCodeArea.size);
+                
+                this.ctx.strokeStyle = '#000000';
+                this.ctx.lineWidth = 2;
+                this.ctx.strokeRect(qrX, qrY, qrCodeArea.size, qrCodeArea.size);
+                
+                this.ctx.fillStyle = '#666666';
                 this.ctx.font = 'bold 20px "Microsoft YaHei"';
                 this.ctx.textAlign = 'center';
-                this.ctx.fillText('二维码生成中', qrX + qrSize/2, qrY + qrSize/2);
+                this.ctx.textBaseline = 'middle';
+                this.ctx.fillText('二维码', qrCodeArea.x, qrCodeArea.y);
             }
 
             wrapText(text, maxWidth) {
@@ -711,13 +392,13 @@
                 return lines;
             }
 
-            loadImageWithTimeout(src, timeout = 8000) {
+            loadImageWithTimeout(src, timeout = 5000) {
                 return new Promise((resolve, reject) => {
                     const img = new Image();
                     img.crossOrigin = 'anonymous';
                     
                     const timer = setTimeout(() => {
-                        reject(new Error(`图片加载超时: ${src}`));
+                        reject(new Error('图片加载超时'));
                     }, timeout);
                     
                     img.onload = () => {
@@ -727,7 +408,7 @@
                     
                     img.onerror = () => {
                         clearTimeout(timer);
-                        reject(new Error(`图片加载失败: ${src}`));
+                        reject(new Error('图片加载失败'));
                     };
                     
                     img.src = src;
@@ -744,10 +425,9 @@
             }
         }
 
-        const templateService = new RealTemplateShareImageService();
+        const templateService = new TemplateShareImageService();
 
         async function generateTemplateShare() {
-            console.log('🎯 生成真实模板分享图开始 - 版本 v5.0 [强制更新]');
             const generateBtn = document.getElementById('generateBtn');
             const status = document.getElementById('status');
             const preview = document.getElementById('sharePreview');
@@ -757,7 +437,7 @@
             
             generateBtn.disabled = true;
             generateBtn.textContent = '🔄 生成中...';
-            status.innerHTML = '<div class="loading">⏳ 正在生成真实模板分享图，请稍候...</div>';
+            status.innerHTML = '<div class="loading">⏳ 正在生成精美分享图，请稍候...</div>';
             
             try {
                 const newsData = {
@@ -768,24 +448,21 @@
                     source: document.getElementById('sourceInput').value || 'AI推'
                 };
                 
-                console.log('📋 新闻数据:', newsData);
                 const imageResult = await templateService.generateShareImage(newsData);
                 currentShareData = { imageResult, newsData };
                 
-                preview.innerHTML = `<img src="${imageResult}" class="share-preview" alt="真实模板分享图" />`;
-                status.innerHTML = '<div class="success">✅ 真实模板分享图生成成功！完美使用您的模板背景</div>';
+                preview.innerHTML = `<img src="${imageResult}" class="share-preview" alt="生成的分享图" />`;
+                status.innerHTML = '<div class="success">✅ 精美分享图生成成功！完美适配社交媒体分享</div>';
                 downloadBtn.style.display = 'block';
-                console.log('✅ 真实模板分享图生成完成');
                 
             } catch (error) {
-                console.error('❌ 生成过程出错:', error);
                 status.innerHTML = '<div class="error">❌ 生成失败：' + error.message + '</div>';
                 preview.innerHTML = '<p style="color: #999; padding: 60px 20px; background: #f8f9fa; border-radius: 12px; border: 2px dashed #dee2e6;">生成失败，请重试</p>';
                 downloadBtn.style.display = 'none';
             }
             
             generateBtn.disabled = false;
-            generateBtn.textContent = '🚀 生成真实模板分享图';
+            generateBtn.textContent = '🚀 生成精美分享图';
         }
 
         function downloadShare() {
