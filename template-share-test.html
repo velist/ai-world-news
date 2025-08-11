@@ -589,25 +589,25 @@
                 console.log('🎨 开始绘制标题文字');
                 
                 this.ctx.fillStyle = '#ffffff';
-                this.ctx.font = 'bold 46px "Microsoft YaHei", "PingFang SC", sans-serif';
+                this.ctx.font = 'bold 72px "Microsoft YaHei", "PingFang SC", sans-serif';
                 this.ctx.textAlign = 'center';
                 this.ctx.textBaseline = 'middle';
                 
-                // 标题区域：蓝色背景上方，居中显示
-                const titleY = 140;
+                // 标题区域：蓝色背景区域上方，Y坐标根据模板调整
+                const titleY = 120; // 调整到蓝色区域上方
                 
                 // 如果标题过长，智能分行
-                const maxCharsPerLine = 18;
+                const maxCharsPerLine = 15; // 减少每行字符数
                 if (title.length > maxCharsPerLine) {
-                    const midPoint = title.indexOf('：') > 0 && title.indexOf('：') < maxCharsPerLine + 5 
+                    const midPoint = title.indexOf('：') > 0 && title.indexOf('：') < maxCharsPerLine + 3 
                         ? title.indexOf('：') + 1 
                         : Math.floor(title.length / 2);
                     
                     const line1 = title.substring(0, midPoint).trim();
                     const line2 = title.substring(midPoint).trim();
                     
-                    this.ctx.fillText(line1, 400, titleY - 25);
-                    this.ctx.fillText(line2, 400, titleY + 25);
+                    this.ctx.fillText(line1, 400, titleY - 40); // 增加行间距
+                    this.ctx.fillText(line2, 400, titleY + 40);
                     console.log(`📝 标题分为两行: "${line1}" 和 "${line2}"`);
                 } else {
                     this.ctx.fillText(title, 400, titleY);
@@ -619,18 +619,18 @@
                 console.log('📄 开始绘制内容文字');
                 
                 this.ctx.fillStyle = '#333333';
-                this.ctx.font = '28px "Microsoft YaHei", "PingFang SC", sans-serif';
+                this.ctx.font = '36px "Microsoft YaHei", "PingFang SC", sans-serif';
                 this.ctx.textAlign = 'left';
                 this.ctx.textBaseline = 'top';
                 
-                // 内容区域：白色卡片内，左对齐
-                const contentX = 110; // 左边距
-                const contentY = 270; // 起始Y位置
-                const maxWidth = 580; // 最大宽度
-                const lineHeight = 40; // 行高
+                // 根据真实模板精确定位内容区域：白色卡片内
+                const contentX = 120; // 白色卡片左边距
+                const contentY = 280; // 白色卡片顶部Y坐标
+                const maxWidth = 560; // 白色卡片内部宽度
+                const lineHeight = 48; // 增大行高以适应大字体
                 
                 // 限制内容长度，确保显示效果
-                const maxContentLength = 180;
+                const maxContentLength = 160;
                 let displayContent = content;
                 if (content.length > maxContentLength) {
                     displayContent = content.substring(0, maxContentLength) + '...';
@@ -640,7 +640,7 @@
                 const lines = this.wrapText(displayContent, maxWidth);
                 console.log(`📝 内容分为 ${lines.length} 行显示`);
                 
-                // 绘制每一行
+                // 绘制每一行（最多8行以确保不超出白色卡片区域）
                 lines.slice(0, 8).forEach((line, index) => {
                     const y = contentY + (index * lineHeight);
                     this.ctx.fillText(line, contentX, y);
@@ -650,12 +650,14 @@
             async overlayQRCode(newsId) {
                 console.log('🔲 开始生成二维码');
                 
-                const qrSize = 160;
-                const qrX = 115; // 二维码X位置（覆盖灰色区域）
-                const qrY = 1015; // 二维码Y位置
+                // 根据真实模板精确定位二维码，完全覆盖灰色"二维码"占位符
+                const qrSize = 175; // 增大尺寸以完全覆盖
+                const qrX = 103; // 精确对齐灰色占位符左边缘
+                const qrY = 1035; // 精确对齐灰色占位符顶部
                 
                 const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
                 console.log(`🔗 二维码URL: ${newsUrl}`);
+                console.log(`📍 二维码位置: (${qrX}, ${qrY})，尺寸: ${qrSize}x${qrSize}`);
                 
                 const qrApis = [
                     `https://api.qrserver.com/v1/create-qr-code/?size=${qrSize}x${qrSize}&data=${encodeURIComponent(newsUrl)}&format=png&margin=0&ecc=H&color=000000&bgcolor=ffffff`,
@@ -667,9 +669,9 @@
                         console.log(`🌐 尝试二维码API: ${apiUrl.split('?')[0]}`);
                         const qrImg = await this.loadImageWithTimeout(apiUrl, 6000);
                         
-                        // 直接覆盖到灰色二维码区域
+                        // 直接覆盖到灰色二维码占位符上
                         this.ctx.drawImage(qrImg, qrX, qrY, qrSize, qrSize);
-                        console.log(`✅ 二维码生成成功，位置: (${qrX}, ${qrY})`);
+                        console.log(`✅ 二维码生成成功，完全覆盖占位符`);
                         return;
                         
                     } catch (error) {
@@ -681,7 +683,7 @@
                 // 如果所有API都失败，显示占位文字
                 console.log('⚠️ 所有二维码API都失败，显示占位符');
                 this.ctx.fillStyle = '#ffffff';
-                this.ctx.font = 'bold 18px "Microsoft YaHei"';
+                this.ctx.font = 'bold 20px "Microsoft YaHei"';
                 this.ctx.textAlign = 'center';
                 this.ctx.fillText('二维码生成中', qrX + qrSize/2, qrY + qrSize/2);
             }
