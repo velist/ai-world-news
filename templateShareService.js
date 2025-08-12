@@ -157,7 +157,7 @@ class TemplateShareService {
         
         // QR码位置 - 左下角
         const qrSize = 160;
-        const qrX = 100;    // 左下角X坐标
+        const qrX = 98;     // 向左移动 2 像素 (100 -> 98)
         const qrY = 980;    // 左下角Y坐标
         const newsUrl = `https://news.aipush.fun/#/news/${newsId}`;
         
