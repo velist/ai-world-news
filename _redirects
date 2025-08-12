@@ -1,5 +1,15 @@
+# 搜索引擎爬虫预渲染支持
+/blog/* /index.html 200!  X-User-Agent:*bot*
+/blog/* /index.html 200!  X-User-Agent:*crawler*
+/blog/* /index.html 200!  X-User-Agent:*spider*
+/blog/* /index.html 200!  X-User-Agent:*Google*
+/blog/* /index.html 200!  X-User-Agent:*Bing*
+/blog/* /index.html 200!  X-User-Agent:*Baidu*
+
 # SPA路由重写规则 - 解决微信分享链接无法打开的问题
 /news/* /index.html 200
+/blog/* /index.html 200
+/blog /index.html 200
 
 # API代理和静态文件不重写
 /api/* /api/:splat 200
