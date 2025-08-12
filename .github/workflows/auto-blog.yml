@@ -1,0 +1,108 @@
+name: Auto Blog Generation
+
+on:
+  schedule:
+    # 每天 UTC 1:00 和 7:00 运行（北京时间 9:00 和 15:00）
+    - cron: '0 1,7 * * *'
+  workflow_dispatch: # 允许手动触发
+    inputs:
+      articles_count:
+        description: '生成文章数量'
+        required: false
+        default: '2'
+        type: string
+
+jobs:
+  generate-blog:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        token: ${{ secrets.GITHUB_TOKEN }}
+        
+    - name: Setup Node.js
+      uses: actions/setup-node@v4
+      with:
+        node-version: '18'
+        cache: 'npm'
+        
+    - name: Install dependencies
+      run: |
+        cd ai-world-news
+        npm ci
+      
+    - name: Check for news data
+      run: |
+        if [ ! -f ai-world-news/public/news-data.json ]; then
+          echo "⚠️ 新闻数据文件不存在，跳过博客生成"
+          exit 0
+        fi
+        
+    - name: Generate blog articles
+      run: |
+        cd ai-world-news
+        npm run auto-blog
+      env:
+        DAILY_ARTICLES: ${{ github.event.inputs.articles_count || '2' }}
+        
+    - name: Generate static HTML for SEO
+      run: |
+        cd ai-world-news
+        npm run generate-static-blog
+        
+    - name: Check for changes
+      id: verify-changed-files
+      run: |
+        if [ -n "$(git status --porcelain)" ]; then
+          echo "changes=true" >> $GITHUB_OUTPUT
+        else
+          echo "changes=false" >> $GITHUB_OUTPUT
+        fi
+        
+    - name: Commit and push changes
+      if: steps.verify-changed-files.outputs.changes == 'true'
+      run: |
+        git config --local user.email "action@github.com"
+        git config --local user.name "GitHub Action Bot"
+        git add ai-world-news/public/blog-data.json
+        git add ai-world-news/public/blog/
+        git commit -m "🤖 自动生成博客文章和静态HTML $(date +%Y-%m-%d-%H:%M)"
+        git push
+        
+    - name: Trigger deployment
+      if: steps.verify-changed-files.outputs.changes == 'true'
+      uses: actions/github-script@v7
+      with:
+        script: |
+          github.rest.actions.createWorkflowDispatch({
+            owner: context.repo.owner,
+            repo: context.repo.repo,
+            workflow_id: 'deploy.yml',
+            ref: 'main'
+          })
+          
+    - name: Create summary
+      if: always()
+      run: |
+        echo "## 🤖 自动博客生成报告" >> $GITHUB_STEP_SUMMARY
+        echo "- **执行时间**: $(date)" >> $GITHUB_STEP_SUMMARY
+        echo "- **目标文章数**: ${{ github.event.inputs.articles_count || '2' }}" >> $GITHUB_STEP_SUMMARY
+        if [ "${{ steps.verify-changed-files.outputs.changes }}" == "true" ]; then
+          echo "- **生成状态**: ✅ 成功生成新文章" >> $GITHUB_STEP_SUMMARY
+          echo "- **变更文件**: blog-data.json" >> $GITHUB_STEP_SUMMARY
+        else
+          echo "- **生成状态**: ℹ️ 没有符合条件的新闻，未生成新文章" >> $GITHUB_STEP_SUMMARY
+        fi
+        
+  notify:
+    needs: generate-blog
+    runs-on: ubuntu-latest
+    if: failure()
+    
+    steps:
+    - name: Notify on failure
+      run: |
+        echo "⚠️ 自动博客生成任务失败"
+        echo "请检查日志并手动处理"

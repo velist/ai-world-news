@@ -17,7 +17,14 @@
     "test-ai-judgment": "node scripts/test-ai-judgment.js",
     "deploy": "node scripts/auto-deploy.cjs",
     "deploy:quick": "node scripts/auto-deploy.cjs 快速部署",
-    "deploy:fix": "node scripts/auto-deploy.cjs 修复部署"
+    "deploy:fix": "node scripts/auto-deploy.cjs 修复部署",
+    "auto-blog": "node scripts/auto-blog-generator.cjs",
+    "auto-blog:dev": "node scripts/auto-blog-generator.cjs --dev",
+    "seo-submit": "node scripts/seo-service.cjs",
+    "generate-sitemap": "node scripts/seo-service.cjs --sitemap-only",
+    "generate-static-blog": "node scripts/generate-static-blog.cjs",
+    "auto-blog-with-seo": "npm run auto-blog && npm run generate-static-blog && npm run seo-submit",
+    "build-seo": "npm run build && npm run generate-static-blog"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.9.0",
