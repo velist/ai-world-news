@@ -172,18 +172,24 @@ async function generateBlogArticles(hotNews, existingBlogData) {
   const newArticles = [];
   const existingTitles = new Set(existingBlogData.map(article => article.title.toLowerCase()));
   
-  for (let i = 0; i < Math.min(hotNews.length, CONFIG.DAILY_ARTICLES); i++) {
+  // 修复逻辑：遍历所有热门新闻，直到生成够数量的新文章
+  for (let i = 0; i < hotNews.length && newArticles.length < CONFIG.DAILY_ARTICLES; i++) {
     const news = hotNews[i];
     
     try {
+      // 先检查是否重复
+      if (existingTitles.has(news.title.toLowerCase())) {
+        console.log(`跳过重复文章: ${news.title}`);
+        continue; // 跳过重复的，继续下一个
+      }
+      
       // 生成博客文章数据
       const article = await generateSingleArticle(news);
       
-      // 检查是否重复
-      if (!existingTitles.has(article.title.toLowerCase())) {
-        newArticles.push(article);
-        existingTitles.add(article.title.toLowerCase());
-      }
+      // 添加到结果中
+      newArticles.push(article);
+      existingTitles.add(article.title.toLowerCase());
+      console.log(`生成新文章: ${article.title}`);
       
     } catch (error) {
       console.warn(`⚠️ 生成文章失败 (${news.title}):`, error.message);

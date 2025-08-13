@@ -29,28 +29,22 @@ jobs:
         cache: 'npm'
         
     - name: Install dependencies
-      run: |
-        cd ai-world-news
-        npm ci
+      run: npm ci
       
     - name: Check for news data
       run: |
-        if [ ! -f ai-world-news/public/news-data.json ]; then
+        if [ ! -f public/news-data.json ]; then
           echo "⚠️ 新闻数据文件不存在，跳过博客生成"
           exit 0
         fi
         
     - name: Generate blog articles
-      run: |
-        cd ai-world-news
-        npm run auto-blog
+      run: npm run auto-blog
       env:
         DAILY_ARTICLES: ${{ github.event.inputs.articles_count || '2' }}
         
     - name: Generate static HTML for SEO
-      run: |
-        cd ai-world-news
-        npm run generate-static-blog
+      run: npm run generate-static-blog
         
     - name: Check for changes
       id: verify-changed-files
@@ -66,8 +60,8 @@ jobs:
       run: |
         git config --local user.email "action@github.com"
         git config --local user.name "GitHub Action Bot"
-        git add ai-world-news/public/blog-data.json
-        git add ai-world-news/public/blog/
+        git add public/blog-data.json
+        git add public/blog/
         git commit -m "🤖 自动生成博客文章和静态HTML $(date +%Y-%m-%d-%H:%M)"
         git push
         
