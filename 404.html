@@ -13,12 +13,12 @@
   
   <script>
     /**
-     * GitHub Pages SPA路由处理
-     * 将所有非静态资源的路由重定向到index.html，让React Router处理
+     * GitHub Pages SPA路由处理 - 优化版
+     * 解决菜单按钮404问题
      */
     (function(l) {
       // 检测是否为静态资源文件
-      if (l.pathname.match(/\.(js|css|png|jpg|jpeg|gif|svg|ico|json|xml|txt)$/)) {
+      if (l.pathname.match(/\.(js|css|png|jpg|jpeg|gif|svg|ico|json|xml|txt|woff|woff2|ttf|eot)$/)) {
         console.log('静态资源文件，不重定向:', l.pathname);
         return;
       }
@@ -30,25 +30,50 @@
       
       console.log('404页面处理:', { currentPath, search, hash, isWeChat });
       
+      // 标记这是一个404重定向，避免循环
+      var isRedirecting = sessionStorage.getItem('is404Redirecting');
+      if (isRedirecting === 'true') {
+        console.log('避免重定向循环，直接返回首页');
+        sessionStorage.removeItem('is404Redirecting');
+        window.location.replace('/');
+        return;
+      }
+      
+      sessionStorage.setItem('is404Redirecting', 'true');
+      
+      // 设置定时器清除重定向标记，防止卡住
+      setTimeout(function() {
+        sessionStorage.removeItem('is404Redirecting');
+      }, 5000);
+      
       if (isWeChat) {
         // 微信环境使用HashRouter
         if (currentPath !== '/' && currentPath !== '/index.html') {
           var hashPath = '#' + currentPath + search + hash;
           console.log('微信环境重定向到:', hashPath);
-          window.location.replace('/' + hashPath);
+          // 使用replace避免产生新的历史记录
+          setTimeout(function() {
+            window.location.replace('/' + hashPath);
+          }, 100);
         } else {
-          window.location.replace('/');
+          setTimeout(function() {
+            window.location.replace('/');
+          }, 100);
         }
       } else {
-        // 普通环境：直接重定向到首页，让React Router的BrowserRouter处理
-        // 使用sessionStorage保存原始路径，供React应用恢复
+        // 普通环境：保存路径信息，重定向到首页
         if (currentPath !== '/' && currentPath !== '/index.html') {
+          // 清除旧的重定向路径
+          sessionStorage.removeItem('redirectPath');
+          // 保存新的路径
           sessionStorage.setItem('redirectPath', currentPath + search + hash);
           console.log('保存重定向路径:', currentPath + search + hash);
         }
         
-        // 重定向到根路径，让React应用处理路由
-        window.location.replace('/');
+        // 延迟重定向，确保sessionStorage设置生效
+        setTimeout(function() {
+          window.location.replace('/');
+        }, 100);
       }
     }(window.location));
   </script>
@@ -58,6 +83,16 @@
     <h2>🔄 正在跳转...</h2>
     <p>正在为您跳转到AI推新闻页面</p>
     <p><small>如果页面没有自动跳转，请<a href="/" style="color: #0066cc;">点击这里</a></small></p>
+    
+    <script>
+      // 添加备用重定向机制
+      setTimeout(function() {
+        if (window.location.pathname !== '/') {
+          console.log('备用重定向机制触发');
+          window.location.href = '/';
+        }
+      }, 3000);
+    </script>
   </div>
 </body>
 </html>
