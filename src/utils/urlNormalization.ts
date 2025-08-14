@@ -114,8 +114,23 @@ export const restoreUrlHistory = (): void => {
   const isWeChat = /micromessenger/i.test(navigator.userAgent);
   
   if (!isWeChat) {
+    // 首先检查sessionStorage中是否有404重定向保存的路径
+    const redirectPath = sessionStorage.getItem('redirectPath');
+    if (redirectPath) {
+      console.log('恢复404重定向路径:', redirectPath);
+      sessionStorage.removeItem('redirectPath'); // 清除已使用的路径
+      try {
+        window.history.replaceState({}, '', redirectPath);
+        return;
+      } catch (error) {
+        console.warn('恢复404重定向路径失败:', error);
+      }
+    }
+    
+    // 其次检查查询参数中的路径
     const path = extractPathFromQuery();
     if (path && path !== '/') {
+      console.log('恢复查询参数路径:', path);
       try {
         window.history.replaceState({}, '', path);
       } catch (error) {
