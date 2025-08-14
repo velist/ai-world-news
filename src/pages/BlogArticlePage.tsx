@@ -1,5 +1,5 @@
 import { useEffect, useState } from 'react';
-import { useParams, useNavigate } from 'react-router-dom';
+import { useParams, useNavigate, Link } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
 import { Card, CardContent } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -18,7 +18,8 @@ import {
   Tag,
   ThumbsUp,
   MessageCircle,
-  Eye
+  Eye,
+  ArrowRight
 } from 'lucide-react';
 
 interface BlogArticle {
@@ -1082,6 +1083,175 @@ ${sections[7]}
   `;
 };
 
+// RelatedArticles组件
+interface RelatedArticlesProps {
+  currentArticle: BlogArticle;
+  isZh: boolean;
+}
+
+const RelatedArticles: React.FC<RelatedArticlesProps> = ({ currentArticle, isZh }) => {
+  const [relatedArticles, setRelatedArticles] = useState<BlogArticle[]>([]);
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    // 从blog-data.json获取相关文章
+    const fetchRelatedArticles = async () => {
+      try {
+        const response = await fetch('/blog-data.json');
+        const blogData = await response.json();
+        
+        // 过滤相关文章的逻辑
+        const related = blogData
+          .filter((article: any) => {
+            // 排除当前文章
+            if (article.id === currentArticle.id) return false;
+            
+            // 基于标签和分类的相似度计算
+            const currentTags = isZh ? currentArticle.tags : [];
+            const articleTags = isZh ? article.tags : article.tagsEn;
+            const currentCategory = currentArticle.category;
+            const articleCategory = isZh ? article.category : article.categoryEn;
+            
+            // 计算标签重叠度
+            const tagOverlap = currentTags.filter(tag => articleTags.includes(tag)).length;
+            const categoryMatch = currentCategory === articleCategory;
+            
+            // 相关性评分
+            const relevanceScore = (categoryMatch ? 3 : 0) + tagOverlap;
+            return relevanceScore > 0;
+          })
+          .map((article: any) => {
+            // 转换为BlogArticle格式
+            return {
+              id: article.id,
+              title: isZh ? article.title : article.titleEn,
+              excerpt: isZh ? article.excerpt : article.excerptEn,
+              category: isZh ? article.category : article.categoryEn,
+              publishedAt: article.publishedAt,
+              readTime: article.readTime,
+              author: isZh ? article.author : article.authorEn,
+              tags: isZh ? article.tags : article.tagsEn,
+              views: article.views,
+              likes: article.likes,
+              comments: article.comments,
+              featured: article.featured
+            } as BlogArticle;
+          })
+          // 按相关性和日期排序
+          .sort((a, b) => {
+            const aDate = new Date(a.publishedAt).getTime();
+            const bDate = new Date(b.publishedAt).getTime();
+            return bDate - aDate;
+          })
+          .slice(0, 3); // 取前3篇
+        
+        setRelatedArticles(related);
+      } catch (error) {
+        console.error('Error loading related articles:', error);
+      }
+    };
+    
+    fetchRelatedArticles();
+  }, [currentArticle, isZh]);
+
+  const handleArticleClick = (articleId: string) => {
+    navigate(`/blog/${articleId}`);
+  };
+
+  const formatDate = (dateString: string) => {
+    const date = new Date(dateString);
+    return isZh 
+      ? date.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' })
+      : date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
+  };
+
+  if (relatedArticles.length === 0) {
+    return null;
+  }
+
+  return (
+    <div className="space-y-6">
+      <h3 className="text-2xl font-bold flex items-center space-x-2">
+        <BookOpen className="w-6 h-6 text-primary" />
+        <span>{isZh ? '相关文章' : 'Related Articles'}</span>
+      </h3>
+      
+      <div className="grid md:grid-cols-1 gap-6">
+        {relatedArticles.map((article) => (
+          <Card 
+            key={article.id} 
+            className="p-6 hover:shadow-lg transition-shadow cursor-pointer border-l-4 border-l-primary/20 hover:border-l-primary"
+            onClick={() => handleArticleClick(article.id)}
+          >
+            <div className="space-y-4">
+              <div className="flex items-center justify-between">
+                <Badge variant="secondary" className="text-xs">
+                  {article.category}
+                </Badge>
+                <div className="flex items-center space-x-3 text-sm text-muted-foreground">
+                  <div className="flex items-center space-x-1">
+                    <Calendar className="w-4 h-4" />
+                    <span>{formatDate(article.publishedAt)}</span>
+                  </div>
+                  <div className="flex items-center space-x-1">
+                    <Clock className="w-4 h-4" />
+                    <span>{article.readTime} {isZh ? '分钟' : 'min'}</span>
+                  </div>
+                </div>
+              </div>
+              
+              <h4 className="text-lg font-semibold leading-tight hover:text-primary transition-colors">
+                <Link to={`/blog/${article.id}`} className="hover:underline">
+                  {article.title}
+                </Link>
+              </h4>
+              
+              <p className="text-muted-foreground text-sm leading-relaxed line-clamp-2">
+                {article.excerpt}
+              </p>
+              
+              <div className="flex items-center justify-between">
+                <div className="flex flex-wrap gap-2">
+                  {article.tags.slice(0, 2).map((tag) => (
+                    <Badge key={tag} variant="outline" className="text-xs">
+                      {tag}
+                    </Badge>
+                  ))}
+                </div>
+                
+                <Button 
+                  variant="ghost" 
+                  size="sm" 
+                  className="text-primary hover:text-primary/80 p-0 h-auto font-medium"
+                  onClick={(e) => {
+                    e.stopPropagation();
+                    handleArticleClick(article.id);
+                  }}
+                >
+                  {isZh ? '阅读更多' : 'Read More'}
+                  <ArrowRight className="w-4 h-4 ml-1" />
+                </Button>
+              </div>
+            </div>
+          </Card>
+        ))}
+      </div>
+      
+      {/* 查看更多博客按钮 */}
+      <div className="text-center">
+        <Button 
+          variant="outline" 
+          onClick={() => navigate('/blog')}
+          className="flex items-center space-x-2"
+        >
+          <BookOpen className="w-4 h-4" />
+          <span>{isZh ? '查看所有博客文章' : 'View All Blog Posts'}</span>
+        </Button>
+      </div>
+    </div>
+  );
+};
+
 const BlogArticlePage = () => {
   const { slug } = useParams<{ slug: string }>();
   const navigate = useNavigate();
@@ -1235,27 +1405,113 @@ const BlogArticlePage = () => {
           <meta key={tag} property="article:tag" content={tag} />
         ))}
         
-        {/* Schema.org */}
+        {/* Schema.org结构化数据 */}
         <script type="application/ld+json">
           {JSON.stringify({
             "@context": "https://schema.org",
             "@type": "BlogPosting",
+            "mainEntityOfPage": {
+              "@type": "WebPage",
+              "@id": `https://news.aipush.fun/blog/${article.id}`
+            },
             "headline": article.title,
             "description": article.excerpt,
+            "image": {
+              "@type": "ImageObject",
+              "url": "https://news.aipush.fun/wechat-share-300.png",
+              "width": 300,
+              "height": 300
+            },
             "author": {
               "@type": "Organization",
-              "name": article.author
+              "name": article.author,
+              "url": "https://news.aipush.fun"
             },
             "publisher": {
               "@type": "Organization",
               "name": "AI推",
-              "url": "https://news.aipush.fun"
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://news.aipush.fun/favicon.svg",
+                "width": 32,
+                "height": 32
+              },
+              "url": "https://news.aipush.fun",
+              "sameAs": [
+                "https://github.com/ai-push",
+                "https://twitter.com/aipushnews"
+              ]
             },
             "datePublished": article.publishedAt,
+            "dateModified": article.publishedAt,
             "url": `https://news.aipush.fun/blog/${article.id}`,
-            "mainEntityOfPage": `https://news.aipush.fun/blog/${article.id}`,
+            "wordCount": article.readTime * 200,
+            "keywords": article.tags.join(", "),
             "articleSection": article.category,
-            "keywords": article.tags.join(", ")
+            "inLanguage": isZh ? "zh-CN" : "en-US",
+            "about": {
+              "@type": "Thing",
+              "name": "人工智能",
+              "sameAs": "https://zh.wikipedia.org/wiki/人工智能"
+            },
+            "mentions": article.tags.map(tag => ({
+              "@type": "Thing",
+              "name": tag
+            })),
+            "speakable": {
+              "@type": "SpeakableSpecification",
+              "cssSelector": [".article-title", ".article-excerpt"]
+            },
+            "interactionStatistic": [
+              {
+                "@type": "InteractionCounter",
+                "interactionType": "https://schema.org/ReadAction",
+                "userInteractionCount": article.views
+              },
+              {
+                "@type": "InteractionCounter",
+                "interactionType": "https://schema.org/LikeAction",
+                "userInteractionCount": article.likes
+              },
+              {
+                "@type": "InteractionCounter",
+                "interactionType": "https://schema.org/CommentAction",
+                "userInteractionCount": article.comments
+              }
+            ]
+          })}
+        </script>
+        {/* Breadcrumb 结构化数据 */}
+        <script type="application/ld+json">
+          {JSON.stringify({
+            "@context": "https://schema.org",
+            "@type": "BreadcrumbList",
+            "itemListElement": [
+              {
+                "@type": "ListItem",
+                "position": 1,
+                "name": isZh ? "首页" : "Home",
+                "item": "https://news.aipush.fun/"
+              },
+              {
+                "@type": "ListItem",
+                "position": 2,
+                "name": isZh ? "博客" : "Blog",
+                "item": "https://news.aipush.fun/blog"
+              },
+              {
+                "@type": "ListItem",
+                "position": 3,
+                "name": article.category,
+                "item": `https://news.aipush.fun/blog?category=${encodeURIComponent(article.category)}`
+              },
+              {
+                "@type": "ListItem",
+                "position": 4,
+                "name": article.title,
+                "item": `https://news.aipush.fun/blog/${article.id}`
+              }
+            ]
           })}
         </script>
         
@@ -1294,8 +1550,27 @@ const BlogArticlePage = () => {
 
         {/* Article Content */}
         <div className="max-w-4xl mx-auto px-4 py-8 space-y-8">
-          {/* Article Header */}
+          {/* Breadcrumb Navigation */}
           <div className="space-y-6">
+            <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground">
+              <ol className="flex items-center space-x-2">
+                <li>
+                  <a href="/" className="hover:text-foreground transition-colors">
+                    {isZh ? '首页' : 'Home'}
+                  </a>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <span>›</span>
+                  <a href="/blog" className="hover:text-foreground transition-colors">
+                    {isZh ? '博客' : 'Blog'}
+                  </a>
+                </li>
+                <li className="flex items-center space-x-2">
+                  <span>›</span>
+                  <span className="text-foreground font-medium">{article.category}</span>
+                </li>
+              </ol>
+            </nav>
             <div className="flex items-center space-x-3">
               <Badge variant="secondary" className="text-sm">
                 {article.category}
@@ -1307,11 +1582,11 @@ const BlogArticlePage = () => {
               )}
             </div>
 
-            <h1 className="text-4xl font-bold leading-tight">
+            <h1 className="text-4xl font-bold leading-tight article-title">
               {article.title}
             </h1>
 
-            <p className="text-xl text-muted-foreground leading-relaxed">
+            <p className="text-xl text-muted-foreground leading-relaxed article-excerpt">
               {article.excerpt}
             </p>
 
@@ -1380,6 +1655,28 @@ const BlogArticlePage = () => {
                         </code>
                       );
                     },
+                    img: ({src, alt, title, ...props}) => {
+                      // 优化图片SEO和加载性能
+                      const optimizedSrc = src?.startsWith('http') ? src : `/images/${src}`;
+                      const seoAlt = alt || `${article.title} - AI推技术解读图片`;
+                      
+                      return (
+                        <img 
+                          {...props}
+                          src={optimizedSrc}
+                          alt={seoAlt}
+                          title={title || seoAlt}
+                          loading="lazy"
+                          className="max-w-full h-auto rounded-lg shadow-md my-4"
+                          style={{ aspectRatio: 'auto' }}
+                          onError={(e) => {
+                            // 图片加载失败时的fallback
+                            (e.target as HTMLImageElement).src = '/favicon.svg';
+                            (e.target as HTMLImageElement).alt = '图片加载失败';
+                          }}
+                        />
+                      );
+                    },
                     table: ({...props}) => <table className="w-full border-collapse border border-border my-4" {...props} />,
                     th: ({...props}) => <th className="border border-border px-4 py-2 bg-muted font-semibold text-left" {...props} />,
                     td: ({...props}) => <td className="border border-border px-4 py-2" {...props} />,
@@ -1446,15 +1743,8 @@ const BlogArticlePage = () => {
             </CardContent>
           </Card>
 
-          {/* Related Articles Placeholder */}
-          <div className="space-y-4">
-            <h3 className="text-2xl font-bold">
-              {isZh ? '相关文章' : 'Related Articles'}
-            </h3>
-            <div className="text-muted-foreground">
-              {isZh ? '更多相关文章即将推出...' : 'More related articles coming soon...'}
-            </div>
-          </div>
+          {/* Related Articles */}
+          <RelatedArticles currentArticle={article} isZh={isZh} />
         </div>
       </div>
     </>

@@ -11,22 +11,103 @@ export default defineConfig(({ mode }) => ({
     port: 8080,
   },
   build: {
+    // 优化构建性能
+    target: 'es2020',
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: mode === 'production',
+        drop_debugger: mode === 'production',
+      },
+    },
+    // 调整chunk大小警告阈值
+    chunkSizeWarningLimit: 600,
     rollupOptions: {
       output: {
-        // 添加时间戳到文件名，确保缓存更新，使用正斜杠路径
+        // 添加时间戳到文件名，确保缓存更新
         entryFileNames: `assets/[name]-[hash]-${Date.now()}.js`,
         chunkFileNames: `assets/[name]-[hash]-${Date.now()}.js`,
-        assetFileNames: `assets/[name]-[hash]-${Date.now()}.[ext]`
+        assetFileNames: `assets/[name]-[hash]-${Date.now()}.[ext]`,
+        // 手动代码分割策略
+        manualChunks: {
+          // React 相关
+          'react-vendor': ['react', 'react-dom'],
+          // 路由
+          'router': ['react-router-dom'],
+          // UI组件库 - 按使用频率分组
+          'ui-core': [
+            '@radix-ui/react-slot',
+            '@radix-ui/react-toast',
+            '@radix-ui/react-tooltip',
+            '@radix-ui/react-dialog',
+            '@radix-ui/react-dropdown-menu'
+          ],
+          'ui-extended': [
+            '@radix-ui/react-accordion',
+            '@radix-ui/react-alert-dialog',
+            '@radix-ui/react-aspect-ratio',
+            '@radix-ui/react-avatar',
+            '@radix-ui/react-checkbox',
+            '@radix-ui/react-collapsible',
+            '@radix-ui/react-context-menu',
+            '@radix-ui/react-hover-card',
+            '@radix-ui/react-label',
+            '@radix-ui/react-menubar',
+            '@radix-ui/react-navigation-menu',
+            '@radix-ui/react-popover',
+            '@radix-ui/react-progress',
+            '@radix-ui/react-radio-group',
+            '@radix-ui/react-scroll-area',
+            '@radix-ui/react-select',
+            '@radix-ui/react-separator',
+            '@radix-ui/react-slider',
+            '@radix-ui/react-switch',
+            '@radix-ui/react-tabs',
+            '@radix-ui/react-toggle',
+            '@radix-ui/react-toggle-group'
+          ],
+          // 查询库
+          'query': ['@tanstack/react-query'],
+          // 图表库 - 懒加载，不在首页加载
+          'charts': ['chart.js', 'recharts'],
+          // Markdown处理
+          'markdown': ['react-markdown', 'remark-gfm'],
+          // 工具库
+          'utils': ['date-fns', 'clsx', 'class-variance-authority', 'tailwind-merge'],
+          // 表单处理
+          'forms': ['react-hook-form', '@hookform/resolvers', 'zod'],
+          // 其他第三方库
+          'vendor-misc': ['lucide-react', 'sonner', 'cmdk', 'input-otp', 'vaul']
+        }
       }
     },
     // 确保输出路径使用正斜杠
     outDir: 'dist'
   },
   plugins: [
-    react(),
-    mode === 'development' &&
-    componentTagger(),
+    react({
+      // SWC优化选项
+      plugins: []
+    }),
+    mode === 'development' && componentTagger(),
   ].filter(Boolean),
+  // 优化依赖预构建
+  optimizeDeps: {
+    include: [
+      'react',
+      'react-dom',
+      'react-router-dom',
+      '@radix-ui/react-slot',
+      '@radix-ui/react-toast',
+      'lucide-react'
+    ],
+    exclude: [
+      // 排除大型依赖，让它们按需加载
+      'chart.js',
+      'recharts',
+      'react-markdown'
+    ]
+  },
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

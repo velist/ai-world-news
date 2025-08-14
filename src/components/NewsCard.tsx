@@ -2,6 +2,7 @@ import { Card, CardContent, CardHeader } from "@/components/ui/card";
 import { Clock, ExternalLink, Share2 } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
+import { OptimizedImage } from "@/components/OptimizedImage";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
 import { generateWeChatShareUrl } from "@/hooks/useWeChatEnvironment";
 import { posterPreGenerationService } from "@/services/posterPreGenerationService";

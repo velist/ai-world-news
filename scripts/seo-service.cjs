@@ -144,21 +144,32 @@ async function submitToGoogle(urls) {
   
   const result = { success: 0, failed: 0, errors: [] };
   
-  // Google需要逐个提交
+  // 使用Google Indexing API
   for (const url of urls) {
     try {
-      // 这里需要实际的Google Indexing API调用
-      // 由于需要复杂的OAuth认证，这里提供一个模拟实现
       console.log(`  提交: ${url}`);
       
-      // 模拟API调用
-      const success = Math.random() > 0.1; // 90%成功率模拟
+      // 构造Google Indexing API请求
+      const response = await fetch('https://indexing.googleapis.com/v3/urlNotifications:publish', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'Authorization': `Bearer ${SEO_CONFIG.GOOGLE_API_KEY}`
+        },
+        body: JSON.stringify({
+          url: url,
+          type: 'URL_UPDATED'
+        })
+      });
       
-      if (success) {
+      if (response.ok) {
         result.success++;
+        console.log(`  ✅ Google提交成功: ${url}`);
       } else {
+        const errorData = await response.json().catch(() => ({ error: 'Unknown error' }));
         result.failed++;
-        result.errors.push(`URL提交失败: ${url}`);
+        result.errors.push(`URL提交失败 ${url}: ${errorData.error || response.statusText}`);
+        console.warn(`  ❌ Google提交失败 ${url}:`, errorData.error || response.statusText);
       }
       
       await sleep(SEO_CONFIG.SUBMIT_DELAY);
@@ -166,7 +177,7 @@ async function submitToGoogle(urls) {
     } catch (error) {
       result.failed++;
       result.errors.push(error.message);
-      console.error(`  提交失败 ${url}:`, error.message);
+      console.error(`  ❌ 提交异常 ${url}:`, error.message);
     }
   }
   
@@ -186,31 +197,50 @@ async function submitToBing(urls) {
   
   const result = { success: 0, failed: 0, errors: [] };
   
-  // Bing支持批量提交
-  const batchSize = 10; // 保守的批量大小
+  // Bing IndexNow API支持批量提交
+  const batchSize = 10000; // IndexNow最大支持每次提交10,000个URL
   
   for (let i = 0; i < urls.length; i += batchSize) {
     const batch = urls.slice(i, i + batchSize);
     
     try {
-      // 这里需要实际的Bing Webmaster API调用
-      // 提供模拟实现
       console.log(`  批次 ${Math.floor(i / batchSize) + 1}: ${batch.length}个URL`);
       
-      // 模拟API调用
-      const successCount = Math.floor(batch.length * 0.9); // 90%成功率模拟
+      // 使用Bing IndexNow API
+      const response = await fetch('https://api.indexnow.org/indexnow', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+          'User-Agent': 'AI-Push-Bot/1.0'
+        },
+        body: JSON.stringify({
+          host: SEO_CONFIG.BAIDU_SITE, // 使用网站域名
+          key: SEO_CONFIG.BING_API_KEY,
+          keyLocation: `https://${SEO_CONFIG.BAIDU_SITE}/${SEO_CONFIG.BING_API_KEY}.txt`,
+          urlList: batch
+        })
+      });
       
-      result.success += successCount;
-      result.failed += (batch.length - successCount);
-      
-      if (i + batchSize < urls.length) {
-        await sleep(SEO_CONFIG.SUBMIT_DELAY);
+      if (response.ok || response.status === 202) {
+        // IndexNow返回200或202表示成功
+        result.success += batch.length;
+        console.log(`  ✅ Bing提交成功: ${batch.length}个URL`);
+      } else {
+        const errorText = await response.text().catch(() => 'Unknown error');
+        result.failed += batch.length;
+        result.errors.push(`Batch ${Math.floor(i / batchSize) + 1} failed: ${response.status} ${errorText}`);
+        console.warn(`  ❌ Bing批次 ${Math.floor(i / batchSize) + 1} 失败:`, response.status, errorText);
       }
       
     } catch (error) {
       result.failed += batch.length;
       result.errors.push(error.message);
-      console.error(`  批次 ${Math.floor(i / batchSize) + 1} 异常:`, error.message);
+      console.error(`  ❌ 批次 ${Math.floor(i / batchSize) + 1} 异常:`, error.message);
+    }
+    
+    // 添加延迟避免频率限制
+    if (i + batchSize < urls.length) {
+      await sleep(SEO_CONFIG.SUBMIT_DELAY * 5); // IndexNow需要更长延迟
     }
   }
   
@@ -230,29 +260,76 @@ async function generateSitemap() {
     
     // 生成XML sitemap
     let sitemap = `<?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:image="http://www.google.com/schemas/sitemap-image/1.1"
+        xmlns:news="http://www.google.com/schemas/sitemap-news/0.9">
+  <!-- 主页 -->
   <url>
     <loc>${SEO_CONFIG.BASE_URL}/</loc>
+    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
+  
+  <!-- 博客列表页 -->
   <url>
     <loc>${SEO_CONFIG.BASE_URL}/blog</loc>
+    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
     <changefreq>daily</changefreq>
     <priority>0.8</priority>
   </url>`;
     
+    // 按分类分组生成分类页面
+    const categories = [...new Set(blogData.map(article => article.category))];
+    for (const category of categories) {
+      sitemap += `
+  <!-- 分类: ${category} -->
+  <url>
+    <loc>${SEO_CONFIG.BASE_URL}/blog?category=${encodeURIComponent(category)}</loc>
+    <lastmod>${new Date().toISOString().split('T')[0]}</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.6</priority>
+  </url>`;
+    }
+    
     // 添加博客文章
     for (const article of blogData) {
       const lastmod = article.publishedAt || new Date().toISOString().split('T')[0];
-      // 对URL进行正确编码，处理中文字符
       const encodedId = encodeURIComponent(article.id);
+      const priority = article.featured ? '0.8' : '0.7';
+      
       sitemap += `
+  <!-- 文章: ${article.title.substring(0, 50)}... -->
   <url>
     <loc>${SEO_CONFIG.BASE_URL}/blog/${encodedId}</loc>
     <lastmod>${lastmod}</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.7</priority>
+    <changefreq>monthly</changefreq>
+    <priority>${priority}</priority>
+    <!-- 结构化数据信息 -->
+    <image:image>
+      <image:loc>https://news.aipush.fun/wechat-share-300.png</image:loc>
+      <image:caption>${article.title}</image:caption>
+    </image:image>`;
+      
+      // 如果文章是近24小时内发布的，添加新闻 sitemap 标记
+      const publishDate = new Date(article.publishedAt);
+      const now = new Date();
+      const isRecent = (now.getTime() - publishDate.getTime()) < (24 * 60 * 60 * 1000);
+      
+      if (isRecent) {
+        sitemap += `
+    <news:news>
+      <news:publication>
+        <news:name>AI推</news:name>
+        <news:language>zh-CN</news:language>
+      </news:publication>
+      <news:publication_date>${article.publishedAt}</news:publication_date>
+      <news:title>${article.title}</news:title>
+      <news:keywords>${article.keywords ? article.keywords.join(', ') : article.tags.join(', ')}</news:keywords>
+    </news:news>`;
+      }
+      
+      sitemap += `
   </url>`;
     }
     
@@ -263,13 +340,34 @@ async function generateSitemap() {
     const sitemapPath = path.join(__dirname, '..', 'public', 'sitemap.xml');
     await fs.writeFile(sitemapPath, sitemap, 'utf8');
     
-    console.log(`✅ 站点地图已生成: ${blogData.length + 2} 个URL`);
+    // 生成sitemap索引文件
+    await generateSitemapIndex();
+    
+    console.log(`✅ 站点地图已生成: ${blogData.length + categories.length + 2} 个URL`);
     return sitemapPath;
     
   } catch (error) {
     console.error('❌ 站点地图生成失败:', error);
     throw error;
   }
+}
+
+/**
+ * 生成sitemap索引文件
+ */
+async function generateSitemapIndex() {
+  const sitemapIndex = `<?xml version="1.0" encoding="UTF-8"?>
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  <sitemap>
+    <loc>${SEO_CONFIG.BASE_URL}/sitemap.xml</loc>
+    <lastmod>${new Date().toISOString()}</lastmod>
+  </sitemap>
+</sitemapindex>`;
+  
+  const indexPath = path.join(__dirname, '..', 'public', 'sitemap-index.xml');
+  await fs.writeFile(indexPath, sitemapIndex, 'utf8');
+  
+  console.log('✅ Sitemap索引文件已生成');
 }
 
 /**

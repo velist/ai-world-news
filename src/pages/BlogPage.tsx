@@ -207,11 +207,44 @@ const BlogPage = () => {
             "publisher": {
               "@type": "Organization",
               "name": "AI推",
-              "url": "https://news.aipush.fun"
+              "url": "https://news.aipush.fun",
+              "logo": {
+                "@type": "ImageObject",
+                "url": "https://news.aipush.fun/favicon.svg"
+              },
+              "sameAs": [
+                "https://github.com/ai-push",
+                "https://twitter.com/aipushnews"
+              ]
             },
             "mainEntityOfPage": {
               "@type": "CollectionPage",
               "name": isZh ? "AI博客文章" : "AI Blog Posts"
+            },
+            "blogPost": blogPosts.slice(0, 5).map(post => ({
+              "@type": "BlogPosting",
+              "headline": post.title,
+              "url": `https://news.aipush.fun/blog/${post.id}`,
+              "datePublished": post.publishedAt,
+              "dateModified": post.publishedAt,
+              "author": {
+                "@type": "Organization",
+                "name": post.author
+              },
+              "publisher": {
+                "@type": "Organization",
+                "name": "AI推"
+              },
+              "description": post.excerpt,
+              "keywords": post.tags.join(", "),
+              "wordCount": post.readTime * 200,
+              "articleSection": post.category
+            })),
+            "keywords": isZh ? "AI博客,人工智能博客,ChatGPT分析,大模型对比,AI技术解读,机器学习教程,AI行业报告,人工智能趋势,OpenAI新闻,深度学习技术" : "AI Blog,Artificial Intelligence Blog,ChatGPT Analysis,LLM Comparison,AI Technology Analysis,Machine Learning Tutorial,AI Industry Report,OpenAI News,Deep Learning",
+            "inLanguage": isZh ? "zh-CN" : "en-US",
+            "audience": {
+              "@type": "Audience",
+              "audienceType": isZh ? "AI从业者,研究人员,技术爱好者" : "AI Professionals,Researchers,Tech Enthusiasts"
             }
           })}
         </script>

@@ -11,20 +11,41 @@ import { ErrorBoundary, useGlobalErrorHandler } from "@/components/ErrorBoundary
 import { WeChatHashRouterHandler } from "@/components/WeChatHashRouterHandler";
 import { isWeChatBrowser } from "@/utils/browserDetection";
 import { normalizeUrl, extractPathFromQuery, restoreUrlHistory } from "@/utils/urlNormalization";
-import { useState, useEffect } from "react";
-import Index from "./pages/Index";
-import NewsDetailPage from "./pages/NewsDetailPage";
-import NotFound from "./pages/NotFound";
-import { WeChatDebugPage } from "./pages/WeChatDebugPage";
-import AboutPage from "./pages/AboutPage";
-import ServicesPage from "./pages/ServicesPage";
-import ContactPage from "./pages/ContactPage";
-import BlogPage from "./pages/BlogPage";
-import BlogArticlePage from "./pages/BlogArticlePage";
-import WebsiteIntroPage from "./pages/WebsiteIntroPage";
-import GPT5PricingAnalysisPage from "./pages/GPT5PricingAnalysisPage";
+import { useState, useEffect, Suspense, lazy } from "react";
 
-const queryClient = new QueryClient();
+// 实现路由懒加载 - 关键优化
+const Index = lazy(() => import("./pages/Index"));
+const NewsDetailPage = lazy(() => import("./pages/NewsDetailPage"));
+const NotFound = lazy(() => import("./pages/NotFound"));
+const WeChatDebugPage = lazy(() => import("./pages/WeChatDebugPage"));
+const AboutPage = lazy(() => import("./pages/AboutPage"));
+const ServicesPage = lazy(() => import("./pages/ServicesPage"));
+const ContactPage = lazy(() => import("./pages/ContactPage"));
+const BlogPage = lazy(() => import("./pages/BlogPage"));
+const BlogArticlePage = lazy(() => import("./pages/BlogArticlePage"));
+const WebsiteIntroPage = lazy(() => import("./pages/WebsiteIntroPage"));
+const GPT5PricingAnalysisPage = lazy(() => import("./pages/GPT5PricingAnalysisPage"));
+
+const queryClient = new QueryClient({
+  defaultOptions: {
+    queries: {
+      staleTime: 5 * 60 * 1000, // 5分钟数据新鲜时间
+      cacheTime: 10 * 60 * 1000, // 10分钟缓存时间
+      retry: 2,
+      refetchOnWindowFocus: false, // 减少不必要的重新获取
+    },
+  },
+});
+
+// 加载组件
+const LoadingSpinner = () => (
+  <div className="min-h-screen flex items-center justify-center">
+    <div className="text-center">
+      <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900 mx-auto mb-4"></div>
+      <p className="text-gray-600">加载中...</p>
+    </div>
+  </div>
+);
 
 const App = () => {
   // 启用微信环境优化
@@ -95,12 +116,7 @@ const App = () => {
   if (!isInitialized) {
     return (
       <ErrorBoundary>
-        <div className="min-h-screen flex items-center justify-center">
-          <div className="text-center">
-            <div className="animate-spin rounded-full h-8 w-8 border-b-2 border-gray-900 mx-auto mb-4"></div>
-            <p className="text-gray-600">正在初始化应用...</p>
-          </div>
-        </div>
+        <LoadingSpinner />
       </ErrorBoundary>
     );
   }
@@ -135,20 +151,22 @@ const App = () => {
               <UpdateNotification />
               <Router>
                 <WeChatHashRouterHandler />
-                <Routes>
-                  <Route path="/" element={<Index />} />
-                  <Route path="/news/:id" element={<NewsDetailPage />} />
-                  <Route path="/about" element={<AboutPage />} />
-                  <Route path="/services" element={<ServicesPage />} />
-                  <Route path="/contact" element={<ContactPage />} />
-                  <Route path="/blog" element={<BlogPage />} />
-                  <Route path="/blog/:slug" element={<BlogArticlePage />} />
-                  <Route path="/website-intro" element={<WebsiteIntroPage />} />
-                  <Route path="/debug" element={<WeChatDebugPage />} />
-                  <Route path="/gpt5-pricing-analysis" element={<GPT5PricingAnalysisPage />} />
-                  {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
-                  <Route path="*" element={<NotFound />} />
-                </Routes>
+                <Suspense fallback={<LoadingSpinner />}>
+                  <Routes>
+                    <Route path="/" element={<Index />} />
+                    <Route path="/news/:id" element={<NewsDetailPage />} />
+                    <Route path="/about" element={<AboutPage />} />
+                    <Route path="/services" element={<ServicesPage />} />
+                    <Route path="/contact" element={<ContactPage />} />
+                    <Route path="/blog" element={<BlogPage />} />
+                    <Route path="/blog/:slug" element={<BlogArticlePage />} />
+                    <Route path="/website-intro" element={<WebsiteIntroPage />} />
+                    <Route path="/debug" element={<WeChatDebugPage />} />
+                    <Route path="/gpt5-pricing-analysis" element={<GPT5PricingAnalysisPage />} />
+                    {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
+                    <Route path="*" element={<NotFound />} />
+                  </Routes>
+                </Suspense>
               </Router>
             </TooltipProvider>
           </LanguageProvider>
