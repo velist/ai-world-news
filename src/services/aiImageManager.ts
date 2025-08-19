@@ -441,23 +441,28 @@ export class AIImageManager {
    * 健康检查
    */
   private startHealthChecks(): void {
-    this.healthCheckInterval = setInterval(async () => {
-      for (const service of this.services.values()) {
-        try {
-          // 简单的健康检查请求
-          const response = await fetch(service.endpoint + '/health', { 
-            method: 'GET',
-            timeout: 5000 
-          });
-          
-          service.isActive = response.ok;
-          service.lastHealthCheck = Date.now();
-        } catch (error) {
-          service.isActive = false;
-          console.warn(`⚠️ 服务${service.name}健康检查失败:`, error);
-        }
-      }
-    }, 30000); // 30秒检查一次
+    // 在静态部署环境中禁用API健康检查，因为这些端点不存在
+    // 避免产生大量404错误请求
+    console.log('🚫 AI服务健康检查已禁用（静态部署环境）');
+    return;
+    
+    // this.healthCheckInterval = setInterval(async () => {
+    //   for (const service of this.services.values()) {
+    //     try {
+    //       // 简单的健康检查请求
+    //       const response = await fetch(service.endpoint + '/health', { 
+    //         method: 'GET',
+    //         timeout: 5000 
+    //       });
+    //       
+    //       service.isActive = response.ok;
+    //       service.lastHealthCheck = Date.now();
+    //     } catch (error) {
+    //       service.isActive = false;
+    //       console.warn(`⚠️ 服务${service.name}健康检查失败:`, error);
+    //     }
+    //   }
+    // }, 30000); // 30秒检查一次
   }
 
   /**

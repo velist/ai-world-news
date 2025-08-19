@@ -39,7 +39,7 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   const imgRef = useRef<HTMLImageElement>(null);
   const observerRef = useRef<IntersectionObserver | null>(null);
   
-  // 智能备用图片生成
+  // 智能备用图片生成 - 使用SVG Data URL避免CORS问题
   const generateFallbackImage = (title: string): string => {
     if (fallbackSrc) return fallbackSrc;
     
@@ -50,14 +50,14 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
         titleLower.includes('machine learning') || titleLower.includes('chatgpt') || 
         titleLower.includes('openai') || titleLower.includes('claude') || titleLower.includes('人工智能') ||
         titleLower.includes('大模型') || titleLower.includes('llm') || titleLower.includes('深度学习')) {
-      return 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format';
+      return 'data:image/svg+xml;base64,' + btoa(`<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg"><rect width="800" height="600" fill="#667eea"/><text x="400" y="320" text-anchor="middle" fill="white" font-size="48" font-family="Arial">🤖 AI</text></svg>`);
     }
     
     // 机器人和自动化
     if (titleLower.includes('robot') || titleLower.includes('automation') || 
         titleLower.includes('机器人') || titleLower.includes('自动化') ||
         titleLower.includes('自动驾驶') || titleLower.includes('self-driving')) {
-      return 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop&auto=format';
+      return 'data:image/svg+xml;base64,' + btoa(`<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg"><rect width="800" height="600" fill="#764ba2"/><text x="400" y="320" text-anchor="middle" fill="white" font-size="48" font-family="Arial">🤖 机器人</text></svg>`);
     }
     
     // 科技和技术
@@ -65,18 +65,18 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
         titleLower.includes('software') || titleLower.includes('app') || 
         titleLower.includes('科技') || titleLower.includes('技术') ||
         titleLower.includes('芯片') || titleLower.includes('gpu') || titleLower.includes('处理器')) {
-      return 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop&auto=format';
+      return 'data:image/svg+xml;base64,' + btoa(`<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg"><rect width="800" height="600" fill="#667eea"/><text x="400" y="320" text-anchor="middle" fill="white" font-size="48" font-family="Arial">💻 科技</text></svg>`);
     }
     
     // 数据和代码
     if (titleLower.includes('data') || titleLower.includes('code') || 
         titleLower.includes('programming') || titleLower.includes('开发') ||
         titleLower.includes('数据') || titleLower.includes('代码') || titleLower.includes('编程')) {
-      return 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop&auto=format';
+      return 'data:image/svg+xml;base64,' + btoa(`<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg"><rect width="800" height="600" fill="#f093fb"/><text x="400" y="320" text-anchor="middle" fill="white" font-size="48" font-family="Arial">📊 数据</text></svg>`);
     }
     
     // 默认AI新闻图片
-    return 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format';
+    return 'data:image/svg+xml;base64,' + btoa(`<svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg"><rect width="800" height="600" fill="#667eea"/><text x="400" y="320" text-anchor="middle" fill="white" font-size="48" font-family="Arial">📰 AI推</text></svg>`);
   };
   
   // 生成不同尺寸的图片URL

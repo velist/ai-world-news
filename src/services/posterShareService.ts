@@ -438,12 +438,7 @@ export class PosterShareService {
 
       // 使用多个高质量二维码API源，优先选择最稳定的
       const qrApis = [
-        // 彩虹二维码 - 新增的高质量API
-        {
-          url: `https://www.erweicaihong.cn/api?text=${encodeURIComponent(newsUrl)}&size=${size}&key=27e94730-7484-11f0-a569-f7f8300803ea`,
-          name: '彩虹二维码'
-        },
-        // QR Server - 最稳定，支持高分辨率
+        // QR Server - 最稳定，支持高分辨率（移除可能引起CORS问题的API）
         {
           url: `https://api.qrserver.com/v1/create-qr-code/?size=${size}x${size}&data=${encodeURIComponent(newsUrl)}&format=png&margin=1&ecc=H&color=000000&bgcolor=ffffff`,
           name: 'QRServer'

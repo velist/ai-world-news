@@ -23,7 +23,8 @@
                         target.textContent?.includes('分享') ||
                         target.innerHTML?.includes('分享') ||
                         target.id?.includes('share') ||
-                        target.className?.includes('share')
+                        (typeof target.className === 'string' && target.className.includes('share')) ||
+                        (target.className && target.className.toString && target.className.toString().includes('share'))
                     );
                     
                     if (isShareClick) {
