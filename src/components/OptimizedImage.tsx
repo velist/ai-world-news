@@ -14,6 +14,7 @@ interface OptimizedImageProps {
   loading?: 'lazy' | 'eager';
   onLoad?: () => void;
   onError?: () => void;
+  fallbackSrc?: string;
 }
 
 export const OptimizedImage: React.FC<OptimizedImageProps> = ({
@@ -29,12 +30,54 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   sizes,
   loading = 'lazy',
   onLoad,
-  onError
+  onError,
+  fallbackSrc
 }) => {
   const [imageState, setImageState] = useState<'loading' | 'loaded' | 'error'>('loading');
   const [currentSrc, setCurrentSrc] = useState<string>('');
+  const [retryCount, setRetryCount] = useState(0);
   const imgRef = useRef<HTMLImageElement>(null);
   const observerRef = useRef<IntersectionObserver | null>(null);
+  
+  // 智能备用图片生成
+  const generateFallbackImage = (title: string): string => {
+    if (fallbackSrc) return fallbackSrc;
+    
+    const titleLower = title.toLowerCase();
+    
+    // AI相关图片
+    if (titleLower.includes('ai') || titleLower.includes('artificial intelligence') || 
+        titleLower.includes('machine learning') || titleLower.includes('chatgpt') || 
+        titleLower.includes('openai') || titleLower.includes('claude') || titleLower.includes('人工智能') ||
+        titleLower.includes('大模型') || titleLower.includes('llm') || titleLower.includes('深度学习')) {
+      return 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format';
+    }
+    
+    // 机器人和自动化
+    if (titleLower.includes('robot') || titleLower.includes('automation') || 
+        titleLower.includes('机器人') || titleLower.includes('自动化') ||
+        titleLower.includes('自动驾驶') || titleLower.includes('self-driving')) {
+      return 'https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop&auto=format';
+    }
+    
+    // 科技和技术
+    if (titleLower.includes('tech') || titleLower.includes('computer') || 
+        titleLower.includes('software') || titleLower.includes('app') || 
+        titleLower.includes('科技') || titleLower.includes('技术') ||
+        titleLower.includes('芯片') || titleLower.includes('gpu') || titleLower.includes('处理器')) {
+      return 'https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop&auto=format';
+    }
+    
+    // 数据和代码
+    if (titleLower.includes('data') || titleLower.includes('code') || 
+        titleLower.includes('programming') || titleLower.includes('开发') ||
+        titleLower.includes('数据') || titleLower.includes('代码') || titleLower.includes('编程')) {
+      return 'https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop&auto=format';
+    }
+    
+    // 默认AI新闻图片
+    return 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format';
+  };
   
   // 生成不同尺寸的图片URL
   const generateSrcSet = (originalSrc: string, width?: number) => {
@@ -102,6 +145,22 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   };
   
   const handleError = () => {
+    console.warn(`图片加载失败: ${currentSrc}, 重试次数: ${retryCount}`);
+    
+    // 防止无限重试，最多重试2次
+    if (retryCount < 2) {
+      const fallbackUrl = generateFallbackImage(alt);
+      
+      // 检查是否已经在使用备用图片，避免循环
+      if (currentSrc !== fallbackUrl) {
+        setRetryCount(prev => prev + 1);
+        setCurrentSrc(fallbackUrl);
+        setImageState('loading');
+        return;
+      }
+    }
+    
+    // 最终失败，显示错误状态
     setImageState('error');
     onError?.();
   };

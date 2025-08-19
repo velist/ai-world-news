@@ -323,34 +323,15 @@ export const NewsCard = ({
       >
       <CardHeader className="p-0">
         <div className="relative overflow-hidden rounded-t-lg">
-          <img 
+          <OptimizedImage 
             src={imageUrl} 
             alt={displayTitle}
-            className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
+            width={800}
+            height={192}
+            className="w-full h-48 transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
-            onError={(e) => {
-              // 增强的图片加载处理
-              const target = e.target as HTMLImageElement;
-              
-              // 检查是否已经是备用图片，避免无限循环
-              if (target.src.includes('unsplash.com/photo-1677442136019-21780ecad995')) {
-                return;
-              }
-              
-              const title = displayTitle.toLowerCase();
-              
-              // 优化的备用图片选择
-              if (title.includes('ai') || title.includes('人工智能') || title.includes('大模型') || title.includes('chatgpt')) {
-                target.src = "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format";
-              } else if (title.includes('机器人') || title.includes('自动化') || title.includes('自动驾驶')) {
-                target.src = "https://images.unsplash.com/photo-1485827404703-89b55fcc595e?w=800&h=600&fit=crop&auto=format";
-              } else if (title.includes('科技') || title.includes('技术') || title.includes('芯片')) {
-                target.src = "https://images.unsplash.com/photo-1518709268805-4e9042af2176?w=800&h=600&fit=crop&auto=format";
-              } else if (title.includes('数据') || title.includes('代码') || title.includes('编程')) {
-                target.src = "https://images.unsplash.com/photo-1555066931-4365d14bab8c?w=800&h=600&fit=crop&auto=format";
-              } else {
-                target.src = "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format";
-              }
+            onError={() => {
+              console.warn('图片加载失败，已使用OptimizedImage组件处理');
             }}
           />
           <div className="absolute top-3 left-3">

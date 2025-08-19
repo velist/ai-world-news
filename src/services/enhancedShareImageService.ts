@@ -5,7 +5,6 @@
 
 import { aiImageManager } from './aiImageManager';
 import { mcpAdapter } from './mcpAdapter';
-import { posterShareService } from './posterShareService';
 
 interface ShareImageOptions {
   useAI?: boolean;
@@ -159,6 +158,7 @@ export class EnhancedShareImageService {
   private async generateWithCanvas(newsData: NewsData): Promise<string> {
     try {
       console.log('🖌️ 使用Canvas生成图片');
+      const { posterShareService } = await import('./posterShareService');
       const result = await posterShareService.generateNewsPoster(newsData);
       this.generationStats.canvasSuccess++;
       return result;
