@@ -140,33 +140,11 @@ export const useNewsTranslation = () => {
     }
   }, []); // translateToSimpleEnglish 不依赖外部变量
 
-  // 获取新闻的本地化内容 - 中文用户看翻译，英文用户看处理后的英文版本
+  // 获取新闻的本地化内容 - 简化版本，直接返回原数据
   const getLocalizedNews = useCallback((news: any) => {
     if (!news) return null;
-    
-    if (isZh) {
-      // 中文用户：直接使用当前的翻译内容
-      return news;
-    } else {
-      // 英文用户：由于数据源都是中文翻译，需要进行反向处理
-      // 检查原始URL来判断是否为英文来源
-      const isEnglishSource = news.originalUrl && (
-        news.originalUrl.includes('.com') || 
-        news.originalUrl.includes('.org') || 
-        news.originalUrl.includes('.net') ||
-        /\b(bloomberg|reuters|techcrunch|verge|wired|cnet|zdnet|fortune|forbes|wsj|nytimes|washingtonpost|bbc|cnn|nbc|abc|cbs|npr|ap|axios|politico|guardian|ft|economist|time|newsweek|businessinsider|benzinga|seekingalpha|cnbc|yahoo|investing|siliconangle|winbuzzer|cointelegraph|hotair)\b/i.test(news.originalUrl)
-      );
-      
-      return {
-        ...news,
-        title: isEnglishSource ? translateToSimpleEnglish(news.title) : news.title,
-        summary: isEnglishSource ? translateToSimpleEnglish(news.summary || '') : news.summary,
-        content: news.content, // 内容保持原样
-        isTranslatedContent: true, // 标记为翻译内容
-        isEnglishSource: isEnglishSource // 标记来源类型
-      };
-    }
-  }, [isZh, translateToSimpleEnglish]);
+    return news;
+  }, []);
 
   const getLocalizedNewsArray = useCallback((newsArray: any[]) => {
     if (!newsArray || !Array.isArray(newsArray)) return [];

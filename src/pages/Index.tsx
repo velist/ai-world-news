@@ -20,6 +20,7 @@ const Index = () => {
   const [disclaimerOpen, setDisclaimerOpen] = useState(false);
   const [emailSubscribeOpen, setEmailSubscribeOpen] = useState(false);
 
+
   // 更新最后刷新时间
   useEffect(() => {
     if (!loading && !error && news.length > 0) {
@@ -186,7 +187,7 @@ const Index = () => {
         )}
 
         {/* News Grid */}
-        {!loading && !error && (
+        {!loading && !error && news.length > 0 && (
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
             {news.map((item, index) => (
               <div
@@ -201,6 +202,7 @@ const Index = () => {
             ))}
           </div>
         )}
+
 
         {/* Empty State */}
         {!loading && !error && news.length === 0 && (

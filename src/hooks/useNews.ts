@@ -146,7 +146,7 @@ const fetchNewsData = async (bypassCache = false): Promise<NewsItem[]> => {
 export const useNews = () => {
   const [news, setNews] = useState<NewsItem[]>([]);
   const [rawNews, setRawNews] = useState<NewsItem[]>([]); // 存储原始数据
-  const [loading, setLoading] = useState(true);
+  const [loading, setLoading] = useState(false); // 修复：初始状态改为false
   const [selectedCategory, setSelectedCategory] = useState('全部');
   const [error, setError] = useState<string | null>(null);
   const [lastFetchTime, setLastFetchTime] = useState<number>(0);
@@ -156,13 +156,8 @@ export const useNews = () => {
 
   // 优化的数据处理函数
   const processNewsData = useCallback((rawData: NewsItem[]) => {
-    console.log(`获取到原始新闻数据: ${rawData.length} 条`);
-    console.log('原始数据前3条标题:', rawData.slice(0, 3).map(item => item.title));
-    
     // 应用内容过滤，移除政治敏感内容
     const filteredData = filterNews(rawData);
-    console.log(`内容过滤后新闻数据: ${filteredData.length} 条 (被过滤掉 ${rawData.length - filteredData.length} 条)`);
-    console.log('过滤后数据前3条标题:', filteredData.slice(0, 3).map(item => item.title));
     
     // 按时间降序排序 - 最新的在前面
     const sortedData = filteredData.sort((a, b) => {
@@ -174,15 +169,6 @@ export const useNews = () => {
     // 应用语言本地化
     const localizedData = getLocalizedNewsArray(sortedData);
     
-    console.log('排序后数据前3条标题:', sortedData.slice(0, 3).map(item => item.title));
-    console.log('本地化后数据前3条标题:', localizedData.slice(0, 3).map(item => item.title));
-    console.log('最终处理结果前5条新闻:', localizedData.slice(0, 5).map((item, index) => ({ 
-      index: index + 1,
-      title: item.title.substring(0, 40), 
-      time: item.publishedAt,
-      source: item.source
-    })));
-    
     return localizedData;
   }, [filterNews, getLocalizedNewsArray]);
 
@@ -190,7 +176,6 @@ export const useNews = () => {
   const loadNews = useCallback(async (bypassCache = false) => {
     // 如果正在加载且不是强制刷新，则跳过
     if (loading && !bypassCache) {
-      console.log('数据正在加载中，跳过重复请求');
       return;
     }
 
@@ -270,7 +255,9 @@ export const useNews = () => {
 
   // 优化的过滤和排序逻辑
   const sortedFilteredNews = useMemo(() => {
-    console.log('重新计算排序后的新闻', { newsCount: news.length, selectedCategory });
+    if (!news || news.length === 0) {
+      return [];
+    }
     
     // 过滤逻辑：全部显示所有新闻，其他分类只显示对应分类的新闻
     const filteredNews = selectedCategory === getLocalizedCategory('全部') 

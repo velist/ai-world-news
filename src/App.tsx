@@ -14,10 +14,13 @@ import { normalizeUrl, extractPathFromQuery, restoreUrlHistory } from "@/utils/u
 import { useState, useEffect, Suspense, lazy } from "react";
 
 // 实现路由懒加载 - 关键优化
-const Index = lazy(() => import("./pages/Index"));
+// const Index = lazy(() => import("./pages/Index"));
+// 临时直接导入Index用于调试
+import Index from "./pages/Index";
 const NewsDetailPage = lazy(() => import("./pages/NewsDetailPage"));
 const NotFound = lazy(() => import("./pages/NotFound"));
 const WeChatDebugPage = lazy(() => import("./pages/WeChatDebugPage"));
+const DebugNews = lazy(() => import("./pages/DebugNews"));
 const AboutPage = lazy(() => import("./pages/AboutPage"));
 const ServicesPage = lazy(() => import("./pages/ServicesPage"));
 const ContactPage = lazy(() => import("./pages/ContactPage"));
@@ -162,6 +165,7 @@ const App = () => {
                     <Route path="/blog/:slug" element={<BlogArticlePage />} />
                     <Route path="/website-intro" element={<WebsiteIntroPage />} />
                     <Route path="/debug" element={<WeChatDebugPage />} />
+                    <Route path="/debug-news" element={<DebugNews />} />
                     <Route path="/gpt5-pricing-analysis" element={<GPT5PricingAnalysisPage />} />
                     {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
                     <Route path="*" element={<NotFound />} />

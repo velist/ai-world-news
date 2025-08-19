@@ -31,6 +31,7 @@ export const NewsCard = ({
   const { getLocalizedCategory } = useNewsTranslation();
   const cardRef = useRef<HTMLDivElement>(null);
   
+  
   // 集成预生成服务
   useEffect(() => {
     if (cardRef.current) {
