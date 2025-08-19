@@ -31,9 +31,38 @@ class NewsCache {
 
 const newsCache = new NewsCache();
 
+// 请求限流控制
+let isRequestInProgress = false;
+let lastRequestTime = 0;
+const REQUEST_THROTTLE_MS = 2000; // 2秒内只能发一次请求
+
 // 优化的数据获取函数
 const fetchNewsData = async (bypassCache = false): Promise<NewsItem[]> => {
   const cacheKey = 'news-data';
+  
+  // 防止并发请求
+  if (isRequestInProgress) {
+    console.log('请求正在进行中，等待完成...');
+    // 等待当前请求完成
+    while (isRequestInProgress) {
+      await new Promise(resolve => setTimeout(resolve, 100));
+    }
+    // 请求完成后尝试从缓存获取
+    const cachedData = newsCache.get(cacheKey);
+    if (cachedData) {
+      return cachedData;
+    }
+  }
+  
+  // 限流检查
+  const now = Date.now();
+  if (now - lastRequestTime < REQUEST_THROTTLE_MS) {
+    const cachedData = newsCache.get(cacheKey);
+    if (cachedData) {
+      console.log('请求被限流，使用缓存数据:', cachedData.length, '条');
+      return cachedData;
+    }
+  }
   
   // 尝试从缓存获取数据
   if (!bypassCache) {
@@ -44,32 +73,39 @@ const fetchNewsData = async (bypassCache = false): Promise<NewsItem[]> => {
     }
   }
 
+  // 标记请求开始
+  isRequestInProgress = true;
+  lastRequestTime = now;
+  
   // 检测是否为微信浏览器
   const isWeChat = /micromessenger/i.test(navigator.userAgent);
   
-  // 增强的缓存破坏策略
-  const timestamp = Date.now();
-  const cacheParams = new URLSearchParams({
-    t: timestamp.toString(),
-    v: '2', // 版本号
-    ...(bypassCache && { force: '1' })
-  });
-  
-  const url = `/news-data.json?${cacheParams}`;
+  // 优化缓存策略：只在强制刷新时添加时间戳
+  const url = bypassCache ? `/news-data.json?t=${now}&v=2` : '/news-data.json';
   
   try {
     const response = await fetch(url, {
-      cache: 'no-cache',
+      method: 'GET',
+      cache: bypassCache ? 'no-cache' : 'default',
       headers: {
-        'Cache-Control': 'no-cache, no-store, must-revalidate',
-        'Pragma': 'no-cache',
-        'Expires': '0',
+        'Accept': 'application/json',
+        ...(bypassCache && {
+          'Cache-Control': 'no-cache, no-store, must-revalidate',
+          'Pragma': 'no-cache'
+        }),
         ...(isWeChat && { 'User-Agent': 'WeChat' })
-      }
+      },
+      // 添加超时控制
+      signal: AbortSignal.timeout(10000) // 10秒超时
     });
     
     if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
+      throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+    }
+    
+    const contentType = response.headers.get('content-type');
+    if (!contentType || !contentType.includes('application/json')) {
+      throw new Error('服务器返回的不是JSON数据');
     }
     
     const data = await response.json();
@@ -78,20 +114,32 @@ const fetchNewsData = async (bypassCache = false): Promise<NewsItem[]> => {
       // 缓存数据
       newsCache.set(cacheKey, data.data);
       return data.data;
+    } else if (Array.isArray(data)) {
+      // 兼容直接数组格式
+      newsCache.set(cacheKey, data);
+      return data;
     } else {
-      throw new Error('新闻数据格式错误');
+      throw new Error('新闻数据格式不正确');
     }
   } catch (error) {
     console.error('获取新闻数据失败:', error);
     
     // 尝试获取备用缓存数据
     const fallbackData = newsCache.get(cacheKey);
-    if (fallbackData) {
-      console.log('使用备用缓存数据');
+    if (fallbackData && fallbackData.length > 0) {
+      console.log('使用备用缓存数据:', fallbackData.length, '条');
       return fallbackData;
     }
     
+    // 如果是网络错误，抛出更友好的错误信息
+    if (error instanceof TypeError && error.message.includes('Failed to fetch')) {
+      throw new Error('网络连接失败，请检查网络连接后重试');
+    }
+    
     throw error;
+  } finally {
+    // 标记请求完成
+    isRequestInProgress = false;
   }
 };
 
@@ -134,11 +182,18 @@ export const useNews = () => {
     return localizedData;
   }, [filterNews, getLocalizedNewsArray]);
 
-  // 主要的数据获取函数
+  // 主要的数据获取函数 - 增强防抖和错误处理
   const loadNews = useCallback(async (bypassCache = false) => {
+    // 如果正在加载且不是强制刷新，则跳过
+    if (loading && !bypassCache) {
+      console.log('数据正在加载中，跳过重复请求');
+      return;
+    }
+
     // 防抖：如果刚刚获取过数据，则跳过
     const now = Date.now();
-    if (!bypassCache && now - lastFetchTime < 30000) { // 30秒内不重复获取
+    if (!bypassCache && now - lastFetchTime < 10000) { // 减少到10秒防抖
+      console.log('防抖限制，跳过请求');
       return;
     }
 
@@ -147,18 +202,41 @@ export const useNews = () => {
     
     try {
       const rawData = await fetchNewsData(bypassCache);
+      
+      if (!rawData || rawData.length === 0) {
+        throw new Error('未获取到新闻数据');
+      }
+      
       const processedData = processNewsData(rawData);
       
       setRawNews(rawData); // 存储原始数据
       setNews(processedData);
       setLastFetchTime(now);
+      
+      console.log(`✅ 成功加载 ${processedData.length} 条新闻`);
     } catch (err) {
-      console.error('Network error:', err);
-      setError(err instanceof Error ? err.message : '网络连接错误，请检查网络设置');
+      console.error('❌ 新闻加载失败:', err);
+      const errorMessage = err instanceof Error ? err.message : '网络连接错误，请检查网络设置';
+      setError(errorMessage);
+      
+      // 如果有缓存数据，在错误时也尝试显示
+      if (news.length === 0) {
+        try {
+          const fallbackData = newsCache.get('news-data');
+          if (fallbackData && fallbackData.length > 0) {
+            console.log('🔄 使用缓存数据作为备用');
+            const processedFallback = processNewsData(fallbackData);
+            setRawNews(fallbackData);
+            setNews(processedFallback);
+          }
+        } catch (fallbackError) {
+          console.error('备用数据处理失败:', fallbackError);
+        }
+      }
     } finally {
       setLoading(false);
     }
-  }, [processNewsData, lastFetchTime]);
+  }, [processNewsData, lastFetchTime, loading, news.length]);
 
   // 语言变化时重新处理现有数据
   useEffect(() => {
@@ -175,10 +253,11 @@ export const useNews = () => {
   useEffect(() => {
     loadNews();
     
-    // 设置定时刷新新闻（每5分钟检查一次）
+    // 设置定时刷新新闻（每30分钟检查一次，减少频率）
     const interval = setInterval(() => {
+      console.log('🔄 定时刷新新闻数据...');
       loadNews(true);
-    }, 5 * 60 * 1000);
+    }, 30 * 60 * 1000); // 改为30分钟
     
     return () => {
       clearInterval(interval);

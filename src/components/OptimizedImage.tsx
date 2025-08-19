@@ -88,34 +88,16 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
       .join(', ');
   };
   
-  // 生成WebP格式的图片URL
-  const generateWebPUrl = (originalSrc: string): string => {
-    if (originalSrc.includes('?')) {
-      return `${originalSrc}&f=webp`;
-    }
-    return `${originalSrc}?f=webp`;
-  };
-  
-  // 检测浏览器对WebP的支持
-  const [supportsWebP, setSupportsWebP] = useState(false);
-  
-  useEffect(() => {
-    const webp = new Image();
-    webp.onload = webp.onerror = () => {
-      setSupportsWebP(webp.height === 2);
-    };
-    webp.src = 'data:image/webp;base64,UklGRjoAAABXRUJQVlA4IC4AAACyAgCdASoCAAIALmk0mk0iIiIiIgBoSygABc6WWgAA/veff/0PP8bA//LwYAAA';
-  }, []);
-  
-  // 选择最优的图片格式
+  // 简化图片URL处理，避免WebP相关的复杂逻辑
   const getOptimalSrc = (originalSrc: string): string => {
-    return supportsWebP ? generateWebPUrl(originalSrc) : originalSrc;
+    // 直接返回原始URL，避免格式转换导致的加载问题
+    return originalSrc;
   };
   
-  // 懒加载逻辑
+  // 简化懒加载逻辑
   useEffect(() => {
     if (priority || loading === 'eager') {
-      setCurrentSrc(getOptimalSrc(src));
+      setCurrentSrc(src);
       return;
     }
     
@@ -124,11 +106,11 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
     observerRef.current = new IntersectionObserver(
       ([entry]) => {
         if (entry.isIntersecting) {
-          setCurrentSrc(getOptimalSrc(src));
+          setCurrentSrc(src);
           observerRef.current?.unobserve(entry.target);
         }
       },
-      { rootMargin: '50px' }
+      { rootMargin: '100px' } // 增加预加载范围
     );
     
     observerRef.current.observe(imgRef.current);
@@ -136,7 +118,7 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
     return () => {
       observerRef.current?.disconnect();
     };
-  }, [src, priority, loading, supportsWebP]);
+  }, [src, priority, loading]);
   
   // 图片加载处理
   const handleLoad = () => {
@@ -189,35 +171,26 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
         />
       )}
       
-      {/* 主图片 */}
+      {/* 主图片 - 简化版本 */}
       {currentSrc && (
-        <picture>
-          {supportsWebP && (
-            <source
-              srcSet={generateSrcSet(generateWebPUrl(src), width)}
-              sizes={sizes}
-              type="image/webp"
-            />
-          )}
-          
-          <img
-            ref={imgRef}
-            src={currentSrc}
-            srcSet={generateSrcSet(src, width)}
-            sizes={sizes}
-            alt={alt}
-            width={width}
-            height={height}
-            loading={priority ? 'eager' : 'lazy'}
-            onLoad={handleLoad}
-            onError={handleError}
-            className={`
-              transition-opacity duration-300
-              ${imageState === 'loaded' ? 'opacity-100' : 'opacity-0'}
-              object-cover w-full h-full
-            `}
-          />
-        </picture>
+        <img
+          ref={imgRef}
+          src={currentSrc}
+          alt={alt}
+          width={width}
+          height={height}
+          loading={priority ? 'eager' : 'lazy'}
+          onLoad={handleLoad}
+          onError={handleError}
+          className={`
+            transition-opacity duration-300
+            ${imageState === 'loaded' ? 'opacity-100' : 'opacity-0'}
+            object-cover w-full h-full
+          `}
+          style={{
+            aspectRatio: width && height ? `${width}/${height}` : undefined
+          }}
+        />
       )}
       
       {/* 错误状态 */}
