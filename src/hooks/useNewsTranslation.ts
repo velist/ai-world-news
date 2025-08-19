@@ -138,7 +138,7 @@ export const useNewsTranslation = () => {
     } else {
       return companyName ? `${companyName} News` : 'Tech News Update';
     }
-  }, []);
+  }, []); // translateToSimpleEnglish 不依赖外部变量
 
   // 获取新闻的本地化内容 - 中文用户看翻译，英文用户看处理后的英文版本
   const getLocalizedNews = useCallback((news: any) => {

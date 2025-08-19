@@ -145,14 +145,15 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   };
   
   const handleError = () => {
-    console.warn(`图片加载失败: ${currentSrc}, 重试次数: ${retryCount}`);
+    console.warn(`图片加载失败: ${currentSrc}, 重试次数: ${retryCount}, alt: ${alt}`);
     
-    // 防止无限重试，最多重试2次
-    if (retryCount < 2) {
+    // 防止无限重试，最多重试1次
+    if (retryCount < 1) {
       const fallbackUrl = generateFallbackImage(alt);
       
       // 检查是否已经在使用备用图片，避免循环
       if (currentSrc !== fallbackUrl) {
+        console.log(`切换到fallback图片: ${fallbackUrl.substring(0, 50)}...`);
         setRetryCount(prev => prev + 1);
         setCurrentSrc(fallbackUrl);
         setImageState('loading');
@@ -160,8 +161,11 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
       }
     }
     
-    // 最终失败，显示错误状态
-    setImageState('error');
+    // 最终失败，直接使用fallback
+    const finalFallback = generateFallbackImage(alt);
+    console.log(`使用最终fallback: ${finalFallback.substring(0, 50)}...`);
+    setCurrentSrc(finalFallback);
+    setImageState('loaded'); // 标记为已加载，因为SVG fallback应该总是能显示
     onError?.();
   };
   
