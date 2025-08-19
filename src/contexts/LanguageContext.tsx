@@ -34,7 +34,9 @@ export const LanguageProvider: React.FC<LanguageProviderProps> = ({ children }) 
   }, [language]);
 
   const toggleLanguage = () => {
-    setLanguage(prev => prev === 'zh' ? 'en' : 'zh');
+    const newLang = language === 'zh' ? 'en' : 'zh';
+    console.log('🌐 语言切换:', language, '->', newLang);
+    setLanguage(newLang);
   };
 
   const value = {

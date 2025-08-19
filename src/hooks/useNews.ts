@@ -163,8 +163,10 @@ export const useNews = () => {
   // 语言变化时重新处理现有数据
   useEffect(() => {
     if (rawNews.length > 0) {
-      console.log('语言变化，重新处理新闻数据:', rawNews.length, '条');
+      console.log('🔄 语言或数据变化，重新处理新闻数据:', rawNews.length, '条');
+      console.log('🔄 processNewsData依赖项已更新，开始重新处理...');
       const processedData = processNewsData(rawNews);
+      console.log('🔄 处理完成，设置新闻数据:', processedData.length, '条');
       setNews(processedData);
     }
   }, [rawNews, processNewsData]);
