@@ -97,6 +97,7 @@ const fetchNewsData = async (bypassCache = false): Promise<NewsItem[]> => {
 
 export const useNews = () => {
   const [news, setNews] = useState<NewsItem[]>([]);
+  const [rawNews, setRawNews] = useState<NewsItem[]>([]); // 存储原始数据
   const [loading, setLoading] = useState(true);
   const [selectedCategory, setSelectedCategory] = useState('全部');
   const [error, setError] = useState<string | null>(null);
@@ -148,6 +149,7 @@ export const useNews = () => {
       const rawData = await fetchNewsData(bypassCache);
       const processedData = processNewsData(rawData);
       
+      setRawNews(rawData); // 存储原始数据
       setNews(processedData);
       setLastFetchTime(now);
     } catch (err) {
@@ -157,6 +159,15 @@ export const useNews = () => {
       setLoading(false);
     }
   }, [processNewsData, lastFetchTime]);
+
+  // 语言变化时重新处理现有数据
+  useEffect(() => {
+    if (rawNews.length > 0) {
+      console.log('语言变化，重新处理新闻数据:', rawNews.length, '条');
+      const processedData = processNewsData(rawNews);
+      setNews(processedData);
+    }
+  }, [rawNews, processNewsData]);
 
   // 初始化数据加载
   useEffect(() => {

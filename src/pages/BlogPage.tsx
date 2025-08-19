@@ -35,6 +35,8 @@ const BlogPage = () => {
   const navigate = useNavigate();
   const [searchQuery, setSearchQuery] = useState('');
   const [selectedCategory, setSelectedCategory] = useState('all');
+  const [blogPosts, setBlogPosts] = useState<BlogPost[]>([]);
+  const [loading, setLoading] = useState(true);
 
   useEffect(() => {
     // 页面访问统计
@@ -43,8 +45,45 @@ const BlogPage = () => {
     }
   }, []);
 
-  // 模拟博客文章数据
-  const blogPosts: BlogPost[] = [
+  // 加载真实博客数据
+  useEffect(() => {
+    const loadBlogData = async () => {
+      try {
+        setLoading(true);
+        const response = await fetch('/blog-data.json');
+        const blogData = await response.json();
+        
+        // 转换数据格式以匹配BlogPost接口
+        const formattedPosts: BlogPost[] = blogData.map((item: any) => ({
+          id: item.id,
+          title: isZh ? item.title : item.titleEn,
+          excerpt: isZh ? item.excerpt : item.excerptEn,
+          category: isZh ? item.category : item.categoryEn,
+          publishedAt: item.publishedAt,
+          readTime: item.readTime || 5,
+          author: isZh ? item.author : item.authorEn,
+          tags: isZh ? item.tags : item.tagsEn,
+          featured: item.featured || false
+        })).sort((a: BlogPost, b: BlogPost) => {
+          // 按发布日期排序，最新的在前
+          return new Date(b.publishedAt).getTime() - new Date(a.publishedAt).getTime();
+        });
+        
+        setBlogPosts(formattedPosts);
+      } catch (error) {
+        console.error('加载博客数据失败:', error);
+        // 如果加载失败，使用硬编码的备用数据
+        setBlogPosts(fallbackBlogPosts);
+      } finally {
+        setLoading(false);
+      }
+    };
+
+    loadBlogData();
+  }, [isZh]);
+
+  // 备用博客文章数据（加载失败时使用）
+  const fallbackBlogPosts: BlogPost[] = [
     {
       id: 'website-introduction',
       title: isZh ? 'AI推平台介绍：让AI资讯触手可及' : 'AI Push Platform Introduction: Making AI News Accessible',
@@ -138,12 +177,24 @@ const BlogPage = () => {
     }
   ];
 
+  // 动态计算分类统计
+  const getCategoryCount = (categoryName: string) => {
+    if (categoryName === 'All' || categoryName === '全部') return blogPosts.length;
+    return blogPosts.filter(post => 
+      post.category.includes(categoryName) || 
+      (categoryName === 'Tech Analysis' && post.category.includes('技术解读')) ||
+      (categoryName === 'Industry Analysis' && post.category.includes('行业分析')) ||
+      (categoryName === 'Policy Analysis' && post.category.includes('政策解读')) ||
+      (categoryName === 'Investment' && post.category.includes('投资动态'))
+    ).length;
+  };
+
   const categories = [
-    { id: 'all', name: isZh ? '全部' : 'All', count: blogPosts.length },
-    { id: 'tech', name: isZh ? '技术解读' : 'Tech Analysis', count: 2 },
-    { id: 'industry', name: isZh ? '行业分析' : 'Industry Analysis', count: 2 },
-    { id: 'policy', name: isZh ? '政策解读' : 'Policy Analysis', count: 1 },
-    { id: 'investment', name: isZh ? '投资动态' : 'Investment', count: 1 }
+    { id: 'all', name: isZh ? '全部' : 'All', count: getCategoryCount(isZh ? '全部' : 'All') },
+    { id: 'tech', name: isZh ? '技术解读' : 'Tech Analysis', count: getCategoryCount(isZh ? '技术解读' : 'Tech Analysis') },
+    { id: 'industry', name: isZh ? '行业分析' : 'Industry Analysis', count: getCategoryCount(isZh ? '行业分析' : 'Industry Analysis') },
+    { id: 'policy', name: isZh ? '政策解读' : 'Policy Analysis', count: getCategoryCount(isZh ? '政策解读' : 'Policy Analysis') },
+    { id: 'investment', name: isZh ? '投资动态' : 'Investment', count: getCategoryCount(isZh ? '投资动态' : 'Investment') }
   ];
 
   const featuredPosts = blogPosts.filter(post => post.featured);
@@ -336,7 +387,21 @@ const BlogPage = () => {
             </div>
 
             <div className="grid md:grid-cols-2 gap-8">
-              {featuredPosts.map((post) => (
+              {loading ? (
+                // 加载状态
+                Array.from({ length: 2 }).map((_, index) => (
+                  <Card key={index} className="overflow-hidden">
+                    <CardHeader className="pb-4">
+                      <div className="animate-pulse">
+                        <div className="h-4 bg-gray-200 rounded w-20 mb-3"></div>
+                        <div className="h-6 bg-gray-200 rounded w-3/4 mb-2"></div>
+                        <div className="h-4 bg-gray-200 rounded w-full"></div>
+                        <div className="h-4 bg-gray-200 rounded w-2/3"></div>
+                      </div>
+                    </CardHeader>
+                  </Card>
+                ))
+              ) : featuredPosts.map((post) => (
                 <Card 
                   key={post.id} 
                   className="overflow-hidden hover:shadow-lg transition-shadow cursor-pointer"
@@ -442,7 +507,22 @@ const BlogPage = () => {
                 </div>
 
                 <div className="space-y-6">
-                  {recentPosts.map((post) => (
+                  {loading ? (
+                    // 加载状态
+                    Array.from({ length: 3 }).map((_, index) => (
+                      <Card key={index} className="p-6">
+                        <div className="animate-pulse">
+                          <div className="flex space-x-3 mb-4">
+                            <div className="h-4 bg-gray-200 rounded w-16"></div>
+                            <div className="h-4 bg-gray-200 rounded w-24"></div>
+                          </div>
+                          <div className="h-6 bg-gray-200 rounded w-3/4 mb-2"></div>
+                          <div className="h-4 bg-gray-200 rounded w-full"></div>
+                          <div className="h-4 bg-gray-200 rounded w-2/3"></div>
+                        </div>
+                      </Card>
+                    ))
+                  ) : recentPosts.map((post) => (
                     <Card 
                       key={post.id} 
                       className="p-6 hover:shadow-lg transition-shadow cursor-pointer" 
