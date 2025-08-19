@@ -39,7 +39,7 @@ export const useContentFilter = () => {
         const title = news.title || "";
         const content = news.content || "";
         
-        // 过滤掉明显的广告和推广内容
+        // 过滤掉明显的广告和推广内容，但放宽内容长度限制
         const isAdvertisement = 
           title.includes("AICon") || 
           title.includes("挑战赛") ||
@@ -47,8 +47,8 @@ export const useContentFilter = () => {
           title.includes("启动") ||
           (title.includes("技术岗位") && title.includes("占比")) ||
           title.includes("秋招") ||
-          title.length < 20 ||
-          content.trim().length < 100;
+          title.length < 15; // 放宽长度限制
+          // 移除content长度限制，因为有些新闻content可能和title重复
           
         if (isAdvertisement) {
           console.log(`前端过滤掉低质量InfoQ新闻: ${title}`);

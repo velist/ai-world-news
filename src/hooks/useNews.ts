@@ -157,10 +157,12 @@ export const useNews = () => {
   // 优化的数据处理函数
   const processNewsData = useCallback((rawData: NewsItem[]) => {
     console.log(`获取到原始新闻数据: ${rawData.length} 条`);
+    console.log('原始数据前3条标题:', rawData.slice(0, 3).map(item => item.title));
     
     // 应用内容过滤，移除政治敏感内容
     const filteredData = filterNews(rawData);
     console.log(`内容过滤后新闻数据: ${filteredData.length} 条 (被过滤掉 ${rawData.length - filteredData.length} 条)`);
+    console.log('过滤后数据前3条标题:', filteredData.slice(0, 3).map(item => item.title));
     
     // 按时间降序排序 - 最新的在前面
     const sortedData = filteredData.sort((a, b) => {
@@ -172,7 +174,9 @@ export const useNews = () => {
     // 应用语言本地化
     const localizedData = getLocalizedNewsArray(sortedData);
     
-    console.log('处理后前5条新闻:', localizedData.slice(0, 5).map((item, index) => ({ 
+    console.log('排序后数据前3条标题:', sortedData.slice(0, 3).map(item => item.title));
+    console.log('本地化后数据前3条标题:', localizedData.slice(0, 3).map(item => item.title));
+    console.log('最终处理结果前5条新闻:', localizedData.slice(0, 5).map((item, index) => ({ 
       index: index + 1,
       title: item.title.substring(0, 40), 
       time: item.publishedAt,
