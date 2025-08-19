@@ -1,0 +1,37 @@
+# SPA重定向规则 - 确保所有页面路由正常工作
+# 这个文件对于静态SPA部署至关重要，避免404错误
+
+# 博客路由重定向
+/blog/* /index.html 200
+/blog /index.html 200
+
+# 所有页面路由重定向
+/news/* /index.html 200
+/about /index.html 200
+/services /index.html 200
+/contact /index.html 200
+/website-intro /index.html 200
+/gpt5-pricing-analysis /index.html 200
+/debug /index.html 200
+
+# API和数据文件直接通过，不重定向
+/news-data.json /news-data.json 200
+/blog-data.json /blog-data.json 200
+/version.json /version.json 200
+/feed.json /feed.json 200
+/rss.xml /rss.xml 200
+/sitemap.xml /sitemap.xml 200
+
+# 静态资源文件直接通过
+/assets/* /assets/:splat 200
+/*.png /:splat.png 200
+/*.jpg /:splat.jpg 200
+/*.jpeg /:splat.jpeg 200
+/*.svg /:splat.svg 200
+/*.webp /:splat.webp 200
+/*.ico /:splat.ico 200
+/*.css /:splat.css 200
+/*.js /:splat.js 200
+
+# 404页面处理 - 所有其他请求都重定向到index.html
+/* /index.html 200
