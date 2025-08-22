@@ -60,6 +60,69 @@ export const NewsCard = ({
   // 直接使用传入的标题和摘要（已经在useNews中本地化）
   const displayTitle = title;
   const displaySummary = summary;
+
+  // 图片URL处理函数
+  const getImageUrl = (url: string) => {
+    if (!url || url.startsWith('data:')) return url;
+    
+    // 对于某些已知会有跨域问题的域名，直接使用代理
+    const corsProblematicDomains = [
+      'unsplash.com',
+      'ewscripps.brightspotcdn.com', 
+      'zdnet.com',
+      'ladbible.com',
+      'brightspotcdn.com',
+      'images.ladbible.com',
+      'cdn.cnn.com',
+      'static01.nyt.com',
+      'media.cnn.com'
+    ];
+    const needsProxy = corsProblematicDomains.some(domain => url.includes(domain));
+    
+    if (needsProxy) {
+      return `https://images.weserv.nl/?url=${encodeURIComponent(url)}&w=800&h=400&fit=cover&q=80`;
+    }
+    
+    return url;
+  };
+
+  // 生成智能SVG回退图片
+  const generateFallbackSvg = (title: string, category: string) => {
+    const titleLower = title.toLowerCase();
+    let bgColor = '#667eea';
+    let emoji = '📰';
+    let categoryText = 'AI新闻';
+    
+    if (titleLower.includes('ai') || titleLower.includes('人工智能') || titleLower.includes('chatgpt')) {
+      bgColor = '#6366f1';
+      emoji = '🤖';
+      categoryText = 'AI资讯';
+    } else if (titleLower.includes('tech') || titleLower.includes('科技')) {
+      bgColor = '#f59e0b';
+      emoji = '💻';
+      categoryText = '科技新闻';
+    } else if (category.includes('国际')) {
+      bgColor = '#10b981';
+      emoji = '🌍';
+      categoryText = '国际AI';
+    }
+
+    const svgContent = `
+      <svg width="800" height="400" viewBox="0 0 800 400" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+          <linearGradient id="grad" x1="0%" y1="0%" x2="100%" y2="100%">
+            <stop offset="0%" style="stop-color:${bgColor};stop-opacity:1" />
+            <stop offset="100%" style="stop-color:${bgColor}88;stop-opacity:1" />
+          </linearGradient>
+        </defs>
+        <rect width="800" height="400" fill="url(#grad)"/>
+        <text x="400" y="180" font-family="Arial, sans-serif" font-size="64" fill="white" text-anchor="middle">${emoji}</text>
+        <text x="400" y="240" font-family="Arial, sans-serif" font-size="24" fill="white" text-anchor="middle">${categoryText}</text>
+      </svg>
+    `;
+    
+    return `data:image/svg+xml;base64,${btoa(unescape(encodeURIComponent(svgContent)))}`;
+  };
   const getCategoryStyle = (category: string) => {
     const normalizedCategory = category.toLowerCase();
     if (normalizedCategory.includes('ai') || normalizedCategory.includes('ai模型') || normalizedCategory.includes('ai 模型')) {
@@ -325,13 +388,20 @@ export const NewsCard = ({
       <CardHeader className="p-0">
         <div className="relative overflow-hidden rounded-t-lg">
           <img 
-            src={imageUrl} 
+            src={getImageUrl(imageUrl)} 
             alt={displayTitle}
             className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
+            crossOrigin="anonymous"
             onError={(e) => {
               const img = e.target as HTMLImageElement;
-              img.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDgwMCAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6Izk5OUFBQiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzU5NjFBNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iMTkyIiBmaWxsPSJ1cmwoI2dyYWRpZW50KSIvPjx0ZXh0IHg9IjQwMCIgeT0iOTYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0OCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj7wn5OwPC90ZXh0PjwvdGV2dD4KICA8dGV4dCB4PSI0MDAiIHk9IjEzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE2IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QUnmjqjmlrDpl7Tor7E8L3RleHQ+Cjwvc3ZnPgo=";
+              // 第一次失败时尝试代理服务
+              if (!img.src.includes('images.weserv.nl') && !img.src.startsWith('data:')) {
+                img.src = `https://images.weserv.nl/?url=${encodeURIComponent(imageUrl)}&w=800&h=400&fit=cover&q=80`;
+                return;
+              }
+              // 代理也失败时使用默认图片
+              img.src = generateFallbackSvg(displayTitle, category);
               console.warn('图片加载失败，使用默认图片');
             }}
           />
