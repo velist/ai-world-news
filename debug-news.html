@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>新闻数据调试</title>
+    <style>
+        body { font-family: Arial, sans-serif; margin: 20px; }
+        .news-item { border: 1px solid #ddd; margin: 10px; padding: 10px; }
+        .loading { color: blue; }
+        .error { color: red; }
+        .success { color: green; }
+    </style>
+</head>
+<body>
+    <h1>新闻数据调试页面</h1>
+    <div id="status">正在加载...</div>
+    <div id="news-list"></div>
+
+    <script>
+        async function testNewsData() {
+            const statusDiv = document.getElementById('status');
+            const newsListDiv = document.getElementById('news-list');
+            
+            try {
+                statusDiv.innerHTML = '<span class="loading">正在获取新闻数据...</span>';
+                
+                const response = await fetch('/news-data.json?t=' + Date.now());
+                if (!response.ok) {
+                    throw new Error(`HTTP ${response.status}: ${response.statusText}`);
+                }
+                
+                const data = await response.json();
+                console.log('获取到数据:', data);
+                
+                if (data?.data && Array.isArray(data.data)) {
+                    statusDiv.innerHTML = `<span class="success">✅ 成功获取 ${data.data.length} 条新闻</span>`;
+                    
+                    // 显示前5条新闻
+                    const html = data.data.slice(0, 5).map((item, index) => `
+                        <div class="news-item">
+                            <h3>${index + 1}. ${item.title}</h3>
+                            <p><strong>来源:</strong> ${item.source}</p>
+                            <p><strong>分类:</strong> ${item.category}</p>
+                            <p><strong>时间:</strong> ${item.publishedAt}</p>
+                            <p><strong>摘要:</strong> ${item.summary}</p>
+                        </div>
+                    `).join('');
+                    
+                    newsListDiv.innerHTML = html;
+                } else {
+                    throw new Error('数据格式不正确');
+                }
+                
+            } catch (error) {
+                console.error('错误:', error);
+                statusDiv.innerHTML = `<span class="error">❌ 错误: ${error.message}</span>`;
+            }
+        }
+        
+        // 页面加载后执行
+        testNewsData();
+    </script>
+</body>
+</html>

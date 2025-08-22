@@ -129,6 +129,50 @@ All colors MUST be HSL.
     @apply bg-background text-foreground font-sans;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
+    /* 移动端滚动优化 */
+    -webkit-overflow-scrolling: touch;
+    touch-action: pan-y;
+    overscroll-behavior: contain;
+  }
+
+  /* 移动端滚动容器优化 */
+  .mobile-scroll-container {
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+    touch-action: pan-y;
+    overscroll-behavior-y: contain;
+    position: relative;
+  }
+
+  /* 防止iOS Safari的橡皮筋效果 */
+  html {
+    overflow: hidden;
+    height: 100%;
+  }
+
+  body {
+    overflow: auto;
+    height: 100%;
+    position: relative;
+  }
+
+  /* 移动端触摸优化 */
+  @media (max-width: 768px) {
+    * {
+      -webkit-tap-highlight-color: transparent;
+    }
+    
+    body {
+      -webkit-touch-callout: none;
+      -webkit-user-select: none;
+      -webkit-text-size-adjust: none;
+    }
+    
+    /* 允许文本选择的元素 */
+    p, span, div[class*="text"], h1, h2, h3, h4, h5, h6 {
+      -webkit-user-select: text;
+      user-select: text;
+    }
   }
 }
 

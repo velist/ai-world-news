@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Simple News Test</title>
+</head>
+<body>
+    <h1>Simple News Data Test</h1>
+    <div id="result"></div>
+    
+    <script>
+        fetch('/news-data.json')
+            .then(response => response.json())
+            .then(data => {
+                document.getElementById('result').innerHTML = `
+                    <p>Success: ${data.total} news items found</p>
+                    <p>First item title: ${data.data[0].title}</p>
+                `;
+            })
+            .catch(error => {
+                document.getElementById('result').innerHTML = `Error: ${error.message}`;
+            });
+    </script>
+</body>
+</html>

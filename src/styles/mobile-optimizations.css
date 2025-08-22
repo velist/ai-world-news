@@ -1,0 +1,215 @@
+/* 移动端优化样式 */
+
+/* 安全区域适配 */
+@supports (padding: max(0px)) {
+  .safe-area-top {
+    padding-top: max(20px, env(safe-area-inset-top));
+  }
+  
+  .safe-area-bottom {
+    padding-bottom: max(20px, env(safe-area-inset-bottom));
+  }
+  
+  .safe-area-left {
+    padding-left: max(20px, env(safe-area-inset-left));
+  }
+  
+  .safe-area-right {
+    padding-right: max(20px, env(safe-area-inset-right));
+  }
+}
+
+/* 触摸优化 */
+.touch-optimized {
+  touch-action: manipulation;
+  -webkit-tap-highlight-color: transparent;
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+/* 滚动优化 */
+.smooth-scroll {
+  -webkit-overflow-scrolling: touch;
+  scroll-behavior: smooth;
+}
+
+/* 移动端容器优化 */
+.mobile-container {
+  min-height: 100vh;
+  min-height: 100dvh; /* 动态视口高度 */
+  position: relative;
+}
+
+/* 响应式文字大小 */
+@media (max-width: 768px) {
+  .responsive-text-sm {
+    font-size: 0.875rem;
+    line-height: 1.25rem;
+  }
+  
+  .responsive-text-base {
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  
+  .responsive-text-lg {
+    font-size: 1.125rem;
+    line-height: 1.75rem;
+  }
+  
+  .responsive-text-xl {
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+  }
+}
+
+/* 移动端卡片优化 */
+@media (max-width: 768px) {
+  .mobile-card {
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+    background: white;
+    overflow: hidden;
+  }
+  
+  .mobile-card:active {
+    transform: scale(0.98);
+    transition: transform 0.1s ease-in-out;
+  }
+}
+
+/* 底部导航栏适配 */
+.bottom-nav-safe {
+  padding-bottom: env(safe-area-inset-bottom);
+  background: rgba(255, 255, 255, 0.95);
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+}
+
+/* 下拉刷新动画 */
+@keyframes pull-to-refresh {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.pull-to-refresh-indicator {
+  animation: pull-to-refresh 0.3s ease-out;
+}
+
+/* 手势提示动画 */
+@keyframes slide-down {
+  0% {
+    transform: translateY(-100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+.animate-slide-down {
+  animation: slide-down 0.3s ease-out;
+}
+
+/* 提升点击目标大小 */
+@media (max-width: 768px) {
+  .touch-target {
+    min-height: 44px;
+    min-width: 44px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+/* 优化表单输入 */
+@media (max-width: 768px) {
+  input, textarea, select {
+    font-size: 16px; /* 防止iOS自动缩放 */
+  }
+}
+
+/* 图片懒加载优化 */
+.lazy-image {
+  opacity: 0;
+  transition: opacity 0.3s ease-in-out;
+}
+
+.lazy-image.loaded {
+  opacity: 1;
+}
+
+/* 移动端网格优化 */
+@media (max-width: 640px) {
+  .mobile-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+    padding: 1rem;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  .mobile-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+    padding: 1.5rem;
+  }
+}
+
+/* 黑暗模式适配 */
+@media (prefers-color-scheme: dark) {
+  .mobile-card {
+    background: #1a1a1a;
+    border-color: #333;
+  }
+  
+  .bottom-nav-safe {
+    background: rgba(26, 26, 26, 0.95);
+  }
+}
+
+/* 减少动画（适应用户偏好） */
+@media (prefers-reduced-motion: reduce) {
+  .mobile-card:active {
+    transform: none;
+  }
+  
+  .animate-slide-down {
+    animation: none;
+  }
+  
+  .pull-to-refresh-indicator {
+    animation: none;
+  }
+}
+
+/* 横屏适配 */
+@media (max-width: 1024px) and (orientation: landscape) {
+  .landscape-adjust {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  
+  .mobile-container {
+    min-height: 100vh;
+  }
+}
+
+/* iOS Safari 特殊处理 */
+@supports (-webkit-touch-callout: none) {
+  .ios-scroll-fix {
+    -webkit-overflow-scrolling: touch;
+    overflow-scrolling: touch;
+  }
+}

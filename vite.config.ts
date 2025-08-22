@@ -18,10 +18,17 @@ export default defineConfig(({ mode }) => ({
       compress: {
         drop_console: mode === 'production',
         drop_debugger: mode === 'production',
+        pure_funcs: mode === 'production' ? ['console.log', 'console.info'] : [],
       },
+      mangle: {
+        safari10: true
+      }
     },
-    // 调整chunk大小警告阈值
-    chunkSizeWarningLimit: 600,
+    // 调整chunk大小警告阈值 - 降低以提高性能
+    chunkSizeWarningLimit: 500,
+    // 优化资源大小
+    cssCodeSplit: true,
+    sourcemap: mode === 'development',
     rollupOptions: {
       output: {
         // 添加时间戳到文件名，确保缓存更新

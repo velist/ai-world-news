@@ -3,17 +3,29 @@ import { Helmet } from 'react-helmet-async';
 import { AppHeader } from '@/components/AppHeader';
 import { CategoryTabs } from '@/components/CategoryTabs';
 import { NewsCard } from '@/components/NewsCard';
+import { VirtualizedNewsList } from '@/components/VirtualizedNewsList';
 import { SideMenu } from '@/components/SideMenu';
 import { DailyBriefing } from '@/components/DailyBriefing';
 import { Disclaimer } from '@/components/Disclaimer';
 import { EmailSubscribe } from '@/components/EmailSubscribe';
+import { MobileTouchOptimizer } from '@/components/MobileTouchOptimizer';
+import { PerformanceMonitor } from '@/components/PerformanceMonitor';
+import { MobileNavigation, MobileGestureHint } from '@/components/MobileNavigation';
 import { useNews } from '@/hooks/useNews';
 import { useLanguage } from '@/contexts/LanguageContext';
+import { useScrollPosition } from '@/hooks/useScrollPosition';
+import { usePerformanceOptimization } from '@/hooks/usePerformanceOptimization';
 import { Loader2, RefreshCw, Clock } from 'lucide-react';
 
 const Index = () => {
   const { news, loading, error, categories, selectedCategory, setSelectedCategory, refreshNews } = useNews();
   const { isZh } = useLanguage();
+  const { saveScrollPosition, restoreScrollPosition } = useScrollPosition({
+    key: 'news-list-scroll',
+    restoreOnMount: true,
+    saveOnUnmount: true
+  });
+  const { debounce, preloadResource } = usePerformanceOptimization();
   const [lastUpdateTime, setLastUpdateTime] = useState<Date>(new Date());
   const [sideMenuOpen, setSideMenuOpen] = useState(false);
   const [dailyBriefingOpen, setDailyBriefingOpen] = useState(false);
@@ -28,10 +40,16 @@ const Index = () => {
     }
   }, [news, loading, error]);
 
-  const handleRefresh = () => {
+  const handleRefresh = debounce(() => {
+    // 保存当前滚动位置，刷新后恢复
+    saveScrollPosition();
     refreshNews();
     setLastUpdateTime(new Date());
-  };
+    // 延迟恢复滚动位置，确保新数据已渲染
+    setTimeout(() => {
+      restoreScrollPosition();
+    }, 300);
+  }, 1000); // 防抖1秒，避免频繁刷新
 
   const handleMenuClick = (menuItem: string) => {
     setSideMenuOpen(false);
@@ -64,7 +82,17 @@ const Index = () => {
   };
 
   return (
-    <>
+    <MobileTouchOptimizer 
+      preventScrollReset={true}
+      enablePullToRefresh={true}
+      onPullToRefresh={handleRefresh}
+    >
+      <PerformanceMonitor 
+        onMetrics={(metrics) => {
+          // 可以在这里发送性能数据到分析服务
+          console.log('性能指标:', metrics);
+        }} 
+      />
       <Helmet>
         <title>AI推 - 最新AI资讯聚合平台</title>
         <meta name="description" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
@@ -186,21 +214,14 @@ const Index = () => {
           </div>
         )}
 
-        {/* News Grid */}
+        {/* News Grid - 使用虚拟化提升性能 */}
         {!loading && !error && news.length > 0 && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-            {news.map((item, index) => (
-              <div
-                key={item.id}
-                className="animate-fade-in"
-                style={{ animationDelay: `${index * 100}ms` }}
-              >
-                <NewsCard
-                  {...item}
-                />
-              </div>
-            ))}
-          </div>
+          <VirtualizedNewsList
+            news={news}
+            className="mobile-scroll-container"
+            containerHeight={800}
+            itemHeight={400}
+          />
         )}
 
 
@@ -212,8 +233,17 @@ const Index = () => {
           </div>
         )}
         </div>
+        
+        {/* 移动端导航栏 */}
+        <MobileNavigation 
+          onMenuClick={() => setSideMenuOpen(true)}
+          currentPath="/"
+        />
+        
+        {/* 移动端手势提示 */}
+        <MobileGestureHint />
       </div>
-    </>
+    </MobileTouchOptimizer>
   );
 };
 

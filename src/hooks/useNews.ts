@@ -227,14 +227,20 @@ export const useNews = () => {
     }
   }, [processNewsData, lastFetchTime, loading, news.length]);
 
-  // 语言变化时重新处理现有数据
+  // 语言变化时重新处理现有数据 - 添加防抖避免频繁更新
   useEffect(() => {
     if (rawNews.length > 0) {
       console.log('🔄 语言或数据变化，重新处理新闻数据:', rawNews.length, '条');
-      console.log('🔄 processNewsData依赖项已更新，开始重新处理...');
-      const processedData = processNewsData(rawNews);
-      console.log('🔄 处理完成，设置新闻数据:', processedData.length, '条');
-      setNews(processedData);
+      
+      // 添加短暂延迟，避免快速连续更新导致滚动位置丢失
+      const timeoutId = setTimeout(() => {
+        console.log('🔄 processNewsData依赖项已更新，开始重新处理...');
+        const processedData = processNewsData(rawNews);
+        console.log('🔄 处理完成，设置新闻数据:', processedData.length, '条');
+        setNews(processedData);
+      }, 50); // 50ms延迟，给滚动位置保存留出时间
+      
+      return () => clearTimeout(timeoutId);
     }
   }, [rawNews, processNewsData]);
 
@@ -253,28 +259,39 @@ export const useNews = () => {
     };
   }, [loadNews]);
 
-  // 优化的过滤和排序逻辑
+  // 优化的过滤和排序逻辑 - 添加防抖和性能优化
   const sortedFilteredNews = useMemo(() => {
     if (!news || news.length === 0) {
       return [];
     }
     
+    // 缓存分类转换结果，避免重复计算
+    const allCategory = getLocalizedCategory('全部');
+    
     // 过滤逻辑：全部显示所有新闻，其他分类只显示对应分类的新闻
-    const filteredNews = selectedCategory === getLocalizedCategory('全部') 
+    const filteredNews = selectedCategory === allCategory 
       ? news 
       : news.filter(item => {
           const localizedItemCategory = getLocalizedCategory(item.category);
           return localizedItemCategory === selectedCategory;
         });
 
-    // 确保时间排序正确
-    const sorted = [...filteredNews].sort((a, b) => {
-      const timeA = new Date(a.publishedAt).getTime();
-      const timeB = new Date(b.publishedAt).getTime();
-      return timeB - timeA;
-    });
+    // 只有在需要时才进行排序，避免不必要的计算
+    if (filteredNews.length <= 1) {
+      return filteredNews;
+    }
+
+    // 预计算时间戳，避免在排序中重复转换
+    const newsWithTimestamp = filteredNews.map(item => ({
+      ...item,
+      timestamp: new Date(item.publishedAt).getTime()
+    }));
+
+    // 使用预计算的时间戳进行排序
+    const sorted = newsWithTimestamp.sort((a, b) => b.timestamp - a.timestamp);
     
-    return sorted;
+    // 移除临时添加的timestamp字段
+    return sorted.map(({ timestamp, ...item }) => item);
   }, [news, selectedCategory, getLocalizedCategory]);
 
   // 分类定义
