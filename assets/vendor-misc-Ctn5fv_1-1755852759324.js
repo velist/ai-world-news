@@ -1,4 +1,4 @@
-import{r as t,a as e,G as a}from"./react-vendor-BrSRjOqW-1755851639902.js";
+import{r as t,a as e,G as a}from"./react-vendor-BrSRjOqW-1755852759324.js";
 /**
  * @license lucide-react v0.462.0 - ISC
  *
