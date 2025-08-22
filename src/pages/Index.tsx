@@ -82,11 +82,8 @@ const Index = () => {
   };
 
   return (
-    <MobileTouchOptimizer 
-      preventScrollReset={true}
-      enablePullToRefresh={true}
-      onPullToRefresh={handleRefresh}
-    >
+    // 暂时禁用MobileTouchOptimizer调试
+    <div className="min-h-screen bg-background">
       <PerformanceMonitor 
         onMetrics={(metrics) => {
           // 可以在这里发送性能数据到分析服务
@@ -214,14 +211,19 @@ const Index = () => {
           </div>
         )}
 
-        {/* News Grid - 使用虚拟化提升性能 */}
+        {/* News Grid - 恢复简单渲染 */}
         {!loading && !error && news.length > 0 && (
-          <VirtualizedNewsList
-            news={news}
-            className="mobile-scroll-container"
-            containerHeight={800}
-            itemHeight={400}
-          />
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mobile-scroll-container">
+            {news.map((item, index) => (
+              <div
+                key={`${item.id}-${index}`}
+                className="animate-fade-in"
+                style={{ animationDelay: `${Math.min(index * 50, 1000)}ms` }}
+              >
+                <NewsCard {...item} />
+              </div>
+            ))}
+          </div>
         )}
 
 
@@ -243,7 +245,7 @@ const Index = () => {
         {/* 移动端手势提示 */}
         <MobileGestureHint />
       </div>
-    </MobileTouchOptimizer>
+    </div>
   );
 };
 

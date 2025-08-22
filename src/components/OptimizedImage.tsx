@@ -44,18 +44,13 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
   const imgRef = useRef<HTMLImageElement>(null);
   const observerRef = useRef<IntersectionObserver | null>(null);
   
-  // 图片代理服务
+  // 简化的图片URL处理
   const createProxyUrl = useCallback((originalSrc: string): string => {
-    if (!enableProxy || originalSrc.startsWith('data:')) return originalSrc;
+    if (!originalSrc || originalSrc.startsWith('data:')) return originalSrc;
     
-    // 多个代理服务候选，提高可用性
-    const proxyServices = [
-      `https://images.weserv.nl/?url=${encodeURIComponent(originalSrc)}&w=${width}&h=${height}&fit=cover&q=${quality}`,
-      `https://wsrv.nl/?url=${encodeURIComponent(originalSrc)}&w=${width}&h=${height}&fit=cover&q=${quality}`
-    ];
-    
-    return proxyServices[retryCount % proxyServices.length];
-  }, [enableProxy, width, height, quality, retryCount]);
+    // 暂时移除代理服务，直接使用原图
+    return originalSrc;
+  }, []);
 
   // 增强的SVG fallback生成器
   const generateAdvancedFallback = useCallback((title: string): string => {

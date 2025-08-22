@@ -324,15 +324,15 @@ export const NewsCard = ({
       >
       <CardHeader className="p-0">
         <div className="relative overflow-hidden rounded-t-lg">
-          <OptimizedImage 
+          <img 
             src={imageUrl} 
             alt={displayTitle}
-            width={800}
-            height={192}
-            className="w-full h-48 transition-transform duration-300 group-hover:scale-105"
+            className="w-full h-48 object-cover transition-transform duration-300 group-hover:scale-105"
             loading="lazy"
-            onError={() => {
-              console.warn('图片加载失败，已使用OptimizedImage组件处理');
+            onError={(e) => {
+              const img = e.target as HTMLImageElement;
+              img.src = "data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iODAwIiBoZWlnaHQ9IjE5MiIgdmlld0JveD0iMCAwIDgwMCAxOTIiIGZpbGw9Im5vbmUiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PGxpbmVhckdyYWRpZW50IGlkPSJncmFkaWVudCIgeDE9IjAlIiB5MT0iMCUiIHgyPSIxMDAlIiB5Mj0iMTAwJSI+PHN0b3Agb2Zmc2V0PSIwJSIgc3R5bGU9InN0b3AtY29sb3I6Izk5OUFBQiIvPjxzdG9wIG9mZnNldD0iMTAwJSIgc3R5bGU9InN0b3AtY29sb3I6IzU5NjFBNCIvPjwvbGluZWFyR3JhZGllbnQ+PC9kZWZzPjxyZWN0IHdpZHRoPSI4MDAiIGhlaWdodD0iMTkyIiBmaWxsPSJ1cmwoI2dyYWRpZW50KSIvPjx0ZXh0IHg9IjQwMCIgeT0iOTYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI0OCIgZmlsbD0id2hpdGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGRvbWluYW50LWJhc2VsaW5lPSJjZW50cmFsIj7wn5OwPC90ZXh0PjwvdGV2dD4KICA8dGV4dCB4PSI0MDAiIHk9IjEzMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjE2IiBmaWxsPSJ3aGl0ZSIgdGV4dC1hbmNob3I9Im1pZGRsZSI+QUnmjqjmlrDpl7Tor7E8L3RleHQ+Cjwvc3ZnPgo=";
+              console.warn('图片加载失败，使用默认图片');
             }}
           />
           <div className="absolute top-3 left-3">

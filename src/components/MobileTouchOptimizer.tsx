@@ -147,10 +147,8 @@ export const MobileTouchOptimizer: React.FC<MobileTouchOptimizerProps> = ({
 
     // 处理滚动事件，防止滚动期间的意外重置
     const handleScroll = (e: Event) => {
-      // 如果是编程式滚动（如scrollTo），不要干预
-      if (!isScrollingRef.current) {
-        return;
-      }
+      // 暂时禁用滚动干预，减少意外重置
+      return;
     };
 
     // 添加事件监听器

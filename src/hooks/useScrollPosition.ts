@@ -109,17 +109,23 @@ export const useScrollPosition = ({
     };
   }, [saveScrollPosition, saveDelay, saveCurrentPosition]);
 
-  // 组件挂载时恢复位置
+  // 组件挂载时恢复位置 - 只执行一次
   useEffect(() => {
     if (restoreOnMount) {
       // 延迟恢复，确保页面完全加载
       const timer = setTimeout(() => {
-        restoreScrollPosition();
-      }, 200);
+        const savedPosition = getSavedScrollPosition();
+        if (savedPosition > 0) {
+          window.scrollTo({
+            top: savedPosition,
+            behavior: 'auto'
+          });
+        }
+      }, 500); // 增加延迟确保页面完全加载
 
       return () => clearTimeout(timer);
     }
-  }, [restoreOnMount, restoreScrollPosition]);
+  }, []); // 移除所有依赖，只执行一次
 
   return {
     saveCurrentPosition,

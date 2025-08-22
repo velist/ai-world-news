@@ -248,16 +248,16 @@ export const useNews = () => {
   useEffect(() => {
     loadNews();
     
-    // 设置定时刷新新闻（每30分钟检查一次，减少频率）
-    const interval = setInterval(() => {
-      console.log('🔄 定时刷新新闻数据...');
-      loadNews(true);
-    }, 30 * 60 * 1000); // 改为30分钟
+    // 暂时禁用定时刷新，避免页面突然重置
+    // const interval = setInterval(() => {
+    //   console.log('🔄 定时刷新新闻数据...');
+    //   loadNews(true);
+    // }, 30 * 60 * 1000);
     
-    return () => {
-      clearInterval(interval);
-    };
-  }, [loadNews]);
+    // return () => {
+    //   clearInterval(interval);
+    // };
+  }, []); // 移除loadNews依赖，避免重复加载
 
   // 优化的过滤和排序逻辑 - 添加防抖和性能优化
   const sortedFilteredNews = useMemo(() => {
