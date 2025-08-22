@@ -12,6 +12,12 @@ on:
         default: '2'
         type: string
 
+permissions:
+  contents: write
+  actions: read
+  checks: write
+  pull-requests: write
+
 jobs:
   generate-blog:
     runs-on: ubuntu-latest
