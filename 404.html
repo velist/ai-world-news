@@ -1,98 +1,36 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="zh-CN">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI推 - 正在跳转...</title>
-  <meta name="description" content="正在为您跳转到AI推新闻页面..." />
-  
-  <!-- 微信环境优化 -->
-  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate" />
-  <meta http-equiv="Pragma" content="no-cache" />
-  <meta http-equiv="Expires" content="0" />
-  
-  <script>
-    /**
-     * GitHub Pages SPA路由处理 - 优化版
-     * 解决菜单按钮404问题
-     */
-    (function(l) {
-      // 检测是否为静态资源文件
-      if (l.pathname.match(/\.(js|css|png|jpg|jpeg|gif|svg|ico|json|xml|txt|woff|woff2|ttf|eot)$/)) {
-        console.log('静态资源文件，不重定向:', l.pathname);
-        return;
-      }
-      
-      var isWeChat = /micromessenger/i.test(navigator.userAgent);
-      var currentPath = l.pathname;
-      var search = l.search;
-      var hash = l.hash;
-      
-      console.log('404页面处理:', { currentPath, search, hash, isWeChat });
-      
-      // 标记这是一个404重定向，避免循环
-      var isRedirecting = sessionStorage.getItem('is404Redirecting');
-      if (isRedirecting === 'true') {
-        console.log('避免重定向循环，直接返回首页');
-        sessionStorage.removeItem('is404Redirecting');
-        window.location.replace('/');
-        return;
-      }
-      
-      sessionStorage.setItem('is404Redirecting', 'true');
-      
-      // 设置定时器清除重定向标记，防止卡住
-      setTimeout(function() {
-        sessionStorage.removeItem('is404Redirecting');
-      }, 5000);
-      
-      if (isWeChat) {
-        // 微信环境使用HashRouter
-        if (currentPath !== '/' && currentPath !== '/index.html') {
-          var hashPath = '#' + currentPath + search + hash;
-          console.log('微信环境重定向到:', hashPath);
-          // 使用replace避免产生新的历史记录
-          setTimeout(function() {
-            window.location.replace('/' + hashPath);
-          }, 100);
-        } else {
-          setTimeout(function() {
-            window.location.replace('/');
-          }, 100);
-        }
-      } else {
-        // 普通环境：保存路径信息，重定向到首页
-        if (currentPath !== '/' && currentPath !== '/index.html') {
-          // 清除旧的重定向路径
-          sessionStorage.removeItem('redirectPath');
-          // 保存新的路径
-          sessionStorage.setItem('redirectPath', currentPath + search + hash);
-          console.log('保存重定向路径:', currentPath + search + hash);
-        }
-        
-        // 延迟重定向，确保sessionStorage设置生效
-        setTimeout(function() {
-          window.location.replace('/');
-        }, 100);
-      }
-    }(window.location));
-  </script>
-</head>
-<body>
-  <div style="text-align: center; padding: 50px; font-family: Arial, sans-serif;">
-    <h2>🔄 正在跳转...</h2>
-    <p>正在为您跳转到AI推新闻页面</p>
-    <p><small>如果页面没有自动跳转，请<a href="/" style="color: #0066cc;">点击这里</a></small></p>
-    
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>正在跳转...</title>
+    <meta name="robots" content="noindex,follow" />
+    <style>
+      body{font-family:system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,"Helvetica Neue",Arial;display:flex;align-items:center;justify-content:center;height:100vh;margin:0;color:#222}
+      .box{max-width:480px;text-align:center;padding:24px}
+      .muted{color:#666;font-size:14px}
+    </style>
     <script>
-      // 添加备用重定向机制
-      setTimeout(function() {
-        if (window.location.pathname !== '/') {
-          console.log('备用重定向机制触发');
-          window.location.href = '/';
+      (function() {
+        try {
+          var path = window.location.pathname + window.location.search + window.location.hash;
+          // 保存原路径，供应用初始化时恢复
+          try { sessionStorage.setItem('redirectPath', path); } catch(e) {}
+          // 跳转到入口并携带原路径，应用将使用 restoreUrlHistory 恢复
+          var target = '/index.html?path=' + encodeURIComponent(path);
+          window.location.replace(target);
+        } catch (e) {
+          // 兜底：直接回首页
+          window.location.replace('/');
         }
-      }, 3000);
+      })();
     </script>
-  </div>
-</body>
-</html>
+  </head>
+  <body>
+    <div class="box">
+      <h1>正在为你恢复页面...</h1>
+      <p class="muted">如果没有自动跳转，请<a href="/">点击这里返回首页</a></p>
+    </div>
+  </body>
+  </html>
+
