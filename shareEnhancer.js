@@ -1,10 +1,24 @@
-// 分享功能增强 - 暂时禁用以解决F12问题
+// 分享功能增强 - 支持开关（默认关闭，可通过参数/本地存储开启）
 (function() {
     'use strict';
-    
-    console.log('🚫 分享功能增强脚本已禁用 - 排查F12问题');
-    return; // 直接退出，不执行任何劫持逻辑
-    
+
+    // 启用条件：
+    // 1) URL 查询参数 ?enableShareEnhancer=1
+    // 2) localStorage.setItem('enable-share-enhancer', '1')
+    // 3) window.__ENABLE_SHARE_ENHANCER__ = true
+    var search = (typeof window !== 'undefined' && window.location && window.location.search) ? window.location.search : '';
+    var params = new URLSearchParams(search || '');
+    var enabled = (
+        params.get('enableShareEnhancer') === '1' ||
+        (typeof localStorage !== 'undefined' && localStorage.getItem('enable-share-enhancer') === '1') ||
+        (typeof window !== 'undefined' && window.__ENABLE_SHARE_ENHANCER__ === true)
+    );
+
+    if (!enabled) {
+        console.log('🚫 分享功能增强脚本已禁用 - 通过 ?enableShareEnhancer=1 或 localStorage.enable-share-enhancer=1 启用');
+        return; // 默认关闭，避免影响F12与页面其它逻辑
+    }
+
     console.log('🎯 分享功能增强脚本开始初始化');
     
     // 立即劫持所有可能的分享相关函数
