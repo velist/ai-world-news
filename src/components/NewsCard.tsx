@@ -1,5 +1,5 @@
 import { Card, CardContent, CardHeader } from "@/components/ui/card";
-import { Clock, ExternalLink, Share2 } from "lucide-react";
+import { Clock, ExternalLink, Share2, Bookmark, BookmarkCheck } from "lucide-react";
 import { Badge } from "@/components/ui/badge";
 import { Button } from "@/components/ui/button";
 import { OptimizedImage } from "@/components/OptimizedImage";
@@ -7,7 +7,7 @@ import { useNewsTranslation } from "@/hooks/useNewsTranslation";
 import { generateWeChatShareUrl } from "@/hooks/useWeChatEnvironment";
 import { posterPreGenerationService } from "@/services/posterPreGenerationService";
 import { Link } from "react-router-dom";
-import { useEffect, useRef } from "react";
+import { useEffect, useRef, useState } from "react";
 
 interface NewsCardProps {
   id: string;
@@ -17,6 +17,8 @@ interface NewsCardProps {
   source: string;
   publishedAt: string;
   category: string;
+  className?: string;
+  onImageError?: () => void;
 }
 
 export const NewsCard = ({
@@ -27,11 +29,31 @@ export const NewsCard = ({
   source,
   publishedAt,
   category,
+  className = "",
+  onImageError,
 }: NewsCardProps) => {
   const { getLocalizedCategory } = useNewsTranslation();
   const cardRef = useRef<HTMLDivElement>(null);
+  const [isBookmarked, setIsBookmarked] = useState(false);
   
   
+  // 检查收藏状态
+  useEffect(() => {
+    const checkBookmarkStatus = () => {
+      try {
+        const bookmarks = localStorage.getItem('bookmarked-news');
+        if (bookmarks) {
+          const bookmarkList = JSON.parse(bookmarks);
+          setIsBookmarked(Array.isArray(bookmarkList) && bookmarkList.some(item => item.id === id));
+        }
+      } catch (error) {
+        console.error('检查收藏状态失败:', error);
+      }
+    };
+
+    checkBookmarkStatus();
+  }, [id]);
+
   // 集成预生成服务
   useEffect(() => {
     if (cardRef.current) {
@@ -56,6 +78,44 @@ export const NewsCard = ({
       };
     }
   }, [id, title, summary, imageUrl, publishedAt, source, category]);
+
+  // 处理收藏
+  const handleBookmark = (e: React.MouseEvent) => {
+    e.preventDefault();
+    e.stopPropagation();
+    
+    try {
+      const bookmarks = localStorage.getItem('bookmarked-news');
+      let bookmarkList = bookmarks ? JSON.parse(bookmarks) : [];
+      
+      if (!Array.isArray(bookmarkList)) {
+        bookmarkList = [];
+      }
+
+      if (isBookmarked) {
+        // 移除收藏
+        bookmarkList = bookmarkList.filter((item: any) => item.id !== id);
+        setIsBookmarked(false);
+      } else {
+        // 添加收藏
+        const newsData = {
+          id,
+          title,
+          summary,
+          imageUrl,
+          source,
+          publishedAt,
+          category
+        };
+        bookmarkList.unshift(newsData); // 添加到开头
+        setIsBookmarked(true);
+      }
+      
+      localStorage.setItem('bookmarked-news', JSON.stringify(bookmarkList));
+    } catch (error) {
+      console.error('收藏操作失败:', error);
+    }
+  };
   
   // 直接使用传入的标题和摘要（已经在useNews中本地化）
   const displayTitle = title;
@@ -383,7 +443,7 @@ export const NewsCard = ({
     <Link to={`/news/${id}`} className="block">
       <Card 
         ref={cardRef}
-        className="cursor-pointer overflow-hidden bg-gradient-card border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 transform hover:-translate-y-1 group"
+        className={`cursor-pointer overflow-hidden bg-gradient-card border border-border/50 shadow-soft hover:shadow-medium transition-all duration-300 transform hover:-translate-y-1 group ${className}`}
       >
       <CardHeader className="p-0">
         <div className="relative overflow-hidden rounded-t-lg">
@@ -410,12 +470,26 @@ export const NewsCard = ({
               {getLocalizedCategory(category)}
             </Badge>
           </div>
-          <div className="absolute top-3 right-3">
+          <div className="absolute top-3 right-3 flex space-x-1">
             <Button
               size="sm"
               variant="secondary"
-              className="h-8 w-8 p-0 bg-white/90 hover:bg-white text-gray-700 hover:text-gray-900 opacity-0 group-hover:opacity-100 transition-opacity duration-300"
+              className="h-8 w-8 p-0 bg-white/90 hover:bg-white text-gray-700 hover:text-gray-900 opacity-0 group-hover:opacity-100 transition-all duration-300"
+              onClick={handleBookmark}
+              title={isBookmarked ? '取消收藏' : '收藏'}
+            >
+              {isBookmarked ? (
+                <BookmarkCheck className="w-4 h-4 text-yellow-600" />
+              ) : (
+                <Bookmark className="w-4 h-4" />
+              )}
+            </Button>
+            <Button
+              size="sm"
+              variant="secondary"
+              className="h-8 w-8 p-0 bg-white/90 hover:bg-white text-gray-700 hover:text-gray-900 opacity-0 group-hover:opacity-100 transition-all duration-300"
               onClick={handleShare}
+              title="分享"
             >
               <Share2 className="w-4 h-4" />
             </Button>

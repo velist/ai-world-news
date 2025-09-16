@@ -83,7 +83,13 @@ const fetchNewsData = async (bypassCache = false): Promise<NewsItem[]> => {
   // 优化缓存策略：只在强制刷新时添加时间戳
   const url = bypassCache ? `/news-data.json?t=${now}&v=2` : '/news-data.json';
   
+  // 创建超时控制器，兼容性更好
+  const controller = new AbortController();
+  const timeoutId = setTimeout(() => controller.abort(), 10000); // 10秒超时
+  
   try {
+    console.log('🚀 开始获取新闻数据:', url);
+    
     const response = await fetch(url, {
       method: 'GET',
       cache: bypassCache ? 'no-cache' : 'default',
@@ -95,9 +101,10 @@ const fetchNewsData = async (bypassCache = false): Promise<NewsItem[]> => {
         }),
         ...(isWeChat && { 'User-Agent': 'WeChat' })
       },
-      // 添加超时控制
-      signal: AbortSignal.timeout(10000) // 10秒超时
+      signal: controller.signal
     });
+    
+    console.log('📡 收到响应:', response.status, response.statusText);
     
     if (!response.ok) {
       throw new Error(`HTTP ${response.status}: ${response.statusText}`);
@@ -109,20 +116,23 @@ const fetchNewsData = async (bypassCache = false): Promise<NewsItem[]> => {
     }
     
     const data = await response.json();
+    console.log('📄 解析JSON数据:', data?.success ? '格式正确' : '数据结构异常', Array.isArray(data?.data) ? `包含${data.data.length}条新闻` : '数据不是数组');
     
     if (data?.success && data?.data && Array.isArray(data.data)) {
       // 缓存数据
       newsCache.set(cacheKey, data.data);
+      console.log('✅ 成功获取和缓存新闻数据:', data.data.length, '条');
       return data.data;
     } else if (Array.isArray(data)) {
       // 兼容直接数组格式
       newsCache.set(cacheKey, data);
+      console.log('✅ 成功获取和缓存新闻数据(数组格式):', data.length, '条');
       return data;
     } else {
       throw new Error('新闻数据格式不正确');
     }
   } catch (error) {
-    console.error('获取新闻数据失败:', error);
+    console.error('❌ 获取新闻数据失败:', error);
     
     // 尝试获取备用缓存数据
     const fallbackData = newsCache.get(cacheKey);
@@ -138,6 +148,8 @@ const fetchNewsData = async (bypassCache = false): Promise<NewsItem[]> => {
     
     throw error;
   } finally {
+    // 清除超时定时器
+    clearTimeout(timeoutId);
     // 标记请求完成
     isRequestInProgress = false;
   }

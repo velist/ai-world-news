@@ -1,4 +1,5 @@
 import React, { useState, useRef, useEffect } from 'react';
+import { useNavigate, useLocation } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { Home, Search, Bookmark, Settings, Menu } from 'lucide-react';
 
@@ -9,9 +10,12 @@ interface MobileNavigationProps {
 
 export const MobileNavigation: React.FC<MobileNavigationProps> = ({
   onMenuClick,
-  currentPath = '/'
+  currentPath: propCurrentPath
 }) => {
   const { isZh } = useLanguage();
+  const navigate = useNavigate();
+  const location = useLocation();
+  const currentPath = propCurrentPath || location.pathname;
   const [isVisible, setIsVisible] = useState(true);
   const [lastScrollY, setLastScrollY] = useState(0);
   const scrollTimeoutRef = useRef<NodeJS.Timeout>();
@@ -126,7 +130,7 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({
                 key={item.id}
                 onClick={item.onClick || (() => {
                   if (item.path !== currentPath) {
-                    window.location.href = item.path;
+                    navigate(item.path);
                   }
                 })}
                 className={`

@@ -139,22 +139,27 @@ async function saveBlogData(blogData) {
  */
 async function analyzeHotAINews(newsData) {
   const today = new Date();
-  const yesterday = new Date(today.getTime() - 24 * 60 * 60 * 1000);
+  // 扩大时间范围到最近30天，确保能找到新闻
+  const thirtyDaysAgo = new Date(today.getTime() - 30 * 24 * 60 * 60 * 1000);
   
-  return newsData
+  console.log(`🔍 筛选范围: ${thirtyDaysAgo.toISOString().split('T')[0]} 到 ${today.toISOString().split('T')[0]}`);
+  
+  const filteredNews = newsData
     .filter(news => {
-      // 筛选昨天到今天的新闻
+      // 筛选最近30天的新闻
       const publishDate = new Date(news.publishedAt);
-      if (publishDate < yesterday) return false;
+      const isRecent = publishDate >= thirtyDaysAgo;
       
       // 筛选AI相关新闻
       const title = (news.title || '').toLowerCase();
       const content = (news.content || news.summary || '').toLowerCase();
       const combinedText = `${title} ${content}`;
       
-      return CONFIG.AI_KEYWORDS.some(keyword => 
+      const isAIRelated = CONFIG.AI_KEYWORDS.some(keyword => 
         combinedText.includes(keyword.toLowerCase())
       );
+      
+      return isRecent && isAIRelated;
     })
     .sort((a, b) => {
       // 按发布时间排序（最新的在前）
@@ -163,6 +168,13 @@ async function analyzeHotAINews(newsData) {
       return dateB - dateA;
     })
     .slice(0, CONFIG.DAILY_ARTICLES * 2); // 取两倍数量作为候选
+  
+  console.log(`📊 找到 ${filteredNews.length} 条AI相关新闻`);
+  if (filteredNews.length > 0) {
+    console.log(`📅 时间范围: ${new Date(filteredNews[filteredNews.length-1].publishedAt).toLocaleDateString()} - ${new Date(filteredNews[0].publishedAt).toLocaleDateString()}`);
+  }
+  
+  return filteredNews;
 }
 
 /**
@@ -323,13 +335,90 @@ function extractKeywords(news) {
   // 添加一些通用关键词
   zhKeywords.push('人工智能', 'AI技术', '科技创新');
   
-  // 英文关键词
-  const enKeywords = ['Artificial Intelligence', 'AI Technology', 'Tech Innovation', 'Machine Learning'];
+  // 智能生成英文关键词
+  const enKeywords = generateEnglishKeywords(title, content, zhKeywords);
   
   return {
     zh: [...new Set(zhKeywords)].slice(0, 6),
     en: [...new Set(enKeywords)].slice(0, 6)
   };
+}
+
+/**
+ * 智能生成英文关键词
+ */
+function generateEnglishKeywords(title, content, zhKeywords) {
+  const baseKeywords = [];
+  
+  // 基于中文关键词映射
+  const keywordMap = {
+    'AI': 'Artificial Intelligence',
+    'ChatGPT': 'ChatGPT',
+    'GPT': 'Large Language Model',
+    'OpenAI': 'OpenAI',
+    'Google': 'Google AI',
+    'DeepMind': 'DeepMind',
+    'Microsoft': 'Microsoft AI',
+    'Anthropic': 'Anthropic',
+    '人工智能': 'AI Technology',
+    '机器学习': 'Machine Learning',
+    '深度学习': 'Deep Learning',
+    '大模型': 'Language Model',
+    '自然语言处理': 'NLP',
+    '计算机视觉': 'Computer Vision',
+    '语音识别': 'Speech Recognition',
+    '神经网络': 'Neural Networks',
+    'Transformer': 'Transformer',
+    'LLM': 'Large Language Model',
+    '生成式AI': 'Generative AI',
+    'AGI': 'Artificial General Intelligence'
+  };
+  
+  // 映射已知关键词
+  zhKeywords.forEach(keyword => {
+    if (keywordMap[keyword]) {
+      baseKeywords.push(keywordMap[keyword]);
+    }
+  });
+  
+  // 根据标题内容添加相关标签
+  const text = (title + ' ' + content).toLowerCase();
+  
+  if (text.includes('投资') || text.includes('融资') || text.includes('funding') || text.includes('investment')) {
+    baseKeywords.push('AI Investment', 'Tech Funding', 'Startup Funding');
+  }
+  
+  if (text.includes('产品') || text.includes('发布') || text.includes('推出') || text.includes('product') || text.includes('launch')) {
+    baseKeywords.push('Product Launch', 'AI Tools', 'Tech Innovation');
+  }
+  
+  if (text.includes('研究') || text.includes('报告') || text.includes('research') || text.includes('study')) {
+    baseKeywords.push('AI Research', 'Tech Analysis', 'Industry Report');
+  }
+  
+  if (text.includes('开源') || text.includes('开放') || text.includes('open source')) {
+    baseKeywords.push('Open Source', 'Community', 'Developer Tools');
+  }
+  
+  if (text.includes('竞争') || text.includes('对比') || text.includes('competition') || text.includes('vs')) {
+    baseKeywords.push('Market Competition', 'Tech Comparison', 'Industry Analysis');
+  }
+  
+  if (text.includes('突破') || text.includes('创新') || text.includes('breakthrough') || text.includes('innovation')) {
+    baseKeywords.push('Technology Breakthrough', 'Innovation', 'Advancement');
+  }
+  
+  // 添加一些通用但相关的标签
+  const contextualTags = [
+    'Tech News', 'Industry Update', 'Future Technology',
+    'Digital Transformation', 'Automation', 'Smart Technology'
+  ];
+  
+  // 随机选择一些上下文相关的标签
+  const randomContextual = contextualTags.sort(() => 0.5 - Math.random()).slice(0, 2);
+  baseKeywords.push(...randomContextual);
+  
+  return baseKeywords;
 }
 
 /**
@@ -345,24 +434,219 @@ function generateTitleAndExcerpt(news) {
     titleZh = titleZh.substring(0, 47) + '...';
   }
   
-  // 生成英文标题（简化版）
-  const titleEn = news.title_en || `AI News: ${originalTitle.substring(0, 30)}...`;
+  // 智能生成英文标题
+  const titleEn = generateEnglishTitle(originalTitle);
   
   // 生成中文摘要
   let excerptZh = originalContent.length > 100 
     ? originalContent.substring(0, 97) + '...'
     : originalContent;
   
-  if (!excerptZh) {
-    excerptZh = `深度解读${titleZh}的最新发展动态，分析其对AI行业的深远影响和未来发展趋势。`;
+  if (!excerptZh || excerptZh.length < 20) {
+    excerptZh = generateChineseExcerpt(titleZh, originalContent);
   }
   
-  // 生成英文摘要
-  const excerptEn = news.content_en 
-    ? (news.content_en.substring(0, 97) + '...')
-    : `In-depth analysis of the latest developments in AI technology and its impact on the industry.`;
+  // 智能生成英文摘要
+  const excerptEn = generateEnglishExcerpt(titleZh, originalContent);
   
   return { titleZh, titleEn, excerptZh, excerptEn };
+}
+
+/**
+ * 智能生成英文标题
+ */
+function generateEnglishTitle(chineseTitle) {
+  // AI相关术语映射
+  const termMap = {
+    '人工智能': 'Artificial Intelligence',
+    'AI': 'AI',
+    'ChatGPT': 'ChatGPT', 
+    'GPT': 'GPT',
+    'OpenAI': 'OpenAI',
+    '谷歌': 'Google',
+    '微软': 'Microsoft',
+    '百度': 'Baidu',
+    '腾讯': 'Tencent',
+    '阿里': 'Alibaba',
+    '机器学习': 'Machine Learning',
+    '深度学习': 'Deep Learning',
+    '大模型': 'Large Language Model',
+    '语言模型': 'Language Model',
+    '自然语言处理': 'Natural Language Processing',
+    '计算机视觉': 'Computer Vision',
+    '自动驾驶': 'Autonomous Driving',
+    '智能助手': 'AI Assistant',
+    '聊天机器人': 'Chatbot',
+    '生成式AI': 'Generative AI',
+    '发布': 'Launches',
+    '推出': 'Introduces',
+    '更新': 'Updates',
+    '升级': 'Upgrades',
+    '突破': 'Breakthrough',
+    '创新': 'Innovation',
+    '研究': 'Research',
+    '开源': 'Open Source',
+    '融资': 'Funding',
+    '投资': 'Investment',
+    '收购': 'Acquisition',
+    '合作': 'Partnership',
+    '竞争': 'Competition'
+  };
+  
+  let englishTitle = chineseTitle;
+  
+  // 替换常见术语
+  Object.entries(termMap).forEach(([chinese, english]) => {
+    const regex = new RegExp(chinese, 'g');
+    englishTitle = englishTitle.replace(regex, english);
+  });
+  
+  // 如果标题仍然主要是中文，则使用描述性英文标题
+  if (/[\u4e00-\u9fa5]/.test(englishTitle)) {
+    const category = categorizeByTitle(chineseTitle);
+    const templates = {
+      tech: [
+        `Latest AI Technology Breakthrough: ${extractKeyTerm(chineseTitle)}`,
+        `New Development in AI: ${extractKeyTerm(chineseTitle)}`,
+        `AI Innovation Update: ${extractKeyTerm(chineseTitle)}`
+      ],
+      product: [
+        `New AI Product Launch: ${extractKeyTerm(chineseTitle)}`,
+        `Latest AI Tool Release: ${extractKeyTerm(chineseTitle)}`,
+        `Revolutionary AI Product: ${extractKeyTerm(chineseTitle)}`
+      ],
+      investment: [
+        `AI Investment News: ${extractKeyTerm(chineseTitle)}`,
+        `Funding Round Update: ${extractKeyTerm(chineseTitle)}`,
+        `AI Startup Funding: ${extractKeyTerm(chineseTitle)}`
+      ],
+      industry: [
+        `AI Industry Analysis: ${extractKeyTerm(chineseTitle)}`,
+        `Market Update: ${extractKeyTerm(chineseTitle)}`,
+        `Industry Trend: ${extractKeyTerm(chineseTitle)}`
+      ],
+      default: [
+        `AI News Update: ${extractKeyTerm(chineseTitle)}`,
+        `Latest in AI: ${extractKeyTerm(chineseTitle)}`,
+        `Breaking AI News: ${extractKeyTerm(chineseTitle)}`
+      ]
+    };
+    
+    const categoryTemplates = templates[category] || templates.default;
+    englishTitle = categoryTemplates[Math.floor(Math.random() * categoryTemplates.length)];
+  }
+  
+  // 确保标题长度适中
+  if (englishTitle.length > 80) {
+    englishTitle = englishTitle.substring(0, 77) + '...';
+  }
+  
+  return englishTitle;
+}
+
+/**
+ * 智能生成中文摘要
+ */
+function generateChineseExcerpt(title, content) {
+  const keyTerm = extractKeyTerm(title);
+  const category = categorizeByTitle(title);
+  
+  const templates = {
+    tech: [
+      `本文深度分析${keyTerm}的最新技术突破，探讨其在人工智能领域的创新意义和实际应用前景。`,
+      `${keyTerm}技术的新进展为AI行业带来了重大变革，本文详细解读其技术特点和市场影响。`,
+      `通过对${keyTerm}的深入研究，我们发现了人工智能技术发展的新趋势和机遇。`
+    ],
+    product: [
+      `${keyTerm}的发布标志着AI产品的新里程碑，本文分析其功能特色和市场竞争力。`,
+      `最新推出的${keyTerm}产品展现了人工智能技术的强大潜力，为用户带来全新体验。`,
+      `${keyTerm}作为新一代AI产品，其创新设计和技术实现值得深入探讨。`
+    ],
+    investment: [
+      `${keyTerm}获得的投资融资反映了资本市场对AI领域的持续看好，本文分析投资价值和前景。`,
+      `通过分析${keyTerm}的融资情况，我们可以洞察AI投资市场的最新趋势。`,
+      `${keyTerm}的投资动态为我们提供了AI产业发展的重要信号。`
+    ],
+    industry: [
+      `${keyTerm}的行业发展为AI产业带来了新的机遇和挑战，本文提供深度分析和前瞻预测。`,
+      `从${keyTerm}的市场表现可以看出AI行业的发展趋势和竞争格局。`,
+      `${keyTerm}在行业中的地位变化反映了AI技术商业化的新阶段。`
+    ],
+    default: [
+      `${keyTerm}的最新发展为AI领域注入了新活力，本文提供全面深入的分析解读。`,
+      `通过对${keyTerm}的详细分析，我们探索人工智能技术的发展方向和应用前景。`,
+      `${keyTerm}的重要进展展现了AI技术的无限可能，值得持续关注。`
+    ]
+  };
+  
+  const categoryTemplates = templates[category] || templates.default;
+  return categoryTemplates[Math.floor(Math.random() * categoryTemplates.length)];
+}
+
+/**
+ * 智能生成英文摘要
+ */
+function generateEnglishExcerpt(title, content) {
+  const keyTerm = extractKeyTerm(title);
+  const category = categorizeByTitle(title);
+  
+  const templates = {
+    tech: [
+      `This article provides an in-depth analysis of ${keyTerm}'s latest technological breakthrough and its innovative significance in the AI field.`,
+      `The new developments in ${keyTerm} technology bring major changes to the AI industry. This article explores its technical features and market impact.`,
+      `Through comprehensive research on ${keyTerm}, we uncover new trends and opportunities in artificial intelligence development.`
+    ],
+    product: [
+      `The launch of ${keyTerm} marks a new milestone in AI products. This article analyzes its features and competitive advantages.`,
+      `The newly released ${keyTerm} product demonstrates the powerful potential of AI technology, bringing users a revolutionary experience.`,
+      `As a next-generation AI product, ${keyTerm}'s innovative design and technical implementation deserve in-depth discussion.`
+    ],
+    investment: [
+      `The investment funding received by ${keyTerm} reflects the capital market's continued optimism about the AI sector.`,
+      `By analyzing ${keyTerm}'s funding situation, we gain insights into the latest trends in AI investment markets.`,
+      `The investment dynamics of ${keyTerm} provide important signals for AI industry development.`
+    ],
+    industry: [
+      `The industry development of ${keyTerm} brings new opportunities and challenges to the AI sector, with deep analysis and forward-looking predictions.`,
+      `The market performance of ${keyTerm} reveals development trends and competitive landscape in the AI industry.`,
+      `Changes in ${keyTerm}'s industry position reflect a new phase of AI technology commercialization.`
+    ],
+    default: [
+      `The latest developments in ${keyTerm} inject new vitality into the AI field, providing comprehensive and in-depth analysis.`,
+      `Through detailed analysis of ${keyTerm}, we explore the development direction and application prospects of AI technology.`,
+      `The significant progress of ${keyTerm} demonstrates the infinite possibilities of AI technology and deserves continued attention.`
+    ]
+  };
+  
+  const categoryTemplates = templates[category] || templates.default;
+  return categoryTemplates[Math.floor(Math.random() * categoryTemplates.length)];
+}
+
+/**
+ * 从标题中提取关键术语
+ */
+function extractKeyTerm(title) {
+  const aiTerms = ['ChatGPT', 'GPT', 'OpenAI', 'Google', 'Microsoft', 'AI', '人工智能', '机器学习', '深度学习', '大模型'];
+  
+  for (const term of aiTerms) {
+    if (title.includes(term)) {
+      return term;
+    }
+  }
+  
+  // 如果没有找到AI术语，返回标题的前几个关键词
+  const words = title.split(/[，。！？\s]+/).filter(word => word.length > 1);
+  return words[0] || 'AI技术';
+}
+
+/**
+ * 根据标题分类
+ */
+function categorizeByTitle(title) {
+  if (title.includes('投资') || title.includes('融资') || title.includes('估值')) return 'investment';
+  if (title.includes('发布') || title.includes('推出') || title.includes('产品')) return 'product';
+  if (title.includes('行业') || title.includes('市场') || title.includes('产业')) return 'industry';
+  return 'tech';
 }
 
 /**

@@ -28,6 +28,8 @@ const BlogPage = lazy(() => import("./pages/BlogPage"));
 const BlogArticlePage = lazy(() => import("./pages/BlogArticlePage"));
 const WebsiteIntroPage = lazy(() => import("./pages/WebsiteIntroPage"));
 const GPT5PricingAnalysisPage = lazy(() => import("./pages/GPT5PricingAnalysisPage"));
+const SearchPage = lazy(() => import("./pages/SearchPage"));
+const BookmarksPage = lazy(() => import("./pages/BookmarksPage"));
 
 const queryClient = new QueryClient({
   defaultOptions: {
@@ -158,6 +160,8 @@ const App = () => {
                   <Routes>
                     <Route path="/" element={<Index />} />
                     <Route path="/news/:id" element={<NewsDetailPage />} />
+                    <Route path="/search" element={<SearchPage />} />
+                    <Route path="/bookmarks" element={<BookmarksPage />} />
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/services" element={<ServicesPage />} />
                     <Route path="/contact" element={<ContactPage />} />
