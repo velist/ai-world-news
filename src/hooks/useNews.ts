@@ -1,4 +1,4 @@
-import { useState, useEffect, useMemo, useCallback } from 'react';
+﻿import { useState, useEffect, useMemo, useCallback } from 'react';
 import { NewsItem } from '@/types/news';
 import { useContentFilter } from './useContentFilter';
 import { useNewsTranslation } from './useNewsTranslation';
@@ -85,7 +85,7 @@ const fetchNewsData = async (bypassCache = false): Promise<NewsItem[]> => {
   
   // 创建超时控制器，兼容性更好
   const controller = new AbortController();
-  const timeoutId = setTimeout(() => controller.abort(), 10000); // 10秒超时
+  const timeoutId = setTimeout(() => controller.abort(), 25000); // 10秒超时
   
   try {
     console.log('🚀 开始获取新闻数据:', url);
