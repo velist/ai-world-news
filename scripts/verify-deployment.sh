@@ -6,6 +6,10 @@
 SITE_URL="https://news.aipush.fun"
 GITHUB_PAGES_URL="https://velist.github.io/ai-world-news"
 
+# 优先使用工作流传入的 BASE_URL_OVERRIDE（通常是 deploy-pages 的 page_url），
+# 其次用 GitHub Pages 的固定地址，最后退回自定义域名。
+BASE_URL="${BASE_URL_OVERRIDE:-${GITHUB_PAGES_URL:-$SITE_URL}}"
+
 echo "🚀 开始验证部署状态..."
 
 # 颜色输出
@@ -51,8 +55,9 @@ verify_spa_url() {
 # 获取部署时间
 get_deploy_time() {
     echo "⏰ 部署时间: $(date)"
-    echo "🔗 网站地址: $SITE_URL"
+    echo "🔗 自定义域名: $SITE_URL"
     echo "📦 GitHub Pages: $GITHUB_PAGES_URL"
+    echo "🔎 验证基准: $BASE_URL"
     echo "---"
 }
 
@@ -60,20 +65,20 @@ get_deploy_time() {
 main_verification() {
     local failed=0
 
-    # 验证主页
-    verify_url "$SITE_URL" "主页" || ((failed++))
+    # 先验证 GitHub Pages 输出（或上游传入的 page_url）
+    verify_url "$BASE_URL" "主页" || ((failed++))
 
     # 验证搜索页面 (重点验证)
-    verify_spa_url "$SITE_URL/search" "搜索页面" || ((failed++))
+    verify_spa_url "$BASE_URL/search" "搜索页面" || ((failed++))
 
     # 验证收藏页面
-    verify_spa_url "$SITE_URL/bookmarks" "收藏页面" || ((failed++))
+    verify_spa_url "$BASE_URL/bookmarks" "收藏页面" || ((failed++))
 
     # 验证其他关键页面
-    verify_spa_url "$SITE_URL/about" "关于页面" || ((failed++))
+    verify_spa_url "$BASE_URL/about" "关于页面" || ((failed++))
 
     # 验证API数据
-    verify_url "$SITE_URL/news-data.json" "新闻数据API" || ((failed++))
+    verify_url "$BASE_URL/news-data.json" "新闻数据API" || ((failed++))
 
     return $failed
 }

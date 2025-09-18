@@ -1,4 +1,4 @@
-name: 部署到GitHub Pages
+﻿name: 部署到GitHub Pages
 
 on:
   push:
@@ -65,6 +65,9 @@ jobs:
         run: sleep 60
 
       - name: 验证部署结果
+        env:
+          BASE_URL_OVERRIDE: ${{ steps.deployment.outputs.page_url }}
         run: |
           chmod +x scripts/verify-deployment.sh
           bash scripts/verify-deployment.sh
+
