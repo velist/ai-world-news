@@ -1,7 +1,6 @@
 name: Build and Deploy
 on:
-  push:
-    branches: [ main ]
+  # 改为仅手动触发，避免与 deploy.yml 冲突
   workflow_dispatch:
 
 permissions:

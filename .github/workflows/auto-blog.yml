@@ -71,17 +71,18 @@ jobs:
         git commit -m "🤖 自动生成博客文章和静态HTML $(date +%Y-%m-%d-%H:%M)"
         git push
         
-    - name: Trigger deployment
-      if: steps.verify-changed-files.outputs.changes == 'true'
-      uses: actions/github-script@v7
-      with:
-        script: |
-          github.rest.actions.createWorkflowDispatch({
-            owner: context.repo.owner,
-            repo: context.repo.repo,
-            workflow_id: 'deploy.yml',
-            ref: 'main'
-          })
+    # 避免重复触发部署：push 到 main 已会触发 deploy.yml，这里不再额外 dispatch
+    # - name: Trigger deployment
+    #   if: steps.verify-changed-files.outputs.changes == 'true'
+    #   uses: actions/github-script@v7
+    #   with:
+    #     script: |
+    #       github.rest.actions.createWorkflowDispatch({
+    #         owner: context.repo.owner,
+    #         repo: context.repo.repo,
+    #         workflow_id: 'deploy.yml',
+    #         ref: 'main'
+    #       })
           
     - name: Create summary
       if: always()

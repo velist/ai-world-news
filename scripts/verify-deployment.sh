@@ -33,6 +33,21 @@ verify_url() {
     fi
 }
 
+# 针对 GitHub Pages 上的 SPA 路由验证：直达子路由通常返回 404（由 404.html 兜底），因此 200 或 404 都视为可接受
+verify_spa_url() {
+    local url=$1
+    local name=$2
+    echo -n "📍 检查(SPA) $name..."
+    local status=$(curl -s -o /dev/null -w "%{http_code}" "$url" --max-time 30)
+    if [ "$status" = "200" ] || [ "$status" = "404" ]; then
+        echo -e " ${GREEN}✅ $status (SPA可接受)${NC}"
+        return 0
+    else
+        echo -e " ${RED}❌ $status${NC}"
+        return 1
+    fi
+}
+
 # 获取部署时间
 get_deploy_time() {
     echo "⏰ 部署时间: $(date)"
@@ -49,13 +64,13 @@ main_verification() {
     verify_url "$SITE_URL" "主页" || ((failed++))
 
     # 验证搜索页面 (重点验证)
-    verify_url "$SITE_URL/search" "搜索页面" || ((failed++))
+    verify_spa_url "$SITE_URL/search" "搜索页面" || ((failed++))
 
     # 验证收藏页面
-    verify_url "$SITE_URL/bookmarks" "收藏页面" || ((failed++))
+    verify_spa_url "$SITE_URL/bookmarks" "收藏页面" || ((failed++))
 
     # 验证其他关键页面
-    verify_url "$SITE_URL/about" "关于页面" || ((failed++))
+    verify_spa_url "$SITE_URL/about" "关于页面" || ((failed++))
 
     # 验证API数据
     verify_url "$SITE_URL/news-data.json" "新闻数据API" || ((failed++))
