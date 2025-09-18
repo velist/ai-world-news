@@ -1,4 +1,4 @@
-import { useEffect } from 'react';
+﻿import { useEffect } from 'react';
 import { Helmet } from 'react-helmet-async';
 import { Card, CardContent, CardHeader, CardTitle } from '@/components/ui/card';
 import { Badge } from '@/components/ui/badge';
@@ -93,10 +93,6 @@ const ServicesPage = () => {
       description: isZh ? "企业级安全防护，用户隐私严格保护" : "Enterprise-level security, strict privacy protection"
     },
     {
-      icon: <Search className="w-6 h-6" />,
-      title: isZh ? "智能搜索" : "Smart Search",
-      description: isZh ? "AI语义搜索，快速找到相关内容" : "AI semantic search for quick content discovery"
-    },
     {
       icon: <Bell className="w-6 h-6" />,
       title: isZh ? "实时推送" : "Real-time Push", 
@@ -119,7 +115,7 @@ const ServicesPage = () => {
         isZh ? "智能分类浏览" : "Smart category browsing", 
         isZh ? "中英文翻译" : "Chinese-English translation",
         isZh ? "移动端访问" : "Mobile access",
-        isZh ? "智能搜索功能" : "Smart search function",
+        isZh ? "智能分类浏览" : "Smart search function",
         isZh ? "实时资讯推送" : "Real-time news push",
         isZh ? "个性化推荐" : "Personalized recommendations"
       ],

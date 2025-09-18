@@ -1,7 +1,7 @@
+﻿import { Home, Bookmark, Menu } from 'lucide-react';
 import React, { useState, useRef, useEffect } from 'react';
 import { useNavigate, useLocation } from 'react-router-dom';
 import { useLanguage } from '@/contexts/LanguageContext';
-import { Home, Search, Bookmark, Settings, Menu } from 'lucide-react';
 
 interface MobileNavigationProps {
   onMenuClick?: () => void;
@@ -82,11 +82,6 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({
       active: currentPath === '/'
     },
     {
-      id: 'search',
-      icon: Search,
-      label: isZh ? '搜索' : 'Search',
-      path: '/search',
-      active: currentPath.startsWith('/search')
     },
     {
       id: 'bookmarks',
@@ -210,3 +205,4 @@ export const MobileGestureHint: React.FC = () => {
     </div>
   );
 };
+

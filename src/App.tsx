@@ -1,4 +1,4 @@
-import { Toaster } from "@/components/ui/toaster";
+﻿import { Toaster } from "@/components/ui/toaster";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
@@ -28,7 +28,6 @@ const BlogPage = lazy(() => import("./pages/BlogPage"));
 const BlogArticlePage = lazy(() => import("./pages/BlogArticlePage"));
 const WebsiteIntroPage = lazy(() => import("./pages/WebsiteIntroPage"));
 const GPT5PricingAnalysisPage = lazy(() => import("./pages/GPT5PricingAnalysisPage"));
-const SearchPage = lazy(() => import("./pages/SearchPage"));
 const BookmarksPage = lazy(() => import("./pages/BookmarksPage"));
 
 const queryClient = new QueryClient({
@@ -160,7 +159,6 @@ const App = () => {
                   <Routes>
                     <Route path="/" element={<Index />} />
                     <Route path="/news/:id" element={<NewsDetailPage />} />
-                    <Route path="/search" element={<SearchPage />} />
                     <Route path="/bookmarks" element={<BookmarksPage />} />
                     <Route path="/about" element={<AboutPage />} />
                     <Route path="/services" element={<ServicesPage />} />

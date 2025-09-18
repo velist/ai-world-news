@@ -1,4 +1,4 @@
-# SPA重定向规则 - 确保所有页面路由正常工作
+﻿# SPA重定向规则 - 确保所有页面路由正常工作
 # 这个文件对于静态SPA部署至关重要，避免404错误
 
 # 博客路由重定向
@@ -7,7 +7,6 @@
 
 # 所有页面路由重定向
 /news/* /index.html 200
-/search /index.html 200
 /bookmarks /index.html 200
 /about /index.html 200
 /services /index.html 200

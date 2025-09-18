@@ -32,11 +32,17 @@ jobs:
 
       - name: 聚合新闻数据
         run: npm run aggregate-news
-        
       - name: 生成RSS feed
         run: npm run generate-feed
         
+      - name: 生成博客静态页
+        run: npm run generate-static-blog
+        
+      - name: 生成站点地图
+        run: npm run generate-sitemap
+        
       - name: 构建项目
+        run: npm run build
         run: npm run build
 
       - name: 设置Pages
@@ -70,4 +76,5 @@ jobs:
         run: |
           chmod +x scripts/verify-deployment.sh
           bash scripts/verify-deployment.sh
+
 
