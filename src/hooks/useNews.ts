@@ -258,7 +258,7 @@ export const useNews = () => {
 
   // 初始化数据加载
   useEffect(() => {
-    loadNews();
+    loadNews(true);
     
     // 暂时禁用定时刷新，避免页面突然重置
     // const interval = setInterval(() => {
@@ -330,3 +330,4 @@ export const useNews = () => {
     lastFetchTime
   };
 };
+
