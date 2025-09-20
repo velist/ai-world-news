@@ -43,7 +43,6 @@ jobs:
         
       - name: 构建项目
         run: npm run build
-        run: npm run build
 
       - name: 设置Pages
         uses: actions/configure-pages@v4
@@ -66,6 +65,10 @@ jobs:
       - name: 部署到GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+      - name: SEO 提交（非阻断）
+        continue-on-error: true
+        run: npm run seo-submit
 
       - name: 等待部署生效
         run: sleep 60
