@@ -1,4 +1,4 @@
-name: 获取AI新闻并更新
+﻿name: 获取AI新闻并更新
 
 on:
   schedule:
@@ -10,6 +10,10 @@ permissions:
   contents: write
   pages: write
   id-token: write
+
+concurrency:
+  group: fetch-news
+  cancel-in-progress: true
 
 jobs:
   fetch-and-update-news:
@@ -29,7 +33,7 @@ jobs:
           cache: 'npm'
 
       - name: 安装依赖
-        run: npm install
+        run: npm ci
 
       - name: 获取国际新闻数据
         env:
@@ -43,6 +47,7 @@ jobs:
           ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
           VOLC_API_KEY: ${{ secrets.VOLC_API_KEY }}
         run: node scripts/fetch-news.js
+        continue-on-error: true
 
       - name: 获取RSS国内新闻数据
         run: node scripts/simple-aggregator.js
@@ -55,43 +60,25 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
 
-      - name: 提交更新的新闻数据
+            - name: 提交更新的新闻数据
         run: |
-          # 确保工作目录干净
-          git stash || true
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+
+          # 确认切到 main 并更新
           git fetch origin main
           git checkout main
           git pull origin main
-          
-          # 重新运行新闻获取以确保数据是最新的
-          ZHIPU_API_KEY="${{ secrets.ZHIPU_API_KEY }}" VOLC_API_KEY="${{ secrets.VOLC_API_KEY }}" NEWS_API_KEY="${{ secrets.NEWS_API_KEY }}" NEWSDATA_API_KEY="${{ secrets.NEWSDATA_API_KEY }}" GNEWS_API_KEY="${{ secrets.GNEWS_API_KEY }}" CURRENTS_API_KEY="${{ secrets.CURRENTS_API_KEY }}" SILICONFLOW_API_KEY="${{ secrets.SILICONFLOW_API_KEY }}" TENCENT_SECRET_ID="${{ secrets.TENCENT_SECRET_ID }}" TENCENT_SECRET_KEY="${{ secrets.TENCENT_SECRET_KEY }}" node scripts/fetch-news.js
-          node scripts/simple-aggregator.js
-          node scripts/generate-feed.js
-          
+
           # 检查是否有变化
           if git diff --quiet public/news-data.json; then
             echo "新闻数据没有变化，跳过提交"
           else
             echo "检测到新闻数据更新，准备提交"
             git add public/news-data.json
-            # 检查版本文件是否也有变化
-            if git diff --quiet public/version.json; then
-              echo "版本文件无变化"
-            else
-              echo "版本文件有变化，一并提交"
+            if ! git diff --quiet public/version.json; then
               git add public/version.json
             fi
             git commit -m "🤖 自动更新AI新闻数据 - $(date +'%Y-%m-%d %H:%M:%S UTC')"
-            
-            # 尝试推送，如果失败则重试
-            for i in {1..3}; do
-              if git push origin main; then
-                echo "推送成功"
-                break
-              else
-                echo "推送失败，尝试第 $i 次重试"
-                git pull --rebase origin main
-                sleep 5
-              fi
-            done
+            git push origin main
           fi
