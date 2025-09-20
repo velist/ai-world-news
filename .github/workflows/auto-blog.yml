@@ -1,4 +1,4 @@
-name: Auto Blog Generation
+﻿name: Auto Blog Generation
 
 on:
   schedule:
@@ -84,6 +84,10 @@ jobs:
     #         ref: 'main'
     #       })
           
+    - name: SEO Submit (non-blocking)
+      continue-on-error: true
+      run: npm run seo-submit
+        
     - name: Create summary
       if: always()
       run: |
@@ -107,3 +111,4 @@ jobs:
       run: |
         echo "⚠️ 自动博客生成任务失败"
         echo "请检查日志并手动处理"
+
