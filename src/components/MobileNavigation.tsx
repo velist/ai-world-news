@@ -81,9 +81,7 @@ export const MobileNavigation: React.FC<MobileNavigationProps> = ({
       path: '/',
       active: currentPath === '/'
     },
-    {
-    },
-    {
+        {
       id: 'bookmarks',
       icon: Bookmark,
       label: isZh ? '收藏' : 'Saved',
@@ -205,4 +203,5 @@ export const MobileGestureHint: React.FC = () => {
     </div>
   );
 };
+
 
