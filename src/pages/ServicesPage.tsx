@@ -13,7 +13,6 @@ import {
   Zap, 
   Languages, 
   Shield,
-  Search,
   Bell,
   BarChart3,
   Users
@@ -93,7 +92,6 @@ const ServicesPage = () => {
       description: isZh ? "企业级安全防护，用户隐私严格保护" : "Enterprise-level security, strict privacy protection"
     },
     {
-    {
       icon: <Bell className="w-6 h-6" />,
       title: isZh ? "实时推送" : "Real-time Push", 
       description: isZh ? "重要新闻即时推送，不错过热点" : "Instant push for important news, never miss trends"
@@ -115,7 +113,7 @@ const ServicesPage = () => {
         isZh ? "智能分类浏览" : "Smart category browsing", 
         isZh ? "中英文翻译" : "Chinese-English translation",
         isZh ? "移动端访问" : "Mobile access",
-        isZh ? "智能分类浏览" : "Smart search function",
+        isZh ? "智能分类浏览" : "Smart category browsing",
         isZh ? "实时资讯推送" : "Real-time news push",
         isZh ? "个性化推荐" : "Personalized recommendations"
       ],
@@ -411,3 +409,4 @@ const ServicesPage = () => {
 };
 
 export default ServicesPage;
+
