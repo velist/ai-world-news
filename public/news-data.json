@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2025-09-22T11:22:27.073Z",
-  "total": 78,
+  "timestamp": "2025-09-22T12:55:56.361Z",
+  "total": 83,
   "data": [
+    {
+      "id": "news_1758545745224_c210690f",
+      "title": "不止于快！美团新推理模型正在重新定义「实用主义AI」",
+      "summary": "不止于快！美团新推理模型正在重新定义「实用主义AI」",
+      "content": "不止于快！美团新推理模型正在重新定义「实用主义AI」",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-22T19:35:13.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/Wihe9jpBjQPmHyDlVX0Q?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1758537033727_47b994a4",
       "title": "字节跳动 Developer AI 负责人朱元硕确认出席 QCon 上海，分享自主规划Agent在字节跳动的落地实践",
@@ -16,16 +28,40 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1758540139597_c3760f6f",
-      "title": "Temporal 联手 OpenAI 推出 AI Agent 持久化方案，现已开放公开预览",
-      "summary": "Temporal 联手 OpenAI 推出 AI Agent 持久化方案，现已开放公开预览",
-      "content": "Temporal 联手 OpenAI 推出 AI Agent 持久化方案，现已开放公开预览",
+      "id": "news_1758545747767_185d3dc8",
+      "title": "百度智能云Qianfan-VL系列模型重磅开源：使用昆仑芯计算，多尺寸领域能力增强",
+      "summary": "百度智能云Qianfan-VL系列模型重磅开源：使用昆仑芯计算，多尺寸领域能力增强",
+      "content": "百度智能云Qianfan-VL系列模型重磅开源：使用昆仑芯计算，多尺寸领域能力增强",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-09-22T17:00:00.000Z",
+      "publishedAt": "2025-09-22T18:19:26.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/r09Lf5uKo5UQF3DNetvF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758545748652_5c59961a",
+      "title": "Snowflake 上的智能体 RAG | 技术实践",
+      "summary": "Snowflake 上的智能体 RAG | 技术实践",
+      "content": "Snowflake 上的智能体 RAG | 技术实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-22T18:18:49.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/dLEP0OfOTS18WPvOCLYb?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/gFIMpcXhw3aE655w4AUJ?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758545749316_064c7601",
+      "title": "硅基流动力推企业级MaaS，多行业大模型落地效果超预期！联合创始人：未来将占一半市场",
+      "summary": "硅基流动力推企业级MaaS，多行业大模型落地效果超预期！联合创始人：未来将占一半市场",
+      "content": "硅基流动力推企业级MaaS，多行业大模型落地效果超预期！联合创始人：未来将占一半市场",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-22T17:49:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/gJ2AoHq9IqUOZIjjAeOd?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1758530137607_2b710da4",
@@ -40,16 +76,64 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1758540141533_65c9b410",
-      "title": "LinkedIn使用现有的消息基础设施构建了企业级的多Agent AI",
-      "summary": "LinkedIn使用现有的消息基础设施构建了企业级的多Agent AI",
-      "content": "LinkedIn使用现有的消息基础设施构建了企业级的多Agent AI",
+      "id": "news_1758545729948_9da11be0",
+      "title": "美股大型科技股盘前涨跌不一，特斯拉涨超1%",
+      "summary": "36氪获悉，美股大型科技股盘前涨跌不一，截至发稿，特斯拉涨超1%，苹果涨0.88%，Meta涨0.09%；微软跌0.57%，谷歌跌0.55%，英伟达跌0.52%，亚马逊跌0.24%。",
+      "content": "36氪获悉，美股大型科技股盘前涨跌不一，截至发稿，特斯拉涨超1%，苹果涨0.88%，Meta涨0.09%；微软跌0.57%，谷歌跌0.55%，英伟达跌0.52%，亚马逊跌0.24%。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-22T10:45:55.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/09vAM1z1zOoqBWcrvvOq?utm_source=rss&utm_medium=article",
+      "source": "36氪",
+      "publishedAt": "2025-09-22T12:47:40.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3477885096270468?f=rss",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758545731055_f182b8de",
+      "title": "四连板云南旅游：目前尚不具备机器人整机设计或生产能力",
+      "summary": "36氪获悉，云南旅游发布股票交易异常波动的公告，公司全资子公司文旅科技与浙江人形机器人创新中心有限公司签署战略合作协议，但公司目前尚不具备机器人整机设计或生产能力，该事项预计对公司当期损益不会产生重大影响，后期能否顺利落地推进存在不确定性。",
+      "content": "36氪获悉，云南旅游发布股票交易异常波动的公告，公司全资子公司文旅科技与浙江人形机器人创新中心有限公司签署战略合作协议，但公司目前尚不具备机器人整机设计或生产能力，该事项预计对公司当期损益不会产生重大影响，后期能否顺利落地推进存在不确定性。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2025-09-22T12:42:20.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3477858418350466?f=rss",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758545755116_99d1e9b4",
+      "title": "Meta 开源 MobileLLM-R1 系列小语言 AI 模型：参数量不到 10 亿、专攻数学编程科学问题",
+      "summary": "IT之家 9 月 22 日消息，Meta 现已公布了 MobileLLM-R1 系列小语言模型，分别提供 1.4 亿、3.6 亿和 9.5 亿不同参数版本，强调能够在本地移动平台等轻量级设备上运行。",
+      "content": "IT之家 9 月 22 日消息，Meta 现已公布了 MobileLLM-R1 系列小语言模型，分别提供 1.4 亿、3.6 亿和 9.5 亿不同参数版本，强调能够在本地移动平台等轻量级设备上运行。 Meta 表示，MobileLLM-R1 并不是面向聊天机器人的通用模型，而是经过监督式微调（SFT）专门训练，主要用于解决数学、编程（如 Python、C++）和科学类问题，以最大规模的 MobileLLM-R1 950M 为例，其预训练数据仅使用了约 2TB 高质量 token，总训练数据量也不到 5TB，但表现依然出色。在 MATH、GSM8K、MMLU、LiveCodeBench 等多项基准测试中，成绩超过了使用 36TB token 数据训练的 Qwen 3-0.6B。 在对比现有开源小模型时，MobileLLM-R1 950M 在 MATH 测试中的准确率是 Olmo 1.24B 的 5 倍，也是 SmolLM 1.7B 的 2 倍。在编程任务中，其表现同样优于 Olmo 1.24B 和 SmolLM 1.7B。 目前，开发者可以通过 vLLM 推理引擎运行 MobileLLM-R1，只需在 ModelRegistry 中登记模型架构 Llama4ForCausalLM 即可。该系列模型已以 Apache 2.0 协议开源，并发布在 Hugging Face 平台（点此访问）。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/795377de-51fc-42c4-9766-a334ac350459.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-22T12:04:50.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/884/922.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758545755298_0525a1cf",
+      "title": "DeepSeek 线上模型升级至 V3.1-Terminus 版本，改进语言一致性及 Agent 能力",
+      "summary": "9 月 22 日晚间消息，DeepSeek 今晚宣布线上模型完成升级，当前版本号 DeepSeek-V3.1-Terminus，包含思考模型和非思考模式两个版本，上下文度均为 128k，用户可以在线体验。",
+      "content": "9 月 22 日晚间消息，DeepSeek 今晚宣布线上模型完成升级，当前版本号 DeepSeek-V3.1-Terminus，包含思考模型和非思考模式两个版本，上下文度均为 128k，用户可以在线体验。 IT之家从官方更新日志获悉，deepseek-chat 和 deepseek-reasoner 都已经升级为 DeepSeek-V3.1-Terminus。deepseek-chat 对应 DeepSeek-V3.1-Terminus 的非思考模式，deepseek-reasoner 对应 DeepSeek-V3.1-Terminus 的思考模式。 此次更新在保持模型原有能力的基础上，针对用户反馈的问题进行了改进，包括： 语言一致性：缓解了中英文混杂、偶发异常字符等情况； Agent 能力：进一步优化了 Code Agent 与 Search Agent 的表现。 其中，非思考模型输出长度默认 4K，最大 8K，思考模型输出长度默认 32K，最大 64K。 使用价格方面，该模型百万 tokens 输入（缓存命中）0.5 元，缓存未命中则为 4 元，百万 tokens 输出 12 元。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/5b7da79b-903a-4022-bd65-22d783aa1670.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-22T12:03:02.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/884/921.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758545755358_53340794",
+      "title": "Meta CTO 揭秘新眼镜发布会现场演示连环翻车原因：不是 Wi-Fi 的锅",
+      "summary": "IT之家 9 月 22 日消息，Meta 首席技术官安德鲁・博斯沃思（Andrew Bosworth）通过个人 Instagram 账号，从技术角度解释了为何在上周举行的公司开发者大会 Meta Connect 上，Meta 新款智能眼镜技术的多场演示均以失败告终。",
+      "content": "IT之家 9 月 22 日消息，Meta 首席技术官安德鲁・博斯沃思（Andrew Bosworth）通过个人 Instagram 账号，从技术角度解释了为何在上周举行的公司开发者大会 Meta Connect 上，Meta 新款智能眼镜技术的多场演示均以失败告终。 上周三，Meta 推出了三款全新智能眼镜，其中包括现有产品 Ray-Ban Meta 的升级版本、配备腕部控制器的新款 Meta Ray-Ban Display，以及主打运动场景的 Oakley Meta Vanguard。 然而，在发布会期间的多个现场演示均出现问题。 在其中一场演示中，美食内容创作者杰克・曼库索（Jack Mancuso）向自己的 Meta Ray-Ban Display 眼镜询问某款酱料食谱的制作步骤。他反复追问“第一步该做什么？”，但眼镜始终没有回应，随后人工智能直接跳至食谱后续步骤，迫使他不得不中断演示。之后，他将现场控制权交还给 Meta 首席执行官马克・扎克伯格（Mark Zuckerberg），并表示问题可能出在 Wi-Fi 网络故障上。 在另一场演示中，这款眼镜未能成功接收到博斯沃思与扎克伯格之间的 WhatsApp 实时视频通话，扎克伯格最终不得不放弃尝试。博斯沃思随后走上舞台，用“糟糕透顶”来调侃现场的 Wi-Fi 网络。 “这类演示我们已经演练了上百次，但你永远不知道实际现场会发生什么，”扎克伯格当时如此表示。 大会结束后，博斯沃思在个人 Instagram 上开启问答环节，就新技术及现场演示失败问题与网友互动。 针对演示失败原因，他解释称，厨师（曼库索）所使用的眼镜出现故障，实际上并非 Wi-Fi 问题所致，而是资源管理规划环节出现失误。 “当厨师说出‘嘿，Meta，启动实时 AI（Live AI）’时，场馆内所有的 Ray-Ban Meta 眼镜都启动了实时 AI 功能，而当时场馆内的人数非常多，”博斯沃思解释道，“显然，这种情况在彩排时并未发生，因为彩排时我们没有启用这么多设备。”他所指的“设备数量”，即当时被触发启动的眼镜总数。 不过，仅这一问题尚不足以导致演示彻底中断。故障的第二重原因与 Meta 在演示期间的流量路由策略有关，为实现隔离效果，Meta 选择将实时 AI 流量导向其开发服务器。但在执行这一操作时，系统将场馆内所有接入点的用户（包括所有智能眼镜设备）的流量均按此方式路由。 “因此，基本上可以说，我们在这场演示中让自己遭遇了分布式拒绝服务（DDoS）攻击，”博斯沃思补充道。（IT之家注：分布式拒绝服务攻击，即 DDoS 攻击，指通过大量流量涌入导致服务器或服务过载，进而使其运行速度放缓或陷入无法访问的状态。在此次事件中，Meta 的开发服务器并未配置处理场馆内其他眼镜设备所产生的海量流量的能力,Meta 原本仅计划让该服务器单独承载演示所需流量。） 此外，WhatsApp 通话演示失败则是由一个新出现的漏洞导致。 博斯沃思表示，就在通话接入的那一刻，智能眼镜的显示屏恰好进入休眠状态。当扎克伯格唤醒显示屏后，设备并未向他显示接听通知。这位首席技术官指出，这一问题源于“竞态条件”（race condition）漏洞，即当两个或多个不同进程试图同时使用同一资源时，最终结果取决于这些进程不可预测且缺乏协调的执行时序。 “我们此前从未遇到过这个漏洞，”博斯沃思强调，“这是我们第一次发现它。目前该漏洞已修复，但它偏偏在这种关键场合出现，实在是太糟糕了。”他着重说明，Meta 显然具备处理视频通话的技术能力，对于该漏洞在大会现场暴露，公司感到“非常沮丧”。 尽管出现上述问题，博斯沃思表示，他并不担心这些故障会产生不良影响。“显然，我并不希望看到这样的情况，但我清楚产品本身是可行的，也具备应有的功能。因此，这本质上只是一场演示失败，而非产品本身存在问题。”他说道。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/35811b58-69b3-4658-a295-e200040668fc.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-22T11:41:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/884/917.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1758512569861_f174ecf6",
@@ -914,30 +998,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/884/521.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758374927832_6ef63148",
-      "title": "19 岁黑客被指控入侵 47 家企业 / 机构，面临至高 95 年徒刑",
-      "summary": "IT之家 9 月 20 日消息，英国国家犯罪调查局（NCA）本周逮捕了 19 岁的 Thalha Jubair 和 18 岁的 Owen Flowers，并于当地时间 9 月 18 日正式对两人提出指控，称他们参与了去年对伦敦交通局（TfL）的黑客入侵事件。",
-      "content": "IT之家 9 月 20 日消息，英国国家犯罪调查局（NCA）本周逮捕了 19 岁的 Thalha Jubair 和 18 岁的 Owen Flowers，并于当地时间 9 月 18 日正式对两人提出指控，称他们参与了去年对伦敦交通局（TfL）的黑客入侵事件。 据悉，伦敦交通局在去年 8 月底遭到黑客组织 Scattered Spider 攻击，导致票价和数据系统瘫痪数月，约 5000 名乘客的个人信息被泄露，经济损失高达 3000 万英镑（现汇率约合 2.88 亿元人民币），Thalha Jubair 和 Owen Flowers 均被指控是该组织成员，同时直接参与了此次攻击事件。 同一天，美国司法部也起诉了 Thalha Jubair，指控他“涉及至少 120 起网络入侵和勒索案件”，受害对象包括 47 家企业 / 机构，涉及美国联邦法院、一家匿名关键基础设施企业、医疗集团 SSM Health Care Corporation 等。 IT之家获悉，美国司法部声称 Thalha Jubair 在 2022 年 5 月至 2025 年 9 月期间，通过“社交工程手段”获取企业网络访问权限，进而窃取并加密一系列企业数据，再向相应企业勒索赎金，累计获得不法收入 1.15 亿美元（IT之家注：现汇率约合 8.19 亿元人民币）。目前美国检方已对 Jubair 提出计算机欺诈共谋、计算机欺诈、电汇欺诈共谋、电汇欺诈等多项罪名指控。如果罪名全部成立，他最高可能面临 95 年监禁。不过，Thalha Jubair 在进行相应黑客活动时仍是未成年人。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2025-09-20T12:53:27.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/884/520.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758372318750_ff295c09",
-      "title": "IBM 发布轻量级视觉语言 AI 模型 Granite-Docling-258M：用于文件转换、支持中文",
-      "summary": "IT之家 9 月 20 日消息，IBM 现已正式发布了小型视觉语言模型 Granite-Docling-258M，定位于端到端文件转换场景用途，相应模型采用 Apache 2.0 开源协议，目前已在 Hugging Face 上线（点此访问）。",
-      "content": "IT之家 9 月 20 日消息，IBM 现已正式发布了小型视觉语言模型 Granite-Docling-258M，定位于端到端文件转换场景用途，相应模型采用 Apache 2.0 开源协议，目前已在 Hugging Face 上线（点此访问）。 IT之家获悉，该模型参数量为 2.58 亿，号称是一款专为文档表格设计的轻量级模型，输出结果能够完整保留版面、表格、数学公式、列表和代码块等结构，同时准确度相比传统 OCR 软件识别准确性更高。 IBM 透露，Granite-Docling 的核心在于 DocTags，这是由 IBM Research 设计的一套通用文件结构标记语言，能够精确描述页面元素的类型、坐标、阅读顺序及跨元素关系，同时可将内容与版面结构分离，实现“先识别元素范围再执行 OCR 识别”，在完成转换后，DocTags 还能够直接将内容导出为 Markdown、JSON、HTML 等格式，也可以进一步进入 Docling 库进行处理。 目前，Granite-Docling 支持中文、阿拉伯语和日语等语言，不过尚未达到“企业级”水准，IBM 称未来开发人员将逐步扩展语言覆盖范围并提升模型可靠性。同时还将进一步增强 DocTags 与 IBM watsonx.ai 模型的兼容性，并计划把 DocTags 词汇表纳入 Granite 分词器和训练流程。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/38c807b6-5cc8-415a-a8cb-f59deea9ce0e.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-09-20T12:21:58.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/884/517.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
