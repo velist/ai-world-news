@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2025-09-23T04:30:33.943Z",
-  "total": 92,
+  "timestamp": "2025-09-23T05:26:29.105Z",
+  "total": 93,
   "data": [
+    {
+      "id": "news_1758605177951_5244d392",
+      "title": "为 Coding Agent 构建智能上下文：Qoder 的 Context Engineering 实践｜QCon 上海",
+      "summary": "为 Coding Agent 构建智能上下文：Qoder 的 Context Engineering 实践｜QCon 上海...",
+      "content": "为 Coding Agent 构建智能上下文：Qoder 的 Context Engineering 实践｜QCon 上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-23T13:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/3AJq0UTJorHo6sItLtgp?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1758596621256_00d561f0",
       "title": "xAI 新模型 Grok 4 Fast 卷疯了！少用 40% token还能追平 Grok 4，限定范围可直接免费用   ",
@@ -220,18 +232,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1758601822196_c210690f",
-      "title": "不止于快！美团新推理模型正在重新定义「实用主义AI」",
-      "summary": "不止于快！美团新推理模型正在重新定义「实用主义AI」",
-      "content": "不止于快！美团新推理模型正在重新定义「实用主义AI」",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-22T19:35:13.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/Wihe9jpBjQPmHyDlVX0Q?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1758537033727_47b994a4",
       "title": "字节跳动 Developer AI 负责人朱元硕确认出席 QCon 上海，分享自主规划Agent在字节跳动的落地实践",
       "summary": "字节跳动 Developer AI 负责人朱元硕确认出席 QCon 上海，分享自主规划Agent在字节跳动的落地实践...",
@@ -244,40 +244,28 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1758601824112_185d3dc8",
-      "title": "百度智能云Qianfan-VL系列模型重磅开源：使用昆仑芯计算，多尺寸领域能力增强",
-      "summary": "百度智能云Qianfan-VL系列模型重磅开源：使用昆仑芯计算，多尺寸领域能力增强",
-      "content": "百度智能云Qianfan-VL系列模型重磅开源：使用昆仑芯计算，多尺寸领域能力增强",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-22T18:19:26.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/r09Lf5uKo5UQF3DNetvF?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1758605136248_0",
+      "title": "英伟达将投资高达1000亿美元于OpenAI",
+      "summary": "英伟达计划投资高达1000亿美元于人工智能公司OpenAI，双方宣布将共建并部署至少10吉瓦的AI数据中心。此次合作将加速人工智能技术的发展和应用，推动全球科技创新。英伟达CEO黄仁勋表示，此次合作将为AI研究提供强大的计算能力，助力OpenAI实现其使命。",
+      "content": "芯片制造商英伟达计划投资高达1000亿美元于人工智能公司OpenAI，两家公司在周一宣布了这一消息。意向书称，该合作伙伴关系将使OpenAI能够建设并部署至少10吉瓦的AI数据中心……",
+      "imageUrl": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2024/11/0/0/nvidia-ceo-huang-getty.jpg?ve=1&tl=1",
+      "source": "Fox Business",
+      "publishedAt": "2025-09-22T17:18:01.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.foxbusiness.com/technology/nvidia-invest-up-100b-openai",
+      "aiInsight": "这一新闻标志着AI领域的重大进展，从技术发展角度看，英伟达的投资将极大地推动OpenAI在AI超级计算能力上的发展，有助于加速AI模型的训练速度和规模，从而促进AI技术的进一步突破。从行业影响来看，此次合作不仅会增强OpenAI的核心竞争力，还可能在AI技术研发和应用方面引发更多企业的跟进和投资，加速整个AI产业链的发展。未来趋势上，这种大额投资和战略合作可能会成为推动AI技术发展的重要模式，促进更多资源向AI领域集中，加速AI技术的商业化进程和应用场景的拓展。同时，这也显示了AI技术在推动全球经济转型中的重要地位，预示着AI将在更多领域发挥关键作用。"
     },
     {
-      "id": "news_1758601825329_5c59961a",
-      "title": "Snowflake 上的智能体 RAG | 技术实践",
-      "summary": "Snowflake 上的智能体 RAG | 技术实践",
-      "content": "Snowflake 上的智能体 RAG | 技术实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-22T18:18:49.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/gFIMpcXhw3aE655w4AUJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758601826071_064c7601",
-      "title": "硅基流动力推企业级MaaS，多行业大模型落地效果超预期！联合创始人：未来将占一半市场",
-      "summary": "硅基流动力推企业级MaaS，多行业大模型落地效果超预期！联合创始人：未来将占一半市场",
-      "content": "硅基流动力推企业级MaaS，多行业大模型落地效果超预期！联合创始人：未来将占一半市场",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-22T17:49:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/gJ2AoHq9IqUOZIjjAeOd?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1758605163676_1",
+      "title": "英伟达将投资1000亿美元于开放人工智能研究中心",
+      "summary": "英伟达宣布将投资1000亿美元支持OpenAI，后者是ChatGPT的开发公司。这笔巨额投资将用于OpenAI使用英伟达的人工智能半导体技术，加速其在数据处理和模型训练方面的进展。此次合作将推动人工智能技术的发展，提升OpenAI在人工智能领域的竞争力。",
+      "content": "英伟达，全球最有价值的上市公司，于周一宣布将投资1000亿美元给OpenAI，这笔交易将允许这家ChatGPT背后的初创公司使用英伟达的人工智能半导体在其数据中... [1344字]",
+      "imageUrl": "https://static01.nyt.com/images/2025/09/22/multimedia/NVIDIA-OPENAI-1-qtkf/NVIDIA-OPENAI-1-qtkf-facebookJumbo.jpg",
+      "source": "The New York Times",
+      "publishedAt": "2025-09-22T17:16:52.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.nytimes.com/2025/09/22/technology/nvidia-openai-100-billion-investment.html",
+      "aiInsight": "### 深度分析及洞察\n\n**技术发展：**\n\n英伟达此次投资1000亿美元于OpenAI，展示了其在人工智能计算领域技术实力的进一步巩固。英伟达的GPU在全球范围内是训练大型语言模型和深度学习算法的首选工具，此次投资将进一步推动OpenAI在算力需求上的发展，加速AI技术的创新和应用。此外，这笔投资也预示着英伟达将更多地参与到人工智能基础研究和开发中，可能带来计算架构与算法的进一步优化。\n\n**行业影响：**\n\n对于整个AI行业而言，英伟达的投资将带来显著影响。首先，它将增强OpenAI在AI领域的竞争力，使其能够开发更强大、更复杂的模型，吸引更多企业和研究机构的合作。其次，这种合作模式可能会被其他AI企业效仿，促进产业生态系统的繁荣和发展。此外，随着技术的不断进步，这也将推动整个行业对高性能计算资源的需求增加，从而带动相关硬件与软件市场的增长。\n\n**未来趋势：**\n\n展望未来，英伟达的这一举动有望加速AI技术在各行业的渗透和应用，尤其是在医疗、教育、金融等领域的创新应用。同时，随着AI模型规模的不断扩大以及应用场景的日益丰富，对于高效、低成本的计算资源需求将更加迫切，这或将推动更多新型计算技术的研发与应用。此外，随着开放人工智能研究中心的进一步发展，我们可能会见证更多跨学科合作"
     },
     {
       "id": "news_1758561612961_256f8b01",
@@ -289,6 +277,42 @@
       "publishedAt": "2025-09-22T17:12:05.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/884/951.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758605156157_2",
+      "title": "芯片制造商英伟达将投资1000亿美元于OpenAI",
+      "summary": "芯片制造商英伟达宣布将投资100亿美元于ChatGPT母公司OpenAI，旨在巩固双方在人工智能领域的领先地位。此次投资将有助于推动人工智能系统的发展，可能对经济和社会产生深远影响。",
+      "content": "ChatGPT 的母公司 OpenAI 将收到芯片巨头 Nvidia 的 100 亿美元投资，这将有助于巩固两家公司在构建可能重塑经济和社会的人工智能系统竞赛中的领先地位。",
+      "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2025-09/250922-altman-huang-mb-1750-fb0d22.jpg",
+      "source": "NBC News",
+      "publishedAt": "2025-09-22T17:11:41.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.nbcnews.com/business/business-news/chipmaker-nvidia-invest-100-billion-openai-rcna232974",
+      "aiInsight": "这项投资标志着AI技术领域的重大进展，从技术角度来看，英伟达作为GPU领域的领导者，其投资将进一步加速AI技术的算力提升和成本降低。从行业影响来看，这将加强OpenAI在AI领域的技术优势，可能进一步扩大其在自然语言处理、机器学习等领域的应用范围，对相关领域的企业构成挑战。从未来趋势来看，这预示着AI技术将更深入地融入各行各业，推动社会经济的进一步变革。同时，这也可能引发行业内的竞争加剧，促使更多企业加大在AI技术上的投入。"
+    },
+    {
+      "id": "news_1758605133524_3",
+      "title": "加利福尼亚因律师编造的ChatGPT内容处以历史性的罚款",
+      "summary": "加州法院因律师在案件中使用ChatGPT编造的虚假引文，处以历史性的罚款。这是加州法院针对人工智能伪造内容发出的最大一笔罚款。法院在意见书中指出，律师在开场简报中引用的23个案例中有21个是虚构的，这引发了对法律界使用生成式AI工具的严格审查。",
+      "content": "由 Khari Johnson 为 CalMatters 编写 罚款似乎是加州法院发出的最大一笔针对人工智能伪造的罚款，并附带了一份严厉的意见书，指出律师在开场简报中引用的 23 个案例中的 21 个引文是虚构的。它还…… [6355 字符]",
+      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2025/09/10092023_CARE-Court_AH_10.webp?w=1023&h=682",
+      "source": "The Mercury News",
+      "publishedAt": "2025-09-22T17:00:55.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.mercurynews.com/2025/09/22/california-issues-historic-fine-over-lawyers-chatgpt-fabrications/",
+      "aiInsight": "从技术发展角度看，这一事件凸显了AI生成内容的真实性挑战。ChatGPT等大语言模型生成的文本在语法和逻辑上往往非常接近人类撰写的文本，但在数据依赖性和内容真实性上仍存在不足。加州的这一罚款事件将促使开发者和用户更加重视模型训练数据的质量和生成内容的真实性验证。\n\n从行业影响角度看，此类事件可能短期内会引发公众和监管机构对AI内容真实性的担忧，但长远来看，它将推动行业内部建立更加严格的内容审核机制和法律法规，提高行业标准，促进AI技术的健康发展。\n\n从未来趋势角度看，随着技术进步，模型的生成能力将不断提升，如何确保内容真实性将成为一个长期挑战。AI生成内容的广泛应用将要求行业内外建立更加完善的监管体系和识别机制。此外，AI伦理和法律问题也将日益受到重视，推动技术与法律、伦理的融合。"
+    },
+    {
+      "id": "news_1758605184059_c3760f6f",
+      "title": "Temporal 联手 OpenAI 推出 AI Agent 持久化方案，现已开放公开预览",
+      "summary": "Temporal 联手 OpenAI 推出 AI Agent 持久化方案，现已开放公开预览",
+      "content": "Temporal 联手 OpenAI 推出 AI Agent 持久化方案，现已开放公开预览",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-22T17:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/dLEP0OfOTS18WPvOCLYb?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -1093,18 +1117,6 @@
       "publishedAt": "2025-09-21T05:49:44.000Z",
       "category": "国内AI",
       "originalUrl": "https://36kr.com/newsflashes/3476020441536896?f=rss",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758432311288_7fb24b27",
-      "title": "华为正式启动“天工计划”，将投入10亿元支持鸿蒙AI生态创新",
-      "summary": "在华为全联接大会2025（HUAWEI CONNECT 2025）上，华为宣布HarmonyOS 5终端设备数量已突破1700万台，鸿蒙生态全速进击发展，AI全场景体验全面升级，并正式启动“天工计划”，未来将投入10亿元人民币资金与资源，全面支持鸿蒙AI生态创新，携手开发者共同迈进鸿蒙AI新阶段。",
-      "content": "在华为全联接大会2025（HUAWEI CONNECT 2025）上，华为宣布HarmonyOS 5终端设备数量已突破1700万台，鸿蒙生态全速进击发展，AI全场景体验全面升级，并正式启动“天工计划”，未来将投入10亿元人民币资金与资源，全面支持鸿蒙AI生态创新，携手开发者共同迈进鸿蒙AI新阶段。（央视新闻）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2025-09-21T04:47:10.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3475997173963394?f=rss",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
