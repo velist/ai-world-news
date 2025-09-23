@@ -1,18 +1,18 @@
 {
   "success": true,
-  "timestamp": "2025-09-23T06:39:31.464Z",
-  "total": 103,
+  "timestamp": "2025-09-23T07:27:07.219Z",
+  "total": 105,
   "data": [
     {
-      "id": "news_1758609556900_9d1ba23b",
-      "title": "诸神之战！谁是 Al 视频真王？｜AI的n次方",
-      "summary": "诸神之战！谁是 Al 视频真王？｜AI的n次方",
-      "content": "诸神之战！谁是 Al 视频真王？｜AI的n次方",
+      "id": "news_1758612411901_8fc9e3f9",
+      "title": "从技能到机遇：Snowflake 免费培训，帮你抢占 AI 数据人才快车道",
+      "summary": "从技能到机遇：Snowflake 免费培训，帮你抢占 AI 数据人才快车道",
+      "content": "从技能到机遇：Snowflake 免费培训，帮你抢占 AI 数据人才快车道",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-09-23T13:43:13.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/LASXfdfQpiJjNlpXBMYG?utm_source=rss&utm_medium=article",
+      "publishedAt": "2025-09-23T15:13:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Xc1pH6JxKvgK7zFI8wFy?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -38,6 +38,78 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/Uov9Yw6zrXT9WNSDBIAR?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758612400221_7d431963",
+      "title": "速卖通海外托管服务已覆盖30国",
+      "summary": "36氪从阿里旗下跨境电商平台速卖通获悉，目前家具、家电等大件商品中，超50%成交额来自“海外托管”。双11前，海外托管服务覆盖国家市场扩至30个，部分国家上线了官方物流，强化“最后一公里”配送体验。",
+      "content": "36氪从阿里旗下跨境电商平台速卖通获悉，目前家具、家电等大件商品中，超50%成交额来自“海外托管”。双11前，海外托管服务覆盖国家市场扩至30个，部分国家上线了官方物流，强化“最后一公里”配送体验。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2025-09-23T07:12:29.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3478971173362565?f=rss",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758612425935_19d699f3",
+      "title": "智元机器人 GO-1 通用具身基座大模型开源",
+      "summary": "IT之家 9 月 23 日消息，智元机器人今日宣布，继今年 1 月 AgiBot World 具身智能百万真机数据集开源后，通用具身基座大模型 GO-1（Genie Operator-1）今日也正式在 GitHub 开源。",
+      "content": "IT之家 9 月 23 日消息，智元机器人今日宣布，继今年 1 月 AgiBot World 具身智能百万真机数据集开源后，通用具身基座大模型 GO-1（Genie Operator-1）今日也正式在 GitHub 开源。 智元机器人称，这标志着全球首个采用 Vision-Language-Latent-Action (ViLLA) 架构的通用具身智能模型向全球开发者免费开放，将极大降低具身智能的技术门槛，推动行业快速发展。 IT之家附官方对 GO-1 的介绍如下： 01、技术突破：ViLLA 架构引领具身智能新范式 GO-1 采用的 Vision-Language-Latent-Action (ViLLA) 架构是具身智能领域的重大技术突破。与传统的 Vision-Language-Action (VLA) 架构相比，ViLLA 通过引入隐式动作标记，成功弥合了图像-文本输入与机器人执行动作之间的语义鸿沟。这一创新使得机器人能够更好地理解人类意图，并将其转化为精确的动作执行。 ViLLA 架构的核心在于其三层协同设计。VLM 多模态理解层基于 InternVL-2B 构建，能够处理多视角视觉图片、力觉信号、语言输入等多模态信息，为整个系统提供强大的场景感知和指令理解能力。Latent Planner 隐式规划器通过预测隐式动作标记，实现了对复杂操作任务的高层次规划和理解。Action Expert 动作专家则基于扩散模型，能够生成高频率、高精度的连续动作序列，确保机器人能够执行精细的操控任务。 02、平台支持：Genie Studio 一站式开发平台 Genie Studio 是智元机器人专为具身智能场景打造的一站式开发平台，为开发者和合作伙伴提供全栈式解决方案，覆盖数据采集、数据管理、模型训练与微调、仿真评测、模型构建与部署等全流程。平台提供开箱即用的 GO-1 基座模型，集成 Video Traning 方案和统一训练框架，内置完整的开发工具链，可实现真机一键编译 & 部署，显著提升开发效率，助力具身智能技术的快速落地与应用。 官网入口 https://genie.agibot.com/geniestudio 购买咨询 https://www.zhiyuan-robot.com/Contact/Business 03、社区共建：打造开源社区生态 虽然 GO-1 仅基于 AgiBot G1 机器人数据进行预训练，但该模型已经在松灵机器人、方舟机器人、Franka 机械臂等不同本体上进行了充分的验证测试。这些跨本体验证结果表明，GO-1 具备良好的可移植性，能够适应不同机器人的运动学特性和控制接口。 在仿真环境测试方面，GO-1 在 Genie Sim 和 Libero 等主流仿真平台上均取得了领先的性能表现。 GenieSim 仿真评测结果： Libero 仿真评测结果: 针对真机部署场景，GO-1 模型充分考虑了用户多样化的机器人平台需求，不仅提供了 Genie Studio 一站式开发平台来支持 Genie G1 本体的数据采集、模型微调和部署，同时特别集成了通用 LeRobot 数据格式，支持其他机器人本体的数据采集、模型微调和部署。 通过 Genie Studio，在 Genie G1 真机实验中，GO-1 相比于其他 SOTA 模型也取得了领先的性能。 04、立即开始：开启你的具身智能之旅 现在就访问我们的 GitHub 仓库，下载 GO-1 模型，开始你的具身智能开发之旅。无论你是经验丰富的 AI 研究者，还是刚刚踏入这个领域的新手，GO-1 都将为你提供强大的技术支撑和无限的创新可能。 GitHub: https://github.com/OpenDriveLab/AgiBot-World Huggingface: https://huggingface.co/agibot-world/GO-1 Arxiv: https://arxiv.org/abs/2503.06669",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/fbb84a6f-a7e3-464a-aa4e-6064442e180c.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-23T07:03:14.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/885/110.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758612426078_8b80fea6",
+      "title": "我国主持的首项 IEC 轨道交通信号技术领域国际标准正式发布实施",
+      "summary": "IT之家 9 月 23 日消息，据国家铁路局消息，近日，国际电工委员会（IEC）发布《轨道交通非 UGTMS 城市轨道交通信号与控制系统》（IEC 63536:2025），这是由国家铁路局组织、我国主持制定的首项 IEC 轨道交通信号技术领域的国际标准，标志着我国轨道交通标准国际化工作再次取得新突破...",
+      "content": "IT之家 9 月 23 日消息，据国家铁路局消息，近日，国际电工委员会（IEC）发布《轨道交通非 UGTMS 城市轨道交通信号与控制系统》（IEC 63536:2025），这是由国家铁路局组织、我国主持制定的首项 IEC 轨道交通信号技术领域的国际标准，标志着我国轨道交通标准国际化工作再次取得新突破。 新发布的国际标准《轨道交通非 UGTMS 城市轨道交通信号与控制系统》（IEC 63536:2025）是轨道交通信号控制系统标准的重要组成部分，规定了轨道交通中依靠目视或使用带有非连续式列控监督的信号和控制系统的功能需求，适用于所有 GOA0 和 GOA1a 自动化等级的轨道交通系统，为实现系统设备的互联互通、互换性、兼容性奠定了技术基础。 该国际标准历时 4 年，由中国、法国、德国、英国、意大利、日本、加拿大和埃塞俄比亚共 8 个国家的 22 名专家共同完成编制工作。 据IT之家了解，IEC 是全球最大最权威的国际标准组织之一，国际电工委员会轨道交通电气设备与系统技术委员会（IEC / TC9）是 IEC 在轨道交通领域设立的唯一技术委员会。近年来，国家铁路局组织轨道交通相关单位共同努力、形成合力，我国在 IEC / TC9 中的标准贡献率位居第 5 位。截至目前，IEC / TC9 现行国际标准 125 项，其中我国主持了 14 项，占比 11%，并参与了其余 111 项标准的编制工作；IEC / TC9 现有工作组 43 个，其中我国担任召集人的 8 个，占比 19%，并参与其余 35 个工作组的标准制定工作，实现了国际标准全覆盖。国家铁路局将组织铁路行业相关单位，持续参加 IEC 国际标准活动、主持和参与国际标准制修订，在 IEC 国际标准平台积极推介我国铁路特色技术，不断为世界铁路发展贡献中国智慧和中国力量。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/b680fb46-ab47-462a-97f8-6868e384e5ec.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-23T06:49:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/885/102.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758612405275_7904f3f0",
+      "title": "MediaTek Launches Dimensity 9500 Chip, Pushing 5G AI Performance to New Heights",
+      "summary": "The Dimensity 9500 is built on a new PC-grade ARM V9.3 architecture, featuring one C1-Ultra super core clocked at 4.21GHz, three C1-Premium super core...",
+      "content": "The Dimensity 9500 is built on a new PC-grade ARM V9.3 architecture, featuring one C1-Ultra super core clocked at 4.21GHz, three C1-Premium super cores, and four C1-Pro cores. It also supports the SME2 matrix computation instruction set and four-channel UFS 4.1 flash storage architecture.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-09-23T06:45:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7703218.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758612426092_e3ad9e7f",
+      "title": "瑞萨印度完成 3nm 车用芯片流片，Arm 在印开设 2nm 设计办事处",
+      "summary": "IT之家 9 月 23 日消息，根据印度媒体《经济时报》的报道，日本半导体企业瑞萨电子 Renesas 的印度区负责人表示，由瑞萨位于印度班加罗尔和诺伊达两地的技术团队合作设计的 3nm 制程车用芯片完成流片并已向合作伙伴出样。",
+      "content": "IT之家 9 月 23 日消息，根据印度媒体《经济时报》的报道，日本半导体企业瑞萨电子 Renesas 的印度区负责人表示，由瑞萨位于印度班加罗尔和诺伊达两地的技术团队合作设计的 3nm 制程车用芯片完成流片并已向合作伙伴出样。 IT之家注意到，除芯片产业上游的设计阶段外，瑞萨也将扩展在印度本地的芯片制造合作关系：该企业将成为与 CG Power 合资的印度 OSAT 外包封测工厂的主要客户。 图源：Pixabay 而在另一方面，Arm 当地时间 16 日举行了印度班加罗尔办事处的揭幕仪式。根据印度电子与信息技术部部长 Ashwini Vaishna 的说法，这座办事处将专注于尖端芯片设计，包括即将商业化的最先进 2nm 制程。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/f107f323-0e0a-48a2-aeed-64f888bd5c57.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-23T06:43:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/885/098.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758612426217_834c1d68",
+      "title": "阿里巴巴旗下高德宣布为全国餐饮商家免一年入驻年费",
+      "summary": "IT之家 9 月 23 日消息，今日，阿里巴巴旗下高德宣布，即日起为全国所有餐饮商家免一年入驻年费，并为商家提供流量补贴、专属客服、智能收银等一系列支持服务。 未来，高德还将根据餐饮商家实际需求不断更新举措，支持商家获得更多生意机会。",
+      "content": "IT之家 9 月 23 日消息，今日，阿里巴巴旗下高德宣布，即日起为全国所有餐饮商家免一年入驻年费，并为商家提供流量补贴、专属客服、智能收银等一系列支持服务。 未来，高德还将根据餐饮商家实际需求不断更新举措，支持商家获得更多生意机会。这是高德继推出高德扫街榜和“烟火好店支持计划”后，对线下餐饮服务商家的又一项重大支持举措。据IT之家了解，全国餐饮商家不分规模大小均可申请。 高德商家成长负责人表示，“希望通过持续行动，帮助餐饮商家既‘减负’，也‘增数’。切实降低经营成本的同时，更带来客群数新增量和数字化新机遇。”",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/e368dab2-ed9e-4c58-b9f9-f0b728d1f661.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-23T06:42:56.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/885/097.htm",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1758609540739_0ff92f5f",
@@ -316,16 +388,28 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1758609560194_c210690f",
-      "title": "不止于快！美团新推理模型正在重新定义「实用主义AI」",
-      "summary": "不止于快！美团新推理模型正在重新定义「实用主义AI」",
-      "content": "不止于快！美团新推理模型正在重新定义「实用主义AI」",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-22T19:35:13.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/Wihe9jpBjQPmHyDlVX0Q?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1758612374403_0",
+      "title": "英伟达将投资1000亿美元与OpenAI合作建设10GW人工智能基础设施以实现超级智能",
+      "summary": "英伟达宣布投资1000亿美元与OpenAI合作，建设10GW人工智能基础设施，以支持OpenAI开发下一代AI模型。此举标志着英伟达在人工智能领域最大的投资，将助力OpenAI构建大型数据中心，推动超级智能技术的发展。",
+      "content": "英伟达在人工智能领域押上了迄今为止最大的赌注。这家芯片制造商宣布将投资高达1000亿美元支持OpenAI，助力萨姆·阿尔特曼构建能够运行该公司下一代AI模型的大型数据中心…… [3211 chars]",
+      "imageUrl": "https://techstartups.com/wp-content/uploads/2025/08/nvidia-1.jpg",
+      "source": "TechStartups.com",
+      "publishedAt": "2025-09-22T19:06:41.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://techstartups.com/2025/09/22/nvidia-to-invest-100-billion-in-openai-to-build-10gw-ai-infrastructure-for-superintelligence/",
+      "aiInsight": "这项投资标志着AI领域的一次重大合作与升级，从技术发展角度来看，英伟达与OpenAI的合作将显著加速超级智能技术的发展。英伟达的GPU是当前训练大规模AI模型的关键基础设施，而OpenAI在AI研究和模型开发方面的领先地位，使得双方的合作具有极大的潜力。从行业影响来看，这将加速AI技术在各行业的应用，推动数字化转型和智能化升级。未来趋势方面，预计这将促进AI技术的进一步突破，加速AI与各行业深度融合，推动全球经济形态和产业发展格局的重塑。此外，这也可能引发新一轮的硬件和软件创新竞赛，加速AI生态系统的构建和成熟。"
+    },
+    {
+      "id": "news_1758612395748_1",
+      "title": "加利福尼亚州律师因使用AI生成的虚假法律引文提交上诉被罚款1万美元",
+      "summary": "一名加州律师因使用AI工具ChatGPT生成虚假法律引文提交上诉书，被法院罚款1万美元。这是加州法院针对人工智能伪造行为开出的最大罚单。此事件凸显了AI技术在法律领域可能引发的伦理和法律问题，提醒律师和法律从业者需谨慎使用AI工具，确保法律文件的真实性和准确性。",
+      "content": "加利福尼亚的一名律师因提交了一份充斥着由人工智能工具ChatGPT生成的虚假引文的州法院上诉书，被处以1万美元的罚款。 该罚款似乎是加州法院针对人工智能伪造行为开出的最大罚单，并且...",
+      "imageUrl": "https://dims.apnews.com/dims4/default/dcac1a4/2147483647/strip/true/crop/700x394+0+28/resize/1440x810!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F90%2F29%2F4e3c1cc7446089a9101a7bdff4c8%2Fdefaultshareimage-copy.png",
+      "source": "The Associated Press",
+      "publishedAt": "2025-09-22T18:48:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://apnews.com/article/artificial-intelligence-general-news-california-courts-854e31420843daddfee622002d49338b",
+      "aiInsight": "这一事件反映了AI技术在法律领域的应用正面临伦理和法律挑战。从技术发展角度看，ChatGPT等AI工具在生成文本方面取得了显著进展，但其内容的真实性和可靠性仍有待提高。从行业影响来看，此次事件提醒法律从业者和AI开发者需要更加关注AI工具的使用规范和法律风险，以防止类似事件的再次发生。未来趋势方面，预计法律行业将加强对AI工具的监管，并推动相关技术的透明度和可信度建设，以确保AI辅助决策的公正性和准确性。同时，法律教育和培训也将加强对AI伦理的重视，提升从业者对AI工具的使用能力和风险意识。"
     },
     {
       "id": "news_1758537033727_47b994a4",
@@ -340,28 +424,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1758609562050_185d3dc8",
-      "title": "百度智能云Qianfan-VL系列模型重磅开源：使用昆仑芯计算，多尺寸领域能力增强",
-      "summary": "百度智能云Qianfan-VL系列模型重磅开源：使用昆仑芯计算，多尺寸领域能力增强",
-      "content": "百度智能云Qianfan-VL系列模型重磅开源：使用昆仑芯计算，多尺寸领域能力增强",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-22T18:19:26.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/r09Lf5uKo5UQF3DNetvF?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758609562860_5c59961a",
-      "title": "Snowflake 上的智能体 RAG | 技术实践",
-      "summary": "Snowflake 上的智能体 RAG | 技术实践",
-      "content": "Snowflake 上的智能体 RAG | 技术实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-22T18:18:49.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/gFIMpcXhw3aE655w4AUJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1758612383016_2",
+      "title": "英伟达将投资1000亿美元助力扩大计算能力，支持OpenAI的发展",
+      "summary": "英伟达宣布将投资1000亿美元与OpenAI合作，为后者增加至少10吉瓦的AI数据中心计算能力。此次合作旨在扩大计算能力，支持OpenAI的发展。英伟达此举将进一步巩固其在人工智能领域的领先地位，并推动全球AI技术的进步。",
+      "content": "由路透社报道 芯片制造商英伟达将投资1000亿美元与OpenAI合作，作为周一宣布的一项合作伙伴关系的一部分，该合作将为OpenAI的所有者增加至少10吉瓦的英伟达AI数据中心计算能力…… [2108字符]",
+      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2025/09/Nvidia_Intel_39467-1-1.jpg?w=1024&h=683",
+      "source": "The Mercury News",
+      "publishedAt": "2025-09-22T17:55:04.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.mercurynews.com/2025/09/22/nvidia-openai-partnership/",
+      "aiInsight": "英伟达的投资计划标志着AI计算领域的一个重要里程碑。从技术发展的角度看，这一巨额投资将推动AI计算能力的大幅提升，使得更复杂的模型训练成为可能，加快AI技术的创新步伐。同时，英伟达与OpenAI的合作也将促进AI技术的快速迭代和应用，进一步巩固英伟达作为AI芯片市场的领导地位。\n\n从行业影响看，英伟达的投资和合作将进一步加速AI技术在各个行业中的应用，特别是在云计算、大数据分析、自动驾驶等领域。这不仅将推动相关企业提高效率，降低成本，还将催生新的商业模式和服务。对于整个科技行业而言，这也将促进AI技术的普及和深化应用，推动整个行业向智能化转型。\n\n从未来趋势来看，随着AI技术的不断发展，对计算能力的需求将持续增长。英伟达的这一举措预示着未来将有更多公司加大在AI基础设施上的投入，以满足这一需求。这将推动整个计算产业的升级，进一步促进技术进步和创新。同时，这也表明，未来AI技术的发展将更加依赖于强大的计算能力支持，这将推动计算产业和AI产业的深度融合。"
     },
     {
       "id": "news_1758609535062_0",
@@ -386,18 +458,6 @@
       "category": "国际AI",
       "originalUrl": "https://nypost.com/2025/09/22/business/nvidia-investing-up-to-100b-in-chatgpt-owner-openai/",
       "aiInsight": "这篇新闻揭示了英伟达与OpenAI之间的重要合作，标志着AI技术领域的一次重大投资和资源整合。从技术发展角度看，这表明大语言模型训练对算力的需求达到了前所未有的高度，英伟达作为GPU领域的领导者，将为其提供强大的计算支持，推动AI模型训练效率和效果的进一步提升。从行业影响来看，此次合作将进一步巩固OpenAI在全球AI领域的领先地位，同时可能引发更多科技巨头加大投入AI领域，加速AI技术的商业化进程。从未来趋势看，预计会有更多的算力资源投入到AI训练中，推动AI技术的快速发展和广泛应用，从而深刻改变各行各业的运作方式。"
-    },
-    {
-      "id": "news_1758609563999_064c7601",
-      "title": "硅基流动力推企业级MaaS，多行业大模型落地效果超预期！联合创始人：未来将占一半市场",
-      "summary": "硅基流动力推企业级MaaS，多行业大模型落地效果超预期！联合创始人：未来将占一半市场",
-      "content": "硅基流动力推企业级MaaS，多行业大模型落地效果超预期！联合创始人：未来将占一半市场",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-22T17:49:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/gJ2AoHq9IqUOZIjjAeOd?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1758605136248_0",
@@ -458,6 +518,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.mercurynews.com/2025/09/22/california-issues-historic-fine-over-lawyers-chatgpt-fabrications/",
       "aiInsight": "从技术发展角度看，这一事件凸显了AI生成内容的真实性挑战。ChatGPT等大语言模型生成的文本在语法和逻辑上往往非常接近人类撰写的文本，但在数据依赖性和内容真实性上仍存在不足。加州的这一罚款事件将促使开发者和用户更加重视模型训练数据的质量和生成内容的真实性验证。\n\n从行业影响角度看，此类事件可能短期内会引发公众和监管机构对AI内容真实性的担忧，但长远来看，它将推动行业内部建立更加严格的内容审核机制和法律法规，提高行业标准，促进AI技术的健康发展。\n\n从未来趋势角度看，随着技术进步，模型的生成能力将不断提升，如何确保内容真实性将成为一个长期挑战。AI生成内容的广泛应用将要求行业内外建立更加完善的监管体系和识别机制。此外，AI伦理和法律问题也将日益受到重视，推动技术与法律、伦理的融合。"
+    },
+    {
+      "id": "news_1758612420499_c3760f6f",
+      "title": "Temporal 联手 OpenAI 推出 AI Agent 持久化方案，现已开放公开预览",
+      "summary": "Temporal 联手 OpenAI 推出 AI Agent 持久化方案，现已开放公开预览",
+      "content": "Temporal 联手 OpenAI 推出 AI Agent 持久化方案，现已开放公开预览",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-22T17:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/dLEP0OfOTS18WPvOCLYb?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1758530137607_2b710da4",
@@ -1190,54 +1262,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/884/627.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758439356027_77e0152b",
-      "title": "一个暴论：普通人最大的AI杠杆，可能是多生孩子",
-      "summary": "一个暴论：普通人最大的AI杠杆，可能是多生孩子",
-      "content": "练几个新号，就是最大的AI杠杆",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-09-21T07:17:52.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7700972.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758439357141_4c4a7e8d",
-      "title": "拼多多的‘本分’哲学：为何不碰网贷与AI？",
-      "summary": "拼多多的‘本分’哲学：为何不碰网贷与AI？",
-      "content": "多多的假设，自信或致命",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-09-21T07:15:44.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7700969.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758439376830_daf643a8",
-      "title": "GoPro 运动相机新品官宣 9 月 23 日发布：预计将推出 MAX 2 和 Lit HERO",
-      "summary": "IT之家 9 月 21 日消息，GoPro 宣布将于 9 月 23 日举行新品发布会，届时可能会推出曝光已久的两款新品运动相机 ——GoPro MAX 2 与 GoPro Lit HERO，同时还有可能推出全新的 Phoenix 云台。IT之家届时将为大家带来更详细的报道。",
-      "content": "IT之家 9 月 21 日消息，GoPro 宣布将于 9 月 23 日举行新品发布会，届时可能会推出曝光已久的两款新品运动相机 ——GoPro MAX 2 与 GoPro Lit HERO，同时还有可能推出全新的 Phoenix 云台。IT之家届时将为大家带来更详细的报道。 GoPro MAX 2 预计采用双背对背传感器设计，或为新一代 360 度全景机型，而 Lit HERO 的具体参数尚未披露，定位可能偏向入门或便携市场。 相关阅读： 《360 度全景相机市场风云再起，GoPro Max 2 原型机曝光》 《GoPro Max 2 全景相机首个官方预告亮相，此前宣布今年发售》",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2025-09-21T07:14:40.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/884/610.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758439377392_5e7806be",
-      "title": "华为 Mate 60、Pura 70 系列等手机升级 HarmonyOS 6 开发者版，支持 AI 反诈 / AI 去反光 / 情景模式等功能",
-      "summary": "IT之家 9 月 21 日消息，华为鸿蒙 HarmonyOS 6.0.0.100 开发者 / 用户尝鲜版本已于 9 月 16 日陆续完成审核并开启推送，系统包大小约 11.19GB，适配 nova 14、Mate 70 系列等 43 款机型。",
-      "content": "IT之家 9 月 21 日消息，华为鸿蒙 HarmonyOS 6.0.0.100 开发者 / 用户尝鲜版本已于 9 月 16 日陆续完成审核并开启推送，系统包大小约 11.19GB，适配 nova 14、Mate 70 系列等 43 款机型。 华为官网显示，华为 Mate 60、Pura 70 系列等手机升级 HarmonyOS 6 开发者版，支持 AI 反诈 / AI 去反光 / 情景模式等功能。IT之家附功能适配详情如下： 机型支持情况 HUAWEI Pura 80 系列当前开发者版本已支持新视觉实况窗 / 憨憨舞林萌主主题 / AI 反诈 / AI 去反光 / AI 连续翻译 / 情景模式 HUAWEI Pura 70 系列 HUAWEI Mate 70 系列 HUAWEI Mate 60 系列 HUAWEI Mate X6 系列 HUAWEI Mate X5 系列 HUAWEI Pura X 系列 HUAWEI Pocket 2 系列 HUAWEI nova 14 系列 HUAWEI nova 13 系列 HUAWEI nova 12 系列 HUAWEI nova Flip HUAWEI MatePad Pro 13.2 英寸 2025 HUAWEI MatePad Pro 13.2 英寸 2023 系列 HUAWEI MatePad Pro 12.2 英寸 2024 HUAWEI MatePad Pro 11 英寸 2024 据IT之家今日早些时候报道，华为鸿蒙 HarmonyOS 6 开发者版本体验招募（二期）目前报名时间已延期至 9 月 29 日 10:00（此前报名时间为：2025 年 9 月 15 日-2025 年 9 月 22 日 10:00），这意味着用户可在此期间继续报名升级。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/d85be114-e0a9-481b-b015-a56f6f4bf81b.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-09-21T06:48:44.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/884/602.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
