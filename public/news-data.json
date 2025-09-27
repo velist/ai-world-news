@@ -1,7 +1,7 @@
 {
   "success": true,
-  "timestamp": "2025-09-27T17:21:49.920Z",
-  "total": 64,
+  "timestamp": "2025-09-27T18:33:27.959Z",
+  "total": 62,
   "data": [
     {
       "id": "news_1758977306676_f65b6194",
@@ -16,7 +16,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1758993708917_f65b6194",
+      "id": "news_1758998006956_f65b6194",
       "title": "老人手机被远程控制 26 万元存款险被骗，民警急智用牙签取出 SIM 卡成功阻断",
       "summary": "IT之家 9 月 27 日消息，据央视报道，浙江温州一位八旬老人吴奶奶近日遭遇冒充短视频平台客服的电信诈骗。 诈骗分子对老人谎称，其账号已开通直播会员，每月将扣款 800 元，从而诱导老人下载涉诈 App。在屏幕共享过程中，老人手机被植入木马病毒。",
       "content": "IT之家 9 月 27 日消息，据央视报道，浙江温州一位八旬老人吴奶奶近日遭遇冒充短视频平台客服的电信诈骗。 诈骗分子对老人谎称，其账号已开通直播会员，每月将扣款 800 元，从而诱导老人下载涉诈 App。在屏幕共享过程中，老人手机被植入木马病毒。 如IT之家下图所示，被远程控制后，老人的手机屏幕持续显示“系统正在对接会议中心网络……”，完全无法操作，无法滑动关机。 在这危急关头，到场的温州市公安局瓯海区分局景山派出所民警叶兴鑫突发急智，当机立断拿起茶几上的牙签取出手机 SIM 卡来切断网络连接，成功冻结转账进程，最终成功保住了老人账户中的 26 万元存款。 央视表示，与正规应用商店下载的 App 不同，诈骗分子提供的涉诈 App 带有木马病毒，一旦下载，除了手机屏幕会被一览无遗之外，手机的控制权还将被对方远程接管，导致手机黑屏无法操作。 警方提示，手机一旦被远程控制，务必做到以下几点： 一定要拔掉手机的 SIM 卡 关掉家中的路由器 冻结银行卡 查杀是否还有其它木马病毒 尽快修改银行卡密码",
@@ -26,6 +26,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/886/279.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1758997996740_f37ce327",
+      "title": "飞桨分布式技术揭秘：如何高效训练文心 4.5 大模型｜QCon 上海",
+      "summary": "飞桨分布式技术揭秘：如何高效训练文心 4.5 大模型｜QCon 上海",
+      "content": "飞桨分布式技术揭秘：如何高效训练文心 4.5 大模型｜QCon 上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-27T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/7XwEVypvpgOzugAuzoGX?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1758961949652_4120fd65",
@@ -232,27 +244,15 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1758993698889_92384d8b",
-      "title": "AI付费元年？从抓取到授权，微软PCM或定义下一代内容交易模式",
-      "summary": "AI付费元年？从抓取到授权，微软PCM或定义下一代内容交易模式",
-      "content": "AI付费元年？从抓取到授权，微软PCM或定义下一代内容交易模式",
+      "id": "news_1758997998654_ac272bbd",
+      "title": "从模型为王到应用为王：AI 中间件的基建之战 ｜InfoQ《极客有约》",
+      "summary": "从模型为王到应用为王：AI 中间件的基建之战 ｜InfoQ《极客有约》",
+      "content": "从模型为王到应用为王：AI 中间件的基建之战 ｜InfoQ《极客有约》",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-09-26T21:30:30.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/hvd8bHhWflspO57NZQ4o?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758993700656_2ff094e5",
-      "title": "阶跃星辰语音模型负责人杨学锐确认出席QCon上海，分享从语音表征到模型架构的端到端语音模型实践",
-      "summary": "阶跃星辰语音模型负责人杨学锐确认出席QCon上海，分享从语音表征到模型架构的端到端语音模型实践",
-      "content": "阶跃星辰语音模型负责人杨学锐确认出席QCon上海，分享从语音表征到模型架构的端到端语音模型实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-26T16:15:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/kTKyzx7IJZSUKtRNISCf?utm_source=rss&utm_medium=article",
+      "publishedAt": "2025-09-26T18:44:58.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/oo1akmsHwR7rDSYShse5?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -280,6 +280,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1758998000015_33787dbb",
+      "title": "XTransfer发布自研外贸金融大模型TradePilot 2.0，技术架构全面升级",
+      "summary": "XTransfer发布自研外贸金融大模型TradePilot 2.0，技术架构全面升级",
+      "content": "XTransfer发布自研外贸金融大模型TradePilot 2.0，技术架构全面升级",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-26T14:57:54.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/p4KZuF7DxwslejJeKDa8?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1758900518362_0d6ae114",
       "title": "OpenAI CEO 萨姆・奥尔特曼：2030 年前通用人工智能将来，未来 AI 接管人类 40% 工作",
       "summary": "IT之家 9 月 26 日消息，OpenAI CEO 萨姆・奥尔特曼昨天接受了德媒《世界报》采访，聊及未来的 AI 世界、下一代人类的生活等。",
@@ -290,30 +302,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/886/161.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758993702680_6e5ac7b1",
-      "title": "Agent+Code，打开AI开发新范式",
-      "summary": "Agent+Code，打开AI开发新范式",
-      "content": "Agent+Code，打开AI开发新范式",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-26T14:30:26.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/PpPT38RyuPxR7uqvbe2F?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758993703325_c4c141d9",
-      "title": "曙光网络发布新一代工业边缘 AI 计算平台：以智控一体解锁工业大模型边缘落地",
-      "summary": "曙光网络发布新一代工业边缘 AI 计算平台：以智控一体解锁工业大模型边缘落地",
-      "content": "曙光网络发布新一代工业边缘 AI 计算平台：以智控一体解锁工业大模型边缘落地",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-26T13:31:32.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/NcEofSRALjIDurz5j4g4?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1758891277878_3828fca9",
@@ -388,6 +376,18 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1758998002485_0bf2c9b3",
+      "title": "DeepSeek 时代下工程师如何借力 AI 突围？",
+      "summary": "DeepSeek 时代下工程师如何借力 AI 突围？",
+      "content": "DeepSeek 时代下工程师如何借力 AI 突围？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-26T10:46:50.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/VW024mbsF3EjlViVzFcX?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1758882578167_6e3c3c72",
       "title": "“超级黄金周”出行热，携程、美团、阿里、京东激战AI新战场",
       "summary": "“超级黄金周”出行热，携程、美团、阿里、京东激战AI新战场",
@@ -412,16 +412,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1758993610411_0",
+      "id": "news_1758997980165_0",
       "title": "中国AI电路制造商Moore Threads获准在上海进行IPO",
-      "summary": "中国AI电路制造商Moore Threads获准在上海进行IPO。Moore Threads是一家专注于AI电路制造的公司，此次IPO将为其在中国市场的扩张提供资金支持。Moore Threads的上市将进一步推动中国AI产业的发展，提高中国在AI技术领域的竞争力。此次IPO也标志着中国在AI领域取得了重要进展，有望吸引更多投资者关注中国AI市场。",
-      "content": "Moore Threads Technology Co.，该公司生产用于人工智能和机器学习等领域使用的设备，已获得上海证券交易所对其在科创板首次公开募股的批准。 这家总部位于北京的公司... [353字]",
+      "summary": "中国AI电路制造商Moore Threads获准在上海科创板进行IPO。该公司专注于生产用于人工智能和机器学习设备的电路，总部位于北京。此次上市将为其业务拓展提供资金支持。",
+      "content": "上海证券交易所以星市场（科创板）批准了Moore Threads Technology Co.的首次公开募股申请，该公司是一家生产用于人工智能和机器学习等领域设备的企业。该公司总部位于北京。",
       "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMsBpTeM_27Y/v1/1200x800.jpg",
       "source": "Bloomberg",
       "publishedAt": "2025-09-26T09:25:59.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.bloomberg.com/news/articles/2025-09-26/chinese-ai-circuit-maker-moore-threads-greenlit-for-shanghai-ipo",
-      "aiInsight": "这项新闻反映了中国在AI芯片领域的快速发展和政策支持。Moore Threads作为一家专注于AI和机器学习领域的电路制造商，其在上海证券交易所的科创板上市，标志着中国在AI芯片市场的进一步开放和国际化。\n\n从技术发展的角度看，Moore Threads的IPO显示了中国在AI芯片领域技术进步和市场竞争力的增强，尤其是在高性能计算芯片方面。这不仅有助于推动国内相关技术的研发和创新，还可能吸引更多国内外投资者关注中国在AI芯片领域的布局和发展。\n\n从行业影响来看，Moore Threads的IPO不仅为公司自身带来资金支持，也将促进整个AI芯片产业链的发展。随着资本市场的介入，预计将有更多的企业加大对AI芯片的研发投入，从而加速技术的迭代升级，推动AI技术在各个行业的广泛应用。\n\n展望未来，中国AI芯片市场有望进一步扩大，特别是在政府政策的支持下，预计会有更多的企业投入到AI芯片的研发中，同时也将吸引更多国际资本的关注。然而，这也意味着竞争将更加激烈，技术壁垒和市场壁垒的挑战也将随之增加。因此，中国企业需要不断创新，提升核心竞争力，以应对未来的挑战。"
+      "aiInsight": "这一新闻反映了中国在AI领域技术进步和资本市场的活跃度。从技术发展角度看，Moore Threads获得IPO批准意味着其AI电路制造技术得到了市场的认可，同时将吸引更多的投资支持技术的进一步研发和创新。从行业影响的角度来看，这一事件可能推动更多关注AI技术的企业在中国科创板上市，增强中国在AI硬件制造领域的竞争地位。未来趋势方面，随着人工智能技术的广泛应用，对高性能计算硬件的需求将持续增长，Moore Threads等企业有望在这一趋势中获得快速发展。此外，AI硬件市场的竞争也将更加激烈，促使企业不断优化产品性能，降低成本，以满足不断变化的市场需求。"
     },
     {
       "id": "news_1758982900883_0",
@@ -746,30 +746,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/885/879.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758993683834_1",
-      "title": "像ChatGPT这样的AI工具如何帮助你管理财务",
-      "summary": "该新闻介绍了AI工具如ChatGPT在财务管理中的应用。根据Gallup调查，近三分之一的美国人最近一周内使用了AI技术。这类工具可以帮助用户更好地管理财务，提高理财效率。AI技术的应用将为个人财务管理带来新的便利和可能性。",
-      "content": "(InvestigateTV) — 人工智能（AI）可能会让人感到 intimidated，但专家表示，它可能是一个出人意料有用的财务管理工具。 Kionnie Epps 是来自网站和YouTube频道“负责任的女主人”（The Responsible Homegirl）的金融教育者，……",
-      "imageUrl": "https://gray-wcsc-prod.gtv-cdn.com/resizer/v2/G3AZGJUHYBD2BAHJU3GTDNDGLY.png?auth=986d364806928438487176906b5284789136da5b7c6dc7d40d506993848a0adc&width=1200&height=600&smart=true",
-      "source": "Live 5 News WCSC",
-      "publishedAt": "2025-09-25T17:59:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.live5news.com/2025/09/25/how-ai-tools-like-chatgpt-could-help-you-manage-your-finances/",
-      "aiInsight": "这篇新闻报道了AI工具在财务管理中的应用，展示了AI技术在日常生活中的实用性和易用性。从技术发展角度看，ChatGPT等AI模型通过自然语言处理技术，能够更好地理解和生成人类语言，为用户提供更加直观的财务管理和咨询。从行业影响角度看，AI工具的应用有助于提高个人和企业的财务管理效率，降低财务风险，推动金融行业向智能化转型。未来趋势方面，随着AI技术的不断进步和完善，预计AI将在更多金融细分领域发挥重要作用，如智能投顾、信用评估、风险控制等。同时，AI技术与大数据、区块链等其他技术的结合将进一步推动金融行业的创新与发展。"
-    },
-    {
-      "id": "news_1758947662074_1",
-      "title": "像ChatGPT这样的AI工具如何帮助您管理财务",
-      "summary": "该新闻报道了AI工具如ChatGPT在财务管理中的应用。根据Gallup调查，36%的美国人在过去一周内使用了AI。这类工具能够帮助用户更好地管理财务，提高财务管理效率。ChatGPT等AI工具可以提供个性化的财务建议，帮助用户制定预算、跟踪支出和优化投资。这将有助于提高个人和家庭的财务健康状况。",
-      "content": "(InvestigateTV) — 人工智能（AI）可能会让人感到 intimidating，但专家表示，它可能是一个意外有用的财务管理工具。 Kionnie Epps 是来自网站和 YouTube 频道 ‘The Responsible Homegirl’ 的金融教育家，……",
-      "imageUrl": "https://gray-wcsc-prod.gtv-cdn.com/resizer/v2/G3AZGJUHYBD2BAHJU3GTDNDGLY.png?auth=986d364806928438487176906b5284789136da5b7c6dc7d40d506993848a0adc&width=1200&height=600&smart=true",
-      "source": "Live 5 News WCSC",
-      "publishedAt": "2025-09-25T17:59:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.live5news.com/2025/09/25/how-ai-tools-like-chatgpt-could-help-you-manage-your-finances/",
-      "aiInsight": "该新闻探讨了AI技术在个人财务管理中的潜力和应用，这是一个值得关注的发展趋势。从技术发展角度看，ChatGPT等AI工具通过自然语言处理能够提供更加人性化和个性化的财务咨询服务，帮助用户更好地理解和管理个人财务。行业影响方面，随着AI技术的普及，财务管理软件和服务将变得更加普及和智能化，从而改变个人及企业财务管理的方式。未来趋势上，预计AI将在风险管理、投资建议、税务规划等更多领域发挥重要作用，进一步提升财务管理的效率和准确性。同时，这也对相关从业人员提出了新的技能要求，需要不断提升自身的数字化素养，以适应智能化管理的趋势。"
     }
   ]
 }
