@@ -1,8 +1,56 @@
 {
   "success": true,
-  "timestamp": "2025-09-28T02:08:06.273Z",
-  "total": 59,
+  "timestamp": "2025-09-28T03:44:25.494Z",
+  "total": 62,
   "data": [
+    {
+      "id": "news_1759031064025_75eda319",
+      "title": "腾讯混元推出并开源“混元图像 3.0”，官方称效果能对标业界头部闭源模型",
+      "summary": "IT之家 9 月 28 日消息，今日腾讯混元推出并开源原生多模态图像生成模型“混元图像 3.0（HunyuanImage 3.0）”，参数规模达 80B。 据悉，该模型是首个开源工业级原生多模态生图模型，腾讯表示该模型效果能够对标业界头部闭源模型。",
+      "content": "IT之家 9 月 28 日消息，今日腾讯混元推出并开源原生多模态图像生成模型“混元图像 3.0（HunyuanImage 3.0）”，参数规模达 80B。 据悉，该模型是首个开源工业级原生多模态生图模型，腾讯表示该模型效果能够对标业界头部闭源模型。此外，模型能够利用知识进行推理，解析千字级别的复杂语义，并生成长文本文字。 腾讯混元图像 3.0 模型是继今年 5 月发布的 2.0 版本后的升级，2.0 版本已实现毫秒级响应和超写实画质，支持实时生图功能，用户可边打字边出图。 IT之家注意到，腾讯混元系列此前已陆续开源 3D 生成模型（2.0/2.5 版本）、定制化图像生成插件 InstantCharacter，以及多模态视频生成工具 HunyuanCustom，形成了完整的 AIGC 技术矩阵。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/d1db5dcb-3c38-441f-875e-ac69c0147e20.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-28T03:33:02.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/886/367.htm",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759031037305_20d9d9e7",
+      "title": "埃森哲推进AI转型，将率先裁减未能再培训员工",
+      "summary": "技术顾问公司埃森哲首席执行官Julie Sweet周四在电话会议上表示，将裁减无法在人工智能领域重新培训的员工，作为公司优先发展AI的重组策略一部分。她透露，埃森哲已经让55万名员工接受生成式AI基础培训，并启动一项为期六个月、规模达8.65亿美元的业务优化计划，涵盖遣散费及缩减人手的相关成本。",
+      "content": "技术顾问公司埃森哲首席执行官Julie Sweet周四在电话会议上表示，将裁减无法在人工智能领域重新培训的员工，作为公司优先发展AI的重组策略一部分。她透露，埃森哲已经让55万名员工接受生成式AI基础培训，并启动一项为期六个月、规模达8.65亿美元的业务优化计划，涵盖遣散费及缩减人手的相关成本。（新浪财经）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2025-09-28T03:28:30.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3485828880046984?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759031064490_cca963e1",
+      "title": "AI 初创公司 Friend 砸超百万美元在纽约地铁投放广告，部分遭涂鸦破坏",
+      "summary": "IT之家 9 月 28 日消息，纽约市的地铁近日出现了大量纯白色的广告，宣传一款名为“Friend”的可穿戴人工智能设备。",
+      "content": "IT之家 9 月 28 日消息，纽约市的地铁近日出现了大量纯白色的广告，宣传一款名为“Friend”的可穿戴人工智能设备。 该公司首席执行官阿维・希夫曼（Avi Schiffman）告诉 Adweek，公司已投入超过 100 万美元（IT之家注：现汇率约合 713.9 万元人民币），在地铁车厢内投放了 1.1 万多张广告卡片、1000 张站台海报以及 130 块城市户外广告牌。部分站点，例如西 4 街站（West 4th Street），几乎被“Friend”广告全面覆盖。 希夫曼表示：“这堪称全球首个大规模 AI 产品广告活动。”他形容这次投放“是一次豪赌”，并补充道：“我现在手头已经没剩多少钱了。” 这款售价 129 美元的“Friend”设备颇具争议，Wired 杂志的撰稿人近期批评该设备存在持续监控用户的问题。 IT之家注意到，部分“Friend”广告遭到涂鸦破坏，有人在广告上写下“监视资本主义”等字样，并呼吁路人“去找真正的朋友”。 希夫曼坦言，他很清楚“纽约人可能比美国其他任何地方的人都更讨厌人工智能”，正因如此，他特意选择了大量留白的极简广告设计，“目的是引发公众对这一话题的社会性讨论”。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/1e56b64e-a10d-420a-be6d-91fb576ae479.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-28T03:03:40.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/886/358.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759031044629_c69e8f77",
+      "title": "AI-Driven Transformation of China's Travel Market as 'Super Golden Week' Appraoch",
+      "summary": "The ultimate battle for AI application depth: charting the future from tools to ecosystems....",
+      "content": "The ultimate battle for AI application depth: charting the future from tools to ecosystems.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-09-28T02:28:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7708787.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1759025284865_2fd49f28",
       "title": "百度“萝卜快跑”自动驾驶出行服务平台申请在香港测试，项目有望今年底启动",
@@ -62,18 +110,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/886/279.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759025275750_f37ce327",
-      "title": "飞桨分布式技术揭秘：如何高效训练文心 4.5 大模型｜QCon 上海",
-      "summary": "飞桨分布式技术揭秘：如何高效训练文心 4.5 大模型｜QCon 上海",
-      "content": "飞桨分布式技术揭秘：如何高效训练文心 4.5 大模型｜QCon 上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-27T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/7XwEVypvpgOzugAuzoGX?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1758961949652_4120fd65",
@@ -280,15 +316,27 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759025277942_ac272bbd",
-      "title": "从模型为王到应用为王：AI 中间件的基建之战 ｜InfoQ《极客有约》",
-      "summary": "从模型为王到应用为王：AI 中间件的基建之战 ｜InfoQ《极客有约》",
-      "content": "从模型为王到应用为王：AI 中间件的基建之战 ｜InfoQ《极客有约》",
+      "id": "news_1759031054643_92384d8b",
+      "title": "AI付费元年？从抓取到授权，微软PCM或定义下一代内容交易模式",
+      "summary": "AI付费元年？从抓取到授权，微软PCM或定义下一代内容交易模式",
+      "content": "AI付费元年？从抓取到授权，微软PCM或定义下一代内容交易模式",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-09-26T18:44:58.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/oo1akmsHwR7rDSYShse5?utm_source=rss&utm_medium=article",
+      "publishedAt": "2025-09-26T21:30:30.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/hvd8bHhWflspO57NZQ4o?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759031056847_2ff094e5",
+      "title": "阶跃星辰语音模型负责人杨学锐确认出席QCon上海，分享从语音表征到模型架构的端到端语音模型实践",
+      "summary": "阶跃星辰语音模型负责人杨学锐确认出席QCon上海，分享从语音表征到模型架构的端到端语音模型实践",
+      "content": "阶跃星辰语音模型负责人杨学锐确认出席QCon上海，分享从语音表征到模型架构的端到端语音模型实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-26T16:15:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/kTKyzx7IJZSUKtRNISCf?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -316,18 +364,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759025279666_33787dbb",
-      "title": "XTransfer发布自研外贸金融大模型TradePilot 2.0，技术架构全面升级",
-      "summary": "XTransfer发布自研外贸金融大模型TradePilot 2.0，技术架构全面升级",
-      "content": "XTransfer发布自研外贸金融大模型TradePilot 2.0，技术架构全面升级",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-26T14:57:54.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/p4KZuF7DxwslejJeKDa8?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1758900518362_0d6ae114",
       "title": "OpenAI CEO 萨姆・奥尔特曼：2030 年前通用人工智能将来，未来 AI 接管人类 40% 工作",
       "summary": "IT之家 9 月 26 日消息，OpenAI CEO 萨姆・奥尔特曼昨天接受了德媒《世界报》采访，聊及未来的 AI 世界、下一代人类的生活等。",
@@ -338,6 +374,30 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/886/161.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759031058823_6e5ac7b1",
+      "title": "Agent+Code，打开AI开发新范式",
+      "summary": "Agent+Code，打开AI开发新范式",
+      "content": "Agent+Code，打开AI开发新范式",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-26T14:30:26.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/PpPT38RyuPxR7uqvbe2F?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759031059766_c4c141d9",
+      "title": "曙光网络发布新一代工业边缘 AI 计算平台：以智控一体解锁工业大模型边缘落地",
+      "summary": "曙光网络发布新一代工业边缘 AI 计算平台：以智控一体解锁工业大模型边缘落地",
+      "content": "曙光网络发布新一代工业边缘 AI 计算平台：以智控一体解锁工业大模型边缘落地",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-26T13:31:32.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/NcEofSRALjIDurz5j4g4?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1758891277878_3828fca9",
@@ -436,6 +496,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1759031031116_0",
+      "title": "中国AI电路制造商Moore Threads获准在上海进行IPO",
+      "summary": "中国AI电路制造商Moore Threads获准在上海科创板进行IPO。该公司专注于生产用于人工智能和机器学习领域的设备。此次上市将为其在该领域的发展提供资金支持。Moore Threads总部位于北京，此次获批标志着中国在人工智能硬件领域取得重要进展。",
+      "content": "上海证券交易所以星市场（科创板）批准了Moore Threads Technology Co.的首次公开募股申请，该公司是一家生产用于人工智能和机器学习等领域设备的企业。这家总部位于北京的公司... [353字]",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMsBpTeM_27Y/v1/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2025-09-26T09:25:59.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2025-09-26/chinese-ai-circuit-maker-moore-threads-greenlit-for-shanghai-ipo",
+      "aiInsight": "对于新闻《中国AI电路制造商Moore Threads获准在上海进行IPO》，可以从以下几个角度进行深度点评分析：\n\n1. **技术发展**：Moore Threads获得IPO批准，反映了中国在AI电路技术领域的快速发展和国际竞争力的增强。这表明中国在AI芯片设计和制造方面取得了显著进展，能够在国际市场上与全球领先企业竞争。\n\n2. **行业影响**：此次IPO将为Moore Threads带来大量资金，有助于其扩大生产规模、研发新一代高性能AI芯片，进一步推动中国AI芯片行业的整体发展。同时，也预示着中国在半导体领域的崛起，可能改变全球半导体市场的竞争格局。\n\n3. **未来趋势**：随着全球对AI技术需求日益增长，中国AI电路制造商正迎来前所未有的发展机遇。Moore Threads的成功IPO不仅将促进自身发展，也可能吸引更多投资者和企业关注AI芯片领域，加速相关技术的研发与应用。此外，这也标志着中国在打造自主可控的AI产业链方面迈出了重要一步，有助于减少对国外技术的依赖。\n\n综上所述，Moore Threads的IPO不仅是企业自身成长的里程碑，也预示着中国AI技术产业正在迎来一个全新的发展阶段。"
+    },
+    {
       "id": "news_1759025260380_0",
       "title": "中国AI电路制造商Moore Threads获准在上海进行 IPO",
       "summary": "中国AI电路制造商Moore Threads获准在上海进行IPO。Moore Threads是一家专注于人工智能电路制造的公司，此次IPO将为其在中国市场的发展提供资金支持。Moore Threads有望成为首家在上海科创板上市的AI芯片制造商，此举将有助于推动中国在人工智能领域的发展。此次IPO的具体融资金额和时间尚未公布。",
@@ -482,18 +554,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.bloomberg.com/news/articles/2025-09-26/chinese-ai-circuit-maker-moore-threads-greenlit-for-shanghai-ipo",
       "aiInsight": "该新闻反映了中国AI科技领域公司在资本市场上的重要进展。Moore Threads的IPO获批表明中国在AI电路制造领域取得了显著的技术突破，并获得了市场的广泛认可。从技术发展角度看，这标志着中国在AI硬件制造方面的自主研发能力正逐渐增强，有助于提升国内AI产业链的自主可控水平。行业影响方面，Moore Threads的成功上市将吸引更多资本关注AI硬件领域，促进相关技术的研发和应用，推动整个行业的快速发展。未来趋势上，随着中国在AI硬件制造领域的持续投入和技术积累，预计会有更多类似的公司进入资本市场，中国在AI硬件领域的全球竞争力将进一步提升。此外，这也将促进AI技术与实体经济深度融合，为数字经济的发展提供更强的技术支持。"
-    },
-    {
-      "id": "news_1759000756313_0",
-      "title": "中国AI电路制造商Moore Threads获准在上海进行IPO",
-      "summary": "中国AI电路制造商Moore Threads获准在上海进行IPO。Moore Threads是一家专注于人工智能电路制造的公司，此次IPO将为其在中国市场的发展提供资金支持。Moore Threads的成功上市，不仅标志着中国AI产业的进一步发展，也将为投资者带来新的投资机会。此次IPO的具体融资金额和发行时间尚未公布。",
-      "content": "Moore Threads Technology Co.，一家生产用于人工智能和机器学习等领域设备的公司，已获得上海证券交易所对其在科创板首次公开募股的批准。 这家总部位于北京的公司... [353字]",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iMsBpTeM_27Y/v1/1200x800.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2025-09-26T09:25:59.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2025-09-26/chinese-ai-circuit-maker-moore-threads-greenlit-for-shanghai-ipo",
-      "aiInsight": "从技术发展角度来看，Moore Threads获得上海科创板IPO批准，反映了中国在AI芯片领域的技术进步和市场认可。Moore Threads专注于AI和机器学习设备，意味着其技术可能在深度学习加速、推理、训练等方面具有独特优势。此举不仅有助于推动中国在AI芯片领域的发展，还可能促进全球AI技术的创新和应用。\n\n从行业影响来看，Moore Threads的上市将为国内AI芯片企业树立新的标杆，吸引更多资本关注和支持AI芯片领域，加速国内企业技术迭代和市场拓展。同时，这也将增加市场竞争，促使更多企业加大研发投入，提高产品性能和降低成本，从而推动整个行业的技术进步和应用普及。\n\n从未来趋势来看，Moore Threads的IPO预示着AI芯片市场将进入快速发展期。随着数据量的爆炸性增长和AI技术的广泛应用，对高性能、低功耗的AI芯片需求日益增加。Moore Threads有望借助资本市场的力量，加速产品创新和市场布局，进一步巩固其在中国乃至全球AI芯片市场的地位。同时，这也预示着未来中国在AI芯片领域将有更多追赶甚至领先国际巨头的机会。"
     },
     {
       "id": "news_1758961837878_0",
@@ -686,30 +746,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/7707083.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758861094092_a858b9b6",
-      "title": "Billionaire Xiaomi Founder Unveils $630 Answer to iPhone 17",
-      "summary": "Transitioning from an \"internet company\" to a \"hardcore technology company,\" a major self-reflection five years ago enabled Xiaomi to defy the odds an...",
-      "content": "Transitioning from an \"internet company\" to a \"hardcore technology company,\" a major self-reflection five years ago enabled Xiaomi to defy the odds and change its destiny.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-09-26T03:10:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7707244.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1758856053294_77111bb8",
-      "title": "蔡磊回应外界关切：现在五体瘫软无法言语，宁可与渐冻症战死，不会面对绝症屈辱等死",
-      "summary": "IT之家 9 月 26 日消息，渐冻症抗争者、攻克渐冻症慈善信托创立者蔡磊昨晚发文回应外界关切，他表示：“确实现在五体瘫软无法言语，压痛、口水、呛咳、吞咽、憋气每天都在折磨，但我还有眼睛和耳朵，请大家放心，我每天依然在带领团队，科研、运营、合作、人事、财务等等大量工作我每天依然通过眼控在高效处理，宁...",
-      "content": "IT之家 9 月 26 日消息，渐冻症抗争者、攻克渐冻症慈善信托创立者蔡磊昨晚发文回应外界关切，他表示：“确实现在五体瘫软无法言语，压痛、口水、呛咳、吞咽、憋气每天都在折磨，但我还有眼睛和耳朵，请大家放心，我每天依然在带领团队，科研、运营、合作、人事、财务等等大量工作我每天依然通过眼控在高效处理，宁可与渐冻症战死，不会面对绝症屈辱等死。” 他还提到，近期其刚宣布了过去 20 个月对外科研资助超过 5000 万，这背后是上百个科研项目的合作。奇迹已经发生，一个个之前必然死亡的病友现在活过来，奇迹必将还继续发生，这是一个 AI 和生命科学即将点燃的时代！ 据IT之家此前报道，在今年 6 月的世界渐冻人日，新华社分享了记者近日采访蔡磊的视频。采访中提到，蔡磊的“破冰”事业在过去一年有了很多新进展，其携手诸多杰出科学家、顶尖科研单位、生物科技公司及医院，共同成立 8 家联合实验室，与超过 70 位卓越教授及其精英团队、60 余家专业科研机构及生物医药公司建立了紧密联系，成功促进 10 条药物管线进入临床阶段。另外，渐愈互助之家科研平台的患者注册量突破 15000 人。 蔡磊也表示：“单基因渐冻症药物已经实现突破，三年前都是绝望必然死去的患者，现在有的可以活下来，这是中国科技的力量，是国家支持、社会关怀、患者团结的结果。” 9 月 9 日，蔡磊发文称团队仅在过去 1 年 8 个月的时间，对外科研捐助已超过 5000 万元（通过官网和经审计的报告每年公开明细），而总投入远大于此。 蔡磊表示，后续将继续持续捐款资助几十个以上的科研项目，包括脑科学和神经系统疾病、肌肉疾病、免疫学、代谢组学、蛋白组学、基因和转录组学、干细胞、线粒体、声光电磁、CDMO、CRO、人工智能和传统医学等方向。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/5c4eb8db-8fea-4f91-98ae-77ad2d9cbdb4.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-09-26T02:32:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/885/935.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
