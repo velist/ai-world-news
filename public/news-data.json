@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2025-09-29T11:21:54.164Z",
+  "timestamp": "2025-09-29T12:55:54.188Z",
   "total": 71,
   "data": [
+    {
+      "id": "news_1759150538146_fe8eef55",
+      "title": "节前DeepSeek又突击了！大方开源V3.2实验版，API 价格降低 50%+",
+      "summary": "节前DeepSeek又突击了！大方开源V3.2实验版，API 价格降低 50%+",
+      "content": "节前DeepSeek又突击了！大方开源V3.2实验版，API 价格降低 50%+",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-29T20:30:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/oTzcByfgXxNu6kK5kI17?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1759144899067_865ddf5f",
       "title": "徐峥首次AI智驾城市实景真人秀！千里科技端到端模型闯过重庆“8D”考验，18 个月要打通 Robotaxi 全链路",
@@ -14,18 +26,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/lHX5IjRgCfvHb0RMyB88?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759144899774_b7594dfc",
-      "title": "云栖大会丨奇富科技费浩峻深度解构金融大模型四步破局路径",
-      "summary": "云栖大会丨奇富科技费浩峻深度解构金融大模型四步破局路径",
-      "content": "云栖大会丨奇富科技费浩峻深度解构金融大模型四步破局路径",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-29T18:31:01.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Tp0T1F8IeW5MKm1GD1jz?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1759141729736_26df436d",
@@ -40,30 +40,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759144901812_bac6a81b",
-      "title": "金融行业用好大模型，只有“垂直”一个解",
-      "summary": "金融行业用好大模型，只有“垂直”一个解",
-      "content": "金融行业用好大模型，只有“垂直”一个解",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-29T16:53:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Q2Lg89Vq2HVZDEj6iEHh?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759144902535_c196b523",
-      "title": "学生开发者经验｜豆包大模型 + TRAE，让 AI 应用快速落地",
-      "summary": "学生开发者经验｜豆包大模型 + TRAE，让 AI 应用快速落地",
-      "content": "学生开发者经验｜豆包大模型 + TRAE，让 AI 应用快速落地",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-29T16:47:12.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/bjQi4VGmRaj2VfsK0E8E?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1759135013196_204b3472",
       "title": "所有知识型岗都要被AI “吞了！清华大学教授刘嘉：未来大学分化猛烈，软件公司靠 “几人 + Agent” 就够",
       "summary": "所有知识型岗都要被AI “吞了！清华大学教授刘嘉：未来大学分化猛烈，软件公司靠 “几人 + Agent” 就够...",
@@ -74,6 +50,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/4qyJ4uy0UZv9FEDXZq2b?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759150544910_f17277bc",
+      "title": ". NET Aspire 9.5发布：新增CLI更新命令，仪表板AI可视化工具，以及扩展的集成。",
+      "summary": ". NET Aspire 9.5发布：新增CLI更新命令，仪表板AI可视化工具，以及扩展的集成。",
+      "content": ". NET Aspire 9.5发布：新增CLI更新命令，仪表板AI可视化工具，以及扩展的集成。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-29T14:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/aRGQz6QBStAZLt6vfyu1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1759123585204_d06dc516",
@@ -88,16 +76,40 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759144906091_403435e6",
-      "title": "AI算力提升的最大阻碍，竟源自数十年前的架构决策？",
-      "summary": "AI算力提升的最大阻碍，竟源自数十年前的架构决策？",
-      "content": "AI算力提升的最大阻碍，竟源自数十年前的架构决策？",
+      "id": "news_1759150552922_3dd27fa0",
+      "title": "全球首个台风专业 AI 智能体“智台”上线，分钟级更新路径、强度",
+      "summary": "IT之家 9 月 29 日消息，中国气象局今日宣布，由亚太台风研究中心和中国气象局上海台风研究所，协同上海人工智能实验室、上海海洋大学和上海联通共同打造的台风专业知识智能体 ——“智台智能体”，正式开启对外测试服务。",
+      "content": "IT之家 9 月 29 日消息，中国气象局今日宣布，由亚太台风研究中心和中国气象局上海台风研究所，协同上海人工智能实验室、上海海洋大学和上海联通共同打造的台风专业知识智能体 ——“智台智能体”，正式开启对外测试服务。 据介绍，智能体整合《热带气旋研究与评论》《台风年鉴》《台风公报》以及国外气象部门编制的飓风报告等科技成果，融合国家级科研产出，从台风生成机理到路径预测，带来专业解读。 该智能体直连权威监测数据，分钟级更新台风路径、强度、风雨影响范围，还能生成可视化图文报告；系统收录逾 70 年西北太平洋台风历史资料，支持多参数检索和个例对比；从基础术语到高端概念，结合中外知识图谱和典型案例，进行科普、培训。 此外，它还支持智能问答及科研成果检索、上传气象图自动解读并生成报告、实时台风公报查询与状态跟踪、分析所在地是否受台风影响并给出防灾提示。 目前“智台”已开启公测，IT之家附体验入口： http://smartyphoon.ap-tcrc.org",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/ac292c38-252f-4764-b427-3391edc78d5c.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-29T12:27:17.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/886/733.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759150548200_30ceb64a",
+      "title": "OpenAI 发布 GPT-5-Codex：专注复杂代码重构与代码评审优化",
+      "summary": "OpenAI 发布 GPT-5-Codex：专注复杂代码重构与代码评审优化",
+      "content": "OpenAI 发布 GPT-5-Codex：专注复杂代码重构与代码评审优化",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-09-29T12:53:38.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/d8Az1Dc2jmKoVy4hqjiY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2025-09-29T11:30:16.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/7g2NqRIEtv3tvd8ADcrp?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759150553109_45688001",
+      "title": "华为昇腾 0Day 支持 DeepSeek-V3.2-Exp，面向开发者开源所有推理代码和算子实现",
+      "summary": "IT之家 9 月 29 日消息，今晚，DeepSeek-V3.2-Exp 发布并开源，引入稀疏 Attention 架构。华为宣布昇腾已快速基于 vLLM/SGLang 等推理框架完成适配部署，实现 DeepSeek-V3.2-Exp 0day 支持，并面向开发者开源所有推理代码和算子实现。",
+      "content": "IT之家 9 月 29 日消息，今晚，DeepSeek-V3.2-Exp 发布并开源，引入稀疏 Attention 架构。华为宣布昇腾已快速基于 vLLM/SGLang 等推理框架完成适配部署，实现 DeepSeek-V3.2-Exp 0day 支持，并面向开发者开源所有推理代码和算子实现。 IT之家从官方介绍获悉，昇腾在 DeepSeek-V3.2-Exp 一发布开源即实现了 DeepSeek-V3.2-Exp BF16 模型部署，并在 CANN 平台上完成对应的优化适配，整体部署策略沿用 DeepSeek 的大 EP 并行方案，针对稀疏 DSA 结构，叠加实现长序列亲和的 CP 并行策略，兼顾时延和吞吐，在 128K 长序列下能够保持 TTFT 低于 2 秒、TPOT 低于 30 毫秒的推理生成速度。 NPU DeepSeek-V3.2-Exp 推理优化实践： https://gitcode.com/cann/cann-recipes-infer/blob/master/docs/models/deepseek-v3.2-exp/deepseek_v3.2_exp_inference_guide.md 昇腾针对 DeepSeek-V3.2-Exp 架构中两个全新的算子：Lightning Indexer (LI) 以及 Sparse Flash Attention (SFA)，针对性地进行算子 Tiling 设计、Cube 核与 Vector 核间的流水优化、计算流程的实现优化等，模型和融合 Kernel 均已开源。 NPU DeepSeek-V3.2-Exp Ascend C 融合算子优化： https://gitcode.com/cann/cann-recipes-infer/blob/master/docs/models/deepseek-v3.2-exp/deepseek_v3.2_exp_ascendc_operator_guide.md 为进一步提高昇腾融合算子的编程易用性，昇腾 CANN 首次推出大融合算子的编程体系 PyPTO，旨在简化算子开发流程，同时保持高性能计算能力。该框架创新性地采用 PTO (Parallel Tensor / Tile Operation) 编程范式，以 Tensor 为基本数据表达方式，构建计算图，实现高效计算与优化。目前在昇腾上已经基于 PyPTO 完成 DeepSeek-V3.2-Exp 模型中 DeepSeek Indexer Attention 和 Lightning indexer 算子的开发实践，仅需几百行代码即可完成动态 Shape 算子编程和算子整网运行。 基于 PyPTO 的 Lightning Indexer 和 DeepSeek Indexer Attention 算子开发实践： https://gitcode.com/cann/cann-recipes-infer/blob/master/docs/models/deepseek-v3.2-exp/deepseek_v3.2_exp_pypto_operator_guide.md 昇腾不仅提供了 DeepSeek-V3.2-Exp 的官方参考实践，也同步支持 vLLM 和 SGLang 等业界主流大模型推理框架部署，提供完整功能，能够让广泛的开发者在社区直接下载相关代码体验 DeepSeek-V3.2-Exp 模型，可以在昇腾实现融合算子、稀疏访存、多核并行计算等深度优化能力，并持续优化 DeepSeek-V3.2-Exp 在主流社区的推理性能。 大模型推理框架 vLLM 及昇腾实现： https://github.com/vllm-project/vllm-ascend/tree/v0.9.1-dev/examples/deepseek.md 大模型推理框架 SGLang 及昇腾实现： https://github.com/sgl-project/sglang/issues/11060 TileLang 是由 Tile-AI 社区发起的 Tile-level 的类 Python 的 AI 编程语言（DSL）项目，在 Tile 粒度上进行编程和编译，实现模型算子和硬件的高效协同。昇腾已经实现 TileLang 的 Sparse Flash Attention 和 Lightning Indexer 算子开发，后续将支持更完备的 NPU 算子并提升性能和泛化性。 NPU DeepSeek-V3.2-Exp TileLang 算子开发实践： https://gitcode.com/cann/cann-recipes-infer/blob/master/docs/models/deepseek-v3.2-exp/deepseek_v3.2_exp_tilelang_operator_guide.md TileLang-Ascend 开源社区： https://github.com/tile-ai/tilelang-ascend 昇腾凭借敏捷协同优化能力，0Day 高效完成 DeepSeek-V3.2-Exp 适配，不仅深度开放自研编程语言 AscendC 及 PyTorch 算子源码，也积极拥抱开源生态，同步实现 vLLM、SGLang 等主流框架的快速支持，并携手开源社区 Tile-AI 共同开源 NPU 编程项目 TileLang-Ascend。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2025-09-29T11:22:48.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/886/722.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1759144912768_0bad2d12",
@@ -119,7 +131,7 @@
       "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/4f619c80-89a4-49cd-89a1-b15a32d3d98c.jpg?x-bce-process=image/format,f_auto",
       "source": "IT之家",
       "publishedAt": "2025-09-29T11:02:39.000Z",
-      "category": "科技新闻",
+      "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/886/719.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
@@ -170,18 +182,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/886/710.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759144907954_3051514b",
-      "title": "2025 京东全球科技探索者大会：京东健康发布“AI 医院”、升级“京医千询 2.0”",
-      "summary": "2025 京东全球科技探索者大会：京东健康发布“AI 医院”、升级“京医千询 2.0”",
-      "content": "2025 京东全球科技探索者大会：京东健康发布“AI 医院”、升级“京医千询 2.0”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-29T10:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/CizYL0mWKKDvqGvxvzNI?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1759141722886_db6214d4",
