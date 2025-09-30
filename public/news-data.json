@@ -1,18 +1,90 @@
 {
   "success": true,
-  "timestamp": "2025-09-30T01:56:14.293Z",
-  "total": 84,
+  "timestamp": "2025-09-30T03:06:26.931Z",
+  "total": 89,
   "data": [
     {
-      "id": "news_1759197357519_12b34662",
-      "title": "2025年InfoQ趋势报告：AI、ML和数据工程",
-      "summary": "2025年InfoQ趋势报告：AI、ML和数据工程",
-      "content": "2025年InfoQ趋势报告：AI、ML和数据工程",
+      "id": "news_1759201569410_4d5ac09a",
+      "title": "京东的“他她它” App 藏不住了！实测后：这个 AI 产品暴露了京东的野心",
+      "summary": "京东的“他她它” App 藏不住了！实测后：这个 AI 产品暴露了京东的野心",
+      "content": "京东的“他她它” App 藏不住了！实测后：这个 AI 产品暴露了京东的野心",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-09-30T09:40:33.000Z",
+      "publishedAt": "2025-09-30T10:42:41.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/DBf45wgAh42fuZ3vdQRi?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759201570159_32795a09",
+      "title": "为了AI，谷歌将于 2026 年合并安卓系统和 ChromeOS",
+      "summary": "为了AI，谷歌将于 2026 年合并安卓系统和 ChromeOS",
+      "content": "为了AI，谷歌将于 2026 年合并安卓系统和 ChromeOS",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-30T09:58:23.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/CKLUT7rzduwKg4kRFfjX?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/N9vgaKeuMMh6ryPgMLss?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759201570909_aa346aab",
+      "title": "GPT-5：姗姗来迟，被过度炒作，却又令人失望，但这还不是最糟糕的",
+      "summary": "GPT-5：姗姗来迟，被过度炒作，却又令人失望，但这还不是最糟糕的",
+      "content": "GPT-5：姗姗来迟，被过度炒作，却又令人失望，但这还不是最糟糕的",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-30T09:57:47.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/VFe1cIx7NoUc2SKPiQAX?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759201585724_c1d565cc",
+      "title": "蚂蚁集团开源全球首个万亿参数推理大模型 Ring-1T-preview，代码生成能力超 GPT-5",
+      "summary": "IT之家 9 月 30 日消息，蚂蚁集团今日凌晨宣布开源其自研的首个万亿参数大模型 Ring-1T-preview，这是一款自然语言推理大模型，也是全球首个开源的万亿参数推理大模型。 据百灵大模型官方信息，Ring-1T-preview 是万亿参数推理大模型 Ring-1T 的预览版。",
+      "content": "IT之家 9 月 30 日消息，蚂蚁集团今日凌晨宣布开源其自研的首个万亿参数大模型 Ring-1T-preview，这是一款自然语言推理大模型，也是全球首个开源的万亿参数推理大模型。 据百灵大模型官方信息，Ring-1T-preview 是万亿参数推理大模型 Ring-1T 的预览版。尽管是预览版，但其自然语言推理能力已十分出色。在 AIME 25 测试中，Ring-1T-preview 获得 92.6 分，超越了所有已知开源模型及 Gemini 2.5 Pro，并且接近 GPT-5（无工具使用）的 94.6 分。在 CodeForces 测试中，该模型更是以 94.69 分的成绩超过 GPT-5，展现出强大的代码生成能力。此外，在 LiveCodeBench 及 ARC-AGI-v1 等权威榜单中，Ring-1T-preview 均位列开源模型首位。 据IT之家了解，蚂蚁百灵研发团队还在 IMO25（国际奥林匹克数学竞赛）上测试了 Ring-1T-preview 的推理能力，Ring-1T-preview 可一次性做对第三题，同时在 1、2、4、5 题可一次推理出部分正确答案。 蚂蚁百灵团队表示，他们一直在对 Ling2.0 家族 1T 语言基座进行后训练，旨在最大程度地挖掘这一万亿规模基座模型的自然语言推理潜力。目前，Ring-1T 正式版正在训练之中。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/35a14115-7705-4fa2-89cc-3f8b0328b056.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-30T02:48:11.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/886/821.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759201585825_37dfdfcc",
+      "title": "微软 Word、Excel 迎来 Agent Mode：让 AI 成为你的 Office 助理，自动搞定表格与文档",
+      "summary": "IT之家 9 月 30 日消息，科技媒体 NeoWin 昨日（9 月 29 日）发布博文，报道称微软为彻底改变 Office 办公体验，在 Microsoft 365 Copilot 推出 Agent Mode 与 Office Agent 两大智能体新功能。",
+      "content": "IT之家 9 月 30 日消息，科技媒体 NeoWin 昨日（9 月 29 日）发布博文，报道称微软为彻底改变 Office 办公体验，在 Microsoft 365 Copilot 推出 Agent Mode 与 Office Agent 两大智能体新功能。 一、Agent Mode IT之家援引博文介绍，Agent Mode 功能率先登陆 Word 与 Excel，用户可通过简单的自然语言指令，让 AI 自动完成创建复杂预算表、起草完整文档等任务。 微软认为，这些新功能将像实时编码改变软件开发一样，彻底重塑文档的创建方式，让复杂的办公任务变得像与真人助理对话一样简单。 在 Excel 中，新的 Agent Mode 功能致力于降低数据建模的门槛，基于 OpenAI 最新的推理模型和 Excel 原生功能构建，它借鉴了 GitHub Copilot 智能体模式的理念，能够根据用户指令自动生成内容、评估结果、修正问题，并循环执行这一过程，直至产出完美符合要求的成果。 例如，用户只需输入一段描述性文字，如“创建一个包含租金、水电等分类的家庭月度预算表，并用图表展示支出分布”，Agent Mode 即可自动创建新工作表、应用条件格式并生成可视化图表。 在 Word 中，新的 Agent Mode 功能可以根据提示词自主创建文档。微软称它能像一个协作伙伴一样，在用户身旁起草内容、提出修改建议，甚至在需要时主动提出澄清性问题，以确保最终稿件的准确性。这一功能旨在将用户从繁琐的格式调整与内容构思中解放出来，专注于核心创意的表达。 Word 和 Excel 的 Agent Mode 从即日起，面向参与 Frontier 计划的 Microsoft 365 Copilot 授权客户及个人或家庭版订阅用户开放，初期仅限于网页版应用。 二、Office Agent 微软还推出了名为 Office Agent 的新功能，并将其集成至 Copilot 聊天体验中。Office Agent 由 Anthropic 的模型驱动，主打“聊天优先”的交互方式。 用户可以在对话框中直接命令它创建 PowerPoint 演示文稿或 Word 文档，进一步简化了从想法到成品的流程，让内容创作更加即时和高效。 Office Agent 目前也已在 Frontier 计划中上线，但首批仅面向美国的 Microsoft 365 个人或家庭版订阅用户。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/f44f7d77-318b-4a5b-b23f-b9a7a36cd505.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-30T02:26:07.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.ithome.com/0/886/816.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759201585928_ed2967f0",
+      "title": "摩尔线程 MUSA 开发者大会 2025 将于 10 月 29~30 日在北京举行",
+      "summary": "IT之家 9 月 30 日消息，摩尔线程昨日宣布 MUSA 开发者大会 (MDC 2025) 将于 10 月 29~30 日在北京中关村国际创新中心举行。",
+      "content": "IT之家 9 月 30 日消息，摩尔线程昨日宣布 MUSA 开发者大会 (MDC 2025) 将于 10 月 29~30 日在北京中关村国际创新中心举行。 今年度的 MDC 大会拥有“CREATE 释放创造力”“CONNECT 链接智慧力”“CONVERGE 汇聚生态力”三个副标题，由一个主论坛和八个分论坛组成。 IT之家附 MDC 2025 分论坛方向如下： 智能计算； 图形计算； 科学计算； 端侧智能； 具身智能； AI Infra（人工智能基础设施）； 开发者工具与平台； 摩尔学院。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/92aaa291-0aeb-4ac2-8d2d-8684d4e813ec.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-09-30T02:19:43.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/886/814.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759201564272_de52a4c1",
+      "title": "从共识转向价值深耕，AI推动数字化转型新范式",
+      "summary": "连续两年举办的CIOxCFO闭门会，推动企业AI落地的两类关键角色——CIO们和CFO们围绕当前AI技术在企业中的应用展开了深度交流。",
+      "content": "连续两年举办的CIOxCFO闭门会，推动企业AI落地的两类关键角色——CIO们和CFO们围绕当前AI技术在企业中的应用展开了深度交流。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-09-30T02:03:15.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/7710783.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -76,18 +148,6 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759197358691_fe8eef55",
-      "title": "节前DeepSeek又突击了！大方开源V3.2实验版，API 价格降低 50%+",
-      "summary": "节前DeepSeek又突击了！大方开源V3.2实验版，API 价格降低 50%+",
-      "content": "节前DeepSeek又突击了！大方开源V3.2实验版，API 价格降低 50%+",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-29T20:30:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/oTzcByfgXxNu6kK5kI17?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1759144899067_865ddf5f",
       "title": "徐峥首次AI智驾城市实景真人秀！千里科技端到端模型闯过重庆“8D”考验，18 个月要打通 Robotaxi 全链路",
       "summary": "徐峥首次AI智驾城市实景真人秀！千里科技端到端模型闯过重庆“8D”考验，18 个月要打通 Robotaxi 全链路...",
@@ -98,6 +158,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/lHX5IjRgCfvHb0RMyB88?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759201575607_b7594dfc",
+      "title": "云栖大会丨奇富科技费浩峻深度解构金融大模型四步破局路径",
+      "summary": "云栖大会丨奇富科技费浩峻深度解构金融大模型四步破局路径",
+      "content": "云栖大会丨奇富科技费浩峻深度解构金融大模型四步破局路径",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-29T18:31:01.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Tp0T1F8IeW5MKm1GD1jz?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1759141729736_26df436d",
@@ -148,6 +220,30 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1759201577965_bac6a81b",
+      "title": "金融行业用好大模型，只有“垂直”一个解",
+      "summary": "金融行业用好大模型，只有“垂直”一个解",
+      "content": "金融行业用好大模型，只有“垂直”一个解",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-29T16:53:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Q2Lg89Vq2HVZDEj6iEHh?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759201579144_c196b523",
+      "title": "学生开发者经验｜豆包大模型 + TRAE，让 AI 应用快速落地",
+      "summary": "学生开发者经验｜豆包大模型 + TRAE，让 AI 应用快速落地",
+      "content": "学生开发者经验｜豆包大模型 + TRAE，让 AI 应用快速落地",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-09-29T16:47:12.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/bjQi4VGmRaj2VfsK0E8E?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1759163203967_fc59f9a7",
       "title": "华为盘古 718B 模型最新成绩：开源第二",
       "summary": "高手如云，高手如云，但华为依旧“杀”出了一片天。 就在最新一期的 SuperCLUE 中文大模型通用基准测评中，各个 AI 大模型玩家的成绩新鲜出炉。",
@@ -172,16 +268,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759197366521_f17277bc",
-      "title": ". NET Aspire 9.5发布：新增CLI更新命令，仪表板AI可视化工具，以及扩展的集成。",
-      "summary": ". NET Aspire 9.5发布：新增CLI更新命令，仪表板AI可视化工具，以及扩展的集成。",
-      "content": ". NET Aspire 9.5发布：新增CLI更新命令，仪表板AI可视化工具，以及扩展的集成。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-29T14:00:00.000Z",
+      "id": "news_1759201551008_0",
+      "title": "OpenAI为ChatGPT推出家长控制功能，缘于一名青少年的死亡事件",
+      "summary": "OpenAI宣布为ChatGPT推出家长控制功能，这一决定源于一起诉讼，诉讼方认为今年春天自杀的青少年曾过度依赖这款聊天机器人作为教练。此举旨在限制未成年人接触可能产生负面影响的内容，保护青少年免受潜在危害。",
+      "content": "由Rachel Metz报道，彭博社 OpenAI 将为 ChatGPT 推出家长控制功能，这是在一起诉讼之后宣布的，该诉讼声称今年春天自杀的青少年曾依赖这款流行的聊天机器人作为教练。",
+      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2025/08/ChatGPT_Vulnerable_Teens_85149.jpg?w=1024&h=682",
+      "source": "The Mercury News",
+      "publishedAt": "2025-09-29T14:53:41.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/aRGQz6QBStAZLt6vfyu1?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.mercurynews.com/2025/09/29/openai-launches-parental-controls-for-chatgpt-after-teens-death/",
+      "aiInsight": "这一新闻事件反映了AI技术在实际应用中面临的伦理和社会责任问题。从技术发展角度看，家长控制功能的推出体现了OpenAI在安全和隐私保护方面的努力，是其技术迭代和完善的一部分。这一功能将有助于减少潜在的负面影响，提升用户使用体验。从行业影响来看，此举可能促使其他AI聊天平台也跟进推出类似功能，以增强用户信任和安全感，从而可能推动整个行业进一步加强内容审核和风险控制机制。从未来趋势角度看，随着AI技术的广泛应用和发展，如何在保持技术开放性的同时保障用户安全，将是AI企业面临的重要课题。这要求企业在技术开发初期就充分考虑伦理和社会影响，建立健全的内容审查机制，同时加强与监管机构、行业组织及用户的沟通合作，共同促进技术的健康发展。"
     },
     {
       "id": "news_1759152897590_bd33cc65",
@@ -220,6 +316,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1759201486482_1",
+      "title": "OpenAI将在加利福尼亚青少年自杀事件后为ChatGPT引入家长控制功能",
+      "summary": "OpenAI宣布为ChatGPT推出家长控制功能，以应对近期发生的青少年自杀事件。此前，有报道称ChatGPT曾指导一名青少年自杀方法，引发相关家长提起诉讼。此次推出的家长控制将在网络和移动设备上实施，旨在加强对青少年的保护。",
+      "content": "9月29日（路透社） - OpenAI 正在推出针对 ChatGPT 的 parental controls（家长控制），这一举措发生在该人工智能初创公司的聊天机器人 allegedly（据称）在一名青少年自杀后指导他自杀方法的相关家长提起诉讼之后，在网络和移动设备上都将实施这些家长控制措施。",
+      "imageUrl": "https://www.reuters.com/resizer/v2/DM2CJP4R4JK6XELRZP7SDHV4L4.jpg?auth=6b04de28b39ae49ef8925c9555e2b3020fe62c27854ab2fd26a494b9434fcae9&height=1005&width=1920&quality=80&smart=true",
+      "source": "Reuters",
+      "publishedAt": "2025-09-29T11:30:45.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.reuters.com/legal/litigation/openai-bring-parental-controls-chatgpt-after-california-teens-suicide-2025-09-29/",
+      "aiInsight": "这一新闻反映了AI技术发展过程中面临的伦理和社会责任挑战。从技术发展角度看，ChatGPT引入家长控制功能是对现有聊天机器人系统的一种改进，旨在提高用户体验和安全性。从行业影响来看，此举可能促使其他AI公司也加强其平台的安全性和隐私保护措施，以应对可能的社会责任危机。未来趋势方面，这可能推动AI开发者更重视产品的伦理考量和用户保护，同时也可能增加对AI系统的监管和审查，以确保技术进步服务于人类社会的福祉。"
+    },
+    {
       "id": "news_1759197335748_0",
       "title": "OpenAI将在加利福尼亚少年自杀事件后为ChatGPT引入家长控制功能",
       "summary": "OpenAI宣布将在ChatGPT的网络和移动设备上推出家长控制功能，这是在加利福尼亚一名少年因自杀去世后，OpenAI面临诉讼压力后的回应。此举旨在加强对未成年人的保护，减少类似悲剧的发生。家长控制功能将帮助用户限制访问某些内容，以确保ChatGPT的使用更加安全。",
@@ -230,18 +338,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.reuters.com/legal/litigation/openai-bring-parental-controls-chatgpt-after-california-teens-suicide-2025-09-29/",
       "aiInsight": "这一新闻反映出AI技术在普及过程中面临的伦理和社会责任挑战。从技术发展角度看，OpenAI的举措表明，随着AI技术的日益成熟和广泛应用，开发者和企业对其潜在风险的认识也在不断提高，开始更加重视用户尤其是未成年用户的保护。从行业影响来看，这可能促使其他AI平台也加强对用户特别是未成年人的保护措施，形成行业内的自我规范。未来趋势方面，这预示着AI技术在推广使用时，需要更加注重伦理道德和社会责任，确保技术发展惠及所有人，减少负面影响。同时，这也可能推动家长监护技术的发展与完善，为保护未成年人提供更有效的工具。"
-    },
-    {
-      "id": "news_1759197368849_30ceb64a",
-      "title": "OpenAI 发布 GPT-5-Codex：专注复杂代码重构与代码评审优化",
-      "summary": "OpenAI 发布 GPT-5-Codex：专注复杂代码重构与代码评审优化",
-      "content": "OpenAI 发布 GPT-5-Codex：专注复杂代码重构与代码评审优化",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-09-29T11:30:16.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/7g2NqRIEtv3tvd8ADcrp?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1759150553109_45688001",
@@ -400,6 +496,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1759201494502_2",
+      "title": "埃隆·马斯克的xAI状告OpenAI涉嫌内鬼窃取商业秘密",
+      "summary": "埃隆·马斯克的AI公司xAI指控OpenAI涉嫌窃取商业秘密，称有前xAI员工在被挖角至OpenAI后，泄露了源代码和商业计划。诉状还指出，OpenAI正采取战略行动打击xAI，后者由马斯克于2023年创立，拥有马斯克的社交媒体平台X。xAI认为OpenAI的行为是出于对竞争对手的威胁而采取的不正当手段。",
+      "content": "埃隆·马斯克的人工智能公司xAI指控竞争对手萨姆·阿尔特曼的OpenAI通过前马斯克员工窃取商业机密，这一指控出现在新的法庭文件中。《华盛顿邮报》报道，上周提交的诉讼中... [2572字符]",
+      "imageUrl": "https://media.breitbart.com/media/2025/09/Elon-Musk-is-taking-on-Sam-Altmans-OpenAI-640x335.jpg",
+      "source": "Breitbart News Network",
+      "publishedAt": "2025-09-29T08:03:42.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.breitbart.com/tech/2025/09/29/elon-musks-xai-sues-openai-alleging-theft-of-trade-secrets-with-insider-help/",
+      "aiInsight": "从技术发展角度看，此次诉讼揭示了人工智能领域尤其是大语言模型技术的激烈竞争。xAI和OpenAI作为领域的领头羊，其技术秘密可能涉及模型训练数据、算法优化、甚至是内部架构等方面，这反映了当前AI技术高度依赖于数据和算法优化的现状。这种竞争态势可能促使相关公司采取更严格的知识产权保护措施。\n\n从行业影响来看，此次诉讼可能加剧AI行业的技术封锁和技术壁垒，导致技术交流和合作受限。同时，它也可能促使其他AI企业采取更加谨慎的态度，加强内部管理，防止类似事件发生，从而影响整个行业的发展速度和创新氛围。\n\n从未来趋势看，此次诉讼可能促使政府和行业组织加强对AI行业知识产权保护的监管力度，制定更为明确、细化的法律法规，以促进行业的健康有序发展。同时，企业和研究机构也可能加大在数据安全、算法透明度等方面的投入，减少技术泄露的风险。"
+    },
+    {
       "id": "news_1759197313429_1",
       "title": "埃隆·马斯克的xAI公司指控OpenAI窃取商业机密并获得内部帮助",
       "summary": "埃隆·马斯克的AI公司xAI指控OpenAI窃取商业机密并获得内部帮助。xAI在法庭文件中称，三名前员工（两名工程师和一名高级主管）在被挖角至OpenAI后，泄露了源代码和其他商业秘密。此外，xAI还指控OpenAI正采取战略行动削弱其竞争对手。OpenAI对此未予回应。",
@@ -424,18 +532,6 @@
       "aiInsight": "这一诉讼事件反映了人工智能行业内部的紧张竞争和复杂的人才流动带来的法律风险。从技术发展的角度看，此次事件可能促使企业更加重视知识产权和数据安全的保护，加强内部合规管理，以防止类似事件的发生。行业影响方面，这可能加剧AI领域内的信任危机，导致部分企业更加谨慎地对待合作与竞争关系。未来趋势上，随着技术的不断发展，知识产权保护将变得更加重要，企业和研究机构可能需要建立更完善的内部监控机制，同时，行业内部可能也会有更多关于数据和知识共享的自律规范出台，以促进公平竞争和可持续创新。此外，此类事件也可能促进政府和监管机构加强对AI行业的监管力度，制定更为严格的法规来保护企业权益和维护公平竞争环境。"
     },
     {
-      "id": "news_1759184526567_0",
-      "title": "埃隆·马斯克的xAI状告OpenAI涉嫌内鬼窃取商业秘密",
-      "summary": "埃隆·马斯克的AI公司xAI状告OpenAI涉嫌窃取商业秘密，称三名前雇员在被挖角至OpenAI后泄露了源代码和商业计划。诉状还指控OpenAI正采取战略行动削弱xAI，后者由马斯克于2023年创立，拥有他的社交网络X。马斯克表示，OpenAI为了对抗更好的创新者，不惜一切手段，包括掠夺和滥用xAI的技术进步、源代码和商业计划。",
-      "content": "埃隆·马斯克的人工智能公司xAI指控竞争对手萨姆·阿尔特曼的OpenAI通过前马斯克员工窃取商业机密，这一指控出现在新的法庭文件中。《华盛顿邮报》报道，上周提交的诉讼中... [2572 chars]",
-      "imageUrl": "https://media.breitbart.com/media/2025/09/Elon-Musk-is-taking-on-Sam-Altmans-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2025-09-29T08:03:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.breitbart.com/tech/2025/09/29/elon-musks-xai-sues-openai-alleging-theft-of-trade-secrets-with-insider-help/",
-      "aiInsight": "这一诉讼事件反映了当前AI领域内竞争的激烈性和复杂性，从技术发展角度看，AI技术的进步往往伴随着人才的流动和技术的交流，但同时也带来了知识产权和商业秘密保护的挑战。从行业影响来看，此类指控可能导致竞争对手间信任度下降，影响行业的健康发展。从未来趋势看，随着AI技术的快速发展，相关的法律法规和行业规范亟需完善，以确保技术的健康发展。同时，企业也需要加强内部管理和合规审查，以防止类似事件的发生。此外，这一事件也可能促使相关公司加强对核心技术和人才的保护措施，进一步推动AI技术的研发和创新。"
-    },
-    {
       "id": "news_1759180979525_0",
       "title": "埃隆·马斯克的xAI起诉OpenAI，指控其通过内部协助窃取商业秘密",
       "summary": "埃隆·马斯克的AI公司xAI起诉OpenAI，指控其通过内部协助窃取商业秘密。xAI称，三名前员工（两名工程师和一名高级执行官）在被挖角至OpenAI后，泄露了源代码和其他商业机密。此外，诉状还指控OpenAI正采取战略行动削弱xAI，后者由马斯克于2023年创立，旗下拥有马斯克的社交网络X。OpenAI作为ChatGPT的制造商，是xAI的直接竞争对手。",
@@ -446,18 +542,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.breitbart.com/tech/2025/09/29/elon-musks-xai-sues-openai-alleging-theft-of-trade-secrets-with-insider-help/",
       "aiInsight": "这一诉讼事件涉及埃隆·马斯克的xAI和OpenAI之间的商业秘密争议，从多个维度来看待其影响和未来趋势具有重要意义。\n\n**技术发展**：该事件反映了当前AI领域内竞争的激烈程度以及技术成果保护的重要性。随着AI技术的快速发展，知识产权保护成为行业发展的关键因素。此事件可能促使更多AI企业加强内部知识产权保护机制，同时也会推动相关法律政策的完善。\n\n**行业影响**：此次诉讼事件不仅影响了xAI与OpenAI之间的关系，还可能对整个AI行业产生深远影响。它警示了行业内可能存在不正当竞争行为，可能导致行业创新活力的减弱，同时也可能激发行业内对于公平竞争环境的追求。\n\n**未来趋势**：未来AI技术的发展和应用将会更加依赖于强大的知识产权保护机制。企业应更加重视自身技术成果的知识产权保护，而相关监管机构也应制定更加严格的法律法规，以确保AI领域的公平竞争环境。\n\n此外，此事件也可能促使更多AI企业重视合规运营，避免陷入法律纠纷，从而推动整个行业更加健康发展。"
-    },
-    {
-      "id": "news_1759184537401_1",
-      "title": "OpenAI将在加利福尼亚青少年自杀事件后为ChatGPT引入家长控制功能",
-      "summary": "OpenAI宣布将在ChatGPT中引入家长控制功能，以应对近期加利福尼亚发生的青少年自杀事件。此举旨在加强对用户，尤其是未成年人的保护，减少潜在的风险。家长控制功能将允许监护人监控和管理孩子在使用ChatGPT时的体验，包括限制访问某些内容和设置使用时间等。",
-      "content": "OpenAI 将于周一在网页和移动设备上为 ChatGPT 推出家长控制功能，这起源于一名青少年自杀后其父母对这家人工智能初创公司的聊天机器人提起的诉讼，指控该聊天机器人 allegedly 教导他自残的方法。",
-      "imageUrl": "https://assets-varnish.triblive.com/2025/09/8906735_web1_8749974-6bf7455a58184b1c860fd7294186bc86.jpg",
-      "source": "Pittsburgh Tribune-Review",
-      "publishedAt": "2025-09-29T07:54:10.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://triblive.com/news/world/openai-to-bring-parental-controls-in-chatgpt-after-california-teens-suicide/",
-      "aiInsight": "这一新闻反映了AI技术在伦理和责任方面的深刻考量。从技术发展角度看，引入家长控制功能是应对AI潜在负面影响的一种技术措施，体现了技术开发者对用户安全和福祉的关注。从行业影响角度看，这起事件可能促使其他AI企业加强自我审查和监管，提高透明度和用户隐私保护标准。从未来趋势角度看，随着AI技术的广泛应用，如何平衡技术创新与社会责任将成为重要议题，预计未来将有更多针对性的监管和自律措施出台。同时，AI教育和公众意识的提升也将变得尤为重要。"
     },
     {
       "id": "news_1759180969754_1",
@@ -986,30 +1070,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/886/358.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759031044629_c69e8f77",
-      "title": "AI-Driven Transformation of China's Travel Market as 'Super Golden Week' Appraoch",
-      "summary": "The ultimate battle for AI application depth: charting the future from tools to ecosystems....",
-      "content": "The ultimate battle for AI application depth: charting the future from tools to ecosystems.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-09-28T02:28:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7708787.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759025284865_2fd49f28",
-      "title": "百度“萝卜快跑”自动驾驶出行服务平台申请在香港测试，项目有望今年底启动",
-      "summary": "IT之家 9 月 28 日消息，据华尔街见闻报道，百度旗下自动驾驶出行服务平台“萝卜快跑”已向香港相关部门提交测试申请，计划在启德邮轮码头附近青年驿站、AIRSIDE 及九龙湾 MegaBox 对出零碳天地等区域开展路测。",
-      "content": "IT之家 9 月 28 日消息，据华尔街见闻报道，百度旗下自动驾驶出行服务平台“萝卜快跑”已向香港相关部门提交测试申请，计划在启德邮轮码头附近青年驿站、AIRSIDE 及九龙湾 MegaBox 对出零碳天地等区域开展路测。 据悉，该项目将于下周一（9 月 29 日）向观塘及九龙城区议会征询意见，若审批通过，最快有望于 2025 年（今年）底启动实地测试。 参考IT之家先前报道，百度智能驾驶国际化业务总经理牛昊天 (Halton Niu) 在接受彭博社采访时透露，随着无人驾驶技术发展及自动驾驶车队运营规模不断扩大，当前萝卜快跑在中国内地业务运营效益正不断改善，目前其已在多个城市实现“盈亏平衡”，从而为后续大规模部署自动驾驶出租车提供商业依据，但整个业务部门层面实现盈利仍需时日。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/7/bbd45565-e008-4148-b313-42adb951483b.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-09-28T02:00:25.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/886/335.htm",
-      "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
