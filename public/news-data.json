@@ -1,8 +1,56 @@
 {
   "success": true,
-  "timestamp": "2025-10-05T20:26:40.417Z",
-  "total": 39,
+  "timestamp": "2025-10-05T21:21:42.751Z",
+  "total": 42,
   "data": [
+    {
+      "id": "news_1759699289262_88e073b6",
+      "title": "Cursor 1.7 新增 Agent 生命周期管控钩子函数",
+      "summary": "Cursor 1.7 新增 Agent 生命周期管控钩子函数",
+      "content": "Cursor 1.7 新增 Agent 生命周期管控钩子函数",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-05T21:24:19.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/mAZg2SP7UuUdvY1omk6g?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759699290250_b718b783",
+      "title": "Perplexity 推出搜索 API，助力下一代 AI 应用开发",
+      "summary": "Perplexity 推出搜索 API，助力下一代 AI 应用开发",
+      "content": "Perplexity 推出搜索 API，助力下一代 AI 应用开发",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-05T21:21:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/lGhZkVqlmpkfzScGMOdA?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759699290925_85c5c8c5",
+      "title": "大语言模型的解耦：人工智能基础设施的下一轮进化",
+      "summary": "大语言模型的解耦：人工智能基础设施的下一轮进化",
+      "content": "大语言模型的解耦：人工智能基础设施的下一轮进化",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-05T21:15:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/ViFEG6YOJR5WY2OTkux9?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759699291567_14aebcc6",
+      "title": "OpenAI 更新 GPT-5 Instant 模型：保持理性的同时更具同理心",
+      "summary": "OpenAI 更新 GPT-5 Instant 模型：保持理性的同时更具同理心",
+      "content": "OpenAI 更新 GPT-5 Instant 模型：保持理性的同时更具同理心",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-05T11:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/bMXrxqdHeEbxGWmeOJtJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1759663184017_f4add370",
       "title": "基于人的教育可能解决不了AI带来的问题",
@@ -13,30 +61,6 @@
       "publishedAt": "2025-10-05T10:57:43.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7713561.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759695988820_4636f4ad",
-      "title": "5个月内失败十几次，几人团队在压力下做出爆款App！网友：AI时代懂人性比懂技术更重要",
-      "summary": "5个月内失败十几次，几人团队在压力下做出爆款App！网友：AI时代懂人性比懂技术更重要",
-      "content": "5个月内失败十几次，几人团队在压力下做出爆款App！网友：AI时代懂人性比懂技术更重要",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-05T09:38:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/zYz0h5ygZd1M3cuWfUam?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759695989982_4cf7a47f",
-      "title": "700 美金买“真情”？AI情感类产品爆火背后：卖的不止是陪伴，而是年轻人的孤独",
-      "summary": "700 美金买“真情”？AI情感类产品爆火背后：卖的不止是陪伴，而是年轻人的孤独",
-      "content": "700 美金买“真情”？AI情感类产品爆火背后：卖的不止是陪伴，而是年轻人的孤独",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-05T09:37:18.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/dXWBiD5qIy22tpZL1lcz?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -124,30 +148,6 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759695990693_e34bedfb",
-      "title": "Pulumi 发布 Neo：面向多云基础设施的智能 AI 平台工程师",
-      "summary": "Pulumi 发布 Neo：面向多云基础设施的智能 AI 平台工程师",
-      "content": "Pulumi 发布 Neo：面向多云基础设施的智能 AI 平台工程师",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-04T20:03:10.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/h5f4BUcOQxhV5urSji4M?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759695991805_bbb6d1e9",
-      "title": "Oracle推出MySQL AI",
-      "summary": "Oracle推出MySQL AI",
-      "content": "Oracle推出MySQL AI",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-04T19:55:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/7OaIz3ZTLtbjkwrFgpgF?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1759591377320_4095abb1",
       "title": "AI Won't Replace Doctors, But Redefine Their Tasks, Say Industry Experts",
       "summary": "Panelists envisioned a future where AI shifts healthcare from reactive \"sick care\" to proactive health maintenance. Snyder suggested a \"moonshot\" visi...",
@@ -205,6 +205,18 @@
       "publishedAt": "2025-10-04T08:26:46.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/887/498.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759699295299_d459b2ae",
+      "title": "你给AI智能体的权限，正被黑客利用，OWASP警告：真正的危机才刚刚开始",
+      "summary": "你给AI智能体的权限，正被黑客利用，OWASP警告：真正的危机才刚刚开始",
+      "content": "你给AI智能体的权限，正被黑客利用，OWASP警告：真正的危机才刚刚开始",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-04T08:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/BHHI1AeJYVPIEwYYPkir?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -376,6 +388,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1759699274717_0",
+      "title": "OpenAI的细项条款，这次以讽刺歌剧的形式呈现",
+      "summary": "艺术家Jake Elwes以讽刺歌剧的形式重新诠释了OpenAI的条款细则，将AI的法律文本转化为具有幽默感的歌词。这部名为“Terms & Conditions Opera: A Legalese Libretto”的作品，通过音乐和戏剧的形式，以轻松诙谐的方式呈现了复杂的条款内容，使原本枯燥的法律文本变得生动有趣。这种创新的表现形式不仅提高了公众对条款细则的关注度，也促进了对AI伦理和透明度的讨论。",
+      "content": "起初，听起来像是一部经典的歌剧——饱满而富有庄重感的嗓音演唱着一串歌词，伴以起伏的合唱，由管弦乐队伴奏。但这些歌词却太平淡，无法反映宏大的歌剧主题，如…… [6503字节]",
+      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/68e046c5ea7c440db8569a0e/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "source": "Forbes",
+      "publishedAt": "2025-10-04T00:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.forbes.com/sites/lesliekatz/2025/10/04/openais-fine-print-this-time-sung-as-a-satiric-opera/",
+      "aiInsight": "这篇新闻报道了OpenAI以一种独特且带有讽刺意味的方式公布其细项条款，这种方式不仅吸引眼球，而且可能对科技行业产生深远影响。从技术发展的角度来看，这种方式打破了传统的沟通模式，利用艺术形式传递严肃的信息，可能成为未来技术公司沟通策略的一种新趋势。\n\n行业影响方面，这种创新的沟通方式不仅展示了OpenAI对于自身品牌形象的关注，也可能促使其他科技公司在沟通策略上进行创新。此外，这种方式可能会增加公众对人工智能技术的兴趣和讨论，促进公众意识的提升。\n\n未来趋势来看，这种结合艺术与技术的沟通方式可能会被更多公司效仿，成为一种新的传播手段。同时，这也反映了科技行业对于提升公众对技术理解的需求，以及尝试用更生动、更吸引的方式与公众交流的趋势。这种趋势不仅限于OpenAI，未来可能会扩展到更多科技公司的公关策略中。"
+    },
+    {
       "id": "news_1759695966909_0",
       "title": "OpenAI的细print，这次被讽刺性地改编为歌剧",
       "summary": "艺术家Jake Elwes将OpenAI的使用条款改编成讽刺性的歌剧《条款&条件歌剧：法律文摘》，以幽默的方式揭示了复杂的技术法律文本。该作品最初旨在通过让AI阅读其自身条款来引发笑声，但最终呈现出一种平淡无奇的歌词，缺乏传统歌剧中的宏大主题。这一作品反映了技术法律文本的枯燥性和复杂性，同时也揭示了技术公司在更新使用条款时的透明度问题。",
@@ -436,18 +460,6 @@
       "aiInsight": "这则新闻标题和部分内容似乎暗示了OpenAI使用了一种创新且幽默的方式来表达其条款，即以讽刺歌剧的形式呈现。从技术发展的角度来看，这种表达方式体现了AI技术在创意和艺术领域的应用潜力，表明AI不仅可以处理复杂的技术问题，还能在文化和社会交流中发挥作用。这种呈现方式不仅提高了条款的透明度和理解性，还可能吸引更多的用户关注和参与。\n\n从行业影响来看，这种创意呈现方式可能会引发其他技术公司效仿，以更加生动有趣的方式介绍自己的产品和服务条款。这不仅有助于提升品牌形象，还能增强用户的参与感和满意度。\n\n未来趋势方面，随着AI技术的不断进步，我们可以预见到更多创新的应用场景，包括但不限于通过艺术形式（如音乐、戏剧）来传达技术信息。这将有助于打破技术与用户之间的隔阂，促进技术的普及和接受度。同时，这也可能促使企业更加重视用户体验和沟通方式的创新，以满足日益增长的个性化需求。"
     },
     {
-      "id": "news_1759663167655_0",
-      "title": "OpenAI的细项条款，这次以讽刺歌剧的形式呈现",
-      "summary": "艺术家Jake Elwes以讽刺歌剧的形式创作了《条款与条件歌剧：一种陈词滥调的歌剧脚本》，将AI的法律条款转化为歌剧形式。该作品以轻松幽默的方式呈现，歌词内容涉及更新使用政策、提供新更新通知等。这不仅是一种艺术表达，也引发了对AI法律条款可读性和透明度的关注。通过这种方式，Elwes提醒人们关注AI条款中的细节，使其更具吸引力和易读性。",
-      "content": "起初，这听起来像是传统的歌剧——一个充满庄重感的浑厚嗓音演唱着一串歌词，伴以合唱的起伏，由管弦乐队伴奏。但这些歌词却太平淡，无法反映宏大的歌剧主题，如…… [6503字节]",
-      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/68e046c5ea7c440db8569a0e/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "source": "Forbes",
-      "publishedAt": "2025-10-04T00:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.forbes.com/sites/lesliekatz/2025/10/04/openais-fine-print-this-time-sung-as-a-satiric-opera/",
-      "aiInsight": "这篇新闻标题表明OpenAI发布了一份条款内容，但是以一种讽刺歌剧的形式呈现。这种形式本身就已经表明，OpenAI可能对自身的某些政策或条款产生了幽默或批评的态度。从技术发展的角度看，这可能意味着OpenAI在尝试以更加幽默和引人注目的方式来传达复杂的政策信息，以提高公众参与度和理解度。从行业影响来看，这种创新的沟通方式可能会引发其他科技公司或组织模仿，采用类似的方法来提高透明度和用户友好度。未来趋势方面，这种结合艺术与科技的表达方式可能成为一种趋势，即通过更加丰富和创新的形式来传播技术信息，以更好地与公众互动。这不仅有助于提升公司的品牌形象，也可能有助于推动公众对技术的理解和接受。"
-    },
-    {
       "id": "news_1759635537557_0",
       "title": "OpenAI 的细项条款，这次被演绎成讽刺歌剧",
       "summary": "艺术家Jake Elwes将OpenAI的条款和条件演绎成一首讽刺歌剧《条款&条件歌剧：伪法律乐谱》。这部作品以严肃的歌剧形式，用平淡无奇的条款和条件歌词，揭示了AI条款的枯燥乏味。歌剧通过幽默的方式，批评了技术公司复杂的条款和条件，使其更加易于理解。这不仅是一次艺术创作，也是对科技行业的一种讽刺和反思。",
@@ -470,6 +482,30 @@
       "category": "国外AI",
       "originalUrl": "https://www.forbes.com/sites/lesliekatz/2025/10/04/openais-fine-print-this-time-sung-as-a-satiric-opera/",
       "aiInsight": "这篇新闻报道了OpenAI的细项条款被创作成一首讽刺性的歌剧，这一事件可以从多个角度进行解读和分析。\n\n从技术发展角度看，这反映出AI生成内容的技术已经成熟到可以创作出具有复杂结构的艺术作品。这种技术进步不仅限于语言处理，还涉及音乐创作，显示出AI技术在创作领域应用的潜力和广度。\n\n从行业影响来看，这种现象提示我们，AI正逐步渗透到艺术创作的每一个角落，可能会对传统艺术行业产生冲击。一方面，这将促进艺术创作与技术的融合，为艺术家提供新的创作工具；另一方面，也可能引发关于版权归属、原创性界定等伦理问题的讨论。\n\n未来趋势方面，随着AI技术的进一步发展，我们可能会看到更多传统艺术形式与现代技术结合的创新作品出现。这不仅会改变艺术创作的方式，也会拓宽公众的审美视野。同时，对AI创作内容的法律框架和伦理规范的建立将变得尤为重要。\n\n综上所述，这一事件不仅是一次艺术创作的尝试，也预示着未来技术与艺术结合的新趋势和挑战。"
+    },
+    {
+      "id": "news_1759699295947_a93956c5",
+      "title": "Replit 推出 Agent 3，拓展自主编程与自动化新边界",
+      "summary": "Replit 推出 Agent 3，拓展自主编程与自动化新边界",
+      "content": "Replit 推出 Agent 3，拓展自主编程与自动化新边界",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-03T22:06:55.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/1AAvDxcT6xeD4kRNXAkV?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759699296978_091092f4",
+      "title": "xAI 推出低成本推理模型 Grok 4 Fast",
+      "summary": "xAI 推出低成本推理模型 Grok 4 Fast",
+      "content": "xAI 推出低成本推理模型 Grok 4 Fast",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-03T22:04:13.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/uBwTq0TCcK6gvuAtPv0e?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
