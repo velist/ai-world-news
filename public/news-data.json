@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2025-10-06T11:22:22.919Z",
-  "total": 28,
+  "timestamp": "2025-10-06T12:56:00.819Z",
+  "total": 29,
   "data": [
+    {
+      "id": "news_1759755342032_ba629b4b",
+      "title": "谷歌Java代理开发工具包新增LangChain4j集成",
+      "summary": "谷歌Java代理开发工具包新增LangChain4j集成",
+      "content": "谷歌Java代理开发工具包新增LangChain4j集成",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-06T20:48:48.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/gtd7oH4q36UTxEiooyuK?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759755359646_c6838f97",
+      "title": "小米澎湃 OS 3 系统 OTA 逻辑改进：采用优先手动检测和随机放量融合的灰度策略",
+      "summary": "IT之家 10 月 6 日消息，小米公司应用软件部总监王乐今日发文向用户解释了澎湃 OS 3 系统改进后的 OTA 逻辑： 1. 在大型软件工程体系下，所有软件产品的新版本发布都会遵循逐步放量的灰度策略 2. 灰度策略有多种选择，比如招募一定的内测用户优先推送，或者随机放量慢慢扩大规模等 3. 众所...",
+      "content": "IT之家 10 月 6 日消息，小米公司应用软件部总监王乐今日发文向用户解释了澎湃 OS 3 系统改进后的 OTA 逻辑： 1. 在大型软件工程体系下，所有软件产品的新版本发布都会遵循逐步放量的灰度策略 2. 灰度策略有多种选择，比如招募一定的内测用户优先推送，或者随机放量慢慢扩大规模等 3. 众所周知，小米澎湃 OS 3 不同机型会招募内测用户，同时采用了优先手动检测和随机放量融合的灰度策略，也就是说在一定的放量规模下，只要你手动检测就能收到更新 王乐表示，手快的用户率先收到更新，如果慢了一步也不怕，隔 1 到 2 天还会继续放量，继续手动检测即可。需要注意的是，王乐还透露同一时间频繁检测没用，每天抽空看一眼就行。 据IT之家此前报道，小米手机系统软件部总监张国全在 9 月 30 日发文称，小米澎湃 OS 3 Beta 第三批 11 款机型，Beta 版赶在国庆节前已经全部外发。张国全透露，小米澎湃 OS 3 Beta 版实际升级用户超过 120 万，远超当时规划的 10 倍。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/83e58a2d-a7db-4ad1-8a65-a1f45520c9fb.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-10-06T11:28:45.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/887/763.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1759749741912_61f7df2f",
       "title": "关海涛微博昵称去掉“极氪”字样，认证改为极氪科技集团 CBO",
@@ -100,6 +124,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1759755308376_0",
+      "title": "LI学生设计了一个“伙伴机器人”——现在他们正与法学院合作将其提升到新的水平",
+      "summary": "长岛一所天主教高中学生设计的“伙伴机器人”正与法学院合作，提升其人工智能水平。双方将共同努力，使青少年更加明智、负责任地应对新兴技术，增强其人工智能学习。这一合作旨在引导学生在人工智能领域做出更加合理和道德的决策。",
+      "content": "他们正在获得人工智能的A评级。 长岛的一所天主教高中正与一家全国知名的法学院合作，以增强青少年的人工智能学习，使他们能够更加明智和负责任地应对新兴的技术…… [3269字节]",
+      "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2025/10/newspress-collage-l29mp8nit-1759705506677.jpg?quality=75&strip=all&1759691320&w=1024",
+      "source": "New York Post",
+      "publishedAt": "2025-10-06T00:08:30.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://nypost.com/2025/10/05/us-news/li-students-designed-a-buddy-bot-now-theyre-teaming-with-a-law-school-to-take-it-to-the-next-level/",
+      "aiInsight": "这篇新闻报道了一个教育机构与法学院合作，提升青少年人工智能学习水平的案例，具有重要的技术发展、行业影响和未来趋势洞察意义。\n\n从技术发展角度看，这项合作将推动青少年在AI伦理、法律和责任方面的理解，使其在AI技术的应用和发展中更加明智和负责任。这不仅有助于培养新一代的AI专业人才，还能促进AI技术的健康发展。\n\n从行业影响角度看，随着AI技术的广泛应用，对AI伦理、法律和责任的要求越来越高。教育机构与法学院的合作，将有助于填补这一领域的知识缺口，培养具有法律素养的AI专业人才，从而为AI行业的长远发展奠定基础。\n\n从未来趋势角度看，随着AI技术的不断进步，AI伦理、法律和责任将成为行业发展的关键因素。因此，青少年在AI伦理、法律和责任方面的教育将变得越来越重要，这也将成为未来教育机构和行业发展的共同趋势。\n\n总之，这项合作不仅有助于提升青少年在AI领域的知识水平，还有助于推动AI行业的健康发展，具有重要的现实意义和长远影响。"
+    },
+    {
       "id": "news_1759715896924_02c42739",
       "title": "彭博：苹果外寻 AI 新帅",
       "summary": "IT之家 10 月 6 日消息，彭博社昨日（10 月 5 日）发布博文，报道称苹果公司正为其人工智能（AI）部门寻找新的负责人，以接替现任主管 John Giannandrea。",
@@ -136,64 +172,16 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759749730316_88e073b6",
-      "title": "Cursor 1.7 新增 Agent 生命周期管控钩子函数",
-      "summary": "Cursor 1.7 新增 Agent 生命周期管控钩子函数",
-      "content": "Cursor 1.7 新增 Agent 生命周期管控钩子函数",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-05T21:24:19.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/mAZg2SP7UuUdvY1omk6g?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759749731130_b718b783",
-      "title": "Perplexity 推出搜索 API，助力下一代 AI 应用开发",
-      "summary": "Perplexity 推出搜索 API，助力下一代 AI 应用开发",
-      "content": "Perplexity 推出搜索 API，助力下一代 AI 应用开发",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-05T21:21:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/lGhZkVqlmpkfzScGMOdA?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759749732096_85c5c8c5",
-      "title": "大语言模型的解耦：人工智能基础设施的下一轮进化",
-      "summary": "大语言模型的解耦：人工智能基础设施的下一轮进化",
-      "content": "大语言模型的解耦：人工智能基础设施的下一轮进化",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-05T21:15:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/ViFEG6YOJR5WY2OTkux9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759749712226_0",
+      "id": "news_1759755324093_1",
       "title": "OpenAI Stargate 数据中心建设基础设施负责人基思·海德",
-      "summary": "OpenAI的基础设施负责人基思·海德放弃假期，频繁访问美国各地以寻找潜在的数据中心选址。海德在12月底离开Meta加入OpenAI，负责Stargate项目的数据中心建设。海德的这一举动表明OpenAI正加速推进其数据中心布局，以支持不断增长的AI计算需求。",
-      "content": "OpenAI 凯思·海德本不想在假期里这样庆祝。他原本计划与妻子在俄勒冈的家中相聚，但海德在12月底花费了大量时间访问美国各地的潜在数据中心选址。 两个月前，海德离开了Meta，加入…… [5995 chars]",
+      "summary": "OpenAI的基础设施负责人基思·海德放弃了假期，前往美国各地考察潜在的数据中心地点。海德于两个月前从Meta离职加入OpenAI，负责Stargate项目的数据中心建设。海德的这一举动表明OpenAI正在积极扩张其基础设施，以支持更多的人工智能研究和应用。",
+      "content": "OpenAI 凯思·海德本不想在假期里这样庆祝。他原本打算和妻子在俄勒冈的家中团聚，但海德在12月底花了大量时间访问美国各地的数据中心潜在地点。 两个月前，海德离开了Meta，加入…… [5995 chars]",
       "imageUrl": "https://image.cnbcfm.com/api/v1/image/108207865-1759528253539-20_1.JPG?v=1759542954&w=1920&h=1080",
       "source": "CNBC",
       "publishedAt": "2025-10-05T12:00:01.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.cnbc.com/2025/10/05/openai-stargate-data-center-buildout-infrastructure-lead-keith-heyde.html",
-      "aiInsight": "这篇新闻报道了OpenAI在积极建设其新的数据中心基础设施，这反映了OpenAI在扩展其计算能力方面的决心。从技术发展的角度来看，随着人工智能模型变得越来越复杂，对计算资源的需求也在不断增加，建设更大的数据中心可以提供更强的计算和存储能力，以支持模型的训练和部署。从行业影响来看，OpenAI的这一举动可能会加剧云计算市场的竞争，尤其是对于数据中心建设和管理能力的竞争。从未来趋势的角度来看，数据中心的绿色化和高效化将是未来发展的主要方向，如何在保证性能的同时减少能源消耗和环境影响，将是一个重要的课题。此外，随着AI技术的不断进步，对于数据中心的依赖度只会越来越高，这也将推动数据中心技术的持续创新和发展。"
-    },
-    {
-      "id": "news_1759749732737_14aebcc6",
-      "title": "OpenAI 更新 GPT-5 Instant 模型：保持理性的同时更具同理心",
-      "summary": "OpenAI 更新 GPT-5 Instant 模型：保持理性的同时更具同理心",
-      "content": "OpenAI 更新 GPT-5 Instant 模型：保持理性的同时更具同理心",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-05T11:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/bMXrxqdHeEbxGWmeOJtJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "aiInsight": "这篇新闻报道了OpenAI的重要人事变动和其基础设施建设的动态。基思·海德的加入表明OpenAI正在积极扩展其数据中心基础设施，这反映了大模型训练对大规模计算资源的高需求。从技术发展的角度来看，这一举措有助于OpenAI进一步提升其在生成模型、自然语言处理等领域的研究能力。从行业影响来看，OpenAI作为AI领域的领头羊，其基础设施的扩张将推动整个行业对高性能计算资源的需求增加。未来趋势方面，这预示着未来几年内，包括OpenAI在内的科技公司将继续加大在数据中心建设上的投入，以支持日益增长的AI模型训练需求。同时，这也可能引发数据中心市场的竞争加剧，促使技术和服务的不断创新。"
     },
     {
       "id": "news_1759663184017_f4add370",
@@ -205,6 +193,30 @@
       "publishedAt": "2025-10-05T10:57:43.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7713561.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759755349080_4636f4ad",
+      "title": "5个月内失败十几次，几人团队在压力下做出爆款App！网友：AI时代懂人性比懂技术更重要",
+      "summary": "5个月内失败十几次，几人团队在压力下做出爆款App！网友：AI时代懂人性比懂技术更重要",
+      "content": "5个月内失败十几次，几人团队在压力下做出爆款App！网友：AI时代懂人性比懂技术更重要",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-05T09:38:17.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/zYz0h5ygZd1M3cuWfUam?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759755350587_4cf7a47f",
+      "title": "700 美金买“真情”？AI情感类产品爆火背后：卖的不止是陪伴，而是年轻人的孤独",
+      "summary": "700 美金买“真情”？AI情感类产品爆火背后：卖的不止是陪伴，而是年轻人的孤独",
+      "content": "700 美金买“真情”？AI情感类产品爆火背后：卖的不止是陪伴，而是年轻人的孤独",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-05T09:37:18.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/dXWBiD5qIy22tpZL1lcz?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -292,6 +304,30 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1759755351876_e34bedfb",
+      "title": "Pulumi 发布 Neo：面向多云基础设施的智能 AI 平台工程师",
+      "summary": "Pulumi 发布 Neo：面向多云基础设施的智能 AI 平台工程师",
+      "content": "Pulumi 发布 Neo：面向多云基础设施的智能 AI 平台工程师",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-04T20:03:10.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/h5f4BUcOQxhV5urSji4M?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759755353409_bbb6d1e9",
+      "title": "Oracle推出MySQL AI",
+      "summary": "Oracle推出MySQL AI",
+      "content": "Oracle推出MySQL AI",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-04T19:55:14.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/7OaIz3ZTLtbjkwrFgpgF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1759591377320_4095abb1",
       "title": "AI Won't Replace Doctors, But Redefine Their Tasks, Say Industry Experts",
       "summary": "Panelists envisioned a future where AI shifts healthcare from reactive \"sick care\" to proactive health maintenance. Snyder suggested a \"moonshot\" visi...",
@@ -304,19 +340,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759582121551_5a83f8ac",
-      "title": "陶哲轩用 GPT-5 解决数学难题：仅 29 行 Python 代码",
-      "summary": "AI 又又又帮陶哲轩解决了一个难题！ 消息来自陶本人最新发帖，他直言不讳地表示： 如果没有 AI 帮忙，完成同样任务就需要花费数小时（主要是手动编写代码和调试）。 甚至，如果没有 AI，他也不会决定采用目前已经取得成功的关键策略。",
-      "content": "AI 又又又帮陶哲轩解决了一个难题！ 消息来自陶本人最新发帖，他直言不讳地表示： 如果没有 AI 帮忙，完成同样任务就需要花费数小时（主要是手动编写代码和调试）。 甚至，如果没有 AI，他也不会决定采用目前已经取得成功的关键策略。 事实上，如果没有 AI 帮忙，我几乎不可能尝试进行这种数值搜索（可能会寻求理论渐近分析）。 由于用的是 GPT-5，OpenAI 研究员 Sebastien Bubeck（微软前 AI 副总裁 & 杰出科学家）也火速转发了一波，由此在𝕏社区引发热烈讨论。 除了纷纷回忆和陶神本人类似的经历，网友们无不感慨： 这标志着我们正在进入一个人类与机器共同探索的新时代。 所以，陶哲轩这次用 AI 解决了什么问题？AI 又在其中起了多大作用？ 咱接着康康 —— 仅用 29 行 Python 代码帮助验证结果 陶哲轩这次要解决的是 MathOverflow（专业数学问答社区）上的一个问题： 序列 lcm (1,2,…,n) 是否是高度丰数的一个子集？ 简单来说，这个问题其实就是在比对两个特殊的数列。 一个是最小公倍数数列，如： n=2，lcm(1,2）=2 n=3，lcm(1,2,3）=6 n=4，lcm(1,2,3,4）=12 n=5，lcm(1,2,3,4,5）=60 …… 另一个是高度丰数数列 Highly Abundant Numbers (HA)。这类数有个特殊性质：其“所有约数加起来的和”，比任何比它小的数都大。 例如 1 的约数和是 1，2 的约数和是 3（大于 1），4 的约数和是 7（比 3、1 都大），所以它们是高度丰数。 由于发现前面算出来的最小公倍数们，居然刚好也是高度丰数，所以问题来了 —— 会不会所有的最小公倍数，永远都在高度丰数的行列里？（即子集） 对于这个问题，陶哲轩之前已经通过理论分析，得出答案是否定的。 不过要想完全证明这一点，还需要找到具体的数值参数，以便确凿地构建一个反例。 虽然方向很明确，但陶哲轩清楚，由于过程中需要繁琐的计算和参数搜索，所以这也算是一项“大工程”，人工就得吭哧吭哧干几小时。 而交给 GPT-5 后，一切都变得轻松了…… 仅通过自然语言对话，几轮沟通下来 AI 就帮忙解决了问题。 具体过程如下： 起初，陶哲轩尝试让 GPT-5 直接生成 Python 程序，来搜索这些反例的参数。 这样陶就可以自己跑代码、调整参数。 GPT-5 在思考了大约 1 分钟 19 秒后，也确实给出了一段很长的代码。 但实际运行后发现，生成的代码运行时间过长，且初始参数选择不当，最终会导致搜索的失败。 于是他选择转变策略，通过与 GPT-5 展开分步对话，来让它通过启发式计算来寻找可行的参数选项。 换句话说，他选择将一个大问题拆成多个小问题，然后在其本人的指导下，让 GPT-5 来逐个攻破。 几轮沟通下来，GPT-5 终于成功生成了符合要求的参数。 并且，为了确保结果可靠，陶还使用了由 GPT-5 生成的拥有 29 行代码的 Python 脚本进行独立验证。 在陶看来，这个脚本简洁明了，易于人工检查，且验证的数值结果与之前的启发式预测完全吻合。 from math import log n = 200000; _j are the first 25 consecutive primes starting at 1.05*sqrt(n) p = [ 479, 487, 491, 499, 503, 509, 521, 523, 541, 547, 557, 563, 569, 571, 577, 587, 593, 599, 601, 607, 613, 617, 619, 631, 641 ] _m found by the search (13 primes) q = [ 187963, 187973, 187987, 188011, 188017, 188021, 188029, 188299, 199931, 199933, 199961, 199967, 199999 ] sum_log_p = sum(log(x) for x in p) sum_log_q = sum(log(x) for x in q) terms sum_corr_p = sum(log(1.0 + 1.0/(x*(x+1))) for x in p) sum_corr_q = sum(log(1.0 + 1.0/x) for x in q) gap_q_minus_p = sum_log_q - sum_log_p rhs_budget = sum_corr_p - sum_corr_q print(f\"sum_log_q - sum_log_p = {gap_q_minus_p:.12g}\") print(f\"RHS budget = {rhs_budget:.12g}\") print(\"Inequality (correct sign) holds?:\", (gap_q_minus_p &gt; 0) and (gap_q_minus_p &lt; rhs_budget)) you wanted the site sign, this is what you'd be checking: gap_p_minus_q = -gap_q_minus_p print(f\"\\nsum_log_p - sum_log_q = {gap_p_minus_q:.12g}\") print(\"Inequality (site sign) holds?:\", (gap_p_minus_q &gt; 0) and (gap_p_minus_q &lt; rhs_budget)) 综上，通过使用 GPT-5，陶哲轩最终完成了上述问题的否定证明。 而且他还特意提到，面对数学这类严肃课题，AI 这次竟然也没有犯幻觉这个“老毛病”。 我没有遇到幻觉或其他 AI 生成的胡言乱语的问题。 这不是陶神第一次用 AI 解决数学问题 事实上，作为顶尖数学大佬，这不是陶哲轩第一次用 AI 解决数学问题。 光是今年，量子位此前就有多篇介绍： 9 月初，他将 GPT-5 用于半自动化文献检索，使 Erdos 问题 / OEIS 关联项目首次得到概念验证； 5 月下旬，新人博主陶哲轩在油管手把手演示如何只用 GitHub Copilot 证明函数极限问题； 5 月中旬，油管首秀用 AI 33 分钟“盲证”Magma 方程 E1689 蕴含 E2； 3 月中旬，o3-mini 一眼识破并纠正了他的一个错误，然后在它的帮助下快速完成了一道数学题的解答； …… 在陶哲轩看来，“人工智能或许短期内不会获得菲尔兹奖（数学界的诺贝尔奖），但它或许可以充当数学家进行证明的中介”。 当然，跳出数学领域，陶哲轩的打样无疑也在告诉我们：如何用 AI 相当关键。 One More Thing 关于 GPT-5，OpenAI CEO 奥尔特曼的最新表态正在引起热议。 GPT-5 被误解了！ 一改往日高调姿态，他这次直接告诉大家，GPT-5 代表的是迭代改进，而非突然的范式转变。 也就是说，人们对 GPT-5 的预期过高了（也借此回应 GPT-5 直播出故障以及人们关于模型能力未达预期的抱怨）。 而且面对“何时实现 AGI”这一问题，其态度同样来了个大转弯 —— 相比以前直接说 AGI 2030 年前会实现，他这次变得更加谨慎，开始强调自己更关注安全和渐进式进步。 好好好，你小汁主打一个随机应变是吧（doge）。 参考链接： [1]https://mathstodon.xyz/@tao/115306424727150237 [2]https://x.com/SebastienBubeck/status/1973977315572154383 [3]https://mathoverflow.net/questions/501066/is-the-least-common-multiple-sequence-textlcm1-2-dots-n-a-subset-of-t/501125 本文来自微信公众号：量子位（ID：QbitAI），作者：一水",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/f72053f0-3e0a-48b1-a720-c11cc93fae8d.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-10-04T12:23:51.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/887/534.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759749736776_d459b2ae",
+      "id": "news_1759755354915_d459b2ae",
       "title": "你给AI智能体的权限，正被黑客利用，OWASP警告：真正的危机才刚刚开始",
       "summary": "你给AI智能体的权限，正被黑客利用，OWASP警告：真正的危机才刚刚开始",
       "content": "你给AI智能体的权限，正被黑客利用，OWASP警告：真正的危机才刚刚开始",
@@ -325,18 +349,6 @@
       "publishedAt": "2025-10-04T08:00:00.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/BHHI1AeJYVPIEwYYPkir?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759749737413_a93956c5",
-      "title": "Replit 推出 Agent 3，拓展自主编程与自动化新边界",
-      "summary": "Replit 推出 Agent 3，拓展自主编程与自动化新边界",
-      "content": "Replit 推出 Agent 3，拓展自主编程与自动化新边界",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-03T22:06:55.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/1AAvDxcT6xeD4kRNXAkV?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
