@@ -1,31 +1,43 @@
 {
   "success": true,
-  "timestamp": "2025-10-06T23:23:56.305Z",
-  "total": 40,
+  "timestamp": "2025-10-07T02:01:22.666Z",
+  "total": 42,
   "data": [
     {
-      "id": "news_1759793020483_d2e217c9",
-      "title": "微软测试微流控技术，用于下一代人工智能芯片",
-      "summary": "微软测试微流控技术，用于下一代人工智能芯片",
-      "content": "微软测试微流控技术，用于下一代人工智能芯片",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-06T21:04:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/DZV847Gdit45Bk4SMzfp?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1759802481502_4c467495",
+      "title": "TIOBE 指数 2025 年 10 月排行榜公布：C、C++ 和 Java 互争榜二，Python 稳如泰山",
+      "summary": "IT之家 10 月 7 日消息，TIOBE 编程社区指数是一个衡量编程语言受欢迎程度的指标，评判的依据来自世界范围内的工程师、课程、供应商及搜索引擎，目前 TIOBE 官网公布了 2025 年 10 月的编程语言排行榜，IT之家整理如下： Python 排行第一：占比 24.45%，本月上升 2.5...",
+      "content": "IT之家 10 月 7 日消息，TIOBE 编程社区指数是一个衡量编程语言受欢迎程度的指标，评判的依据来自世界范围内的工程师、课程、供应商及搜索引擎，目前 TIOBE 官网公布了 2025 年 10 月的编程语言排行榜，IT之家整理如下： Python 排行第一：占比 24.45%，本月上升 2.55% C 排行第二：占比 9.29%，本月上升 0.91% C++ 排行第三：占比 8.84%，本月下跌 2.77% Java 排行第四：占比 8.35%，本月下跌 2.15% C# 排行第五：占比 6.94%，本月上升 1.32% JavaScript 排行第六：占比 3.41%，本月下跌 0.13% Visual Basic 排行第七：占比 3.22%，本月上升 0.87% Go 排行第八：占比 1.92%，本月下跌 0.10% Delphi/Object Pascal 排行第九： 占比 1.86%，本月上升 0.19% SQL 排行第十：占比 1.77 %，本月上升 0.13% TIOBE 的 CEO Paul Jansen 表示，如今 TIOBE 指数“榜二”之争愈演愈烈，自从 Python 在 2023 年底开始主导 TIOBE 指数以来，C、C++ 和 Java 一直在激烈争夺榜单第二名。在过去一年多的时间里，这三种语言在 TIOBE 排名上的差距一直不到 1%。一度 C 语言领先，随后 C++ 反超，如今 C 语言又回到第二的位置，而 Java 始终紧随其后，始终保持在两者的近距离内。 本月，C 语言凭借 C23 版本的发布重回第二。但 Java 刚推出了 Java 25 版本，而 C++ 也在忙于 C++26 版本的更新，因此谁能最终占据第二名仍难以预测。这三种语言各有优势：C 语言简单且执行速度极快，C++ 性能高且适合大型嵌入式系统，Java 则适合大型企业级应用。 值得注意的是，C#也在逐渐逼近这三位竞争者。今年年初，C#与 C、C++、Java 之间的差距为 4%，如今已缩小到仅 1.4%，接下来的编程语言排名之争依旧精彩。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/7664264b-6492-4a23-810f-7d88077c8ec6.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-10-07T02:00:54.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/887/820.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759793021624_fdb1b12d",
-      "title": "谷歌 DeepMind 推出具身推理模型 Gemini Robotics-ER 1.5",
-      "summary": "谷歌 DeepMind 推出具身推理模型 Gemini Robotics-ER 1.5",
-      "content": "谷歌 DeepMind 推出具身推理模型 Gemini Robotics-ER 1.5",
+      "id": "news_1759802481662_4a7c90b1",
+      "title": "斯坦福研究：去年全球英语文稿中 24% 企业新闻稿、18% 消费者投诉内容由 AI 大模型产出",
+      "summary": "IT之家 10 月 7 日消息，Cell Press 旗下期刊《Patterns》近日刊登斯坦福大学研究团队报告，相应研究团队对 Newswire、PRWeb 和 PRNewswire 等各大平台英语文稿进行分析，发现其中有大量文稿带有 AI 痕迹，认为大模型已被广泛应用于各类正式书面沟通场景。",
+      "content": "IT之家 10 月 7 日消息，Cell Press 旗下期刊《Patterns》近日刊登斯坦福大学研究团队报告，相应研究团队对 Newswire、PRWeb 和 PRNewswire 等各大平台英语文稿进行分析，发现其中有大量文稿带有 AI 痕迹，认为大模型已被广泛应用于各类正式书面沟通场景。 据介绍，相应团队采用了一套名为“分布式 LLM 量化框架”（Distributional LLM Quantification Framework）的统计模型，从语料整体的语言特征分布中估算特定时间段内含有 AI 生成特征的文字比例。但该方法仅适用于英语，因此上述结果仅反映了英文语料中具备 AI 特征的比例，并不意味着整篇文章“完全由 AI 撰写”。 IT之家参考报告获悉，相应团队分析了去年共计 68.7 万条消费者投诉、53.7 万篇企业新闻稿、3.04 亿份招聘信息以及 1.6 万篇联合国新闻稿，发现其中约 24% 的企业新闻稿、18% 的消费者投诉、14% 的联合国新闻稿，以及接近 10% 的招聘内容“几乎由 AI 大模型直接生成，或经过大幅改写”。 研究人员指出，LLM 已深入渗透社会各领域的正式文本写作，逐渐成为人们日常书面表达的重要辅助工具。尤其是在教育程度较低的地区，使用 AI 撰写投诉的比例达到 19.9%，明显高于教育程度较高地区的 17.4%。在招聘信息方面，中小型企业或初创公司更倾向于使用大模型生成内容，其中约有 10% 至 15% 的招聘公告包含明显的 AI 痕迹。 研究人员同时表示，随着生成式 AI 技术的不断进步，其文风愈发接近人类，未来要精确识别 AI 在文本创作中的参与程度将变得愈发困难。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2025-10-07T01:06:49.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/887/812.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759802469781_ba629b4b",
+      "title": "谷歌Java代理开发工具包新增LangChain4j集成",
+      "summary": "谷歌Java代理开发工具包新增LangChain4j集成",
+      "content": "谷歌Java代理开发工具包新增LangChain4j集成",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-10-06T20:57:21.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/SM9upjHY0CW39lvfBVpo?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2025-10-06T20:48:48.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/gtd7oH4q36UTxEiooyuK?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1759771473291_e596aadb",
@@ -52,6 +64,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1759802124388_0",
+      "title": "美国股市因AMD-OpenAI合作及大银行交易而上涨",
+      "summary": "美国股市周一上涨并创下历史新高，投资者对AMD与OpenAI的合作以及大银行交易表现出浓厚兴趣，忽略了已持续六天的政府关门。市场乐观情绪主要源于一项涉及数十亿美元基础设施协议的达成，预示着人工智能领域将迎来重大进展。",
+      "content": "周一开盘后不久，美国股市攀升至历史高位，投资者似乎忽略了已经持续了六天的政府关门。相反，他们欢庆了一个涉及多 billions 美元基础设施协议的达成，该协议预示着人工智能领域的... [550 字符]",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i2J3bk5qw9Qs/v1/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2025-10-06T13:51:33.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2025-10-06/us-stocks-advance-on-amd-openai-partnership-big-bank-deal",
+      "aiInsight": "该新闻表明了AMD与OpenAI的合作以及大银行交易对美国股市产生了积极影响，反映出市场对人工智能领域未来发展的乐观预期。从技术发展角度看，AMD与OpenAI的合作可能预示着高性能计算和人工智能技术的进一步融合，有助于推动AI计算性能的提升，加速AI应用在各个行业的落地。从行业影响角度看，这可能意味着未来更多企业将加大对AI基础设施的投资，进一步推动相关产业链的发展，如芯片制造、云计算服务等。从未来趋势角度看，随着人工智能技术的不断进步，其应用场景将更加广泛，对各行业的影响也将更加深远。长期来看，这将促进全球经济的数字化转型，提升企业的竞争力，同时也将带来新的就业机会和挑战。"
+    },
+    {
       "id": "news_1759757730868_775b63b7",
       "title": "灭霸长焦：vivo X300 Pro 手机全新蔡司 2 亿 APO 超级长焦中秋圆月样张公布",
       "summary": "IT之家 10 月 6 日消息，vivo 官方今日分享了使用 vivo X300 Pro 手机全新蔡司 2 亿 APO 超级长焦拍摄的中秋圆月样张。 从 vivo 官方公布的照片来看，vivo X300 Pro 手机可以在拍摄月亮“高清照”的同时，保留周边建筑的明暗细节。",
@@ -62,6 +86,54 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/887/772.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759802144083_1",
+      "title": "AMD股价飙升，芯片制造商最新获得OpenAI协议",
+      "summary": "AMD股价因与OpenAI达成战略合作而飙升。根据协议，OpenAI将使用AMD的6吉瓦GPU进行部署。这一合作将有助于推动高性能计算和人工智能技术的发展。AMD股价在消息公布后大幅上涨，显示出市场对该协议的积极反应。此次合作将进一步巩固AMD在高性能计算领域的地位，并为OpenAI提供强大的计算支持。",
+      "content": "先进微设备公司（AMD）周一宣布与大型人工智能公司OpenAI建立战略合作伙伴关系。AMD股价在这一消息公布后飙升。根据协议，OpenAI将部署6吉瓦的AMD图形处理单元（GPU）……",
+      "imageUrl": "https://www.investors.com/wp-content/uploads/2017/10/STOCK-AMD-01-shutter.jpg",
+      "source": "Investor's Business Daily",
+      "publishedAt": "2025-10-06T13:05:19.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.investors.com/news/technology/amd-stock-chipmaker-latest-openai-deal/",
+      "aiInsight": "这一新闻反映出AI技术发展的一个重要动向，即大型AI公司在构建其计算基础设施时，越来越倾向于选择高性能的GPU供应商。AMD此次与OpenAI的合作，不仅显示了其在高性能计算领域的技术实力和市场竞争力，也预示着未来在AI领域对高性能计算设备的需求将大幅增加。\n\n从行业影响角度看，这将促进AMD在AI市场上的份额增长，同时也会对竞争对手如NVIDIA等产生压力，迫使他们加大在该领域的投入。此外，AMD与OpenAI的合作还可能带动整个半导体行业，特别是GPU市场的增长。\n\n从未来趋势来看，随着AI技术的持续发展，对高性能计算的需求将持续上升，这将为AMD等公司带来更多的增长机会。同时，这也预示着未来数据中心和云计算服务商将越来越多地使用高性能计算设备来支持复杂的AI计算任务。"
+    },
+    {
+      "id": "news_1759802156960_2",
+      "title": "OpenAI与芯片制造商AMD签署AI基础设施芯片供应合作协议",
+      "summary": "AMD将为其芯片供应给人工智能公司OpenAI，并合作构建AI基础设施。作为协议的一部分，OpenAI还将获得购买多达1亿美元AMD芯片的权利。此次合作将有助于加速OpenAI在自然语言处理、计算机视觉等领域的发展。",
+      "content": "半导体制造商AMD将为其芯片供应给人工智能公司OpenAI，并作为一项合作协议的一部分，双方将合作构建人工智能基础设施，两家公司在周一宣布了这一消息。 OpenAI还将获得购买多达...",
+      "imageUrl": "https://wtop.com/wp-content/uploads/2025/10/OpenAI_69614-scaled.jpg",
+      "source": "WTOP",
+      "publishedAt": "2025-10-06T12:24:16.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://wtop.com/national/2025/10/openai-and-chipmaker-amd-sign-chip-supply-partnership-for-ai-infrastructure/",
+      "aiInsight": "这一合作标志着AI基础设施与高性能计算领域的重要进展。从技术发展角度看，AMD的chiplet技术可以提升AI模型训练的效率和性能，为OpenAI提供更强大的算力支持。从行业影响上看，这将推动AI技术在更多领域的应用，比如自然语言处理、图像识别等，加速AI产业的发展。此外，这种合作模式可能会鼓励其他芯片制造商与AI公司合作，共同开发适用于AI计算的高性能芯片。从未来趋势看，随着AI技术的不断进步，对高性能计算资源的需求将持续增长，这将促进芯片行业进一步发展。同时，这也可能推动AI硬件与软件的深度融合，形成更高效的数据处理能力。"
+    },
+    {
+      "id": "news_1759802150820_3",
+      "title": "OpenAI 的竞争对手团队",
+      "summary": "OpenAI与AMD达成合作协议，后者将向OpenAI投资高达1000亿美元。这一消息发布于Nvidia同意向OpenAI投资1000亿美元两周后。此次合作将进一步推动人工智能技术的发展。AMD和OpenAI将共同探索人工智能领域的创新应用，加强在人工智能计算、加速器等方面的合作。",
+      "content": "Andrew在此。重大消息：OpenAI刚刚与AMD达成一项大deal——就在Nvidia同意向这家人工智能巨头投资高达1000亿美元的两周后。详情请见下方。而在政府关门期间，华盛顿有一部分却依然在运作……[7663个字符]",
+      "imageUrl": "https://static01.nyt.com/images/2025/10/06/multimedia/06db-newsletter-openai-twgc/06db-newsletter-openai-twgc-facebookJumbo.jpg",
+      "source": "The New York Times",
+      "publishedAt": "2025-10-06T12:17:00.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.nytimes.com/2025/10/06/business/dealbook/openai-amd-nvidia.html",
+      "aiInsight": "这份新闻标题揭示了OpenAI及其竞争对手之间的最新动态，从技术发展和行业影响的角度来看，这一事件具有重要影响：\n\n1. **技术发展**：AMD与OpenAI的合作表明，硬件供应商和AI研究机构之间的合作正在加深，这有助于加速AI技术的硬件优化，提升AI模型的训练和推理效率。\n\n2. **行业影响**：这一事件加剧了AI领域的技术竞争格局，特别是GPU市场的竞争。Nvidia和AMD的竞争关系进一步强化，可能会影响相关市场的价格和产品策略。同时，这也意味着AI基础设施的成本和可获取性可能发生变化，对整个行业产生影响。\n\n3. **未来趋势**：未来，我们可以预见AI技术将更加依赖于高性能的硬件支持，而硬件与软件的紧密结合将成为常态。此外，随着AI技术在各行业中的应用越来越广泛，对高性能计算资源的需求将持续增长，这将进一步推动硬件技术的发展和创新。\n\n4. **政策和监管**：虽然新闻提到政府关门期间华盛顿的部分部门仍在运作，但AI行业的发展也可能受到政策和监管环境的影响。随着AI技术的发展，相关的数据保护、安全性和伦理问题将越来越受到关注，相关法律法规的制定和调整将成为未来的焦点。"
+    },
+    {
+      "id": "news_1759802441299_4",
+      "title": "AMD与OpenAI签署AI芯片供应协议，给予其购买10%股权的选择权",
+      "summary": "AMD与OpenAI达成多年合作协议，将向OpenAI提供人工智能芯片，预计为AMD带来数十亿美元年收入。作为协议的一部分，OpenAI获得了购买AMD芯片制造商最多约10%股份的选择权。此次合作将推动AMD在AI领域的影响力，同时也为OpenAI提供了战略投资机会。",
+      "content": "AMD 在周一表示，公司将向 OpenAI 提供人工智能芯片，这是一项多年合作协议，预计将为 AMD 带来数十亿美元的年收入，并使 ChatGPT 的创作者有机会购买 AMD 芯片制造商最多约 10% 的股份。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format",
+      "source": "Newsmax",
+      "publishedAt": "2025-10-06T12:00:54.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.newsmax.com/finance/companies/amd-ai-chip-supply-deal-openai/2025/10/06/id/1229157/",
+      "aiInsight": "该新闻显示了AI技术与硬件产业的紧密合作，从技术发展角度看，AMD向OpenAI提供高性能AI芯片，这将促进AI计算能力的提升，加速AI模型的训练和推理，为OpenAI在自然语言处理、图像识别等领域的发展提供强大支持。从行业影响角度看，这将加强AMD在AI领域的市场地位，推动AI芯片行业的技术创新和应用。从未来趋势看，随着AI技术的不断发展，对高性能计算的需求将持续增长，这将推动AI芯片市场的进一步扩张，同时也会促进更多企业投身于AI芯片的研发和制造。此外，股权交易也表明了OpenAI对未来AI技术发展的信心和对AMD的认可，这将对未来AI技术的发展产生重要影响。"
     },
     {
       "id": "news_1759755359646_c6838f97",
@@ -86,6 +158,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/887/761.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759802127547_6",
+      "title": "AMD与OpenAI签署AI芯片供应协议，并给予其增持至10%股份的选择权",
+      "summary": "AMD与OpenAI签署AI芯片供应协议，后者获得增持AMD股份至10%的选择权。AMD执行副总裁福斯特·诺罗德表示，此交易对AMD和整个行业都将产生重大影响。该协议将涵盖部署数十万颗AMD的AI芯片。此次合作将推动AI技术的发展和应用。",
+      "content": "在这里注册。 AMD执行副总裁福斯特·诺罗德周日告诉路透社：“我们视此交易为具有 transformative 的影响，不仅对AMD而言，也对行业的动态产生了影响。” 该协议涵盖了部署数十万…… [2917 字符]",
+      "imageUrl": "https://www.reuters.com/resizer/v2/DQ5LRK7BGBPBNLDMIADL7EIWHQ.jpg?auth=46305af6bff62b7698418e202dbd148b7b81b70648b423d53d44eb043b55f36f&height=1005&width=1920&quality=80&smart=true",
+      "source": "Reuters",
+      "publishedAt": "2025-10-06T10:55:03.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.reuters.com/business/amd-signs-ai-chip-supply-deal-with-openai-gives-it-option-take-10-stake-2025-10-06/",
+      "aiInsight": "这项新闻涉及AMD与OpenAI在AI芯片领域的合作，不仅对AMD自身的发展具有重要意义，也为整个AI产业带来潜在影响。从技术发展的角度来看，AMD获得OpenAI的青睐，意味着其在AI芯片领域的技术实力得到了认可，这将促进AMD在该领域的研发投入，进一步提升其在高性能计算和AI芯片市场的竞争力。\n\n从行业影响角度来看，AMD与OpenAI的合作将加速AI技术的迭代速度，推动AI技术在更广泛的行业应用中落地。此外，OpenAI获得AMD的芯片供应选择权，可能意味着未来OpenAI将进一步加大在AI领域的投入，增强其在AI技术研发和应用中的领先地位，从而带动整个AI产业链的发展。\n\n从未来趋势来看，AMD与OpenAI的合作预示着AI芯片市场将进入快速发展期。随着AI技术的广泛应用，对高性能计算和AI芯片的需求将持续增长，这将催生更多创新技术和商业模式，推动整个行业向更高水平迈进。同时，这也可能加速AI技术与各行业深度融合，促进产业智能化转型，为经济社会发展注入新的动力。"
     },
     {
       "id": "news_1759792977995_0",
@@ -124,16 +208,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759793002039_1",
+      "id": "news_1759802134901_7",
       "title": "乔尼·艾夫与OpenAI的人工智能设备 reportedly 面临延误 - 这是导致这款掌上设备2026年发布推迟的原因",
-      "summary": "OpenAI与乔尼·艾夫合作开发的新型人工智能设备面临重大技术挑战，导致原定于2026年发布的计划推迟。这款掌上设备的研发进展不如预期，可能无法按时推出。双方正努力克服技术难题，但具体延误时间尚未明确。",
-      "content": "OpenAI 和传奇设计师乔纳森·伊夫正面临重大技术挑战，他们正在努力推出其保密的新AI设备，这使得2026年 debut 的计划产生了怀疑。 OpenAI 和伊夫... [3421 字符]",
+      "summary": "OpenAI与乔尼·艾夫合作开发的AI设备面临重大技术挑战，导致原定于2026年发布的掌上设备发布日期推迟。双方正在努力完成AI硬件的开发，但具体延误时间尚未明确。这款设备的开发困难凸显了AI技术在实际应用中的复杂性。",
+      "content": "OpenAI 和传奇设计师乔纳·伊夫正面临重大技术挑战，他们正在努力推出其保密的新AI设备，这使得2026年首秀的计划蒙上了一层阴影。 OpenAI 和 Ive 正在努力完成 AI 硬件开发",
       "imageUrl": "https://cdn.benzinga.com/files/images/story/2025/10/06/Ai-Technology--Artificial-Intelligence--.jpeg?width=1200&height=800&fit=crop",
       "source": "Benzinga",
       "publishedAt": "2025-10-06T07:20:22.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.benzinga.com/markets/tech/25/10/48035737/jony-ive-and-openais-artificial-intelligence-device-reportedly-faces-delays-here-is-whats-threatening-2026-launch-for-the-palm-sized-gadget",
-      "aiInsight": "从技术发展角度看，乔尼·艾夫与OpenAI合作推出的新AI设备遭遇延迟，反映出AI技术在实际应用中面临的复杂性和挑战。这表明，尽管AI技术在实验室环境中取得了巨大进展，但在转化为实际产品时仍需克服众多技术难题，包括硬件优化、用户体验设计等。\n\n从行业影响角度看，该事件可能会影响市场对AI设备的预期和投资热情。对于OpenAI和乔尼·艾夫而言，推迟发布可能会对他们的品牌声誉和市场地位产生一定影响。然而，这也可能促使其他企业加速产品开发，以抢占市场先机。\n\n从未来趋势角度看，AI设备的推出将推动AI技术在更多消费领域的应用，如智能家居、个人助手等。尽管面临挑战，但AI技术的发展趋势不会改变，反而会促使相关企业不断探索新的解决方案，以实现产品的最终发布。此次推迟发布也可能促使OpenAI和乔尼·艾夫进一步优化产品设计，提升用户体验，从而在未来的市场中占据有利地位。"
+      "aiInsight": "这款掌上AI设备的研发进展受阻，反映出当前AI硬件技术发展的复杂性和挑战性。从技术角度看，AI硬件的开发涉及算法优化、芯片设计、散热管理等多个环节，每一步都可能遇到瓶颈。从行业影响来看，该事件可能加剧市场对AI设备发布的预期落空担忧，同时也可能促使其他科技公司加快类似产品开发的步伐，以抢占市场先机。从未来趋势角度看，尽管面临挑战，AI硬件的研发仍然是科技行业的重要方向。随着技术进步，未来的AI设备可能会更加小型化、高效化，进一步推动AI技术在日常生活中的应用。"
     },
     {
       "id": "news_1759789430421_0",
@@ -232,16 +316,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759793001101_2",
+      "id": "news_1759802125152_8",
       "title": "LI学生设计了一个“伙伴机器人”——现在他们正与法学院合作将其提升到新的水平",
-      "summary": "长岛一所天主教高中与知名法学院合作，共同提升青少年的人工智能教育水平。学生们将获得A级人工智能教育，旨在使他们更加明智、负责任地应对人工智能技术的快速发展。此次合作将帮助学生设计和改进“伙伴机器人”，培养他们对人工智能伦理和社会影响的深刻理解。",
-      "content": "他们正在获得人工智能的A级教育。 长岛一所天主教高中将与一家全国知名的法学院合作，以增强青少年的人工智能学习，使他们能够更加明智和负责任地应对新兴的...",
+      "summary": "长岛一所天主教高中学生设计出“伙伴机器人”，并获得法学院合作支持，将提升青少年的人工智能学习水平。双方将共同探索如何使青少年更加明智、负责任地应对人工智能技术的发展，旨在培养青少年在人工智能领域的伦理意识和法律素养。",
+      "content": "他们获得了人工智能的A级教育。 长岛的一所天主教高中将与一家全国知名的法学院合作，以增强青少年的人工智能学习，使他们能够更加明智和负责任地应对新兴的…… [3269字节]",
       "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2025/10/newspress-collage-l29mp8nit-1759705506677.jpg?quality=75&strip=all&1759691320&w=1024",
       "source": "New York Post",
       "publishedAt": "2025-10-06T00:08:30.000Z",
-      "category": "国外AI",
+      "category": "国内AI",
       "originalUrl": "https://nypost.com/2025/10/05/us-news/li-students-designed-a-buddy-bot-now-theyre-teaming-with-a-law-school-to-take-it-to-the-next-level/",
-      "aiInsight": "这篇新闻报道了长岛一所天主教高中与一家全国知名法学院的合作，旨在提升青少年的人工智能教育，特别是通过“伙伴机器人”的设计与开发。从技术发展角度看，这种合作有助于将AI教育与实际应用相结合，促进AI技术在教育领域的创新应用。从行业影响角度来看，这类项目不仅能够培养青少年的AI伦理意识，还能为未来的AI领域输送具有伦理敏感性的专业人才。未来趋势方面，随着AI技术的不断发展，类似的合作项目将更加普遍，有助于构建一个负责任且充满智慧的AI生态系统。此外，通过这样的合作，青少年能够更早地接触和理解AI的伦理和社会影响，这将对AI行业的健康发展产生积极影响。"
+      "aiInsight": "这篇新闻报道了一个有趣的项目，即学生设计的“伙伴机器人”与法学院合作进一步发展的案例。从技术发展的角度来看，这反映了教育机构在人工智能教育方面的创新尝试，将理论知识与实际应用相结合，有助于学生更深入地理解AI技术及其伦理影响。这种合作模式可能为未来的教育模式提供参考，尤其是STEM教育和伦理教育的融合。\n\n从行业影响的角度来看，这种合作有助于培养具有法律意识的AI开发者，促进AI技术的健康发展。这不仅能够提高公众对AI技术的信任，还能推动AI技术在法律领域的应用，如智能合同、法律咨询等。此外，这种合作模式也可能吸引更多的企业和机构加入AI伦理教育的行列，共同构建一个负责任的AI发展环境。\n\n未来趋势方面，随着AI技术的广泛应用，AI伦理教育的需求将日益增加。教育机构与法律、科技等领域的合作将进一步深化，以培养具有法律意识和伦理责任感的AI专家。同时，这也将促进跨学科合作，推动AI技术与法律、医学、教育等领域的深度融合，为人类社会带来更多有益的应用。"
     },
     {
       "id": "news_1759757686199_0",
@@ -268,16 +352,16 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759792984991_3",
+      "id": "news_1759802168187_9",
       "title": "ChatGPT 现已允许用户在聊天中连接 Spotify 和 Zillow",
-      "summary": "OpenAI宣布ChatGPT将允许用户在聊天中直接连接Spotify和Zillow等第三方应用，这是OpenAI在AI领域的最新创新。CEO萨姆·奥尔特曼在“DevDay”活动上宣布了“App SDK”，该功能将使ChatGPT用户可以直接访问第三方应用，如创建派对播放列表或查询特定风格的房源。这标志着OpenAI在AI竞争中又向前迈进了一步，与谷歌、Anthropic等巨头展开激烈角逐。",
-      "content": "要点 OpenAI 将允许用户在使用 ChatGPT 时访问第三方应用程序，如 Spotify 和 Zillow，首席执行官萨姆·阿尔特曼周一表示——这是今年最新的人工智能创新之一，各大巨头如 OpenAI、xAI、谷歌和 Anthropic 等…… [4845 字符]",
+      "summary": "OpenAI宣布推出ChatGPT“App SDK”，允许用户在使用ChatGPT时直接访问第三方应用如Spotify和Zillow。用户可以通过ChatGPT创建Spotify播放列表或查询特定风格的房源。此举标志着OpenAI在与谷歌、Anthropic等科技巨头的人工智能竞赛中又迈出一步。这将增强ChatGPT的功能性和用户体验，进一步巩固其在人工智能领域的领先地位。",
+      "content": "要点 OpenAI 将允许用户在使用 ChatGPT 时访问第三方应用程序，如 Spotify 和 Zillow，CEO Sam Altman 周一表示——这是今年最新的人工智能创新之一，各大巨头如 OpenAI、xAI、Google 和 Anthropic 等正在推动这一领域的发展…… [4845 字符]",
       "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/68dc63fc99221522c3688e4b/0x0.jpg?format=jpg&crop=2990,1681,x0,y312,safe&height=900&width=1600&fit=bounds",
       "source": "Forbes",
       "publishedAt": "2025-10-06T00:00:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.forbes.com/sites/antoniopequenoiv/2025/10/06/openais-chatgpt-now-connects-with-third-party-apps-like-spotify-and-zillow-heres-the-latest-in-the-ai-arms-race/",
-      "aiInsight": "从技术角度来看，ChatGPT允许用户在聊天中连接第三方应用程序，如Spotify和Zillow，这标志着AI与应用程序集成的新阶段。这种集成不仅增强了用户体验，还展示了大语言模型在处理复杂任务和多模态数据方面的潜力。从行业影响来看，这一功能的推出预示着AI技术在日常应用中的深入融合，可能加速各个行业的数字化转型。对于Spotify和Zillow这样的公司而言，这可能意味着通过AI技术提升用户互动性和服务效率的新机遇。未来趋势方面，随着AI技术的进一步发展，我们预计更多的AI平台将开放接口，促进跨平台的创新应用，同时，AI在内容创作、个性化推荐等领域的作用将更加显著。整体而言，这是一次技术与应用深度融合的创新尝试，对未来AI的普及和应用有着积极的推动作用。"
+      "aiInsight": "这一新闻表明ChatGPT在向着更加实用和集成的方向发展。从技术角度来看，ChatGPT现在能够连接Spotify和Zillow等第三方服务，意味着它的API接口变得更加丰富和灵活，可以提供更广泛的功能和服务。这种能力的增强，不仅提升了用户体验，也为开发者提供了更广阔的创新空间。\n\n从行业影响来看，这一发展有助于加强人工智能在日常生活中的应用，特别是在娱乐和房地产等领域。用户可以通过ChatGPT直接获取音乐推荐或房地产信息，提高了效率和便利性。这也将促进相关行业的数字化转型，推动更紧密的跨界合作。\n\n展望未来，随着API接口的扩展，ChatGPT有望与其他更多领域的服务进行集成，从而进一步拓展其应用场景。这不仅将推动AI技术的进步，也将为各行各业带来新的增长点。然而，随着集成服务的增多，数据安全和隐私保护将成为重要的考量因素，需要相关企业加强技术和管理措施，确保用户信息的安全。"
     },
     {
       "id": "news_1759715897008_0088f549",
@@ -304,42 +388,6 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759793024798_88e073b6",
-      "title": "Cursor 1.7 新增 Agent 生命周期管控钩子函数",
-      "summary": "Cursor 1.7 新增 Agent 生命周期管控钩子函数",
-      "content": "Cursor 1.7 新增 Agent 生命周期管控钩子函数",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-05T21:24:19.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/mAZg2SP7UuUdvY1omk6g?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759793025867_b718b783",
-      "title": "Perplexity 推出搜索 API，助力下一代 AI 应用开发",
-      "summary": "Perplexity 推出搜索 API，助力下一代 AI 应用开发",
-      "content": "Perplexity 推出搜索 API，助力下一代 AI 应用开发",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-05T21:21:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/lGhZkVqlmpkfzScGMOdA?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759793026658_85c5c8c5",
-      "title": "大语言模型的解耦：人工智能基础设施的下一轮进化",
-      "summary": "大语言模型的解耦：人工智能基础设施的下一轮进化",
-      "content": "大语言模型的解耦：人工智能基础设施的下一轮进化",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-05T21:15:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/ViFEG6YOJR5WY2OTkux9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1759793004232_4",
       "title": "OpenAI Stargate 数据中心建设基础设施负责人基思·海德",
       "summary": "OpenAI的基础设施负责人基思·海德放弃了假期，前往美国各地考察潜在的数据中心选址。海德在12月底访问了多个地点，以确定OpenAI新数据中心的建设位置。此前，海德曾是Meta公司的员工。此次选址决定将对OpenAI的未来发展产生重要影响。",
@@ -352,18 +400,6 @@
       "aiInsight": "从技术发展角度来看，OpenAI的基础设施负责人凯思·海德的行动表明，构建高效、强大的数据中心对于支持人工智能技术的发展至关重要。这不仅涉及到硬件设备的选择和部署，还包括能源效率、冷却系统和数据管理等多方面的技术挑战。海德的决定可能意味着OpenAI正在扩大其计算能力，以支持更复杂、更大的模型训练和更密集的计算任务。\n\n从行业影响来看，OpenAI的扩张计划可能会加剧数据中心市场的竞争，促使其他科技巨头加大在数据中心领域的投资。此外，随着对数据中心需求的增加，可能会推动相关技术和服务的创新，如液冷技术、模块化数据中心和高效能源解决方案等。\n\n未来趋势方面，预计会有更多公司关注可持续性，采用更加环保的能源解决方案和冷却技术。同时，随着人工智能应用的不断扩展，对于计算能力和数据存储的需求将持续增长，这将进一步推动数据中心技术的发展和创新。"
     },
     {
-      "id": "news_1759793027441_14aebcc6",
-      "title": "OpenAI 更新 GPT-5 Instant 模型：保持理性的同时更具同理心",
-      "summary": "OpenAI 更新 GPT-5 Instant 模型：保持理性的同时更具同理心",
-      "content": "OpenAI 更新 GPT-5 Instant 模型：保持理性的同时更具同理心",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-05T11:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/bMXrxqdHeEbxGWmeOJtJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1759663184017_f4add370",
       "title": "基于人的教育可能解决不了AI带来的问题",
       "summary": "基于人的教育可能解决不了AI带来的问题",
@@ -373,6 +409,30 @@
       "publishedAt": "2025-10-05T10:57:43.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7713561.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759802475728_4636f4ad",
+      "title": "5个月内失败十几次，几人团队在压力下做出爆款App！网友：AI时代懂人性比懂技术更重要",
+      "summary": "5个月内失败十几次，几人团队在压力下做出爆款App！网友：AI时代懂人性比懂技术更重要",
+      "content": "5个月内失败十几次，几人团队在压力下做出爆款App！网友：AI时代懂人性比懂技术更重要",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-05T09:38:17.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/zYz0h5ygZd1M3cuWfUam?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1759802476701_4cf7a47f",
+      "title": "700 美金买“真情”？AI情感类产品爆火背后：卖的不止是陪伴，而是年轻人的孤独",
+      "summary": "700 美金买“真情”？AI情感类产品爆火背后：卖的不止是陪伴，而是年轻人的孤独",
+      "content": "700 美金买“真情”？AI情感类产品爆火背后：卖的不止是陪伴，而是年轻人的孤独",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-05T09:37:18.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/dXWBiD5qIy22tpZL1lcz?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -424,43 +484,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759629999785_339b10dc",
-      "title": "歼-35 与歼-35A 机库首度公开，未涂装机身首次亮相",
-      "summary": "IT之家 10 月 5 日消息，据央视新闻今日报道，不久前，我国首次在弹射型航母福建舰上，实现多型号先进舰载机的电磁弹射和阻拦着舰训练。其中我国自主研发的首款隐身舰载机歼-35 再次成为全球关注的焦点。央视记者首次走进航空工业沈飞机库，独家探访正在生产的歼-35。",
-      "content": "IT之家 10 月 5 日消息，据央视新闻今日报道，不久前，我国首次在弹射型航母福建舰上，实现多型号先进舰载机的电磁弹射和阻拦着舰训练。其中我国自主研发的首款隐身舰载机歼-35 再次成为全球关注的焦点。央视记者首次走进航空工业沈飞机库，独家探访正在生产的歼-35。 报道称，歼-35，是一款以制空作战为主、兼顾对面作战的舰载多用途战斗机，是中国人民解放军海军实现由近海防御型向远海防卫型转变的标志性装备。 中国工程院院士孙聪介绍，相比于另一款舰载机歼-15 来说，歼-35 采用了高集成的设计，尽管体积变小，但信息化程度更高。在实际使用上，歼-15 和歼-35 两型飞机都会上航母，它们会配合使用，形成体系化的发展。 在航空工业沈飞机库，记者近距离观察了一架还没有涂装的歼-35A。歼-35A 是一型多用途的战斗机，具备对空、对地、对海作战能力。作为中国新一代隐身战斗机，歼-35A 针对新的场景应用大量新兴技术，深入采用基于模型的系统工程方法和模式，实现快速研制、快速迭代。 IT之家从报道获悉，歼-35 和歼-35A 这对孪生兄弟还有一个共同的前辈，它并不是现役装备，却在中国航空史上有着举足轻重的地位。它就是航空工业沈飞公司自主研发的第五代隐身战斗机的技术验证机，后来，该机被赋予了代号 FC-31，军迷们也亲切地称之为“鹘鹰”。 2012 年 10 月，“鹘鹰”在中国航空工业集团的沈飞成功首飞。它的成功首飞，意味着我国成为继美国之后，第二个能够同时研制两款新型隐身战斗机的国家。同时，“鹘鹰”也为后来我们国家的新型隐身战斗机的研制打下了坚实基础。 张国胜，是当时参与“鹘鹰”研制的技术人员，他说，“鹘鹰”的立项是在 2009 年 10 月，由沈阳所与沈飞公司共同研制。由于研制周期十分紧迫，研制团队创新研发模式，整合各方资源，在过程中采用了边设计、边发图、边制造的并行工作模式。 中国工程院院士孙聪介绍，中国战机从歼-10、歼-15、歼-16 到歼-20、歼-35，研发周期越来越短，但还是面临成本高、升级难的问题。为此，他提出模块化设计思路，把战机分成几个标准模块，发动机、雷达、航电系统、驾驶舱这些都能像积木一样拆装替换。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/e8de3666-4741-4c7b-99d7-568712c91230.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-10-05T01:50:19.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/887/572.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759629999989_2dc6f516",
-      "title": "华为昇腾 0day 支持阿里 Qwen3-VL-30B-A3B 模型适配",
-      "summary": "IT之家 10 月 5 日消息，“华为计算”公众号昨日（10 月 4 日）宣布，昇腾 0day 支持 Qwen3-VL-30B-A3B 模型适配。",
-      "content": "IT之家 10 月 5 日消息，“华为计算”公众号昨日（10 月 4 日）宣布，昇腾 0day 支持 Qwen3-VL-30B-A3B 模型适配。 昨日，阿里云通义千问 Qwen3 系列模型发布并开源其新一代多模态模型：Qwen3-VL-30B-A3B-Thinking 和 Qwen3-VL-30B-A3B-Instruct。Qwen3-VL 是一个多模态视觉语言模型系列，基于其前代产品，Qwen3-VL 在视觉理解方面实现了显著提升，同时保持了强大的纯文本处理能力。 主要增强功能： 视觉代理：操作 PC / 移动端图形用户界面 — 识别元素、理解功能、调用工具、完成任务。 视觉编码增强：从图像 / 视频生成 Draw.io/ HTML / CSS / JS。 高级空间感知：判断对象位置、视角和遮挡；提供更强的 2D 基础，并为空间推理和具身人工智能实现 3D 基础。 长上下文与视频理解：原生 256K 上下文，可扩展至 1M；能够处理书籍和数小时长的视频，具有完整回忆和秒级索引功能。 增强的多模态推理：在 STEM / 数学领域表现出色 —— 能够进行因果分析和提供基于逻辑与证据的答案。 升级的视觉识别：通过更广泛、更高质量的预训练，能够 \" 识别一切 \"—— 名人、动漫、产品、地标、动植物等。 扩展的 OCR 功能：支持 32 种语言（此前为 19 种）；在低光、模糊和倾斜情况下表现稳健；更好地处理罕见 / 古文字和专业术语；改进了长文档结构解析。 与纯 LLMs 相当的文本理解能力：无缝的文本-视觉融合，实现无损、统一的理解。 IT之家注意到，此前昇腾一直同步支持 Qwen 系列模型，此次 Qwen3-VL-30B-A3B-Thinking 和 Qwen3-VL-30B-A3B-Instruct 模型一经发布开源，即在 LLaMA Factory 和 vLLM 中开箱即用，实现模型的 0Day 适配。 值得一提的是，DeepSeek-V3.2-Exp 于 9 月 29 日发布并开源，引入稀疏 Attention 架构。华为当晚便宣布昇腾已快速基于 vLLM/SGLang 等推理框架完成适配部署，实现 DeepSeek-V3.2-Exp 0day 支持，并面向开发者开源所有推理代码和算子实现。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/321551f2-9cfa-416a-b8b7-ae2502b3a38f.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-10-05T00:59:20.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/887/564.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759630000090_0c27c7d7",
-      "title": "OpenAI 更新 GPT-5 Instant 模型：依旧理性、稳重，但更具共情力",
-      "summary": "IT之家 10 月 5 日消息，本周六起，ChatGPT 开始为 GPT-5 Instant 模型推送更新，使其能更快理解并安抚情绪低落的用户。 OpenAI 表示，GPT-5 现在能够识别出用户可能的心理或情绪困扰，并以更准确、温和的方式回应。这项改进是在心理健康专家的协助下完成的。",
-      "content": "IT之家 10 月 5 日消息，本周六起，ChatGPT 开始为 GPT-5 Instant 模型推送更新，使其能更快理解并安抚情绪低落的用户。 OpenAI 表示，GPT-5 现在能够识别出用户可能的心理或情绪困扰，并以更准确、温和的方式回应。这项改进是在心理健康专家的协助下完成的。 新的系统还会在必要时主动引导用户寻求现实世界的危机援助资源，同时保持支持性、平和的语气。 据IT之家了解，此前，许多 GPT-4 用户批评 GPT-5 过于理性、缺乏情感温度。据外媒 Bleeping Computer 报道，OpenAI 表示，这次更新将使 GPT-5 既更具共情力，又保持理性和稳重。 OpenAI 补充说，当用户选择 GPT-5 Auto 或非推理模型时，对话将自动切换到 GPT-5 Instant，以便更快提供有帮助的回应。 ChatGPT 仍会在用户询问时明确说明当前运行的模型版本。当天起，这项更新将开始陆续面向 ChatGPT 用户推出。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/27d018c1-e555-41b3-8ff2-50cf9a3797dd.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-10-04T23:39:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/887/556.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1759793030478_e34bedfb",
+      "id": "news_1759802477460_e34bedfb",
       "title": "Pulumi 发布 Neo：面向多云基础设施的智能 AI 平台工程师",
       "summary": "Pulumi 发布 Neo：面向多云基础设施的智能 AI 平台工程师",
       "content": "Pulumi 发布 Neo：面向多云基础设施的智能 AI 平台工程师",
@@ -472,7 +496,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1759793017031_ea46b83a",
+      "id": "news_1759802464057_ea46b83a",
       "title": "AI Won't Replace Doctors, But Redefine Their Tasks, Say Industry Experts",
       "summary": "Panelists envisioned a future where AI shifts healthcare from reactive \"sick care\" to proactive health maintenance. Snyder suggested a \"moonshot\" visi...",
       "content": "Panelists envisioned a future where AI shifts healthcare from reactive \"sick care\" to proactive health maintenance. Snyder suggested a \"moonshot\" vision encompassing environmental health, mental health, and preventive care. Cunningham and Kawar emphasized integrating multi-omics data with AI to achieve deterministic, individualized medicine.",
