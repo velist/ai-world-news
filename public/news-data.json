@@ -1,20 +1,8 @@
 {
   "success": true,
-  "timestamp": "2025-10-13T03:45:47.987Z",
-  "total": 51,
+  "timestamp": "2025-10-13T04:31:38.019Z",
+  "total": 53,
   "data": [
-    {
-      "id": "news_1760327136708_8f3a450d",
-      "title": "从稳定到共情：对话式 AI 与硬件交互的技术探索｜QCon 上海",
-      "summary": "从稳定到共情：对话式 AI 与硬件交互的技术探索｜QCon 上海",
-      "content": "从稳定到共情：对话式 AI 与硬件交互的技术探索｜QCon 上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-13T11:33:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/q8bjljtpT3romd7GJccF?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
     {
       "id": "news_1760327138019_75a70a27",
       "title": "“你的Agent，我一周末就能做出来！” AI时代的护城河：Cursor 卷每日迭代速度，DeepSeek 用技术撕大厂规模优势",
@@ -28,16 +16,64 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1760327138824_5bb4a484",
-      "title": "他在 10 天内拼出 ChatGPT，如今影响 7 亿人：ChatGPT 负责人的第一次讲述",
-      "summary": "他在 10 天内拼出 ChatGPT，如今影响 7 亿人：ChatGPT 负责人的第一次讲述",
-      "content": "他在 10 天内拼出 ChatGPT，如今影响 7 亿人：ChatGPT 负责人的第一次讲述",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-13T10:02:38.000Z",
+      "id": "news_1760329896577_3e35a2df",
+      "title": "博通出货业界首款 102.4Tbps CPO 以太网交换芯片 Tomahawk 6-Davisson",
+      "summary": "IT之家 10 月 13 日消息，博通 Broadcom 当地时间本月 8 日宣布推出其第三代采用 CPO 共封装光学技术的以太网交换芯片 Tomahawk 6-Davisson (TH6-Davisson)，这也是业界首款带宽容量达到 102.4Tbps 的 CPO 以太网交换芯片。",
+      "content": "IT之家 10 月 13 日消息，博通 Broadcom 当地时间本月 8 日宣布推出其第三代采用 CPO 共封装光学技术的以太网交换芯片 Tomahawk 6-Davisson (TH6-Davisson)，这也是业界首款带宽容量达到 102.4Tbps 的 CPO 以太网交换芯片。 TH6-Davisson 的带宽是此前最快同类芯片的两倍，进一步提升了数据中心的互联效率并在能效和流量稳定性上也拥有明显改进，使得 AI 模型的训练更为流畅和更具成本效益。 ▲ Tomahawk 6-Davisson 芯片 BCM78919 Tomahawk 6-Davisson 芯片包含 16 个基于台积电 COUPE 技术的 6.4Tbps Davisson DR 光学引擎，配套的 ELSFP 激光模块支持现场更换。其每通道带宽达 200Gbps，支持 512 个 XPU 的单层纵向扩展，双层网络中的 XPU 总数则能达到 10 万以上。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/8d59a74f-828c-4dd9-9474-824c33efcd87.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-10-13T04:11:06.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/iCCug8ywqd079fXfWDNx?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.ithome.com/0/889/011.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760329896810_cf508fbd",
+      "title": "日本将构建脑活动数据库，目标十年后让 AI 有“接近人类五感”的能力",
+      "summary": "IT之家 10 月 13 日消息，据日经新闻今日报道，日本总务省将构建基于嗅觉、触觉、味觉等五感的脑活动数据库，从 2026 年度起支持日本国立研究开发法人情报通信研究机构和大阪大学的研究。 报道提到，预计到 2035 年左右将实现具备接近人类五感能力的 AI，从而开发可读取人类情感的新一代 AI。",
+      "content": "IT之家 10 月 13 日消息，据日经新闻今日报道，日本总务省将构建基于嗅觉、触觉、味觉等五感的脑活动数据库，从 2026 年度起支持日本国立研究开发法人情报通信研究机构和大阪大学的研究。 报道提到，预计到 2035 年左右将实现具备接近人类五感能力的 AI，从而开发可读取人类情感的新一代 AI。IT之家从报道中获悉，此举设想利用能识别并传递手部动作的外骨骼机器人手套以及 VR 头显等设备，在接近真实生活的场景中测量脑活动数据。数据库还将在充分考虑个人信息保护的前提下，考虑向民间提供。 日本情报通信审议会将“脑信息通信”列为 2030 年代的重点课题之一。设定的目标是“深化对脑功能的理解，实现具备‘心灵’、能贴近人类需求的新一代脑信息接口技术”。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/3/bc2134c4-e195-4f0e-b43b-26afae1f3bab.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_20,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_8,y_8/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-10-13T04:08:26.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/889/008.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760329873250_4eadb15c",
+      "title": "恒指午间休盘跌3.49%，恒生科技指数跌跌4.54%",
+      "summary": "36氪获悉，恒指午间休盘跌3.49%，恒生科技指数跌4.54%；半导体、科技股领跌，小米集团、哔哩哔哩跌超7%，快手、英诺赛科跌超6%，阿里巴巴、京东集团、百度集团跌超5%；南向资金净买入18.38亿港元。",
+      "content": "36氪获悉，恒指午间休盘跌3.49%，恒生科技指数跌4.54%；半导体、科技股领跌，小米集团、哔哩哔哩跌超7%，快手、英诺赛科跌超6%，阿里巴巴、京东集团、百度集团跌超5%；南向资金净买入18.38亿港元。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2025-10-13T04:01:37.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3507095109426304?f=rss",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760329897016_c57da1dc",
+      "title": "95 的车错加了 92 汽油能否兑点 98？央视发文称别这样做",
+      "summary": "IT之家 10 月 13 日消息，95 的车错加了 92 汽油，能否兑点 98？央视新闻今日发文解惑，这乍一看似乎有点道理，事实上是错误的。 汽油标号是汽油的身份标识，代表着汽油的“特性”，即汽油的辛烷值。不同标号的汽油辛烷值也不同，标号越高代表汽油的辛烷值越高，代表汽油的抗爆性越好。",
+      "content": "IT之家 10 月 13 日消息，95 的车错加了 92 汽油，能否兑点 98？央视新闻今日发文解惑，这乍一看似乎有点道理，事实上是错误的。 汽油标号是汽油的身份标识，代表着汽油的“特性”，即汽油的辛烷值。不同标号的汽油辛烷值也不同，标号越高代表汽油的辛烷值越高，代表汽油的抗爆性越好。简单来说，95 号汽油，是指研究法辛烷值为 95，相当于 95% 异辛烷加上 5% 正庚烷所组成的混合物的抗爆震性能，属于高标号汽油；92 号汽油，是指研究法辛烷值为 92 相当于 92% 异辛烷加上 8% 正庚烷所组成的混合物的抗爆震性能。 汽油在发动机内燃烧时，如果燃烧不充分就会产生爆震，它会导致发动机动力下降、油耗增加，长期还会损害发动机。汽油的抗爆性指的正是汽油抵抗爆震的能力，而汽油的辛烷值正是衡量汽油抗爆性的关键指标。 央视新闻表示，混加汽油并不能得到“平均”的标号。假设将 92 号和 98 号汽油以 1:1 的比例混合，其辛烷值并不是简单的算术平均值 95，因为汽油是个复杂的混合物，其抗爆性还受到其他成分的影响，混合后的辛烷值通常低于平均值。 报道称，每辆车的发动机都有自己的压缩比，出厂时就规定了适合的汽油标号。如果高压缩比发动机误加了低标号汽油，发动机极易发生爆震，造成严重损伤。而高标号油用于低标号要求的车，可能导致燃烧不充分、增加积碳。 IT之家从央视新闻报道获悉，国内某权威机构 2024 年底发布的调查报告显示，国内 83% 的车型出厂时明确要求使用 92 号汽油，只有 17% 的车型需要 95 号或以上标号汽油，这意味着绝大多数车主根本无需纠结于高标号汽油的选择。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/bc241675-83d7-4e34-a720-398a15bb6635.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_19,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_7,y_7/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-10-13T04:01:31.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/889/001.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760329878665_fad6c252",
+      "title": "Cloud-Based Large Models are Easy; The Real Challenge is On-Device AI, Says Vivo AI Global Research Institute Director",
+      "summary": "Cloud-Based Large Models are Easy; The Real Challenge is On-Device AI, Says Vivo AI Global Research Institute Director...",
+      "content": "Zhou acknowledged ongoing limitations: on-device AI agents still operate mainly within manufacturer-developed apps. Cross-app functionality requires negotiations between developers’ security standards and device capabilities. To overcome this, vivo is promoting industry standards and expects AI technology to mature over several years.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-10-13T03:56:12.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7719205.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1760327124958_db0ed5cc",
@@ -244,6 +280,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1760329889238_34ee187c",
+      "title": "客户端 AI Coding 实践：从 PRD 到代码直出｜QCon 上海",
+      "summary": "客户端 AI Coding 实践：从 PRD 到代码直出｜QCon 上海",
+      "content": "客户端 AI Coding 实践：从 PRD 到代码直出｜QCon 上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-12T09:52:08.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/y42vK1CIJrSNeBmsTBYJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1760260994871_cc9687ac",
       "title": "比亚迪中标新加坡L4级智驾巴士试点项目",
       "summary": "36氪获悉，10月11日，比亚迪商用车官微宣布，比亚迪中标新加坡智驾巴士服务试点项目，也是新加坡首个L4级自动驾驶巴士的官方项目。",
@@ -326,30 +374,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/888/815.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760327141994_eaaa4280",
-      "title": "第一批吃上Agentic AI “螃蟹”的人，是如何坐上餐桌的？",
-      "summary": "第一批吃上Agentic AI “螃蟹”的人，是如何坐上餐桌的？",
-      "content": "第一批吃上Agentic AI “螃蟹”的人，是如何坐上餐桌的？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-11T17:08:57.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/7oQSKAGNoQZwL4SBgYN6?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760327142795_28599592",
-      "title": "AI 进化论丨第五期：推理革命——Mooncake 如何破解成本、吞吐与长上下文困局",
-      "summary": "AI 进化论丨第五期：推理革命——Mooncake 如何破解成本、吞吐与长上下文困局",
-      "content": "AI 进化论丨第五期：推理革命——Mooncake 如何破解成本、吞吐与长上下文困局",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-11T17:04:47.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/vUNUp9tkjBHxGqaO33WK?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1760200119732_8e84cac5",
