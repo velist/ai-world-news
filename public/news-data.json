@@ -1,8 +1,44 @@
 {
   "success": true,
-  "timestamp": "2025-10-18T23:22:46.090Z",
-  "total": 90,
+  "timestamp": "2025-10-19T02:10:58.880Z",
+  "total": 93,
   "data": [
+    {
+      "id": "news_1760839847883_5abd5c67",
+      "title": "企业级 MCPHub ：打通大模型落地的“最后一公里”｜QCon 上海",
+      "summary": "企业级 MCPHub ：打通大模型落地的“最后一公里”｜QCon 上海",
+      "content": "企业级 MCPHub ：打通大模型落地的“最后一公里”｜QCon 上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-19T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/FtOk93a3hk21EvH2kPBf?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760839857851_f6d5ca7e",
+      "title": "苹果 M5 MacBook Pro 现身 Geekbench 6，多核跑分 18024 分接近 2022 年 M1 Ultra",
+      "summary": "IT之家 10 月 19 日消息，苹果本周发布了搭载 M5 芯片的 MacBook Pro / Vision Pro / iPad Pro，相应芯片基于第三代 3nm 制程打造，配备 4 个性能核心和 6 个高能效核心，与 M4 相同。",
+      "content": "IT之家 10 月 19 日消息，苹果本周发布了搭载 M5 芯片的 MacBook Pro / Vision Pro / iPad Pro，相应芯片基于第三代 3nm 制程打造，配备 4 个性能核心和 6 个高能效核心，与 M4 相同。 作为对比，M4 Pro 最高拥有 10 个性能核心和 4 个高能效核心，M4 Max 则为 12 个性能核心和 4 个高能效核心。 目前，搭载了 M5 芯片的 MacBook Pro 机型已现身 Geekbench 6，显示 M5 芯片多核跑分达到 18024 分，几乎追平 2022 年的 M1 Ultra 芯片；而单核跑分为 4332 分，是 M1 Ultra 的 1.78 倍。 官方此前还表示，M5 芯片的 GPU 架构与苹果软件框架深度整合，使用 Core ML、Metal Performance Shaders 及 Metal 4 的应用可直接获得性能提升。开发者还可通过 Metal 4 中的 Tensor API 对神经加速单元进行编程，从而构建专属 AI 加速方案，在特定软件中还能够获得更强的性能增益。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/4cc403ac-19ce-4c12-9bc0-2863845814e7.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-10-19T01:38:37.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/890/561.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760839857877_aab75889",
+      "title": "大国工程新进展：金沙江昌波水电站成功截流，预计 2028 年发电",
+      "summary": "IT之家 10 月 19 日消息，据央视新闻报道，10 月 18 日，国家“十四五”重大工程，金沙江上游昌波水电站成功实现大江截流。昌波水电站是国内在建规模最大的调压室群水电项目，此次大江截流的关键节点突破，标志着金沙江上游清洁能源基地建设迈出了关键一步。",
+      "content": "IT之家 10 月 19 日消息，据央视新闻报道，10 月 18 日，国家“十四五”重大工程，金沙江上游昌波水电站成功实现大江截流。昌波水电站是国内在建规模最大的调压室群水电项目，此次大江截流的关键节点突破，标志着金沙江上游清洁能源基地建设迈出了关键一步。 据IT之家了解，昌波水电站是金沙江上游流域首个在 10 月实现大江截流的水电项目。该时间点正处于“汛末枯初”，流域水流量大，截流龙口的水流流速快且破坏性强。建设者们创新性地采用新能源施工机械，实现了生产废水的全循环利用，并累计放流了 14 万尾适宜该水域环境的珍稀鱼类。该项目也成为国内首个通过生态环境深度论证并调整开发时序的水电工程。 昌波水电站的装机容量为 82.6 万千瓦，预计于 2028 年实现首批机组投产发电。电站建成后，预计平均每年可生产清洁电能超过 43 亿千瓦时，相当于每年节约标准煤约 140 万吨，减少二氧化碳排放量近 360 万吨。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/a04b7122-3929-44d2-941b-900f9bf91721.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-10-19T01:22:41.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/890/558.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1760829765085_b8c0d597",
       "title": "苹果 10 月 22 日推 Vision Pro 新版开发专用带，与 M5 版 Vision Pro 同日发售",
@@ -14,6 +50,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/890/536.htm",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760839836054_0",
+      "title": "如何在AI泡沫破裂时避免受到伤害",
+      "summary": "新闻摘要：当前，人工智能领域存在明显泡沫，相关股票占据了标普500指数的大部分回报率和资本支出。然而，随着泡沫可能破裂，投资者需警惕潜在风险。专家建议，应理性看待AI技术的发展，避免盲目追涨杀跌，同时关注企业实际业绩而非单纯依赖概念炒作。",
+      "content": "是否存在AI泡沫？是的，很明显。自2022年OpenAI的ChatGPT推出以来，与人工智能相关的股票占据了标普500指数约75%的回报率和90%的资本支出。这在很大程度上是基于美国公司过高的估值……",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/is1vl.sQcyt8/v0/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2025-10-18T13:19:09.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.bloomberg.com/news/newsletters/2025-10-18/how-to-protect-yourself-from-the-ai-bubble-merryn-talks-money",
+      "aiInsight": "这篇新闻报道揭示了AI领域可能存在的泡沫现象，特别是在股票市场上的高估值情况。从技术发展角度来看，虽然AI技术的快速发展带来了诸多创新和应用，但市场热情过度可能会导致投资泡沫的形成。从行业影响来看，高估值可能导致资源分配不均，影响长期稳健发展，同时也可能促使企业采取短期投机行为，而非专注于技术创新和产品优化。未来趋势方面，AI技术本身不会消失，但市场需要回归理性，企业应注重长期价值创造，投资者也应更加谨慎，避免盲目跟风，从而促进AI行业的健康可持续发展。"
     },
     {
       "id": "news_1760794107700_59b523cd",
@@ -110,6 +158,30 @@
       "category": "国外AI",
       "originalUrl": "https://36kr.com/newsflashes/3514345103334532?f=rss",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760839849881_378f621f",
+      "title": "程序员用AI写歌还赚钱了！用AI 批量生产“爆款”，这个副业“杀疯了”？",
+      "summary": "程序员用AI写歌还赚钱了！用AI 批量生产“爆款”，这个副业“杀疯了”？",
+      "content": "程序员用AI写歌还赚钱了！用AI 批量生产“爆款”，这个副业“杀疯了”？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-18T07:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/8QEPrSVWRWHO6qxSZOAY?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760839835396_1",
+      "title": "OpenAI 将允许该聊天机器人与成人进行情色对话",
+      "summary": "OpenAI 宣布将允许其聊天机器人 ChatGPT 与已验证成年用户进行包含成人内容的交流，这意味着 ChatGPT 将能够进行更加亲密和情色的对话。这一决定引发了广泛关注，OpenAI 成立之初就承诺不会开发用于色情内容的工具，但此次却允许聊天机器人与用户进行成人内容交流，或将从中获利。",
+      "content": "ChatGPT 将能够在 OpenAI 首席执行官 Sam Altman 宣布该公司即将允许其聊天机器人与“已验证成年用户”进行“成人内容”交流后进行更加亲密的对话。OpenAI 不会是第一个尝试从中获利的公司……",
+      "imageUrl": "https://wehco.media.clients.ellingtoncms.com/imports/adg/photos/211318780_211318136-4a9462f980ea41d8974493c5fe11621e_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
+      "source": "Arkansas Online",
+      "publishedAt": "2025-10-18T06:46:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.arkansasonline.com/news/2025/oct/18/openai-to-allow-bot-to-get-racy-with-adults/",
+      "aiInsight": "这一新闻引发了对人工智能技术应用边界和伦理道德的深刻讨论。从技术发展角度看，这标志着ChatGPT在自然语言处理和内容生成方面的能力进一步提升，但也暴露出其在内容过滤和用户隐私保护方面的局限。从行业影响看，这可能促使其他公司效仿，加速成人内容生成技术的发展，同时也可能引发更多关于人工智能伦理和社会责任的讨论。未来趋势方面，企业需要在技术创新与社会责任之间找到平衡点，加强对AI内容生成的监管和引导，确保技术发展符合社会伦理标准，避免潜在的负面影响。"
     },
     {
       "id": "news_1760829738773_0",
@@ -316,16 +388,28 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1760829737758_1",
+      "id": "news_1760839851700_17223fe3",
+      "title": "中国农业大学发布“膳良人”AI营养智能体：精准营养与AI深度融合迈出关键一步",
+      "summary": "中国农业大学发布“膳良人”AI营养智能体：精准营养与AI深度融合迈出关键一步",
+      "content": "中国农业大学发布“膳良人”AI营养智能体：精准营养与AI深度融合迈出关键一步",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-17T16:49:26.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/bj61H2PxKjlbihCCcFZR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760839835614_2",
       "title": "谷歌和OpenAI向教师支付数百万美元以培训他们使用AI",
-      "summary": "谷歌和OpenAI正向美国教师支付数百万美元，用于培训他们如何使用AI技术。此举旨在提高教师对AI工具的理解和应用能力，从而更好地融入教学中。这一举措得到了多家私人基金会的支持，但AP独立负责所有内容报道。",
-      "content": "现在就开始收听，并订阅：Apple Podcasts | Spotify | RSS Feed | SoundStack | 我们的所有播客 美国有线电视新闻署（AP）的教育报道得到了多家私人基金会的财务支持。AP 单独负责所有内容。了解更多关于 AP...",
+      "summary": "谷歌和OpenAI正向全球数以千计的教师支付数百万美元，以培训他们如何在课堂上使用人工智能技术。此次合作旨在帮助教师更好地理解和应用AI工具，以提升教学质量和学生的学习体验。然而，有教育专家指出，这种做法可能加剧教育不平等，因为并非所有学校都能负担得起这些培训费用。",
+      "content": "现在聆听并订阅：Apple Podcasts | Spotify | RSSFeed | SoundStack | 我们的所有播客 美联社的教育报道得到了多家私人基金会的财务支持。AP独自负责所有内容。了解更多关于AP...",
       "imageUrl": "https://bloximages.chicago2.vip.townnews.com/billingsgazette.com/content/tncms/assets/v3/editorial/0/be/0be37303-9c42-5134-8961-aef1a804071c/68f267f8a0ab5.preview.jpg?crop=1344%2C706%2C156%2C73&resize=1200%2C630&order=crop%2Cresize",
       "source": "Billings Gazette",
       "publishedAt": "2025-10-17T16:30:00.000Z",
-      "category": "国际AI",
+      "category": "国外AI",
       "originalUrl": "https://billingsgazette.com/news/nation-world/education/article_0be37303-9c42-5134-8961-aef1a804071c.html",
-      "aiInsight": "这项新闻透露了谷歌和OpenAI正在积极投资教育领域，通过向教师支付数百万美元的培训费用，旨在加速AI技术在教育行业的应用。从技术发展角度看，这表明大模型和AI技术正在逐渐成熟，能够为教育带来革命性的变化。从行业影响来看，这可能加速推动AI技术在教育行业的普及，提高教学质量，同时也可能引发教育模式的变革。未来趋势方面，随着更多企业进入教育市场，AI教育产品和服务可能会更加丰富，个性化教学成为可能，从而提高学生的学习效果和兴趣。然而，这也可能引发隐私保护、数据安全等问题，需要在发展技术的同时，注重伦理和社会责任。"
+      "aiInsight": "这篇新闻报道了谷歌和OpenAI正在向教师支付数百万美元以培训他们使用AI技术。从技术发展角度来看，这表明人工智能正逐渐渗透到教育领域，AI技术在教育场景中的应用正逐步商业化，这也反映了AI技术在教育领域的应用潜力和市场需求。从行业影响来看，这一举措可能会加速AI技术在教育行业的普及，促进教育行业的数字化转型。未来趋势方面，随着AI技术的不断进步和应用的深入，AI教育产品和服务将更加多样化和个性化，有望为学生提供更高质量的教育资源和学习体验。同时，这也将对教师的职业技能提出更高要求，教师需要不断提升自身的数字素养，更好地利用AI技术辅助教学。"
     },
     {
       "id": "news_1760822475900_1",
@@ -376,16 +460,16 @@
       "aiInsight": "这篇新闻揭示了人工智能技术在性市场的应用前景，但同时也反映出该领域带来的伦理和监管挑战。从技术发展的角度看，这表明AI技术在自然语言处理和内容生成方面取得了显著进步，能够处理更敏感和复杂的内容。然而，这种技术的应用引发了广泛的伦理争议，特别是在隐私保护、内容安全和道德责任方面。\n\n从行业影响来看，这可能会刺激更多公司在性市场探索AI技术的应用，但也可能加剧公众对AI技术的担忧和反感。对于OpenAI而言，此举可能会吸引一部分特定用户群体，但同时也面临着严格的监管审查和社会责任的压力。\n\n未来趋势方面，AI在性市场的应用需要在技术创新与伦理规范之间找到平衡。行业参与者应更加重视隐私保护、内容审查和伦理审查，确保技术的应用既能满足市场需求，又能保护用户权益，避免潜在的社会风险。"
     },
     {
-      "id": "news_1760829760002_4b1a3e7e",
-      "title": "Mobvista蔡超：多智能体不是“可选项”，而是软件未来的“必答题”",
-      "summary": "Mobvista蔡超：多智能体不是“可选项”，而是软件未来的“必答题”",
-      "content": "Mobvista蔡超：多智能体不是“可选项”，而是软件未来的“必答题”",
+      "id": "news_1760839852383_bd068eaa",
+      "title": "AI 时代可观测性的“智”变与“智”控 ｜InfoQ《极客有约》",
+      "summary": "AI 时代可观测性的“智”变与“智”控 ｜InfoQ《极客有约》",
+      "content": "AI 时代可观测性的“智”变与“智”控 ｜InfoQ《极客有约》",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-10-17T14:30:18.000Z",
+      "publishedAt": "2025-10-17T14:57:05.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/EkgbOFf2QOp3QKMDIIpJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/video/YOTeVHta0A3Xqq2l4Bbp?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1760711221301_7ed00cf1",
@@ -1034,54 +1118,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/890/159.htm",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760666273475_cbbe46bc",
-      "title": "AL、TES、BLG 均取胜，LPL《英雄联盟》S15 瑞士轮次日收获 3:0",
-      "summary": "IT之家 10 月 17 日消息，在昨日进行的 2025 (S15)《英雄联盟》全球总决赛瑞士轮第二比赛日中，LPL 赛区豪取 3:0 的战绩，AL、TES、BLG 都在 BO1 对决中拿下各自对手。",
-      "content": "IT之家 10 月 17 日消息，在昨日进行的 2025 (S15)《英雄联盟》全球总决赛瑞士轮第二比赛日中，LPL 赛区豪取 3:0 的战绩，AL、TES、BLG 都在 BO1 对决中拿下各自对手。 在首先进行的 TES vs 100T 对决中，TES 稳步建立优势，在 25 分钟拿下大龙后一波推平，也算是为 BLG 报了一箭之仇。 而 AL 则是在与 GEN 的强强对话中逆风翻盘成功，终结了这支 LCK 战队在 S 赛瑞士轮的 7 连胜记录。 BLG 在来到第二比赛日并更换打野位置选手后重振旗鼓，以 27:53 的时长战胜 FNC。 其它场比赛中，FLY 胜 VKS、KT 胜 TSW、G2 胜 MKOI、CFO 力克 T1、HLE 胜 PSG。 根据昨日赛后抽签，2-0 的 AL 和 TES 将分别遭遇 CFO 和 KT，BLG 则会在 1-1 组别面对 G2。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/032b153b-9d35-447f-980f-d1ddec950c57.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-10-17T01:50:52.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/890/141.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760666273671_78a5ddee",
-      "title": "雷蛇清姬 V2 / X 网络摄像头上架：至高 4K 30FPS + AI 智能跟踪，799 元起",
-      "summary": "IT之家 10 月 17 日消息，雷蛇现已推出清姬 V2（Razer Kiyo V2）和清姬 V2 X（Razer Kiyo V2 X）国行版本，定价分别为 1199 元 / 799 元。",
-      "content": "IT之家 10 月 17 日消息，雷蛇现已推出清姬 V2（Razer Kiyo V2）和清姬 V2 X（Razer Kiyo V2 X）国行版本，定价分别为 1199 元 / 799 元。 据介绍，其中清姬 V2 尺寸为 74 x 65.3 x 116 mm，配备 830 万像素 Sony STARVIS 传感器，匹配 93° 超广角镜头，支持录制 4K@30FPS 视频，支持 AI 智能追踪。 而清姬 V2 X 定位入门，尺寸为 67 x 67.8 x 109 mm，配备 370 万像素传感器，匹配 80° 广角镜头，支持 2K@60FPS 视频，支持快速自动画面追焦。 IT之家附产品参数如下： ▲ 清姬 V2 ▲ 清姬 V2 X",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/c285c37b-c0bd-4931-a0ec-4dcc008f35ae.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-10-17T01:18:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/890/126.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760666260248_c6381d72",
-      "title": "智元“摇钱树”精灵系列升级G2，该工业级交互式具身作业机器人已获数亿元订单",
-      "summary": "智元机器人合伙人、高级副总裁、具身业务部总裁姚卯青对笔者表示，今年智元机器人交付达到数千台，客户订单包含科研教育、交互服务、工业等领域应用场景。同时，智元对于机器人系列规划的生命周期约三年。",
-      "content": "智元机器人合伙人、高级副总裁、具身业务部总裁姚卯青对笔者表示，今年智元机器人交付达到数千台，客户订单包含科研教育、交互服务、工业等领域应用场景。同时，智元对于机器人系列规划的生命周期约三年。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-10-17T01:07:38.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7725929.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760666273864_98121582",
-      "title": "华硕爱速特 NAS 支持 PQC 加密技术，可抵御量子计算解密",
-      "summary": "IT之家 10 月 17 日消息，华硕旗下 NAS 公司 ASUSTOR 华芸 / 爱速特昨日宣布其 NAS 操作系统 ADM 5.1 将全面导入 PQC（IT之家注：后量子密码学）技术，可抵御黑客通过量子计算对加密文件的解密攻击。",
-      "content": "IT之家 10 月 17 日消息，华硕旗下 NAS 公司 ASUSTOR 华芸 / 爱速特昨日宣布其 NAS 操作系统 ADM 5.1 将全面导入 PQC（IT之家注：后量子密码学）技术，可抵御黑客通过量子计算对加密文件的解密攻击。 ASUSTOR ADM 5.1 将联机加密核心技术全面提升为 Hybrid TLS，采用业界标准组合 X25519 + ML-KEM 768（Kyber），导入获得 NIST 认证的 Kyber 算法，进一步增强存储内容的安全性。 PQC 加密意味着 ASUSTOR 的 NAS 设备能更好防范“先窃取、后解密”式信息安全风险，保障长期存储的备份、机密资料、IP 资产、医疗与财务记录、政企通讯等在长时间内均有价值的信息免受日后黑客掌握量子计算设备时可能存在的威胁。 当用户使用支持 PQC 的浏览器与 ADM 联机时，系统将自动侦测并实时建立 PQC 连接。ADM 用户接口亦会明确显示目前的联机加密状态，让用户一目了然、安心使用。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/ed88ff4b-35f9-4641-b1a2-1d6567714deb.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-10-17T01:06:25.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/890/125.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
