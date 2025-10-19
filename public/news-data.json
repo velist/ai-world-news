@@ -1,7 +1,7 @@
 {
   "success": true,
-  "timestamp": "2025-10-19T10:25:42.063Z",
-  "total": 65,
+  "timestamp": "2025-10-19T11:20:01.007Z",
+  "total": 60,
   "data": [
     {
       "id": "news_1760869516314_4bd3f883",
@@ -14,18 +14,6 @@
       "category": "国外AI",
       "originalUrl": "https://36kr.com/newsflashes/3515800349564040?f=rss",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760869529411_5abd5c67",
-      "title": "企业级 MCPHub ：打通大模型落地的“最后一公里”｜QCon 上海",
-      "summary": "企业级 MCPHub ：打通大模型落地的“最后一公里”｜QCon 上海",
-      "content": "企业级 MCPHub ：打通大模型落地的“最后一公里”｜QCon 上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-19T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/FtOk93a3hk21EvH2kPBf?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1760869541058_f708e45b",
@@ -172,6 +160,18 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1760872765910_0",
+      "title": "如何在AI泡沫破裂时避免受伤",
+      "summary": "新闻摘要：当前，人工智能领域出现泡沫迹象，相关股票在标普500指数中占据主导地位，估值大幅膨胀。专家警告，随着泡沫可能破裂，投资者和企业需谨慎行事，避免遭受损失。面对AI技术的快速发展，保持理性投资态度和审慎决策至关重要。",
+      "content": "是否存在人工智能泡沫？是的，很明显。自2022年OpenAI的ChatGPT推出以来，与人工智能相关的股票占据了标普500指数约75%的回报率和90%的资本支出。主要基于美国市场的估值大幅膨胀……",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/is1vl.sQcyt8/v0/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2025-10-18T13:19:09.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.bloomberg.com/news/newsletters/2025-10-18/how-to-protect-yourself-from-the-ai-bubble-merryn-talks-money",
+      "aiInsight": "这篇新闻提到了人工智能领域的泡沫现象，并指出了相关股票的估值大幅膨胀。从技术发展的角度看，虽然ChatGPT等技术取得了显著进展，但目前的人工智能技术仍然存在局限性和不确定性，过度炒作可能会影响市场理性。从行业影响的角度看，这种泡沫可能导致资本资源的不合理分配，对真正有价值的创新项目缺乏支持。未来趋势方面，随着泡沫的破裂，市场可能会更加理性，促使企业更加注重技术的实际应用和长期价值，而非短期炒作。此外，这也将促进监管政策的完善，为人工智能的健康发展营造良好的环境。"
+    },
+    {
       "id": "news_1760869510058_0",
       "title": "如何在AI泡沫破裂时避免受到伤害",
       "summary": "新闻摘要：当前，人工智能领域存在明显泡沫，相关股票占据了标普500指数的大部分回报率和资本支出。然而，随着OpenAI的ChatGPT推出，市场对AI的热情高涨，导致估值过高。专家警告，投资者需警惕泡沫破裂带来的风险，避免盲目跟风，保持理性投资态度。",
@@ -280,28 +280,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1760869531748_378f621f",
-      "title": "程序员用AI写歌还赚钱了！用AI 批量生产“爆款”，这个副业“杀疯了”？",
-      "summary": "程序员用AI写歌还赚钱了！用AI 批量生产“爆款”，这个副业“杀疯了”？",
-      "content": "程序员用AI写歌还赚钱了！用AI 批量生产“爆款”，这个副业“杀疯了”？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-18T07:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/8QEPrSVWRWHO6qxSZOAY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760869510424_1",
+      "id": "news_1760872766550_1",
       "title": "OpenAI将允许该聊天机器人与成人进行涉黄对话",
-      "summary": "OpenAI宣布将允许其聊天机器人ChatGPT与已验证成年用户进行包含色情内容的交流。这一决定引发了广泛关注和争议。ChatGPT将能够进行更加亲密的对话，OpenAI计划从中获利。然而，这一举措也引发了关于道德和隐私的担忧。",
-      "content": "ChatGPT 将能够在 OpenAI 首席执行官萨姆·阿尔特曼宣布该公司即将允许其聊天机器人与“已验证成年用户”进行“色情内容”交流后进行更加亲密的对话。 OpenAI 不会是第一个尝试从中获利的公司……[3989 chars]",
+      "summary": "OpenAI宣布将允许其聊天机器人ChatGPT与已验证成年用户进行成人内容交流。这标志着ChatGPT将能够进行更加亲密的对话。此举引发了关于平台内容监管和用户隐私保护的讨论。OpenAI表示此举旨在从中获利，但具体盈利模式尚未公布。",
+      "content": "ChatGPT 将能够在 OpenAI 首席执行官 Sam Altman 宣布该公司即将允许其聊天机器人与“已验证成年用户”进行“成人内容”交流后进行更加亲密的对话。OpenAI 不会是第一个尝试从中获利的公司……[3989 chars]",
       "imageUrl": "https://wehco.media.clients.ellingtoncms.com/imports/adg/photos/211318780_211318136-4a9462f980ea41d8974493c5fe11621e_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
       "source": "Arkansas Online",
       "publishedAt": "2025-10-18T06:46:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.arkansasonline.com/news/2025/oct/18/openai-to-allow-bot-to-get-racy-with-adults/",
-      "aiInsight": "这一政策调整引发了广泛的讨论和担忧。从技术发展角度来看，这体现了AI技术在内容生成和理解上的进步，但也暴露出在伦理和监管方面的挑战。允许ChatGPT进行涉黄对话，可能提升其在特定场景下的表现，但同时也可能导致隐私泄露、内容控制等问题。\n\n从行业影响来看，此举可能会推动其他AI公司跟进，加剧内容安全和监管的难度。这可能促使监管机构加强对AI应用的审查，制定更严格的行业标准和法律法规。\n\n未来趋势方面，AI技术的广泛应用需要在创新与安全之间找到平衡点。企业不仅要在技术上不断突破，还需建立健全的内容审核机制，确保AI产品和服务的安全性、合规性。同时，公众应提高对AI伦理问题的意识，促进社会各界共同参与AI的健康发展。"
+      "aiInsight": "这一新闻引发了对AI技术伦理和应用边界的深刻讨论。从技术发展角度看，这标志着AI技术在处理复杂情境和特定用户需求上的进一步突破；但从行业影响和伦理角度看，这引发了公众对AI内容过滤、用户隐私保护和道德责任等方面的担忧。\n\n**行业影响**：此类功能的开放可能会吸引部分用户，但同时也可能损害OpenAI的品牌形象和用户信任。此外，可能引发法律和监管上的挑战，尤其是在内容审查和合规方面。\n\n**未来趋势**：这可能促使其他AI公司跟进，进一步探索AI在成人内容互动领域的机会。然而，这也要求企业加大在内容过滤、用户保护和伦理审查上的投入，以确保技术的健康发展。未来AI技术的应用将更加注重平衡技术创新与社会责任之间的关系。"
     },
     {
       "id": "news_1760865815118_1",
@@ -544,28 +532,16 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1760869534071_17223fe3",
-      "title": "中国农业大学发布“膳良人”AI营养智能体：精准营养与AI深度融合迈出关键一步",
-      "summary": "中国农业大学发布“膳良人”AI营养智能体：精准营养与AI深度融合迈出关键一步",
-      "content": "中国农业大学发布“膳良人”AI营养智能体：精准营养与AI深度融合迈出关键一步",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-17T16:49:26.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/bj61H2PxKjlbihCCcFZR?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760869509126_2",
+      "id": "news_1760872765103_2",
       "title": "谷歌和OpenAI向教师支付数百万美元以培训他们使用AI",
-      "summary": "谷歌和OpenAI正向美国教师支付数百万美元，用于培训他们使用AI技术。此举旨在提高教师对AI工具的理解和应用能力，以更好地融入教学中。此次合作将有助于推动AI技术在教育领域的普及和应用，提高教学质量和效率。",
-      "content": "现在收听并订阅：Apple Podcasts | Spotify | RSS Feed | SoundStack | 我们的所有播客 美国有线电视新闻署（AP）的教育报道得到了多家私人基金会的财务支持。AP 单独负责所有内容。了解更多关于 AP...",
+      "summary": "谷歌和OpenAI正向美国教师支付数百万美元，用于培训他们如何使用人工智能技术。此举旨在提高教师对AI工具的理解和应用能力，以更好地融入日常教学中。这一计划得到了多家私人基金会的支持，但AP单独负责所有内容。该计划将帮助教师更好地利用AI技术，提高教学质量和学生学习效果。",
+      "content": "现在聆听并订阅：Apple Podcasts | Spotify | RSS Feed | SoundStack | 我们的所有播客 美国有线电视新闻署（AP）的教育报道得到了多家私人基金会的财务支持。AP 单独负责所有内容。了解更多关于 AP...",
       "imageUrl": "https://bloximages.chicago2.vip.townnews.com/billingsgazette.com/content/tncms/assets/v3/editorial/0/be/0be37303-9c42-5134-8961-aef1a804071c/68f267f8a0ab5.preview.jpg?crop=1344%2C706%2C156%2C73&resize=1200%2C630&order=crop%2Cresize",
       "source": "Billings Gazette",
       "publishedAt": "2025-10-17T16:30:00.000Z",
       "category": "国际AI",
       "originalUrl": "https://billingsgazette.com/news/nation-world/education/article_0be37303-9c42-5134-8961-aef1a804071c.html",
-      "aiInsight": "这篇新闻揭示了谷歌和OpenAI为教师提供培训，以帮助他们更好地利用AI技术进行教学。从技术发展的角度看，这表明AI技术已经足够成熟，能够成为教育工具的重要组成部分。从行业影响的角度来看，这可能会加速教育行业的数字化转型，促使更多教育机构和教师采用AI技术来提升教学效果。未来趋势方面，预计会有更多科技公司和教育机构合作，共同开发和推广适合教育场景的AI解决方案。此外，这也将促进AI教育内容和应用的创新，提高学生的交互式学习体验。这一举措对于推动AI技术在教育领域的普及具有重要意义。"
+      "aiInsight": "这篇新闻报道了谷歌和OpenAI向教育工作者支付大量资金，用于培训他们如何使用人工智能技术。从技术发展的角度来看，这表明AI技术正在逐渐渗透到教育领域，未来可能会有更多的教育工具和方法基于AI技术。从行业影响的角度来看，这将加速教师对AI技术的掌握和应用，也可能带来教育模式的变革。从未来趋势的角度来看，这预示着AI技术将深入影响教育行业，提高教学效率和个性化学习体验。然而，这也引发了隐私保护、伦理道德和技术公平性等方面的担忧，需要在推广AI教育应用的过程中加以关注和解决。"
     },
     {
       "id": "news_1760865814286_2",
@@ -616,16 +592,16 @@
       "aiInsight": "这篇新闻揭示了人工智能技术在性市场的应用前景，但同时也反映出该领域带来的伦理和监管挑战。从技术发展的角度看，这表明AI技术在自然语言处理和内容生成方面取得了显著进步，能够处理更敏感和复杂的内容。然而，这种技术的应用引发了广泛的伦理争议，特别是在隐私保护、内容安全和道德责任方面。\n\n从行业影响来看，这可能会刺激更多公司在性市场探索AI技术的应用，但也可能加剧公众对AI技术的担忧和反感。对于OpenAI而言，此举可能会吸引一部分特定用户群体，但同时也面临着严格的监管审查和社会责任的压力。\n\n未来趋势方面，AI在性市场的应用需要在技术创新与伦理规范之间找到平衡。行业参与者应更加重视隐私保护、内容审查和伦理审查，确保技术的应用既能满足市场需求，又能保护用户权益，避免潜在的社会风险。"
     },
     {
-      "id": "news_1760869534851_bd068eaa",
-      "title": "AI 时代可观测性的“智”变与“智”控 ｜InfoQ《极客有约》",
-      "summary": "AI 时代可观测性的“智”变与“智”控 ｜InfoQ《极客有约》",
-      "content": "AI 时代可观测性的“智”变与“智”控 ｜InfoQ《极客有约》",
+      "id": "news_1760872795934_4b1a3e7e",
+      "title": "Mobvista蔡超：多智能体不是“可选项”，而是软件未来的“必答题”",
+      "summary": "Mobvista蔡超：多智能体不是“可选项”，而是软件未来的“必答题”",
+      "content": "Mobvista蔡超：多智能体不是“可选项”，而是软件未来的“必答题”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-10-17T14:57:05.000Z",
+      "publishedAt": "2025-10-17T14:30:18.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/YOTeVHta0A3Xqq2l4Bbp?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/EkgbOFf2QOp3QKMDIIpJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1760711221301_7ed00cf1",
@@ -746,42 +722,6 @@
       "category": "国外AI",
       "originalUrl": "https://abc17news.com/money/cnn-business-consumer/2025/10/17/openais-sora-bans-martin-luther-king-jr-deepfakes-after-his-family-complained/",
       "aiInsight": "该新闻反映了AI技术在内容生成方面面临的伦理和社会责任挑战。从技术发展角度看，Sora作为深度合成工具，展示了生成逼真视频内容的强大能力，但同时也暴露出其在内容审核和伦理考量上的不足。行业影响方面，这一事件可能促使相关平台加强内容审查机制，以防止不实或冒犯性内容的传播。未来趋势上，AI内容生成技术的发展将更加注重伦理准则和社会影响，实现技术进步与社会责任的平衡。此外，这也将推动行业制定更严格的使用规范和监管标准，确保AI技术健康有序发展。"
-    },
-    {
-      "id": "news_1760700119937_63a0f2db",
-      "title": "百度世界 2025 大会将于 11 月 13 日在北京举行，主题“效果涌现”",
-      "summary": "IT之家 10 月 17 日消息，百度官方本周一宣布百度世界 2025 大会将于 11 月 13 日在北京国家会议中心二期举行，主题为“效果涌现 | AI In Action”。",
-      "content": "IT之家 10 月 17 日消息，百度官方本周一宣布百度世界 2025 大会将于 11 月 13 日在北京国家会议中心二期举行，主题为“效果涌现 | AI In Action”。 本次大会展区面积近 10000 平方米，设有 1+6 场顶尖论坛和 40 余场 AI 公开课，将发布多项 AI 应用和 AI 产品升级。 百度创始人李彦宏、首席技术官王海峰、集团执行副总裁沈抖均将出席，其中李彦宏将分享其最新 AI 思考。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/9b93e658-9295-4c8d-a0c8-d9875b4174ae.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-10-17T10:52:18.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/890/343.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760758524644_3",
-      "title": "OpenAI与Broadcom、AMD的交易展示了AI市场潜力有多大",
-      "summary": "OpenAI与AMD和Broadcom签订的芯片采购协议，展示了人工智能市场正在迅速扩张，有望超越当前领头羊NVIDIA。此次合作不仅突显了OpenAI在AI领域的影响力，也表明了AMD和Broadcom等公司正积极布局AI市场，预示着AI行业未来巨大的增长潜力。",
-      "content": "OpenAI 与 Advanced Micro Devices Inc. 和 Broadcom Inc. 签订的芯片采购协议展示了人工智能行业在超越 NVIDIA 公司这一领头羊后还有多大的增长空间。自 AMD 和 OpenAI 宣布其合作以来的两周内……",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHHP75cy6NW8/v1/1200x675.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2025-10-17T10:28:31.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2025-10-17/openai-s-deals-with-broadcom-amd-show-how-big-ai-market-can-be",
-      "aiInsight": "这篇新闻反映了AI技术市场正在经历快速增长和深刻变革，从技术发展角度看，这表明除了NVIDIA之外，AMD和Broadcom等公司也开始在AI芯片市场占据一席之地，显示了AI芯片市场的多元化趋势。从行业影响来看，这不仅会促进AI硬件市场的竞争，也可能促使NVIDIA加大研发投入，以保持其市场主导地位。未来趋势方面，随着更多科技公司的加入，AI芯片的性能、成本和能耗效率将得到进一步优化，推动AI技术在更多领域的应用，如自动驾驶、智能医疗、金融科技等。这也将加速AI技术的普及和行业创新。"
-    },
-    {
-      "id": "news_1760756417611_3",
-      "title": "OpenAI与Broadcom和AMD的交易展示了AI市场可以有多大",
-      "summary": "OpenAI与Broadcom和AMD达成芯片采购协议，展示了AI市场巨大的增长潜力。自双方合作宣布以来，AMD股价已上涨超过20%，表明AI行业正在迅速发展并可能超越顶级供应商NVIDIA。这一交易凸显了AI市场广阔的增长空间，吸引了更多科技巨头的参与。",
-      "content": "OpenAI与 Advanced Micro Devices Inc. 和 Broadcom Inc. 签订的芯片采购协议展示了人工智能行业在超越顶级供应商 NVIDIA Corp. 的情况下仍有巨大的增长空间。自 AMD 和 OpenAI 宣布其合作以来的两周内，...",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iHHP75cy6NW8/v1/1200x675.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2025-10-17T10:28:31.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2025-10-17/openai-s-deals-with-broadcom-amd-show-how-big-ai-market-can-be",
-      "aiInsight": "这篇新闻报道了OpenAI与Broadcom和AMD的芯片采购协议，这不仅标志着AI硬件市场的多元化发展，也预示着该领域巨大的增长潜力。从技术发展角度看，这一举动表明AI技术正在加速应用，对高性能计算的需求增加，推动了AI芯片市场的竞争和技术进步。在行业影响方面，这可能减少对单一供应商NVIDIA的依赖，增强供应链的韧性和安全性。未来趋势上，随着AI应用的广泛扩展，预计这一领域的市场将会持续增长，推动技术创新和投资。此外，多元化供应商的合作也可能促进技术的开放和共享，加速AI技术的普及和应用。"
     }
   ]
 }
