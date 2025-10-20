@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2025-10-20T04:32:47.124Z",
-  "total": 53,
+  "timestamp": "2025-10-20T05:27:56.847Z",
+  "total": 54,
   "data": [
+    {
+      "id": "news_1760938062739_3ad8ee3b",
+      "title": "亚马逊云科技推出 Amazon Quick Suite：一体化智能 AI 办公平台",
+      "summary": "亚马逊云科技推出 Amazon Quick Suite：一体化智能 AI 办公平台",
+      "content": "亚马逊云科技推出 Amazon Quick Suite：一体化智能 AI 办公平台",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-20T13:18:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/a5z0cPDm6TKPJiW3vg0j?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760938064088_bdd8892a",
+      "title": "使用ONNX将AI推理引入Java：企业架构师实践指南",
+      "summary": "使用ONNX将AI推理引入Java：企业架构师实践指南",
+      "content": "使用ONNX将AI推理引入Java：企业架构师实践指南",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-20T13:02:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/wtQLUKGSIdu3oivTwe7W?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1760932347116_c537bbd7",
       "title": "沉痛悼念！杨振宁逝世，享年103岁；传智谱AI解散数十人产研中心，有人当天就走；李书福儿子创立具身智能公司被曝解散｜AI周报",
@@ -16,6 +40,30 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1760938066232_e54f5e0b",
+      "title": "开源！强效果，高性能，严隐私？我全都要：OPPO 终端大模型实践",
+      "summary": "开源！强效果，高性能，严隐私？我全都要：OPPO 终端大模型实践",
+      "content": "开源！强效果，高性能，严隐私？我全都要：OPPO 终端大模型实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-20T10:42:40.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/wideqw3SUeSQTSMUKAoh?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760938066962_311165ea",
+      "title": "挑战Claude code和Cursor：阿里Qoder对标全球，AI编程迎来“上下文”革命",
+      "summary": "挑战Claude code和Cursor：阿里Qoder对标全球，AI编程迎来“上下文”革命",
+      "content": "挑战Claude code和Cursor：阿里Qoder对标全球，AI编程迎来“上下文”革命",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-10-20T10:26:54.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/YLkMZ9IVpTseZdoJmAGw?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1760932350575_bf1b051c",
       "title": "AI 时代，编程语言选型更难也更重要：Go、Rust、Python、TypeScript 谁该上场？",
       "summary": "AI 时代，编程语言选型更难也更重要：Go、Rust、Python、TypeScript 谁该上场？...",
@@ -26,6 +74,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/2mcpfRO4ocBWJG7jb6HF?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1760938045289_19feb143",
+      "title": "宇树科技发布H2仿生机器人",
+      "summary": "宇树科技发布H2仿生机器人",
+      "content": "宇树科技今日发布H2仿生人形机器人，高180cm，重70kg。（财联社）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2025-10-20T05:24:13.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3517085339573378?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1760932360302_b007f3a2",
@@ -136,16 +196,28 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1760934726973_0",
+      "id": "news_1760938039501_0",
       "title": "Anthropic力求与OpenAI保持同步，与大卫·萨克斯展开竞争",
-      "summary": "人工智能初创公司Anthropic正努力追赶OpenAI，后者获得微软和英伟达的大力支持，并以史无前例的速度投入资金。Anthropic正全力以赴与OpenAI保持同步，与大卫·萨克斯展开竞争。尽管面临强大对手，Anthropic仍致力于追赶OpenAI的步伐，争取在人工智能领域占据一席之地。",
+      "summary": "人工智能初创公司Anthropic正努力追赶大型竞争对手OpenAI。OpenAI获得了微软和英伟达的支持，并以史无前例的速度投入资金。近期，Anthropic面临更多竞争对手的挑战。为了保持同步，Anthropic正全力以赴追赶OpenAI。",
       "content": "人工智能初创公司Anthropic正全力以赴追赶拥有微软和英伟达支持的大型竞争对手OpenAI，后者正以史无前例的速度投入资金。近期，Anthropic面临的竞争对手同样令人望而生畏……",
       "imageUrl": "https://image.cnbcfm.com/api/v1/image/108112971-17413818912025-03-07t210857z_1541230211_rc2k8da4v587_rtrmadp_0_usa-trump-crypto.jpeg?v=1741381989&w=1920&h=1080",
       "source": "CNBC",
       "publishedAt": "2025-10-19T12:00:01.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.cnbc.com/2025/10/19/anthropic-tries-to-keep-pace-with-openai-faces-off-with-david-sacks.html",
-      "aiInsight": "这篇新闻揭示了当前AI领域激烈的竞争态势，特别是Anthropic与OpenAI之间的较量。从技术发展的角度看，Anthropic正通过加大投入和创新，力求缩小与OpenAI的技术差距，这预示着AI领域将持续保持高强度的研发竞争。行业影响方面，这种竞争不仅推动了技术的快速发展，也可能导致资源分配不均，影响AI伦理和社会责任的落实。未来趋势看，随着更多企业和资本的加入，AI技术将加速迭代，应用场景更加广泛，但同时也需警惕潜在的风险和挑战，如数据安全、隐私保护等问题。"
+      "aiInsight": "从技术发展角度看，Anthropic与OpenAI的较量体现了人工智能领域技术竞赛的激烈程度，两家公司在资金和资源上的投入显示了它们对未来AI技术发展的重视。Anthropic试图通过加强自身的技术研发和产品优化来缩小与OpenAI的差距，这表明AI技术的创新速度和应用深度将是未来发展的关键。\n\n从行业影响来看，Anthropic与OpenAI的竞争将加速AI技术的普及和应用，推动相关产业链的发展，包括硬件制造、软件开发、数据服务等多个领域。此外，这种竞争也将促进AI技术的标准制定和监管框架的建立，确保技术的安全与伦理。\n\n从未来趋势看，随着Anthropic与OpenAI的竞争加剧，AI技术的应用将更加广泛，从简单的数据处理到复杂的决策支持，从个人助手到企业级解决方案。同时，AI技术的智能化程度将进一步提升，人机交互将更加自然流畅，推动社会各行业的数字化转型。"
+    },
+    {
+      "id": "news_1760938038897_1",
+      "title": "名人疯传的AI生成视频随处可见——他们应该拥抱这种趋势还是联系律师？",
+      "summary": "AI生成的名人视频在社交媒体上疯传，引发公众热议。迈克尔·杰克逊、玛丽莲·梦露和斯蒂芬·霍金等已故名人的“复活”视频令人捧腹，但同时也引发了关于版权和道德的讨论。有人认为应积极拥抱这一趋势，也有人建议联系律师以保护自身权益。这一现象反映了AI技术的迅猛发展及其带来的伦理挑战。",
+      "content": "迈克尔·杰克逊俯身在肯德基餐桌上，对某人说：“你的鸡看起来不错，伙计”，然后伸手拿走了盒子。 玛丽莲·梦露以一名检查旅客行李的 TSA 特工的身份复活，而已故的轮椅使用者物理学家斯蒂芬·霍金则被描绘成……（剩余内容由于字符限制未显示）",
+      "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2025/10/newspress-collage-q8okzs8b8-1760741571135.jpg?quality=75&strip=all&1760727255&w=1200",
+      "source": "New York Post",
+      "publishedAt": "2025-10-19T12:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://nypost.com/2025/10/19/us-news/insane-ai-videos-of-celebs-are-everywhere-should-they-embrace-it-or-call-their-lawyer/",
+      "aiInsight": "这一新闻标题揭示了AI生成视频技术的广泛应用和影响，特别是在娱乐和文化领域。从技术发展角度看，AI生成视频技术的进步使得即使已故名人也能“复活”，这种技术背后的深度学习和图像生成算法正在快速发展。从行业影响来看，这为娱乐业、广告、教育等领域提供了新的创作和传播方式，但同时也引发了关于版权、身份和道德的问题。\n\n未来趋势方面，预计AI生成视频技术将进一步成熟，应用场景将更加广泛，但同时也需要建立明确的法律框架和伦理准则来规范其使用。面对这一趋势，个人和企业是选择拥抱这一技术带来的创新，还是寻求法律保护，需要根据具体情况权衡利弊。这不仅涉及技术应用层面，也考验着社会对新兴技术的认知和接受程度。"
     },
     {
       "id": "news_1760934728909_1",
@@ -182,18 +254,6 @@
       "category": "国外AI",
       "originalUrl": "https://36kr.com/newsflashes/3515800349564040?f=rss",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760934758490_5abd5c67",
-      "title": "企业级 MCPHub ：打通大模型落地的“最后一公里”｜QCon 上海",
-      "summary": "企业级 MCPHub ：打通大模型落地的“最后一公里”｜QCon 上海",
-      "content": "企业级 MCPHub ：打通大模型落地的“最后一公里”｜QCon 上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-19T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/FtOk93a3hk21EvH2kPBf?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1760869541058_f708e45b",
@@ -340,6 +400,18 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1760938040948_2",
+      "title": "如何在AI泡沫破裂时避免受伤",
+      "summary": "新闻摘要：当前，AI领域存在明显泡沫，相关股票在标普500指数回报中占比高达75%，资本支出占比达90%。随着泡沫可能破裂，投资者需警惕风险。专家建议，应理性评估AI企业的实际价值，避免盲目追涨杀跌。同时，关注企业长期发展潜力，而非短期股价波动。",
+      "content": "是否存在AI泡沫？是的，很明显。自2022年OpenAI的ChatGPT推出以来，与人工智能相关的股票占标普500指数回报的约75%和资本支出的90%。这主要基于美国公司过高的估值……",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/is1vl.sQcyt8/v0/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2025-10-18T13:19:09.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.bloomberg.com/news/newsletters/2025-10-18/how-to-protect-yourself-from-the-ai-bubble-merryn-talks-money",
+      "aiInsight": "这篇新闻深入剖析了当前AI领域的泡沫现象，指出2022年ChatGPT的推出导致了大量与AI相关的股票估值过高，资本支出过度。这一现象反映出投资者对AI技术的过度乐观预期。从技术发展角度看，虽然AI技术确实在迅速进步，但当前的估值泡沫可能抑制了真实创新和长期发展。行业影响方面，过高的估值可能会导致企业盲目扩张，忽视风险控制，损害投资者利益。未来趋势上，预计随着泡沫的破裂，市场将更加理性，AI企业需要更加注重技术和产品的真实价值，而非短期的市场炒作。"
+    },
+    {
       "id": "news_1760934727801_2",
       "title": "如何在AI泡沫破裂时避免受到伤害",
       "summary": "新闻摘要：当前，AI领域出现明显泡沫，相关股票占据标普500指数大部分回报和资本支出。然而，泡沫破裂在即，投资者需警惕风险。专家建议，应理性看待AI技术，避免盲目投资，同时关注企业实际研发能力与市场适应性，以减少潜在损失。",
@@ -350,18 +422,6 @@
       "category": "国际AI",
       "originalUrl": "https://www.bloomberg.com/news/newsletters/2025-10-18/how-to-protect-yourself-from-the-ai-bubble-merryn-talks-money",
       "aiInsight": "这篇新闻提到了人工智能领域存在泡沫的现象，主要基于美国市场的估值显著攀升。从技术发展的角度来看，AI技术的快速进步确实吸引了大量资本投入，但同时也可能导致市场过度炒作。行业影响方面，泡沫破裂可能导致资金撤出，影响初创企业和创新项目的发展，同时，也可能促使行业更加务实，推动技术进步与实际应用相结合。未来趋势上，预计AI技术将持续深入各行业，但需要更加注重长期价值而非短期炒作。此外，企业和投资者应保持理性，关注技术的实际应用和可持续性，以避免泡沫破裂带来的负面影响。"
-    },
-    {
-      "id": "news_1760905622436_0",
-      "title": "如何在AI泡沫破裂时避免受伤",
-      "summary": "新闻摘要：当前，人工智能领域因ChatGPT的推出而备受追捧，相关股票在标普500指数中占据主导地位，估值大幅膨胀。然而，专家警告称，人工智能领域存在泡沫风险。文章建议投资者在泡沫破裂时应保持谨慎，避免盲目跟风，合理评估投资风险，以减少潜在损失。",
-      "content": "是否存在人工智能泡沫？是的，很明显。自2022年OpenAI的ChatGPT推出以来，与人工智能相关的股票占据了标普500指数约75%的回报率和90%的资本支出。主要基于美国的估值大幅膨胀……",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/is1vl.sQcyt8/v0/1200x800.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2025-10-18T13:19:09.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.bloomberg.com/news/newsletters/2025-10-18/how-to-protect-yourself-from-the-ai-bubble-merryn-talks-money",
-      "aiInsight": "这篇新闻从多个角度洞察了当前人工智能领域的泡沫问题及其潜在风险。在技术发展层面，ChatGPT的成功确实在短期内推动了相关股票的显著增长，反映出市场对人工智能技术前景的强烈信心。然而，这种过度乐观可能导致资源分配的不平衡，影响其他技术创新的发展。\n\n从行业影响角度来看，这不仅限于科技行业，还波及其他领域，如金融、教育、医疗等，这些行业正积极采用AI技术以提高效率和创新能力。但过度炒作可能导致资本泡沫，增加行业风险。\n\n未来趋势上，AI技术的发展将不可避免地回归理性，技术的实际应用效果将逐渐凸显，而不仅仅是概念炒作。因此，投资者和企业需要更加理性地评估AI技术的投资价值，注重技术的实际应用效果和长期发展潜力，避免盲目跟风。"
     },
     {
       "id": "news_1760794107700_59b523cd",
@@ -460,16 +520,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1760934760542_378f621f",
-      "title": "程序员用AI写歌还赚钱了！用AI 批量生产“爆款”，这个副业“杀疯了”？",
-      "summary": "程序员用AI写歌还赚钱了！用AI 批量生产“爆款”，这个副业“杀疯了”？",
-      "content": "程序员用AI写歌还赚钱了！用AI 批量生产“爆款”，这个副业“杀疯了”？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-18T07:00:00.000Z",
+      "id": "news_1760938039591_3",
+      "title": "OpenAI 将允许该聊天机器人与成人进行暗示性对话",
+      "summary": "OpenAI 宣布将允许其聊天机器人 ChatGPT 与已验证成年用户进行暗示性对话，以探索成人内容交流的可能性。此举引发了关于平台内容监管和用户隐私保护的讨论。OpenAI 表示，此举旨在为用户提供更丰富的内容体验，但具体实施细节和风险控制措施尚未公布。",
+      "content": "ChatGPT 将能够在 OpenAI 首席执行官 Sam Altman 宣布该公司即将允许其聊天机器人与“已验证成年用户”进行“成人内容”交流后，进行更加亲密的对话。OpenAI 不会是第一个尝试从中获利的公司……",
+      "imageUrl": "https://wehco.media.clients.ellingtoncms.com/imports/adg/photos/211318780_211318136-4a9462f980ea41d8974493c5fe11621e_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
+      "source": "Arkansas Online",
+      "publishedAt": "2025-10-18T06:46:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/8QEPrSVWRWHO6qxSZOAY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.arkansasonline.com/news/2025/oct/18/openai-to-allow-bot-to-get-racy-with-adults/",
+      "aiInsight": "这一新闻反映了AI技术在内容生成和人机交互方面的进一步发展，但也触及了伦理和安全的边界。从技术发展角度看，OpenAI的这一决定展示了其在处理复杂、敏感内容方面的技术进步，能够更好地模拟真实的人际交流，但也增加了内容过滤和防止滥用的难度。\n\n从行业影响看，这可能引发其他AI平台效仿，进一步拓展其功能边界，但同时也可能加剧关于AI伦理的讨论，影响公众对AI技术的信任。未来趋势上，AI技术在娱乐、教育等领域可能发挥更大作用，但如何平衡技术创新与社会责任将是企业必须面对的挑战。\n\n此外，这一决定还可能影响到用户隐私保护和数据安全，特别是在涉及敏感话题时。因此，企业在追求技术突破的同时，也需要建立健全的安全和隐私保护机制，确保技术的健康发展。"
     },
     {
       "id": "news_1760934727639_3",
@@ -482,18 +542,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.arkansasonline.com/news/2025/oct/18/openai-to-allow-bot-to-get-racy-with-adults/",
       "aiInsight": "这一新闻引发了关于AI技术发展、行业影响及未来趋势的深刻讨论。从技术发展的角度看，OpenAI的这一决定展示了AI在自然语言处理和生成领域的进一步突破，能够更好地理解与模拟人类的复杂情绪和对话模式，这无疑提升了用户体验。但从行业影响来看，这一变化可能引发隐私、伦理和社会责任等多方面的担忧。在缺乏有效监管的情况下，此类功能的开放可能会被滥用，对用户尤其是青少年造成负面影响。\n\n对于未来趋势，这可能促使其他AI公司跟进，形成一种新的商业模式。然而，这也要求行业内外的监管机构、技术开发者和用户共同构建一套健全的伦理框架，确保技术的发展能够更好地服务于人类社会，同时保护用户的权益。"
-    },
-    {
-      "id": "news_1760932321568_3",
-      "title": "OpenAI 将允许该聊天机器人与成人进行暗示性对话",
-      "summary": "OpenAI宣布将允许其聊天机器人ChatGPT与认证成年用户进行暗示性对话，涉及色情内容交流。此举引发关注，OpenAI或将从中获利。此前已有公司尝试类似做法，但效果参差不齐。此政策的实施将对ChatGPT的用户群体和内容生态产生重大影响。",
-      "content": "ChatGPT 将能够在 OpenAI 首席执行官 Sam Altman 宣布该公司即将允许其聊天机器人与“认证成年用户”进行“色情内容”交流后进行更加亲密的对话。OpenAI 不会是第一个尝试从中获利的公司……",
-      "imageUrl": "https://wehco.media.clients.ellingtoncms.com/imports/adg/photos/211318780_211318136-4a9462f980ea41d8974493c5fe11621e_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
-      "source": "Arkansas Online",
-      "publishedAt": "2025-10-18T06:46:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.arkansasonline.com/news/2025/oct/18/openai-to-allow-bot-to-get-racy-with-adults/",
-      "aiInsight": "这一政策变化反映了OpenAI在内容生成技术上的进一步拓展，技术上，这表明ChatGPT在理解和生成复杂、敏感内容的能力上取得了进展。但从行业影响来看，这一决定引发了关于AI伦理、隐私保护和内容监管的重大讨论。它可能加剧公众对AI技术滥用和不当内容泛滥的担忧，同时也可能对其他平台造成压力，促使它们重新评估自身的政策边界。\n\n从未来趋势来看，这一决策预示着AI技术在处理复杂、敏感话题时面临的挑战将越来越大，同时也可能推动更多公司和监管机构加强对AI内容生成技术的规范和监督。企业和开发者需要更加重视AI伦理设计，确保技术的发展能够更好地服务于社会，同时保护用户免受潜在的伤害。"
     },
     {
       "id": "news_1760926037615_3",
@@ -592,31 +640,7 @@
       "aiInsight": "这一新闻引发了对人工智能技术应用边界和伦理道德的深刻讨论。从技术发展角度看，这标志着ChatGPT在自然语言处理和内容生成方面的能力进一步提升，但也暴露出其在内容过滤和用户隐私保护方面的局限。从行业影响看，这可能促使其他公司效仿，加速成人内容生成技术的发展，同时也可能引发更多关于人工智能伦理和社会责任的讨论。未来趋势方面，企业需要在技术创新与社会责任之间找到平衡点，加强对AI内容生成的监管和引导，确保技术发展符合社会伦理标准，避免潜在的负面影响。"
     },
     {
-      "id": "news_1760765058523_056f3841",
-      "title": "石头科技出席2025可持续全球领导者大会，分享机器人应用新思考",
-      "summary": "10月16日至18日，2025可持续全球领导者大会在上海召开，石头科技副总裁乌尔奇受邀出席。在“探索机器人场景化应用趋势”主题对话环节，他表示，未来机器人的形态应该服务于核心场景的本质需求，围绕用户与场景找到“最优解”。",
-      "content": "10月16日至18日，2025可持续全球领导者大会在上海召开，石头科技副总裁乌尔奇受邀出席。在“探索机器人场景化应用趋势”主题对话环节，他表示，未来机器人的形态应该服务于核心场景的本质需求，围绕用户与场景找到“最优解”。面对智能化进程中的“数字鸿沟”问题，乌尔奇呼吁科技应服务更广阔人群，“真正的科技进步应该是普惠的”。未来，石头科技将在全球化、ESG等方面持续深耕，致力于推动绿色技术、智能制造与全球责任的协同发展。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2025-10-18T05:00:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3514162922331015?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760765070720_acbf894f",
-      "title": "Sora 后思考：从 AI 工具到 AI 平台，产业 AGI 又近了一步",
-      "summary": "视频生成的工具时代正在谢幕，平台时代正在登场。未来十年，谁能率先搭起一条完整的“生成—编辑—分发—变现”链路，谁就不仅拥有一个爆款平台，更拥有下一代内容工业的发动机。甚至更大角度来说，不仅仅是内容，而是真正的AI平台先机。",
-      "content": "视频生成的工具时代正在谢幕，平台时代正在登场。未来十年，谁能率先搭起一条完整的“生成—编辑—分发—变现”链路，谁就不仅拥有一个爆款平台，更拥有下一代内容工业的发动机。甚至更大角度来说，不仅仅是内容，而是真正的AI平台先机。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-10-18T04:42:18.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/7729852.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760934761867_57d7f439",
+      "id": "news_1760938070957_57d7f439",
       "title": "NeurIPS 2025｜火山引擎多媒体实验室联合南开大学推出 TempSamp-R1 强化学习新框架，助力视频理解大模型高效提升时序理解能力！",
       "summary": "NeurIPS 2025｜火山引擎多媒体实验室联合南开大学推出 TempSamp-R1 强化学习新框架，助力视频理解大模型高效提升时序理解能力！",
       "content": "NeurIPS 2025｜火山引擎多媒体实验室联合南开大学推出 TempSamp-R1 强化学习新框架，助力视频理解大模型高效提升时序理解能力！",
@@ -626,18 +650,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/LVGuJr41C41e7uwdlBrp?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1760934762718_17223fe3",
-      "title": "中国农业大学发布“膳良人”AI营养智能体：精准营养与AI深度融合迈出关键一步",
-      "summary": "中国农业大学发布“膳良人”AI营养智能体：精准营养与AI深度融合迈出关键一步",
-      "content": "中国农业大学发布“膳良人”AI营养智能体：精准营养与AI深度融合迈出关键一步",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-17T16:49:26.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/bj61H2PxKjlbihCCcFZR?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
