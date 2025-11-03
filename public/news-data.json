@@ -1,8 +1,56 @@
 {
   "success": true,
-  "timestamp": "2025-11-03T06:46:23.426Z",
+  "timestamp": "2025-11-03T07:31:37.337Z",
   "total": 51,
   "data": [
+    {
+      "id": "news_1762155088039_5923e35f",
+      "title": "Python只是前戏，JVM才是正餐！Eclipse开源新方案，在K8s上不换栈搞定Agent",
+      "summary": "Python只是前戏，JVM才是正餐！Eclipse开源新方案，在K8s上不换栈搞定Agent",
+      "content": "Python只是前戏，JVM才是正餐！Eclipse开源新方案，在K8s上不换栈搞定Agent",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-03T15:18:19.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/HFQ8jNDpEPWiPFG9EOdo?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1762155089121_d3ec4c2d",
+      "title": "图虫×火山引擎：AIGC 创意工具链，让设计灵感高效实现",
+      "summary": "图虫×火山引擎：AIGC 创意工具链，让设计灵感高效实现",
+      "content": "图虫×火山引擎：AIGC 创意工具链，让设计灵感高效实现",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-03T11:12:41.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.infoq.cn/article/5XMuvfNYERQ5RmuXcv1f?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1762155089931_dc497272",
+      "title": "SwiftKV：通过知识保留计算减少加速企业 LLM 工作负载 | 技术实践",
+      "summary": "SwiftKV：通过知识保留计算减少加速企业 LLM 工作负载 | 技术实践",
+      "content": "SwiftKV：通过知识保留计算减少加速企业 LLM 工作负载 | 技术实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-03T10:44:36.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/gPeRGz69bhZvstJbgjtU?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1762155096335_473acfff",
+      "title": "OpenAI 改进 ChatGPT 语言模型，提早识别心理压力与风险话题",
+      "summary": "IT之家 11 月 3 日消息，OpenAI 现已对 ChatGPT 语言模型进行全面升级，旨在提早识别心理危机、自残 / 自杀和情感依赖等负面行为，并通过温和的方式引导用户寻求真实世界的帮助。",
+      "content": "IT之家 11 月 3 日消息，OpenAI 现已对 ChatGPT 语言模型进行全面升级，旨在提早识别心理危机、自残 / 自杀和情感依赖等负面行为，并通过温和的方式引导用户寻求真实世界的帮助。 IT之家在此援引官方新闻稿表述，本次升级的核心主题将聚焦于躁狂或精神疾病、自残、自杀，未来 ChatGPT 将会对这些对话的明显迹象作出反应，还能捕捉更细微的情感困扰信号，可避免脆弱的用户在与虚拟模型交流中无意陷入误解或更大压力。 本次 OpenAI 与 170 余名心理学、精神医学及危机干预领域的专家共同改进 ChatGPT，将他们的专业知识融入到 ChatGPT 的应答模式中，内部测试显示改进后的模型可减少 80% 的不恰当回应，同时得益于定向训练，ChatGPT 将更好地区分中性、情绪化及紧急的对话语境，动态调整自身回复模式。 根据官方的说法，本次即将推出的新模型将基于 GPT-5，能够在长时间的复杂情绪对话中保持 95% 以上的可靠性，还能够稳定地在多轮对话中识别多变的敏感话题，OpenAI 未来还会将更多心理因素纳入安全审查流程，关注用户如何形成并依赖负面思维模式。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/f2a73cc3-e0da-4629-817b-14bde06534c4.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-11-03T06:53:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/894/498.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1762152365570_b8a25d7d",
       "title": "Xiaohongshu Expands into Offline Lifestyle Services Amid Intensifying Competition from China's Tech Giants",
@@ -136,18 +184,6 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1762152375608_fc0520a3",
-      "title": "10年经验，不敌 AI 10秒？对话5位顶尖架构师：AI不会替代我们，但会淘汰旧的我们",
-      "summary": "10年经验，不敌 AI 10秒？对话5位顶尖架构师：AI不会替代我们，但会淘汰旧的我们",
-      "content": "10年经验，不敌 AI 10秒？对话5位顶尖架构师：AI不会替代我们，但会淘汰旧的我们",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-02T18:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/AH5TbSFIlgwi4Q01dVCE?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1762093360673_4e9847dc",
       "title": "阿里通义千问能力最强语言模型，Qwen3-Max 已在官网上线深度思考功能",
       "summary": "IT之家 11 月 2 日消息，阿里通义千问最新旗舰模型 Qwen3-Max 已在官网上线“深度思考”模式，该功能通过增强推理链分析与多步骤问题拆解能力，显著提升复杂任务处理效率。",
@@ -172,6 +208,18 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1762154785514_0",
+      "title": "谁是Zico Kolter？一位教授领导OpenAI安全委员会，该委员会有权阻止不安全的AI发布。",
+      "summary": "卡内基梅隆大学教授Zico Kolter领导OpenAI安全委员会，该委员会有权阻止可能带来风险的AI发布。作为科技行业的重要角色，Kolter正致力于确保人工智能的安全可控，以减轻其对人类的潜在威胁。这一举措彰显了OpenAI在AI伦理和安全性方面的重视。",
+      "content": "如果你认为人工智能对人类构成了严重的风险，那么卡内基梅隆大学的一位教授目前在科技行业中扮演着极其重要的角色。 Zico Kolter 领导着 OpenAI 的一个 4 人小组，该小组拥有…… [6146 字符]",
+      "imageUrl": "https://wtop.com/wp-content/uploads/2025/11/OpenAI-Safety_Leader_92840-scaled.jpg",
+      "source": "WTOP",
+      "publishedAt": "2025-11-02T13:23:52.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://wtop.com/national/2025/11/who-is-zico-kolter-a-professor-leads-openai-safety-panel-with-power-to-halt-unsafe-ai-releases/",
+      "aiInsight": "从技术发展角度看，Zico Kolter 领导的 OpenAI 安全委员会为 AI 安全设立了重要标准，有助于促进 AI 技术的健康发展。这表明，随着 AI 技术的不断进步，安全问题正逐渐成为业界关注的焦点。\n\n从行业影响来看，OpenAI 安全委员会的存在将对整个 AI 行业产生积极影响，有助于提升公众对 AI 技术的信心。AI 安全委员会的决策机制和责任框架，为其他科技公司树立了良好的范例，推动整个行业更加重视 AI 安全。\n\n从未来趋势角度看，随着 AI 技术的广泛应用，如何确保其安全性和伦理道德问题，将成为科技行业和社会各界共同关注的焦点。Zico Kolter 领导的 OpenAI 安全委员会的成立，预示着 AI 安全将成为科技公司未来发展的重要考量因素之一。未来，我们可能看到更多类似的安全审查机制被引入到 AI 开发和应用过程中，以促进 AI 技术的可持续发展。"
+    },
+    {
       "id": "news_1762152068060_0",
       "title": "谁是Zico Kolter？一位教授领导OpenAI安全委员会，该委员会有权阻止不安全的人工智能发布。",
       "summary": "Zico Kolter，卡内基梅隆大学教授，领导OpenAI安全委员会。该委员会由4人组成，有权阻止可能带来风险的不安全人工智能发布。此举表明OpenAI正积极应对人工智能潜在风险，保障技术安全。",
@@ -182,18 +230,6 @@
       "category": "国外AI",
       "originalUrl": "https://wtop.com/national/2025/11/who-is-zico-kolter-a-professor-leads-openai-safety-panel-with-power-to-halt-unsafe-ai-releases/",
       "aiInsight": "从技术发展角度看，Zico Kolter 领导的 OpenAI 安全委员会的设立，体现了AI安全研究正在从学术界向工业界深入融合的趋势。这表明，随着AI技术的日益成熟和广泛应用，其潜在的安全风险也引起了广泛关注，企业开始重视并主动采取措施来应对这些风险。\n\n从行业影响来看，OpenAI 安全委员会的成立，不仅有助于提升OpenAI在AI伦理和安全方面的公众形象，同时也可能促进整个科技行业对AI安全问题的重视，推动AI安全标准的建立和完善，从而促使企业采取更加负责任的技术开发和应用策略。\n\n从未来趋势角度分析，随着AI技术的进一步发展，AI安全问题将越来越受到关注，建立有效的AI安全监管机制将成为重要课题。而类似OpenAI安全委员会这样的独立审查机构可能会成为行业内的普遍模式，以确保AI技术的安全可靠，保护人类社会免受潜在风险的影响。这将促使AI开发者更加注重伦理道德和社会责任，从而推动AI技术的健康发展。"
-    },
-    {
-      "id": "news_1762147698915_0",
-      "title": "谁是Zico Kolter？一位教授领导OpenAI安全委员会，该委员会有权阻止不安全的AI发布。",
-      "summary": "卡内基梅隆大学教授Zico Kolter领导OpenAI安全委员会，该委员会拥有决策权，可阻止不安全的AI发布。作为科技行业的重要角色，Kolter正致力于防范人工智能对人类构成的风险。这一举措标志着AI安全问题在科技行业中的重要性日益凸显。",
-      "content": "如果你认为人工智能对人类构成了严重的风险，那么卡内基梅隆大学的一位教授现在在科技行业中扮演着极其重要的角色。 Zico Kolter 领导一个由四人组成的小组，在 OpenAI 中拥有决策权…… [6146 字符]",
-      "imageUrl": "https://wtop.com/wp-content/uploads/2025/11/OpenAI-Safety_Leader_92840-scaled.jpg",
-      "source": "WTOP",
-      "publishedAt": "2025-11-02T13:23:52.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://wtop.com/national/2025/11/who-is-zico-kolter-a-professor-leads-openai-safety-panel-with-power-to-halt-unsafe-ai-releases/",
-      "aiInsight": "从技术发展角度看，Zico Kolter领导的OpenAI安全委员会的成立，体现了AI安全性在技术领域日益受到重视。OpenAI作为领先的人工智能研究机构，其加强对AI安全性的管控，有助于推动AI技术更加负责任地发展。从行业影响来看，此举可能引发其他科技公司效仿，加强自身在AI安全方面的措施，从而整体提升行业对AI风险的防范能力。未来趋势方面，随着AI技术的广泛应用，如何确保其安全性、公平性和可控性将成为行业关注的核心议题，预计未来将会出现更多类似的安全审查机制，以保障AI技术的健康发展，减少潜在风险。"
     },
     {
       "id": "news_1762144515462_0",
@@ -220,16 +256,16 @@
       "aiInsight": "从技术发展角度看，Zico Kolter领导OpenAI安全委员会的举措体现了AI领域对于安全性日益重视的趋势。随着AI技术的发展，其潜在风险也逐渐显现，包括误用、失控等，这些问题需要跨学科的专业团队来共同解决。Zico Kolter具有深厚的机器学习和计算机科学背景，他的加入标志着AI安全领域正在吸引更多计算机科学和工程领域的资深专家参与，这对于提升AI系统的安全性具有重要意义。\n\n从行业影响角度看，这一举措有望促进整个AI行业的风险管理意识提升，推动相关标准和规范的制定与实施，从而为AI技术的健康发展奠定基础。同时，这也可能引发行业内的竞争与合作，促使其他AI平台和研究机构加强安全相关的研究和投入。\n\n从未来趋势看，随着AI技术的广泛应用，其安全性和伦理问题将越来越受到社会关注。因此，未来可能会看到更多类似的行业内部安全审查机制的建立，以及政府、行业组织和社会各界之间的合作加强，共同促进AI技术的健康发展。"
     },
     {
-      "id": "news_1762147984968_1",
+      "id": "news_1762155068243_1",
       "title": "谁是Zico Kolter？一位教授领导OpenAI安全委员会，该委员会有权阻止不安全的AI发布",
-      "summary": "卡内基梅隆大学教授Zico Kolter领导OpenAI安全委员会，该委员会有权阻止可能带来风险的AI发布。此举旨在应对人工智能对人类构成的潜在威胁。作为科技行业的重要角色，Kolter的领导将对AI的安全性和可控性产生重大影响。",
-      "content": "如果你认为人工智能对人类构成了严重的风险，那么卡内基梅隆大学的一位教授现在在科技行业中扮演着极其重要的角色。 Zico Kolter 领导着 OpenAI 的一个 4 人小组，该小组拥有…… [6146 字符]",
+      "summary": "卡内基梅隆大学教授Zico Kolter领导OpenAI安全委员会，该委员会有权阻止可能带来风险的AI发布。此举旨在应对人工智能对人类构成的潜在威胁。作为科技行业的重要角色，Kolter的领导将对AI的安全性和伦理发展产生重要影响。",
+      "content": "如果你认为人工智能对人类构成了严重的风险，那么卡内基梅隆大学的一位教授现在在科技行业中扮演着极其重要的角色。 Zico Kolter 领导着 OpenAI 的一个 4 人小组，该小组拥有……[6146 字符]",
       "imageUrl": "https://www.usnews.com/dims4/USNEWS/a02e120/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F1f%2F6a802ab95ae7910bc78c7e01b6092c%2Faf24e4d419f141e5ae5b393b8a4d63c7OpenAI-Safety_Leader_92840.jpg",
       "source": "U.S. News & World Report",
       "publishedAt": "2025-11-02T13:21:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.usnews.com/news/business/articles/2025-11-02/who-is-zico-kolter-a-professor-leads-openai-safety-panel-with-power-to-halt-unsafe-ai-releases",
-      "aiInsight": "从技术发展的角度来看，Zico Kolter 的角色凸显了安全在AI技术发展中日益重要的地位。OpenAI的安全委员会有权阻止不安全的AI发布，意味着在技术进步的同时，安全性和伦理考量将得到更严格的管控，这将推动AI技术向更加稳健和负责任的方向发展。\n\n从行业影响的角度来看，Zico Kolter 的领导地位预示着AI行业将更加重视安全和伦理问题。这不仅有助于保护公众利益，还有助于增强公众对AI技术的信任，促进AI产业的健康发展。这种重视安全和伦理的做法，也将成为衡量一家公司技术负责任程度的重要标准，促使整个行业提高标准。\n\n展望未来趋势，随着AI技术的广泛应用于各个领域，安全和伦理问题将越来越受到重视。预计未来将会有更多的类似Zico Kolter这样的专家参与到AI安全委员会中，推动AI技术在更广泛的范围内实现安全、可靠、负责任的应用。同时，这也将促进AI技术的国际合作，共同应对AI安全和伦理挑战。"
+      "aiInsight": "Zico Kolter 的角色凸显了AI安全在行业中的重要性。随着AI技术的快速发展，其潜在风险也引起了广泛关注。Kolter教授领导的OpenAI安全委员会拥有否决权，意味着AI系统在发布前必须经过严格的安全审查，这在技术发展层面为AI的安全性提供了强有力的保障。\n\n从行业影响角度看，这一举措不仅有助于提升公众对AI技术的信心，还可能推动整个科技行业加强内部监管，形成更严谨的AI开发和应用标准。这不仅有利于AI技术的健康发展，也有助于维护用户和社会的利益。\n\n展望未来，AI安全委员会的设立预示着未来AI技术将更加注重伦理和安全，这将促使企业更加重视AI系统的安全性、透明度和道德责任。随着技术的不断迭代，AI安全标准将不断完善，AI技术的应用将更加广泛和深入。"
     },
     {
       "id": "news_1762087749495_a6d81c93",
@@ -578,42 +614,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7746067.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1761985851113_6af39ddb",
-      "title": "宇树科技王兴兴：中国企业在全球科技版图中扮演纽带角色",
-      "summary": "“中国企业，尤其是科技企业，一直是连接全世界的一个很好的纽带。”宇树科技股份有限公司首席执行官、中国贸促会企业家代表团成员王兴兴表示，中国科技企业既学习世界先进经验，也在开放共享中贡献中国的解决方案。王兴兴在韩国庆州举行的亚太经合组织(APEC)领导人非正式会议期间受访时作上述表示。",
-      "content": "“中国企业，尤其是科技企业，一直是连接全世界的一个很好的纽带。”宇树科技股份有限公司首席执行官、中国贸促会企业家代表团成员王兴兴表示，中国科技企业既学习世界先进经验，也在开放共享中贡献中国的解决方案。王兴兴在韩国庆州举行的亚太经合组织(APEC)领导人非正式会议期间受访时作上述表示。王兴兴指出，当前全球面临经济复苏与技术变革的双重挑战，人工智能(AI)驱动的机器人产业被普遍视为未来最具潜力的增长引擎。他表示，AI驱动的机器人产业正成为推动亚太乃至全球经济增长的重要力量。“如果通用型人工智能模型实现突破，那将像电力或蒸汽机的发明一样，推动人类文明进入新的阶段。”（中新网）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2025-11-01T07:25:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3534191122504834?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1762152376934_5221ee7c",
-      "title": "Vercel Ship AI 2025：重点发布与技术更新一览",
-      "summary": "Vercel Ship AI 2025：重点发布与技术更新一览",
-      "content": "Vercel Ship AI 2025：重点发布与技术更新一览",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-31T11:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/t4Fk8PqCYgqVMfxOSKDT?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1762152378326_2da612c9",
-      "title": "企业将 Agentic AI 工作负载投入生产的 3 条可行之路 | 技术实践",
-      "summary": "企业将 Agentic AI 工作负载投入生产的 3 条可行之路 | 技术实践",
-      "content": "企业将 Agentic AI 工作负载投入生产的 3 条可行之路 | 技术实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-10-30T20:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/FFaimP6zBKGcj3wqgbbK?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
