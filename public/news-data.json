@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2025-11-08T01:57:36.908Z",
-  "total": 136,
+  "timestamp": "2025-11-08T03:10:02.264Z",
+  "total": 139,
   "data": [
+    {
+      "id": "news_1762571401086_2b2c74d2",
+      "title": "抖音严打“假科普、实低俗”，51 个违规账号被处置禁言",
+      "summary": "IT之家 11 月 8 日消息，抖音昨日发布关于持续严打「色情低俗」的公示。近一个月，针对低俗色情类违规，平台已对 13.7 万个违规账号处以清除违规增长粉丝、取消营利权限、禁言、封禁等不同梯度的处罚，对 3.8 万个账号永久封禁。",
+      "content": "IT之家 11 月 8 日消息，抖音昨日发布关于持续严打「色情低俗」的公示。近一个月，针对低俗色情类违规，平台已对 13.7 万个违规账号处以清除违规增长粉丝、取消营利权限、禁言、封禁等不同梯度的处罚，对 3.8 万个账号永久封禁。 近期，平台发现已处置案例中，有部分账号通过发布“萝莉”“幼态”擦边视频等形式进行色情导流，还有用户假借“知识科普”之名发布低俗内容，也有利用 AI 技术生成低俗擦边视频，以上行为均严重破坏社区生态，平台已将其中涉及违法犯罪的线索上报公安机关。近一个月，平台已上报多条色情类违法犯罪线索并配合公安机关抓获 6 名嫌疑人。 IT之家附典型案例： 1、黑产团伙发布“萝莉”视频进行色情导流，4 人被采取刑事强制措施 平台巡查发现，一批账号多次发布“萝莉”“幼态”类擦边视频，并配以暗示性文案。经研判挖掘，疑似黑产团伙诱导用户至第三方平台进行色情资源交易。平台立即清理违规内容、无限期封禁相关账号，并收集线索上报至公安机关。最终，4 人因涉嫌传播淫秽物品罪被采取刑事强制措施。 2、以“知识分享”为噱头发布低俗内容，51 个账号被禁言 “小 * 妹”“米 * 姐”等账号以分享知识、科普为名，发布身着暴露衣物、突出敏感部位、摆出不雅姿势等低俗擦边视频，无底线博取眼球。平台立即下架违规内容，并对账号处以清除违规增长粉丝、取消营利权限、禁言等处罚。 3、利用 AI 生成低俗擦边内容，1385 个账号被阶梯处罚 “幼 **”“上 * 棠”等账号利用 AI 生成低俗擦边视频，内容刻意突出敏感部位或表达性暗示、性挑逗，破坏网络生态。平台立即下架违规内容，并对账号处以清除违规增长粉丝、取消营利权限、禁言等处罚。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2025-11-08T02:49:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/895/838.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1762571401259_22714770",
+      "title": "新研究发现 AI 的最大破绽：不是不够聪明，而是不会“骂人”",
+      "summary": "IT之家 11 月 8 日消息，科技媒体 Ars Technica 今天（11 月 8 日）发布博文，报道称最新研究称 AI 模型在社交媒体上极易被识破，其致命弱点竟是“过于礼貌”。",
+      "content": "IT之家 11 月 8 日消息，科技媒体 Ars Technica 今天（11 月 8 日）发布博文，报道称最新研究称 AI 模型在社交媒体上极易被识破，其致命弱点竟是“过于礼貌”。 苏黎世大学、阿姆斯特丹大学、杜克大学和纽约大学的研究人员于近日联合发布报告指出，在社交媒体互动中，AI 模型因其过于友好的情感基调而极易暴露身份。 研究团队开发的自动化分类器在 Twitter / X、Bluesky 和 Reddit 三大平台上进行测试，识别 AI 生成回复的准确率高达 70% 至 80%。这意味着，当你在网上遇到一个异常礼貌的回复时，对方很可能是一个试图融入人群却以失败告终的 AI 机器人。 为量化 AI 与人类语言的差距，该研究引入了一种名为“计算图灵测试”的新框架。与依赖人类主观判断的传统图灵测试不同，该框架运用自动化分类器和语言学分析，精准识别机器生成内容与人类原创内容的具体特征。 研究团队负责人、苏黎世大学的尼科洛・帕根（Nicolò Pagan）表示，即便校准相关模型，其输出内容仍在情感基调和情绪表达上与人类文本存在明显区别，这些深层情感线索成为识别 AI 的可靠依据。 研究的核心发现被称为“毒性特征暴露”。团队测试了包括 Llama 3.1、Mistral 7B、Deepseek R1，Qwen 2.5 在内的九款主流开源大语言模型。 当被要求回复真实用户的社交媒体帖子时，这些 AI 模型始终无法达到人类帖子中常见的那种随意的负面情绪和自发的情感表达水平。在所有三个测试平台上，AI 生成内容的“毒性”分数（衡量攻击性或负面情绪的指标）始终显著低于人类的真实回复。 为了弥补这一缺陷，研究人员尝试了多种优化策略，例如提供写作范例或进行上下文检索，以求在句子长度、词汇数量等结构性指标上更接近人类。然而，尽管这些结构差异有所缩小，情感基调上的根本差异依然顽固存在。这表明，让 AI 学会像人一样“不那么友好”，可能比让它变得更聪明还要困难。 IT之家附上参考地址 Computational Turing Test Reveals Systematic Differences Between Human and AI Language",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/7a900f2a-6240-4a71-b8f9-e3f08ce9f3b4.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-11-08T02:06:24.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/895/832.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1762567055906_911175f8",
       "title": "新证据：你输入 ChatGPT 的每个字，都可能被谷歌和全世界看到",
@@ -16,28 +40,28 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1762567047439_45be95ea",
-      "title": "大厂CIO独家分享：AI如何重塑开发者未来10年｜C位面对面",
-      "summary": "大厂CIO独家分享：AI如何重塑开发者未来10年｜C位面对面",
-      "content": "大厂CIO独家分享：AI如何重塑开发者未来10年｜C位面对面",
+      "id": "news_1762571388234_55612138",
+      "title": "LLM 时代的软件研发新范式 ｜InfoQ《极客有约》",
+      "summary": "LLM 时代的软件研发新范式 ｜InfoQ《极客有约》",
+      "content": "LLM 时代的软件研发新范式 ｜InfoQ《极客有约》",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-11-07T20:28:51.000Z",
+      "publishedAt": "2025-11-07T19:09:23.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/2TyPc5pTtplNeF6jaCTi?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/video/KGWqbzH6IKGhgoUiKDEi?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1762567049456_c221cb0e",
-      "title": "与资深AI架构师⼀起，解锁传统⾏业转型的真实挑战与破局思路｜InfoQ《极客有约》",
-      "summary": "与资深AI架构师⼀起，解锁传统⾏业转型的真实挑战与破局思路｜InfoQ《极客有约》",
-      "content": "与资深AI架构师⼀起，解锁传统⾏业转型的真实挑战与破局思路｜InfoQ《极客有约》",
+      "id": "news_1762571389468_f8746fe8",
+      "title": "立足数据组织与 Agent 推理：AI 服务破解传统搜索局限，贴合场景化需求",
+      "summary": "立足数据组织与 Agent 推理：AI 服务破解传统搜索局限，贴合场景化需求",
+      "content": "立足数据组织与 Agent 推理：AI 服务破解传统搜索局限，贴合场景化需求",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-11-07T17:50:27.000Z",
+      "publishedAt": "2025-11-07T18:59:24.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/20rgCSv5TFDiJkQuTCZD?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/video/sqdLJLUrxrWLLOcQcATp?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1762533133196_57fcbeeb",
@@ -64,6 +88,42 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1762571391415_4253b0ef",
+      "title": "当搜索遇见 AIGC：京东零售的“千人千面”素材生成实践",
+      "summary": "当搜索遇见 AIGC：京东零售的“千人千面”素材生成实践",
+      "content": "当搜索遇见 AIGC：京东零售的“千人千面”素材生成实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-07T15:01:52.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/M2cSfQmwpuhwzr3uSbl1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1762571392713_99e05201",
+      "title": "Meta与Hugging Face联合推出OpenEnv，打造AI代理环境共享平台",
+      "summary": "Meta与Hugging Face联合推出OpenEnv，打造AI代理环境共享平台",
+      "content": "Meta与Hugging Face联合推出OpenEnv，打造AI代理环境共享平台",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-07T15:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/JyGDJ7gGiLm30DI18ocr?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1762571393487_02e47439",
+      "title": "对话万维钢：当AI无所不能，你如何不可替代？",
+      "summary": "对话万维钢：当AI无所不能，你如何不可替代？",
+      "content": "对话万维钢：当AI无所不能，你如何不可替代？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-07T14:57:31.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Ht21rAioTyN3zv6N7b8K?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1762529316102_4bc55684",
       "title": "苹果美国官网闹乌龙，4 件装 AirTag 与单个装同价仅 29 美元",
       "summary": "IT之家 11 月 7 日消息，苹果美国官网最近出现了一个离谱的“打折促销”：4 件装 AirTag 的售价与单个装相同，都是 29 美元（IT之家注：现汇率约合 206.5 元人民币），相比原价 99 美元（现汇率约合 704.9 元人民币）可谓是打了接近三折。",
@@ -86,18 +146,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/895/786.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1762567051873_6335ea5e",
-      "title": "清华大学博士生余天予确认出席AICon北京站，分享如何突破多模态大模型的效率瓶颈",
-      "summary": "清华大学博士生余天予确认出席AICon北京站，分享如何突破多模态大模型的效率瓶颈",
-      "content": "清华大学博士生余天予确认出席AICon北京站，分享如何突破多模态大模型的效率瓶颈",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-07T13:32:41.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/aLdKONS5D0VIRZbABHQq?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1762522490922_30f8fa17",
@@ -172,16 +220,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1762567052635_1b87fad6",
-      "title": "LLM 时代的软件研发新范式｜AICon 前瞻",
-      "summary": "LLM 时代的软件研发新范式｜AICon 前瞻",
-      "content": "LLM 时代的软件研发新范式｜AICon 前瞻",
+      "id": "news_1762571396151_02b12eca",
+      "title": "95% 企业 AI 落地失败当下，另外 5% 的 CIO 在谈什么？",
+      "summary": "95% 企业 AI 落地失败当下，另外 5% 的 CIO 在谈什么？",
+      "content": "95% 企业 AI 落地失败当下，另外 5% 的 CIO 在谈什么？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-11-07T11:51:51.000Z",
+      "publishedAt": "2025-11-07T11:12:53.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/FiS7gAW8twc2iDSpF5JY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/elIEmtKU92WkTKk6wDNh?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1762514610863_ec9af90d",
@@ -1622,18 +1670,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7750866.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1762401102495_700d5814",
-      "title": "China's Autonomous Driving Firms WeRide and Pony.ai Tumble on Hong Kong Debut",
-      "summary": "China's Autonomous Driving Firms WeRide and Pony.ai Tumble on Hong Kong Debut...",
-      "content": "China's Autonomous Driving Firms WeRide and Pony.ai Tumble on Hong Kong Debut",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-11-06T02:30:03.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/7751146.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
