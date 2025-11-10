@@ -1,19 +1,31 @@
 {
   "success": true,
-  "timestamp": "2025-11-10T17:25:20.266Z",
-  "total": 73,
+  "timestamp": "2025-11-10T18:38:51.603Z",
+  "total": 74,
   "data": [
     {
-      "id": "news_1762795509747_5574fd8d",
-      "title": "印度迎来AI工具“0元购”时代！OpenAI、谷歌等巨头内心os：别急，先让他们上瘾，我们再来收费",
-      "summary": "印度迎来AI工具“0元购”时代！OpenAI、谷歌等巨头内心os：别急，先让他们上瘾，我们再来收费",
-      "content": "印度迎来AI工具“0元购”时代！OpenAI、谷歌等巨头内心os：别急，先让他们上瘾，我们再来收费",
+      "id": "news_1762799919919_678f1681",
+      "title": "将AI带入数据！Oracle给数据库内嵌上Agent框架",
+      "summary": "将AI带入数据！Oracle给数据库内嵌上Agent框架",
+      "content": "将AI带入数据！Oracle给数据库内嵌上Agent框架",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-11-10T14:55:18.000Z",
+      "publishedAt": "2025-11-10T15:40:24.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/faqjXU1SIWduBHKE3AwZ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1762799921134_1a909f45",
+      "title": "多模态一致性生成技术和社交落地实践｜AICon北京",
+      "summary": "多模态一致性生成技术和社交落地实践｜AICon北京",
+      "content": "多模态一致性生成技术和社交落地实践｜AICon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-10T15:29:40.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/xE4F65DDgCkjKxUMNfE1?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/skzuglScXrAjUmd0YKMY?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1762788622807_08b5c3d9",
@@ -25,18 +37,6 @@
       "publishedAt": "2025-11-10T14:52:02.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/896/441.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1762795510911_2b6d426f",
-      "title": "黄仁勋、李飞飞、Yann LeCun等六位AI顶级大佬最新对话：AI到底有没有泡沫？",
-      "summary": "黄仁勋、李飞飞、Yann LeCun等六位AI顶级大佬最新对话：AI到底有没有泡沫？",
-      "content": "黄仁勋、李飞飞、Yann LeCun等六位AI顶级大佬最新对话：AI到底有没有泡沫？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-10T14:51:28.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/EGo3G7UuL5EVWgBU671Q?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -544,6 +544,18 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1762799899842_0",
+      "title": "Waymo的自动驾驶汽车已抵达丹佛，正在学习在雪地中行驶。",
+      "summary": "Waymo的自动驾驶汽车已抵达丹佛，并在雪地中行驶两个月，收集数据以提高其在复杂天气条件下的行驶能力。这批车辆包括白色捷豹和粉蓝色的极氪汽车，车顶装有旋转的黑色摄像头和雷达，其人工智能计算机正在不断学习和优化。",
+      "content": "大型科技公司的自动驾驶车辆——一队白色捷豹和粉蓝色的极氪汽车，车顶装有旋转的黑色摄像头和雷达——已经在丹佛行驶了两个月，其人工智能计算机正在收集数据……[13208个字符]",
+      "imageUrl": "https://www.denverpost.com/wp-content/uploads/2025/11/TDP-Z-AP25248001745395.jpg?w=1024&h=683",
+      "source": "The Denver Post",
+      "publishedAt": "2025-11-09T13:00:33.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.denverpost.com/2025/11/09/waymo-denver-self-driving-cars/",
+      "aiInsight": "### 技术发展角度\n\nWaymo在雪地环境中测试自动驾驶汽车，标志着其技术进步的一个重要里程碑。雪地驾驶环境复杂，对自动驾驶系统的传感器精度、路径规划、车辆控制等提出了更高的要求。Waymo的这一举措表明其正在探索更广泛的驾驶条件，以确保其自动驾驶技术的可靠性和全面性。\n\n### 行业影响角度\n\nWaymo在丹佛的测试不仅有助于提升自动驾驶技术的适应性和安全性，也将对整个汽车行业产生深远影响。随着自动驾驶技术的逐步成熟，传统汽车制造商和科技公司之间的竞争将会更加激烈，更多的市场份额和行业规则也将重新定义。此外，这种技术的普及可能会改变人们的出行方式，促进城市交通系统的优化。\n\n### 未来趋势角度\n\n未来，自动驾驶技术的发展将朝着更加智能化、个性化和可持续化的方向前进。Waymo等公司不断拓展测试范围和场景，不仅为了提升技术能力，也是为了更好地理解不同用户群体的需求。随着技术的不断进步和政策法规的逐步完善，自动驾驶汽车有望在未来几年内实现更广泛的应用，成为城市交通系统的重要组成部分。"
+    },
+    {
       "id": "news_1762795486966_0",
       "title": "Waymo的自动驾驶汽车已抵达丹佛，正在学习在雪地中导航",
       "summary": "Waymo的自动驾驶汽车已抵达丹佛，并在雪地中进行导航测试。这些车辆配备了摄像头和雷达，正在收集数据以提高自动驾驶技术。Waymo正努力使其自动驾驶汽车适应各种天气和路况，以实现更广泛的应用。",
@@ -580,6 +592,18 @@
       "aiInsight": "这项新闻彰显了Waymo在自动驾驶技术上的持续进步和广泛测试。从技术发展的角度来看，Waymo在雪地环境下的测试表明其自动驾驶技术在复杂天气条件下的适应能力正在增强，这是对自动驾驶系统全面性的一大考验。从行业影响的角度来看，Waymo的这次测试对于整个自动驾驶行业来说是一个积极的信号，它标志着自动驾驶技术正逐渐从简单的城市道路测试向更复杂的环境拓展，这将加速自动驾驶技术的成熟和商业化进程。从未来趋势来看，随着技术的进步和测试范围的扩大，自动驾驶汽车将更可能地在各种天气和道路条件下运行，从而更接近实现完全自动驾驶的目标。这将对交通出行、物流运输等多个行业产生深远影响，同时也将面临法规、安全等方面的挑战。"
     },
     {
+      "id": "news_1762799899852_1",
+      "title": "Meet the minds distorting our reality with AI-generated videos set to become the new superstars of the Sora app",
+      "summary": "Sora 2文本转视频服务推出后，AI生成的视频影响者迅速崛起，引发公众关注。这些影响者利用AI技术将文本转化为逼真的视频内容，如马丁·路德·金担任DJ等。这种新兴趋势为内容创作者开辟了新的收入来源，但也引发了关于真实性和伦理的讨论。",
+      "content": "新的影响者正将人工智能提示转化为收入来源。 当OpenAI于9月30日推出其Sora 2文本转视频服务时，公众并没有准备好迎接它所释放的失控世界。 马丁·路德·金 Jr. 被复活来担任DJ…… [7744 chars]",
+      "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2025/11/newspress-collage-dk0cagttt-1762561035247.jpg?quality=75&strip=all&1762543064&w=1200",
+      "source": "New York Post",
+      "publishedAt": "2025-11-09T13:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://nypost.com/2025/11/09/us-news/meet-the-brains-blurring-our-reality-with-ai-videos-set-to-become-the-new-superstars-of-the-sora-app/",
+      "aiInsight": "这篇新闻揭示了AI生成视频技术的迅速发展及其对社会带来的深远影响。从技术发展角度看，Sora 2的推出标志着AI生成视频技术已经从实验室走向大众，实现了从文本到高质量视频的转换，这不仅提高了内容创作的效率，也降低了门槛，使得任何人都能轻易创造出逼真的视频内容。\n\n从行业影响角度讲，这种技术的发展可能会重塑内容创作者的生态。一方面，AI生成视频可能成为新的经济增长点，为内容创作者提供新的收入来源；另一方面，这也可能引发伦理和法律问题，如身份盗用、虚假信息传播等，对现有的内容审核体系提出了挑战。\n\n展望未来，AI生成视频技术将进一步成熟，其应用领域将更加广泛，包括但不限于娱乐、教育、广告等。然而，面对可能带来的负面影响，行业和监管机构需要共同努力，制定相应的规范和标准，确保技术的健康发展，同时保护公众的利益不受侵害。"
+    },
+    {
       "id": "news_1762795485964_1",
       "title": "Meet the minds distorting our reality with AI videos set to become the new superstars of the Sora app",
       "summary": "Sora 2文本转视频服务推出后，AI生成的视频影响者迅速崛起，创造出令人惊叹但也引发争议的内容。例如，马丁·路德·金被复活来担任DJ。这种新兴的AI影响者正在改变社交媒体格局，但其真实性、伦理性和法律问题也随之而来。",
@@ -590,18 +614,6 @@
       "category": "科技新闻",
       "originalUrl": "https://nypost.com/2025/11/09/us-news/meet-the-brains-blurring-our-reality-with-ai-videos-set-to-become-the-new-superstars-of-the-sora-app/",
       "aiInsight": "这篇新闻揭示了AI生成视频技术的迅速发展及其在社交媒体平台上的广泛应用，特别是通过Sora这样的应用平台，AI生成内容成为了一种新的内容创作和传播方式。从技术发展角度看，这标志着AI生成视频技术已经成熟到可以产生高度逼真、难以分辨的人工制品；从行业影响来看，这将对传统内容创作、版权保护、内容审核等行业带来深远影响；从未来趋势看，AI生成内容的广泛应用可能会重塑社交媒体生态，需要技术公司、内容创作者和社会各界共同探讨建立新的内容伦理和规范体系。同时，这也可能促进AI生成技术在更广泛领域的应用探索，但必须警惕其可能带来的负面影响，如假新闻、版权侵权等问题。"
-    },
-    {
-      "id": "news_1762792556053_1",
-      "title": "Meet the minds distorting our reality with AI-generated videos set to become the new superstars of the Sora app",
-      "summary": "Sora 2 文本转视频服务推出后，AI生成的视频迅速走红，成为新的网络明星。这些视频通过人工智能技术将历史人物如马丁·路德·金复活为DJ等，引发广泛关注。该服务允许用户输入文本提示，生成相应的视频内容，为内容创作者开辟了新的收入来源。然而，这种技术也引发了关于真实性和伦理的讨论。",
-      "content": "新的 influencer 将人工智能提示转化为收入来源。当 OpenAI 在 9 月 30 日推出其 Sora 2 文本转视频服务时，公众并未准备好迎接它所带来的混乱世界。马丁·路德·金被复活来担任 DJ…… [7744 chars]",
-      "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2025/11/newspress-collage-dk0cagttt-1762561035247.jpg?quality=75&strip=all&1762543064&w=1200",
-      "source": "New York Post",
-      "publishedAt": "2025-11-09T13:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://nypost.com/2025/11/09/us-news/meet-the-brains-blurring-our-reality-with-ai-videos-set-to-become-the-new-superstars-of-the-sora-app/",
-      "aiInsight": "该新闻报道了AI生成视频技术在社交媒体平台Sora上的应用及其引发的关注。从技术发展角度来看，AI生成视频技术的进步使得内容创作更加便捷和个性化，能够创造出前所未有的视觉效果，但同时也带来了版权、真实性等伦理和法律问题。从行业影响来看，这预示着未来内容创作者的角色将发生转变，AI生成内容可能会成为新的超级明星，改变传统网红经济模式。同时，这也对内容审核和监管提出了更高要求。未来趋势上，随着技术的不断进步，AI生成视频的质量将进一步提高，应用场景也将更加广泛，但在发展过程中需要更加重视内容的真实性和版权保护，避免误导公众和产生不良影响。"
     },
     {
       "id": "news_1762784881579_1",
@@ -868,7 +880,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1762795514892_6de169d5",
+      "id": "news_1762799925617_6de169d5",
       "title": "数据孤岛、协同低效？AI+虚拟孪生如何破解建筑行业数字化难题",
       "summary": "数据孤岛、协同低效？AI+虚拟孪生如何破解建筑行业数字化难题",
       "content": "数据孤岛、协同低效？AI+虚拟孪生如何破解建筑行业数字化难题",
