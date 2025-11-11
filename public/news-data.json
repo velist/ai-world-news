@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2025-11-11T06:41:06.920Z",
-  "total": 90,
+  "timestamp": "2025-11-11T07:27:21.563Z",
+  "total": 91,
   "data": [
+    {
+      "id": "news_1762846030597_95832831",
+      "title": "一次性应用出现，个人独角兽崛起：顶级布道师Jeff Barr论AI如何重塑开发者生态｜InfoQ独家采访Jeff Barr",
+      "summary": "一次性应用出现，个人独角兽崛起：顶级布道师Jeff Barr论AI如何重塑开发者生态｜InfoQ独家采访Jeff Barr...",
+      "content": "一次性应用出现，个人独角兽崛起：顶级布道师Jeff Barr论AI如何重塑开发者生态｜InfoQ独家采访Jeff Barr",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-11T14:57:33.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/WqYYuR9ZkdDyOCFCosDF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1762843257095_bef07b69",
       "title": "RAG 不止是检索：Milvus 在 Context Engineering 中的湖仓一体实践｜AICon北京",
@@ -16,16 +28,76 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1762843258382_702b4c0e",
-      "title": "GitHub 推出 AgentHQ，Copilot 生态再扩容",
-      "summary": "GitHub 推出 AgentHQ，Copilot 生态再扩容",
-      "content": "GitHub 推出 AgentHQ，Copilot 生态再扩容",
+      "id": "news_1762846033343_a409f954",
+      "title": "AI 时代的 10x 组织与 10x 个人｜AICon 前瞻",
+      "summary": "AI 时代的 10x 组织与 10x 个人｜AICon 前瞻",
+      "content": "AI 时代的 10x 组织与 10x 个人｜AICon 前瞻",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-11-11T13:45:42.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/JspjNB2oM4K1ODkFMfHR?utm_source=rss&utm_medium=article",
+      "publishedAt": "2025-11-11T11:36:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/vkrEp2CV0GawQJbTz7KF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1762846039864_3199e637",
+      "title": "特斯拉准备扩建得州超级工厂，拟年产 1000 万台 Optimus 人形机器人",
+      "summary": "IT之家 11 月 11 日消息，特斯拉正筹备再度扩建得克萨斯超级工厂（Gigafactory Texas），新建一座专用设施，未来将用于其人形机器人 Optimus 的量产。",
+      "content": "IT之家 11 月 11 日消息，特斯拉正筹备再度扩建得克萨斯超级工厂（Gigafactory Texas），新建一座专用设施，未来将用于其人形机器人 Optimus 的量产。 据IT之家了解，目前特斯拉已在位于北加州弗里蒙特（Fremont）的工厂内设立试点生产线，组装部分 Optimus 样机；但公司计划将 Optimus 项目的绝大部分产能布局在得州超级工厂。 据透露，弗里蒙特工厂年产能预计为 100 万台；而首席执行官埃隆・马斯克（Elon Musk）表示，公司将在得州超级工厂新建的专用厂房内，实现年产能 1000 万台的目标。 马斯克表示：“我认为未来全球可能会部署数百亿台 Optimus 机器人。当然，我们必须高度重视安全问题 —— 这一点毋庸置疑。眼下我们正规划一条年产量 1000 万台的生产线；至于未来年产 1 亿台，甚至更高的产线，我尚不确定将落于何处，或许，火星？也许在火星上，谁知道呢。” 显然，特斯拉已不再将 Optimus 的生产停留在理论探讨阶段，而是着手在得州超级工厂园区内推进制造设施的实际建设准备。无人机航拍操作员乔・特格特迈尔（Joe Tegtmeyer）今日早些时候观察到，特斯拉施工团队已在该地块展开土地平整与清理作业。 目前，Optimus 在得州超级工厂的量产时间表仍定于 2027 年启动。如前所述，公司现阶段暂于弗里蒙特工厂小批量生产部分样机，以支持后续 Optimus 版本的持续迭代与技术验证。 特斯拉在推进 Optimus 研发方面已取得显著进展；与此同时，公司对该项目的长远前景抱有极为宏大的期许。马斯克曾指出，Optimus 有望成为“地球历史上规模最大的单一产品”，其将彻底变革人类完成任务的方式，并极有可能从日常生活中彻底消除重复性、单调性工作。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/6f00548f-e2a7-4b0f-ac52-fb9162fbf10f.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-11-11T07:13:09.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/896/606.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1762846018765_5ca51755",
+      "title": "XPeng Bets Big on Physical AI as Automakers and Tech Giants Enter the Next Frontier",
+      "summary": "Physical AI has moved beyond the flashy \"concept demonstration\" stage and has entered the deep waters of pragmatic validation and real-world product i...",
+      "content": "Physical AI has moved beyond the flashy \"concept demonstration\" stage and has entered the deep waters of pragmatic validation and real-world product implementation.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-11-11T07:07:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7759074.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1762846040320_4e570a66",
+      "title": "全球首例，英美两国医生利用机器人完成中风血栓切除手术",
+      "summary": "IT之家 11 月 11 日消息，据英国 BBC 当地时间 11 月 10 日报道，来自苏格兰和美国的医生近日完成了全球首例利用机器人实施的中风血栓切除手术。 邓迪大学教授 Iris Grunwald 在一具捐献给医学研究的人体遗体上，通过远程操作机器人完成了血栓清除。",
+      "content": "IT之家 11 月 11 日消息，据英国 BBC 当地时间 11 月 10 日报道，来自苏格兰和美国的医生近日完成了全球首例利用机器人实施的中风血栓切除手术。 邓迪大学教授 Iris Grunwald 在一具捐献给医学研究的人体遗体上，通过远程操作机器人完成了血栓清除。手术时，她身处邓迪的 Ninewells 医院，遗体则放置在该校另一处实验设施。 数小时后，佛罗里达神经外科医生 Ricardo Hanel 在杰克逊维尔通过同一技术，远程操控位于邓迪大学、相距超过 6400 公里的人体遗体，完成了首次跨大西洋手术。 团队表示，如果这项技术未来获得临床批准，将可能彻底改变中风治疗方式。医生认为，机器人远程手术可极大缩短患者等待专业救治的时间，从而提升康复几率。 Grunwald 教授表示：“那一刻，就像亲眼看见未来。过去以为是科幻的事，如今每一步都能做到。这是我们第一次在真实人体上完整完成机械性血栓切除，证明整个过程完全可行。” IT之家从报道中获悉，邓迪大学是世界介入性中风治疗联盟的全球培训中心，也是英国唯一能在模拟血液循环的人体遗体上进行手术的机构。 中风协会首席执行官 Juliet Bouverie 在接受 BBC 采访时称，这项跨洋实验是一项“了不起的创新”。实验中，研究团队在四具遗体中灌入了模拟人类血液的液体。这些遗体均在过去三年内捐献，随后被防腐保存。两次手术都在上月完成，所用设备来自立陶宛公司 Sentante。 据悉，研究团队计划明年展开临床试验。 缺血性中风是因血栓堵塞动脉，导致大脑供血中断，脑细胞迅速坏死。最有效的治疗是血栓切除术，由专家通过导管移除血栓。 Grunwald 教授指出，这项实验显示，机器人可以连接医生常用的导管和导丝，患者身边的医护人员只需协助安装，外地医生即可通过网络实时操控导丝完成手术。 患者在医院接受治疗，而医生则能在世界任何地方使用 Sentante 设备实施手术，在家里甚至也能完成。两位医生通过实时 X 光监测手术过程。Grunwald 教授透露，操作培训只需 20 分钟。英伟达和爱立信参与了项目，以确保网络连接稳定。 Hanel 医生说：“从美国操作苏格兰的手术，延迟只有 120 毫秒 —— 几乎就是眨眼的时间，太惊人了。”",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/e9749101-f89a-4352-96e4-bc57d5b6b551.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-11-11T06:54:56.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.ithome.com/0/896/587.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1762846020520_8bc03437",
+      "title": "重磅！“AI教父”辛顿确认出席钛媒体T-EDGE，开启AI时代的全球对话",
+      "summary": "重磅！“AI教父”辛顿确认出席钛媒体T-EDGE，开启AI时代的全球对话",
+      "content": "全球开放性对话已不再是选项，而是战略的必须。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-11-11T06:53:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7758610.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1762846022291_5bf10bc6",
+      "title": "China Halts Special Port Fees on U.S. Ships after Trump Admin. Suspends Section 301 Investigation",
+      "summary": "The suspension of U.S. 301 investigation measures aimed at China's maritime, logistics and shipbuilding sectors are part of efforts that both sides ha...",
+      "content": "The suspension of U.S. 301 investigation measures aimed at China's maritime, logistics and shipbuilding sectors are part of efforts that both sides have taken to meet each other halfway, and to work together on implementing the consensus of the China-U.S. economic and trade talks in Kuala Lumpur, according to China's Ministry of Commerce.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-11-11T06:49:03.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/7759031.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1762843265385_bc4a6238",
@@ -289,30 +361,6 @@
       "publishedAt": "2025-11-10T22:48:02.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/896/451.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1762843260812_678f1681",
-      "title": "将AI带入数据！Oracle给数据库内嵌上Agent框架",
-      "summary": "将AI带入数据！Oracle给数据库内嵌上Agent框架",
-      "content": "将AI带入数据！Oracle给数据库内嵌上Agent框架",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-10T15:40:24.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/faqjXU1SIWduBHKE3AwZ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1762843261941_1a909f45",
-      "title": "多模态一致性生成技术和社交落地实践｜AICon北京",
-      "summary": "多模态一致性生成技术和社交落地实践｜AICon北京",
-      "content": "多模态一致性生成技术和社交落地实践｜AICon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-10T15:29:40.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/skzuglScXrAjUmd0YKMY?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -832,6 +880,18 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1762846004757_0",
+      "title": "Waymo的自动驾驶汽车已抵达丹佛，正在学习在雪地中行驶。",
+      "summary": "Waymo的自动驾驶汽车已抵达丹佛，并在雪地中行驶两个月，收集数据以提高自动驾驶技术。这些车辆包括白色捷豹和浅蓝色极氪汽车，车顶装有旋转的黑色摄像头和雷达，正在为未来在各种天气条件下的自动驾驶打下基础。",
+      "content": "大型科技公司的自动驾驶车辆——一队白色捷豹和浅蓝色的极氪汽车，车顶装有旋转的黑色摄像头和雷达——已经在丹佛行驶了两个月，其人工智能计算机正在收集数据……[13208个字符]",
+      "imageUrl": "https://www.denverpost.com/wp-content/uploads/2025/11/TDP-Z-AP25248001745395.jpg?w=1024&h=683",
+      "source": "The Denver Post",
+      "publishedAt": "2025-11-09T13:00:33.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.denverpost.com/2025/11/09/waymo-denver-self-driving-cars/",
+      "aiInsight": "从技术发展角度看，Waymo将自动驾驶汽车部署到雪地环境进行测试，标志着自动驾驶技术在极端天气条件下的应用正在逐步成熟。这不仅考验传感器的性能和算法的抗干扰能力，也意味着Waymo在数据收集和算法优化上取得了显著进展。\n\n从行业影响层面来看，Waymo这一举动或将推动整个自动驾驶汽车产业加速向低温、多雪等复杂环境拓展，从而提升自动驾驶系统的整体可靠性。对于物流、公共交通等行业来说，这预示着未来更加高效和安全的出行解决方案可能将覆盖更多样化的地理和气候条件。\n\n从未来趋势角度分析，Waymo的这一举措反映出自动驾驶技术正在朝着更多元化、更复杂环境适应性的方向发展。随着技术的不断进步，自动驾驶汽车有望在未来成为人们生活中不可或缺的一部分，为人们提供更加便捷、智能的出行方式。同时，这也预示着整个交通行业的变革即将来临，自动驾驶技术的应用将对交通规划、城市管理等方面产生深远影响。"
+    },
+    {
       "id": "news_1762843219271_0",
       "title": "Waymo的自动驾驶汽车已抵达丹佛，正在学习如何在雪地中行驶。",
       "summary": "Waymo的自动驾驶汽车已抵达丹佛，并在雪地中行驶两个月，收集数据以提高自动驾驶技术。这些车辆配备了摄像头和雷达，正努力适应复杂天气条件下的行驶。",
@@ -880,18 +940,6 @@
       "aiInsight": "Waymo在丹佛进行自动驾驶测试，特别是雪地环境下的测试，显示了其技术在复杂环境下的适应能力。这不仅是自动驾驶技术的一次重要突破，也是Waymo在自动驾驶领域持续投入和积累的结果。从技术发展角度看，Waymo的测试表明其自动驾驶系统在极端天气条件下的感知和决策能力正在不断提升，为未来大规模商用奠定了基础。\n\n行业影响方面，Waymo在雪地测试的成功将激励其他自动驾驶公司加大在复杂环境下的测试力度，推动整个行业向更高级别自动驾驶迈进。这将促进整个产业链的协同创新，包括传感器、算法、车联网等领域的技术进步。\n\n未来趋势上，随着Waymo等公司的技术不断成熟，自动驾驶车辆将在更多场景和更极端环境下进行测试，以确保其在各种真实世界条件下的安全性和可靠性。这将加速自动驾驶技术的商业化进程，最终实现自动驾驶汽车的普及，改变人们的出行方式和城市交通格局。"
     },
     {
-      "id": "news_1762802510653_0",
-      "title": "Waymo的自动驾驶汽车已抵达丹佛，正在学习在雪地中行驶。",
-      "summary": "Waymo的自动驾驶汽车已抵达丹佛，并在雪地中行驶两个月，收集数据以提高车辆在复杂天气条件下的性能。这批车辆包括白色捷豹和粉蓝色的极氪，车顶装有摄像头和雷达，其人工智能计算机正在不断学习和优化。",
-      "content": "大科技公司的自动驾驶车辆——一队白色捷豹和粉蓝色的极氪，车顶装有旋转的黑摄像头和雷达——已经在丹佛行驶了两个月，其人工智能计算机正在收集数据……[13208个字符]",
-      "imageUrl": "https://www.denverpost.com/wp-content/uploads/2025/11/TDP-Z-AP25248001745395.jpg?w=1024&h=683",
-      "source": "The Denver Post",
-      "publishedAt": "2025-11-09T13:00:33.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.denverpost.com/2025/11/09/waymo-denver-self-driving-cars/",
-      "aiInsight": "这篇新闻展示了Waymo在自动驾驶技术上的最新进展，特别是在极端天气条件下的表现。从技术发展的角度来看，Waymo对雪地行驶的测试表明，该公司正在努力提升其自动驾驶系统对复杂环境的适应能力，这是自动驾驶技术成熟的重要标志之一。这不仅需要强大的传感器和算法，还需要对各种潜在场景的全面测试和优化。\n\n从行业影响来看，Waymo在雪地测试中的进步可能会对该行业产生积极影响，尤其是在推动自动驾驶技术在更广泛环境下的应用方面。这不仅有助于提高公众对自动驾驶技术的信心，也有可能加速自动驾驶车辆的商业化进程。\n\n未来趋势方面，随着Waymo和其他公司在不同环境条件下的测试和验证，自动驾驶技术有望变得更加成熟和可靠。这种技术的广泛应用将对交通、物流等行业产生深远影响，有可能带来更高的效率、安全性和环保性。同时，这也可能引发新的商业模式和产业变革，比如自动驾驶出租车、无人配送等服务的普及。"
-    },
-    {
       "id": "news_1762770710510_0",
       "title": "Waymo的自动驾驶汽车已抵达丹佛，正在学习在雪地环境中导航",
       "summary": "Waymo的自动驾驶汽车已抵达丹佛，并在雪地环境中进行测试。这批白色捷豹和粉蓝色极氪汽车配备了旋转的黑色摄像头和雷达，其人工智能系统正在吸收数据，以适应复杂的城市交通环境。这是Waymo在公共场合进行自动驾驶技术测试的一部分，旨在提高车辆在各种天气条件下的行驶能力。",
@@ -904,16 +952,16 @@
       "aiInsight": "这项新闻彰显了Waymo在自动驾驶技术上的持续进步和广泛测试。从技术发展的角度来看，Waymo在雪地环境下的测试表明其自动驾驶技术在复杂天气条件下的适应能力正在增强，这是对自动驾驶系统全面性的一大考验。从行业影响的角度来看，Waymo的这次测试对于整个自动驾驶行业来说是一个积极的信号，它标志着自动驾驶技术正逐渐从简单的城市道路测试向更复杂的环境拓展，这将加速自动驾驶技术的成熟和商业化进程。从未来趋势来看，随着技术的进步和测试范围的扩大，自动驾驶汽车将更可能地在各种天气和道路条件下运行，从而更接近实现完全自动驾驶的目标。这将对交通出行、物流运输等多个行业产生深远影响，同时也将面临法规、安全等方面的挑战。"
     },
     {
-      "id": "news_1762843219121_1",
+      "id": "news_1762846003731_1",
       "title": "Meet the minds distorting our reality with AI videos set to become the new superstars of the Sora app",
-      "summary": "Sora 2文本转视频服务推出后，AI生成的虚假视频迅速走红，成为新晋影响者的新收入来源。这些视频中，历史人物如马丁·路德·金被复活担任DJ，引发公众对AI生成内容真实性的担忧。这种现象揭示了AI技术在创造虚假信息方面的能力，同时也反映了社交媒体平台上的内容审核和监管挑战。",
-      "content": "新晋影响者正将人工智能提示转化为收入来源。 当OpenAI于9月30日推出其Sora 2文本转视频服务时，公众并未准备好迎接它所释放的混乱世界。 马丁·路德·金被复活来担任DJ……[7744 chars]",
+      "summary": "Sora 2文本转视频服务推出后，引发了公众对AI生成视频的广泛关注。一些新晋影响者利用该服务将人工智能提示转化为视频内容，吸引了大量关注和收入。然而，这种技术也带来了一些问题，如虚假信息的传播和公众人物形象的不当使用。随着AI生成视频的普及，如何规范其应用成为亟待解决的问题。",
+      "content": "新晋影响者正在将人工智能提示转化为收入来源。 当OpenAI于9月30日推出其Sora 2文本转视频服务时，公众并没有准备好迎接它所释放的失控世界。 马丁·路德·金被复活来担任DJ……[7744 chars]",
       "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2025/11/newspress-collage-dk0cagttt-1762561035247.jpg?quality=75&strip=all&1762543064&w=1200",
       "source": "New York Post",
       "publishedAt": "2025-11-09T13:00:00.000Z",
       "category": "科技新闻",
       "originalUrl": "https://nypost.com/2025/11/09/us-news/meet-the-brains-blurring-our-reality-with-ai-videos-set-to-become-the-new-superstars-of-the-sora-app/",
-      "aiInsight": "这篇新闻揭示了AI生成视频技术在社交媒体平台上的广泛应用，以及它带来的新现象和挑战。从技术发展角度看，Sora 2提供的文本转视频服务是当前AI生成视频技术的最新成果，展示了深度伪造技术在图像生成和视频合成领域的巨大进步。这种技术的进步不仅提高了视频创作的效率，也为创作者提供了新的创作工具。\n\n从行业影响来看，AI生成视频技术正逐渐改变内容创作者的生态，使得非专业创作者也能轻松生成高质量的视频内容，这可能会对传统视频制作行业产生冲击。同时，这种技术的普及也可能引发版权和隐私问题，对现有的版权保护机制形成挑战。\n\n未来趋势方面，随着AI生成视频技术的进一步发展和完善，其应用领域将更加广泛，可能在娱乐、教育、营销等多个领域产生深远影响。然而，技术的滥用也可能会导致信息真实性问题，因此，加强技术伦理和监管将是未来的重要方向。"
+      "aiInsight": "这篇新闻报道了Sora 2作为文本转视频服务的推出，引发了对AI生成内容在社交媒体和影响者领域的重大影响。从技术发展角度看，Sora 2利用AI生成逼真的视频内容，展示了AI技术在图像和视频生成方面的显著进步，这将进一步推动AI在创意产业的应用。从行业影响来看，这种技术的普及可能会重塑数字内容的创作与分发模式，对传统内容创作和传播产生巨大冲击，同时也为新兴内容创作者提供了新的机会。未来趋势方面，随着AI技术的不断成熟，AI生成内容将更加逼真、多样化，可能会引发关于版权、道德和隐私的新讨论。此外，随着技术进步，AI生成内容的使用可能会更加普遍，但也需要建立相应的监管机制和行业规范，以确保内容的真实性和可信度。"
     },
     {
       "id": "news_1762838854465_1",
@@ -1046,42 +1094,6 @@
       "category": "科技新闻",
       "originalUrl": "https://36kr.com/newsflashes/3545554493370243?f=rss",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1762673057212_930fdde1",
-      "title": "英伟达CEO希望台积电供应更多晶圆，以满足强劲的AI需求",
-      "summary": "英伟达首席执行官黄仁勋表示，由于人工智能（AI）需求依然强劲，他已向台积电要求增加芯片供应。黄仁勋在台湾新竹出席台积电年度运动会时告诉记者：“业务非常强劲，且每个月都在增长，越来越强。",
-      "content": "英伟达首席执行官黄仁勋表示，由于人工智能（AI）需求依然强劲，他已向台积电要求增加芯片供应。黄仁勋在台湾新竹出席台积电年度运动会时告诉记者：“业务非常强劲，且每个月都在增长，越来越强。”他在周六表示，英伟达的三家AI存储芯片供应商——SK海力士、三星电子和美光科技——都已提升了“巨大的产能”以支持英伟达。（新浪财经）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2025-11-09T07:19:47.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3545427093762176?f=rss",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1762673090947_4c0bf0af",
-      "title": "马斯克：星舰为大规模部署太阳能 AI 卫星开辟路径",
-      "summary": "IT之家 11 月 9 日消息，世界首富埃隆・马斯克今日在 X 平台称，“随着星舰的问世，大规模部署太阳能人工智能卫星的道路终于得以开辟。这也是我所认为的，唯一一条能够实现每年 1 太瓦人工智能算力部署的路径。",
-      "content": "IT之家 11 月 9 日消息，世界首富埃隆・马斯克今日在 X 平台称，“随着星舰的问世，大规模部署太阳能人工智能卫星的道路终于得以开辟。这也是我所认为的，唯一一条能够实现每年 1 太瓦人工智能算力部署的路径。” IT之家注意到，马斯克此前曾透露，SpaceX 今年将承担全球 90% 以上的轨道有效载荷发射任务，中国约占 5%，其余 5% 由美国其他企业和世界其他国家分担。他预测当星舰实现高频次发射后，SpaceX 有望承担全球 99% 以上的轨道运输任务，这对实现火星殖民计划至关重要。 马斯克旗下 xAI 公司正在田纳西州建设配备百万 GPU 的超算中心，但面临严重电力缺口问题，需要额外建设发电设施才能满足需求。 与此同时，多家太空初创公司正计划将数据中心送入轨道，利用太阳能解决 AI 计算带来的巨大能耗问题。Starcloud 等公司计划通过太空数据中心运行简化版 AI 模型，未来目标是建设吉瓦级轨道数据中心。 马斯克此前表示，星舰计划在 2026 年底搭载擎天柱机器人登陆火星，并可能在 2029-2031 年间实现载人火星任务。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/7b724895-8134-4f83-862e-b24308c76d2c.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-11-09T07:16:13.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/896/047.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1762673091058_db9a1b98",
-      "title": "特斯拉公布电动重卡 Semi 工厂内部实景，明年正式量产",
-      "summary": "IT之家 11 月 9 日消息，特斯拉近日罕见地对外展示了其电动重卡 Semi 工厂的内部实景，该车型预计将于明年（2026 年）正式投产。根据发布的视频内容可见，工厂内部施工仍在持续进行中，此前航拍影像亦曾暗示现场尚有作业活动。",
-      "content": "IT之家 11 月 9 日消息，特斯拉近日罕见地对外展示了其电动重卡 Semi 工厂的内部实景，该车型预计将于明年（2026 年）正式投产。根据发布的视频内容可见，工厂内部施工仍在持续进行中，此前航拍影像亦曾暗示现场尚有作业活动。 该段新发布的 Semi 工厂视频由特斯拉官方 X 平台账号发布，工厂位于内华达超级工厂（Giga Nevada）附近。尽管视频时长不足 30 秒，但清晰呈现了厂内多个关键区域，包括巨型生产设备及开阔的厂房空间。此外，视频中还展示了若干首批量产版 Semi 原型车正在厂区周边行驶。 在 2025 年度股东大会上，埃隆・马斯克（Elon Musk）就 Semi 量产进展作出简要通报。他向股东明确表示，Semi 量产计划正按既定时间表稳步推进，将于 2026 年正式启动：“自明年起，我们将启动特斯拉 Semi 的量产工作。目前，已有大量 Semi 原型车投入实际运营，百事公司（PepsiCo）及其他多家企业已长期使用该车型开展测试与日常运输。2026 年，我们将在位于内华达州北部的工厂开启 Semi 的大规模量产。” 除确认量产时间表外，特斯拉还在马斯克的演讲环节中首次公开了这款 8 级全电动重卡的全新外观设计图。根据演示文稿中的幻灯片显示，Semi 已进行较大幅度的重新设计，其造型语言全面向特斯拉当前产品矩阵靠拢。 IT之家注意到，最显著的变化集中在车头部分：新款 Semi 采用了与 Cybertruck、Cybercab 及全新 Model Y 风格一致的犀利前大灯设计。其他多项调整则聚焦空气动力学性能优化。据特斯拉官方披露，新款 Semi 能效表现大幅提升，达到每英里仅耗电 1.7 千瓦时（1.7 kWh / mile）。此外，车身两侧集成的侧向摄像头十分醒目，预计用于支持 FSD 系统相关功能。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/e0961c38-3277-4f59-ad25-c2d662678ec0.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-11-09T06:58:06.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/896/045.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
