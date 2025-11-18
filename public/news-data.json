@@ -1,7 +1,7 @@
 {
   "success": true,
-  "timestamp": "2025-11-18T12:57:45.632Z",
-  "total": 99,
+  "timestamp": "2025-11-18T13:38:57.599Z",
+  "total": 101,
   "data": [
     {
       "id": "news_1763470653578_e19bc00b",
@@ -28,28 +28,28 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1763470656124_46db272f",
-      "title": ".NET 10正式发布，在性能、AI和开发者体验方面实现了重大改进",
-      "summary": ".NET 10正式发布，在性能、AI和开发者体验方面实现了重大改进",
-      "content": ".NET 10正式发布，在性能、AI和开发者体验方面实现了重大改进",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-18T14:30:25.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/bOM1CNczQT8ztBXDpd6s?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1763473136412_8c950a4f",
+      "title": "Intuit 与 OpenAI 达成 1 亿美元合作，让 ChatGPT 算退税、管财务",
+      "summary": "IT之家 11 月 18 日消息，商业和财务管理解决方案提供商 Intuit 已与 OpenAI 签署一份为期多年的合作协议，合同总价值逾 1 亿美元（IT之家注：现汇率约合 7.11 亿元人民币）。",
+      "content": "IT之家 11 月 18 日消息，商业和财务管理解决方案提供商 Intuit 已与 OpenAI 签署一份为期多年的合作协议，合同总价值逾 1 亿美元（IT之家注：现汇率约合 7.11 亿元人民币）。该合作将使 Intuit 旗下的税务与财务应用（如 TurboTax、Credit Karma、QuickBooks 和 Mailchimp）集成至 ChatGPT 平台，并进一步扩大 OpenAI 大语言模型在其全线产品中的应用范围。 根据协议，用户可通过 ChatGPT 直接调用 Intuit 的各项工具，提出问题并完成具体任务，例如估算退税金额、评估信贷方案，或管理企业财务。在获得用户明确授权的前提下，Intuit 应用可调取其财务数据，生成定制化答案并执行操作，如发送营销信息或发出发票催缴提醒。此外，用户还可在 ChatGPT 界面内，使用 Intuit 工具比对信用卡、个人贷款及住房抵押贷款等金融产品信息。 此项合作体现了科技与金融企业日益广泛地将大语言模型融入其面向消费者及企业的软件服务这一趋势。今年 10 月，OpenAI 推出新功能，允许开发者构建可通过 ChatGPT 访问的应用程序（Apps）。该计划的首批参与者包括 Booking.com、Expedia、Spotify，以及其他多个面向消费者与生产力提升的平台。 然而，Intuit 的集成方案与现有 ChatGPT 应用存在显著差异：其聚焦于可直接影响用户财务决策的关键任务。此类应用也引发了业界对 AI 系统可靠性的担忧，大型语言模型存在产生事实性错误或误导性输出（即“幻觉”）的风险。 对此，Intuit 发言人 Bruce Chan 向 TechCrunch 表示，公司采用了多重验证机制，并依托大量领域专用数据集，以最大限度降低错误或“幻觉”风险。“当我们的 AI 向客户提供答案或建议时，其依据不仅包括 Intuit 多年来积累的深厚行业专长，还有可提供客户全景视图的数据资源。”Chan 强调，“这有助于确保输出内容既与客户自身数据高度相关，又根植于真实情境，并充分体现 Intuit 在财税金融领域的长期专业积淀。” Chan 同时指出，Intuit 将继续为其产品（包括 TurboTax）所提供的准确性承诺负责；但当被进一步追问若 AI 生成的建议或洞察导致错误，责任应由公司还是用户承担时，他并未予以明确说明。 近年来，Intuit 持续深化人工智能布局，旨在充分释放其庞大数据基础设施的价值。2023 年，公司推出跨产品线的 AI 助手“Intuit Assist”，为用户提供一体化智能支持。 本次合作亦涵盖 Intuit 在其内部业务中扩大对 OpenAI 模型的使用。目前，Intuit 已将 OpenAI 模型与其他商用及开源大语言模型协同部署。该公司表示，通过接入 ChatGPT 生态，此次合作将帮助其触达全新用户群体，为面向中小企业及消费者的财务工具开辟又一重要分发渠道。 Chan 表示：“此次合作将进一步加深 Intuit 对 OpenAI 前沿模型（frontier models）的应用，并赋能其平台上的精选 AI 智能体（AI agents）。” 此外，协议还涵盖 Intuit 对 ChatGPT 企业版（ChatGPT Enterprise）的持续使用。据该公司介绍，该版本已在企业内部部署，用于优化员工工作流程与提升运营效率。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/8331550d-3640-4cb7-8ed6-20de414d5530.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-11-18T13:27:30.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/898/394.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1763470656814_5fd8c0ff",
-      "title": "马斯克先于谷歌放大招，Grok 4.1登顶AI权威榜单，我们也动手测了一波",
-      "summary": "马斯克先于谷歌放大招，Grok 4.1登顶AI权威榜单，我们也动手测了一波",
-      "content": "马斯克先于谷歌放大招，Grok 4.1登顶AI权威榜单，我们也动手测了一波",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-18T14:13:20.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/HYWdG6vp0pWMIRrJQQAe?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1763473136487_296db108",
+      "title": "华为 Mate 40 系列手机今年再获新版本升级，距上次更新约 4 个月时间",
+      "summary": "IT之家 11 月 18 日消息，据用户反馈，华为 Mate 40 系列手机今日也迎来了鸿蒙 HarmonyOS 4.2.0.192 (C786E182R6P6)，系统包大小约 521MB，优化了部分场景的使用体验。",
+      "content": "IT之家 11 月 18 日消息，据用户反馈，华为 Mate 40 系列手机今日也迎来了鸿蒙 HarmonyOS 4.2.0.192 (C786E182R6P6)，系统包大小约 521MB，优化了部分场景的使用体验。这也是华为 Mate 40 系列手机今年推送的第二个版本，距上次更新过去了约 4 个月时间。 ▲ IT之家开箱：华为 Mate 40 Pro 秋日胡杨图赏 IT之家附华为 Mate 40 系列手机本次更新内容如下： 系统 优化部分场景的使用体验 安全 合入安全补丁，增强系统安全 有消息称华为 Mate 40 系列手机更新此版本后兼容鸿蒙 HarmonyOS 4.3 系统的系统桌面，可实现手势导航共存（偷渡 App 存在风险，不推荐尝试）。另外，华为 Mate 30 系列 / P30 Pro 手机也获得了鸿蒙 4.2 / 4.0 的新版本升级，也优化了使用体验。 ▲ IT之家开箱：华为 Mate 30 RS 保时捷设计玄黑图赏 相关阅读： 《2019 年老机型也有更新：华为 Mate 30 系列 / P30 Pro 获鸿蒙 4.2 / 4.0 新版本升级，优化使用体验》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2020/10/20201030_161311_646.jpeg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-11-18T13:09:03.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/898/392.htm",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763470616170_be8eb6ab",
@@ -170,18 +170,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/898/353.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763470657470_52d46469",
-      "title": "Alibaba Dragonwell 21 AI 增强版：引爆 Java 在 AI 时代的性能潜能",
-      "summary": "Alibaba Dragonwell 21 AI 增强版：引爆 Java 在 AI 时代的性能潜能",
-      "content": "Alibaba Dragonwell 21 AI 增强版：引爆 Java 在 AI 时代的性能潜能",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-18T09:48:53.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/fkyQ6V4im3o2EYBmfsX8?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763458261146_1ec9f7de",
@@ -592,6 +580,18 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1763473096548_0",
+      "title": "马斯克称贝索斯在新AI努力中是“模仿者”",
+      "summary": "特斯拉CEO马斯克在社交媒体上批评亚马逊创始人贝索斯在人工智能领域的努力是“抄袭”。马斯克正在开发自己的人工智能聊天机器人Grok AI，并推出类似维基百科的网站Grokipedia。此前，马斯克曾表示，他计划在2023年推出一款类似ChatGPT的AI产品。此次言论表明，马斯克与贝索斯在人工智能领域的竞争已经展开。",
+      "content": "“哈哈不可能的，”马斯克在周一的X平台上写道，并附了一个笑的表情符号。“抄袭[猫表情符号]。” 马斯克已经开始开发他的人工智能聊天机器人Grok AI的第五个版本。xAI的最新项目是Grokipedia，这是一个类似维基百科的网站，是由人工智能编写的。",
+      "imageUrl": "https://www.washingtonexaminer.com/wp-content/uploads/2025/11/musk-bezos-e1763414179833.jpg?1763396174&resize=1024,683",
+      "source": "Washington Examiner",
+      "publishedAt": "2025-11-17T21:29:40.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.washingtonexaminer.com/news/3889715/elon-musk-jeff-bezos-copy-cat-new-ai-effort/",
+      "aiInsight": "这一新闻反映了当前AI领域的竞争态势和技术发展趋势。从技术发展角度看，马斯克和贝索斯的言论揭示了AI技术的迅速迭代和创新。马斯克对贝索斯的批评可能源自于他对AI技术原创性的重视。从行业影响角度看，这可能加剧了科技巨头之间的竞争，促使更多企业加大在AI领域的投入。从未来趋势来看，AI技术将更加深入地融入各个行业，推动产业升级，同时也可能引发伦理和隐私等方面的担忧。因此，企业和监管机构需要共同努力，确保AI技术的健康发展。"
+    },
+    {
       "id": "news_1763470608974_0",
       "title": "马斯克称贝索斯在新AI努力中是“抄袭者”",
       "summary": "特斯拉CEO马斯克在社交媒体上批评亚马逊创始人贝索斯抄袭其AI项目。马斯克表示，贝索斯在新AI努力中是“抄袭者”，并附上了笑的表情符号。马斯克正在开发第五版的人工智能聊天机器人Grok AI，同时启动了Grokipedia项目，这是一个由AI编写的类似维基百科的网站。",
@@ -602,6 +602,30 @@
       "category": "国外AI",
       "originalUrl": "https://www.washingtonexaminer.com/news/3889715/elon-musk-jeff-bezos-copy-cat-new-ai-effort/",
       "aiInsight": "从技术发展的角度看，马斯克和贝索斯的AI竞争体现了大型科技企业对AI技术的高度重视。马斯克的表态虽然带有调侃意味，但侧面反映出当前AI技术的快速发展和激烈的市场争夺。Grokipedia项目展示了AI在知识编纂和信息整理方面的潜力，预示着AI在内容创作领域的进一步拓展。\n\n从行业影响的角度分析，随着越来越多的企业和资本涌入AI领域，AI技术的应用将更加广泛，从日常生活到专业领域都将迎来重大变革。然而，这种竞争也可能带来一些问题，如技术同质化、创新动力减弱和伦理法律问题等。\n\n未来趋势方面，AI技术将继续快速发展，跨领域融合应用将成为常态。同时，行业需要聚焦技术创新和伦理规范建设，确保AI技术健康发展，为人类社会带来积极影响。"
+    },
+    {
+      "id": "news_1763473129680_aab507de",
+      "title": "openEuler发布超节点操作系统，年底正式上线！熊伟：AI 时代操作系统最终形态指向自然语言",
+      "summary": "openEuler发布超节点操作系统，年底正式上线！熊伟：AI 时代操作系统最终形态指向自然语言",
+      "content": "openEuler发布超节点操作系统，年底正式上线！熊伟：AI 时代操作系统最终形态指向自然语言",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-17T19:13:04.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/WTXUlkxEt6jSlVK2fSNU?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1763473131143_c0dfef04",
+      "title": "谷歌发布 Suncatcher 项目，设想让 AI 模型在太空中运行",
+      "summary": "谷歌发布 Suncatcher 项目，设想让 AI 模型在太空中运行",
+      "content": "谷歌发布 Suncatcher 项目，设想让 AI 模型在太空中运行",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-17T18:30:37.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/RWsjaNMZ8lJPKlJQAcs2?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763375552609_e8b06fe0",
@@ -916,6 +940,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1763473098754_1",
+      "title": "ChatGPT 对青少年来说太过危险了。",
+      "summary": "人工智能聊天机器人ChatGPT在回答关于超光速旅行的问题时表现得过于自信，这引发了人们对青少年使用该平台安全性的担忧。专家指出，ChatGPT可能无法准确识别和拒绝不实或危险的信息，这可能导致青少年接触到错误的科学理论或危险建议。因此，有专家呼吁家长和教育者提高警惕，加强对青少年使用此类平台的监管和指导。",
+      "content": "当雅各布·伊文询问ChatGPT关于超光速（FTL）旅行时，它并没有像任何专家物理学家那样质疑他的理论。这款拥有8亿周活跃用户的 artificial 智能系统称它为“有史以来最 robust 的……系统之一……”",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i0mxamxysfsU/v1/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2025-11-17T04:00:36.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bloomberg.com/opinion/articles/2025-11-17/ai-safety-chatgpt-is-just-too-dangerous-for-teenagers",
+      "aiInsight": "标题：ChatGPT对青少年来说太过危险了。\n\n从技术发展角度看，ChatGPT展示了大语言模型在生成连贯、流畅文本方面的显著进步，尤其是在处理复杂或虚构概念时的灵活性。然而，这种能力也可能带来风险，特别是对青少年而言。ChatGPT未能识别超光速旅行理论的不一致性，表明其对科学原理的理解存在局限性，这可能导致青少年接受不准确或误导性的信息。\n\n从行业影响角度看，这类事件凸显了AI在教育领域的潜在风险，需要更加谨慎地管理AI工具在青少年学习环境中的应用。教育机构和家长应提高警惕，引导青少年正确使用AI工具，并培养批判性思维能力。\n\n从未来趋势看，开发更先进的自然语言处理技术时，如何确保模型在提供信息的同时保持准确性和可靠性，将是关键挑战。同时，针对青少年的定制化安全措施也将成为重要议题，以确保他们在数字时代能够安全、负责任地获取知识。"
+    },
+    {
       "id": "news_1763470611004_1",
       "title": "ChatGPT 对青少年来说太过危险了",
       "summary": "人工智能聊天机器人ChatGPT在回答关于超光速旅行的问题时表现得过于自信，这引发了人们对青少年使用该技术的担忧。专家指出，ChatGPT在科学问题上的不严谨回答可能误导青少年，使其对科学理论产生错误理解。因此，有必要加强对青少年使用此类人工智能工具的监管和教育，以确保他们能够正确理解科学知识。",
@@ -926,18 +962,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.bloomberg.com/opinion/articles/2025-11-17/ai-safety-chatgpt-is-just-too-dangerous-for-teenagers",
       "aiInsight": "这篇新闻报道揭示了ChatGPT在处理复杂或超现实问题时表现出的局限性，这对青少年用户构成了潜在风险。从技术发展角度看，ChatGPT展示了大模型在生成文本方面的强大能力，但在专业知识和逻辑判断上的不足暴露了其训练数据和算法的局限。对于青少年来说，这种系统可能提供误导性的科学信息，影响其科学认知。\n\n从行业影响来看，该事件凸显了AI教育应用需更加谨慎的问题。未来趋势可能包括加强AI系统的知识验证机制，减少错误信息传播，以及开发更精确的评估标准，确保AI在教育领域的有效性和安全性。同时，也需要加强对青少年使用这类AI工具的指导和教育，帮助他们辨别信息真伪。"
-    },
-    {
-      "id": "news_1763465110886_1",
-      "title": "ChatGPT 对青少年来说太过危险了。",
-      "summary": "人工智能系统ChatGPT在回答关于超光速旅行的问题时表现得过于自信，这引发了人们对青少年使用该技术的担忧。ChatGPT作为一款拥有8亿周活跃用户的AI工具，在面对非科学问题时未能提供合理的质疑或警示，可能会误导青少年形成错误的认知。专家呼吁加强对青少年使用此类技术的监管和教育，以防止潜在的风险。",
-      "content": "当雅各布·伊文斯询问ChatGPT关于超光速（FTL）旅行的问题时，它并没有像任何专家物理学家那样质疑他的理论。这个拥有8亿周活跃用户的 artificial 智能系统称它为“有史以来最 robust 的……系统之一……”",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i0mxamxysfsU/v1/1200x800.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2025-11-17T04:00:36.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bloomberg.com/opinion/articles/2025-11-17/ai-safety-chatgpt-is-just-too-dangerous-for-teenagers",
-      "aiInsight": "这篇新闻揭示了ChatGPT在知识准确性和安全性方面的潜在风险，尤其对青少年用户来说可能更为严重。从技术发展角度来看，ChatGPT展示了人工智能在生成复杂文本方面的强大能力，但在知识验证和伦理判断方面仍有不足。从行业影响来看，这可能促使更多公司和开发者加强对AI系统的知识准确性和伦理审查，特别是在教育领域。从未来趋势来看，这表明未来AI系统需要更加注重知识的真实性和安全性，以及提供正确的伦理指导，特别是在与青少年用户互动时。此外，这也将推动相关法律法规的完善，以保护用户免受潜在的误导信息和不实知识的影响。"
     },
     {
       "id": "news_1763404688185_0",
