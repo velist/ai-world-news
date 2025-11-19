@@ -1,8 +1,44 @@
 {
   "success": true,
-  "timestamp": "2025-11-19T22:32:14.254Z",
-  "total": 128,
+  "timestamp": "2025-11-19T23:30:29.337Z",
+  "total": 130,
   "data": [
+    {
+      "id": "news_1763595027649_125a123b",
+      "title": "OpenAI 发布最强编程模型 GPT-5.1-Codex-Max：AI 程序员能“通宵”，性能跑分反超谷歌",
+      "summary": "IT之家 11 月 20 日消息，OpenAI 昨日（11 月 19 日）发布博文，宣布推出 GPT-5.1-Codex-Max 智能体编程模型，显著提升了长远推理能力、效率和实时交互能力。此外该模型将取代 GPT-5.1-Codex，成为 Codex 集成界面上的默认模型。",
+      "content": "IT之家 11 月 20 日消息，OpenAI 昨日（11 月 19 日）发布博文，宣布推出 GPT-5.1-Codex-Max 智能体编程模型，显著提升了长远推理能力、效率和实时交互能力。此外该模型将取代 GPT-5.1-Codex，成为 Codex 集成界面上的默认模型。 IT之家援引博文介绍，此次发布紧随谷歌 Gemini 3 Pro 之后，但在多个关键编程基准测试中，Codex-Max 展现出更强的实力。例如，在衡量解决实际软件问题的 SWE-Bench Verified 测试中，Codex-Max 以 77.9% 的准确率小幅领先于 Gemini 3 Pro 的 76.2%。 Codex-Max 在 Terminal-Bench 2.0 测试中也领先，准确率达到 58.1%，而 Gemini 的准确率为 54.2%；在 LiveCodeBench Pro（一项竞争激烈的编码 Elo 基准测试）测试中，它的得分与 Gemini 的 2439 分持平。 GPT-5.1-Codex-Max 的一项重大架构升级是引入了名为“压缩”（Compaction）的机制。该机制允许模型在接近其上下文窗口限制时，智能地保留关键上下文信息并丢弃无关细节，从而实现跨越数百万 token 的连续工作而不会出现性能下降。 得益于此，该模型在内部测试中已成功完成持续超过 24 小时的复杂任务，如多步骤代码重构和自主调试。同时，这项技术还提升了约 30% 的 token 效率，有效降低了成本与延迟。 新模型目前已集成到 OpenAI 自家的多个 Codex 开发环境中，包括其官方命令行工具（Codex CLI）、内部代码审查工具以及各类交互式编程环境。 开发者可以通过这些工具体验到模型强大的实时交互能力，例如在可视化界面中进行强化学习训练或模拟光学定律。不过，GPT-5.1-Codex-Max 尚未通过公共 API 提供，但官方表示即将开放。普通用户则需要订阅 ChatGPT Plus、Pro 或企业版等付费计划才能使用。 OpenAI 透露，其内部 95% 的工程师每周都会使用 Codex，自采用以来，这些工程师平均多提交了约 70% 的拉取请求（Pull Requests），显著提升了内部开发速度。 尽管 Codex-Max 具备高度的自主性，OpenAI 仍强调它应作为编码“助手”而非人类的替代品。为保证透明度，模型会生成详细的终端日志和测试引用，以便开发者审查和验证其生成的所有代码。此外，模型在默认情况下运行于严格的沙盒环境中，并禁用了网络访问，以确保安全性。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/127c4554-689f-41d3-a78a-defa46e2e063.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-11-19T23:23:31.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/898/721.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1763595001459_70d7f579",
+      "title": "李彦宏人民日报撰文：内化AI能力，加快形成新质生产力",
+      "summary": "百度公司创始人、董事长兼首席执行官李彦宏在人民日报撰文指出，抓住数字经济转型和人工智能发展机遇，从决策到执行，从客户到供应链，让AI能力渗透到生产、经营、服务的每一个环节、每一个细胞，是企业必须做好的课题。",
+      "content": "百度公司创始人、董事长兼首席执行官李彦宏在人民日报撰文指出，抓住数字经济转型和人工智能发展机遇，从决策到执行，从客户到供应链，让AI能力渗透到生产、经营、服务的每一个环节、每一个细胞，是企业必须做好的课题。各领域企业抢占一个个“智高点”，加快融入全面推进人工智能科技创新、产业发展和赋能应用的潮流大势，社会生产要素将因智能化重组而更高效流动，科技创新成果将更快转化为现实生产力，社会整体的创造潜能将被全面激发。百度将持续加大投入，构建领先的智能基础设施，研发更前沿的大模型技术，打造更开放的产业生态体系，助力千行百业内化AI能力、构建AI原生能力、加速智能化转型，为中国经济高质量发展作出新贡献。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2025-11-19T23:22:46.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3560612936416388?f=rss",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1763595027977_259577fa",
+      "title": "任职 12 年后，Meta 首席 AI 科学家杨立昆宣布离职并“自立门户”",
+      "summary": "IT之家 11 月 20 日消息，效力 12 年后，Meta 首席科学家杨立昆（Yann LeCun）今日宣布即将离职，并创办自己的 AI 创业公司。 杨立昆长期在纽约大学任教，2013 年加入 Meta 领导 FAIR 实验室，随后成为首席 AI 科学家。",
+      "content": "IT之家 11 月 20 日消息，效力 12 年后，Meta 首席科学家杨立昆（Yann LeCun）今日宣布即将离职，并创办自己的 AI 创业公司。 杨立昆长期在纽约大学任教，2013 年加入 Meta 领导 FAIR 实验室，随后成为首席 AI 科学家。FAIR 在深度学习研究、计算机视觉、基础模型以及大量前沿算法上奠定了 Meta 的核心技术路线，而杨立昆在整个阶段始终扮演关键角色。 杨立昆说，新公司将承接他与 FAIR、纽约大学及其他同行过去几年共同推进的 Advanced Machine Intelligence（AMI）研究计划，并且会继续与 Meta 保持合作。 据其介绍，新公司的目标是推动 AI 的下一次重大跃迁，让 AI 系统能够理解现实世界、具备长期记忆、能够进行推理，还能规划多步骤的行动流程。AMI 未来在许多行业都能产生影响，部分方向会与 Meta 的业务相关，但更多方向并无直接关系，而以独立公司开展 AMI 研究能够让成果更自由地传播，也能让研究脱离大型企业内部的短期商业压力。 据IT之家了解，杨立昆对大语言模型始终持保留意见，认为仅靠扩大大语言模型的规模不可能达到人类水平的 AI。不仅如此，杨立昆最近在一场会议上甚至劝年轻研究者“绝对不要把精力放在大语言模型上”。 据彭博社报道，杨立昆近来在内部争取研究资源时愈发困难，因为 Meta 更专注于开发能应对 OpenAI、Alphabet 旗下谷歌以及 Anthropic 等竞争对手的产品式模型。这意味着 AMI 这种强调长期探索性质的研究，在大规模商业竞争的背景下较难得到优先支持。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/c9fc4e0a-dd97-4aac-90e2-3e00be724d2b.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-11-19T23:20:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/898/720.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1763573402541_34a1b73f",
       "title": "华为鸿蒙 HarmonyOS 6.0.0.112 再曝新特性：手机 Dock 栏“扩容”且不影响任务接续",
@@ -14,18 +50,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/898/715.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763591510353_827027e8",
-      "title": "Agent 正在终结云计算“流水线”，Infra 必须学会“思考” | 专访无问芯穹夏立雪",
-      "summary": "Agent 正在终结云计算“流水线”，Infra 必须学会“思考” | 专访无问芯穹夏立雪",
-      "content": "Agent 正在终结云计算“流水线”，Infra 必须学会“思考” | 专访无问芯穹夏立雪",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-19T15:30:34.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/ash94zBJkiseyaU8Zgy8?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763577918105_86e6defe",
@@ -50,18 +74,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/898/691.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763591511510_aac55435",
-      "title": "京东零售视觉与 AIGC 部负责人李岩博士确认出席AICon北京站，分享从虚拟试穿到电商 AIGC",
-      "summary": "京东零售视觉与 AIGC 部负责人李岩博士确认出席AICon北京站，分享从虚拟试穿到电商 AIGC",
-      "content": "京东零售视觉与 AIGC 部负责人李岩博士确认出席AICon北京站，分享从虚拟试穿到电商 AIGC",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-19T13:30:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/3hp9iQQmhOV9T19TAEaP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763557298371_e5e8a465",
@@ -122,6 +134,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7772412.html",
       "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1763595018791_73ed2256",
+      "title": "KubeCon NA 2025：Salesforce通向AIOps和Agentic AI之路",
+      "summary": "KubeCon NA 2025：Salesforce通向AIOps和Agentic AI之路",
+      "content": "KubeCon NA 2025：Salesforce通向AIOps和Agentic AI之路",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-19T10:22:51.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/ter8jgXrHtz3EpapFkVy?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763544937921_3e31da49",
@@ -448,7 +472,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1763591486111_1c012650",
+      "id": "news_1763594994027_1c012650",
       "title": "登顶开源SOTA！上交大&小红书LoopTool实现工具调用任务的「数据进化」",
       "summary": "登顶开源SOTA！上交大&小红书LoopTool实现工具调用任务的「数据进化」",
       "content": "登顶开源SOTA！上交大&小红书LoopTool实现工具调用任务的「数据进化」",
@@ -472,16 +496,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1763591189249_0",
+      "id": "news_1763594713506_0",
       "title": "软银持股表明OpenAI的价值为7500亿美元",
-      "summary": "软银近期以5000亿美元的价格从OpenAI员工手中收购股份，表明该公司估值已达到7500亿美元。软银创始人孙正义对OpenAI的乐观投资已获得回报，4月时他以3000亿美元的估值投资了该公司。这一系列动作凸显了OpenAI在人工智能领域的巨大潜力和市场价值。",
-      "content": "软银创始人孙正义对OpenAI的乐观投资迄今已获得回报。这位日本科技巨头在4月以3000亿美元的估值投资了该公司，并最近以5000亿美元的价格从员工手中收购了股份……",
+      "summary": "软银通过投资和收购OpenAI股份，表明该公司的估值已达到惊人的7500亿美元。软银创始人孙正义对OpenAI的押注正在取得成效，他于4月以3000亿美元的估值投资了该公司，并在近期以5000亿美元的价格从员工手中收购了股份。这一系列操作凸显了OpenAI在人工智能领域的巨大潜力和市场价值。",
+      "content": "软银创始人孙正义对OpenAI的乐观押注迄今已取得成效。这位日本科技巨头在4月以3000亿美元的估值投资了该公司，并最近以5000亿美元的价格从员工手中收购了股份……",
       "imageUrl": "https://www.reuters.com/resizer/v2/7CYFMB7RV5L4FAHY2CS4PVIAGI.jpg?auth=d95bafb9d1182f82cd2beb1fcd464212a6314a11dbf4e368ec8fc95cb4157071&height=1005&width=1920&quality=80&smart=true",
       "source": "Reuters",
       "publishedAt": "2025-11-19T05:00:27.000Z",
       "category": "国际AI",
       "originalUrl": "https://www.reuters.com/commentary/breakingviews/softbank-stock-implies-openai-is-worth-750-bln-2025-11-19/",
-      "aiInsight": "这项新闻的看点在于软银对OpenAI价值的进一步评估，显示了OpenAI在人工智能领域的巨大潜力和商业价值。从技术发展的角度看，这反映了大语言模型和生成式AI技术的巨大进步，以及这些技术在推动企业创新和个人生产力提升方面的潜力。从行业影响角度看，高估值表明市场对AI技术前景的高度认可，这可能加速AI技术在各行业中的应用和普及。未来趋势方面，随着AI技术的进步和应用范围的扩大，预计OpenAI及其他AI企业将持续获得投资，推动AI产业加速发展，同时AI技术也可能成为未来企业竞争的关键因素。"
+      "aiInsight": "从技术发展角度来看，软银对OpenAI的投资和估值表明大语言模型和人工智能技术正迎来前所未有的重视和投入。OpenAI的成功不仅反映了自然语言处理技术的突破，也展示了AI在跨行业应用中的潜力，如客户服务、内容创作、教育等多个领域。从行业影响来看，这一高估值反映了投资者对AI产业未来增长的乐观预期，可能会吸引更多资本涌入，加速AI技术的商业化进程。此外，大额投资和频繁的股份交易也预示着AI市场竞争的加剧。展望未来，随着OpenAI技术的进一步成熟，其在推动创新和改变行业格局方面的作用将更加显著。然而，这也带来了数据安全、隐私保护和伦理道德等挑战，需要技术开发者和政策制定者共同应对。"
     },
     {
       "id": "news_1763530468726_55b1bc3c",
@@ -748,16 +772,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1763591189078_1",
+      "id": "news_1763594712982_1",
       "title": "微软与Anthropic和Nvidia在云基础设施方面达成合作",
-      "summary": "微软宣布与人工智能公司Anthropic和芯片制造商Nvidia在云基础设施方面达成合作，此举标志着微软与长期合作伙伴OpenAI关系的进一步疏远。此次合作将增强微软在人工智能领域的竞争力，为其云计算业务注入新的动力。",
-      "content": "微软周二表示，它将与人工智能公司Anthropic和芯片制造商Nvidia合作，作为云基础设施协议的一部分，这使得这家软件巨头与其长期合作伙伴OpenAI的关系进一步疏远。",
+      "summary": "微软宣布与人工智能公司Anthropic和芯片制造商Nvidia达成云基础设施合作协议，此举标志着微软与其长期合作伙伴OpenAI的关系进一步疏远。通过此次合作，Anthropic将能够利用微软的Azure云平台，而Nvidia则提供强大的计算能力支持。这一合作将有助于推动人工智能技术的发展和应用。",
+      "content": "微软周二宣布，将与人工智能公司Anthropic和芯片制造商Nvidia合作，作为云基础设施协议的一部分，这使得这家软件巨头与其长期合作伙伴OpenAI的关系进一步疏远。",
       "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2025/11/Microsoft_58604_83759e-1.jpg?w=1024&h=768",
       "source": "The Mercury News",
       "publishedAt": "2025-11-18T17:36:41.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.mercurynews.com/2025/11/18/microsoft-partners-with-anthropic-and-nvidia-in-cloud-infrastructure-deal/",
-      "aiInsight": "从技术发展角度看，微软此次与Anthropic和Nvidia的合作，表明了在AI领域，技术生态正逐渐形成多元化的竞争格局。Anthropic作为新兴的AI公司，其加入微软的云基础设施生态系统，意味着AI技术在伦理、安全等方面的考量正在获得更多重视。Nvidia的加入则进一步夯实了微软在AI计算能力上的优势，推动了AI技术的算力升级。\n\n从行业影响上看，此次合作将加剧云服务市场的竞争。微软与Anthropic和Nvidia的合作，不仅有助于提升其在AI领域的竞争力，也将促使其他云服务提供商加快自身技术布局，以满足市场对高性能、高效率AI计算服务的需求。\n\n从未来趋势看，随着AI技术的不断成熟，云基础设施将成为推动AI应用落地的重要支撑。此次合作预示着云服务商将更加注重生态构建，通过与AI公司、硬件制造商等多方合作，打造更为强大、灵活的云基础设施，以适应多样化的AI应用场景。"
+      "aiInsight": "该新闻反映了AI技术领域的重要合作动态，具有多方面的意义和影响：\n\n1. **技术发展**：此次合作加强了云计算在AI领域的应用，特别是Nvidia的高性能计算能力和Anthropic在AI模型方面的专长，将有助于提升微软云平台的AI处理能力，推动AI技术的发展和创新。\n\n2. **行业影响**：这不仅表明了微软在AI领域的积极布局，也显示了行业内的竞争格局正在发生变化。随着更多科技巨头加大在AI领域的投入，云服务市场的竞争将更加激烈，用户将享受到更多样化、更强大的AI服务。\n\n3. **未来趋势**：在人工智能领域，云基础设施的合作将更加紧密，AI技术将更广泛地应用于各行各业，从医疗健康到教育、金融等，促进产业升级和转型。同时，这种合作也预示着未来可能形成新的技术标准和产业生态，加速AI技术的普及和应用。\n\n总之，此次合作将进一步推动AI技术的发展，加速其在各行业的应用，对整个科技行业乃至全球经济都将产生深远影响。"
     },
     {
       "id": "news_1763544643226_0",
@@ -770,6 +794,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.mercurynews.com/2025/11/18/microsoft-partners-with-anthropic-and-nvidia-in-cloud-infrastructure-deal/",
       "aiInsight": "这个合作标志着微软在AI领域的战略转向，从OpenAI转向Anthropic，体现了AI技术领域的竞争加剧。从技术发展角度看，Anthropic和Nvidia都是AI技术领域的佼佼者，尤其是Anthropic在生成式AI方面取得了显著进展，而Nvidia在GPU计算方面拥有深厚的技术积累，此次合作将加速AI技术的发展和应用。从行业影响看，这将推动整个云计算行业向更强大的AI基础设施转型，对其他云服务提供商构成挑战。从未来趋势看，这一合作预示着AI技术将更加深入地融入各行各业，推动数字化转型加速，同时也将引发更多的技术创新和合作模式探索。"
+    },
+    {
+      "id": "news_1763594712435_2",
+      "title": "谷歌揭晓 Gemini 3，具备增强的编程和搜索能力",
+      "summary": "谷歌发布了新版人工智能模型Gemini 3，旨在增强编程和搜索能力。这是谷歌在人工智能领域追赶OpenAI和Anthropic等竞争对手的重要举措。Gemini 3的推出，标志着谷歌在人工智能领域的持续投入和进步，有望提升其在该领域的竞争力。",
+      "content": "在经历了几年被人批评在人工智能领域落后之后，谷歌正在与OpenAI和Anthropic等较小的人工智能初创公司展开竞争。周二，谷歌发布了一个新的人工智能模型，Gemini 3，……",
+      "imageUrl": "https://static01.nyt.com/images/2025/11/18/multimedia/18biz-google-gemini-2-gtbh/18biz-google-gemini-2-gtbh-facebookJumbo.jpg",
+      "source": "The New York Times",
+      "publishedAt": "2025-11-18T16:00:06.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.nytimes.com/2025/11/18/technology/google-gemini-3.html",
+      "aiInsight": "谷歌发布的Gemini 3展示了其在人工智能领域的持续创新和技术实力。从技术发展角度来看，Gemini 3不仅增强了编程和搜索能力，还可能在多模态理解、生成能力等方面有所提升，这标志着谷歌在大模型方向的进一步探索。在行业影响方面，Gemini 3的发布将进一步加剧AI领域的竞争，推动大模型技术的广泛应用，促进AI技术与各行各业的深度融合。从未来趋势来看，随着更多企业加入AI技术研发，跨模态融合、知识增强、语言理解和生成能力的提升将成为AI技术发展的新方向。此外，随着AI技术的进步，其在辅助决策、增强人类创造力等方面的应用将更加广泛，有望推动全球数字经济的发展。"
     },
     {
       "id": "news_1763591189591_2",
@@ -806,18 +842,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.nytimes.com/2025/11/18/technology/google-gemini-3.html",
       "aiInsight": "谷歌发布的Gemini 3展示了其在人工智能领域的持续技术投入和创新。从技术发展角度看，Gemini 3的推出表明谷歌正在加强其在大模型赛道上的布局，尤其是通过增强编码和搜索能力，旨在提高模型的准确性和效率，这可能预示着未来模型将更加注重实用性与用户需求的紧密结合。\n\n从行业影响来看，谷歌的这一举动无疑增加了竞争压力，迫使包括OpenAI和Anthropic在内的竞争对手加速产品迭代和功能优化。这也将进一步推动整个AI行业的技术进步和应用场景的拓展。\n\n未来趋势方面，随着Gemini 3这类大模型的不断优化，我们有望看到更多基于AI的创新应用出现，尤其是在自然语言处理、内容生成、搜索优化等领域。同时，跨平台和跨设备的统一智能体验也将成为重要的发展方向。"
-    },
-    {
-      "id": "news_1763580158079_2",
-      "title": "谷歌揭晓 Gemini 3，具备增强的编程和搜索能力",
-      "summary": "谷歌发布了新版人工智能模型Gemini 3，该模型具备增强的编程和搜索能力。这是谷歌在人工智能领域的一次重要升级，旨在与OpenAI和Anthropic等竞争对手展开竞争。Gemini 3的推出标志着谷歌在人工智能领域的复苏，回应了此前因进展缓慢而受到的批评。",
-      "content": "在经历了几年来因人工智能进展缓慢而受到的批评之后，谷歌正在与OpenAI和Anthropic等较小的初创公司展开竞争。周二，谷歌发布了一种新的人工智能模型，Gemini 3，……",
-      "imageUrl": "https://static01.nyt.com/images/2025/11/18/multimedia/18biz-google-gemini-2-gtbh/18biz-google-gemini-2-gtbh-facebookJumbo.jpg",
-      "source": "The New York Times",
-      "publishedAt": "2025-11-18T16:00:06.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.nytimes.com/2025/11/18/technology/google-gemini-3.html",
-      "aiInsight": "谷歌推出Gemini 3标志着其在人工智能领域的重大进展，尤其是增强的编程和搜索能力，显示了其在持续投入和研发方面的决心。从技术发展角度看，Gemini 3的发布表明谷歌正致力于提升大型语言模型的性能，特别是在理解和生成代码方面，这将对软件开发行业产生深远影响。行业影响层面，Gemini 3可能重新定义开发者的工作方式，提升代码生成效率，减少开发周期，同时也可能改变代码审查的标准和流程。未来趋势上，随着Gemini 3的推出，预计其他科技巨头和初创公司也会加快相关技术的研发和应用，进一步推动AI技术的普及和创新。这将促使整个科技行业更加重视AI能力的建设，探索更多应用场景，为未来的智能化社会打下坚实基础。"
     },
     {
       "id": "news_1763577568303_2",
@@ -902,6 +926,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/898/412.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1763594988923_3",
+      "title": "微软与 Anthropic 和 Nvidia 在云基础设施合作中携手共进",
+      "summary": "微软宣布与人工智能公司Anthropic和芯片制造商Nvidia合作，共同推进云基础设施协议。此举标志着微软与长期合作伙伴OpenAI的关系进一步疏远。此次合作将有助于Anthropic和Nvidia在微软的云平台上更好地发展和推广其人工智能技术和服务。",
+      "content": "旧金山（AP）——微软周二宣布，将与人工智能公司Anthropic和芯片制造商Nvidia合作，作为云基础设施协议的一部分，这使得这家软件巨头与长期合作伙伴OpenAI的关系进一步疏远…… [952 chars]",
+      "imageUrl": "https://www.usnews.com/dims4/USNEWS/71a72b1/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F84%2Ff9160dd251453aa5c61f7cf4c562c6%2F890930003a1b4775877cdf6cf9f756c8Microsoft_58604.jpg",
+      "source": "U.S. News & World Report",
+      "publishedAt": "2025-11-18T15:23:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.usnews.com/news/business/articles/2025-11-18/microsoft-partners-with-anthropic-and-nvidia-in-cloud-infrastructure-deal",
+      "aiInsight": "这篇新闻报道了微软在人工智能领域的最新合作动态，涉及与Anthropic和Nvidia的合作，这可能会对AI科技行业产生重要影响。从技术发展角度看，此次合作有助于增强微软在云计算和AI基础设施方面的竞争力，尤其在大模型训练和推理方面，Nvidia的GPU技术能够提供强大支持。行业影响方面，这可能加剧市场上的竞争态势，尤其是对依赖于OpenAI的其他云服务提供商构成挑战。未来趋势来看，随着AI技术的不断进步，云基础设施的优化和升级将成为关键因素，而拥有强大计算能力的云服务商将占据更有利的位置。此外，这种合作也反映出AI技术商业化和应用的加速，以及技术生态系统的日益复杂化。"
     },
     {
       "id": "news_1763591471647_3",
@@ -1526,18 +1562,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7768539.html",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763421924901_46aec5ce",
-      "title": "谷歌推出天气预报模型WeatherNext 2",
-      "summary": "11月17日，谷歌DeepMind与谷歌研究院联合推出天气预报模型WeatherNext 2，WeatherNext 2的预报数据现已登陆Earth Engine和BigQuery平台。同时，谷歌将在Google Cloud的Vertex AI平台推出定制模型推理的早期访问计划。",
-      "content": "11月17日，谷歌DeepMind与谷歌研究院联合推出天气预报模型WeatherNext 2，WeatherNext 2的预报数据现已登陆Earth Engine和BigQuery平台。同时，谷歌将在Google Cloud的Vertex AI平台推出定制模型推理的早期访问计划。通过整合WeatherNext技术，谷歌已升级搜索引擎、Gemini、Pixel Weather以及Google Maps Platform天气API的预报功能。未来数周内，该技术还将为Google Maps的天气信息提供支持。（界面）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2025-11-17T23:16:39.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/newsflashes/3557329503091592?f=rss",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
