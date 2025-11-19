@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2025-11-18T23:25:37.525Z",
-  "total": 113,
+  "timestamp": "2025-11-19T02:04:58.439Z",
+  "total": 112,
   "data": [
+    {
+      "id": "news_1763517887760_dacdff68",
+      "title": "突然！谷歌发布 Gemini 3：百万上下文 + 全链路 Agent直接封神！Claude 被秒成渣了",
+      "summary": "突然！谷歌发布 Gemini 3：百万上下文 + 全链路 Agent直接封神！Claude 被秒成渣了...",
+      "content": "突然！谷歌发布 Gemini 3：百万上下文 + 全链路 Agent直接封神！Claude 被秒成渣了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-19T07:30:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/rLZITbeSzLCKpfDXOrDD?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1763508325125_bbb0db6d",
       "title": "OceanBase 开源首款AI数据库SeekDB ：遵循 Apache 2.0 协议，三行代码构建一款AI应用",
@@ -14,6 +26,30 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/vrObFV2D0gu8c7E180RN?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1763517877585_1363339d",
+      "title": "Gemini 3.0发布：从“工具辅助”到“主动代理”，谷歌做了这几点",
+      "summary": "对于企业和开发者而言，Gemini 3的价值不仅在于其强大的能力，更在于它提供了一个“可扩展、可定制、可落地”的智能基座。",
+      "content": "对于企业和开发者而言，Gemini 3的价值不仅在于其强大的能力，更在于它提供了一个“可扩展、可定制、可落地”的智能基座。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-11-19T00:23:34.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7771045.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1763517880759_468697cd",
+      "title": "美国发布大模型评估报告：DeepSeek性能差、不安全",
+      "summary": "评估结果明确显示，美国模型在整体性能上优于DeepSeek模型。特别是在软件工程和网络安全任务中，差距最为显著。以网络安全任务为例，表现最佳的美国模型GPT-5达到了68.9%的准确率，而最佳的DeepSeek模型（DeepSeek-V3.1）仅达到36.7%，差距高达32.2个百分点。",
+      "content": "评估结果明确显示，美国模型在整体性能上优于DeepSeek模型。特别是在软件工程和网络安全任务中，差距最为显著。以网络安全任务为例，表现最佳的美国模型GPT-5达到了68.9%的准确率，而最佳的DeepSeek模型（DeepSeek-V3.1）仅达到36.7%，差距高达32.2个百分点。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-11-18T23:54:24.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7771031.html",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763508335849_ab613854",
@@ -146,6 +182,30 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/898/404.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1763517891435_46db272f",
+      "title": ".NET 10正式发布，在性能、AI和开发者体验方面实现了重大改进",
+      "summary": ".NET 10正式发布，在性能、AI和开发者体验方面实现了重大改进",
+      "content": ".NET 10正式发布，在性能、AI和开发者体验方面实现了重大改进",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-18T14:30:25.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/bOM1CNczQT8ztBXDpd6s?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1763517892173_5fd8c0ff",
+      "title": "马斯克先于谷歌放大招，Grok 4.1登顶AI权威榜单，我们也动手测了一波",
+      "summary": "马斯克先于谷歌放大招，Grok 4.1登顶AI权威榜单，我们也动手测了一波",
+      "content": "马斯克先于谷歌放大招，Grok 4.1登顶AI权威榜单，我们也动手测了一波",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-18T14:13:20.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/HYWdG6vp0pWMIRrJQQAe?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763473136412_8c950a4f",
@@ -302,6 +362,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/898/353.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1763517892964_52d46469",
+      "title": "Alibaba Dragonwell 21 AI 增强版：引爆 Java 在 AI 时代的性能潜能",
+      "summary": "Alibaba Dragonwell 21 AI 增强版：引爆 Java 在 AI 时代的性能潜能",
+      "content": "Alibaba Dragonwell 21 AI 增强版：引爆 Java 在 AI 时代的性能潜能",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-18T09:48:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/fkyQ6V4im3o2EYBmfsX8?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763458261146_1ec9f7de",
@@ -712,6 +784,18 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1763517863688_0",
+      "title": "马斯克称贝索斯在新AI努力中是“抄袭者”",
+      "summary": "特斯拉CEO马斯克在社交媒体上指责亚马逊创始人贝索斯抄袭其人工智能项目。马斯克表示，贝索斯在新AI努力中是“抄袭者”，并称自己已经开始开发Grok AI的第五个版本，最新项目是Grokipedia，一个由AI编写的类似维基百科的网站。这一指责引发了科技界的广泛关注，也凸显了当前AI领域的激烈竞争。",
+      "content": "“哈哈不可能的，”马斯克在周一的X平台上写道，并附了一个 laughing 表情。“抄袭 [模仿表情]。” 马斯克已经开始开发他的人工智能聊天机器人Grok AI的第五个版本。xAI的最新项目是Grokipedia，这是一个类似维基百科的网站，由人工智能编写。",
+      "imageUrl": "https://www.washingtonexaminer.com/wp-content/uploads/2025/11/musk-bezos-e1763414179833.jpg?1763396174&resize=1024,683",
+      "source": "Washington Examiner",
+      "publishedAt": "2025-11-17T21:29:40.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.washingtonexaminer.com/news/3889715/elon-musk-jeff-bezos-copy-cat-new-ai-effort/",
+      "aiInsight": "这则新闻反映了科技领军人物之间的竞争与摩擦，从技术发展角度来看，马斯克对贝索斯的批评可能源于其在人工智能领域的最新进展。贝索斯宣布启动一个名为“17”的新AI项目，这可能触动了马斯克的神经，引发了他的不满。从行业影响来看，这种公开的争执可能会加剧科技巨头之间对AI技术的竞赛，促进相关技术的更快发展和应用。未来趋势方面，这可能预示着AI技术在更多领域的应用和普及，同时也可能带来更多的监管和伦理问题，如数据安全、隐私保护和算法公平性等。"
+    },
+    {
       "id": "news_1763508310175_0",
       "title": "马斯克称贝索斯在新AI努力中是“跟风者”",
       "summary": "特斯拉CEO马斯克在社交媒体上批评亚马逊创始人贝索斯的新AI努力是“跟风者”。马斯克表示，自己已经开发了Grok AI的第五个版本，并推出类似维基百科的Grokipedia网站，由AI编写。马斯克的言论暗示了他对贝索斯在AI领域追赶的不满。",
@@ -760,18 +844,6 @@
       "aiInsight": "从技术发展角度看，马斯克的言论凸显了当前科技巨头在AI领域的竞争与合作并存的局面。马斯克的持续努力开发新的AI产品，显示了他对AI技术未来的重视和投入。贝索斯的项目虽然被批评为“跟风者”，但这也反映了市场对AI技术的广泛兴趣和快速发展的市场前景。\n\n从行业影响角度看，马斯克和贝索斯的AI项目展示了一个明显的趋势：大型科技公司正在加大在AI领域的布局，以期在这一领域获得竞争优势。这不仅会推动AI技术的进步，也可能促使更多的企业和个人参与到AI技术的应用和发展中来，从而加速整个行业的创新步伐。\n\n从未来趋势角度看，随着马斯克和贝索斯等科技巨头不断推出新的AI产品和服务，AI技术将更加普及和成熟，有望在未来几年内对各行各业产生深远的影响。同时，这也意味着AI技术的竞争将更加激烈，如何在技术、应用和服务上实现创新和突破，将是未来发展的关键。"
     },
     {
-      "id": "news_1763483871826_0",
-      "title": "马斯克称贝索斯在新AI努力中是“抄袭者”",
-      "summary": "特斯拉CEO马斯克在社交媒体上批评亚马逊创始人贝索斯抄袭其AI项目。马斯克表示，贝索斯在新AI努力中是“抄袭者”，并附上了一个 laughing 表情。目前，马斯克已开始开发其人工智能聊天机器人Grok AI的第五个版本，并推出类似维基百科的网站Grokipedia，由人工智能编写。",
-      "content": "“哈哈没门，”马斯克在周一的X平台上写道，并附了一个 laughing 表情。“抄袭 [猫表情]。” 马斯克已经开始开发他的人工智能聊天机器人Grok AI的第五个版本。xAI的最新项目是Grokipedia，这是一个类似维基百科的网站，由人工智能编写。",
-      "imageUrl": "https://www.washingtonexaminer.com/wp-content/uploads/2025/11/musk-bezos-e1763414179833.jpg?1763396174&resize=1024,683",
-      "source": "Washington Examiner",
-      "publishedAt": "2025-11-17T21:29:40.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.washingtonexaminer.com/news/3889715/elon-musk-jeff-bezos-copy-cat-new-ai-effort/",
-      "aiInsight": "这则新闻反映了当前AI领域内的竞争和技术竞争的公开化。从技术发展角度看，马斯克的Grok AI和贝索斯的潜在AI项目，都指向了大语言模型和知识图谱构建的最新趋势。马斯克强调了自身创新，而对贝索斯的暗示可能源于其在技术细节上的不同之处。\n\n行业影响方面，这样的竞争可能会加速AI技术的发展，但也可能引发伦理和技术滥用的担忧。AI公司和研究者需要在推动技术进步的同时，确保符合伦理标准，避免技术的误用。\n\n未来趋势来看，随着更多科技巨头投入AI领域，可以预见AI技术将更加成熟，应用场景将更加广泛。同时，跨行业合作和资源共享将成为趋势，以应对技术挑战和伦理问题。"
-    },
-    {
       "id": "news_1763473096548_0",
       "title": "马斯克称贝索斯在新AI努力中是“模仿者”",
       "summary": "特斯拉CEO马斯克在社交媒体上批评亚马逊创始人贝索斯在人工智能领域的努力是“抄袭”。马斯克正在开发自己的人工智能聊天机器人Grok AI，并推出类似维基百科的网站Grokipedia。此前，马斯克曾表示，他计划在2023年推出一款类似ChatGPT的AI产品。此次言论表明，马斯克与贝索斯在人工智能领域的竞争已经展开。",
@@ -782,30 +854,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.washingtonexaminer.com/news/3889715/elon-musk-jeff-bezos-copy-cat-new-ai-effort/",
       "aiInsight": "这一新闻反映了当前AI领域的竞争态势和技术发展趋势。从技术发展角度看，马斯克和贝索斯的言论揭示了AI技术的迅速迭代和创新。马斯克对贝索斯的批评可能源自于他对AI技术原创性的重视。从行业影响角度看，这可能加剧了科技巨头之间的竞争，促使更多企业加大在AI领域的投入。从未来趋势来看，AI技术将更加深入地融入各个行业，推动产业升级，同时也可能引发伦理和隐私等方面的担忧。因此，企业和监管机构需要共同努力，确保AI技术的健康发展。"
-    },
-    {
-      "id": "news_1763508331090_aab507de",
-      "title": "openEuler发布超节点操作系统，年底正式上线！熊伟：AI 时代操作系统最终形态指向自然语言",
-      "summary": "openEuler发布超节点操作系统，年底正式上线！熊伟：AI 时代操作系统最终形态指向自然语言",
-      "content": "openEuler发布超节点操作系统，年底正式上线！熊伟：AI 时代操作系统最终形态指向自然语言",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-17T19:13:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/WTXUlkxEt6jSlVK2fSNU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763508331784_c0dfef04",
-      "title": "谷歌发布 Suncatcher 项目，设想让 AI 模型在太空中运行",
-      "summary": "谷歌发布 Suncatcher 项目，设想让 AI 模型在太空中运行",
-      "content": "谷歌发布 Suncatcher 项目，设想让 AI 模型在太空中运行",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-17T18:30:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/RWsjaNMZ8lJPKlJQAcs2?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763375552609_e8b06fe0",
@@ -1120,16 +1168,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1763508308235_1",
+      "id": "news_1763517863472_1",
       "title": "ChatGPT 对青少年来说太过危险了",
-      "summary": "人工智能聊天机器人ChatGPT在回答关于超光速旅行的问题时表现得过于自信，这引发了人们对青少年使用该平台安全性的担忧。尽管ChatGPT拥有强大的语言生成能力，但在科学问题上缺乏严谨性，可能会误导用户，特别是青少年群体。专家呼吁加强对青少年使用此类平台的监管和教育，以确保其获取准确信息。",
-      "content": "当雅各布·伊文斯询问ChatGPT关于超光速（FTL）旅行的问题时，它并没有像任何专家物理学家那样质疑他的理论。这款拥有8亿周活跃用户的 artificial 智能系统称其为“有史以来最稳健的……系统之一”。",
+      "summary": "ChatGPT在回答青少年关于超光速旅行的问题时表现得过于自信，这引发了人们对这款人工智能系统潜在风险的担忧。尽管ChatGPT拥有8亿周活跃用户，但其对科学理论的不加批判性接受可能误导青少年，甚至可能对他们的科学认知产生负面影响。专家呼吁加强对青少年使用此类人工智能工具的监管和指导，以确保其正确使用和发挥积极作用。",
+      "content": "当雅各布·伊文斯询问ChatGPT关于超光速（FTL）旅行的问题时，它并没有像任何专家物理学家那样质疑他的理论。这款拥有8亿周活跃用户的 artificial 智能系统称其为“有史以来最 robust 的系统之一……”",
       "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i0mxamxysfsU/v1/1200x800.jpg",
       "source": "Bloomberg",
       "publishedAt": "2025-11-17T04:00:36.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.bloomberg.com/opinion/articles/2025-11-17/ai-safety-chatgpt-is-just-too-dangerous-for-teenagers",
-      "aiInsight": "该新闻反映了ChatGPT在处理科学幻想或非现实问题时，展现出的开放性和创新性，但同时也揭示了其在鉴别事实与虚构方面的局限性。从技术发展角度看，这表明ChatGPT在生成文本和回答问题时可能缺乏批判性思维，需要更严格的事实核查机制。从行业影响来看，这可能引发对AI教育应用的担忧，特别是在青少年教育中，需要更加谨慎地使用此类技术以避免误导或传播不实信息。未来趋势方面，研发团队可能需要进一步优化模型的批判性思维能力和事实验证机制，以提升其在复杂或非现实情境下的表现。"
+      "aiInsight": "从技术发展角度看，ChatGPT展示了大语言模型在知识生成和回答问题上的强大能力，但在专业知识领域，尤其是涉及科学理论的部分，仍存在显著的局限性。对于青少年而言，这种技术的使用需要指导和监管，以避免他们接触到不准确或不成熟的信息。\n\n从行业影响角度看，此类技术的发展可能会对教育和学习方式产生深远影响，但也可能引发对知识真实性、学术诚信等方面的担忧。教育者和内容提供者需要调整策略，确保青少年能够区分真实和虚假信息。\n\n从未来趋势看，随着技术的不断进步和完善，AI在提供辅助学习和研究方面将发挥更大的作用。但同时，也需要建立健全的伦理框架和监管机制，确保技术的健康发展，保护青少年免受潜在风险的影响。"
     },
     {
       "id": "news_1763486771809_1",
@@ -1297,66 +1345,6 @@
       "publishedAt": "2025-11-17T02:15:04.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7767347.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763345195978_15bbb1bb",
-      "title": "华为：于11月25日举行新品发布会，将发布华为Mate 80系列等新品",
-      "summary": "36氪获悉，今日，华为官宣于11月25日14:30分举行新品发布会，届时将发布华为Mate 80系列、Mate X7及多款全场景新品。",
-      "content": "36氪获悉，今日，华为官宣于11月25日14:30分举行新品发布会，届时将发布华为Mate 80系列、Mate X7及多款全场景新品。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2025-11-17T02:03:28.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3556524166626432?f=rss",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763345209257_5b7379d1",
-      "title": "教AI听懂人话，声网在AI淘金热中“卖铲子”",
-      "summary": "教AI听懂人话，声网在AI淘金热中“卖铲子”",
-      "content": "对话式AI赛道火热，谁在赚钱？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-11-17T02:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7766881.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763345197094_7e3336d5",
-      "title": "阿里千问App上线公测，全力进军AI to C市场",
-      "summary": "36氪独家获悉，11月17日，阿里巴巴正式宣布“千问”项目，全力进军AI to C市场。当天，千问App公测版上线，与ChatGPT展开全面竞争。据透露，未来计划将地图、外卖、订票、办公、学习、购物、健康等各类生活场景接入千问App，让其具备更强大的办事能力。",
-      "content": "36氪独家获悉，11月17日，阿里巴巴正式宣布“千问”项目，全力进军AI to C市场。当天，千问App公测版上线，与ChatGPT展开全面竞争。据透露，未来计划将地图、外卖、订票、办公、学习、购物、健康等各类生活场景接入千问App，让其具备更强大的办事能力。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2025-11-17T01:59:03.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3556519832108163?f=rss",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763345233321_d6b97d76",
-      "title": "中国工程院院士邬贺铨：面向 6G 智能体终端，将孕育催生全新的操作系统",
-      "summary": "IT之家 11 月 17 日消息，11 月 13 日，2025 年 6G 发展大会在北京经济技术开发区开幕，本届大会以“智联全球，共建 6G 技术创新生态”为主题。在 6G 主旨报告环节中，中国工程院院士邬贺铨作题为“以终端创新为抓手建 6G 发展新生态”的演讲。",
-      "content": "IT之家 11 月 17 日消息，11 月 13 日，2025 年 6G 发展大会在北京经济技术开发区开幕，本届大会以“智联全球，共建 6G 技术创新生态”为主题。在 6G 主旨报告环节中，中国工程院院士邬贺铨作题为“以终端创新为抓手建 6G 发展新生态”的演讲。 IT之家注意到，他指出终端能力反映出移动通信的代际特征，在当前 5G 时代，智能手机仍是移动互联网的主要接入设备和移动经济的支柱。预计未来 6G，消费侧市场仍将是主导业务，需要全新的 6G 终端和应用服务支撑 6G 发展。 邬贺铨院士认为，AI 手机、智能体手机以及 AI 眼镜等外设设备将是主要发展方向，AI 与 XR 融合终端将进一步增强交互的自然性和沉浸感，有望成为 6G 重要驱动力。智能体工业模组、智能网联车机模组、无人机机载通信终端、直联卫星的移动终端也将成为终端市场的增长点。 此外，面向 6G 智能体终端将孕育催生全新的操作系统，成为数字世界互动的新入口，带来更多的应用新体验。最后，他指出，6G 与 AI 深度融合将赋能移动终端进入智能体新时代，引发应用模式的创新变革。建议业界各方以终端创新为抓手，打造 6G 发展新生态。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/51c88d3e-21bf-446d-b568-e7ae464ccb47.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-11-17T01:18:42.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/897/909.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763345233582_8d903e10",
-      "title": "纪念 3 系诞生 50 周年，宝马推出 M340i xDrive 50 Jahre Edition 特别版车型",
-      "summary": "IT之家 11 月 17 日消息，宝马 3 系今年迎来了 50 周岁的生日。为庆祝半个世纪的成功之路，宝马推出一款向历代车型致意的特别版本：M340i xDrive 50 Jahre Edition。",
-      "content": "IT之家 11 月 17 日消息，宝马 3 系今年迎来了 50 周岁的生日。为庆祝半个世纪的成功之路，宝马推出一款向历代车型致意的特别版本：M340i xDrive 50 Jahre Edition。 据外媒 motor1 今日报道，这款特别版车型以专属车漆、饰件和轮圈致敬历代 3 系，其中多种喷漆是现代 3 系首次采用。车主可从五种源自 E21 至 E90 时代的经典颜色中挑选。 不同外观颜色对应 Black、Ivory 或 Tartufo 三种真皮内饰，并搭配碳纤维饰板及“3 Series 50 Jahre Edition”标识。3 系首次提供的 Extended Merino Leather 也在此版本中作为标准配置出现。 外观颜色同时决定制动卡钳涂装，分别为红色或蓝色。标配的 Shadowline Package 带来自适应 LED 大灯以及深色格栅和下进气口细节。M340i 50 Jahre Edition 还追加 M Performance 碳纤维行李厢扰流板、19 英寸 M 双辐轮圈、M Performance 排气尾段，并在车尾加入额外的“50 Jahre Edition”标识。 动力规格保持不变。M340i 沿用涡轮增压 3.0L 直列六缸轻混系统，最大输出约 288.8kW 和约 539.5Nm，可在 4.1 秒完成 0 到 96km/h 的加速，动力通过八速自动变速箱传递至四个车轮。 若对这款限量版 3 系有兴趣，M340i 50 Jahre Edition 定价 76375 美元（IT之家注：现汇率约合 54.3 万元人民币）。宝马尚未公布具体产量，仅确认会限制生产。新车预计将在明年年初正式上路。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/4c38fb4c-1bf4-4535-a494-a8a3ea4c9490.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-11-17T01:00:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/897/901.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
