@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2025-11-20T16:42:11.517Z",
+  "timestamp": "2025-11-20T17:28:25.677Z",
   "total": 121,
   "data": [
+    {
+      "id": "news_1763659638701_9fdc5334",
+      "title": "Linus 谈 AI 与氛围编程：入门挺好，用在生产就“会很惨”",
+      "summary": "Linus 谈 AI 与氛围编程：入门挺好，用在生产就“会很惨”",
+      "content": "Linus 谈 AI 与氛围编程：入门挺好，用在生产就“会很惨”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-20T17:14:03.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/635itl7moKzBs7qaP0gu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1763659622039_9c18fd16",
+      "title": "Google Launches Gemini 3-Backed Image Generation Model Nano Banana Pro",
+      "summary": "Nano Banana Pro delivers what Google describes as \"studio-quality levels of precision and control\" through enhanced planning of text placement, font c...",
+      "content": "Nano Banana Pro delivers what Google describes as \"studio-quality levels of precision and control\" through enhanced planning of text placement, font characteristics, and spatial relationships.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-11-20T17:00:11.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7774785.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1763656890564_6c2c5524",
       "title": "DeepSeek悄悄开源LPLB：用线性规划解决MoE负载不均",
@@ -23,33 +47,9 @@
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "机器之心",
       "publishedAt": "2025-11-20T15:51:18.000Z",
-      "category": "国内AI",
+      "category": "国外AI",
       "originalUrl": "https://www.jiqizhixin.com/articles/2025-11-20-12",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763656920911_0c77d373",
-      "title": "LLM 没意思，小扎决策太拉垮，图灵奖大佬 LeCun 离职做 AMI",
-      "summary": "LLM 没意思，小扎决策太拉垮，图灵奖大佬 LeCun 离职做 AMI",
-      "content": "LLM 没意思，小扎决策太拉垮，图灵奖大佬 LeCun 离职做 AMI",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-20T15:37:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/YyXpLPJwazKxww4craMv?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763656921808_cb620940",
-      "title": "谷歌预览Code Wiki：你能信任AI来记录你的代码库吗？",
-      "summary": "谷歌预览Code Wiki：你能信任AI来记录你的代码库吗？",
-      "content": "谷歌预览Code Wiki：你能信任AI来记录你的代码库吗？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-20T15:33:14.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Xh50z4ehHKu7oIMTPNov?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763652936680_f2419409",
@@ -64,27 +64,15 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1763656923769_76740cf6",
-      "title": "征程再启，剑指桂冠 | 云谷杯·2025 人工智能应用创新创业大赛复赛顺利举⾏",
-      "summary": "征程再启，剑指桂冠 | 云谷杯·2025 人工智能应用创新创业大赛复赛顺利举⾏",
-      "content": "征程再启，剑指桂冠 | 云谷杯·2025 人工智能应用创新创业大赛复赛顺利举⾏",
+      "id": "news_1763659642197_31398b1d",
+      "title": "InfraTalk直播第一期完整版｜Agent浪潮之下：AI Infra的演化成果与方向解读",
+      "summary": "InfraTalk直播第一期完整版｜Agent浪潮之下：AI Infra的演化成果与方向解读",
+      "content": "InfraTalk直播第一期完整版｜Agent浪潮之下：AI Infra的演化成果与方向解读",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-11-20T14:36:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/MbkcNlIDLbIPxtLX7iZl?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763656925047_a81d3d5f",
-      "title": "Agent规模化落地前夜，AI Infra的难题全都暴露了",
-      "summary": "Agent规模化落地前夜，AI Infra的难题全都暴露了",
-      "content": "Agent规模化落地前夜，AI Infra的难题全都暴露了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-20T14:23:36.000Z",
+      "publishedAt": "2025-11-20T14:55:08.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/dRPGO5HCirJQP7Ayy8DK?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/video/VkJR3aH430YQSvYJDZEQ?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -640,16 +628,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1763656883232_0",
+      "id": "news_1763659597113_0",
       "title": "倡导团体敦促家长今年假期避免购买AI玩具",
-      "summary": "儿童和消费者倡导组织警告称，人工智能玩具并不适合孩子，呼吁家长在今年假期避免购买此类产品。这些玩具虽然外表可爱，能够陪伴孩子学习，但存在潜在风险，可能对孩子的成长产生不利影响。倡导团体强调，家长应选择更安全、健康的玩具，为孩子创造一个更加安全的成长环境。",
-      "content": "它们可爱，甚至可以依偎，承诺提供学习和陪伴——但儿童和消费者倡导组织警告称，人工智能玩具并不适合孩子，在节日季里家长不要购买这些玩具。",
+      "summary": "儿童和消费者倡导组织警告称，人工智能玩具并不适合孩子，呼吁家长在今年假期避免购买此类玩具。这些玩具虽然外表可爱，但可能带来潜在风险，包括隐私泄露和过度依赖技术等问题。倡导团体强调，家长应选择更安全、健康的玩具，以促进孩子的全面发展。",
+      "content": "它们可爱，甚至令人想要拥抱，并承诺提供学习和陪伴——但儿童和消费者倡导组织警告称，人工智能玩具并不适合孩子，在节日季期间家长不要购买这些玩具。",
       "imageUrl": "https://www.usnews.com/dims4/USNEWS/2d2fcd5/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2Fd1%2F845af7bc6ec1102ebf39ae1fb6c585%2F8be248484e2a40f38a03c3422907a219AI_Toys_77016.jpg",
       "source": "U.S. News & World Report",
       "publishedAt": "2025-11-20T00:59:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.usnews.com/news/us/articles/2025-11-20/advocacy-groups-urge-parents-to-avoid-ai-toys-this-holiday-season",
-      "aiInsight": "这篇新闻反映了当前AI玩具市场的一个重要动向，从技术发展角度来看，AI玩具集成了语音识别、自然语言处理、情感计算等先进技术，旨在提供更加智能化的学习和陪伴体验。但从行业影响和消费者保护的角度来看，倡导团体的警告提醒我们，AI玩具也可能存在隐私安全、心理健康等潜在风险。\n\n从未来趋势来看，随着技术进步和消费者需求的变化，AI玩具仍有望在教育娱乐领域持续发展。但为了确保其健康、安全的发展，行业需要制定更加严格的规范和标准，保护儿童的隐私和安全。同时，家长和消费者也应提高对此类产品的认知，理性选择，避免盲目跟风。"
+      "aiInsight": "这篇新闻反映了当前AI玩具在市场上的火热程度，同时也揭示了其潜在的风险和挑战。从技术发展角度看，AI玩具的出现体现了AI技术在儿童教育和娱乐领域的应用日益成熟，但其语音识别、自然语言处理等技术还存在不成熟之处，容易引发隐私泄露等问题。从行业影响角度看，倡导团体的警告可能会影响消费者对AI玩具的选择，进而影响玩具制造企业的发展策略。未来趋势方面，AI玩具在教育娱乐领域的应用前景广阔，但应更加注重产品安全性和隐私保护，增加透明度和用户控制权，以赢得家长和孩子的信任。"
     },
     {
       "id": "news_1763604480095_f8c54778",
@@ -736,16 +724,16 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1763656602179_1",
+      "id": "news_1763659313590_1",
       "title": "拉里·萨默斯辞去OpenAI董事会职务",
-      "summary": "前美国财长拉里·萨默斯宣布辞去人工智能公司OpenAI董事会成员职务。这一决定是在上周国会发布萨默斯与OpenAI频繁通信的电子邮件后作出的。这些邮件引发了关于萨默斯在OpenAI角色的争议。萨默斯的辞职表明了OpenAI对维护公司声誉和避免潜在利益冲突的重视。",
-      "content": "前财长劳伦斯·H·萨默斯将辞去人工智能初创公司OpenAI董事会成员的职务，他在周三与该公司共同宣布，此前国会上周发布了电子邮件，显示萨默斯曾定期参与…… [2737字节]",
+      "summary": "前美国财政部长劳伦斯·H·萨默斯宣布辞去人工智能公司OpenAI董事会成员职务。此前，国会发布电子邮件显示萨默斯曾批评OpenAI的运营方式，引发争议。萨默斯的辞职表明OpenAI正面临内部治理和公众信任方面的挑战。",
+      "content": "前财政部长劳伦斯·H·萨默斯将辞去人工智能初创企业OpenAI董事会成员的职务，他在周三与该公司共同宣布，此前国会上周发布了电子邮件，显示萨默斯曾经常常…… [2737字节]",
       "imageUrl": "https://static01.nyt.com/images/2025/11/19/multimedia/OPENAI-SUMMERS-1-mbgf/OPENAI-SUMMERS-1-mbgf-facebookJumbo.jpg",
       "source": "The New York Times",
       "publishedAt": "2025-11-19T13:32:19.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.nytimes.com/2025/11/19/technology/larry-summers-resigns-from-openais-board.html",
-      "aiInsight": "萨默斯的辞职对OpenAI及其所在的AI行业将产生多方面的影响。从技术发展角度看，萨默斯作为经济学界的重量级人物，曾参与过多轮对话，可能为OpenAI提供了政策和经济方面的战略建议。他的离开意味着OpenAI将失去这些宝贵的意见，但同时也为其他具有类似背景的专家提供了加入的机会。\n\n行业影响方面，萨默斯的辞职反映了公众对AI伦理和治理问题的关注。他的辞职被广泛解读为对AI伦理问题的一种回应，特别是关于AI潜在的负面影响和监管需求。这一事件可能促使其他政府官员和科技界重要人物重新审视其在AI公司的角色，从而推动AI行业更加重视伦理治理。\n\n未来趋势上看，萨默斯的辞职可能加剧AI行业内部关于伦理治理的讨论和行动。此外，这也可能促进政府与私营部门之间的沟通与合作，共同制定更有效的AI监管框架。未来，AI行业可能需要更多的跨界合作，汇集不同领域的专业知识以应对AI带来的社会挑战，从而促进AI技术的健康发展。"
+      "aiInsight": "拉里·萨默斯辞去OpenAI董事会职务的消息引发了广泛的关注，从技术发展、行业影响以及未来趋势等角度，我们可以进行以下深度点评分析：\n\n1. **技术发展方向**：萨默斯的辞职可能反映了OpenAI在模型开发和伦理治理方面面临的新挑战。萨默斯在经济和政策领域的经验，对于推动AI伦理和公平性有着重要的贡献。他的离去可能会引发OpenAI在这一领域的策略调整，尤其是在确保技术发展的伦理性和包容性方面。\n\n2. **行业影响**：作为一位知名人物，萨默斯的辞职可能会对OpenAI的公众形象和行业地位产生一定的影响。OpenAI作为人工智能领域的领军企业之一，其董事会成员的变动往往会引发行业的高度关注。此次变动可能会促使其他企业重新审视其董事会成员的选择，以确保在AI伦理和治理方面的最佳实践。\n\n3. **未来趋势**：此次事件凸显了AI伦理治理在行业发展中的重要性。随着AI技术的飞速发展，如何确保技术进步的同时维护社会公平正义，成为了一个亟待解决的问题。未来，企业和研究机构可能需要更加重视伦理治理框架的建设，包括但不限于透明度、公正性以及对社会影响的全面评估。\n\n综上所述，萨默斯的辞职不仅是OpenAI管理层的一次变动，更可能预示着AI行业发展的一个新方向，即更加重视伦理治理和公众利益。"
     },
     {
       "id": "news_1763557298371_e5e8a465",
@@ -1144,16 +1132,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1763656601938_2",
+      "id": "news_1763659312076_2",
       "title": "软银持股表明OpenAI的价值为7500亿美元",
-      "summary": "软银对OpenAI的乐观押注已取得成效。软银在4月以3000亿美元的估值投资了该公司，并最近以5000亿美元的估值从员工手中收购了股份。目前，软银的持股表明OpenAI的价值已达到7500亿美元。这一估值反映了OpenAI在人工智能领域的巨大潜力和影响力。",
-      "content": "软银创始人孙正义对OpenAI的乐观押注迄今已取得成效。这位日本科技巨头在4月以3000亿美元的估值投资了该公司，并最近以5000亿美元的估值从员工手中收购了股份……",
+      "summary": "软银通过投资和收购OpenAI股份，表明该公司估值已飙升至7500亿美元。软银创始人孙正义在4月以3000亿美元估值投资OpenAI，近期又以5000亿美元的价格从员工手中购入股份。这一系列操作彰显了孙正义对OpenAI未来潜力的高度认可。",
+      "content": "软银创始人孙正义对OpenAI的乐观押注迄今为止已经得到了回报。这位日本科技巨头在4月以3000亿美元的估值投资了该公司，并最近以5000亿美元的价格从员工手中收购了股份……",
       "imageUrl": "https://www.reuters.com/resizer/v2/7CYFMB7RV5L4FAHY2CS4PVIAGI.jpg?auth=d95bafb9d1182f82cd2beb1fcd464212a6314a11dbf4e368ec8fc95cb4157071&height=1005&width=1920&quality=80&smart=true",
       "source": "Reuters",
       "publishedAt": "2025-11-19T05:00:27.000Z",
       "category": "国际AI",
       "originalUrl": "https://www.reuters.com/commentary/breakingviews/softbank-stock-implies-openai-is-worth-750-bln-2025-11-19/",
-      "aiInsight": "该新闻反映了OpenAI在AI领域的巨大价值和吸引力，从技术发展的角度，这意味着OpenAI在自然语言处理、生成式AI等前沿技术方面取得了显著进展，引起了全球科技巨头的关注和投资。从行业影响的角度来看，这表明大型语言模型和生成式AI正在成为未来的关键竞争领域，可能会重塑互联网、内容创作、客户服务等众多行业。从未来趋势的角度，随着更多资本的注入和技术的不断突破，AI技术的应用范围将进一步扩大，同时也可能引发更多的伦理和社会问题，如数据隐私、偏见和滥用风险等，未来需要更加注重技术伦理和社会影响。"
+      "aiInsight": "这篇新闻表明OpenAI在人工智能领域的独特价值及其巨大的市场潜力。从技术发展角度来看，该估值反映了OpenAI在生成式AI、自然语言处理等领域取得的重大突破，如DALL-E和ChatGPT等产品的影响力正在扩大，推动着AI技术的革新。从行业影响来看，这一高估值可能会吸引更多资本和技术人才加入，加速AI行业的竞争与合作，促进相关技术的成熟与应用。未来趋势方面，随着技术的不断进步，AI将在更多行业发挥关键作用，重塑商业模式和工作方式，但也可能引发关于隐私、伦理和安全性等方面的广泛讨论。"
     },
     {
       "id": "news_1763648884597_2",
@@ -1442,6 +1430,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/898/422.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1763659311532_3",
+      "title": "微软与 Anthropic 和 Nvidia 在云基础设施方面达成合作",
+      "summary": "微软宣布与人工智能公司Anthropic和芯片制造商Nvidia在云基础设施方面达成合作，此举标志着微软将逐步远离其长期与OpenAI的合作关系。此次合作将使微软能够提供更强大的人工智能服务，增强其在云计算市场的竞争力。",
+      "content": "微软周二宣布，它将与人工智能公司Anthropic和芯片制造商Nvidia合作，作为云基础设施协议的一部分，这使得这家软件巨头进一步远离其长期与OpenAI的合作关系。",
+      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2025/11/Microsoft_58604_83759e-1.jpg?w=1024&h=768",
+      "source": "The Mercury News",
+      "publishedAt": "2025-11-18T17:36:41.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.mercurynews.com/2025/11/18/microsoft-partners-with-anthropic-and-nvidia-in-cloud-infrastructure-deal/",
+      "aiInsight": "这项合作标志着微软在人工智能领域的战略调整，显示出其对Anthropic和Nvidia技术的认可和依赖，这可能预示着未来AI技术发展的新方向。从技术发展角度看，Anthropic和Nvidia在AI模型训练和推理方面具有强大实力，这将有助于提高微软云服务的性能和效率。从行业影响来看，此次合作可能会加剧AI领域内的竞争格局，尤其是对其他云服务提供商可能形成一定的挑战。未来趋势方面，预计会有更多云服务提供商寻求与不同AI技术提供商的合作，以丰富其产品线和服务能力，满足企业客户多样化的AI需求。同时，这种合作模式也可能推动AI技术的创新和应用拓展。"
     },
     {
       "id": "news_1763656600236_3",
