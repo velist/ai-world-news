@@ -1,31 +1,55 @@
 {
   "success": true,
-  "timestamp": "2025-11-24T22:27:40.323Z",
-  "total": 86,
+  "timestamp": "2025-11-24T23:26:34.016Z",
+  "total": 88,
   "data": [
     {
-      "id": "news_1764023249539_77c69475",
-      "title": "报告发现：AI生成的代码将引发新一轮技术债务浪潮",
-      "summary": "报告发现：AI生成的代码将引发新一轮技术债务浪潮",
-      "content": "报告发现：AI生成的代码将引发新一轮技术债务浪潮",
+      "id": "news_1764026769727_063f5cb0",
+      "title": "德意志银行预测标普500指数到2026年底将升至8000点",
+      "summary": "德意志银行周一预测标普500指数到明年年底将攀升至8000点，理由是企业盈利强劲和人工智能驱动增长，使其成为全球主要券商中最乐观的一家。这家欧洲券商的目标价意味着该指数较上一交易日收盘价6602.99点有高达21%的上涨空间。该券商还预测标普500指数每股平均收益将达到320美元。",
+      "content": "德意志银行周一预测标普500指数到明年年底将攀升至8000点，理由是企业盈利强劲和人工智能驱动增长，使其成为全球主要券商中最乐观的一家。这家欧洲券商的目标价意味着该指数较上一交易日收盘价6602.99点有高达21%的上涨空间。该券商还预测标普500指数每股平均收益将达到320美元。（新浪财经）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2025-11-24T23:17:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3567192805702790?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1764026792655_5894fc95",
+      "title": "从实验室走向生产线：我国首个光量子计算机制造工厂落成",
+      "summary": "IT之家 11 月 25 日消息，光量子（简称光子）是传递电磁相互作用的基本粒子，也是光的最小能量单元。 据央视报道，我国首个光量子计算机制造工厂昨日正式在广东深圳南山区落成，并已产出第一台计算能力达到 1000 个量子比特的光量子计算机。",
+      "content": "IT之家 11 月 25 日消息，光量子（简称光子）是传递电磁相互作用的基本粒子，也是光的最小能量单元。 据央视报道，我国首个光量子计算机制造工厂昨日正式在广东深圳南山区落成，并已产出第一台计算能力达到 1000 个量子比特的光量子计算机。 IT之家查询获悉，该制造工厂占地面积约 5000 平方米，集研发、制造与测试功能于一体，目标在于实现光量子计算机的工程化、标准化与规模化生产。 光量子计算机的制造过程复杂精密，包含 7 大制程、223 道工序及超过 1000 个具体工步。其核心技术原理在于引导光子有序进入特定计算空间，保持间距并进行高速持续运动，再通过测量实现在毫秒级时间内完成单次计算任务，整机每日可执行数万次运算。 此工厂的建成与投产，标志着我国在量子计算领域实现了从实验室研发向工业化量产的重要跨越。 据玻色量子创始人马寅介绍，光量子计算机技术的应用已逐步引入多个行业领域，产生了数以百计的具体应用场景。该技术可显著提升人工智能模型的训练精度，推动基于量子计算的人工智能算法在应用层面取得进展。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/ac14ce05-f7c6-4972-a356-52c4f2e08a87.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-11-24T23:02:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/899/911.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1764026782667_4d5d8e03",
+      "title": "从训练数据、代码到构建细节，LLaVA-OneVision-1.5要做“全开源”",
+      "summary": "从训练数据、代码到构建细节，LLaVA-OneVision-1.5要做“全开源”",
+      "content": "从训练数据、代码到构建细节，LLaVA-OneVision-1.5要做“全开源”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-11-24T16:20:47.000Z",
+      "publishedAt": "2025-11-24T17:17:25.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/z9BzTyFywGx3IlKfRLjo?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/vWB51xQStGHyURhIRgdd?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1764023250394_a7f8b0cf",
-      "title": "从模型到智能体：Snowflake 的企业级 Agentic AI 工程化之路",
-      "summary": "从模型到智能体：Snowflake 的企业级 Agentic AI 工程化之路",
-      "content": "从模型到智能体：Snowflake 的企业级 Agentic AI 工程化之路",
+      "id": "news_1764026783387_cdd81b01",
+      "title": "Cloudflare Workflows为持久化的AI管道提供了Python支持",
+      "summary": "Cloudflare Workflows为持久化的AI管道提供了Python支持",
+      "content": "Cloudflare Workflows为持久化的AI管道提供了Python支持",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-11-24T15:58:31.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/rFuqHmzyCVdTEJ7oQQem?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2025-11-24T16:53:33.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/qwDSlBQuG3TT8Gwp0ffe?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763998350292_763952a4",
@@ -100,18 +124,6 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1764023251200_e9fa8c02",
-      "title": "非技术用户构建生产级应用的 AI Coding 实践｜AICon北京",
-      "summary": "非技术用户构建生产级应用的 AI Coding 实践｜AICon北京",
-      "content": "非技术用户构建生产级应用的 AI Coding 实践｜AICon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-24T12:30:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/0uKvb5FHHhOG23pyGQ1M?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1763989154362_44835ac7",
       "title": "镭萌科技马丁：市场需要的不是陪伴机器人，而是AI潮玩2.0 | AI Founder 请回答 | 巴伦精选",
       "summary": "今天AI陪伴机器人的故事越来越重“情绪”而轻“具身”的环境下，马丁及其团队深厚的IP潮玩和互联网基因，无疑给这一赛道带来了一些新变量。",
@@ -134,6 +146,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/899/861.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1764026786968_7cc7a10a",
+      "title": "新的IBM Granite 4模型通过可高效推理的混合Mamba-2架构降低人工智能成本",
+      "summary": "新的IBM Granite 4模型通过可高效推理的混合Mamba-2架构降低人工智能成本",
+      "content": "新的IBM Granite 4模型通过可高效推理的混合Mamba-2架构降低人工智能成本",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-11-24T11:21:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/2G9xcZlsrvyWqkziqRcM?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1763983519439_360b19d9",
@@ -170,6 +194,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/899/856.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1764026753624_0",
+      "title": "OpenAI 在节假日前夕推出了聊天购物研究工具 ChatGPT",
+      "summary": "OpenAI在节假日前夕推出了聊天购物研究工具ChatGPT，该工具能够生成个性化买家指南，通过向用户提问并从高质量网站获取信息，提高购物决策的准确性。与以往版本相比，新版ChatGPT能够区分不同来源的信息可信度，例如更倾向于采用Reddit等平台上的用户真实体验而非付费营销或产品页面上的评论。这一新功能旨在帮助消费者在节日购物季做出更明智的购买决策。",
+      "content": "OpenAI 发布了一款免费的人工智能购物研究工具，称该工具可以在节假日为 ChatGPT 用户生成个性化的购物指南。",
+      "imageUrl": "https://thumb.spokesman.com/KgpsidWRODyzSyedNoV2JomEkYQ=/1200x630/smart/media.spokesman.com/photos/2025/11/24/6924b869f3dde.hires.jpg",
+      "source": "Spokane Spokesman-Review",
+      "publishedAt": "2025-11-24T10:38:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.spokesman.com/stories/2025/nov/24/openai-debuts-chatgpt-shopping-research-tool-ahead/",
+      "aiInsight": "这款聊天购物研究工具ChatGPT的推出，标志着AI技术在电商领域的应用进入了一个新的阶段。从技术发展角度来看，这不仅是自然语言处理技术的进一步应用和优化，还体现了对话系统在复杂场景中获取和分享信息的能力。在行业影响方面，随着AI技术的发展，个性化购物建议将更加普遍，这可能会改变消费者的购物习惯，提升购物体验。对于零售商来说，这也提供了新的营销工具，可以更精准地定位顾客需求。未来趋势上，AI技术将进一步融入零售业，提供更智能的顾客服务。此外，随着技术的进步，个性化和互动性将更加突出，有望推动零售业向更加以顾客为中心的方向发展。不过，这也引发了一系列隐私和伦理问题，值得行业和监管机构关注。"
     },
     {
       "id": "news_1763956839902_5a578665",
@@ -736,6 +772,18 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1764026755697_1",
+      "title": "OpenAI首席执行官警告称，谷歌的AI进展可能会造成“暂时的经济逆风”",
+      "summary": "OpenAI首席执行官Sam Altman在公司内部邮件中警告员工，谷歌在人工智能领域的进展可能给OpenAI带来“暂时的经济逆风”。Altman承认，谷歌可能在某些方面暂时领先于OpenAI，并提醒员工要做好应对公众看法可能短期变差的准备。尽管OpenAI仍处于领先地位，但竞争对手正在迅速追赶。Altman表示，OpenAI需要努力追赶，以保持其在人工智能领域的领先地位。",
+      "content": "OpenAI（PC:OPAIQ）的首席执行官萨姆·阿尔特曼最近警告员工，科技巨头谷歌（GOOGL）在人工智能领域的进展可能会给OpenAI带来“一些暂时的经济逆风”。在上个月的一份公司备忘录中，他承认了这一点…… [2040字]",
+      "imageUrl": "https://blog.tipranks.com/wp-content/uploads/2025/11/image-2480-1024x768.png?utm_source=markets.businessinsider.com&utm_medium=referral",
+      "source": "Markets Insider",
+      "publishedAt": "2025-11-23T23:19:41.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://markets.businessinsider.com/news/stocks/openai-ceo-warns-that-google-s-ai-progress-may-create-temporary-economic-headwinds-1035587578",
+      "aiInsight": "这份新闻报道反映了当前人工智能领域竞争的激烈程度以及对行业格局的影响。从技术发展角度看，谷歌在人工智能领域的快速进展表明其在算法优化、算力支持、数据积累等方面具有显著优势，可能在短期内提升其产品和服务竞争力。这种竞争压力促使OpenAI及其他公司加速研发与迭代，以保持技术领先性。\n\n从行业影响来看，OpenAI和谷歌的竞争将推动整个AI行业向前发展，促使更多企业加大投入，促进技术创新与应用探索。同时，这种竞争也可能导致市场资源的重新分配，对相关企业产生不同程度的影响。此外，大型科技公司在AI领域的激烈竞争还可能引发公众对数据隐私、算法公平性等问题的关注。\n\n从未来趋势来看，随着谷歌等领先企业的持续投入，AI技术有望在更多领域实现突破，应用场景日益丰富，产业边界不断拓宽。同时，AI技术的广泛应用将重塑全球经济结构，创造新的就业机会，同时也可能带来职业转型和技能升级的需求。为应对这种挑战，企业和个人需关注技术动态，提升自身能力，以适应快速变化的市场环境。"
+    },
+    {
       "id": "news_1764023213449_0",
       "title": "OpenAI首席执行官警告称，谷歌的AI进展可能会创造“暂时的经济逆风”",
       "summary": "OpenAI首席执行官Sam Altman警告员工，谷歌在人工智能领域的进展可能给OpenAI带来“暂时的经济逆风”。Altman在内部邮件中承认，谷歌可能在某些技术方面暂时领先OpenAI，并提醒员工要做好应对公众看法可能短期变差的准备。这番言论是在谷歌即将宣布Gemini 3的背景下提出的。尽管OpenAI仍处于领先地位，但竞争对手正在迅速追赶。",
@@ -770,18 +818,6 @@
       "category": "国内AI",
       "originalUrl": "https://markets.businessinsider.com/news/stocks/openai-ceo-warns-that-google-s-ai-progress-may-create-temporary-economic-headwinds-1035587578",
       "aiInsight": "从技术角度来看，OpenAI首席执行官Sam Altman的警告反映了AI技术领域的激烈竞争和不确定性。谷歌在AI领域的持续投入和快速进展可能短期内会影响OpenAI的市场地位和资金流动。这表明，AI研发不仅是技术竞赛，更是经济和资源的较量。\n\n从行业影响来看，谷歌的AI进步可能会加剧整个科技行业的竞争格局，促使其他AI初创企业和大公司加快技术创新和产品迭代。同时，这也可能促进AI应用场景的拓展和深化，为各行各业带来新的增长点。但短期内，新进入者和小企业可能会面临更大的挑战，可能需要重新调整战略以应对竞争压力。\n\n从未来趋势来看，AI技术的快速发展将推动产业智能化转型，促进全球经济结构的优化升级。然而，AI技术的广泛应用也可能引发一系列社会经济问题，如就业结构变化、隐私保护挑战等。因此，相关企业需要在追求技术创新的同时，关注技术伦理和社会影响，共同推动AI技术的健康发展。此外，政府和行业组织也应加强对AI技术发展的监管和引导，促进公平竞争，保障消费者权益。"
-    },
-    {
-      "id": "news_1764005199130_0",
-      "title": "OpenAI首席执行官警告称，谷歌的AI进展可能会造成“暂时的经济逆风”",
-      "summary": "OpenAI首席执行官Sam Altman在一封公司备忘录中警告员工，谷歌在人工智能领域的进展可能会给OpenAI带来“暂时的经济逆风”。Altman承认，谷歌可能在某些方面暂时领先于OpenAI的技术。他提醒员工，公众对OpenAI的看法可能会变得“艰难”。尽管OpenAI仍是一家估值500亿美元的领先公司，但竞争对手正在缩小差距。这表明，在人工智能领域，竞争日益激烈，领先优势可能随时会被改变。",
-      "content": "OpenAI（PC:OPAIQ）的首席执行官Sam Altman最近警告员工，科技巨头谷歌（GOOGL）在人工智能领域的进步可能会给OpenAI带来“一些暂时的经济逆风”。在上个月的一份公司备忘录中，他承认了这一点…… [2040字节]",
-      "imageUrl": "https://blog.tipranks.com/wp-content/uploads/2025/11/image-2480-1024x768.png?utm_source=markets.businessinsider.com&utm_medium=referral",
-      "source": "Markets Insider",
-      "publishedAt": "2025-11-23T23:19:41.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://markets.businessinsider.com/news/stocks/openai-ceo-warns-that-google-s-ai-progress-may-create-temporary-economic-headwinds-1035587578",
-      "aiInsight": "从技术发展角度看，OpenAI与谷歌在人工智能领域的竞争加剧，表明大模型和先进技术的开发仍是行业焦点。谷歌在AI领域的持续投入和技术突破，意味着其在自然语言处理、图像识别等领域的优势将进一步扩大，这可能促使OpenAI加速技术迭代，以保持竞争力。从行业影响角度看，谷歌的技术进步可能对OpenAI及其客户产生短期的经济压力，但长远来看，竞争将促进整个行业创新和进步，为用户提供更优质的服务。未来趋势方面，随着技术的不断进步，AI将加速渗透到各行各业，推动社会生产力的提升。同时，大模型的出现也可能引发新一轮的行业整合，中小型企业可能面临更大的生存挑战。因此，OpenAI需要不断创新，构建自身独特的竞争优势，以应对激烈的竞争环境。此外，随着AI技术的广泛应用，数据安全和隐私保护等问题也将日益凸显，这要求企业在追求技术创新的同时，加强合规管理，确保技术健康发展。"
     },
     {
       "id": "news_1763940289894_391574e1",
@@ -1022,18 +1058,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/899/496.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1763825425488_20c4717d",
-      "title": "沈向洋拆解AI五大演进维度：AI发展既要 “登珠峰” 也要 “修公路”，灵巧手是人类在AI面前最后尊严",
-      "summary": "沈向洋拆解AI五大演进维度：AI发展既要 “登珠峰” 也要 “修公路”，灵巧手是人类在AI面前最后尊严...",
-      "content": "沈向洋拆解AI五大演进维度：AI发展既要 “登珠峰” 也要 “修公路”，灵巧手是人类在AI面前最后尊严",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-22T22:27:21.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/4olpyNlhsmPAIKMPpfBZ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
