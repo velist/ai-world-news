@@ -1,67 +1,19 @@
 {
   "success": true,
-  "timestamp": "2025-11-26T16:36:08.011Z",
-  "total": 156,
+  "timestamp": "2025-11-26T17:26:34.811Z",
+  "total": 146,
   "data": [
     {
-      "id": "news_1764174954313_af1cb8ed",
-      "title": "SRE 智能体在金融核心系统的落地实践：DeepFlow 智能体的设计与思考｜AICon北京",
-      "summary": "SRE 智能体在金融核心系统的落地实践：DeepFlow 智能体的设计与思考｜AICon北京",
-      "content": "SRE 智能体在金融核心系统的落地实践：DeepFlow 智能体的设计与思考｜AICon北京",
+      "id": "news_1764177983451_d05160be",
+      "title": "英伟达Run:ai没做到的，被华为开源方案实现了",
+      "summary": "英伟达Run:ai没做到的，被华为开源方案实现了",
+      "content": "英伟达Run:ai没做到的，被华为开源方案实现了",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-11-26T17:42:58.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/UzcwdRCj18QJOy7tYiVP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764174955369_fad43448",
-      "title": "用AI“打开”金融市场黑盒：微软亚洲研究院如何构建订单级仿真引擎",
-      "summary": "用AI“打开”金融市场黑盒：微软亚洲研究院如何构建订单级仿真引擎",
-      "content": "用AI“打开”金融市场黑盒：微软亚洲研究院如何构建订单级仿真引擎",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-26T17:42:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/jmBjtwx3Iul4yjUorsqI?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764174957164_df093e84",
-      "title": "Win11 已近乎“残废”？微软承认多个核心功能崩盘，锅要甩给 AI 编程吗？",
-      "summary": "Win11 已近乎“残废”？微软承认多个核心功能崩盘，锅要甩给 AI 编程吗？",
-      "content": "Win11 已近乎“残废”？微软承认多个核心功能崩盘，锅要甩给 AI 编程吗？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-26T16:15:27.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/P8e96Y4uDRGHSgPhtIyk?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764174958308_7dbe053e",
-      "title": "Olmo 3 发布：模型开发与训练全程透明开放",
-      "summary": "Olmo 3 发布：模型开发与训练全程透明开放",
-      "content": "Olmo 3 发布：模型开发与训练全程透明开放",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-26T16:02:31.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Mah23P0FX0LKva0zIGcZ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764174960212_aeb1b856",
-      "title": "工作场景AI化，一个月花100美元订阅AI工具值吗？",
-      "summary": "工作场景AI化，一个月花100美元订阅AI工具值吗？",
-      "content": "工作场景AI化，一个月花100美元订阅AI工具值吗？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-26T15:34:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/P4LBQJIK5dY17awsxh0K?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2025-11-26T16:41:46.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/cIWZrKz0iYlrXNFpm9GI?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1764170941725_ac25d0ff",
@@ -124,28 +76,16 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1764174960883_002c96c7",
-      "title": "从静态到自适应：Airbnb键值存储系统应对流量峰值的控制机制",
-      "summary": "从静态到自适应：Airbnb键值存储系统应对流量峰值的控制机制",
-      "content": "从静态到自适应：Airbnb键值存储系统应对流量峰值的控制机制",
+      "id": "news_1764177990715_ff748e29",
+      "title": "KubeCon NA 2025：探讨生成式AI时代的工具",
+      "summary": "KubeCon NA 2025：探讨生成式AI时代的工具",
+      "content": "KubeCon NA 2025：探讨生成式AI时代的工具",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-11-26T12:30:00.000Z",
+      "publishedAt": "2025-11-26T11:23:53.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/eWSakGM5N3GeIS21VEBG?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/MEdhC6BKA4V4ZSqS1eh4?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764174961508_08502960",
-      "title": "谷歌推出Code Wiki：一个基于AI的持续交互式代码文档系统",
-      "summary": "谷歌推出Code Wiki：一个基于AI的持续交互式代码文档系统",
-      "content": "谷歌推出Code Wiki：一个基于AI的持续交互式代码文档系统",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-11-26T11:45:01.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/121hBlz8wNi77TfyRGho?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1764156320146_fc3bf065",
@@ -256,7 +196,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1764174933702_189059db",
+      "id": "news_1764177958107_189059db",
       "title": "小米开源首个跨域具身基座模型MiMo-Embodied，29个榜单SOTA",
       "summary": "小米开源首个跨域具身基座模型MiMo-Embodied，29个榜单SOTA",
       "content": "小米开源首个跨域具身基座模型MiMo-Embodied，29个榜单SOTA",
@@ -856,6 +796,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1764177953881_0",
+      "title": "谷歌，全球AI竞赛中的沉睡巨人，现在“完全苏醒”",
+      "summary": "自ChatGPT推出以来，谷歌在人工智能竞赛中一直被认为落后于竞争对手。然而，近期有迹象表明，谷歌已“完全苏醒”。分析师和技术专家指出，谷歌在人工智能领域正迎头赶上，甚至有迹象显示其在某些方面已超越竞争对手。这一转变引发了业界对谷歌在人工智能领域的重新评估和关注。",
+      "content": "（ Bloomberg/Mark Bergen 和 Newley Purnell）—— 自 ChatGPT 三年前推出以来，分析师和技术专家——甚至包括一名谷歌工程师和该公司前首席执行官——都宣布谷歌在开发高 stakes 的人工智能竞赛中落后于…… [8161 chars]",
+      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2025/09/SJM-L-GOOGLE-0829-2.jpg?w=1024&h=558",
+      "source": "The Mercury News",
+      "publishedAt": "2025-11-25T17:13:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.mercurynews.com/2025/11/25/google-sleeping-giant-in-global-ai-race/",
+      "aiInsight": "从技术发展角度看，谷歌在人工智能领域的技术积累深厚，一直是该领域的领军者之一。此次被描述为“沉睡巨人”的苏醒，可能意味着谷歌在人工智能领域即将有重大突破或即将推出新的AI产品或服务。这不仅涉及语言模型、生成式AI等技术进步，还可能包括在搜索、广告、云计算等领域的具体应用。\n\n从行业影响来看，如果谷歌能够推出领先的产品或服务，将对整个AI行业产生重大影响。这不仅会改变消费者和企业的使用习惯，还可能推动更多传统行业加速数字化转型，进一步扩大AI的应用范围和深度。同时，这也将加剧科技巨头之间的竞争，可能引发新一轮的AI技术竞赛。\n\n从未来趋势看，此次事件预示着AI技术正在进入新的发展阶段。未来，AI技术将更加普及，成为推动社会进步的重要力量。同时，随着AI技术的不断进步，其伦理、隐私等问题也将受到更多的关注，相关政策法规的制定将加速。"
+    },
+    {
       "id": "news_1764174930379_0",
       "title": "谷歌，全球AI竞赛中的沉睡巨兽，现在“完全苏醒”。",
       "summary": "谷歌在人工智能领域的领先地位正受到挑战。自ChatGPT推出以来，分析师和技术专家纷纷表示谷歌在这一竞赛中落后于人。然而，近期谷歌在人工智能领域的一系列动作表明，这家科技巨头已经“完全苏醒”。谷歌正在加大投入，推出一系列新的AI产品和服务，试图重新夺回在这一领域的主导地位。",
@@ -988,6 +940,18 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1764177952760_1",
+      "title": "谷歌，全球人工智能竞赛中的 Sleeping Giant，现在“完全苏醒”。",
+      "summary": "谷歌在人工智能领域的领先地位正在逐渐显现。自三年前推出ChatGPT以来，外界一直认为谷歌在高 stakes 的人工智能竞赛中落后于人。然而，如今这一局面已经改变。谷歌在人工智能领域的实力被重新评估，显示出强劲的发展势头。这标志着谷歌在全球人工智能竞赛中“完全苏醒”，重新成为不可忽视的重要力量。",
+      "content": "自从三年前推出ChatGPT以来，分析师和技术专家——甚至包括一名谷歌工程师和该公司前首席执行官——都曾宣布谷歌在开发人工智能的高 stakes 竞赛中落后了。 现在不再是这样了。",
+      "imageUrl": "https://assets.bwbx.io/s3/lightsaber/_next/static/media/social-tech.9caebdd1.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2025-11-25T14:57:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2025-11-25/google-the-sleeping-giant-in-global-ai-race-now-fully-awake",
+      "aiInsight": "这篇新闻报道了谷歌在人工智能领域的崛起，这标志着其在全球人工智能竞赛中的地位发生了显著变化。从技术发展的角度来看，谷歌近年来在自然语言处理、机器学习算法等方面取得了重要突破，这使得其在当前的人工智能技术竞赛中处于领先地位。这一转变也表明，单纯依靠大模型和算法优化并不是唯一的获胜策略，谷歌通过其强大的搜索技术和云计算平台积累了丰富的经验，这为其在人工智能领域的成功奠定了坚实基础。\n\n从行业影响角度来看，谷歌的崛起将对整个AI行业格局产生深远影响。谷歌不仅能够提升自身产品和服务的智能化水平，还能通过开放API和平台吸引更多开发者和企业加入其生态系统。这将加速AI技术的普及和应用，推动行业创新。\n\n未来趋势方面，谷歌可能会进一步加强在AI领域的投入，特别是在推动AI技术与云计算、物联网等领域的融合应用方面。此外，随着AI技术的不断发展，如何确保其安全、可靠、公平和透明将变得越来越重要，谷歌需要在这方面做出更多努力。"
+    },
+    {
       "id": "news_1764174929069_1",
       "title": "谷歌，全球人工智能竞赛中的 Sleeping Giant，现在已“完全觉醒”。",
       "summary": "谷歌在人工智能领域的领先地位正在重新获得关注。自三年前推出ChatGPT以来，外界曾认为谷歌在这一高风险竞赛中落后于人。然而，近期谷歌在人工智能领域的表现引起了广泛关注，表明其已“完全觉醒”。这标志着谷歌在全球人工智能竞赛中的地位正在发生变化，或将重新定义行业格局。",
@@ -1046,18 +1010,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.bloomberg.com/news/articles/2025-11-25/google-the-sleeping-giant-in-global-ai-race-now-fully-awake",
       "aiInsight": "这篇新闻报道了谷歌在人工智能领域的觉醒，标志着其在全球AI竞赛中的地位提升。从技术发展角度看，这可能意味着谷歌在AI基础研究和应用开发上取得了重大进展，特别是ChatGPT的出现可能促使谷歌加大了在该领域的投入。从行业影响来看，谷歌的崛起将加剧AI市场的竞争，可能推动技术创新和产品迭代。未来趋势上，谷歌的加入可能会推动AI技术的普及和成熟，进而影响到各行各业的智能化转型。同时，这也可能引发关于数据隐私、算法公平性等伦理问题的讨论，需要科技公司和监管机构共同面对和解决。"
-    },
-    {
-      "id": "news_1764149484993_1",
-      "title": "谷歌，全球人工智能竞赛中的 Sleeping Giant，现在“完全苏醒”。",
-      "summary": "谷歌在人工智能领域的领先地位正在重新获得关注。自三年前推出ChatGPT以来，外界曾认为谷歌在高 stakes 的人工智能竞赛中落后。但现在，谷歌似乎已经“完全苏醒”。分析师和技术专家纷纷表示，谷歌在人工智能领域正迎头赶上，甚至可能已经领先。这一转变标志着谷歌在全球人工智能竞赛中的地位重新获得认可。",
-      "content": "自从三年前推出ChatGPT以来，分析师和技术专家——甚至包括一位谷歌工程师和该公司前首席执行官——都曾宣布谷歌在开发人工智能的高 stakes 竞赛中落后了。 现在不再是这样了。",
-      "imageUrl": "https://assets.bwbx.io/s3/lightsaber/_next/static/media/social-tech.9caebdd1.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2025-11-25T14:57:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2025-11-25/google-the-sleeping-giant-in-global-ai-race-now-fully-awake",
-      "aiInsight": "该新闻揭示了谷歌在人工智能领域从落后到崛起的转变，这一变化不仅影响着科技行业，还可能重塑全球经济格局。从技术发展角度来看，谷歌的新进展表明其在自然语言处理、机器翻译和生成式AI等方面取得了显著突破，这得益于其强大的计算能力和丰富的数据资源。在行业影响方面，谷歌的崛起可能会加剧与微软等竞争对手的较量，同时也会对众多依赖于人工智能技术的企业构成挑战，迫使它们加快技术创新和应用升级。展望未来，谷歌的人工智能竞赛成果预示着一个更加智能化的世界，但同时也引发了关于隐私保护、数据安全和伦理监管的讨论。这一趋势强调了技术公司与政府、社会之间的合作的重要性，以确保技术进步能够惠及全人类。"
     },
     {
       "id": "news_1764146215456_1",
@@ -1802,78 +1754,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/899/951.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764036392493_fb86d31d",
-      "title": "China's Moonshot AI in Talks for New Funding Round That May Value Firm at $4 Billion",
-      "summary": "The Beijing-based artificial intelligence startup is in discussions with major global investors including IDG Capital and Tencent, in what could becom...",
-      "content": "The Beijing-based artificial intelligence startup is in discussions with major global investors including IDG Capital and Tencent, in what could become one of the largest funding rounds for a Chinese AI company this year.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-11-25T01:05:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7780294.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764036410126_788d4136",
-      "title": "OpenAI 推出购物研究工具，ChatGPT 变身更懂你的 AI 购物小助手",
-      "summary": "IT之家 11 月 25 日消息，OpenAI 推出了一款免费的 AI 购物研究工具，专为 ChatGPT 用户在美国的“假日季”期间提供个性化的购物建议。",
-      "content": "IT之家 11 月 25 日消息，OpenAI 推出了一款免费的 AI 购物研究工具，专为 ChatGPT 用户在美国的“假日季”期间提供个性化的购物建议。 OpenAI 此次推出了 GPT-5 mini 的新版本模型，不仅能提出澄清性问题，还能从 OpenAI 认为更可信的高质量网站评论中获取答案。OpenAI 的代表明确，工具引用商品链接时，不会特别偏向某些网站。 这款新工具与普通的 ChatGPT 文本对话有所不同，用户可以在聊天界面中通过点击专门的“购物研究”按钮，输入需求，例如“为小公寓挑选一张小沙发”或“为我 4 岁热爱艺术的侄女选一份礼物”。 工具不会直接给出文本回复，而是通过问卷形式向用户询问更多细节，引导用户提供自身的预算、颜色偏好、尺寸等因素。 据IT之家了解，其在从网络收集信息的过程中，会给出 10 到 15 个相关商品的建议，用户可以通过点击“更多类似的（more like this）”或“不感兴趣（not interested）”来进一步调整商品列表。 OpenAI 并不急于从这款购物研究工具中获利。据IT之家了解，截至明年 1 月，所有免费及付费用户都可以享受几乎无限制的使用权限。 OpenAI 在博客中指出，这款新工具在细节复杂的商品类别中表现尤为突出，包括电子产品、美容、家居、花园、厨房、家电和户外用品。不过，由于该工具需要一定时间整理购物建议，OpenAI 因此也建议用户：对于查看价格和硬件规格等简单的购物问题，仍然使用常规的 ChatGPT 搜索。 OpenAI 承认这款工具存在一些局限性，购物研究团队负责人 Isa Fulford 承认，教模型准确识别真实、未经付费的用户评论是一项“相当困难的任务”，且无法做到 100% 准确。 OpenAI 研究员 Manuka Stratta 表示：“Reddit 上的很多评论都很值得信赖。因此，我们训练模型关注并优先索引更多来源于自然内容而非付费营销的网络评论。” OpenAI 还提醒用户，若想获取更准确的商品信息，建议直接访问商家网站，因为新工具可能会在商品细节上出现错误，尤其是在价格和库存信息方面。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/7afc9422-dc91-46a9-a503-0c5544a49d90.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-11-25T01:03:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/899/940.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764036394414_42a6a2f3",
-      "title": "大厂加码、创业公司竞逐，人形机器人迎来iPhone时刻了吗？",
-      "summary": "大厂加码、创业公司竞逐，人形机器人迎来iPhone时刻了吗？",
-      "content": "谁能率先越过技术、成本和市场的重重迷雾,谁才能真正迎来属于自己的\"iPhone时刻\"。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-11-25T00:30:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7780065.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764174928122_2",
-      "title": "Anthropic 称其新AI模型在编程和办公工作中更出色",
-      "summary": "Anthropic推出最新AI模型，旨在更出色地自动化编程和办公任务，与OpenAI和Google竞争企业客户。该模型在处理编码和办公工作方面表现出色，有望在人工智能领域占据一席之地。",
-      "content": "Anthropic PBC 正在推出其最强大的人工智能模型的新版本，该模型旨在更好地自动化编码和办公任务，这是其与 OpenAI 和 Alphabet Inc. 的 Google 竞争企业客户的一部分... [311字]",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/isSN5SA08MHk/v1/1200x800.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2025-11-24T19:00:33.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2025-11-24/anthropic-says-its-new-ai-model-is-better-at-coding-and-office-work",
-      "aiInsight": "这项新闻报道了Anthropic公司推出的新AI模型在编程和办公工作中的表现提升，这一进展具有重要的技术发展意义和行业影响，同时也预示着未来趋势。\n\n从技术发展角度来看，Anthropic的AI模型在编程和办公任务上的性能改进，显示了AI技术在理解和执行复杂任务方面取得了显著进步。这表明，随着算法优化和大数据的不断积累，AI在特定领域的应用将更加精准和高效。\n\n在行业影响方面，Anthropic的这一举措可能会吸引更多的企业客户，尤其是那些寻求提高生产力和自动化流程的公司。这不仅有助于扩大AI技术的市场渗透率，还可能促使其他AI企业加大在相关领域的研发力度，从而推动整个行业的竞争和技术进步。\n\n展望未来趋势，随着AI技术的不断发展和完善，我们可能会看到更多的AI模型被开发出来，以解决更复杂的问题和满足更广泛的应用需求。此外，随着技术的进步，AI在办公和编程等领域的应用将更加普及，进一步推动工作效率的提升和商业模式的变革。"
-    },
-    {
-      "id": "news_1764174929060_3",
-      "title": "OpenAI 在假日季前夕推出了聊天机器人购物研究工具 ChatGPT",
-      "summary": "OpenAI 在假日季前夕推出了一款名为ChatGPT的免费人工智能购物研究工具。该工具能够为用户提供个性化的购物指南，帮助他们在节假日做出更明智的消费决策。ChatGPT能够回答与购物相关的各种问题，为消费者提供便捷的购物体验。",
-      "content": "OpenAI 发布了一款免费的人工智能购物研究工具，称该工具可以在节假日为 ChatGPT 用户生成个性化的购物指南。虽然 ChatGPT 一直能够回答与购物相关的... [513 字符]",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/inMygObYVyzc/v0/1200x799.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2025-11-24T18:00:33.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2025-11-24/openai-debuts-chatgpt-shopping-research-tool-ahead-of-the-holidays",
-      "aiInsight": "这款购物研究工具的推出，展示了AI技术在日常生活中的应用正在不断深化。从技术发展的角度看，OpenAI通过ChatGPT结合用户需求生成个性化购物指南，体现了自然语言处理技术的进步，尤其在理解和生成购物相关文本方面。这不仅提高了用户体验，也展示了AI在理解复杂语境和个性化服务方面的能力。\n\n从行业影响来看，此类智能购物助手的出现可能改变消费者的购物习惯，提高购物效率，同时也对传统电商平台和广告行业带来挑战，推动零售业向更加智能化、个性化方向发展。购物助手的兴起或将促使电商平台和服务商加大AI技术的应用力度，以提升自身竞争力。\n\n对于未来趋势，AI在购物领域的应用将更加广泛，从智能推荐、个性化服务到全渠道购物体验的优化，都将有AI技术的身影。同时，随着AI技术的进一步成熟，与购物相关的隐私保护和伦理问题也将成为关注重点，需要行业内外共同努力，确保技术的健康发展。"
-    },
-    {
-      "id": "news_1764174928459_4",
-      "title": "Scale AI在争取美国英特尔业务的竞标中败给了规模较小的初创公司",
-      "summary": "一家名为Scale AI的美国人工智能初创公司，在与规模较小的竞争对手争夺美国国防部和情报机构的数据标注合同中败北。此次七年合同价值高达9.2亿美元，旨在为人工智能和机器学习提供高质量的数据标注服务。获胜者是一家未在新闻中提及名称的初创公司，这表明在与大型科技公司竞争时，小型企业仍有可能胜出。",
-      "content": "一家人工智能初创公司赢得了与美国国防部和情报机构签订的七年数据标注合同，为人工智能和机器学习提供数据标注服务，击败了其更大的竞争对手Scale AI Inc。",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iPeUzn76CuCk/v1/1200x773.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2025-11-24T17:22:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2025-11-24/scale-ai-loses-to-smaller-upstart-in-bid-for-us-intel-work",
-      "aiInsight": "这项新闻反映了AI科技行业的一个重要趋势：虽然大型科技公司如Scale AI在数据标注和AI基础设施建设方面拥有丰富的经验和资源，但在面对新兴的、更加专注于特定细分市场的初创公司时，有时也会遭遇挑战。这主要是因为初创公司往往在某些领域能够提供更高效、更具成本效益的解决方案。从技术发展角度看，这表明AI技术在不断成熟，新的商业模式和创新技术不断涌现。行业影响方面，这可能会促使大型企业更注重与初创公司的合作，以弥补自身在某些领域的不足。未来趋势来看，AI技术的应用将更加广泛，数据标注等基础服务将更加专业化和个性化，企业需更加注重技术创新和市场细分策略。"
     }
   ]
 }
