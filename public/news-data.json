@@ -1,6 +1,6 @@
 {
   "success": true,
-  "timestamp": "2025-12-02T14:32:25.060Z",
+  "timestamp": "2025-12-02T15:33:54.691Z",
   "total": 138,
   "data": [
     {
@@ -28,28 +28,28 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1764685936334_faaa179f",
-      "title": "亚马逊云科技推出Amazon Transform全新Agent功能，加速任意代码与应用现代化",
-      "summary": "亚马逊云科技推出Amazon Transform全新Agent功能，加速任意代码与应用现代化",
-      "content": "亚马逊云科技推出Amazon Transform全新Agent功能，加速任意代码与应用现代化",
+      "id": "news_1764689624665_9937fb4d",
+      "title": "Hinton最新演讲：“超级智能”或在20年内出现，AI追求自我生存可能威胁人类",
+      "summary": "Hinton最新演讲：“超级智能”或在20年内出现，AI追求自我生存可能威胁人类",
+      "content": "Hinton最新演讲：“超级智能”或在20年内出现，AI追求自我生存可能威胁人类",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-12-02T15:46:51.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/zN2ONkdzANWLiIMpoLH4?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2025-12-02T18:50:25.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/VoM9D7acGibeBgDk920y?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1764685937015_7f00cfe8",
-      "title": "企业级Al Agent规模化落地的避坑指南，就藏在这四大趋势里",
-      "summary": "企业级Al Agent规模化落地的避坑指南，就藏在这四大趋势里",
-      "content": "企业级Al Agent规模化落地的避坑指南，就藏在这四大趋势里",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-02T15:30:45.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/LDHE0QxhWuxTehd076R4?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1764689633688_35716405",
+      "title": "行业首个：商汤发布并开源 NEO 原生多模态模型架构，实现视觉、语言深层统一",
+      "summary": "IT之家 12 月 2 日消息，商汤科技今日发布并开源了与南洋理工大学 S-Lab 合作研发的全新多模态模型架构 —— NEO，为日日新 SenseNova 多模态模型奠定了新一代架构的基石。",
+      "content": "IT之家 12 月 2 日消息，商汤科技今日发布并开源了与南洋理工大学 S-Lab 合作研发的全新多模态模型架构 —— NEO，为日日新 SenseNova 多模态模型奠定了新一代架构的基石。 NEO 宣称是“行业首个可用的、实现深层次融合的原生多模态架构（Native VLM）”，从底层原理出发，打破了传统“模块化”范式的桎梏，以“专为多模态而生”的设计，通过核心架构层面的多模态深层融合，实现了性能、效率和通用性的整体突破。 商汤科技介绍称，当前业内主流的多模态模型大多遵循“视觉编码器 + 投影器 + 语言模型”的模块化范式。这种基于大语言模型（LLM）的扩展方式，虽然实现了图像输入的兼容，但本质上仍以语言为中心，图像与语言的融合仅停留在数据层面。这种“拼凑”式的设计不仅学习效率低下，更限制了模型在复杂多模态场景下（比如涉及图像细节捕捉或复杂空间结构理解）的处理能力。 商汤推出了从零设计的 NEO 原生架构，通过在注意力机制、位置编码和语义映射三个维度的底层创新，让模型天生具备了统一处理视觉与语言的能力： 原生图块嵌入（Native Patch Embedding）： 摒弃了离散的图像 tokenizer，通过独创的 Patch Embedding Layer (PEL) 自底向上构建从像素到词元的连续映射。这种设计能更精细地捕捉图像细节，突破了主流模型的图像建模瓶颈。 原生三维旋转位置编码（Native-RoPE）：解耦了三维时空频率分配，视觉维度采用高频、文本维度采用低频，适配两种模态的自然结构。这使得 NEO 不仅能捕获图像的空间结构，更具备向视频处理、跨帧建模等复杂场景无缝扩展的潜力。 原生多头注意力（Native Multi-Head Attention）： 针对不同模态特点，NEO 在统一框架下实现了文本 token 的自回归注意力和视觉 token 的双向注意力并存。这种设计提升了模型对空间结构关联的利用率，从而更好地支撑复杂的图文混合理解与推理。 此外，配合 Pre-Buffer & Post-LLM 双阶段融合训练策略，NEO 能够在吸收原始 LLM 完整语言推理能力的同时，从零构建视觉感知能力，解决了传统跨模态训练中语言能力受损的难题。 测试显示，NEO 实现了多方面的突破： 数据效率：仅需业界同等性能模型 1/10 的数据量（3.9 亿图像文本示例），NEO 便能开发出“顶尖的视觉感知能力”。无需依赖海量数据及额外视觉编码器，其架构便能在多项视觉理解任务中追平 Qwen2-VL、InternVL3 等顶级模块化旗舰模型。 性能：在 MMMU、MMB、MMStar、SEED-I、POPE 等多项公开评测中，NEO 架构均斩获高分。 推理性价比：特别是在 0.6B-8B 的参数区间内，NEO 在边缘部署方面优势显著。 商汤已正式开源基于 NEO 架构的 2B 与 9B 两种规格模型，IT之家附开源地址如下： https://github.com/EvolvingLMMs-Lab/NEO https://arxiv.org/abs/2510.14979",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/f72c3d36-5b32-4251-b5ab-446d926b8e9c.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-12-02T14:33:05.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/901/985.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1764685944057_352326a3",
@@ -157,30 +157,6 @@
       "publishedAt": "2025-12-02T12:07:52.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7792674.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764685938070_8e5eeaab",
-      "title": "ChatGPT 混乱狂奔三周年：KPI 赢了一切，代价是一场致命的系统性故障",
-      "summary": "ChatGPT 混乱狂奔三周年：KPI 赢了一切，代价是一场致命的系统性故障",
-      "content": "ChatGPT 混乱狂奔三周年：KPI 赢了一切，代价是一场致命的系统性故障",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-02T12:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/3qW2ftQueKIqweMuWXd0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764685938954_5d97aa26",
-      "title": "DeepSeek 研究员：Speciale证明强化学习可持续扩展！谷歌AI研究员来划技术重点",
-      "summary": "DeepSeek 研究员：Speciale证明强化学习可持续扩展！谷歌AI研究员来划技术重点",
-      "content": "DeepSeek 研究员：Speciale证明强化学习可持续扩展！谷歌AI研究员来划技术重点",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-02T12:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/kl8Etgwi2EdrHDMbU859?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -892,6 +868,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1764689578394_0",
+      "title": "OpenAI购入Thrive Holdings股份，推动人工智能进入会计和IT服务领域",
+      "summary": "OpenAI已投资私人股权公司Thrive Holdings，双方合作将推动人工智能技术在传统行业如会计和IT服务领域的应用。此次合作旨在利用人工智能技术优化传统行业的业务流程，提高效率和准确性。通过此次投资，OpenAI将进一步拓展其在商业领域的影响力，而Thrive Holdings也将借助OpenAI的技术优势，加速其在相关行业的布局和发展。",
+      "content": "12月1日（路透社）——OpenAI（ChatGPT的开发商）已投资于私人股权公司Thrive Holdings，作为双方合作的一部分，该合作旨在将人工智能嵌入传统行业，如会计和IT服务，据这两家公司周一宣布。",
+      "imageUrl": "https://www.reuters.com/resizer/v2/T7SMDPPTPZIKRPIGN6IDSET74I.jpg?auth=2b5be10bd88a318a0b8ec6ce7ef244edd97abae983c9caa109bf498ecb3671ff&height=1005&width=1920&quality=80&smart=true",
+      "source": "Reuters",
+      "publishedAt": "2025-12-01T20:39:56.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.reuters.com/business/openai-buys-stake-thrive-holdings-push-ai-into-accounting-it-services-2025-12-01/",
+      "aiInsight": "这一新闻透露了OpenAI在扩展其人工智能应用领域的战略举措。从技术发展的角度看，OpenAI通过投资Thrive Holdings，正尝试将先进的人工智能技术引入更广泛的商业服务领域，特别是会计和IT服务，这标志着人工智能技术正在逐步渗透到更多传统行业，显示出其在解决复杂业务问题上的潜力。从行业影响的角度来看，这将促使相关行业加速数字化转型，提高效率和服务质量，同时也可能引发行业内部的整合与竞争。未来趋势方面，预计会有更多传统行业与人工智能技术结合，推动整个行业的创新和变革。此外，这也预示着AI技术的普及性和适用性将进一步增强，为企业和社会创造更多价值。"
+    },
+    {
       "id": "news_1764685895357_0",
       "title": "OpenAI收购Thrive Holdings股份，以推动人工智能应用于会计和IT服务领域",
       "summary": "OpenAI已收购私人 Equity 公司 Thrive Holdings 的股份，双方将合作将人工智能技术应用于会计和IT服务等领域。此次合作旨在推动人工智能在传统行业的应用，提高效率和创新能力。两家公司未透露具体交易细节，但表示将共同开发和推广人工智能解决方案，以满足市场需求。",
@@ -1012,28 +1000,28 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1764685892769_1",
+      "id": "news_1764689578396_1",
       "title": "CSU全球提供人工智能与机器学习学位",
-      "summary": "加州州立大学（CSU）推出全球范围内的人工智能与机器学习学位项目，旨在培养未来科技人才。尽管科技行业裁员引发对AI取代人类工作的担忧，CSU此举意在提升公众对AI技术的理解，培养相关领域的专业人才，以应对未来职场的变化。该项目将涵盖机器学习、数据挖掘、自然语言处理等多个方面，为学生提供全面的人工智能知识体系。",
-      "content": "最近有关裁员的报告，尤其是科技公司的裁员，引发了人们对人工智能对职场影响的猜测：高级计算技术是否会越来越多地取代工作岗位上的人类？凯蒂琳·麦科马克在思考这个问题时……",
+      "summary": "加州州立大学（CSU）推出全球范围内的人工智能与机器学习学位项目，旨在培养未来科技人才。尽管科技公司裁员引发对AI取代人类工作的担忧，但CSU此举意在提供专业技能，帮助学生适应智能化时代。该项目将涵盖机器学习、深度学习、自然语言处理等核心领域，为学生提供全面的人工智能知识体系。",
+      "content": "最近有关裁员的报道，尤其是科技公司的裁员，引发了人们对人工智能对职场影响的猜测：高级计算技术是否会越来越多地取代工作岗位上的人类？凯特琳·麦考密克在思考这个问题时……",
       "imageUrl": "https://www.denverpost.com/wp-content/uploads/2025/05/TDP-L-AIpolicereport052225-cha-205.jpg?w=1024&h=683",
       "source": "The Denver Post",
       "publishedAt": "2025-12-01T13:00:41.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.denverpost.com/2025/12/01/ai-artificial-intelligence-csu-graduate-program/",
-      "aiInsight": "这则新闻报道了CSU（可能是指加州州立大学）开设了人工智能与机器学习学位课程，这反映了教育领域对AI技术人才培养的重视。从技术发展角度看，AI与机器学习技术的普及和发展，不仅能够提升工作效率，还能创造出新的工作机会，尤其是在数据分析、自动化决策等领域。然而，正如新闻中提到的，AI也可能导致某些岗位的自动化，引发就业市场的变化。这要求教育体系和社会各界需要关注AI技术对就业的影响，加强职业培训和终身学习体系的建设，以适应技术进步带来的挑战。\n\n行业影响方面，AI教育的普及将促进AI技术在各行各业的应用，加速产业智能化进程。未来趋势上看，AI技术将持续创新，其应用将更加深入，人机协作将成为主流，AI将与各行业深度融合，赋能产业升级。同时，社会需要建立更加灵活的劳动力市场，帮助人们适应技术变革带来的就业结构变化。"
+      "aiInsight": "该新闻报道了CSU（Colorado State University）将提供人工智能与机器学习学位的消息，引发人们对人工智能技术对职场影响的讨论。从技术发展角度看，人工智能和机器学习领域的教育投入反映了其技术发展的成熟度和应用前景。从行业影响角度看，虽然有科技公司裁员的报道，但人工智能和机器学习人才的需求仍然旺盛，这表明这些技术在某些领域的应用可能替代部分重复性劳动，但同时也创造了新的就业机会，特别是在数据分析、算法开发等高级技术职位上。未来趋势上看，人工智能和机器学习将持续推动各行各业的优化和创新，对劳动力市场形成深远影响。因此，教育机构提供此类学位课程，有助于培养适应未来职场需求的复合型人才。"
     },
     {
-      "id": "news_1764685891068_2",
+      "id": "news_1764689575818_2",
       "title": "OpenAI 在 Thrive Holdings 的服务公司买家中持股",
-      "summary": "OpenAI成为Thrive Holdings的重要投资者，该公司旨在通过人工智能技术转型收购的服务提供商，包括会计公司等。OpenAI此举意在利用其在人工智能领域的技术优势，推动相关服务提供商的数字化转型和业务升级。Thrive Holdings计划通过整合和优化服务，提高效率并增强客户体验。",
+      "summary": "OpenAI成为Thrive Holdings的重要投资者，该公司旨在通过整合和引入人工智能技术，对会计等服务提供商进行转型。Thrive Holdings由Thrive Capital设立，计划收购并服务一系列专业服务公司，以实现业务增长和技术创新。OpenAI的参与将有助于推动这些企业在人工智能领域的应用和发展。",
       "content": "当 Thrive Capital 今年设立 Thrive Holdings 公司以收购和服务整合会计公司等服务提供商时，一个关键目标是通过注入人工智能来转型这些企业。",
       "imageUrl": "https://static01.nyt.com/images/2025/12/01/multimedia/01db-thriveopenai1-wlvc/30db-thriveopenai1-wlvc-facebookJumbo.jpg",
       "source": "The New York Times",
       "publishedAt": "2025-12-01T13:00:04.000Z",
       "category": "国际AI",
       "originalUrl": "https://www.nytimes.com/2025/12/01/business/dealbook/openai-thrive-holdings-ai.html",
-      "aiInsight": "这篇新闻展示了OpenAI在利用AI技术推动传统服务行业转型的最新动态。从技术发展角度看，这表明OpenAI不仅专注于研发AI技术，还积极寻求将其应用于实际商业场景中，特别是通过与Thrive Holdings的合作，将AI技术整合到会计等传统服务业中，以提升效率和用户体验。从行业影响来看，此举可能推动会计等行业更广泛地采用AI技术，加速数字化转型。未来趋势方面，随着AI技术的不断进步及其在更多行业的应用，传统服务业将面临更大变革，企业需要更加重视AI技术的整合与应用，以适应市场变化，提升竞争力。"
+      "aiInsight": "这项投资体现了OpenAI在推动AI技术应用方面的持续努力。从技术发展角度看，OpenAI的参与将加速AI技术在企业服务领域的落地和应用，尤其是通过智能化手段提升会计等行业的效率和准确性。从行业影响角度看，这可能引发会计服务行业的技术升级和模式变革，对传统服务提供商形成一定的挑战，同时也为潜在的AI技术提供商带来了新的市场机会。未来趋势方面，随着AI技术的深入应用，预计将有更多的传统服务行业加速数字化转型，AI技术的应用场景也将更加丰富和多样。"
     },
     {
       "id": "news_1764683172313_2",
@@ -1178,6 +1166,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/QrGb7ddAcEhFIkbWUh02?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1764689578202_3",
+      "title": "孙正义因出售英伟达股份以资助人工智能赌注而哭泣",
+      "summary": "软银集团创始人孙正义因出售英伟达股份而感到遗憾，表示如果软银有无限资金，他将不会抛售英伟达股票，而是继续支持其下一个人工智能投资，包括对OpenAI的大额投资。孙正义的言论突显了他在人工智能领域的坚定信念和资金需求之间的矛盾。",
+      "content": "软银集团创始人孙正义表示，如果他的公司有无限的资金来为其下一个人工智能投资提供资金，包括对OpenAI的大额投资，他不会抛售英伟达公司的股票。",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ie2.BFzQ5RKw/v1/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2025-12-01T09:57:21.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2025-12-01/softbank-s-son-cried-about-nvidia-stake-sale-to-fund-ai-bets",
+      "aiInsight": "这篇新闻反映了当前AI领域的一个重要趋势：巨额投资和资金管理的挑战。孙正义的言论揭示了在人工智能领域进行大规模投资的复杂性。软银集团作为一家全球领先的科技投资公司，其创始人对于AI技术的重视可见一斑。这不仅体现了AI技术的潜力和吸引力，也反映了AI投资的高风险性。英伟达作为AI芯片的主要供应商，在AI算力需求激增背景下，其股价表现强劲，但孙正义的举动也反映了资本市场对于AI投资的谨慎态度。从行业角度看，孙正义的言论可能会影响投资者和资本市场的看法，进而影响AI领域的整体融资环境。未来，随着技术进步和应用拓展，AI投资的规模和频次可能会进一步增加，但同时也需要更加精细的资金管理和风险控制。"
     },
     {
       "id": "news_1764685896561_3",
