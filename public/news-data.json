@@ -1,32 +1,8 @@
 {
   "success": true,
-  "timestamp": "2025-12-04T16:40:28.951Z",
-  "total": 143,
+  "timestamp": "2025-12-04T17:30:29.508Z",
+  "total": 142,
   "data": [
-    {
-      "id": "news_1764866414650_caae033a",
-      "title": "云计算一哥，给 Agentic AI 工程做“减法”",
-      "summary": "云计算一哥，给 Agentic AI 工程做“减法”",
-      "content": "云计算一哥，给 Agentic AI 工程做“减法”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-04T22:03:13.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/MdUKCLVDUH7VHrHG1Jtb?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764866416072_2ead22c5",
-      "title": "首页大翻新，Agent HQ 上线！回归微软后，GitHub 不再是你认识的 GitHub 了？",
-      "summary": "首页大翻新，Agent HQ 上线！回归微软后，GitHub 不再是你认识的 GitHub 了？",
-      "content": "首页大翻新，Agent HQ 上线！回归微软后，GitHub 不再是你认识的 GitHub 了？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-04T20:03:45.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/BiwhVvg8LV8GgHQW03UF?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
     {
       "id": "news_1764853289015_688758b9",
       "title": "re:Invent 2025 世界开发者说-DAY3 | 会中思考：我们应该怎样拥抱 Agentic AI",
@@ -38,6 +14,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/video/OYNhCQ80qYOFMquQLlOJ?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1764869418974_b5c0a056",
+      "title": "关键技术详解｜腾讯一念 LLM 分布式推理优化实践",
+      "summary": "关键技术详解｜腾讯一念 LLM 分布式推理优化实践",
+      "content": "关键技术详解｜腾讯一念 LLM 分布式推理优化实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-04T19:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/L9ZC91xqcXm9qfLpxSRN?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1764866427869_13f6dfc3",
@@ -64,28 +52,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1764866419346_133db532",
-      "title": "谷歌全新推出的LiteRT加速器为骁龙平台安卓设备的AI工作负载注入强劲动力",
-      "summary": "谷歌全新推出的LiteRT加速器为骁龙平台安卓设备的AI工作负载注入强劲动力",
-      "content": "谷歌全新推出的LiteRT加速器为骁龙平台安卓设备的AI工作负载注入强劲动力",
+      "id": "news_1764869420285_25be85b0",
+      "title": "从补全到 Agentic Edit：Trae 在代码编辑上的落地与进化",
+      "summary": "从补全到 Agentic Edit：Trae 在代码编辑上的落地与进化",
+      "content": "从补全到 Agentic Edit：Trae 在代码编辑上的落地与进化",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-12-04T14:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/muCJpeF9WrIpu4vO3Pv2?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1764866420684_78bc1203",
-      "title": "烧钱，能解决 AI 存储的焦虑吗？",
-      "summary": "烧钱，能解决 AI 存储的焦虑吗？",
-      "content": "烧钱，能解决 AI 存储的焦虑吗？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-04T13:55:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/2PGXMs2e1JPiO10epV0h?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2025-12-04T14:58:08.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/ep5bS0fMyaLbANwhohoE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1764858673964_981edffc",
@@ -196,18 +172,6 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1764866421702_34506a8f",
-      "title": "AI 早已不是远方的科技，而是触手可及的 “在手之物”",
-      "summary": "AI 早已不是远方的科技，而是触手可及的 “在手之物”",
-      "content": "AI 早已不是远方的科技，而是触手可及的 “在手之物”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-04T12:05:20.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/8kzetKHNAy0UN1iDkD2I?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1764853270073_5c703e6f",
       "title": "教培机构卷AI学习机，真AI还是伪智能？",
       "summary": "教培机构卷AI学习机，真AI还是伪智能？",
@@ -268,6 +232,18 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1764869424083_60a0dd08",
+      "title": "Private AI Compute通过硬件隔离与临时数据设计实现谷歌推理",
+      "summary": "Private AI Compute通过硬件隔离与临时数据设计实现谷歌推理",
+      "content": "Private AI Compute通过硬件隔离与临时数据设计实现谷歌推理",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-04T10:57:54.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/OYVo4fpuBIcxHiC1Bi1m?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1764847663207_a86b72d7",
       "title": "三条岔路，一场革命：豆包、DeepSeek、千问的终局博弈",
       "summary": "三条岔路，一场革命：豆包、DeepSeek、千问的终局博弈",
@@ -313,6 +289,18 @@
       "publishedAt": "2025-12-04T10:45:46.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/7795304.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1764869425171_670db471",
+      "title": "模型驱动的用户研究 Agent：真实业务的实践与挑战 ｜AICon北京",
+      "summary": "模型驱动的用户研究 Agent：真实业务的实践与挑战 ｜AICon北京",
+      "content": "模型驱动的用户研究 Agent：真实业务的实践与挑战 ｜AICon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-04T10:18:01.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/JrMk88RKd8oLj1BKHMMA?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -808,16 +796,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1764866377953_0",
+      "id": "news_1764869369919_0",
       "title": "纽约法官命令OpenAI交出ChatGPT对话记录，新闻机构在版权案中获胜",
-      "summary": "纽约法官命令OpenAI交出数百万条ChatGPT对话记录，这些记录涉及一起重大版权侵权案。法官要求OpenAI向《纽约时报》等新闻机构提供匿名的对话记录，以帮助解决版权纠纷。此次命令将有助于揭示ChatGPT在处理用户生成内容时可能存在的版权问题。",
-      "content": "曼哈顿地区法官下令OpenAI向《纽约时报》和其他新闻机构提供数百万条匿名的ChatGPT与其用户之间的对话记录，这些记录涉及一起重大的持续中的版权侵权案。 在周三公布的九页命令中，曼哈顿地区法官...",
+      "summary": "纽约法官命令OpenAI交出数百万条ChatGPT对话记录，这些记录来自《纽约时报》等新闻机构涉及的一起大规模版权侵权诉讼案。法官要求OpenAI提供匿名的对话数据，以帮助证明新闻机构在使用ChatGPT生成的内容时是否存在版权侵权行为。此命令旨在为案件提供更有力的证据支持。",
+      "content": "曼哈顿的一名法官命令OpenAI向《纽约时报》和其他新闻机构提供数百万条匿名的ChatGPT与其用户之间的对话记录，这起案件是关于一起大规模的持续中的版权侵权诉讼。在周三公布的九页命令中……",
       "imageUrl": "https://www.pressdemocrat.com/wp-content/uploads/2025/12/shutterstock_2429174709.jpg?w=1024&h=651",
       "source": "Santa Rosa Press Democrat",
       "publishedAt": "2025-12-03T22:26:15.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.pressdemocrat.com/2025/12/03/ny-judge-orders-openai-to-hand-over-chatgpt-conversations-in-win-for-newspapers-in-copyright-case/",
-      "aiInsight": "这项裁决反映了司法系统对人工智能生成内容版权问题的重视。从技术发展角度看，ChatGPT的对话记录被要求提供，表明司法系统可能需要更先进的技术手段来分析和理解AI生成的内容。从行业影响来看，这一裁决可能会促使其他新闻机构和媒体公司对AI生成内容的版权问题进行更深入的研究和采取相应的保护措施。未来趋势方面，随着AI技术的不断发展，法律领域可能需要制定更多关于AI生成内容版权的明确规定，以适应新技术带来的挑战。同时，这也将推动相关技术公司加强对其产品的审查机制，确保其内容符合版权法规的要求。"
+      "aiInsight": "从技术发展的角度看，这一事件反映了司法系统对人工智能技术应用的关注和审视。OpenAI被要求提供ChatGPT的对话记录，这不仅涉及到数据隐私的问题，还可能影响到未来AI技术的发展方向和透明度要求。从行业影响看，这一判决可能会影响其他新闻机构及版权持有者与ChatGPT等AI工具的互动方式，甚至可能引发关于AI生成内容版权归属的广泛讨论。未来，随着AI技术的进一步普及，类似的数据访问和隐私保护问题将更加凸显，需建立更为完善的法律框架和行业规范来平衡技术进步与个人隐私保护之间的关系。此外，这起案件也可能促使OpenAI等公司更加重视数据安全和隐私保护，推动AI技术的负责任发展。"
     },
     {
       "id": "news_1764844404815_0",
