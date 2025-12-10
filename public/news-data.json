@@ -1,7 +1,7 @@
 {
   "success": true,
-  "timestamp": "2025-12-10T05:30:48.418Z",
-  "total": 129,
+  "timestamp": "2025-12-10T06:45:29.670Z",
+  "total": 131,
   "data": [
     {
       "id": "news_1765344631050_8c09e9cc",
@@ -16,15 +16,63 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1765344632725_626e6e12",
-      "title": "用友网络副总裁罗小江确认出席AICon北京站，分享构建可执行的 AI 驱动决策系统",
-      "summary": "用友网络副总裁罗小江确认出席AICon北京站，分享构建可执行的 AI 驱动决策系统",
-      "content": "用友网络副总裁罗小江确认出席AICon北京站，分享构建可执行的 AI 驱动决策系统",
+      "id": "news_1765349128285_61d058b8",
+      "title": "科学发现要变天？北大团队让 AI 自主发现“牛顿第二定律”",
+      "summary": "IT之家 12 月 10 日消息，当下，AI 技术辅助科研已经屡见不鲜；但是，AI 能否自主发现科学理论呢？",
+      "content": "IT之家 12 月 10 日消息，当下，AI 技术辅助科研已经屡见不鲜；但是，AI 能否自主发现科学理论呢？据北京大学官方微信公众号消息，三百多年前，牛顿整理并发展前人成果，汇总发表为《自然哲学的数学原理》，系统阐述了经典力学的基本原理，提出“F=ma”；近期，一个北大课题组创造了“AI 学者”，并引导它依靠自主学习，再次发现了这一力学基本定律。 2025 年 11 月 14 日，《自然》（Nature）新闻栏目以《一个中国人工智能模型自主学到了基础物理学 —— 它能发现什么》（“A Chinese AI model taught itself basic physics — what discoveries could it make?”）为题，长篇专题报道了北京大学物理学院马滟青教授课题组在人工智能驱动科学发现领域取得的新进展。 报道截图 “AI-Newton”的重要一步：实验数据 + 合情推理 → 自主发现科学理论 当前的人工智能大模型虽然能够可靠地识别数据模式并进行预测，但难以利用这些数据提出具有简洁性和普适性的可解释科学原理，一个 AI 模型可以被训练来精确预测行星的运行轨迹，但它很可能无法自行归纳出背后的万有引力定律。 马滟青课题组实现了一个重要的突破。他们开发了名为“AI-牛顿”（AI-Newton）的系统，在基于涉及小球、弹簧等物体的 46 个物理实验中，它如同人类科学家一样，从基础概念逐步构建复杂理论，从带噪声模拟数据中，最终自主“发现”了力、质量和加速度等重要概念，以及它们之间构成的著名物理定律 —— 牛顿第二定律（F=ma）。 该系统能够从诸多实验的原始数据中自主发掘物理定律，无需人工监督或先验物理知识，这意味着 AI 向自主科研发现迈出了重要一步。 论文截图 “AI-牛顿”并非一次性完成任务，而是采用“大胆猜想、小心求证”的合情推理策略（plausible reasoning），通过逐步构建概念和规律的知识库，模仿人类科学家的认知过程，自主建立了完整的科学理论。 实验库中预先设定了存储物理实验及对应的数据模拟生成器。理论库存储自主发现的知识，采用以概念为核心的三层架构（符号、概念与定律）。 论文截图 该系统突破了神经网络系统的算法黑箱，综合符号回归模型与合情推理的优势，构建出自主发现工作流。该工作流能持续从实验数据中提炼知识，并将其表述为物理概念与定律，既保留了数学公式的可解释性和逻辑可回溯性，又提升了数据模式识别的效率与精度。 哈佛大学的计算机专家 Keyon Vafa 认为，“该技术的编程方式鼓励推导重要的概念，是一种有前景的科学发现方法。” “AI+ 科学”研究新范式：从科研工具，到“超级大脑延伸” “AI-牛顿”所体现的迭代式学习和知识构建过程，既保留了人类的理论概括能力，又克服了研究周期长的局限，可以助力弥补人类科学研究的短板。 本次尝试不仅突破了先前研究中的部分局限，也展现出显著的扩展潜力，有望在助推前沿科学发现的同时，为迈向通用人工智能开辟可行路径。当 AI 不仅能模拟数据，还能寻找规律，科学家将得以从繁琐的试错中解放，聚焦于更富创造性的思考。 马滟青在采访中表示，他们计划将“AI-牛顿”应用于更具挑战性的领域，例如尝试理解和发现量子理论中的复杂规律。 马滟青课题组的方尤乐（北京大学物理学院 2024 级在读博士研究生）、见东山（北京大学物理学院 2022 级在读博士研究生）和李想（北京大学物理学院 2025 届博士毕业生，现为北京大学博士后）直接参与了文中所述研究，为取得新进展作出重要贡献。 此项研究得到了国家自然科学基金及北京大学高性能计算平台的大力支持。 报道原文： https://www.nature.com/articles/d41586-025-03659-4 论文原文： https://arxiv.org/pdf/2504.01538",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/f50ba522-f6e8-47dc-acc7-9e9356f9caa4.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-12-10T06:45:21.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/903/885.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1765349128588_ff54572f",
+      "title": "腾讯混元大模型品牌 Hunyuan 更名为 HY",
+      "summary": "IT之家 12 月 10 日消息，腾讯自研 AI 大模型混元 2.0（Tencent HY 2.0）于 12 月 5 日正式发布，包括 Tencent HY 2.0 Think 和 Tencent HY 2.0 Instruct。",
+      "content": "IT之家 12 月 10 日消息，腾讯自研 AI 大模型混元 2.0（Tencent HY 2.0）于 12 月 5 日正式发布，包括 Tencent HY 2.0 Think 和 Tencent HY 2.0 Instruct。 腾讯随后于 12 月 9 日在海外社交平台宣布，自研大模型品牌“Tencent Hunyuan”正式更名为“Tencent HY”。 此次调整聚焦传播效率优化与全球化适配，HY 作为技术品牌核心标识，未来有望通过“HY-1”“HY-Pro”等结构化命名清晰传递代际演进路径，同时弱化中文文化属性以适配国际市场。 腾讯表示，HY 2.0 采用混合专家（MoE）架构，总参数 406B，激活参数 32B，支持 256K 上下文窗口，推理能力与效率“居国内顶尖行列”，且在文本创作与复杂指令遵循等实用场景上表现突出。 IT之家从腾讯混元公告获悉，作为腾讯自研的通用大模型，HY 2.0 仍在持续进化中，接下来会在代码、智能体、个性化风格、长程记忆等方向迭代，全面提升模型在实际应用场景中的表现，相关技术和模型也将会通过开源的形式向社区开放。 目前，HY 2.0 已经率先在元宝和 ima 等腾讯原生 AI 应用接入，并在腾讯云上线 API，用户可直接体验或接入部署。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/cc7e2849-34ac-4820-b768-bbeff7f63e77.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-12-10T06:43:38.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/903/879.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1765349081538_12b4ae20",
+      "title": "首个由AI开发的药物或许即将面世，众多候选中，抗体一骑绝尘",
+      "summary": "首个由AI开发的药物或许即将面世，众多候选中，抗体一骑绝尘",
+      "content": "首个由AI开发的药物或许即将面世，众多候选中，抗体一骑绝尘",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-10T11:03:01.000Z",
+      "source": "机器之心",
+      "publishedAt": "2025-12-10T06:08:34.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/uOK48Yft02btM0yAqwrx?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-10-8",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1765349128667_a9d57311",
+      "title": "海盗船推出 FRAME 4000D LCD RS ARGB 机箱，预装 14.5 英寸 XENEON EDGE 触屏",
+      "summary": "IT之家 12 月 10 日消息，CORSAIR 海盗船美国加州当地时间昨日宣布推出 FRAME 4000D LCD RS ARGB 机箱。该型号基于原版 FRAME 4000D 升级而来，在左侧添加了 XENEON EDGE 副屏。",
+      "content": "IT之家 12 月 10 日消息，CORSAIR 海盗船美国加州当地时间昨日宣布推出 FRAME 4000D LCD RS ARGB 机箱。该型号基于原版 FRAME 4000D 升级而来，在左侧添加了 XENEON EDGE 副屏。 相较原版 FRAME 4000D 机箱，FRAME 4000D LCD RS ARGB 对左侧进行了调整，将电源仓左侧的网眼面板改为一块支持触控的 14.5 英寸 2560×720 60Hz IPS LCD 副屏模块。 此外，这款机箱预装了四颗 RS120 PWM ARGB 风扇，较常规的 FRAME 4000D RS ARGB 多出一颗排气风扇。 海盗船 FRAME 4000D LCD RS ARGB 机箱售价 399.99 美元（IT之家注：现汇率约合 2829 元人民币），而 FRAME 4000D RS ARGB 机箱和 XENEON EDGE 副屏两款单品的总价为 374.98 美元。 海盗船此次还推出了面向常规 FRAME 4000D / 5000D 机箱的 LCD 安装套件（不含 XENEON EDGE），定价为 39.99 / 49.99 美元（现汇率约合 282.8 / 353.5 元人民币）。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/c6c99397-841d-414d-9c55-83fa2c2a99f8.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-12-10T05:58:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/903/868.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1765349082238_23185e88",
+      "title": "一手实测 | 智谱AutoGLM重磅开源： AI手机的「安卓时刻」正式到来",
+      "summary": "一手实测 | 智谱AutoGLM重磅开源： AI手机的「安卓时刻」正式到来",
+      "content": "一手实测 | 智谱AutoGLM重磅开源： AI手机的「安卓时刻」正式到来",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2025-12-10T05:35:01.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-10-6",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -35,7 +83,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "机器之心",
       "publishedAt": "2025-12-10T05:28:30.000Z",
-      "category": "国内AI",
+      "category": "科技新闻",
       "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-10-5",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
@@ -256,39 +304,39 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1765344634708_2f215fbf",
-      "title": "模力工场 023 周 AI 应用榜：从旅行生活到 AI 基建，“Agent 时代拼图”再添新砖",
-      "summary": "模力工场 023 周 AI 应用榜：从旅行生活到 AI 基建，“Agent 时代拼图”再添新砖",
-      "content": "模力工场 023 周 AI 应用榜：从旅行生活到 AI 基建，“Agent 时代拼图”再添新砖",
+      "id": "news_1765349119057_327e4bc8",
+      "title": "星巴克中国技术团队开始用 Agentic AI 改变零售（下） ｜行知数字中国",
+      "summary": "星巴克中国技术团队开始用 Agentic AI 改变零售（下） ｜行知数字中国",
+      "content": "星巴克中国技术团队开始用 Agentic AI 改变零售（下） ｜行知数字中国",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-12-09T20:00:00.000Z",
+      "publishedAt": "2025-12-09T22:00:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/VE0IJPJ0mHzs09WKHMY6?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/video/KY4jVrIIIFhA56aCefp0?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1765344637954_2ff7de87",
-      "title": "AI Agent如何重构企业核心系统？深度拆解Agent、多模态与组织变革的实战路径｜AICon",
-      "summary": "AI Agent如何重构企业核心系统？深度拆解Agent、多模态与组织变革的实战路径｜AICon",
-      "content": "AI Agent如何重构企业核心系统？深度拆解Agent、多模态与组织变革的实战路径｜AICon",
+      "id": "news_1765349120474_83ae1476",
+      "title": "请AI做5G“监理”，为质检工程配置“智慧大脑”",
+      "summary": "请AI做5G“监理”，为质检工程配置“智慧大脑”",
+      "content": "请AI做5G“监理”，为质检工程配置“智慧大脑”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-12-09T17:42:56.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/CmhC4KTA3SdqzeEAiguS?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2025-12-09T18:59:57.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/g4669vEU2JDaDPTkFarV?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1765344638699_1d493d4a",
-      "title": "星巴克中国技术团队开始用 Agentic AI 改变零售（上） ｜行知数字中国",
-      "summary": "星巴克中国技术团队开始用 Agentic AI 改变零售（上） ｜行知数字中国",
-      "content": "星巴克中国技术团队开始用 Agentic AI 改变零售（上） ｜行知数字中国",
+      "id": "news_1765349121209_3e5311c0",
+      "title": "七大平台集体亮相，300+款智能体“即取即用”！中关村科金公开企业级智能体落地路线图",
+      "summary": "七大平台集体亮相，300+款智能体“即取即用”！中关村科金公开企业级智能体落地路线图",
+      "content": "七大平台集体亮相，300+款智能体“即取即用”！中关村科金公开企业级智能体落地路线图",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-12-09T16:51:17.000Z",
+      "publishedAt": "2025-12-09T18:44:54.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/idiYyb7MOGo9SrP5ruga?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/ERu9OPHCZzZpDcRfS0uJ?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -316,16 +364,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1765344641456_c318787b",
-      "title": "刚刚，DeepSeek梁文锋入选Nature年度十大科学人物：被誉为“科技颠覆者”！",
-      "summary": "刚刚，DeepSeek梁文锋入选Nature年度十大科学人物：被誉为“科技颠覆者”！",
-      "content": "刚刚，DeepSeek梁文锋入选Nature年度十大科学人物：被誉为“科技颠覆者”！",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-09T15:43:01.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/TSFyx0djS4RbQJVXeEty?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1765349076401_0",
+      "title": "《人工智能帝国》揭开了OpenAI的秘密",
+      "summary": "《人工智能帝国》一书揭示了OpenAI的运作秘密。作者Karen Hao通过采访OpenAI高层、科学家和员工，探讨了AI的科学发现潜力、环境影响以及创造与人类智能相当的机器的争议性追求。本书被列入2025年最佳非虚构作品榜单，为读者呈现了AI未来的可能性和挑战。",
+      "content": "科技记者Karen Hao自2018年起就开始报道人工智能领域，在ChatGPT推出之前就已经开始了这项工作，并且是少数几位能够进入聊天机器人OpenAI创建者内部世界进行报道的记者之一。在她的著作《人工智能帝国》中，Hao...",
+      "imageUrl": "https://static.scientificamerican.com/dam/m/21c735187f7fb7f3/original/books2025-Q-A-hao.jpg?m=1765291272.824&w=1200",
+      "source": "Scientific American",
+      "publishedAt": "2025-12-09T15:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.scientificamerican.com/article/openais-secrets-are-revealed-in-empire-of-ai/",
+      "aiInsight": "《人工智能帝国》的出版为公众深入了解OpenAI及其背后的秘密提供了宝贵的视角。从技术发展角度来看，这本书揭示了OpenAI如何在生成式AI领域取得突破，尤其是ChatGPT的推出，标志着语言模型技术的重大进展。从行业影响来看，ChatGPT不仅改变了人们使用AI的方式，也引发了对AI伦理、隐私和安全问题的广泛讨论，促使科技公司和监管机构加强相关领域的研究和监管。未来趋势方面，随着AI技术的进一步发展，我们可能会看到更多创新的应用场景出现，同时也需要更加注重技术的负责任使用，确保AI的健康发展。这本书为我们提供了深度洞察，有助于我们更好地理解AI领域的复杂性及其对社会的深远影响。"
     },
     {
       "id": "news_1765344601270_0",
@@ -424,16 +472,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1765344598540_1",
+      "id": "news_1765349074884_1",
       "title": "投资者、企业和公众对人工智能的看法",
-      "summary": "一份报告显示，尽管企业领导者和投资者对人工智能提升生产率、盈利能力和股东回报充满信心，普通公众对此仍持怀疑态度。该研究揭示了人工智能领域存在的认知差异，强调了加强公众教育和沟通的重要性，以促进更广泛的社会接受度和参与度。",
-      "content": "企业领导者和投资者对人工智能提升工人生产率、盈利能力和股东回报的潜力充满乐观情绪。 然而，普通公众对此仍持怀疑态度。 据一份报告称……",
+      "summary": "该报告指出，尽管企业领导者和投资者对人工智能提升生产效率和盈利能力充满信心，但普通公众对此仍持怀疑态度。这份报告揭示了人工智能领域存在的认知差异，强调了弥合公众与企业界在人工智能潜力认知上的鸿沟的重要性。",
+      "content": "企业领导者和投资者对人工智能提升工人生产效率、盈利能力以及股东回报的潜力充满乐观态度。 然而，普通公众对此仍持怀疑态度。 据一份报告称……",
       "imageUrl": "https://image.cnbcfm.com/api/v1/image/108227989-1763533629489-gettyimages-2242189230-20090101251022-99-402650.jpeg?v=1765217647&w=1920&h=1080",
       "source": "CNBC",
       "publishedAt": "2025-12-09T11:41:33.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.cnbc.com/2025/12/09/just-capital-survey-investor-corporate-and-public-sentiments-on-ai-.html",
-      "aiInsight": "这篇新闻揭示了不同利益相关者对人工智能不同看法的现状，反映了技术发展与社会接受度之间的差异。从技术发展角度看，人工智能技术正在不断进步，特别是在提升生产率、优化决策等方面展现出巨大潜力。企业领导者和投资者的乐观态度反映了对AI技术潜力的认可和对未来收益的期待。然而，普通公众的怀疑态度可能源于对隐私、安全、失业等风险的担忧。这种差异预示着未来需要加强公众教育和技术伦理建设，以促进更广泛的社会接受度。从行业影响看，短期内AI可能加剧行业之间的竞争格局，但长远来看，将促进产业转型和升级。未来趋势方面，随着技术成熟和社会认知的提升，AI将在更多领域发挥重要作用，同时呼吁构建更加公平、透明的AI生态系统。"
+      "aiInsight": "这份新闻反映了当前人工智能技术发展在不同群体中的认知差异。从技术发展的角度看，人工智能已在多个行业展现出显著的提升生产力和经济效益的能力，这表明AI技术在实际应用中取得了重要进展。然而，公众的疑虑反映出教育普及和技术透明度的不足，这也是未来技术推广需要解决的问题。\n\n行业影响方面，尽管企业领导者和投资者对AI抱有积极预期，但在实际应用中仍需关注伦理、隐私和就业变化等社会影响。企业应当加强与公众的沟通，提高技术透明度，以减轻公众的担忧。\n\n未来趋势上，随着AI技术的进一步成熟和普及，预计企业将更加重视AI的长期社会效益，推动公众认知的转变。同时，政府和行业组织应加大AI伦理和法规的制定与执行力度，确保技术健康发展。公众认知的提升也将促进AI技术更广泛的应用，推动各行业的数字化转型。"
     },
     {
       "id": "news_1765341698311_1",
@@ -1024,6 +1072,18 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1765349075937_2",
+      "title": "祖先血统：人工智能时代的滴血规则",
+      "summary": "该文章探讨了人工智能时代种族和身份的新挑战。尽管AI旨在消除人类偏见，但算法却在重新定义种族等级，并在数字领域再现旧有偏见。文章指出，尽管计算机科学家们正在努力设计公平的机器学习系统，但背后仍存在美国数百年来对种族和纯正性的痴迷。这引发了关于如何在数据驱动技术中确保公平性的广泛讨论。",
+      "content": "由客座专栏作家卡罗琳·哈利伯顿·卡特博士撰文 探索种族、身份与机器逻辑的碰撞——数据驱动的技术如何以数字形式重塑旧的种族等级制度。人工智能（AI）本应使我们免受…… [13779字节]",
+      "imageUrl": "https://atlantadailyworld.com/wp-content/uploads/sites/5/2025/12/Unmasking-AI.jpg",
+      "source": "Atlanta Daily World",
+      "publishedAt": "2025-12-08T17:29:25.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://atlantadailyworld.com/2025/12/08/ancestral-bloodlines-the-one-drop-rule-in-the-age-of-artificial-intelligence/",
+      "aiInsight": "这篇新闻探讨了人工智能技术在种族和社会身份识别领域的应用及其潜在的负面影响，这是一个值得关注的话题。从技术发展的角度来看，AI技术的进步正在推动生物识别、基因分析等领域的革新，使得基于血液或DNA的信息可以被更精确地采集和分析。然而，这种技术的发展也可能加剧现有的社会不平等，因为它可能被用于强化或重新构建种族和社会阶层的概念。\n\n从行业影响角度看，尽管AI技术能够提供精准的个人化服务和健康诊断，但如果数据收集和分析过程中存在偏见，可能会进一步固化或放大社会中存在的种族歧视和偏见。因此，如何确保AI系统的设计和应用过程中尽量减少偏见，是行业需要重点关注的问题。\n\n未来趋势方面，随着AI技术的不断成熟，我们预计将在医疗、司法、教育等多个领域看到更多应用。但是，为了确保这些技术的发展能够促进社会进步而非社会分裂，必须加强伦理指导原则，确保技术使用的公平性和包容性。同时，提高公众对AI技术及其潜在偏见的认识也是非常重要的，这样才能促进社会对AI技术负责任地使用达成共识。"
+    },
+    {
       "id": "news_1765344599790_2",
       "title": "祖传血统：人工智能时代的滴血规则",
       "summary": "该文章探讨了人工智能时代种族和身份的新规则。尽管AI旨在消除人类偏见，但算法却在重新定义种族等级，并在数字领域再现旧的种族分层。文章指出，尽管计算机科学家们正在努力设计公平的机器学习系统，但背后仍存在美国数百年来对种族和纯正性的痴迷。这表明，即使在技术高度发达的今天，种族问题仍然根深蒂固。",
@@ -1216,16 +1276,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1765344597255_3",
+      "id": "news_1765349076844_3",
       "title": "OpenAI 发现人工智能平均每天为工人节省近一小时时间",
-      "summary": "OpenAI发布的一项大型调查结果显示，其人工智能产品每天为工人在专业任务上节省了约40至60分钟的时间，相当于每周为工人节省近4小时。尽管人工智能的经济益处仍存在争议，但该调查表明，人工智能正在为工人带来实际的时间和效率提升。",
-      "content": "根据ChatGPT的制造商进行的一项大型调查显示，OpenAI的人工智能产品每天为工人在专业任务上节省了大约40到60分钟的时间，尽管人们对人工智能的经济益处仍存有疑虑。",
+      "summary": "OpenAI发布的一项大型调查结果显示，其人工智能产品每天可为工人节省约40至60分钟的专业时间。尽管人们对人工智能的经济益处仍存疑虑，但该研究证明了人工智能在提高工作效率方面的潜力。这一发现表明，人工智能正在逐步改变工作方式，为工人带来便利。",
+      "content": "根据ChatGPT的制造商进行的一项大型调查显示，OpenAI的人工智能产品每天为工人的专业任务节省了大约40到60分钟的时间，尽管人们对人工智能的经济益处仍存有疑虑。",
       "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iEaq.nzRKi2g/v1/1200x792.jpg",
       "source": "Bloomberg",
       "publishedAt": "2025-12-08T12:00:02.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.bloomberg.com/news/articles/2025-12-08/openai-finds-ai-saves-workers-nearly-an-hour-a-day-on-average",
-      "aiInsight": "这项研究表明，OpenAI的人工智能产品在提升工作效率方面发挥了重要作用。从技术发展角度来看，这表明自然语言处理和机器学习技术正日益成熟，能够更精准地理解和执行复杂任务。从行业影响来看，这一发现预示着未来工作流程将进一步自动化，员工将从繁琐的工作中解脱出来，转向更高层次的任务，如创新和决策制定，这将推动整个行业的转型升级。从未来趋势来看，随着AI技术的不断进步，其在各行业的应用将更加广泛，不仅能进一步提高效率，还能促进知识型工作的普及，同时，企业和个人也需要关注由此带来的就业结构变化和技能需求升级。"
+      "aiInsight": "这项研究揭示了人工智能在提高工作效率上的巨大潜力。从技术发展角度看，OpenAI的成果表明自然语言处理和自动化技术正在不断进步，能够更准确、更高效地完成复杂任务，为用户节省时间。行业影响方面，这意味着AI技术正在逐渐渗透到各行各业，通过自动化部分工作流程，可以显著提高生产力和创新能力。未来趋势上，随着AI技术的进一步发展和普及，预计将会出现更多的AI应用案例，推动企业优化流程、减少人力成本，从而提升竞争力。同时，也需要关注AI技术带来的就业结构变化，以及如何平衡技术创新与就业保障之间的关系。"
     },
     {
       "id": "news_1765294373252_1",
@@ -1513,42 +1573,6 @@
       "publishedAt": "2025-12-08T06:51:31.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-08-4",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1765176441739_45b2d583",
-      "title": "Hinton Says AI is Already Conscious, Flawed Models Make AI Believe They are Not",
-      "summary": "Hinton Says AI is Already Conscious, Flawed Models Make AI Believe They are Not...",
-      "content": "Hinton Says AI is Already Conscious, Flawed Models Make AI Believe They are Not",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-12-08T06:17:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7800865.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1765176464786_989a27a8",
-      "title": "Gartner 调查：仅 20% 客服支持主管表示因 AI 削减团队规模",
-      "summary": "IT之家 12 月 8 日消息，研调机构 Gartner 在当地时间 12 月 2 日发布的新闻稿中表示，根据其今年 10 月对 321 名客户服务和支持主管的调查，仅有 20% 的主管表示出现了因为 AI 而削减客服人员数量的情况。 客户服务通常被认为是最有可能用 AI 取代真人的领域之一。",
-      "content": "IT之家 12 月 8 日消息，研调机构 Gartner 在当地时间 12 月 2 日发布的新闻稿中表示，根据其今年 10 月对 321 名客户服务和支持主管的调查，仅有 20% 的主管表示出现了因为 AI 而削减客服人员数量的情况。 客户服务通常被认为是最有可能用 AI 取代真人的领域之一。不过从调查数据来看，至少在 AI 全面商用化的初期，AI 整体而言起到的更多是增强而非代替的作用。 图源：Pexels 在受访的客服支持主管中，有 55% 表示 AI 的存在使得该部门以大致相同的人力资源水平服务了更大规模的客户，42% 表示正在招募专业人才（包括 AI 战略师、对话式 AI 设计师、自动化分析师等）以支持 AI 的部署和管理。 Gartner 预计，到 2027 年将有约半数的组织放弃“无人员纯 AI”的客服愿景计划。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/5b804fba-f745-45f0-9d60-18d34c8a1ad5.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-12-08T05:52:44.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/903/275.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1765176444592_2cf0826d",
-      "title": "\"Godfather of AI\" Criticizes Elon Musk's “Irresponsible” Behaviour in AI Sector",
-      "summary": "\"And if you don't do what Trump wants, he penalizes your company,\" said Geoffrey Hinton, when talking about a shift in the political system in which U...",
-      "content": "\"And if you don't do what Trump wants, he penalizes your company,\" said Geoffrey Hinton, when talking about a shift in the political system in which U.S. AI companies are operating.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-12-08T05:37:03.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7800773.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
