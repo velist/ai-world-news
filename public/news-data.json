@@ -1,19 +1,19 @@
 {
   "success": true,
-  "timestamp": "2025-12-15T09:41:23.862Z",
-  "total": 74,
+  "timestamp": "2025-12-15T10:37:11.644Z",
+  "total": 81,
   "data": [
     {
-      "id": "news_1765791673943_cf53f6c9",
-      "title": "又一数据分析智能体重磅开源，现已登顶BIRD！非专业人员也能轻松查阅和分析数据",
-      "summary": "又一数据分析智能体重磅开源，现已登顶BIRD！非专业人员也能轻松查阅和分析数据",
-      "content": "又一数据分析智能体重磅开源，现已登顶BIRD！非专业人员也能轻松查阅和分析数据",
+      "id": "news_1765795021683_b26e8ba5",
+      "title": "基于 SGlang RBG + Mooncake 打造生产级云原生大模型推理平台",
+      "summary": "基于 SGlang RBG + Mooncake 打造生产级云原生大模型推理平台",
+      "content": "基于 SGlang RBG + Mooncake 打造生产级云原生大模型推理平台",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-12-15T17:01:03.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/KNVHhmLmEpNP5UYzcNEN?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2025-12-15T13:52:54.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/0F34J1S25wqi6MIB1utv?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1765781317875_df548b27",
@@ -28,18 +28,6 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1765791677071_00a52f15",
-      "title": "InfoQ Dev Summit 慕尼黑站：五个常见的 AI 安全误区被打破",
-      "summary": "InfoQ Dev Summit 慕尼黑站：五个常见的 AI 安全误区被打破",
-      "content": "InfoQ Dev Summit 慕尼黑站：五个常见的 AI 安全误区被打破",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-15T13:20:45.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/QtaIhovdE4crqmBDsI9K?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1765776856789_a48a67e4",
       "title": "Snowflake 模型注册表——在 Snowflake 数据云与 AI 云自建部署 LLM 的便捷工具 | 技术实践",
       "summary": "Snowflake 模型注册表——在 Snowflake 数据云与 AI 云自建部署 LLM 的便捷工具 | 技术实践...",
@@ -50,6 +38,78 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/mqW6y1rwUyBYgKPm9fxD?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1765795024981_0cb20cb1",
+      "title": "tRPC-Agent：腾讯多智能体框架的架构设计与业务实践 ｜AICon 北京",
+      "summary": "tRPC-Agent：腾讯多智能体框架的架构设计与业务实践 ｜AICon 北京",
+      "content": "tRPC-Agent：腾讯多智能体框架的架构设计与业务实践 ｜AICon 北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-15T12:03:22.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/dchtAVelmgDT52BORFhc?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1765794997206_868f4af1",
+      "title": "AAAI 2026｜视频大语言模型到底可不可信？23款主流模型全面测评来了",
+      "summary": "AAAI 2026｜视频大语言模型到底可不可信？23款主流模型全面测评来了",
+      "content": "AAAI 2026｜视频大语言模型到底可不可信？23款主流模型全面测评来了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2025-12-15T10:36:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-15-11",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1765795003560_8333677a",
+      "title": "模塑科技：与国内某机器人公司签订了零部件采购框架协议",
+      "summary": "36氪获悉，模塑科技公告，与国内某机器人公司签订了零部件采购框架协议，并于近日正式接到客户发出的人形机器人外覆盖件小批量采购订单。本次订单的获得是双方战略合作的实质性落地举措，标志着公司业务正式向人形机器人产业拓展。",
+      "content": "36氪获悉，模塑科技公告，与国内某机器人公司签订了零部件采购框架协议，并于近日正式接到客户发出的人形机器人外覆盖件小批量采购订单。本次订单的获得是双方战略合作的实质性落地举措，标志着公司业务正式向人形机器人产业拓展。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2025-12-15T10:33:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3596661633761288?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1765795030640_83339cc2",
+      "title": "像租充电宝一样租机器人，智元宣布将推“擎天租”平台",
+      "summary": "IT之家 12 月 15 日消息，智元机器人今日官宣，将于 12 月 22 日举行全国机器人租赁生态峰会暨“擎天租”平台发布会。 智元机器人表示： 当机器人租赁从零散服务走向生态化布局，当“像租充电宝一样租机器人”的构想成为现实，一场构建行业规则的变革已悄然开启。",
+      "content": "IT之家 12 月 15 日消息，智元机器人今日官宣，将于 12 月 22 日举行全国机器人租赁生态峰会暨“擎天租”平台发布会。 智元机器人表示： 当机器人租赁从零散服务走向生态化布局，当“像租充电宝一样租机器人”的构想成为现实，一场构建行业规则的变革已悄然开启。 为汇聚行业智慧链接生态资源推动机器人租赁产业标准化、规模化发展，我们诚挚邀请您出席全国机器人租赁生态峰会暨擎天租平台发布会，与智元机器人 / 加速进化等具身智能行业先锋，一同见证擎天租平台的重磅发布，共启机器人租赁的全新纪元。 IT之家从邀请函介绍获悉，智元将打造“全新租赁机制”，租赁节点覆盖全国，智元、加速进化等机器人厂商入驻平台，首批租赁服务商和用户可参与 0 元体验活动。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/33f9c8aa-02e9-4b77-9162-5be3a750b085.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-12-15T10:17:36.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/905/157.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1765795010586_4d07cb8d",
+      "title": "AI御三家年终“火拼”",
+      "summary": "AI御三家年终“火拼”",
+      "content": "被讨论和使用最多的，还是ChatGPT，Claude和Gemini，我愿称之为AI御三家。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-12-15T10:01:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7808918.html",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1765794997914_6e0e02bd",
+      "title": "连续俩月霸榜全球第一的数据分析智能体，终于开源啦！",
+      "summary": "连续俩月霸榜全球第一的数据分析智能体，终于开源啦！",
+      "content": "连续俩月霸榜全球第一的数据分析智能体，终于开源啦！",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2025-12-15T09:46:06.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-15-10",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1765791663805_ec4e573d",
@@ -532,6 +592,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1765794993713_0",
+      "title": "华尔街预见到AI泡沫的到来，并押注于破灭它的因素",
+      "summary": "自ChatGPT问世以来，人工智能领域持续火热，吸引大量资金涌入。然而，华尔街开始担忧这一热潮能否持续，并押注于可能引发泡沫破灭的因素。近期NVIDIA股票的抛售预示着市场对AI泡沫的担忧正在加剧。",
+      "content": "自OpenAI发布ChatGPT以来，人工智能引发的热潮已经持续了三年。尽管资金仍在涌入，但关于好时光能否持续的疑虑也随之而来。 从最近NVI股票的抛售中可以看出…… [358字]",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ijt8j35wEhRU/v1/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2025-12-14T14:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2025-12-14/wall-street-sees-an-ai-bubble-forming-and-is-gaming-what-pops-it",
+      "aiInsight": "从技术发展角度看，AI技术的快速发展和广泛应用是不可阻挡的趋势，如自然语言处理、机器学习等技术的突破，为ChatGPT等应用的出现提供了技术基础。然而，市场对AI泡沫的担忧也反映了技术发展过程中不可避免的问题，如过度炒作、应用局限性、数据安全与隐私保护等。\n\n从行业影响看，AI技术的广泛应用正重塑多个行业，推动了产业升级和效率提升，但同时也引发了就业结构变化、行业竞争加剧等问题。对于投资机构而言，押注于AI泡沫破灭的因素，如技术创新瓶颈、监管政策收紧、伦理道德争议等，预示着AI行业将经历深度调整与重塑。\n\n从未来趋势看，AI技术将持续演进，但泡沫破灭可能促使行业回归理性，促进技术应用落地与创新，推动AI技术向更成熟、更负责任的方向发展。同时，行业玩家需要关注技术进步带来的新机遇，不断适应变化，以实现可持续发展。"
+    },
+    {
       "id": "news_1765791648487_0",
       "title": "华尔街预见到AI泡沫来临，并押注于能破灭它的因素",
       "summary": "华尔街分析师预测人工智能领域将出现泡沫，并开始押注能够打破这一泡沫的因素。尽管AI技术快速发展，但市场过度炒作的风险也在增加。投资者正寻找可能抑制AI泡沫的因素，以期从中获利。这一趋势反映了市场对AI领域潜在风险的关注，以及对稳定投资回报的追求。",
@@ -626,6 +698,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/904/899.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1765795025624_6471f188",
+      "title": "打造人人都喜爱的支付宝，AI 驱动支付宝细分人群增长｜AICon北京",
+      "summary": "打造人人都喜爱的支付宝，AI 驱动支付宝细分人群增长｜AICon北京",
+      "content": "打造人人都喜爱的支付宝，AI 驱动支付宝细分人群增长｜AICon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-14T08:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/8NVadqj2SEvcYZTNDxLP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1765701339792_82af4c7a",
