@@ -1,54 +1,30 @@
 {
   "success": true,
-  "timestamp": "2025-12-22T10:32:49.317Z",
-  "total": 76,
+  "timestamp": "2025-12-22T11:26:28.324Z",
+  "total": 68,
   "data": [
     {
-      "id": "news_1766399558956_31c5a492",
-      "title": "摩尔线程发布会上，郑纬民院士放出核心观点：真正决定主权AI成败的，是开发者与类CUDA生态",
-      "summary": "摩尔线程发布会上，郑纬民院士放出核心观点：真正决定主权AI成败的，是开发者与类CUDA生态",
-      "content": "摩尔线程发布会上，郑纬民院士放出核心观点：真正决定主权AI成败的，是开发者与类CUDA生态",
+      "id": "news_1766402758764_c304874d",
+      "title": "报道：明年英伟达GB300出货量可达5.5万台 Vera Rubin200预计明年四季度出货",
+      "summary": "最新市场预测显示，英伟达GB300 AI服务器机柜明年出货量有望达到5.5万台，同比增长129%，主要由微软、Meta等巨头驱动。更值得关注的是，下一代Vera Rubin 200平台预计将于明年第四季度开始出货，为鸿海、广达等供应链厂商带来持续增长动力，部分厂商订单能见度已远至2027年。",
+      "content": "最新市场预测显示，英伟达GB300 AI服务器机柜明年出货量有望达到5.5万台，同比增长129%，主要由微软、Meta等巨头驱动。更值得关注的是，下一代Vera Rubin 200平台预计将于明年第四季度开始出货，为鸿海、广达等供应链厂商带来持续增长动力，部分厂商订单能见度已远至2027年。（财联社）",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-22T16:14:37.000Z",
+      "source": "36氪",
+      "publishedAt": "2025-12-22T11:20:24.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/VYK3iBJlAfS9HM8aU96U?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://36kr.com/newsflashes/3606616869307400?f=rss",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766399560049_2cef4327",
-      "title": "基于 SGlang RBG + Mooncake 打造生产级云原生大模型推理平台",
-      "summary": "基于 SGlang RBG + Mooncake 打造生产级云原生大模型推理平台",
-      "content": "基于 SGlang RBG + Mooncake 打造生产级云原生大模型推理平台",
+      "id": "news_1766402766373_1efdcfad",
+      "title": "当开放架构遇上“产业大集”：国产AI生态进入“群体跃迁”时刻",
+      "summary": "当开放架构遇上“产业大集”：国产AI生态进入“群体跃迁”时刻",
+      "content": "HAIC2025正如同一个热闹喧腾的“产业大集”，全景展示着开放生态下的产业凝聚力与创新活力。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-22T15:31:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/spES4ES1DVCxMc6vtEA4?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766399561151_a287bcbf",
-      "title": "AlphaEvolve作为面向算法优化的Agentic系统正式进入谷歌云",
-      "summary": "AlphaEvolve作为面向算法优化的Agentic系统正式进入谷歌云",
-      "content": "AlphaEvolve作为面向算法优化的Agentic系统正式进入谷歌云",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-22T15:27:30.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/WOltsxNikIAzZTXDDsjC?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766399561806_12af4a58",
-      "title": "Magika 1.0：基于 Rust 与 AI 的更智能、更高速文件类型识别",
-      "summary": "Magika 1.0：基于 Rust 与 AI 的更智能、更高速文件类型识别",
-      "content": "Magika 1.0：基于 Rust 与 AI 的更智能、更高速文件类型识别",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-22T11:30:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/ud1ywIk3CQTsoILTId3f?utm_source=rss&utm_medium=article",
+      "source": "钛媒体",
+      "publishedAt": "2025-12-22T10:36:23.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7817218.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -472,16 +448,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766399529199_0",
+      "id": "news_1766402743653_0",
       "title": "报告称，OpenAI在企业销售方面的利润率更高",
-      "summary": "OpenAI今年通过付费产品实现了更高的利润率，正努力保持在人工智能领域的领先地位。据《信息》杂志和彭博终端报道，OpenAI改进了其商业销售策略，使其在企业销售方面的利润率更高，从而在竞争中占据优势。",
-      "content": "据《信息》杂志和彭博终端报道，OpenAI 今年通过其付费产品实现了更好的利润率，正在竞相保持其在人工智能领域的领先地位。报道指出，该公司改进了...",
+      "summary": "OpenAI今年通过付费产品实现了更高的利润率，正努力保持在人工智能领域的领先地位。《信息》杂志和Bloomberg Terminal的报道指出，OpenAI的企业销售利润率高于以往，这得益于其付费产品的成功。尽管如此，OpenAI仍需应对竞争压力，保持技术优势。",
+      "content": "根据《信息》杂志和Bloomberg Terminal的报道，OpenAI今年通过其付费产品获得了更好的利润率，同时它正努力保持在人工智能领域的领先地位。报道指出，该公司在...",
       "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ibcr8N5moZPs/v2/1200x806.jpg",
       "source": "Bloomberg",
       "publishedAt": "2025-12-21T17:18:13.000Z",
       "category": "国际AI",
       "originalUrl": "https://www.bloomberg.com/news/articles/2025-12-21/openai-sees-better-margins-on-business-sales-report-says",
-      "aiInsight": "该新闻反映了OpenAI在企业销售方面的显著进步，显示了其在AI技术商业化方面的强劲势头。从技术发展角度来看，这可能意味着OpenAI在技术上取得了突破性进展，从而提高了产品的附加值和市场竞争力。从行业影响来看，这可能会引发其他AI企业对其商业策略和利润率的效仿，加速整个行业的商业化进程。未来趋势方面，随着AI技术的不断成熟和应用场景的拓展，企业级市场的潜力巨大，OpenAI的领先优势可能进一步扩大，但也可能面临更多竞争者的加入，从而推动整个行业的发展和竞争格局的变化。"
+      "aiInsight": "该新闻揭示了OpenAI在企业销售方面的强劲表现和高利润率，这反映了其产品在市场上的受欢迎程度和商业价值。从技术发展角度来看，高利润率可能意味着OpenAI在AI技术的研发和应用上取得了显著进展，能够提供更高质量或更具创新性的产品和服务。从行业影响来看，OpenAI的高利润率和市场领导地位可能会吸引更多企业和投资者的关注，加速AI技术在不同行业中的应用和普及。未来趋势上，OpenAI可能进一步扩大其市场份额，加强与其他企业的合作，并探索新的业务模式。同时，这也可能引发更多的竞争和挑战，促使其他AI企业提升自身的产品和服务质量，推动整个行业的发展和进步。"
     },
     {
       "id": "news_1766396227141_0",
@@ -530,6 +506,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/906/738.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766402744234_1",
+      "title": "OpenAI与高校达成协议，在教育市场取得领先优势",
+      "summary": "OpenAI已在美国多所高校取得进展，成功克服管理层对人工智能的担忧，使ChatGPT成为下一代工作者的首选助手。该公司正通过与高校合作，在教育市场取得领先优势，进一步推动人工智能技术在教育领域的应用和发展。",
+      "content": "OpenAI 已在美国许多高校站稳脚跟，克服了大学管理层对人工智能的担忧，使 ChatGPT 成为了下一代工作者首选助手的先驱。该公司已... [9587 字符]",
+      "imageUrl": "https://wehco.media.clients.ellingtoncms.com/static-4/teaser_images/www.arkansasonline.com_default.jpg",
+      "source": "Arkansas Online",
+      "publishedAt": "2025-12-21T08:46:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.arkansasonline.com/news/2025/dec/21/openai-strikes-deal-with-colleges-to-gain-lead-in/",
+      "aiInsight": "该新闻报道了OpenAI与高校的合作进展，揭示了其在教育市场取得的重要突破。从技术角度来看，OpenAI通过其先进的人工智能技术，特别是ChatGPT，为教育领域提供了强大的支持工具，不仅能够辅助教学，还能帮助学生提高学习效率。这表明大语言模型在教育场景中的应用潜力巨大。\n\n从行业影响来看，OpenAI的这一举措预示着人工智能技术将进一步渗透到教育行业，推动教育模式的变革。教育机构可能需要重新考虑课程设计和教学方法，以适应这种新的辅助工具。同时，这也可能促使其他教育科技公司加快相关技术的研发和应用。\n\n未来趋势方面，预计OpenAI将进一步深化与高校的合作，可能会推出更多定制化的产品和服务，以满足不同学校和教师的具体需求。此外，随着技术的不断进步，AI在教育领域的应用范围和深度都可能进一步扩大，从辅助教学到智能评估，再到个性化学习方案的制定等。\n\n综上所述，OpenAI与高校的合作不仅标志着AI技术在教育领域的成功应用，也预示着未来教育行业将发生深刻变革。"
     },
     {
       "id": "news_1766399530635_1",
@@ -820,91 +808,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766399535189_2",
-      "title": "人工智能时代，工作安全吗？来自Nvidia的黄仁勋和OpenAI的萨姆·阿尔特曼的见解",
-      "summary": "Nvidia CEO黄仁勋和OpenAI CEO萨姆·阿尔特曼认为，人工智能将改变工作市场，虽然一些岗位会过时，但也会创造大量新岗位。黄仁勋表示，每当公司变得更加高效，就会创造新的就业机会。阿尔特曼则强调，人工智能将带来新的工作类型，如数据科学家和机器学习工程师等。尽管存在不确定性，但人工智能有望推动经济增长和创新。",
-      "content": "Nvidia (NVDA)首席执行官黄仁勋在6月的一次活动中表示，他相信“人工智能将会改变每个人的工作岗位”。“一些工作岗位将会过时，但将会创造许多新的工作岗位……每当公司变得更加高效时，……”",
-      "imageUrl": "https://www.investopedia.com/thmb/gtykFgPXcunHS7CjyZUWcq5dK3c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/nvidiaceo-2901a64000fb4c5c9afc0538422ffd3f.jpg",
-      "source": "Investopedia",
-      "publishedAt": "2025-12-20T11:21:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.investopedia.com/are-jobs-safe-in-the-age-of-ai-insights-from-nvidias-jensen-huang-and-openais-sam-altman-11870892",
-      "aiInsight": "这篇新闻报道了人工智能领域两位重要人物对AI技术影响职业岗位的看法，反映了当前社会对于AI技术发展和应用的复杂态度。从技术发展角度来看，黄仁勋和阿尔特曼的观点预示着AI将带来效率提升和新的就业机会，但同时也暗示了旧有岗位的淘汰。这表明，AI技术正在加速推进自动化进程，对各行各业的工作方式产生深远影响。\n\n从行业影响来看，AI技术的应用将重塑劳动力市场结构，迫使企业和个人适应新的技术环境。一方面，AI的发展将促进创新和效率提升，为企业带来竞争优势；另一方面，它也可能导致部分岗位的消失，特别是那些重复性强、技能要求不高的职业。因此，企业和个人需要积极拥抱变化，通过培训和教育提升自身技能，以适应未来的工作环境。\n\n从未来趋势来看，AI技术的发展将不断推进工作方式的变革。尽管AI可能会替代一部分岗位，但它也将创造新的就业机会，特别是在人工智能研发、应用和维护方面。因此，政府、企业和个人都应积极准备，以应对未来可能出现的挑战和机遇。"
-    },
-    {
-      "id": "news_1766396232308_2",
-      "title": "AI时代工作安全吗？Nvidia的黄仁勋和OpenAI的萨姆·阿尔特曼的见解",
-      "summary": "Nvidia CEO黄仁勋和OpenAI CEO萨姆·阿尔特曼认为，人工智能将改变工作市场，创造新职位的同时也会淘汰旧职位。黄仁勋表示，虽然一些职位将因AI技术的发展而过时，但整体而言，AI将提高公司的生产力，从而创造更多新的就业机会。尽管存在不确定性，但两人均对AI时代的工作前景持乐观态度。",
-      "content": "Nvidia (NVDA)首席执行官黄仁勋在6月的一次活动中表示，他相信“人工智能将会改变每个人的职位。” “一些职位将会过时，但将会创造许多新的职位……每当公司变得更具生产性时，……”",
-      "imageUrl": "https://www.investopedia.com/thmb/gtykFgPXcunHS7CjyZUWcq5dK3c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/nvidiaceo-2901a64000fb4c5c9afc0538422ffd3f.jpg",
-      "source": "Investopedia",
-      "publishedAt": "2025-12-20T11:21:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.investopedia.com/are-jobs-safe-in-the-age-of-ai-insights-from-nvidias-jensen-huang-and-openais-sam-altman-11870892",
-      "aiInsight": "这篇新闻反映了AI技术发展对就业市场的影响。从技术发展角度看，AI和机器学习的进步正推动自动化和智能化进程，这将改变许多职业的性质，创造新的工作机会，同时淘汰部分传统岗位。Nvidia CEO黄仁勋的观点强调了AI技术的生产力提升潜力，以及在新的技术生态中，职业角色的重塑和转换。从行业影响来看，AI的发展将加速各行业的数字化转型，不仅限于制造和科技行业，还可能扩展到医疗、教育、金融等领域。未来趋势上，企业需要培养更多的跨学科技能人才，以适应AI时代的变化。同时，社会也需要加大对劳动力再培训和技能提升的支持，以帮助劳动力适应新的就业市场需求。"
-    },
-    {
-      "id": "news_1766381575376_2",
-      "title": "人工智能时代工作安全吗？来自Nvidia的黄仁勋和OpenAI的萨姆·阿尔特曼的见解",
-      "summary": "Nvidia董事长黄仁勋和OpenAI首席执行官萨姆·阿尔特曼认为，人工智能将改变工作市场，淘汰一些职位同时创造更多新职位。黄仁勋表示，尽管人工智能将改变每个人的职位，但效率的提高将带来更多的就业机会。两人强调，人工智能时代的工作安全性和创新性值得期待。",
-      "content": "Nvidia (NVDA) 董事长黄仁勋在六月的一次活动中表示，他认为“人工智能将会改变每个人的职位。” “一些职位将会过时，但将会创造许多新的职位……每当公司变得更加高效时，他们……”",
-      "imageUrl": "https://www.investopedia.com/thmb/gtykFgPXcunHS7CjyZUWcq5dK3c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/nvidiaceo-2901a64000fb4c5c9afc0538422ffd3f.jpg",
-      "source": "Investopedia",
-      "publishedAt": "2025-12-20T11:21:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.investopedia.com/are-jobs-safe-in-the-age-of-ai-insights-from-nvidias-jensen-huang-and-openais-sam-altman-11870892",
-      "aiInsight": "这篇新闻反映了人工智能技术快速发展背景下，对于就业市场可能带来的冲击与变革的讨论。从技术发展的角度看，黄仁勋和阿尔特曼的观点表明，AI技术将逐步渗透到各行各业，提高工作效率的同时，也会导致部分岗位的消失。但从长远来看，新技术的应用也会创造出新的就业机会，特别是在AI的开发、应用、维护等领域。\n\n从行业影响的角度来看，这一变化将对劳动力市场产生深远的影响，需要企业和政府共同努力，为员工提供技能培训和再就业支持，以应对技术进步带来的挑战。\n\n未来趋势方面，随着AI技术的不断成熟和普及，劳动力市场的转型将更加明显。企业需要更加重视员工的终身学习和适应能力，以适应快速变化的工作环境。同时，政策制定者和教育机构也应加强合作，为劳动力市场提供必要的支持和指导，确保技术进步能够带来广泛的社会福利，而非仅仅是少数人的利益。"
-    },
-    {
-      "id": "news_1766370236041_1",
-      "title": "人工智能时代工作安全吗？来自NVIDIA黄仁勋和OpenAI萨姆·阿尔特曼的见解",
-      "summary": "NVIDIA董事长黄仁勋和OpenAI首席执行官萨姆·阿尔特曼就人工智能时代的工作安全问题发表了见解。黄仁勋认为，人工智能将改变每个职位，虽然一些职位可能会被淘汰，但也会创造新的职位。他强调，每当公司变得更加高效时，他们就会创造新的工作机会。阿尔特曼则表示，人工智能将带来巨大的变革，但同时也需要关注其潜在的风险和挑战。两人均认为，人工智能将对就业市场产生深远影响，需要积极应对。",
-      "content": "Nvidia (NVDA) 董事长黄仁勋在六月的一次活动中表示，他相信“人工智能将会改变每个人的职位。” “一些职位将会过时，但将会创造许多新的职位……每当公司变得更加高效时，他们……”",
-      "imageUrl": "https://www.investopedia.com/thmb/gtykFgPXcunHS7CjyZUWcq5dK3c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/nvidiaceo-2901a64000fb4c5c9afc0538422ffd3f.jpg",
-      "source": "Investopedia",
-      "publishedAt": "2025-12-20T11:21:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.investopedia.com/are-jobs-safe-in-the-age-of-ai-insights-from-nvidias-jensen-huang-and-openais-sam-altman-11870892",
-      "aiInsight": "这篇新闻探讨了人工智能时代的工作安全问题，观点来自NVIDIA的黄仁勋和OpenAI的萨姆·阿尔特曼。从技术发展的角度看，人工智能正通过自动化和智能化提升生产效率，这确实可能使一些职位变得过时，但同时也催生了新的就业机会。从行业影响的角度来看，AI技术的应用正在广泛渗透到各类行业，对就业市场产生深远影响。例如，在制造业，AI可以提高生产线的自动化水平，减少人力需求；而在医疗、教育等领域，AI则催生了新的职业角色，如数据分析师、AI伦理专家等。未来趋势方面，随着AI技术的进一步发展，其对就业市场的影响将更加复杂多样，既可能带来挑战，也可能带来机遇。因此，社会需要不断探索适应新技术发展的教育和培训体系，帮助劳动人口提升技能，以适应不断变化的就业市场。"
-    },
-    {
-      "id": "news_1766356028763_1",
-      "title": "AI时代工作安全吗？来自Nvidia的黄仁勋和OpenAI的萨姆·阿尔特曼的见解",
-      "summary": "Nvidia董事长黄仁勋和OpenAI首席执行官萨姆·阿尔特曼认为，人工智能将改变工作市场，创造新职位的同时淘汰旧职位。黄仁勋表示，虽然某些职位将因AI技术的发展而过时，但生产效率的提高也将带来更多的就业机会。两人强调，AI时代的工作安全取决于个人是否能够适应新技术和新职位。",
-      "content": "Nvidia (NVDA) 董事长黄仁勋在六月的一次活动中表示，他认为“人工智能将会改变每个人的职位。” “有些职位将会过时，但将会创造许多新的职位……每当公司变得更具生产性时，……”",
-      "imageUrl": "https://www.investopedia.com/thmb/gtykFgPXcunHS7CjyZUWcq5dK3c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/nvidiaceo-2901a64000fb4c5c9afc0538422ffd3f.jpg",
-      "source": "Investopedia",
-      "publishedAt": "2025-12-20T11:21:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.investopedia.com/are-jobs-safe-in-the-age-of-ai-insights-from-nvidias-jensen-huang-and-openais-sam-altman-11870892",
-      "aiInsight": "这篇新闻反映了AI技术快速发展对就业市场的深刻影响。从技术发展角度看，AI和机器学习的进步正在重新定义工作流程和职业需求，加速自动化进程，同时也催生新的技术岗位。行业影响方面，AI的发展正重塑各行各业，从制造业到服务业，都可能面临岗位结构的调整。未来趋势上，虽然AI可能会替代一些重复性劳动，但同时也将创造大量新的、更复杂和更具创造性的职位，如AI工程师、数据科学家等。因此，面对AI时代的就业挑战，社会需要加强对劳动力的再培训和教育，提升劳动力的技能适应性，以实现技术进步与就业市场的良性互动。"
-    },
-    {
-      "id": "news_1766352274812_1",
-      "title": "人工智能时代工作安全吗？Nvidia的黄仁勋和OpenAI的萨姆·阿尔特曼的见解",
-      "summary": "Nvidia CEO黄仁勋和OpenAI CEO萨姆·阿尔特曼认为，人工智能将改变工作市场，虽然一些职位会过时，但也会创造许多新职位。黄仁勋表示，每当公司变得更有生产力时，新的工作机会就会出现。尽管人工智能时代的工作安全性和转型挑战引发担忧，但两位行业领袖认为这将推动生产力和创新的发展。",
-      "content": "Nvidia (NVDA) CEO Jensen Huang 在六月的一次活动中表示，他相信“人工智能将会改变每个人的职位。” “一些职位将会过时，但许多新的职位将会被创造出来……每当公司变得更有生产力时，……”",
-      "imageUrl": "https://www.investopedia.com/thmb/gtykFgPXcunHS7CjyZUWcq5dK3c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/nvidiaceo-2901a64000fb4c5c9afc0538422ffd3f.jpg",
-      "source": "Investopedia",
-      "publishedAt": "2025-12-20T11:21:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.investopedia.com/are-jobs-safe-in-the-age-of-ai-insights-from-nvidias-jensen-huang-and-openais-sam-altman-11870892",
-      "aiInsight": "这篇新闻反映了人工智能技术发展对就业市场的影响。Nvidia CEO Jensen Huang 的观点体现了人工智能在提高生产力方面的潜力，同时也暗示了技术进步可能导致某些职位的消失，但会创造新的就业机会。这种观点与历史上的技术变革类似，如工业革命和信息革命，它们都曾引起过类似的担忧，但最终带来了新的经济增长和就业机会。\n\n从行业影响来看，人工智能正在重塑多个行业，推动产业升级和创新。Nvidia 和 OpenAI 等公司在推动这些变革方面扮演了重要角色。对 AI 技术的进一步投资和发展将进一步促进这一趋势。\n\n未来趋势方面，随着人工智能技术的不断发展，其在各个行业的应用将更加广泛，从而对就业市场产生深远影响。政府和企业需要共同努力，通过培训和教育帮助劳动力适应这些变化，同时制定相关政策以减轻潜在的社会问题。"
-    },
-    {
-      "id": "news_1766330803261_0",
-      "title": "人工智能时代，工作安全吗？来自英伟达黄仁勋和开放人工智能中心萨姆·阿尔特曼的洞见",
-      "summary": "英伟达CEO黄仁勋和开放人工智能中心负责人萨姆·阿尔特曼认为，人工智能将改变工作市场。黄仁勋表示，虽然一些工作岗位将消失，但新技术也将创造大量新岗位。他强调，每当公司变得更加高效时，新的机会就会出现。阿尔特曼则认为，人工智能将带来新的工作机会，但需要人们适应变化。",
-      "content": "Nvidia（NVDA）首席执行官黄仁勋在六月的一次活动中表示，他相信“人工智能将会改变每个人的工作岗位”。“一些工作岗位将会消失，但将会创造许多新的工作岗位……每当公司变得更加高效时，……”",
-      "imageUrl": "https://www.investopedia.com/thmb/gtykFgPXcunHS7CjyZUWcq5dK3c=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/nvidiaceo-2901a64000fb4c5c9afc0538422ffd3f.jpg",
-      "source": "Investopedia",
-      "publishedAt": "2025-12-20T11:21:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.investopedia.com/are-jobs-safe-in-the-age-of-ai-insights-from-nvidias-jensen-huang-and-openais-sam-altman-11870892",
-      "aiInsight": "这篇新闻反映了人工智能技术快速发展背景下，对于就业市场影响的深度探讨。从技术发展的角度来看，黄仁勋的观点强调了AI将带来生产力的大幅提升，这不仅限于提升现有工作的效率，还会催生新的职业领域，如AI开发、维护和应用等。从行业影响的角度分析，AI技术的应用范围日益广泛，从制造业到服务业，各类行业都将面临深刻的变革，传统岗位可能会减少，但同时也会创造出全新的就业机会。未来趋势方面，AI技术的发展将促使劳动力市场向更加灵活和多元化的方向发展，要求劳动者具备更强的终身学习能力和适应新技术的能力。总体而言，AI技术的发展既是挑战也是机遇，对于劳动者来说，不断学习和提升自己将是适应这一变化的关键。"
-    },
-    {
-      "id": "news_1766399562659_f0917fb1",
+      "id": "news_1766402779329_f0917fb1",
       "title": "个性化匹配+实时响应，「保利飞桥」助力重构「AICon 北京」参会体验！",
       "summary": "个性化匹配+实时响应，「保利飞桥」助力重构「AICon 北京」参会体验！",
       "content": "个性化匹配+实时响应，「保利飞桥」助力重构「AICon 北京」参会体验！",
