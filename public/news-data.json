@@ -1,30 +1,138 @@
 {
   "success": true,
-  "timestamp": "2025-12-24T09:32:53.791Z",
-  "total": 111,
+  "timestamp": "2025-12-24T10:31:46.964Z",
+  "total": 117,
   "data": [
     {
-      "id": "news_1766568761087_f59ae8c2",
-      "title": "发布 Agent OS、深度渗透垂直行业，钉钉阳谋：打造Agent 矩阵，AI 重构一切",
-      "summary": "发布 Agent OS、深度渗透垂直行业，钉钉阳谋：打造Agent 矩阵，AI 重构一切",
-      "content": "发布 Agent OS、深度渗透垂直行业，钉钉阳谋：打造Agent 矩阵，AI 重构一切",
+      "id": "news_1766572295995_4080ebf4",
+      "title": "从“抖音同款”到“豆包同款”：视频云正在进入 Agent 时代",
+      "summary": "从“抖音同款”到“豆包同款”：视频云正在进入 Agent 时代",
+      "content": "从“抖音同款”到“豆包同款”：视频云正在进入 Agent 时代",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-12-24T17:23:46.000Z",
+      "publishedAt": "2025-12-24T18:21:56.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/V74Mx6zssHhFBIz9Vv00?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/WIyikZxXtlbBAV6OtpBZ?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766568765272_9ec8fbf6",
-      "title": "AI 进化论丨第七期：国产服务器 OS：生态崛起与 “云 + AI” 破局之路",
-      "summary": "AI 进化论丨第七期：国产服务器 OS：生态崛起与 “云 + AI” 破局之路",
-      "content": "AI 进化论丨第七期：国产服务器 OS：生态崛起与 “云 + AI” 破局之路",
+      "id": "news_1766572298350_a74397e7",
+      "title": "Meta详细阐述基于LLM级训练、混合并行计算与知识迁移的GEM广告模型",
+      "summary": "Meta详细阐述基于LLM级训练、混合并行计算与知识迁移的GEM广告模型",
+      "content": "Meta详细阐述基于LLM级训练、混合并行计算与知识迁移的GEM广告模型",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-12-24T15:18:22.000Z",
+      "publishedAt": "2025-12-24T16:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/e2dRzxx1jyRbwrKqKsfv?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766572299670_bc22e058",
+      "title": "穿越 AI 落地深水区：广汽、华润、星巴克等一线“突围者”的实战案例集",
+      "summary": "穿越 AI 落地深水区：广汽、华润、星巴克等一线“突围者”的实战案例集",
+      "content": "穿越 AI 落地深水区：广汽、华润、星巴克等一线“突围者”的实战案例集",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-24T15:25:20.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/4ySJ6K3Dg7D9FFT3YN24?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766572305677_1a7e10bc",
+      "title": "阿里通义 Qwen3-TTS 家族上新两款 AI 模型：声音不仅能复制，还可以定制",
+      "summary": "IT之家 12 月 24 日消息，阿里通义今日官宣，Qwen3-TTS 家族新推出两款模型，音色创造模型 Qwen3-TTS-VD-Flash 和音色克隆模型 Qwen3-TTS-VC-Flash。",
+      "content": "IT之家 12 月 24 日消息，阿里通义今日官宣，Qwen3-TTS 家族新推出两款模型，音色创造模型 Qwen3-TTS-VD-Flash 和音色克隆模型 Qwen3-TTS-VC-Flash。IT之家附模型主要特点如下： 音色创造：Qwen3-TTS-VD-Flash 支持复杂自然语言指令输入，实现对音色、韵律、情感、人设等的精细化调控，实现从“说什么”到“如何说”的全面掌控，可以让用户自由地定义想要的音色，彻底摆脱只能进行根据已有的音色进行克隆或者只能选择固定的一部分预设音色。在 InstructTTS-Eval 中综合表现显著优于 GPT-4o-mini-tts、Mimo-audio-7b-instruct，在角色扮演测试中也超越 Gemini-2.5-pro-preview-tts。 音色克隆：Qwen3-TTS-VC-Flash 支持 3s 级别音色克隆，并且可以基于克隆的音色生成中文、英文、德语、意大利语、葡萄牙语、西班牙语、日语、韩语、法语、俄语等 10 大主流语言。在 MiniMax TTS Multilingual Test Set 上，平均词错误率（WER）全面优于 MiniMax、ElevenLabs 及 GPT-4o-Audio-Preview。 高表现力：Qwen3-TTS-VD-Flash 和 Qwen3-TTS-VC-Flash 具备高表现力的拟人化音色，能够稳定、可靠地输出高度契合输入文本的语音内容，并根据文本语义自动调节语气节奏，呈现自然生动的表达效果。 鲁棒的文本能力：Qwen3-TTS-VD-Flash 和 Qwen3-TTS-VC-Flash 具备强大的文本解析能力，可自动处理复杂文本结构，精准提取关键信息，对多样化、非规范化的文本格式展现出较强的鲁棒性（IT之家注：robustness，系统在面临内部结构或外部环境的改变时维持功能稳定运行的能力）。 Qwen3-TTS-VD-Flash Qwen3-TTS 支持通过自然语言描述生成定制化的音色形象。用户可以随意输入声学属性、人设描述、背景信息等自由描述，轻松创造出自己期望的声音形象。 可控生成：在 InstructTTS-Eval 中，Qwen3-TTS 综合表现显著优于 GPT-4o-mini-tts、Mimo-audio-7b-instruct，在角色扮演测试中也超越 Gemini-2.5-pro-preview-tts。 Qwen3-TTS-VC-Flash Qwen3-TTS 支持通过自然 3s 级别音色克隆，并且可以基于克隆的音色生成多语种音频，同时对复杂文本和野生音频都有较高的鲁棒性。 多语种音色克隆：在 MiniMax TTS Multilingual Test Set 上，Qwen3-TTS 在中、英、法、意大利等语项的内容稳定性优于 MiniMax、ElevenLabs 及 GPT-4o-Audio-Preview；其平均词错误率（WER）位居第一。 Qwen3-TTS-Voice-Design API 文档： https://www.alibabacloud.com/help/zh/model-studio/qwen-tts-voice-design?spm=a2ty_o06.30285417.0.0.56a0c9216Ey6VM Qwen3-TTS-Voice-Clone API 文档： https://www.alibabacloud.com/help/zh/model-studio/qwen-tts-voice-cloning?spm=a2ty_o06.30285417.0.0.56a0c921WnHNlN",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/f9234318-089a-4a53-999c-26f3f029c3ff.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-12-24T10:15:28.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/907/705.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766572279831_76808d59",
+      "title": "瑞士公司ZYTLYN Technologies 研发旅游预测分析智能体，为旅游业提供准确定价策略",
+      "summary": "瑞士公司ZYTLYN Technologies 研发旅游预测分析智能体，为旅游业提供准确定价策略",
+      "content": "预测准确率均超过90%。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-12-24T10:06:56.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/y2EtDTKLyjoI18Xu4ZMe?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/7818153.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766572264039_88e89603",
+      "title": "北航提出代码大模型的 Scaling Laws：编程语言差异与多语言最优配比策略",
+      "summary": "北航提出代码大模型的 Scaling Laws：编程语言差异与多语言最优配比策略",
+      "content": "北航提出代码大模型的 Scaling Laws：编程语言差异与多语言最优配比策略",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2025-12-24T09:56:29.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-24-9",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766572281909_a72ac37a",
+      "title": "破解生命密码的AI，终于开源了",
+      "summary": "破解生命密码的AI，终于开源了",
+      "content": "之江实验室开源021科学基础模型，覆盖基因组、天文、地学多领域。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-12-24T09:50:27.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7819661.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766572283940_09284824",
+      "title": "华米OV竞速AI，谁都不想成为“诺基亚”",
+      "summary": "华米OV竞速AI，谁都不想成为“诺基亚”",
+      "content": "AI是必须完成的KPI",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-12-24T09:39:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7819568.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766572285977_d6a4d96f",
+      "title": "叶磊Leo：AI光模块市场预测和新技术展望",
+      "summary": "从硅光技术的集成理想与分离现实，到CPO的激进创新与NPO的折中探索，再到空心光纤、MicroLED光通信等前沿技术的潜力与桎梏，一系列新技术试图突破现有瓶颈，却也陷入了路线选择的分歧、成本与可靠性的博弈。",
+      "content": "从硅光技术的集成理想与分离现实，到CPO的激进创新与NPO的折中探索，再到空心光纤、MicroLED光通信等前沿技术的潜力与桎梏，一系列新技术试图突破现有瓶颈，却也陷入了路线选择的分歧、成本与可靠性的博弈。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-12-24T09:38:59.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7819368.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766572287690_8341b499",
+      "title": "“图钉型”社会降临：马斯克预言下的中产崩塌与算力霸权",
+      "summary": "“图钉型”社会降临：马斯克预言下的中产崩塌与算力霸权",
+      "content": "在AI接管世界的未来，贫富差距是会奇迹般消失，还是会演变成无法跨越的鸿沟？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-12-24T09:38:56.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7819268.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766572265008_0c7142b3",
+      "title": "DeepSeek官方点赞元宝，罕见现身互动",
+      "summary": "DeepSeek官方点赞元宝，罕见现身互动",
+      "content": "DeepSeek官方点赞元宝，罕见现身互动",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2025-12-24T09:36:14.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-24-8",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -364,7 +472,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766568727010_0",
+      "id": "news_1766572254327_0",
       "title": "Is OpenAI Falling Behind In The Artificial Intelligence 'Arms Race'?",
       "summary": "Science Artificial Intelligence Is OpenAI Falling Behind In The Artificial Intelligence 'Arms Race'? By Emma Street Dec. 23, 2025 10:15 am EST Photo A...",
       "content": "Describing AI development as an \"arms race\" might seem needlessly bombastic, but there's a reason why this term has entered common usage. It encapsulates the speed and intensity at which companies are developing and deploying AI systems. Everyone has... [4676 chars]",
@@ -400,7 +508,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766568727380_1",
+      "id": "news_1766572254489_1",
       "title": "AI Giants Sued: xAi, Meta, Google And OpenAI Under Legal Fire by Just One Man",
       "summary": "Have you ever questioned how ChatGPT or any other AI you use to ask questions or do research gets all its information? Well, that very method, so to s...",
       "content": "Have you ever questioned how ChatGPT or any other AI you use to ask questions or do research gets all its information? Well, that very method, so to speak, of how AI gets its information is now seeing a big legal fight. One man, a Pulitzer Prize winn... [4782 chars]",
@@ -952,7 +1060,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766568726903_2",
+      "id": "news_1766572253606_2",
       "title": "New York Times reporter sues Google, xAI, OpenAI over chatbot training",
       "summary": "Sign up here.\nThe lawsuit is one of several copyright cases brought by authors and other copyright owners against tech companies over the use of their...",
       "content": "Sign up here.\nThe lawsuit is one of several copyright cases brought by authors and other copyright owners against tech companies over the use of their work in AI training. The case is the first to name xAI as a defendant.\nA spokesperson for Perplexit... [1845 chars]",
@@ -1036,7 +1144,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766568728227_3",
+      "id": "news_1766572253539_3",
       "title": "Meta Plans New Visual AI Model To Rival ChatGPT And Gemini",
       "summary": "Meta seems to be developing a new artificial intelligence model focused on images and videos , codenamed “Mango.” This effort is part of its strategy ...",
       "content": "Meta seems to be developing a new artificial intelligence model focused on images and videos, codenamed “Mango.” This effort is part of its strategy to compete more directly with major players like Google and OpenAI. According to information publishe... [1875 chars]",
@@ -1132,7 +1240,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766568727486_4",
+      "id": "news_1766572254738_4",
       "title": "SoftBank rushes to raise $22.5B to meet OpenAI funding deadline as AI compute costs surge",
       "summary": "SoftBank Group is racing against the calendar to assemble the remaining $22.5 billion it owes OpenAI, with people familiar with the matter saying the ...",
       "content": "SoftBank Group is racing against the calendar to assemble the remaining $22.5 billion it owes OpenAI, with people familiar with the matter saying the funds must arrive before year-end. The effort highlights how access to capital now shapes leadership... [3839 chars]",
@@ -1298,42 +1406,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7817218.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766399538183_adc5b0fb",
-      "title": "最火、最全的Agent记忆综述，NUS、人大、复旦、北大等联合出品",
-      "summary": "最火、最全的Agent记忆综述，NUS、人大、复旦、北大等联合出品",
-      "content": "最火、最全的Agent记忆综述，NUS、人大、复旦、北大等联合出品",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2025-12-22T10:19:17.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-22-10",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766396268801_70f9dd74",
-      "title": "线上考试疑用 AI，韩国首尔大学曝集体作弊丑闻",
-      "summary": "IT之家 12 月 22 日消息，据央视新闻报道，继不久前韩国延世大学曝出学生借助人工智能（AI）工具在线上期中考试中集体作弊丑闻后，该国又一所顶级高校首尔大学也曝出线上期末考试集体作弊事件。首尔大学 12 月 21 日宣布，相关课程考试结果作废。",
-      "content": "IT之家 12 月 22 日消息，据央视新闻报道，继不久前韩国延世大学曝出学生借助人工智能（AI）工具在线上期中考试中集体作弊丑闻后，该国又一所顶级高校首尔大学也曝出线上期末考试集体作弊事件。首尔大学 12 月 21 日宣布，相关课程考试结果作废。 据了解，作弊事件涉及首尔大学自然科学学院一门面向服兵役学生开设的通识课程，其授课与考试均通过远程方式进行。 IT之家从报道获悉，在该课程线上期末考试中，为防止作弊行为，考生打开除考试界面外的任何窗口都会被系统记录下来。助教在考试结束后的审查中发现，36 名考生中近半数打开过其他窗口。然而，由于系统无法记录考生访问的具体页面，难以确凿认定作弊行为，负责该课程的教授最终选择将考试成绩作废并安排替代作业，但没有给予学生纪律处分。 首尔大学表示，正针对其描述的“普遍存在的作弊现象”制定“全校性应对措施”。据悉，校方正在讨论将线下考试作为默认模式，同时在确实无法进行线下考试时，采用开卷和作业等方式代替线上考试。 该校还宣布，将推出适用于全校的人工智能工具使用指南。根据拟议中的框架，教师需在课纲中明确阐述对使用人工智能工具的规定，以便学生提前了解相关要求。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/bda5f9a0-5ba1-47a3-9759-291a1b65e02e.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-12-22T09:37:13.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/907/032.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766396235644_8835b46f",
-      "title": "多智能体可信标准在ITU立项：信通院、蚂蚁、中国电信等共同推动",
-      "summary": "多智能体可信标准在ITU立项：信通院、蚂蚁、中国电信等共同推动",
-      "content": "多智能体可信标准在ITU立项：信通院、蚂蚁、中国电信等共同推动",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2025-12-22T09:37:01.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-22-9",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
