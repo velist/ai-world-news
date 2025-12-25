@@ -1,18 +1,30 @@
 {
   "success": true,
-  "timestamp": "2025-12-25T06:45:12.515Z",
-  "total": 100,
+  "timestamp": "2025-12-25T07:29:26.774Z",
+  "total": 99,
   "data": [
     {
-      "id": "news_1766645100947_9045006c",
-      "title": "Target公司借助生成式AI推荐将“加入购物车”互动率提升11%",
-      "summary": "Target公司借助生成式AI推荐将“加入购物车”互动率提升11%",
-      "content": "Target公司借助生成式AI推荐将“加入购物车”互动率提升11%",
+      "id": "news_1766647765772_6634003f",
+      "title": "修图 AI 模型 Qwen-Image-Edit-2511 开源上线：提升角色一致性、增强几何推理",
+      "summary": "IT之家 12 月 25 日消息，阿里通义 Qwen 团队于 12 月 23 日上线推出 Qwen-Image-Edit-2511 全新图像编辑模型，在 Qwen-Image-Edit-2509 基础上，减轻图像漂移、提升人物一致性、集成 LoRA 能力、增强工业设计生成能力，以及强化几何推理能力。",
+      "content": "IT之家 12 月 25 日消息，阿里通义 Qwen 团队于 12 月 23 日上线推出 Qwen-Image-Edit-2511 全新图像编辑模型，在 Qwen-Image-Edit-2509 基础上，减轻图像漂移、提升人物一致性、集成 LoRA 能力、增强工业设计生成能力，以及强化几何推理能力。 该模型作为通义家族在视觉生成领域的最新尝试，专门针对“图像编辑”场景进行了优化。不同于传统的文生图模型（Text-to-Image），该模型主要解决的是“在保持原图主体结构不变的前提下，对特定区域进行精准修改”这一行业难题，为开发者和设计师提供了更高效的 AI 辅助工具。 Qwen-Image-Edit-2511 的最大亮点在于其强大的指令遵循能力（Instruction Following）。用户无需掌握复杂的 Photoshop 图层技术，也不必手动绘制选区，只需输入类似“将画面中的猫换成狗”或“移除背景中的路人”等自然语言指令，模型即可自动理解意图并执行操作。 该模型通过深度融合视觉编码器与语言模型，能够精确识别图像中的语义对象，确保在修改目标物体的同时，最大限度地保留原图的光影、纹理及背景一致性。 Qwen-Image-Edit-2511 进一步改善人物一致性，保留主体的身份特征和视觉风格的情况下，能够基于输入的人像进行富有想象力的编辑。IT之家附上相关图片如下： 新模型进一步增强了多人合影场景中的一致性表现 —— 能够将两张独立的人物图像高保真地融合为一张协调的群像照片： Qwen-Image-Edit-2511 将部分精选的热门 LoRA 直接集成到基础模型中，无需额外微调即可启用其效果。例如，光照增强 LoRA 下，用户可开箱即用地实现逼真的光照控制： Qwen-Image-Edit-2511 引入了更强的几何推理能力，例如，可直接为设计或标注目的生成辅助构造线：",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/33518f9c-2ec6-4c85-b2ac-ade557746d6f.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-12-25T06:58:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/907/909.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766647747455_4f657ee5",
+      "title": "从CDN先锋到边缘AI引领者，网宿科技高质量发展获深度认同",
+      "summary": "从CDN先锋到边缘AI引领者，网宿科技高质量发展获深度认同",
+      "content": "高质量经营+高透明治理，夯实股东回报根基；边缘AI+安全双轮驱动，拓宽增长护城河。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-25T14:00:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2025-12-25T06:53:10.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Tya5gqfshHYf17PU0G8f?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/7820918.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -304,16 +316,28 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766645103597_f59ae8c2",
-      "title": "发布 Agent OS、深度渗透垂直行业，钉钉阳谋：打造Agent 矩阵，AI 重构一切",
-      "summary": "发布 Agent OS、深度渗透垂直行业，钉钉阳谋：打造Agent 矩阵，AI 重构一切",
-      "content": "发布 Agent OS、深度渗透垂直行业，钉钉阳谋：打造Agent 矩阵，AI 重构一切",
+      "id": "news_1766647759294_4080ebf4",
+      "title": "从“抖音同款”到“豆包同款”：视频云正在进入 Agent 时代",
+      "summary": "从“抖音同款”到“豆包同款”：视频云正在进入 Agent 时代",
+      "content": "从“抖音同款”到“豆包同款”：视频云正在进入 Agent 时代",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-12-24T17:23:46.000Z",
+      "publishedAt": "2025-12-24T18:21:56.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/V74Mx6zssHhFBIz9Vv00?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/WIyikZxXtlbBAV6OtpBZ?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766647761583_a74397e7",
+      "title": "Meta详细阐述基于LLM级训练、混合并行计算与知识迁移的GEM广告模型",
+      "summary": "Meta详细阐述基于LLM级训练、混合并行计算与知识迁移的GEM广告模型",
+      "content": "Meta详细阐述基于LLM级训练、混合并行计算与知识迁移的GEM广告模型",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-24T16:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/e2dRzxx1jyRbwrKqKsfv?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1766590215692_8c37ad3d",
@@ -328,15 +352,15 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766645106679_9ec8fbf6",
-      "title": "AI 进化论丨第七期：国产服务器 OS：生态崛起与 “云 + AI” 破局之路",
-      "summary": "AI 进化论丨第七期：国产服务器 OS：生态崛起与 “云 + AI” 破局之路",
-      "content": "AI 进化论丨第七期：国产服务器 OS：生态崛起与 “云 + AI” 破局之路",
+      "id": "news_1766647762266_bc22e058",
+      "title": "穿越 AI 落地深水区：广汽、华润、星巴克等一线“突围者”的实战案例集",
+      "summary": "穿越 AI 落地深水区：广汽、华润、星巴克等一线“突围者”的实战案例集",
+      "content": "穿越 AI 落地深水区：广汽、华润、星巴克等一线“突围者”的实战案例集",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-12-24T15:18:22.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/y2EtDTKLyjoI18Xu4ZMe?utm_source=rss&utm_medium=article",
+      "publishedAt": "2025-12-24T15:25:20.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/4ySJ6K3Dg7D9FFT3YN24?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -832,7 +856,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766645064692_0",
+      "id": "news_1766647731625_0",
       "title": "Is OpenAI Falling Behind In The Artificial Intelligence 'Arms Race'?",
       "summary": "Science Artificial Intelligence Is OpenAI Falling Behind In The Artificial Intelligence 'Arms Race'? By Emma Street Dec. 23, 2025 10:15 am EST Photo A...",
       "content": "Describing AI development as an \"arms race\" might seem needlessly bombastic, but there's a reason why this term has entered common usage. It encapsulates the speed and intensity at which companies are developing and deploying AI systems. Everyone has... [4676 chars]",
@@ -868,7 +892,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766645064325_1",
+      "id": "news_1766647731127_1",
       "title": "AI Giants Sued: xAi, Meta, Google And OpenAI Under Legal Fire by Just One Man",
       "summary": "Have you ever questioned how ChatGPT or any other AI you use to ask questions or do research gets all its information? Well, that very method, so to s...",
       "content": "Have you ever questioned how ChatGPT or any other AI you use to ask questions or do research gets all its information? Well, that very method, so to speak, of how AI gets its information is now seeing a big legal fight. One man, a Pulitzer Prize winn... [4782 chars]",
@@ -1165,42 +1189,6 @@
       "publishedAt": "2025-12-23T07:44:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-23-6",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766475103508_599d0c5f",
-      "title": "华为何刚公开 nova 15 Ultra 前置出片样张，新机首发双红枫影像系统",
-      "summary": "IT之家 12 月 23 日消息，华为终端 BG 首席执行官何刚今日在微博分享了 nova 15 Ultra 的前置红枫出片样张，画面中是他与代言人易烊千玺在发布会现场的合影。",
-      "content": "IT之家 12 月 23 日消息，华为终端 BG 首席执行官何刚今日在微博分享了 nova 15 Ultra 的前置红枫出片样张，画面中是他与代言人易烊千玺在发布会现场的合影。 据IT之家昨日报道，在华为 nova 15 系列及全场景新品发布会上，nova 15 Ultra 新机官宣首发双红枫影像系统，包括：业界独家前置 5000 万红枫影像系统和全 5000 万 RYYB 红枫影像系统。 华为 nova 15 系列新机亮点信息如下： 相关阅读： 《华为 nova 15 / Pro / Ultra 系列手机发布：2699 元起、红枫影像，配置一文看懂》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/8b50032f-853e-4cc8-8a9d-701b05d55737.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-12-23T07:21:48.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/907/303.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766475083728_d25e402d",
-      "title": "给AI接上专有知识库：RAG的工程化实现",
-      "summary": "给AI接上专有知识库：RAG的工程化实现",
-      "content": "为什么AI“很聪明”，却连自家公司的事都不知道？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-12-23T07:01:32.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7817906.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766472414897_b56b2cd5",
-      "title": "realme 真我 16 Pro / Pro+ 手机影像参数公布：2 亿像素三星 HP5 主摄，明年 1 月 6 日发布",
-      "summary": "IT之家 12 月 23 日消息，realme 真我昨天在 Instagram 平台公布了 16 Pro/16 Pro+ 手机的影像参数，两台手机都将搭载 2 亿像素主摄，明年 1 月 6 日正式发布。",
-      "content": "IT之家 12 月 23 日消息，realme 真我昨天在 Instagram 平台公布了 16 Pro/16 Pro+ 手机的影像参数，两台手机都将搭载 2 亿像素主摄，明年 1 月 6 日正式发布。 据介绍，这两台手机的主摄将搭载三星 HP5 CMOS 传感器，尺寸是 1/1.56 英寸，光圈为 f/1.8，支持“全像素自动变焦”，提供 1 倍和 2 倍两种无损变焦模式，还拥有 LumaColor Image 影像算法，可呈现更真实的成片，带来生动的光影表现与准确的纹理细节。 同时，这两款手机还将引入 HyperRAW、瞬拍（IT之家注：InstantSnap）以及防畸变（Anti-Distortion）算法，可为所有焦段提供更锐利的细节、更稳定的视频拍摄，减少画面边缘畸变。 值得注意的是，realme 16 Pro+ 还将拥有“全焦段影像系统”，长焦镜头配备三星 JN5 传感器，变焦范围覆盖 0.6x-120x，适配人像、街景以及远距离摄影等拍摄场景。 视频方面，realme 16 Pro+ 可在 1x、2x、3.5x 和 7x 焦段下拍摄 4K HDR 视频，1x 和 3.5x 还支持 4K 60fps 视频录制。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/22559986-7668-42e8-b0ae-c82899b2ec65.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-12-23T06:46:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/907/262.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
