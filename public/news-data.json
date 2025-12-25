@@ -1,8 +1,68 @@
 {
   "success": true,
-  "timestamp": "2025-12-25T07:29:26.774Z",
+  "timestamp": "2025-12-25T08:38:30.251Z",
   "total": 99,
   "data": [
+    {
+      "id": "news_1766651900982_0de5a8f7",
+      "title": "直击 AICon 北京！BUILD 大会引爆现场，线上精彩同步开启",
+      "summary": "直击 AICon 北京！BUILD 大会引爆现场，线上精彩同步开启",
+      "content": "直击 AICon 北京！BUILD 大会引爆现场，线上精彩同步开启",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-25T16:04:41.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/jw14Q7AfkXrvmKUqbqpG?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766651901613_9045006c",
+      "title": "Target公司借助生成式AI推荐将“加入购物车”互动率提升11%",
+      "summary": "Target公司借助生成式AI推荐将“加入购物车”互动率提升11%",
+      "content": "Target公司借助生成式AI推荐将“加入购物车”互动率提升11%",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-25T14:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Tya5gqfshHYf17PU0G8f?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766651909095_54ab022d",
+      "title": "阿里通义 Qwen-lmage-Edit-2511 图像编辑 AI 模型开源，支持两人隔空“合照”",
+      "summary": "IT之家 12 月 25 日消息，阿里通义千问今日宣布 Qwen-Image-Edit-2511 正式开源。 Qwen-Image-Edit 是阿里通义团队推出的图像编辑模型。2511 版本中着重进行了包括一致性提升在内的多项增强，新版本的整体生成质量、尤其是人物生成质量，得到显著提升。",
+      "content": "IT之家 12 月 25 日消息，阿里通义千问今日宣布 Qwen-Image-Edit-2511 正式开源。 Qwen-Image-Edit 是阿里通义团队推出的图像编辑模型。2511 版本中着重进行了包括一致性提升在内的多项增强，新版本的整体生成质量、尤其是人物生成质量，得到显著提升。 Qwen-Image-Edit-2511 的主要特性包括： 提升了角色一致性 集成了 Lora 能力，例如打光、多场景 提升了工业设计能力 提升了几何推理能力 从具体案例来看，Qwen-Image-Edit-2511 提升了角色的一致性在 Qwen-Image-Edit-2511 中，角色的一致性获得了提升，模型可以依据输入肖像图进行具有想象力的编辑，并维持输入肖像的人物一致性。 此外，Qwen-Image-Edit-2511 的多人合照的一致性也进一步提升了。Qwen-Image-Edit-2509 相比于 Qwen-Image-Edit 提升了单人合照的一致性，而 Qwen-Image-Edit-2511 又进一步提升了多人合照的一致性，这种一致性使得可以输入两张人物照片，并返回一致性很好的合照。 Qwen-Image-Edit-2511 的一个新的特色是集成了部分社区的有趣 Lora Qwen-Image-Edit。Qwen-Image-Edit-2511 集成了这些 Lora，因此基础模型本身就具备一些 Lora 效果，例如打光的 Lora 效果可以在基础模型中展现： 再比如，新视角生成 Lora 效果也可以通过基础模型直接达成： Qwen-Image-Edit-2511 在实际工程场景中的应用，比如进行批量的工业产品设计： 或是，进行工业材质替换： 值得一提的是，在 Qwen-Image-Edit-2511 版本中，模型增加了几何推理能力，模型可以直接生成一些辅助线效果： IT之家附 Qwen-Image-Edit-2511 开源地址如下： ModelScope: https://modelscope.cn/models/Qwen/Qwen-Image-Edit-2511?spm=a2ty_o06.30285417.0.0.2304c9216VPArP Hugging Face: https://huggingface.co/Qwen/Qwen-Image-Edit-2511",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/ef721304-6789-4eca-b73a-324e0d485e04.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-12-25T08:28:39.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/907/951.htm",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766651889157_6d01fba2",
+      "title": "摆脱智能手机，可穿戴设备是否存在另一条AI路线？",
+      "summary": "摆脱智能手机，可穿戴设备是否存在另一条AI路线？",
+      "content": "“理想的AI硬件不应仅是手机或眼镜的延伸。”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-12-25T08:12:01.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7821014.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1766651909248_bc902836",
+      "title": "中国电信安全团队分析“12・22 快手遭攻击事件”：疑似攻击来源主机集中在南美，可能掩盖真实身份",
+      "summary": "IT之家 12 月 25 日消息，快手直播功能于 2025 年 12 月 22 日 22:00 左右遭到网络攻击，多个直播间出现违法内容。中国电信安全团队昨日发文，对国内知名直播平台发生重大安全事件进行了分析。 报告称，2025 年 12 月 22 日晚，国内知名直播平台发生重大安全事件。",
+      "content": "IT之家 12 月 25 日消息，快手直播功能于 2025 年 12 月 22 日 22:00 左右遭到网络攻击，多个直播间出现违法内容。中国电信安全团队昨日发文，对国内知名直播平台发生重大安全事件进行了分析。 报告称，2025 年 12 月 22 日晚，国内知名直播平台发生重大安全事件。中国电信安全团队结合“广目”空间测绘能力、“灵犀”威胁情报能力和全网安全运营经验对本次事件做了分析，得出如下结论： 自 22 日下午开始该直播平台服务器的通讯密度较往日有明显上升，这种行为可以理解为有预期地对某些结果进行频繁观测，其中主要观测流量的来源位于北美方向； 分析该直播平台的认证服务器近 7 天网络行为，观察发现：来自南美和东南亚方向的认证请求最为频繁，且活动集中在 21 日，认证数量达到了平日的 5-6 倍，偏离了日常基线； 通过 IP 行为画像分析发现，访问该平台认证服务器的多个南美方向 IP 行为模式存在明显的机器行为痕迹，主要可以归纳为 3 种行为模式，其通讯时间、通讯过程、通讯目标等存在高度的重叠，因此可基本判断应为某组织统一策划发动的； 访问该平台认证服务器的东南亚方向 IP 流量模式不是很明显，但大部分访问流量高度重合在工作时间，峰值出现在下午 14:00-17:00，非工作日更是无人查看，不太符合一般用户使用习惯画像； 通过对以上南美和东南亚方向主机在我国境内通讯目标的回溯分析，发现大部分通讯目标位于各大云运营商。 IT之家附分析结论： 本次事件从时间轴上踩点式的对认证服务器进行模式化访问，到事件即将发生前的境外吃瓜围观，均从一定程度上表现出“境外观众”对于本次事件的可预见性，从通讯目标看疑似攻击来源主机集中在南美，但实际更可能是被攻击组织控制的“肉鸡”以掩盖真实身份。 中国电信安全团队建议企业在规划网络安全体系时，需要突破单点防御的局限，转向覆盖预防、监测、响应与恢复的全局化安全治理。或者也可以选用“对结果负责”的云堤托管式安全运营服务，提供从日常监控到应急响应的全周期保障。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/10a3f563-f71f-4ee5-bf6a-0f8800d99b86.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-12-25T07:53:23.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/907/940.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1766647765772_6634003f",
       "title": "修图 AI 模型 Qwen-Image-Edit-2511 开源上线：提升角色一致性、增强几何推理",
@@ -316,28 +376,16 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766647759294_4080ebf4",
-      "title": "从“抖音同款”到“豆包同款”：视频云正在进入 Agent 时代",
-      "summary": "从“抖音同款”到“豆包同款”：视频云正在进入 Agent 时代",
-      "content": "从“抖音同款”到“豆包同款”：视频云正在进入 Agent 时代",
+      "id": "news_1766651903375_f59ae8c2",
+      "title": "发布 Agent OS、深度渗透垂直行业，钉钉阳谋：打造Agent 矩阵，AI 重构一切",
+      "summary": "发布 Agent OS、深度渗透垂直行业，钉钉阳谋：打造Agent 矩阵，AI 重构一切",
+      "content": "发布 Agent OS、深度渗透垂直行业，钉钉阳谋：打造Agent 矩阵，AI 重构一切",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2025-12-24T18:21:56.000Z",
+      "publishedAt": "2025-12-24T17:23:46.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/WIyikZxXtlbBAV6OtpBZ?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/V74Mx6zssHhFBIz9Vv00?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766647761583_a74397e7",
-      "title": "Meta详细阐述基于LLM级训练、混合并行计算与知识迁移的GEM广告模型",
-      "summary": "Meta详细阐述基于LLM级训练、混合并行计算与知识迁移的GEM广告模型",
-      "content": "Meta详细阐述基于LLM级训练、混合并行计算与知识迁移的GEM广告模型",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-24T16:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/e2dRzxx1jyRbwrKqKsfv?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1766590215692_8c37ad3d",
@@ -350,18 +398,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/907/752.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766647762266_bc22e058",
-      "title": "穿越 AI 落地深水区：广汽、华润、星巴克等一线“突围者”的实战案例集",
-      "summary": "穿越 AI 落地深水区：广汽、华润、星巴克等一线“突围者”的实战案例集",
-      "content": "穿越 AI 落地深水区：广汽、华润、星巴克等一线“突围者”的实战案例集",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-24T15:25:20.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/4ySJ6K3Dg7D9FFT3YN24?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1766590215847_889b666f",
@@ -856,7 +892,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766647731625_0",
+      "id": "news_1766651871336_0",
       "title": "Is OpenAI Falling Behind In The Artificial Intelligence 'Arms Race'?",
       "summary": "Science Artificial Intelligence Is OpenAI Falling Behind In The Artificial Intelligence 'Arms Race'? By Emma Street Dec. 23, 2025 10:15 am EST Photo A...",
       "content": "Describing AI development as an \"arms race\" might seem needlessly bombastic, but there's a reason why this term has entered common usage. It encapsulates the speed and intensity at which companies are developing and deploying AI systems. Everyone has... [4676 chars]",
@@ -892,7 +928,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1766647731127_1",
+      "id": "news_1766651871322_1",
       "title": "AI Giants Sued: xAi, Meta, Google And OpenAI Under Legal Fire by Just One Man",
       "summary": "Have you ever questioned how ChatGPT or any other AI you use to ask questions or do research gets all its information? Well, that very method, so to s...",
       "content": "Have you ever questioned how ChatGPT or any other AI you use to ask questions or do research gets all its information? Well, that very method, so to speak, of how AI gets its information is now seeing a big legal fight. One man, a Pulitzer Prize winn... [4782 chars]",
@@ -1154,42 +1190,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/907/340.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766479206737_c5b642ef",
-      "title": "思特威、豪威国产旗舰传感器大曝光：1/1.28 英寸 200Mp LOFIC，还有 50Mp 一英寸新品",
-      "summary": "IT之家 12 月 23 日消息，博主 @数码闲聊站 今日爆料了多款国产旗舰手机影像传感器的后续规划： SCC80XS / OV52A / OV52B，这 3 颗 200Mp 1/1.28\" 都有潜望长焦规划，Top5 有 3 家在测试。",
-      "content": "IT之家 12 月 23 日消息，博主 @数码闲聊站 今日爆料了多款国产旗舰手机影像传感器的后续规划： SCC80XS / OV52A / OV52B，这 3 颗 200Mp 1/1.28\" 都有潜望长焦规划，Top5 有 3 家在测试。 SCC90XS 是更高规格的 2 亿超大底，200Mp 1/1.28\"，支持新一代 LOFIC，下一代旗舰主摄。 SC5A6XS / SC5E0XS 是 50Mp 一英寸，新一代 LOFIC，下代或者下下代超大杯预定。 从型号来看，SC 开头的预计为思特威传感器，OV 开头的是豪威传感器。 结合IT之家此前报道，爆料的新品中，思特威 SCC80XS 已在今年 10 月发布，采用 22nm Stack 工艺制程，1/1.28 英寸 0.61μm 小像素尺寸，搭载思特威 PixGain HDR、SFCPixel-SL 及 AllPix ADAF 等多项技术，支持高帧率高动态范围视频录制，可适用于高端旗舰手机主摄及辅摄等多类型摄像头。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/2708ee53-8574-4be7-a92c-1094100201a3.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-12-23T07:59:32.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/907/319.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766479206779_441e6d1a",
-      "title": "深圳首个鸿蒙系统政务大厅在罗湖启用，提供“AI 秒级应答、智慧填表自动填充”等服务",
-      "summary": "IT之家 12 月 23 日消息，据“罗湖发布”公众号，深圳市首个鸿蒙系统政务大厅于 12 月 22 日（昨日）在罗湖区正式启用。",
-      "content": "IT之家 12 月 23 日消息，据“罗湖发布”公众号，深圳市首个鸿蒙系统政务大厅于 12 月 22 日（昨日）在罗湖区正式启用。 IT之家获悉，“鸿蒙政务服务中心”是以开源鸿蒙（OpenHarmony）操作系统为技术底座，集成 AI、分布式协同等智能化能力，能够提供“近场无感取号、AI 秒级应答、智慧填表自动填充”等智慧服务，市民及企业办事可告别排队取号与繁琐填报。 以 AI 数字人“智能前台”为例，其依托 5.2 万余条政务数据构建的知识图谱，具备自然语音交互能力，面对市民高频办事疑问，能实现“秒级响应”，咨询等待时间从以往平均 10 分钟以上压缩至即时应答。 而在“近场发现”服务方面，市民携带华为鸿蒙手机进入政务服务中心周边范围内，无需下载任何 App，即可通过鸿蒙元服务能力在手机完成政务服务预约取号，排队信息实时同步至鸿蒙叫号屏，实现从进门到等候的全流程无缝体验，号称让市民平均排队时间缩短 80%。 官方还介绍了“鸿蒙 +AI 智慧填表”功能，系统能自动带入已有信息字段，再加上星闪技术实现文件数据在政务终端与手机间的无感流转，配合 AI 辅助填报功能，原本需耗时整理的申报材料，95% 以上字段可智能填充，几分钟即可完成全套材料生成。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/ce95ced8-b5a2-4fe0-a34d-c3aba5a2c7f3.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-12-23T07:50:30.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/907/317.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1766479180957_c1e2f27e",
-      "title": "打通计算设计与实验执行闭环，微软、北大、上海交大联合提出科学推理模型QFANG",
-      "summary": "打通计算设计与实验执行闭环，微软、北大、上海交大联合提出科学推理模型QFANG",
-      "content": "打通计算设计与实验执行闭环，微软、北大、上海交大联合提出科学推理模型QFANG",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2025-12-23T07:44:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-23-6",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
