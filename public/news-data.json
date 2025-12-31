@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2025-12-31T08:40:37.091Z",
-  "total": 94,
+  "timestamp": "2025-12-31T09:33:48.233Z",
+  "total": 96,
   "data": [
+    {
+      "id": "news_1767173614812_30931c8e",
+      "title": "写在 Manus “卖身”后：企业级 Agent 只会更像软件，而非魔法",
+      "summary": "写在 Manus “卖身”后：企业级 Agent 只会更像软件，而非魔法",
+      "content": "写在 Manus “卖身”后：企业级 Agent 只会更像软件，而非魔法",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-31T16:48:28.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/jhKhNUoC7hikJN3EIkqJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1767170369899_dda8aa4f",
       "title": "通过对话式 AI Agent 运用 Snowflake Intelligence，从成本、安全和性能三个维度全面提升您整体系统的表现 ｜ 技术实践",
@@ -14,6 +26,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/0IdH9lQNHQt5hxNO89ub?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767173617059_d2eea37f",
+      "title": "解决 AI “不会配合” 的难题！蚂蚁数科 20 + 论文入选顶会，攻克大规模智能协作关键技术",
+      "summary": "解决 AI “不会配合” 的难题！蚂蚁数科 20 + 论文入选顶会，攻克大规模智能协作关键技术",
+      "content": "解决 AI “不会配合” 的难题！蚂蚁数科 20 + 论文入选顶会，攻克大规模智能协作关键技术",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-31T15:14:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/bjfd6q2ziWN18szfobCA?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767166268809_6269f6a5",
@@ -28,28 +52,52 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767170373763_6da36bb7",
-      "title": "从查询到行动：AI 智能体如何重塑企业决策方式 ｜ 技术实践",
-      "summary": "从查询到行动：AI 智能体如何重塑企业决策方式 ｜ 技术实践",
-      "content": "从查询到行动：AI 智能体如何重塑企业决策方式 ｜ 技术实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-31T14:26:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/A9VRy586lAlH0rf0Ap7t?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1767173626973_c199faab",
+      "title": "源 Yuan 3.0 Flash 多模态基础大模型开源发布：40B 参数规模，单次推理仅激活约 3.7B",
+      "summary": "IT之家 12 月 31 日消息，浪潮旗下 YuanLab.ai 团队 12 月 30 日开源发布源 Yuan 3.0 Flash 多模态基础大模型。 Yuan 3.0 Flash 是一款 40B 参数规模的多模态基础大模型，采用稀疏混合专家（MoE）架构，单次推理仅激活约 3.7B 参数。",
+      "content": "IT之家 12 月 31 日消息，浪潮旗下 YuanLab.ai 团队 12 月 30 日开源发布源 Yuan 3.0 Flash 多模态基础大模型。 Yuan 3.0 Flash 是一款 40B 参数规模的多模态基础大模型，采用稀疏混合专家（MoE）架构，单次推理仅激活约 3.7B 参数。 Yuan 3.0 Flash 提出和采用了强化学习训练方法（RAPO），通过反思抑制奖励机制（RIRM），从训练层面引导模型减少无效反思，在提升推理准确性的同时，大幅压缩了推理过程的 token 消耗，降低算力成本。 Yuan 3.0 Flash 由视觉编码器、语言主干网络以及多模态对齐模块组成： 语言主干网络采用局部过滤增强的 Attention 结构（LFA）和混合专家（MoE）结构，在提升注意力精度的同时，降低训练与推理的算力开销； 多模态方面，采用视觉编码器，将视觉信号转化为 token，与语言 token 一起输入到语言主干网络，通过多模态对齐模块实现高效、稳定的跨模态特征对齐； 同时，引入自适应图像分割机制，在支持高分辨率图像理解的同时，降低显存需求及算力开销。 在企业场景的 RAG（ChatRAG）、多模态检索（Docmatix）、多模态表格理解（MMTab）、摘要生成（SummEval）等任务中,Yuan 3.0 Flash 的表现已优于 GPT-5.1。 在多模态推理与语言推理评测中，Yuan 3.0 Flash（40B）精度接近 Qwen3-VL235B-A22B（235B）与 DeepSeek-R1-0528（671B），但 token 消耗仅约为其 1/4 ~ 1/2，降低了企业大模型应用成本。 Yuan 3.0 Flash 全面开源，全系列模型参数和代码均可免费下载使用，IT之家附开源地址如下： https://github.com/Yuan-lab-LLM/Yuan3.0",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/e42a051b-48f6-4260-a61f-28e09ff80601.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-12-31T09:28:55.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/909/646.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767170374895_e15d77b9",
-      "title": "不做披着Agent外衣的聊天机器人，1688 “遨虾” 正在用AI打通跨境全链路",
-      "summary": "不做披着Agent外衣的聊天机器人，1688 “遨虾” 正在用AI打通跨境全链路",
-      "content": "不做披着Agent外衣的聊天机器人，1688 “遨虾” 正在用AI打通跨境全链路",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-31T13:36:40.000Z",
+      "id": "news_1767173627126_02324948",
+      "title": "欧洲航天局承认自家“外部服务器”遭黑客入侵，没有机密信息外流",
+      "summary": "IT之家 12 月 31 日消息，据外媒 cyberinsider 报道，12 月 26 日时有一名黑客“888”在地下论坛发帖，声称其在 12 月 18 日成功入侵了欧洲航天局（European Space Agency）的内部系统，窃取了超过 200GB 的数据，并计划出售这些内容。",
+      "content": "IT之家 12 月 31 日消息，据外媒 cyberinsider 报道，12 月 26 日时有一名黑客“888”在地下论坛发帖，声称其在 12 月 18 日成功入侵了欧洲航天局（European Space Agency）的内部系统，窃取了超过 200GB 的数据，并计划出售这些内容。 根据该黑客的说法，其掌握的数据内容包括未公开的 Bitbucket 代码仓库源代码、CI / CD 流水线配置、API 接口及访问令牌、内部文档、SQL 数据库文件、Terraform 基础设施配置，以及硬编码的凭据和配置文件等。 对此，欧洲航天局在 X 平台发文，披露公司近期的确遭黑客入侵，公司在获悉相关情况后已立即展开调查，同步加强了网络安全防护措施，进一步对可能存在风险的设备进行加固，目前并未发现任何内部机密敏感数据外泄，此次事件仅影响了“极少量”的外部服务器。这些服务器主要用于“支持科学界内部的合作型工程项目”。 值得注意的是，去年同期欧洲航天局也曾发生过一起网络安全事件。当时其商品官方网站被黑客植入恶意 JavaScript 脚本，用于伪造 Stripe 支付页面，试图诱骗访问网站的用户输入信用卡信息。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/04173ad5-ff7b-4705-aa40-60650bb875b9.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-12-31T09:24:38.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/xLUE7sWGby4MF5GKpgas?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.ithome.com/0/909/643.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767173607450_cd18aed4",
+      "title": "广告业的2025：AI在狂欢，大厂在加税",
+      "summary": "广告业的2025：AI在狂欢，大厂在加税",
+      "content": "这一年，广告预算加速流量围墙花园",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2025-12-31T08:51:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7827819.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767173627231_a45c967e",
+      "title": "小米 MiMo 模型 API 公测限免时间延长 20 天，国内定价公布",
+      "summary": "IT之家 12 月 31 日消息，小米于 2025 年 12 月 16 日发布 Xiaomi MiMo-V2-Flash 开源 MoE 模型，API 限时免费 15 天。",
+      "content": "IT之家 12 月 31 日消息，小米于 2025 年 12 月 16 日发布 Xiaomi MiMo-V2-Flash 开源 MoE 模型，API 限时免费 15 天。 据IT之家小伙伴反馈，MiMo & 小米大模型 Core 团队今日发布公告，公测限免时间延长至 2026 年 1 月 20 日，支付系统将在公测结束前上线。 限免时间延长 20 天！ 原定于 2025 年 12 月底结束的免费试用期，将延后至 2026 年 1 月 20 日 14:00（北京时间）。在此期间，用户可继续免费使用 MiMo-V2-Flash 模型 API，使用其核心功能，包括高效文本生成、代码处理等。此次延期旨在回馈广大用户的信任与支持，同时鼓励更多用户参与测试，提供宝贵反馈，我们将进一步优化模型性能、提升用户体验，并确保在正式发布前进行全面的安全测试。 支付能力系统上线预告 XiaomiMiMo API 开放平台的支付能力系统将于公测结束前启用，并进行为期一周左右的试运行（具体试运行阶段以后续公告为准）。试用期间用户可进行账户充值，为不影响正常使用，保证自身服务稳定，建议大家提前充值账户。 附模型 API 定价：国内：输入 ¥0.7/M tokens，输出 ¥2.1/M tokens；海外：输入 $0.1/M tokens，输出 $0.3/M tokens。更多详情将于近期公布，敬请关注官网公告更新及开放平台微信群通知。 Xiaomi MiMo-V2-Flash 开源 MoE 模型总参数量 309B，活跃参数量 15B，专为智能体 AI 设计，专注于快。 小米官方介绍称，这是一个专为极致推理效率自研的总参数 309B（激活 15B）的 MoE 模型，通过 Hybrid 注意力架构创新及多层 MTP 推理加速，在多个 Agent 测评基准上保持进入全球开源模型 Top 2；代码能力超过所有开源模型，比肩标杆闭源模型 Claude 4.5 Sonnet，但推理成本仅为其 2.5%，生成速度提升 2 倍。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/a806634c-d497-44cc-a521-090edb7ab0ad.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2025-12-31T08:34:15.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/909/621.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767170343592_38062bba",
@@ -388,7 +436,19 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767170337606_0",
+      "id": "news_1767173586499_0",
+      "title": "Docebo Announces Participation in Upcoming Investor Conferences in January",
+      "summary": "TORONTO--(BUSINESS WIRE)--Docebo Inc. (NASDAQ: DCBO, TSX: DCBO), a leading learning platform provider with a foundation in artificial intelligence (AI...",
+      "content": "TORONTO--(BUSINESS WIRE)--Docebo Inc. (NASDAQ: DCBO, TSX: DCBO), a leading learning platform provider with a foundation in artificial intelligence (AI) and innovation, announced today that members of its management team will present at the following ... [923 chars]",
+      "imageUrl": "https://mms.businesswire.com/media/20251230510006/en/1093909/22/docebo-logo-2021-0068D9.jpg",
+      "source": "Business Wire",
+      "publishedAt": "2025-12-30T21:01:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.businesswire.com/news/home/20251230510006/en/Docebo-Announces-Participation-in-Upcoming-Investor-Conferences-in-January",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1767173586723_1",
       "title": "Report: Apple's AI Strategy Could Finally Pay Off in 2026",
       "summary": "Apple's restrained artificial intelligence strategy may pay off in 2026 amid the arrival of a revamped Siri and concerns around the AI market \"bubble\"...",
       "content": "Apple's restrained artificial intelligence strategy may pay off in 2026 amid the arrival of a revamped Siri and concerns around the AI market \"bubble\" bursting, The Information argues.\nThe speculative report notes that Apple has taken a restrained ap... [2602 chars]",
@@ -916,7 +976,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767170336966_1",
+      "id": "news_1767173587602_2",
       "title": "OpenAI says it's hiring a head safety executive to mitigate AI risks",
       "summary": "OpenAI is seeking a new \"head of preparedness\" to guide the company's safety strategy amid mounting concerns over how artificial intelligence tools co...",
       "content": "OpenAI is seeking a new \"head of preparedness\" to guide the company's safety strategy amid mounting concerns over how artificial intelligence tools could be misused.\nAccording to the job posting, the new hire will be paid $555,000 to lead the company... [3200 chars]",
@@ -1000,7 +1060,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767170336783_2",
+      "id": "news_1767173586938_3",
       "title": "A $555,000 Job Is Up in OpenAI as Sam Altman Looks to Hire an AI Tech Expert - Here's How to Apply",
       "summary": "An end-of-the-year opportunity has come if you are a tech expert looking for a job in AI. The most significant tech role in the industry is now open a...",
       "content": "An end-of-the-year opportunity has come if you are a tech expert looking for a job in AI. The most significant tech role in the industry is now open as OpenAI, the maker of ChatGPT, has gone viral once again with a superb job opening. The big ChatGPT... [4647 chars]",
@@ -1094,42 +1154,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/908/957.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767001155771_ede3b63e",
-      "title": "淘宝闪购副总裁陈浩：行业的发展并不体现在速度上，而是体现在温度里",
-      "summary": "12 月 29 日下午消息，近日，2025 年同城即时物流行业年会上，淘宝闪购副总裁陈浩表示，平台将坚决投入、加大投入、长期投入即时物流新基建，继续夯实骑士保障、持续推进职业化进程，带来一站式即时生活服务。",
-      "content": "12 月 29 日下午消息，近日，2025 年同城即时物流行业年会上，淘宝闪购副总裁陈浩表示，平台将坚决投入、加大投入、长期投入即时物流新基建，继续夯实骑士保障、持续推进职业化进程，带来一站式即时生活服务。 据介绍，随着完成品牌融合焕新，实现商品、库存、运力、营销一体化协同，淘宝闪购正持续夯实物流服务基建。通过深耕全时段消费场景，淘宝闪购高效的配送服务正在重构“时间 × 空间 × 需求”，让消费者 24 小时随心点、随心享。 数据显示，依托门店、闪购仓、品与 AI 超算能力，淘宝闪购让“对的商品”在“对的时间”出现在“对的地点”，过去一年上线了 30 多万家门店，闪购仓拥有超 1 万 8 千个 SKU，品牌商全面入局；8 月，淘宝闪购日均活跃骑士超 200 万人，平台日订单峰值达 1.2 亿单，月度交易买家数突破 3 亿。 其中，淘宝闪购推出业内首个 AI 助手，每位骑士只要动动嘴，就能通过语音实时获得帮助，骑士 AI 助手可以在几秒钟内给出贴心提醒和服务。从安全求助、咨询申诉到快速响应，目前每天已主动服务超过 6000 万次。 “征服星辰大海，也呵护人间烟火。行业的发展并不体现在速度上，而是体现在温度里。未来，我们将继续以技术为引擎，以责任为底座，在推动即时物流高质量发展的同时，坚定守护每一位参与者的尊严与价值，推动城市骑士迈向有技能认证、有成长发展、有社会保障、有职业尊严的现代服务业。”陈浩表示。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/06349cf6-b165-4488-b35b-97b35e66259a.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-12-29T09:23:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/908/933.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767001155806_7ddca890",
-      "title": "哈工大、博实股份联合发布两款人形机器人：7 自由度串并混联机械臂，自研 AI 大模型",
-      "summary": "IT之家 12 月 29 日消息，据哈尔滨工业大学（哈工大）今日消息，哈工大机电工程学院付宜利教授、倪风雷教授团队联合校友企业博实股份在人形机器人的双形态人形机器人整机、多型号关节模组、双版本灵巧手及智能控制算法等方面取得了阶段性成果。",
-      "content": "IT之家 12 月 29 日消息，据哈尔滨工业大学（哈工大）今日消息，哈工大机电工程学院付宜利教授、倪风雷教授团队联合校友企业博实股份在人形机器人的双形态人形机器人整机、多型号关节模组、双版本灵巧手及智能控制算法等方面取得了阶段性成果。 在人形机器人整机方面，研发团队形成了双足与轮式两款差异化架构的人形机器人平台。其中： 双足人形机器人样机主要面向非结构化、复杂地形环境中巡检与辅助作业任务。 轮式人形机器人样机则采用专注于平坦地面环境下的室内服务、物料搬运与精准作业任务。 两款机型均搭载 7 自由度串并混联机械臂，具备全关节力控功能，保障安全人机交互与精细柔顺操作。 在核心关节模组方面，团队自研集成扭矩传感器的摆线旋转关节与纯滚动准直驱的摆线旋转关节，实现了机械臂关节在仅 5kg 自重下具备 5kg 的负载能力，以及腿部关节最大扭矩达 400Nm。此外，团队在直线关节上还实现了传感器与控制器的深度集成，最大推力达 10000N。 在灵巧手方面，团队研制了两种灵巧手方案： 一款为具有 20 关节、15 主动自由度的高性能灵巧手； 另一款为具有 11 关节、7 主动自由度的欠驱动轻量化灵巧手。 传动系统采用原创刚性肌腱方案，使单根手指能输出 30N 以上的动态指尖力，所有主动关节均集成双编码器与扭矩传感器，具备精细运动与柔顺力控能力。 ▲ 两款灵巧手 ▲ 反馈力控柔顺抓取 ▲ 主动指尖力 在智能控制算法方面，团队采用哈工大自研“活字-日新”大模型作为机器人的智能中枢，提供语音对话、指令理解与任务分解能力。 团队还为机器人集成了自主导航与视觉能力。团队在控制上采取模型预测控制结合全身控制与强化学习的双路线并行策略，实现了机器人在复杂环境下的稳定运动。 IT之家查询公开资料获悉，博实股份是由哈尔滨工业大学及机器人研究所科研骨干创办的科技型企业。该公司创建于 1997 年，是专业从事智能制造装备及工业机器人研发、生产、销售、服务，并围绕系列产品提供智能工厂整体解决方案的高新技术企业。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/cf6f1d76-bd75-4773-97b7-695601ab2048.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-12-29T09:13:37.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/908/926.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767001155966_cb9becb7",
-      "title": "17 岁少年利用 ChatGPT 编写恶意程序，窃取日本最大网咖 725 万会员信息",
-      "summary": "IT之家 12 月 29 日消息，据读卖新闻报道，日本国内最大连锁网咖“快活 CLUB”于今年 1 月 18 日至 20 日遭黑客攻击，服务器中超过 700 万条会员个人信息被非法窃取。警方调查发现，幕后黑手并非职业黑客，而是一名 17 岁少年。",
-      "content": "IT之家 12 月 29 日消息，据读卖新闻报道，日本国内最大连锁网咖“快活 CLUB”于今年 1 月 18 日至 20 日遭黑客攻击，服务器中超过 700 万条会员个人信息被非法窃取。警方调查发现，幕后黑手并非职业黑客，而是一名 17 岁少年。 警方指出，涉案嫌疑人为一名关西大阪地区的高中二年级男学生，其成功绕过 ChatGPT 平台限制，在 AI 配合下打造了一款恶意程序，从而对“快活 CLUB”发动攻击，最终成功下载服务器中存储的约 725 万份会员资料。 具体来说，该恶意程序可向快活 CLUB 的服务器发送伪造指令，绕过系统对会员数据的访问限制，从而非法获取了包括会员姓名、住址、电话号码、入会时间及会员编号在内的大量敏感信息。攻击过程中，公司的部分系统功能一度中断，对快活 CLUB 的正常运营造成了严重影响。 警方调查显示，这名少年并非出身于专业黑客组织，但从小自学编程，并曾在信息安全或黑客相关竞赛中获奖，具备相当扎实的技术基础。警方进一步调查发现，其所使用的恶意程序正是借助 ChatGPT 完成编写。尽管生成式 AI 平台普遍设置了针对恶意代码的防护和限制，但只要通过特定话术或对需求进行“包装”，就有可能绕过这些限制，让 AI 协助生成具有实际攻击能力的工具。 至于涉案嫌疑人的作案动机，警方表示，该学生是为了获取他人的信用卡信息，用于在网上购买宝可梦卡片。尽管其在被捕后辩称只是“测试网站是否存在安全漏洞”，但这一说法并未被警方采信。 网络安全专家指出，随着生成式 AI 的普及，黑客门槛正大幅降低。即便用户缺乏深厚的编程或网络安全背景，但只要掌握 AI 工具的使用方法，就可能写出具备实战能力的恶意程序，即使平台事先设置了多重限制，但自然语言本身具有极高的灵活性，只要有明确目的，往往就能通过不断调整表述方式绕过现有限制机制，因此如何杜绝这种现象，将成为未来网络安全防护面临的一大挑战。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/3fbdab1d-e2ad-458e-b5d0-106ae6035106.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-12-29T08:55:38.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/908/917.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
