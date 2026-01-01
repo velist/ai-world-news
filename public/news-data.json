@@ -1,19 +1,19 @@
 {
   "success": true,
-  "timestamp": "2026-01-01T05:36:18.608Z",
-  "total": 84,
+  "timestamp": "2026-01-01T06:46:33.529Z",
+  "total": 80,
   "data": [
     {
-      "id": "news_1767245764044_d9878bc7",
-      "title": "CNCF 推出 Kubernetes AI 一致性认证计划，旨在标准化工作负载",
-      "summary": "CNCF 推出 Kubernetes AI 一致性认证计划，旨在标准化工作负载",
-      "content": "CNCF 推出 Kubernetes AI 一致性认证计划，旨在标准化工作负载",
+      "id": "news_1767249961558_ef7aa76a",
+      "title": "孟晚舟发新年致辞，华为要重新“盖房子”",
+      "summary": "孟晚舟发新年致辞，华为要重新“盖房子”",
+      "content": "孟晚舟说了什么？华为2026的仗又会怎么打？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-01T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/DH2lkgylfWlybKZ7RUD5?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "钛媒体",
+      "publishedAt": "2026-01-01T05:52:13.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7828586.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767240895827_48c1929b",
@@ -76,6 +76,18 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1767249976429_30931c8e",
+      "title": "写在 Manus “卖身”后：企业级 Agent 只会更像软件，而非魔法",
+      "summary": "写在 Manus “卖身”后：企业级 Agent 只会更像软件，而非魔法",
+      "content": "写在 Manus “卖身”后：企业级 Agent 只会更像软件，而非魔法",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-31T16:48:28.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/jhKhNUoC7hikJN3EIkqJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1767170369899_dda8aa4f",
       "title": "通过对话式 AI Agent 运用 Snowflake Intelligence，从成本、安全和性能三个维度全面提升您整体系统的表现 ｜ 技术实践",
       "summary": "通过对话式 AI Agent 运用 Snowflake Intelligence，从成本、安全和性能三个维度全面提升您整体系统的表现 ｜ 技术实践...",
@@ -86,6 +98,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/0IdH9lQNHQt5hxNO89ub?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767249981710_d2eea37f",
+      "title": "解决 AI “不会配合” 的难题！蚂蚁数科 20 + 论文入选顶会，攻克大规模智能协作关键技术",
+      "summary": "解决 AI “不会配合” 的难题！蚂蚁数科 20 + 论文入选顶会，攻克大规模智能协作关键技术",
+      "content": "解决 AI “不会配合” 的难题！蚂蚁数科 20 + 论文入选顶会，攻克大规模智能协作关键技术",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-31T15:14:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/bjfd6q2ziWN18szfobCA?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767194989131_bb7ab670",
@@ -124,18 +148,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767245771714_6da36bb7",
-      "title": "从查询到行动：AI 智能体如何重塑企业决策方式 ｜ 技术实践",
-      "summary": "从查询到行动：AI 智能体如何重塑企业决策方式 ｜ 技术实践",
-      "content": "从查询到行动：AI 智能体如何重塑企业决策方式 ｜ 技术实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-31T14:26:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/A9VRy586lAlH0rf0Ap7t?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1767191333074_374dea58",
       "title": "三星将在 CES 2026 发布全新厨房家电阵容，首次将谷歌 Gemini 塞进冰箱",
       "summary": "IT之家 12 月 31 日消息，三星电子宣布参展 2026 年 1 月 6 日开幕的 CES 2026，发布全新厨房家电产品阵容，包括全新 Bespoke AI 冰箱、Over-the-range（OTR）微波炉与 Slide-in Range。",
@@ -158,18 +170,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/909/701.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767245772971_e15d77b9",
-      "title": "不做披着Agent外衣的聊天机器人，1688 “遨虾” 正在用AI打通跨境全链路",
-      "summary": "不做披着Agent外衣的聊天机器人，1688 “遨虾” 正在用AI打通跨境全链路",
-      "content": "不做披着Agent外衣的聊天机器人，1688 “遨虾” 正在用AI打通跨境全链路",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-31T13:36:40.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/xLUE7sWGby4MF5GKpgas?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767185916021_a4b6d74e",
@@ -664,7 +664,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767245737004_0",
+      "id": "news_1767249936598_0",
       "title": "Docebo Announces Participation in Upcoming Investor Conferences in January",
       "summary": "TORONTO--(BUSINESS WIRE)--Docebo Inc. (NASDAQ: DCBO, TSX: DCBO), a leading learning platform provider with a foundation in artificial intelligence (AI...",
       "content": "TORONTO--(BUSINESS WIRE)--Docebo Inc. (NASDAQ: DCBO, TSX: DCBO), a leading learning platform provider with a foundation in artificial intelligence (AI) and innovation, announced today that members of its management team will present at the following ... [923 chars]",
@@ -676,7 +676,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1767245736498_1",
+      "id": "news_1767249936918_1",
       "title": "Report: Apple's AI Strategy Could Finally Pay Off in 2026",
       "summary": "Apple's restrained artificial intelligence strategy may pay off in 2026 amid the arrival of a revamped Siri and concerns around the AI market \"bubble\"...",
       "content": "Apple's restrained artificial intelligence strategy may pay off in 2026 amid the arrival of a revamped Siri and concerns around the AI market \"bubble\" bursting, The Information argues.\nThe speculative report notes that Apple has taken a restrained ap... [2602 chars]",
@@ -962,54 +962,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-30-6",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767077103734_63c06ea4",
-      "title": "我国已迈入制造强国行列！全球第 4 个实现，未来 10 年目标公布",
-      "summary": "IT之家 12 月 30 日消息，据央视新闻报道，《2025 中国制造强国发展指数报告》《中国制造业重点领域技术创新绿皮书 — 技术路线图（2025）》发布会于今日在北京召开。",
-      "content": "IT之家 12 月 30 日消息，据央视新闻报道，《2025 中国制造强国发展指数报告》《中国制造业重点领域技术创新绿皮书 — 技术路线图（2025）》发布会于今日在北京召开。 《报告》显示，2024 年，我国制造业顶压前行、向新向优，制造强国发展指数与德国和日本处于同一区间，各分项数值均实现正增长，进入全球制造强国第二阵列，成功实现制造强国建设“第一步走”战略目标，成为了继美国、德国、日本后第四个迈入全球制造强国行列的国家。 IT之家从报道获悉，未来十年是制造强国建设“第二步走”的关键时期，要把发展制造业作为党和国家的长期战略，牢牢确立实体经济在国民经济中的重要地位，保持制造业合理比重，推进制造业提质增效与转型升级，坚持以创新为根本动力，突出工业强基重要战略地位，加快人工智能赋能新型工业化，构建绿色能源体系与绿色制造体系，实现到 2035 年，我国基本实现新型工业化，迈入世界制造强国前列。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/9c0acc40-b16c-466b-97ef-d53d73a7bd7e.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-12-30T06:41:10.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/909/188.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767077103906_a73b4ff2",
-      "title": "1 元租个机器人，擎天租上线“1 元闪租”服务",
-      "summary": "IT之家 12 月 30 日消息，在全国机器人租赁生态峰会暨平台发布会结束后，擎天租（上海）科技有限公司近期上线“1 元闪租”服务，当前该活动已经开启预约，用户能够通过活动专属预约二维码进行扫码预约。",
-      "content": "IT之家 12 月 30 日消息，在全国机器人租赁生态峰会暨平台发布会结束后，擎天租（上海）科技有限公司近期上线“1 元闪租”服务，当前该活动已经开启预约，用户能够通过活动专属预约二维码进行扫码预约。 据了解，本次“1 元闪租”在北京、上海、广州、深圳、杭州、郑州、成都、苏州、厦门、重庆等十座核心城市展开，擎天租通过统一的设备调度体系、服务流程和人员保障机制，实现人形机器人在多城、多场景下的同步部署与稳定运行。 据官方介绍，擎天租的智能灵动机器人具备拟人交互、生命体征模拟、自主任务执行等核心能力，适用于商业促销、节日庆典、企业年会、演唱会等多种场景。 12 月 22 日，全国首个开放式机器人租赁平台“擎天租”在上海发布。该平台目前已覆盖全国 50 个核心城市、超 600 家服务商，提供多个品牌、多种型号的机器人租赁服务，租金价格从 200 元到超万元不等。预计 2026 年，平台租赁服务将覆盖全国超 200 个城市，用户可通过小程序、商城等渠道直接下单。 据IT之家此前报道，“擎天租”平台由智元机器人推出，官方曾在本月早些时候如此介绍该平台：“当机器人租赁从零散服务走向生态化布局，当‘像租充电宝一样租机器人’的构想成为现实，一场构建行业规则的变革已悄然开启。”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/aa759c3f-d22b-4e51-ab0b-0f6a1055987f.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-12-30T06:29:05.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/909/181.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767077077836_2ba911dc",
-      "title": "全球AI制药领军企业英矽智能成功登陆港交所 | 公司动态",
-      "summary": "全球AI制药领军企业英矽智能成功登陆港交所 | 公司动态",
-      "content": "将继续加大在人工智能平台和创新管线上的投入。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-12-30T06:20:29.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7825831.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767077080706_12440543",
-      "title": "Meta买下Manus，买的是AI变现模板",
-      "summary": "Meta买下Manus，买的是AI变现模板",
-      "content": "AI竞争从“回答”转向“交付结果”。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-12-30T06:06:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7825802.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
