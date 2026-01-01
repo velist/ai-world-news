@@ -1,30 +1,18 @@
 {
   "success": true,
-  "timestamp": "2026-01-01T09:34:27.064Z",
-  "total": 77,
+  "timestamp": "2026-01-01T10:32:48.480Z",
+  "total": 71,
   "data": [
     {
-      "id": "news_1767260048053_3dd29b89",
-      "title": "米其林以务实路线迈向AIOps，并无宏大愿景",
-      "summary": "米其林以务实路线迈向AIOps，并无宏大愿景",
-      "content": "米其林以务实路线迈向AIOps，并无宏大愿景",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-01T15:14:00.000Z",
+      "id": "news_1767263567477_db5b0a7a",
+      "title": "智元发布第二代一体化具身大小脑系统 GenieReasoner，推理能力达 SOTA",
+      "summary": "IT之家 1 月 1 日消息，智元具身研究中心今日宣布推出第二代一体化具身大小脑系统 GenieReasoner。",
+      "content": "IT之家 1 月 1 日消息，智元具身研究中心今日宣布推出第二代一体化具身大小脑系统 GenieReasoner。 针对 VLA 模型中语义推理与动作控制的模态对齐难题，智元具身研究中心提出了一种支持统一离散化预训练的模型架构，并通过流匹配（Flow-matching）缓解了传统离散 Tokenizer 的动作精度瓶颈。 同时具身研究中心开源了 ERIQ-聚焦于真机操控全流程的具身推理评测基准，用以解耦量化评估 VLA 中具身大脑不同维度的推理能力。 实验表明，GenieReasoner 不仅在推理能力上达到 SOTA，更在跨本体真机实验中展现了 SOTA 级别的泛化性。进一步的对比实验证实：VLA 模型更强的具身推理能力可显著提升其端到端动作执行表现，从而验证了 ERIQ 的评估价值。 下一步，智元具身研究中心将从“逻辑深度”与“执行精度”两个维度持续推进，并致力于实现具身大小脑、世界模型（World Model）与真机强化学习（Real-world RL）的闭环协同。 智元具身研究中心已将 ERIQ Benchmark 完全开源，IT之家附项目地址如下： https://geniereasoner.github.io/GenieReasoner/",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/3ef0405b-446a-4dc8-8cc1-f59cc0d29840.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-01T09:56:15.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/ZaNCAZsLZJKe6OaTTqAx?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767260050108_d9878bc7",
-      "title": "CNCF 推出 Kubernetes AI 一致性认证计划，旨在标准化工作负载",
-      "summary": "CNCF 推出 Kubernetes AI 一致性认证计划，旨在标准化工作负载",
-      "content": "CNCF 推出 Kubernetes AI 一致性认证计划，旨在标准化工作负载",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-01T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/DH2lkgylfWlybKZ7RUD5?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/0/909/824.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -160,6 +148,18 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1767263553953_30931c8e",
+      "title": "写在 Manus “卖身”后：企业级 Agent 只会更像软件，而非魔法",
+      "summary": "写在 Manus “卖身”后：企业级 Agent 只会更像软件，而非魔法",
+      "content": "写在 Manus “卖身”后：企业级 Agent 只会更像软件，而非魔法",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-31T16:48:28.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/jhKhNUoC7hikJN3EIkqJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1767170369899_dda8aa4f",
       "title": "通过对话式 AI Agent 运用 Snowflake Intelligence，从成本、安全和性能三个维度全面提升您整体系统的表现 ｜ 技术实践",
       "summary": "通过对话式 AI Agent 运用 Snowflake Intelligence，从成本、安全和性能三个维度全面提升您整体系统的表现 ｜ 技术实践...",
@@ -170,6 +170,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/0IdH9lQNHQt5hxNO89ub?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767263557930_d2eea37f",
+      "title": "解决 AI “不会配合” 的难题！蚂蚁数科 20 + 论文入选顶会，攻克大规模智能协作关键技术",
+      "summary": "解决 AI “不会配合” 的难题！蚂蚁数科 20 + 论文入选顶会，攻克大规模智能协作关键技术",
+      "content": "解决 AI “不会配合” 的难题！蚂蚁数科 20 + 论文入选顶会，攻克大规模智能协作关键技术",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2025-12-31T15:14:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/bjfd6q2ziWN18szfobCA?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767194989131_bb7ab670",
@@ -208,18 +220,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767260059887_6da36bb7",
-      "title": "从查询到行动：AI 智能体如何重塑企业决策方式 ｜ 技术实践",
-      "summary": "从查询到行动：AI 智能体如何重塑企业决策方式 ｜ 技术实践",
-      "content": "从查询到行动：AI 智能体如何重塑企业决策方式 ｜ 技术实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-31T14:26:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/A9VRy586lAlH0rf0Ap7t?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1767191333074_374dea58",
       "title": "三星将在 CES 2026 发布全新厨房家电阵容，首次将谷歌 Gemini 塞进冰箱",
       "summary": "IT之家 12 月 31 日消息，三星电子宣布参展 2026 年 1 月 6 日开幕的 CES 2026，发布全新厨房家电产品阵容，包括全新 Bespoke AI 冰箱、Over-the-range（OTR）微波炉与 Slide-in Range。",
@@ -242,18 +242,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/909/701.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767260061460_e15d77b9",
-      "title": "不做披着Agent外衣的聊天机器人，1688 “遨虾” 正在用AI打通跨境全链路",
-      "summary": "不做披着Agent外衣的聊天机器人，1688 “遨虾” 正在用AI打通跨境全链路",
-      "content": "不做披着Agent外衣的聊天机器人，1688 “遨虾” 正在用AI打通跨境全链路",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-31T13:36:40.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/xLUE7sWGby4MF5GKpgas?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767185916021_a4b6d74e",
@@ -748,7 +736,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767260014197_0",
+      "id": "news_1767263517435_0",
       "title": "Docebo Announces Participation in Upcoming Investor Conferences in January",
       "summary": "TORONTO--(BUSINESS WIRE)--Docebo Inc. (NASDAQ: DCBO, TSX: DCBO), a leading learning platform provider with a foundation in artificial intelligence (AI...",
       "content": "TORONTO--(BUSINESS WIRE)--Docebo Inc. (NASDAQ: DCBO, TSX: DCBO), a leading learning platform provider with a foundation in artificial intelligence (AI) and innovation, announced today that members of its management team will present at the following ... [923 chars]",
@@ -760,7 +748,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1767260013628_1",
+      "id": "news_1767263518356_1",
       "title": "Report: Apple's AI Strategy Could Finally Pay Off in 2026",
       "summary": "Apple's restrained artificial intelligence strategy may pay off in 2026 amid the arrival of a revamped Siri and concerns around the AI market \"bubble\"...",
       "content": "Apple's restrained artificial intelligence strategy may pay off in 2026 amid the arrival of a revamped Siri and concerns around the AI market \"bubble\" bursting, The Information argues.\nThe speculative report notes that Apple has taken a restrained ap... [2602 chars]",
@@ -866,66 +854,6 @@
       "category": "国内AI",
       "originalUrl": "https://36kr.com/newsflashes/3617914126025728?f=rss",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767090794051_6e568e8d",
-      "title": "L4级智能体母体系统MasterAgent全面开放",
-      "summary": "12月30日，全球首个L4级智能体母体系统MasterAgent全面开放，正式推出付费服务，以全栈自主研发核心优势直面国际竞争。据介绍，该产品聚焦“安全可控”，构建全链路全国产化技术栈，摆脱外部技术依赖，满足数据安全合规需求，填补国产多智能体协作平台空白。",
-      "content": "12月30日，全球首个L4级智能体母体系统MasterAgent全面开放，正式推出付费服务，以全栈自主研发核心优势直面国际竞争。据介绍，该产品聚焦“安全可控”，构建全链路全国产化技术栈，摆脱外部技术依赖，满足数据安全合规需求，填补国产多智能体协作平台空白。MasterAgent的框架式设计实现了对Manus等传统智能体单体调度模式的突破，无需复杂编程，通过自然语言指令即可分钟级生成多智能体集群，支持无限场景拓展。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2025-12-30T10:29:44.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/newsflashes/3617891685352452?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767090782838_7d3cf047",
-      "title": "腾讯混元开源翻译模型1.5，端侧可部署，效果超越商用API",
-      "summary": "腾讯混元开源翻译模型1.5，端侧可部署，效果超越商用API",
-      "content": "腾讯混元开源翻译模型1.5，端侧可部署，效果超越商用API",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2025-12-30T09:54:27.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2025-12-30-8",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767090799800_6522ba65",
-      "title": "走到IPO门口，中国大模型终于算了一回账",
-      "summary": "走到IPO门口，中国大模型终于算了一回账",
-      "content": "大模型第一股之争拉开序幕。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-12-30T09:53:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7826316.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767090801326_a506af35",
-      "title": "2026，保持悲观的乐观主义",
-      "summary": "通付盾创始人汪德嘉以“悲观的乐观主义”展望2026：清醒看待AI资本泡沫，坚定智能体创造真实商业价值的路径。强调企业须以务实“固本”支撑长期“发展”，在AI浪潮中锚定方向，稳健前行。",
-      "content": "通付盾创始人汪德嘉以“悲观的乐观主义”展望2026：清醒看待AI资本泡沫，坚定智能体创造真实商业价值的路径。强调企业须以务实“固本”支撑长期“发展”，在AI浪潮中锚定方向，稳健前行。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2025-12-30T09:49:44.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/7826002.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767090818372_744429fb",
-      "title": "蔡磊病情接近终末期 失声前视频公布：渐冻症重大突破性跨越应该就在这几年，部分类型新病人可以活下来了！",
-      "summary": "IT之家 12 月 30 日消息，梨视频官方今日发布了“回声 2025 | 蔡磊失声前录下的话”视频，回访了渐冻症抗争者、攻克渐冻症慈善信托创立者蔡磊。据称，蔡磊的渐冻症病情已经进入晚期，接近终末期。 蔡磊称，渐冻症重大突破性的跨越应该就在这几年，他呼吁大家多关注科研与合作，那是疑难病人的生命希望。",
-      "content": "IT之家 12 月 30 日消息，梨视频官方今日发布了“回声 2025 | 蔡磊失声前录下的话”视频，回访了渐冻症抗争者、攻克渐冻症慈善信托创立者蔡磊。据称，蔡磊的渐冻症病情已经进入晚期，接近终末期。 蔡磊称，渐冻症重大突破性的跨越应该就在这几年，他呼吁大家多关注科研与合作，那是疑难病人的生命希望。蔡磊本人的微博也转发了该视频，并透露现在部分类型的渐冻症新病人可以站起来了，可以活下来了！他还表示，后天元旦，将分享更加振奋的视频。 IT之家另附“回声 2025 | 蔡磊失声前录下的话”视频末蔡磊书如下： 蔡磊书于 2025 年底： 全身瘫软，完全丧失语言能力，本来到此时刻，全世界已经没有人会知道我在想什么。凭借科技手段，我依然还可以奇迹般地继续战斗和工作，坚守在人类难题的生死时速战场上。 总分 48 分的渐冻症病情评分我现在只剩个位数，进入晚期，接近终末期。从身体方面，日夜时刻在经受着常人无法想象的痛苦与折磨。但活着，更多的意义又来自精神和意识，通过眼控系统我继续着满负荷的工作，继续为人类难题而投身科研与合作工作，想到让无数病友得到生命救治的希望越来越大，内心没有痛苦，反而是快乐和幸运。 应该说历史已经被部分改写。单基因渐冻症已经重大突破，可以说攻克了，病人不用再死去，早期用药甚至可以回归健康生活。其余散发类型的希望也越来越大，这非常确定，不仅因为几百条药物管线在推进，而且通过 AI 在急速加快。重大突破性的跨越应该就在这几年。 作为人类 200 年的难题，攻克渐冻症太难了，需要共同的关注，才能尽多地链接、找寻答案。同时，在历史被改写之前，我的身体必然持续下滑，这不重要，重要的是科研在持续加速进展，请大家多关注科研与合作，那是疑难病人的生命希望。 相关阅读： 《渐冻人蔡磊回应身体近况，已准备好尝试脑机接口》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/8e98e16b-ce9a-4758-a37d-b3a4628e2d8e.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2025-12-30T09:37:59.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/909/287.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
