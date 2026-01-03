@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-01-02T23:27:31.148Z",
-  "total": 51,
+  "timestamp": "2026-01-03T02:09:57.002Z",
+  "total": 47,
   "data": [
+    {
+      "id": "news_1767406184095_60c61b8e",
+      "title": "Java近期资讯：Spring Vault、LangChain4j、Seed4J、Infinispan、Gradle",
+      "summary": "Java近期资讯：Spring Vault、LangChain4j、Seed4J、Infinispan、Gradle...",
+      "content": "Java近期资讯：Spring Vault、LangChain4j、Seed4J、Infinispan、Gradle",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-03T08:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/LyXHACSluGvTUaB4HeTg?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1767374748639_af05da7b",
       "title": "Sebastian Raschka万字年终复盘：2025，属于「推理模型」的一年",
@@ -88,7 +100,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767396450145_cafd2cab",
+      "id": "news_1767406196000_cafd2cab",
       "title": "小米公司发言人：某博主的小米 17 Ultra 徕卡版拆机内容被断章取义，其本人已发布澄清内容",
       "summary": "IT之家 1 月 2 日消息，小米公司发言人今晚发布《关于小米 17 Ultra 徕卡版变焦环结构原理的说明》：近日大量社交媒体账号发布视频，对某拆机博主的小米 17 Ultra 徕卡版拆机内容断章取义、歪曲解读，称“变焦环造假，是软件调控”。这一说法，与事实严重不符。",
       "content": "IT之家 1 月 2 日消息，小米公司发言人今晚发布《关于小米 17 Ultra 徕卡版变焦环结构原理的说明》：近日大量社交媒体账号发布视频，对某拆机博主的小米 17 Ultra 徕卡版拆机内容断章取义、歪曲解读，称“变焦环造假，是软件调控”。这一说法，与事实严重不符。针对相关恶意歪曲、误导性传播，原拆机博主本人已发布澄清内容。 关于变焦环结构原理，小米辟谣澄清如下： 小米 17 Ultra 徕卡版的变焦环机械结构，复杂且精密，是通过旋转外部变焦环，带动内部的齿轮组转动。齿轮组中的小齿轮带动齿轮轴运动，长焦模组侧边的光学位移传感器检测轴体位移，可精准识别变焦环转动的角度，并将其转换为电信号，实现物理转动控制手机变焦的创新性交互。 同时变焦环还支持用户进行自定义设置，如调节 EV，滤镜等。让不同的用户都可以选择自己最常用的调节参数。 据IT之家此前报道，小米 17 Ultra 徕卡版于 2025 年 12 月 25 日发布，机身铭刻徕卡红标，售价 7999 元起。此外，官方介绍称新机配备大师变焦环，一体化精工设计，复刻相机变焦环，转动可调节焦距，去掉繁杂的操作，让摄影师专注拍摄，还可自定义调节曝光补偿、白平衡等。",
@@ -157,18 +169,6 @@
       "publishedAt": "2026-01-02T09:09:40.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/909/954.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767396436956_99a4972a",
-      "title": "微软预览Foundry Agent Service长期记忆功能，简化状态管理",
-      "summary": "微软预览Foundry Agent Service长期记忆功能，简化状态管理",
-      "content": "微软预览Foundry Agent Service长期记忆功能，简化状态管理",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-02T08:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/fJSWBV2X88YKUCvoqI6P?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -316,9 +316,9 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767396412059_0",
+      "id": "news_1767406159341_0",
       "title": "DeepSeek Touts New Training Method as China Pushes AI Efficiency",
-      "summary": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial inf...",
+      "summary": "DeepSeek published a paper outlining a more efficient approach to developing AI, illustrating the Chinese artificial intelligence industry’s effort to...",
       "content": "DeepSeek published a paper outlining a more efficient approach to developing AI, illustrating the Chinese artificial intelligence industry’s effort to compete with the likes of OpenAI despite a lack of free access to Nvidia Corp. chips.\nThe document,... [260 chars]",
       "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/isnQqfLwjAuo/v1/1200x842.jpg",
       "source": "Bloomberg",
@@ -328,7 +328,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1767396411770_1",
+      "id": "news_1767406159662_1",
       "title": "GAN-enhanced machine learning and metabolic modeling identify reprogramming in pancreatic cancer",
       "summary": "Introduction\nPancreatic Ductal Adenocarcinoma (PDAC) is a disease with poor prognosis and a highly aggressive form of cancer, largely due to late-stag...",
       "content": "Introduction\nPancreatic Ductal Adenocarcinoma (PDAC) is a disease with poor prognosis and a highly aggressive form of cancer, largely due to late-stage diagnosis and limited treatment options. The majority of PDAC patients (80–85%) present with local... [62776 chars]",
@@ -373,6 +373,18 @@
       "publishedAt": "2026-01-01T16:40:29.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-02",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767406186647_3dd29b89",
+      "title": "米其林以务实路线迈向AIOps，并无宏大愿景",
+      "summary": "米其林以务实路线迈向AIOps，并无宏大愿景",
+      "content": "米其林以务实路线迈向AIOps，并无宏大愿景",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-01T15:14:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/ZaNCAZsLZJKe6OaTTqAx?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -421,6 +433,18 @@
       "publishedAt": "2026-01-01T10:36:44.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7828798.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767406187898_d9878bc7",
+      "title": "CNCF 推出 Kubernetes AI 一致性认证计划，旨在标准化工作负载",
+      "summary": "CNCF 推出 Kubernetes AI 一致性认证计划，旨在标准化工作负载",
+      "content": "CNCF 推出 Kubernetes AI 一致性认证计划，旨在标准化工作负载",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-01T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/DH2lkgylfWlybKZ7RUD5?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -508,67 +532,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767234731802_53c1aed1",
-      "title": "AI创业公司的2025：一半是海水，一半是火焰",
-      "summary": "AI创业公司的2025：一半是海水，一半是火焰",
-      "content": "AI创业，要变天了。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-01T02:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7828472.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767234757755_18de8e2e",
-      "title": "华为鸿蒙团队发布感谢信，HarmonyOS 5&6 终端设备数已破 3600 万",
-      "summary": "IT之家 1 月 1 日消息，华为鸿蒙团队今日发布感谢信： 你的等待，终将值得 新年的第一缕晨光洒下，回望新鸿蒙生态相伴的 449 个日夜，我们的心中满是感恩：心愿单的每一个恳切期许、评论区的每一条坦诚建议、门店和热线里的每一次交流，汇聚成的 1000 多万条反馈，这不是冰冷的数字，而是你对鸿蒙饱含...",
-      "content": "IT之家 1 月 1 日消息，华为鸿蒙团队今日发布感谢信： 你的等待，终将值得 新年的第一缕晨光洒下，回望新鸿蒙生态相伴的 449 个日夜，我们的心中满是感恩：心愿单的每一个恳切期许、评论区的每一条坦诚建议、门店和热线里的每一次交流，汇聚成的 1000 多万条反馈，这不是冰冷的数字，而是你对鸿蒙饱含的热忱，更是我们前行的动力。 回望征途，我们曾不断问自己：在既有的生态格局中，为何要选择开辟一条更难的路？鸿蒙要破解的，是世界级难题：既要以创新打破依赖，又要尊重用户的使用习惯；既要搭建开放生态，又要筑牢稳定根基。这并不容易，但我们坚信，路虽远，行则将至；事虽难，做则必成。日复一日，我们慢慢地让更多用户，从“试试看”变成了“真喜欢”，为此，我们欢心雀跃。 新的一年，我们期待，所有创新终将落地，所有期盼终有回响。我们会以敬畏之心对待每一条反馈，用每一次进步证明：你的意见会被珍视，你的等待终将值得！ 感恩每一位认真生活的你，用指尖微光汇聚星河，照亮鸿蒙前路，也照亮科技自主创新的征程！ 向朝阳迈进的鸿蒙团队 2026 年元旦 IT之家注意到，华为官方昨日发布数据：HarmonyOS 5&6 终端设备数突破 3600 万。官方表示： 2025 年，我们熟悉的增长叙事正在悄然转变 —— 那些几千万的终端数、千万级的开发者数字背后，一种更彻底、更深刻的变化正在发酵。这不是技术的胜利，而是一场关于“共创”的集体实验。对于鸿蒙生态而言，2025 年没有“旁观的成功”，也没有“孤独的成长”。因为在这里，每一次参与，都同时成就了系统，也成就了自己。 另外，在 2025 年 12 月 22 日的 nova 15 系列及全场景新品发布会上，华为终端 BG 首席执行官何刚介绍：鸿蒙系统功能新增超 300 项、系统版本更新超 100 次、注册开发者超 1000 万、用户日均下载 / 更新应用超 8800 万次。12 月，HarmonyOS 系统日均新增设备数超 15 万 1。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/f812dc6b-28d2-4ed4-823b-36093deb6812.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-01T01:53:09.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/909/746.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767260042837_b15964fd",
-      "title": "华尔街最激进的科技多头，2026年押注人工智能的五只最佳股票",
-      "summary": "华尔街最激进的科技多头，2026年押注人工智能的五只最佳股票",
-      "content": "Wedbush证券公司的丹·艾夫斯表示，“人工智能革命”才刚刚开始。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-01T01:39:28.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7828684.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767234757859_fe578579",
-      "title": "追觅首款智能戒指和运动相机将亮相 CES 2026",
-      "summary": "IT之家 1 月 1 日消息，科技媒体 GSMArena 昨日（2025 年 12 月 31 日）发布博文，报道称追觅（Dreame）将在 CES 2026 大展期间，推出首款智能戒指与“拇指级”运动相机，正式进军可穿戴设备与影像市场。",
-      "content": "IT之家 1 月 1 日消息，科技媒体 GSMArena 昨日（2025 年 12 月 31 日）发布博文，报道称追觅（Dreame）将在 CES 2026 大展期间，推出首款智能戒指与“拇指级”运动相机，正式进军可穿戴设备与影像市场。 这标志着该品牌不再局限于清洁家电领域，开始向更广泛的消费电子市场扩张。尽管官方尚未公布详细参数，但据透露，这款智能戒指将聚焦“全面健康管理（holistic wellness）”功能，而全新的运动相机则采用极致轻便的“拇指级（thumb-sized）”设计，意在为用户提供更无感的智能生活体验。 IT之家援引博文介绍，追觅在核心清洁业务上同样带来了重大升级。新款旗舰扫地机器人 X60 Max Ultra 将同台亮相，该机型拥有仅 7.95 厘米的超薄机身，能够更轻松地探入低矮家具底部进行清洁。 技术层面，X60 Max Ultra 搭载了全新的“强化智能学习”（reinforcement smart learning）技术，预计将在路径规划与障碍识别上实现更高效的自主进化。此外，追觅还将推出一款全新的泳池清洁机器人，进一步完善其自动化清洁产品矩阵。 为了构建更完整的智能家居生态，追觅此次还将发布多款生活家电。其中最引人注目的是行业首款“气泡水冰箱”（sparkling water refrigerator），这一创新设计将直接在冰箱门体集成气泡水制作功能。同时，追觅计划将其 D-Wind 系列嵌入式空调推向海外市场。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/e38c6dd3-1a89-4bd5-8425-11d5f923000d.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-01T01:37:34.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/909/742.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767234733421_424c4a98",
-      "title": "90后AI创业者，拿到Meta数十亿美元“聘礼”",
-      "summary": "90后AI创业者，拿到Meta数十亿美元“聘礼”",
-      "content": "“嫁入豪门”只是开始，未来发展仍任重道远。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-01T01:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7828576.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767396441458_30931c8e",
+      "id": "news_1767406189724_30931c8e",
       "title": "写在 Manus “卖身”后：企业级 Agent 只会更像软件，而非魔法",
       "summary": "写在 Manus “卖身”后：企业级 Agent 只会更像软件，而非魔法",
       "content": "写在 Manus “卖身”后：企业级 Agent 只会更像软件，而非魔法",
@@ -580,7 +544,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767396443533_dda8aa4f",
+      "id": "news_1767406191568_dda8aa4f",
       "title": "通过对话式 AI Agent 运用 Snowflake Intelligence，从成本、安全和性能三个维度全面提升您整体系统的表现 ｜ 技术实践",
       "summary": "通过对话式 AI Agent 运用 Snowflake Intelligence，从成本、安全和性能三个维度全面提升您整体系统的表现 ｜ 技术实践...",
       "content": "通过对话式 AI Agent 运用 Snowflake Intelligence，从成本、安全和性能三个维度全面提升您整体系统的表现 ｜ 技术实践",
@@ -592,7 +556,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767396444803_d2eea37f",
+      "id": "news_1767406192915_d2eea37f",
       "title": "解决 AI “不会配合” 的难题！蚂蚁数科 20 + 论文入选顶会，攻克大规模智能协作关键技术",
       "summary": "解决 AI “不会配合” 的难题！蚂蚁数科 20 + 论文入选顶会，攻克大规模智能协作关键技术",
       "content": "解决 AI “不会配合” 的难题！蚂蚁数科 20 + 论文入选顶会，攻克大规模智能协作关键技术",
@@ -602,18 +566,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/bjfd6q2ziWN18szfobCA?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767396446290_fab53e97",
-      "title": "AI Coding 2025年终盘点：Spec 正在蚕食人类编码，Agent 造轮子拖垮效率，Token成本失控后上下文工程成胜负手",
-      "summary": "AI Coding 2025年终盘点：Spec 正在蚕食人类编码，Agent 造轮子拖垮效率，Token成本失控后上下文工程成胜负手...",
-      "content": "AI Coding 2025年终盘点：Spec 正在蚕食人类编码，Agent 造轮子拖垮效率，Token成本失控后上下文工程成胜负手",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2025-12-31T14:56:25.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/5lxt9ibO77f3HKbITN5s?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
