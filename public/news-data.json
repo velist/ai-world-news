@@ -1,43 +1,67 @@
 {
   "success": true,
-  "timestamp": "2026-01-05T07:36:58.521Z",
-  "total": 67,
+  "timestamp": "2026-01-05T08:46:23.104Z",
+  "total": 64,
   "data": [
     {
-      "id": "news_1767598600122_0c87ad7d",
-      "title": "把餐厅搬进地图：高德用 AI 打响本地生活新一战",
-      "summary": "把餐厅搬进地图：高德用 AI 打响本地生活新一战",
-      "content": "把餐厅搬进地图：高德用 AI 打响本地生活新一战",
+      "id": "news_1767602767686_d53175d2",
+      "title": "AI生死局，一号位认知拉开企业差距！无问芯穹夏立雪：推理和智能体带来转型压力，中国开源模型在主导全球应用",
+      "summary": "AI生死局，一号位认知拉开企业差距！无问芯穹夏立雪：推理和智能体带来转型压力，中国开源模型在主导全球应用...",
+      "content": "AI生死局，一号位认知拉开企业差距！无问芯穹夏立雪：推理和智能体带来转型压力，中国开源模型在主导全球应用",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-01-05T15:25:53.000Z",
+      "publishedAt": "2026-01-05T16:16:33.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/UzcQymWWo3hWpOUXeh6S?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767602769565_66c3836f",
+      "title": "Claude Code、Cursor 都过时了？！硅谷顶流大牛炸场暴论：AI 编程要练满 2000 小时才算“会用”，一年不用世界级大神也会沦为实习生水平",
+      "summary": "Claude Code、Cursor 都过时了？！硅谷顶流大牛炸场暴论：AI 编程要练满 2000 小时才算“会用”，一年不用世界级大神也会沦为实习生水平...",
+      "content": "Claude Code、Cursor 都过时了？！硅谷顶流大牛炸场暴论：AI 编程要练满 2000 小时才算“会用”，一年不用世界级大神也会沦为实习生水平",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-05T16:12:52.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/Qyqio9tXIB7zoeE3xVZQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767602772625_1a73bac4",
+      "title": "Kubernetes 1.35发布，提供了Pod原地扩缩容和AI优化调度功能",
+      "summary": "Kubernetes 1.35发布，提供了Pod原地扩缩容和AI优化调度功能",
+      "content": "Kubernetes 1.35发布，提供了Pod原地扩缩容和AI优化调度功能",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-05T14:39:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/z7ulRgqvKdIuElyaVP22?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/dqIF73wTjQsXAPgpN8Yc?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767598604025_58badc6d",
-      "title": "开源Agent Sandbox实现Kubernetes平台上AI代理的安全部署",
-      "summary": "开源Agent Sandbox实现Kubernetes平台上AI代理的安全部署",
-      "content": "开源Agent Sandbox实现Kubernetes平台上AI代理的安全部署",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-05T10:10:09.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/vEotjaclFg1UtW0VXCTq?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1767602782102_c38171ec",
+      "title": "华为 Pura 80 系列手机 HarmonyOS 6.0.0.125 版本首曝，将解决微信拍视频画面闪烁、跳动问题",
+      "summary": "IT之家 1 月 5 日消息，华为 Mate 80 系列、Mate X7 系列手机已于去年 12 月推送了鸿蒙 HarmonyOS 6.0.0.125 版本升级，主题新增沉浸光感视效，带来全新视觉体验，同时图库一键成片新增更丰富的视频风格模板。",
+      "content": "IT之家 1 月 5 日消息，华为 Mate 80 系列、Mate X7 系列手机已于去年 12 月推送了鸿蒙 HarmonyOS 6.0.0.125 版本升级，主题新增沉浸光感视效，带来全新视觉体验，同时图库一键成片新增更丰富的视频风格模板。 IT之家注意到，目前华为 Pura 80 系列手机的鸿蒙 HarmonyOS 6.0.0.125 版本已曝光，预计将在近期推送。我的华为 App“故障排查”板块中显示，该系列手机出现的微信拍视频画面闪烁、跳动问题将在 HarmonyOS 6.0.0.125 版本解决。 目前尚不清楚华为 Pura 80 系列手机的 HarmonyOS 6.0.0.125 版本具体更新内容，仍需等待官方进一步披露。 相关阅读： 《华为 Mate X7 系列手机推送鸿蒙 HarmonyOS 6.0.0.125 SP6 版升级，主题新增全新“沉浸光感视效”》 《华为 Mate 80 系列推送鸿蒙 6.0.0.125 SP8 版本更新：主题新增沉浸光感视效，带来全新视觉体验》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/0145b6ba-47c3-4cdc-9639-458788294e51.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-05T08:24:07.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/910/567.htm",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767598605762_1dbcbd53",
-      "title": "Swiggy 内部 AI 助手升级：Text-to-SQL 不够用了，Agent 开始接管数据分析",
-      "summary": "Swiggy 内部 AI 助手升级：Text-to-SQL 不够用了，Agent 开始接管数据分析",
-      "content": "Swiggy 内部 AI 助手升级：Text-to-SQL 不够用了，Agent 开始接管数据分析",
+      "id": "news_1767602761542_5862683c",
+      "title": "Hisense to Unveil Upgraded RGB Mini LED TVs at CES 2026",
+      "summary": "The latest evolution of Hisense RGB-Mini LED TVs will once again put the brand a step ahead of the industry, ushering in a new chapter for RGB-Mini LE...",
+      "content": "The latest evolution of Hisense RGB-Mini LED TVs will once again put the brand a step ahead of the industry, ushering in a new chapter for RGB-Mini LED technology.",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-05T09:29:32.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/oPzBsQpC548jOpyJk9oI?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "钛媒体",
+      "publishedAt": "2026-01-05T07:36:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7831093.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767598591518_9542e42e",
@@ -292,7 +316,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767598571432_0",
+      "id": "news_1767602745621_0",
       "title": "ChatGPT Murder Encouraging Lawsuit Alleges Deadly AI Influence",
       "summary": "A wrongful-death lawsuit filed last month paints a harrowing picture of a man’s descent into paranoia—and the role his family says an artificial intel...",
       "content": "A wrongful-death lawsuit filed last month paints a harrowing picture of a man’s descent into paranoia—and the role his family says an artificial intelligence chatbot played. The ChatGPT Murder encouraging lawsuit claims OpenAI’s technology reinforced... [1446 chars]",
@@ -316,16 +340,16 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767598611427_76706691",
-      "title": "东南亚和印度的开发者在2025年是如何使用AI的",
-      "summary": "东南亚和印度的开发者在2025年是如何使用AI的",
-      "content": "东南亚和印度的开发者在2025年是如何使用AI的",
+      "id": "news_1767602778584_916f5b93",
+      "title": "从 SQL 到自然语言，下一代 Lakehouse 为何必须「AI 优先」",
+      "summary": "从 SQL 到自然语言，下一代 Lakehouse 为何必须「AI 优先」",
+      "content": "从 SQL 到自然语言，下一代 Lakehouse 为何必须「AI 优先」",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-01-04T14:05:00.000Z",
+      "publishedAt": "2026-01-04T14:45:29.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/5lKZurpwRFlUo3tdLxuU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/czQMOPvukyw3cVREDrKL?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767536795812_e6856fd1",
@@ -376,7 +400,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767598569850_1",
+      "id": "news_1767602745770_1",
       "title": "OpenAI Seeks 'Head of Preparedness' to Tackle Emerging AI Safety Risks",
       "summary": "Sam Altmans OpenAI, the AI company behind ChatGPT, is on the hunt for a new executive to lead its efforts in studying and preparing for potential safe...",
       "content": "Sam Altman’s OpenAI, the AI company behind ChatGPT, is on the hunt for a new executive to lead its efforts in studying and preparing for potential safety risks associated with the rapid advancements in artificial intelligence technology.\nIn a recent ... [3316 chars]",
@@ -386,18 +410,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.breitbart.com/tech/2026/01/04/openai-seeks-head-of-preparedness-to-tackle-emerging-ai-safety-risks/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1767598613097_e7c15248",
-      "title": "2025年硅谷给华人AI精英开出上亿年薪！Agent、Infra人才被抢疯了",
-      "summary": "2025年硅谷给华人AI精英开出上亿年薪！Agent、Infra人才被抢疯了",
-      "content": "2025年硅谷给华人AI精英开出上亿年薪！Agent、Infra人才被抢疯了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-04T11:20:10.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/dh544S5Ca6X2HNl8dLaM?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767525831993_aed7bde7",
@@ -712,7 +724,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767598569735_2",
+      "id": "news_1767602745747_2",
       "title": "Can scientists detect life without knowing what it looks like? Research using machine learning offers a new way",
       "summary": "This article was originally published at The Conversation. The publication contributed the article to Space.com's Expert Voices: Op-Ed & Insights.\nWhe...",
       "content": "This article was originally published at The Conversation. The publication contributed the article to Space.com's Expert Voices: Op-Ed & Insights.\nWhen NASA scientists opened the sample return canister from the OSIRIS-REx asteroid sample mission in l... [7470 chars]",
@@ -758,54 +770,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/910/083.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767429421923_dde03585",
-      "title": "微信“公众平台助手小程序”3 月 2 日停止服务，用户可下载“公众号助手”应用",
-      "summary": "IT之家 1 月 3 日消息，腾讯微信“公众平台助手”小程序发布公告，宣布自 2026 年 3 月 2 日起，公众平台助手小程序将停止提供服务。 公开信息显示，腾讯公众平台助手小程序可帮助公众号运营方快捷查看每天最新消息、留言、赞赏信息及官方通知信息等。",
-      "content": "IT之家 1 月 3 日消息，腾讯微信“公众平台助手”小程序发布公告，宣布自 2026 年 3 月 2 日起，公众平台助手小程序将停止提供服务。 公开信息显示，腾讯公众平台助手小程序可帮助公众号运营方快捷查看每天最新消息、留言、赞赏信息及官方通知信息等。 官方表示，如果用户需继续在手机上管理公众号，可前往应用市场下载「公众号助手」，或在「微信」-「公众号-」进行管理，IT之家附应用 App Store 地址（https://apps.apple.com/us/app/%E5%85%AC%E4%BC%97%E5%8F%B7%E5%8A%A9%E6%89%8B/id1116013197?l=zh-Hans-CN）",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/b803dc99-2419-488e-8680-3b66f812607d.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-03T08:25:01.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/910/075.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767429422241_80172a27",
-      "title": "蔚来公司第 100 万台量产车下线仪式 1 月 6 日举行",
-      "summary": "IT之家 1 月 3 日消息，据易车报道，蔚来公司将于 1 月 6 日在蔚来先进制造新桥二工厂举行第 100 万台量产车下线仪式。 IT之家查询获悉，蔚来公司 2025 年全年共交付新车 326028 辆，创历史新高，同比增长 46.9%。 蔚来品牌共交付 178806 辆。",
-      "content": "IT之家 1 月 3 日消息，据易车报道，蔚来公司将于 1 月 6 日在蔚来先进制造新桥二工厂举行第 100 万台量产车下线仪式。 IT之家查询获悉，蔚来公司 2025 年全年共交付新车 326028 辆，创历史新高，同比增长 46.9%。 蔚来品牌共交付 178806 辆。 乐道品牌共交付 107808 辆。 firefly 萤火虫品牌交付 39414 辆。 截至目前，蔚来公司已累计交付新车 997592 辆（ 1 月 1 日数据）。 蔚来品牌累计交付新车 829609 辆； 乐道品牌累计交付新车 128569 辆； firefly 萤火虫品牌累计交付新车 39414 辆。 蔚来创始人、董事长、CEO 李斌于 1 月 1 日结束了滇藏换电贯通直播后，发布了一封全员邮件，并预告再过几天将迎来第 100 万辆量产车下线。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/05895210-360e-4684-ba76-d95072b3ab6e.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-03T08:16:59.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/910/074.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767406184095_60c61b8e",
-      "title": "Java近期资讯：Spring Vault、LangChain4j、Seed4J、Infinispan、Gradle",
-      "summary": "Java近期资讯：Spring Vault、LangChain4j、Seed4J、Infinispan、Gradle...",
-      "content": "Java近期资讯：Spring Vault、LangChain4j、Seed4J、Infinispan、Gradle",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-03T08:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/LyXHACSluGvTUaB4HeTg?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767429422347_3c147ca5",
-      "title": "华为 Mate70 Pro+ 手机推送鸿蒙 HarmonyOS 6.0.0.120 SP6 补丁包，修复闹钟响铃异常问题",
-      "summary": "IT之家 1 月 3 日消息，华为 Mate70 Pro+ 手机今日推送鸿蒙 HarmonyOS 6.0.0.120 SP6 补丁包，本次更新修复了部分场景下法定工作日闹钟响铃异常问题。 IT之家注意到，昨日已经有部分机型收到了鸿蒙 6.0.0.120 SP6 更新，主要内容为优化了系统使用体验。",
-      "content": "IT之家 1 月 3 日消息，华为 Mate70 Pro+ 手机今日推送鸿蒙 HarmonyOS 6.0.0.120 SP6 补丁包，本次更新修复了部分场景下法定工作日闹钟响铃异常问题。 IT之家注意到，昨日已经有部分机型收到了鸿蒙 6.0.0.120 SP6 更新，主要内容为优化了系统使用体验。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/bf7d73ed-3d59-4961-8b68-3674f40e2c99.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-03T07:58:06.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/910/071.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
