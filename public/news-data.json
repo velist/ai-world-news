@@ -1,31 +1,91 @@
 {
   "success": true,
-  "timestamp": "2026-01-05T02:33:15.845Z",
-  "total": 56,
+  "timestamp": "2026-01-05T04:21:39.473Z",
+  "total": 60,
   "data": [
     {
-      "id": "news_1767580373856_58badc6d",
-      "title": "开源Agent Sandbox实现Kubernetes平台上AI代理的安全部署",
-      "summary": "开源Agent Sandbox实现Kubernetes平台上AI代理的安全部署",
-      "content": "开源Agent Sandbox实现Kubernetes平台上AI代理的安全部署",
+      "id": "news_1767586863462_dfd327a2",
+      "title": "浙江娃哈哈智能机器人公司近日注销",
+      "summary": "36氪获悉，爱企查App显示，近日，浙江娃哈哈智能机器人有限公司登记状态由存续变更为注销。浙江娃哈哈智能机器人有限公司成立于2019年3月，法定代表人为宗庆后，注册资本4000万人民币，经营范围包括智能机器人、机器设备及零部件的研发、制造、销售等。",
+      "content": "36氪获悉，爱企查App显示，近日，浙江娃哈哈智能机器人有限公司登记状态由存续变更为注销。浙江娃哈哈智能机器人有限公司成立于2019年3月，法定代表人为宗庆后，注册资本4000万人民币，经营范围包括智能机器人、机器设备及零部件的研发、制造、销售等。股东信息显示，该公司由娃哈哈商业股份有限公司、浙江数脉科技有限公司、鲍成乐共同持股。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-05T10:10:09.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/vEotjaclFg1UtW0VXCTq?utm_source=rss&utm_medium=article",
+      "source": "36氪",
+      "publishedAt": "2026-01-05T04:10:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3626012114207745?f=rss",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767580375976_1dbcbd53",
-      "title": "Swiggy 内部 AI 助手升级：Text-to-SQL 不够用了，Agent 开始接管数据分析",
-      "summary": "Swiggy 内部 AI 助手升级：Text-to-SQL 不够用了，Agent 开始接管数据分析",
-      "content": "Swiggy 内部 AI 助手升级：Text-to-SQL 不够用了，Agent 开始接管数据分析",
+      "id": "news_1767586864788_228557d7",
+      "title": "腾讯ima上线PPT生成功能",
+      "summary": "36氪获悉，腾讯AI工作台ima.copilot（简称ima）迎来更新：正式上线“生成PPT”功能。用户只需进入“任务模式”，即可调用个人知识库中的素材，一键生成幻灯片。",
+      "content": "36氪获悉，腾讯AI工作台ima.copilot（简称ima）迎来更新：正式上线“生成PPT”功能。用户只需进入“任务模式”，即可调用个人知识库中的素材，一键生成幻灯片。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-05T09:29:32.000Z",
+      "source": "36氪",
+      "publishedAt": "2026-01-05T03:49:39.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3625991860765704?f=rss",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767586898383_39943e23",
+      "title": "三星目前 1/3 的高端冰箱都配备屏幕，与谷歌 Gemini 合作升级 AI 识别食物功能",
+      "summary": "IT之家 1 月 5 日消息，三星今日举行 CES 2026 的“The First Look”发布会，谈到了家电产品的新升级。 三星数字家电负责人 Cheolgi Kim 表示，三星正在将联网设备与 AI 的能力相结合，使家电变成家庭伙伴。",
+      "content": "IT之家 1 月 5 日消息，三星今日举行 CES 2026 的“The First Look”发布会，谈到了家电产品的新升级。 三星数字家电负责人 Cheolgi Kim 表示，三星正在将联网设备与 AI 的能力相结合，使家电变成家庭伙伴。 目前，SmartThings 生态系统包含超过 4,700 种设备类型。此外，三星目前 1/3 的高端冰箱都配备了屏幕，这使得家电能够作为家庭的中心枢纽。 IT之家从发布会获悉，三星还推出了 AI Vision 用于购物补给和饮食规划。现在 AI Vision 正与谷歌 Gemini 合作进行升级，可以更好地识别用户放入和取出冰箱的食物，以便用户更好地规划下一餐。 三星冰箱还将提供一份名为 FoodNote 的每周报告，记录放入和取出的食物情况。该工具还会推荐食谱和购物清单。 Cheolgi Kim 还透露，三星为家电提供长达 7 年的功能更新。因此，用户将能够获得最新的 Bixby 功能和其他工具。AI 也被用于在问题发生前发现潜在问题，例如预防性维护以避免昂贵的维修费用。他还表示，三星已将 AI 冷却技术应用于压缩机。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/32bd125e-9a80-4343-bb57-38411f6b53f4.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-05T03:44:56.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/910/472.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767586872361_10ae705c",
+      "title": "AI赋能低空经济：三大高潜力赛道即将引爆万亿市场",
+      "summary": "2025年，低空经济正从概念炒作进入“系统性落地”阶段。当行业目光还停留在飞行器硬件参数时，一场关于“空中操作系统”的博弈已悄然展开。低空经济的本质不是航空制造业的物理延伸，而是世界的数字化重构。",
+      "content": "2025年，低空经济正从概念炒作进入“系统性落地”阶段。当行业目光还停留在飞行器硬件参数时，一场关于“空中操作系统”的博弈已悄然展开。低空经济的本质不是航空制造业的物理延伸，而是世界的数字化重构。随着硬件资源摊薄，真正的护城河将向数据端与调度算法转移，基础设施、垂直服务与后市场将成为新的资本“蓄水池”。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-05T03:39:54.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7830766.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767586898471_8b36dd1e",
+      "title": "三星 Family Hub 智能冰箱系列 CES 2026 迎升级：支持音控制开关门，解决厨房操作痛点",
+      "summary": "IT之家 1 月 5 日消息，在三星 CES 2026“The First Look”特别活动中，三星对旗下 Family Hub 智能冰箱产品线进行升级，加入了许多用户期待的“语音控制冰箱门开关”功能。",
+      "content": "IT之家 1 月 5 日消息，在三星 CES 2026“The First Look”特别活动中，三星对旗下 Family Hub 智能冰箱产品线进行升级，加入了许多用户期待的“语音控制冰箱门开关”功能。 据介绍，用户可以通过语音唤醒冰箱内置的 Bixby 语音助手，之后可以直接对着冰箱说出“关上冰箱门”或“打开冰箱门”，设备便会自动执行指令，同时用户也可以用手掌或手背轻触冰箱门，让冰箱自动开关门。 三星表示，这一功能在日常使用中尤为实用，例如用户在做饭时，即便是双手沾满食材，也能轻松打开冰箱取牛奶或其他食物，不会担心弄脏冰箱或造成食物被污染。 除了为冰箱门引入语音控制外，三星还宣布 Family Hub 系列冰箱内置的 AI Vision 食材管理系统引入谷歌 Gemini AI 模型。三星表示，这项升级可以让冰箱“即时识别不限种类的食品”，从而更好地辅助用户进行餐食规划，并减少食物浪费。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/5a70e3ef-2e62-4e3d-96aa-29507295072f.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-05T03:35:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/910/470.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767586874087_fc2935f9",
+      "title": "2026年Agentic AI十大关键趋势：技术、应用与治理三位一体",
+      "summary": "2026年Agentic AI十大关键趋势：技术、应用与治理三位一体",
+      "content": "10个趋势，看懂2026年Agentic AI发展方向。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-05T03:24:02.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/oPzBsQpC548jOpyJk9oI?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/7830730.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767586876050_72c9935d",
+      "title": "AI如何拯救精神健康危机？2025合成数据大赛揭示新路径",
+      "summary": "天桥脑科学研究院正在探索推出“LingXiBench”精神健康AI Benchmark，打通AI for Mental Health的“最后一公里”。",
+      "content": "天桥脑科学研究院正在探索推出“LingXiBench”精神健康AI Benchmark，打通AI for Mental Health的“最后一公里”。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-05T03:18:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7829873.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767580394753_d4a8c5dd",
@@ -124,16 +184,16 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767580381914_76706691",
-      "title": "东南亚和印度的开发者在2025年是如何使用AI的",
-      "summary": "东南亚和印度的开发者在2025年是如何使用AI的",
-      "content": "东南亚和印度的开发者在2025年是如何使用AI的",
+      "id": "news_1767586886299_916f5b93",
+      "title": "从 SQL 到自然语言，下一代 Lakehouse 为何必须「AI 优先」",
+      "summary": "从 SQL 到自然语言，下一代 Lakehouse 为何必须「AI 优先」",
+      "content": "从 SQL 到自然语言，下一代 Lakehouse 为何必须「AI 优先」",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-01-04T14:05:00.000Z",
+      "publishedAt": "2026-01-04T14:45:29.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/5lKZurpwRFlUo3tdLxuU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/czQMOPvukyw3cVREDrKL?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767536795812_e6856fd1",
@@ -184,7 +244,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767580347838_0",
+      "id": "news_1767586849973_0",
       "title": "OpenAI Seeks 'Head of Preparedness' to Tackle Emerging AI Safety Risks",
       "summary": "Sam Altmans OpenAI, the AI company behind ChatGPT, is on the hunt for a new executive to lead its efforts in studying and preparing for potential safe...",
       "content": "Sam Altman’s OpenAI, the AI company behind ChatGPT, is on the hunt for a new executive to lead its efforts in studying and preparing for potential safety risks associated with the rapid advancements in artificial intelligence technology.\nIn a recent ... [3316 chars]",
@@ -194,18 +254,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.breitbart.com/tech/2026/01/04/openai-seeks-head-of-preparedness-to-tackle-emerging-ai-safety-risks/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1767580384577_e7c15248",
-      "title": "2025年硅谷给华人AI精英开出上亿年薪！Agent、Infra人才被抢疯了",
-      "summary": "2025年硅谷给华人AI精英开出上亿年薪！Agent、Infra人才被抢疯了",
-      "content": "2025年硅谷给华人AI精英开出上亿年薪！Agent、Infra人才被抢疯了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-04T11:20:10.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/dh544S5Ca6X2HNl8dLaM?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767525831993_aed7bde7",
@@ -244,15 +292,15 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767580386735_4030c8dc",
-      "title": "在AI增强的变革流中，架构师要承担何种角色？",
-      "summary": "在AI增强的变革流中，架构师要承担何种角色？",
-      "content": "在AI增强的变革流中，架构师要承担何种角色？",
+      "id": "news_1767586893686_13ee4a24",
+      "title": "当 GPU 成为主角：解锁 AI 集群中那 85% 的闲置 CPU 算力",
+      "summary": "当 GPU 成为主角：解锁 AI 集群中那 85% 的闲置 CPU 算力",
+      "content": "当 GPU 成为主角：解锁 AI 集群中那 85% 的闲置 CPU 算力",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-01-04T10:37:28.000Z",
+      "publishedAt": "2026-01-04T09:53:04.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/yOgXm3cR5dUce2fU0Ou3?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/OVZoXkMAKHZQSgyTPE3X?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -532,7 +580,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767580347231_1",
+      "id": "news_1767586850583_1",
       "title": "Can scientists detect life without knowing what it looks like? Research using machine learning offers a new way",
       "summary": "This article was originally published at The Conversation. The publication contributed the article to Space.com's Expert Voices: Op-Ed & Insights.\nWhe...",
       "content": "This article was originally published at The Conversation. The publication contributed the article to Space.com's Expert Voices: Op-Ed & Insights.\nWhen NASA scientists opened the sample return canister from the OSIRIS-REx asteroid sample mission in l... [7470 chars]",
