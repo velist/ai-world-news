@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-01-06T06:48:27.458Z",
-  "total": 69,
+  "timestamp": "2026-01-06T07:34:31.314Z",
+  "total": 73,
   "data": [
+    {
+      "id": "news_1767684855333_e2788772",
+      "title": "Cloudflare年度回顾：AI机器人疯狂爬网、后量子加密普及率达50%、Go语言用户翻倍",
+      "summary": "Cloudflare年度回顾：AI机器人疯狂爬网、后量子加密普及率达50%、Go语言用户翻倍",
+      "content": "Cloudflare年度回顾：AI机器人疯狂爬网、后量子加密普及率达50%、Go语言用户翻倍",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-06T15:04:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/GDVwJpAygF5Lkfg6kG5V?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1767672374184_da8405f3",
       "title": "被骂疯了！微软CEO刚甩出年终反思：“今年别说AI垃圾了”，“模型滞后”新定义遭痛批，网友：你是真脱离现实",
@@ -26,6 +38,54 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/VHFRvipFuw9YqVYLWVtQ?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767684861114_3ecabf57",
+      "title": "微软魔改 CoT！泄露率从 36% 暴降至 7%，Agent 乱说话的毛病终于有治了",
+      "summary": "微软魔改 CoT！泄露率从 36% 暴降至 7%，Agent 乱说话的毛病终于有治了",
+      "content": "微软魔改 CoT！泄露率从 36% 暴降至 7%，Agent 乱说话的毛病终于有治了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-06T08:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/srAzDpPcFFSyUy5h8JGi?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767684841695_61c0f03c",
+      "title": "微信：官方从未发布过任何所谓的“封号新规”，“腾讯微信朋友圈新规”等均属不实谣言",
+      "summary": "36氪获悉，网络上出现了一则关于“腾讯微信新规则”的消息，引发关注。对此，微信安全中心表示，此类信息存在多种变体，例如“腾讯微信朋友圈新规”等均属不实谣言，微信官方从未发布过任何所谓的“封号新规”。诸如“好友太多会被封”“地址不变会被封”等说法，更是无稽之谈。正常的社交行为不会受到任何限制。",
+      "content": "36氪获悉，网络上出现了一则关于“腾讯微信新规则”的消息，引发关注。对此，微信安全中心表示，此类信息存在多种变体，例如“腾讯微信朋友圈新规”等均属不实谣言，微信官方从未发布过任何所谓的“封号新规”。诸如“好友太多会被封”“地址不变会被封”等说法，更是无稽之谈。正常的社交行为不会受到任何限制。微信始终依据《微信个人账号使用规范》等公开透明的规则进行管理，不是坊间谣传的“新规”，请广大用户勿信谣传谣。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-01-06T07:27:56.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3627622018516228?f=rss",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767684870309_73639718",
+      "title": "华为官宣与帝斯曼-芬美意职业跑队达成合作，将带来全新华为手表",
+      "summary": "IT之家 1 月 6 日消息，马拉松运动员埃鲁德-基普乔格今日发布微博宣布，帝斯曼-芬美意职业跑队与华为终端达成了技术合作。",
+      "content": "IT之家 1 月 6 日消息，马拉松运动员埃鲁德-基普乔格今日发布微博宣布，帝斯曼-芬美意职业跑队与华为终端达成了技术合作。 华为终端官方随后留言回复： 我们高兴地与大家分享，即日起，华为正式成为 @基普乔格_EliudKipchoge 所属的帝斯曼-芬美意职业跑队的官方技术合作伙伴，我们将与全球顶尖跑者并肩前行，共同推动跑步运动的普及，并将为大家带来全新的华为手表，敬请期待！ 目前华为官方暂未透露这款全新华为手表的产品细节，参考IT之家此前报道，华为在 2021 年 11 月推出了一款专门针对专业跑步者设计的 WATCH GT Runner，其采用精密陶瓷表圈及钛金属表冠 + 轻量化表身设计，具有双频五星精准定位功能，定价 2188 元。 相关阅读： 《华为 WATCH GT Runner 手表发布：陶瓷表圈 / 双频五星定位，2188 元》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/cba7ff86-ea5c-4b2a-b899-1af5c8448a1b.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-06T07:15:31.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/910/866.htm",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767684847035_23a8c5ca",
+      "title": "China’s First! Airwallex Partners with China Construction Bank to Pioneer a New Model in Cross-Border Finance",
+      "summary": "China’s First! Airwallex Partners with China Construction Bank to Pioneer a New Model in Cross-Border Finance...",
+      "content": "Recently, Airwallex (hereinafter referred to as \"Airwallex\") and China Construction Bank (hereinafter referred to as \"CCB\") announced a partnership to jointly launch a personal cross-border remittance product called \"Full Amount Arrival.\" This product significantly reduces the cost of traditional bank personal cross-border remittances, enhances the convenience of remittance, and lowers both transaction and compliance risks.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-06T07:12:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7832563.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767677624164_e9b9e3b6",
@@ -206,6 +266,30 @@
       "category": "AI趣味新闻",
       "originalUrl": "https://www.ithome.com/0/910/671.htm",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767684863355_1308c1d5",
+      "title": "2026“企业Agent上岗元年”？零一万物六大判断定义企业多智能体，不再沿用大厂标准化产品模式”",
+      "summary": "2026“企业Agent上岗元年”？零一万物六大判断定义企业多智能体，不再沿用大厂标准化产品模式”",
+      "content": "2026“企业Agent上岗元年”？零一万物六大判断定义企业多智能体，不再沿用大厂标准化产品模式”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-05T18:33:36.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/8lkAlTOp8etL1u8LGmxq?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767684865731_4e38b10a",
+      "title": "免费云开发资源，1亿混元token额度！腾讯重磅推出AI小程序成长计划",
+      "summary": "免费云开发资源，1亿混元token额度！腾讯重磅推出AI小程序成长计划",
+      "content": "免费云开发资源，1亿混元token额度！腾讯重磅推出AI小程序成长计划",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-05T16:47:22.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/ylOYgIWfCZ6LOuAd6XwN?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767602767686_d53175d2",
@@ -628,7 +712,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767682065797_0",
+      "id": "news_1767684828723_0",
       "title": "ChatGPT Murder Encouraging Lawsuit Alleges Deadly AI Influence",
       "summary": "A wrongful-death lawsuit filed last month paints a harrowing picture of a man’s descent into paranoia—and the role his family says an artificial intel...",
       "content": "A wrongful-death lawsuit filed last month paints a harrowing picture of a man’s descent into paranoia—and the role his family says an artificial intelligence chatbot played. The ChatGPT Murder encouraging lawsuit claims OpenAI’s technology reinforced... [1446 chars]",
@@ -700,7 +784,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767682064841_1",
+      "id": "news_1767684829273_1",
       "title": "OpenAI Seeks 'Head of Preparedness' to Tackle Emerging AI Safety Risks",
       "summary": "Sam Altmans OpenAI, the AI company behind ChatGPT, is on the hunt for a new executive to lead its efforts in studying and preparing for potential safe...",
       "content": "Sam Altman’s OpenAI, the AI company behind ChatGPT, is on the hunt for a new executive to lead its efforts in studying and preparing for potential safety risks associated with the rapid advancements in artificial intelligence technology.\nIn a recent ... [3316 chars]",
@@ -794,42 +878,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7829835.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767511702113_bce85a2b",
-      "title": "杨立昆谈从Meta离职原因",
-      "summary": "自爆出将离开Meta的消息后，杨立昆的日程安排得极其紧凑。报道称，杨立昆的新公司名为先进机器智能实验室，将由法国医疗人工智能初创公司Nabla的联合创始人兼首席执行官亚历克斯·勒布伦领导。谈及自己在Meta任职十余年后最终决定离职的原因，杨立昆直言不讳。他表示，继续留在公司已陷入难以调和的立场困境。",
-      "content": "自爆出将离开Meta的消息后，杨立昆的日程安排得极其紧凑。报道称，杨立昆的新公司名为先进机器智能实验室，将由法国医疗人工智能初创公司Nabla的联合创始人兼首席执行官亚历克斯·勒布伦领导。谈及自己在Meta任职十余年后最终决定离职的原因，杨立昆直言不讳。他表示，继续留在公司已陷入难以调和的立场困境。促使他离职的另一大原因是，他在世界模型与自主智能体（AMI）领域的研究成果，已展现出诸多潜在应用场景，例如航空发动机和重工业等，但这些领域均非Meta的关注重点。（新浪财经）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-01-04T07:16:46.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3624702306829315?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767511739279_8b1b3a72",
-      "title": "国家超算互联网用户规模突破 100 万：整合 15 万 + 加速卡，全国最大异构算力资源池",
-      "summary": "IT之家 1 月 4 日消息，国家超算互联网平台今日发布消息，国家超算互联网用户规模正式突破 100 万。 超算互联网已接入 14 个省市、超过 30 家国家级超算中心与智算中心，整合形成总算力规模达 15 万 + 加速卡与 200 万核心的全国最大异构算力资源池，为用户提供近 70 种规格的算力。",
-      "content": "IT之家 1 月 4 日消息，国家超算互联网平台今日发布消息，国家超算互联网用户规模正式突破 100 万。 超算互联网已接入 14 个省市、超过 30 家国家级超算中心与智算中心，整合形成总算力规模达 15 万 + 加速卡与 200 万核心的全国最大异构算力资源池，为用户提供近 70 种规格的算力。 超算互联网 AI 社区已吸引超 32000 位开发者；百度飞桨・文心、商汤科技、MiniMax、问小白等大模型厂商相继入驻；上千款开源大模型，以及智能体、知识库、MCP 与数据集，为用户提供了自由探索、快速构建的工具。 IT之家注：2023 年，科技部组织召开超算互联网发展工作部署会，统筹超算互联网建设启动工作；2023 年 4 月，国家超算互联网平台建设工作正式启动，国家超算互联网联合体成立，国家高性能计算机工程技术研究中心任理事长单位。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/efebe5d1-1613-4358-8ea8-42152e75b0f9.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-04T07:03:07.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/910/264.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767511739574_7b08f85a",
-      "title": "基于开源鸿蒙打造，电力行业首个统一物联操作系统电鸿启动开源社区",
-      "summary": "IT之家 1 月 4 日消息，在 12 月 30 日举行的 2025 年电鸿生态大会上，电力行业首个统一物联操作系统电鸿启动了开放原子电鸿开源社区。现场宣布在开放原子开源基金会、中国南方电网牵头推动与各家单位的携手支持下，基金会首个行业社区工作委员会 —— 开放原子电鸿开源社区工作委员会正式成立。",
-      "content": "IT之家 1 月 4 日消息，在 12 月 30 日举行的 2025 年电鸿生态大会上，电力行业首个统一物联操作系统电鸿启动了开放原子电鸿开源社区。现场宣布在开放原子开源基金会、中国南方电网牵头推动与各家单位的携手支持下，基金会首个行业社区工作委员会 —— 开放原子电鸿开源社区工作委员会正式成立。 据官方介绍，电鸿物联操作系统自发布以来，始终瞄准能源行业终端互联互通与数据融合的核心需求，坚持走自主创新之路。历经两年深耕，电鸿已完成从技术突破到产业应用的关键跨越，形成覆盖能源全产业链的技术解决方案体系。 工业和信息化部信息技术发展司副司长王威伟表示，基于开源鸿蒙打造的电鸿社区正加速实现从概念验证到工程落地、从试点成功到规模拓展的跨越，为千行百业用足用好开源模式，共同推动开源鸿蒙落地见效提供了有益借鉴。希望社区立足高起点、坚持高效率、追求高质量，将电鸿打造为万物互联时代促进行业协同创新的重要纽带。 南方电网数字电网研究院将向开放原子开源基金会贡献首批核心代码，这是迈出技术开放共享的关键一步，同步预告电鸿开发者大赛。 IT之家查询获悉，2023 年 10 月 31 日，由南方电网公司及开放原子开源基金会共同主办、南方电网数字电网研究院有限公司承办、华为技术有限公司协办的“电鸿物联操作系统发布会”在北京国家会议中心举办，国内首个电力物联操作系统（电力鸿蒙 OS）发布。 电力鸿蒙 OS 首次实现一套系统覆盖不同类型、不同品牌的电力设备，实现设备即插即用、海量数据互联互通，为未来新型电力系统大规模物联设备接入、运行维护提供了一套电力物联操作系统，填补该领域国内空白。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-01-04T06:54:34.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/910/259.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
