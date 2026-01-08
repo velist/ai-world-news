@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-01-08T13:08:42.763Z",
+  "timestamp": "2026-01-08T14:39:42.613Z",
   "total": 112,
   "data": [
+    {
+      "id": "news_1767883166024_933c33f6",
+      "title": "智源发布2026十大 AI技术趋势：世界模型成AGI共识方向",
+      "summary": "智源发布2026十大 AI技术趋势：世界模型成AGI共识方向",
+      "content": "智源发布2026十大 AI技术趋势：世界模型成AGI共识方向",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-08T21:48:52.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/XzfoHiKPOLjjHlJXK8OV?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1767871783765_d981ae07",
       "title": "“通用大模型微调成为行业模型是伪命题”？医疗AI深度重构，传神语联创始人何恩培：孪生智能体能砍70%线下复诊工作",
@@ -26,6 +38,54 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/VIJ9o1qFoOvttecimCwC?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767883170951_eb677945",
+      "title": "奇富科技发布首个信贷多模态评测基准，构筑信贷AI研究与落地关键桥梁",
+      "summary": "奇富科技发布首个信贷多模态评测基准，构筑信贷AI研究与落地关键桥梁",
+      "content": "奇富科技发布首个信贷多模态评测基准，构筑信贷AI研究与落地关键桥梁",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-08T16:43:27.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/swXkuTsb083IU7xQc4eB?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767883181225_8951a0a3",
+      "title": "多模态检索新标杆，阿里通义发布并开源 Qwen3-VL-Embedding&Reranker 模型",
+      "summary": "IT之家 1 月 8 日消息，据通义大模型消息，今日正式发布并开源 Qwen3-VL-Embedding 和 Qwen3-VL-Reranker 模型系列，这两个模型基于 Qwen3-VL 构建，专为多模态信息检索与跨模态理解设计，为图文、视频等混合内容的理解与检索提供统一、高效的解决方案。",
+      "content": "IT之家 1 月 8 日消息，据通义大模型消息，今日正式发布并开源 Qwen3-VL-Embedding 和 Qwen3-VL-Reranker 模型系列，这两个模型基于 Qwen3-VL 构建，专为多模态信息检索与跨模态理解设计，为图文、视频等混合内容的理解与检索提供统一、高效的解决方案。 IT之家附官方介绍如下： 多模态通用性 两个模型系列均能在统一框架内处理文本、图像、可视化文档（图表、代码、UI 组件......）、视频等多种模态输入。在图文检索、视频-文本匹配、视觉问答（VQA），多模态内容聚类等多样化任务中，均达到了业界领先水平。 统一表示学习（Embedding） Qwen3-VL-Embedding 充分利用 Qwen3-VL 基础模型的优势，能够生成语义丰富的向量表示，将视觉与文本信息映射到同一语义空间中，从而实现高效的跨模态相似度计算与检索。 图 1：统一多模态表示空间示意图。Qwen3-VL-Embedding 模型系列将多源数据（文本、图像、视觉文档和视频）映射到共同的高维语义空间。 高精度重排序（Reranker） 作为 Embedding 模型的补充，Qwen3-VL-Reranker 接收任意模态组合的查询与文档对（eg：图文查询匹配图文文档），输出精确的相关性分数。在实际应用中，二者常协同工作：Embedding 负责快速召回，Reranker 负责精细化重排序，构成“两阶段检索流程”，显著提升最终结果精度。 卓越的实用性 该系列继承了 Qwen3-VL 的多语言能力，支持超过 30 种语言，适合全球化部署。模型提供灵活的向量维度选择、任务指令定制，以及量化后仍保持的优秀性能，便于开发者集成到现有系统中。 在 MMEB-v2、MMTEB 等权威多模态检索基准测试中，Qwen3-VL 系列模型展现出了强劲实力。 Qwen3-VL-Embedding Qwen3-VL-Embedding-8B 模型在 MMEB-V2 上取得了业界领先的结果，超越了所有先前的开源模型和闭源商业服务。 在纯文本多语言 MMTEB 基准测试上，Qwen3-VL-Embedding 模型与同等规模的纯文本 Qwen3-Embedding 模型相比虽然有少许的性能差距。但与评测排行榜上其他同等规模的模型相比，它仍然展现出极具竞争力的性能表现。 图 2：Qwen3-VL-Embedding 在 MMEB-v2 和 MMTEB 评测集上的性能对比。 Qwen3-VL-Reranker 我们使用了 MMEB-v2 和 MMTEB 检索基准中各子任务的检索数据集进行评测。对于视觉文档检索，我们采用了 JinaVDR 和 ViDoRe v3 数据集。 评测结果表明，所有 Qwen3-VL-Reranker 模型的性能均持续优于基础 Embedding 模型和基线 Reranker 模型，其中 8B 版本在大多数任务中达到了最佳性能。 这些性能表现的背后，是针对多模态检索流程量身定制的架构设计。 Qwen3-VL-Embedding 和 Qwen3-VL-Reranker 采用了不同的架构设计，分别针对检索流程的不同阶段进行优化。 图 2：Qwen3-VL-Embedding 和 Qwen3-VL-Reranker 架构概览。左侧为 Embedding 模型的双塔独立编码架构，右侧为 Reranker 模型的单塔交叉注意力架构。 Qwen3-VL-Embedding 采用双塔架构，可以高效地将不同模态的内容独立编码为统一的向量表示，特别适合处理海量数据的并行计算。 Embedding 模型接收单模态或混合模态输入，并将其映射为高维语义向量。我们提取基座模型最后一层中对应 [EOS] token 的隐藏状态向量，作为输入的最终语义表示。这种方法确保了大规模检索所需的高效独立编码能力。 Qwen3-VL-Reranker 采用单塔架构，通过内部的交叉注意力机制，深度分析查询与文档之间的语义关联，从而输出精确的相关性分数。 在实际工作中，Reranking 模型接收输入对 (Query, Document) 并进行联合编码。它利用基座模型内的交叉注意力机制，实现 Query 和 Document 之间更深层、更细粒度的跨模态交互和信息融合。模型最终通过预测两个特殊 token（yes 和 no）的生成概率来表达输入对的相关性分数。 GitHub 仓库：https://github.com/QwenLM/Qwen3-VL-Embedding 魔搭 ModelScope： https://modelscope.cn/collections/Qwen/Qwen3-VL-Embedding https://modelscope.cn/collections/Qwen/Qwen3-VL-Reranker",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/ce40b05d-a971-494f-8753-0539e503dc0a.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-08T14:35:44.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/911/694.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767883181419_87d8b7ac",
+      "title": "拥有超灵巧机械手，人形机器人 North 可打乒乓球、组装纸风车",
+      "summary": "IT之家 1 月 8 日消息，人工智能机器人公司 Sharpa 于美国拉斯维加斯举办的国际消费电子展（CES）上，正式发布了其首款全尺寸人形机器人 North。这家总部位于新加坡的企业秉持“以实用机器人创造时间价值”的理念，打造出这款聚焦生产力提升的自主化机器人。",
+      "content": "IT之家 1 月 8 日消息，人工智能机器人公司 Sharpa 于美国拉斯维加斯举办的国际消费电子展（CES）上，正式发布了其首款全尺寸人形机器人 North。这家总部位于新加坡的企业秉持“以实用机器人创造时间价值”的理念，打造出这款聚焦生产力提升的自主化机器人。 据IT之家了解，North 搭载了该公司自主研发的灵巧机械手 SharpaWave，在现场演示中凭借流畅的全身协同控制，完成了四项复杂的现实场景任务。 Sharpa 公司副总裁艾丽西亚・韦内齐亚尼在接受《工程与技术》杂志（IE）记者迪娜・特蕾莎采访时表示：“我们构建了从硬件到软件的全栈式技术体系，赋予机器人媲美人类的手部灵巧度，使其能够像人一样灵活操作各类物体，进而赋能各行各业与社会生活。” North 的乒乓球对打反应时间仅为 0.02 秒，抓拍照片时的精准度与人类无异。借助多模态推理技术，该机器人可结合实时视觉与语言指令，完成发牌动作。 此外，North 还完成了纸风车的组装任务，整个过程需要 30 多个步骤才能完成，创下该机器人公开演示中连续操作时长的纪录。在风车组装过程中，North 需要操控多种不同特性的物体，包括木棍、塑料图钉，以及因质地轻薄、易变形而极难操控的纸张。 韦内齐亚尼解释道：“这款风车由多种材料制成，纸张薄且易变形，操控难度极大；而塑料图钉和木棍则属于刚性材质。机器人必须自主判断如何调整抓取方式，适配不同材质的物体并完成组装。” 她进一步揭示：“North 之所以能完成这项任务，核心在于其机械手具备触觉感知能力、类人化的手部形态，以及可指导机器人适应不同交互场景的多层级人工智能算法。” 这位副总裁还阐述了机器人实现复杂任务所需类人灵巧度的三大核心要素：“North 的灵巧性源于三个关键方面：其一，手部尺寸与形态高度仿真人类；其二，每个指尖均配备数千个触觉传感器，赋予机器人细腻的触觉感知；其三，我们通过优化人工智能模型的训练方式，使其能够高效整合触觉反馈数据，进而实现精准操控。” North 在拉斯维加斯的高调亮相，彰显了 Sharpa 公司推动人形机器人从“演示道具”迈向“实用工具”的雄心。该公司强调，全人形机器人需具备三大核心能力：类人化上肢运动能力、高可靠性的接触式操控能力，以及在复杂现实场景中长期稳定运行的能力。 这些能力的实现，依托于 Sharpa 自主研发的神经网络模型、先进的运动学与动力学优化算法，以及其量产的灵巧机械手 SharpaWave。SharpaWave 机械手是一款拟人化、与人手尺寸相当的机械手，拥有 22 个主动自由度，具备超高灵敏度触觉反馈功能，指尖定位精度可达亚毫米级，且每个指尖集成超过 1000 个触觉像素单元。 随着机器人系统向通用化、自主化方向发展，未来它们将能够承担各类重复性工作，助力人们从繁琐事务中解脱，更专注于高价值的创造性工作。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/b8423dea-588f-455b-97b7-8e9e055de803.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-08T14:00:24.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/911/683.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1767883181611_7d511a36",
+      "title": "选择困难症救星：Smartlet 表带让你 Apple Watch、传统手表一起戴",
+      "summary": "IT之家 1 月 8 日消息，在传统手表与 Apple Watch 之间做选择，有时真的让人犯难 —— 尤其当你钟爱机械表的质感，却又割舍不下智能手表的丰富功能时。不过，一款或许是 Apple Watch 史上最“离谱”的配件，给出了一个“不必二选一”的解决方案。",
+      "content": "IT之家 1 月 8 日消息，在传统手表与 Apple Watch 之间做选择，有时真的让人犯难 —— 尤其当你钟爱机械表的质感，却又割舍不下智能手表的丰富功能时。不过，一款或许是 Apple Watch 史上最“离谱”的配件，给出了一个“不必二选一”的解决方案。 如果你实在无法在 Apple Watch 和传统手表之间抉择，IT之家本文所介绍的这款表带能让你同时佩戴两块手表。 诚然，智能手表在外观设计上已经有了长足进步，但平心而论：它们依然远不及传统奢华机械表所具备的那种经典隽永的工艺美感。而如果两块表你都有，那每天出门前就得“厚此薄彼”，在“智能实用”与“颜值格调”之间做取舍。这款全新的 Smartlet 双表表带号称能让你鱼与熊掌兼得，允许你把两块表一上一下戴在同一只手腕上。 你可以根据当下的需求，决定把传统手表还是 Apple Watch 戴在手腕外侧，另一块则佩戴在内侧。 该品牌表示，这款表带兼容全系列 Apple Watch，同时适配所有表耳宽度为 20 毫米或 22 毫米的传统金属表带手表，包括劳力士、泰格豪雅、帝舵、欧米茄和真力时等品牌。 CNET 记者瓦妮莎・汉德・奥雷利亚纳称，实物上手后，它的违和感并没有想象中那么强。 Apple Watch 的“奇葩配件大赛”向来竞争激烈，但这款 Smartlet 双表表带妥妥是夺冠大热门。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/4d481ad2-c4bf-4033-9bb4-e46eac41c5ab.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-08T13:29:40.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/911/678.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767877689675_8051acba",
@@ -73,18 +133,6 @@
       "publishedAt": "2026-01-08T10:54:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7832271.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767877710940_f9f55eb4",
-      "title": "又一家科技巨头携手英伟达，打造工业 AI 操作系统",
-      "summary": "又一家科技巨头携手英伟达，打造工业 AI 操作系统",
-      "content": "又一家科技巨头携手英伟达，打造工业 AI 操作系统",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-08T10:47:59.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/jbT1HHa78cRseVfSAdKk?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -520,7 +568,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767877393340_0",
+      "id": "news_1767882857184_0",
       "title": "Judge indicates Elon Musk’s fraud lawsuit against OpenAI will head to trial",
       "summary": "A federal judge on Wednesday indicated a jury will be allowed to decide whether artificial intelligence trailblazer OpenAI hoodwinked its billionaire ...",
       "content": "A federal judge on Wednesday indicated a jury will be allowed to decide whether artificial intelligence trailblazer OpenAI hoodwinked its billionaire co-founder Elon Musk during its evolution from a nonprofit research lab into a capitalistic enterpri... [3679 chars]",
@@ -532,7 +580,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1767877394058_1",
+      "id": "news_1767882857840_1",
       "title": "Judge indicates Elon Musk's fraud lawsuit against OpenAI will head to trial",
       "summary": "A federal judge on Wednesday indicated a jury will be allowed to decide whether artificial intelligence trailblazer OpenAI hoodwinked its billionaire ...",
       "content": "A federal judge on Wednesday indicated a jury will be allowed to decide whether artificial intelligence trailblazer OpenAI hoodwinked its billionaire co-founder Elon Musk during its evolution from a nonprofit research lab into a capitalistic enterpri... [277 chars]",
@@ -544,7 +592,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1767877677928_2",
+      "id": "news_1767883142173_2",
       "title": "Judge Indicates Elon Musk's Fraud Lawsuit Against OpenAI Will Head to Trial",
       "summary": "A federal judge on Wednesday indicated a jury will be allowed to decide whether artificial intelligence trailblazer OpenAI hoodwinked its billionaire ...",
       "content": "A federal judge on Wednesday indicated a jury will be allowed to decide whether artificial intelligence trailblazer OpenAI hoodwinked its billionaire co-founder Elon Musk during its evolution from a nonprofit research lab into a capitalistic enterpri... [3679 chars]",
@@ -568,7 +616,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767877393371_3",
+      "id": "news_1767882857249_3",
       "title": "Anthropic Said to Be in Talks to Raise Funding at a $350 Billion Valuation",
       "summary": "Anthropic, the high-flying artificial intelligence start-up that makes the Claude chatbot, plans to raise $10 billion in funding that would value it a...",
       "content": "Anthropic, the high-flying artificial intelligence start-up that makes the Claude chatbot, plans to raise $10 billion in funding that would value it at roughly $350 billion, nearly doubling its valuation from just four months ago, according to three ... [1540 chars]",
@@ -578,30 +626,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.nytimes.com/2026/01/07/technology/anthropic-funding-valuation.html",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1767877712548_f2405841",
-      "title": "7 天 AI 搭子实测：你的判断决定哪款应用值得留下!",
-      "summary": "7 天 AI 搭子实测：你的判断决定哪款应用值得留下!",
-      "content": "7 天 AI 搭子实测：你的判断决定哪款应用值得留下!",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-07T17:57:32.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/GAK1NJLpCRzKUrR7o5te?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767877714461_bae1d32e",
-      "title": "离职工程师举报Uber Eats算法系统剥削外卖员，一天后竟被爆出帖子是AI编的？",
-      "summary": "离职工程师举报Uber Eats算法系统剥削外卖员，一天后竟被爆出帖子是AI编的？",
-      "content": "离职工程师举报Uber Eats算法系统剥削外卖员，一天后竟被爆出帖子是AI编的？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-07T17:39:45.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/RTBuRxfOS4iP6NQCwF8k?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767775599417_42716d26",
@@ -1276,7 +1300,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767877394606_4",
+      "id": "news_1767882857476_4",
       "title": "Development and validation of an artificial intelligence model based on liver CSE-MRI fat maps for predicting dyslipidemia",
       "summary": "Figures\nAbstract\nThis study aimed to develop and validate an artificial intelligence (AI) model for the non-invasive early detection of dyslipidemia u...",
       "content": "Figures\nAbstract\nThis study aimed to develop and validate an artificial intelligence (AI) model for the non-invasive early detection of dyslipidemia using liver chemical shift-encoded MRI (CSE-MRI) fat maps. An automated AI pipeline was developed to ... [35990 chars]",
@@ -1300,7 +1324,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767877393345_5",
+      "id": "news_1767882857176_5",
       "title": "$1B OpenAI IP Suit Targets Disney Licensing Deal Details",
       "summary": "In a legal clash that could redraw the borders of artificial intelligence and copyright law, bestselling authors suing OpenAI are asking a federal jud...",
       "content": "In a legal clash that could redraw the borders of artificial intelligence and copyright law, bestselling authors suing OpenAI are asking a federal judge to force the company to open the books on its $1 billion licensing deal with Disney, arguing the ... [1277 chars]",
@@ -1322,30 +1346,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/911/004.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767710192036_b6c63837",
-      "title": "苏州造车新势力 Kosmera 跑车亮相 CES 2026：零百加速 1.8 秒、1903 马力",
-      "summary": "IT之家 1 月 6 日消息，据博主 @数字尾巴 今日分享，Kosmera 跑车已亮相 CES 2026，该车拥有 1903 马力、零百加速 1.8 秒。",
-      "content": "IT之家 1 月 6 日消息，据博主 @数字尾巴 今日分享，Kosmera 跑车已亮相 CES 2026，该车拥有 1903 马力、零百加速 1.8 秒。 根据美国专利及商标局 USPTO 系统，Kosmera 商标的申请者是一家来自苏州的企业，名称英文翻译为 Xing Chen Future (Suzhou) Automotive Technology Co., Ltd.。另外，现场视频也已曝光，消息称该车配备冷媒强冷电驱 + 主动空力套件，同时拥有无序对开门和 AI 教练。 据IT之家此前报道，这款新能源超跑面向高端细分市场，兼顾日常使用的舒适度和极限赛道性能。其搭载主动线性电机悬挂系统，动力系统每轮输出功率 350kW，底盘计划采用航天级复合材料和 3D 打印金属。此外该车型配备基于 AR HUD 的 AI 赛道教练系统。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/32efbec1-9f7d-4e58-9a4f-131961f47d0b.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-06T14:05:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/910/994.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767710174781_75f8969b",
-      "title": "Broadcom Secures $21 Billion AI Chip Deal with Anthropic",
-      "summary": "Despite the harsh culture, Broadcom maintains a voluntary turnover rate of just 2.9%, comparable to Nvidia. The company relies on a small cadre of sen...",
-      "content": "Despite the harsh culture, Broadcom maintains a voluntary turnover rate of just 2.9%, comparable to Nvidia. The company relies on a small cadre of senior engineers, providing them substantial stock rewards to maximize output.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-06T13:03:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7833003.html",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
