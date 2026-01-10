@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-01-10T22:28:36.300Z",
+  "timestamp": "2026-01-10T23:27:49.108Z",
   "total": 83,
   "data": [
+    {
+      "id": "news_1768087667702_a5f23dc5",
+      "title": "马斯克宣布下周开源 X 最新推荐算法，承诺每四周更新一次",
+      "summary": "IT之家 1 月 11 日消息，马斯克今日宣布，将在一周内正式开源 𝕏平台最新的内容推荐算法。 马斯克称，本次开源将覆盖“所有用于决定向用户推荐自然内容和广告内容的代码”，并强调这只是第一步。后续将每四周更新一次代码，同时附带开发者说明，标注算法和逻辑上的改动内容。",
+      "content": "IT之家 1 月 11 日消息，马斯克今日宣布，将在一周内正式开源 𝕏平台最新的内容推荐算法。 马斯克称，本次开源将覆盖“所有用于决定向用户推荐自然内容和广告内容的代码”，并强调这只是第一步。后续将每四周更新一次代码，同时附带开发者说明，标注算法和逻辑上的改动内容。 这意味着，外界或将首次系统性地看到 𝕏 如何决定向用户推荐自然内容与广告内容，并进一步理解信息流中争议性内容频繁出现的技术原因。 IT之家查询获悉，𝕏 的前身 Twitter 曾在 2023 年开源过部分推荐算法代码，但相关 GitHub 仓库长期未更新，绝大多数文件仍停留在最初发布阶段。此次马斯克的表态，被视为对“透明化算法”承诺的一次重启。 不过，外界对这一承诺仍持谨慎态度。马斯克过去曾多次表示将开源 𝕏 及相关技术，部分承诺确实落地，例如 2024 年开源的 Grok-1 模型；但目前 xAI 已经推进至 Grok-3 阶段，而 Grok 的公开代码仓库已两年未有实质更新。 此外，马斯克此次宣布开源 𝕏 算法的时间点也引发了一定争议。近期，马斯克及其 AI 初创公司 xAI 正面临来自不同国家和政治立场的批评，焦点集中在 Grok 对深度伪造图片等敏感内容的处理尺度上。在这样的背景下，算法开源是否能够真正提升平台透明度，仍有待观察。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/df96af91-1b65-4615-965b-da582f7d44ab.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-10T22:49:39.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/912/204.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768087649106_c738a74a",
+      "title": "发生在CES的六场对话：来自深圳的 AI 硬件“外卷”",
+      "summary": "发生在CES的六场对话：来自深圳的 AI 硬件“外卷”",
+      "content": "发生在CES的六场对话：来自深圳的 AI 硬件“外卷”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-10T17:11:26.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/05bVyOA1exU97VWzZz1B?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1768055571428_119aa3e3",
       "title": "智谱创始人唐杰谈 DeepSeek：很震撼，开启了“AI 做事”新范式",
@@ -376,7 +400,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768084064596_0",
+      "id": "news_1768087614616_0",
       "title": "SB Energy Lands $1 Billion From OpenAI and SoftBank",
       "summary": "OpenAI and SoftBank Group Corp. have jointly invested $1 billion in SB Energy, deepening their push to secure power and infrastructure for the rapid e...",
       "content": "OpenAI and SoftBank Group Corp. have jointly invested $1 billion in SB Energy, deepening their push to secure power and infrastructure for the rapid expansion of artificial intelligence in the United States.\nUnder the deal, OpenAI and SoftBank Group ... [1761 chars]",
@@ -388,7 +412,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1768084064023_1",
+      "id": "news_1768087614918_1",
       "title": "OpenAI, SoftBank Invest $1 Billion in Stargate Partner SB Energy",
       "summary": "OpenAI and SoftBank Group Corp. have jointly invested $1 billion in SB Energy, an infrastructure company that’s working with the tech firms on a massi...",
       "content": "OpenAI and SoftBank Group Corp. have jointly invested $1 billion in SB Energy, an infrastructure company that’s working with the tech firms on a massive US buildout of data centers to power artificial intelligence.\nOpenAI and SoftBank will each inves... [346 chars]",
@@ -422,6 +446,18 @@
       "category": "国外AI",
       "originalUrl": "https://36kr.com/newsflashes/3632185572410376?f=rss",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768087651868_a273a742",
+      "title": "刚刚，AI企业IPO最速纪录刷新！MiniMax的技术野心，价值超800亿",
+      "summary": "刚刚，AI企业IPO最速纪录刷新！MiniMax的技术野心，价值超800亿",
+      "content": "刚刚，AI企业IPO最速纪录刷新！MiniMax的技术野心，价值超800亿",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-09T11:53:17.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/U7llrTLhdJxypjxLbTkz?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767964061661_666ab474",
@@ -472,7 +508,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768084063851_2",
+      "id": "news_1768087614327_2",
       "title": "Physical AI dominates CES but humanity will still have to wait a while for humanoid servants",
       "summary": "LAS VEGAS, Jan 9 (Reuters) - Just four years after the launch of ChatGPT, the chatbot that brought artificial intelligence into the mainstream, and it...",
       "content": "LAS VEGAS, Jan 9 (Reuters) - Just four years after the launch of ChatGPT, the chatbot that brought artificial intelligence into the mainstream, and it seemed like almost every exhibitor at the CES show in Las Vegas this week was touting an AI-powered... [3670 chars]",
@@ -482,6 +518,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.reuters.com/world/china/physical-ai-dominates-ces-humanity-will-still-have-wait-while-humanoid-servants-2026-01-09/",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1768087653522_105019be",
+      "title": "Meta运用基于大型语言模型的变异测试提升合规覆盖率",
+      "summary": "Meta运用基于大型语言模型的变异测试提升合规覆盖率",
+      "content": "Meta运用基于大型语言模型的变异测试提升合规覆盖率",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-09T11:03:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/AVRJAU6tE2FA70QD6pOg?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767958344704_578729f2",
@@ -544,18 +592,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768084103788_23d2d895",
-      "title": "DeepSeek-V3.2在推理任务中的表现优于GPT-5",
-      "summary": "DeepSeek-V3.2在推理任务中的表现优于GPT-5",
-      "content": "DeepSeek-V3.2在推理任务中的表现优于GPT-5",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-09T09:35:19.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/fJRLWvOdwbcSiQXlNPek?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1767951674179_509dea83",
       "title": "AAAI 2026在新加坡滨海湾畔共饮一杯：蚂蚁InTech之夜邀您共话AI未来",
       "summary": "AAAI 2026在新加坡滨海湾畔共饮一杯：蚂蚁InTech之夜邀您共话AI未来",
@@ -616,7 +652,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768084064372_3",
+      "id": "news_1768087614879_3",
       "title": "Report says DeepSeek gaining ground globally",
       "summary": "HONG KONG -- DeepSeek, the Chinese tech startup that rivals OpenAI's ChatGPT, has been gaining ground in many developing nations in a trend that could...",
       "content": "HONG KONG -- DeepSeek, the Chinese tech startup that rivals OpenAI's ChatGPT, has been gaining ground in many developing nations in a trend that could narrow the gap of artificial intelligence adoption with advanced economies, a new report suggested.... [4417 chars]",
@@ -916,43 +952,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1767915045159_a7a2a13e",
-      "title": "拒绝短视频：YouTube 将允许用户从搜索结果中屏蔽 Shorts 内容",
-      "summary": "IT之家 1 月 9 日消息，YouTube 今日对其高级搜索工具进行了一轮更新，其中最受关注的变化是新增了“Shorts”作为独立内容类型，这意味着用户在搜索时可以直接排除时长不超过三分钟的短视频结果。 这一改动对方案短视频的用户来说无疑是个好消息。",
-      "content": "IT之家 1 月 9 日消息，YouTube 今日对其高级搜索工具进行了一轮更新，其中最受关注的变化是新增了“Shorts”作为独立内容类型，这意味着用户在搜索时可以直接排除时长不超过三分钟的短视频结果。 这一改动对方案短视频的用户来说无疑是个好消息。过去用户在平台上寻找深度讲解或长篇解析视频时，往往会搜索到大量没有意义的短视频，效率不高。尤其是在去年谷歌推出 Veo 3 引擎后，平台上 AI 生成内容明显增多，短视频数量进一步膨胀，此次加入可排除 Shorts 的选项，能够让不少用户直接寻找到自己想要的内容。 除了 Shorts 相关调整外，YouTube 还对高级搜索中的部分功能名称进行了修改。原本的“Sort By（排序方式）”更名为“Prioritize（优先顺序）”，而“View Count（观看次数）”则调整为“Popularity（热门程度）”。这一变化意味着推荐和排序不再只看播放量，还会综合观看时长等指标，以更准确地反映视频的实际互动和受欢迎程度。 与此同时，YouTube 也精简了一些使用率较低的筛选项，高级搜索中已不再提供“上传时间：最近一小时”以及“按评分排序”这两个选项，这意味着用户无法再直接通过关键字搜索到“评价最高的视频”。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/b65bd146-269f-4381-99d8-cef65c90bbe8.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-08T23:16:22.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/911/716.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767915045337_b9d53bcb",
-      "title": "拒绝 AI 磨皮：美国 95 后掀起复古风，爱上苹果 iPhone 4“渣画质”",
-      "summary": "IT之家 1 月 9 日消息，科技媒体 Cult of Mac 昨日（1 月 8 日）发布博文，报道称迈入 2026 年，发布于 2010 年 6 月的 iPhone 4 重新回到了大众视野，在美国 Z 世代（从 1995 年到 2009 年出生的一代人，通常指 95 后及 00 后）群体中意外翻红...",
-      "content": "IT之家 1 月 9 日消息，科技媒体 Cult of Mac 昨日（1 月 8 日）发布博文，报道称迈入 2026 年，发布于 2010 年 6 月的 iPhone 4 重新回到了大众视野，在美国 Z 世代（从 1995 年到 2009 年出生的一代人，通常指 95 后及 00 后）群体中意外翻红。 报道称 Z 世代纷纷从抽屉深处翻出这款经典的玻璃与不锈钢“古董”，将其视为彰显个性的时尚单品。这一现象并非个例，而是当下“数字怀旧”趋势的一部分，年轻人开始重新审视并使用那些功能单一、设计独特的老旧科技产品。 IT之家援引博文介绍，iPhone 4 之所以重获新生，核心在于其独特的成像风格。在现代智能手机依赖 AI 算法进行过度磨皮、色彩增强的“计算摄影”时代，iPhone 4 那颗 500 万像素的老旧传感器反而显得清新脱俗。 其有限的动态范围和早期的图像处理技术，能拍出对比度强烈、噪点明显且带有“低保真（Lo-fi）”质感的照片。这种无法通过滤镜完美复制的“原生缺陷美”，被年轻用户视为一种真实与艺术的表达。 这股热潮直接带动了二手市场的活跃度。目前在 eBay 等平台上，一台成色尚可的 iPhone 4 售价约为 30 至 50 美元（约合人民币 200-350 元）。对于 Z 世代而言，这是一种追求新奇与“反算法”的体验。 尽管情怀满分，但必须认清现实：iPhone 4 已完全无法作为主力手机使用。在连接性方面，它不支持 4G LTE 和 5G 网络，仅能依赖 Wi-Fi 或极少数地区尚存的 3G 网络。这意味着在没有 Wi-Fi 覆盖的地方，它几乎是一块“砖头”，无法满足现代即时通讯和流媒体的需求。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/d1044b5a-b742-4a26-9df7-29cddc492433.png?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-08T23:15:30.000Z",
-      "category": "AI趣味新闻",
-      "originalUrl": "https://www.ithome.com/0/911/715.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767911733013_a239a721",
-      "title": "苹果再胜诉 AliveCor：法院裁定 Apple Watch 心率算法调整不构成垄断",
-      "summary": "IT之家 1 月 9 日消息，科技媒体 MacRumors 昨日（1 月 8 日）发布博文，报道称 AliveCor 试图重启其针对 Apple Watch 的反垄断诉讼，但本周再次受挫，美国联邦上诉法院判决苹果胜诉。这一结果，也让苹果在与 AliveCor 的长期法律拉锯中再下一城。",
-      "content": "IT之家 1 月 9 日消息，科技媒体 MacRumors 昨日（1 月 8 日）发布博文，报道称 AliveCor 试图重启其针对 Apple Watch 的反垄断诉讼，但本周再次受挫，美国联邦上诉法院判决苹果胜诉。这一结果，也让苹果在与 AliveCor 的长期法律拉锯中再下一城。 此次裁决发生在 AliveCor 去年春天于美国国际贸易委员会（ITC）专利案失利之后。根据美国第九巡回上诉法院于 2026 年 1 月 8 日提交的判决文件，法院维持了一审的简易判决，认定苹果并未非法垄断 Apple Watch 心律分析应用市场，驳回了 AliveCor 的相关指控。 IT之家注：双方专利纠纷可以追溯到 2021 年，AliveCor 起诉苹果，指控其 Apple Watch 侵犯了其与心率和心电图（ECG）技术相关的三项专利。 2025 年 3 月，AliveCor 在 ITC 的专利纠纷中败诉，其心脏监测相关专利被美国专利审判和上诉委员会（PTAB）裁定无效，且该结论在上诉中得到维持。这一裁决不仅消除了 Apple Watch 可能被禁止进口的风险，也基本终结了 AliveCor 基于专利层面对苹果发起的挑战。 而本次裁决聚焦的是 AliveCor 同步推进的反垄断诉讼，争议核心在于苹果对 watchOS 的调整以及心率数据访问权限的变化。AliveCor 指控称，苹果刻意停止向第三方开放旧版心率算法，从而削弱了其 SmartRhythm 功能，同时又在 Apple Watch 上推出自家的“不规则心律通知”功能，构成排他性竞争。 第九巡回上诉法院在判决中指出，尽管理由与一审略有不同，但依然支持地方法院作出的有利于苹果的裁定，认为 AliveCor 所指控的行为不构成《谢尔曼法》第 2 条所界定的非法垄断。 法院在判决中还原了事件经过。AliveCor 曾开发 SmartRhythm 软件功能，利用 Apple Watch 在“运动模式”下由苹果算法计算得出的心率数据，用于检测房颤等异常情况。随后一年，苹果在 watchOS 更新中更换了心率计算算法，并向第三方开发者开放了新算法的数据接口，同时停止提供旧算法的数据，导致 SmartRhythm 无法继续可靠地检测房颤。与此同时，苹果还上线了自家的 Irregular Rhythm Notification 功能，该功能使用的是第三套心率算法，其相关数据同样向第三方应用开放。 法院认为，这种做法属于合法的“拒绝交易”，而非反竞争行为。判决强调，企业通常并不存在反垄断法意义上必须持续向竞争对手开放其专有技术的义务，而 AliveCor 未能证明本案符合任何例外情形。 此外，法官还指出，AliveCor 试图获取的数据并不构成“必要设施”。苹果自身的心律检测功能依赖的是另一套数据体系，而这些数据依然可以通过现有 API 向第三方开发者提供，这也进一步削弱了 AliveCor 的核心主张。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/3/368ed80e-0246-4f7f-acd2-e1d765bea790.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-08T22:31:08.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/911/707.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768084105418_933c33f6",
+      "id": "news_1768087658658_933c33f6",
       "title": "智源发布2026十大 AI技术趋势：世界模型成AGI共识方向",
       "summary": "智源发布2026十大 AI技术趋势：世界模型成AGI共识方向",
       "content": "智源发布2026十大 AI技术趋势：世界模型成AGI共识方向",
@@ -964,7 +964,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768084107184_d981ae07",
+      "id": "news_1768087660503_d981ae07",
       "title": "“通用大模型微调成为行业模型是伪命题”？医疗AI深度重构，传神语联创始人何恩培：孪生智能体能砍70%线下复诊工作",
       "summary": "“通用大模型微调成为行业模型是伪命题”？医疗AI深度重构，传神语联创始人何恩培：孪生智能体能砍70%线下复诊工作...",
       "content": "“通用大模型微调成为行业模型是伪命题”？医疗AI深度重构，传神语联创始人何恩培：孪生智能体能砍70%线下复诊工作",
@@ -976,7 +976,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768084108508_ddd3bf3e",
+      "id": "news_1768087661802_ddd3bf3e",
       "title": "智谱正式成“全球大模型第一股”，开盘首日涨超13%！10位董事7个清华背景，专家：国内IPO抢收“确定性”，OpenAI们豪赌“无限性”",
       "summary": "智谱正式成“全球大模型第一股”，开盘首日涨超13%！10位董事7个清华背景，专家：国内IPO抢收“确定性”，OpenAI们豪赌“无限性”...",
       "content": "智谱正式成“全球大模型第一股”，开盘首日涨超13%！10位董事7个清华背景，专家：国内IPO抢收“确定性”，OpenAI们豪赌“无限性”",
@@ -988,7 +988,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768084110256_eb677945",
+      "id": "news_1768087662974_eb677945",
       "title": "奇富科技发布首个信贷多模态评测基准，构筑信贷AI研究与落地关键桥梁",
       "summary": "奇富科技发布首个信贷多模态评测基准，构筑信贷AI研究与落地关键桥梁",
       "content": "奇富科技发布首个信贷多模态评测基准，构筑信贷AI研究与落地关键桥梁",
