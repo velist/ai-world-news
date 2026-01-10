@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-01-10T13:01:09.767Z",
-  "total": 82,
+  "timestamp": "2026-01-10T13:40:51.713Z",
+  "total": 85,
   "data": [
+    {
+      "id": "news_1768052427518_c738a74a",
+      "title": "发生在CES的六场对话：来自深圳的 AI 硬件“外卷”",
+      "summary": "发生在CES的六场对话：来自深圳的 AI 硬件“外卷”",
+      "content": "发生在CES的六场对话：来自深圳的 AI 硬件“外卷”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-10T17:11:26.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/05bVyOA1exU97VWzZz1B?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1768027567080_26a7a193",
       "title": "Anthropic突然封禁第三方工具调用Claude，Cursor、OpenCode、xAI 集体“中枪”！",
@@ -14,6 +26,54 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/EDUxU7QhZgG65WQDtoP1?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768052450013_475b8e87",
+      "title": "谷歌 Gmail 将停止其他邮箱使用 POP3 协议代收邮件，用户需换用邮件转发",
+      "summary": "IT之家 1 月 10 日消息，谷歌最近悄然更新支持文档，宣布旗下 Gmail 从今年 1 月起不能再通过 POP 协议代收邮件。",
+      "content": "IT之家 1 月 10 日消息，谷歌最近悄然更新支持文档，宣布旗下 Gmail 从今年 1 月起不能再通过 POP 协议代收邮件。 IT之家注：邮件代收是谷歌 Gmail 提供的一项实用功能，可通过 POP3 协议和明文密码绑定后，即可将多个邮箱账户整合到 Gmail 收件箱，最终让用户在 Gmail 这一个地方查看雅虎、Exchange 邮件。 谷歌建议用户在选用邮件自动转发功能来实现类似效果，不过自动转发功能需要逐个打开邮箱手动设置，过程较为繁琐。 同时谷歌还将在同一时间点停用 Gmailify 功能，该功能本来可以为第三方邮箱账户启用垃圾邮件过滤、收件箱整理等高级特性。 但是谷歌并没有给出关闭的具体原因，一些市场观察人士猜测，这可能与 POP3 以明文方式传输密码有关，不够安全。 谷歌还强调，Gmail 客户端仍然支持多种邮箱，用户仍然可以将 IMAP 协议的第三方邮箱添加到 Gmail 客户端以收发邮件，只不过没法统一到 Gmail 邮箱中查看。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/41cc102f-9f73-4e43-997a-2720d92c2536.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-10T13:26:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/912/188.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768052395787_64a0f01d",
+      "title": "因为AI编程，Tailwind CSS差点死了",
+      "summary": "因为AI编程，Tailwind CSS差点死了",
+      "content": "因为AI编程，Tailwind CSS差点死了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-01-10T13:16:20.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-10-3",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768052396650_8b3ece8c",
+      "title": "打破学科壁垒！400篇参考文献重磅综述，统一调查「人脑×Agent」记忆系统",
+      "summary": "打破学科壁垒！400篇参考文献重磅综述，统一调查「人脑×Agent」记忆系统",
+      "content": "打破学科壁垒！400篇参考文献重磅综述，统一调查「人脑×Agent」记忆系统",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-01-10T13:10:06.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-10-2",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768052450292_12582060",
+      "title": "月之暗面 Kimi 创始人杨植麟：中国技术不仅要好用还要参与制定规则，未来大模型要推出到 K100",
+      "summary": "IT之家 1 月 10 日消息，据澎湃新闻报道，今日，在清华大学基础模型北京市重点实验室主办的 AGI-Next 前沿峰会上，AI 大模型独角兽月之暗面（Kimi）创始人、CEO 杨植麟谈到 Kimi 在未来的发展规划。",
+      "content": "IT之家 1 月 10 日消息，据澎湃新闻报道，今日，在清华大学基础模型北京市重点实验室主办的 AGI-Next 前沿峰会上，AI 大模型独角兽月之暗面（Kimi）创始人、CEO 杨植麟谈到 Kimi 在未来的发展规划。 杨植麟透露，目前已有多款中国开源模型成为行业测试标准，“中国技术不仅要好用，还要参与制定规则”。面向未来，团队将持续迭代技术，下一代模型将采用 Kimi Delta Attention 新型线性注意力机制，进一步提升短长文本任务性能与速度。同时，未来的大模型还将具备更多“审美”和“价值观”，摆脱同质化发展。 对于公众关心的 AI 安全问题，杨植麟分享与 Kimi 的对话感悟：“AI 可能是人类探索未知的钥匙，能帮我们攻克癌症、解决能源危机、探索宇宙。虽然有风险，但放弃发展就等于放弃人类文明的上限。” 他表示，团队将在做好风险控制的前提下持续突破，计划未来十年、二十年内，陆续推出 K4、K5 直至 K100 系列模型。 据IT之家了解，Kimi K2 是月之暗面旗下首个万亿参数开源模型，去年 7 月 11 日发布。Kimi K2 是一款具备更强代码能力、更擅长通用 Agent 任务的 MoE 架构基础模型，总参数 1T，激活参数 32B。随后，Kimi K2 在同年 9 月发布更新，上下文长度扩展至 256K，并带来更快的 API。 去年 11 月，月之暗面开源 Kimi K2 Thinking 模型，该模型是月之暗面基于“模型即 Agent”理念训练的新一代 Thinking Agent，原生掌握“边思考，边使用工具”的能力。在人类最后的考试（Humanity's Last Exam）、自主网络浏览能力（BrowseComp）、复杂信息收集推理（SEAL-0）等多项基准测试中表现达到 SOTA 水平，并在 Agentic 搜索、Agentic 编程、写作和综合推理能力等方面取得全面提升。 今年 1 月 1 日，有消息称月之暗面计划今年 1 月或 3 月上线多模态新模型，型号或为 K2.1/K2.5。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/7/3cbd708f-edda-41a5-b81c-a9009b08f9a9.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1",
+      "source": "IT之家",
+      "publishedAt": "2026-01-10T13:03:39.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/912/187.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768050022421_da8576cb",
@@ -29,6 +89,18 @@
     },
     {
       "id": "news_1768050068217_8be4b40f",
+      "title": "网易《逆水寒》手游新流派“鸿音”首秀：以琵琶为武器、战斗中飞天变身，2 月 6 日上线",
+      "summary": "IT之家 1 月 10 日消息，网易《逆水寒》手游今日官宣，新流派“鸿音”将于 2 月 6 日到来。 神秘的西域绘卷在江湖中徐徐展开，当“十三元凶”的线索悄然浮现，拜火教的阴谋也随之蔓延。",
+      "content": "IT之家 1 月 10 日消息，网易《逆水寒》手游今日官宣，新流派“鸿音”将于 2 月 6 日到来。 神秘的西域绘卷在江湖中徐徐展开，当“十三元凶”的线索悄然浮现，拜火教的阴谋也随之蔓延。宋夏局势紧张，丝路阻断，正是在这风云交汇之际，鸿音一派从敦煌黄沙深处浮现，将于 2 月 6 日新春版本正式降临逆水寒手游。 根据官方介绍，作为《逆水寒》首个可在战斗中飞天变身的流派，鸿音以琵琶为武器，其独特的“飞天”技能将让玩家在战斗中化身敦煌飞天般的凌空姿态。此流派男女体型的玩家皆可修习，共同掌控这以一弦定乾坤的无上力量。 此外，《逆水寒》手游将打造新春鸿运版本，玩家将在 2 月 6 日正式上线的新版本中，感受来自逆水寒“十全十美”新年鸿运的“甜蜜暴击”，包括多项福利活动内容。IT之家附官方预热如下： 新春版本更新后，《逆水寒》还将迎来全方位的升级：新流派、新福利、新剧情、新玩法、新视听等。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/22cc0ade-19de-4138-bb4a-38094903902d.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-10T12:42:05.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/912/182.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768052450432_8be4b40f",
       "title": "网易《逆水寒》手游新流派“鸿音”首秀：以琵琶为武器、战斗中飞天变身，2 月 6 日上线",
       "summary": "IT之家 1 月 10 日消息，网易《逆水寒》手游今日官宣，新流派“鸿音”将于 2 月 6 日到来。 神秘的西域绘卷在江湖中徐徐展开，当“十三元凶”的线索悄然浮现，拜火教的阴谋也随之蔓延。",
       "content": "IT之家 1 月 10 日消息，网易《逆水寒》手游今日官宣，新流派“鸿音”将于 2 月 6 日到来。 神秘的西域绘卷在江湖中徐徐展开，当“十三元凶”的线索悄然浮现，拜火教的阴谋也随之蔓延。宋夏局势紧张，丝路阻断，正是在这风云交汇之际，鸿音一派从敦煌黄沙深处浮现，将于 2 月 6 日新春版本正式降临逆水寒手游。 根据官方介绍，作为《逆水寒》首个可在战斗中飞天变身的流派，鸿音以琵琶为武器，其独特的“飞天”技能将让玩家在战斗中化身敦煌飞天般的凌空姿态。此流派男女体型的玩家皆可修习，共同掌控这以一弦定乾坤的无上力量。 此外，《逆水寒》手游将打造新春鸿运版本，玩家将在 2 月 6 日正式上线的新版本中，感受来自逆水寒“十全十美”新年鸿运的“甜蜜暴击”，包括多项福利活动内容。IT之家附官方预热如下： 新春版本更新后，《逆水寒》还将迎来全方位的升级：新流派、新福利、新剧情、新玩法、新视听等。",
@@ -304,7 +376,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768049736835_0",
+      "id": "news_1768052108804_0",
       "title": "SB Energy Lands $1 Billion From OpenAI and SoftBank",
       "summary": "OpenAI and SoftBank Group Corp. have jointly invested $1 billion in SB Energy, deepening their push to secure power and infrastructure for the rapid e...",
       "content": "OpenAI and SoftBank Group Corp. have jointly invested $1 billion in SB Energy, deepening their push to secure power and infrastructure for the rapid expansion of artificial intelligence in the United States.\nUnder the deal, OpenAI and SoftBank Group ... [1761 chars]",
@@ -316,7 +388,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1768049736226_1",
+      "id": "news_1768052108113_1",
       "title": "OpenAI, SoftBank Invest $1 Billion in Stargate Partner SB Energy",
       "summary": "OpenAI and SoftBank Group Corp. have jointly invested $1 billion in SB Energy, an infrastructure company that’s working with the tech firms on a massi...",
       "content": "OpenAI and SoftBank Group Corp. have jointly invested $1 billion in SB Energy, an infrastructure company that’s working with the tech firms on a massive US buildout of data centers to power artificial intelligence.\nOpenAI and SoftBank will each inves... [346 chars]",
@@ -350,6 +422,18 @@
       "category": "国外AI",
       "originalUrl": "https://36kr.com/newsflashes/3632185572410376?f=rss",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768052431292_a273a742",
+      "title": "刚刚，AI企业IPO最速纪录刷新！MiniMax的技术野心，价值超800亿",
+      "summary": "刚刚，AI企业IPO最速纪录刷新！MiniMax的技术野心，价值超800亿",
+      "content": "刚刚，AI企业IPO最速纪录刷新！MiniMax的技术野心，价值超800亿",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-09T11:53:17.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/U7llrTLhdJxypjxLbTkz?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767964061661_666ab474",
@@ -400,7 +484,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768049736465_2",
+      "id": "news_1768052107860_2",
       "title": "Physical AI dominates CES but humanity will still have to wait a while for humanoid servants",
       "summary": "LAS VEGAS, Jan 9 (Reuters) - Just four years after the launch of ChatGPT, the chatbot that brought artificial intelligence into the mainstream, and it...",
       "content": "LAS VEGAS, Jan 9 (Reuters) - Just four years after the launch of ChatGPT, the chatbot that brought artificial intelligence into the mainstream, and it seemed like almost every exhibitor at the CES show in Las Vegas this week was touting an AI-powered... [3670 chars]",
@@ -410,6 +494,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.reuters.com/world/china/physical-ai-dominates-ces-humanity-will-still-have-wait-while-humanoid-servants-2026-01-09/",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1768052433202_105019be",
+      "title": "Meta运用基于大型语言模型的变异测试提升合规覆盖率",
+      "summary": "Meta运用基于大型语言模型的变异测试提升合规覆盖率",
+      "content": "Meta运用基于大型语言模型的变异测试提升合规覆盖率",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-09T11:03:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/AVRJAU6tE2FA70QD6pOg?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1767958344704_578729f2",
@@ -472,18 +568,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768050056893_23d2d895",
-      "title": "DeepSeek-V3.2在推理任务中的表现优于GPT-5",
-      "summary": "DeepSeek-V3.2在推理任务中的表现优于GPT-5",
-      "content": "DeepSeek-V3.2在推理任务中的表现优于GPT-5",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-09T09:35:19.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/fJRLWvOdwbcSiQXlNPek?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1767951674179_509dea83",
       "title": "AAAI 2026在新加坡滨海湾畔共饮一杯：蚂蚁InTech之夜邀您共话AI未来",
       "summary": "AAAI 2026在新加坡滨海湾畔共饮一杯：蚂蚁InTech之夜邀您共话AI未来",
@@ -544,7 +628,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768049736370_3",
+      "id": "news_1768052107789_3",
       "title": "Report says DeepSeek gaining ground globally",
       "summary": "HONG KONG -- DeepSeek, the Chinese tech startup that rivals OpenAI's ChatGPT, has been gaining ground in many developing nations in a trend that could...",
       "content": "HONG KONG -- DeepSeek, the Chinese tech startup that rivals OpenAI's ChatGPT, has been gaining ground in many developing nations in a trend that could narrow the gap of artificial intelligence adoption with advanced economies, a new report suggested.... [4417 chars]",
@@ -880,18 +964,6 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768050058732_933c33f6",
-      "title": "智源发布2026十大 AI技术趋势：世界模型成AGI共识方向",
-      "summary": "智源发布2026十大 AI技术趋势：世界模型成AGI共识方向",
-      "content": "智源发布2026十大 AI技术趋势：世界模型成AGI共识方向",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-08T21:48:52.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/XzfoHiKPOLjjHlJXK8OV?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1767871783765_d981ae07",
       "title": "“通用大模型微调成为行业模型是伪命题”？医疗AI深度重构，传神语联创始人何恩培：孪生智能体能砍70%线下复诊工作",
       "summary": "“通用大模型微调成为行业模型是伪命题”？医疗AI深度重构，传神语联创始人何恩培：孪生智能体能砍70%线下复诊工作...",
@@ -916,19 +988,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768050063458_eb677945",
-      "title": "奇富科技发布首个信贷多模态评测基准，构筑信贷AI研究与落地关键桥梁",
-      "summary": "奇富科技发布首个信贷多模态评测基准，构筑信贷AI研究与落地关键桥梁",
-      "content": "奇富科技发布首个信贷多模态评测基准，构筑信贷AI研究与落地关键桥梁",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-08T16:43:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/swXkuTsb083IU7xQc4eB?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768050018919_4",
+      "id": "news_1768052390780_4",
       "title": "DeepSeek's AI Gains Traction in Developing Nations, Microsoft Report Says",
       "summary": "HONG KONG (AP) — DeepSeek, the Chinese tech startup that rivals OpenAI's ChatGPT, has been gaining ground in many developing nations in a trend that c...",
       "content": "HONG KONG (AP) — DeepSeek, the Chinese tech startup that rivals OpenAI's ChatGPT, has been gaining ground in many developing nations in a trend that could narrow the gap of artificial intelligence adoption with advanced economies, a new report sugges... [4570 chars]",
@@ -962,30 +1022,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/911/683.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767883181611_7d511a36",
-      "title": "选择困难症救星：Smartlet 表带让你 Apple Watch、传统手表一起戴",
-      "summary": "IT之家 1 月 8 日消息，在传统手表与 Apple Watch 之间做选择，有时真的让人犯难 —— 尤其当你钟爱机械表的质感，却又割舍不下智能手表的丰富功能时。不过，一款或许是 Apple Watch 史上最“离谱”的配件，给出了一个“不必二选一”的解决方案。",
-      "content": "IT之家 1 月 8 日消息，在传统手表与 Apple Watch 之间做选择，有时真的让人犯难 —— 尤其当你钟爱机械表的质感，却又割舍不下智能手表的丰富功能时。不过，一款或许是 Apple Watch 史上最“离谱”的配件，给出了一个“不必二选一”的解决方案。 如果你实在无法在 Apple Watch 和传统手表之间抉择，IT之家本文所介绍的这款表带能让你同时佩戴两块手表。 诚然，智能手表在外观设计上已经有了长足进步，但平心而论：它们依然远不及传统奢华机械表所具备的那种经典隽永的工艺美感。而如果两块表你都有，那每天出门前就得“厚此薄彼”，在“智能实用”与“颜值格调”之间做取舍。这款全新的 Smartlet 双表表带号称能让你鱼与熊掌兼得，允许你把两块表一上一下戴在同一只手腕上。 你可以根据当下的需求，决定把传统手表还是 Apple Watch 戴在手腕外侧，另一块则佩戴在内侧。 该品牌表示，这款表带兼容全系列 Apple Watch，同时适配所有表耳宽度为 20 毫米或 22 毫米的传统金属表带手表，包括劳力士、泰格豪雅、帝舵、欧米茄和真力时等品牌。 CNET 记者瓦妮莎・汉德・奥雷利亚纳称，实物上手后，它的违和感并没有想象中那么强。 Apple Watch 的“奇葩配件大赛”向来竞争激烈，但这款 Smartlet 双表表带妥妥是夺冠大热门。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/4d481ad2-c4bf-4033-9bb4-e46eac41c5ab.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-08T13:29:40.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/911/678.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1767877689675_8051acba",
-      "title": "美股大型科技股盘前涨跌不一，苹果跌超1%",
-      "summary": "36氪获悉，美股大型科技股盘前涨跌不一，截至发稿，苹果跌超1%，特斯拉跌0.88%，微软跌0.64%，Meta跌0.43%，奈飞跌0.32%；谷歌涨0.91%，英伟达涨0.31%，亚马逊涨0.23%。",
-      "content": "36氪获悉，美股大型科技股盘前涨跌不一，截至发稿，苹果跌超1%，特斯拉跌0.88%，微软跌0.64%，Meta跌0.43%，奈飞跌0.32%；谷歌涨0.91%，英伟达涨0.31%，亚马逊涨0.23%。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-01-08T12:57:22.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3630777023350020?f=rss",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
