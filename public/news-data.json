@@ -1,19 +1,103 @@
 {
   "success": true,
-  "timestamp": "2026-01-12T02:29:13.530Z",
-  "total": 65,
+  "timestamp": "2026-01-12T04:16:50.615Z",
+  "total": 70,
   "data": [
     {
-      "id": "news_1768184931022_086cc62a",
-      "title": "“机器人一次性卖完太亏！”真机智能刘智勇：今年中国本体厂商将大淘汰，拼的是世界模型",
-      "summary": "“机器人一次性卖完太亏！”真机智能刘智勇：今年中国本体厂商将大淘汰，拼的是世界模型",
-      "content": "“机器人一次性卖完太亏！”真机智能刘智勇：今年中国本体厂商将大淘汰，拼的是世界模型",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-12T09:55:28.000Z",
+      "id": "news_1768191409181_7b242c09",
+      "title": "联发科携手耕兴取得 FCC 全球首份 Wi-Fi 8 认证",
+      "summary": "IT之家 1 月 12 日消息，台湾地区测试与验证服务企业耕兴 (Sporton) 本月 9 日宣布，其与联发科合作取得美国联邦通信委员会 (FCC) 颁发的首份 Wi-Fi 8 认证，象征 Wi-Fi 8 技术正式从概念走向实际应用。",
+      "content": "IT之家 1 月 12 日消息，台湾地区测试与验证服务企业耕兴 (Sporton) 本月 9 日宣布，其与联发科合作取得美国联邦通信委员会 (FCC) 颁发的首份 Wi-Fi 8 认证，象征 Wi-Fi 8 技术正式从概念走向实际应用。 ▲ 联发科在 CES 2026 的 Wi-Fi 8 展台 IT之家获悉，此次验证产品基于联发科新近发布的 Filogic 8000 芯片平台。耕兴表示，Wi-Fi 8 导入多项关键技术让整体频谱利用率与联机质量再度提升，以较 5G 明显更低的成本提供了工业级的稳定性，有望承载物理 AI 室内部署营业所需的网络连接。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/d1b03ff6-ba34-49c1-a129-ca98878558a5.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-12T04:13:47.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/EbQ24746fmKpCj7qJmIZ?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/0/912/434.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768191409257_2050c8b4",
+      "title": "IDC：2030 年，22 亿 AI 智能体将作为“新数字劳动力”席卷全球",
+      "summary": "IT之家 1 月 12 日消息，IDC（国际数据公司）今天午间发布报告称，未来五年，全球 Agent（AI 智能体）生态将经历一场指数级的扩张。到 2030 年，22 亿 AI Agent 将作为“新数字劳动力”席卷全球。",
+      "content": "IT之家 1 月 12 日消息，IDC（国际数据公司）今天午间发布报告称，未来五年，全球 Agent（AI 智能体）生态将经历一场指数级的扩张。到 2030 年，22 亿 AI Agent 将作为“新数字劳动力”席卷全球。 IT之家从报告中获悉，活跃 Agent 的数量将从 2025 年的约 2860 万，快速攀升至 2030 年的 22.16 亿。这意味着五年后，能够帮助企业执行任务的数字劳动力数量将是今天的近 80 倍，年复合增长率 139%，换言之，平均每年活跃 Agent 数量都将以超过一倍的速度增长。 与数量相比，Agent 真正干活的频率增长得更快，年执行任务数将从 2025 年的 440 亿次暴涨至 2030 年的 415 万亿次，年复合增长率高达 524%。这意味着，企业将越来越习惯把工作外包给 Agent，从偶尔试用到深度依赖，Agent 将无处不在地嵌入进企业的业务流中。 随着 Agent 处理的任务越来越复杂，所需推理深度与调用链路不断加长，底层 Token 消耗也将呈现数量级的跃迁。预计年度 Token 消耗将从 2025 年的 0.0005 Peta（10 的 15 次方）Tokens 暴增至 2030 年的 152667 PetaTokens，年复合增长率高达 3418%。 在 Agent 数量已经高速增长的前提下，任务量与 Token 消耗增长得更快，意味着： 单个 Agent 承担的任务将更重。 决策与调用链路会更长、更复杂。 对实时性、稳定性与成本控制的要求显著提高。 对底层算力、模型编排和系统工程能力提出前所未有的挑战。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/f9061e96-4e2b-4d02-b9e6-a565845d766f.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-12T04:09:31.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/912/433.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768191409330_03ec3ab7",
+      "title": "澳大利亚未成年社媒禁令上路后，Meta 宣称已关闭 55 万个账户",
+      "summary": "IT之家 1 月 12 日消息，北京时间今天早间，据彭博社报道，为遵守澳大利亚的儿童社交媒体禁令，Meta 公司已关闭了近 55 万个账户。",
+      "content": "IT之家 1 月 12 日消息，北京时间今天早间，据彭博社报道，为遵守澳大利亚的儿童社交媒体禁令，Meta 公司已关闭了近 55 万个账户。 IT之家从数据中获悉，其中，约 33 万个 Instagram 账户、17.3 万个 Facebook 账户和近 4 万个 Threads 账户被关闭，这些账户均属于未满 16 岁的用户。 这项法律自 2025 年 12 月 10 日起生效，要求 TikTok 和 Instagram 等服务将 16 岁以下的用户排除在外，否则将面临高达 4950 万澳元（IT之家注：现汇率约合 2.31 亿元人民币）。 尽管如此，Meta 依然表示反对该禁令，呼吁实施标准化的年龄验证，并为所有社交平台的年轻用户提供更多的行业保护。Meta 还指出，替代社交媒体平台的下载量激增是一个值得关注的现象。 Meta 方面称，实施标准化的年龄验证可以避免“打地鼠效应”，即青少年为了绕过社交媒体禁令而转向新应用。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/a56428e3-b5cc-4694-bc00-584ae4179407.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-12T03:55:41.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/912/427.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768191409611_91d24c87",
+      "title": "微软《帝国时代 2：决定版》大型 DLC“最后的酋长”开启预购：2 月 28 日发售，首发价 83.3 元",
+      "summary": "IT之家 1 月 12 日消息，微软宣布《帝国时代 2：决定版（Age of Empires II：DE）》大型 DLC“最后的酋长（The Last Chieftains）”开启预购，该 DLC 将于 2 月 18 日正式发售，在 Steam 国区定价为 98 元，首发 8.5 折后到手价 83....",
+      "content": "IT之家 1 月 12 日消息，微软宣布《帝国时代 2：决定版（Age of Empires II：DE）》大型 DLC“最后的酋长（The Last Chieftains）”开启预购，该 DLC 将于 2 月 18 日正式发售，在 Steam 国区定价为 98 元，首发 8.5 折后到手价 83.3 元，IT之家附商品页（https://store.steampowered.com/app/813780/Age_of_Empires_II_Definitive_Edition/）。 据介绍，在“最后的酋长”DLC 里，玩家将深入中世纪的南美洲，跟随引人入胜的叙述，经历史诗级战役，见证各个文明之间轮番上演的权谋算计和尔虞我诈，了解这里悠久的历史与民间传说。 该 DLC 新增了三个美洲文明，分别是马普切人、穆伊斯卡人和图皮人，每个文明都有自己独特的单位和技术，同时还共享一套全新的建筑风格。 马普切：特色单位是科那和掷石绳骑兵，前者是可对受伤敌军造成额外伤害的近战骑兵，后者则是攻击后可减慢敌人移动速度的远程骑兵。 穆伊斯卡：来自于现今哥伦比亚的安第斯地区，可部署死后为附近盟友提供治疗的标枪兵“格查战士”，以及攻速更快、作战时间更持久的重装步兵“神庙护卫”。 图皮：巴西丛林里的王者，善于利用一次训练一对的远程单位“黑檀木步弓手”，以及可造成很高区域伤害的重装步兵“伊比拉贝玛战士”进行战斗。 玩家还将迎来三场新战役，指挥劳塔罗、帕坎奇克和阿拉里博伊亚等民间英雄的力量，开启冒险之旅：扮演一位为自由而战的青年马普切战士；在穆伊斯卡苦守黄金国的过程中，权衡爱情与忠诚；又或是扮演一名图皮酋长以计谋战胜与自己竞争的其他部落，挑唆欧洲人内斗，最终夺回自己的家园。通过一次次重大的选择左右每个故事的走向，赢得结盟部落的忠诚，并训练拥有巅峰性光环的英雄单位。 DLC 图赏：",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/7c0984a0-5783-4bd2-b2c9-95e4cc1aeabe.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-12T03:51:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/912/426.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768191365189_786ffd2a",
+      "title": "字节跳动在北京成立传媒科技公司，注册资本1亿元",
+      "summary": "36氪获悉，爱企查App显示，近日，北京巧幕传媒科技有限公司成立，法定代表人为贺芹，注册资本1亿元人民币，经营范围包括信息系统集成服务、计算机系统服务、计算机软硬件及辅助设备零售等。股东信息显示，该公司由北京字跳网络技术有限公司全资持股。",
+      "content": "36氪获悉，爱企查App显示，近日，北京巧幕传媒科技有限公司成立，法定代表人为贺芹，注册资本1亿元人民币，经营范围包括信息系统集成服务、计算机系统服务、计算机软硬件及辅助设备零售等。股东信息显示，该公司由北京字跳网络技术有限公司全资持股。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-01-12T03:46:57.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3635872789366022?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768191371581_dc012065",
+      "title": "Chinese Robotics Firms Dominate CES 2026 As Embodied AI Moves Toward Real-World Deployment",
+      "summary": "Analysts say Chinese companies benefit from close integration of hardware manufacturing, software development and cost optimization — enabling faster ...",
+      "content": "Analysts say Chinese companies benefit from close integration of hardware manufacturing, software development and cost optimization — enabling faster iteration and commercialization than many Western rivals.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-12T02:45:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7838972.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768191373567_a7b2488d",
+      "title": "Exclusive: China’s Booster Robotics Raises Over $14 Million as Humanoid Robots Move Toward Commercial Scale",
+      "summary": "Exclusive: China’s Booster Robotics Raises Over $14 Million as Humanoid Robots Move Toward Commercial Scale...",
+      "content": "It is the first time IDG Capital has led an investment in a humanoid robotics company, highlighting growing investor confidence that the sector is moving from laboratory demonstrations toward scaled production and real-world deployment.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-12T02:34:07.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/7838958.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768191375385_3c9600ec",
+      "title": "Next AI Breakthrough Likely to Come from Physical Systems, Not the Cloud, Says Berkeley Researcher",
+      "summary": "“GPUs matter,” Yang said. “But intelligence is not just computation. It is action, interaction and responsibility in the real world.”...",
+      "content": "“GPUs matter,” Yang said. “But intelligence is not just computation. It is action, interaction and responsibility in the real world.”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-12T02:27:04.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7838942.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768184913023_881d2c19",
@@ -256,7 +340,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768184900683_0",
+      "id": "news_1768191350165_0",
       "title": "Are we in an AI Bubble? Tech leaders warn today’s frenzy mirrors the Dot",
       "summary": "Late last year, we flagged early signs of an AI bubble as investors began sounding the alarm over sky-high startup valuations. At the time, the artifi...",
       "content": "Late last year, we flagged early signs of an AI bubble as investors began sounding the alarm over sky-high startup valuations. At the time, the artificial intelligence boom was already dominating headlines. Massive funding rounds. Eye-popping deal si... [3370 chars]",
@@ -278,6 +362,18 @@
       "category": "AI趣味新闻",
       "originalUrl": "https://www.ithome.com/0/912/235.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768191356637_3aa50426",
+      "title": "一种基于层级时间标记的 LLM 迁移预测框架，以层级时间标记重构人类移动预测",
+      "summary": "一种基于层级时间标记的 LLM 迁移预测框架，以层级时间标记重构人类移动预测",
+      "content": "一种基于层级时间标记的 LLM 迁移预测框架，以层级时间标记重构人类移动预测",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-01-11T02:56:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-11-12",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768098800655_99f3fd22",
@@ -316,7 +412,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768184901304_1",
+      "id": "news_1768191350936_1",
       "title": "AI FLOP: Dutch Court Annules Couple’s Marriage Over ChatGPT Speech",
       "summary": "AI FLOP: Dutch Court Annules Couple’s Marriage Over ChatGPT Speech by Paul Serran Jan. 10, 2026 7:20 pm...",
       "content": "It may have been artificial, but in this case, it was not intelligent.\nWe live in a world where the power of Artificial Intelligence is starting to impact many aspects of our lives – and not always for the best.\nCase in point: a Dutch couple had thei... [2135 chars]",
@@ -374,18 +470,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/912/204.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768184932975_c738a74a",
-      "title": "发生在CES的六场对话：来自深圳的 AI 硬件“外卷”",
-      "summary": "发生在CES的六场对话：来自深圳的 AI 硬件“外卷”",
-      "content": "发生在CES的六场对话：来自深圳的 AI 硬件“外卷”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-10T17:11:26.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/05bVyOA1exU97VWzZz1B?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768055571428_119aa3e3",
@@ -664,31 +748,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768017924132_d4f52cde",
-      "title": "华为终端：问界M7全系累计交付突破40万台",
-      "summary": "36氪获悉，1月10日，“华为终端”微博发布消息称，问界M7全系累计交付突破40万台，问界M7增程长续航版同步开启预订，预售价29.98万元起。",
-      "content": "36氪获悉，1月10日，“华为终端”微博发布消息称，问界M7全系累计交付突破40万台，问界M7增程长续航版同步开启预订，预售价29.98万元起。（华为终端）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-01-10T03:38:07.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3633058407597319?f=rss",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768017949562_11bd021d",
-      "title": "变废为宝：科学家将过期牛奶变成 3D 打印材料",
-      "summary": "IT之家 1 月 10 日消息，科技媒体 Tom's Hardware 昨日（1 月 9 日）发布博文，报道称威斯康星大学普拉特维尔分校的研究团队获得一项突破性专利，成功将过期牛奶转化为 3D 打印生物复合材料。 目前的 3D 打印行业虽然发展迅速，但仍面临严重的材料瓶颈。",
-      "content": "IT之家 1 月 10 日消息，科技媒体 Tom's Hardware 昨日（1 月 9 日）发布博文，报道称威斯康星大学普拉特维尔分校的研究团队获得一项突破性专利，成功将过期牛奶转化为 3D 打印生物复合材料。 目前的 3D 打印行业虽然发展迅速，但仍面临严重的材料瓶颈。绝大多数打印线材属于石油基产品，难以生物降解，其寿命往往远超打印出的模型本身。 新冠疫情期间，由于需求锐减，奶农被迫倾倒数百万加仑牛奶的“倒奶危机”引发了社会关注。威斯康星大学普拉特维尔分校的研究人员受此启发，试图将这两种看似无关的浪费问题结合起来，寻找一种可持续的解决方案。 该研究的核心思路在于利用牛奶中丰富的蛋白质资源。IT之家援引博文介绍，牛奶含有酪蛋白（casein）和乳清蛋白（whey），研究团队开发了一套特定工艺，从变质牛奶或乳制品废料中提取这些蛋白质，并将其与现有的聚合物进行科学配比与混合。 这一过程并非制造“可打印的奶酪”，而是创造出一种真正的生物复合塑料替代品。这种新型材料不仅保留了塑料的特性，还大幅提高了农业废弃物的利用率。 该项目由机械与工业工程系主任 John Obielodan 博士与化学副教授 Joseph Wu 博士共同主导。这是一个典型的跨学科合作成果，团队耗时数年，反复调整蛋白质的类型、纯度以及混合比例。 与许多在实验室阶段就因性能不足而失败的生物材料不同，该团队成功平衡了材料的机械强度与柔韧性，确保其能够适配现有的 3D 打印机，且不会造成喷头堵塞等常见问题。 如果这项技术实现商业化，将对行业产生深远影响。生物衍生线材不仅能降低环境足迹，还能为乳制品生产商开辟新的收入来源，通过“循环经济”模式减少对石化产品的依赖。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/e2092435-c43c-4e73-860c-8a5d98cc1686.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-10T03:25:05.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/912/084.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768184937080_a273a742",
+      "id": "news_1768191391006_a273a742",
       "title": "刚刚，AI企业IPO最速纪录刷新！MiniMax的技术野心，价值超800亿",
       "summary": "刚刚，AI企业IPO最速纪录刷新！MiniMax的技术野心，价值超800亿",
       "content": "刚刚，AI企业IPO最速纪录刷新！MiniMax的技术野心，价值超800亿",
@@ -700,7 +760,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768184938412_105019be",
+      "id": "news_1768191393091_105019be",
       "title": "Meta运用基于大型语言模型的变异测试提升合规覆盖率",
       "summary": "Meta运用基于大型语言模型的变异测试提升合规覆盖率",
       "content": "Meta运用基于大型语言模型的变异测试提升合规覆盖率",
@@ -712,7 +772,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768184939859_a7af424d",
+      "id": "news_1768191394925_a7af424d",
       "title": "“AI火了，我们却快完了！”顶级开源框架Tailwind之父含泪裁掉75%兄弟：半年后，这个项目可能就没了",
       "summary": "“AI火了，我们却快完了！”顶级开源框架Tailwind之父含泪裁掉75%兄弟：半年后，这个项目可能就没了...",
       "content": "“AI火了，我们却快完了！”顶级开源框架Tailwind之父含泪裁掉75%兄弟：半年后，这个项目可能就没了",
@@ -724,7 +784,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768184941848_23d2d895",
+      "id": "news_1768191396916_23d2d895",
       "title": "DeepSeek-V3.2在推理任务中的表现优于GPT-5",
       "summary": "DeepSeek-V3.2在推理任务中的表现优于GPT-5",
       "content": "DeepSeek-V3.2在推理任务中的表现优于GPT-5",
@@ -736,7 +796,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768184943213_933c33f6",
+      "id": "news_1768191398624_933c33f6",
       "title": "智源发布2026十大 AI技术趋势：世界模型成AGI共识方向",
       "summary": "智源发布2026十大 AI技术趋势：世界模型成AGI共识方向",
       "content": "智源发布2026十大 AI技术趋势：世界模型成AGI共识方向",
@@ -748,7 +808,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768184945064_d981ae07",
+      "id": "news_1768191401094_d981ae07",
       "title": "“通用大模型微调成为行业模型是伪命题”？医疗AI深度重构，传神语联创始人何恩培：孪生智能体能砍70%线下复诊工作",
       "summary": "“通用大模型微调成为行业模型是伪命题”？医疗AI深度重构，传神语联创始人何恩培：孪生智能体能砍70%线下复诊工作...",
       "content": "“通用大模型微调成为行业模型是伪命题”？医疗AI深度重构，传神语联创始人何恩培：孪生智能体能砍70%线下复诊工作",
@@ -760,7 +820,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768184946906_ddd3bf3e",
+      "id": "news_1768191403167_ddd3bf3e",
       "title": "智谱正式成“全球大模型第一股”，开盘首日涨超13%！10位董事7个清华背景，专家：国内IPO抢收“确定性”，OpenAI们豪赌“无限性”",
       "summary": "智谱正式成“全球大模型第一股”，开盘首日涨超13%！10位董事7个清华背景，专家：国内IPO抢收“确定性”，OpenAI们豪赌“无限性”...",
       "content": "智谱正式成“全球大模型第一股”，开盘首日涨超13%！10位董事7个清华背景，专家：国内IPO抢收“确定性”，OpenAI们豪赌“无限性”",
@@ -772,7 +832,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768184948720_eb677945",
+      "id": "news_1768191404722_eb677945",
       "title": "奇富科技发布首个信贷多模态评测基准，构筑信贷AI研究与落地关键桥梁",
       "summary": "奇富科技发布首个信贷多模态评测基准，构筑信贷AI研究与落地关键桥梁",
       "content": "奇富科技发布首个信贷多模态评测基准，构筑信贷AI研究与落地关键桥梁",
