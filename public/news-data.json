@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-01-12T13:05:19.750Z",
-  "total": 80,
+  "timestamp": "2026-01-12T14:35:27.420Z",
+  "total": 79,
   "data": [
+    {
+      "id": "news_1768228507301_bee7ed5a",
+      "title": "英伟达发布了跨AI、机器人和自动驾驶的开放模型、数据集和工具",
+      "summary": "英伟达发布了跨AI、机器人和自动驾驶的开放模型、数据集和工具",
+      "content": "英伟达发布了跨AI、机器人和自动驾驶的开放模型、数据集和工具",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-12T17:12:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/HHxGUQV0RjXGOfTisX9U?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1768203359613_65a558be",
       "title": "抨击AI炒作、曝企业需求为先，Anthropic 联创：模型提 0.01 性能就血赚，算力烧钱但值！",
@@ -28,15 +40,27 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768223104533_6eea88a7",
-      "title": "代理式终端——如何使用CLI智能体激活你的终端",
-      "summary": "代理式终端——如何使用CLI智能体激活你的终端",
-      "content": "代理式终端——如何使用CLI智能体激活你的终端",
+      "id": "news_1768228525927_05b2a898",
+      "title": "力鸿一号总设计师、总指挥史晓宁：未来技术成熟后，可提供亚轨道太空旅游服务",
+      "summary": "IT之家 1 月 12 日消息，今日 16 时，中科宇航力鸿一号遥一飞行器在我国酒泉卫星发射中心圆满完成亚轨道飞行试验任务，返回式载荷舱通过伞降系统顺利着陆完成回收。",
+      "content": "IT之家 1 月 12 日消息，今日 16 时，中科宇航力鸿一号遥一飞行器在我国酒泉卫星发射中心圆满完成亚轨道飞行试验任务，返回式载荷舱通过伞降系统顺利着陆完成回收。 力鸿一号总设计师、总指挥史晓宁在接受财联社记者采访时表示，力鸿一号主要面向低成本亚轨道科学实验，能够提供落塔和飞机等无法达到的分钟级高水平的微重力环境，面向太空育种、生物医药、空间微重力试验等多个技术方向。 他补充道，未来技术成熟后，还可以提供亚轨道太空旅游服务，为人类进入太空提供短期的失重体验，让太空成为普通人可触达的空间。后续通过开发在轨服务和再入返回等技术可以拓展长期留轨和深空探测等能力，将科学探索的场景进一步向轨道空间和深空拓展。 据IT之家此前报道，力鸿一号（PH-1）首飞试验飞行器飞行高度约 120 千米，穿越卡门线进入太空。该飞行器具有发射成本低、灵活性高以及支持实验载荷回收等一系列突出优点。它主要面向微重力科学实验和近太空原位探测等应用需求，可为科学实验载荷提供 300 秒以上高度稳定、可靠且功能多样的实验环境。 通过此次飞行试验任务，主要验证了返回式载荷舱高可靠伞系气动减速技术、飞行器子级返回精确落点控制技术，具体成果如下： 力鸿一号返回式载荷舱着陆采用了伞降回收技术，返回的全过程为再入大气层，通过大气减速至亚音速后，采用降落伞进一步减速，保证载荷舱落地速度满足任务要求。为实现返回式载荷舱高可靠伞系气动减速技术，先后完成了伞系减速系统高精度回收弹道预测技术、宽速域物伞系统精细化气动与动力学一体化分析技术和伞系减速系统可靠性建模及综合效能评估技术攻关。该技术可为公司后续力鸿二号可重复使用飞行器的群伞回收技术提供前期技术验证，对实现太空旅游载人飞船可靠减速回收积累宝贵试验数据。 力鸿一号飞行搭载验证了飞行器子级返回精确落点控制技术，该技术是火箭子级实现垂直返回和重复使用的核心关键技术之一，在复杂的再入力、热环境约束和高维着陆终端约束条件下，采用在线实时轨迹制导优化算法，实现飞行器子级返回精确落点控制。其验证的强非线性着陆问题的高精度多模型实时轨迹优化方法、面向复杂扰动与偏差的强鲁棒自主最优制导方法、自主最优制导算法与新型高算力箭载制导计算机的软硬耦合设计等验证成果可直接应用到入轨火箭，这样能以更低的成本突破运载火箭的可重复使用技术。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/5510c654-9e79-48f4-b805-51a516dd5c23.png?x-bce-process=image/format,f_auto/auto-orient,o_1",
+      "source": "IT之家",
+      "publishedAt": "2026-01-12T14:06:26.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/912/633.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768228500732_7457c63d",
+      "title": "矩阵超智发布新一代人形机器人MATRIX-3，定义物理智能机器人新标杆 | 公司动态",
+      "summary": "2026年1月10日，新锐人形机器人科技公司上海矩阵超智系统集成公司正式发布新一代安全、自主、可泛化的物理智能机器人MATRIX-3。",
+      "content": "2026年1月10日，新锐人形机器人科技公司上海矩阵超智系统集成公司正式发布新一代安全、自主、可泛化的物理智能机器人MATRIX-3。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-12T14:09:35.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/t712SX2KtxLUAF9rZZ6y?utm_source=rss&utm_medium=article",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-12T13:23:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7839282.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -134,6 +158,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7838920.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768228514626_086cc62a",
+      "title": "“机器人一次性卖完太亏！”真机智能刘智勇：今年中国本体厂商将大淘汰，拼的是世界模型",
+      "summary": "“机器人一次性卖完太亏！”真机智能刘智勇：今年中国本体厂商将大淘汰，拼的是世界模型",
+      "content": "“机器人一次性卖完太亏！”真机智能刘智勇：今年中国本体厂商将大淘汰，拼的是世界模型",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-12T09:55:28.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/EbQ24746fmKpCj7qJmIZ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768214126891_d9d105cb",
@@ -736,7 +772,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768223070894_0",
+      "id": "news_1768228474193_0",
       "title": "Are we in an AI Bubble? Tech leaders warn today’s frenzy mirrors the Dot",
       "summary": "Late last year, we flagged early signs of an AI bubble as investors began sounding the alarm over sky-high startup valuations. At the time, the artifi...",
       "content": "Late last year, we flagged early signs of an AI bubble as investors began sounding the alarm over sky-high startup valuations. At the time, the artificial intelligence boom was already dominating headlines. Massive funding rounds. Eye-popping deal si... [3370 chars]",
@@ -808,7 +844,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768223070866_1",
+      "id": "news_1768228474837_1",
       "title": "AI FLOP: Dutch Court Annules Couple’s Marriage Over ChatGPT Speech",
       "summary": "AI FLOP: Dutch Court Annules Couple’s Marriage Over ChatGPT Speech by Paul Serran Jan. 10, 2026 7:20 pm...",
       "content": "It may have been artificial, but in this case, it was not intelligent.\nWe live in a world where the power of Artificial Intelligence is starting to impact many aspects of our lives – and not always for the best.\nCase in point: a Dutch couple had thei... [2135 chars]",
@@ -868,31 +904,19 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768055571428_119aa3e3",
-      "title": "智谱创始人唐杰谈 DeepSeek：很震撼，开启了“AI 做事”新范式",
-      "summary": "1 月 10 日晚间消息，清华大学北京重点实验室、智谱 AI 发起的 AGI-Next 前沿峰会上，清华大学教授、智谱创始人唐杰在谈及 DeepSeek 时表示，“2025 年初 DeepSeek 横空出世，这是我们研究界、产业界甚至很多人都始料未及的，而且一下子让很多人感到很震撼。",
-      "content": "1 月 10 日晚间消息，清华大学北京重点实验室、智谱 AI 发起的 AGI-Next 前沿峰会上，清华大学教授、智谱创始人唐杰在谈及 DeepSeek 时表示，“2025 年初 DeepSeek 横空出世，这是我们研究界、产业界甚至很多人都始料未及的，而且一下子让很多人感到很震撼。” 唐杰表示，当时自己也开始思考，也许在 DeepSeek 这种范式下，即使我们做得再好，也许在 Chat 的问题上可能最后做到跟 DeepSeek 差不多，或许再个性化一点，变成有情感的 Chat，但总的来讲这个范式可能基本上“快到头”了，剩下更多的反而是工程和技术上的问题。因此，当时自己也面临着“AI 下一步朝向哪个方向发展”的思考。 “我们当时的想法是，也许新的范式是让每个人能够用 AI 做一件事情，这可能是下一个范式，原来是 Chat，现在是真的做事了，所以新的范式开启了。”唐杰表示，经过思考后，智谱最终选择了将 AI Coding、Agentic、Reasoning 能力整合到一起，让三个能力都相对比较平衡，而不是将这些能力都拆分出去单独研究。 据唐杰介绍，2025 年 7 月 28 日智谱发布 GLM-4.5 后，整合了代码、推理、Agent 三能力，并取得了 12 项 Benchmark 国内领先，近期公司发布的 GLM-4.7，相比原来的 GLM-4.6 和 GLM-4.5 在 Agent 和 Coding 方面再次实现了大幅度提升。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/51431a1b-afbd-4a70-a139-b506ff6de2cf.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-10T14:22:26.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/912/193.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768055541162_7a928317",
-      "title": "加州大学伯克利Dr. Allen Yang：物理AI的分水岭时刻尚未到来｜CES 2026",
-      "summary": "加州大学伯克利Dr. Allen Yang：物理AI的分水岭时刻尚未到来｜CES 2026",
-      "content": "物理AI的挑战并非源于算力不足，而是根植于物理世界独特的复杂性。",
+      "id": "news_1768228516523_71e9a23d",
+      "title": "发生在CES的六场对话：来自深圳的 AI 硬件“外卷”",
+      "summary": "发生在CES的六场对话：来自深圳的 AI 硬件“外卷”",
+      "content": "发生在CES的六场对话：来自深圳的 AI 硬件“外卷”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-10T14:20:09.000Z",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-10T17:11:25.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7838021.html",
+      "originalUrl": "https://www.infoq.cn/article/05bVyOA1exU97VWzZz1B?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768027567080_26a7a193",
+      "id": "news_1768228518434_26a7a193",
       "title": "Anthropic突然封禁第三方工具调用Claude，Cursor、OpenCode、xAI 集体“中枪”！",
       "summary": "Anthropic突然封禁第三方工具调用Claude，Cursor、OpenCode、xAI 集体“中枪”！",
       "content": "Anthropic突然封禁第三方工具调用Claude，Cursor、OpenCode、xAI 集体“中枪”！",
@@ -904,43 +928,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768052450013_475b8e87",
-      "title": "谷歌 Gmail 将停止其他邮箱使用 POP3 协议代收邮件，用户需换用邮件转发",
-      "summary": "IT之家 1 月 10 日消息，谷歌最近悄然更新支持文档，宣布旗下 Gmail 从今年 1 月起不能再通过 POP 协议代收邮件。",
-      "content": "IT之家 1 月 10 日消息，谷歌最近悄然更新支持文档，宣布旗下 Gmail 从今年 1 月起不能再通过 POP 协议代收邮件。 IT之家注：邮件代收是谷歌 Gmail 提供的一项实用功能，可通过 POP3 协议和明文密码绑定后，即可将多个邮箱账户整合到 Gmail 收件箱，最终让用户在 Gmail 这一个地方查看雅虎、Exchange 邮件。 谷歌建议用户在选用邮件自动转发功能来实现类似效果，不过自动转发功能需要逐个打开邮箱手动设置，过程较为繁琐。 同时谷歌还将在同一时间点停用 Gmailify 功能，该功能本来可以为第三方邮箱账户启用垃圾邮件过滤、收件箱整理等高级特性。 但是谷歌并没有给出关闭的具体原因，一些市场观察人士猜测，这可能与 POP3 以明文方式传输密码有关，不够安全。 谷歌还强调，Gmail 客户端仍然支持多种邮箱，用户仍然可以将 IMAP 协议的第三方邮箱添加到 Gmail 客户端以收发邮件，只不过没法统一到 Gmail 邮箱中查看。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/41cc102f-9f73-4e43-997a-2720d92c2536.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-10T13:26:44.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/912/188.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768052395787_64a0f01d",
-      "title": "因为AI编程，Tailwind CSS差点死了",
-      "summary": "因为AI编程，Tailwind CSS差点死了",
-      "content": "因为AI编程，Tailwind CSS差点死了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2026-01-10T13:16:20.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-10-3",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768052396650_8b3ece8c",
-      "title": "打破学科壁垒！400篇参考文献重磅综述，统一调查「人脑×Agent」记忆系统",
-      "summary": "打破学科壁垒！400篇参考文献重磅综述，统一调查「人脑×Agent」记忆系统",
-      "content": "打破学科壁垒！400篇参考文献重磅综述，统一调查「人脑×Agent」记忆系统",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2026-01-10T13:10:06.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-10-2",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768223111106_a273a742",
+      "id": "news_1768228519997_a273a742",
       "title": "刚刚，AI企业IPO最速纪录刷新！MiniMax的技术野心，价值超800亿",
       "summary": "刚刚，AI企业IPO最速纪录刷新！MiniMax的技术野心，价值超800亿",
       "content": "刚刚，AI企业IPO最速纪录刷新！MiniMax的技术野心，价值超800亿",
@@ -952,7 +940,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768223112735_105019be",
+      "id": "news_1768228521516_105019be",
       "title": "Meta运用基于大型语言模型的变异测试提升合规覆盖率",
       "summary": "Meta运用基于大型语言模型的变异测试提升合规覆盖率",
       "content": "Meta运用基于大型语言模型的变异测试提升合规覆盖率",
