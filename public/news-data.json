@@ -1,34 +1,10 @@
 {
   "success": true,
-  "timestamp": "2026-01-16T04:06:48.385Z",
+  "timestamp": "2026-01-16T05:39:09.396Z",
   "total": 102,
   "data": [
     {
-      "id": "news_1768536392333_9974be17",
-      "title": "首个智能体商业信任协议来了！支付宝携手千问App、淘宝闪购等发布AI商业协议ACT",
-      "summary": "首个智能体商业信任协议来了！支付宝携手千问App、淘宝闪购等发布AI商业协议ACT",
-      "content": "首个智能体商业信任协议来了！支付宝携手千问App、淘宝闪购等发布AI商业协议ACT",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-16T11:11:39.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/DE0ifdKyd4Oevz5Bgr3X?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768536394154_361b7060",
-      "title": "谷歌发布 Gemma Scope 2，深化对 LLM 行为的理解",
-      "summary": "谷歌发布 Gemma Scope 2，深化对 LLM 行为的理解",
-      "content": "谷歌发布 Gemma Scope 2，深化对 LLM 行为的理解",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-16T10:36:30.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/QAVo2JuWaAElyqUA6joF?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768536396149_044921bc",
+      "id": "news_1768541935553_044921bc",
       "title": "FACTS基准测试套件问世，用于评估大型语言模型的事实准确性",
       "summary": "FACTS基准测试套件问世，用于评估大型语言模型的事实准确性",
       "content": "FACTS基准测试套件问世，用于评估大型语言模型的事实准确性",
@@ -37,6 +13,66 @@
       "publishedAt": "2026-01-16T09:53:49.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/zQZlFUuAIBS7HfoIK2CD?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768541917824_1e4feb0b",
+      "title": "美团上线首个开源“重思考”模型",
+      "summary": "36氪获悉，美团LongCat官微消息，作为LongCat-Flash-Thinking模型的升级版，LongCat-Flash-Thinking-2601现已开源。",
+      "content": "36氪获悉，美团LongCat官微消息，作为LongCat-Flash-Thinking模型的升级版，LongCat-Flash-Thinking-2601现已开源。新模型在智能体搜索、智能体工具调用、工具交互推理等核心评测基准上，达到开源模型SOTA水平，在依赖工具调用的随机复杂任务中，可大幅度降低真实场景下新工具的适配训练成本。新模型还支持“重思考”模式，可同时启动8个“大脑”执行任务，在龙猫官网能免费体验。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-01-16T05:37:16.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3641669008936582?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768541947935_cb69aced",
+      "title": "全球首个开源“重思考”模型：美团 LongCat-Flash-Thinking-2601 发布，工具调用能力登顶开源 SOTA",
+      "summary": "IT之家 1 月 16 日消息，美团 LongCat 团队今日正式发布并开源 LongCat-Flash-Thinking-2601。",
+      "content": "IT之家 1 月 16 日消息，美团 LongCat 团队今日正式发布并开源 LongCat-Flash-Thinking-2601。 据美团介绍，作为 LongCat-Flash-Thinking 模型的升级版，LongCat-Flash-Thinking-2601 在智能体搜索、工具调用、工具交互推理等核心评测基准上均达到开源模型 SOTA 水平。 美团表示，该模型尤其在工具调用上表现出卓越的泛化能力，在依赖工具调用的随机复杂任务中性能超越了 Claude，可大幅度降低真实场景下新工具的适配训练成本；同时它是首个完整开源并支持在线免费体验「重思考模式」的模型，同时启动 8 个大脑飞速运转，确保思考周全、决策可靠。 得益于全新升级的「重思考」模式，遇到高难度问题时，模型会把思考过程拆成并行思考和总结归纳两步来做： 并行思考阶段，模型会同时独立梳理出好几条推理路径，就跟人面对难题时会琢磨不同解法一个道理，还会特意保证思路的多样性，生怕漏掉最优解； 总结归纳阶段，对多条路径进行梳理、优化与合成，并将优化结果重新输入，形成闭环迭代推理，推动思考持续深化。 除此之外，美团还专门设计了额外的强化学习环节，针对性打磨模型的总结归纳能力，让 LongCat-Flash-Thinking-2601 真正实现“想清楚再行动”。 美团表示，经过全面严谨的评估显示，LongCat-Flash-Thinking-2601 模型在编程、数学推理、智能体工具调用、智能体搜索维度表现全面领先： 编程能力：LongCat-Flash-Thinking-2601 在 LCB 评测中取得 82.8 分，OIBench EN 评测获 47.7 分，成绩处于同类模型第一梯队，展现出扎实的代码基础能力。 数学推理能力：在开启重思考模式后表现突出，LongCat-Flash-Thinking-2601 在 AIME-25 评测中获 100.0 分（满分），IMO-AnswerBench 中以 86.8 分达到当前 SOTA。 智能体工具调用能力：在 τ²-Bench 评测中拿到 88.2 分，VitaBench 评测中获得 29.3 分，均获得开源 SOTA 水平，在多领域工具调用场景下表现优异，适配实际应用需求。 智能体搜索能力：在 BrowseComp 任务中取得 73.1 分（全模型最优），RW Search 评测获 79.5 分，LongCat-Flash-Thinking-2601 具备强劲的信息检索与场景适配能力，达到开源领先水平。 同时，为了更好的测试智能体模型的泛化能力，美团还提出了一种全新的评测方法 —— 通过构建一套自动化任务合成流程，支持用户基于给定关键词，为任意场景随机生成复杂任务。每个生成的任务都配备了对应的工具集与可执行环境。 由于这类环境中的工具配置具有高度随机性，美团通过评估模型在该类环境中的性能表现，来衡量其泛化能力。实验结果表明，LongCat-Flash-Thinking-2601 在绝大多数任务中保持领先性能，印证了其在智能体场景下强大的泛化能力。 IT之家附官方开源地址： GitHub：https://github.com/meituan-longcat/LongCat-Flash-Thinking-2601 Hugging Face：https://huggingface.co/meituan-longcat/LongCat-Flash-Thinking-2601 ModelScope：https://www.modelscope.cn/models/meituan-longcat/LongCat-Flash-Thinking-2601 API 开放平台：https://longcat.chat/platform/usage 官网：https://longcat.ai",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/194f47aa-2cbe-4c49-9fb3-4c142f3ff2d5.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-16T05:33:50.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/913/798.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768541919128_9d20f409",
+      "title": "台积电魏哲家：需要充足的电力，才能不受限制地扩产",
+      "summary": "在15日的台积电法说会上，对于发展AI会遇到的限制，公司董事长暨总裁魏哲家表示，担心电力供应问题，供电核心如涡轮机、核电厂建设都对AI发展的影响很大。另外，分析师关注AI需求下扩充产能的限制瓶颈，魏哲家直接回答，需要充足的电力，才能不受限制地扩展产能。",
+      "content": "在15日的台积电法说会上，对于发展AI会遇到的限制，公司董事长暨总裁魏哲家表示，担心电力供应问题，供电核心如涡轮机、核电厂建设都对AI发展的影响很大。另外，分析师关注AI需求下扩充产能的限制瓶颈，魏哲家直接回答，需要充足的电力，才能不受限制地扩展产能。（财联社）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-01-16T05:24:20.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3641656291889032?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768541948240_2b9a3b37",
+      "title": "英伟达报告搞错单位？200 吨错写成 50 万吨，悄悄大幅下调数据中心铜使用量需求",
+      "summary": "IT之家 1 月 16 日消息，据财联社 1 月 14 日报道，英伟达曾在 2025 年 5 月的一篇技术博客中谈到，传统架构中，单个一兆瓦机架需要重达 200 公斤的铜母线，单个一吉瓦的机架则需要高达 50 万吨的铜。",
+      "content": "IT之家 1 月 16 日消息，据财联社 1 月 14 日报道，英伟达曾在 2025 年 5 月的一篇技术博客中谈到，传统架构中，单个一兆瓦机架需要重达 200 公斤的铜母线，单个一吉瓦的机架则需要高达 50 万吨的铜。 ▲ 图源财联社 麦肯锡此前预计，2030 年全球数据中心的总容量需求将达到 219 吉瓦，也就意味着该领域建设需要超过 1 亿吨的铜，而全球铜储量截至去年底仅 9.8 亿吨。标普预测则认为到 2030 年，全球将每年新增 30 吉瓦容量的数据中心。按英伟达论文的表述，这相当于 1500 万吨的铜需求，而去年的铜矿产量也不过 2863 万吨。不少媒体都引用英伟达的估计来证明传统数据中心铜需求的不可持续。 然而最新的调查发现，英伟达报告可能出现了一个非常低级的错误，导致铜缺口被过分高估。咨询公司 Thunder Said Energy 表示，一兆瓦的机架需要 200 公斤的铜，而一吉瓦相当于 1000 兆瓦，简单换算可知一吉瓦的机架应该需要 200 吨的铜母线，而不是论文中的 50 万吨。 Thunder Said Energy 认为可能是英伟达的单位换算出错了，实际上应该为 50 万磅铜（IT之家注：约等于 226 吨铜）。 重新计算可知，若数据中心总需求达到 219 吉瓦，其输配电需要的铜总量约为 4.4 万吨，只占到铜年开采量的 0.15%。 IT之家查询英伟达博客发现，这一数据目前已修正为 200 吨。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/fb2317a2-53e4-42a9-9ca4-b10623e71829.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-16T04:53:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/913/790.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768541925732_8bbd2472",
+      "title": "当千问能帮你“一句话出游”时，很多消费行业经典理论已经过时了",
+      "summary": "当千问能帮你“一句话出游”时，很多消费行业经典理论已经过时了",
+      "content": "用户完全基于自己的认知和心愿，甚至是想象力，来向AI 发出诉求，这个时候，品牌该如何接住这些诉求？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-16T04:13:09.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7845308.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -148,6 +184,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1768541905684_0",
+      "title": "Melania Trump to Speak at Zoom's AI Event for Students",
+      "summary": "First lady Melania Trump will deliver opening remarks Friday at \"Zoom Ahead: AI for Tomorrow's Leaders,\" a national student learning experience aimed ...",
+      "content": "First lady Melania Trump will deliver opening remarks Friday at \"Zoom Ahead: AI for Tomorrow's Leaders,\" a national student learning experience aimed at helping K-12 students understand how artificial intelligence can be used responsibly, creatively,... [1603 chars]",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format",
+      "source": "Newsmax",
+      "publishedAt": "2026-01-15T16:43:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.newsmax.com/us/melania-trump-ai-zoom/2026/01/15/id/1242264/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1768491325364_f2adcf15",
       "title": "着陆缓冲试验在即：我国穿越者壹号（CYZ1）载人飞船试验舱已运至试验场",
       "summary": "IT之家 1 月 15 日消息，据穿越者官方公众号今日分享，2026 年 1 月 12 日凌晨，北京穿越者载人航天科技有限公司试验团队按预定计划启程前往试验场，穿越者壹号（CYZ1）载人飞船全尺寸试验舱已安全转运至指定位置，即将正式开展着陆缓冲试验。",
@@ -157,18 +205,6 @@
       "publishedAt": "2026-01-15T15:28:43.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/913/633.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768536399777_433680a3",
-      "title": "LangGrant推出LEDGE MCP服务器，赋能企业数据库启用代理式AI",
-      "summary": "LangGrant推出LEDGE MCP服务器，赋能企业数据库启用代理式AI",
-      "content": "LangGrant推出LEDGE MCP服务器，赋能企业数据库启用代理式AI",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-15T14:42:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/oNxDI4OWZTmvoXrZXMvA?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -254,18 +290,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/913/579.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768536401240_9b8e32f2",
-      "title": "QCon 北京 2026 启动｜Agentic AI 时代的软件工程重塑",
-      "summary": "QCon 北京 2026 启动｜Agentic AI 时代的软件工程重塑",
-      "content": "QCon 北京 2026 启动｜Agentic AI 时代的软件工程重塑",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-15T11:17:38.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/xDvcxhcebTPsfrciN2MA?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768476523626_53198c3b",
@@ -784,6 +808,18 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1768541943142_ba39162b",
+      "title": "Data+AI 新年特辑：2025 的顿悟时刻与 2026 的关键十问 | Q推荐",
+      "summary": "Data+AI 新年特辑：2025 的顿悟时刻与 2026 的关键十问 | Q推荐",
+      "content": "Data+AI 新年特辑：2025 的顿悟时刻与 2026 的关键十问 | Q推荐",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-14T18:49:20.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/1BEPfVWpbdDcstYINmuH?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1768383483589_f98ddd34",
       "title": "Zed 为什么不用自己造 Agent？OpenAI 架构师给出答案：Codex 重划 IDE × Coding Agent 的分工边界",
       "summary": "Zed 为什么不用自己造 Agent？OpenAI 架构师给出答案：Codex 重划 IDE × Coding Agent 的分工边界...",
@@ -1190,42 +1226,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/7842608.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768368829480_b266fb03",
-      "title": "京东首届AI影视创作大赛启动 最高奖金10万元邀全民共创AI视频",
-      "summary": "京东首届AI影视创作大赛启动 最高奖金10万元邀全民共创AI视频",
-      "content": "京东首届AI影视创作大赛启动 最高奖金10万元邀全民共创AI视频",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2026-01-14T04:48:54.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-14-5",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768368868319_c95c0701",
-      "title": "我国发布全球首个“月球计时软件”，争夺月球标准时间定义",
-      "summary": "IT之家 1 月 14 日消息，中国科学院紫金山天文台发布首个可用的数值月球时间历表产品 LTE440，解决了月球与地球时间转换中长期存在的“精度低、计算繁、使用难”三大难题，并实现了月球时间的可回溯性。",
-      "content": "IT之家 1 月 14 日消息，中国科学院紫金山天文台发布首个可用的数值月球时间历表产品 LTE440，解决了月球与地球时间转换中长期存在的“精度低、计算繁、使用难”三大难题，并实现了月球时间的可回溯性。 此项研究成果以“Lunar time ephemeris LTE440: Definitions,algorithm,and performance”（月球时间历表 LTE440：定义、算法和性能）为题于 2025 年 12 月发表在《天文学和天体物理学》（Astronomy and Astrophysics）上。LTE440 产品也已在线公开发布。 图源：Pixabay 紫金山天文台表示，当前，月球标准时间的定义是国际热点议题，但尚未形成定论，并成为各航天强国争夺的焦点。定义和构建月球标准时间的关键环节之一，是明确月球坐标时与太阳系质心力学时之间的对应关系。由此，月球标准时间才能与地球时、协调世界时相互转换，满足国际计量局关于月球标准时间必须与地球时间具有可回溯性的定义准则。 然而，月球坐标时与质心力学时之间的转换，是由月球极为复杂的多体运动以及太阳系中所有天体施加在月球上的动态引力场共同决定的。国际上现有的转换公式都采用级数近似理论，导致计算结果精度低、计算过程繁琐，且缺少可直接使用的产品，造成用户实际使用困难。 紫金山天文台研究团队利用目前精度最高的行星、月球、小行星和柯伊伯带天体轨道信息，实现了月球坐标时与质心力学时的精确转换，其累积误差即使在 1000 年后也不超过 1/20000000 秒，解决了“精度低”的问题。此外，该团队还专门开发了端到端的软件包产品，用户仅需一步操作即可获得月球坐标时的精确转换结果，解决了“计算繁”和“使用难”的问题。 紫金山天文台博士后卢旭和博士研究生杨天宁分别是该论文的第一和第二作者，谢懿研究员是通讯作者。该研究获得国家重大科技专项和国家自然科学基金的支持。 IT之家附论文和项目链接如下： 论文链接：https://doi.org/10.1051/0004-6361/202557345 月球时间历表 LTE440：https://github.com/xlucn/LTE440",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/a1a8f952-cdac-4a54-8595-e86ee3313e8e.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1",
-      "source": "IT之家",
-      "publishedAt": "2026-01-14T04:22:23.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/913/106.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768364035716_b218365d",
-      "title": "MiniMax宣布开源面向Coding Agent的新评测集",
-      "summary": "36氪获悉，MiniMax宣布开源面向Coding Agent的新评测集OctoCodingBench。",
-      "content": "36氪获悉，MiniMax宣布开源面向Coding Agent的新评测集OctoCodingBench。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-01-14T04:09:03.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3638751119756419?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
