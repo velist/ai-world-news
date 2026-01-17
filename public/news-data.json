@@ -1,8 +1,92 @@
 {
   "success": true,
-  "timestamp": "2026-01-16T23:33:46.418Z",
-  "total": 101,
+  "timestamp": "2026-01-17T02:16:18.690Z",
+  "total": 102,
   "data": [
+    {
+      "id": "news_1768616146022_857809d0",
+      "title": "OpenAI拟在ChatGPT中测试定向广告",
+      "summary": "当地时间1月16日，OpenAI透露，将于未来几周内，面向美国部分用户在ChatGPT应用内启动广告测试。广告投放对象涵盖免费版ChatGPT用户，以及此前率先在印度推出、现正拓展至美国市场的新款低价套餐——月费8美元的Go套餐用户。而价格更高的ChatGPT付费高级版则依旧不会出现广告。",
+      "content": "当地时间1月16日，OpenAI透露，将于未来几周内，面向美国部分用户在ChatGPT应用内启动广告测试。广告投放对象涵盖免费版ChatGPT用户，以及此前率先在印度推出、现正拓展至美国市场的新款低价套餐——月费8美元的Go套餐用户。而价格更高的ChatGPT付费高级版则依旧不会出现广告。（界面）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-01-17T02:11:19.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3642847890017923?f=rss",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768616177225_99d1e027",
+      "title": "高通 Adreno GPU 开发主管 Eric Demers 即将转投英特尔",
+      "summary": "IT之家 1 月 17 日消息，高通 GPU 工程高级副总裁 Eric Demers 昨日表示，其即将于下周加入英特尔。根据其向外媒 CRN 透露的消息，这位高管在新东家仍将担任相同岗位，重点关注人工智能领域。",
+      "content": "IT之家 1 月 17 日消息，高通 GPU 工程高级副总裁 Eric Demers 昨日表示，其即将于下周加入英特尔。根据其向外媒 CRN 透露的消息，这位高管在新东家仍将担任相同岗位，重点关注人工智能领域。 IT之家了解到，Eric Demers 高通有着近 14 年的工作经历，领导 Adreno GPU 的开发；而在那之前，其在 AMD 合计工作了近 10 年；更早时候他在 ArtX 参与了任天堂 GameCube 的设计工作。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/35c5c477-0da0-4dc6-bf2a-90b0d70524fe.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-17T02:01:42.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/914/017.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768616177374_e7c947b6",
+      "title": "OpenAI ChatGPT 将引入广告“供养”AGI，奥尔特曼承诺不干扰 AI 答案生成",
+      "summary": "IT之家 1 月 17 日消息，OpenAI 为实现通用人工智能（AGI）的愿景筹集资金，确认未来几周在 ChatGPT 免费版、ChatGPT Go 版本中开始投放广告。 AGI 是指具备像人类一样思考、学习和解决各种复杂问题能力的 AI 系统。",
+      "content": "IT之家 1 月 17 日消息，OpenAI 为实现通用人工智能（AGI）的愿景筹集资金，确认未来几周在 ChatGPT 免费版、ChatGPT Go 版本中开始投放广告。 AGI 是指具备像人类一样思考、学习和解决各种复杂问题能力的 AI 系统。目前的 AI（如 ChatGPT）大多是“专用 AI”，只能在特定领域（如聊天、画图）工作，而 AGI 能像人一样“一通百通”。OpenAI 的终极目标就是造出这种超级大脑。 OpenAI 明确表示，广告将以独立模块的形式出现，极有可能置于 AI 生成答案的底部，并会进行清晰的标签化处理，确保用户能一眼区分“AI 回答”与“推广内容”。IT之家附上官方推文截图如下： 针对用户最关心的隐私安全与内容质量问题，OpenAI 做出了严格承诺。首先，广告的引入绝不会干扰或操纵 ChatGPT 生成的答案逻辑；其次，系统将自动识别对话语境，在涉及健康咨询、心理健康辅导或政治讨论等敏感话题时，强制屏蔽广告展示。 更重要的是，OpenAI 强调用户的对话记录是私密的，绝不会被出售给广告商，用户还拥有随时清除用于广告投放的数据的权利，从而完全掌控个人数据的使用方式。 此次广告投放策略严格区分了用户层级。OpenAI 明确指出，所有付费订阅层级（包括 Plus、Pro、Business 以及 Enterprise 用户）将继续享有纯净的无广告环境。这意味着，如果用户希望彻底避开即将到来的广告干扰，升级至 20 美元的月度订阅服务或转向 Claude 等竞争对手的产品，将成为必须考虑的选项。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/508081e9-b496-408b-b6fc-861a836e05be.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-17T01:57:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/914/013.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768616147255_50338b4b",
+      "title": "美国加州总检察长发函 要求xAI停止制作深度伪造内容",
+      "summary": "美国加利福尼亚州总检察长邦塔（Robert Bonta）周五向xAI公司发出了一封勒令停止函，要求该公司停止通过其Grok人工智能聊天机器人创建和传播人工智能生成的未经同意的性化图像。邦塔办公室在一份声明中说，这封信要求 “立即采取行动，停止创建和传播深度伪造、未经同意的亲密图像和儿童性虐待材料”。",
+      "content": "美国加利福尼亚州总检察长邦塔（Robert Bonta）周五向xAI公司发出了一封勒令停止函，要求该公司停止通过其Grok人工智能聊天机器人创建和传播人工智能生成的未经同意的性化图像。邦塔办公室在一份声明中说，这封信要求 “立即采取行动，停止创建和传播深度伪造、未经同意的亲密图像和儿童性虐待材料”。（新浪财经）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-01-17T01:53:11.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3642836921093766?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768616177478_5d98cd25",
+      "title": "核弹拦截方案获验证，小行星比你想的更“抗揍”",
+      "summary": "IT之家 1 月 17 日消息，牛津大学研究团队近日在欧洲核子研究中心（CERN）完成了一项突破性实验，颠覆了核武器防御小行星的传统认知，实验证明核弹炸小行星不会解体产生碎片。",
+      "content": "IT之家 1 月 17 日消息，牛津大学研究团队近日在欧洲核子研究中心（CERN）完成了一项突破性实验，颠覆了核武器防御小行星的传统认知，实验证明核弹炸小行星不会解体产生碎片。 IT之家援引博文介绍，人类为防御小行星撞击地球主要采取两大策略：一是通过航天器撞击微调轨道，如 NASA 和 ESA 已实施的 DART 任务；二是更激进的核爆拦截。 虽然技术上引爆核武毫无悬念，但科学界长期担忧这种方式会适得其反：若核爆导致小行星解体，由此产生的大量放射性碎片可能继续沿原轨道袭向地球，造成更广泛的灾难。因此，核方案的有效性和安全性一直备受质疑。 为解开这一谜题，牛津大学研究团队利用 CERN 的 HiRadMat 实验室展开了前所未有的测试。研究人员没有依赖单纯的计算机模拟，而是选取了真实的铁陨石碎片作为实验对象。 欧洲核子研究中心（CERN）的高辐射材料（HiRadMat）装置。图源：CERN 研究中使用的坎波德尔西埃洛铁陨石。图源：埃里克 · 哈尔瓦克斯 为了在实验室中重现核爆产生的极端环境，团队将质子加速至接近光速，让其携带高达 4400 亿电子伏特（440 GeV）的能量轰击陨石样本。这是人类首次在受控实验室环境下，通过物理手段直接观测天体材料在类核爆条件下的真实反应。 实验结果出乎意料：遭受高能冲击的铁陨石并未像预测那样四分五裂，反而表现出了极高的稳定性。数据显示，样本在极端条件下发生了“固化”现象，材料强度不降反升。 这意味着，针对金属质地的小行星，核爆释放的巨大能量不会浪费在粉碎星体上，而是会高效地转化为推力，从而显著改变其飞行轨迹。这一发现直接推翻了此前基于大气层陨石解体观测所建立的脆弱性模型。 该研究第一作者梅兰妮 · 博赫曼（Melanie Bochmann）指出，这一发现为行星防御系统补上了关键一环。相比于动能撞击器只能应对小型天体，核拦截方案如今被证实具有更高的可行性与安全性。 IT之家附上参考地址 New study simulates asteroid impact – and reveals the hidden strength of space rocks Dynamical development of strength and stability of asteroid material under 440 GeV proton beam irradiation",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/16b2d1b9-4d42-4cb1-be61-fc0750fd10a1.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-17T01:42:40.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/914/012.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768616177586_68b1c13e",
+      "title": "地球上看不见的水：“超离子水”微观结构首次被观测",
+      "summary": "IT之家 1 月 17 日消息，科技媒体 Golem 昨日（1 月 16 日）发布博文，报道称科学家利用超快 X 射线衍射技术，成功观测到一种全新的“超离子水”结构。 超离子水的微观结构示意图，其中氧原子形成刚性晶格，而氢离子几乎可以在其中自由移动。",
+      "content": "IT之家 1 月 17 日消息，科技媒体 Golem 昨日（1 月 16 日）发布博文，报道称科学家利用超快 X 射线衍射技术，成功观测到一种全新的“超离子水”结构。 超离子水的微观结构示意图，其中氧原子形成刚性晶格，而氢离子几乎可以在其中自由移动。这种极端状态通常只存在于大型行星的内部，而此次实验是利用强激光进行的。（图源：Greg Stewart / SLAC 国家加速器实验室） 来自德国罗斯托克大学、法国 CNRS 综合理工学院及赫姆霍兹德累斯顿-罗森多夫中心的研究团队，利用超快 X 射线衍射技术，首次清晰观测到一种前所未见的水的形态。 这种被称为“超离子水”的物质展现出独特的微观构造：氧原子形成固定的晶格骨架，而氢原子核（质子）则像液体一样在骨架间自由穿梭，这种奇特的“固液混合”态赋予了水极高的导电性能。 这一发现为行星科学解开了一个长期谜题。天王星和海王星这两颗“冰巨星”拥有极不寻常的磁场，结构错综复杂，甚至拥有四个磁极，且磁场强度波动剧烈，部分区域远超地球磁场。 研究团队推测，其原因正是因为这两颗行星内部深处充满了这种高导电的超离子水。鉴于天王星和海王星的主要成分是水，科学家认为，这种在地球上罕见的超离子水，很可能才是太阳系中水最普遍的存在形式。 要让水进入这种奇异状态，条件极为苛刻。实验数据显示，只有在约 2500 开尔文（2200℃）的高温和超过 150 吉帕（GPa）的压力下才会发生相变。 150 吉帕相当于地球大气压的 150 万倍，这种压力在冰巨星内部司空见惯，但在实验室中却极难实现。研究人员通过快速连续的冲击压缩，成功在实验室瞬间制造了高达 180 吉帕的极端环境。 实验装置示意图，图源：论文 维持这种极端状态的时间极短，仅能持续数皮秒（万亿分之一秒）。为了捕捉这一瞬间的结构，团队使用了与其持续时间相当的超快 X 射线激光脉冲进行探测。 观测结果令人惊讶：在高压下，氧原子的晶格并非完美排列，而是呈现出面心立方结构与六方堆积的混合形态，内部存在大量堆垛层错。这表明即便在如此惊人的压力下，水分子晶格仍未达到理论上最紧密的堆积状态。 IT之家附上参考地址 Gemeinsame Pressemitteilung der Universität Rostock, CNRS-École Polytechnique und des Helmholtz-Zentrums Dresden-Rossendorf: Schlüssel zur Erforschung großer Planeten: Forscherteam weist neuartige Form von Wasser nach Observation of a mixed close-packed structure in superionic water",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/1f2f87f5-1a5a-4448-bb34-acc5a42d5ba5.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-17T01:03:21.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.ithome.com/0/914/001.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768616177688_5c334fa1",
+      "title": "4130 万篇论文洞察：AI 让科学家发文量暴涨 3 倍，却让科学路越走越窄",
+      "summary": "IT之家 1 月 17 日消息，芝加哥大学社会学家詹姆斯 · 埃文斯（James Evans）团队于 2026 年 1 月 14 日在《Nature》发表重磅研究，揭示了人工智能在科学界的“双刃剑”效应。 该团队深入分析了 4130 万篇研究论文，量化评估了人工智能工具对科学发现的双重影响。",
+      "content": "IT之家 1 月 17 日消息，芝加哥大学社会学家詹姆斯 · 埃文斯（James Evans）团队于 2026 年 1 月 14 日在《Nature》发表重磅研究，揭示了人工智能在科学界的“双刃剑”效应。 该团队深入分析了 4130 万篇研究论文，量化评估了人工智能工具对科学发现的双重影响。结果显示，AI 虽然极大地扩展了科学家个人的研究能力，却意外地收缩了科学探索的集体边界，导致科研重心过度集中，潜在的创新领域遭到冷落。 数据表明，拥抱 AI 的科学家在个人产出上获得了压倒性优势。与不使用 AI 的同行相比，AI 辅助的研究人员发表论文的数量是其 3.02 倍，获得的引用次数更是高达 4.85 倍。 此外，AI 的加持还加速了职业晋升路径，让这些科学家平均提前 1.4 年成长为各自领域的领军人物。AI 工具在处理数据和生成假设方面的惊人效率，显然已成为个人学术竞争力的核心倍增器。 然而，个人层面的繁荣并未转化为科学界的百花齐放。研究发现，随着 AI 的普及，科学研究的整体议题数量反而缩减了 4.63%，科学家之间的学术互动也下降了 22%。 AI 和非 AI 论文的知识范围 埃文斯将这种现象称为“孤独的人群”（Lonely Crowds）：热门话题虽然吸引了大量关注，但引用同一作品的论文之间却缺乏实质性互动。科学家们倾向于利用 AI 在已知问题上通过趋同的方法寻找解决方案，而非通过协作去开辟全新的未知领域。 造成这一现象的根本原因在于 AI 的“数据趋光性”。科学家们正大规模向拥有丰富数据的领域迁移，因为在这些领域，AI 工具能基于易于评估的基准快速产出成果。 这种趋势导致了“方法论单一化”（Methodological Monocultures），科学界正面临过早收敛于既定范式的风险。大量缺乏数据但可能蕴含重大突破的领域因此变得无人问津，科学探索的多样性正遭到前所未有的侵蚀。 IT之家附上参考地址 Artificial intelligence tools expand scientists’ impact but contract science’s focus 相关阅读： 《研究显示：用 AI 的科研人员论文产出量暴增，但质量隐忧浮现》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/a2cefcce-ea3c-45e3-8375-0b97ed899d3c.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-17T00:26:59.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.ithome.com/0/913/996.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1768606425310_11223707",
       "title": "OpenAI 全面上线“廉价版”ChatGPT Go 订阅方案：每月 8 美元，将包含广告",
@@ -16,16 +100,40 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768606409202_23c5af5f",
-      "title": "AI 的下一个十年：从技术拐点到工程落地的路线图",
-      "summary": "AI 的下一个十年：从技术拐点到工程落地的路线图",
-      "content": "AI 的下一个十年：从技术拐点到工程落地的路线图",
+      "id": "news_1768616163311_595dd724",
+      "title": "拒绝传统Router“瞎指挥”，多智能体如何实现智能任务分配？",
+      "summary": "拒绝传统Router“瞎指挥”，多智能体如何实现智能任务分配？",
+      "content": "拒绝传统Router“瞎指挥”，多智能体如何实现智能任务分配？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-01-16T20:02:04.000Z",
+      "publishedAt": "2026-01-16T17:20:05.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/cYlRMETcNGxhDvBqCDII?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768616165391_6094175c",
+      "title": "聚焦 AI Agent 系统诊断，智能运维助手 SysOM MCP 正式开源",
+      "summary": "聚焦 AI Agent 系统诊断，智能运维助手 SysOM MCP 正式开源",
+      "content": "聚焦 AI Agent 系统诊断，智能运维助手 SysOM MCP 正式开源",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-16T16:46:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/285HkzS0EM8tpHg9mBgY?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768616166871_6eae021c",
+      "title": "OpenAI前团队创业内乱，CTO泄密竞对遭开除！翁荔火速发文",
+      "summary": "OpenAI前团队创业内乱，CTO泄密竞对遭开除！翁荔火速发文",
+      "content": "OpenAI前团队创业内乱，CTO泄密竞对遭开除！翁荔火速发文",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-16T15:13:46.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/wLeViF4hSl0WQrw3r2cQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/jP3NTaQpjTjP7U7FrSRW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768577916179_8b3b6f97",
@@ -76,31 +184,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768606416251_9974be17",
-      "title": "首个智能体商业信任协议来了！支付宝携手千问App、淘宝闪购等发布AI商业协议ACT",
-      "summary": "首个智能体商业信任协议来了！支付宝携手千问App、淘宝闪购等发布AI商业协议ACT",
-      "content": "首个智能体商业信任协议来了！支付宝携手千问App、淘宝闪购等发布AI商业协议ACT",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-16T11:11:39.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/DE0ifdKyd4Oevz5Bgr3X?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768606418426_361b7060",
-      "title": "谷歌发布 Gemma Scope 2，深化对 LLM 行为的理解",
-      "summary": "谷歌发布 Gemma Scope 2，深化对 LLM 行为的理解",
-      "content": "谷歌发布 Gemma Scope 2，深化对 LLM 行为的理解",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-16T10:36:30.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/QAVo2JuWaAElyqUA6joF?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768606419902_044921bc",
+      "id": "news_1768616171836_044921bc",
       "title": "FACTS基准测试套件问世，用于评估大型语言模型的事实准确性",
       "summary": "FACTS基准测试套件问世，用于评估大型语言模型的事实准确性",
       "content": "FACTS基准测试套件问世，用于评估大型语言模型的事实准确性",
@@ -592,7 +676,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768606110951_0",
+      "id": "news_1768615848291_0",
       "title": "Rural residents trying ways to halt OpenAI, Oracle data center south of Ann Arbor",
       "summary": "SALINE TWP., MI — Riled up residents in Saline Township don’t think the massive 2.2-million-square-foot “Stargate” data center for ChatGPT creator Ope...",
       "content": "SALINE TWP., MI — Riled up residents in Saline Township don’t think the massive 2.2-million-square-foot “Stargate” data center for ChatGPT creator OpenAI and tech giant Oracle is a foregone conclusion. Their opposition continues as preliminary site w... [4514 chars]",
@@ -604,7 +688,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1768606376135_1",
+      "id": "news_1768616133473_1",
       "title": "Melania Trump to Speak at Zoom's AI Event for Students",
       "summary": "First lady Melania Trump will deliver opening remarks Friday at \"Zoom Ahead: AI for Tomorrow's Leaders,\" a national student learning experience aimed ...",
       "content": "First lady Melania Trump will deliver opening remarks Friday at \"Zoom Ahead: AI for Tomorrow's Leaders,\" a national student learning experience aimed at helping K-12 students understand how artificial intelligence can be used responsibly, creatively,... [1603 chars]",
@@ -616,7 +700,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1768606110069_2",
+      "id": "news_1768615847747_2",
       "title": "OpenAI invests in Sam Altman’s brain computer interface startup Merge Labs",
       "summary": "Just when you thought the circular deals couldn’t get any more circular, OpenAI has invested in CEO Sam Altman’s brain computer interface (BCI) startu...",
       "content": "Just when you thought the circular deals couldn’t get any more circular, OpenAI has invested in CEO Sam Altman’s brain computer interface (BCI) startup Merge Labs.\nMerge Labs, which defines itself as a “research lab” dedicated to “bridging biological... [5517 chars]",
@@ -1142,78 +1226,6 @@
       "category": "国内AI",
       "originalUrl": "https://36kr.com/newsflashes/3640050610425221?f=rss",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768443704512_fef2e213",
-      "title": "Apple Pay+Visa今起支持中国持卡用户跨境支付",
-      "summary": "1月15日，苹果（Apple）宣布拓展Apple Pay的跨境支付支持，持有中国工商银行、中国银行、中国农业银行、交通银行、招商银行、中信银行、平安银行、兴业银行发行的Visa信用卡，及中信银行发行的Visa借记卡的用户，将卡片添加到苹果钱包App后即可使用Apple Pay进行跨境支付。",
-      "content": "1月15日，苹果（Apple）宣布拓展Apple Pay的跨境支付支持，持有中国工商银行、中国银行、中国农业银行、交通银行、招商银行、中信银行、平安银行、兴业银行发行的Visa信用卡，及中信银行发行的Visa借记卡的用户，将卡片添加到苹果钱包App后即可使用Apple Pay进行跨境支付。（上证报）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-01-15T02:01:41.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3640041492368773?f=rss",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768443731389_5c4f011b",
-      "title": "苹果宣布为中国大陆用户支持 Apple Pay 跨境支付：可添加 Visa 信用卡 / 借记卡",
-      "summary": "IT之家 1 月 15 日消息，苹果今日宣布拓展 Apple Pay 的跨境支付支持，让中国大陆用户无论去往何处旅行，均可使用本地发行的 Visa 信用卡与借记卡，在接受免接触式支付的店内与线上完成支付。据 Visa 统计，目前全球有 79% 的面对面交易均通过 NFC 功能免接触完成。",
-      "content": "IT之家 1 月 15 日消息，苹果今日宣布拓展 Apple Pay 的跨境支付支持，让中国大陆用户无论去往何处旅行，均可使用本地发行的 Visa 信用卡与借记卡，在接受免接触式支付的店内与线上完成支付。据 Visa 统计，目前全球有 79% 的面对面交易均通过 NFC 功能免接触完成。 “随着中国大陆 Apple Pay 跨境支付功能的进一步拓展，我们正令出行体验变得更为顺畅与安全，让用户在全球各地都能放心完成支付。”负责 Apple Pay 与 Apple 钱包业务的 Apple 副总裁 Jennifer Bailey 表示，“借助 iPhone 与 Apple Watch 内置的安全与隐私保护机制，无论用户的旅程通向何方 —— 是乘公交、买晚餐，还是在新的城市购物，Apple Pay 都能提供简单、安全又私密的支付体验。” 持有中国工商银行、中国银行、中国农业银行、交通银行、招商银行、中信银行、平安银行、兴业银行发行的 Visa 信用卡，及中信银行发行的 Visa 借记卡的顾客，将卡片添加到 Apple 钱包 App 后即可使用 Apple Pay 进行跨境支付。上述合作伙伴已和中国银联共同为 Apple Pay 跨境支付提供支持。 此外，上海浦东发展银行、中国建设银行、中国民生银行、中国光大银行等更多银行发行的 Visa 信用卡将在未来数月内支持这一功能。万事达卡也正在准备于未来数月内为部分发卡机构的持卡人推出这一功能。 设置 Apple Pay 的过程如下： 通过最新版银行 App 直接向 Apple 钱包添加 Visa 卡。此外也可以在 iPhone 上打开钱包 App，轻点加号，按照提示跳转至银行 App，添加 Visa 信用卡或借记卡。卡片一经添加至 iPhone、Apple Watch 或 iPad，用户即可开始在相应设备上使用 Apple Pay。 若要在店内使用 Apple Pay 完成免接触式支付，只需连按两下侧边按钮，完成认证，然后将 iPhone 或 Apple Watch 靠近支付终端即可。 苹果表示，每一笔 Apple Pay 交易均需通过面容 ID、触控 ID 或设备密码，以及一次性专属动态安全码进行认证，以确保安全。当用户将信用卡或借记卡与 Apple Pay 配合使用时，真实卡号不会储存在设备或 Apple 服务器上。取而代之的是一个专属设备账号，该号码经过加密，并安全地存储在安全元件中。安全元件是一枚符合行业标准并获得认证的芯片，旨在安全地存储设备上的支付信息。 此外用户还能通过 iPhone 和 iPad 在 App 内或网页中使用 Apple Pay，实现更快捷、更便利的购买体验，无需创建账户或反复填写联系信息、卡片详情、收货与账单信息等。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/4f8a257e-b256-428f-96bf-8372fac61bcc.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-15T01:56:44.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/913/358.htm",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768443692922_4862d74d",
-      "title": "Agent时代，为什么多模态数据湖是必选项？",
-      "summary": "Agent时代，为什么多模态数据湖是必选项？",
-      "content": "Agent时代，为什么多模态数据湖是必选项？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2026-01-15T01:55:56.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-15-2",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768443693648_c21b9fc9",
-      "title": "大模型长脑子了？研究发现LLM中层会自发模拟人脑进化",
-      "summary": "大模型长脑子了？研究发现LLM中层会自发模拟人脑进化",
-      "content": "大模型长脑子了？研究发现LLM中层会自发模拟人脑进化",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2026-01-15T01:50:09.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-15",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768443710648_136e91e4",
-      "title": "2025年手机行业，谁在高端路上“扑街”，谁在AI里“修仙”？",
-      "summary": "2025年手机行业，谁在高端路上“扑街”，谁在AI里“修仙”？",
-      "content": "2025年手机行业高端难破，AI狂卷",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-15T01:40:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7843304.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768443712020_13a51731",
-      "title": "AI里的明争暗斗：马斯克的甜言蜜语，和我们20%的胜率",
-      "summary": "AI里的明争暗斗：马斯克的甜言蜜语，和我们20%的胜率",
-      "content": "AI里的明争暗斗：马斯克的甜言蜜语，和我们20%的胜率",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-15T00:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7843325.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
