@@ -1,31 +1,67 @@
 {
   "success": true,
-  "timestamp": "2026-01-19T02:29:18.090Z",
+  "timestamp": "2026-01-19T04:17:36.405Z",
   "total": 55,
   "data": [
     {
-      "id": "news_1768789740602_d8704e00",
-      "title": "谷歌发布适用于多智能体的八种设计模式",
-      "summary": "谷歌发布适用于多智能体的八种设计模式",
-      "content": "谷歌发布适用于多智能体的八种设计模式",
+      "id": "news_1768796236336_5cd42177",
+      "title": "阿里云 CIO 全面深度解析：企业 AI 大模型落地实践「 RIDE 方法论」",
+      "summary": "阿里云 CIO 全面深度解析：企业 AI 大模型落地实践「 RIDE 方法论」",
+      "content": "阿里云 CIO 全面深度解析：企业 AI 大模型落地实践「 RIDE 方法论」",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-01-19T10:14:17.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/pTGMtm4Yxej0pWXJB4BN?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-01-19T11:23:05.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/BKMR19Rj75XwLR1ysM4B?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768796229857_c63bad6e",
+      "title": "从技术自信到产业爆发：2025十大趋势，见证中国产业的「破局与共生」",
+      "summary": "技术突破带来了一波又一波的机会，有人抓住了AI、低空经济的风口，实现了跨越式发展；也有人困在传统产业转型的阵痛里，还在艰难摸索。",
+      "content": "技术突破带来了一波又一波的机会，有人抓住了AI、低空经济的风口，实现了跨越式发展；也有人困在传统产业转型的阵痛里，还在艰难摸索。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-19T03:48:42.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7847492.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768796255402_2d036f2e",
+      "title": "胡润发布 2025 中国 AI 企业 50 强，寒武纪以 6300 亿元价值居首",
+      "summary": "IT之家 1 月 19 日消息，胡润研究院今日发布《2025 胡润中国人工智能企业 50 强》： AI 芯片企业寒武纪以 6300 亿元的价值位居榜首，比去年增长 165%； 国产 GPU 第一股摩尔线程排名第二，价值 3100 亿元； 中国首批实现全流程国产化的高端 GPU 企业沐曦排名第三，价值...",
+      "content": "IT之家 1 月 19 日消息，胡润研究院今日发布《2025 胡润中国人工智能企业 50 强》： AI 芯片企业寒武纪以 6300 亿元的价值位居榜首，比去年增长 165%； 国产 GPU 第一股摩尔线程排名第二，价值 3100 亿元； 中国首批实现全流程国产化的高端 GPU 企业沐曦排名第三，价值 2500 亿元； AI 芯片相关企业包揽榜单前 10 中的 7 席，包括地平线、瑞芯微、壁仞科技、芯原股份。 报告还提到，北京和上海的上榜企业占据六成以上，一线城市的企业超过八成。 北京以 19 家上榜企业领先，其中包括寒武纪、月之暗面和云知声等知名企业； 上海有 14 家上榜企业，比去年增加 5 家，以沐曦、商汤为代表； 深圳上榜 6 家，云天励飞、奥比中光和晶泰科技等企业榜上有名； 广州有 4 家上榜企业，以小马智行、文远知行和云从科技为代表。 从企业分类来看： 算力硬件类企业上榜 14 家，比去年增加 9 家，寒武纪是其中的佼佼者； 数据分析决策类企业有 11 家，比去年增加 4 家，晶泰科技是其中的代表； 内容生成类、视觉识别类、自动驾驶类各都有 8 家上榜，稀宇极智、商汤科技、小马智行分别是各自领域领先企业； 语音识别类企业有 3 家，科大讯飞是行业标杆。 IT之家附完整榜单如下：",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/84d01f5d-194d-472a-be16-2ef40033c816.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-19T03:21:32.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/914/381.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768796231643_dee39795",
+      "title": "从\"实验室\"到\"生活间\"，具身智能的商业化破局与生态构建 | CES 2026",
+      "summary": "从\"实验室\"到\"生活间\"，具身智能的商业化破局与生态构建 | CES 2026",
+      "content": "2026年将成为操作型机器人商业化落地元年。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-19T02:39:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7846124.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768789742354_c770aa27",
-      "title": "ChatGPT 将测试广告投放，AI 信任危机一触即发",
-      "summary": "ChatGPT 将测试广告投放，AI 信任危机一触即发",
-      "content": "ChatGPT 将测试广告投放，AI 信任危机一触即发",
+      "id": "news_1768796212055_c2bebef0",
+      "title": "CES 2026趋势照进现实：算力引擎RK182X重塑千行百业，瑞芯微AI生态大会共建落地生态",
+      "summary": "CES 2026趋势照进现实：算力引擎RK182X重塑千行百业，瑞芯微AI生态大会共建落地生态",
+      "content": "CES 2026趋势照进现实：算力引擎RK182X重塑千行百业，瑞芯微AI生态大会共建落地生态",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-19T09:25:13.000Z",
+      "source": "机器之心",
+      "publishedAt": "2026-01-19T02:32:10.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/pt1L2jiAHb7tAcB1lAmz?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-19-2",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768789718846_441bbec5",
@@ -388,6 +424,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1768796244275_595746f5",
+      "title": "腾讯云ADP国内首发AI原生Widget：一句话秒级生成交互组件，重塑Agent使用体验",
+      "summary": "腾讯云ADP国内首发AI原生Widget：一句话秒级生成交互组件，重塑Agent使用体验",
+      "content": "腾讯云ADP国内首发AI原生Widget：一句话秒级生成交互组件，重塑Agent使用体验",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-17T13:36:06.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/KXHUrhczo8le9KpyyNjr?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1768654874392_3125df3b",
       "title": "国家能源局：2025 年充换电服务业用电量增速达 48.8%",
       "summary": "IT之家 1 月 17 日消息，今日，国家能源局发布 2025 年全社会用电量等数据。2025 年，全社会用电量累计 103682 亿千瓦时，同比增长 5.0%。",
@@ -568,19 +616,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768622668048_305d221d",
-      "title": "显示单元模块化，玄景 MLVision 发布首款硬件可持续升级 AR 眼镜 M6",
-      "summary": "IT之家 1 月 17 日消息，微光科技旗下玄景 MLVision 在 CES 2026 上推出了首款硬件可持续升级 AR 眼镜 M6。其采用模块化设计，由核心 AI 摄像眼镜和可选的显示模块单元组成，两者通过磁吸接口连接。",
-      "content": "IT之家 1 月 17 日消息，微光科技旗下玄景 MLVision 在 CES 2026 上推出了首款硬件可持续升级 AR 眼镜 M6。其采用模块化设计，由核心 AI 摄像眼镜和可选的显示模块单元组成，两者通过磁吸接口连接。 IT之家了解到，玄景 M6 主体配备紫光展锐 W517 SoC，集成 2GB + 64GB 存储，搭载索尼 IMX681 12MP 图像传感器，配备 3+1 麦克风和扬声器。其接入阿里千问与 DeepSeek，支持实时翻译纪要、寻路导航等功能。 此外，M6 可选衍射光波导成像显示模块，最高分辨率 640×480，6m 投射等效 126 英寸大屏，入眼亮度峰值 1600nits。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/45ee421d-6f26-42b0-9aa0-1142d3f4ea23.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-17T02:46:37.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/914/026.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768789746805_23c5af5f",
+      "id": "news_1768796245868_23c5af5f",
       "title": "AI 的下一个十年：从技术拐点到工程落地的路线图",
       "summary": "AI 的下一个十年：从技术拐点到工程落地的路线图",
       "content": "AI 的下一个十年：从技术拐点到工程落地的路线图",
@@ -592,7 +628,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768789748026_595dd724",
+      "id": "news_1768796247662_595dd724",
       "title": "拒绝传统Router“瞎指挥”，多智能体如何实现智能任务分配？",
       "summary": "拒绝传统Router“瞎指挥”，多智能体如何实现智能任务分配？",
       "content": "拒绝传统Router“瞎指挥”，多智能体如何实现智能任务分配？",
@@ -604,7 +640,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768789749622_6094175c",
+      "id": "news_1768796249509_6094175c",
       "title": "聚焦 AI Agent 系统诊断，智能运维助手 SysOM MCP 正式开源",
       "summary": "聚焦 AI Agent 系统诊断，智能运维助手 SysOM MCP 正式开源",
       "content": "聚焦 AI Agent 系统诊断，智能运维助手 SysOM MCP 正式开源",
@@ -616,7 +652,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768789751101_6eae021c",
+      "id": "news_1768796251602_6eae021c",
       "title": "OpenAI前团队创业内乱，CTO泄密竞对遭开除！翁荔火速发文",
       "summary": "OpenAI前团队创业内乱，CTO泄密竞对遭开除！翁荔火速发文",
       "content": "OpenAI前团队创业内乱，CTO泄密竞对遭开除！翁荔火速发文",
@@ -626,42 +662,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/jP3NTaQpjTjP7U7FrSRW?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768789752861_9974be17",
-      "title": "首个智能体商业信任协议来了！支付宝携手千问App、淘宝闪购等发布AI商业协议ACT",
-      "summary": "首个智能体商业信任协议来了！支付宝携手千问App、淘宝闪购等发布AI商业协议ACT",
-      "content": "首个智能体商业信任协议来了！支付宝携手千问App、淘宝闪购等发布AI商业协议ACT",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-16T11:11:39.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/DE0ifdKyd4Oevz5Bgr3X?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768789722173_a38604b8",
-      "title": "面向临床的心电图AI，上智院、复旦等提出CLEAR-HUG框架实现诊断性能与可解释性双突破",
-      "summary": "面向临床的心电图AI，上智院、复旦等提出CLEAR-HUG框架实现诊断性能与可解释性双突破",
-      "content": "面向临床的心电图AI，上智院、复旦等提出CLEAR-HUG框架实现诊断性能与可解释性双突破",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2026-01-16T06:04:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-16-10",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768789722839_d29bdd16",
-      "title": "神同步OpenAI！中国团队Deep Principle领衔发布LLMs for Science评测，引爆外网",
-      "summary": "神同步OpenAI！中国团队Deep Principle领衔发布LLMs for Science评测，引爆外网...",
-      "content": "神同步OpenAI！中国团队Deep Principle领衔发布LLMs for Science评测，引爆外网",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2026-01-16T06:03:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-16-9",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
