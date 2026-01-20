@@ -1,8 +1,80 @@
 {
   "success": true,
-  "timestamp": "2026-01-20T02:24:21.577Z",
-  "total": 72,
+  "timestamp": "2026-01-20T04:12:21.902Z",
+  "total": 71,
   "data": [
+    {
+      "id": "news_1768882340897_98fb67f4",
+      "title": "Linux 用户注意：Snap Store 爆发新型攻击，过期域名成黑客后门",
+      "summary": "IT之家 1 月 20 日消息，前 Canonical 员工、资深社区成员 Alan Pope 于 1 月 17 日发出严厉警告，指出 Canonical（热门发行版 Ubuntu 背后公司）运营的 Linux Snap 商店正面临一种新型供应链攻击。",
+      "content": "IT之家 1 月 20 日消息，前 Canonical 员工、资深社区成员 Alan Pope 于 1 月 17 日发出严厉警告，指出 Canonical（热门发行版 Ubuntu 背后公司）运营的 Linux Snap 商店正面临一种新型供应链攻击。 Alan Pope 目前维护近 50 个 Snap 应用，他在博文中揭露了一项令人担忧的新趋势：攻击者正在利用平台机制漏洞，将长期存在的“良民”应用转化为恶意软件。 早期的攻击多依赖创建新账号并伪造逼真的应用页面，容易被识别。然而，现在的攻击者转而监控 Snap 商店中关联域名已过期的开发者账号。 一旦发现目标域名失效，攻击者便立即将其注册，随后利用该域名的邮箱在 Snap Store 触发密码重置，从而兵不血刃地接管已建立长期信誉的发布者身份。这意味着，用户几年前安装且一直信任的合法软件，可能在一夜之间被黑客通过官方更新通道植入恶意代码。 IT之家援引博文介绍，目前已确认 storewise.tech 和 vagueentertainment.com 两个发布者域名通过此方法遭劫持。被篡改的应用通常会伪装成 Exodus、Ledger Live 或 Trust Wallet 等知名加密钱包，其界面与正版几乎没有差别。 应用启动后会先连接远程服务器验证网络，随即诱导用户输入“钱包恢复助记词”。用户一旦提交，这些敏感信息会即刻传至攻击者服务器，导致资金被盗。由于利用了旧有的信任关系，此类攻击往往在受害者察觉前就已得手。 尽管 Canonical 会在接到举报后移除恶意应用，但 Pope 指出执法往往滞后于发现，恶意更新在被下架前通常已有足够时间侵害用户。 对此，安全专家提出了双向建议：开发者务必确保域名续费及时并开启双重验证（2FA）以锁定账号权限；对于普通用户，尤其是涉及加密货币资产时，应彻底摒弃通过应用商店安装钱包软件的习惯，转而直接从项目官方网站获取安装包，以规避此类供应链风险。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/2a8524c9-2650-4dea-ae3c-dee1abfd0411.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-20T04:07:59.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/914/717.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768882303766_11576ea4",
+      "title": "钉钉上线AI差旅：企业免垫资，员工免报销，AI帮比价",
+      "summary": "钉钉上线AI差旅：企业免垫资，员工免报销，AI帮比价",
+      "content": "钉钉上线AI差旅：企业免垫资，员工免报销，AI帮比价",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-01-20T03:58:15.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-20-4",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768882304664_6caa3c64",
+      "title": "零样本&少样本横扫12个工业医疗数据集：西门子×腾讯优图新研究精准定位缺陷，检测精度新SOTA丨AAAI 2026",
+      "summary": "零样本&少样本横扫12个工业医疗数据集：西门子×腾讯优图新研究精准定位缺陷，检测精度新SOTA丨AAAI 2026...",
+      "content": "零样本&少样本横扫12个工业医疗数据集：西门子×腾讯优图新研究精准定位缺陷，检测精度新SOTA丨AAAI 2026",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-01-20T03:49:34.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-20-3",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768882319853_2f9e3e0e",
+      "title": "警惕，“AI泔水”正在悄悄入侵我们的生活",
+      "summary": "警惕，“AI泔水”正在悄悄入侵我们的生活",
+      "content": "在这个AI泔水泛滥的时代，保持清醒，独立思考，或许是最可贵的抵抗。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-20T03:09:13.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7848859.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768882321720_3f4b8599",
+      "title": "从LED照明跨界PCB微钻，民爆光电AI风口上的战略急转｜并购一线",
+      "summary": "从LED照明跨界PCB微钻，民爆光电AI风口上的战略急转｜并购一线",
+      "content": "民爆光电的新故事，麦达智能的快车道。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-20T02:43:49.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7848792.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768882305575_fd895fb0",
+      "title": "WAIC首次“南下”：沪港握手2026“WAIC UP!全球年终盛会”，共揭AI对话新篇",
+      "summary": "WAIC首次“南下”：沪港握手2026“WAIC UP!全球年终盛会”，共揭AI对话新篇",
+      "content": "WAIC首次“南下”：沪港握手2026“WAIC UP!全球年终盛会”，共揭AI对话新篇",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-01-20T02:40:29.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-20-2",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1768875826124_0370ee63",
       "title": "“扣子”官宣2.0品牌升级：AI办公、AI创作全面更新，新增视频创作能力",
@@ -52,18 +124,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768875848327_627cdfde",
-      "title": "非科班出身、辍学生逆袭AI巨头，Claude Code创始人：不关注对手，那只会让我们迷失",
-      "summary": "非科班出身、辍学生逆袭AI巨头，Claude Code创始人：不关注对手，那只会让我们迷失",
-      "content": "非科班出身、辍学生逆袭AI巨头，Claude Code创始人：不关注对手，那只会让我们迷失",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-19T19:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/5gxv5efXhF6fpzXsgcJy?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1768819128453_7bb0bad9",
       "title": "Agent 不是渐进升级，而是要“换代”了：Cursor 工程负责人放话未来三到六个月，行业将迎来大变局",
       "summary": "Agent 不是渐进升级，而是要“换代”了：Cursor 工程负责人放话未来三到六个月，行业将迎来大变局...",
@@ -76,7 +136,19 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768875821467_0",
+      "id": "news_1768882330643_9ff5fa00",
+      "title": "二十年，重新出发！第 20 届 D2 技术大会「AI 新」议题全球征集正式开启",
+      "summary": "二十年，重新出发！第 20 届 D2 技术大会「AI 新」议题全球征集正式开启",
+      "content": "二十年，重新出发！第 20 届 D2 技术大会「AI 新」议题全球征集正式开启",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-19T16:12:09.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/RJ1OxNTaCwuh6Y12O8dc?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768882299084_0",
       "title": "How AI is helping this N.J. county track everything from rodents to the flu",
       "summary": "During the COVID-19 pandemic , Essex County Health Officer Maya Harlow wished she had a crystal ball that could predict where COVID cases were origina...",
       "content": "During the COVID-19 pandemic, Essex County Health Officer Maya Harlow wished she had a crystal ball that could predict where COVID cases were originating to prevent infection before it happened.\nWhen she became the founding director of the Essex Coun... [4690 chars]",
@@ -100,7 +172,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768875821865_1",
+      "id": "news_1768882299534_1",
       "title": "CSU goes all in on AI, partnering with Microsoft to create RamGPT",
       "summary": "Colorado State University has partnered with Microsoft to pilot a university-wide artificial intelligence system similar to ChatGPT that places the la...",
       "content": "Colorado State University has partnered with Microsoft to pilot a university-wide artificial intelligence system similar to ChatGPT that places the land-grant institution at the front of the pack in collaborations between higher education and AI comp... [10749 chars]",
@@ -134,6 +206,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/914/547.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768882332433_f2e1f63d",
+      "title": "阿里云 CIO 全面深度解析：企业 AI 大模型落地实践「 RIDE 方法论」",
+      "summary": "阿里云 CIO 全面深度解析：企业 AI 大模型落地实践「 RIDE 方法论」",
+      "content": "阿里云 CIO 全面深度解析：企业 AI 大模型落地实践「 RIDE 方法论」",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-19T11:23:04.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/BKMR19Rj75XwLR1ysM4B?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768822192600_fa52d649",
@@ -170,18 +254,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7848095.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768875855666_d8704e00",
-      "title": "谷歌发布适用于多智能体的八种设计模式",
-      "summary": "谷歌发布适用于多智能体的八种设计模式",
-      "content": "谷歌发布适用于多智能体的八种设计模式",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-19T10:14:17.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/pTGMtm4Yxej0pWXJB4BN?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768819106942_a218a451",
@@ -254,18 +326,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/914/505.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768875857052_c770aa27",
-      "title": "ChatGPT 将测试广告投放，AI 信任危机一触即发",
-      "summary": "ChatGPT 将测试广告投放，AI 信任危机一触即发",
-      "content": "ChatGPT 将测试广告投放，AI 信任危机一触即发",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-19T09:25:13.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/pt1L2jiAHb7tAcB1lAmz?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768815857050_d066464c",
@@ -794,78 +854,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7846680.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768709493407_01faac4d",
-      "title": "168 小时 AI 狂写 300 万行代码造出浏览器！Cursor 公开数百个智能体自主协作方案",
-      "summary": "AI 写代码，这次玩大了。 Cursor 创始人宣布一项疯狂实验的结果：让数百个 AI 智能体连续跑了整整一周，从零开始，硬生生造出了一个可用的 Web 浏览器。",
-      "content": "AI 写代码，这次玩大了。 Cursor 创始人宣布一项疯狂实验的结果：让数百个 AI 智能体连续跑了整整一周，从零开始，硬生生造出了一个可用的 Web 浏览器。 项目代号 FastRender，产出超过 300 万行代码，核心是一个用 Rust 从头写的渲染引擎，甚至还自带一个定制的 JavaScript 虚拟机。 Truell 称这款浏览器“勉强能用”，跟成熟的 Chrome 内核差得远，但已经能基本正确地渲染谷歌首页了。 并且项目全部源码已公开在 GitHub。 背后的大脑：GPT-5.2-Codex 这次实验能跑通，靠的是 OpenAI 在 2025 年 12 月刚发布的 GPT-5.2-Codex。 这个模型被 OpenAI 定义为“最前沿的智能体编码模型”，专门为解决复杂的现实世界软件工程问题设计。 它不再是简单的代码补全工具，而是能像人类工程师一样自主规划任务，独立完成新功能开发、代码重构、漏洞排查这类需要持续数小时甚至数天的长周期工作。 在技术层面，GPT-5.2-Codex 引入了一项叫“上下文压缩”（Context Compaction）的技术，让模型在处理需要理解庞大代码库的长程任务时，能够保持逻辑一致性。 在 SWE-Bench Pro 和 Terminal-Bench 2.0 等权威软件工程基准测试中，这个模型均拿下了最先进水平的成绩。 OpenAI 还称它是“迄今为止最具网络安全能力”的模型，此前已有研究人员用它的前代版本发现了 React 框架中的高危漏洞。 数百个智能体怎么协作？ 让一个 AI 模型写代码不难，难的是让几百个 AI 智能体同时在一个代码库里干活还不打架。 Cursor 为此设计了一套多智能体协作架构，但这条路走得并不顺。 最初团队尝试了扁平化的协作模式，让所有智能体地位平等，通过共享文件和锁机制来协调。 结果很快暴露出严重问题： 为避免修改冲突设置的锁定机制导致智能体大量时间用于等待，20 个智能体的实际吞吐量仅相当于 2 到 3 个； 智能体还可能在锁定时崩溃或忘记释放锁，直接把系统搞死； 在没有明确层级的情况下，智能体们开始摸鱼，倾向于挑简单安全的任务做，回避真正困难的核心问题，导致项目停滞不前。 踩完这些坑后，Cursor 转向了一种“规划者-工作者-裁判”的分层架构： 规划者（Planner）负责宏观任务，持续探索代码库并创建具体任务，还能递归地生成针对特定领域的子规划者来并行规划。 工作者（Worker）是纯粹的执行者，接收任务后心无旁骛地写代码，完成后直接推送，不需要跟其他工作者协调。 裁判（Judge）则在每个工作周期结束时评估进展，决定是否继续下一个迭代，这个机制允许系统定期从干净状态重新开始，防止任务跑偏。 这套清晰的层级结构和责任分离，最终让数百个 AI 智能体能够高效地在同一个代码库的同一分支上并行工作，代码冲突极少。 一些反直觉的发现 Cursor 在这次实验中积累了不少经验，其中有些结论还有点反直觉。 比如模型选择。 团队发现，对于极长时间的自主任务，通用的 GPT-5.2 模型在规划能力上甚至优于专门为编码训练的 GPT-5.1-Codex。 而 Anthropic 的 Claude Opus 4.5 模型则倾向于“走捷径”并尽早交还控制权，更适合与人类协作的交互式场景，不太适合持续数周的自主任务。 另外团队强调，提示词的设计比模型本身和执行环境更重要，如何引导智能体正确协作、避免病态行为并长时间保持专注，需要大量试错。 这次实验在业界引发了热烈讨论。OpenAI 联合创始人 Greg Brockman 称之为“对未来的惊鸿一瞥”。 Stability AI 前 CEO Emad Mostaque 则估算，构建这个浏览器可能消耗了约 30 亿个 Token。但随着 Token 成本持续下降，软件开发的边际成本正在趋近于零。 当然质疑声也不少。 有人指出，AI 模型的训练数据中本就包含大量开源浏览器代码，这种“从零构建”在多大程度上是真正的创造，还有待商榷。 也有人担心，由 AI 生成的数百万行代码，人类工程师要怎么调试和维护这个庞大的黑箱。 Cursor 承认目前的多智能体系统远非完美，仍存在规划者无法及时响应、智能体过度运行等问题。 但这个实验至少证明了一件事：通过增加智能体数量来扩展自主编码能力，是可行的。 团队正在把实验中开发的技术逐步整合进商业产品。未来软件开发团队的结构可能会变成这样：人类负责架构设计、AI 监督和最终验证，具体的编码实现则大规模交由 AI 智能体完成。 GitHub： https://github.com/wilsonzlin/fastrender 参考链接： [1] https://cursor.com/blog/scaling-agents [2] https://x.com/mntruell/status/2011562190286045552",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/b7abc2b9-b8d7-40a5-8c52-ec5d307758d2.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-18T04:07:18.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/914/192.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768709493903_d7265943",
-      "title": "鸿蒙智行公告 OTA 加紧准备中，将开启尝鲜升级活动",
-      "summary": "IT之家 1 月 18 日消息，鸿蒙智行官方今日发布公告，称大家关心的 OTA 升级正在加紧准备中，即将开启尝鲜升级活动。 尊敬的鸿蒙智行车主： 感谢大家对鸿蒙智行的关注和支持，对于大家关心的 OTA 升级，我们正在加紧准备中。",
-      "content": "IT之家 1 月 18 日消息，鸿蒙智行官方今日发布公告，称大家关心的 OTA 升级正在加紧准备中，即将开启尝鲜升级活动。 尊敬的鸿蒙智行车主： 感谢大家对鸿蒙智行的关注和支持，对于大家关心的 OTA 升级，我们正在加紧准备中。最新消息以鸿蒙智行官方 APP 的通知为准，我们即将开启 OTA 尝鲜升级活动，敬请期待。 2026 年 1 月 18 日 有用户询问在华为乾崑 App 报名了还需要再报名吗？鸿蒙智行官方回复称：“鸿蒙智行升级报名即将开启，请关注鸿蒙智行 App 升级通知。” 据IT之家今日早些时候报道，华为乾崑智驾 ADS 4.1 的升级点已公布，包括安全升级、体验升级和趣味升级： 安全升级 支持 eAES 防夹心，预防后方夹击风险 eAES 性能增强，全目标安全守护 人驾防御性驾驶，护航急弯与路口 驾驶员失能靠边停，自动拨打救援电话 脱手及时提醒，超时安全靠边 人驾爆胎不惊慌，辅助款车不偏离 体验升级 环境预判及时准确，通行更安心、 通过能力显著增强，行驶更丝滑 交互博弈智能果断，变道更高效 自车意图可播报，人车协作更默契 支持三点式掉头，窄路掉头也优雅 趣味升级 组队出行新上线，结伴畅聊添乐趣 用乾崑智驾，集领航者勋章 稚梦童真新主题，出行乐趣更加倍 相关阅读： 《靳玉志：华为乾崑智驾 ADS 5 今年 4 月公布技术细节》 《华为乾崑智驾 ADS 4.1 升级点公布，支持 eAES 防夹心、驾驶员失能靠边停等》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/0a9e029a-3bf9-49ce-96bb-4046407bf3a1.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-18T04:07:04.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/914/191.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768709494381_ddd7fa21",
-      "title": "我国用电量突破 10 万亿度，央视详解如何实现稳定、精准供电",
-      "summary": "IT之家 1 月 18 日消息，国家能源局昨日宣布，2025 年我国全社会用电量达到 10.4 万亿千瓦时，同比增长 5%。这是全球范围内单一国家年度用电量首次突破 10 万亿千瓦时关口。放眼全球，中国一个国家的用电量相当于欧盟、俄罗斯、印度、日本用电量的总和。",
-      "content": "IT之家 1 月 18 日消息，国家能源局昨日宣布，2025 年我国全社会用电量达到 10.4 万亿千瓦时，同比增长 5%。这是全球范围内单一国家年度用电量首次突破 10 万亿千瓦时关口。放眼全球，中国一个国家的用电量相当于欧盟、俄罗斯、印度、日本用电量的总和。 据介绍，2025 年夏天，我国多地遭遇极高温天气。连续两个月，单月用电量破万亿，电力负荷 4 次突破历史新高，全国 16 个省级电网负荷 36 次突破历史新高。央视发布视频，详细介绍了我国如何实现稳定、精准供电，IT之家整理重点内容如下： 稳定供给 九大清洁能源基地列阵山海，乌东德水电站的激流穿过大坝，只要 7 毫秒这股能量便已抵达深圳湾。 中国非化石能源装机占比已达到 61%；全社会用电量中，每 3 度电就有 1 度是绿电。 46 条特高压工程架起电力“闪送通道”，“西电东送、北电南供”能源输送网络进一步巩固。 藏粤直流工程即将跨越天堑，阿坝至成都东特高压正攻坚云端，城市农村配电网加快升级改造。 全球规模最大的电力基础设施体系，为 14 亿多人筑牢能源安全底线。 精准供电 新型电力系统和新型能源体系加快构建，利用北斗通信、云计算、人工智能等技术，人们还把现实中的电网装进计算机里，每一度电的效能都被发挥到极致。 通过建设全球最大规模的储能设施和运行最复杂的市场调度体系，电力供需精度达到“毫秒级”，全国供电可靠性达 99.924%。 相关阅读： 《我国 2025 年用电量同比增长 5% 首超 10 万亿千瓦时：相当于美国两倍多，在全球单一国家中尚属首次》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/231ce117-0668-4c61-862e-5d9185f40300.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-18T03:31:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/914/187.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768709494516_e7c78f9a",
-      "title": "谷歌 Chrome 浏览器将允许用户关闭检测诈骗端侧 AI 模型",
-      "summary": "IT之家 1 月 18 日消息，据科技媒体 Bleeping Computer 昨天报道，谷歌 Chrome Canary（金丝雀）浏览器现已允许用户删除“增强保护”功能的端侧 AI 模型，正式版将在后续上线。",
-      "content": "IT之家 1 月 18 日消息，据科技媒体 Bleeping Computer 昨天报道，谷歌 Chrome Canary（金丝雀）浏览器现已允许用户删除“增强保护”功能的端侧 AI 模型，正式版将在后续上线。 据报道，“增强保护”功能已在 Chrome 中存在数年，但在去年引入了未知 AI 模型，用于对危险网站、下载内容以及扩展程序提供“实时”防护。 不过目前我们尚不明确该端侧 AI 模型与旧版“非 AI”增强保护在原理方面有何区别，但谷歌可能会利用 AI 实时分析用户网页，对存在危险且并未被谷歌标记的网站发出警告。 IT之家附关闭教程如下： 打开 Chrome 点击右上角的三点菜单，进入“设置” 选择左边的“系统” 关闭“端侧 AI 模型” 此外，Chrome 浏览器的端侧 AI 模型似乎还被用在其他功能。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/8170997f-b554-472b-b9b3-162e0f0e5136.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-18T03:09:13.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/914/184.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768709494651_932125e5",
-      "title": "小米运动健康 App 接入蚂蚁阿福，支持 AI 初步健康建议",
-      "summary": "IT之家 1 月 18 日消息，据小米中国区智能硬件市场负责人 @Selen7 分享，小米运动健康 App 接入了蚂蚁阿福，在睡眠、心率界面都可以直接点击让阿福分析数据，并支持通过 AI 给一些初步的健康建议。",
-      "content": "IT之家 1 月 18 日消息，据小米中国区智能硬件市场负责人 @Selen7 分享，小米运动健康 App 接入了蚂蚁阿福，在睡眠、心率界面都可以直接点击让阿福分析数据，并支持通过 AI 给一些初步的健康建议。 小米中国区智能硬件市场负责人 @Selen7 分享的配图来看，目前支持的问诊分类包括睡眠、心理、皮肤、运动康复、女性健康、营养减重。 据IT之家此前报道，去年 12 月 15 日，蚂蚁集团宣布旗下 AI 健康应用 AQ 品牌升级为“蚂蚁阿福”，并发布 App 新版本。蚂蚁阿福声明：阿福的问答结果中没有任何广告推荐、不存在商业排名，也不受任何其他商业因素干扰。 相关阅读： 《蚂蚁阿福发声明：问答结果中无任何广告推荐、不存在商业排名》 《蚂蚁集团 AI 健康应用 AQ 更名“阿福”：何炅代言，App 月活超 1500 万》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/e791f3ca-9411-4f21-950a-99df62d80d59.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-18T02:59:33.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/914/183.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768703498043_121bf1dd",
-      "title": "灵机AI与立奇达成合作，推出首款AI智能拐杖",
-      "summary": "36氪获悉，Lgenie（灵机AI Agent平台）与立奇（奇龄LINKY品牌）宣布正式达成战略合作，双方以AI智能拐杖作为首个落地产品。双方也在探索“硬件预埋AI能力+持续服务解锁”模式，推动适老辅具走向长期运营。",
-      "content": "36氪获悉，Lgenie（灵机AI Agent平台）与立奇（奇龄LINKY品牌）宣布正式达成战略合作，双方以AI智能拐杖作为首个落地产品。双方也在探索“硬件预埋AI能力+持续服务解锁”模式，推动适老辅具走向长期运营。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-01-18T02:30:53.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/newsflashes/3644263004475271?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
