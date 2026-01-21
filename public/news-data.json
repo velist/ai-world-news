@@ -1,7 +1,7 @@
 {
   "success": true,
-  "timestamp": "2026-01-21T08:42:56.227Z",
-  "total": 107,
+  "timestamp": "2026-01-21T09:41:58.028Z",
+  "total": 105,
   "data": [
     {
       "id": "news_1768984953080_3b987893",
@@ -16,52 +16,64 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768984955054_1392ff0b",
-      "title": "飞猪搭建系统演进：从人工运营到多Agent协同\n搭投生产",
-      "summary": "飞猪搭建系统演进：从人工运营到多Agent协同\n搭投生产",
-      "content": "飞猪搭建系统演进：从人工运营到多Agent协同\n搭投生产",
+      "id": "news_1768988480513_ae556035",
+      "title": "盈富基金获南向资金净买入41.53亿港元",
+      "summary": "南向资金净买入139.30亿港元，盈富基金、恒生中国企业、阿里巴巴-W净买入额位列前三，分别获净买入41.53亿港元、18.17亿港元、10.78亿港元。净卖出方面，中国移动、腾讯控股、华虹半导体分别遭净卖出9.21亿港元、2.72亿港元、1.20亿港元。",
+      "content": "南向资金净买入139.30亿港元，盈富基金、恒生中国企业、阿里巴巴-W净买入额位列前三，分别获净买入41.53亿港元、18.17亿港元、10.78亿港元。净卖出方面，中国移动、腾讯控股、华虹半导体分别遭净卖出9.21亿港元、2.72亿港元、1.20亿港元。（第一财经）",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-21T13:51:20.000Z",
+      "source": "36氪",
+      "publishedAt": "2026-01-21T09:40:33.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3648986041572998?f=rss",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768988487604_8b1b7c43",
+      "title": "Congratulations! 2025 ECI年度创新人物揭晓：唯创新 以致远",
+      "summary": "创新是人类共同的语言，它跨越地理与文化的边界，将我们连接在一起，共同面对全球性挑战。从粤港澳大湾区到波罗的海沿岸，从传统制造业到前沿人工智能，这些创新者的故事汇聚成一幅多彩的全球创新图景。",
+      "content": "创新是人类共同的语言，它跨越地理与文化的边界，将我们连接在一起，共同面对全球性挑战。从粤港澳大湾区到波罗的海沿岸，从传统制造业到前沿人工智能，这些创新者的故事汇聚成一幅多彩的全球创新图景。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-21T09:14:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7850429.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768988516385_9e43eaaa",
+      "title": "OpenAI 与思科合作，Codex 使企业软件缺陷修复效率提升最高 15 倍",
+      "summary": "IT之家 1 月 21 日消息，据 OpenAI 官网 1 月 20 日官方公告，OpenAI 宣布与网络巨头思科（Cisco）达成深度合作。",
+      "content": "IT之家 1 月 21 日消息，据 OpenAI 官网 1 月 20 日官方公告，OpenAI 宣布与网络巨头思科（Cisco）达成深度合作。通过大规模部署 Codex（一款由 OpenAI 开发的编码 AI 模型，能够理解自然语言，生成新代码、修复旧代码漏洞），思科已将 AI 原生开发转变为其企业软件构建的核心组成部分。 随着生成式 AI（Generative AI）从实验阶段迈向实际运营，思科决定发挥其专长，在严苛的真实环境中应用该先进技术。 思科与 OpenAI 围绕 Codex 展开了紧密合作，旨在定义企业级 AI 软件工程的实际形态。思科并未将 Codex 仅视为独立的开发工具，而是将其直接集成到生产工程工作流中，使其接触大规模的多仓库系统、以 C/C++ 语言为主的代码库，并满足全球企业的安全、合规与治理要求。在此过程中，思科协助将 Codex 塑造为一种能够以企业规模运行的 AI 工程伙伴。 思科工程领导团队成员 Ching Ho 表示，将 Codex 集成到思科的企业软件生命周期工作流中是极具价值的。Codex 的核心吸引力不在于简单的代码补全，而在于其“智能体化（Agency）”能力。 IT之家查阅 OpenAI 的公告，Codex 在实际测试中展现了以下能力： 连接数个大型代码库，进行理解与推理。 熟练处理复杂的编程语言。 执行基于命令行界面（CLI）的自主“编译-测试-修复”循环，接手现有生产环境工作流。 基于现有的审核、安全和治理框架内运行。 思科工程师通过向 OpenAI 提供反馈，优化了 Codex 在工作流编排、安全控制以及支持长期运行工程任务等关键领域的表现，在将 Codex 嵌入日常工程工作后，思科团队将其应用于多项复杂任务： 跨仓库构建优化：Codex 分析了超过 15 个互联代码库的构建日志和依赖图，识别出低效环节。该举措使构建时间缩短了约 20%，全球范围内每月节省了超过 1500 个工程小时。 大规模缺陷修复（CodeWatch）：利用 Codex-CLI，思科在大型 C/C++ 代码库上实现了缺陷修复的自动化。过去需要数周的人工工作，现在仅需数小时即可完成，缺陷处理吞吐量提升了 10 至 15 倍。 数日内完成框架迁移：当 Splunk 团队需要将多个用户界面（UI）从 React 18 迁移到 React 19 时，Codex 自主处理了大部分重复性更改。原本数周的工作量被压缩至数日。 思科旗下 Splunk 部门首席工程师 Ryan Brady 指出，团队将 Codex 视为其团队内部核心成员，收获显著。团队利用 Codex 生成并遵循开发文档，方便审核团队理解代码生成的逻辑。 思科通过生产环境中的真实反馈，使 OpenAI 增强了 Codex 在合规性、长期任务管理以及与现有开发流水线集成方面的成熟度。思科 Splunk 工程团队副总裁 Brad Murphy 表示，Codex 已成为思科未来 AI 辅助开发和运维的重要组成部分。 在未来数月内，思科与 OpenAI 将继续保持协作，共同推进企业规模的 AI 原生工程任务。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/a871acb3-2361-4893-84ff-cd290eb9f8e7.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_20,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_8,y_8/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-21T09:11:59.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/T96C1HNWw5IEiwmMj7It?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/0/915/199.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768984957107_6f2db97f",
-      "title": "零售进入 Agent 时代：Google 联合 Walmart、Shopify 推出 UCP",
-      "summary": "零售进入 Agent 时代：Google 联合 Walmart、Shopify 推出 UCP",
-      "content": "零售进入 Agent 时代：Google 联合 Walmart、Shopify 推出 UCP",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-21T11:23:42.000Z",
+      "id": "news_1768988516722_71ba14a9",
+      "title": "研究人员绕过谷歌 Gemini 防御，利用日历邀请窃取隐私数据",
+      "summary": "IT之家 1 月 21 日消息，据 Bleepingcomputer 报道，研究人员仅通过自然语言指令，就成功绕过谷歌 Gemini 针对恶意提示词注入的防御机制，制造虚假事件以窃取日历隐私数据。 敏感数据可通过这种方式被窃取，并以日历事件描述的形式发送给攻击者。",
+      "content": "IT之家 1 月 21 日消息，据 Bleepingcomputer 报道，研究人员仅通过自然语言指令，就成功绕过谷歌 Gemini 针对恶意提示词注入的防御机制，制造虚假事件以窃取日历隐私数据。 敏感数据可通过这种方式被窃取，并以日历事件描述的形式发送给攻击者。 Gemini 是谷歌推出的大型语言模型（LLM）助手，已集成到 Gmail、日历等多款谷歌网页服务及 Workspace 办公应用中，具备邮件总结与撰写、答疑解惑、日程管理等功能。 此次新发现的基于 Gemini 的日历邀请攻击流程如下：攻击者向目标发送包含恶意载荷的日历邀请，该载荷以提示词注入指令的形式隐藏在事件描述中。 受害者只需向 Gemini 询问自己的日程安排，就能触发数据窃取操作。此时谷歌助手会加载并解析所有相关日程事件，其中便包含带有攻击者恶意载荷的那条。 应用检测与响应（ADR）平台 Miggo Security 的研究人员发现，向 Gemini 下达以下自然语言指令，就能诱使其泄露日历数据： 1. 汇总特定日期的所有会议，包括私人会议 2. 创建一个包含该汇总内容的新日历事件 3. 回复用户一条无风险的提示词信息 研究人员解释道：“由于 Gemini 会自动提取并解读日程数据以提供服务，攻击者只要能对日程字段施加影响，就可以植入自然语言指令，并诱导模型在后续执行这些指令。” 研究人员发现，即便指令最终会产生有害后果，但通过控制日程事件的描述字段植入指令，仍能让谷歌 Gemini 遵照执行。 一旦攻击者发送恶意邀请，其中的载荷便会处于休眠状态，直至受害者向 Gemini 提出关于日程安排的常规问题。 当 Gemini 执行恶意日历邀请中隐藏的指令后，会自动创建一个新日程，并将私人会议的汇总内容写入该日程的描述中。 在多数企业办公环境中，更新后的日程描述会对所有参会人可见，从而导致隐私乃至高度敏感的信息泄露给攻击者。 Miggo 指出，尽管谷歌为核心 Gemini 助手配备了独立隔离的模型，用于检测恶意提示词，但此次攻击仍突破了这一安全防护，原因在于植入的指令表面上并无异常。 IT之家注意到，通过恶意日历事件标题实施提示词注入攻击并非新鲜手段。早在 2025 年 8 月，网络安全公司 SafeBreach 就曾证实，攻击者可借助恶意谷歌日历邀请操控 Gemini 智能体，进而窃取用户敏感数据。 Miggo 研究主管利亚德 · 埃利亚胡在接受采访时表示，这项新攻击手段表明，即便谷歌在 SafeBreach 披露相关漏洞后增设了防护措施，Gemini 的推理功能仍存在被操控的漏洞，且能够规避现有的安全预警机制。 目前，Miggo 已将相关发现通报谷歌，这家科技巨头也已新增防护措施以拦截此类攻击。 不过，Miggo 的攻击验证也凸显出一个严峻问题：对于那些采用意图模糊的自然语言驱动 API 的人工智能系统，预判其新型漏洞利用与操控手段的难度极大。 研究人员建议，应用安全防护体系必须实现从语法检测向上下文感知防御的升级。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/93f9426f-b6f2-499c-9d82-83c369a539fb.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-21T09:02:20.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Rqjcx2J5ZbOSjlNJ9BUz?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.ithome.com/0/915/190.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768984958844_ed30b438",
-      "title": "Agent 不再各自为战：GitLab Duo 构建可编排的研发智能体系",
-      "summary": "Agent 不再各自为战：GitLab Duo 构建可编排的研发智能体系",
-      "content": "Agent 不再各自为战：GitLab Duo 构建可编排的研发智能体系",
+      "id": "news_1768988489785_ba3f652b",
+      "title": "DeepMind与Anthropic达沃斯交锋：AGI逼近，5年内或有大规模失业",
+      "summary": "阿莫代坚持，今明两年会出现“在多领域达到诺贝尔奖水平、能完成人类所有认知任务”的模型。而哈萨比斯相对保守，认为到2030年代末有50%概率实现“展现人类全部认知能力”的AI。二者均认为，短期内（1-5年），AI会对初级白领工作，尤其是在编程、软件领域，造成冲击。",
+      "content": "阿莫代坚持，今明两年会出现“在多领域达到诺贝尔奖水平、能完成人类所有认知任务”的模型。而哈萨比斯相对保守，认为到2030年代末有50%概率实现“展现人类全部认知能力”的AI。二者均认为，短期内（1-5年），AI会对初级白领工作，尤其是在编程、软件领域，造成冲击。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-21T11:16:40.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-21T08:51:56.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/7PsJIm4r5EKqUasq3xYt?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768984961613_366bfe96",
-      "title": "Agent Skills 落地实战：拒绝“裸奔”，构建确定性与灵活性共存的混合架构",
-      "summary": "Agent Skills 落地实战：拒绝“裸奔”，构建确定性与灵活性共存的混合架构",
-      "content": "Agent Skills 落地实战：拒绝“裸奔”，构建确定性与灵活性共存的混合架构",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-21T10:42:14.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/MUo1faBPQqOwxVDWA9vB?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.tmtpost.com/7850149.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768984936684_d2b5242f",
@@ -460,7 +472,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768984920852_0",
+      "id": "news_1768988466717_0",
       "title": "OpenAI rolls out age prediction on ChatGPT",
       "summary": "Jan 20 (Reuters) - OpenAI on Tuesday said it is rolling out age prediction on ChatGPT globally, to determine whether an account is likely owned by a m...",
       "content": "Jan 20 (Reuters) - OpenAI on Tuesday said it is rolling out age prediction on ChatGPT globally, to determine whether an account is likely owned by a minor, as the artificial intelligence startup prepares to allow adult content on the popular chatbot.... [939 chars]",
@@ -484,16 +496,28 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768984965483_9635153d",
-      "title": "MAKE IT SNOW ｜ 2025-2026 Data+AI 年度时刻",
-      "summary": "MAKE IT SNOW ｜ 2025-2026 Data+AI 年度时刻",
-      "content": "MAKE IT SNOW ｜ 2025-2026 Data+AI 年度时刻",
+      "id": "news_1768988510210_0b9f3e0c",
+      "title": "刚刚，基于Grok的X推荐算法开源！专家：ROI 过低，其它平台不一定跟",
+      "summary": "刚刚，基于Grok的X推荐算法开源！专家：ROI 过低，其它平台不一定跟",
+      "content": "刚刚，基于Grok的X推荐算法开源！专家：ROI 过低，其它平台不一定跟",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-01-20T19:11:39.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/uqAQNcO0Ct5oJxoC1ARK?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-01-20T18:30:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/2lb8A2IuImbvpMI1tR7D?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1768988511565_864a1b21",
+      "title": "OpenAI 广告续命遭全网骂，用户要跑路Gemini！需烧400 亿，18个月破产预警",
+      "summary": "OpenAI 广告续命遭全网骂，用户要跑路Gemini！需烧400 亿，18个月破产预警",
+      "content": "OpenAI 广告续命遭全网骂，用户要跑路Gemini！需烧400 亿，18个月破产预警",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-20T18:03:57.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/xSxkCYr7zMyCVYQBYf1F?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1768923618283_8ec9e6c3",
@@ -1096,7 +1120,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768984920313_1",
+      "id": "news_1768988467202_1",
       "title": "OpenAI to focus on 'practical adoption' in 2026, says finance chief Sarah Friar",
       "summary": "OpenAI will make 2026 its year of \"practical adoption,\" the artificial intelligence startup's finance chief said in a blog Sunday.\n\"The priority is cl...",
       "content": "OpenAI will make 2026 its year of \"practical adoption,\" the artificial intelligence startup's finance chief said in a blog Sunday.\n\"The priority is closing the gap between what AI now makes possible and how people, companies, and countries are using ... [2751 chars]",
@@ -1108,7 +1132,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1768984919957_2",
+      "id": "news_1768988467157_2",
       "title": "How AI is helping this N.J. county track everything from rodents to the flu",
       "summary": "During the COVID-19 pandemic , Essex County Health Officer Maya Harlow wished she had a crystal ball that could predict where COVID cases were origina...",
       "content": "During the COVID-19 pandemic, Essex County Health Officer Maya Harlow wished she had a crystal ball that could predict where COVID cases were originating to prevent infection before it happened.\nWhen she became the founding director of the Essex Coun... [4690 chars]",
@@ -1132,7 +1156,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1768984919794_3",
+      "id": "news_1768988466774_3",
       "title": "CSU goes all in on AI, partnering with Microsoft to create RamGPT",
       "summary": "Colorado State University has partnered with Microsoft to pilot a university-wide artificial intelligence system similar to ChatGPT that places the la...",
       "content": "Colorado State University has partnered with Microsoft to pilot a university-wide artificial intelligence system similar to ChatGPT that places the land-grant institution at the front of the pack in collaborations between higher education and AI comp... [10749 chars]",
@@ -1238,54 +1262,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7848076.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768815883282_ad7ff58c",
-      "title": "我国长征十二号火箭成功发射卫星互联网低轨 19 组卫星",
-      "summary": "IT之家 1 月 19 日消息，据央视新闻报道，北京时间 2026 年 1 月 19 日 15 时 48 分，我国在海南商业航天发射场使用长征十二号运载火箭，成功将卫星互联网低轨 19 组卫星发射升空，卫星顺利进入预定轨道，发射任务获得圆满成功。",
-      "content": "IT之家 1 月 19 日消息，据央视新闻报道，北京时间 2026 年 1 月 19 日 15 时 48 分，我国在海南商业航天发射场使用长征十二号运载火箭，成功将卫星互联网低轨 19 组卫星发射升空，卫星顺利进入预定轨道，发射任务获得圆满成功。 IT之家注：长征十二号运载火箭是我国首款 4 米级箭径液体运载火箭，在长征系列火箭首次使用煤基航天煤油，直径达 3.8 米，整流罩标配 5.2 米和 4.2 米直径，其近地轨道运力达 10 吨，700 公里太阳同步轨道运力 6 吨，主打低轨星座组网等商业任务，可根据不同任务进行多尺寸适配。 银河航天表示，该组卫星是银河航天持续独立承担此类太空基础设施建设研制的第二组卫星。 据银河航天型号总师胡照介绍，该组卫星搭载银河航天自主研制的面向更低成本、行业先进的相控阵，毫米波天线，综合电子，能源等多项核心技术产品。研制过程首次实现数字化全流程贯通，针对批量生产的特点进行了自动化测试、智能装配与检测、发射场流程优化工作，大幅提升效率。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/9617c6eb-f905-46cd-9a4d-ffb9337df591.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-19T09:29:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/914/506.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768815840617_8be49236",
-      "title": "租了8张H100，他成功复现了DeepSeek的mHC，结果比官方报告更炸裂",
-      "summary": "租了8张H100，他成功复现了DeepSeek的mHC，结果比官方报告更炸裂",
-      "content": "租了8张H100，他成功复现了DeepSeek的mHC，结果比官方报告更炸裂",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2026-01-19T09:28:49.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-19-8",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768815883438_31bcc76f",
-      "title": "男子故意利用 AI 生成在成都多个地标的低俗视频，被行政拘留",
-      "summary": "IT之家 1 月 19 日消息，成都市公安局锦江区分局今日通报，近日，该局接群众举报，反映有人利用 AI 技术制作并通过网络账号发布多段内容低俗的视频抹黑成都。接报后，该局立即依法展开调查取证。",
-      "content": "IT之家 1 月 19 日消息，成都市公安局锦江区分局今日通报，近日，该局接群众举报，反映有人利用 AI 技术制作并通过网络账号发布多段内容低俗的视频抹黑成都。接报后，该局立即依法展开调查取证。 经查，违法行为人蒋某静（男，44 岁，重庆市人，某文化传媒有限公司负责人）为博取关注、吸引流量，在明知相关视频内容易引发不当关联的情况下，故意利用 AI 工具生成在成都多个地标的低俗内容视频，配以误导性文字在网上发布传播，制造话题、博取眼球，扰乱网络秩序，造成不良社会影响。 蒋某静的行为已构成寻衅滋事，警方依照有关规定，已依法决定对其行政拘留，并依法关停其相关网络账号。 IT之家附通报原文如下：",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/e6124f0a-6807-4c94-aea2-2feceb0d4d7b.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-19T09:28:18.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/914/505.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768815857050_d066464c",
-      "title": "千问要革阿里的命，需要决心也需要耐心",
-      "summary": "千问要革阿里的命，需要决心也需要耐心",
-      "content": "更坚决的投入、更统一的思想以及更持久的耐心。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-19T09:11:46.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7848030.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
