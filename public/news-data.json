@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-01-22T13:13:47.718Z",
-  "total": 107,
+  "timestamp": "2026-01-22T14:44:39.140Z",
+  "total": 113,
   "data": [
+    {
+      "id": "news_1769093058357_8a1cea4a",
+      "title": "马斯克的底裤要被扒光了！超级爆料一个多小时， xAI 工程师被火速解雇",
+      "summary": "马斯克的底裤要被扒光了！超级爆料一个多小时， xAI 工程师被火速解雇",
+      "content": "马斯克的底裤要被扒光了！超级爆料一个多小时， xAI 工程师被火速解雇",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-22T18:35:34.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/0ds6wQgBpN7W2N6EL1iM?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1769075172527_72d36f5d",
       "title": "每周工作100小时！谷歌DeepMind CEO揭秘：中国对手是字节跳动，断言谷歌是AI领域唯一全栈巨头",
@@ -14,6 +26,30 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/0TByYFFwWJi9u0xLobuU?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769093062566_0e980c48",
+      "title": "AI撞到“数据天花板”，一场革命正悄悄上演",
+      "summary": "AI撞到“数据天花板”，一场革命正悄悄上演",
+      "content": "AI撞到“数据天花板”，一场革命正悄悄上演",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-22T14:47:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/vAZrlAQMJ6rvaq6oWypv?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769093078137_a62ebb7b",
+      "title": "阿里千问：Qwen3-TTS 语音生成模型全家桶开源上线",
+      "summary": "IT之家 1 月 22 日消息，据千问 Qwen 微信公众号消息，Qwen3-TTS 多码本全系列模型已开源，包含 1.7B 和 0.6B 两种尺寸，1.7B 可以达到极致性能，0.6B 均衡性能与效率。",
+      "content": "IT之家 1 月 22 日消息，据千问 Qwen 微信公众号消息，Qwen3-TTS 多码本全系列模型已开源，包含 1.7B 和 0.6B 两种尺寸，1.7B 可以达到极致性能，0.6B 均衡性能与效率。 据介绍，Qwen3-TTS 是由 Qwen 开发的一系列功能强大的语音生成模型，全面支持音色克隆、音色创造、超高质量拟人化语音生成，以及基于自然语言描述的语音控制，为开发者与用户提供最全面的语音生成功能。 依托创新的 Qwen3-TTS-Tokenizer-12Hz 多码本语音编码器，Qwen3-TTS 实现了对语音信号的高效压缩与强表征能力，不仅完整保留副语言信息和声学环境特征，还能通过轻量级的非 DiT 架构实现高速、高保真的语音还原。Qwen3-TTS 采用 Dual-Track 双轨建模，达成了极致的双向流式生成速度，首包音频仅需等待一个字符。 据IT之家了解，模型覆盖 10 种主流语言（中文、英文、日语、韩语、德语、法语、俄语、葡萄牙语、西班牙语、意大利语）及多种方言音色，满足全球化应用需求。同时，模型具备强大的上下文理解能力，可根据指令和文本语义自适应调整语气、节奏与情感表达，并对输入文本噪声的鲁棒性有显著提升。目前已经在 Github 上开源同时也可通过 Qwen API 体验。 模型列表 1.7B 模型 0.6B 模型 Qwen3-TTS 特性 主要特点： 强大的语音表征：基于自研 Qwen3-TTS-Tokenizer-12Hz，实现语音信号的高效声学压缩与高维语义建模，完整保留副语言信息及声学环境特征，并可通过轻量级的非 DiT 架构实现高效、高保真语音还原。 通用的端到端架构：采用离散多码本 LM 架构，实现语音全信息端到端建模，彻底规避传统 LM+DiT 方案的信息瓶颈与级联误差，显著提升模型的通用性、生成效率与效果上限。 高极致的低延迟流式生成：基于创新的 Dual-Track 混合流式生成架构，单模型同时兼容流式与非流式生成，最快可在输入单字后即刻输出音频首包，端到端合成延迟低至 97ms，满足实时交互场景的严苛需求。 智能的文本理解与语音控制：支持自然语言指令驱动的语音生成，灵活调控音色、情感、韵律等多维声学属性；同时深度融合文本语义理解，自适应调节语气、节奏、情感与韵律，实现“所想即所听”的拟人化表达。 模型性能 我们对 Qwen3-TTS 在音色克隆、创造、控制等方面进行了全面评估，结果显示其在多项指标上都达到了 SOTA 性能。具体来说： 音色创造任务上，Qwen3-TTS-VoiceDesign 在 InstructTTS-Eval 中指令遵循能力和生成表现力都整体超越 MiniMax-Voice-Design 闭源模型，并大幅领先其余开源模型。 在音色控制任务上，Qwen3-TTS-Instruct 不仅具备单人多语言的泛化能力，平均词错率 2.34%；同时具备保持音色的风格控制能力，InstructTTS-Eval 取得了 75.4% 的分数；此外，也展现出卓越的长语音生成能力，一次性合成 10 分钟语音的中英词错率为 2.36/2.81%。 在音色克隆任务上，Qwen3-TTS-VoiceClone 在 Seed-tts-eval 上中英文克隆的语音稳定性表现上均超越 MiniMax 和 SeedTTS；在 TTS multilingual test set 上 10 个语项上取得了 1.835% 的平均词错误率和 0.789 的说话人相似度，超越 MiniMax 和 ElevenLabs；跨语种音色克隆也超越 CosyVoice3 位居 SOTA。 Tokenizer 性能 我们对 Qwen-TTS-Tokenizer 进行了语音重构评估，在 LibriSpeech test-clean set 的结果显示其在关键指标上都达到了的 SOTA 水平。具体来说，在感知语音质量评估（PESQ）中，Qwen-TTS-Tokenizer 在宽带和窄带上分别取得了 3.21 和 3.68 的分数，大幅领先同类 tokenizer。在短时客观可懂度（STOI）以及 UTMOS 上，Qwen-TTS-Tokenizer 取得了 0.96 和 4.16 的分数，展现出卓越的还原质量。在说话人相似度上，Qwen-TTS-Tokenizer 取了 0.95 的分数，显著超越对比模型，表明其近乎无损的说话人信息保留能力。 ModelScope： https://www.modelscope.cn/collections/Qwen/Qwen3-TTS HuggingFace： https://huggingface.co/collections/Qwen/qwen3-tts Github： https://github.com/QwenLM/Qwen3-TTS",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/1b788fdd-8917-4b4c-a3a9-8778f8901b47.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-22T14:05:40.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/915/616.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1769087595000_c7a9d2ed",
@@ -472,7 +508,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769087298581_0",
+      "id": "news_1769092740856_0",
       "title": "iOS 27: Apple (AAPL) to Revamp Siri as Built-In iPhone, Mac Chatbot",
       "summary": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial inf...",
       "content": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world\nConnecting decision makers to a dynamic network of infor... [717 chars]",
@@ -484,7 +520,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1769087577474_1",
+      "id": "news_1769093024272_1",
       "title": "Musk, Altman Spar Over Whose Tech Is Killing More People",
       "summary": "OpenAI CEO Sam Altman has pushed back against claims by Elon Musk that ChatGPT is dangerous, escalating a public feud between two of the most prominen...",
       "content": "OpenAI CEO Sam Altman has pushed back against claims by Elon Musk that ChatGPT is dangerous, escalating a public feud between two of the most prominent figures in artificial intelligence as scrutiny of AI safety intensifies worldwide, the New York Po... [3349 chars]",
@@ -496,7 +532,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1769087297930_2",
+      "id": "news_1769092741066_2",
       "title": "OpenAI CFO defends ads in ChatGPT as ‘strong business model’",
       "summary": "By Yazhou Sun, Bloomberg\nOne of OpenAI’s top executives defended the company’s addition of ads to its popular chatbot ChatGPT as a way to democratize ...",
       "content": "By Yazhou Sun, Bloomberg\nOne of OpenAI’s top executives defended the company’s addition of ads to its popular chatbot ChatGPT as a way to democratize access to artificial intelligence.\nThe company needs to “create a strong business model,” to achieve... [1653 chars]",
@@ -508,7 +544,43 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1769087298208_3",
+      "id": "news_1769093064414_f7744d34",
+      "title": "架构彻底重构！DeepSeek新模型代码曝光，要来的V4让国内外都坐不住了？",
+      "summary": "架构彻底重构！DeepSeek新模型代码曝光，要来的V4让国内外都坐不住了？",
+      "content": "架构彻底重构！DeepSeek新模型代码曝光，要来的V4让国内外都坐不住了？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-21T18:18:11.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/XISEq5cHfv4FARpZMBgZ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769093066288_c31bbb24",
+      "title": "理想主义者们，没能阻止AI进入伊朗“战场”",
+      "summary": "理想主义者们，没能阻止AI进入伊朗“战场”",
+      "content": "理想主义者们，没能阻止AI进入伊朗“战场”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-21T17:47:10.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/RuJMiEsSJguUXza6HsrM?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769093067916_d7517468",
+      "title": "从数据到决策：AI 驱动的 Quick BI 架构设计与实践",
+      "summary": "从数据到决策：AI 驱动的 Quick BI 架构设计与实践",
+      "content": "从数据到决策：AI 驱动的 Quick BI 架构设计与实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-21T17:45:29.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/xK8RMrfsu3070hI90ij4?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769092741098_3",
       "title": "AI startup OpenEvidence doubles valuation to $12B in latest funding round",
       "summary": "OpenEvidence, an artificial intelligence startup known as “ChatGPT for doctors,” clinched a funding round that doubled its valuation to a staggering $...",
       "content": "OpenEvidence, an artificial intelligence startup known as “ChatGPT for doctors,” clinched a funding round that doubled its valuation to a staggering $12 billion, the company told The Post.\nThe Miami, Fla.-based startup, which trains its chatbots on d... [3457 chars]",
@@ -554,6 +626,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/915/260.htm",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769093071532_1392ff0b",
+      "title": "飞猪搭建系统演进：从人工运营到多Agent协同\n搭投生产",
+      "summary": "飞猪搭建系统演进：从人工运营到多Agent协同\n搭投生产",
+      "content": "飞猪搭建系统演进：从人工运营到多Agent协同\n搭投生产",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-21T13:51:20.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/T96C1HNWw5IEiwmMj7It?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1769006455790_39adf738",
@@ -676,6 +760,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1769093073357_6f2db97f",
+      "title": "零售进入 Agent 时代：Google 联合 Walmart、Shopify 推出 UCP",
+      "summary": "零售进入 Agent 时代：Google 联合 Walmart、Shopify 推出 UCP",
+      "content": "零售进入 Agent 时代：Google 联合 Walmart、Shopify 推出 UCP",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-21T11:23:42.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/Rqjcx2J5ZbOSjlNJ9BUz?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1768995161340_16f2b5d9",
       "title": "清华团队研发受鸽眼启发的高分辨率传感器，突破机器人“类人触觉”核心难题",
       "summary": "IT之家 1 月 21 日消息，据清华大学官网消息，近日，清华大学深圳国际研究生院丁文伯团队联合国内外多家单位，成功研发出一种受鸽眼启发的多模态高分辨率触觉传感器（SuperTac），取得了机器人触觉感知能力的重要进展。",
@@ -772,7 +868,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769087298356_4",
+      "id": "news_1769092741578_4",
       "title": "OpenAI seeks to increase global AI use in everyday life",
       "summary": "SAN FRANCISCO, Jan 21 - OpenAI is expanding its efforts to convince global governments to build more data centers and encourage greater usage of artif...",
       "content": "SAN FRANCISCO, Jan 21 - OpenAI is expanding its efforts to convince global governments to build more data centers and encourage greater usage of artificial intelligence in areas such as education, health and disaster preparedness.\nThe initiative – ca... [2166 chars]",
@@ -988,7 +1084,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769087298449_5",
+      "id": "news_1769092741500_5",
       "title": "Gates and OpenAI team up for AI health push in African countries",
       "summary": "DAVOS, Switzerland, Jan 21 (Reuters) - The Gates Foundation and OpenAI are setting up a $50 million partnership to help several African countries use ...",
       "content": "DAVOS, Switzerland, Jan 21 (Reuters) - The Gates Foundation and OpenAI are setting up a $50 million partnership to help several African countries use artificial intelligence to improve their health systems and mitigate the impact of international aid... [2562 chars]",
@@ -1180,7 +1276,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769087298110_6",
+      "id": "news_1769092741585_6",
       "title": "Expert explains whether ChatGPT-written will is legal",
       "summary": "Artificial intelligence is already being used to write emails, analyze investments and answer complex legal questions. So it is not a stretch to ask w...",
       "content": "Artificial intelligence is already being used to write emails, analyze investments and answer complex legal questions. So it is not a stretch to ask whether it can also draft something as consequential as a will, especially when hiring an estate plan... [5371 chars]",
@@ -1216,7 +1312,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769087297928_7",
+      "id": "news_1769092742625_7",
       "title": "OpenAI rolls out age prediction on ChatGPT",
       "summary": "Jan 20 (Reuters) - OpenAI on Tuesday said it is rolling out age prediction on ChatGPT globally, to determine whether an account is likely owned by a m...",
       "content": "Jan 20 (Reuters) - OpenAI on Tuesday said it is rolling out age prediction on ChatGPT globally, to determine whether an account is likely owned by a minor, as the artificial intelligence startup prepares to allow adult content on the popular chatbot.... [939 chars]",
@@ -1240,7 +1336,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769087298227_8",
+      "id": "news_1769092741925_8",
       "title": "OpenAI to test targeted ads in ChatGPT",
       "summary": "OpenAI will start testing advertisements in the ChatGPT app for certain U.S. users, marking a major shift for the company as it seeks to bolster reven...",
       "content": "OpenAI will start testing advertisements in the ChatGPT app for certain U.S. users, marking a major shift for the company as it seeks to bolster revenue from the popular chatbot.\nThe ads will appear in the coming weeks for logged-in users of the free... [2587 chars]",
@@ -1262,30 +1358,6 @@
       "category": "AI趣味新闻",
       "originalUrl": "https://www.ithome.com/0/914/908.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768920027185_d492ae7f",
-      "title": "无反相机？影石创始人刘靖康晒神秘新机",
-      "summary": "IT之家 1 月 20 日消息，影石创始人刘靖康今晚在微博晒出了一台神秘新机，疑似是相机新品。 IT之家注意到，他手上的这台相机拥有翻转屏幕，机顶带有菜单、回放、照片 / 视频切换键等，屏幕上的界面则表明这台相机可以调整拍摄模式、快门速度、光圈、曝光补偿、对焦模式、测光模式、ISO 等参数，至少带有...",
-      "content": "IT之家 1 月 20 日消息，影石创始人刘靖康今晚在微博晒出了一台神秘新机，疑似是相机新品。 IT之家注意到，他手上的这台相机拥有翻转屏幕，机顶带有菜单、回放、照片 / 视频切换键等，屏幕上的界面则表明这台相机可以调整拍摄模式、快门速度、光圈、曝光补偿、对焦模式、测光模式、ISO 等参数，至少带有两个拨轮 / 转盘，没有电子取景器。 不过刘靖康并没有明说这台产品到底是什么，只是配文：“向新的焦段进发 [狗头斜眼]”。 消息源 @独立摄影师联合会 随后转发该博文并表示：“之前就有渠道跟我说影石 Insta360 在开发无反相机，看来是真的有啊”；另一消息源 @相机笔记 et 则表示：“我承认我没看出来画面里是什么相机，感觉有点像‘CCD’”。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/ed7a07a2-490c-41f6-8096-2b9e48cd192c.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-20T14:31:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/914/905.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1768920027265_752de716",
-      "title": "测试显示：即使误使用家用清洁剂，也很难使苹果 iPhone 17 Pro 机身明显变色",
-      "summary": "IT之家 1 月 20 日消息，去年年底，Reddit 上的一则帖子引发了不小的风波。一名用户发布了自己的星宇橙色 iPhone 17 Pro 机身变粉的照片，随后又有其他类似案例曝出。但相关测试表明，这种变色现象不太可能意外发生。",
-      "content": "IT之家 1 月 20 日消息，去年年底，Reddit 上的一则帖子引发了不小的风波。一名用户发布了自己的星宇橙色 iPhone 17 Pro 机身变粉的照片，随后又有其他类似案例曝出。但相关测试表明，这种变色现象不太可能意外发生。 iPhone 17 Pro 首发推出的全新星宇橙色曾一度备受青睐，然而部分用户却发现自己的手机出现了变色问题，机身外壳逐渐变成粉色或玫瑰金色。 这一现象的合理解释，其实就藏在苹果官网支持页面的一则警示说明中。 警示内容如下：请勿使用含漂白剂或过氧化氢的清洁产品；避免水分进入手机任何开孔，且勿将 iPhone 浸入任何清洁剂中；消毒后，需用柔软微湿（仅蘸清水）的无绒布擦拭机身。 过氧化氢属于强氧化剂，这很可能就是导致机身变色的原因。 IT之家注意到，科技媒体 CNET 的安德鲁・兰克森不禁好奇：如果不慎使用了常见的家用清洁产品，手机变色的概率究竟有多大？为此，他特意选用了两款明确违反苹果建议的清洁产品反复进行测试。 “我购买了一款‘含氧活性’去渍喷雾，其成分中含有‘氧基漂白剂’，看起来很适合用于本次测试。苹果官网支持页面还明确标注‘请勿使用含漂白剂或过氧化氢的产品’，所以顺理成章地，我也买了一些浓漂白剂。” 在为期三个月的测试中，安德鲁多次使用这两种化学清洁剂擦拭手机，每次擦拭后还会让清洁剂在机身上停留长达一小时。最终他发现，手机外壳的变色程度微乎其微，几乎可以忽略不计。 “几个月过去了，我认为手机外观没有任何明显变化。只有在特定光线条件下，眯起眼睛，将手机调整到某个特定角度时，才隐约觉得机身颜色好像有一丝变化，但我也怀疑这可能只是我的错觉。” 因此，虽然大家肯定不能故意用这类清洁剂擦拭手机，但如果只是不小心用了沾有家用清洁剂的抹布擦了手机，其实大可不必惊慌。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/8adce9f9-d6c2-4f7d-85e9-53c47e9f97be.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-20T13:34:10.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/914/898.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
