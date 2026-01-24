@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-01-24T07:28:16.450Z",
-  "total": 105,
+  "timestamp": "2026-01-24T08:37:13.000Z",
+  "total": 101,
   "data": [
+    {
+      "id": "news_1769243831941_4dec0b5e",
+      "title": "微软宣布 2026 年 3 月起在 Entra ID 中自动启用 Passkey 通行密钥",
+      "summary": "IT之家 1 月 24 日消息，微软宣布，Microsoft Entra ID 将于 2026 年 3 月起开始自动启用通行密钥（Passkey）配置文件，并提供通行密钥配置文件的在线同步支持。",
+      "content": "IT之家 1 月 24 日消息，微软宣布，Microsoft Entra ID 将于 2026 年 3 月起开始自动启用通行密钥（Passkey）配置文件，并提供通行密钥配置文件的在线同步支持。 微软表示，此次重大更新将把该身份服务迁移至一套全新的架构模式，其中包含用于管理不同通行密钥类型的专用属性。 根据微软披露的信息，未主动选择加入新体验的组织将被自动迁移至通行密钥配置文件体系。在迁移过程中，现有的 FIDO2 身份验证配置将被转移至一个新的默认配置文件中，以确保服务的连续性不受影响。 此次更新将引入一项名为 passkeyType 的属性，使管理员能够明确允许仅使用设备绑定通行密钥、仅使用同步通行密钥，或两者兼允。这一精细化控制方式，将支持基于用户组的配置，而不再局限于对整个租户应用单一策略。 微软表示，强制执行认证的租户将默认使用设备绑定的通行密钥，而不强制执行的租户将允许两种类型。如果您有任何现有的密钥限制或用户目标设置，在迁移到新的默认配置文件期间，它们将保持不变。 对于已启用同步通行密钥的租户，微软管理的注册宣传将把重点从 Microsoft Authenticator 应用转向通行密钥。 由于移除了“有限推迟次数”和“允许推迟天数”配置设置，管理员对注册提示的控制也将变得更加简化。取而代之的是将转向一个标准模型，该模型允许无限次推迟，并设置每天一次的提醒频率。 此举符合行业从密码转向通行密钥的更广泛趋势。IT之家注意到，通行密钥相比普通密码登录更安全（因为用户可能在不同网站重复使用相同的密码），并且能抵抗网络钓鱼攻击。 相关阅读： 《微软 Authenticator 宣布将主动检测并禁止 Root 越狱设备使用：2026 年 2 月起实施，暂时仅影响工作或学校账户》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/4c843690-5cf6-4daa-9278-e45d45e285f4.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-24T07:40:54.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/916/071.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769243831996_9bbd1136",
+      "title": "奥尔特曼宣布 OpenAI 启动 Codex 发布月，首次触及“高”网络安全风险",
+      "summary": "IT之家 1 月 24 日消息，OpenAI 首席执行官山姆 · 奥尔特曼（Sam Altman）今天（1 月 24 日）在 X 平台发布推文，宣布在未来 1 个月时间里，OpenAI 将推出多个 Codex 相关产品，首款产品将于下周推出。",
+      "content": "IT之家 1 月 24 日消息，OpenAI 首席执行官山姆 · 奥尔特曼（Sam Altman）今天（1 月 24 日）在 X 平台发布推文，宣布在未来 1 个月时间里，OpenAI 将推出多个 Codex 相关产品，首款产品将于下周推出。 IT之家注：Codex 是一套高度成熟的智能编程辅助生态系统，不再仅仅是一个 API 接口，而是集模型、工具和工作流于一体的“AI 软件工程师”。 奥尔特曼明确表示，此次更新将让 Codex 模型的能力首次触及 OpenAI 内部准备框架（Preparedness Framework）中的“高”（High）网络安全风险级别。 在这一分级体系中，“高”风险仅次于最高等级的“关键（Critical）”风险，意味着 AI 模型能够消除实施网络攻击的既有技术瓶颈。 具体而言，升级后的 Codex 不仅能协助开发网络攻防工具，还能自动化端到端攻击操作，，甚至自动发现并利用具有操作价值的安全漏洞。OpenAI 警告称，这种能力的提升可能会打破当前的网络攻防平衡，导致网络攻击的数量和规模显著增加。 面对日益严峻的安全挑战，Altman 阐述了 OpenAI 的分阶段应对策略。公司计划在初期对产品实施严格限制，以防止不法分子利用代码模型进行网络犯罪。 随后，战略重心将转移至“加速防御”，即利用 AI 的能力帮助用户快速修复安全漏洞。奥尔特曼强调，鉴于未来将出现更强大的模型，尽早部署当前模型以提升软件安全性至关重要，这符合 OpenAI 一贯坚持的“不发布并非解决方案”的安全理念。 在发布该推文同时，OpenAI 官网还发布技术博文，深度揭秘其跨平台本地软件智能体 Codex CLI 的核心逻辑“智能体循环”（Agent Loop）。 该循环负责编排用户、模型与工具间的交互，通过将用户指令转化为 Token 输入模型，执行推理并调用工具（如文件操作），直至生成最终回复。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/216b5a28-58e7-43a8-a3d0-ec758f8af511.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-24T07:35:50.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/916/070.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1769239661937_e50b68b1",
       "title": "周鸿祎：2026年全世界至少会出现100亿个智能体，百亿级公司在AI领域都算小公司",
@@ -196,18 +220,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769239677231_2ca4b103",
-      "title": "Bengio 15年前论文再夺AAAI奖！AI正告别单纯炫技，走向真实世界",
-      "summary": "Bengio 15年前论文再夺AAAI奖！AI正告别单纯炫技，走向真实世界",
-      "content": "Bengio 15年前论文再夺AAAI奖！AI正告别单纯炫技，走向真实世界",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-24T00:07:54.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/KXaviFJ5cNI4qylQg39x?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1769211037707_04c0fe42",
       "title": "19 连冠！苹果再次登顶 2026《财富》全球最受赞赏公司榜单",
       "summary": "IT之家 1 月 24 日消息，《财富》（Fortune）杂志昨日（1 月 23 日）发布“2026 年全球最受赞赏公司”排行榜，苹果公司再次毫无悬念地拿下第一，达成连续 19 年霸榜的里程碑式成就。",
@@ -220,7 +232,19 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769239644175_0",
+      "id": "news_1769243817232_5f7ba4af",
+      "title": "亚太 CDN 大会直击：火山引擎提出应用加速的演进，AI 大模型成关键驱动力",
+      "summary": "亚太 CDN 大会直击：火山引擎提出应用加速的演进，AI 大模型成关键驱动力",
+      "content": "亚太 CDN 大会直击：火山引擎提出应用加速的演进，AI 大模型成关键驱动力",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-23T16:33:31.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Cd5OmDZ7fa2S0bwSL8oX?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769243785559_0",
       "title": "95% of faculty think AI making students overly reliant on technology for learning: survey",
       "summary": "A new survey from the American Association of Colleges and Universities and Elon University’s Imagining the Digital Future Center found that an overwh...",
       "content": "A new survey from the American Association of Colleges and Universities and Elon University’s Imagining the Digital Future Center found that an overwhelming majority of college faculty are concerned that artificial intelligence is harming students’ c... [3265 chars]",
@@ -230,6 +254,18 @@
       "category": "国外AI",
       "originalUrl": "https://nypost.com/2026/01/23/media/95-of-faculty-think-ai-making-students-overly-reliant-on-technology-for-learning-survey/",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1769243818202_69513915",
+      "title": "AI 进化论丨第八期：新瓶旧酒还是涅槃重生？操作系统的 AI 进化终将走向何方？",
+      "summary": "AI 进化论丨第八期：新瓶旧酒还是涅槃重生？操作系统的 AI 进化终将走向何方？",
+      "content": "AI 进化论丨第八期：新瓶旧酒还是涅槃重生？操作系统的 AI 进化终将走向何方？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-23T14:42:18.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/0a2A4lh12FJJMYgS7jqx?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1769182830701_a4e63c26",
@@ -244,6 +280,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1769243820006_80ee7850",
+      "title": "8B端侧写作智能体AgentCPM-Report开源，DeepResearch 终于本地化",
+      "summary": "8B端侧写作智能体AgentCPM-Report开源，DeepResearch 终于本地化",
+      "content": "8B端侧写作智能体AgentCPM-Report开源，DeepResearch 终于本地化",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-23T14:01:01.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/m3AbwhgYsmXQua8Fu2XG?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1769173840856_c3befc13",
       "title": "英伟达 CEO 黄仁勋今年首度来华参加公司新年晚会，未提及 H200 话题",
       "summary": "IT之家 1 月 23 日消息，据腾讯科技今天报道，多位知情人士透露，英伟达创始人兼 CEO 黄仁勋再度来华，首站到访公司位于上海的新办公室，与员工见面并回答诸多员工关注的问题，同时回顾了公司 2025 年的主要事件。",
@@ -254,18 +302,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/915/927.htm",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769239684609_492aa37c",
-      "title": "如何建设人人都能训的大模型技术氛围",
-      "summary": "如何建设人人都能训的大模型技术氛围",
-      "content": "如何建设人人都能训的大模型技术氛围",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-23T12:25:23.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/U214fDcWzZZgPlOvl5m4?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1769173815117_a1143074",
@@ -784,7 +820,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769239644928_1",
+      "id": "news_1769243785882_1",
       "title": "ChatGPT can embrace authoritarian ideas after just one prompt, researchers say",
       "summary": "Artificial intelligence chatbot ChatGPT can quickly absorb and reflect back authoritarian ideas, according to a new report.\nResearchers with the Unive...",
       "content": "Artificial intelligence chatbot ChatGPT can quickly absorb and reflect back authoritarian ideas, according to a new report.\nResearchers with the University of Miami and the Network Contagion Research Institute released a report Thursday finding that ... [7180 chars]",
@@ -916,31 +952,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769239686323_94dd2837",
-      "title": "“AI工程师”已上岗！微软 CEO 曝正尝试新学徒制模式：内部工程师的顶级实践全变",
-      "summary": "“AI工程师”已上岗！微软 CEO 曝正尝试新学徒制模式：内部工程师的顶级实践全变",
-      "content": "“AI工程师”已上岗！微软 CEO 曝正尝试新学徒制模式：内部工程师的顶级实践全变",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-22T18:38:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/9ZTy7eW64XZMNOkZJV1r?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769239688370_8a1cea4a",
-      "title": "马斯克的底裤要被扒光了！超级爆料一个多小时， xAI 工程师被火速解雇",
-      "summary": "马斯克的底裤要被扒光了！超级爆料一个多小时， xAI 工程师被火速解雇",
-      "content": "马斯克的底裤要被扒光了！超级爆料一个多小时， xAI 工程师被火速解雇",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-22T18:35:34.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/0ds6wQgBpN7W2N6EL1iM?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769239644241_2",
+      "id": "news_1769243785624_2",
       "title": "Teaching and Learning in the Age of A.I.",
       "summary": "To the Editor:\nRe “Tech Giants Racing to Add A.I. to Schools Around the World” (Business, Jan. 5):\nWith the proliferation of A.I. tools and the push f...",
       "content": "To the Editor:\nRe “Tech Giants Racing to Add A.I. to Schools Around the World” (Business, Jan. 5):\nWith the proliferation of A.I. tools and the push for their adoption in schools, there has never been a greater need to underscore the need for the “so... [648 chars]",
@@ -952,7 +964,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1769239644151_3",
+      "id": "news_1769243784486_3",
       "title": "Using AI to solve your tech problems | Column",
       "summary": "Posted in Times Record Using AI to solve your tech problems | Column Artificial intelligence, such as Claude or ChatGPT, can be helpful (if imperfect)...",
       "content": "You can’t listen to a radio or TV news program or read a newspaper without running across an article about some aspect of artificial intelligence (AI). Much of the debate centers around questions about losing jobs to AI, misinformation and deepfakes ... [5782 chars]",
@@ -964,7 +976,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1769239644893_4",
+      "id": "news_1769243785030_4",
       "title": "OpenAI Chair Bret Taylor says AI is “probably” a bubble, predicts market correction",
       "summary": "The AI gold rush may be getting overheated. Bret Taylor, chairman of OpenAI’s board and co-founder of customer service startup Sierra, says the frenzy...",
       "content": "The AI gold rush may be getting overheated. Bret Taylor, chairman of OpenAI’s board and co-founder of customer service startup Sierra, says the frenzy around artificial intelligence looks a lot like a bubble. Speaking at the World Economic Forum in D... [3201 chars]",
@@ -985,18 +997,6 @@
       "publishedAt": "2026-01-22T15:41:31.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/0TByYFFwWJi9u0xLobuU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769239691470_0e980c48",
-      "title": "AI撞到“数据天花板”，一场革命正悄悄上演",
-      "summary": "AI撞到“数据天花板”，一场革命正悄悄上演",
-      "content": "AI撞到“数据天花板”，一场革命正悄悄上演",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-22T14:47:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/vAZrlAQMJ6rvaq6oWypv?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -1214,54 +1214,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-22-7",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769071718097_41757f69",
-      "title": "WAIC CONNECT | 沪港联动激活产业新引擎，两地各界共筑AI+多元应用新生态",
-      "summary": "WAIC CONNECT | 沪港联动激活产业新引擎，两地各界共筑AI+多元应用新生态",
-      "content": "WAIC CONNECT | 沪港联动激活产业新引擎，两地各界共筑AI+多元应用新生态",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2026-01-22T08:25:59.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-22-6",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769071751850_0a885cb7",
-      "title": "穿越者商业载人航天最早 2028 年“上天”，2038 年带人去月球",
-      "summary": "IT之家 1 月 22 日消息，北京穿越者载人航天科技有限公司今日（1 月 22 日）举行“下一站，太空：穿越者太空旅游全球发布会”，公布了其商业载人航天产品线规划。",
-      "content": "IT之家 1 月 22 日消息，北京穿越者载人航天科技有限公司今日（1 月 22 日）举行“下一站，太空：穿越者太空旅游全球发布会”，公布了其商业载人航天产品线规划。 IT之家从发布会现场获悉，穿越者壹号（CYZ1）计划最早 2028 年投入使用，目标 100km 亚轨道高度，也就是带人飞上天体验几分钟失重。 穿越者壹号（CYZ1）技术团队会前接受证券时报记者采访时表示，目前已预订了超三艘船，合计 20 余位太空游客，预计 2028 年将实现载人首飞。 穿越者贰号（CYZ2）则瞄准最早 2032 年，轨道高度来到 400km，真正意义上进入太空旅游。 更久远的 2038 年，穿越者叁号（CYZ3）目标带人上月球轨道旅游。 此外，穿越者还将联合多家企业，打造“太空经济生态树”，覆盖科技、医疗、消费、文旅、教育、制造等。 发布会上，首批太空游客亮相，包括中国工程院院士李立浧、智元机器人 CMO 邱恒、探路者品牌创始人王静、啟赋资本董事长傅哲宽等。首批太空游客还包括一名硅基生物，为众擎机器人 PM01。 值得一提的是，大家熟悉的主持人“月亮姐姐”也现身发布会现场，可以说很应景了。 本月早些时候，穿越者壹号（CYZ1）载人飞船试验舱完成着陆缓冲系统的综合验证试验。本次试验各项指标均达到预期目标，其中，关键指标超出预期，取得圆满成功。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/5c8c8a34-ec04-42ba-9958-f62baafd5831.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-22T08:22:41.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/915/509.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769071752368_7cbd1dc0",
-      "title": "农业农村部：将持续推动人工智能等在农业领域应用，拓展无人机等应用场景",
-      "summary": "IT之家 1 月 22 日消息，今日，农业农村部副部长张兴旺在国新办新闻发布会上表示，目前现代科技在农业领域的应用越来越广泛，农业农村部将持续推动人工智能在农业领域的应用，拓展无人机、互联网机器人等应用场景，让农业生产更精准更高效。",
-      "content": "IT之家 1 月 22 日消息，今日，农业农村部副部长张兴旺在国新办新闻发布会上表示，目前现代科技在农业领域的应用越来越广泛，农业农村部将持续推动人工智能在农业领域的应用，拓展无人机、互联网机器人等应用场景，让农业生产更精准更高效。 IT之家从发布会实录获悉，2025 年，我国粮食生产克服了局地干旱、洪涝、连阴雨等不利天气，产量达到了 14298 亿斤、增产 168 亿斤，再创历史新高，连续两年稳定在 1.4 万亿斤以上。大豆油料扩种成果持续巩固，大豆产量达到 2091 万吨，连续 4 年稳定在 2000 万吨以上。2025 年猪牛羊禽肉产量达到了 10072 万吨、比上年增长 4.2%。 2025 年，我国农机装备研发应用加快发展，农作物耕种收综合机械化率达到 76.7%。智慧农业应用场景全链条拓展，农用无人机保有量超过 30 万架、年作业面积突破 4.6 亿亩，低空经济在农业领域有了很好的表现，并且正在呈现良好上升态势。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/cbb9f242-de9f-482b-97d8-05df65193fcc.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-22T08:02:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/915/497.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769067642167_49bc9ab4",
-      "title": "发布增强医疗大模型M3 Plus，王小川：年成本仅1亿可让中国医疗AI跑起来",
-      "summary": "M3 Plus API调用价格较上一代模型大幅降低70%。此外，百川宣布推出“海纳百川”计划，将循证增强医疗大模型以API形式，免费开放给中国医疗服务机构。",
-      "content": "M3 Plus API调用价格较上一代模型大幅降低70%。此外，百川宣布推出“海纳百川”计划，将循证增强医疗大模型以API形式，免费开放给中国医疗服务机构。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-22T07:33:03.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7851981.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
