@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-01-27T16:41:43.592Z",
-  "total": 106,
+  "timestamp": "2026-01-27T17:37:43.251Z",
+  "total": 108,
   "data": [
+    {
+      "id": "news_1769535425092_45043277",
+      "title": "模力工场 030 AI 应用榜：字节新品硬刚 Sora，“随变”登顶榜首",
+      "summary": "模力工场 030 AI 应用榜：字节新品硬刚 Sora，“随变”登顶榜首",
+      "content": "模力工场 030 AI 应用榜：字节新品硬刚 Sora，“随变”登顶榜首",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-27T20:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/Hiv4SCiXtQMuJ8d9GDCM?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769535427089_e2a2d737",
+      "title": "构建下一代 AI 系统：可信生成式 AI 的工程蓝图",
+      "summary": "构建下一代 AI 系统：可信生成式 AI 的工程蓝图",
+      "content": "构建下一代 AI 系统：可信生成式 AI 的工程蓝图",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-27T18:07:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/atbgShUTkAqeAFuBIrVT?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1769528315702_8e89a925",
       "title": "《崩坏：星穹铁道》《明日方舟》《碧蓝航线》手办合作方 Myethos 工厂遭故意纵火，致部分产品被毁",
@@ -14,30 +38,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/916/993.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769532090059_0fa542aa",
-      "title": "DeepSeek 突发 OCR 2，采用基于 Qwen 的新架构",
-      "summary": "DeepSeek 突发 OCR 2，采用基于 Qwen 的新架构",
-      "content": "DeepSeek 突发 OCR 2，采用基于 Qwen 的新架构",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-27T15:14:23.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/84TIUU5VrXv1jBYeV9lO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769532091821_5808d975",
-      "title": "Docker通过Cagent提供AI代理确定性测试",
-      "summary": "Docker通过Cagent提供AI代理确定性测试",
-      "content": "Docker通过Cagent提供AI代理确定性测试",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-27T15:10:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/2PElIY0xN9ICC5LXQPQS?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1769524763660_35f66710",
@@ -100,6 +100,18 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1769535434059_172eff35",
+      "title": "让机器人“看清”三维世界，蚂蚁灵波开源LingBot-Depth模型",
+      "summary": "让机器人“看清”三维世界，蚂蚁灵波开源LingBot-Depth模型",
+      "content": "让机器人“看清”三维世界，蚂蚁灵波开源LingBot-Depth模型",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-27T11:23:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/WVlzEl33IYR1SH7mBssb?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1769513452281_a9f4bd3b",
       "title": "DeepSeek发布新模型，采用了基于千问的新架构",
       "summary": "36氪获悉，1月27日，DeepSeek团队发布《DeepSeek-OCR 2: Visual Causal Flow》论文，并开源DeepSeek-OCR 2模型，采用创新的DeepEncoder V2方法，让AI能够根据图像的含义动态重排图像的各个部分，更接近人类的视觉编码逻辑。",
@@ -134,6 +146,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7857769.html",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769535436001_48e063b8",
+      "title": "DoorDash运用AI提升聊天与通话安全，将安全事件减少50%",
+      "summary": "DoorDash运用AI提升聊天与通话安全，将安全事件减少50%",
+      "content": "DoorDash运用AI提升聊天与通话安全，将安全事件减少50%",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-27T10:51:01.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/2UiF1yejWi2urcT4jhtO?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1769510316691_ed3fd751",
@@ -628,6 +652,18 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1769535388825_0",
+      "title": "突破性法律不会扼杀韩国的AI革命",
+      "summary": "韩国在人工智能领域有着悠久的历史，早在ChatGPT走红之前，Google DeepMind的人工智能系统就在首尔的一次电视比赛中击败了围棋选手李世石。尽管如此，韩国政府近期通过了一项突破性法律，旨在促进人工智能技术的发展和应用。该法律将为韩国的AI革命注入新的动力，推动该国在人工智能领域的领先地位。",
+      "content": "将近十年前，在ChatGPT以拟人的对话能力震撼世界之前，Google DeepMind的人工智能系统曾在首尔的一次电视比赛中震惊韩国，击败了传奇的围棋选手李世石。",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4imzlNGcq7Q/v1/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-01-26T20:00:30.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.bloomberg.com/opinion/articles/2026-01-26/a-breakthrough-law-won-t-kill-korea-s-ai-revolution",
+      "aiInsight": "这一新闻反映了韩国在人工智能领域的持续领先地位和对未来技术发展的积极态度。从技术发展角度看，韩国的早期参赛不仅展示了其在AI技术上的深厚积累，也体现了对AI教育和普及的重视。从行业影响看，早期接触AI技术促进了韩国科技人才的培养和相关产业的快速发展，如人工智能、机器人、自动驾驶等领域的创新和应用。未来趋势上，随着AI技术的不断突破，韩国有望在相关法律和监管框架下，继续推动AI在医疗、教育、智慧城市等领域的深度应用，同时通过国际合作，引领全球AI技术的发展方向。此外，韩国还需要关注AI伦理和隐私保护问题，确保技术发展的同时维护社会公平和公众利益。"
+    },
+    {
       "id": "news_1769532030611_0",
       "title": "一项突破性法律不会扼杀韩国的AI革命",
       "summary": "韩国即将出台一项新法律，旨在规范人工智能的发展和应用。该法律的出台并未像外界担忧的那样，会阻碍韩国的AI创新和进步。早在十年前，韩国就曾在围棋比赛中见证了AI的惊人实力。如今，韩国正致力于推动AI技术的发展，以在全球竞争中保持领先地位。",
@@ -638,18 +674,6 @@
       "category": "国际AI",
       "originalUrl": "https://www.bloomberg.com/opinion/articles/2026-01-26/a-breakthrough-law-won-t-kill-korea-s-ai-revolution",
       "aiInsight": "这项新闻提到了韩国在人工智能领域的早期成就及其影响，尤其强调了围棋比赛中的胜利对韩国的冲击。从技术发展的角度来看，这标志着韩国在人工智能技术上已经取得了重要进展，并且在特定领域（如围棋）中的突破性成就。这反映出韩国在人工智能领域的技术积累和创新能力。\n\n从行业影响的角度来看，这场胜利不仅提升了韩国人工智能技术的知名度，也促进了韩国在人工智能领域的进一步投资和发展。韩国政府和企业可能更加重视人工智能技术的研发和应用，推动更多相关项目和企业的涌现。\n\n未来趋势方面，韩国可能继续加强在人工智能技术上的研发投入，尤其是在深度学习等前沿技术领域。同时，随着人工智能技术的不断进步，韩国可能会将其应用于医疗、教育、交通等多个行业，进一步推动产业升级和经济转型。此外，韩国还可以加强国际合作，与国际先进企业和技术团队进行合作，共同推动人工智能技术的发展。\n\n然而，新闻中提到的一项突破性法律尚未详细说明，还需关注该法律的具体内容及其对韩国人工智能行业的影响。如果该法律能够为人工智能技术发展提供良好的政策环境和支持，将有助于进一步推动韩国人工智能行业的繁荣。"
-    },
-    {
-      "id": "news_1769528267274_0",
-      "title": "突破性法律不会扼杀韩国的AI革命",
-      "summary": "韩国在人工智能领域有着悠久的历史。近十年前，DeepMind的人工智能系统在首尔的比赛中击败了围棋选手李世石，震惊了韩国。尽管如此，韩国政府近期通过了一项突破性法律，旨在促进人工智能技术的发展和应用，推动韩国的AI革命。该法律将为人工智能研究和创新提供有力支持，进一步巩固韩国在全球人工智能领域的领先地位。",
-      "content": "将近十年前，在ChatGPT以拟人的对话能力震撼世界之前，谷歌DeepMind的人工智能系统在首尔的一次电视台举办的比赛中击败了传奇围棋选手李世石，令韩国人大为震惊。[336字]",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4imzlNGcq7Q/v1/1200x800.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2026-01-26T20:00:30.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.bloomberg.com/opinion/articles/2026-01-26/a-breakthrough-law-won-t-kill-korea-s-ai-revolution",
-      "aiInsight": "这篇新闻报道了韩国在人工智能领域的早期成就及其持续的发展势头。从技术发展的角度看，韩国在人工智能领域的早期突破性成就，如DeepMind系统在围棋比赛中的胜利，展示了韩国在人工智能技术研发上的领先性。这不仅提升了韩国在全球科技界的影响力，也为后续的AI发展奠定了基础。\n\n从行业影响的角度来看，韩国的人工智能发展不仅促进了国内相关产业的进步，还推动了教育、医疗、制造等多个行业的智能化转型。此外，韩国政府也积极响应，出台了一系列支持AI发展的政策，进一步促进了人工智能技术的应用和普及。\n\n展望未来，随着AI技术的不断进步，韩国在人工智能领域的地位将进一步巩固。特别是在数据驱动的应用场景中，韩国丰富的数据资源和高度发达的信息技术体系，将为其AI产业带来新的发展机遇。同时，随着人工智能技术在各行业的深度融合，韩国的经济结构有望得到优化升级，为未来可持续发展奠定坚实基础。"
     },
     {
       "id": "news_1769503457933_0",
