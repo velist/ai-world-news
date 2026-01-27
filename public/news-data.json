@@ -1,19 +1,31 @@
 {
   "success": true,
-  "timestamp": "2026-01-27T10:39:28.901Z",
-  "total": 113,
+  "timestamp": "2026-01-27T11:31:33.708Z",
+  "total": 115,
   "data": [
     {
-      "id": "news_1769510350192_e2a2d737",
-      "title": "构建下一代 AI 系统：可信生成式 AI 的工程蓝图",
-      "summary": "构建下一代 AI 系统：可信生成式 AI 的工程蓝图",
-      "content": "构建下一代 AI 系统：可信生成式 AI 的工程蓝图",
+      "id": "news_1769513476236_0fa542aa",
+      "title": "DeepSeek 突发 OCR 2，采用基于 Qwen 的新架构",
+      "summary": "DeepSeek 突发 OCR 2，采用基于 Qwen 的新架构",
+      "content": "DeepSeek 突发 OCR 2，采用基于 Qwen 的新架构",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-01-27T18:07:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/atbgShUTkAqeAFuBIrVT?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-01-27T15:14:23.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/84TIUU5VrXv1jBYeV9lO?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769513478143_5808d975",
+      "title": "Docker通过Cagent提供AI代理确定性测试",
+      "summary": "Docker通过Cagent提供AI代理确定性测试",
+      "content": "Docker通过Cagent提供AI代理确定性测试",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-27T15:10:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/2PElIY0xN9ICC5LXQPQS?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1769492183933_3a2969fb",
@@ -28,28 +40,40 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769510357782_172eff35",
-      "title": "让机器人“看清”三维世界，蚂蚁灵波开源LingBot-Depth模型",
-      "summary": "让机器人“看清”三维世界，蚂蚁灵波开源LingBot-Depth模型",
-      "content": "让机器人“看清”三维世界，蚂蚁灵波开源LingBot-Depth模型",
+      "id": "news_1769513452281_a9f4bd3b",
+      "title": "DeepSeek发布新模型，采用了基于千问的新架构",
+      "summary": "36氪获悉，1月27日，DeepSeek团队发布《DeepSeek-OCR 2: Visual Causal Flow》论文，并开源DeepSeek-OCR 2模型，采用创新的DeepEncoder V2方法，让AI能够根据图像的含义动态重排图像的各个部分，更接近人类的视觉编码逻辑。",
+      "content": "36氪获悉，1月27日，DeepSeek团队发布《DeepSeek-OCR 2: Visual Causal Flow》论文，并开源DeepSeek-OCR 2模型，采用创新的DeepEncoder V2方法，让AI能够根据图像的含义动态重排图像的各个部分，更接近人类的视觉编码逻辑。在具体实现上，DeepSeek 团队在论文中称采用了Qwen2-0.5B来实例化这一架构。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-27T11:23:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/WVlzEl33IYR1SH7mBssb?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "36氪",
+      "publishedAt": "2026-01-27T11:21:42.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3657578946339457?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769510359676_48e063b8",
-      "title": "DoorDash运用AI提升聊天与通话安全，将安全事件减少50%",
-      "summary": "DoorDash运用AI提升聊天与通话安全，将安全事件减少50%",
-      "content": "DoorDash运用AI提升聊天与通话安全，将安全事件减少50%",
+      "id": "news_1769513459522_0d1cce0a",
+      "title": "腾讯元宝，AI版微信？",
+      "summary": "腾讯元宝，AI版微信？",
+      "content": "到了AI时代，打造一个超级且独立的APP，已经成为唯一答案。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-27T10:51:01.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/2UiF1yejWi2urcT4jhtO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "钛媒体",
+      "publishedAt": "2026-01-27T11:04:38.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7856864.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769513461804_4c413271",
+      "title": "实测腾讯元宝派：AI的尽头是“QQ群管家”？",
+      "summary": "实测腾讯元宝派：AI的尽头是“QQ群管家”？",
+      "content": "无论什么时代，社交永远是腾讯的舒适区。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-27T10:59:15.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7857769.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1769510316691_ed3fd751",
@@ -544,6 +568,18 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1769513434657_0",
+      "title": "一项突破性法律不会扼杀韩国的AI革命",
+      "summary": "韩国即将出台一项突破性法律，旨在促进人工智能技术的发展和应用。该法律将为AI研究和创新提供更宽松的环境，有助于推动韩国的AI革命。早在2016年，谷歌DeepMind的人工智能系统就在韩国的一次电视比赛中击败了围棋选手李世石，震惊了世界。此次新法律的出台，将进一步激发韩国在人工智能领域的创新潜力，助力其实现技术突破和产业转型。",
+      "content": "将近十年前，在ChatGPT以类人的对话能力震撼世界之前，谷歌DeepMind的人工智能系统曾在首尔的一次电视比赛中震惊韩国，击败了传奇的围棋选手李世石。",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4imzlNGcq7Q/v1/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-01-26T20:00:30.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.bloomberg.com/opinion/articles/2026-01-26/a-breakthrough-law-won-t-kill-korea-s-ai-revolution",
+      "aiInsight": "这篇新闻反映了韩国在人工智能领域的持续领先地位和深厚积累。从技术发展角度看，韩国不仅在围棋AI上取得了突破，还持续关注并支持AI技术的创新与应用。这得益于韩国政府对科研的长期投入和对人才培养的重视，也为后续AI技术的广泛应用奠定了基础。\n\n从行业影响角度看，韩国的AI技术不仅在围棋领域取得了突破，还应用到了教育、医疗、金融等多个行业，提升了整体社会的智能化水平。未来，韩国AI产业有望在这一法律框架下，进一步推动相关技术的创新与应用，促进整个社会的数字化转型。\n\n从未来趋势看，随着AI技术的不断进步，其应用将更加广泛，不仅限于围棋等特定领域，还将在更多行业发挥关键作用。对于韩国而言，持续的技术创新和政策支持将是保持其AI领先地位的关键。同时，这也可能引领全球AI技术的发展方向，推动全球AI产业的进一步成熟与繁荣。"
+    },
+    {
       "id": "news_1769510311837_0",
       "title": "突破性法律不会扼杀韩国的AI革命",
       "summary": "韩国在人工智能领域有着悠久的历史。近十年前，DeepMind的人工智能系统曾在首尔击败传奇棋手李世石，震惊了韩国。尽管如此，韩国政府近期通过了一项突破性法律，旨在促进AI技术的发展和应用。该法律将为韩国的AI革命注入新的动力，推动该国在人工智能领域继续保持领先地位。",
@@ -556,18 +592,6 @@
       "aiInsight": "这篇新闻报道了韩国在人工智能领域的突破性进展，特别是在围棋领域取得了显著成就。从技术发展的角度看，这标志着AI技术在复杂决策任务上的重大突破，不仅证明了AI在特定领域的超人表现，也展现了人工智能算法在不断优化和进步。从行业影响来看，韩国在国际舞台上展示了其在AI技术上的实力，有助于提升韩国在全球科技领域的影响力和竞争力。未来趋势方面，这一成就预示着AI技术将在更多领域得到应用，推动相关行业的创新与发展。同时，这也引发了关于AI伦理和法律监管的讨论，需要在促进技术发展的同时，确保技术的应用不会损害人类社会的长远利益。"
     },
     {
-      "id": "news_1769506913340_0",
-      "title": "一项突破性法律不会扼杀韩国的AI革命",
-      "summary": "韩国即将出台一项突破性法律，旨在促进人工智能技术的发展和应用。该法律不会阻碍韩国的AI革命，反而将为人工智能领域提供更有力的法律保障。早在十年前，韩国在人工智能领域就已取得重大突破，Google DeepMind的人工智能系统曾在首尔的一次电视比赛中击败了传奇的围棋选手李世石。此次新法律的出台将进一步推动韩国在人工智能领域的创新和发展。",
-      "content": "将近十年前，在ChatGPT以类人的对话能力震撼世界之前，Google DeepMind的人工智能系统在首尔的一次电视比赛中击败了传奇的围棋选手李世石，令韩国人震惊。",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i4imzlNGcq7Q/v1/1200x800.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2026-01-26T20:00:30.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.bloomberg.com/opinion/articles/2026-01-26/a-breakthrough-law-won-t-kill-korea-s-ai-revolution",
-      "aiInsight": "这项新闻报道反映了韩国在人工智能领域的领先地位和持续创新精神。从技术发展的角度来看，尽管ChatGPT的出现吸引了全球关注，但韩国在围棋等复杂策略游戏上的突破也为人工智能技术的发展提供了重要案例。从行业影响来看，韩国的AI发展不仅限于围棋比赛，还涵盖了医疗、教育、交通等众多领域，对韩国经济和社会产生了深远影响。未来趋势方面，韩国可能会继续推动AI技术的创新与应用，同时关注AI伦理和法律问题，确保技术发展既先进又负责任。此外，韩国可能还会加强与其他国家的合作，共同应对AI发展带来的全球性挑战。"
-    },
-    {
       "id": "news_1769503457933_0",
       "title": "A Breakthrough Law Won’t Kill Korea’s AI Revolution",
       "summary": "Nearly a decade ago, long before ChatGPT wowed the world with its humanlike conversational abilities, Google DeepMind’s artificial intelligence system...",
@@ -578,6 +602,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.bloomberg.com/opinion/articles/2026-01-26/a-breakthrough-law-won-t-kill-korea-s-ai-revolution",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1769513487950_f13f1d79",
+      "title": "腾讯发力社交AI赛道，元宝内测“元宝派”玩法",
+      "summary": "腾讯发力社交AI赛道，元宝内测“元宝派”玩法",
+      "content": "腾讯发力社交AI赛道，元宝内测“元宝派”玩法",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-26T18:55:46.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/klZi0LdorLWrHvvmMoOJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1769453414950_49d06712",
@@ -1346,18 +1382,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-25",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769340341296_b3f5a748",
-      "title": "火星马拉松：NASA“毅力”号行驶里程突破 42 公里，90% 靠自动驾驶",
-      "summary": "IT之家 1 月 25 日消息，美国国家航空航天局（NASA）的“毅力”号火星车在火星表面行驶里程正式突破 42.2 公里，相当于跑完了一场马拉松。",
-      "content": "IT之家 1 月 25 日消息，美国国家航空航天局（NASA）的“毅力”号火星车在火星表面行驶里程正式突破 42.2 公里，相当于跑完了一场马拉松。 IT之家注意到，这一里程碑式成就恰逢该火星车发射五周年前夕公布，这辆驰骋于耶泽罗陨石坑的探测器不仅展现出超强的续航能力，更蓄势待发冲击新纪录，有望成为地外星球行驶距离最长的探测器。 随着探测任务持续推进，美国国家航空航天局喷气推进实验室（JPL）的工程师证实，“毅力”号已完全具备在火星表面长期执行任务的能力。在美国地球物理联盟年会上发布的详细报告显示，该火星车的各项系统均经过严苛测试，以确保其长期机动性能与科学探测功能稳定可靠。 “毅力”号副项目经理、喷气推进实验室的史蒂夫 · 李在会议上公布测试结果时表示：“这些测试表明，火星车状态极佳。所有系统均能全力支持长期探测任务，助力我们对这片迷人的火星区域展开全面探索。” 依托升级的硬件设备与稳定的软件系统，“毅力”号累计行驶里程已达 26.3 英里（约 42.32 公里）。其轮式旋转驱动装置经检测，还可支撑额外 60 公里的行驶里程，未来仍有广阔的火星地形等待探索。这一里程碑不仅证明了“毅力”号的耐久性，更凸显其日益提升的自主运行能力。 “毅力”号任务的一大突破性成就，是实现了在火星地表的自主行驶，这是此前所有火星车都未能企及的壮举。借助地形测绘算法与避障软件，火星车仅需极少人工干预即可完成长距离导航。考虑到地球与火星之间存在的通信延迟，这一能力至关重要。 美国国家航空航天局喷气推进实验室自主系统研究员、相关论文的第一作者小野浩表示：“毅力号超过 90% 的行驶里程都依靠自动驾驶完成，这让我们得以高效采集多样化的火星样本。未来人类登陆月球乃至火星时，远程自动驾驶技术将成为探索这些星球的关键支撑。” 自动驾驶技术的应用，使科研团队能在更短时间内，优先对多个具有科学价值的目标地点开展样本采集工作，同时兼顾任务的安全性与效率。这套在“毅力”号上经过验证的自主系统，为下一代行星探测车乃至载人航天任务奠定了关键技术基础。 目前，地外星球行驶里程的纪录保持者是 NASA 的“机遇”号火星车。在近 15 年的探测任务中，它累计行驶 28.06 英里（约 45.16 公里）。按照当前行驶速度，“毅力”号有望在未来数月内超越这一纪录。但速度并非唯一目标，每前进一公里，都让“毅力”号离古老的河流三角洲地貌和地质资源丰富区域更近一步，这些区域极有可能藏有火星远古微生物存在的线索。 在最高效的一段探测周期内，“毅力”号仅用 24 个火星日就完成了 5 公里的行驶，充分展现了地面规划团队与火星车车载导航软件之间的高效协同。 美国国家航空航天局喷气推进实验室的工程师信心满满地表示，“毅力”号的硬件设备足以支撑其完成 100 公里的总行驶里程，即便在恶劣的火星环境下，各项设备依然表现稳定可靠。其刹车系统、驱动马达，尤其是轮式旋转驱动装置，均通过了长期可靠性测试。尽管行驶于崎岖地形，且经受着极端温差的考验，火星车的损耗程度仍保持在极低水平。 从“勇气”号、“机遇”号到“好奇”号，此前历次火星探测任务积累的经验，直接指导着喷气推进实验室对“毅力”号的健康状态管理。即便部分机械部件出现故障，NASA 也多次通过调整运行策略延长任务周期。“毅力”号预计将延续这一优良传统，任务规划团队已根据卫星数据和最新地形扫描结果，规划出全新的科学探测路线。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/48dd812c-da2e-474d-ab31-c0454c8ec31a.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-25T11:01:55.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/916/279.htm",
-      "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
