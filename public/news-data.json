@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-01-29T08:54:07.317Z",
-  "total": 110,
+  "timestamp": "2026-01-29T09:54:49.292Z",
+  "total": 105,
   "data": [
+    {
+      "id": "news_1769680475518_5a5ba6cc",
+      "title": "不要再纠结 LLM 准确率了：从“回答对不对”到“系统是否值得信任”",
+      "summary": "不要再纠结 LLM 准确率了：从“回答对不对”到“系统是否值得信任”",
+      "content": "不要再纠结 LLM 准确率了：从“回答对不对”到“系统是否值得信任”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-29T17:02:55.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/TZrHpojJxuCmLCP0uRSO?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1769676831506_a5d6b333",
       "title": "LangChain 创始人警告：2026 成为“Agent 工程”分水岭，传统软件公司的生存考验开始了",
@@ -14,42 +26,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/2XfMOshHpdVVKjB2hxms?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769676833274_06a7878a",
-      "title": "智源多模态大模型登Nature，确立自回归成为生成式人工智能统一路线",
-      "summary": "智源多模态大模型登Nature，确立自回归成为生成式人工智能统一路线",
-      "content": "智源多模态大模型登Nature，确立自回归成为生成式人工智能统一路线",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-29T14:47:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Xr6XspENqsQuZuVvwQqQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769676835056_570a708f",
-      "title": "“AI在一线：开发人员如何重塑软件开发流程” ｜圆桌讨论",
-      "summary": "“AI在一线：开发人员如何重塑软件开发流程” ｜圆桌讨论",
-      "content": "“AI在一线：开发人员如何重塑软件开发流程” ｜圆桌讨论",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-29T14:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/btdQGESEtDXJQPTxVCYF?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769676836318_ff3cd2a4",
-      "title": "Rust贡献者推出新语言Rue，探索AI辅助编译器开发",
-      "summary": "Rust贡献者推出新语言Rue，探索AI辅助编译器开发",
-      "content": "Rust贡献者推出新语言Rue，探索AI辅助编译器开发",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-01-29T11:05:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/amMNKG5vmN7LkiIA4ObY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1769661975366_77450907",
@@ -74,6 +50,42 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/Nb7WV3WYhhCoGdlq6MZy?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769680488079_e82b869b",
+      "title": "消息称 2026 年确定有双层 OLED 屏幕的还是只有华为，其它家待定",
+      "summary": "IT之家 1 月 29 日消息，博主 @数码闲聊站 今日发文透露，华为一款新机 CHZ-AL00，备案配色包括飞天青 / 晨曦金 / 雪域白 / 曜金黑，很多是 Mate 80 系列同款。目前暂不知晓该机具体情况，但博主确认是直板机，有网友猜测是此前曝光的“风扇机”。",
+      "content": "IT之家 1 月 29 日消息，博主 @数码闲聊站 今日发文透露，华为一款新机 CHZ-AL00，备案配色包括飞天青 / 晨曦金 / 雪域白 / 曜金黑，很多是 Mate 80 系列同款。目前暂不知晓该机具体情况，但博主确认是直板机，有网友猜测是此前曝光的“风扇机”。 IT之家注意到，还有网友询问未来是否有其他厂商的新机跟进双层 OLED 屏幕，博主表示：“2026 确定有双层 OLED 的还是只有华为，其它家待定。” 参考此前报道，有爆料称华为 Mate 80 系列年度旗舰工程机将在 Deco 下部搭载散热风扇，该工程机的高速小型散热风扇集成在机身后摄 Deco 的下半部分，拥有真正的风道，散热鳍片做了“小型化精密封装”，并拥有防水结构，出风口在 Deco 侧边。 遗憾的是，后续爆料显示，这款内置风扇的 Mate 80 系列手机未成功落地。 另外，在去年 11 月的华为 Mate 80 系列 | Mate X7 及全场景新品线上发布会上，华为 Mate 80 Pro Max 旗舰手机正式发布。新机采用全金属机身 + 光绘微纹 + 双环设计、支持 5A 速度、首发双层 OLED 架构灵珑屏，售价 7999 元起。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/b80d8f41-031c-4532-a529-4e5124cc028a.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-29T09:47:27.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/917/617.htm",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769680488287_47f2a11d",
+      "title": "40 天 95 亿人次，今年春运跨区域人员流动量预计创新高",
+      "summary": "IT之家 1 月 29 日消息，国务院新闻办公室今天上午举行新闻发布会，有关负责人介绍 2026 年春运形势和工作安排。 据国家发展改革委副主任李春临介绍，今年的春运将从 2 月 2 日也就是下周一开始，到 3 月 13 日结束，为期 40 天。",
+      "content": "IT之家 1 月 29 日消息，国务院新闻办公室今天上午举行新闻发布会，有关负责人介绍 2026 年春运形势和工作安排。 据国家发展改革委副主任李春临介绍，今年的春运将从 2 月 2 日也就是下周一开始，到 3 月 13 日结束，为期 40 天。今年的春节也比较特殊，假期前恰逢周末，形成连休，共有 9 天的假期，今年春节是个“大年”，预计返乡探亲、旅游出行需求将更加旺盛。 综合研判，全社会跨区域人员流动量将会达到 95 亿人次，预计创历史新高，其中自驾出行将继续处于主体地位，占比达八成左右。铁路、民航客运量预计分别达到 5.4 亿人次和 9500 万人次，总体规模和单日峰值均有望超过历史同期的峰值。 IT之家注意到，发布会提出要加强运力保障，优化运输组织。铁路、公路、水路、民航领域各单位将加强客流需求研判，加大重点地区、热点线路、高峰时段运力供给，最大程度满足群众的出行需要；统筹做好重要物资特别是能源物资、民生物资、春耕备耕物资的运输工作。今年春节比较晚，南方地区进入了早春，过完年紧接着就要春耕备耕，春耕备耕物资也要加紧准备好，运输到需要它的地方。教育、人社、文旅等部门将加强学生、游客、务工人员的错峰出行引导。 努力提升服务，优化出行体验。铁路、公路、水路、民航领域各单位将提升枢纽场站服务品质，优化购票、安检、换乘等服务，畅通旅客出行“最先和最后一公里”。交通运输、公安等部门将强化道路疏堵保畅，加强充电、加油等自驾出行服务保障，及时多渠道发布出行实时信息。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/7c9a3109-ca2f-46b0-8ed4-483374a3e493.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-01-29T09:38:57.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/917/613.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769680466705_5f27282c",
+      "title": "Barron's2025年股票推荐跑赢大盘：我们的正确与失误之处",
+      "summary": "跳出常规思维和把握良好时机，造就了一批赢家，比如Sphere Entertainment、Amphenol和Paramount Skydance。",
+      "content": "跳出常规思维和把握良好时机，造就了一批赢家，比如Sphere Entertainment、Amphenol和Paramount Skydance。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-29T09:32:30.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7860364.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1769676803472_ef98db3f",
@@ -1000,16 +1012,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769676798868_0",
+      "id": "news_1769680448126_0",
       "title": "软银正与OpenAI洽谈追加投资300亿美元事宜",
-      "summary": "软银正与OpenAI洽谈追加投资300亿美元事宜，这反映了软银创始人孙正义希望在人工智能领域发挥核心作用的雄心。此次大幅增加的投资承诺，彰显了软银对OpenAI及其在AI领域的潜力的高度认可。",
-      "content": "软银集团正考虑向OpenAI投资高达300亿美元，这一大幅增加的承诺反映了创始人孙正义希望在开发人工智能领域发挥核心作用的雄心。",
+      "summary": "软银正与OpenAI洽谈追加投资300亿美元事宜，这将显著增加软银在人工智能领域的投入。此举反映了软银创始人孙正义希望在AI领域扮演核心角色的雄心。此次投资将进一步巩固软银与OpenAI的合作关系，推动人工智能技术的发展。",
+      "content": "软银集团正考虑向OpenAI投资高达300亿美元，这一显著增加的承诺反映了创始人孙正义希望在开发人工智能领域扮演核心角色的雄心。",
       "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iJ2LMPbbpeLw/v0/1200x800.jpg",
       "source": "Bloomberg",
       "publishedAt": "2026-01-28T00:36:14.000Z",
       "category": "国际AI",
       "originalUrl": "https://www.bloomberg.com/news/articles/2026-01-28/softbank-in-talks-to-invest-30-billion-more-in-openai-wsj-says",
-      "aiInsight": "这篇新闻揭示了软银对人工智能领域的强烈兴趣和巨额投资计划，从技术发展角度看，这将加速AI技术的研发和应用，特别是大模型训练、自然语言处理等领域。从行业影响角度看，软银的巨额投资将增强OpenAI在AI领域的领先地位，可能引发其他科技巨头加大在AI领域的投入，形成新的竞争格局。同时，这也可能加速AI技术在各个行业的应用，推动产业升级和转型。未来趋势看，AI技术将更加普及，但伴随而来的数据安全、隐私保护等问题也将更加突出，需要政府、企业和社会各界共同应对。整体而言，软银的投资将加速AI技术的发展和应用，但也要警惕伴随的风险。"
+      "aiInsight": "这一新闻反映了AI领域内的重要资本运作，从技术发展角度看，巨额投资将为OpenAI提供更强大的研发资源，加速AI技术特别是大规模语言模型、生成式AI等前沿技术的研发进程。从行业影响角度来看，软银的巨额投资将极大地增强OpenAI在AI领域的市场地位和影响力，可能引发新一轮AI技术竞赛和市场格局的变化。从未来趋势看，这预示着AI技术将进一步渗透到各行各业，推动产业升级与创新，同时也可能带来数据安全、就业结构变化等社会问题，需要社会各界共同关注与应对。"
     },
     {
       "id": "news_1769640015835_0",
@@ -1250,78 +1262,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7857649.html",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769510342114_649d51da",
-      "title": "China Dominates Global AI Glasses Manufacturing With 80% Share",
-      "summary": "The reason China is the best choice is not just low cost, but more importantly, its rapid technological innovation and leading manufacturing capabilit...",
-      "content": "The reason China is the best choice is not just low cost, but more importantly, its rapid technological innovation and leading manufacturing capabilities.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-27T09:47:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7857641.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769506931089_bc7d5328",
-      "title": "张江集团、陆家嘴集团在上海成立人工智能创新小镇生态服务公司",
-      "summary": "36氪获悉，爱企查App显示，近日，上海张江人工智能创新小镇生态服务有限公司成立，法定代表人为陈衡，注册资本1亿元人民币，经营范围包括人工智能双创服务平台、会议及展览服务、组织文化艺术交流活动、科技中介服务等。股东信息显示，该公司由上海张江（集团）有限公司、上海陆家嘴（集团）有限公司共同持股。",
-      "content": "36氪获悉，爱企查App显示，近日，上海张江人工智能创新小镇生态服务有限公司成立，法定代表人为陈衡，注册资本1亿元人民币，经营范围包括人工智能双创服务平台、会议及展览服务、组织文化艺术交流活动、科技中介服务等。股东信息显示，该公司由上海张江（集团）有限公司、上海陆家嘴（集团）有限公司共同持股。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-01-27T09:40:39.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3657469740409731?f=rss",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769506960889_c509dddb",
-      "title": "荣耀 MagicOS 悬浮导航升级为悬浮球，支持自定义点击、长按等交互",
-      "summary": "IT之家 1 月 27 日消息，据荣耀研发工程师 @荣耀曹工 今日分享，在 MagicOS 10.0.0.127 版本中，悬浮导航升级为悬浮球，支持自定义悬浮球点击、长按等交互的功能（体验路径：设置 > 辅助功能 > 悬浮球）。",
-      "content": "IT之家 1 月 27 日消息，据荣耀研发工程师 @荣耀曹工 今日分享，在 MagicOS 10.0.0.127 版本中，悬浮导航升级为悬浮球，支持自定义悬浮球点击、长按等交互的功能（体验路径：设置 > 辅助功能 > 悬浮球）。 另外，荣耀研发工程师 @荣耀曹工 还分享了荣耀手机的截图方式，IT之家附如下： 组合键截图：同时按下电源键和音量下键，屏幕会自动截取当前画面。 控制中心截图：从屏幕顶部右侧向下滑动，打开控制中心，点击截图图标进行截图。 指关节截图：设置完成后，用指关节轻敲屏幕两下，即可完成截图。 隔空手势截图：设置完成后，隔空比出相应手势，即可完成截图。 三指截图：在屏幕上用三指轻触一下即可完成截图。 YOYO 截图：跟 YOYO 说一声，即可开始截图。 悬浮球截图：「截图」功能增加到新上线的 「悬浮球」系列功能列表。 相关阅读： 《荣耀MagicOS系统 1 月升级内容公布，含照片 AI 追色、带壳截屏等》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/bf75dbfc-0fd3-4dba-bba9-0764f96c5fe2.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-01-27T09:39:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/916/920.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769506961011_90bdd78d",
-      "title": "消息称三星 Galaxy Wide Fold 宽折叠手机首批计划生产 100 万台，与苹果 iPhone Fold 正面竞争",
-      "summary": "IT之家 1 月 27 日消息，据韩媒 EtNews 今天报道，三星计划今年生产 100 万台 Galaxy Wide Fold 宽折叠手机，主打 4:3 屏幕比例，意在全面扩展折叠屏手机的产品形态。 据零部件行业消息，三星电子已向合作厂商展开商讨，计划首批生产宽折叠手机 100 万台。",
-      "content": "IT之家 1 月 27 日消息，据韩媒 EtNews 今天报道，三星计划今年生产 100 万台 Galaxy Wide Fold 宽折叠手机，主打 4:3 屏幕比例，意在全面扩展折叠屏手机的产品形态。 据零部件行业消息，三星电子已向合作厂商展开商讨，计划首批生产宽折叠手机 100 万台。 IT之家在此援引 EtNews，这台手机搭载一块 7.6 英寸、4:3 比例的 OLED 内屏，外屏则是 5.4 英寸，整体设计与现有的 Galaxy Z Fold 系列一样，采用以纵轴为中心左右打开的“书本式”设计。 同时，100 万台的产量已是三星近年来产量最高的特殊折叠屏产品，这个数字也体现了三星的信心。 作为参考，三星曾在 2024 年推出主打轻薄的 Fold SE 折叠屏手机，比 Z Fold 6 系列晚两个月发布，出货量约 50 万台；而去年年末推出的三折叠手机 Galaxy Z TriFold 则是比 Z Fold 7 晚五个月发布，出货量仅 3 万台。 而且，三星每年例行更新的折叠新机出货量约为 500 多万台，去年 Fold 7 因热销则增至 600 万台以上。随着“宽折叠”这一新形态产品加入 Z Fold 阵容，该品牌今年的折叠屏手机总出货量有望进一步增加。 此外，苹果也计划在今年秋季发布品牌首款折叠屏手机 iPhone Fold，该机也将采用 4:3 比例内屏，预计将与三星展开正面竞争。 业内预估，iPhone Fold 的出货量将达到 1000 万台，相信我们等到下半年就能看到两大手机巨头在折叠机领域的正面交锋。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/26dde1d3-4137-4d04-9837-d1f7a563118d.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-27T09:02:47.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/916/904.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769506938482_20d31bd8",
-      "title": "发红包、加社交，腾讯重构AI的1000天",
-      "summary": "发红包、加社交，腾讯重构AI的1000天",
-      "content": "砸钱、挖人、调整组织架构，现在的腾讯能靠AI打个翻身仗吗？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-27T08:58:23.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7856196.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769506941042_6e88ee61",
-      "title": "AI浪潮将掀起存储芯片“失控式上涨”，超级周期仍在延续？",
-      "summary": "AI浪潮将掀起存储芯片“失控式上涨”，超级周期仍在延续？",
-      "content": "AI浪潮将掀起存储芯片“失控式上涨”，超级周期仍在延续？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-27T08:54:08.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7856022.html",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
