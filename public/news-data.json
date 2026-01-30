@@ -1,18 +1,66 @@
 {
   "success": true,
-  "timestamp": "2026-01-30T02:44:34.067Z",
-  "total": 108,
+  "timestamp": "2026-01-30T04:49:00.097Z",
+  "total": 111,
   "data": [
     {
-      "id": "news_1769741055112_b69c2db4",
-      "title": "一项 20 年前的 Oracle 排序算法专利到期，开源数据库集体受益",
-      "summary": "一项 20 年前的 Oracle 排序算法专利到期，开源数据库集体受益",
-      "content": "一项 20 年前的 Oracle 排序算法专利到期，开源数据库集体受益",
+      "id": "news_1769748466619_b99d5bb1",
+      "title": "如何破解大模型生产级部署「最后一公里难题」？",
+      "summary": "如何破解大模型生产级部署「最后一公里难题」？",
+      "content": "如何破解大模型生产级部署「最后一公里难题」？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-01-30T08:00:00.000Z",
+      "publishedAt": "2026-01-30T12:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/CDqEUTowOKzrfddKqqbK?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769748460879_519d12ec",
+      "title": "商汤开源Agentic VLM模型，超越Gemini-3-Pro",
+      "summary": "商汤开源Agentic VLM模型，超越Gemini-3-Pro",
+      "content": "开源模型又来碾压闭源巨头了？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-30T04:28:55.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7861302.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769748454463_c3acbd17",
+      "title": "报喜鸟：目前公司未向杰克科技采购机器人",
+      "summary": "报喜鸟：目前公司未向杰克科技采购机器人",
+      "content": "36氪获悉，报喜鸟在互动平台表示，目前，公司未向杰克科技采购机器人。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-01-30T04:15:07.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/cMYZm5ujJag5Y2SPxTG2?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://36kr.com/newsflashes/3661406338884484?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769748462817_7c7964af",
+      "title": "巨头集体“不务正业”，AI真能救未来？",
+      "summary": "巨头集体“不务正业”，AI真能救未来？",
+      "content": "当科技巨头都在为AI疯狂投入，市场的反应却冷酷地划清了“梦想”与“账单”的界限。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-01-30T03:06:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7861142.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769748446736_c9203b37",
+      "title": "商汤开源SenseNova-MARS，突破多模态搜索推理天花板",
+      "summary": "商汤开源SenseNova-MARS，突破多模态搜索推理天花板",
+      "content": "商汤开源SenseNova-MARS，突破多模态搜索推理天花板",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-01-30T02:44:43.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-30",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -28,16 +76,16 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769741059249_3b33da78",
-      "title": "不要再纠结 LLM 准确率了：从“回答对不对”到“系统是否值得信任”",
-      "summary": "不要再纠结 LLM 准确率了：从“回答对不对”到“系统是否值得信任”",
-      "content": "不要再纠结 LLM 准确率了：从“回答对不对”到“系统是否值得信任”",
+      "id": "news_1769748470738_180c2063",
+      "title": "如何大规模构建、部署和管理智能体",
+      "summary": "如何大规模构建、部署和管理智能体",
+      "content": "如何大规模构建、部署和管理智能体",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-01-29T17:02:56.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/TZrHpojJxuCmLCP0uRSO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-01-29T18:26:09.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/WYSZ0iMoqpfYfVDiGKdu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1769676831506_a5d6b333",
@@ -52,6 +100,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1769748441187_0",
+      "title": "Oracle的价值到2025年峰值将减半，随着对AI的担忧加剧",
+      "summary": "甲骨文公司股价已从历史最高点下跌超50%，市值蒸发约4630亿美元。投资者因担忧人工智能交易及该公司与OpenAI的关联而抛售股票。随着对AI的担忧加剧，甲骨文的价值到2025年可能减半。",
+      "content": "甲骨文公司股价已从去年的历史最高点下跌超过50%，原因是投资者因担忧人工智能交易以及该公司与OpenAI的关联而抛售该公司的股票。股价下跌已导致市值蒸发约4630亿美元……",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iSP9zPcTim0k/v0/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-01-29T15:11:28.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-01-29/oracle-shares-tumble-50-from-record-as-ai-caution-intensifies",
+      "aiInsight": "这篇新闻反映了当前AI技术发展对科技行业产生的重要影响。从技术发展的角度看，Oracle因与OpenAI的关联被投资者担忧，这反映了AI技术的影响力正在扩展到大型企业软件领域，甚至可能影响到企业的市场价值。行业影响方面，Oracle股价的大幅下跌预示着投资者对于AI技术可能带来的不确定性（如失业风险、数据安全等）的担忧。这可能会影响企业对AI技术的投资决策。从未来趋势看，虽然Oracle等传统企业软件公司面临挑战，但AI技术的发展也为这些公司提供了新的机遇，如通过AI技术提升产品和服务的智能化水平。同时，企业需要关注AI技术的伦理和安全问题，以赢得投资者和客户的信任。"
+    },
+    {
       "id": "news_1769701526946_788406c7",
       "title": "谷歌 1.35 亿美元和解安卓数据收集集体诉讼，用户最高可获 100 美元赔偿",
       "summary": "IT之家 1 月 29 日消息，据路透社报道，谷歌将支付 1.35 亿美元（IT之家注：现汇率约合 9.39 亿元人民币），以和解一起由智能手机用户提起的拟议集体诉讼。这些用户指控谷歌对其安卓操作系统进行编程，在未经用户许可的情况下收集其移动蜂窝数据。",
@@ -61,6 +121,30 @@
       "publishedAt": "2026-01-29T15:09:27.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/917/688.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769748477093_06a7878a",
+      "title": "智源多模态大模型登Nature，确立自回归成为生成式人工智能统一路线",
+      "summary": "智源多模态大模型登Nature，确立自回归成为生成式人工智能统一路线",
+      "content": "智源多模态大模型登Nature，确立自回归成为生成式人工智能统一路线",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-29T14:47:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Xr6XspENqsQuZuVvwQqQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1769748479034_570a708f",
+      "title": "“AI在一线：开发人员如何重塑软件开发流程” ｜圆桌讨论",
+      "summary": "“AI在一线：开发人员如何重塑软件开发流程” ｜圆桌讨论",
+      "content": "“AI在一线：开发人员如何重塑软件开发流程” ｜圆桌讨论",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-01-29T14:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/btdQGESEtDXJQPTxVCYF?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -640,16 +724,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769741031053_0",
+      "id": "news_1769748441692_1",
       "title": "DeepSeek 在人工智能搜索和代理领域寻求发展，招聘信息显示",
-      "summary": "DeepSeek正寻求通过引入新的人工智能搜索功能和智能代理，扩大其产品线，以与OpenAI和Google等美国公司竞争。招聘信息显示，DeepSeek正在招聘专业人才，意图在人工智能搜索和代理领域取得突破。这家中国初创公司正积极寻求发展，以提升其在全球市场上的竞争力。",
-      "content": "DeepSeek 意图通过引入新的人工智能搜索功能并更加注重智能代理，来扩大其AI产品线，从而与美国公司如OpenAI和 Alphabet Inc. 的Google展开更激烈的竞争。这家中国AI初创公司正在招聘专业人才……",
+      "summary": "DeepSeek正寻求在人工智能搜索和代理领域扩大业务，计划推出新的人工智能搜索功能，并更加侧重于智能代理，以与OpenAI和Google等美国公司竞争。为实现这一目标，DeepSeek正在积极招聘相关领域的专业人才。这标志着DeepSeek正加大在AI领域的投入，以提升其市场竞争力。",
+      "content": "DeepSeek 意图通过推出新的人工智能搜索功能并更加侧重于智能代理，来扩大其AI产品线，从而与美国公司如OpenAI和 Alphabet Inc. 的Google展开更激烈的竞争。这家中国AI初创公司正在招聘专门人才……",
       "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iedw2KX7FSTw/v0/1200x800.jpg",
       "source": "Bloomberg",
       "publishedAt": "2026-01-29T01:12:06.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.bloomberg.com/news/articles/2026-01-29/deepseek-sets-sights-on-ai-search-and-agents-job-postings-show",
-      "aiInsight": "从技术发展角度看，DeepSeek 的策略旨在增强其在人工智能搜索领域的竞争力，特别是在智能代理技术上进行深耕，这表明其对自然语言处理和机器学习技术的重视，以及对构建更智能、更高效搜索系统的追求。这种发展战略有助于提升用户体验，特别是在复杂信息检索场景中的表现。\n\n从行业影响来看，DeepSeek 的行动标志着中国AI领域的竞争正在加剧，尤其是与全球领先的科技公司如OpenAI和Google的竞争。这不仅促进了技术的进步，也为用户提供了更多选择。同时，这种竞争也可能会推动更多创新，加速技术的商业化进程。\n\n未来趋势方面，随着DeepSeek等公司加大对人工智能搜索和代理技术的投资，预计将推动相关技术的进一步成熟和应用范围的扩大。这不仅将影响搜索引擎和虚拟助手等现有产品，还将可能催生新的应用场景和商业模式。此外，随着技术的发展，AI搜索和代理的个性化和智能化水平将进一步提高，更好地满足用户的多样化需求。"
+      "aiInsight": "DeepSeek的招聘信息和目标表明，该公司正在积极扩展其人工智能搜索和代理技术，旨在与国际巨头如OpenAI和Google竞争。从技术发展角度来看，这反映了人工智能领域技术竞争的加剧，也显示了DeepSeek对提高搜索结果相关性和用户交互体验的重视，特别是通过智能代理技术的应用。\n\n行业影响方面，DeepSeek的进入将促使现有玩家如OpenAI和Google进一步提升其搜索和代理技术，从而可能推动整个行业的技术进步和创新。此外，DeepSeek的本土化策略也可能有助于其更好地理解中国市场和用户需求，这对于在全球市场中竞争至关重要。\n\n未来趋势上，随着DeepSeek等本土AI企业的崛起，预计将进一步加速AI技术在中国乃至全球的普及与应用。此外，针对特定行业场景的深度定制化服务将成为重要发展方向，以满足不同用户群体的个性化需求。"
     },
     {
       "id": "news_1769726223436_0",
@@ -712,6 +796,18 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1769748441147_2",
+      "title": "卡内基梅隆大学将推出一款人工智能平台，旨在辅助 introductory courses（入门课程）的学生。",
+      "summary": "卡内基梅隆大学即将推出一款人工智能平台，旨在辅助入门课程学生的学习。该平台将通过智能化手段，提高学生的学习效率和理解能力。不过，由于隐私权法律限制，部分功能可能无法正常使用。用户可以选择同意并使用该平台，或选择不使用并退出。",
+      "content": "一些地区的学生可以通过卡内基梅隆大学的一项倡议提升学业，该倡议利用人工智能改善入门课程的学习效果。卡内基梅隆大学与盖茨基金会的5500万美元投资将启动……",
+      "imageUrl": "https://assets-varnish.triblive.com/2026/01/9244494_web1_PTR-Carnegie-Mellon-University-skyline-from-Schenley-Park-Pittsburgh-2025.jpeg",
+      "source": "Pittsburgh Tribune-Review",
+      "publishedAt": "2026-01-29T00:01:00.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://triblive.com/local/regional/cmu-to-launch-ai-platform-designed-to-assist-students-in-introductory-courses/",
+      "aiInsight": "这一新闻展示了人工智能技术在教育领域的应用前景。从技术发展角度来看，卡内基梅隆大学推出的人工智能平台利用了自然语言处理、机器学习等技术，能够提供个性化的学习辅助，解决了教育领域长期存在的教育资源分配不均问题。从行业影响来看，这将促进教育行业的数字化转型，推动教育科技的发展，同时也可能改变教师的工作模式和教学内容。未来趋势方面，随着人工智能技术的不断进步和应用场景的拓展，这类平台将更加智能化，能够更好地理解和满足学生的学习需求，为学生提供更加个性化的学习体验。此外，这种平台的应用也可能促使教育机构重新评估课程设计，强调技能培养而非单纯的知识传授。"
+    },
+    {
       "id": "news_1769741028678_1",
       "title": "卡内基梅隆大学将推出一款旨在辅助入门课程学生的AI平台",
       "summary": "卡内基梅隆大学将推出一款AI平台，旨在辅助入门课程学生的学习。该平台将提供个性化的学习建议和反馈，帮助学生更好地掌握知识。然而，由于隐私权法律的影响，部分功能可能无法正常运行。用户可以选择同意并启用更多功能，但需要注意这可能涉及个人数据的使用。",
@@ -772,16 +868,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1769741029963_2",
+      "id": "news_1769748442343_3",
       "title": "特斯拉将投资20亿美元于xAI，这是埃隆·马斯克的OpenAI竞争对手",
-      "summary": "特斯拉宣布投资20亿美元进入xAI，这是埃隆·马斯克创立的OpenAI竞争对手。此次投资与xAI宣布的200亿美元融资轮有关。特斯拉此举表明其对人工智能领域的重视，也标志着马斯克在人工智能领域的两大势力即将正面交锋。",
-      "content": "特斯拉周三表示，它已同意投资20亿美元进入埃隆·马斯克于三年前推出的xAI，该公司当时宣布将作为OpenAI的潜在竞争对手。此次股份购买与xAI宣布的200亿美元融资轮有关。",
+      "summary": "特斯拉宣布投资20亿美元进入xAI，后者正进行200亿美元的融资计划，旨在与OpenAI竞争。特斯拉CEO埃隆·马斯克几乎三年前创立了xAI。此次投资表明马斯克正加大在人工智能领域的布局，特斯拉也将借此进一步拓展其在自动驾驶等领域的技术优势。",
+      "content": "特斯拉周三表示，已同意投资20亿美元进入埃隆·马斯克几乎三年前推出的xAI，后者宣布将进行200亿美元的融资，旨在与OpenAI展开竞争。",
       "imageUrl": "https://image.cnbcfm.com/api/v1/image/108170649-1752223567421-gettyimages-2199701064-HL_VFEURAY_2670140.jpeg?v=1769637044&w=1920&h=1080",
       "source": "CNBC",
       "publishedAt": "2026-01-28T21:59:51.000Z",
       "category": "国际AI",
       "originalUrl": "https://www.cnbc.com/2026/01/28/tesla-to-invest-2-billion-in-xai-elon-musks-openai-competitor.html",
-      "aiInsight": "这一新闻揭示了特斯拉对人工智能领域的重要押注，尤其是对xAI的支持。从技术发展角度看，xAI的200亿美元融资表明了市场对AI技术的广泛认可和需求。特斯拉与xAI的合作可能带来创新的自动驾驶技术和智能车辆发展，进一步推动AI与汽车产业的深度融合。\n\n从行业影响来看，特斯拉一直是自动驾驶技术的领先者，此次投资xAI，将加剧其在这一领域的领先地位。同时，xAI作为OpenAI的潜在竞争对手，将推动整个AI行业的竞争和进步，加速技术迭代和应用落地。\n\n未来趋势方面，AI技术将持续渗透到各个行业，汽车制造也不例外。特斯拉与xAI的合作可能引发新一轮的AI技术竞赛，促使更多企业加大对AI技术的投资，同时也可能推动相关政策和标准的制定，促进AI技术的健康发展。"
+      "aiInsight": "特斯拉投资20亿美元进入埃隆·马斯克的xAI，这一举动标志着人工智能领域又一重要竞争者的崛起。从技术发展角度看，这表明特斯拉和埃隆·马斯克对人工智能技术的未来充满信心，特别是在自动驾驶和智能汽车领域。xAI的加入将加速人工智能在实际应用中的发展，提高决策速度和精度，推动相关技术的创新。\n\n从行业影响看，xAI的崛起将加剧与现有领先者如微软的OpenAI之间的竞争，可能引发行业内的技术革新和投资热潮。特斯拉和xAI的加入，将促使整个行业加速研发和创新，推动人工智能技术的广泛应用和发展。\n\n未来趋势方面，随着xAI的加入，人工智能技术将在更多场景中得到应用，如自动驾驶、机器人技术、智能医疗等。同时，这也将进一步推动数据科学、机器学习、深度学习等技术的进步，为未来的技术发展奠定基础。总体而言，特斯拉和xAI的加入将对人工智能领域产生深远影响。"
     },
     {
       "id": "news_1769729674165_2",
@@ -1237,66 +1333,6 @@
       "publishedAt": "2026-01-28T05:18:51.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-28-6",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769578661594_8a793749",
-      "title": "阿里云通义开源 6B 参数 Z-Image 基座模型，生成图片拒绝 AI “大众脸”",
-      "summary": "IT之家 1 月 28 日消息，阿里云通义今日（1 月 28 日）正式开源发布 Z-Image 基座模型。 该模型尺寸为 6B，为非蒸馏基座模型，保留全量权重分布，原生支持 CFG 引导机制，为 LoRA、ControlNet 等微调任务提供训练底座。",
-      "content": "IT之家 1 月 28 日消息，阿里云通义今日（1 月 28 日）正式开源发布 Z-Image 基座模型。 该模型尺寸为 6B，为非蒸馏基座模型，保留全量权重分布，原生支持 CFG 引导机制，为 LoRA、ControlNet 等微调任务提供训练底座。 Z-Image 宣称打破单一维度的写实局限：无论是追求光影的 Photorealism，还是具有情绪张力的动漫与数字艺术，Z-Image 均能捕捉并重构每一处风格细节。 Z-Image 采用非蒸馏基座架构，保留全量权重分布，原生支持 CFG 引导机制，为 LoRA、ControlNet 等微调任务提供训练底座。 此外，Z-Image 专项优化了生成“同质化”痛点：优化采样空间分布，确保不同原生出图的面孔与构图具备显著差异；多人场景剥离个体特征，拒绝 AI “大众脸”。 Z-Image 还可灵敏响应负向提示词，通过 Negative Prompt 快速过滤瑕疵、净化画面，实现从构图到光影的深度掌控。 IT之家附 Z-Image 开源地址如下： GitHub：https://github.com/Tongyi-MAI/Z-Image 魔搭：https://modelscope.cn/models/Tongyi-MAI/Z-Image Hugging Face：https://huggingface.co/Tongyi-MAI/Z-Image",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/24a62044-fd87-4c7f-8390-60b757044030.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-28T04:34:24.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/917/134.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769578637601_64c23e9e",
-      "title": "朋友，给你的创业项目整点“AI+”？",
-      "summary": "朋友，给你的创业项目整点“AI+”？",
-      "content": "AI深水区，套路像决堤。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-28T04:15:28.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7858106.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769573474620_31cd3565",
-      "title": "刚刚，OpenAI发布「科研写作神器」Prism，Overleaf危",
-      "summary": "刚刚，OpenAI发布「科研写作神器」Prism，Overleaf危",
-      "content": "刚刚，OpenAI发布「科研写作神器」Prism，Overleaf危",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2026-01-28T03:43:29.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2026-01-28-4",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769573515250_dbecb8fd",
-      "title": "Uber 优步创立 AV Labs 团队：为自动驾驶提供现实数据集支持",
-      "summary": "IT之家 1 月 28 日消息，网约车巨头 Uber 优步曾有过第一方自动驾驶技术业务，而在 2020 年出售相关团队后该企业转向与坐拥相关技术的合作伙伴推进 Robotaxi 的开发。",
-      "content": "IT之家 1 月 28 日消息，网约车巨头 Uber 优步曾有过第一方自动驾驶技术业务，而在 2020 年出售相关团队后该企业转向与坐拥相关技术的合作伙伴推进 Robotaxi 的开发。 而在当地时间昨日，Uber 再次在自动驾驶领域落子：其宣布成立 AV Labs 团队，通过每小时数百万次 Uber 网约车订单的真实数据为合作伙伴提供支持。 Uber 表示，自动驾驶的进步不再仅仅依赖于封闭测试或模拟环境，真实世界中的场景正变得越发重要，而 Uber 拥有其它企业难以复制的庞大数据资源，覆盖各类出行场景和各种意外情况，补足了自动驾驶开发中的关键缺环。 Uber AV Labs 汇聚了数据、机器学习、计算机视觉、系统和基础设施等领域的专家，并在积极招聘希望参与自动驾驶核心学习并帮助塑造未来发展方向的工程师和研究人员。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/cf84b530-a3fd-4d2d-a864-23e5796322fe.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-01-28T03:23:38.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/917/118.htm",
-      "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1769573490083_9f1321fd",
-      "title": "一场注定破碎的“AI大一统”幻想",
-      "summary": "一场注定破碎的“AI大一统”幻想",
-      "content": "什么设备都还取代不了手机",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-01-28T03:08:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7858003.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
