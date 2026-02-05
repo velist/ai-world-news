@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-02-05T08:57:47.016Z",
-  "total": 109,
+  "timestamp": "2026-02-05T09:58:00.145Z",
+  "total": 105,
   "data": [
+    {
+      "id": "news_1770285452001_5e95a8bb",
+      "title": "谁写的代码谁负责！Cursor 发布 Agent Trace：从此 Bug 别想再推给 AI",
+      "summary": "谁写的代码谁负责！Cursor 发布 Agent Trace：从此 Bug 别想再推给 AI",
+      "content": "谁写的代码谁负责！Cursor 发布 Agent Trace：从此 Bug 别想再推给 AI",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-05T16:59:49.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/AGkTiCi5OlEABJQpfhI2?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770285453844_e3a38fc0",
+      "title": "Cloudflare的Matrix家庭服务器演示引发了关于AI生成代码的争论",
+      "summary": "Cloudflare的Matrix家庭服务器演示引发了关于AI生成代码的争论",
+      "content": "Cloudflare的Matrix家庭服务器演示引发了关于AI生成代码的争论",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-05T16:52:11.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/qspJxiaVYpj6HOQVGWpO?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1770281845216_9ad2289a",
       "title": "9B 模型“平替”GPT-4o ？！面壁赌对OpenClaw端侧AI，内部上演一人月产65万行代码的效率核爆",
@@ -16,40 +40,76 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1770281847135_c31de822",
-      "title": "Rspress 2.0发布：面向体验与AI的全新升级",
-      "summary": "Rspress 2.0发布：面向体验与AI的全新升级",
-      "content": "Rspress 2.0发布：面向体验与AI的全新升级",
+      "id": "news_1770285463856_fbfb58a7",
+      "title": "OpenViking：面向 Agent 的上下文数据库",
+      "summary": "OpenViking：面向 Agent 的上下文数据库",
+      "content": "OpenViking：面向 Agent 的上下文数据库",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-02-05T16:31:48.000Z",
+      "publishedAt": "2026-02-05T15:45:48.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/9dHvlfEaJXUmT3QiVC7D?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770285465996_63c999f8",
+      "title": "Cursor 浏览器翻车后，这个团队做出AI规模化高可靠软件工厂",
+      "summary": "Cursor 浏览器翻车后，这个团队做出AI规模化高可靠软件工厂",
+      "content": "Cursor 浏览器翻车后，这个团队做出AI规模化高可靠软件工厂",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-05T14:37:12.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/0dTBmTp4SlBVvoaybNCh?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/KAvjp4x5XULUL6ooEa8Y?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1770281848872_8d306fc1",
-      "title": "AI 驱动的大数据自治：TCInsight 智能应对复杂运维挑战",
-      "summary": "AI 驱动的大数据自治：TCInsight 智能应对复杂运维挑战",
-      "content": "AI 驱动的大数据自治：TCInsight 智能应对复杂运维挑战",
+      "id": "news_1770285467610_0079ae83",
+      "title": "请停止为人类开发软件！2026年最大的机会，是给Agent“造基建”",
+      "summary": "请停止为人类开发软件！2026年最大的机会，是给Agent“造基建”",
+      "content": "请停止为人类开发软件！2026年最大的机会，是给Agent“造基建”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-02-05T16:23:51.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/F48Of5dWYPgMNqeVIwY0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-02-05T11:51:58.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/ujMux2sHwXIXYC4z0Rd0?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1770281850702_35a2cd09",
-      "title": "奥运首个官方大模型基于阿里千问，考文垂：这届奥运为的遗产是AI驱动的智能化",
-      "summary": "奥运首个官方大模型基于阿里千问，考文垂：这届奥运为的遗产是AI驱动的智能化",
-      "content": "奥运首个官方大模型基于阿里千问，考文垂：这届奥运为的遗产是AI驱动的智能化",
+      "id": "news_1770285433289_08d129de",
+      "title": "腾讯控股获南向资金净买入55.78亿港元",
+      "summary": "南向资金净买入249.77亿港元，腾讯控股、盈富基金、阿里巴巴-W净买入额位列前三，分别获净买入55.78亿港元、45.76亿港元、15.53亿港元。净卖出方面，长飞光纤光缆、华虹半导体、中芯国际分别遭净卖出4.57亿港元、3.63亿港元、3.09亿港元。",
+      "content": "南向资金净买入249.77亿港元，腾讯控股、盈富基金、阿里巴巴-W净买入额位列前三，分别获净买入55.78亿港元、45.76亿港元、15.53亿港元。净卖出方面，长飞光纤光缆、华虹半导体、中芯国际分别遭净卖出4.57亿港元、3.63亿港元、3.09亿港元。（第一财经）",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-02-05T16:22:22.000Z",
+      "source": "36氪",
+      "publishedAt": "2026-02-05T09:54:46.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/Orls4EogPhNyOQAuQIHR?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://36kr.com/newsflashes/3670233678307972?f=rss",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770285440551_c119711f",
+      "title": "Anthropic's New AI Tool Triggers Massive Sell-off of Software Shares",
+      "summary": "Claude Legal Plugin, released by U.S. startup Anthropic, are sending software giant shares into a collective tailspin....",
+      "content": "Claude Legal Plugin, released by U.S. startup Anthropic, are sending software giant shares into a collective tailspin.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-02-05T09:34:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7867924.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770285442262_b6ef1a1a",
+      "title": "印奇“大于”50亿",
+      "summary": "印奇“大于”50亿",
+      "content": "阶跃星辰拿下的这笔50亿，未尝不是一张投向人的选票。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-02-05T08:55:37.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7867807.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1770281836465_a5a0ecff",
@@ -424,42 +484,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1770281857134_759986d2",
-      "title": "北京朝阳区首个 OPC 创业社区“极客部落 · AI 应用生态园”正式亮相 ITEC",
-      "summary": "北京朝阳区首个 OPC 创业社区“极客部落 · AI 应用生态园”正式亮相 ITEC",
-      "content": "北京朝阳区首个 OPC 创业社区“极客部落 · AI 应用生态园”正式亮相 ITEC",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-02-04T20:50:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/jWGGDOdeN4HOszmFholC?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770281858263_91b39fb9",
-      "title": "2026年中国企业AI人才与组织发展报告",
-      "summary": "2026年中国企业AI人才与组织发展报告",
-      "content": "2026年中国企业AI人才与组织发展报告",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-02-04T20:30:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/minibook/UZTN39WZ81MhFteW9uDW?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770281859441_1bf5959a",
-      "title": "拼模型、拼向量库的时代结束了？MongoDB 正在重写 AI 检索的基础设施",
-      "summary": "拼模型、拼向量库的时代结束了？MongoDB 正在重写 AI 检索的基础设施",
-      "content": "拼模型、拼向量库的时代结束了？MongoDB 正在重写 AI 检索的基础设施",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-02-04T20:03:52.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Kb8YQvKgQkYazceGUQFK?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1770238243175_81c4d2b1",
       "title": "苹果 visionOS 26.3 RC 发布",
       "summary": "IT之家 2 月 5 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 26.3 RC 更新（内部版本号：23N619），本次更新距离上次发布 Beta/RC 间隔 9 天。",
@@ -470,6 +494,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/919/309.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770285421516_0",
+      "title": "加州法院审理中：OpenAI的XAI知识产权盗窃诉讼悬而未决",
+      "summary": "加州联邦法官将审理xAI对OpenAI的知识产权盗窃诉讼。xAI指控OpenAI策划员工离职潮以窃取商业机密，但法官此前已初步驳回诉讼。在听证会上，xAI请求法官重新考虑这一决定。该案件引发了对人工智能领域知识产权保护的关注。",
+      "content": "埃隆·马斯克的人工智能公司xAI敦促加利福尼亚州的一名联邦法官重新考虑她初步决定驳回其诉讼的决定，该诉讼指控OpenAI策划了一场员工离职潮以窃取商业机密。 在一场紧张的听证会上，xAI...",
+      "imageUrl": "https://usaherald.com/wp-content/uploads/2017/09/usa_favicon32.png",
+      "source": "USA Herald",
+      "publishedAt": "2026-02-04T19:00:11.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://usaherald.com/xai-openai-ip-theft-suit-hangs-in-balance-in-california-court/",
+      "aiInsight": "这项知识产权盗窃诉讼悬而未决的事件，反映了当前AI科技领域中知识产权保护和人才流动的复杂性。从技术发展角度看，AI领域的创新速度极快，人才流动频繁，这既是推动技术进步的动力，也可能引发知识产权纠纷。行业影响方面，此类诉讼可能会影响公司之间的合作与竞争态势，进而影响整个行业的创新生态。未来趋势上看，加强知识产权保护和明确相关法律界限将变得尤为重要，同时，企业应更加注重人才的培养和激励，以减少人才流失带来的损失。此外，AI技术的快速发展也要求法律法规不断更新和完善，以适应新的挑战。"
     },
     {
       "id": "news_1770281819332_0",
@@ -484,28 +520,16 @@
       "aiInsight": "这项诉讼反映了XAI与OpenAI之间复杂的知识产权纠纷，从技术发展角度来看，这起案件可能会影响深度学习和人工智能领域的创新速度和透明度。XAI提起的诉讼强调了在AI领域，特别是深度学习模型的知识产权保护的重要性，尤其是在涉及大量数据和计算资源的情况下。行业影响方面，这起诉讼可能会引发其他企业和研究机构对知识产权保护的重视，甚至可能推动相关法律法规的完善。未来趋势上，随着AI技术的不断发展，加强知识产权保护和透明度将是关键议题，这可能促使AI技术更加规范化和标准化。此外，这起诉讼也可能促使企业和研究机构在合作和竞争中更加谨慎，注重合同签订和数据安全。"
     },
     {
-      "id": "news_1770278054446_0",
-      "title": "加州法院审理中：OpenAI的XAI知识产权盗窃诉讼悬而未决",
-      "summary": "加州一名联邦法官将审理埃隆·马斯克的人工智能公司xAI提起的诉讼，指控OpenAI策划员工离职潮以窃取商业机密。此前法官初步决定驳回该诉讼，但xAI要求重新考虑这一决定。此次听证会紧张激烈，但未公布最终裁决结果。",
-      "content": "埃隆·马斯克的人工智能公司xAI敦促加利福尼亚州一名联邦法官重新考虑她初步决定驳回其对OpenAI提起的诉讼，该诉讼指控OpenAI策划了一场员工离职潮以窃取商业机密。在一场紧张的听证会上，xAI...",
-      "imageUrl": "https://usaherald.com/wp-content/uploads/2017/09/usa_favicon32.png",
-      "source": "USA Herald",
-      "publishedAt": "2026-02-04T19:00:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://usaherald.com/xai-openai-ip-theft-suit-hangs-in-balance-in-california-court/",
-      "aiInsight": "从技术发展的角度来看，这一诉讼案揭示了AI领域中关于知识产权和人才竞争的复杂性。OpenAI与xAI之间的诉讼不仅涉及代码和算法等直接的知识产权问题，还涉及到人才的流动及其对技术发展的推动作用。这种人才流动在AI技术快速发展的背景下显得尤为关键。\n\n从行业影响的角度来看，此类诉讼可能会影响未来AI公司的招聘策略和文化建设。企业可能会更加谨慎地对待员工离职和招聘过程中的知识产权保护问题。同时，这可能也会促使企业加强内部管理和外部合作，以减少类似纠纷的发生。\n\n未来趋势方面，随着AI技术的不断进步，知识产权保护和人才管理将成为行业内关注的重点。企业需要制定更加完善的政策和机制来保护自身权益，同时保持开放合作的态度，促进整个AI行业的健康发展。"
-    },
-    {
-      "id": "news_1770281860795_db68ae74",
-      "title": "当AI吞噬软件，数据正在成为企业唯一的护城河",
-      "summary": "当AI吞噬软件，数据正在成为企业唯一的护城河",
-      "content": "当AI吞噬软件，数据正在成为企业唯一的护城河",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-02-04T17:53:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/6HtKg4ajhkamjGkK3ODG?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1770285421064_1",
+      "title": "Roblox 推出基于自然语言生成可运行模型的 AI 技术",
+      "summary": "Roblox推出4D创作技术，基于自然语言生成可运行的三维模型。用户可通过该技术创建互动物体，如车辆并进行驾驶等操作。这标志着Roblox在AI技术应用上取得新进展，进一步提升了用户创作体验。",
+      "content": "该技术被称为4D创作，在beta测试中发布，并在此前公司能够生成静态三维物体的模型基础上进行了改进。新模型允许用户生成一辆车辆、与其门进行互动并驾驶它…… [1356字节]",
+      "imageUrl": "https://www.reuters.com/resizer/v2/DBJCX4D3XFJBNDESEAMVFZBYBE.jpg?auth=d0e3fa61d1affa0853163ba6abf5d6f12bd5512cdf706009899403406bfcaa4f&height=1005&width=1920&quality=80&smart=true",
+      "source": "Reuters",
+      "publishedAt": "2026-02-04T16:52:41.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.reuters.com/technology/roblox-launches-ai-tech-that-generates-functioning-models-with-natural-language-2026-02-04/",
+      "aiInsight": "Roblox推出基于自然语言生成可运行模型的AI技术，标志着在虚拟世界创作领域的一次重要突破。从技术发展角度来看，这标志着AI技术在图形生成、交互性增强以及自然语言处理方面取得了显著进展。通过这种4D创作技术，Roblox不仅能够生成静态的三维物体，还能够使这些物体具备动态功能，如车辆可以被用户互动、操控，这大大提升了虚拟世界的沉浸感和用户参与度。\n\n从行业影响来看，这一技术进步将对在线游戏、虚拟现实（VR）、增强现实（AR）以及元宇宙等领域的创作者和开发者产生深远影响。对于创作者而言，无需掌握复杂的编程技能即可创造出动态、互动性强的虚拟内容，降低了创作门槛，促进了内容的多样化。对于游戏和平台运营方而言，这种技术的引入将为用户提供更加丰富、沉浸式的体验，吸引更多的用户加入，从而提升用户体验和平台粘性。\n\n从未来趋势来看，随着AI技术的不断发展，我们可以预见到，虚拟世界的创作将更加便捷高效，虚拟内容的生成将更加真实、生动。未来，基于AI的创作工具将更加普及，虚拟世界的交互也将更加自然流畅，这将推动虚拟现实和元宇宙等领域的快速发展，为用户提供更加丰富、沉浸式的体验。同时，随着AI技术在更多领域的应用，虚拟与现实的界限将变得越来越模糊，虚拟世界的影响力将不断扩大，为社会带来新的变革。"
     },
     {
       "id": "news_1770281820648_1",
@@ -520,18 +544,6 @@
       "aiInsight": "这项基于自然语言生成可运行模型的AI技术（4D创作）标志着Roblox在虚拟世界构建方面的重要进步。从技术发展的角度看，这一技术不仅提升了生成内容的复杂度和互动性，还可能降低内容创造的门槛，让非技术背景的人也能快速创建丰富、交互性强的虚拟体验。这背后的突破在于自然语言处理技术的提升以及与AI生成模型的融合，使得用户能更直观地描述其创意，而AI则能够理解并转化为可运行的模型。\n\n行业影响方面，随着4D创作技术的成熟和普及，虚拟世界的构建将变得更加高效和丰富。Roblox作为一家以用户生成内容为核心竞争力的企业，这一技术将进一步巩固其在虚拟社交和教育领域的领先地位。同时，这也将对游戏开发、虚拟现实内容创作等行业产生深远影响，加速相关行业的创新步伐。\n\n未来趋势来看，随着AI技术的不断进步，我们可以预见到更加智能、更加互动的虚拟世界将逐渐成为现实。用户不仅能够生成静态模型，还能创建动态场景、角色和交互逻辑，使得虚拟世界更加接近真实世界的体验。此外，随着AI生成技术的优化，生成的内容将更加符合人类的审美和互动预期，这将对创意产业带来新的可能性。"
     },
     {
-      "id": "news_1770278046858_1",
-      "title": "Roblox 推出基于自然语言生成可运行模型的 AI 技术",
-      "summary": "Roblox推出基于自然语言的4D创作技术，用户可通过描述生成可运行的三维模型，如车辆等，并与其互动。该技术已进入beta测试阶段，进一步提升了用户在平台上的创作体验。",
-      "content": "这项被称为4D创作的技术已进入beta测试阶段，并在此前该公司能够生成静态三维物体的模型基础上进行了开发。新模型使用户能够生成一辆车辆、与其门进行互动并驾驶它…… [1356字节]",
-      "imageUrl": "https://www.reuters.com/resizer/v2/DBJCX4D3XFJBNDESEAMVFZBYBE.jpg?auth=d0e3fa61d1affa0853163ba6abf5d6f12bd5512cdf706009899403406bfcaa4f&height=1005&width=1920&quality=80&smart=true",
-      "source": "Reuters",
-      "publishedAt": "2026-02-04T16:52:41.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.reuters.com/technology/roblox-launches-ai-tech-that-generates-functioning-models-with-natural-language-2026-02-04/",
-      "aiInsight": "Roblox推出基于自然语言生成可运行模型的AI技术，标志着虚拟世界构建技术的重大进步。从技术发展的角度看，这项4D创作技术结合了先进的自然语言处理和机器学习算法，能够将用户的语言描述直接转化为可交互的虚拟模型，这不仅简化了内容创作流程，还极大地提高了模型的复杂度和交互性。从行业影响的角度来看，这一技术的发展将对游戏开发、虚拟现实、教育和娱乐等多个领域产生深远影响。游戏开发者可以快速创建更加丰富和多样化的游戏内容，提高用户体验；教育机构则可以利用这种技术创建更生动的教学场景，提升学习效果；娱乐行业也能通过更加真实的虚拟体验吸引用户。\n\n展望未来，随着技术的不断成熟和完善，4D创作技术可能成为推动虚拟现实和增强现实内容生产的重要手段，促进虚拟世界与现实世界的融合。同时，随着AI技术的进一步发展，用户可能不再需要专业的编程知识就能创造出复杂的虚拟模型，这将为更多非专业开发者打开通往虚拟世界的大门。此外，该技术还有望推动AI生成内容市场的增长，加速数字内容的创作和分发流程，进一步释放创意产业的潜力。"
-    },
-    {
       "id": "news_1770267357314_0",
       "title": "Roblox 推出基于自然语言生成功能模型的 AI 技术",
       "summary": "Roblox推出基于自然语言生成的AI技术4D创作，允许用户生成并互动三维物体，如车辆。该技术在beta测试中发布，是对之前静态三维物体生成模型的改进，用户可驾驶生成的车辆，实现更丰富的虚拟体验。",
@@ -542,18 +554,6 @@
       "category": "国际AI",
       "originalUrl": "https://www.reuters.com/technology/roblox-launches-ai-tech-that-generates-functioning-models-with-natural-language-2026-02-04/",
       "aiInsight": "Roblox推出的基于自然语言生成功能的AI技术，标志着在3D虚拟世界创作领域迈出了重要的一步。这项技术不仅能够生成静态的三维物体，还能实现物体的动态互动，如车辆的行驶和互动，这为用户提供了更为丰富和沉浸式的体验。\n\n**技术发展角度**：4D创作技术是AI生成内容领域的一个重要进展。它结合了自然语言处理和3D建模技术，使得虚拟内容的创作不再局限于静态模型，而是能够实现动态交互。这展示了AI技术在理解和生成复杂场景方面的进步，预示着未来AI在虚拟现实和增强现实领域将有更广泛的应用。\n\n**行业影响角度**：对于Roblox这样的虚拟游戏平台来说，4D创作技术可以极大地丰富游戏内容，提高用户参与度和留存率。这对于游戏开发者来说也意味着更低的创作门槛和更高的效率。此外，这项技术还将促进虚拟现实和增强现实产业的发展，提供更丰富的交互体验，推动相关应用的普及。\n\n**未来趋势角度**：随着AI技术的发展，我们可以预见，未来将有更多基于自然语言生成动态3D模型的技术出现。这不仅会改变内容创作的方式，也可能会对教育、娱乐、设计等行业带来深远影响。AI生成内容的高效和多样性将为这些行业提供新的可能性。同时，随着技术的进步，用户对于沉浸式体验的需求也将进一步推动相关技术的发展。"
-    },
-    {
-      "id": "news_1770281862031_ee502de2",
-      "title": "百度千帆深度研究Agent 两大设计确保准确性，最新登榜",
-      "summary": "百度千帆深度研究Agent 两大设计确保准确性，最新登榜",
-      "content": "百度千帆深度研究Agent 两大设计确保准确性，最新登榜",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-02-04T16:41:31.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/jug4DXKtUcObjloYI90O?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1770224459591_401fead7",
@@ -1261,54 +1261,6 @@
       "publishedAt": "2026-02-03T10:46:01.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7865432.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770112545084_fc851408",
-      "title": "摩尔线程推出首个全栈国产 AI 编程服务，可免费体验 30 天",
-      "summary": "IT之家 2 月 3 日消息，摩尔线程今日宣布推出 AI Coding Plan 智能编程服务，可免费体验 30 天。",
-      "content": "IT之家 2 月 3 日消息，摩尔线程今日宣布推出 AI Coding Plan 智能编程服务，可免费体验 30 天。 摩尔线程介绍称，作为首个基于国产全功能 GPU 算力底座构建的智能开发解决方案，该服务以 MTT S5000 的全精度计算能力为核心驱动，融合硅基流动推理加速引擎，并集成 GLM-4.7 代码模型，成功实现了国产芯片与国产大模型在 AI Coding 领域的突破，标志着国产算力在 AI 核心生产力工具领域打破瓶颈。 全新推出的 AI Coding Plan 依托摩尔线程 MTT S5000 的全精度计算能力，宣称通过软硬件协同架构实现了“算力效能的倍增”。摩尔线程与硅基流动联合开发，通过算子融合及框架优化，在确保代码生成质量的同时降低了响应延迟。 目前，摩尔线程 AI Coding Plan 服务已实现与 Claude Code、Cursor、OpenCode 等多款主流编程工具的即插即用适配，开发者可在不同开发环境中无缝切换。 针对不同规模团队的使用需求，AI Coding Plan 推出梯度化套餐方案，IT之家附价格如下： ▼ Free Trial： 提供 30 天免费体验期，适合轻量级项目试水 ▼Lite Plan（120 元 / 季度）： 具备 Claude Pro 套餐 3 倍用量额度，支持中频开发场景 ▼ Pro Plan（600 元 / 季度）： 5 倍于 Lite 套餐的调用额度，专为复杂项目架构设计 ▼ Max Plan（1200 元 / 季度）： 提供峰值流量优先保障，满足企业级高频调用需求",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/e78f1774-a093-4de9-a2ac-286b24835a9f.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-02-03T09:46:46.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/918/858.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770112498161_8c146700",
-      "title": "盈富基金逆势遭南向资金净卖出37.63亿港元",
-      "summary": "南向资金净买入9.52亿港元，腾讯控股、南方恒生科技、中国移动净买入额位列前三，分别获净买入19.55亿港元、6.69亿港元、4.08亿港元。净卖出方面，盈富基金、中芯国际、阿里巴巴-W分别遭净卖出37.63亿港元、15.77亿港元、11.98亿港元。",
-      "content": "南向资金净买入9.52亿港元，腾讯控股、南方恒生科技、中国移动净买入额位列前三，分别获净买入19.55亿港元、6.69亿港元、4.08亿港元。净卖出方面，盈富基金、中芯国际、阿里巴巴-W分别遭净卖出37.63亿港元、15.77亿港元、11.98亿港元。（第一财经）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-02-03T09:46:19.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3667394226201224?f=rss",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770112507251_74ed3757",
-      "title": "Even a 1 Billion Yuan in Red‑packet Giveaway Can’t Buy an AI Moat for Tencent",
-      "summary": "Are Tencent Yuanbao’s red-envelope cash handouts actually useful?...",
-      "content": "Are Tencent Yuanbao’s red-envelope cash handouts actually useful?",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-02-03T09:41:57.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7865504.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770112510365_19f3b6a8",
-      "title": "COSMOPlat to Go Public in Hong Kong",
-      "summary": "In response to market doubts about whether it could stand on its own after breaking away from its parent company Haier, COSMOPlat has carved out a not...",
-      "content": "In response to market doubts about whether it could stand on its own after breaking away from its parent company Haier, COSMOPlat has carved out a notably steady path of growth.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-02-03T09:33:13.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7865496.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
