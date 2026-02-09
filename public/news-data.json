@@ -1,19 +1,31 @@
 {
   "success": true,
-  "timestamp": "2026-02-09T22:49:41.111Z",
-  "total": 59,
+  "timestamp": "2026-02-09T23:48:41.896Z",
+  "total": 63,
   "data": [
     {
-      "id": "news_1770677368830_d5614360",
-      "title": "Open Responses规范实现智能体式LLM工作流的统一",
-      "summary": "Open Responses规范实现智能体式LLM工作流的统一",
-      "content": "Open Responses规范实现智能体式LLM工作流的统一",
+      "id": "news_1770680920894_53692d73",
+      "title": "苹果联合中国人民大学发布 VSSFlow 模型：无声视频 AI 同步生成音效与配音",
+      "summary": "IT之家 2 月 10 日消息，科技媒体 9to5Mac 昨日（2 月 9 日）发布博文，报道称苹果公司携手中国人民大学（简称人大），推出 VSSFlow 新型 AI 模型，突破了传统音频生成技术的瓶颈，仅需单一系统即可从无声视频中同时生成逼真的环境音效与人类语音。",
+      "content": "IT之家 2 月 10 日消息，科技媒体 9to5Mac 昨日（2 月 9 日）发布博文，报道称苹果公司携手中国人民大学（简称人大），推出 VSSFlow 新型 AI 模型，突破了传统音频生成技术的瓶颈，仅需单一系统即可从无声视频中同时生成逼真的环境音效与人类语音。 该模型的核心能力在于“化静为动”，能够直接处理无声视频数据，在单一系统的框架下，同步生成与画面高度匹配的环境音效以及精准的语音对话。该成果不仅解决了过去音频生成模型功能单一的问题，更在生成质量上达到了行业领先水平。 IT之家援引博文介绍，在 VSSFlow 问世之前，行业内的模型往往存在严重的偏科现象：视频转声音模型（V2S）难以生成清晰的语音，而文本转语音模型（TTS）又无法处理复杂的环境噪音。 传统的解决方案通常是将两者分阶段训练，这不仅增加了系统的复杂性，还常因任务冲突导致性能下降。VSSFlow 则另辟蹊径，采用了 10 层架构设计并引入“流匹配”技术，让模型自主学习如何从随机噪声中，重构出目标声音信号。 研究团队在训练过程中发现了一个令人惊喜的现象：联合训练不仅没有导致任务干扰，反而产生了“互助效应”。即语音数据的训练提升了音效生成的质量，而音效数据的加入也优化了语音的表现。 团队为了实现这一效果，向模型投喂了混合数据，包括配有环境音的视频、配有字幕的说话视频以及纯文本转语音数据，并利用合成样本微调模型，让其学会同时输出背景音与人声。 在实际运行中，VSSFlow 以每秒 10 帧的频率从视频中提取视觉线索来塑造环境音效，同时依据文本脚本精确引导语音生成。 测试数据显示，该模型在多项关键指标上均优于专门针对单一任务设计的竞品模型。研究团队目前已在 GitHub 上开源了 VSSFlow 的代码，并正在推进模型权重公开及在线推理演示的开发工作。 IT之家附上参考地址 GitHub：VSSFlow: Unifying Video-conditioned Sound and Speech Generation via Joint Learning VSSFlow: Unifying Video-conditioned Sound and Speech Generation via Joint Learning VSSFlow: Unifying Video-conditioned Sound and Speech Generation via Joint Learning",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/182099b5-234d-47ce-856e-b82f4a4eaf70.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-02-09T23:21:39.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/920/630.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770680910484_0b7d5fc5",
+      "title": "3年、1万人，快手技术团队首次系统披露AI研发范式升级历程",
+      "summary": "3年、1万人，快手技术团队首次系统披露AI研发范式升级历程",
+      "content": "3年、1万人，快手技术团队首次系统披露AI研发范式升级历程",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-02-09T17:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/dyVRzxpkuoWbdHrEKoC4?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-02-09T14:55:03.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/9rX1Ov951gKtaTmQb8Jq?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1770644419759_d643d090",
@@ -122,6 +134,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/920/525.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770680916831_31734ef5",
+      "title": "挑战 Claude Code，9.5 万星！又一款开源 AI 编程神器火了",
+      "summary": "挑战 Claude Code，9.5 万星！又一款开源 AI 编程神器火了",
+      "content": "挑战 Claude Code，9.5 万星！又一款开源 AI 编程神器火了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-09T09:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/m3ty3OAyVmyJMhaiFL8M?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1770644404089_6b29a7f4",
@@ -338,6 +362,30 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7871605.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770680879687_0",
+      "title": "儿科相关紧急护理中机器学习的感知与知识——英国和爱尔兰网络调查研究（针对临床领导者）",
+      "summary": "本研究调查了英国和爱尔兰临床领导者对机器学习决策支持工具在儿科急诊护理中的理解和感知。研究发现，这些工具对于指导安全有效的护理至关重要，但临床领导者对其应用仍存在一些顾虑和挑战。该研究结果有助于提高机器学习在儿科护理中的应用效果，保障患者安全。",
+      "content": "摘要 本研究探讨了英国和爱尔兰各站点临床领导者对机器学习（ML）决策支持工具在儿科相关急诊护理中的理解和感知，这些工具对于指导安全有效的护理至关重要…… [40890 字符]",
+      "imageUrl": "https://journals.plos.org/digitalhealth/article/figure/image?id=10.1371/journal.pdig.0001213.strk&size=inline",
+      "source": "PLOS (Public Library of Science)",
+      "publishedAt": "2026-02-09T00:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://journals.plos.org/digitalhealth/article?id=10.1371%2Fjournal.pdig.0001213",
+      "aiInsight": "从技术发展角度看，该研究揭示了机器学习在儿科急诊护理中的应用潜力，这代表了人工智能技术在医疗领域的一个重要进展。通过临床领导者对机器学习决策支持工具的感知和理解，研究为优化这些工具的开发和应用提供了宝贵的反馈。\n\n从行业影响角度看，该研究不仅有助于提高儿科急诊护理的质量和效率，还可能促进医疗行业更广泛地采用机器学习技术，特别是在数据驱动的决策支持方面。此外，对于医疗设备制造商和软件开发者来说，了解临床领导者的需求和期望是设计更符合实际需求的产品和服务的关键。\n\n从未来趋势角度看，随着技术的不断进步和临床实践的积累，机器学习在儿科急诊护理中的应用将更加普及和个性化，可能进一步提高护理质量，减少医疗错误，同时减轻医护人员的工作负担。然而，这也需要解决数据隐私、伦理以及技术普及等问题，以确保技术的负责任使用。"
+    },
+    {
+      "id": "news_1770680874669_1",
+      "title": "转录组引导的全切片图像分类用于分子亚型识别",
+      "summary": "该研究提出了一种基于转录组引导的全切片图像分类方法，用于识别分子亚型，推动了计算病理学的发展。该方法能够提高自动化组织病理学分析的水平，有助于精准医疗和个性化治疗。",
+      "content": "这是一份未校正的校样。 图表 摘要 近年来，计算病理学的进展极大地提高了自动化组织病理学分析的水平。该领域的一个重要问题是形态学特征与遗传特征…… [38046 字符]",
+      "imageUrl": "https://journals.plos.org/ploscompbiol/article/figure/image?id=10.1371/journal.pcbi.1013950.g006&size=inline",
+      "source": "PLOS (Public Library of Science)",
+      "publishedAt": "2026-02-09T00:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1013950",
+      "aiInsight": "这篇新闻报道了计算病理学领域的一项重要进展，通过转录组数据指导的全切片图像分类技术，实现了对分子亚型的精确识别。从技术发展的角度看，这标志着计算病理学向更精准、更智能化的诊断方向迈进了一步，结合了基因表达数据和显微图像分析，提高了病理诊断的准确性。\n\n在行业影响方面，这项技术的应用不仅能够加快病理诊断的速度，还可以减少人为错误，对提升医疗服务质量具有重要意义。对于制药公司而言，更准确的分子亚型识别有助于药物开发和临床试验的个性化设计。未来，随着技术的进一步成熟和普及，这一领域的应用前景广阔，有望推动精准医疗的发展。\n\n从未来趋势来看，随着大数据和人工智能技术的不断进步，计算病理学将更加依赖于深度学习算法和大数据分析，实现更为智能化和自动化的病理学分析。同时，跨学科合作将进一步加深，推动病理学、生物信息学、机器学习等领域的深度融合。"
     },
     {
       "id": "news_1770677336706_0",
