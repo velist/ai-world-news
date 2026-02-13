@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-02-13T08:56:17.219Z",
-  "total": 138,
+  "timestamp": "2026-02-13T09:57:18.537Z",
+  "total": 142,
   "data": [
+    {
+      "id": "news_1770976617044_784bf8c1",
+      "title": "一文读懂 Snowflake：7 个 AI 与语义层的关键策略要点 ｜ 技术实践",
+      "summary": "一文读懂 Snowflake：7 个 AI 与语义层的关键策略要点 ｜ 技术实践",
+      "content": "一文读懂 Snowflake：7 个 AI 与语义层的关键策略要点 ｜ 技术实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-13T16:58:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/aveYPAdOFvSH1CdHe0Py?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1770972956754_72ddce7a",
       "title": "昨夜，OpenAI 祭出首个实时编码模型，没用英伟达芯片！谷歌重磅更新 Deep Think，姚顺宇参与",
@@ -16,19 +28,31 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1770972958571_aa769b9a",
-      "title": "Next Moca 开源智能体定义语言 ADL",
-      "summary": "Next Moca 开源智能体定义语言 ADL",
-      "content": "Next Moca 开源智能体定义语言 ADL",
+      "id": "news_1770976622625_056229dd",
+      "title": "面向 AI Agents 的高性能数据基座：架构和工程实践",
+      "summary": "面向 AI Agents 的高性能数据基座：架构和工程实践",
+      "content": "面向 AI Agents 的高性能数据基座：架构和工程实践",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-02-13T16:00:00.000Z",
+      "publishedAt": "2026-02-13T14:28:09.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/4KDHTtLauzMq0apWmDLr?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/2B1adWKlxpisOtxhOSfj?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1770972963991_6034c567",
+      "id": "news_1770976624263_564e6ed1",
+      "title": "Xcode 26.3 扩展支持编程智能体，可接入 Claude Agent、Codex 等",
+      "summary": "Xcode 26.3 扩展支持编程智能体，可接入 Claude Agent、Codex 等",
+      "content": "Xcode 26.3 扩展支持编程智能体，可接入 Claude Agent、Codex 等",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-13T12:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/39BuXj6WpGFqPERk4X9x?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770976625931_6034c567",
       "title": "一线实践视角：在资源受限的环境中构建大语言模型",
       "summary": "一线实践视角：在资源受限的环境中构建大语言模型",
       "content": "一线实践视角：在资源受限的环境中构建大语言模型",
@@ -38,6 +62,54 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/zjLVIHKAhr7B9qTo39Dp?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770976601844_12340045",
+      "title": "上海市新增8款已完成登记的生成式人工智能服务",
+      "summary": "36氪获悉，据网信上海消息，截至2月13日，上海市新增8款已完成登记的生成式人工智能服务，累计已完成161款生成式人工智能服务登记。其中，智元创新（上海）科技股份有限公司的WITA对话助手在列。",
+      "content": "36氪获悉，据网信上海消息，截至2月13日，上海市新增8款已完成登记的生成式人工智能服务，累计已完成161款生成式人工智能服务登记。其中，智元创新（上海）科技股份有限公司的WITA对话助手在列。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-02-13T09:39:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3681532481105797?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770976593359_e18ca95b",
+      "title": "全球首个AI原生社交平台「Teamily AI」硅谷亮相，开启「人机共生」社交新元年",
+      "summary": "全球首个AI原生社交平台「Teamily AI」硅谷亮相，开启「人机共生」社交新元年",
+      "content": "全球首个AI原生社交平台「Teamily AI」硅谷亮相，开启「人机共生」社交新元年",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-02-13T09:23:01.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-02-13-11",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770976594042_67e2aeef",
+      "title": "SSI-Bench：首个「约束流形」空间智能基准，把大模型拉回真实3D结构世界",
+      "summary": "SSI-Bench：首个「约束流形」空间智能基准，把大模型拉回真实3D结构世界",
+      "content": "SSI-Bench：首个「约束流形」空间智能基准，把大模型拉回真实3D结构世界",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-02-13T09:02:18.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-02-13-9",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770976637534_6b44f36b",
+      "title": "智元全新一代全尺寸人形机器人远征 A3 亮相：会“功夫”，号称文武双全",
+      "summary": "IT之家 2 月 13 日消息，今天下午，智元机器人正式发布全新一代全尺寸人形机器人远征 A3。该机器人以“绝世高手”为主题首次亮相，演示视频中，其接连完成了凌空飞踹、连续飞踢、空中漫步、摸地旋风等高难度动作，展示出智元在全尺寸人形机器人本体和运动控制算法方面的突破式创新能力，标志着全尺寸人形从“能...",
+      "content": "IT之家 2 月 13 日消息，今天下午，智元机器人正式发布全新一代全尺寸人形机器人远征 A3。该机器人以“绝世高手”为主题首次亮相，演示视频中，其接连完成了凌空飞踹、连续飞踢、空中漫步、摸地旋风等高难度动作，展示出智元在全尺寸人形机器人本体和运动控制算法方面的突破式创新能力，标志着全尺寸人形从“能聊能走”迈入“文武双全”的全新时代，号称将重新定义全尺寸人形机器人本体能力和运动智能极限。 根据介绍，其适用于导览导购、文娱商演等高频人机互动场景，具备超拟人全身自由度，手臂末端负载达 3kg，TCP 末端速度最高可达 2m/s，可搭载超拟人、超高自由度灵巧手；全自由度柔性腰部 1:1 还原人体腰部，并具备超大运动角度，可为各类“极限动作”提供支持。 目前，远征 A3 尚未在智元机器人官网上架，IT之家将持续关注。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/d9f6057c-b6c1-424d-b8fa-a7140938727a.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-02-13T08:58:36.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/921/706.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1770972939498_025cb945",
@@ -460,6 +532,18 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1770976589331_0",
+      "title": "Anthropic 完成 300 亿美元融资，估值达 380 亿美元",
+      "summary": "Anthropic完成300亿美元融资，估值达380亿美元，进一步巩固了其在与OpenAI竞争中的地位。本轮融资由新加坡主权财富基金领投，彰显了Anthropic在人工智能领域的强大吸引力和市场潜力。",
+      "content": "Anthropic已从投资者处以3800亿美元的估值筹集了300亿美元的资金，这一交易进一步巩固了该公司在与竞争对手OpenAI的竞争中的地位。新加坡主权财富基金... [339字]",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i6eSJ829xeqY/v1/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-02-12T19:00:00.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-02-12/anthropic-finalizes-30-billion-funding-at-380-billion-value",
+      "aiInsight": "这一轮融资事件表明 Anthropic 在 AI 技术领域的发展和市场地位得到了资本市场的高度认可。从技术发展的角度来看，大额融资将为 Anthropic 提供更多的资源投入到 AI 技术的研究和开发中，特别是在大模型和自然语言处理方面，有望进一步提升其产品的性能和用户体验。从行业影响来看，Anthropic 的壮大将加剧与 OpenAI 等竞争对手之间的竞争，可能推动整个 AI 行业的技术进步和应用创新。未来趋势上，AI 技术的商业化进程将进一步加速，尤其是在企业服务、智能助手、内容生成等领域。此外，随着技术的成熟和应用场景的拓展，AI 将为各行各业带来深刻变革，提高效率、优化决策，推动智能化转型。然而，这也对数据安全、隐私保护、伦理道德提出了新的挑战，需要相关企业和社会各界共同关注和解决。"
+    },
+    {
       "id": "news_1770972924616_0",
       "title": "Anthropic完成30亿美元融资，估值达380亿美元",
       "summary": "Anthropic完成30亿美元融资，估值达380亿美元，增强了其与OpenAI的竞争地位。本轮融资由新加坡主权财富基金领投，进一步巩固了Anthropic在人工智能领域的市场地位。",
@@ -484,16 +568,16 @@
       "aiInsight": "这一融资事件对于AI科技行业来说具有重要意义。从技术发展角度来看，Anthropic获得如此巨额的资金支持，表明了市场对其技术实力和未来潜力的高度认可。这笔资金将为Anthropic提供充足的资金支持，加速其在自然语言处理等领域的发展，推动AI技术的进一步创新。\n\n从行业影响角度来看，Anthropic的崛起势必会对现有的AI市场格局构成挑战。Anthropic与OpenAI的竞争会进一步促进技术进步和产品迭代，推动整个行业向前发展。此外，投资者的持续看好也反映了市场对AI技术长期价值的信心。\n\n从未来趋势来看，随着AI技术不断成熟，应用场景将更加广阔。Anthropic作为一家专注于AI基础研究和应用的公司，其资金的注入将有助于推动AI技术在更多领域的应用，从而为社会带来更大的价值。\n\n总之，Anthropic的巨额融资为AI行业注入了新的活力，也将进一步推动AI技术的发展和应用，为未来的科技进步和产业升级提供强大支持。"
     },
     {
-      "id": "news_1770972965857_f0f22e0e",
-      "title": "2025年的Web开发：AI的React偏见 vs 原生Web",
-      "summary": "2025年的Web开发：AI的React偏见 vs 原生Web",
-      "content": "2025年的Web开发：AI的React偏见 vs 原生Web",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-02-12T18:21:41.000Z",
+      "id": "news_1770976580138_1",
+      "title": "OpenAI 推出了首款使用竞争对手 Cerebras 芯片的模型",
+      "summary": "OpenAI 近日推出了一款使用竞争对手 Cerebras 芯片的全新模型。这款模型的推出标志着 OpenAI 在人工智能领域又向前迈进了一步，同时也展示了其在硬件选择上的灵活性。Cerebras 芯片以其强大的计算能力和高效的能耗比著称，此次合作将有助于提升 OpenAI 模型的性能和效率。未来，OpenAI 将继续探索更多创新技术，以推动人工智能的发展。",
+      "content": "将决策者与动态的信息、人员和思想网络连接起来，彭博迅速而准确地向全球提供商业和金融信息、新闻和洞察。",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ixGofyrm_5Jc/v1/1200x825.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-02-12T18:00:04.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/SIQ9aJiSeqplKcOeAAmM?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-02-12/openai-debuts-first-model-using-chips-from-nvidia-rival-cerebras",
+      "aiInsight": "这个新闻标题似乎有些不完整，但从提供的内容来看，主要信息是OpenAI采用了竞争对手Cerebras的芯片来推出首款模型。这反映了几个重要方面：\n\n1. **技术发展**：这表明OpenAI在技术选择上更加开放和灵活，愿意采用最佳技术而非局限于自家开发的解决方案。Cerebras的Wafer Scale Engine（WSE）芯片以其超大规模的集成能力和强大的计算性能著称，这可能意味着OpenAI的新模型在处理复杂任务时能够获得显著的性能提升。\n\n2. **行业影响**：这一举措可能会影响AI芯片市场的竞争格局。如果更多大型研究机构开始采用Cerebras的芯片，这可能会加剧市场对高性能计算芯片的需求，进而推动相关技术的发展和创新。\n\n3. **未来趋势**：人工智能模型的训练越来越依赖于强大的计算能力，这预示着高性能计算芯片市场的重要性将不断提升。同时，这也可能促进不同技术供应商之间的合作与竞争，加速AI技术的普及和应用。\n\n总体来看，这一事件反映了技术领域的不断进步和竞争加剧，同时也预示着未来技术发展的方向和挑战。"
     },
     {
       "id": "news_1770972925580_1",
@@ -508,16 +592,28 @@
       "aiInsight": "这篇新闻标题提到OpenAI首次使用竞争对手Cerebras的芯片，这表明OpenAI在硬件选择上更加灵活开放，不再局限于自家开发的硬件。这种做法有助于优化模型训练的成本和效率。从技术发展角度来看，OpenAI的这一举措可能预示着AI研究组织在选择硬件支持时会更加注重性价比和性能，而不仅仅是品牌忠诚度。\n\n从行业影响来看，这可能会激励更多的AI研究机构和企业关注硬件性能与成本的平衡，从而促进相关硬件市场的竞争与创新。对于Cerebras而言，这也可能带来更多的商业机会，增强其市场地位。\n\n至于未来趋势，随着AI模型日益复杂，硬件优化成为关键，未来的AI发展可能会更加依赖于软硬件协同优化。这要求AI研究者和开发者不仅要关注算法和模型的优化，还要考虑硬件的选择和优化，从而实现整体性能的最大化。"
     },
     {
-      "id": "news_1770969429583_1",
-      "title": "OpenAI 推出了首款使用竞争对手 Cerebras 芯片的模型",
-      "summary": "OpenAI宣布推出首款使用竞争对手Cerebras芯片的模型。这一举动标志着OpenAI在硬件选择上不再局限于自家产品，而是开始探索更广泛的高性能计算解决方案。Cerebras芯片以其超大规模的片上系统和高带宽内存而闻名，此次合作或将为OpenAI的模型训练带来显著的性能提升。",
-      "content": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world\nConnecting decision makers to a dynamic network of infor... [833 chars]",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ixGofyrm_5Jc/v1/1200x825.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2026-02-12T18:00:04.000Z",
+      "id": "news_1770976628948_8e1275da",
+      "title": "“代码 + 编译器”要消失了？马斯克在 xAI 全员会上放话：到今年年底，AI 或将直接生成二进制",
+      "summary": "“代码 + 编译器”要消失了？马斯克在 xAI 全员会上放话：到今年年底，AI 或将直接生成二进制",
+      "content": "“代码 + 编译器”要消失了？马斯克在 xAI 全员会上放话：到今年年底，AI 或将直接生成二进制",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-12T17:51:56.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2026-02-12/openai-debuts-first-model-using-chips-from-nvidia-rival-cerebras",
-      "aiInsight": "这段新闻实际上是一段被截断的Bloomberg新闻摘要，完整标题应为“OpenAI 推出了首款使用竞争对手 Cerebras 芯片的模型”。从这段摘要中我们无法获取所有细节，但我们可以基于已知信息进行分析。\n\n**技术发展角度**：OpenAI 这一举动表明，AI领域在硬件选择上越来越开放，不再局限于特定供应商。Cerebras 芯片以其超大规模的硅片设计闻名，这可能提高了模型训练效率，OpenAI 的采用可能促进这类创新芯片在AI领域的应用和发展。\n\n**行业影响角度**：这可能对Cerebras公司以及其客户产生积极影响，增加其市场曝光度和市场份额。同时，也可能促使其他AI公司重新审视自己的硬件选择，加速AI硬件市场的竞争和创新。\n\n**未来趋势角度**：未来AI模型训练可能会更加依赖于高性能、高能效的定制化硬件。这不仅有助于降低成本，还能进一步提升训练效率，推动AI技术的快速发展。同时，这也将鼓励硬件制造商不断创新，以满足不断增长的AI计算需求。"
+      "originalUrl": "https://www.infoq.cn/article/hsoVQfxDa9ofFiMZsDai?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770976578478_2",
+      "title": "Anthropic的估值达到380亿美元，加剧了与OpenAI的竞争",
+      "summary": "人工智能公司Anthropic的估值达到380亿美元，成为与OpenAI和SpaceX齐名的全球最有价值初创公司之一。Anthropic表示，其最新一轮融资筹集了300亿美元，估值增长。这使其成为潜在的IPO候选者，投资者密切关注其上市动向。Anthropic开发了聊天机器人Claude，此次融资由新加坡主权财富基金GIC和美国投资公司Coatue领投，吸引了众多大型投资者的关注。",
+      "content": "人工智能公司Anthropic表示其估值现已达到3800亿美元 Anthropic的估值达到380亿美元，加剧了与OpenAI的竞争 美联社 Matt O'Brien 技术记者",
+      "imageUrl": "https://media.breitbart.com/media/2026/02/wi/ap/openai-anthropic-rivalry-16169-openai-anthropic-rivalry-dario-amodei-ceo-founder-of-anthropic-640x335.jpg",
+      "source": "Breitbart News Network",
+      "publishedAt": "2026-02-12T17:41:27.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.breitbart.com/news/anthropic-hits-a-380b-valuation-as-it-heightens-competition-with-openai/",
+      "aiInsight": "Anthropic的估值达到380亿美元，这一消息反映了人工智能领域尤其是语言模型市场的快速崛起和技术实力的强大。从技术发展角度看，Anthropic的增长表明了AI科技在自然语言处理、生成式模型等领域的突破性进展。从行业影响角度看，Anthropic与OpenAI的竞争加剧，预示着这一领域的竞争将更加激烈，同时也可能推动技术进步和创新。从未来趋势角度看，随着资金和资源的投入，AI技术将进一步深化应用至各个行业，带来效率提升和商业模式变革。此外，随着技术竞争的加剧，用户对AI产品的个性化和服务质量要求也将不断提高。"
     },
     {
       "id": "news_1770972925679_2",
@@ -614,6 +710,18 @@
       "category": "国内AI",
       "originalUrl": "https://36kr.com/p/3680210722254473?f=rss",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770976578805_3",
+      "title": "Anthropic向反对OpenAI的超级政治行动委员会投资2000万美元",
+      "summary": "Anthropic公司，一家专注于安全人工智能的初创企业，宣布投资2000万美元支持一个新的超级政治行动委员会，旨在与OpenAI形成对立。此举表明人工智能领域内的竞争不仅限于技术，还延伸至政策和政治层面。Anthropic的这一举动可能引发行业内的新一轮博弈，进一步加剧人工智能领域的政治化趋势。",
+      "content": "硅谷的人工智能初创企业现在有了对立的超级政治行动委员会。 Anthropic 公司——这家由前 OpenAI 高管创立、专注于安全的人工智能公司——于周四宣布，将投入 2000 万美元用于一个新的超级政治行动委员会运作…… [1588 chars]",
+      "imageUrl": "https://static01.nyt.com/images/2026/02/12/multimedia/12BIZ-ANTHROPIC-PAC-sub-vjgb/12BIZ-ANTHROPIC-PAC-sub-vjgb-facebookJumbo.jpg",
+      "source": "The New York Times",
+      "publishedAt": "2026-02-12T12:00:06.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.nytimes.com/2026/02/12/technology/anthropic-super-pac-openai.html",
+      "aiInsight": "此新闻揭示了人工智能领域内两大重要角色——Anthropic和OpenAI的对立扩展到了政治领域，这反映了技术公司不仅仅是技术的竞争者，也是价值观和政策方向的竞争者。从技术发展角度看，Anthropic的投资表明了该公司不仅关注AI技术的安全性，还开始涉足政策倡导，试图影响AI行业的监管和政策方向。从行业影响来看，这可能加剧AI行业的政治化和分裂，促进不同立场的AI公司之间的竞争和合作模式的变化。未来趋势上，这预示着AI行业可能会更加重视通过政治手段来影响法规和标准的制定，人工智能公司的战略可能不再仅限于技术开发，还会涉及政策倡导和游说。"
     },
     {
       "id": "news_1770972924718_3",
@@ -758,6 +866,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7877966.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1770976631986_6e273d9d",
+      "title": "谷歌为 Gemini 3 Flash 推出 Agentic Vision 功能",
+      "summary": "谷歌为 Gemini 3 Flash 推出 Agentic Vision 功能",
+      "content": "谷歌为 Gemini 3 Flash 推出 Agentic Vision 功能",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-12T10:17:39.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/2WMVYZUZHPArVTCUZzc4?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1770890576780_b8a908e3",
@@ -1072,6 +1192,18 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1770976576772_4",
+      "title": "独家：五角大楼促使人工智能公司扩展在机密网络上的应用，消息源称",
+      "summary": "五角大楼正敦促OpenAI、Anthropic等顶级AI公司将其工具部署在机密网络上，无需施加通常对用户施加的限制。此举旨在加强军事人工智能系统的安全性。消息人士透露，五角大楼希望通过这种方式，提高其在机密网络上的应用水平，以应对日益复杂的网络安全挑战。",
+      "content": "2月11日（路透社）——五角大楼正敦促包括OpenAI和Anthropic在内的顶级人工智能公司将其人工智能工具部署在机密网络上，而无需施加公司通常对用户施加的许多标准限制。",
+      "imageUrl": "https://www.reuters.com/resizer/v2/ZGJDJKVQJVNURPWFG6CLZCCAPU.jpg?auth=0747736a03a41d86ee945a176ba8b686740c9e0b81a3d92a0c3e3653107846ef&height=1005&width=1920&quality=80&smart=true",
+      "source": "Reuters",
+      "publishedAt": "2026-02-12T00:45:52.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.reuters.com/business/pentagon-pushing-ai-companies-expand-classified-networks-sources-say-2026-02-12/",
+      "aiInsight": "这篇新闻揭示了五角大楼试图推动人工智能技术在军事和国家安全领域中的深度应用，这是一个重要的技术发展动向。五角大楼此举表明，他们认为人工智能技术对于提升军事实力和国家安全具有重要价值，希望通过放宽一些限制，让人工智能公司为其服务，从而加速技术的军事化进程。\n\n从行业影响的角度来看，这一举措可能会促使更多人工智能公司进一步拓展其技术应用范围，特别是向政府和军事领域的扩展。这不仅有助于推动人工智能技术的商业化进程，也可能加速行业内的技术革新和竞争。然而，这也引发了关于数据安全和隐私保护的担忧，特别是在处理敏感信息和军事机密时。\n\n展望未来，随着人工智能技术在军事领域的应用不断深化，预计相关的安全监管和技术标准也将随之加强，以确保技术的安全可控。总体而言，这一趋势预示着人工智能技术将在更广泛的领域发挥重要作用，同时也需要行业内外共同努力，确保技术的健康发展。"
+    },
+    {
       "id": "news_1770972926379_4",
       "title": "独家：五角大楼促使人工智能公司扩展在涉密网络上的应用，消息源称",
       "summary": "五角大楼正敦促OpenAI、Anthropic等顶级AI公司，将其工具部署在涉密网络上，无需遵守公司通常对用户实施的限制。此举旨在加强军事人工智能应用的安全性，但可能引发数据安全和隐私保护方面的担忧。消息人士透露，五角大楼正积极推动这一进程，以确保其在涉密网络中的应用。",
@@ -1324,6 +1456,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1770976579831_5",
+      "title": "英国最高法院关于专利和人工智能的判决对创新而言是一大推动，律师们表示。",
+      "summary": "英国最高法院关于专利和人工智能的判决，为人工智能领域带来了重大推动。该判决确认了一种进行机器学习的人工神经网络可以被视为发明，从而具备专利申请资格。这一决定将鼓励更多创新，促进人工智能技术的发展和应用。律师们表示，该判决将为未来类似案件提供重要指导，有助于推动人工智能领域的知识产权保护。",
+      "content": "伦敦，2月11日（路透社）——（2月11日的这篇报道已更正，将第10段中的律师事务所名称从Clerks更正为Marks & Clerk） 一种可以进行机器学习的人工神经网络（一种人工智能），…… [1935字节]",
+      "imageUrl": "https://www.reuters.com/resizer/v2/JI2JF2HJNBMHLLQTNI64XIGFTI.jpg?auth=3abc50f9eecad9224e614b7bc7a4aeeee54cbdef8392f609bc8f6107b4129b76&height=1005&width=1920&quality=80&smart=true",
+      "source": "Reuters",
+      "publishedAt": "2026-02-11T17:53:28.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.reuters.com/legal/litigation/uk-supreme-court-ruling-patents-ai-is-boost-innovation-lawyers-say-2026-02-11/",
+      "aiInsight": "这篇新闻报道了英国最高法院关于专利和人工智能的判决对创新产生的积极影响。从技术发展角度来看，该判决认可了使用人工智能技术开发出的发明可以获得专利保护，这为人工智能领域的持续创新提供了法律保障。从行业影响来看，这一判决将鼓励更多企业和研究机构加大对人工智能技术的研发力度，促进相关技术的商业化应用，推动整个行业向前发展。从未来趋势来看，随着更多人工智能专利的产生，将加速技术迭代和创新，促进人工智能与其他行业的深度融合，进一步推动经济社会的数字化转型和智能化发展。此外，该判决还可能引发一系列关于人工智能专利申请和保护的法律和伦理问题的讨论，需要法律界、科技界和产业界共同探讨和解决。"
+    },
+    {
       "id": "news_1770972925214_5",
       "title": "英国最高法院关于专利和AI的判决对创新而言是一大助力，律师们说",
       "summary": "英国最高法院关于专利和AI的判决对创新而言是一大助力。该判决确认了人工智能系统可以作为发明人获得专利权，为AI技术的应用和发展提供了法律保障。律师们表示，这一判决将鼓励更多的创新和投资，推动AI技术在各个领域的应用。此次判决将有助于促进AI技术的快速发展，为相关行业带来新的机遇。",
@@ -1358,18 +1502,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.reuters.com/legal/litigation/uk-supreme-court-ruling-patents-ai-is-boost-innovation-lawyers-say-2026-02-11/",
       "aiInsight": "这一新闻报道了英国最高法院关于专利和人工智能的判决，这是一个重要的法律里程碑，对人工智能领域的创新和发展产生了深远的影响。从技术发展的角度来看，该判决明确了人工智能创造物的法律地位，为人工智能技术的进一步应用和创新扫清了法律障碍。对于依赖于技术创新的企业和研究机构而言，这是一个极大的推动力。\n\n从行业影响的角度来看，这一判决将促进人工智能技术在各个行业的广泛应用。例如，在医疗、金融、交通等领域，人工智能技术的应用将更加广泛，有助于提高效率和降低成本。此外，该判决还将吸引更多资金投入人工智能领域，促进相关产业链的形成和发展。\n\n从未来趋势的角度来看，随着技术的不断进步和法律框架的完善，人工智能将更加深入地融入各行各业。同时，数据安全和隐私保护将成为行业发展的重点问题，相关的法律法规和技术手段将不断完善。此外，人工智能技术的伦理和责任问题也将成为社会关注的焦点，需要在技术发展的同时，加强伦理道德方面的研究和探讨。"
-    },
-    {
-      "id": "news_1770951418562_2",
-      "title": "英国最高法院关于专利和人工智能的判决对创新而言是一大推动，律师们表示。",
-      "summary": "英国最高法院关于专利和人工智能的判决对创新是一大推动。该判决确认了人工智能系统可以作为专利权的合法所有者，为人工智能技术的发展提供了法律保障。律师们表示，这一判决将鼓励更多企业投资于人工智能领域，促进相关技术的创新和应用。此次判决将为人工智能领域的知识产权保护提供更加明确的指导，有助于推动人工智能技术的进一步发展。",
-      "content": "伦敦，2月11日（路透社）——（2月11日的这篇报道已更正，将第10段中的律师事务所名称从Clerks更正为Marks & Clerk）一种可以进行机器学习的人工神经网络…… [1935字]",
-      "imageUrl": "https://www.reuters.com/resizer/v2/JI2JF2HJNBMHLLQTNI64XIGFTI.jpg?auth=3abc50f9eecad9224e614b7bc7a4aeeee54cbdef8392f609bc8f6107b4129b76&height=1005&width=1920&quality=80&smart=true",
-      "source": "Reuters",
-      "publishedAt": "2026-02-11T17:53:28.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.reuters.com/legal/litigation/uk-supreme-court-ruling-patents-ai-is-boost-innovation-lawyers-say-2026-02-11/",
-      "aiInsight": "该新闻报道了英国最高法院关于专利和人工智能的判决，这一判决对科技创新具有重要意义。从技术发展角度来看，判决确认了人工智能技术在创新过程中的贡献，为涉及AI技术的专利申请提供了明确的法律依据，有助于推动AI技术的进一步发展和应用。从行业影响来看，这一判决将激励企业在AI领域加大投资，促进相关技术的研发和商业化进程，特别是在医疗、金融、制造等行业中，AI技术的应用将成为提升效率和创新能力的关键因素。展望未来趋势，随着AI技术的不断进步和法律框架的完善，AI在更多领域的应用将变得更加广泛和深入，这不仅能够促进经济增长，还能改善人们的生活质量。然而，这也需要行业内外共同努力，确保技术的发展能够兼顾伦理和社会责任，促进技术的健康发展。"
     },
     {
       "id": "news_1770929080636_1",
@@ -1573,90 +1705,6 @@
       "publishedAt": "2026-02-11T09:58:15.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/921/168.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770804355245_1bb4cc35",
-      "title": "上新、发红包、上春晚……这个春节，AI太忙",
-      "summary": "上新、发红包、上春晚……这个春节，AI太忙",
-      "content": "谁能赢下“春节档”？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-02-11T09:47:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7876279.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770804357066_34dba8b2",
-      "title": "巨头竞相豪赌，砸不出下一个DeepSeek",
-      "summary": "巨头竞相豪赌，砸不出下一个DeepSeek",
-      "content": "流量买不来技术代差，补贴换不回商业闭环。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-02-11T09:46:57.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7876031.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770804348264_a226c4f8",
-      "title": "腾讯控股获南向资金净买入7.36亿港元",
-      "summary": "南向资金净买入48.16亿港元，腾讯控股、紫金黄金国际、美团-W净买入额位列前三，分别获净买入7.36亿港元、1.91亿港元、1.63亿港元。净卖出方面，阿里巴巴-W、中芯国际、中国人寿分别遭净卖出5.21亿港元、3.91亿港元、2.46亿港元。",
-      "content": "南向资金净买入48.16亿港元，腾讯控股、紫金黄金国际、美团-W净买入额位列前三，分别获净买入7.36亿港元、1.91亿港元、1.63亿港元。净卖出方面，阿里巴巴-W、中芯国际、中国人寿分别遭净卖出5.21亿港元、3.91亿港元、2.46亿港元。（第一财经）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-02-11T09:42:36.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3678715186635401?f=rss",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770804333461_151da0ea",
-      "title": "决定了：过年攻略全都不过脑子，让AI去想",
-      "summary": "决定了：过年攻略全都不过脑子，让AI去想",
-      "content": "决定了：过年攻略全都不过脑子，让AI去想",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2026-02-11T09:22:03.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2026-02-11-11",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770804334373_dac60b6f",
-      "title": "马斯克xAI再失联合创始人，12人创始团队已有6人离场",
-      "summary": "马斯克xAI再失联合创始人，12人创始团队已有6人离场",
-      "content": "马斯克xAI再失联合创始人，12人创始团队已有6人离场",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "机器之心",
-      "publishedAt": "2026-02-11T09:16:15.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.jiqizhixin.com/articles/2026-02-11-10",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770800439927_5ca82bdc",
-      "title": "中国联通旗下公司等成立数智科技公司，含智能机器人的研发业务",
-      "summary": "36氪获悉，爱企查App显示，近期，浙江益普数智科技有限公司成立，法定代表人为靳鹏，注册资本为1000万元人民币，经营范围包括智能机器人的研发、新材料技术研发、人工智能应用软件开发等。股东信息显示，该公司由北京益普华安科技有限公司、中国联合网络通信有限公司旗下联通智网科技股份有限公司等共同持股。",
-      "content": "36氪获悉，爱企查App显示，近期，浙江益普数智科技有限公司成立，法定代表人为靳鹏，注册资本为1000万元人民币，经营范围包括智能机器人的研发、新材料技术研发、人工智能应用软件开发等。股东信息显示，该公司由北京益普华安科技有限公司、中国联合网络通信有限公司旗下联通智网科技股份有限公司等共同持股。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-02-11T08:57:15.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/newsflashes/3678670617141893?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1770800440940_c5297698",
-      "title": "美团发布原生“深度研究”Agent，攻略可用率超ChatGPT",
-      "summary": "36氪获悉，2月11日，美团LongCat发布原生“深度研究”Agent（智能体）。基于独创三层智能体闭环架构及美团积累的物理世界数据训练，该产品有效缓解了当前AI在解决真实物理世界问题时容易出现幻觉的痛点。用户盲测显示，其攻略“整体可用率”达61.1%，优于ChatGPT的42.8%。",
-      "content": "36氪获悉，2月11日，美团LongCat发布原生“深度研究”Agent（智能体）。基于独创三层智能体闭环架构及美团积累的物理世界数据训练，该产品有效缓解了当前AI在解决真实物理世界问题时容易出现幻觉的痛点。用户盲测显示，其攻略“整体可用率”达61.1%，优于ChatGPT的42.8%。目前该功能已在LongCat网页免费开放。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-02-11T08:56:38.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3678670009688967?f=rss",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
