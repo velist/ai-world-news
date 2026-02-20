@@ -1,19 +1,67 @@
 {
   "success": true,
-  "timestamp": "2026-02-20T02:48:20.258Z",
-  "total": 99,
+  "timestamp": "2026-02-20T04:55:26.631Z",
+  "total": 94,
   "data": [
     {
-      "id": "news_1771555682783_b804efe7",
-      "title": "代码界新王登基！Gemini 3.1 Pro血洗Claude与GPT，12项基准测试第一！",
-      "summary": "代码界新王登基！Gemini 3.1 Pro血洗Claude与GPT，12项基准测试第一！",
-      "content": "代码界新王登基！Gemini 3.1 Pro血洗Claude与GPT，12项基准测试第一！",
+      "id": "news_1771563308141_6e6ac9d7",
+      "title": "“软件比白领更先被 AI 击穿”！Anthropic CEO 最新改口，反讽马斯克危言耸听，两大佬隔空互掐",
+      "summary": "“软件比白领更先被 AI 击穿”！Anthropic CEO 最新改口，反讽马斯克危言耸听，两大佬隔空互掐...",
+      "content": "“软件比白领更先被 AI 击穿”！Anthropic CEO 最新改口，反讽马斯克危言耸听，两大佬隔空互掐",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-02-20T09:19:40.000Z",
+      "publishedAt": "2026-02-20T12:01:25.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/auecWVTgm3Eh8lo5PK8U?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1771563310188_2559d951",
+      "title": "字节豆包2.0重磅发布！成本暴降一个数量级，Seed团队揭秘视频Agent竞争关键",
+      "summary": "字节豆包2.0重磅发布！成本暴降一个数量级，Seed团队揭秘视频Agent竞争关键",
+      "content": "字节豆包2.0重磅发布！成本暴降一个数量级，Seed团队揭秘视频Agent竞争关键",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-20T11:58:12.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/Kcqq2ifEZCJaK8o0TxN1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1771563289932_72513b04",
+      "title": "奥尔特曼预言：超级智能将超越人类CEO与顶尖科学家，“包括我自己”",
+      "summary": "OpenAI CEO 山姆·奥尔特曼在印度AI影响力峰会上表示，我们可能距离真正超级智能的早期版本只有几年时间了。到2028年底，全球更多的智力资源可能会存储在数据中心内，而不是数据中心外。",
+      "content": "OpenAI CEO 山姆·奥尔特曼在印度AI影响力峰会上表示，我们可能距离真正超级智能的早期版本只有几年时间了。到2028年底，全球更多的智力资源可能会存储在数据中心内，而不是数据中心外。他还预计，在某种程度上，超级智能将能够胜任一家大型公司的CEO，比任何高管都做得更好，当然也包括他自己，或者能比人类最顶尖的科学家做出更好的研究。（第一财经）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-02-20T03:51:11.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3691109924990851?f=rss",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1771563325452_c0990acf",
+      "title": "首例安卓 Runtime AI 病毒曝光，实时分析手机屏幕对抗查杀",
+      "summary": "IT之家 2 月 20 日消息，网络安全公司 ESET 研究人员发现 PromptSpy，这是首款在运行时（Runtime）直接集成生成式 AI 的安卓恶意软件。 IT之家注：Runtime 指软件正在运行的那个时间段。",
+      "content": "IT之家 2 月 20 日消息，网络安全公司 ESET 研究人员发现 PromptSpy，这是首款在运行时（Runtime）直接集成生成式 AI 的安卓恶意软件。 IT之家注：Runtime 指软件正在运行的那个时间段。本文中指恶意软件在手机上运行的过程中，实时连接 AI 进行思考和决策，而不是在出厂前就把所有代码写死。 与以往仅利用 AI 生成代码或诈骗文案不同，PromptSpy 调用谷歌 Gemini 模型，来实时调整其在受感染设备上的行为。 根据 ESET 的遥测数据，该恶意软件的首个版本（VNCSpy）于 2026 年 1 月出现，随后的进阶版本 PromptSpy 于 2 月被上传至 VirusTotal。 PromptSpy 引入 AI 的核心目的在于解决“持久化”难题。由于不同品牌的安卓设备在“最近任务”列表中锁定（Pin）应用的操作逻辑各异，传统脚本难以通用。 PromptSpy 为突破此限制，采取了“视觉分析 + 指令反馈”的策略：它将当前屏幕的 XML 数据（含 UI 元素、坐标）发送给 Google Gemini，要求 AI 分析并返回 JSON 格式的操作指令。 恶意软件随后通过安卓无障碍服务（Accessibility Service）执行点击操作，循环直至 AI 确认应用已被成功锁定，从而避免被系统后台清理。 该恶意软件内置 VNC 模块，一旦获取无障碍权限，攻击者即可完全远程控制受害者设备。ESET 指出，PromptSpy 能够实时查看屏幕、上传已安装应用列表、窃取锁屏 PIN 码或密码、录制解锁图案视频，甚至按需截屏和记录用户手势，导致受害者隐私完全暴露。 为对抗用户移除，PromptSpy 设计了狡猾的防御机制。当检测到用户试图卸载应用或关闭无障碍权限时，恶意软件会生成透明的隐形矩形覆盖在“停止”、“结束”、“清除”或“卸载”等系统按钮上。 用户以为点击了卸载按钮，实际上点击的是无效的隐形图层，从而导致卸载操作失败。研究人员建议，受害者需进入安卓安全模式才能有效禁用并移除该恶意软件。 在传播方面，研究人员发现了专门的分发域名（mgardownload [.]com）以及伪装成摩根大通银行（JPMorgan Chase Bank）的钓鱼网页，这暗示该恶意软件可能已被用于实际攻击。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/8a3b9baf-0ef6-42ca-883e-fbacbf513a56.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-02-20T03:02:39.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Ic69NzLCGqQ6HRuCligh?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.ithome.com/0/922/550.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1771563325629_a5d9ffbe",
+      "title": "不再支持“点 X 隐藏”：微软下月永久移除 Outlook 屏蔽联系人功能",
+      "summary": "IT之家 2 月 20 日消息，报道称微软通过 Microsoft 365 管理中心发布通知，确认将于 2026 年 3 月 31 日起，在桌面端、移动端及 Web 端全面停用 Outlook 的“联系人屏蔽”（Contact Masking）功能。",
+      "content": "IT之家 2 月 20 日消息，报道称微软通过 Microsoft 365 管理中心发布通知，确认将于 2026 年 3 月 31 日起，在桌面端、移动端及 Web 端全面停用 Outlook 的“联系人屏蔽”（Contact Masking）功能。 IT之家注：Contact Masking 是 Outlook 中的一项功能，用户在撰写邮件时，通过点击自动建议列表（Auto-complete list）中联系人旁边的“X”号，来阻止该联系人再次出现在建议中。 用户在 Outlook 的收件人（To）、抄送（Cc）或密送（Bcc）栏输入信息后，系统会弹出建议联系人列表。“联系人屏蔽”功能支持用户点击名字旁的“X”图标，从而在未来的通信建议中隐藏该联系人。 至于下线原因，微软表示是该功能引发的用户困惑与投诉。用户在点击“X”后有 5 秒钟的反悔时间，但该操作的后果远超预期，它不仅是在 Outlook 中隐藏联系人，还会在 Teams、Microsoft 365 搜索等整个生态系统中同步移除该联系人。 在功能退役后，微软强调将不会提供替代方案。从 2026 年 4 月起，用户此前通过该功能隐藏的所有联系人，将重新出现在 Microsoft 365 各项服务的建议列表中。 微软建议 IT 管理员及时更新内部文档并培训用户，明确告知这一跨应用行为的一致性调整，以减少潜在的工作流干扰。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/6213119e-31c5-4872-af26-0ead5d1b87c3.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-02-20T02:50:51.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/922/548.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1771555672876_f289102a",
@@ -316,6 +364,18 @@
       "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1771563273741_0",
+      "title": "OpenAI 将与塔塔公司合作在印度建设人工智能数据中心",
+      "summary": "OpenAI 将与塔塔公司合作在印度建设人工智能数据中心",
+      "content": "OpenAI 正在与印度塔塔集团合作开发人工智能技术，包括可能成为该国最大数据中心之一的基础设施。",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.IP1H.ig4Yc/v0/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-02-19T04:04:11.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-02-19/openai-to-partner-with-tata-for-ai-data-center-buildout-in-india",
+      "aiInsight": "这项合作标志着OpenAI在国际扩张和深化本地化战略方面的重要步骤，对印度乃至亚洲的人工智能技术发展有着深远影响。从技术发展角度看，这将促进AI计算资源的本地优化和升级，为印度及其他周边地区的企业和研究机构提供更强大的算力支持，加速AI技术的创新和应用。行业影响方面，这将吸引更多国际AI公司在印度设立数据中心和研发中心，推动当地科技人才的培育和吸引，促进数字经济的发展。未来趋势上看，随着全球AI竞争的加剧，类似的合作模式将成为国际大厂布局新兴市场的常见策略，而印度因其庞大的市场潜力和政策支持，有望成为未来AI基础设施建设和应用创新的关键节点。"
+    },
+    {
       "id": "news_1771555648663_0",
       "title": "OpenAI将与塔塔公司在印度共建人工智能数据中心",
       "summary": "OpenAI将与塔塔公司在印度共建人工智能数据中心",
@@ -326,18 +386,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.bloomberg.com/news/articles/2026-02-19/openai-to-partner-with-tata-for-ai-data-center-buildout-in-india",
       "aiInsight": "这一合作标志着OpenAI在亚洲市场尤其是印度的扩张迈出重要一步。从技术发展角度看，此举有助于OpenAI利用印度丰富的IT基础设施和人力资源，加速AI模型训练和部署。行业影响方面，这将增强印度在全球AI领域的地位，推动当地数字经济的发展，吸引更多AI相关的投资和创新。未来趋势上，随着AI需求的增长，数据中心将成为关键基础设施，预计印度及其他新兴市场将成为AI技术投资的热点。此外，OpenAI与当地企业的合作模式也可能成为跨国公司在新兴市场拓展业务的新范式。"
-    },
-    {
-      "id": "news_1771544359271_0",
-      "title": "OpenAI 将与塔塔公司合作在印度建设人工智能数据中心",
-      "summary": "OpenAI 将与塔塔公司合作在印度建设人工智能数据中心",
-      "content": "OpenAI 正在与印度塔塔集团合作开发人工智能技术，包括可能成为印度最大的数据中心基础设施。",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i.IP1H.ig4Yc/v0/1200x800.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2026-02-19T04:04:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2026-02-19/openai-to-partner-with-tata-for-ai-data-center-buildout-in-india",
-      "aiInsight": "该新闻反映了AI技术与数据中心建设的结合，以及国际科技巨头与本地企业合作的趋势。从技术发展的角度看，OpenAI与塔塔公司的合作表明，构建强大的AI基础设施对于提升AI性能至关重要。未来，随着AI应用的不断扩展，数据处理能力将成为竞争的关键。行业影响方面，这一合作将有助于推动印度的数字化转型，提升其在全球科技市场的竞争力。从未来趋势看，预计会有更多跨国公司寻求与本地企业合作，以更好地服务当地市场并适应地方监管环境。此外，这也可能促进印度在AI硬件和数据中心领域的投资和技术能力提升。"
     },
     {
       "id": "news_1771540896590_0",
@@ -448,6 +496,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1771563276445_1",
+      "title": "OpenAI本轮融资有望突破100亿美元",
+      "summary": "OpenAI即将完成新一轮融资，预计筹集超过1000亿美元，创历史最高纪录。此次融资将为这家人工智能研究机构提供充足的资金支持。这笔巨额资金将有助于OpenAI进一步推动人工智能技术的发展和应用，同时也将增强其在行业内的竞争力。",
+      "content": "据知情人士透露，OpenAI接近完成新一轮融资的第一阶段，此次融资可能筹集超过1000亿美元，这将是一项创纪录的融资交易，将为这家初创公司提供额外的资金…… [452字]",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i1Vw7iosk_UE/v0/1200x788.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-02-19T02:11:56.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-02-19/openai-funding-on-track-to-top-100-billion-with-latest-round",
+      "aiInsight": "从技术发展角度看，OpenAI获巨额融资反映了其在人工智能领域的领先地位和技术创新能力，尤其是其在大模型、生成式AI和多模态研究方面的突破。这一融资将使OpenAI能够进一步加大研发投入，推动技术迭代升级。从行业影响角度看，OpenAI的壮大可能加剧AI领域的竞争，促进整个行业的发展。同时，其研究成果也可能对各行各业产生深远影响，推动智能化转型。从未来趋势看，巨额融资将有助于OpenAI保持技术领先地位，可能进一步扩大其在AI领域的影响力。同时，这也预示着AI行业的资本化进程将进一步加速，大额融资将成为行业内的常态。此外，随着技术的不断进步和应用的不断拓展，AI有望在更多领域实现突破，推动产业革新和社会进步。"
+    },
+    {
       "id": "news_1771555650646_1",
       "title": "OpenAI本轮融资融资额有望突破100亿美元",
       "summary": "OpenAI即将完成新一轮融资，融资额有望突破1000亿美元，创下历史最高纪录。此举将为这家人工智能领域的初创公司提供充足的资金支持。此次融资将有助于OpenAI进一步推动人工智能技术的发展和应用。",
@@ -458,18 +518,6 @@
       "category": "国际AI",
       "originalUrl": "https://www.bloomberg.com/news/articles/2026-02-19/openai-funding-on-track-to-top-100-billion-with-latest-round",
       "aiInsight": "从技术发展角度看，OpenAI的巨额融资反映了AI领域的高度关注和快速发展。融资额的大幅提升意味着OpenAI不仅获得了更多的资金支持，还表明市场对AI技术及其潜在应用场景的极大信心。这种大规模的资金注入，有望加速OpenAI在超大规模模型训练、自然语言处理等前沿技术的研发进程。\n\n从行业影响看，这一融资事件对整个AI行业都具有显著影响。一方面，它可能加速AI技术的商业化进程，推动更多创新应用的出现；另一方面，巨额融资也可能加剧AI领域的竞争，促使其他企业加大投入，或寻求合作，以保持竞争力。此外，大规模的资金注入还可能引起公众对AI伦理和监管的更多关注。\n\n从未来趋势看，随着OpenAI等领先企业的持续投入和技术进步，AI行业有望迎来更广泛的应用场景，包括但不限于教育、医疗、金融等领域。同时，随着技术的不断成熟，AI技术将更加普及，为各行各业带来革命性的变化。然而，这也意味着需要更多关注AI技术的伦理问题，确保技术发展的同时，兼顾社会的福祉。"
-    },
-    {
-      "id": "news_1771544364104_1",
-      "title": "OpenAI本轮融资有望突破100亿美元",
-      "summary": "OpenAI即将完成新一轮融资，融资额可能超过1000亿美元，创下历史纪录。此举将为这家人工智能研究机构提供充足的资金支持。此次融资第一阶段即将完成，将为OpenAI的未来发展奠定坚实基础。",
-      "content": "据知情人士透露，OpenAI接近完成新一轮融资的第一阶段，融资额可能超过1000亿美元，这将是一项创纪录的融资交易，将为这家初创公司提供额外的资金…… [452字]",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i1Vw7iosk_UE/v0/1200x788.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2026-02-19T02:11:56.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2026-02-19/openai-funding-on-track-to-top-100-billion-with-latest-round",
-      "aiInsight": "这篇新闻报道了OpenAI即将完成的一项创纪录的融资交易，融资额可能超过1000亿美元。从技术发展的角度来看，这笔巨额资金将极大地推动OpenAI在人工智能领域的创新和研发，尤其是在生成式AI、自然语言处理等前沿技术上。从行业影响来看，此次融资将巩固OpenAI在AI领域的领先地位，并可能促进整个AI行业的快速发展和应用场景的拓展。从未来趋势来看，随着AI技术的不断进步和商业化应用的深入，AI行业将持续吸引大量投资，全球AI市场有望进一步扩大。此外，此次融资也可能引发行业内的竞争加剧，促使更多科技巨头和初创企业加大在AI领域的投入，从而推动整个行业的技术革新和产业升级。"
     },
     {
       "id": "news_1771540896318_1",
@@ -508,6 +556,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1771563277083_2",
+      "title": "系统建模预测协同且安全的抗寄生虫病药物组合",
+      "summary": "该研究通过系统建模预测了协同且安全的抗寄生虫病药物组合，旨在应对由原生动物和蠕虫广泛传播导致的全球公共卫生问题。该研究有助于开发更有效的治疗方案，以应对寄生疾病带来的挑战。",
+      "content": "这是一份未校正的校样。 图表 摘要 寄生疾病由于原生动物和蠕虫的广泛传播和多样性，对全球公共卫生造成了重大负担，导致了多种感染和区域爆发。尽管…… [65121字符]",
+      "imageUrl": "https://journals.plos.org/plosntds/article/figure/image?id=10.1371/journal.pntd.0013991.g009&size=inline",
+      "source": "PLOS (Public Library of Science)",
+      "publishedAt": "2026-02-19T00:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://journals.plos.org/plosntds/article?id=10.1371%2Fjournal.pntd.0013991",
+      "aiInsight": "从技术发展角度来看，该研究利用系统建模预测协同且安全的抗寄生虫病药物组合，代表了计算生物学和药物发现领域的一个重要进展。这种方法通过计算机模拟和数据分析，能够高效筛选出可能有效的药物组合，大大缩短了药物研发周期，降低了研发成本。\n\n从行业影响来看，这一技术的发展和应用将有助于加速抗寄生虫病新药的开发进程，提高人类对抗寄生虫病的能力。特别是在全球寄生虫疾病多发的地区，这一技术的推广和应用将具有重要的公共卫生意义。\n\n从未来趋势来看，随着计算生物学和人工智能技术的不断发展，药物发现和开发将更加依赖于数据驱动的方法。研究者们可能会进一步开发和优化现有的模型，使其能够更准确地预测药物组合的效果和安全性。此外，这一技术也有望被应用于其他疾病的药物研发领域，推动整个医药行业的创新和进步。"
+    },
+    {
       "id": "news_1771555653625_2",
       "title": "系统建模预测抗寄生虫疾病协同且安全的药物组合",
       "summary": "该研究通过系统建模预测了对抗寄生虫疾病的有效且安全的药物组合，为全球公共卫生应对寄生疾病提供了新的策略。研究指出，原生动物和蠕虫的广泛传播和多样性对全球公共卫生构成了重大威胁。研究团队利用系统建模方法，筛选出多种潜在的药物组合，有望为寄生疾病提供协同且安全的治疗方案。",
@@ -532,28 +592,16 @@
       "aiInsight": "这份新闻报道聚焦于利用系统建模技术预测抗寄生虫疾病药物的协同和安全组合，这是药物研发领域的一项重要进展。从技术发展角度来看，该研究利用先进的计算和生物信息学方法，能够更高效地筛选和优化药物组合，减少实验成本和时间。这标志着在药物发现和开发领域，计算机辅助设计和模拟技术的进一步成熟。\n\n从行业影响角度看，这一技术突破有望加速新药的研发进程，提高药物的有效性和安全性，对于对抗寄生虫疾病具有重要意义。特别是在全球公共卫生面临重大挑战的今天，这将为发展中国家和地区提供重要的支持，有助于改善公共卫生状况，减少疾病负担。\n\n从未来趋势来看，随着人工智能和机器学习技术的进一步发展，系统建模在药物发现中的应用将会更加广泛和深入，有可能催生出更多创新性的药物研发工具和方法。这不仅将推动制药行业的发展，也将对公共卫生政策产生深远影响。"
     },
     {
-      "id": "news_1771540897945_2",
-      "title": "系统建模预测协同且安全的抗寄生虫病药物组合",
-      "summary": "该研究通过系统建模预测了协同且安全的抗寄生虫病药物组合，旨在应对由原生动物和蠕虫广泛传播导致的全球公共卫生问题。研究结果有助于开发更有效的治疗方案，减少寄生疾病对人类健康的威胁。",
-      "content": "这是一份未校正的校样。 图表 摘要 寄生疾病由于原生动物和蠕虫的广泛传播和多样性，对全球公共卫生造成了重大负担，导致了多种感染和区域爆发。尽管…… [65121字符]",
-      "imageUrl": "https://journals.plos.org/plosntds/article/figure/image?id=10.1371/journal.pntd.0013991.g009&size=inline",
-      "source": "PLOS (Public Library of Science)",
-      "publishedAt": "2026-02-19T00:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://journals.plos.org/plosntds/article?id=10.1371%2Fjournal.pntd.0013991",
-      "aiInsight": "这篇新闻报道了利用系统建模来预测协同且安全的抗寄生虫病药物组合的技术进展。从技术发展的角度看，这种模型能够通过复杂的计算和数据分析，预测不同药物之间的相互作用及其疗效，这对于新药研发具有重要意义。从行业影响角度来看，这将有助于减少药物开发时间和成本，提高新药开发的成功率，从而加速寄生虫病治疗药物的上市。从未来趋势来看，随着大数据和人工智能技术的发展，这种系统建模方法的应用范围将进一步扩大，有望解决更多复杂疾病的治疗问题。此外，该方法还能够促进个性化医疗的发展，从而更好地满足患者需求。"
-    },
-    {
-      "id": "news_1771555684451_290b203b",
-      "title": "当AI开始拥有灵魂：逐句解读OpenClaw的SOUL.md",
-      "summary": "当AI开始拥有灵魂：逐句解读OpenClaw的SOUL.md",
-      "content": "当AI开始拥有灵魂：逐句解读OpenClaw的SOUL.md",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-02-18T20:50:18.000Z",
+      "id": "news_1771563276263_3",
+      "title": "苹果加大了对眼镜、吊坠和摄像头AirPods在人工智能时代研发工作的投入",
+      "summary": "苹果公司正加大研发力度，推出三种新的可穿戴设备：眼镜、吊坠和摄像头版AirPods，以适应人工智能时代的发展。此举标志着苹果正向以AI为动力的硬件产品线转型，与OpenAI和Meta等公司展开竞争。这三种设备将为用户提供更智能、更个性化的体验，进一步推动苹果在可穿戴设备市场的领先地位。",
+      "content": "由马克·古尔曼报道，苹果公司正在加快开发三种新的可穿戴设备，这是其向以人工智能为动力的硬件产品线转型的一部分。这一领域也被OpenAI和Meta Platforms Inc.等公司所涉足。",
+      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2024/08/BIZ-CPT-APPLE-AI-GET.jpg?w=1024&h=682",
+      "source": "The Mercury News",
+      "publishedAt": "2026-02-18T15:45:17.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/7QieJxH5gpNRvL5hKcrG?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.mercurynews.com/2026/02/18/apple-ramps-up-work-on-glasses-pendant-and-camera-airpods-for-ai-era/",
+      "aiInsight": "苹果公司加大投入开发眼镜、吊坠和摄像头AirPods，标志着其向以人工智能为动力的硬件产品线转型的重要一步。从技术角度来看，这表明苹果正在探索更多形态的智能穿戴设备，并将人工智能技术深度集成到这些设备中，以提供更自然的人机交互体验。这不仅是对当前主流智能手机形态的一种补充，也是对未来可穿戴设备形态的一种探索。\n\n行业影响上，苹果此举可能引发行业内的竞相模仿，加速可穿戴设备与人工智能技术融合的进程。同时，这也可能促使其他科技巨头加大在这一领域的研发力度，进一步推动整个行业的发展和创新。\n\n未来趋势来看，随着技术的不断进步和应用场景的不断拓展，可穿戴设备将变得更加智能化、个性化，成为人们日常生活和工作中不可或缺的一部分。苹果的这一举动，无疑将为这一趋势添砖加瓦，同时也预示着智能穿戴设备将向着更加多元化、更深层次的人工智能融合方向发展。"
     },
     {
       "id": "news_1771555650684_3",
@@ -748,16 +796,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1771555652495_4",
+      "id": "news_1771563276886_4",
       "title": "亚利桑那人工智能学校没有教师，每年学费4万美元",
-      "summary": "亚利桑那州的Alpha School采用人工智能个性化K-8教育，取代传统教师角色的是被称为“引导者”的人员，无需教育背景。该校每年学费高达4万美元。学校负责人表示，学生间的互动被视为学习机会，引导者会在学生需要帮助时介入。该校创新的教学模式引发关注，但也有批评指出缺乏传统教师的监督可能带来问题。",
-      "content": "Alpha School 是一个使用人工智能个性化 K-8 教育的私立学校网络。学校雇用“指导者”而不是教师，这些指导者不需要具备教育背景。位于亚利桑那州斯科茨代尔的学校学费为每年 40,000 美元。 Matt... [12200 字符]",
+      "summary": "亚利桑那州的Alpha学校采用人工智能个性化K-8教育，没有传统意义上的教师，而是雇佣“引导者”。该校每年学费高达4万美元。学校负责人表示，他目睹学生间的不礼貌行为时选择不干预，而是将其视为学习机会，让学生自我反思。这种教育模式引发了关于学生自我管理和教师角色的讨论。",
+      "content": "Alpha School 是一个使用人工智能个性化 K-8 教育的私立学校网络。 该校雇用“引导者”而非教师，这些引导者不需要具备教育背景。 亚利桑那州斯科茨代尔校区的学费为每年 40,000 美元。 Matt... [12200 字符]",
       "imageUrl": "https://www.azcentral.com/gcdn/authoring/authoring-images/2026/02/18/PPHX/88730434007-adobe-stock-1527600129.jpeg?crop=8255,4645,x0,y429&width=3200&height=1801&format=pjpg&auto=webp",
       "source": "The Arizona Republic",
       "publishedAt": "2026-02-18T12:02:10.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.azcentral.com/story/news/local/scottsdale-education/2026/02/18/arizona-alpha-school-has-no-teachers-costs-40k-a-year/88646774007/",
-      "aiInsight": "这篇新闻介绍了亚利桑那州的一所创新性学校Alpha School，采用人工智能技术进行个性化教育，这一模式对教育行业产生了深远的影响。从技术发展角度看，Alpha School的应用展示了人工智能在教育领域的巨大潜力，尤其是个性化学习和自适应教学系统的开发，能够为学生提供更加精准和个性化的学习体验。从行业影响看，这种模式可能会促使教育行业重新思考和设计传统教育模式，激发对教育技术的投资和创新，同时也可能对现有教师职业产生冲击，推动教师角色向指导和支持者转变。未来趋势方面，随着技术的不断进步和成本的下降，这种无教师学校模式可能会扩展到更多地区，改变教育生态，同时也需要关注其对社会公平性和教育质量的潜在影响。此外，这种模式的成功与否将取决于人工智能教育系统的完善程度以及学生、家长和社会对此模式的接受度。"
+      "aiInsight": "这则新闻展示了AI在教育领域的深度应用，对教育行业产生了显著影响。从技术发展角度来看，Alpha School采用的人工智能个性化教学系统代表了教育技术的前沿，通过智能算法和大数据分析，能够精准地满足每个学生的学习需求，提高教学效果和学习效率。从行业影响来看，这种新型教育模式打破了传统教育框架，挑战了教师角色，可能促使教育行业重新定义教师和教育工作者的角色，推动教育行业向更加灵活和个性化的方向发展。未来趋势方面，随着AI技术的不断进步和成本的降低，预计会有更多学校采用类似模式，实现教育的广泛个性化，同时，教育行业也将面临教师培训和职业转型等挑战。"
     },
     {
       "id": "news_1771540898466_4",
@@ -880,6 +928,30 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1771563315951_f19cc58e",
+      "title": "Teleport 推出智能体身份框架，为企业基础设施中的 AI 智能体提供安全保障",
+      "summary": "Teleport 推出智能体身份框架，为企业基础设施中的 AI 智能体提供安全保障",
+      "content": "Teleport 推出智能体身份框架，为企业基础设施中的 AI 智能体提供安全保障",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-18T08:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/NCScMoBflBRBsFh5tQmJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1771563276496_5",
+      "title": "Upstart萨尔瓦姆 unveiling 专为印度市场定制的AI模型",
+      "summary": "印度初创公司Sarvam AI推出专为印度市场定制的AI模型，旨在与全球竞争对手抗衡。该模型据称更符合印度的语言和文化特点。Upstart萨尔瓦姆希望通过这一举措，在印度这一全球最大市场中占据更有利的位置。",
+      "content": "印度一家名为Sarvam AI的初创公司正致力于在本土市场创造一个有竞争力的对手，并推出了一个它声称比L...更加符合全球最大市场语言和文化特点的人工智能模型。[494个字符]",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7zYxh7bPWco/v0/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-02-18T07:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-02-18/upstart-sarvam-unveils-ai-model-customized-for-india-market",
+      "aiInsight": "从技术发展角度看，Sarvam AI推出专为印度市场定制的AI模型，表明AI技术越来越注重本地化和个性化，能够更好地理解和处理特定区域的语言和文化特点。这种定制化AI模型的发展趋势有助于提高AI技术在不同文化背景下的适应性和准确性。\n\n从行业影响看，这一举措可能促使其他AI公司在开发产品和服务时更加重视本地市场的需求。这对于促进印度本地AI技术的发展和创新具有积极意义，同时也可能为其他新兴市场提供借鉴。\n\n从未来趋势来看，随着全球市场对个性化、本地化服务的需求不断增加，未来可能会出现更多针对特定地区或群体定制的AI模型。这不仅有助于提高AI应用的普及率，还有助于推动AI技术更加精细地融入各种应用场景，为用户提供更加优质的服务体验。"
+    },
+    {
       "id": "news_1771555650904_5",
       "title": "Upstart萨尔瓦姆揭晓了专为印度市场定制的AI模型",
       "summary": "印度初创公司Sarvam AI推出专为印度市场定制的AI模型，旨在打造本土竞争对手。该模型更适合印度的语言和文化，有望在印度这个世界上最大的市场中占据优势。Upstart萨尔瓦姆此举意在应对全球AI市场中缺乏针对印度市场的定制化解决方案的问题，为印度企业提供更具针对性的AI服务。",
@@ -914,18 +986,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.bloomberg.com/news/articles/2026-02-18/upstart-sarvam-unveils-ai-model-customized-for-india-market",
       "aiInsight": "此新闻展示了印度AI技术领域的本土化发展和创新，对于理解新兴市场中AI技术的应用具有重要意义。从技术发展角度来看，Sarvam AI针对印度市场定制的AI模型，显示了AI技术正在向着更加精细化、本土化的方向发展，能够更好地满足不同地区和文化背景下的特定需求。从行业影响角度来看，此举将促进印度AI市场的竞争，促使更多企业在开发AI产品时考虑更贴近本土用户的特点，从而推动印度AI产业的快速发展。未来趋势上，随着技术的不断进步和本土需求的多样化，AI技术将更加注重个性化和定制化，进一步推动AI技术在不同行业和地区的广泛应用。"
-    },
-    {
-      "id": "news_1771533733091_5",
-      "title": "Upstart萨尔瓦姆 unveiling 专为印度市场定制的AI模型",
-      "summary": "印度初创公司Sarvam AI推出专为印度市场定制的AI模型，旨在打造更具竞争力的人工智能产品。该公司表示，新模型将更好地适应印度的语言和文化特点，以满足全球最大市场的特定需求。这标志着Sarvam AI在印度本土化人工智能解决方案方面迈出了重要一步。",
-      "content": "印度一家名为Sarvam AI的初创公司正在努力打造一款针对国内市场、具有竞争力的人工智能模型，并宣称该模型更加符合全球最大市场中的语言和文化特点。",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/i7zYxh7bPWco/v0/1200x800.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2026-02-18T07:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2026-02-18/upstart-sarvam-unveils-ai-model-customized-for-india-market",
-      "aiInsight": "从技术角度看，Sarvam AI致力于开发适用于印度本地市场的AI模型，这体现了对特定语言和文化环境的深度理解和适应性优化，有助于提升模型的本地化表现和用户体验。这种定制化开发策略不仅能够更好地捕捉印度用户的行为模式，还能促进技术的普及和应用。\n\n从行业影响来看，此举为其他科技公司提供了借鉴，鼓励它们更加注重本地化策略，以更好地服务于全球不同地区的用户群体。这也有助于推动AI技术在新兴市场的落地和发展，促进市场潜力的释放。\n\n展望未来趋势，随着技术的不断进步和市场对个性化解决方案需求的增长，未来将出现更多针对特定地区或文化定制的AI模型，以满足多样化和精细化的市场需求。这不仅有助于提升AI技术的包容性和适用性，还可能催生新的商业模式和服务创新。"
     },
     {
       "id": "news_1771527764328_4",
@@ -1036,115 +1096,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1771430453575_cd8e5087",
-      "title": "苹果股票是大型科技股的“避风港”",
-      "summary": "苹果股票是大型科技股的“避风港”",
-      "content": "苹果在人工智能上的投入远不如其他大型科技巨头，这一点过去并不总被视为好事。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-02-18T03:09:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7883649.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1771555651403_6",
-      "title": "软件股票正在暴跌……它们的前瞻性估值会跟着下降吗？",
-      "summary": "人工智能正在重塑软件行业，导致传统软件企业如Workday和Salesforce的股价大幅下跌。尽管如此，许多华尔街分析师仍未调整其盈利预测，显示出他们可能未能充分认识到长期颠覆性风险。根据高盛策略师Ben Snider的数据，过去三个月跟踪软件行业的iShares Expanded Tech-Software Sector ETF（IGV）下跌了约24%。这表明市场对软件行业前景的担忧正在加剧，但分析师们的预测可能仍滞后于市场变化。",
-      "content": "人工智能正在颠覆软件行业。确实，像OpenAI、谷歌（GOOGL）和Anthropic这样的公司所取得的飞速进展，引发了传统软件企业如何竞争的重大担忧。因此，……",
-      "imageUrl": "https://blog.tipranks.com/wp-content/uploads/2026/02/image-1968.png?utm_source=markets.businessinsider.com&utm_medium=referral",
-      "source": "Markets Insider",
-      "publishedAt": "2026-02-18T02:47:45.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://markets.businessinsider.com/news/stocks/software-stocks-are-plummeting-are-their-forward-estimates-next-1035837733",
-      "aiInsight": "这篇新闻反映了AI技术快速发展对软件行业的影响。从技术发展角度看，OpenAI、谷歌和Anthropic等公司在生成式AI、自然语言处理等方面的突破，正在重塑软件行业的格局，传统的软件企业面临技术转型的压力。从行业影响角度看，这些进展可能促使传统软件公司调整战略，增加在AI技术上的投入，以保持竞争力。未来趋势方面，随着AI技术的进一步成熟和应用范围的扩大，软件行业的创新速度将加快，企业可能需要重新评估其产品和服务的价值定位，以适应新的市场环境。此外，前瞻性估值可能会随着技术发展和行业竞争格局的变化而调整，但具体影响还需视各企业自身的技术储备、市场适应能力等因素而定。"
-    },
-    {
-      "id": "news_1771544362495_6",
-      "title": "软件股票正在暴跌……它们的前瞻性估值会受到影响吗？",
-      "summary": "人工智能正在颠覆软件行业，传统软件企业面临严峻挑战。Workday和Salesforce等公司股价大幅下跌，但许多华尔街分析师仍未调整盈利预期，显示出对长期颠覆性风险的低估。根据Goldman Sachs的数据，过去三个月，跟踪软件行业的iShares Expanded Tech-Software Sector ETF下跌约24%。这表明市场对软件行业前景的看法存在分歧。",
-      "content": "人工智能正在颠覆软件行业。确实，像OpenAI、谷歌（GOOGL）和Anthropic这样的公司所取得的飞速进展，引发了传统软件企业如何竞争的重大担忧。因此，……",
-      "imageUrl": "https://blog.tipranks.com/wp-content/uploads/2026/02/image-1968.png?utm_source=markets.businessinsider.com&utm_medium=referral",
-      "source": "Markets Insider",
-      "publishedAt": "2026-02-18T02:47:45.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://markets.businessinsider.com/news/stocks/software-stocks-are-plummeting-are-their-forward-estimates-next-1035837733",
-      "aiInsight": "这篇新闻揭示了人工智能技术对软件行业带来的深刻变革及其对资本市场的影响。从技术角度来看，人工智能特别是大模型的应用，正在重塑软件开发和交付的方式，不仅提高了软件的功能性和效率，还催生了新的商业模式和服务形态。行业影响方面，传统软件企业面临着来自新兴AI企业的直接竞争和技术替代的威胁，股价下跌反映了投资者对这些企业未来竞争力的担忧。未来趋势上看，AI技术的发展将加速软件行业的创新和整合，推动软件企业加大在AI领域的投入，同时可能促使传统软件企业进行业务转型或寻找新的增长点。整体而言，短期内传统软件企业的估值可能会受到冲击，但长期来看，拥有强大研发能力和适应新技术趋势的企业有望从中受益。"
-    },
-    {
-      "id": "news_1771540897122_6",
-      "title": "软件股正在暴跌……它们的前瞻性估值会跟着下降吗？",
-      "summary": "人工智能正在颠覆软件行业，导致传统软件公司如Workday和Salesforce股价大幅下跌。尽管股价下跌，但许多华尔街分析师仍未调整其盈利预测，显示出他们可能未充分认识到长期颠覆风险。根据高盛策略师Ben Snider的数据，过去三个月，跟踪软件行业的iShares Expanded Tech-Software Sector ETF下跌约24%。这表明市场对软件股的前瞻性估值可能需要重新评估。",
-      "content": "人工智能正在颠覆软件行业。确实，像OpenAI、谷歌（GOOGL）和Anthropic这样的公司所取得的飞速进展，引发了传统软件企业如何竞争的严重担忧。因此，……",
-      "imageUrl": "https://blog.tipranks.com/wp-content/uploads/2026/02/image-1968.png?utm_source=markets.businessinsider.com&utm_medium=referral",
-      "source": "Markets Insider",
-      "publishedAt": "2026-02-18T02:47:45.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://markets.businessinsider.com/news/stocks/software-stocks-are-plummeting-are-their-forward-estimates-next-1035837733",
-      "aiInsight": "这篇新闻透露了人工智能（AI）技术革新对传统软件行业的深刻影响。从技术发展角度看，AI技术的进步，尤其是自然语言处理（NLP）和机器学习模型的突破，如OpenAI的GPT系列、谷歌的Transformer架构和Anthropic的Claude等，正在重塑软件开发和应用的方式。这些技术的出现可能导致软件行业重新洗牌，推动软件企业寻求新的差异化竞争策略。\n\n行业影响方面，AI技术的发展迫使传统软件公司重新评估其产品和服务的市场定位，可能需要更加关注智能化和自动化能力的提升。此外，AI技术的应用也可能催生新的市场机会，比如智能客服、个性化推荐系统等。\n\n未来趋势方面，预计AI技术将进一步渗透到软件行业的各个角落，加速软件行业的数字化转型。同时，这也将促进软件企业加强与AI技术提供商的合作，以提升自身的技术能力和市场竞争力。因此，传统的前瞻性估值模式可能需要调整，以更好地反映软件公司在这场技术变革中的新价值。\n\n不过，AI技术的广泛应用也伴随着伦理、隐私和安全等方面的挑战，这些因素也可能影响到软件行业的未来发展。"
-    },
-    {
-      "id": "news_1771516754479_4",
-      "title": "软件股票正在暴跌……他们的前瞻性估值会跟着下降吗？",
-      "summary": "人工智能的快速发展正在改变软件行业格局，导致传统软件企业如Workday和Salesforce的股价大幅下跌。尽管如此，许多华尔街分析师仍未调整其盈利预测，显示出他们可能未能充分认识到长期颠覆性风险。根据高盛策略师Ben Snider的数据，过去三个月跟踪软件行业的iShares Expanded Tech-Software Sector ETF（IGV）股价下跌了约24%。这表明市场对软件行业前景的担忧正在加剧。",
-      "content": "人工智能正在颠覆软件行业。确实，像OpenAI、谷歌（GOOGL）和Anthropic这样的公司所取得的飞速进展，引发了传统软件企业在竞争中如何应对的严重担忧。因此，……",
-      "imageUrl": "https://blog.tipranks.com/wp-content/uploads/2026/02/image-1968.png?utm_source=markets.businessinsider.com&utm_medium=referral",
-      "source": "Markets Insider",
-      "publishedAt": "2026-02-18T02:47:45.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://markets.businessinsider.com/news/stocks/software-stocks-are-plummeting-are-their-forward-estimates-next-1035837733",
-      "aiInsight": "这项新闻揭示了人工智能技术快速发展对传统软件行业的冲击，以及市场对此的反应。从技术发展角度看，人工智能尤其是生成式AI和大型语言模型的突破性进展，正在重塑软件行业的格局，提高了技术门槛，迫使企业进行技术升级和转型。行业影响方面，传统软件企业面临着产品和服务被取代或边缘化的风险，股价下跌反映了市场对未来前景的担忧。未来趋势上看，软件企业需要加强AI技术研发和应用，开拓新的业务模式，以保持竞争优势。市场也将更加关注这些公司对AI技术的采纳情况和创新成果，从而调整估值。"
-    },
-    {
-      "id": "news_1771507611679_3",
-      "title": "软件股票正在暴跌……它们的前瞻性估值会紧随其后吗？",
-      "summary": "人工智能正在重塑软件行业，导致传统软件企业如Workday和Salesforce的股价大幅下跌。尽管如此，许多华尔街分析师仍未调整其盈利预测，显示出对长期颠覆性风险的低估。根据高盛策略师Ben Snider的数据，过去三个月跟踪软件行业的iShares Expanded Tech-Software Sector ETF (IGV)股价下跌了约24%。这表明市场对软件行业前景存在分歧，投资者需警惕潜在风险。",
-      "content": "人工智能正在颠覆软件行业。确实，像OpenAI、谷歌（GOOGL）和Anthropic这样的公司所取得的飞速进展，引发了传统软件企业在竞争中如何应对的重大担忧。因此，……",
-      "imageUrl": "https://blog.tipranks.com/wp-content/uploads/2026/02/image-1968.png?utm_source=markets.businessinsider.com&utm_medium=referral",
-      "source": "Markets Insider",
-      "publishedAt": "2026-02-18T02:47:45.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://markets.businessinsider.com/news/stocks/software-stocks-are-plummeting-are-their-forward-estimates-next-1035837733",
-      "aiInsight": "这篇新闻揭示了当前软件行业面临的重大变革，以及人工智能技术对未来软件企业的影响。从技术发展角度看，人工智能技术的突破性进展，如大型语言模型和强化学习等，正在重塑软件行业，推动软件技术向更加智能化、自动化方向发展。从行业影响角度看，传统软件企业面临着前所未有的挑战，需要重新评估其产品和服务，以适应新的技术趋势。从未来趋势角度看，预计会有更多的软件企业将会加大在AI技术方面的投入，同时可能会出现新的商业模式和服务形态。对于软件股票而言，其估值可能会随着行业的变化而调整，投资者需要更加关注技术进步和市场需求的变化。"
-    },
-    {
-      "id": "news_1771501833325_3",
-      "title": "软件股正在暴跌……它们的前瞻性估值会受到影响吗？",
-      "summary": "人工智能正在重塑软件行业，导致传统软件企业面临严峻挑战。Workday和Salesforce等公司股价大幅下跌，但许多华尔街分析师仍未调整盈利预期，低估了长期颠覆风险。根据高盛数据，追踪软件行业的iShares Expanded Tech-Software Sector ETF在过去三个月下跌约24%。这表明分析师可能未充分认识到长期颠覆性风险。",
-      "content": "人工智能正在颠覆软件行业。确实，像OpenAI、谷歌（GOOGL）和Anthropic这样的公司所取得的飞速进展，引发了传统软件企业在竞争中如何应对的严重担忧。因此，……",
-      "imageUrl": "https://blog.tipranks.com/wp-content/uploads/2026/02/image-1968.png?utm_source=markets.businessinsider.com&utm_medium=referral",
-      "source": "Markets Insider",
-      "publishedAt": "2026-02-18T02:47:45.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://markets.businessinsider.com/news/stocks/software-stocks-are-plummeting-are-their-forward-estimates-next-1035837733",
-      "aiInsight": "该新闻标题表明了软件行业正面临前所未有的挑战，尤其是来自人工智能领域的颠覆性影响。从技术发展角度看，OpenAI、谷歌和Anthropic等公司在AI领域的突破性进展，如生成式AI、自然语言处理等，正在重塑软件行业的技术基础和应用场景。行业影响方面，这些技术进步不仅提高了软件开发的效率，还催生了新的商业模式和服务形态，对传统软件企业提出了严峻的生存挑战。未来趋势上看，传统软件企业需要积极拥抱AI技术，探索与AI结合的新业务模式，以保持竞争力。同时，市场对于软件企业的估值逻辑也可能发生深刻变化，传统的估值方法可能需要调整以适应新技术带来的机遇和挑战。"
-    },
-    {
-      "id": "news_1771498832527_3",
-      "title": "软件股票正在暴跌……它们的前瞻性估计会受到影响吗？",
-      "summary": "人工智能正在颠覆软件行业，传统软件企业面临严峻挑战。Workday和Salesforce等公司股价大幅下跌，但许多华尔街分析师仍未调整盈利预测，显示出他们可能未能充分认识到长期颠覆性风险。根据Goldman Sachs的数据，过去三个月，跟踪软件行业的iShares Expanded Tech-Software Sector ETF下跌约24%。这表明市场分析师可能低估了人工智能对软件行业的长期影响。",
-      "content": "人工智能正在颠覆软件行业。确实，像OpenAI、谷歌（GOOGL）和Anthropic这样的公司在技术上的飞速进步引发了传统软件企业如何竞争的重大担忧。因此，……",
-      "imageUrl": "https://blog.tipranks.com/wp-content/uploads/2026/02/image-1968.png?utm_source=markets.businessinsider.com&utm_medium=referral",
-      "source": "Markets Insider",
-      "publishedAt": "2026-02-18T02:47:45.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://markets.businessinsider.com/news/stocks/software-stocks-are-plummeting-are-their-forward-estimates-next-1035837733",
-      "aiInsight": "这篇新闻提到了人工智能（AI）技术对软件行业的影响，以及由此引发的市场反应。从技术发展的角度来看，AI技术的突破性进展，如自然语言处理、机器学习和深度学习的应用，正在重塑软件行业的创新模式和发展路径。传统软件企业需要审视自身产品与服务，以适应这一变化。\n\n从行业影响的角度来看，AI技术的发展不仅推动了软件行业的技术革新，还促进了软件服务模式的转变。例如，基于AI的个性化推荐系统和自动化工具正在改变软件应用的使用体验。传统软件企业面临转型压力，需要在战略上进行调整，以保持竞争力。\n\n未来趋势方面，AI技术将继续引领软件行业的发展。企业需要加强对AI技术的研究和应用，同时关注AI带来的伦理、隐私等社会问题。此外，随着云计算、大数据等技术的进一步发展，软件行业的集成化、服务化趋势将更加明显。企业应积极布局，把握新兴市场机遇，以应对未来的挑战。"
-    },
-    {
-      "id": "news_1771441640011_0",
-      "title": "软件股票正在暴跌……它们的未来估值会跟着下降吗？",
-      "summary": "人工智能正在颠覆软件行业，导致传统软件企业如Workday和Salesforce的股价大幅下跌。尽管如此，许多华尔街分析师仍未调整其盈利预测，显示出他们可能未能充分认识到长期颠覆性风险。根据高盛策略师Ben Snider的数据，过去三个月跟踪软件行业的iShares Expanded Tech-Software Sector ETF (IGV)股价下跌了约24%。这表明市场对软件行业未来估值的调整可能尚未到位。",
-      "content": "人工智能正在颠覆软件行业。确实，像OpenAI、谷歌（GOOGL）和Anthropic这样的公司所取得的飞速进展，引发了传统软件企业在竞争中如何应对的严重担忧。因此，……",
-      "imageUrl": "https://blog.tipranks.com/wp-content/uploads/2026/02/image-1968.png?utm_source=markets.businessinsider.com&utm_medium=referral",
-      "source": "Markets Insider",
-      "publishedAt": "2026-02-18T02:47:45.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://markets.businessinsider.com/news/stocks/software-stocks-are-plummeting-are-their-forward-estimates-next-1035837733",
-      "aiInsight": "这篇新闻报道了人工智能技术对传统软件行业的影响，以及由此引发的市场反应。从技术发展角度看，人工智能尤其是大型语言模型的迅速进步正在重塑软件行业的格局，推动技术创新和发展。从行业影响角度看，传统软件公司可能需要重新思考其产品定位和商业模式，以适应新的技术趋势。未来趋势方面，预计会有更多的软件公司加大对AI技术的投资，同时也可能出现新的AI驱动的软件产品和服务。从未来趋势看，虽然短期内部分软件股票可能因市场担忧而出现波动，但长期来看，AI技术的发展将为软件行业带来新的增长点和机遇。"
-    },
-    {
-      "id": "news_1771555687313_1c3e43e6",
+      "id": "news_1771563317541_1c3e43e6",
       "title": "使用 AI 生成了 MVP，这对软件架构来说意味着什么",
       "summary": "使用 AI 生成了 MVP，这对软件架构来说意味着什么",
       "content": "使用 AI 生成了 MVP，这对软件架构来说意味着什么",
@@ -1156,7 +1108,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1771555688992_6504d292",
+      "id": "news_1771563319616_6504d292",
       "title": "刚刚，OpenClaw “之父”正式加入OpenAI，项目仍保持开源并成立基金会",
       "summary": "刚刚，OpenClaw “之父”正式加入OpenAI，项目仍保持开源并成立基金会",
       "content": "刚刚，OpenClaw “之父”正式加入OpenAI，项目仍保持开源并成立基金会",
@@ -1168,7 +1120,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1771555690559_010b54c6",
+      "id": "news_1771563320996_010b54c6",
       "title": "Kubernetes驱动AI扩展，文化转型成为关键因素",
       "summary": "Kubernetes驱动AI扩展，文化转型成为关键因素",
       "content": "Kubernetes驱动AI扩展，文化转型成为关键因素",
@@ -1178,18 +1130,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/lCM9r8iIt0E5taMhmCfK?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1771555692205_1000a117",
-      "title": "Windsurf 推出 Arena Mode，可在开发过程中对比 AI 模型",
-      "summary": "Windsurf 推出 Arena Mode，可在开发过程中对比 AI 模型",
-      "content": "Windsurf 推出 Arena Mode，可在开发过程中对比 AI 模型",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-02-14T15:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/U93SfJ0k03fptmVZeWqQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
