@@ -1,8 +1,92 @@
 {
   "success": true,
-  "timestamp": "2026-02-22T11:31:12.108Z",
-  "total": 72,
+  "timestamp": "2026-02-22T13:09:17.568Z",
+  "total": 66,
   "data": [
+    {
+      "id": "news_1771765739558_05fa7100",
+      "title": "别再学做App了：Karpathy预言Agent将淘汰App Store，软件进入“用完即丢”时代",
+      "summary": "别再学做App了：Karpathy预言Agent将淘汰App Store，软件进入“用完即丢”时代",
+      "content": "别再学做App了：Karpathy预言Agent将淘汰App Store，软件进入“用完即丢”时代",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-22T20:37:45.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/4LPuZzDH4CXh5G5h5N4G?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1771765708598_682c0485",
+      "title": "后训练大牛Lambert：AI招聘市场正经历「乱纪元」",
+      "summary": "后训练大牛Lambert：AI招聘市场正经历「乱纪元」",
+      "content": "后训练大牛Lambert：AI招聘市场正经历「乱纪元」",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-02-22T13:07:35.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-02-22-5",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1771765709468_f3108451",
+      "title": "ICLR 2026｜把LLM Embedding Model算力瓶颈，从Query侧彻底移走，LightRetriever来了",
+      "summary": "ICLR 2026｜把LLM Embedding Model算力瓶颈，从Query侧彻底移走，LightRetriever来了...",
+      "content": "ICLR 2026｜把LLM Embedding Model算力瓶颈，从Query侧彻底移走，LightRetriever来了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-02-22T13:04:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-02-22-4",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1771765710242_c77a1959",
+      "title": "谷歌高管放话：这两类AI初创公司，别轻易涉足了",
+      "summary": "谷歌高管放话：这两类AI初创公司，别轻易涉足了",
+      "content": "谷歌高管放话：这两类AI初创公司，别轻易涉足了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-02-22T12:58:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-02-22-3",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1771765711081_8952da93",
+      "title": "TMLR 2026 | 首篇多模态长上下文Token压缩综述：浙大、西湖大学等全面解析MLLM效率瓶颈",
+      "summary": "TMLR 2026 | 首篇多模态长上下文Token压缩综述：浙大、西湖大学等全面解析MLLM效率瓶颈...",
+      "content": "TMLR 2026 | 首篇多模态长上下文Token压缩综述：浙大、西湖大学等全面解析MLLM效率瓶颈",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "机器之心",
+      "publishedAt": "2026-02-22T12:56:55.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.jiqizhixin.com/articles/2026-02-22-2",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1771765756312_9a354c14",
+      "title": "松延动力人形机器人登上春晚后：“假蔡明”被送给了真蔡明",
+      "summary": "IT之家 2 月 22 日消息，2 月 16 日晚，松延动力携多产品矩阵登上万众瞩目的央视春晚舞台，与著名艺术家蔡明完美配合演出小品《奶奶的最爱》，并展出了 1:1 复刻蔡明的仿生人形机器人。",
+      "content": "IT之家 2 月 22 日消息，2 月 16 日晚，松延动力携多产品矩阵登上万众瞩目的央视春晚舞台，与著名艺术家蔡明完美配合演出小品《奶奶的最爱》，并展出了 1:1 复刻蔡明的仿生人形机器人。 春晚结束后，“仿生蔡明”的去向也成为大家讨论的话题，有网友调侃应该送给 1996 年和蔡明一起表演的郭达，延续当年的小品。2 月 21 日，红星新闻记者从机器人厂家松延动力方面获悉，这台“仿生蔡明”已经被赠送给了真蔡明。 IT之家注意到，从确定仿生人形机器人要登上春晚开始，经过两个月的时间，松延动力就完成了从全栈自主研发到迭代三版的全流程，攻克了众多技术难关。 其技术核心突破集中在仿生人脸的底层架构：不仅是在铂金硅胶中添加高分子材料，增强了仿生人脸的拉伸自然度与耐久性，还通过高紧凑型驱动设计，在一个空间有限的仿生人脸内部放入了 32 个驱动动作的电机。 松延动力还自主构建了覆盖口型、表情、眼神、颈部姿态及手势的多模态协同表达模型。比如让机器人身体呈现出呼吸起伏的幅度，对话时颈部和手臂还能配合表情实现动作。 值得一提的是，仿生机器人并非“实验室产品”。在 2025 年，其已将仿生人脸产品送入了商业导览等多个场景之中。目前，松延动力已成为业内可以批量生产仿生人形机器人的企业。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/48ff31e1-f2e5-45e5-9420-b01918d3f912.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-02-22T12:26:56.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/922/860.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1771765756414_99105687",
+      "title": "科学家针对全球 95% 人口感染的 EB 病毒取得关键突破，为移植患者带来新希望",
+      "summary": "IT之家 2 月 22 日消息，美国福瑞德 · 哈金森（Fred Hutch）癌症中心的研究人员在对抗 EB（Epstein-Barr）病毒方面取得重要突破。 该病毒被认为感染了全球约 95% 的人口，并与多种癌症、神经退行性疾病以及其他长期健康问题密切相关。",
+      "content": "IT之家 2 月 22 日消息，美国福瑞德 · 哈金森（Fred Hutch）癌症中心的研究人员在对抗 EB（Epstein-Barr）病毒方面取得重要突破。 该病毒被认为感染了全球约 95% 的人口，并与多种癌症、神经退行性疾病以及其他长期健康问题密切相关。相关研究成果已于 2 月 17 日发表于 Cell Reports Medicine。 研究团队利用经过基因改造、携带人类抗体基因的小鼠，成功生成了一系列完全人源化（来源于人类）的单克隆抗体。这些抗体旨在阻断 EB 表面两种关键蛋白，从而干扰病毒附着并进入人类免疫细胞的过程。 这两种蛋白质 ——gp350 和 gp42—— 在病毒附着并进入人类免疫细胞的过程中发挥核心作用。其中一种靶向 gp42 的抗体在实验中完全保护了携带人类免疫系统的小鼠免受 EB 病毒感染。 “要想找到能够阻断 EB 病毒感染免疫细胞的人类抗体一直特别困难，因为与其他病毒不同，EB 病毒能够找到方法结合到几乎每一个 B 细胞上，”哈金森研究中心疫苗与传染病部门的生物化学家和细胞生物学家 Andrew McGuire 博士解释说，“我们决定利用新技术来填补这一知识空白，最终朝着阻断这种世界上最常见病毒之一迈出了关键一步。” 这里提到的 B 细胞是脊椎动物后天免疫系统体液免疫的核心，由骨髓产生并成熟。它们识别特定抗原，在辅助性 T 细胞协助下，增殖分化为浆细胞（分泌大量抗体）和记忆 B 细胞。B 细胞在淋巴结、脾脏等外周淋巴器官中起到对抗病原体的关键作用。 研究团队重点关注两种病毒蛋白：gp350 帮助 EB 病毒附着在人类细胞受体上，而 gp42 则在病毒与细胞融合并进入细胞的过程中发挥关键作用。通过使用携带人类抗体基因的专用小鼠模型，科学家们生成了两种靶向 gp350 和八种靶向 gp42 的单克隆抗体。 研究人员通过实验室进一步研究，还确定了病毒上的特定弱点，这可能为未来疫苗设计提供指导。在实验室测试中，一种靶向 gp42 的抗体在携带人类免疫系统的小鼠中完全阻止了 EB 病毒感染。靶向 gp350 的抗体则提供了部分保护。 这一发现对于移植患者尤为重要。例如，美国每年有超过 12.8 万人接受器官或骨髓移植，这些患者必须服用抑制免疫系统的药物以防止排异反应。目前尚无可靠预防 EB 病毒感染或在此脆弱期重新激活的靶向治疗方法。移植后 EB 病毒感染失控可导致移植后淋巴增殖性疾病，这是一种侵袭性且有时危及生命的淋巴瘤。 福瑞德 · 哈金森中心和华盛顿大学医学院的副教授、传染病医生 Rachel Bender Ignacio 医学博士指出：“移植后淋巴增殖性疾病，其中大多数是 EB 病毒相关淋巴瘤，是器官移植后发病和死亡的常见原因。预防 EB 病毒血症极有可能降低 PTLD 的发生率，并减少降低免疫抑制的需求，从而有助于在改善患者总体预后的同时保护移植物功能。” 研究人员正致力于将这种单克隆抗体疗法应用于高风险患者，目标是阻断 EB 病毒感染或重新激活，降低 PTLD 的可能性。如果开发顺利，该疗法将首先在健康成年志愿者中进行安全性测试，然后进入移植受者和其他免疫功能低下患者的临床试验。 IT之家附论文地址： https://doi.org/10.1016/j.xcrm.2026.102618",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/a1cc97f7-a894-4e3e-bd0b-94c6616add11.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-02-22T11:51:28.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/922/857.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1771756626083_26767549",
       "title": "智谱公开最新一代大模型 GLM-5 技术细节，性能显著提升",
@@ -388,6 +472,18 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1771765741502_fb6108cc",
+      "title": "无人工干预，16 个 Claude 智能体联合构建出 C 语言编译器",
+      "summary": "无人工干预，16 个 Claude 智能体联合构建出 C 语言编译器",
+      "content": "无人工干预，16 个 Claude 智能体联合构建出 C 语言编译器",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-21T08:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/YSdbKmoPyzFgxvPA3TZl?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1771656974505_97e2b132",
       "title": "国内首次实现集装箱船全流程无人化作业",
       "summary": "全国首艘投入商业运营的智能航行集装箱船舶“智飞”号2月21日凭借无人自主航行模式，精准靠泊山东港口青岛港自动化码头泊位，这标志着我国首次实现集装箱船舶航行、靠泊、作业的全流程无人化。",
@@ -556,18 +652,6 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1771759852914_126d6e55",
-      "title": "Agoda API Agent：零代码、零部署，将任意 API 转换为 MCP",
-      "summary": "Agoda API Agent：零代码、零部署，将任意 API 转换为 MCP",
-      "content": "Agoda API Agent：零代码、零部署，将任意 API 转换为 MCP",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-02-20T16:41:09.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/lTdPVphiffHFz6prrxu3?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1771602556089_f3d358cc",
       "title": "78 比特系统展现量子优势，中国科学家用“庄子 2.0”芯片首次观测到预热化现象，保真度超 90%",
       "summary": "IT之家 2 月 20 日消息，中国科学院物理研究所联合国内外科研团队在超导量子计算领域取得新进展。研究团队利用自主研制的 78 量子比特超导芯片“庄子 2.0”，成功观测到随机多极驱动下的预热化现象。",
@@ -652,151 +736,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1771593512881_6323ad3c",
-      "title": "Ubuntu 26.04 LTS 进入功能冻结阶段：计划 4 月 23 日发布，Linux 7.0 内核与 GNOME 50 即将登场",
-      "summary": "IT之家 2 月 20 日消息，Ubuntu 26.04 LTS（长期支持版）的开发工作今日迎来关键转折点。Canonical 工程师 Utkarsh Gupta 代表 Ubuntu 团队宣布，代号为“Resolute Raccoon”的下一代操作系统已正式进入“功能冻结”阶段。",
-      "content": "IT之家 2 月 20 日消息，Ubuntu 26.04 LTS（长期支持版）的开发工作今日迎来关键转折点。Canonical 工程师 Utkarsh Gupta 代表 Ubuntu 团队宣布，代号为“Resolute Raccoon”的下一代操作系统已正式进入“功能冻结”阶段。 这一里程碑标志着项目重心从积极开发新功能，全面转向 Bug 修复与系统稳定性打磨。IT之家提醒，“功能冻结”并非绝对不接受新功能，特殊情况下仍可能获批例外。 Ubuntu 26.04 LTS 计划于今年 4 月正式发布。根据目前已披露的信息，这一版本将集成大量前沿技术更新，备受期待的亮点包括： 内核与桌面环境：将搭载当时最新的 Linux 7.0 内核，并默认采用 GNOME 50 桌面环境，为用户带来上游社区的最新改进与特性。 开发工具链：全面采用 GCC 15 编译器套件，并更新其他工具链组件。 关键软件默认版本：默认 Java 版本将切换至 OpenJDK 25；系统监视器将替换为全新的 GNOME Resources。 其他重要更新：AMD 的 ROCm 计算平台将被纳入软件包存档，方便相关开发者与用户安装。此外，还将包含大量软件包的版本更新与功能增强。 随着功能冻结的开启，Ubuntu 26.04 LTS 后续的发布路线图也已明晰。根据计划，Canonical 将于 3 月底发布 Beta 测试版。若无意外，Ubuntu 26.04 LTS 将于 4 月 23 日如期与全球用户见面。 相关阅读： 《Ubuntu 26.04 LTS 发行版明年 4 月发布，将搭载 Linux 6.20 内核》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/f217fc20-8a66-4eb9-a737-b1a7fdb07647.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-02-20T12:39:59.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/922/622.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1771759814555_0",
-      "title": "英伟达正与OpenAI进行谈判，拟以7300亿美元的估值投资至多300亿美元。",
-      "summary": "英伟达正与OpenAI进行谈判，拟投资高达300亿美元，估值为7300亿美元。此举旨在加深英伟达在人工智能领域的影响力，加强与OpenAI的合作。此次投资将有助于推动人工智能技术的发展和应用。",
-      "content": "英伟达正在考虑一项可能加深其与人工智能领域最受关注公司之间联系的重大举措。该公司正在讨论投资高达300亿美元进入OpenAI，作为一项可能估值... [3070字符]",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/02/Nvidia-in-talks-to-invest-up-to-30B-in-OpenAI-at-730B-valuation.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-02-20T12:28:15.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://techstartups.com/2026/02/20/nvidia-in-talks-to-invest-up-to-30b-in-openai-at-730b-valuation/",
-      "aiInsight": "这项潜在的投资将对AI科技行业产生深远影响。从技术发展角度看，英伟达与OpenAI的深度合作有望加速AI技术的创新，特别是推动大型语言模型和通用AI的发展。英伟达在高性能计算领域的专长与OpenAI在AI研究方面的领先能力结合，可能推动AI算力的提升，加速模型训练和推理过程。从行业影响看，这笔投资将加强英伟达在AI基础设施市场的地位，进一步巩固其作为AI计算巨头的角色。同时，这笔投资也可能引发其他科技巨头对OpenAI投资的兴趣，加剧市场竞争。\n\n从未来趋势看，这一合作预示着未来AI技术的发展将更加注重实际应用和商业价值。此外，这项投资也可能促进AI技术在更多领域的应用，进一步推动数字化转型。然而，这笔交易还面临着监管审查和技术整合的挑战，需要密切关注后续进展。"
-    },
-    {
-      "id": "news_1771756578845_0",
-      "title": "英伟达正在与OpenAI进行谈判，拟以7300亿美元的估值投资至多300亿美元。",
-      "summary": "英伟达正与OpenAI进行谈判，拟投资高达300亿美元，估值或达7300亿美元。此举旨在加深双方在人工智能领域的合作。此次投资将有助于推动人工智能技术的发展，进一步巩固英伟达在人工智能领域的领先地位。",
-      "content": "英伟达正在考虑一项可能加深其与人工智能领域最受关注公司之间联系的重大举措。该公司正在讨论投资高达300亿美元给OpenAI，作为一轮融资的一部分，这轮融资可能估值为...",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/02/Nvidia-in-talks-to-invest-up-to-30B-in-OpenAI-at-730B-valuation.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-02-20T12:28:15.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://techstartups.com/2026/02/20/nvidia-in-talks-to-invest-up-to-30b-in-openai-at-730b-valuation/",
-      "aiInsight": "这一新闻揭示了英伟达与OpenAI之间潜在的重大合作，从多个维度来看具有深远影响：\n\n1. **技术发展**：英伟达作为GPU领域的领导者，其投资将极大加速OpenAI在人工智能训练和模型优化方面的工作，特别是在大模型训练上，这将推动AI技术进一步突破。\n\n2. **行业影响**：此次合作不仅会影响AI领域，还将波及其他科技行业。英伟达强大的计算能力支持，将为OpenAI及其他开放模型的研究提供强有力的技术支持，促进AI应用的普及和创新。\n\n3. **未来趋势**：此事件预示着未来AI领域可能更倾向于开放平台和生态构建，加速AI技术的普惠化和行业应用的深化。同时，也表明了AI技术在推动社会进步和产业升级中的重要性日益凸显。\n\n综上所述，这是一次具有里程碑意义的合作，将加速全球AI技术的发展步伐，对未来科技和经济格局产生深远影响。"
-    },
-    {
-      "id": "news_1771753249462_0",
-      "title": "英伟达正在与OpenAI进行谈判，拟投资至多300亿美元，估值为730亿美元。",
-      "summary": "英伟达正与OpenAI进行谈判，拟投资高达300亿美元，估值为730亿美元。此举旨在加深双方在人工智能领域的合作。英伟达希望通过此次投资进一步巩固其在人工智能和高性能计算领域的领先地位。",
-      "content": "英伟达正在考虑一项可能加深其与最受关注的人工智能公司之间联系的重大举措。该公司正在讨论投资高达300亿美元进入OpenAI，作为一项可能估值……[3070字符]",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/02/Nvidia-in-talks-to-invest-up-to-30B-in-OpenAI-at-730B-valuation.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-02-20T12:28:15.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://techstartups.com/2026/02/20/nvidia-in-talks-to-invest-up-to-30b-in-openai-at-730b-valuation/",
-      "aiInsight": "这项投资如果达成，将标志着英伟达和OpenAI关系的重大升级，从技术发展角度看，英伟达作为全球领先的GPU供应商，其投资将为OpenAI提供强大的硬件支持，加速其在人工智能领域的研究和应用。OpenAI拥有先进的算法和模型，而英伟达的高性能计算资源将为其提供强大的算力支持，有助于推动大模型训练和推理效率的提升。\n\n从行业影响看，此举将对AI行业产生深远影响。一方面，这将巩固英伟达在AI基础设施领域的领导地位，另一方面，也将有助于OpenAI扩大其影响力和市场份额。此外，这可能引发其他科技巨头对AI领域的竞争加剧，促使更多的资金和技术投入。\n\n未来趋势方面，本次合作预示着未来AI技术的发展将更加依赖于强大的算力支持，硬件和软件的紧密结合将成为关键。同时，这也表明大模型将成为AI技术发展的主要方向之一，未来将有更多资源投入到大规模预训练模型的研发中。此外，本次合作也可能推动AI技术在更多行业中的应用，促进AI技术与各行业的深度融合。"
-    },
-    {
-      "id": "news_1771749784411_0",
-      "title": "英伟达正与OpenAI就投资至多300亿美元进行谈判，估值为730亿美元",
-      "summary": "英伟达正与OpenAI就投资高达300亿美元进行谈判，估值为730亿美元。此举将加深英伟达与人工智能领域领军企业之间的联系，推动人工智能技术的发展。这笔投资将用于支持OpenAI在人工智能研究和开发方面的努力。",
-      "content": "英伟达正在考虑一项可能加深其与人工智能领域最受关注公司之间联系的重大举措。该公司正在讨论投资高达300亿美元进入OpenAI，作为一轮融资的一部分，该轮融资可能估值... [3070字符]",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/02/Nvidia-in-talks-to-invest-up-to-30B-in-OpenAI-at-730B-valuation.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-02-20T12:28:15.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://techstartups.com/2026/02/20/nvidia-in-talks-to-invest-up-to-30b-in-openai-at-730b-valuation/",
-      "aiInsight": "这一新闻反映了AI技术领域的重大合作与投资动向，从多个角度来看，其影响深远：\n\n1. **技术发展**：英伟达与OpenAI的深度合作将进一步加速AI技术的发展。英伟达在GPU和AI计算硬件方面的领先优势，将有助于OpenAI推进其超大规模模型训练和AI应用开发，提升AI系统的性能和效率。\n\n2. **行业影响**：此次合作对于整个AI行业来说是一个重大利好。一方面，这表明AI技术正受到资本市场的极大关注，预示着AI行业的高成长性和投资价值；另一方面，这种深度合作也可能推动AI技术在更多领域的应用，促进各行各业的数字化转型。\n\n3. **未来趋势**：从长远看，这可能预示着未来AI领域的发展趋势将更加注重技术的深度整合与跨界融合。AI技术将更加广泛地应用于各个行业，推动产业智能化升级。同时，也预示着AI技术将更加注重可持续发展，为社会带来更多的正面影响。\n\n总之，英伟达与OpenAI的合作，体现了AI技术在推动社会进步和产业升级中的重要作用，同时也预示着未来AI领域将更加注重技术创新和跨界合作。"
-    },
-    {
-      "id": "news_1771743783322_0",
-      "title": "英伟达正在与OpenAI进行谈判，可能投资至多300亿美元，估值为730亿美元。",
-      "summary": "英伟达正与OpenAI进行谈判，考虑投资高达300亿美元，估值为730亿美元。此举旨在加深与人工智能领域领军企业的合作，推动AI技术的发展。如果达成协议，这将成为科技行业有史以来最大的一笔私人投资之一。",
-      "content": "英伟达正在考虑一项可能加深其与人工智能领域最受关注公司之间联系的重大举措。该公司正在讨论投资高达300亿美元进入OpenAI，作为一项可能估值... [3070字符]",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/02/Nvidia-in-talks-to-invest-up-to-30B-in-OpenAI-at-730B-valuation.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-02-20T12:28:15.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://techstartups.com/2026/02/20/nvidia-in-talks-to-invest-up-to-30b-in-openai-at-730b-valuation/",
-      "aiInsight": "这项潜在的投资将对AI行业产生深远影响。从技术发展的角度看，英伟达作为GPU的领军企业，其与OpenAI的合作将加速AI模型的训练和部署，推动大模型、小模型及混合模型的发展。从行业影响来看，这可能促使其他科技巨头加大在AI领域的投入，加剧市场竞争。同时，这也可能加速AI技术在各领域的应用落地，如自动驾驶、医疗健康、金融科技等。\n\n未来趋势方面，预计英伟达与OpenAI的合作将推动AI技术的快速发展，推动算力需求的进一步增长。这将带动相关硬件企业的发展，如GPU、FPGA、ASIC等。同时，这也可能推动AI技术的普及，推动各行各业的数字化转型。然而，这也需要关注数据安全、隐私保护等问题。总之，这将是一次深度的产业融合，将推动整个科技行业的发展。"
-    },
-    {
-      "id": "news_1771716812586_0",
-      "title": "英伟达正在与OpenAI就投资至多300亿美元的事宜进行谈判，估值为730亿美元。",
-      "summary": "英伟达正与OpenAI就投资高达300亿美元的事宜进行谈判，估值或达730亿美元。此举旨在加深与最引人关注的人工智能公司之间的联系，推动人工智能技术的发展。若谈判成功，这将成为人工智能领域最大的一笔投资之一。",
-      "content": "英伟达正在考虑一项可能加深其与最引人关注的人工智能公司之间联系的重大举措。该公司正在讨论投资高达300亿美元进入OpenAI，作为一轮融资的一部分，这轮融资可能估值为...",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/02/Nvidia-in-talks-to-invest-up-to-30B-in-OpenAI-at-730B-valuation.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-02-20T12:28:15.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://techstartups.com/2026/02/20/nvidia-in-talks-to-invest-up-to-30b-in-openai-at-730b-valuation/",
-      "aiInsight": "这项潜在的投资将对AI技术领域产生深远影响。从技术发展角度看，英伟达作为GPU领域的领导者，其与OpenAI的合作将极大加速AI模型的训练和部署，推动大模型、生成式AI等前沿技术的发展。从行业影响角度来看，这一动作可能会引发其他科技巨头对AI领域的重新布局，加剧行业竞争。此外，这也预示着AI技术正逐步渗透到更多行业，成为推动数字化转型的关键力量。\n\n未来趋势方面，随着英伟达与OpenAI合作的深入，我们有望看到更多创新的AI解决方案涌现，加速AI技术的商业化进程。同时，随着AI对各行各业的影响加深，对于算力和数据的需求将持续增长，这将进一步推动AI基础设施的发展。这一合作也将促使更多企业重视AI技术的应用，加速AI领域的技术进步和产业生态建设。"
-    },
-    {
-      "id": "news_1771679203163_0",
-      "title": "英伟达正与OpenAI就投资至多300亿美元的事项进行谈判，估值为730亿美元。",
-      "summary": "英伟达正与OpenAI就投资高达300亿美元的事项进行谈判，估值为730亿美元。此举将加深英伟达与人工智能领域领军企业OpenAI的合作，进一步巩固其在人工智能计算领域的领先地位。此次投资将有助于推动人工智能技术的发展和应用。",
-      "content": "英伟达正在考虑一项可能加深其与人工智能领域最受关注公司之间联系的重大举措。该公司正在讨论投资高达300亿美元进入OpenAI，作为一项可能估值... [3070字符]",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/02/Nvidia-in-talks-to-invest-up-to-30B-in-OpenAI-at-730B-valuation.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-02-20T12:28:15.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://techstartups.com/2026/02/20/nvidia-in-talks-to-invest-up-to-30b-in-openai-at-730b-valuation/",
-      "aiInsight": "这项交易如果达成，将对AI科技领域产生重大影响。从技术发展角度看，英伟达是全球领先的GPU提供商，其产品在深度学习和高性能计算领域有着不可或缺的地位。此次投资OpenAI，意味着英伟达将进一步深化其在AI基础设施层面的布局，有助于加速AI模型的训练和优化，推动AI技术的进一步创新和发展。\n\n从行业影响角度看，此次投资不仅会促进OpenAI在研究和开发方面的进展，也可能会引发其他科技巨头的投资行为，形成新的竞争格局。同时，这笔投资也将为OpenAI带来资金支持，加速其实现长期愿景，即通过AI为全人类创造一个安全、包容、可持续的世界。\n\n未来趋势方面，随着AI技术逐渐从研究走向应用，对算力的需求将日益增加。英伟达与OpenAI的合作将有助于加速AI技术的商业化进程，为各行各业带来新的发展机遇。此外，双方的合作也将推动AI技术在更多领域的落地，如自动驾驶、医疗健康、金融科技等，为经济社会发展注入新的动力。然而，这也引发了对AI伦理和安全的关注，需要在推动技术发展的同时，加强监管和规范，确保AI技术的健康发展。"
-    },
-    {
-      "id": "news_1771656960317_0",
-      "title": "英伟达正在与OpenAI进行谈判，拟投资至多300亿美元，估值为7300亿美元。",
-      "summary": "英伟达正与OpenAI进行谈判，拟投资高达300亿美元，或将使OpenAI的估值达到7300亿美元。此举旨在加深英伟达在人工智能领域的布局，进一步巩固其在该领域的领先地位。此次投资将有助于OpenAI加速推进人工智能技术的研发和应用。",
-      "content": "英伟达正在考虑一项可能加深其与人工智能领域最受关注公司之间联系的重大举措。该公司正与OpenAI进行谈判，计划投资高达300亿美元作为融资轮的一部分，这可能将OpenAI的估值定为...",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/02/Nvidia-in-talks-to-invest-up-to-30B-in-OpenAI-at-730B-valuation.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-02-20T12:28:15.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://techstartups.com/2026/02/20/nvidia-in-talks-to-invest-up-to-30b-in-openai-at-730b-valuation/",
-      "aiInsight": "这项潜在的投资交易无疑将对人工智能行业产生深远影响。从技术发展的角度来看，英伟达作为GPU巨头，其对OpenAI的投资将加速AI模型训练和推理能力的提升，推动大模型、自然语言处理等领域的技术进步。从行业影响来看，此次投资将进一步巩固英伟达在AI基础设施建设中的领先地位，同时也可能促使其他科技公司加大在AI领域的投入。未来趋势方面，此次合作预示着AI技术将更加广泛地应用于商业、医疗、教育等多个领域，推动全球经济结构的变化。此外，这也可能引发关于数据隐私、算法公平性等伦理问题的讨论。"
-    },
-    {
-      "id": "news_1771653065362_0",
-      "title": "英伟达正在与OpenAI洽谈投资事宜，投资额度最高可达300亿美元，估值为730亿美元。",
-      "summary": "英伟达正与OpenAI洽谈高达300亿美元的投资事宜，估值为730亿美元。此举旨在深化双方在人工智能领域的合作。此次投资将加强英伟达在AI计算领域的领先地位，并助力OpenAI推动前沿技术发展。",
-      "content": "英伟达正在考虑一项可能加深其与人工智能领域最受关注公司之间联系的重大举措。该公司正在讨论投资高达300亿美元进入OpenAI，作为一轮融资的一部分，该轮融资可能估值... [3070字符]",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/02/Nvidia-in-talks-to-invest-up-to-30B-in-OpenAI-at-730B-valuation.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-02-20T12:28:15.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://techstartups.com/2026/02/20/nvidia-in-talks-to-invest-up-to-30b-in-openai-at-730b-valuation/",
-      "aiInsight": "这一消息显示了英伟达和OpenAI之间潜在的战略合作，从技术发展角度看，英伟达作为全球领先的GPU制造商，不仅能够为OpenAI提供强大的计算资源，还将进一步加速其在大模型训练和推理方面的技术进步。从行业影响角度来看，此次投资有望进一步巩固英伟达在全球AI基础设施领域的主导地位，同时也预示着OpenAI将成为推动下一代AI技术的重要力量。未来趋势上，预计此次合作将加速AI技术在更多行业中的应用，如自动驾驶、医疗健康、金融服务等，推动整个技术生态系统的革新与发展。\n\n此外，此次高额投资显示了市场对AI领域持续增长潜力的看好，预计未来会有更多科技巨头加大对AI领域的投入。对于整个产业链而言，这将促进AI技术的研发与应用，推动相关基础设施的建设和完善，为AI技术的进一步发展奠定坚实基础。然而，投资规模的庞大也可能带来一定的财务风险，因此英伟达需要谨慎评估此次投资的长期回报与风险。"
-    },
-    {
-      "id": "news_1771641685212_0",
-      "title": "英伟达正在与OpenAI就投资至多300亿美元的事项进行谈判，估值为730亿美元。",
-      "summary": "英伟达正与OpenAI进行谈判，计划投资高达300亿美元，这可能将OpenAI的估值提升至730亿美元。此次投资将加深英伟达与人工智能领域领军企业的联系，助力其在AI计算领域的发展。若谈判成功，这将成为科技史上最大的私人投资之一。",
-      "content": "英伟达正在考虑一项可能加深其与人工智能领域最受关注公司之间联系的重大举措。该公司正与OpenAI进行谈判，计划投资高达300亿美元作为融资轮的一部分，这可能将OpenAI的估值定为...",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/02/Nvidia-in-talks-to-invest-up-to-30B-in-OpenAI-at-730B-valuation.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-02-20T12:28:15.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://techstartups.com/2026/02/20/nvidia-in-talks-to-invest-up-to-30b-in-openai-at-730b-valuation/",
-      "aiInsight": "这项投资谈判标志着英伟达和OpenAI之间合作的进一步深化，对AI行业将产生深远影响。从技术角度看，英伟达作为高性能计算领域的领导者，其GPU技术对于训练大型语言模型至关重要。此次投资不仅能够加速OpenAI的发展，也可能推动更先进的人工智能技术的创新。\n\n在行业影响方面，此次合作可能会加剧AI领域的竞争格局，吸引更多企业关注AI技术的研发和应用。对于整个行业而言，这是一次重要的资本注入，有助于加速AI技术的商业化进程。\n\n展望未来，随着此次合作的推进，我们可能会看到更多基于先进AI技术的产品和服务出现。同时，这也可能引发新一轮的行业整合，进一步巩固领先企业的市场地位。整体来看，这是一次重要的资本与技术结合，将对未来AI产业发展产生重要影响。"
-    },
-    {
-      "id": "news_1771593513035_5cfd6ba5",
-      "title": "NZXT 恩杰推出《尼尔》系列 15 周年纪念款 H5 Flow 机箱",
-      "summary": "IT之家 2 月 20 日消息，作为《尼尔：自动人形》发售九周年直播活动的一部分，PC 硬件制造商 NZXT 恩杰宣布推出《尼尔》系列 15 周年纪念款 H5 Flow 机箱。",
-      "content": "IT之家 2 月 20 日消息，作为《尼尔：自动人形》发售九周年直播活动的一部分，PC 硬件制造商 NZXT 恩杰宣布推出《尼尔》系列 15 周年纪念款 H5 Flow 机箱。 这一机箱基于 2024 年款 NZXT H5 Flow 打造，左右两侧分别印有《尼尔：人工生命 》角色 Kainé 和《尼尔：自动人形》角色 2B 的形象。 NZXT《尼尔》系列 15 周年纪念款 H5 Flow 机箱将于 3 月 2 日发售，建议零售价为 31680 日元（IT之家注：现汇率约合 1413 元人民币）。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/6a41f91a-f177-4606-9c80-d15f83a7b425.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-02-20T12:22:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/922/619.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1771563308141_6e6ac9d7",
+      "id": "news_1771765745348_6e6ac9d7",
       "title": "“软件比白领更先被 AI 击穿”！Anthropic CEO 最新改口，反讽马斯克危言耸听，两大佬隔空互掐",
       "summary": "“软件比白领更先被 AI 击穿”！Anthropic CEO 最新改口，反讽马斯克危言耸听，两大佬隔空互掐...",
       "content": "“软件比白领更先被 AI 击穿”！Anthropic CEO 最新改口，反讽马斯克危言耸听，两大佬隔空互掐",
@@ -808,19 +748,19 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1771593513192_3d91f951",
-      "title": "海盗船推出限量版 FRAME 4000D 机箱：变色幻彩漆面，每种配色限量 1337 件",
-      "summary": "IT之家 2 月 20 日消息，CORSAIR 海盗船美国加州当地时间本月 19 日宣布推出 FRAME 4000D 家族机箱的 Vault Series 限量版变体，首发包括新星 (Nova) 和银河 (Galaxy) 两款，各自限量 1337 件。",
-      "content": "IT之家 2 月 20 日消息，CORSAIR 海盗船美国加州当地时间本月 19 日宣布推出 FRAME 4000D 家族机箱的 Vault Series 限量版变体，首发包括新星 (Nova) 和银河 (Galaxy) 两款，各自限量 1337 件。 此次推出的 FRAME 4000D Vault Series Nova / Galaxy 外部均采用变色幻彩漆面涂装，其中内饰为白色主题的 Nova 款可在不同的光线角度下在蓝-青-紫三色间变化，而内饰为黑色的 Galaxy 款则是粉-绿-灰变色，皆能带来独特的个性视觉体验。 IT之家注意到，这两款限量机箱在结构上与 FRAME 4000D LCD RS ARGB 有不少相似之处：相较原版 FRAME 4000D，其电源舱护罩缩短；底部支持 1 颗 120mm 风扇；前置 USB 接口完全 Type-C 化。此外新品拥有完整的钢化玻璃左侧板。 而作为限量版产品，FRAME 4000D Vault Series Nova / Galaxy 在顶部 InfiniRail 风扇安装系统旁侧添加了一块限量版蚀刻铝质铭牌，显示其具体编号。 海盗船 FRAME 4000D Vault Series Nova / Galaxy 机箱售价均为 139.99 美元（IT之家注：现汇率约合 968.2 元人民币）。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/4859475e-db59-4890-878d-87004f33bc25.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-02-20T11:45:58.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/922/614.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1771765746855_2559d951",
+      "title": "字节豆包2.0重磅发布！成本暴降一个数量级，Seed团队揭秘视频Agent竞争关键",
+      "summary": "字节豆包2.0重磅发布！成本暴降一个数量级，Seed团队揭秘视频Agent竞争关键",
+      "content": "字节豆包2.0重磅发布！成本暴降一个数量级，Seed团队揭秘视频Agent竞争关键",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-20T11:58:12.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/Kcqq2ifEZCJaK8o0TxN1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1771759858658_b804efe7",
+      "id": "news_1771765748361_b804efe7",
       "title": "代码界新王登基！Gemini 3.1 Pro血洗Claude与GPT，12项基准测试第一！",
       "summary": "代码界新王登基！Gemini 3.1 Pro血洗Claude与GPT，12项基准测试第一！",
       "content": "代码界新王登基！Gemini 3.1 Pro血洗Claude与GPT，12项基准测试第一！",
@@ -832,7 +772,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1771759861088_290b203b",
+      "id": "news_1771765750383_290b203b",
       "title": "当AI开始拥有灵魂：逐句解读OpenClaw的SOUL.md",
       "summary": "当AI开始拥有灵魂：逐句解读OpenClaw的SOUL.md",
       "content": "当AI开始拥有灵魂：逐句解读OpenClaw的SOUL.md",
@@ -844,7 +784,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1771759862931_f19cc58e",
+      "id": "news_1771765751890_f19cc58e",
       "title": "Teleport 推出智能体身份框架，为企业基础设施中的 AI 智能体提供安全保障",
       "summary": "Teleport 推出智能体身份框架，为企业基础设施中的 AI 智能体提供安全保障",
       "content": "Teleport 推出智能体身份框架，为企业基础设施中的 AI 智能体提供安全保障",
@@ -854,18 +794,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/NCScMoBflBRBsFh5tQmJ?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1771759865250_1c3e43e6",
-      "title": "使用 AI 生成了 MVP，这对软件架构来说意味着什么",
-      "summary": "使用 AI 生成了 MVP，这对软件架构来说意味着什么",
-      "content": "使用 AI 生成了 MVP，这对软件架构来说意味着什么",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-02-16T13:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/hIHSjxraqSi1kJL2a7uQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
