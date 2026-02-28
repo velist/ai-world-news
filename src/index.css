@@ -8,115 +8,109 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* Apple-inspired colorful design system */
-    --background: 240 100% 99%;
-    --foreground: 240 10% 3.9%;
+    /* ===== 莫兰迪配色系统 (Morandi Palette) ===== */
+    --background: 28 25% 93%;           /* #F2EDE8 暖米灰背景 */
+    --foreground: 26 6% 26%;            /* #4A4540 深棕文字 */
 
-    --card: 0 0% 100%;
-    --card-foreground: 240 10% 3.9%;
+    --card: 30 33% 98%;                 /* #FDFBF9 卡片白 */
+    --card-foreground: 26 6% 26%;       /* #4A4540 */
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 240 10% 3.9%;
+    --popover: 30 33% 98%;
+    --popover-foreground: 26 6% 26%;
 
-    /* Vibrant primary colors - iOS blue */
-    --primary: 211 100% 50%;
-    --primary-foreground: 0 0% 100%;
-    --primary-glow: 211 100% 65%;
+    /* 莫兰迪主色 - 灰棕 */
+    --primary: 26 6% 26%;               /* #4A4540 深棕 */
+    --primary-foreground: 30 33% 98%;   /* #FDFBF9 */
+    --primary-glow: 26 6% 36%;
 
-    /* Soft secondary - iOS purple */
-    --secondary: 263 88% 67%;
-    --secondary-foreground: 0 0% 100%;
+    /* 莫兰迪副色 - 灰玫瑰 */
+    --secondary: 12 18% 70%;            /* #C4A7A0 灰玫瑰 */
+    --secondary-foreground: 30 33% 98%;
 
-    /* Muted colors */
-    --muted: 240 4.8% 95.9%;
-    --muted-foreground: 240 3.8% 46.1%;
+    /* 柔和灰调 */
+    --muted: 28 15% 90%;               /* 柔灰 */
+    --muted-foreground: 26 6% 50%;     /* #8A837A 灰棕副文字 */
 
-    /* Accent colors - iOS orange */
-    --accent: 27 96% 61%;
-    --accent-foreground: 0 0% 100%;
+    /* 莫兰迪强调色 - 灰绿 */
+    --accent: 110 8% 65%;              /* #A3B0A0 灰绿 */
+    --accent-foreground: 30 33% 98%;
 
-    /* News category colors */
-    --ai-color: 280 100% 70%;      /* Purple for AI */
-    --tech-color: 211 100% 50%;    /* Blue for Tech */
-    --economy-color: 142 76% 36%;  /* Green for Economy */
-    --analysis-color: 27 96% 61%;  /* Orange for Analysis */
+    /* 莫兰迪分类色 */
+    --ai-color: 12 18% 70%;           /* 灰玫瑰 for AI */
+    --tech-color: 200 14% 67%;        /* 灰蓝 for Tech */
+    --economy-color: 110 8% 65%;      /* 灰绿 for Economy */
+    --analysis-color: 280 8% 68%;     /* 灰紫 for Analysis */
 
-    --destructive: 0 84.2% 60.2%;
-    --destructive-foreground: 0 0% 100%;
+    --destructive: 0 40% 55%;
+    --destructive-foreground: 30 33% 98%;
 
-    --border: 240 5.9% 90%;
-    --input: 240 5.9% 90%;
-    --ring: 211 100% 50%;
+    --border: 28 18% 85%;             /* #E0D8CF 柔和边框 */
+    --input: 28 18% 85%;
+    --ring: 26 6% 26%;
 
-    /* Beautiful gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(211 100% 50%), hsl(263 88% 67%));
-    --gradient-hero: linear-gradient(135deg, hsl(211 100% 50%) 0%, hsl(263 88% 67%) 50%, hsl(27 96% 61%) 100%);
-    --gradient-card: linear-gradient(135deg, hsl(0 0% 100%) 0%, hsl(240 100% 99%) 100%);
-    --gradient-ai: linear-gradient(135deg, hsl(280 100% 70%), hsl(280 100% 85%));
-    --gradient-tech: linear-gradient(135deg, hsl(211 100% 50%), hsl(211 100% 70%));
-    --gradient-economy: linear-gradient(135deg, hsl(142 76% 36%), hsl(142 76% 56%));
-    --gradient-analysis: linear-gradient(135deg, hsl(27 96% 61%), hsl(27 96% 76%));
+    /* 莫兰迪渐变 - 极简低饱和度 */
+    --gradient-primary: linear-gradient(135deg, hsl(26 6% 26%), hsl(26 6% 36%));
+    --gradient-hero: linear-gradient(135deg, hsl(26 6% 30%) 0%, hsl(12 18% 60%) 50%, hsl(28 25% 80%) 100%);
+    --gradient-card: linear-gradient(135deg, hsl(30 33% 98%) 0%, hsl(28 25% 95%) 100%);
+    --gradient-ai: linear-gradient(135deg, hsl(12 18% 70%), hsl(12 18% 80%));
+    --gradient-tech: linear-gradient(135deg, hsl(200 14% 67%), hsl(200 14% 77%));
+    --gradient-economy: linear-gradient(135deg, hsl(110 8% 65%), hsl(110 8% 75%));
+    --gradient-analysis: linear-gradient(135deg, hsl(280 8% 68%), hsl(280 8% 78%));
 
-    /* Shadows */
-    --shadow-soft: 0 2px 8px -3px hsl(240 5% 12% / 0.12), 0 4px 20px -8px hsl(240 5% 12% / 0.08);
-    --shadow-medium: 0 4px 12px -2px hsl(240 5% 12% / 0.16), 0 8px 24px -4px hsl(240 5% 12% / 0.12);
-    --shadow-large: 0 8px 25px -5px hsl(240 5% 12% / 0.2), 0 16px 40px -12px hsl(240 5% 12% / 0.16);
+    /* 柔和阴影 */
+    --shadow-soft: 0 2px 8px -3px hsl(26 6% 26% / 0.06), 0 4px 20px -8px hsl(26 6% 26% / 0.04);
+    --shadow-medium: 0 4px 12px -2px hsl(26 6% 26% / 0.08), 0 8px 24px -4px hsl(26 6% 26% / 0.06);
+    --shadow-large: 0 8px 25px -5px hsl(26 6% 26% / 0.1), 0 16px 40px -12px hsl(26 6% 26% / 0.08);
 
-    --radius: 1rem;
+    --radius: 0.75rem;
 
-    --sidebar-background: 0 0% 98%;
-
-    --sidebar-foreground: 240 5.3% 26.1%;
-
-    --sidebar-primary: 240 5.9% 10%;
-
-    --sidebar-primary-foreground: 0 0% 98%;
-
-    --sidebar-accent: 240 4.8% 95.9%;
-
-    --sidebar-accent-foreground: 240 5.9% 10%;
-
-    --sidebar-border: 220 13% 91%;
-
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --sidebar-background: 28 25% 95%;
+    --sidebar-foreground: 26 6% 26%;
+    --sidebar-primary: 26 6% 26%;
+    --sidebar-primary-foreground: 30 33% 98%;
+    --sidebar-accent: 28 15% 90%;
+    --sidebar-accent-foreground: 26 6% 26%;
+    --sidebar-border: 28 18% 88%;
+    --sidebar-ring: 26 6% 26%;
   }
 
   .dark {
-    --background: 222.2 84% 4.9%;
-    --foreground: 210 40% 98%;
+    /* 莫兰迪暗色主题 */
+    --background: 26 8% 12%;
+    --foreground: 28 15% 85%;
 
-    --card: 222.2 84% 4.9%;
-    --card-foreground: 210 40% 98%;
+    --card: 26 8% 15%;
+    --card-foreground: 28 15% 85%;
 
-    --popover: 222.2 84% 4.9%;
-    --popover-foreground: 210 40% 98%;
+    --popover: 26 8% 15%;
+    --popover-foreground: 28 15% 85%;
 
-    --primary: 210 40% 98%;
-    --primary-foreground: 222.2 47.4% 11.2%;
+    --primary: 28 15% 85%;
+    --primary-foreground: 26 8% 12%;
 
-    --secondary: 217.2 32.6% 17.5%;
-    --secondary-foreground: 210 40% 98%;
+    --secondary: 12 10% 35%;
+    --secondary-foreground: 28 15% 85%;
 
-    --muted: 217.2 32.6% 17.5%;
-    --muted-foreground: 215 20.2% 65.1%;
+    --muted: 26 6% 20%;
+    --muted-foreground: 28 10% 60%;
 
-    --accent: 217.2 32.6% 17.5%;
-    --accent-foreground: 210 40% 98%;
+    --accent: 110 5% 30%;
+    --accent-foreground: 28 15% 85%;
 
-    --destructive: 0 62.8% 30.6%;
-    --destructive-foreground: 210 40% 98%;
+    --destructive: 0 40% 35%;
+    --destructive-foreground: 28 15% 85%;
 
-    --border: 217.2 32.6% 17.5%;
-    --input: 217.2 32.6% 17.5%;
-    --ring: 212.7 26.8% 83.9%;
-    --sidebar-background: 240 5.9% 10%;
-    --sidebar-foreground: 240 4.8% 95.9%;
-    --sidebar-primary: 224.3 76.3% 48%;
-    --sidebar-primary-foreground: 0 0% 100%;
-    --sidebar-accent: 240 3.7% 15.9%;
-    --sidebar-accent-foreground: 240 4.8% 95.9%;
-    --sidebar-border: 240 3.7% 15.9%;
-    --sidebar-ring: 217.2 91.2% 59.8%;
+    --border: 26 6% 22%;
+    --input: 26 6% 22%;
+    --ring: 28 15% 70%;
+    --sidebar-background: 26 8% 10%;
+    --sidebar-foreground: 28 15% 85%;
+    --sidebar-primary: 28 15% 80%;
+    --sidebar-primary-foreground: 26 8% 12%;
+    --sidebar-accent: 26 6% 18%;
+    --sidebar-accent-foreground: 28 15% 85%;
+    --sidebar-border: 26 6% 18%;
+    --sidebar-ring: 28 15% 70%;
   }
 }
 

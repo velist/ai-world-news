@@ -3,19 +3,17 @@ import { Helmet } from 'react-helmet-async';
 import { AppHeader } from '@/components/AppHeader';
 import { CategoryTabs } from '@/components/CategoryTabs';
 import { NewsCard } from '@/components/NewsCard';
-import { VirtualizedNewsList } from '@/components/VirtualizedNewsList';
 import { SideMenu } from '@/components/SideMenu';
 import { DailyBriefing } from '@/components/DailyBriefing';
 import { Disclaimer } from '@/components/Disclaimer';
 import { EmailSubscribe } from '@/components/EmailSubscribe';
-import { MobileTouchOptimizer } from '@/components/MobileTouchOptimizer';
 import { PerformanceMonitor } from '@/components/PerformanceMonitor';
 import { MobileNavigation, MobileGestureHint } from '@/components/MobileNavigation';
 import { useNews } from '@/hooks/useNews';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useScrollPosition } from '@/hooks/useScrollPosition';
 import { usePerformanceOptimization } from '@/hooks/usePerformanceOptimization';
-import { Loader2, RefreshCw, Clock } from 'lucide-react';
+import { RefreshCw, Clock } from 'lucide-react';
 
 const Index = () => {
   const { news, loading, error, categories, selectedCategory, setSelectedCategory, refreshNews } = useNews();
@@ -25,15 +23,13 @@ const Index = () => {
     restoreOnMount: true,
     saveOnUnmount: true
   });
-  const { debounce, preloadResource } = usePerformanceOptimization();
+  const { debounce } = usePerformanceOptimization();
   const [lastUpdateTime, setLastUpdateTime] = useState<Date>(new Date());
   const [sideMenuOpen, setSideMenuOpen] = useState(false);
   const [dailyBriefingOpen, setDailyBriefingOpen] = useState(false);
   const [disclaimerOpen, setDisclaimerOpen] = useState(false);
   const [emailSubscribeOpen, setEmailSubscribeOpen] = useState(false);
 
-
-  // 更新最后刷新时间
   useEffect(() => {
     if (!loading && !error && news.length > 0) {
       setLastUpdateTime(new Date());
@@ -41,28 +37,18 @@ const Index = () => {
   }, [news, loading, error]);
 
   const handleRefresh = debounce(() => {
-    // 保存当前滚动位置，刷新后恢复
     saveScrollPosition();
     refreshNews();
     setLastUpdateTime(new Date());
-    // 延迟恢复滚动位置，确保新数据已渲染
-    setTimeout(() => {
-      restoreScrollPosition();
-    }, 300);
-  }, 1000); // 防抖1秒，避免频繁刷新
+    setTimeout(() => restoreScrollPosition(), 300);
+  }, 1000);
 
   const handleMenuClick = (menuItem: string) => {
     setSideMenuOpen(false);
     switch (menuItem) {
-      case 'daily-briefing':
-        setDailyBriefingOpen(true);
-        break;
-      case 'rss-subscribe':
-        setEmailSubscribeOpen(true);
-        break;
-      case 'disclaimer':
-        setDisclaimerOpen(true);
-        break;
+      case 'daily-briefing': setDailyBriefingOpen(true); break;
+      case 'rss-subscribe': setEmailSubscribeOpen(true); break;
+      case 'disclaimer': setDisclaimerOpen(true); break;
     }
   };
 
@@ -70,44 +56,25 @@ const Index = () => {
     const now = new Date();
     const diff = now.getTime() - date.getTime();
     const minutes = Math.floor(diff / (1000 * 60));
-    
-    if (minutes < 1) {
-      return isZh ? '刚刚更新' : 'Just updated';
-    } else if (minutes < 60) {
-      return isZh ? `${minutes}分钟前更新` : `Updated ${minutes}m ago`;
-    } else {
-      const hours = Math.floor(minutes / 60);
-      return isZh ? `${hours}小时前更新` : `Updated ${hours}h ago`;
-    }
+    if (minutes < 1) return isZh ? '刚刚更新' : 'Just updated';
+    if (minutes < 60) return isZh ? `${minutes}分钟前更新` : `Updated ${minutes}m ago`;
+    const hours = Math.floor(minutes / 60);
+    return isZh ? `${hours}小时前更新` : `Updated ${hours}h ago`;
   };
 
   return (
-    // 暂时禁用MobileTouchOptimizer调试
-    <div className="min-h-screen bg-background">
-      <PerformanceMonitor 
-        onMetrics={(metrics) => {
-          // 可以在这里发送性能数据到分析服务
-          console.log('性能指标:', metrics);
-        }} 
-      />
+    <div className="min-h-screen" style={{ background: 'hsl(var(--background))' }}>
+      <PerformanceMonitor onMetrics={(metrics) => console.log('性能指标:', metrics)} />
       <Helmet>
         <title>AI推 - 最新AI资讯聚合平台</title>
         <meta name="description" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
-        
-        {/* Canonical URL - 解决Google索引问题 */}
         <link rel="canonical" href="https://news.aipush.fun/" />
-        
-        {/* SEO优化 */}
         <meta name="robots" content="index,follow" />
         <meta name="googlebot" content="index,follow" />
-        
-        {/* 微信分享专用标签 */}
         <meta name="wxcard:title" content="AI推 - 最新AI资讯聚合平台" />
         <meta name="wxcard:desc" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
         <meta name="wxcard:imgUrl" content={`${window.location.origin}/wechat-share-300.png?v=2025080802`} />
         <meta name="wxcard:link" content={window.location.origin} />
-
-        {/* Open Graph / Facebook */}
         <meta property="og:type" content="website" />
         <meta property="og:url" content={window.location.origin} />
         <meta property="og:title" content="AI推 - 最新AI资讯聚合平台" />
@@ -117,132 +84,126 @@ const Index = () => {
         <meta property="og:image:height" content="300" />
         <meta property="og:image:type" content="image/png" />
         <meta property="og:site_name" content="AI推" />
-
-        {/* Twitter */}
         <meta property="twitter:card" content="summary_large_image" />
         <meta property="twitter:url" content={window.location.origin} />
         <meta property="twitter:title" content="AI推 - 最新AI资讯聚合平台" />
         <meta property="twitter:description" content="AI推为您聚合最新的人工智能资讯、技术动态、深度分析和行业趋势，让您第一时间了解AI领域的最新发展。" />
         <meta property="twitter:image" content={`${window.location.origin}/wechat-share-300.png?v=2025080802`} />
       </Helmet>
-      
-      <div className="min-h-screen bg-background">
+
+      <div className="min-h-screen" style={{ background: 'hsl(var(--background))' }}>
         <AppHeader onMenuClick={() => setSideMenuOpen(true)} />
-      
-      {/* 侧边菜单 */}
-      <SideMenu 
-        isOpen={sideMenuOpen}
-        onClose={() => setSideMenuOpen(false)}
-        onMenuClick={handleMenuClick}
-      />
-      
-      {/* 每日晨报弹窗 */}
-      <DailyBriefing 
-        isOpen={dailyBriefingOpen}
-        onClose={() => setDailyBriefingOpen(false)}
-      />
-      
-      {/* 免责声明弹窗 */}
-      <Disclaimer 
-        isOpen={disclaimerOpen}
-        onClose={() => setDisclaimerOpen(false)}
-      />
-      
-      {/* 邮箱订阅弹窗 */}
-      <EmailSubscribe 
-        isOpen={emailSubscribeOpen}
-        onClose={() => setEmailSubscribeOpen(false)}
-      />
-      
-      <div className="max-w-6xl mx-auto px-4 py-6 space-y-6">
-        {/* Category Tabs */}
-        <div className="flex justify-center">
-          <CategoryTabs
-            categories={categories}
-            activeCategory={selectedCategory}
-            onCategoryChange={setSelectedCategory}
-          />
-        </div>
 
-        {/* Update Status and Refresh */}
-        {!error && (
-          <div className="flex items-center justify-between bg-muted/50 rounded-lg px-4 py-3">
-            <div className="flex items-center space-x-2 text-sm text-muted-foreground">
-              <Clock className="w-4 h-4" />
-              <span>{formatUpdateTime(lastUpdateTime)}</span>
-              <span className="text-xs opacity-75">• {isZh ? '每5分钟自动刷新' : 'Auto refresh every 5min'}</span>
-            </div>
-            <button
-              onClick={handleRefresh}
-              disabled={loading}
-              className="flex items-center space-x-2 px-3 py-1.5 bg-primary/10 hover:bg-primary/20 text-primary rounded-md transition-colors disabled:opacity-50"
-            >
-              <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
-              <span className="text-sm">{isZh ? '刷新' : 'Refresh'}</span>
-            </button>
+        {/* Side Menu */}
+        <SideMenu isOpen={sideMenuOpen} onClose={() => setSideMenuOpen(false)} onMenuClick={handleMenuClick} />
+        <DailyBriefing isOpen={dailyBriefingOpen} onClose={() => setDailyBriefingOpen(false)} />
+        <Disclaimer isOpen={disclaimerOpen} onClose={() => setDisclaimerOpen(false)} />
+        <EmailSubscribe isOpen={emailSubscribeOpen} onClose={() => setEmailSubscribeOpen(false)} />
+
+        {/* Main Content - Single Column */}
+        <div className="max-w-[680px] mx-auto px-6 pb-20">
+          {/* Category Tabs */}
+          <div className="pt-4 pb-2">
+            <CategoryTabs
+              categories={categories}
+              activeCategory={selectedCategory}
+              onCategoryChange={setSelectedCategory}
+            />
           </div>
-        )}
 
-        {/* Error State */}
-        {error && (
-          <div className="flex flex-col items-center justify-center py-12">
-            <div className="text-red-500 mb-4 text-center">
-              <p className="font-semibold">{isZh ? '新闻获取失败' : 'Failed to fetch news'}</p>
-              <p className="text-sm">{error}</p>
-            </div>
-            <button
-              onClick={handleRefresh}
-              disabled={loading}
-              className="flex items-center space-x-2 px-4 py-2 bg-primary text-primary-foreground rounded-lg hover:bg-primary/90 transition-colors disabled:opacity-50"
-            >
-              <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
-              <span>{isZh ? '重新获取' : 'Retry'}</span>
-            </button>
-          </div>
-        )}
-
-        {/* Loading State */}
-        {loading && (
-          <div className="flex items-center justify-center py-12">
-            <div className="flex items-center space-x-2 text-muted-foreground">
-              <Loader2 className="w-5 h-5 animate-spin" />
-              <span>{isZh ? '正在获取最新AI新闻...' : 'Loading latest AI news...'}</span>
-            </div>
-          </div>
-        )}
-
-        {/* News Grid - 恢复简单渲染 */}
-        {!loading && !error && news.length > 0 && (
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 mobile-scroll-container">
-            {news.map((item, index) => (
-              <div
-                key={`${item.id}-${index}`}
-                className="animate-fade-in"
-                style={{ animationDelay: `${Math.min(index * 50, 1000)}ms` }}
-              >
-                <NewsCard {...item} />
+          {/* Update Status */}
+          {!error && !loading && (
+            <div className="flex items-center justify-between py-3" style={{ borderBottom: '1px solid hsl(var(--border))' }}>
+              <div className="flex items-center space-x-2 text-sm" style={{ color: 'hsl(var(--muted-foreground))' }}>
+                <Clock className="w-3.5 h-3.5" />
+                <span className="text-xs">{formatUpdateTime(lastUpdateTime)}</span>
               </div>
-            ))}
-          </div>
-        )}
+              <button
+                onClick={handleRefresh}
+                disabled={loading}
+                className="flex items-center space-x-1.5 px-3 py-1.5 rounded-full text-xs transition-colors border disabled:opacity-50"
+                style={{
+                  color: 'hsl(var(--muted-foreground))',
+                  borderColor: 'hsl(var(--border))',
+                  background: 'transparent'
+                }}
+              >
+                <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} />
+                <span>{isZh ? '刷新' : 'Refresh'}</span>
+              </button>
+            </div>
+          )}
 
+          {/* Error State */}
+          {error && (
+            <div className="flex flex-col items-center justify-center py-16">
+              <p className="font-medium mb-1" style={{ color: 'hsl(var(--destructive))' }}>
+                {isZh ? '新闻获取失败' : 'Failed to fetch news'}
+              </p>
+              <p className="text-sm mb-4" style={{ color: 'hsl(var(--muted-foreground))' }}>{error}</p>
+              <button
+                onClick={handleRefresh}
+                disabled={loading}
+                className="flex items-center space-x-2 px-4 py-2 rounded-lg transition-colors disabled:opacity-50"
+                style={{ background: 'hsl(var(--foreground))', color: 'hsl(var(--card))' }}
+              >
+                <RefreshCw className={`w-4 h-4 ${loading ? 'animate-spin' : ''}`} />
+                <span>{isZh ? '重新获取' : 'Retry'}</span>
+              </button>
+            </div>
+          )}
 
-        {/* Empty State */}
-        {!loading && !error && news.length === 0 && (
-          <div className="text-center py-12">
-            <h3 className="text-lg font-semibold mb-2">{isZh ? '暂无新闻' : 'No news available'}</h3>
-            <p className="text-muted-foreground">{isZh ? '请稍后再试，或切换其他分类查看' : 'Please try again later or switch to another category'}</p>
-          </div>
-        )}
+          {/* Loading State */}
+          {loading && (
+            <div className="flex items-center justify-center py-16">
+              <div className="flex items-center space-x-3" style={{ color: 'hsl(var(--muted-foreground))' }}>
+                <div className="flex space-x-1">
+                  {[0, 1, 2].map((i) => (
+                    <span
+                      key={i}
+                      className="w-1.5 h-1.5 rounded-full animate-pulse"
+                      style={{
+                        background: '#C5B9A8',
+                        animationDelay: `${i * 0.2}s`
+                      }}
+                    />
+                  ))}
+                </div>
+                <span className="text-sm">{isZh ? '正在获取最新资讯...' : 'Loading latest AI news...'}</span>
+              </div>
+            </div>
+          )}
+
+          {/* News List - Vertical */}
+          {!loading && !error && news.length > 0 && (
+            <div className="mobile-scroll-container">
+              {news.map((item, index) => (
+                <div
+                  key={`${item.id}-${index}`}
+                  className="animate-fade-in"
+                  style={{ animationDelay: `${Math.min(index * 40, 800)}ms` }}
+                >
+                  <NewsCard {...item} />
+                </div>
+              ))}
+            </div>
+          )}
+
+          {/* Empty State */}
+          {!loading && !error && news.length === 0 && (
+            <div className="text-center py-16">
+              <h3 className="text-lg font-semibold mb-2" style={{ color: 'hsl(var(--foreground))' }}>
+                {isZh ? '暂无新闻' : 'No news available'}
+              </h3>
+              <p style={{ color: 'hsl(var(--muted-foreground))' }}>
+                {isZh ? '请稍后再试，或切换其他分类查看' : 'Please try again later or switch to another category'}
+              </p>
+            </div>
+          )}
         </div>
-        
-        {/* 移动端导航栏 */}
-        <MobileNavigation 
-          onMenuClick={() => setSideMenuOpen(true)}
-          currentPath="/"
-        />
-        
-        {/* 移动端手势提示 */}
+
+        {/* Mobile Navigation */}
+        <MobileNavigation onMenuClick={() => setSideMenuOpen(true)} currentPath="/" />
         <MobileGestureHint />
       </div>
     </div>
