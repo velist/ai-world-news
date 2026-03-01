@@ -137,7 +137,7 @@ const AboutPage = () => {
                 {isZh ? "关于我们" : "About Us"}
               </Badge>
               
-              <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-purple-600 to-secondary bg-clip-text text-transparent">
+              <h1 className="text-4xl md:text-6xl font-bold text-foreground">
                 {isZh ? "让AI资讯触手可及" : "Making AI News Accessible"}
               </h1>
               
@@ -154,7 +154,7 @@ const AboutPage = () => {
         <div className="max-w-6xl mx-auto px-4 py-16 space-y-16">
           {/* Mission & Vision */}
           <div className="grid md:grid-cols-2 gap-8">
-            <Card className="p-8 bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200">
+            <Card className="p-8 bg-card border-border">
               <CardContent className="p-0 space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="p-2 bg-blue-500 rounded-lg">
@@ -173,7 +173,7 @@ const AboutPage = () => {
               </CardContent>
             </Card>
 
-            <Card className="p-8 bg-gradient-to-br from-purple-50 to-pink-50 border-purple-200">
+            <Card className="p-8 bg-card border-border">
               <CardContent className="p-0 space-y-4">
                 <div className="flex items-center space-x-3">
                   <div className="p-2 bg-purple-500 rounded-lg">

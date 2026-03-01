@@ -64,7 +64,7 @@ export const PosterShareButton: React.FC<PosterShareButtonProps> = ({
       <Button
         onClick={handleGeneratePoster}
         disabled={isGenerating}
-        className="flex items-center gap-2 bg-gradient-to-r from-purple-500 to-blue-500 hover:from-purple-600 hover:to-blue-600"
+        className="flex items-center gap-2 bg-foreground hover:bg-foreground/90"
       >
         {isGenerating ? (
           <Loader2 className="w-4 h-4 animate-spin" />

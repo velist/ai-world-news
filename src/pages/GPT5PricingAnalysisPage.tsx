@@ -90,11 +90,11 @@ const GPT5PricingAnalysisPage = () => {
             <h3 className="text-2xl font-bold text-blue-900 mb-4">
               🚀 页面加载成功！
             </h3>
-            <p className="text-blue-800 mb-6">
+            <p className="text-foreground mb-6">
               如果您能看到此页面，说明GPT-5分析页面的路由配置正确。
               完整版本包含交互式图表和详细的技术分析。
             </p>
-            <div className="text-sm text-blue-600">
+            <div className="text-sm text-foreground">
               <p>访问路径: /gpt5-pricing-analysis</p>
               <p>页面状态: ✅ 正常加载</p>
               <p>构建时间: {new Date().toLocaleString()}</p>

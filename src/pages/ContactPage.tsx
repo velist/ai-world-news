@@ -219,7 +219,7 @@ const ContactPage = () => {
                 {isZh ? "联系我们" : "Contact Us"}
               </Badge>
               
-              <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-purple-600 to-secondary bg-clip-text text-transparent">
+              <h1 className="text-4xl md:text-6xl font-bold text-foreground">
                 {isZh ? "我们重视您的声音" : "We Value Your Voice"}
               </h1>
               
@@ -407,15 +407,15 @@ const ContactPage = () => {
 
               {/* FAQ & Tips */}
               <div className="space-y-6">
-                <Card className="p-6 bg-blue-50 border-blue-200">
+                <Card className="p-6 bg-card border-border">
                   <CardContent className="p-0 space-y-4">
                     <div className="flex items-center space-x-3">
-                      <CheckCircle className="w-6 h-6 text-blue-600" />
+                      <CheckCircle className="w-6 h-6 text-foreground" />
                       <h4 className="font-semibold text-blue-900">
                         {isZh ? "快速响应承诺" : "Quick Response Promise"}
                       </h4>
                     </div>
-                    <p className="text-blue-800 text-sm leading-relaxed">
+                    <p className="text-foreground text-sm leading-relaxed">
                       {isZh 
                         ? "我们承诺在24小时内回复所有用户反馈。对于紧急问题，我们会在2小时内给出初步回应。"
                         : "We promise to respond to all user feedback within 24 hours. For urgent issues, we will provide an initial response within 2 hours."
@@ -464,7 +464,7 @@ const ContactPage = () => {
                   </CardContent>
                 </Card>
 
-                <Card className="p-6 bg-purple-50 border-purple-200">
+                <Card className="p-6 bg-card border-border">
                   <CardContent className="p-0 space-y-4">
                     <div className="flex items-center space-x-3">
                       <Heart className="w-6 h-6 text-purple-600" />

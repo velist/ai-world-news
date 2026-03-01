@@ -110,8 +110,8 @@ export const EmailSubscribe: React.FC<EmailSubscribeProps> = ({ isOpen, onClose 
           {/* 弹窗头部 */}
           <div className="flex items-center justify-between p-6 border-b border-gray-200">
             <div className="flex items-center space-x-3">
-              <div className="p-2 bg-blue-100 rounded-lg">
-                <Mail className="w-6 h-6 text-blue-600" />
+              <div className="p-2 bg-muted rounded-lg">
+                <Mail className="w-6 h-6 text-foreground" />
               </div>
               <div>
                 <h2 className="text-xl font-semibold text-gray-900">
@@ -145,7 +145,7 @@ export const EmailSubscribe: React.FC<EmailSubscribeProps> = ({ isOpen, onClose 
                 </p>
                 <button
                   onClick={onClose}
-                  className="px-4 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors"
+                  className="px-4 py-2 bg-foreground text-card rounded-lg hover:bg-blue-700 transition-colors"
                 >
                   {isZh ? '关闭' : 'Close'}
                 </button>
@@ -179,7 +179,7 @@ export const EmailSubscribe: React.FC<EmailSubscribeProps> = ({ isOpen, onClose 
                   <button
                     type="submit"
                     disabled={isSubmitting}
-                    className="w-full flex items-center justify-center space-x-2 px-4 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50"
+                    className="w-full flex items-center justify-center space-x-2 px-4 py-3 bg-foreground text-card rounded-lg hover:bg-blue-700 transition-colors disabled:opacity-50"
                   >
                     {isSubmitting ? (
                       <>

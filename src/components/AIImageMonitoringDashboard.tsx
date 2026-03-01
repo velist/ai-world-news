@@ -109,7 +109,7 @@ export const AIImageMonitoringDashboard: React.FC = () => {
   return (
     <div className="space-y-6 p-6">
       {/* 标题栏 */}
-      <div className="bg-gradient-to-r from-blue-600 to-purple-600 text-white p-6 rounded-lg shadow-lg">
+      <div className="bg-foreground text-white p-6 rounded-lg shadow-lg">
         <div className="flex items-center justify-between">
           <div>
             <h1 className="text-2xl font-bold mb-2">🤖 AI图片生成系统监控</h1>
@@ -271,7 +271,7 @@ export const AIImageMonitoringDashboard: React.FC = () => {
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2">
                 <div
-                  className="bg-gradient-to-r from-green-400 to-blue-500 h-2 rounded-full transition-all duration-300"
+                  className="bg-accent h-2 rounded-full transition-all duration-300"
                   style={{
                     width: stats.ai.stats.totalRequests > 0
                       ? `${(stats.ai.stats.aiSuccess / stats.ai.stats.totalRequests) * 100}%`
@@ -311,7 +311,7 @@ export const AIImageMonitoringDashboard: React.FC = () => {
               </div>
               <div className="w-full bg-gray-200 rounded-full h-2">
                 <div
-                  className="bg-gradient-to-r from-blue-400 to-purple-500 h-2 rounded-full transition-all duration-300"
+                  className="bg-secondary h-2 rounded-full transition-all duration-300"
                   style={{
                     width: `${(stats.cache.size / stats.cache.maxSize) * 100}%`
                   }}

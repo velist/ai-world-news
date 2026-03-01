@@ -57,13 +57,13 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
     if (fallbackSrc) return fallbackSrc;
     
     const titleLower = title.toLowerCase();
-    let bgGradient = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+    let bgGradient = 'linear-gradient(135deg, #C4A7A0 0%, #A3B0A0 100%)';
     let emoji = '📰';
     let category = 'AI推新闻';
     
     // 基于内容类型的智能选择
     if (titleLower.includes('ai') || titleLower.includes('人工智能') || titleLower.includes('chatgpt')) {
-      bgGradient = 'linear-gradient(135deg, #667eea 0%, #764ba2 100%)';
+      bgGradient = 'linear-gradient(135deg, #C4A7A0 0%, #A3B0A0 100%)';
       emoji = '🤖';
       category = 'AI资讯';
     } else if (titleLower.includes('tech') || titleLower.includes('科技')) {
@@ -87,8 +87,8 @@ export const OptimizedImage: React.FC<OptimizedImageProps> = ({
       <svg viewBox="0 0 ${width} ${height}" xmlns="http://www.w3.org/2000/svg">
         <defs>
           <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
-            <stop offset="0%" style="stop-color:#667eea;stop-opacity:1" />
-            <stop offset="100%" style="stop-color:#764ba2;stop-opacity:1" />
+            <stop offset="0%" style="stop-color:#C4A7A0;stop-opacity:1" />
+            <stop offset="100%" style="stop-color:#A3B0A0;stop-opacity:1" />
           </linearGradient>
           <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
             <feDropShadow dx="0" dy="4" stdDeviation="8" flood-color="rgba(0,0,0,0.3)"/>

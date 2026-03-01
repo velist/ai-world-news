@@ -71,8 +71,8 @@ export class ErrorBoundary extends React.Component<ErrorBoundaryProps, ErrorBoun
             </p>
             
             {this.isWeChatEnvironment() && (
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-3 mb-6">
-                <p className="text-sm text-blue-800">
+              <div className="bg-card border border-border rounded-lg p-3 mb-6">
+                <p className="text-sm text-foreground">
                   {isZh 
                     ? '💡 微信环境提示：如果问题持续，请尝试清除微信缓存或重新打开'
                     : '💡 WeChat tip: If the problem persists, try clearing WeChat cache or reopen'

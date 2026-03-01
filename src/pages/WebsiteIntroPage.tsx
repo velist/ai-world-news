@@ -154,7 +154,7 @@ const WebsiteIntroPage = () => {
               {isZh ? "网站介绍" : "Website Introduction"}
             </Badge>
             
-            <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-purple-600 to-secondary bg-clip-text text-transparent">
+            <h1 className="text-4xl md:text-6xl font-bold text-foreground">
               {isZh ? "AI推：让AI资讯触手可及" : "AI Push: Making AI News Accessible"}
             </h1>
             
@@ -193,10 +193,10 @@ const WebsiteIntroPage = () => {
               {isZh ? "平台概览" : "Platform Overview"}
             </h2>
             
-            <Card className="p-8 bg-gradient-to-br from-blue-50 to-indigo-50 border-blue-200">
+            <Card className="p-8 bg-card border-border">
               <CardContent className="p-0 space-y-6">
                 <div className="text-center">
-                  <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500 text-white rounded-full mb-4">
+                  <div className="inline-flex items-center justify-center w-16 h-16 bg-secondary text-secondary-foreground rounded-full mb-4">
                     <Globe className="w-8 h-8" />
                   </div>
                   <h3 className="text-2xl font-bold text-blue-900 mb-4">
@@ -402,9 +402,9 @@ const WebsiteIntroPage = () => {
                 </CardContent>
               </Card>
 
-              <Card className="p-6 text-center bg-gradient-to-br from-purple-50 to-pink-50 border-purple-200">
+              <Card className="p-6 text-center bg-card border-border">
                 <CardContent className="p-0 space-y-4">
-                  <div className="inline-flex items-center justify-center w-12 h-12 bg-purple-500 text-white rounded-lg">
+                  <div className="inline-flex items-center justify-center w-12 h-12 bg-accent text-accent-foreground rounded-lg">
                     <Zap className="w-6 h-6" />
                   </div>
                   <h4 className="font-semibold text-lg text-purple-900">

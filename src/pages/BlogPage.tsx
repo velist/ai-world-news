@@ -313,7 +313,7 @@ const BlogPage = () => {
                 {isZh ? "AI技术博客" : "AI Tech Blog"}
               </Badge>
               
-              <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-purple-600 to-secondary bg-clip-text text-transparent">
+              <h1 className="text-4xl md:text-6xl font-bold text-foreground">
                 {isZh ? "深度解读AI世界" : "Deep Dive into AI World"}
               </h1>
               

@@ -43,7 +43,7 @@ const ServicesPage = () => {
       ],
       bgColor: "from-blue-50 to-cyan-50",
       borderColor: "border-blue-200",
-      iconBg: "bg-blue-500"
+      iconBg: "bg-secondary"
     },
     {
       icon: <Languages className="w-8 h-8" />,
@@ -57,7 +57,7 @@ const ServicesPage = () => {
       ],
       bgColor: "from-purple-50 to-pink-50",
       borderColor: "border-purple-200", 
-      iconBg: "bg-purple-500"
+      iconBg: "bg-accent"
     },
     {
       icon: <Filter className="w-8 h-8" />,
@@ -71,7 +71,7 @@ const ServicesPage = () => {
       ],
       bgColor: "from-green-50 to-emerald-50",
       borderColor: "border-green-200",
-      iconBg: "bg-green-500"
+      iconBg: "bg-accent"
     }
   ];
 
@@ -181,7 +181,7 @@ const ServicesPage = () => {
                 {isZh ? "服务介绍" : "Our Services"}
               </Badge>
               
-              <h1 className="text-4xl md:text-6xl font-bold bg-gradient-to-r from-primary via-purple-600 to-secondary bg-clip-text text-transparent">
+              <h1 className="text-4xl md:text-6xl font-bold text-foreground">
                 {isZh ? "专业AI资讯服务" : "Professional AI News Service"}
               </h1>
               

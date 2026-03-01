@@ -31,7 +31,8 @@ export const NewsCard = ({
   const [isBookmarked, setIsBookmarked] = useState(false);
 
   const displayTitle = title;
-  const displaySummary = summary;
+  // 正文质量检查：如果摘要和标题完全相同或太短，不显示
+  const hasSummary = summary && summary.trim() !== title.trim() && summary.trim().length > 15 && !title.startsWith(summary.trim());
 
   // 检查收藏状态
   useEffect(() => {
@@ -102,35 +103,18 @@ export const NewsCard = ({
     e.stopPropagation();
     e.preventDefault();
     const shareUrl = generateWeChatShareUrl(id);
-    const shareText = `${displayTitle} - 来自AI推`;
-    const isWechat = /micromessenger/i.test(navigator.userAgent);
-
-    if (isWechat) {
-      showWechatShareGuide(shareUrl);
-      return;
-    }
+    const shareText = `${displayTitle} - AI推`;
 
     if (navigator.share) {
-      navigator.share({ title: shareText, text: displaySummary.substring(0, 100) + '...', url: shareUrl }).catch(console.error);
+      navigator.share({ title: shareText, text: (summary || '').substring(0, 100), url: shareUrl }).catch(() => {
+        // fallback to copy
+        if (navigator.clipboard) {
+          navigator.clipboard.writeText(shareUrl).then(() => alert('链接已复制'));
+        }
+      });
     } else if (navigator.clipboard) {
-      navigator.clipboard.writeText(shareUrl).then(() => alert('链接已复制到剪贴板！'));
+      navigator.clipboard.writeText(shareUrl).then(() => alert('链接已复制到剪贴板'));
     }
-  };
-
-  const showWechatShareGuide = (shareUrl: string) => {
-    const overlay = document.createElement('div');
-    overlay.style.cssText = 'position:fixed;top:0;left:0;width:100%;height:100%;background:rgba(0,0,0,0.6);z-index:9999;display:flex;align-items:center;justify-content:center;';
-    overlay.innerHTML = `
-      <div style="background:#FDFBF9;border-radius:12px;padding:24px;margin:20px;max-width:300px;text-align:center;">
-        <p style="color:#4A4540;font-size:15px;margin:0 0 16px;line-height:1.6;">点击右上角 <strong>"···"</strong><br>选择分享给朋友</p>
-        <div style="display:flex;gap:10px;">
-          <button onclick="navigator.clipboard&&navigator.clipboard.writeText('${shareUrl}');this.textContent='已复制'" style="flex:1;background:#E8E2DA;border:none;padding:10px;border-radius:8px;font-size:13px;color:#4A4540;cursor:pointer;">复制链接</button>
-          <button style="flex:1;background:#4A4540;border:none;padding:10px;border-radius:8px;font-size:13px;color:#FDFBF9;cursor:pointer;">知道了</button>
-        </div>
-      </div>
-    `;
-    document.body.appendChild(overlay);
-    overlay.addEventListener('click', (e) => { if (e.target === overlay || (e.target as HTMLElement).textContent === '知道了') document.body.removeChild(overlay); });
   };
 
   const catStyle = getCategoryStyle(category);
@@ -167,13 +151,15 @@ export const NewsCard = ({
           {displayTitle}
         </h2>
 
-        {/* Summary */}
-        <p
-          className="text-sm leading-relaxed line-clamp-3"
-          style={{ color: 'hsl(var(--muted-foreground))' }}
-        >
-          {displaySummary}
-        </p>
+        {/* Summary - only if different from title */}
+        {hasSummary && (
+          <p
+            className="text-sm leading-relaxed line-clamp-3"
+            style={{ color: 'hsl(var(--muted-foreground))' }}
+          >
+            {summary}
+          </p>
+        )}
 
         {/* Action buttons (visible on hover) */}
         <div className="flex items-center gap-3 mt-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">

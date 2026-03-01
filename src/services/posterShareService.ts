@@ -31,14 +31,14 @@ export class PosterShareService {
     width: 750,
     height: 1334,
     backgroundColor: '#ffffff',
-    brandColor: '#007AFF',
+    brandColor: '#4A4540',
     textColor: '#1D1D1F', 
     accentColor: '#FF3B30'
   };
 
   // 苹果风格配色方案
   private appleColors = {
-    blue: '#007AFF',
+    blue: '#4A4540',
     green: '#34C759',
     orange: '#FF9500',
     red: '#FF3B30',
@@ -286,8 +286,8 @@ export class PosterShareService {
 
     // 绘制占位符背景 - 更现代的渐变
     const gradient = this.ctx.createLinearGradient(0, imageY, imageWidth, imageY + imageHeight);
-    gradient.addColorStop(0, '#667eea');
-    gradient.addColorStop(0.5, '#764ba2');
+    gradient.addColorStop(0, '#C4A7A0');
+    gradient.addColorStop(0.5, '#A3B0A0');
     gradient.addColorStop(1, '#f093fb');
     this.ctx.fillStyle = gradient;
     this.ctx.fillRect(imageX, imageY, imageWidth, imageHeight);

@@ -209,7 +209,7 @@ export const WeChatDebugPage = () => {
               <button
                 onClick={testWorkerAPI}
                 disabled={testing}
-                className="px-4 py-2 bg-blue-600 text-white rounded-md hover:bg-blue-700 disabled:opacity-50"
+                className="px-4 py-2 bg-foreground text-card rounded-md hover:bg-blue-700 disabled:opacity-50"
               >
                 {testing ? '测试中...' : '测试Worker API'}
               </button>
@@ -223,7 +223,7 @@ export const WeChatDebugPage = () => {
               
               <button
                 onClick={testMetaTagShare}
-                className="px-4 py-2 bg-purple-600 text-white rounded-md hover:bg-purple-700"
+                className="px-4 py-2 bg-foreground text-card rounded-md hover:bg-purple-700"
               >
                 测试Meta标签分享
               </button>

@@ -194,8 +194,8 @@ export const DailyBriefing: React.FC<DailyBriefingProps> = ({ isOpen, onClose })
           ) : (
             <div className="space-y-4">
               {/* 晨报介绍 */}
-              <div className="bg-blue-50 border border-blue-200 rounded-lg p-4 mb-6">
-                <p className="text-sm text-blue-800">
+              <div className="bg-card border border-border rounded-lg p-4 mb-6">
+                <p className="text-sm text-foreground">
                   {isZh 
                     ? '本AI专题简报精选10条纯人工智能领域重要新闻，基于站内实时新闻数据智能筛选，确保内容与AI技术、应用和发展直接相关。'
                     : 'This AI topic briefing features 10 selected important news purely from the artificial intelligence field, using intelligent algorithms to filter real-time news data, ensuring content is directly related to AI technology, applications, and development.'

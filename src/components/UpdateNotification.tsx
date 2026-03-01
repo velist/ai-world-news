@@ -11,7 +11,7 @@ export const UpdateNotification: React.FC = () => {
   if (!hasUpdate) return null;
 
   return (
-    <div className="fixed top-16 left-1/2 transform -translate-x-1/2 z-50 bg-blue-600 text-white px-4 py-3 rounded-lg shadow-lg flex items-center space-x-3 animate-in slide-in-from-top-2">
+    <div className="fixed top-16 left-1/2 transform -translate-x-1/2 z-50 bg-foreground text-card px-4 py-3 rounded-lg shadow-lg flex items-center space-x-3 animate-in slide-in-from-top-2">
       <RefreshCw className="w-5 h-5" />
       <span className="text-sm font-medium">
         {isZh ? '发现新版本！点击刷新获取最新内容' : 'New version available! Click to refresh'}

@@ -92,8 +92,8 @@ export const Disclaimer: React.FC<DisclaimerProps> = ({ isOpen, onClose }) => {
               return (
                 <div key={index} className="border border-gray-200 rounded-lg p-5">
                   <div className="flex items-center space-x-3 mb-3">
-                    <div className="flex-shrink-0 p-2 bg-blue-100 rounded-lg">
-                      <Icon className="w-5 h-5 text-blue-600" />
+                    <div className="flex-shrink-0 p-2 bg-muted rounded-lg">
+                      <Icon className="w-5 h-5 text-foreground" />
                     </div>
                     <h3 className="font-semibold text-gray-900">
                       {section.title}
@@ -119,8 +119,8 @@ export const Disclaimer: React.FC<DisclaimerProps> = ({ isOpen, onClose }) => {
               }
             </p>
             <div className="flex items-center space-x-2 text-sm">
-              <ExternalLink className="w-4 h-4 text-blue-600" />
-              <span className="text-blue-600">
+              <ExternalLink className="w-4 h-4 text-foreground" />
+              <span className="text-foreground">
                 {isZh ? '微信：forxy9' : 'WeChat: forxy9'}
               </span>
             </div>
@@ -140,7 +140,7 @@ export const Disclaimer: React.FC<DisclaimerProps> = ({ isOpen, onClose }) => {
           <div className="flex justify-end space-x-3">
             <button
               onClick={onClose}
-              className="px-6 py-2 bg-blue-600 hover:bg-blue-700 text-white rounded-lg transition-colors"
+              className="px-6 py-2 bg-foreground hover:bg-foreground/90 text-white rounded-lg transition-colors"
             >
               {isZh ? '我已阅读并理解' : 'I have read and understand'}
             </button>
