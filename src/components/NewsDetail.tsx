@@ -8,6 +8,7 @@ interface NewsDetailProps {
   id?: string;
   title: string;
   content: string;
+  summary?: string;
   imageUrl: string;
   source: string;
   publishedAt: string;
@@ -18,10 +19,14 @@ interface NewsDetailProps {
   onBack: () => void;
 }
 
+// 正文最低字数阈值：低于此值视为"引言/副标题"而非正文
+const MIN_BODY_LENGTH = 100;
+
 export const NewsDetail = ({
   id,
   title,
   content,
+  summary,
   imageUrl,
   source,
   publishedAt,
@@ -37,23 +42,38 @@ export const NewsDetail = ({
 
   const displayTitle = title;
 
-  // 判断正文质量
-  const getDisplayContent = () => {
-    if (!content || content.trim().length === 0) {
-      return null; // 无正文
+  // 判断正文质量，区分：完整正文 / 短引言 / 无内容
+  const analyzeContent = () => {
+    const trimContent = (content || '').trim();
+    const trimSummary = (summary || '').trim();
+    const trimTitle = (title || '').trim();
+
+    // 尝试获取最佳可用文本（content优先，summary备选）
+    let bestText = trimContent;
+    if (!bestText || bestText === trimTitle) {
+      bestText = trimSummary !== trimTitle ? trimSummary : '';
     }
-    // 正文和标题完全相同 → 不显示正文
-    if (content.trim() === title.trim()) {
-      return null;
+
+    // 无任何有效内容
+    if (!bestText || bestText.length === 0 || bestText === trimTitle) {
+      return { type: 'none' as const, body: null, tagline: null };
     }
+
     // 正文太短且仅是标题片段
-    if (content.trim().length < 15 && title.startsWith(content.trim())) {
-      return null;
+    if (bestText.length < 15 && trimTitle.startsWith(bestText)) {
+      return { type: 'none' as const, body: null, tagline: null };
     }
-    return content;
+
+    // 正文足够长 → 完整正文
+    if (bestText.length >= MIN_BODY_LENGTH) {
+      return { type: 'full' as const, body: bestText, tagline: null };
+    }
+
+    // 正文太短 → 视为引言/副标题，不当正文展示
+    return { type: 'tagline' as const, body: null, tagline: bestText };
   };
 
-  const displayContent = getDisplayContent();
+  const contentInfo = analyzeContent();
 
   // 分类样式（莫兰迪色调）
   const getCategoryStyle = (cat: string) => {
@@ -89,7 +109,7 @@ export const NewsDetail = ({
 
     if (navigator.share) {
       try {
-        await navigator.share({ title: shareText, text: (displayContent || title).substring(0, 100), url: shareUrl });
+        await navigator.share({ title: shareText, text: (contentInfo.body || contentInfo.tagline || title).substring(0, 100), url: shareUrl });
         return;
       } catch { /* fallback to copy */ }
     }
@@ -186,25 +206,41 @@ export const NewsDetail = ({
         )}
 
         {/* Content */}
-        {displayContent ? (
+        {contentInfo.type === 'full' ? (
+          /* 完整正文 */
           <div className="mb-8">
             <div className="text-base leading-[1.8] whitespace-pre-wrap" style={{ color: 'hsl(var(--foreground))', opacity: 0.85 }}>
-              {displayContent}
+              {contentInfo.body}
             </div>
           </div>
         ) : (
-          <div className="mb-8 py-6 text-center rounded-lg" style={{ background: 'hsl(var(--card))', border: '1px solid hsl(var(--border))' }}>
-            <p className="text-sm mb-3" style={{ color: 'hsl(var(--muted-foreground))' }}>
-              {isZh ? '本条资讯为快讯摘要，详细内容请查看原文' : 'This is a brief summary. Please read the original article for details.'}
-            </p>
-            {originalUrl && (
-              <a href={originalUrl} target="_blank" rel="noopener noreferrer"
-                className="inline-flex items-center gap-1.5 px-4 py-2 rounded-full text-sm font-medium transition-colors"
-                style={{ background: 'hsl(var(--foreground))', color: 'hsl(var(--card))' }}>
-                <ExternalLink className="w-3.5 h-3.5" />
-                {isZh ? '阅读原文' : 'Read Original'}
-              </a>
+          /* 无正文 或 仅有短引言 → 显示阅读原文提示 */
+          <div className="mb-8 py-8 rounded-lg" style={{ background: 'hsl(var(--card))', border: '1px solid hsl(var(--border))' }}>
+            {/* 短引言作为引语展示 */}
+            {contentInfo.tagline && (
+              <div className="px-6 mb-5">
+                <blockquote className="text-base leading-relaxed italic pl-4" style={{
+                  color: 'hsl(var(--foreground))',
+                  opacity: 0.7,
+                  borderLeft: '3px solid hsl(var(--border))'
+                }}>
+                  {contentInfo.tagline}
+                </blockquote>
+              </div>
             )}
+            <div className="text-center">
+              <p className="text-sm mb-4" style={{ color: 'hsl(var(--muted-foreground))' }}>
+                {isZh ? '本条资讯为快讯摘要，详细内容请查看原文' : 'This is a brief summary. Please read the original article for details.'}
+              </p>
+              {originalUrl && (
+                <a href={originalUrl} target="_blank" rel="noopener noreferrer"
+                  className="inline-flex items-center gap-1.5 px-5 py-2.5 rounded-full text-sm font-medium transition-colors"
+                  style={{ background: 'hsl(var(--foreground))', color: 'hsl(var(--card))' }}>
+                  <ExternalLink className="w-3.5 h-3.5" />
+                  {isZh ? '阅读原文' : 'Read Original'}
+                </a>
+              )}
+            </div>
           </div>
         )}
 
