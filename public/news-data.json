@@ -1,8 +1,68 @@
 {
   "success": true,
-  "timestamp": "2026-03-02T06:00:10.536Z",
-  "total": 94,
+  "timestamp": "2026-03-02T07:14:05.025Z",
+  "total": 86,
   "data": [
+    {
+      "id": "news_1772435628347_52236d85",
+      "title": "使用MCP、OPA和临时运行时为基础设施自动化构建一个最小权限AI智能体网关",
+      "summary": "使用MCP、OPA和临时运行时为基础设施自动化构建一个最小权限AI智能体网关",
+      "content": "使用MCP、OPA和临时运行时为基础设施自动化构建一个最小权限AI智能体网关",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-02T15:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/Lh3AppcUclgbul3phl2U?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772435629761_3079fed5",
+      "title": "Hugging Face推出Community Evals功能，促进模型测试透明化",
+      "summary": "Hugging Face推出Community Evals功能，促进模型测试透明化",
+      "content": "Hugging Face推出Community Evals功能，促进模型测试透明化",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-02T14:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/cglzA4vAI8D0HO6UGYlW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772435631232_cf746250",
+      "title": "Anthropic 研究：AI 编程辅助使开发者技能掌握度下降 17%",
+      "summary": "Anthropic 研究：AI 编程辅助使开发者技能掌握度下降 17%",
+      "content": "Anthropic 研究：AI 编程辅助使开发者技能掌握度下降 17%",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-02T14:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/ohmt2y4R8NHXPL6DSvHR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772435632685_e9689f72",
+      "title": "别再谈“10 倍开发者”了：AI 智能体不是加速 SDLC，而是直接终结 SDLC",
+      "summary": "别再谈“10 倍开发者”了：AI 智能体不是加速 SDLC，而是直接终结 SDLC",
+      "content": "别再谈“10 倍开发者”了：AI 智能体不是加速 SDLC，而是直接终结 SDLC",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-02T12:08:39.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/HgmbXbAFT1E0T6qcuia0?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772435634334_6c21b636",
+      "title": "OpenAI扩展单主节点PostgreSQL，以处理ChatGPT每秒数百万次的查询",
+      "summary": "OpenAI扩展单主节点PostgreSQL，以处理ChatGPT每秒数百万次的查询",
+      "content": "OpenAI扩展单主节点PostgreSQL，以处理ChatGPT每秒数百万次的查询",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-02T11:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/LxfKX2WTqbG6flW9KcZ1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1772419711807_06eab0ab",
       "title": "昆仑万维：AI编程能力纳入绩效考核，实行末位淘汰；云厂大规模宕机，员工曝是自家AI干的；Claude被特朗普封杀后登顶App Store | AI周报",
@@ -16,16 +76,52 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1772431202608_cf7135ff",
-      "title": "黄仁勋每天都用的AI工具，要抢金融行业饭碗了？",
-      "summary": "黄仁勋每天都用的AI工具，要抢金融行业饭碗了？",
-      "content": "黄仁勋每天都用的AI工具，要抢金融行业饭碗了？",
+      "id": "news_1772435643830_b3888c56",
+      "title": "高通发布全新骁龙可穿戴平台至尊版：端侧 AI 能力大升级",
+      "summary": "IT之家 3 月 2 日消息，2026 年巴塞罗那世界移动通信大会（MWC）已经拉开帷幕，今天，高通在本次 MWC 的发布会上正式推出了全新骁龙可穿戴平台至尊版（Snapdragon Wear Elite），这是高通迄今为止最先进的可穿戴平台，旨在为新一代个人 AI 设备提供强大动力。",
+      "content": "IT之家 3 月 2 日消息，2026 年巴塞罗那世界移动通信大会（MWC）已经拉开帷幕，今天，高通在本次 MWC 的发布会上正式推出了全新骁龙可穿戴平台至尊版（Snapdragon Wear Elite），这是高通迄今为止最先进的可穿戴平台，旨在为新一代个人 AI 设备提供强大动力。 高通表示，骁龙可穿戴平台至尊版的设计初衷，是让 OEM 厂商和 AI 云服务提供商能够在这一全新的领域中进行开发并实现快速创新，并在多种产品形态的设备上部署 AI 智能体，包括智能手表、别针式设备、挂坠以及更多形态。这也是高通首次将“至尊版”这一重要品牌标记引入可穿戴领域。 面向骁龙可穿戴平台至尊版，高通基于四大核心技术对该平台进行了优化，包括：终端侧 AI、性能、续航以及连接性。 首先是对内嵌式 NPU 进行了显著增强，使其能够在不牺牲能效的前提下，支持更复杂且持续运行的工作负载。这样就能够以极低的功耗，在终端侧运行关键词侦测、动作识别等环境感知类的“始终开启”任务。在可穿戴平台上，高通首次引入了专用 NPU，这使得终端侧可以直接运行高达 20 亿参数规模的模型。随着 AI 模型不断向更小型化、更高效率方向演进，全新的骁龙可穿戴平台至尊版在性能与时延之间实现了良好平衡，带来更强的终端侧 AI 体验。 高通称，骁龙可穿戴平台至尊版集成的 eNPU、高通 Hexagon NPU 以及传感器中枢共同工作，使这些贴身与近身的 AI 终端能够更深入地理解用户的日常生活情境，从而随时“见你所见、听你所听”。具体来说，其终端侧最高可达 20 亿参数，首个 token 生成时间缩减到 0.2 秒，最高可达每秒 10 个 token。 此外，借助骁龙可穿戴平台至尊版，终端能有效处理来自语音、视觉、位置，以及各类传感器的多模态输入，打造个性化的 AI 智能体，在工作、学习、健康以及日常生活的方方面面为用户提供支持。 骁龙可穿戴平台至尊版的性能也有显著提升，采用全新的五核 CPU 架构，还集成了升级后的 CPU 和 GPU，带来了大幅的性能提升 —— 与前代平台相比，CPU 性能提升最高可达 5 倍，GPU 性能提升最高可达 7 倍。 而在能效方面，高通表示骁龙可穿戴平台至尊版可实现日常使用时长（DOU）提升 30%，同时可在仅 10 分钟之内充电约至 50%。 最后是连接能力，这次高通引入了对于可穿戴平台而言最为全面的连接组合，包括六项不同的连接技术：5G RedCap、超低功耗 Wi-Fi、蓝牙 6.0、UWB（超宽带）、全球导航卫星系统（GNSS），以及窄带非地面网络（NB-NTN）卫星通信。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/fe78f729-2143-4311-881f-fc99a4e6a9c1.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-02T07:04:55.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/925/051.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772435622862_1017d655",
+      "title": "AI、黄金与能源：中东乱局背后的资产定价逻辑之变",
+      "summary": "AI、黄金与能源：中东乱局背后的资产定价逻辑之变",
+      "content": "地缘风险加速上行，正成为重塑AI资产、能源资产以及避险资产定价逻辑的关键变量",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-02T10:14:07.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-02T07:04:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Hp1qGVCd0kyEUhV9YQks?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/7895767.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772435616888_39431b49",
+      "title": "南充市安智创科低空经济发展公司成立，注册资本1亿元",
+      "summary": "36氪获悉，爱企查App显示，近日，南充市安智创科低空经济发展有限责任公司成立，法定代表人为谢欣，注册资本1亿元人民币，经营范围包括智能无人飞行器制造、智能无人飞行器销售、航空运营支持服务、航空运输设备销售、人工智能行业应用系统集成服务、信息系统集成服务等。",
+      "content": "36氪获悉，爱企查App显示，近日，南充市安智创科低空经济发展有限责任公司成立，法定代表人为谢欣，注册资本1亿元人民币，经营范围包括智能无人飞行器制造、智能无人飞行器销售、航空运营支持服务、航空运输设备销售、人工智能行业应用系统集成服务、信息系统集成服务等。股东信息显示，该公司由西充县财政局全资持股。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-02T06:57:49.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3705449181360263?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772435644023_93e9b71c",
+      "title": "Aitver 推出 ESP32-C3 开发板：集成 0.42 英寸 OLED 面板，4.99 美元",
+      "summary": "IT之家 3 月 2 日消息，据外媒 NotebookCheck 报道，制造商 Aitver 现已推出一款 ESP32-C3 开发板，定价为 4.99 美元（IT之家注：现汇率约合 34.3 元人民币）。",
+      "content": "IT之家 3 月 2 日消息，据外媒 NotebookCheck 报道，制造商 Aitver 现已推出一款 ESP32-C3 开发板，定价为 4.99 美元（IT之家注：现汇率约合 34.3 元人民币）。该产品最大的特色在于其集成一块 0.42 英寸 OLED 面板，可以帮助开发人员 / 爱好者免去额外购买 / 焊接显示屏的过程。 据介绍，该开发板集成的 0.42 英寸 OLED 面板由 SSD1306 控制器驱动，采用较为特殊的 72×40 像素映射方式。其集成 USB-C 接口，并配有 Boot 与 Reset 按键。可用 GPIO 数量为 13 个，支持 UART、I2C、SPI 与 ADC 等接口，同时板载一颗连接至 GPIO8 的 LED 指示灯。 规格方面，该开发板依然搭载 32 位 RISC-V 内核，配备 400KB SRAM 和 4MB SPI Flash，集成 Wi-Fi 4 和蓝牙 5.0 BLE 无线模块，并配备板载陶瓷天线，满足基础联网需求。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/6c5ddbda-1b4c-4f23-a986-cd4c3770f6e2.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-02T06:53:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/925/046.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772431181497_c03c3489",
@@ -268,16 +364,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1772431169404_0",
+      "id": "news_1772435586368_0",
       "title": "OpenAI 同意在 Anthropic 事件之后向五角大楼提供 AI 模型访问权限",
-      "summary": "OpenAI 已同意将其人工智能模型部署在国防部的机密网络中，此前 Anthropic 因某些问题与五角大楼的关系破裂。这一决定是在 Anthropic 事件之后做出的，表明 OpenAI 在美国军事人工智能领域获得了重要地位。然而，具体的合作细节尚未公布。",
-      "content": "由Rachel Metz和Maggie Eastland撰稿，彭博新闻社报道： OpenAI 已同意将其自己的人工智能模型部署在国防部的机密网络中，此前竞争对手 Anthropic PBC 与五角大楼的关系因某些问题而破裂…… [4377字节]",
+      "summary": "OpenAI 同意将其人工智能模型部署在五角大楼的机密网络中，此前 Anthropic 因某些问题与五角大楼的关系破裂。这一决定是在 Anthropic 事件之后做出的，表明 OpenAI 在与美国政府合作方面取得了进展。这一合作将使五角大楼能够访问 OpenAI 的先进 AI 技术，以支持其军事和安全需求。",
+      "content": "由Rachel Metz和Maggie Eastland撰稿，彭博新闻社报道： OpenAI 已同意将其自己的人工智能模型部署在国防部的机密网络中，此前竞争对手 Anthropic PBC 与五角大楼的关系因某些问题而破裂…… [4377个字符]",
       "imageUrl": "https://www.courant.com/wp-content/uploads/2026/02/202602280058MCT_____PHOTO____US-NEWS-PENTAGON-OPENAI-FILEPIC-GET.jpg?w=1024&h=693",
       "source": "Hartford Courant",
       "publishedAt": "2026-03-01T12:30:18.000Z",
-      "category": "国内AI",
+      "category": "国外AI",
       "originalUrl": "https://www.courant.com/2026/03/01/openai-gives-pentagon-ai-model-access-after-anthropic-dustup-3/",
-      "aiInsight": "从技术发展角度看，OpenAI同意向五角大楼提供其AI模型访问权限，这标志着军方在AI技术应用上的又一重要进展。这表明OpenAI的模型已经通过了严格的审查和测试，具备在敏感环境中运行的能力。这一举动也可能为其他AI企业进入军事领域树立了新的标准。\n\n从行业影响角度看，这一事件可能会加速AI技术在军事领域的应用进程。一方面，其他AI企业可能会受到鼓舞，寻求与政府机构合作的机会；另一方面，也可能引发关于AI技术安全性和伦理性的讨论和监管加强。\n\n从未来趋势看，随着AI技术在军事领域应用的加深，相关的安全和监管问题将更加突出。未来，军方和AI企业可能需要更加密切地合作，确保技术的安全性、可靠性和合规性。此外，随着AI技术在军事领域的广泛应用，其对国际关系和战略格局的影响也可能变得更加显著。"
+      "aiInsight": "从技术发展的角度看，OpenAI 同意向五角大楼提供其AI模型访问权限，这反映了AI技术在军事应用中的重要性日益增强，同时也体现了政府在AI安全和伦理方面的考量。从行业影响来看，这一事件可能加剧OpenAI与Anthropic之间的竞争，同时也可能促使其他AI公司重新评估其军方合作政策。此外，这也可能引发公众对AI军事应用的讨论和担忧。未来趋势方面，预计政府和企业将在确保AI安全和伦理的基础上，继续探索AI在军事领域的应用，同时也会加强监管和合作框架的建立。"
     },
     {
       "id": "news_1772427352585_0",
@@ -532,16 +628,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1772431166331_1",
+      "id": "news_1772435580590_1",
       "title": "OpenAI与五角大楼达成协议，after Trump放弃Anthropic",
-      "summary": "OpenAI与五角大楼达成协议，将为其提供人工智能服务。此前，特朗普政府要求所有联邦机构停止使用Anthropic提供的AI服务。OpenAI由Sam Altman等人创立，是ChatGPT和DALL-E的应用程序背后的技术研究公司。OpenAI CEO Altman表示，该公司已与国防部达成协议，在其机密工作中部署AI模型。此前，五角大楼曾使用Anthropic的AI模型Claude进行包括捕捉委内瑞拉总统马杜罗在内的多项机密工作。",
-      "content": "2月28日（UPI）——OpenAI 宣布与国防部达成提供人工智能服务的协议，这发生在特朗普政府指示所有联邦机构停止使用 Anthropic 提供的服务几小时后。",
+      "summary": "OpenAI与五角大楼达成协议，将为其提供人工智能服务。此前，特朗普政府要求所有联邦机构停止使用Anthropic提供的AI服务。OpenAI CEO萨姆·奥尔特曼表示，该公司已与国防部达成协议，在其保密工作中部署AI模型。此前，五角大楼曾使用Anthropic的AI模型Claude处理包括捕获委内瑞拉总统马杜罗在内的多项机密工作。",
+      "content": "2月28日（UPI）——OpenAI 宣布与国防部达成协议，为其提供人工智能服务，这发生在特朗普政府指示所有联邦机构停止使用 Anthropic 提供的服务几小时后。",
       "imageUrl": "https://img.particlenews.com/img/id/0K4NbF_19FKqLu200",
       "source": "NewsBreak",
       "publishedAt": "2026-02-28T20:58:52.000Z",
       "category": "国际AI",
       "originalUrl": "https://www.newsbreak.com/upi-news-510013/4516906855736-openai-reaches-deal-with-pentagon-after-trump-drops-anthropic",
-      "aiInsight": "这项新闻揭示了OpenAI在军事和政府领域的人工智能技术应用上取得的重大突破，同时也反映了政界对人工智能安全和伦理问题的关注。从技术发展角度看，这表明OpenAI的人工智能技术已经成熟到可以应用于敏感的军事项目。从行业影响的角度看，这一合作可能会促进OpenAI在政府和军事领域的市场拓展，同时也会对其他竞争对手产生压力。从未来趋势看，这可能预示着政府对人工智能技术应用的加强，同时也可能促使更多企业将人工智能技术应用于国家安全和防御领域。然而，这也引发了对人工智能安全性和伦理性的担忧，未来需要在技术发展的同时加强监管和伦理审查。"
+      "aiInsight": "这一新闻反映了人工智能技术在国防领域的应用越来越广泛，同时也揭示了政府在监管人工智能技术方面的复杂立场。从技术发展的角度看，OpenAI与五角大楼的合作标志着AI技术在军事和国防领域的进一步深度融合，预示着未来可能有更多的AI技术被应用于提升军事效能。从行业影响的角度来看，这一合作可能会促使其他AI公司加快研发适应军事需求的技术，从而推动整个AI行业的技术升级和创新。至于未来趋势，随着AI技术在军事领域的应用不断加深，可能会引发对AI伦理、安全和监管的新一轮讨论，尤其是如何在保障国家安全的同时保护公民隐私和维护国际秩序。"
     },
     {
       "id": "news_1772419677611_1",
@@ -566,6 +662,18 @@
       "category": "国际AI",
       "originalUrl": "https://www.newsbreak.com/upi-news-510013/4516906855736-openai-reaches-deal-with-pentagon-after-trump-drops-anthropic",
       "aiInsight": "该新闻反映了AI技术在军事和安全领域的深化应用，以及政府在AI伦理和安全方面的监管动向。从技术发展角度看，OpenAI与五角大楼的合作标志着AI技术在军事领域的广泛应用正在加速，这将推动AI技术在复杂环境下的应用与优化。从行业影响角度看，这一合作可能促使其他AI企业调整其在军事领域的市场策略，同时也可能引发关于AI技术军事化应用的伦理和法律讨论。从未来趋势来看，随着AI技术的不断进步，其在军事、安全等领域的应用将更加广泛，同时，监管机构也可能出台更加严格的法规来规范AI技术的使用，尤其是涉及敏感领域的技术应用。"
+    },
+    {
+      "id": "news_1772435602172_2",
+      "title": "OpenAI与国防部门达成AI协议，此前与Anthropic发生争端",
+      "summary": "OpenAI宣布与五角大楼达成协议，为后者机密系统提供人工智能技术。此前，OpenAI曾与Anthropic发生争端。该协议引发了关于人工智能安全和伦理的讨论。尽管OpenAI表示协议不涉及军事用途，但此举仍引起了一些人的担忧，认为这可能使人工智能技术被用于军事目的。",
+      "content": "旧金山——OpenAI，ChatGPT 的制造商，在周五表示已与五角大楼达成协议，为其机密系统提供人工智能技术，就在总统唐纳德·特朗普下令联邦机构……[5573 字符]",
+      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2026/02/unnamed-file-2214.jpg?w=1024&h=682",
+      "source": "The Mercury News",
+      "publishedAt": "2026-02-28T18:57:10.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.mercurynews.com/2026/02/28/openai-reaches-ai-agreement-with-defense-dept-after-anthropic-clash-3/",
+      "aiInsight": "这段新闻报道的重点是OpenAI与美国国防部签署了一项涉及人工智能技术的协议。从技术发展的角度来看，这标志着政府机构开始正式认可并利用大型语言模型和人工智能技术来满足其特定需求，这可能推动AI技术在政府和军事领域的应用和发展。从行业影响的角度来看，此次合作可能会促使其他科技公司和研究机构寻求与政府机构的合作机会，从而加速AI技术在更多领域的应用。然而，这次合作也引发了关于AI伦理和监管的讨论，特别是考虑到AI在军事应用中的潜在风险。\n\n未来趋势方面，预计政府机构将与科技公司在AI技术研发方面进行更深入的合作，但同时也需要制定相应的监管框架，以确保AI技术的安全可控和伦理合规。此外，随着政府机构对AI技术需求的增长，这可能也会吸引更多投资进入这一领域，推动AI技术的进一步创新和发展。"
     },
     {
       "id": "news_1772431167280_2",
@@ -616,16 +724,16 @@
       "aiInsight": "这项新闻标志着OpenAI在政府与私营部门之间取得了一项重要突破，尤其是在人工智能技术的应用上。从技术发展的角度来看，OpenAI与国防部门的合作将促进AI技术在安全和保密环境中的应用，这不仅意味着OpenAI的技术得到了政府的高度认可，也为其在军事和国防领域的应用打开了大门。\n\n行业影响方面，这一协议可能会引发其他大型科技公司与政府机构寻求类似的合作伙伴关系，增加政府对AI技术的依赖，同时也可能加剧民间与政府在AI技术使用上的监管与伦理讨论。\n\n未来趋势来看，随着AI技术在国防领域的深入应用，其技术能力和安全性都将面临更高的标准和要求，这将推动AI技术向更专业、更安全的方向发展。同时，这也可能促使政府进一步加强对AI技术的监管，以确保技术的合理使用和防范潜在风险。"
     },
     {
-      "id": "news_1772350724572_0",
-      "title": "OpenAI与国防部门达成AI协议，此前与Anthropic发生争端",
-      "summary": "OpenAI宣布与美国五角大楼达成AI技术合作协议，为机密系统提供技术支持。此前，OpenAI曾与另一家AI公司Anthropic发生争端。该协议标志着OpenAI在军事领域应用其技术迈出重要一步，但引发了关于AI伦理和安全的讨论。",
-      "content": "旧金山——OpenAI，ChatGPT 的制造商，在周五宣布已与五角大楼达成协议，为其机密系统提供人工智能技术，这距离美国总统唐纳德·特朗普下令联邦机构…… [5573 字符]",
-      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2026/02/unnamed-file-2214.jpg?w=1024&h=682",
-      "source": "The Mercury News",
-      "publishedAt": "2026-02-28T18:57:10.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.mercurynews.com/2026/02/28/openai-reaches-ai-agreement-with-defense-dept-after-anthropic-clash-3/",
-      "aiInsight": "从技术发展角度来看，OpenAI与五角大楼的合作标志着AI技术在军事应用领域的进一步深入。这表明，AI技术在解决复杂问题和提升决策效率方面展现出巨大潜力，尤其是在需要高度精确和快速响应的军事环境中。然而，这也引发了关于AI伦理和安全性的讨论，特别是当AI技术应用于敏感的军事项目时。\n\n从行业影响的角度来看，OpenAI与五角大楼的合作可能会推动其他科技公司加速在军事和国防领域的布局。这不仅包括提供高级AI技术，还可能涉及数据安全、隐私保护以及算法透明度等议题。这也可能促使政府和企业之间建立更多合作关系，从而加速AI技术在国防领域的应用和发展。\n\n未来趋势方面，随着AI技术在军事领域的应用日益广泛，国际社会可能会更加关注相关法律和政策的制定。此外，随着技术的不断进步，AI系统将变得更加复杂，这可能需要跨学科的合作和创新来确保这些系统既能发挥最大效能，又能避免潜在的负面影响。综合来看，这一合作将促进AI技术的多元化应用，同时也需要社会各界共同努力，以确保技术的负责任使用。"
+      "id": "news_1772435639012_e9b8f5a7",
+      "title": "谷歌 Nano Banana 2 一夜补齐短板，各种图解都能画，价格才是 OpenAI 一半",
+      "summary": "谷歌 Nano Banana 2 一夜补齐短板，各种图解都能画，价格才是 OpenAI 一半",
+      "content": "谷歌 Nano Banana 2 一夜补齐短板，各种图解都能画，价格才是 OpenAI 一半",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-02-28T15:18:33.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/GcPU9NHkexyuriC2cBM2?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772289082019_04e437ff",
@@ -926,210 +1034,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/924/568.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772264101922_74ae9769",
-      "title": "宇树科技董事长王兴兴：希望积极参与推动机器人行业标准规范化",
-      "summary": "2月28日，工业和信息化部人形机器人与具身智能标准化技术委员会副主任委员，宇树科技股份有限公司创始人、董事长王兴兴在人形机器人与具身智能标准化（HEIS）年会上表示，公司过去几年一直推动机器人在工厂落地，希望人形机器人在公司自己的工厂生产人形机器人。",
-      "content": "2月28日，工业和信息化部人形机器人与具身智能标准化技术委员会副主任委员，宇树科技股份有限公司创始人、董事长王兴兴在人形机器人与具身智能标准化（HEIS）年会上表示，公司过去几年一直推动机器人在工厂落地，希望人形机器人在公司自己的工厂生产人形机器人。就目前情况来看，机器人执行单任务时，如果训练得好，基本可以达到100%的成功率，但对长任务的规划，成功率还不是特别高。王兴兴表示，机器人的运动是干活的先决必要条件。当机器人的运动足够稳定、丰富度足够高，机器人干活的可复制性和稳定性会更高。在推动建立行业标准方面，王兴兴表示，机器人的效率、稳定性和安全性等方面均需要建立完整的标准体系，公司希望积极参与推动行业标准的规范化，让整个行业更好发展。目前机器人行业处于早期，只有良性的竞争才能让行业做得更好。（新浪财经）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-02-28T07:09:32.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3702560628945031?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772264111272_c890e38d",
-      "title": "硅谷最顶级的钱，正在押注AI这五件事",
-      "summary": "硅谷最顶级的钱，正在押注AI这五件事",
-      "content": "a16z说，真正的AI战争还没开始。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-02-28T06:44:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7893773.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772261588316_9cca0df3",
-      "title": "亚马逊 CEO 安迪 · 贾西：过去很多需要人类的工作，未来将不用再堆人力",
-      "summary": "IT之家 2 月 28 日消息，AI 引发的大规模失业是否已经开始？据《商业内幕》今日报道，亚马逊 CEO 安迪 · 贾西并不这样认为。 白领群体的焦虑正在加剧。当地时间周四，BlockCEO 杰克 · 多西宣布将裁减近一半员工，使员工总数从超过 10000 人降至略低于 6000 人。",
-      "content": "IT之家 2 月 28 日消息，AI 引发的大规模失业是否已经开始？据《商业内幕》今日报道，亚马逊 CEO 安迪 · 贾西并不这样认为。 白领群体的焦虑正在加剧。当地时间周四，BlockCEO 杰克 · 多西宣布将裁减近一半员工，使员工总数从超过 10000 人降至略低于 6000 人。杰克 · 多西在财报电话会议上指出，随着企业越来越多利用 AI 提升效率，类似裁员将变得更加普遍。 安迪 · 贾西在周五接受 CNBC 采访时坦言，自己尚未“完全消化”Block 的消息，但对 AI 将如何改变就业市场已有明确判断：“过去 20 年或 30 年里，人类承担的许多工作，未来将不再需要那么多人来完成。但新的岗位也会随之出现，每一次技术变革都会创造新的职业。” 他举例称，云解决方案架构师这一职位在 15 年前还不存在，而现在已有了数万个类似岗位。 贾西此前已明确表示，AI 将减少亚马逊的部分白领岗位。他在去年 6 月发给员工的备忘录中写道，随着 AI 在公司内部广泛应用带来效率提升，“未来几年，公司整体企业员工规模预计将减少”。据悉，该备忘录一度引发亚马逊员工强烈反应，多个内部 Slack 频道出现大量批评声音。 IT之家从报道中获悉，AI 驱动的裁员并不局限于大型科技公司。例如 AI 编程初创公司 Vercel 开发了一个用于销售的 AI 智能体，并将原本 10 人的销售团队缩减至仅剩 1 人。 目前尚不清楚 AI 将创造何种新岗位，而 AI 提示工程师等曾广受讨论的职位并未形成稳定需求。同时，AI 已经推动部分工程岗位需求上升，同时催生了训练数据相关的新市场。 尽管如此，贾西对长期前景仍保持乐观态度。其认为，商业世界正处于一个“转型”阶段，“我们将共同度过。”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2024/12/be4afdc5-db39-408f-a28c-4589427b950d.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto/auto-orient,o_1",
-      "source": "IT之家",
-      "publishedAt": "2026-02-28T06:38:50.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/924/544.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772261534224_037b3695",
-      "title": "AWS与OpenAI联合开发“有状态运行时环境”，预计数月内推出",
-      "summary": "当地时间2月27日，亚马逊网络服务公司（AWS）表示，正在与OpenAI联合开发一种“有状态运行时环境”（Stateful Runtime Environment），该环境将允许AI智能体保留上下文语境并访问计算资源等。其预计将在未来几个月内推出。",
-      "content": "当地时间2月27日，亚马逊网络服务公司（AWS）表示，正在与OpenAI联合开发一种“有状态运行时环境”（Stateful Runtime Environment），该环境将允许AI智能体保留上下文语境并访问计算资源等。其预计将在未来几个月内推出。（界面）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-02-28T06:30:01.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/newsflashes/3702544602722441?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772431168074_3",
-      "title": "OpenAI 在特朗普抛弃“觉醒”的Anthropic后，与五角大楼就机密AI部署达成了协议",
-      "summary": "OpenAI与五角大楼达成协议，将为其机密网络部署AI模型，这发生在特朗普政府下令联邦政府立即停止使用Anthropic AI仅数小时后。OpenAI CEO Sam Altman在社交媒体上宣布了这一消息，称五角大楼在所有互动中都表现出对安全的高度重视，并希望与OpenAI合作实现最佳结果。这标志着AI军事应用的一个重要进展。",
-      "content": "萨姆·阿尔特曼的OpenAI与国防部达成协议，将在分类网络上部署其AI模型，这距离特朗普政府下令联邦政府“立即停止”使用Anthropic AI还不到几小时……",
-      "imageUrl": "https://media.breitbart.com/media/2026/02/Sam-Altman-CEO-of-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-02-28T06:23:29.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.breitbart.com/politics/2026/02/28/openai-secures-pentagon-deal-for-classified-ai-deployment-after-trump-dumps-woke-anthropic/",
-      "aiInsight": "这一新闻反映了AI技术在军事领域的应用又向前迈进了一步，具有深远的技术发展和行业影响意义。从技术角度看，OpenAI与五角大楼的合作可能涉及自然语言处理、图像识别等高级AI技术的应用，为军事决策提供智能支持。从行业影响来看，这可能预示着AI技术在军事领域的广泛应用和深入发展，也可能引发关于AI伦理和安全的讨论。未来趋势上，预计会有更多科技公司和政府机构探索AI在国防和安全领域的应用，同时，围绕AI技术的监管和规范也将更加严格。需要注意的是，这类技术的军事应用可能带来新的安全挑战，需要国际社会共同努力，确保技术的安全和负责任使用。"
-    },
-    {
-      "id": "news_1772419676183_3",
-      "title": "OpenAI在特朗普抛弃“觉醒”的Anthropic后，与五角大楼就 Classified AI 部署达成了协议",
-      "summary": "OpenAI与五角大楼达成协议，将为其部署AI模型于涉密网络。这一消息发布于特朗普政府下令联邦政府立即停止使用Anthropic AI模型之后。尽管OpenAI与五角大楼的合作标志着AI在军事领域的应用取得进展，但Anthropic因控制权之争被排除在联邦合同之外的事件仍引发关注。此次合作表明OpenAI在安全和性能方面赢得了五角大楼的信任。",
-      "content": "萨姆·阿尔特曼领导的OpenAI与国防部达成协议，将在分类网络上部署其AI模型，这距离特朗普政府下令联邦政府“立即停止”使用Anthropic AI还不到几小时……",
-      "imageUrl": "https://media.breitbart.com/media/2026/02/Sam-Altman-CEO-of-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-02-28T06:23:29.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.breitbart.com/politics/2026/02/28/openai-secures-pentagon-deal-for-classified-ai-deployment-after-trump-dumps-woke-anthropic/",
-      "aiInsight": "这一新闻反映了AI技术在军事及政府领域的应用正逐步加深，具有重要的技术发展和行业影响意义。\n\n从技术发展角度看，此次合作意味着Anthropic AI技术已获得了军方的认可，展示了其在处理敏感数据和执行高安全级别任务方面的潜力。这不仅推动了AI技术在安全领域的发展，也为其他专业领域提供了参考，预示着未来AI技术将更加注重安全性和隐私保护。\n\n从行业影响角度看，这次合作加速了AI技术在军事和政府领域的应用进程，可能会促进更多企业进入这一市场。同时，这也可能引发公众对于AI技术应用范围和边界的新一轮讨论，以及对AI伦理和安全问题的关注。\n\n从未来趋势来看，这预示着未来AI技术可能会在更多敏感领域得到应用，同时也可能促使政府加强对AI技术监管和规范，确保技术安全可控。此外，这也可能推动更多企业投入安全级AI技术的研发，以满足政府和军事部门的需求。"
-    },
-    {
-      "id": "news_1772407953874_2",
-      "title": "OpenAI在特朗普抛弃“觉醒”的Anthropic后，与五角大楼就涉密AI部署达成了协议",
-      "summary": "OpenAI与美国国防部达成协议，将在受分类保护的网络上部署其AI模型。这一协议达成之际，正值特朗普政府下令联邦政府“立即停止”使用Anthropic AI仅数小时后。这表明OpenAI正积极寻求与政府合作，拓展其AI技术的应用范围。",
-      "content": "萨姆·阿尔特曼的OpenAI与国防部达成协议，将在受分类保护的网络上部署其AI模型，这距离特朗普政府下令联邦政府“立即停止”使用Anthropic AI仅数小时……",
-      "imageUrl": "https://media.breitbart.com/media/2026/02/Sam-Altman-CEO-of-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-02-28T06:23:29.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.breitbart.com/politics/2026/02/28/openai-secures-pentagon-deal-for-classified-ai-deployment-after-trump-dumps-woke-anthropic/",
-      "aiInsight": "这一新闻反映了AI技术在军事领域的应用正在逐步深入，涉及高度敏感的军事机密信息处理。从技术发展角度看，这意味着OpenAI的模型在安全性、隐私保护等方面达到了军事级别的要求。从行业影响来看，这表明政府对商用AI技术的信任度增强，未来可能有更多的私营部门AI技术被引入军事应用。然而，这也引发了关于AI技术在军事应用中的伦理问题和社会影响的讨论。未来趋势方面，这预示着军民融合的AI技术发展路径，即既要保持技术的先进性，又要确保其安全性和可控性。同时，这也可能推动更严格的监管和标准制定，以规范AI技术的军事应用。"
-    },
-    {
-      "id": "news_1772404419697_2",
-      "title": "OpenAI在特朗普抛弃“觉醒”的Anthropic后，与五角大楼就机密AI部署达成了协议",
-      "summary": "OpenAI与五角大楼达成协议，将为其提供AI模型服务，涉及机密网络。此消息发布于特朗普政府下令联邦政府立即停止使用Anthropic AI的背景下。Anthropic公司CEO萨姆·阿尔特曼在社交媒体上宣布了这一消息，并表示五角大楼在合作中表现出对安全的高度重视。这标志着AI军事应用的一个重要进展。",
-      "content": "萨姆·阿尔特曼的OpenAI与国防部达成协议，将在其分类网络上部署其AI模型，这距离特朗普政府下令联邦政府“立即停止”使用Anthropic AI还不到几小时……",
-      "imageUrl": "https://media.breitbart.com/media/2026/02/Sam-Altman-CEO-of-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-02-28T06:23:29.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.breitbart.com/politics/2026/02/28/openai-secures-pentagon-deal-for-classified-ai-deployment-after-trump-dumps-woke-anthropic/",
-      "aiInsight": "这一新闻反映了当前人工智能技术发展和应用的几个重要趋势：\n\n1. **技术发展**：OpenAI与五角大楼的合作表明，大型语言模型在军事和国家安全领域的应用已成为现实。这不仅展示了AI技术的成熟度，也反映了其在复杂决策支持系统中的潜力。\n\n2. **行业影响**：该合作标志着私营部门与政府机构在AI技术应用上的合作加深，可能推动更多AI技术在政府部门的应用。同时，这也可能对其他私营AI公司产生压力，促使他们探索与政府机构的合作机会。\n\n3. **未来趋势**：从长远来看，这类合作预示着AI技术将更广泛地渗透到国家安全和国防领域，可能引发对AI伦理和安全性的更多关注。此外，这也可能加速AI技术在各个行业的应用，推动相关法律法规的制定和完善。\n\n总之，这一合作标志着AI技术在国家安全领域的应用进入了一个新的阶段，对AI技术的发展和应用都具有重要意义。"
-    },
-    {
-      "id": "news_1772397425295_2",
-      "title": "OpenAI在特朗普抛弃“觉醒”的Anthropic后，与五角大楼就涉密AI部署达成协议",
-      "summary": "OpenAI与五角大楼达成协议，将为其涉密网络部署AI模型，这发生在特朗普政府下令联邦政府立即停止使用Anthropic AI仅数小时后。OpenAI CEO Sam Altman表示，五角大楼在所有互动中都表现出对安全的深刻尊重，并希望与OpenAI合作实现最佳结果。此次合作标志着AI军事应用的重要进展。",
-      "content": "萨姆·阿尔特曼的OpenAI与国防部达成了协议，将在其分类网络上部署AI模型，这距离特朗普政府下令联邦政府“立即停止”使用Anthropic AI还不到几小时……",
-      "imageUrl": "https://media.breitbart.com/media/2026/02/Sam-Altman-CEO-of-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-02-28T06:23:29.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.breitbart.com/politics/2026/02/28/openai-secures-pentagon-deal-for-classified-ai-deployment-after-trump-dumps-woke-anthropic/",
-      "aiInsight": "这一新闻事件反映了AI技术在军事领域的应用正在加速，也揭示了AI技术发展中的重要现实问题。从技术发展角度看，此次OpenAI与五角大楼的合作，标志着AI技术在军事保密性和安全性方面的应用取得重要进展。从行业影响来看，这可能推动更多AI企业积极寻求与政府部门的合作机会，加速AI技术在国防、安全等领域的应用。然而，这也引发了关于AI技术在敏感领域的应用伦理和监管问题的讨论。未来，AI技术在军事领域的应用需要更加注重伦理和法律框架的建设，确保技术安全可控，同时促进AI技术的健康发展。"
-    },
-    {
-      "id": "news_1772390802924_2",
-      "title": "OpenAI 在特朗普抛弃“觉醒”的Anthropic后，与五角大楼就机密AI部署达成协议",
-      "summary": "OpenAI与五角大楼达成协议，将为其机密网络部署AI模型，这发生在特朗普政府下令禁止使用Anthropic AI仅几小时后。OpenAI CEO Sam Altman在X平台上宣布了这一消息，表示五角大楼在所有互动中都表现出对安全的深刻尊重，并希望与OpenAI合作实现最佳结果。这标志着AI军事应用的一个重要进展。",
-      "content": "萨姆·阿尔特曼的OpenAI与国防部达成了协议，将在分类网络上部署其AI模型，这距离特朗普政府下令联邦政府“立即停止”使用Anthropic AI还不到几小时……",
-      "imageUrl": "https://media.breitbart.com/media/2026/02/Sam-Altman-CEO-of-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-02-28T06:23:29.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.breitbart.com/politics/2026/02/28/openai-secures-pentagon-deal-for-classified-ai-deployment-after-trump-dumps-woke-anthropic/",
-      "aiInsight": "这项协议标志着OpenAI在政府领域的重要突破，显示了其在军事和国防领域的技术实力。从技术发展角度看，这表明大型语言模型在处理敏感信息和复杂任务的能力正逐步得到认可。行业影响方面，这可能预示着其他私营AI公司也可能寻求与政府合作，以展示其技术的安全性和可靠性。未来趋势来看，这可能加速AI技术在政府和军事领域的应用，同时也可能促进更多关于AI伦理和安全性的讨论。然而，这也引发了关于AI技术透明度和监管的担忧，未来需在技术进步与伦理监管之间寻求平衡。"
-    },
-    {
-      "id": "news_1772379135924_3",
-      "title": "OpenAI 在特朗普抛弃“觉醒”的Anthropic后，与五角大楼就涉密AI部署达成了协议",
-      "summary": "OpenAI与五角大楼就涉密AI部署达成协议，仅在特朗普政府下令禁止联邦政府使用Anthropic AI数小时后。OpenAI CEO Sam Altman在社交媒体上宣布，公司已与五角大楼达成协议，将在其涉密网络中部署AI模型。这标志着涉密AI部署领域的重要进展。此次协议的达成，凸显了OpenAI在AI领域的重要地位，同时也反映了五角大楼对AI技术的迫切需求。",
-      "content": "萨姆·阿尔特曼的OpenAI与国防部达成了协议，将在受分类保护的网络上部署其AI模型，这距离特朗普政府下令联邦政府“立即停止”使用Anthropic AI还不到几小时……",
-      "imageUrl": "https://media.breitbart.com/media/2026/02/Sam-Altman-CEO-of-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-02-28T06:23:29.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.breitbart.com/politics/2026/02/28/openai-secures-pentagon-deal-for-classified-ai-deployment-after-trump-dumps-woke-anthropic/",
-      "aiInsight": "这一新闻事件反映了AI技术在军事领域的应用正在深化，同时也揭示了政府对AI安全性和可信度的高度重视。从技术发展的角度来看，OpenAI与五角大楼的合作标志着AI技术在保密和安全方面取得了重要进展，这可能意味着未来会有更多类似的定制化AI解决方案出现在军事和其他敏感领域。\n\n从行业影响来看，这一合作可能会促使其他AI公司也寻求与政府机构合作，尤其是在军事和国家安全相关领域。这不仅能够推动AI技术的进一步发展，也可能加速AI技术的商业化进程。然而，这也引发了关于AI伦理和监管的新一轮讨论，特别是在敏感信息处理和决策透明度方面。\n\n从未来趋势来看，随着AI技术在军事和其他敏感领域的应用越来越广泛，如何确保这些技术的安全、可靠和透明，将是未来需要重点关注的问题。同时，这也将推动政府和私营部门在AI监管和伦理方面展开更多的合作与探讨。"
-    },
-    {
-      "id": "news_1772361285610_3",
-      "title": "OpenAI与五角大楼就 Classified AI 部署达成协议，特朗普抛弃了“觉醒”的Anthropic",
-      "summary": "OpenAI与五角大楼达成协议，将为其提供AI模型在机密网络上的部署服务。此前，特朗普政府曾下令联邦政府立即停止使用Anthropic AI，导致其被排除在联邦合同之外。OpenAI CEO Sam Altman表示，五角大楼在所有互动中都表现出对安全的深深尊重，并希望与OpenAI合作以实现最佳结果。这标志着AI领域的重要进展。",
-      "content": "萨姆·阿尔特曼领导的OpenAI与国防部达成了协议，将在受分类保护的网络上部署其AI模型，这距离特朗普政府下令联邦政府“立即停止”使用Anthropic AI还不到几小时……",
-      "imageUrl": "https://media.breitbart.com/media/2026/02/Sam-Altman-CEO-of-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-02-28T06:23:29.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.breitbart.com/tech/2026/02/28/openai-secures-pentagon-deal-for-classified-ai-deployment-after-trump-dumps-woke-anthropic/",
-      "aiInsight": "这篇新闻反映了AI技术在军事领域的应用正逐步深化，同时也揭示了政府对AI伦理和安全问题的高度关注。从技术发展角度看，OpenAI与五角大楼的协议标志着AI技术在保密和安全方面的应用取得了重要进展。行业影响方面，这可能促使其他科技公司加快研发符合军事需求的AI技术。未来趋势上，随着AI在军事领域的应用不断拓展，公众对AI伦理、安全和透明度的关注将会持续升温，企业与政府需要在推动技术发展的同时，加强国际合作和监管，确保AI技术的安全可控。此外，这也可能推动AI技术在非军事领域的广泛应用，促进AI技术的全面发展。"
-    },
-    {
-      "id": "news_1772350719319_3",
-      "title": "OpenAI 在特朗普抛弃“觉醒”的Anthropic后，获得五角大楼涉密AI部署合同",
-      "summary": "OpenAI与五角大楼达成协议，将为其涉密网络部署AI模型，这一消息发布于特朗普政府下令联邦政府立即停止使用Anthropic AI仅数小时后。OpenAI CEO Sam Altman表示，五角大楼在合作中展现了对安全的高度重视。此次合作标志着美国政府在AI安全与应用方面的重要进展。这反映出美国政府在AI领域的竞争中对OpenAI的认可，以及对AI安全性的严格要求。",
-      "content": "萨姆·阿尔特曼的OpenAI与国防部达成协议，将在分类网络上部署其AI模型，这距离特朗普政府下令联邦政府“立即停止”使用Anthropic AI还不到几小时……",
-      "imageUrl": "https://media.breitbart.com/media/2026/02/Sam-Altman-CEO-of-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-02-28T06:23:29.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.breitbart.com/tech/2026/02/28/openai-secures-pentagon-deal-for-classified-ai-deployment-after-trump-dumps-woke-anthropic/",
-      "aiInsight": "这一新闻反映了AI技术在军事领域的应用正逐渐扩大，也展示了私营企业与政府机构在AI安全和合规方面的竞争与合作。从技术发展角度看，OpenAI的部署合同表明其AI模型在处理敏感信息和复杂任务方面具有较高能力，这可能是基于其先进的语言理解和生成技术。行业影响方面，这一事件可能促使其他AI公司加强安全措施，以更好地适应政府的严格要求。未来趋势上看，随着军事对AI需求的增加，可能会推动AI技术在隐私保护、数据安全等方面的技术革新，同时也可能影响到AI的伦理和监管环境，未来政府和企业之间的合作可能更加紧密，共同制定更为严格的AI使用标准。"
-    },
-    {
-      "id": "news_1772348260632_3",
-      "title": "OpenAI 与五角大楼就涉密AI部署达成协议，特朗普抛弃“觉醒”的Anthropic",
-      "summary": "OpenAI已与五角大楼达成协议，将AI模型部署在涉密网络上，这发生在特朗普政府下令联邦政府立即停止使用Anthropic AI仅数小时后。OpenAI CEO Sam Altman在社交媒体上宣布了这一消息，表示五角大楼在所有互动中都表现出对安全的深深尊重，并希望与OpenAI合作以实现最佳结果。这标志着AI军事应用的一个重要进展。",
-      "content": "萨姆·阿尔特曼的OpenAI与国防部达成了协议，将在其分类网络上部署AI模型，这距离特朗普政府下令联邦政府“立即停止”使用Anthropic AI还不到几小时……",
-      "imageUrl": "https://media.breitbart.com/media/2026/02/Sam-Altman-CEO-of-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-02-28T06:23:29.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.breitbart.com/tech/2026/02/28/openai-secures-pentagon-deal-for-classified-ai-deployment-after-trump-dumps-woke-anthropic/",
-      "aiInsight": "这一新闻反映了AI技术在军事领域的应用正在逐步深化，标志着AI技术在敏感和涉密环境中的部署成为现实。从技术发展角度看，这意味着AI技术的安全性和合规性正在得到进一步的验证和提升，同时也意味着AI技术在保障国家安全方面的潜力正在被逐步挖掘。从行业影响角度看，这可能会促使其他AI公司调整其产品和服务，以满足政府机构对AI安全性的要求，从而推动整个AI行业的规范化发展。未来趋势方面，预计会有更多的AI技术被应用于政府和军事领域，但也可能引发关于AI军事化和隐私保护的更多讨论和政策制定。"
-    },
-    {
-      "id": "news_1772335058042_2",
-      "title": "OpenAI在特朗普抛弃“觉醒”的Anthropic后，与五角大楼达成涉密AI部署协议",
-      "summary": "OpenAI与五角大楼达成涉密AI部署协议，允许其模型在政府的分类网络上运行。这一消息发布在特朗普政府下令联邦政府立即停止使用Anthropic AI模型之后。OpenAI CEO Sam Altman表示，五角大楼在所有互动中都表现出对安全的深刻尊重，并希望与OpenAI合作实现最佳结果。此次协议标志着政府与私营部门在AI技术应用上的重要进展。",
-      "content": "萨姆·阿尔特曼的OpenAI与国防部达成了协议，将在其分类网络上部署AI模型，这距离特朗普政府下令联邦政府“立即停止”使用Anthropic AI还不到几小时……",
-      "imageUrl": "https://media.breitbart.com/media/2026/02/Sam-Altman-CEO-of-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-02-28T06:23:29.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.breitbart.com/tech/2026/02/28/openai-secures-pentagon-deal-for-classified-ai-deployment-after-trump-dumps-woke-anthropic/",
-      "aiInsight": "这一新闻反映了AI技术在军事领域的应用正在逐步加深，同时也揭示了AI技术提供商在政界态度变化中的应对策略。从技术发展角度看，OpenAI与五角大楼的合作标志着AI技术在安全、军事等高度敏感领域的应用迈出重要一步，这将促进AI技术在保障国家安全和提升军事效能方面的研究与应用。从行业影响角度看，这一合作可能会引发其他AI技术提供商的竞相追逐，加速AI技术向军事领域的渗透。从未来趋势角度看，军民融合的发展趋势将进一步促进AI技术的跨界融合与应用创新，同时也需关注由此带来的伦理、法律等社会问题。政府和企业需共同努力，确保AI技术安全可控地应用于关键领域，实现技术进步与社会责任的平衡。"
-    },
-    {
-      "id": "news_1772317921333_1",
-      "title": "OpenAI在特朗普抛弃“觉醒”的Anthropic后，与五角大楼就机密AI部署达成协议",
-      "summary": "OpenAI与五角大楼达成协议，将为其机密网络部署AI模型，此举发生在特朗普政府下令禁止联邦政府使用Anthropic AI仅几小时后。OpenAI CEO Sam Altman表示，五角大楼在互动中表现出对安全的高度重视，并希望与OpenAI合作实现最佳结果。这标志着AI军事应用的一个重要进展，凸显了OpenAI在军事领域的影响力。",
-      "content": "萨姆·阿尔特曼的OpenAI与国防部达成协议，将在分类网络上部署其AI模型，这距离特朗普政府下令联邦政府“立即停止”使用Anthropic AI还不到几小时……",
-      "imageUrl": "https://media.breitbart.com/media/2026/02/Sam-Altman-CEO-of-OpenAI-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-02-28T06:23:29.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.breitbart.com/tech/2026/02/28/openai-secures-pentagon-deal-for-classified-ai-deployment-after-trump-dumps-woke-anthropic/",
-      "aiInsight": "该新闻反映了AI技术在军事领域的应用深入，以及AI公司在政策变化面前的策略调整。从技术发展角度看，OpenAI与五角大楼的合作进一步推动了AI技术在国家安全和军事战略中的应用，预示着AI技术正逐步渗透到更广泛的军事应用场景。从行业影响来看，这一事件不仅展示了私营AI公司在拓展政府合作方面的能力，也凸显了政府对AI技术的重视。未来，随着技术的发展，这类合作可能会更加频繁，进一步改变军事战略和安全态势。然而，这也引发了关于AI技术伦理和监管的讨论，未来需在促进技术创新与确保技术安全之间找到平衡。"
-    },
-    {
-      "id": "news_1772261588420_3dad0593",
-      "title": "数据压缩至 1/40：谷歌创新算法打造抗量子 HTTPS 证书，Chrome 浏览器已实装",
-      "summary": "IT之家 2 月 28 日消息，谷歌 Chrome 浏览器团队昨日（2 月 27 日）发布博文，宣布引入新型默克尔树证书（MTCs）系统，为 HTTPS 证书引入抗量子加密技术，成功将原本庞大的 2.5 千字节（2560 字节）后量子密钥数据压缩至仅 64 字节（bytes）。",
-      "content": "IT之家 2 月 28 日消息，谷歌 Chrome 浏览器团队昨日（2 月 27 日）发布博文，宣布引入新型默克尔树证书（MTCs）系统，为 HTTPS 证书引入抗量子加密技术，成功将原本庞大的 2.5 千字节（2560 字节）后量子密钥数据压缩至仅 64 字节（bytes）。 为了方便网站所有者实时排查恶意伪造的证书，浏览器厂商目前要求所有 TLS 证书必须在公开透明日志（一种仅限追加的分布式账本）中发布。这一防御机制源于 2011 年荷兰 DigiNotar 机构遭黑客入侵事件。 不过随着量子计算技术的逼近，秀尔算法（Shor’s algorithm）如果能落地，便能轻易破解当前证书日志的经典加密签名与公钥。攻击者借此可伪造已签名证书时间戳，向浏览器或操作系统虚假证明某个未注册证书的合法性。 IT之家注：秀尔算法是一种量子计算机算法，一旦量子计算机拥有足够量子比特，该算法便能快速破解目前广泛使用的 RSA 和 ECC 等经典公钥加密体系。 谷歌为彻底消除这一未来隐患，谷歌开始将 ML-DSA 等抗量子算法的加密材料引入证书体系。在该机制下，攻击者必须同时破解经典加密和后量子加密才能完成伪造。 不过研究表明，如果直接在传统的 X.509 证书中加入抗量子加密算法，证书体积将发生剧烈膨胀（约 2.5kB）。这种变化会严重消耗网络带宽，并大幅拖慢 TLS 连接的握手速度，从而影响全球用户的网页浏览体验。 谷歌找到了巧妙的解决方案，利用默克尔树（Merkle Trees）技术生成了新型默克尔树证书（MTCs）。该技术在提供抗量子安全保障的同时，免去了附加冗长密钥和哈希值的麻烦，成功将数据长度压缩并维持在现有的约 64 字节水平。 谷歌目前已在 Chrome 浏览器中实装了这套全新系统，并将其作为“抗量子根存储”计划的核心部分，以补充此前建立的 Chrome 根存储库。 在现阶段的落地测试中，Cloudflare 正负责生成分布式账本，并为约 1000 个 TLS 证书进行注册，以评估 MTCs 的实际运行效果。按照行业规划，未来证书颁发机构（CA）将全面接手账本生成职责。 该技术的推进正迅速演变为全行业的共识行动。互联网工程任务组（IETF）近期专门成立了名为“PLANTS（PKI、日志与树状签名）”的工作组，负责与行业核心参与者协调，共同开发长期的标准化解决方案。 谷歌官方强调，采用 MTCs 与抗量子根存储是巩固现代网络生态根基的关键机遇，这将大幅加速所有 Web 用户向后量子安全时代的迈进。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/da0006f1-0988-4ef1-b34a-a56127fbf20d.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-02-28T06:09:21.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/924/533.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
