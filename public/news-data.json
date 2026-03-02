@@ -1,22 +1,22 @@
 {
   "success": true,
-  "timestamp": "2026-03-02T07:14:05.025Z",
-  "total": 86,
+  "timestamp": "2026-03-02T08:57:13.727Z",
+  "total": 82,
   "data": [
     {
-      "id": "news_1772435628347_52236d85",
-      "title": "使用MCP、OPA和临时运行时为基础设施自动化构建一个最小权限AI智能体网关",
-      "summary": "使用MCP、OPA和临时运行时为基础设施自动化构建一个最小权限AI智能体网关",
-      "content": "使用MCP、OPA和临时运行时为基础设施自动化构建一个最小权限AI智能体网关",
+      "id": "news_1772441817056_bb97da6d",
+      "title": "蚂蚁阿福：从 0 到生产的医疗 Agent 工程化落地｜QCon北京",
+      "summary": "蚂蚁阿福：从 0 到生产的医疗 Agent 工程化落地｜QCon北京",
+      "content": "蚂蚁阿福：从 0 到生产的医疗 Agent 工程化落地｜QCon北京",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-02T15:00:00.000Z",
+      "publishedAt": "2026-03-02T15:12:19.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Lh3AppcUclgbul3phl2U?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/UbyRYdBINl5BJxElkJGj?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1772435629761_3079fed5",
+      "id": "news_1772441820043_3079fed5",
       "title": "Hugging Face推出Community Evals功能，促进模型测试透明化",
       "summary": "Hugging Face推出Community Evals功能，促进模型测试透明化",
       "content": "Hugging Face推出Community Evals功能，促进模型测试透明化",
@@ -26,42 +26,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/cglzA4vAI8D0HO6UGYlW?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772435631232_cf746250",
-      "title": "Anthropic 研究：AI 编程辅助使开发者技能掌握度下降 17%",
-      "summary": "Anthropic 研究：AI 编程辅助使开发者技能掌握度下降 17%",
-      "content": "Anthropic 研究：AI 编程辅助使开发者技能掌握度下降 17%",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-02T14:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/ohmt2y4R8NHXPL6DSvHR?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772435632685_e9689f72",
-      "title": "别再谈“10 倍开发者”了：AI 智能体不是加速 SDLC，而是直接终结 SDLC",
-      "summary": "别再谈“10 倍开发者”了：AI 智能体不是加速 SDLC，而是直接终结 SDLC",
-      "content": "别再谈“10 倍开发者”了：AI 智能体不是加速 SDLC，而是直接终结 SDLC",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-02T12:08:39.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/HgmbXbAFT1E0T6qcuia0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772435634334_6c21b636",
-      "title": "OpenAI扩展单主节点PostgreSQL，以处理ChatGPT每秒数百万次的查询",
-      "summary": "OpenAI扩展单主节点PostgreSQL，以处理ChatGPT每秒数百万次的查询",
-      "content": "OpenAI扩展单主节点PostgreSQL，以处理ChatGPT每秒数百万次的查询",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-02T11:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/LxfKX2WTqbG6flW9KcZ1?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772419711807_06eab0ab",
@@ -74,6 +38,30 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/uPXx6b3pmlGG9MXE4vHH?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772441827761_cf7135ff",
+      "title": "黄仁勋每天都用的AI工具，要抢金融行业饭碗了？",
+      "summary": "黄仁勋每天都用的AI工具，要抢金融行业饭碗了？",
+      "content": "黄仁勋每天都用的AI工具，要抢金融行业饭碗了？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-02T10:14:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Hp1qGVCd0kyEUhV9YQks?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772441832725_02ad4601",
+      "title": "沃达丰成功测试 ISAC 技术：手机可变身雷达传感器，实时预警周边危险",
+      "summary": "IT之家 3 月 2 日消息，据 Techradar 报道，通感一体通信（Integrated Sensing and Communication，简称 ISAC）是一项可将普通智能手机转变为类雷达传感器的技术，能够实时探测未联网的物体。",
+      "content": "IT之家 3 月 2 日消息，据 Techradar 报道，通感一体通信（Integrated Sensing and Communication，简称 ISAC）是一项可将普通智能手机转变为类雷达传感器的技术，能够实时探测未联网的物体。 沃达丰（Vodafone）与提亚米网络公司（Tiami Networks）正在测试 ISAC 技术，探索智能手机如何向用户发出周边危险预警。双方还在研究该技术在监测人员密集区域、探测入侵者，以及支持工业与环境场景相关任务方面的潜在应用。 据IT之家了解，该全新系统依托基于回波的脉冲信号工作，原理类似于蝙蝠在黑暗环境中导航所用的回声定位技术，无需额外硬件，就能让移动通信网络实现周边环境可视化。 理论上，用户仅通过自身设备即可收到人员密集区域、周边隐患或其他危险状况的提醒；工业领域与公共设施则可监测入侵者、违规无人机或环境风险。 ISAC 可追踪自然灾害、监测牲畜，在难以直接观测的区域提供实时信息，还能借助智能眼镜生成三维地图、检测受污染食品，并辅助机器人识别人类手势。 尽管 ISAC 预计将在 2030 年左右投入使用的未来 6G 网络中扮演核心角色，但该技术可依托现有 5G 基础设施运行。 沃达丰与提亚米网络公司在西班牙马拉加的沃达丰研发中心开展了试验，利用提亚米的 PolyRAN 软件将基站转变为广域传感器。 提亚米网络首席执行官兼创始人阿米塔夫 · 慕克吉（Amitav Mukherjee）表示：“我们对 PolyRAN 的愿景很简单：部署 ISAC 应如同在 5G 网络中启用一款软件应用般顺畅，且不会干扰现有通信服务。与沃达丰合作测试，让我们能与这家深度投身 6G 研究的行业领先运营商一同评估实际性能与部署路径。” 试验期间，在实时运行的 5G 网络中成功探测到了未联网物体甚至人员，且未对语音通话、短信或网络使用造成任何干扰。这意味着 ISAC 的普及无需对网络进行全面改造，技术落地的即时性更强。 试验还通过符合开放无线接入网（Open RAN）标准的天线，测试了不同厂商软硬件之间的互操作性。这种灵活性让移动通信网络可通过软件升级集成全新感知能力，而非更换昂贵设备。 将基站转变为智能边缘计算平台后，运营商可在提供传统通信服务的同时，开展高级环境感知作业。 除工业与城市监测外，ISAC 还将影响人身安全与日常便捷性。商务手机可提醒用户注意交通枢纽等人员密集场所的危险状况，或建筑物内的管道爆裂等隐蔽运维问题。 沃达丰网络战略与架构总监马尔科 · 赞加尼（Marco Zangani）表示：“我们这场面向 6G 的测试表明，不久后你的手机功能将远不止通信 —— 无论身在何处，它都能为你的安全保驾护航。” 该技术还可支持注重隐私的公共应用，例如无需依赖摄像头，即可统计商场内的访客数量。 尽管 ISAC 的全部应用价值仍有待验证，但初步试验证实：将普通智能手机变为主动式环境传感器，在技术上具备可行性。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/b3b6e615-d255-4081-86c9-5a03c4a5f902.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-02T08:11:28.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/925/090.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772435643830_b3888c56",
@@ -364,6 +352,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1772441793578_0",
+      "title": "OpenAI 同意在 Anthropic 纠纷之后向五角大楼提供 AI 模型访问权限",
+      "summary": "OpenAI 同意将其人工智能模型部署在五角大楼的机密网络中，此前 Anthropic 因与五角大楼的关系破裂而受到影响。这一决定是在 Anthropic 与五角大楼纠纷之后做出的，意味着 OpenAI 将成为五角大楼新的 AI 模型供应商。此次合作将使五角大楼能够访问 OpenAI 的先进 AI 技术，以支持其军事和安全需求。",
+      "content": "由Rachel Metz和Maggie Eastland撰稿，彭博新闻社报道： OpenAI 已同意将其自身的人工智能模型部署在国防部的机密网络中，此前竞争对手 Anthropic PBC 与五角大楼的关系因某些问题而破裂…… [4377字节]",
+      "imageUrl": "https://www.courant.com/wp-content/uploads/2026/02/202602280058MCT_____PHOTO____US-NEWS-PENTAGON-OPENAI-FILEPIC-GET.jpg?w=1024&h=693",
+      "source": "Hartford Courant",
+      "publishedAt": "2026-03-01T12:30:18.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.courant.com/2026/03/01/openai-gives-pentagon-ai-model-access-after-anthropic-dustup-3/",
+      "aiInsight": "从技术发展角度看，OpenAI与五角大楼的合作标志着美国军事部门正逐步接纳和应用先进的AI技术，这不仅是对当前AI技术成熟度的认可，也是对未来战场智能化需求的响应。从行业影响来看，这一合作可能将推动更多科技公司和政府机构在安全和法律框架内探索AI在军事领域的应用，这可能会促进相关技术标准和监管框架的建立，同时也可能引发公众对于AI军事应用的伦理和安全担忧。从未来趋势来看，随着AI技术的不断进步和应用范围的扩大，军民融合的趋势将更加明显，但同时也需要警惕AI技术滥用的风险，确保技术发展服务于和平与安全的目标。此次合作还可能激励其他科技公司在确保合规性和伦理性的前提下，探索AI技术在政府和国防领域的应用。"
+    },
+    {
       "id": "news_1772435586368_0",
       "title": "OpenAI 同意在 Anthropic 事件之后向五角大楼提供 AI 模型访问权限",
       "summary": "OpenAI 同意将其人工智能模型部署在五角大楼的机密网络中，此前 Anthropic 因某些问题与五角大楼的关系破裂。这一决定是在 Anthropic 事件之后做出的，表明 OpenAI 在与美国政府合作方面取得了进展。这一合作将使五角大楼能够访问 OpenAI 的先进 AI 技术，以支持其军事和安全需求。",
@@ -628,16 +628,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1772435580590_1",
+      "id": "news_1772441793783_1",
       "title": "OpenAI与五角大楼达成协议，after Trump放弃Anthropic",
-      "summary": "OpenAI与五角大楼达成协议，将为其提供人工智能服务。此前，特朗普政府要求所有联邦机构停止使用Anthropic提供的AI服务。OpenAI CEO萨姆·奥尔特曼表示，该公司已与国防部达成协议，在其保密工作中部署AI模型。此前，五角大楼曾使用Anthropic的AI模型Claude处理包括捕获委内瑞拉总统马杜罗在内的多项机密工作。",
-      "content": "2月28日（UPI）——OpenAI 宣布与国防部达成协议，为其提供人工智能服务，这发生在特朗普政府指示所有联邦机构停止使用 Anthropic 提供的服务几小时后。",
+      "summary": "OpenAI与五角大楼达成协议，将为其提供人工智能服务。此前，特朗普政府指示所有联邦机构停止使用Anthropic提供的AI服务。OpenAI CEO Sam Altman表示，该公司已与国防部达成协议，在其保密工作中部署AI模型。此前，五角大楼曾使用Anthropic的AI模型Claude处理机密工作，包括捕捉委内瑞拉总统马杜罗的行动。OpenAI是San Francisco的科技研究公司，开发了ChatGPT和DALL-E等应用。",
+      "content": "2月28日（UPI）——OpenAI 宣布与国防部达成协议，为其提供人工智能服务，这发生在特朗普政府指示所有联邦机构停止使用 Anthropic 提供的人工智能服务仅仅几个小时之后。",
       "imageUrl": "https://img.particlenews.com/img/id/0K4NbF_19FKqLu200",
       "source": "NewsBreak",
       "publishedAt": "2026-02-28T20:58:52.000Z",
       "category": "国际AI",
       "originalUrl": "https://www.newsbreak.com/upi-news-510013/4516906855736-openai-reaches-deal-with-pentagon-after-trump-drops-anthropic",
-      "aiInsight": "这一新闻反映了人工智能技术在国防领域的应用越来越广泛，同时也揭示了政府在监管人工智能技术方面的复杂立场。从技术发展的角度看，OpenAI与五角大楼的合作标志着AI技术在军事和国防领域的进一步深度融合，预示着未来可能有更多的AI技术被应用于提升军事效能。从行业影响的角度来看，这一合作可能会促使其他AI公司加快研发适应军事需求的技术，从而推动整个AI行业的技术升级和创新。至于未来趋势，随着AI技术在军事领域的应用不断加深，可能会引发对AI伦理、安全和监管的新一轮讨论，尤其是如何在保障国家安全的同时保护公民隐私和维护国际秩序。"
+      "aiInsight": "该新闻反映了AI技术与军事应用的结合，以及市场上的竞争态势。从技术发展角度来看，OpenAI与五角大楼的合作标志着AI技术在军事领域应用的进一步深化，这不仅体现了AI技术在军事智能化方面的巨大潜力，也预示着AI技术在军事领域的应用将更加广泛和深入。从行业影响来看，这一事件凸显了AI技术的商业化和军事化进程的加速，同时也可能对现有的军用AI市场格局产生影响，尤其是对Anthropic等竞争对手构成直接挑战。从未来趋势来看，预计会有更多科技企业与政府机构进行类似合作，推动AI技术在国防安全等关键领域的应用。"
     },
     {
       "id": "news_1772419677611_1",
@@ -664,6 +664,18 @@
       "aiInsight": "该新闻反映了AI技术在军事和安全领域的深化应用，以及政府在AI伦理和安全方面的监管动向。从技术发展角度看，OpenAI与五角大楼的合作标志着AI技术在军事领域的广泛应用正在加速，这将推动AI技术在复杂环境下的应用与优化。从行业影响角度看，这一合作可能促使其他AI企业调整其在军事领域的市场策略，同时也可能引发关于AI技术军事化应用的伦理和法律讨论。从未来趋势来看，随着AI技术的不断进步，其在军事、安全等领域的应用将更加广泛，同时，监管机构也可能出台更加严格的法规来规范AI技术的使用，尤其是涉及敏感领域的技术应用。"
     },
     {
+      "id": "news_1772441792534_2",
+      "title": "OpenAI与国防部就Anthropic事件达成AI协议",
+      "summary": "OpenAI已与五角大楼达成协议，为后者机密系统提供人工智能技术。该协议是在特朗普政府时期总统下令联邦机构暂停使用OpenAI的Anthropic平台后达成的。此次合作标志着OpenAI在与政府机构合作方面取得进展，但具体合作细节尚未披露。",
+      "content": "旧金山——OpenAI，ChatGPT 的制造商，在周五表示已与五角大楼达成协议，为其机密系统提供人工智能技术，这距离总统唐纳德·特朗普下令联邦机构... [5573 字符]",
+      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2026/02/unnamed-file-2214.jpg?w=1024&h=682",
+      "source": "The Mercury News",
+      "publishedAt": "2026-02-28T18:57:10.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.mercurynews.com/2026/02/28/openai-reaches-ai-agreement-with-defense-dept-after-anthropic-clash-3/",
+      "aiInsight": "这一新闻表明OpenAI正逐步扩大其在人工智能领域的应用范围，不仅限于民用领域，如提供ChatGPT服务，还开始与政府部门合作，为机密系统提供AI技术。从技术发展角度看，这标志着AI技术在安全性和隐私保护方面取得了新的进展，能够满足政府对敏感信息处理的严格要求。从行业影响上看，这可能预示着未来更多AI技术将在政府和其他关键基础设施中得到应用，推动AI技术向更深度、更广泛的领域发展。未来趋势方面，预计AI技术的军事应用将更加普遍，同时在确保技术可控性、安全性方面会有更多探索。此外，这也可能引发关于AI伦理和监管的新讨论。"
+    },
+    {
       "id": "news_1772435602172_2",
       "title": "OpenAI与国防部门达成AI协议，此前与Anthropic发生争端",
       "summary": "OpenAI宣布与五角大楼达成协议，为后者机密系统提供人工智能技术。此前，OpenAI曾与Anthropic发生争端。该协议引发了关于人工智能安全和伦理的讨论。尽管OpenAI表示协议不涉及军事用途，但此举仍引起了一些人的担忧，认为这可能使人工智能技术被用于军事目的。",
@@ -674,18 +686,6 @@
       "category": "国际AI",
       "originalUrl": "https://www.mercurynews.com/2026/02/28/openai-reaches-ai-agreement-with-defense-dept-after-anthropic-clash-3/",
       "aiInsight": "这段新闻报道的重点是OpenAI与美国国防部签署了一项涉及人工智能技术的协议。从技术发展的角度来看，这标志着政府机构开始正式认可并利用大型语言模型和人工智能技术来满足其特定需求，这可能推动AI技术在政府和军事领域的应用和发展。从行业影响的角度来看，此次合作可能会促使其他科技公司和研究机构寻求与政府机构的合作机会，从而加速AI技术在更多领域的应用。然而，这次合作也引发了关于AI伦理和监管的讨论，特别是考虑到AI在军事应用中的潜在风险。\n\n未来趋势方面，预计政府机构将与科技公司在AI技术研发方面进行更深入的合作，但同时也需要制定相应的监管框架，以确保AI技术的安全可控和伦理合规。此外，随着政府机构对AI技术需求的增长，这可能也会吸引更多投资进入这一领域，推动AI技术的进一步创新和发展。"
-    },
-    {
-      "id": "news_1772431167280_2",
-      "title": "OpenAI与国防部就Anthropic事件达成AI协议",
-      "summary": "OpenAI已与五角大楼达成协议，为后者机密系统提供人工智能技术。此次合作发生在OpenAI因Anthropic事件受到外界质疑之后。Anthropic事件涉及OpenAI向Anthropic公司泄露了部分技术细节，引发伦理争议。此次协议的达成，意味着OpenAI在与政府机构合作方面迈出了重要一步，但同时也需面对公众对其技术安全性和伦理性的担忧。",
-      "content": "旧金山——OpenAI，ChatGPT的制造商，在周五表示，它已与五角大楼达成协议，为其机密系统提供人工智能技术，这距离总统唐纳德·特朗普下令联邦机构…… [5573字节]",
-      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2026/02/unnamed-file-2214.jpg?w=1024&h=682",
-      "source": "The Mercury News",
-      "publishedAt": "2026-02-28T18:57:10.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.mercurynews.com/2026/02/28/openai-reaches-ai-agreement-with-defense-dept-after-anthropic-clash-3/",
-      "aiInsight": "从技术发展角度来看，OpenAI与五角大楼达成AI协议标志着人工智能技术在军事领域的应用进一步深化。这不仅反映了AI技术在军事智能化方面的巨大潜力，也体现了政府军方对AI技术的信任与支持。这一事件预示着AI技术将更多地参与到国家安全、军事战略决策等高敏感领域，为AI技术的发展开拓了新的应用场景。\n\n从行业影响角度来看，OpenAI与五角大楼的合作将推动AI技术在国防安全领域的快速发展。一方面，这将促进AI技术在军事领域的深度应用，推动国防信息化建设；另一方面，也可能会引发其他科技公司纷纷布局军事AI领域，加剧该领域的竞争态势。此外，这一事件还会引起公众对AI技术安全性和伦理问题的关注和讨论，促使相关行业重新审视AI技术的发展路径和应用边界。\n\n从未来趋势来看，AI技术在军事领域的应用将呈现出多元化、智能化、精准化的发展趋势。随着技术的进步，未来AI将在军事侦察、指挥控制、无人作战等多个方面发挥更大作用，提高军事效率和战斗力。然而，这也可能引发一系列新的挑战和风险，如军事AI的失控风险、数据安全问题等。因此，未来需要在推动技术发展的同时，加强相关法律法规的制定与完善，确保AI技术的安全可控。"
     },
     {
       "id": "news_1772397424129_1",
@@ -722,18 +722,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.mercurynews.com/2026/02/28/openai-reaches-ai-agreement-with-defense-dept-after-anthropic-clash-3/",
       "aiInsight": "这项新闻标志着OpenAI在政府与私营部门之间取得了一项重要突破，尤其是在人工智能技术的应用上。从技术发展的角度来看，OpenAI与国防部门的合作将促进AI技术在安全和保密环境中的应用，这不仅意味着OpenAI的技术得到了政府的高度认可，也为其在军事和国防领域的应用打开了大门。\n\n行业影响方面，这一协议可能会引发其他大型科技公司与政府机构寻求类似的合作伙伴关系，增加政府对AI技术的依赖，同时也可能加剧民间与政府在AI技术使用上的监管与伦理讨论。\n\n未来趋势来看，随着AI技术在国防领域的深入应用，其技术能力和安全性都将面临更高的标准和要求，这将推动AI技术向更专业、更安全的方向发展。同时，这也可能促使政府进一步加强对AI技术的监管，以确保技术的合理使用和防范潜在风险。"
-    },
-    {
-      "id": "news_1772435639012_e9b8f5a7",
-      "title": "谷歌 Nano Banana 2 一夜补齐短板，各种图解都能画，价格才是 OpenAI 一半",
-      "summary": "谷歌 Nano Banana 2 一夜补齐短板，各种图解都能画，价格才是 OpenAI 一半",
-      "content": "谷歌 Nano Banana 2 一夜补齐短板，各种图解都能画，价格才是 OpenAI 一半",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-02-28T15:18:33.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/GcPU9NHkexyuriC2cBM2?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772289082019_04e437ff",
@@ -998,42 +986,6 @@
       "category": "国际AI",
       "originalUrl": "https://thenextweb.com/news/openai-signs-pentagon-ai-deal-after-trump-orders-anthropic-ban",
       "aiInsight": "这一新闻反映了AI技术在军事领域的应用正在深化，标志着AI技术从民用领域向国防和国家安全领域的拓展。这不仅体现了OpenAI技术的先进性，也展现出其在政府层面的认可度提升。\n\n从行业角度看，这一协议的签署预示着未来更多企业和政府机构可能会寻求与OpenAI合作，推动AI技术在更多领域的应用。同时，这也促使其他AI公司加快自身技术的研发和改进，以适应不断变化的市场需求和政策环境。\n\n从未来趋势来看，随着AI技术在军事领域的深入应用，AI武器化的风险和挑战也将随之增加。因此，未来需要关注如何平衡AI技术的发展与安全、伦理之间的关系，确保AI技术能够为人类带来更多的福祉而非威胁。同时，这也将推动相关法律法规的制定和完善，以规范AI技术的合理使用。"
-    },
-    {
-      "id": "news_1772267985462_b432256d",
-      "title": "我国首个国家级人形机器人与具身智能标准体系发布",
-      "summary": "今天（2月28日），人形机器人与具身智能标准化（HEIS）年会在北京召开。作为工业和信息化部人形机器人与具身智能标准化技术委员会（以下简称“标委会”）2025年12月成立后的首届年会，政、企、研、资等多方齐聚，共同探讨产业标准化工作。",
-      "content": "今天（2月28日），人形机器人与具身智能标准化（HEIS）年会在北京召开。作为工业和信息化部人形机器人与具身智能标准化技术委员会（以下简称“标委会”）2025年12月成立后的首届年会，政、企、研、资等多方齐聚，共同探讨产业标准化工作。会上正式发布《人形机器人与具身智能标准体系（2026版）》（以下简称“体系”）。这是我国首个覆盖人形机器人全产业链、全生命周期的标准顶层设计，标志着相关产业进入规范化发展新阶段。（央视新闻）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-02-28T07:55:53.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3702620480172423?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772268029209_e2ff5466",
-      "title": "周意保展示 OPPO Find N6 折叠屏手机折痕效果：出厂浅不是真的浅，久用浅才是真的浅",
-      "summary": "IT之家 2 月 28 日消息，OPPO Find N6 折叠屏手机官宣“即将登场”，宣传语为“一马平川”，主打浅折痕。",
-      "content": "IT之家 2 月 28 日消息，OPPO Find N6 折叠屏手机官宣“即将登场”，宣传语为“一马平川”，主打浅折痕。 OPPO Find 系列产品负责人周意保晒出视频，展示了 OPPO Find N6 折叠屏手机真机的折痕效果，并表示：我们始终认为折痕控制这件事，出厂浅不是真的浅，久用浅才是真的浅。这次的 OPPO Find N6，不仅要展开时“初见惊艳”，更要多次折叠后“久用平整”。 从视频可以看到，OPPO Find N6 从水中拿出，展示了正面、侧面的屏幕效果，几乎看不到折痕。IT之家附截图如下： 博主 @数码闲聊站 发文透露，OPPO Find N6 是莱茵测过的“全球最平整”的折叠机。博主表示，莱茵几乎测试过市面上所有折叠机，含金量确实没话说。 爆料还称 OPPO Find N6 折叠屏手机还将首发“无痕钛合金铰链 + 自修复记忆玻璃”两项行业黑科技。博主称，某国际大厂（此处预计指苹果）今年的折叠机也在借鉴 OPPO 的方案，但落后差不多半年。 周意保还透露，OPPO Find N6 不仅有手写笔，还是“AI 手写笔”，搭载行业首发的 AI 功能，给大家带来“旦用难回”的体验。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/2825d776-37ac-48fd-a539-26424ee41252.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-02-28T07:45:30.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/924/593.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772264135542_87692dfa",
-      "title": "华为鸿蒙 HarmonyOS 6.0.0.328 花粉 Beta 版招募开启，覆盖 25 款机型",
-      "summary": "IT之家 2 月 28 日消息，华为鸿蒙 HarmonyOS 6.0.0.328 花粉 Beta 版招募于今日（2 月 28 日）开启。",
-      "content": "IT之家 2 月 28 日消息，华为鸿蒙 HarmonyOS 6.0.0.328 花粉 Beta 版招募于今日（2 月 28 日）开启。 IT之家附本次招募支持机型如下： HUAWEI Mate 80 HUAWEI Mate 80 Pro HUAWEI Mate 80 Pro Max HUAWEI Mate 80 RS 非凡大师 HUAWEI Mate 70 HUAWEI Mate 70 Pro HUAWEI Mate 70 Pro 优享版 HUAWEI Mate 70 Pro+ HUAWEI Mate 70 RS 非凡大师 HUAWEI Mate 70 Air HUAWEI Mate X7 HUAWEI Mate X7 典藏版 HUAWEI Mate X6 HUAWEI Mate X6 典藏版 HUAWEI Mate XTs 非凡大师 HUAWEI Pura 80 HUAWEI Pura 80 Pro HUAWEI Pura 80 Pro+ HUAWEI Pura 80 Ultra HUAWEI Pura X HUAWEI Pura X 典藏版 HUAWEI MatePad Pro 13.2 英寸 2025 HUAWEI MatePad Edge HUAWEI MatePad 11.5 2026 HUAWEI MatePad Mini IT之家小伙伴可以在设置＞搜索“软件更新（右上角：:）”＞升级尝鲜，进行花粉 Beta 版招募报名。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/cf3ecf07-df17-4246-bad7-2d918aca76c7.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-02-28T07:18:13.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/924/568.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
