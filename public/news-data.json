@@ -1,8 +1,44 @@
 {
   "success": true,
-  "timestamp": "2026-03-02T22:37:25.634Z",
-  "total": 76,
+  "timestamp": "2026-03-02T23:40:02.194Z",
+  "total": 82,
   "data": [
+    {
+      "id": "news_1772494769963_d2bed6c9",
+      "title": "【钛晨报】科技保险迎重磅新政，四部门出台20条举措；中东局势持续升级，多家期货交易所及大行提示风险；雷军公布小米机器人最新进展",
+      "summary": "多家A股油气公司回应涉中东业务进展；周大福珠宝集团：金条类产品正常在售；格力电器回应“未来每年将不再派发股息”传闻；苹果发布iPhone 17e与新款iPad Air，定价不变主打中端市场；英伟达拟向两家光学公司各投20亿美元，加码AI算力生态；油价飙升重燃通胀忧虑，全球央行降息预期全线降温。",
+      "content": "多家A股油气公司回应涉中东业务进展；周大福珠宝集团：金条类产品正常在售；格力电器回应“未来每年将不再派发股息”传闻；苹果发布iPhone 17e与新款iPad Air，定价不变主打中端市场；英伟达拟向两家光学公司各投20亿美元，加码AI算力生态；油价飙升重燃通胀忧虑，全球央行降息预期全线降温。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-02T23:20:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7896483.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772494800910_6268d03f",
+      "title": "消息称苹果私有云计算遇挑战，拟让谷歌数据中心托管 Siri AI 核心算力",
+      "summary": "IT之家 3 月 3 日消息，科技媒体 The Information 昨日（3 月 2 日）发布博文，报道称苹果近期让谷歌在其数据中心部署服务器，以运行未来由 Gemini 驱动的新版 Siri。",
+      "content": "IT之家 3 月 3 日消息，科技媒体 The Information 昨日（3 月 2 日）发布博文，报道称苹果近期让谷歌在其数据中心部署服务器，以运行未来由 Gemini 驱动的新版 Siri。 在处理复杂 AI 查询方面，苹果目前主要通过“私有云计算”（Private Cloud Compute，PCC）系统，而该系统运行在搭载苹果自研芯片的服务器上。IT之家援引博文介绍，该系统目前的平均利用率仅为 10%，部分专为 AI 云系统准备的服务器甚至仍闲置在仓库中。 消息源指出，基于苹果公司的企业文化，该公司长期不愿大规模扩建云基础设施，而是聚焦硬件设备与消费者功能，从而忽视了底层云技术的支撑需求。 这种战略倾斜导致了包括帕特里克 · 盖茨（Patrick Gates）在内的多位核心云技术专家离职。盖茨曾率先提出将苹果芯片引入数据中心的构想，这也正是私有云计算系统的技术雏形。 苹果内部的 AI 基础设施在公司意识到需要云技术支持时，已开始走向老化。该公司当时正逐步淘汰老旧的英伟达服务器。伴随着财务压力，苹果被迫开始增加对亚马逊等第三方云服务提供商的依赖。 苹果基于隐私担忧，曾多年禁止其 AI 工程师使用谷歌的云技术。苹果软件业务负责人克雷格 · 费德里吉（Craig Federighi）也曾多次否决将谷歌云作为 AI 算力选项的提议。 谷歌于 2023 年调整其安全系统，成功打消了苹果的隐私顾虑。苹果随后开始采用谷歌的云基础设施来处理人工智能任务。 私有云计算系统自身的技术缺陷进一步加剧了这一困境，该系统的更新耗时远超常规服务器。此外，PCC 服务器目前使用的芯片原本专为消费级设备设计，完全没有针对 AI 工作流优化，因此难以流畅运行 Gemini 这类大型语言模型。 苹果预计 Gemini 版 Siri 于今年晚些时候发布后，设备端的 AI 使用量将迎来暴涨，因此迫切需要谷歌直接在其服务器上运行 Siri 以应对算力洪峰。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-03-02T23:01:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/925/218.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772494801190_f7111f94",
+      "title": "省一笔钱：苹果 iPhone 17e 尺寸未变化，兼容 16e 手机壳",
+      "summary": "IT之家 3 月 3 日消息，科技媒体 Appleinsider 今天（3 月 3 日）发布博文，报道称在 iPhone 17e 机型上，苹果公司在升级规格、加入 MagSafe 磁吸充电外，其外观尺寸和前代 iPhone 16e 保持一致，意味着旧款 iPhone 16e 手机壳可以兼容 iPho...",
+      "content": "IT之家 3 月 3 日消息，科技媒体 Appleinsider 今天（3 月 3 日）发布博文，报道称在 iPhone 17e 机型上，苹果公司在升级规格、加入 MagSafe 磁吸充电外，其外观尺寸和前代 iPhone 16e 保持一致，意味着旧款 iPhone 16e 手机壳可以兼容 iPhone 17e。 每当新 iPhone 问世，普通消费者关心的问题之一，不是复杂的技术参数，而是手中的旧手机壳能否在新机上继续使用。 外观设计方面，iPhone 17e 与前代产品几乎如出一辙。两款机型均采用单后置摄像头布局，并且音量键、电源键以及操作按钮的位置完全相同。此外，屏幕顶部的刘海设计也保持原有尺寸。官方数据显示，iPhone 17e 与 iPhone 16e 的高度同为 146.7 毫米，宽度为 71.5 毫米，厚度为 7.8 毫米。 唯一的物理差异体现在机身重量上，iPhone 17e 比前代略重两克。考虑到这仅仅相当于两个标准回形针的重量，两款手机在手感上可以说毫无区别。这一微小的重量增加主要源于 iPhone 17e 在内部新增了 MagSafe 磁吸充电模块。 虽然旧壳完全兼容，但为了配合新加入的 MagSafe 功能，苹果官方依然推出了全新的 iPhone 17e 专属硅胶保护壳。 新款保护壳内置磁吸模块，提供浅粉色、亮番石榴色、香草色、浅苔绿色、海军蓝色和黑色等多种配色，单只售价为 399 元（点此前往苹果官网选购）。如果用户希望体验完整的磁吸生态，升级原装手机壳将是不错的选择。 对于不在意 MagSafe 功能或不喜欢新配色的用户，苹果目前仍在销售 iPhone 16e 的硅胶保护壳。旧款手机壳提供霓虹黄色、紫红色、白色、黑色、冬季蓝色和湖绿色，售价仅为 329 元（点此前往苹果官网选购）。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/51e12b8a-ed36-4e8c-a775-97ec42bc9a01.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-02T22:47:46.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/925/215.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1772478095328_be0e2bb6",
       "title": "苹果 visionOS 26.4 开发者预览版 Beta 3 发布",
@@ -14,6 +50,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/925/213.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772494783202_5487a5ae",
+      "title": "智械盛宴下的孤岛：AI、资本与知识生态的隐秘危机",
+      "summary": "智械盛宴下的孤岛：AI、资本与知识生态的隐秘危机",
+      "content": "智械盛宴下的孤岛：AI、资本与知识生态的隐秘危机",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-02T17:50:50.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/CipE6FbwVFaLUtXj3G5U?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772466725443_d3ab98c4",
@@ -40,15 +88,15 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1772491028661_bb97da6d",
-      "title": "蚂蚁阿福：从 0 到生产的医疗 Agent 工程化落地｜QCon北京",
-      "summary": "蚂蚁阿福：从 0 到生产的医疗 Agent 工程化落地｜QCon北京",
-      "content": "蚂蚁阿福：从 0 到生产的医疗 Agent 工程化落地｜QCon北京",
+      "id": "news_1772494786002_52236d85",
+      "title": "使用MCP、OPA和临时运行时为基础设施自动化构建一个最小权限AI智能体网关",
+      "summary": "使用MCP、OPA和临时运行时为基础设施自动化构建一个最小权限AI智能体网关",
+      "content": "使用MCP、OPA和临时运行时为基础设施自动化构建一个最小权限AI智能体网关",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-02T15:12:19.000Z",
+      "publishedAt": "2026-03-02T15:00:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/UbyRYdBINl5BJxElkJGj?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/Lh3AppcUclgbul3phl2U?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -88,7 +136,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1772491031579_3079fed5",
+      "id": "news_1772494787671_3079fed5",
       "title": "Hugging Face推出Community Evals功能，促进模型测试透明化",
       "summary": "Hugging Face推出Community Evals功能，促进模型测试透明化",
       "content": "Hugging Face推出Community Evals功能，促进模型测试透明化",
@@ -98,6 +146,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/cglzA4vAI8D0HO6UGYlW?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772494788944_cf746250",
+      "title": "Anthropic 研究：AI 编程辅助使开发者技能掌握度下降 17%",
+      "summary": "Anthropic 研究：AI 编程辅助使开发者技能掌握度下降 17%",
+      "content": "Anthropic 研究：AI 编程辅助使开发者技能掌握度下降 17%",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-02T14:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/ohmt2y4R8NHXPL6DSvHR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772457519202_5b5347fa",
@@ -148,6 +208,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1772494790241_e9689f72",
+      "title": "别再谈“10 倍开发者”了：AI 智能体不是加速 SDLC，而是直接终结 SDLC",
+      "summary": "别再谈“10 倍开发者”了：AI 智能体不是加速 SDLC，而是直接终结 SDLC",
+      "content": "别再谈“10 倍开发者”了：AI 智能体不是加速 SDLC，而是直接终结 SDLC",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-02T12:08:39.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/HgmbXbAFT1E0T6qcuia0?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1772451442476_26456c2b",
       "title": "微信打击利用 AI 仿冒名人进行引流，1.3 万条内容与 1200 个账号被处置",
       "summary": "IT之家 3 月 2 日消息，微信珊瑚安全公众号今日发布《关于打击利用 AI 仿冒名人进行引流虚假宣传的公告》，IT之家附全文如下： 微信始终致力于为用户打造安全、健康、绿色的平台生态环境。近期，平台发现部分违规账号利用 AI 技术仿冒名人，通过伪造其形象、声音进行违规引流或虚假宣传。",
@@ -184,6 +256,30 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1772494750983_0",
+      "title": "军事力量能防止克劳德或开放AI失控吗？",
+      "summary": "五角大楼宣布将与开发领先AI模型Claude的Anthropic公司断绝关系，原因是谈判破裂。此举被视为对AI失控风险的预防措施。然而，军事力量是否能有效防止类似Claude的AI失控仍存疑。此次事件凸显了AI安全与监管的紧迫性。",
+      "content": "军事领域的人工智能本周取得了重大进展。首先，五角大楼宣布将很快与Anthropic及其领先模型Claude断绝关系——在这一极端措施中，还将该公司列为“供应链风险”——这发生在谈判破裂之后……",
+      "imageUrl": "https://pyxis.nymag.com/v1/imgs/f0f/927/7b1f4129ed8c64e92d573847e0ceccddfc-JAQ-AI-pentagon.1x.rsocial.w1200.jpg",
+      "source": "New York Magazine",
+      "publishedAt": "2026-03-02T11:00:23.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://nymag.com/intelligencer/article/military-ai-iran-openai-claude.html",
+      "aiInsight": "这篇新闻报道了五角大楼与Anthropic及其Claude模型断绝关系的消息，这是军事领域人工智能发展中的一个重大事件。从技术发展角度看，这可能反映了五角大楼对开放AI系统的安全性和可控性的担忧，尤其是在军事应用中。从行业影响来看，这可能促使其他军事机构重新评估其与开放AI公司的合作关系，并可能加速推动军事AI的自主性和封闭性研究。\n\n未来趋势方面，这可能预示着军事AI将更加重视内部开发和控制，以确保安全性、可靠性和隐私保护。然而，这也引发了关于如何有效防止AI失控的更广泛讨论。面对日益复杂的AI系统，需要跨学科的合作，包括技术、伦理、法律等多个领域，以建立全面的防范机制，确保AI技术的安全应用。"
+    },
+    {
+      "id": "news_1772494791565_6c21b636",
+      "title": "OpenAI扩展单主节点PostgreSQL，以处理ChatGPT每秒数百万次的查询",
+      "summary": "OpenAI扩展单主节点PostgreSQL，以处理ChatGPT每秒数百万次的查询",
+      "content": "OpenAI扩展单主节点PostgreSQL，以处理ChatGPT每秒数百万次的查询",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-02T11:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/LxfKX2WTqbG6flW9KcZ1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1772451442636_d4007cdb",
       "title": "星纪魅族郭鹏回应“智能眼镜 AR 团队集体入职雷鸟”：部门正常运转，计划今年二三季度推出光波导新产品",
       "summary": "IT之家 3 月 2 日消息，今日有知情人士透露，“魅族旗下 AR 眼镜品牌 StarV 的 AR 系统团队已整体入职雷鸟创新”。随后，魅族方面对《科创板日报》回应称：假的。",
@@ -206,18 +302,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/uPXx6b3pmlGG9MXE4vHH?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772491038943_cf7135ff",
-      "title": "黄仁勋每天都用的AI工具，要抢金融行业饭碗了？",
-      "summary": "黄仁勋每天都用的AI工具，要抢金融行业饭碗了？",
-      "content": "黄仁勋每天都用的AI工具，要抢金融行业饭碗了？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-02T10:14:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Hp1qGVCd0kyEUhV9YQks?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772451407715_f90d1878",
@@ -604,6 +688,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1772494755497_1",
+      "title": "OpenAI 向五角大楼提供 AI 模型访问权限，此前发生了 Anthropic 纠纷",
+      "summary": "OpenAI 同意将其人工智能模型部署在国防部的机密网络中，此前 Anthropic 与五角大楼因某些问题关系破裂。此举标志着 OpenAI 在军事人工智能领域取得突破，但引发了关于人工智能安全和监管的讨论。",
+      "content": "由Rachel Metz和Maggie Eastland撰稿，彭博新闻社报道： OpenAI 已同意将其自己的人工智能模型部署在国防部的机密网络中，此前竞争对手 Anthropic PBC 与五角大楼的关系因某些问题而破裂…… [4377字节]",
+      "imageUrl": "https://www.courant.com/wp-content/uploads/2026/02/202602280058MCT_____PHOTO____US-NEWS-PENTAGON-OPENAI-FILEPIC-GET.jpg?w=1024&h=693",
+      "source": "Hartford Courant",
+      "publishedAt": "2026-03-01T12:30:18.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.courant.com/2026/03/01/openai-gives-pentagon-ai-model-access-after-anthropic-dustup-3/",
+      "aiInsight": "这项合作标志着OpenAI在军事领域扩展其AI技术应用的重要一步。从技术发展角度看，这表明军事领域对先进AI技术的迫切需求，同时也反映了OpenAI在军事AI领域的技术实力和影响力。从行业影响来看，此举可能促进其他AI公司也寻求与政府军方合作，从而加剧市场竞争，推动AI技术在国防领域的应用创新。然而，这也引发了一系列伦理与安全问题，包括AI武器化的风险、数据隐私保护等，这些都需要在技术发展的同时得到充分考虑和解决。未来趋势方面，预计政府与私营部门在AI领域的合作将更加紧密，但同时伴随的监管和伦理审查也会更加严格。"
+    },
+    {
       "id": "news_1772490997239_0",
       "title": "OpenAI 向五角大楼提供 AI 模型访问权限，此前发生了 Anthropic 争端",
       "summary": "OpenAI 同意将其人工智能模型部署在五角大楼的机密网络中，此前 Anthropic 与五角大楼因某些问题关系破裂。这一决定标志着 OpenAI 在军事人工智能领域的进一步参与。此举引发了关于人工智能安全和监管的讨论。",
@@ -880,31 +976,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1772321452776_e0de53e4",
-      "title": "更新包超 10GB：华为鸿蒙 HarmonyOS 6.0.0.328 花粉 Beta 版开启推送",
-      "summary": "IT之家 3 月 1 日消息，华为鸿蒙 HarmonyOS 6.0.0.328 花粉 Beta 版昨日开启招募，首批机型覆盖 Mate 80、Mate 70、Mate X7、Pura 80、Pura X、MatePad Pro 13.2 英寸 2025 等系列机型。",
-      "content": "IT之家 3 月 1 日消息，华为鸿蒙 HarmonyOS 6.0.0.328 花粉 Beta 版昨日开启招募，首批机型覆盖 Mate 80、Mate 70、Mate X7、Pura 80、Pura X、MatePad Pro 13.2 英寸 2025 等系列机型。 IT之家注意到，目前“328”新版本已开启推送，更新包大小超 10GB（部分机型更新包超 18GB），属于大版本范畴，或为鸿蒙 HarmonyOS 6.1 的前瞻。 目前，华为官方暂未公布新版本更新内容。但据用户反馈，新版本在 UI 设计方面有所调整，新增存储界面用户数据，取消了 API 版本、系统服务版本显示，同时电话、关于本机界面有所变更。 另外，华为开发者官网对“328”新版本介绍如下： 本次更新将带给您全新的使用体验。您可以体验到 HarmonyOS 6 的新功能、新特性和基于 API 23 的 HarmonyOS 最新能力，以及使用 DevEco Studio 进行应用开发的便捷与高效。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/cf3ecf07-df17-4246-bad7-2d918aca76c7.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1",
-      "source": "IT之家",
-      "publishedAt": "2026-02-28T23:21:13.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/924/708.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772321452880_1fa451d6",
-      "title": "小米穿戴 2 月 OTA 更新进展：手环 9 Pro 上线支付宝「碰一下」功能、Watch 5 手表新版本全量推送",
-      "summary": "IT之家 3 月 1 日消息，小米集团手机部副总裁、可穿戴部总经理张雷昨日公布了可穿戴设备的 2 月 OTA 更新进展。据称，新版本聚焦用户最关心的系统功能体验、稳定性提升等方面，在多款产品上带来新变化。",
-      "content": "IT之家 3 月 1 日消息，小米集团手机部副总裁、可穿戴部总经理张雷昨日公布了可穿戴设备的 2 月 OTA 更新进展。据称，新版本聚焦用户最关心的系统功能体验、稳定性提升等方面，在多款产品上带来新变化。 ▲ IT之家评测室：小米 Watch 5 上手体验 IT之家附小米可穿戴设备 2 月主要更新内容如下： 本月，小米手环 9 Pro 新版本已完成全量推送，大家呼声很高的支付宝「碰一下」快捷支付正式上线，支付更便捷、一步直达。 为了让 Xiaomi Watch 5 用户在春节期间拥有更好体验，我们在节前提前开启灰度推送，本次版本带来了大量细节优化：优化健身房训练自动回填重量等功能；修复部分场景下手势失灵、闹钟偶发不响等问题；目前该版本也已完成全量推送。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/12/cba2aedc-21a6-4ef7-bc80-88b42f5caad1.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1",
-      "source": "IT之家",
-      "publishedAt": "2026-02-28T22:58:12.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/924/705.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772491040232_e9b8f5a7",
+      "id": "news_1772494796754_e9b8f5a7",
       "title": "谷歌 Nano Banana 2 一夜补齐短板，各种图解都能画，价格才是 OpenAI 一半",
       "summary": "谷歌 Nano Banana 2 一夜补齐短板，各种图解都能画，价格才是 OpenAI 一半",
       "content": "谷歌 Nano Banana 2 一夜补齐短板，各种图解都能画，价格才是 OpenAI 一半",
