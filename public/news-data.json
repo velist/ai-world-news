@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-03-03T13:22:09.091Z",
-  "total": 104,
+  "timestamp": "2026-03-03T16:01:49.870Z",
+  "total": 107,
   "data": [
+    {
+      "id": "news_1772553708865_cf51c2d8",
+      "title": "李开复谈“Anthropic 指责中国蒸馏 AI 模型”：小题大做，这公司还欠我 3000 美元稿费",
+      "summary": "IT之家 3 月 3 日消息，零一万物 CEO、创新工场董事长李开复今天在微博发布视频，聊及前段时间的“美国 AI 公司 Anthropic 指责中国蒸馏 AI 模型”传闻。 李开复对此表示：“‘蒸馏’本身并没有违背什么规则，Anthropic 这么做是不是有点小题大做了呢”。",
+      "content": "IT之家 3 月 3 日消息，零一万物 CEO、创新工场董事长李开复今天在微博发布视频，聊及前段时间的“美国 AI 公司 Anthropic 指责中国蒸馏 AI 模型”传闻。 李开复对此表示：“‘蒸馏’本身并没有违背什么规则，Anthropic 这么做是不是有点小题大做了呢”。 他还分享了 Anthropic 公司之前的“黑历史”：曾经盗版几百万本书，然后被作家群体告了，一共赔偿 15 亿美元（现汇率约合 103.55 亿元人民币），美国作家公会版权的索赔书籍记录里甚至还有“李开复”之名。 因此李开复表示，Anthropic 公司至今还欠他 3000 美元（IT之家注：现汇率约合 20709 元人民币）稿费，他还在等着支票。 值得关注的是，xAI 创始人埃隆 · 马斯克最近也就此事发声评论，发推文称：“他们（中国）怎么敢偷 Anthropic 从人类程序员那里偷来的东西？”，指责 Anthropic 未经许可使用软件开发者的项目数据训练 AI。 马斯克还表示，“Anthropic 犯有大规模窃取训练数据的罪行，并且已经为其盗窃行为支付了数十亿美元的和解金。这只是一个事实。”对此有网友称，Grok 的训练数据也是偷窃的，马斯克回应称，“是啊，但我们不会像 Anthropic 那样对此表现得极度自鸣得意、伪善又虚伪。”",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/b5f1229b-d3ca-4832-a5df-a6f2772d9f58.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-03T15:01:22.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/925/582.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1772544084038_9fbe8947",
       "title": "美股大型科技股盘前普跌，英特尔跌超3%",
@@ -26,18 +38,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/925/563.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772544106595_1f35025b",
-      "title": "Rivet 发布 Sandbox Agent SDK，解决 Agent API 碎片化问题",
-      "summary": "Rivet 发布 Sandbox Agent SDK，解决 Agent API 碎片化问题",
-      "content": "Rivet 发布 Sandbox Agent SDK，解决 Agent API 碎片化问题",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-03T12:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/9wBHVhzl3hoUORHLyULU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772538376421_367c5cdd",
@@ -124,6 +124,18 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1772553689997_90bbf36c",
+      "title": "杀死“流水线”： ListenHub 如何构建 AI 时代的液态超级团队｜QCon北京",
+      "summary": "杀死“流水线”： ListenHub 如何构建 AI 时代的液态超级团队｜QCon北京",
+      "content": "杀死“流水线”： ListenHub 如何构建 AI 时代的液态超级团队｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-03T10:36:28.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/a6WQAG7bXj0VPjjVtMKE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1772535483141_0e16b3f8",
       "title": "谷歌 Home 新增实时搜索功能：Gemini 已能理解摄像头实时画面",
       "summary": "IT之家 3 月 3 日消息，谷歌家居（Google Home）负责人阿尼什 · 卡图卡兰宣布对智能家居平台进行多项更新，修复了长期存在的诸多不便与异常问题。同时还新增了一项值得关注的功能：为摄像头推出实时搜索（Live Search）。",
@@ -134,6 +146,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/925/536.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772553692044_955fcba3",
+      "title": "开发者欢呼，普通人迷茫：OpenClaw之后，“可用AI”的路该怎么走？",
+      "summary": "开发者欢呼，普通人迷茫：OpenClaw之后，“可用AI”的路该怎么走？",
+      "content": "开发者欢呼，普通人迷茫：OpenClaw之后，“可用AI”的路该怎么走？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-03T10:17:31.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Br5brKyveOf15uEgOzvX?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772506274589_fd83f559",
@@ -169,6 +193,18 @@
       "publishedAt": "2026-03-03T09:56:03.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7898278.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772553695764_b3eb54f5",
+      "title": "Databricks推出面向AI工作负载的PostgreSQL数据库Lakebase",
+      "summary": "Databricks推出面向AI工作负载的PostgreSQL数据库Lakebase",
+      "content": "Databricks推出面向AI工作负载的PostgreSQL数据库Lakebase",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-03T09:41:47.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/GdARgp4bG83LP5oXMZar?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -568,6 +604,18 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1772553306896_0",
+      "title": "Meta测试AI购物研究工具，挑战ChatGPT和Gemini",
+      "summary": "Meta正在测试其AI聊天机器人中的购物研究功能，与ChatGPT和Gemini竞争。该功能允许用户请求产品建议，目前正逐步推出。Meta此举旨在提升其AI购物体验，挑战其他竞争对手。",
+      "content": "Meta Platforms Inc. 正在测试其人工智能聊天机器人中的购物研究功能，与 OpenAI 的 ChatGPT 和 Google 的 Gemini 提供的类似工具竞争。该功能允许用户请求产品建议，并正在逐步推出…… [372字]",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iIvjh1HNcRu8/v1/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-03-03T01:58:56.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-03-03/meta-tests-ai-shopping-research-tool-to-rival-chatgpt-gemini",
+      "aiInsight": "这项新闻表明Meta正在加大对AI技术在电商领域的应用，试图通过AI聊天机器人提供更智能化的购物体验。从技术发展角度来看，Meta的这项测试展示了AI在处理自然语言理解和生成方面的能力不断增强。用户可以通过自然语言与AI进行交互，获取商品信息和购买建议，这标志着AI技术在用户体验和个性化服务方面的进步。\n\n从行业影响来看，这一功能的推出可能将对电商平台的搜索和推荐系统产生重大影响。通过AI聊天机器人，电商平台可以提供更加个性化的购物建议，从而提升顾客满意度和转化率。此外，这也将促使其他电商平台和科技公司加快在AI购物助手领域的布局，增加市场竞争。\n\n未来趋势方面，随着AI技术的不断成熟，我们预计AI购物助手将成为电商平台的重要组成部分。AI技术将帮助电商平台更好地理解用户需求，提供个性化推荐，提高购物体验。此外，随着AI技术的发展，AI购物助手的功能也将更加丰富，能够处理更复杂的购物场景，满足用户多样化的需求。这也将推动电商平台的创新和发展，为消费者带来更多便利和价值。"
+    },
+    {
       "id": "news_1772506266672_47516f54",
       "title": "ElliQ养老机器人十年复盘：技术迭代、商业化破局与银发经济启示",
       "summary": "ElliQ以“主动社交+健康管理”为核心，历经十年迭代完成从概念原型到全球化布局的跨越，印证了老年科技市场的巨大潜力。",
@@ -578,6 +626,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7896854.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772553293332_1",
+      "title": "Anthropic 通过引入记忆功能试图赢得从 ChatGPT 转来的用户",
+      "summary": "Anthropic公司的人工智能聊天机器人Claude将引入跨对话记忆功能，以留住从ChatGPT转来的用户。Claude将能够回忆起与用户的过去对话，从而提供更连贯和个性化的交流体验。此举旨在应对ChatGPT带来的激烈竞争，留住过去几天内大量新增的用户。",
+      "content": "Anthropic PBC 的人工智能聊天机器人 Claude 将能够跨对话回忆上下文，这使得该公司能够留住过去几天创造“前所未有的需求”的新用户。 记忆功能将...",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iqoKK0SpZgHA/v1/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-03-03T00:25:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-03-03/anthropic-tries-to-win-users-from-chatgpt-with-memory-feature",
+      "aiInsight": "这项技术发展标志着AI聊天机器人的用户体验和实用性得到了显著提升。通过引入记忆功能，Claude能够更好地理解对话的上下文，从而提供更加连贯和自然的交互体验，这不仅提升了用户满意度，也为AI在更多场景中的应用打开了大门。在行业影响方面，这项功能的实现将促使其他竞争对手加快相关技术的开发和应用，以保持市场竞争力。从未来趋势来看，记忆功能的引入预示着AI聊天机器人将在更广泛的领域发挥重要作用，包括但不限于客户服务、内容创作、教育辅导等。这也将推动AI技术与各行各业的深度融合，促进产业升级。"
     },
     {
       "id": "news_1772543796393_0",
@@ -628,6 +688,18 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1772553653237_2",
+      "title": "Claude 在苹果应用商店超越了ChatGPT",
+      "summary": "Claude在苹果应用商店超越ChatGPT，登顶应用排行榜。尽管Anthropic公司因五角大楼终止合作而面临新的审查，Claude仍凭借出色表现赢得用户青睐。这一现象反映出Claude在功能和用户体验方面可能具有明显优势，使其在竞争中脱颖而出。",
+      "content": "Anthropic的Claude在苹果的应用排行榜上飙升至首位，超越了OpenAI的ChatGPT，即使该公司在五角大楼决定终止一项合作后正面临新的审查。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format",
+      "source": "Newsmax",
+      "publishedAt": "2026-03-02T20:56:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.newsmax.com/scitech/claude-anthropic-chatgpt/2026/03/02/id/1248022/",
+      "aiInsight": "这一新闻反映了AI聊天机器人领域的重要进展，从技术角度来看，Claude的排名上升显示了其在用户体验、功能优化以及算法改进方面的竞争力。从行业影响来看，这可能促使更多的科技公司和开发者加大在AI对话系统领域的研发投入，以提升产品性能和用户体验。此外，这也反映了市场对于高质量、可靠的人工智能服务的需求日益增长。\n\n从未来趋势角度分析，这一事件预示着AI技术的发展正逐渐走向实用化和个性化服务，而不仅仅是停留在理论研究阶段。同时，这也体现了AI公司在面对政策挑战时如何保持竞争力和持续创新的重要性。未来，AI聊天机器人可能会更加注重隐私保护和道德规范，以赢得用户信任并推动行业的健康发展。"
+    },
+    {
       "id": "news_1772544072565_1",
       "title": "克莱德在苹果应用商店超越了ChatGPT",
       "summary": "Anthropic的人工智能助手Claude在苹果应用商店超越ChatGPT，登顶排行榜。尽管Anthropic因与五角大楼的合作被终止而面临新的审查，Claude仍保持领先优势，在人工智能助手的竞争中占据上风。",
@@ -664,18 +736,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1772544116157_5487a5ae",
-      "title": "智械盛宴下的孤岛：AI、资本与知识生态的隐秘危机",
-      "summary": "智械盛宴下的孤岛：AI、资本与知识生态的隐秘危机",
-      "content": "智械盛宴下的孤岛：AI、资本与知识生态的隐秘危机",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-02T17:50:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/CipE6FbwVFaLUtXj3G5U?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1772466725443_d3ab98c4",
       "title": "科大讯飞 AI 眼镜亮相：支持多模态同传翻译，仅重 40 克",
       "summary": "IT之家 3 月 2 日消息，在 2026 年世界移动通信大会（MWC 2026）上，科大讯飞首次展出了讯飞 AI 眼镜。该眼镜专为面对面交流设计，对方讲话后，翻译字幕可在镜片上实时呈现，并通过内置扬声器播放译文，实现所见即所得的自然沟通。",
@@ -700,15 +760,15 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1772544119559_52236d85",
-      "title": "使用MCP、OPA和临时运行时为基础设施自动化构建一个最小权限AI智能体网关",
-      "summary": "使用MCP、OPA和临时运行时为基础设施自动化构建一个最小权限AI智能体网关",
-      "content": "使用MCP、OPA和临时运行时为基础设施自动化构建一个最小权限AI智能体网关",
+      "id": "news_1772553699018_bb97da6d",
+      "title": "蚂蚁阿福：从 0 到生产的医疗 Agent 工程化落地｜QCon北京",
+      "summary": "蚂蚁阿福：从 0 到生产的医疗 Agent 工程化落地｜QCon北京",
+      "content": "蚂蚁阿福：从 0 到生产的医疗 Agent 工程化落地｜QCon北京",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-02T15:00:00.000Z",
+      "publishedAt": "2026-03-02T15:12:19.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Lh3AppcUclgbul3phl2U?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/UbyRYdBINl5BJxElkJGj?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -748,7 +808,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1772544120983_3079fed5",
+      "id": "news_1772553702528_3079fed5",
       "title": "Hugging Face推出Community Evals功能，促进模型测试透明化",
       "summary": "Hugging Face推出Community Evals功能，促进模型测试透明化",
       "content": "Hugging Face推出Community Evals功能，促进模型测试透明化",
@@ -758,18 +818,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/cglzA4vAI8D0HO6UGYlW?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772544122881_cf746250",
-      "title": "Anthropic 研究：AI 编程辅助使开发者技能掌握度下降 17%",
-      "summary": "Anthropic 研究：AI 编程辅助使开发者技能掌握度下降 17%",
-      "content": "Anthropic 研究：AI 编程辅助使开发者技能掌握度下降 17%",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-02T14:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/ohmt2y4R8NHXPL6DSvHR?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772457519202_5b5347fa",
@@ -856,6 +904,18 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1772553299718_3",
+      "title": "军事力量能防止克劳德或开放AI失控吗？",
+      "summary": "五角大楼宣布将与开发Claude（领先AI模型）的Anthropic公司断绝关系，原因是谈判破裂。此举被视为对AI安全的重视，但也有观点认为军事手段难以有效防止AI失控。军事力量是否能成为防止AI失控的有效手段引发讨论。",
+      "content": "军事领域的人工智能本周取得了重大进展。首先，五角大楼宣布将很快与Anthropic及其领先模型Claude断绝关系——在这一极端措施中，还将该公司列为“供应链风险”——这发生在谈判破裂之后…… [13214 chars]",
+      "imageUrl": "https://pyxis.nymag.com/v1/imgs/f0f/927/7b1f4129ed8c64e92d573847e0ceccddfc-JAQ-AI-pentagon.1x.rsocial.w1200.jpg",
+      "source": "New York Magazine",
+      "publishedAt": "2026-03-02T11:00:23.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://nymag.com/intelligencer/article/military-ai-iran-openai-claude.html",
+      "aiInsight": "这篇新闻报道了军事领域在人工智能技术方面取得的进展，以及五角大楼与Anthropic公司断绝关系的决定。从技术发展的角度看，这反映了军事对先进AI技术的高度关注和应用意愿，同时也显示了在AI安全性和可控性上的担忧。从行业影响的角度来看，这一事件可能会影响AI行业与军事领域的合作关系，甚至可能成为其他公司与军事合作的风向标。\n\n未来趋势方面，随着AI技术在军事领域的进一步应用，如何确保AI系统的安全性和可控性将更加重要。这不仅需要技术上的创新，还需要建立更加严格的监管机制和伦理标准。此外，国际社会可能需要共同努力，制定统一的标准和规范，以应对AI技术可能带来的潜在风险。"
+    },
+    {
       "id": "news_1772543795581_2",
       "title": "军事力量能防止克劳德或开放AI失去控制吗？",
       "summary": "五角大楼宣布将与开发AI模型Claude的Anthropic公司断绝关系，原因是谈判破裂。此举发生在军事领域人工智能取得重大进展之际。五角大楼此举被视为防止潜在风险的措施之一，但军事力量是否能有效防止AI失控仍存争议。此外，五角大楼还与OpenAI重新谈判合作，以确保其AI技术的安全可控。",
@@ -866,18 +926,6 @@
       "category": "国外AI",
       "originalUrl": "https://nymag.com/intelligencer/article/military-ai-iran-openai-claude.html",
       "aiInsight": "这篇新闻揭示了军事领域对人工智能（AI）技术的重视，特别是在高风险和敏感领域如军事行动中对AI的使用。五角大楼与Anthropic公司断绝关系，表明对于特定AI模型的担忧可能源于其潜在的安全风险或不遵守某些军事标准和规范。从技术角度看，这反映了军事对AI技术的严格监管和安全性要求，同时也可能是对AI模型行为不可预测性的担忧。\n\n从行业影响来看，这一事件可能会促使其他军事机构和组织重新评估和调整与AI供应商的合作策略，以确保技术的可靠性和安全性。此外，这也可能推动相关技术公司更加注重发展透明度高、可控性强的AI系统，从而赢得更多信任。\n\n未来趋势方面，军事领域对AI的探索和应用将进一步深化，但同时，如何确保AI技术的安全可控性、透明度和责任归属将成为一个重要议题。这不仅要求技术本身的改进，还涉及到政策、法规和伦理准则的建立和完善。"
-    },
-    {
-      "id": "news_1772538036435_1",
-      "title": "军事力量能防止克劳德或开放AI失控吗？",
-      "summary": "五角大楼宣布将切断与开发AI模型Claude的公司Anthropic的联系，并采取极端措施将其列为“供应链风险”。此举旨在防止军事领域的人工智能失控，但仍有专家担忧，军事力量可能无法完全防止类似风险。军事AI的进展引发了关于如何有效监管和控制AI技术的广泛讨论。",
-      "content": "军事领域的人工智能本周取得了重要的进展。首先，五角大楼宣布将很快与Anthropic及其主导模型Claude断绝关系，并在谈判破裂后采取极端措施，将该公司列为“供应链风险”……",
-      "imageUrl": "https://pyxis.nymag.com/v1/imgs/f0f/927/7b1f4129ed8c64e92d573847e0ceccddfc-JAQ-AI-pentagon.1x.rsocial.w1200.jpg",
-      "source": "New York Magazine",
-      "publishedAt": "2026-03-02T11:00:23.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://nymag.com/intelligencer/article/military-ai-iran-openai-claude.html",
-      "aiInsight": "这篇新闻揭示了军事领域对人工智能技术应用的深度介入和担忧，以及对特定AI模型的管控策略。从技术发展角度看，这反映了军事领域对先进AI技术的高度依赖和对潜在风险的谨慎态度。行业影响方面，五角大楼的举措可能会影响Anthropic及其Claude模型在军事领域的应用前景和市场定位。未来趋势上，这可能促使更多企业和机构在使用AI技术时加强对AI安全性和可控性的考量，以及推动AI技术监管和政策的进一步完善。同时，这也反映了AI技术在军事应用中的双刃剑属性，需平衡技术创新与伦理安全之间的关系。"
     },
     {
       "id": "news_1772451442636_d4007cdb",
@@ -1237,18 +1285,6 @@
       "publishedAt": "2026-03-01T23:07:50.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/924/870.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772375604000_c5f51ada",
-      "title": "【IT之家图赏】荣耀 Robot Phone 机器人手机现场实拍：三轴云台亮眼，号称“具身智能”加持",
-      "summary": "IT之家 3 月 1 日消息，荣耀今晚在 MWC 2026 展会上带来了全新“机器人手机”Robot Phone，新机最显眼之处就是配备一颗硕大的电动翻转摄像头，号称是新形态具身智能 AI 终端。IT之家在西班牙巴塞罗那现场第一时间前往了荣耀展区并看到了这台手机，现在为各位小伙伴们带来实拍图赏。",
-      "content": "IT之家 3 月 1 日消息，荣耀今晚在 MWC 2026 展会上带来了全新“机器人手机”Robot Phone，新机最显眼之处就是配备一颗硕大的电动翻转摄像头，号称是新形态具身智能 AI 终端。IT之家在西班牙巴塞罗那现场第一时间前往了荣耀展区并看到了这台手机，现在为各位小伙伴们带来实拍图赏。 外观方面，Robot Phone 通体银灰色，边框则是采用了拉丝装饰。看起来就是一台正常的智能手机，只不过顶部多了个有点像大疆 Osmo Pocket 的三轴云台相机，同时背面还有“α”Logo，彰显该机的特殊之处。 功能方面，这台手机顶上的三轴云台相机配备 2 亿像素传感器，可以向前 / 向后翻转，方便用户拍摄自己或拍摄物体，还有影像大厂 ARRI 技术合作加持，支持 AI 物体追踪、AI 视频剪辑与智能拍摄，可支持实时感知与补偿，确保视频画面极度稳定。 根据现场演示我们可以看到，这台手机相机界面的操作逻辑第一眼看上去有点像 LG Wing，不过整体 UI 布局完全针对云台相机进行了优化，能够直接从预设库里调出旋转运镜等操作，方便用户一键拍摄大片，下拉菜单里还有滤镜、HDR、曝光补偿等选项可调整。 同时，荣耀还在现场的演示机中展示了 AI 智能体模式，该机在这一模式下可以化身为能语音聊天的机器人，屏幕上的小人表情还会根据你说的话作出反应，看起来颇为有趣。 好了，荣耀 Robot Phone 手机的现场实拍暂时就到这里。对这台手机感兴趣的小伙伴也可以看看下面这篇文章，了解它的详细参数。 相关阅读： 《荣耀机器人手机 Robot Phone 亮相 MWC 2026：3 轴云台 + 阿莱合作，具身智能加持的 AI 终端新形态》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/47af3bb5-8204-44d7-8bfd-7c4904d8ed7e.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-01T14:17:52.000Z",
-      "category": "AI趣味新闻",
-      "originalUrl": "https://www.ithome.com/0/924/860.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
