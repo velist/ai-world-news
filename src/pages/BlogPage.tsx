@@ -42,7 +42,7 @@ const BlogPage = () => {
         ? '全面了解AI推平台的核心功能、技术特色和服务优势，探索专业的人工智能新闻资讯平台。'
         : 'Comprehensive overview of AI Push platform core features and service benefits.',
       category: isZh ? '平台介绍' : 'Platform',
-      publishedAt: '2025-08-07',
+      publishedAt: '2026-03-06',
       readTime: 12,
       author: 'AI推编辑部',
       tags: isZh ? ['平台介绍', 'AI推'] : ['Platform', 'AI Push'],
@@ -55,7 +55,7 @@ const BlogPage = () => {
         ? '深度对比两大主流AI大语言模型在中文理解、创作能力、API接口等方面的表现差异。'
         : 'In-depth comparison of two mainstream AI LLMs in Chinese understanding and capabilities.',
       category: isZh ? '技术解读' : 'Tech Analysis',
-      publishedAt: '2025-08-07',
+      publishedAt: '2026-03-05',
       readTime: 8,
       author: 'AI推编辑部',
       tags: ['ChatGPT', isZh ? '文心一言' : 'Wenxin', 'LLM'],
@@ -68,7 +68,7 @@ const BlogPage = () => {
         ? '全面解析OpenAI Sora视频生成模型的技术原理和应用前景。'
         : 'Comprehensive analysis of OpenAI Sora video generation model.',
       category: isZh ? '技术解读' : 'Tech Analysis',
-      publishedAt: '2025-08-06',
+      publishedAt: '2026-03-04',
       readTime: 12,
       author: 'AI推编辑部',
       tags: ['Sora', 'OpenAI', isZh ? '视频生成' : 'Video Gen'],
@@ -81,7 +81,7 @@ const BlogPage = () => {
         ? '基于最新统计数据，深入分析中国人工智能产业的发展现状和未来机遇。'
         : 'Analyzing China AI industry development, market scale and future opportunities.',
       category: isZh ? '行业分析' : 'Industry Analysis',
-      publishedAt: '2025-08-05',
+      publishedAt: '2026-03-03',
       readTime: 15,
       author: 'AI推编辑部',
       tags: isZh ? ['产业报告', '中国AI'] : ['Industry Report', 'China AI'],
@@ -93,7 +93,7 @@ const BlogPage = () => {
         ? '人工智能在医疗影像诊断、病理分析、药物研发等领域的最新应用成果。'
         : 'AI applications in medical imaging, pathology, drug development and prospects.',
       category: isZh ? '行业分析' : 'Industry Analysis',
-      publishedAt: '2025-08-04',
+      publishedAt: '2026-03-02',
       readTime: 10,
       author: 'AI推编辑部',
       tags: isZh ? ['医疗AI', '行业应用'] : ['Medical AI', 'Applications'],
@@ -105,7 +105,7 @@ const BlogPage = () => {
         ? '解读最新AI监管政策，分析算法备案要求和数据安全规范对行业的影响。'
         : 'Interpreting latest AI regulations and their impact on the industry.',
       category: isZh ? '政策解读' : 'Policy Analysis',
-      publishedAt: '2025-08-03',
+      publishedAt: '2026-03-01',
       readTime: 6,
       author: 'AI推编辑部',
       tags: isZh ? ['政策法规', '数据安全'] : ['Regulation', 'Data Security'],
@@ -117,7 +117,7 @@ const BlogPage = () => {
         ? '盘点最具潜力的AI独角兽企业，分析估值、融资和技术优势。'
         : 'Overview of promising AI unicorns with valuation and funding analysis.',
       category: isZh ? '投资动态' : 'Investment',
-      publishedAt: '2025-08-02',
+      publishedAt: '2026-02-28',
       readTime: 9,
       author: 'AI推编辑部',
       tags: isZh ? ['独角兽', '融资分析'] : ['Unicorns', 'Funding'],
