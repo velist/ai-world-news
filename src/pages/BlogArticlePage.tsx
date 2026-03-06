@@ -1,25 +1,15 @@
 import { useEffect, useState } from 'react';
-import { useParams, useNavigate, Link } from 'react-router-dom';
+import { useParams, useNavigate } from 'react-router-dom';
 import { Helmet } from 'react-helmet-async';
-import { Card, CardContent } from '@/components/ui/card';
-import { Badge } from '@/components/ui/badge';
-import { Button } from '@/components/ui/button';
-import { Separator } from '@/components/ui/separator';
 import { useLanguage } from '@/contexts/LanguageContext';
 import ReactMarkdown from 'react-markdown';
 import remarkGfm from 'remark-gfm';
-import { 
-  ArrowLeft, 
-  Calendar, 
-  Clock, 
-  User,
+import {
+  ArrowLeft,
+  Calendar,
+  Clock,
   Share2,
-  BookOpen,
-  Tag,
-  ThumbsUp,
-  MessageCircle,
-  Eye,
-  ArrowRight
+  BookOpen
 } from 'lucide-react';
 
 interface BlogArticle {
@@ -1005,251 +995,34 @@ AI unicorn companies will play important roles in industrial digital transformat
 };
 
 const generateGenericContent = (title: string, excerpt: string, category: string, tags: string[], keywords: string[], isZh: boolean): string => {
-  const sections = isZh ? [
-    '## 概述',
-    '## 核心要点',
-    '## 深度分析',
-    '## 技术细节',
-    '## 实际应用',
-    '## 行业影响',
-    '## 未来趋势',
-    '## 总结与展望'
-  ] : [
-    '## Overview',
-    '## Key Points',
-    '## In-depth Analysis', 
-    '## Technical Details',
-    '## Practical Applications',
-    '## Industry Impact',
-    '## Future Trends',
-    '## Summary & Outlook'
-  ];
-  
-  return `
+  // 非精选文章：只显示摘要，引导阅读原文
+  const tagList = tags.length > 0 ? tags.map(t => `\`${t}\``).join('  ') : '';
+
+  return isZh ? `
 # ${title}
 
-${excerpt}
-
-${sections[0]}
-
-本文将深入探讨${category}相关的重要议题，分析其对AI行业的深远影响。
-
-${sections[1]}
-
-- **技术创新**：${tags[0] || '人工智能'}技术的最新进展
-- **市场动态**：行业发展的关键趋势
-- **应用场景**：实际应用中的案例分析
-- **发展机遇**：未来发展的潜在机会
-
-${sections[2]}
-
-从技术角度来看，${keywords[0] || 'AI技术'}正在经历快速发展和演进。这种发展不仅体现在技术能力的提升，更体现在应用场景的不断拓展。
-
-${sections[3]}
-
-### 核心技术架构
-详细分析相关技术的架构设计和实现原理。
-
-### 算法优化
-探讨算法优化的方法和策略。
-
-${sections[4]}
-
-### 行业应用
-在各个行业中的具体应用案例。
-
-### 解决方案
-针对不同场景的解决方案分析。
-
-${sections[5]}
-
-这些技术发展对整个AI行业产生了重要影响，推动了产业升级和商业模式创新。
-
-${sections[6]}
-
-### 发展方向
-未来技术发展的主要方向。
-
-### 市场预测
-对市场发展趋势的预测分析。
-
-${sections[7]}
-
-综合来看，${category}领域正在经历重要的发展机遇期。随着技术的不断成熟和应用的不断深化，我们有理由相信这个领域将为AI产业带来更多创新和突破。
+${excerpt !== title ? excerpt : ''}
 
 ---
 
-*本文基于最新行业数据和专业分析，为读者提供深入的洞察和参考。*
-  `;
-};
+> 本文基于AI新闻源自动整理，更多详细内容请返回首页查看相关资讯。
 
-// RelatedArticles组件
-interface RelatedArticlesProps {
-  currentArticle: BlogArticle;
-  isZh: boolean;
-}
+${tagList ? `**相关标签：** ${tagList}` : ''}
 
-const RelatedArticles: React.FC<RelatedArticlesProps> = ({ currentArticle, isZh }) => {
-  const [relatedArticles, setRelatedArticles] = useState<BlogArticle[]>([]);
-  const navigate = useNavigate();
+**分类：** ${category}
+  `.trim() : `
+# ${title}
 
-  useEffect(() => {
-    // 从blog-data.json获取相关文章
-    const fetchRelatedArticles = async () => {
-      try {
-        const response = await fetch('/blog-data.json');
-        const blogData = await response.json();
-        
-        // 过滤相关文章的逻辑
-        const related = blogData
-          .filter((article: any) => {
-            // 排除当前文章
-            if (article.id === currentArticle.id) return false;
-            
-            // 基于标签和分类的相似度计算
-            const currentTags = isZh ? currentArticle.tags : [];
-            const articleTags = isZh ? article.tags : article.tagsEn;
-            const currentCategory = currentArticle.category;
-            const articleCategory = isZh ? article.category : article.categoryEn;
-            
-            // 计算标签重叠度
-            const tagOverlap = currentTags.filter(tag => articleTags.includes(tag)).length;
-            const categoryMatch = currentCategory === articleCategory;
-            
-            // 相关性评分
-            const relevanceScore = (categoryMatch ? 3 : 0) + tagOverlap;
-            return relevanceScore > 0;
-          })
-          .map((article: any) => {
-            // 转换为BlogArticle格式
-            return {
-              id: article.id,
-              title: isZh ? article.title : article.titleEn,
-              excerpt: isZh ? article.excerpt : article.excerptEn,
-              category: isZh ? article.category : article.categoryEn,
-              publishedAt: article.publishedAt,
-              readTime: article.readTime,
-              author: isZh ? article.author : article.authorEn,
-              tags: isZh ? article.tags : article.tagsEn,
-              views: article.views,
-              likes: article.likes,
-              comments: article.comments,
-              featured: article.featured
-            } as BlogArticle;
-          })
-          // 按相关性和日期排序
-          .sort((a, b) => {
-            const aDate = new Date(a.publishedAt).getTime();
-            const bDate = new Date(b.publishedAt).getTime();
-            return bDate - aDate;
-          })
-          .slice(0, 3); // 取前3篇
-        
-        setRelatedArticles(related);
-      } catch (error) {
-        console.error('Error loading related articles:', error);
-      }
-    };
-    
-    fetchRelatedArticles();
-  }, [currentArticle, isZh]);
+${excerpt !== title ? excerpt : ''}
 
-  const handleArticleClick = (articleId: string) => {
-    navigate(`/blog/${articleId}`);
-  };
+---
 
-  const formatDate = (dateString: string) => {
-    const date = new Date(dateString);
-    return isZh 
-      ? date.toLocaleDateString('zh-CN', { year: 'numeric', month: 'long', day: 'numeric' })
-      : date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
-  };
+> This article is compiled from AI news sources. For more details, please visit the homepage.
 
-  if (relatedArticles.length === 0) {
-    return null;
-  }
+${tagList ? `**Tags:** ${tagList}` : ''}
 
-  return (
-    <div className="space-y-6">
-      <h3 className="text-2xl font-bold flex items-center space-x-2">
-        <BookOpen className="w-6 h-6 text-primary" />
-        <span>{isZh ? '相关文章' : 'Related Articles'}</span>
-      </h3>
-      
-      <div className="grid md:grid-cols-1 gap-6">
-        {relatedArticles.map((article) => (
-          <Card 
-            key={article.id} 
-            className="p-6 hover:shadow-lg transition-shadow cursor-pointer border-l-4 border-l-primary/20 hover:border-l-primary"
-            onClick={() => handleArticleClick(article.id)}
-          >
-            <div className="space-y-4">
-              <div className="flex items-center justify-between">
-                <Badge variant="secondary" className="text-xs">
-                  {article.category}
-                </Badge>
-                <div className="flex items-center space-x-3 text-sm text-muted-foreground">
-                  <div className="flex items-center space-x-1">
-                    <Calendar className="w-4 h-4" />
-                    <span>{formatDate(article.publishedAt)}</span>
-                  </div>
-                  <div className="flex items-center space-x-1">
-                    <Clock className="w-4 h-4" />
-                    <span>{article.readTime} {isZh ? '分钟' : 'min'}</span>
-                  </div>
-                </div>
-              </div>
-              
-              <h4 className="text-lg font-semibold leading-tight hover:text-primary transition-colors">
-                <Link to={`/blog/${article.id}`} className="hover:underline">
-                  {article.title}
-                </Link>
-              </h4>
-              
-              <p className="text-muted-foreground text-sm leading-relaxed line-clamp-2">
-                {article.excerpt}
-              </p>
-              
-              <div className="flex items-center justify-between">
-                <div className="flex flex-wrap gap-2">
-                  {article.tags.slice(0, 2).map((tag) => (
-                    <Badge key={tag} variant="outline" className="text-xs">
-                      {tag}
-                    </Badge>
-                  ))}
-                </div>
-                
-                <Button 
-                  variant="ghost" 
-                  size="sm" 
-                  className="text-primary hover:text-primary/80 p-0 h-auto font-medium"
-                  onClick={(e) => {
-                    e.stopPropagation();
-                    handleArticleClick(article.id);
-                  }}
-                >
-                  {isZh ? '阅读更多' : 'Read More'}
-                  <ArrowRight className="w-4 h-4 ml-1" />
-                </Button>
-              </div>
-            </div>
-          </Card>
-        ))}
-      </div>
-      
-      {/* 查看更多博客按钮 */}
-      <div className="text-center">
-        <Button 
-          variant="outline" 
-          onClick={() => navigate('/blog')}
-          className="flex items-center space-x-2"
-        >
-          <BookOpen className="w-4 h-4" />
-          <span>{isZh ? '查看所有博客文章' : 'View All Blog Posts'}</span>
-        </Button>
-      </div>
-    </div>
-  );
+**Category:** ${category}
+  `.trim();
 };
 
 const BlogArticlePage = () => {
@@ -1258,7 +1031,6 @@ const BlogArticlePage = () => {
   const { isZh } = useLanguage();
   const [article, setArticle] = useState<BlogArticle | null>(null);
   const [loading, setLoading] = useState(true);
-  const [liked, setLiked] = useState(false);
 
   useEffect(() => {
     // 页面访问统计
@@ -1335,11 +1107,6 @@ const BlogArticlePage = () => {
     }
   };
 
-  const handleLike = () => {
-    setLiked(!liked);
-    // 这里可以调用API记录点赞
-  };
-
   const formatDate = (dateString: string) => {
     const date = new Date(dateString);
     return isZh 
@@ -1347,19 +1114,12 @@ const BlogArticlePage = () => {
       : date.toLocaleDateString('en-US', { year: 'numeric', month: 'long', day: 'numeric' });
   };
 
-  const formatNumber = (num: number) => {
-    if (num >= 1000) {
-      return (num / 1000).toFixed(1) + 'k';
-    }
-    return num.toString();
-  };
-
   if (loading) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center">
-        <div className="flex flex-col items-center space-y-4 text-muted-foreground">
-          <div className="w-8 h-8 border-2 border-primary border-t-transparent rounded-full animate-spin"></div>
-          <span>{isZh ? '正在加载文章...' : 'Loading article...'}</span>
+      <div className="min-h-screen flex items-center justify-center" style={{ background: 'hsl(var(--background))' }}>
+        <div className="flex flex-col items-center space-y-4" style={{ color: 'hsl(var(--muted-foreground))' }}>
+          <div className="w-6 h-6 border-2 rounded-full animate-spin" style={{ borderColor: 'hsl(var(--border))', borderTopColor: 'transparent' }}></div>
+          <span className="text-sm">{isZh ? '正在加载...' : 'Loading...'}</span>
         </div>
       </div>
     );
@@ -1367,17 +1127,16 @@ const BlogArticlePage = () => {
 
   if (!article) {
     return (
-      <div className="min-h-screen bg-background flex items-center justify-center">
+      <div className="min-h-screen flex items-center justify-center" style={{ background: 'hsl(var(--background))' }}>
         <div className="text-center space-y-4">
-          <h2 className="text-2xl font-bold text-muted-foreground">
+          <h2 className="text-xl font-medium" style={{ color: 'hsl(var(--muted-foreground))' }}>
             {isZh ? '文章不存在' : 'Article Not Found'}
           </h2>
-          <p className="text-muted-foreground">
-            {isZh ? '抱歉，您访问的文章不存在或已被删除。' : 'Sorry, the article you are looking for does not exist or has been deleted.'}
-          </p>
-          <Button onClick={handleBack}>
+          <button onClick={handleBack}
+            className="px-4 py-2 rounded-full text-sm font-medium"
+            style={{ background: 'hsl(var(--foreground))', color: 'hsl(var(--card))' }}>
             {isZh ? '返回博客' : 'Back to Blog'}
-          </Button>
+          </button>
         </div>
       </div>
     );
@@ -1518,234 +1277,151 @@ const BlogArticlePage = () => {
         <link rel="canonical" href={`https://news.aipush.fun/blog/${article.id}`} />
       </Helmet>
 
-      <div className="min-h-screen bg-background">
+      <div className="min-h-screen" style={{ background: 'hsl(var(--background))' }}>
         {/* Header */}
-        <div className="sticky top-0 z-10 bg-background/80 backdrop-blur-sm border-b border-border/50">
-          <div className="max-w-4xl mx-auto px-4 py-3">
+        <div className="sticky top-0 z-10 border-b" style={{
+          background: 'rgba(253, 251, 249, 0.92)',
+          backdropFilter: 'blur(20px)',
+          WebkitBackdropFilter: 'blur(20px)',
+          borderColor: 'hsl(var(--border))'
+        }}>
+          <div className="max-w-[680px] mx-auto px-6 py-3">
             <div className="flex items-center justify-between">
-              <Button
-                variant="ghost"
-                size="sm"
+              <button
                 onClick={handleBack}
-                className="flex items-center space-x-2"
+                className="flex items-center space-x-1.5 text-sm transition-colors"
+                style={{ color: 'hsl(var(--muted-foreground))' }}
               >
                 <ArrowLeft className="w-4 h-4" />
-                <span>{isZh ? '返回博客' : 'Back to Blog'}</span>
-              </Button>
-              
-              <div className="flex items-center space-x-2">
-                <Button
-                  variant="ghost"
-                  size="sm"
-                  onClick={handleShare}
-                  className="flex items-center space-x-2"
-                >
-                  <Share2 className="w-4 h-4" />
-                  <span>{isZh ? '分享' : 'Share'}</span>
-                </Button>
-              </div>
+                <span>{isZh ? '返回博客' : 'Back'}</span>
+              </button>
+
+              <button
+                onClick={handleShare}
+                className="flex items-center space-x-1.5 px-3 py-1.5 rounded-full text-xs transition-all border"
+                style={{ color: 'hsl(var(--muted-foreground))', borderColor: 'hsl(var(--border))' }}
+              >
+                <Share2 className="w-3.5 h-3.5" />
+                <span>{isZh ? '分享' : 'Share'}</span>
+              </button>
             </div>
           </div>
         </div>
 
         {/* Article Content */}
-        <div className="max-w-4xl mx-auto px-4 py-8 space-y-8">
-          {/* Breadcrumb Navigation */}
-          <div className="space-y-6">
-            <nav aria-label="Breadcrumb" className="text-sm text-muted-foreground">
-              <ol className="flex items-center space-x-2">
-                <li>
-                  <a href="/" className="hover:text-foreground transition-colors">
-                    {isZh ? '首页' : 'Home'}
-                  </a>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <span>›</span>
-                  <a href="/blog" className="hover:text-foreground transition-colors">
-                    {isZh ? '博客' : 'Blog'}
-                  </a>
-                </li>
-                <li className="flex items-center space-x-2">
-                  <span>›</span>
-                  <span className="text-foreground font-medium">{article.category}</span>
-                </li>
-              </ol>
-            </nav>
-            <div className="flex items-center space-x-3">
-              <Badge variant="secondary" className="text-sm">
-                {article.category}
-              </Badge>
-              {article.featured && (
-                <Badge variant="outline" className="text-sm bg-yellow-50 border-yellow-200 text-yellow-800">
-                  {isZh ? '精选' : 'Featured'}
-                </Badge>
-              )}
+        <article className="max-w-[680px] mx-auto px-6 py-8">
+          {/* Meta */}
+          <div className="flex items-center gap-2.5 mb-4 flex-wrap">
+            <span className="text-xs font-medium px-2.5 py-0.5 rounded-full"
+              style={{ color: '#B5A5B8', background: 'rgba(181, 165, 184, 0.12)', border: '1px solid rgba(181, 165, 184, 0.25)' }}>
+              {article.category}
+            </span>
+            <span className="w-[3px] h-[3px] rounded-full" style={{ background: 'hsl(var(--muted-foreground))' }} />
+            <span className="text-xs flex items-center gap-1" style={{ color: 'hsl(var(--muted-foreground))' }}>
+              <Calendar className="w-3 h-3" />
+              {formatDate(article.publishedAt)}
+            </span>
+            <span className="w-[3px] h-[3px] rounded-full" style={{ background: 'hsl(var(--muted-foreground))' }} />
+            <span className="text-xs flex items-center gap-1" style={{ color: 'hsl(var(--muted-foreground))' }}>
+              <Clock className="w-3 h-3" />
+              {article.readTime} {isZh ? '分钟阅读' : 'min read'}
+            </span>
+          </div>
+
+          {/* Title */}
+          <h1 className="text-2xl sm:text-3xl font-bold leading-tight mb-6" style={{ color: 'hsl(var(--foreground))' }}>
+            {article.title}
+          </h1>
+
+          {/* Content */}
+          <div className="mb-8">
+            <div className="prose-morandi text-base leading-[1.8]" style={{ color: 'hsl(var(--foreground))', opacity: 0.85 }}>
+              <ReactMarkdown
+                remarkPlugins={[remarkGfm]}
+                components={{
+                  h1: ({...props}) => <h2 className="text-2xl font-bold mt-8 mb-4" style={{ color: 'hsl(var(--foreground))' }} {...props} />,
+                  h2: ({...props}) => <h2 className="text-xl font-semibold mt-6 mb-3" style={{ color: 'hsl(var(--foreground))' }} {...props} />,
+                  h3: ({...props}) => <h3 className="text-lg font-semibold mt-4 mb-2" style={{ color: 'hsl(var(--foreground))' }} {...props} />,
+                  p: ({...props}) => <p className="mb-4 leading-relaxed" {...props} />,
+                  ul: ({...props}) => <ul className="list-disc list-inside mb-4 space-y-1.5" {...props} />,
+                  ol: ({...props}) => <ol className="list-decimal list-inside mb-4 space-y-1.5" {...props} />,
+                  li: ({...props}) => <li {...props} />,
+                  strong: ({...props}) => <strong className="font-semibold" style={{ color: 'hsl(var(--foreground))' }} {...props} />,
+                  blockquote: ({...props}) => <blockquote className="pl-4 my-4 italic" style={{
+                    borderLeft: '3px solid hsl(var(--border))',
+                    color: 'hsl(var(--muted-foreground))'
+                  }} {...props} />,
+                  code: ({className, children, ...props}) => {
+                    const match = /language-(\w+)/.exec(className || '');
+                    return match ? (
+                      <pre className="p-4 rounded-lg overflow-x-auto my-4" style={{ background: 'hsl(var(--muted))' }}>
+                        <code className={`language-${match[1]} text-sm`} {...props}>{children}</code>
+                      </pre>
+                    ) : (
+                      <code className="px-1.5 py-0.5 rounded text-sm" style={{ background: 'hsl(var(--muted))' }} {...props}>{children}</code>
+                    );
+                  },
+                  table: ({...props}) => <table className="w-full border-collapse my-4" style={{ border: '1px solid hsl(var(--border))' }} {...props} />,
+                  th: ({...props}) => <th className="px-4 py-2 text-left font-semibold text-sm" style={{ background: 'hsl(var(--muted))', border: '1px solid hsl(var(--border))' }} {...props} />,
+                  td: ({...props}) => <td className="px-4 py-2 text-sm" style={{ border: '1px solid hsl(var(--border))' }} {...props} />,
+                  hr: () => <div className="my-8" style={{ borderTop: '1px solid hsl(var(--border))' }} />,
+                  img: () => null, // 不显示图片
+                }}
+              >
+                {article.content}
+              </ReactMarkdown>
             </div>
+          </div>
 
-            <h1 className="text-4xl font-bold leading-tight article-title">
-              {article.title}
-            </h1>
+          {/* Divider */}
+          <div style={{ borderTop: '1px solid hsl(var(--border))' }} className="my-8" />
 
-            <p className="text-xl text-muted-foreground leading-relaxed article-excerpt">
-              {article.excerpt}
-            </p>
-
-            {/* Article Meta */}
-            <div className="flex flex-wrap items-center gap-6 text-sm text-muted-foreground">
-              <div className="flex items-center space-x-2">
-                <User className="w-4 h-4" />
-                <span>{article.author}</span>
+          {/* Author & Actions */}
+          <div className="space-y-5">
+            <div className="flex items-center justify-between">
+              <div>
+                <div className="text-xs mb-1" style={{ color: 'hsl(var(--muted-foreground))' }}>
+                  {isZh ? '作者' : 'Author'}
+                </div>
+                <div className="text-sm font-medium" style={{ color: 'hsl(var(--foreground))' }}>{article.author}</div>
               </div>
-              <div className="flex items-center space-x-2">
-                <Calendar className="w-4 h-4" />
-                <span>{formatDate(article.publishedAt)}</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Clock className="w-4 h-4" />
-                <span>{article.readTime} {isZh ? '分钟阅读' : 'min read'}</span>
-              </div>
-              <div className="flex items-center space-x-2">
-                <Eye className="w-4 h-4" />
-                <span>{formatNumber(article.views)} {isZh ? '阅读' : 'views'}</span>
+              <div className="text-right">
+                <div className="text-xs mb-1" style={{ color: 'hsl(var(--muted-foreground))' }}>
+                  {isZh ? '发布时间' : 'Published'}
+                </div>
+                <div className="text-sm" style={{ color: 'hsl(var(--foreground))' }}>{formatDate(article.publishedAt)}</div>
               </div>
             </div>
 
             {/* Tags */}
-            <div className="flex flex-wrap gap-2">
-              {article.tags.map((tag) => (
-                <Badge key={tag} variant="outline" className="text-sm">
-                  <Tag className="w-3 h-3 mr-1" />
-                  {tag}
-                </Badge>
-              ))}
+            {article.tags.length > 0 && (
+              <div className="flex flex-wrap gap-2">
+                {article.tags.map((tag) => (
+                  <span key={tag} className="text-xs px-2.5 py-0.5 rounded-full"
+                    style={{ color: 'hsl(var(--muted-foreground))', background: 'hsl(var(--muted))' }}>
+                    {tag}
+                  </span>
+                ))}
+              </div>
+            )}
+
+            {/* Back to blog */}
+            <div className="flex gap-3">
+              <button onClick={handleBack}
+                className="flex-1 flex items-center justify-center gap-2 py-3 rounded-lg text-sm font-medium transition-colors"
+                style={{ background: 'hsl(var(--foreground))', color: 'hsl(var(--card))' }}>
+                <BookOpen className="w-4 h-4" />
+                {isZh ? '返回博客' : 'Back to Blog'}
+              </button>
+              <button onClick={handleShare}
+                className="flex-1 flex items-center justify-center gap-2 py-3 rounded-lg text-sm font-medium transition-colors border"
+                style={{ color: 'hsl(var(--foreground))', borderColor: 'hsl(var(--border))' }}>
+                <Share2 className="w-4 h-4" />
+                {isZh ? '分享文章' : 'Share'}
+              </button>
             </div>
           </div>
-
-          <Separator />
-
-          {/* Article Content */}
-          <Card className="p-8">
-            <CardContent className="p-0">
-              <div className="prose prose-lg prose-slate max-w-none dark:prose-invert">
-                <ReactMarkdown
-                  remarkPlugins={[remarkGfm]}
-                  components={{
-                    h1: ({...props}) => <h1 className="text-3xl font-bold mt-8 mb-4 text-foreground" {...props} />,
-                    h2: ({...props}) => <h2 className="text-2xl font-semibold mt-6 mb-3 text-foreground" {...props} />,
-                    h3: ({...props}) => <h3 className="text-xl font-semibold mt-4 mb-2 text-foreground" {...props} />,
-                    h4: ({...props}) => <h4 className="text-lg font-medium mt-3 mb-2 text-foreground" {...props} />,
-                    p: ({...props}) => <p className="mb-4 leading-relaxed text-foreground" {...props} />,
-                    ul: ({...props}) => <ul className="list-disc list-inside mb-4 space-y-2 text-foreground" {...props} />,
-                    ol: ({...props}) => <ol className="list-decimal list-inside mb-4 space-y-2 text-foreground" {...props} />,
-                    li: ({...props}) => <li className="text-foreground" {...props} />,
-                    strong: ({...props}) => <strong className="font-semibold text-foreground" {...props} />,
-                    em: ({...props}) => <em className="italic text-foreground" {...props} />,
-                    blockquote: ({...props}) => <blockquote className="border-l-4 border-primary/30 pl-4 my-4 italic text-muted-foreground bg-muted/30 py-2 rounded-r" {...props} />,
-                    code: ({className, children, ...props}) => {
-                      const match = /language-(\w+)/.exec(className || '');
-                      return match ? (
-                        <pre className="bg-muted p-4 rounded-lg overflow-x-auto my-4">
-                          <code className={`language-${match[1]} text-sm`} {...props}>
-                            {children}
-                          </code>
-                        </pre>
-                      ) : (
-                        <code className="bg-muted px-2 py-1 rounded text-sm font-mono" {...props}>
-                          {children}
-                        </code>
-                      );
-                    },
-                    img: ({src, alt, title, ...props}) => {
-                      // 优化图片SEO和加载性能
-                      const optimizedSrc = src?.startsWith('http') ? src : `/images/${src}`;
-                      const seoAlt = alt || `${article.title} - AI推技术解读图片`;
-                      
-                      return (
-                        <img 
-                          {...props}
-                          src={optimizedSrc}
-                          alt={seoAlt}
-                          title={title || seoAlt}
-                          loading="lazy"
-                          className="max-w-full h-auto rounded-lg shadow-md my-4"
-                          style={{ aspectRatio: 'auto' }}
-                          onError={(e) => {
-                            // 图片加载失败时的fallback
-                            (e.target as HTMLImageElement).src = '/favicon.svg';
-                            (e.target as HTMLImageElement).alt = '图片加载失败';
-                          }}
-                        />
-                      );
-                    },
-                    table: ({...props}) => <table className="w-full border-collapse border border-border my-4" {...props} />,
-                    th: ({...props}) => <th className="border border-border px-4 py-2 bg-muted font-semibold text-left" {...props} />,
-                    td: ({...props}) => <td className="border border-border px-4 py-2" {...props} />,
-                    hr: ({...props}) => <hr className="my-8 border-border" {...props} />
-                  }}
-                >
-                  {article.content}
-                </ReactMarkdown>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Article Actions */}
-          <div className="flex items-center justify-between py-6 border-y border-border">
-            <div className="flex items-center space-x-4">
-              <Button
-                variant={liked ? "default" : "outline"}
-                size="sm"
-                onClick={handleLike}
-                className="flex items-center space-x-2"
-              >
-                <ThumbsUp className={`w-4 h-4 ${liked ? 'fill-current' : ''}`} />
-                <span>{liked ? formatNumber(article.likes + 1) : formatNumber(article.likes)}</span>
-              </Button>
-              
-              <Button
-                variant="outline"
-                size="sm"
-                className="flex items-center space-x-2"
-              >
-                <MessageCircle className="w-4 h-4" />
-                <span>{formatNumber(article.comments)}</span>
-              </Button>
-            </div>
-
-            <Button
-              variant="outline"
-              size="sm"
-              onClick={handleShare}
-              className="flex items-center space-x-2"
-            >
-              <Share2 className="w-4 h-4" />
-              <span>{isZh ? '分享文章' : 'Share Article'}</span>
-            </Button>
-          </div>
-
-          {/* Author Info */}
-          <Card className="p-6 bg-gradient-to-r from-primary/5 to-secondary/5">
-            <CardContent className="p-0">
-              <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 bg-primary/10 rounded-full flex items-center justify-center">
-                  <BookOpen className="w-8 h-8 text-primary" />
-                </div>
-                <div className="space-y-2">
-                  <h4 className="font-semibold text-lg">{article.author}</h4>
-                  <p className="text-muted-foreground">
-                    {isZh 
-                      ? 'AI推专业编辑团队，致力于为读者提供最新、最准确的人工智能资讯和深度分析。'
-                      : 'AI Push professional editorial team, dedicated to providing readers with the latest and most accurate AI news and in-depth analysis.'
-                    }
-                  </p>
-                </div>
-              </div>
-            </CardContent>
-          </Card>
-
-          {/* Related Articles */}
-          <RelatedArticles currentArticle={article} isZh={isZh} />
-        </div>
+        </article>
       </div>
     </>
   );

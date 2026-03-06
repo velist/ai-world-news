@@ -75,6 +75,21 @@ export const NewsDetail = ({
 
   const contentInfo = analyzeContent();
 
+  // 检测模板化/废话AI观点：不显示
+  const isTemplateInsight = (text: string | undefined): boolean => {
+    if (!text) return true;
+    const t = text.trim();
+    if (t.length < 20) return true;
+    // 所有模板观点都包含这句结尾套话
+    if (t.includes('这一发展对于推动AI技术进步和产业应用具有重要意义')) return true;
+    // 开头固定模板
+    if (t.startsWith('从技术发展角度看，该技术发展体现了')) return true;
+    if (t.startsWith('从技术发展角度看，') && t.includes('从行业影响来看') && t.includes('未来趋势方面')) return true;
+    return false;
+  };
+
+  const showAiInsight = aiInsight && !isTemplateInsight(aiInsight);
+
   // 分类样式（莫兰迪色调）
   const getCategoryStyle = (cat: string) => {
     const c = (cat || '').toLowerCase();
@@ -245,7 +260,7 @@ export const NewsDetail = ({
         )}
 
         {/* AI Insight */}
-        {aiInsight && (
+        {showAiInsight && (
           <div className="mb-8 p-5 rounded-lg" style={{ background: 'rgba(181, 165, 184, 0.08)', border: '1px solid rgba(181, 165, 184, 0.2)' }}>
             <div className="flex items-center gap-2 mb-3">
               <span className="text-sm font-medium" style={{ color: '#B5A5B8' }}>AI 观点</span>
