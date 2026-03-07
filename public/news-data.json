@@ -1,19 +1,43 @@
 {
   "success": true,
-  "timestamp": "2026-03-07T02:37:51.205Z",
-  "total": 119,
+  "timestamp": "2026-03-07T04:27:44.773Z",
+  "total": 116,
   "data": [
     {
-      "id": "news_1772851056404_404b2a42",
-      "title": "Vercel发布React最佳实践技能包，内含40余条面向AI代理的性能规则",
-      "summary": "Vercel发布React最佳实践技能包，内含40余条面向AI代理的性能规则",
-      "content": "Vercel发布React最佳实践技能包，内含40余条面向AI代理的性能规则",
+      "id": "news_1772857663347_190e3309",
+      "title": "俄罗斯训练 AI 识别早期乳腺癌，误诊率降低 20%",
+      "summary": "IT之家 3 月 7 日消息，据新华社今日报道，俄罗斯圣彼得堡国立电子技术大学（LETI）与阿尔马佐夫国家医学研究中心共同开发了一款医疗诊断辅助软件系统，训练 AI 快速识别 CT 影像以协助医生诊断早期乳腺癌。",
+      "content": "IT之家 3 月 7 日消息，据新华社今日报道，俄罗斯圣彼得堡国立电子技术大学（LETI）与阿尔马佐夫国家医学研究中心共同开发了一款医疗诊断辅助软件系统，训练 AI 快速识别 CT 影像以协助医生诊断早期乳腺癌。 据 LETI 介绍，过去解读一张 CT 影像通常需要一天，而这项技术的影像分析过程仅需几分钟，还可将临床误诊的概率降低约 20%。 其核心是神经网络这种人工智能技术。经过训练的神经网络能够自动处理上传至服务器的患者 CT 影像，标记出具有肿瘤特征的区域（IT之家注：标记后的影像会被发送给医生，由医生作出最终诊断）。 这项技术将拯救成千上万人的生命。它将对医生、公立和私立医院以及诊断软件制造商具有重要意义，因为它能提高检查的速度和准确性。此外，AI 还可大幅降低医疗机构对每位患者的后续检查成本，并将临床误诊概率降低 20%。 —— LETI 计算机技术与信息学系一年级硕士生、OncoDetect AI 项目负责人丹尼斯 · 斯捷潘年科 研究人员援引俄罗斯卫生部国家放射医学研究中心的数据表示，俄罗斯每年有 4000 至 7000 人因乳腺癌死亡，较高的死亡率与疾病发现较晚相关。因此，这项新技术有望帮助降低乳腺癌死亡率。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-07T10:00:00.000Z",
+      "source": "IT之家",
+      "publishedAt": "2026-03-07T03:45:53.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/eJaITDi1aTzpAR6wmZzz?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/0/926/776.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772857636289_8b3ce6e9",
+      "title": "人力资源社会保障部部长：正研究措施发挥人工智能创造新岗位和赋能传统岗位作用",
+      "summary": "人力资源社会保障部部长王晓萍3月7日在十四届全国人大四次会议民生主题记者会上表示，人力资源社会保障部正在研究相关措施，积极发挥人工智能在创造新岗位和赋能传统岗位方面的作用，推动实现技术进步与民生改善相协调的包容性发展。",
+      "content": "人力资源社会保障部部长王晓萍3月7日在十四届全国人大四次会议民生主题记者会上表示，人力资源社会保障部正在研究相关措施，积极发挥人工智能在创造新岗位和赋能传统岗位方面的作用，推动实现技术进步与民生改善相协调的包容性发展。（新华社）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-07T03:15:43.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3712308738716032?f=rss",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772857663770_5554da48",
+      "title": "三星崔元俊：探索 Galaxy 手机 AI 融合，未来用户零基础也能写 App",
+      "summary": "IT之家 3 月 7 日消息，在接受外媒 TechRadar 采访时，三星移动体验业务负责人崔元俊（Won-Joon Choi）表示，三星正探索将氛围编程（vibe coding）技术引入 Galaxy 手机。",
+      "content": "IT之家 3 月 7 日消息，在接受外媒 TechRadar 采访时，三星移动体验业务负责人崔元俊（Won-Joon Choi）表示，三星正探索将氛围编程（vibe coding）技术引入 Galaxy 手机。 三星自推出 Galaxy S24 系列和 Galaxy AI 以来，便全面押注人工智能领域，公司甚至计划彻底抛弃“智能手机”（smartphone）这一传统称呼，将 S26 系列直接定义为“AI 手机”。 IT之家援引博文介绍，氛围编程本质上是一种利用 AI 编写软件代码的技术，与使用其他 AI 工具类似，用户只需输入自然语言提示词，AI 就会自动完成所有繁杂的代码编写工作。这意味着，即使是没有任何编程经验的普通用户，也能借助该技术轻松创建专属应用程序。 崔元俊认为该功能具备巨大潜力，不仅能让用户以全新方式定制设备体验，其影响范围不仅局限于单一应用程序，还将涵盖整个用户界面（UX）。 他指出，用户目前只能使用系统预设的工具，但借助氛围编程，大家可以随意调整常用应用，甚至量身打造完全符合自身需求的功能。 以上图源：三星官网",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/432624e2-30d7-4876-9f00-285e85789dde.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-07T03:00:59.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/926/769.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772851069798_5cd7fed7",
@@ -112,15 +136,27 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1772851057668_626ba08e",
-      "title": "网易有道 LobsterAI 推出技能商店并支持 MCP 协议，打造更开放的智能体生态",
-      "summary": "网易有道 LobsterAI 推出技能商店并支持 MCP 协议，打造更开放的智能体生态",
-      "content": "网易有道 LobsterAI 推出技能商店并支持 MCP 协议，打造更开放的智能体生态",
+      "id": "news_1772857651409_e392177c",
+      "title": "海尔智家发布制造行业首份AI+细分岗位能力模型，引领领域人才标准演进",
+      "summary": "海尔智家发布制造行业首份AI+细分岗位能力模型，引领领域人才标准演进",
+      "content": "海尔智家发布制造行业首份AI+细分岗位能力模型，引领领域人才标准演进",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-06T17:14:01.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/TJ4K86cg0ilwKlZHuvxD?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-03-06T16:18:43.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/qOpuZutTvaO9O1NcwFRc?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772857653305_c597ca3c",
+      "title": "软件不再卖给人，而是智能体！900 亿风投教父摊牌：Cursor 要“死”了，英伟达遇劲敌",
+      "summary": "软件不再卖给人，而是智能体！900 亿风投教父摊牌：Cursor 要“死”了，英伟达遇劲敌",
+      "content": "软件不再卖给人，而是智能体！900 亿风投教父摊牌：Cursor 要“死”了，英伟达遇劲敌",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-06T16:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/oy5f04ZRYI2YRgD7p8y6?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -146,6 +182,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/926/706.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772857654917_cd86737d",
+      "title": "微软开源企业级AI智能体基准测试入门工具包Evals for Agent Interop",
+      "summary": "微软开源企业级AI智能体基准测试入门工具包Evals for Agent Interop",
+      "content": "微软开源企业级AI智能体基准测试入门工具包Evals for Agent Interop",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-06T15:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/djsCe3heSCRUEwBZtsvW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772808452816_bdf6ffb0",
@@ -349,6 +397,18 @@
       "publishedAt": "2026-03-06T10:38:15.000Z",
       "category": "科技新闻",
       "originalUrl": "https://36kr.com/newsflashes/3711250647249025?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772857657007_0c0933c4",
+      "title": "去哪儿旅行研发工程师刘洋确认出席QCon北京，分享智能体平台如何助力运营提效 1 万 PD",
+      "summary": "去哪儿旅行研发工程师刘洋确认出席QCon北京，分享智能体平台如何助力运营提效 1 万 PD",
+      "content": "去哪儿旅行研发工程师刘洋确认出席QCon北京，分享智能体平台如何助力运营提效 1 万 PD",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-06T10:10:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/vhvC3K6BIR9dhJ1FVqK2?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -796,6 +856,30 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1772857657984_8d0648f1",
+      "title": "OpenClaw 热潮下，团队级 AI Coding 怎么落地？",
+      "summary": "OpenClaw 热潮下，团队级 AI Coding 怎么落地？",
+      "content": "OpenClaw 热潮下，团队级 AI Coding 怎么落地？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-05T18:09:30.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/21qReTQmsHdckEC9ZuPZ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1772857626545_0",
+      "title": "OpenAI 发布新金融服务业工具，与 Anthropic 展开竞争",
+      "summary": "OpenAI 发布新旗舰人工智能模型及金融服务业工具，旨在提升办公效率，与 Anthropic PBC 展开竞争。此次发布标志着 OpenAI 在人工智能领域的进一步拓展，以期在金融服务业中占据更有利的地位。",
+      "content": "OpenAI 正在发布一款新的旗舰人工智能模型以及一系列金融服务业工具，旨在更好地应对办公室工作，从而在与 Anthropic PBC 的竞争中增强竞争力……",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iCnKRLkpg9t8/v1/1200x836.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-03-05T18:00:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-03-05/openai-releases-new-financial-services-tools-rivaling-anthropic",
+      "aiInsight": "该新闻表明OpenAI在持续推动其AI技术的应用扩展至金融服务业，这标志着AI技术在办公和专业服务领域的深化应用。从技术发展角度看，OpenAI此次发布的新工具可能包括自然语言处理、知识图谱构建、自动化决策支持等功能，旨在提升金融分析的效率和准确性。从行业影响看，这将进一步推动金融服务业的数字化转型，提高服务质量和客户体验。未来趋势方面，预计更多的金融科技公司将利用AI技术优化业务流程，而AI技术提供商则需在数据安全、隐私保护等方面加强技术与伦理的平衡，以获得行业的广泛信任。此外，随着技术进步，AI生成内容的真伪识别也将成为重要课题。"
+    },
+    {
       "id": "news_1772851039403_0",
       "title": "OpenAI 发布新金融工具，与 Anthropic 竞争",
       "summary": "OpenAI 发布新旗舰人工智能模型及金融服务业工具，以增强在办公场景的应用，加剧与 Anthropic PBC 的竞争。此举可能引发金融技术领域的新一轮竞争，而 Anthropic 正面临与 OpenAI 对决带来的新风险。",
@@ -818,18 +902,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.bloomberg.com/news/articles/2026-03-05/openai-releases-new-financial-services-tools-rivaling-anthropic",
       "aiInsight": "这一新闻反映了AI技术在金融服务业的深入应用和技术竞争的加剧。从技术发展角度看，OpenAI的新金融工具展示了其在自然语言处理和机器学习领域的最新进展，能够提供更高效、精准的金融分析和决策支持，这将推动金融行业向智能化转型。从行业影响看，此类工具的广泛应用将重塑金融行业的运营模式和服务形态，促进金融服务更加个性化、便捷化。从未来趋势看，随着AI技术的不断进步和应用场景的拓展，未来AI将在金融行业发挥更大的作用，但与此同时，也需关注数据安全、隐私保护等问题，确保技术健康发展。"
-    },
-    {
-      "id": "news_1772836682301_0",
-      "title": "OpenAI 发布新金融服务业工具，与 Anthropic 展开竞争",
-      "summary": "OpenAI 发布新旗舰人工智能模型及金融服务业工具，旨在提升办公效率，与 Anthropic 等竞争对手展开竞争。新工具将帮助金融服务业更好地利用人工智能技术，增强 OpenAI 在该领域的竞争力。",
-      "content": "OpenAI 正在发布一款新的旗舰人工智能模型以及一系列金融服务业工具，这些工具旨在更好地应对办公室工作，从而在 Anthropic 有限公司等竞争对手面前增强竞争力……",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iCnKRLkpg9t8/v1/1200x836.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2026-03-05T18:00:05.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2026-03-05/openai-releases-new-financial-services-tools-rivaling-anthropic",
-      "aiInsight": "这项新闻表明，OpenAI 正在积极拓展其人工智能技术的应用领域，特别是金融服务业。从技术发展角度看，这体现了大模型技术的进一步成熟，能够针对特定行业提供定制化解决方案。从行业影响来看，随着人工智能技术在金融服务业的深入应用，将可能提高金融服务的效率和个性化水平，同时带来数据安全和隐私保护的新挑战。未来趋势方面，预计会有更多科技巨头和初创公司进入这一领域，推动金融服务业的数字化转型，同时也将促进相关法律法规的完善，以应对技术发展带来的新问题。"
     },
     {
       "id": "news_1772833044134_0",
@@ -940,6 +1012,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1772857623143_1",
+      "title": "TCS 正在就更多人工智能数据中心在印度的事宜进行advanced阶段的谈判。",
+      "summary": "塔塔咨询服务有限公司正在就与多家科技巨头在印度建设更多人工智能数据中心的事宜进行advanced阶段的谈判。此前，TCS已与OpenAI达成协议，在印度建设AI数据中心。此举表明TCS正致力于通过利用人工智能技术重塑其业务模式。",
+      "content": "塔塔咨询服务有限公司刚刚与OpenAI达成协议，将在印度建设人工智能数据中心，该公司正接近与其他科技巨头达成更多协议，这表明其致力于重塑业务模式以利用... [611字节]",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iuE7H1rjy4F0/v0/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-03-05T11:21:47.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.bloomberg.com/news/features/2026-03-05/tcs-is-in-advanced-talks-for-more-ai-data-centers-in-india",
+      "aiInsight": "这篇新闻报道了塔塔咨询服务有限公司（TCS）在印度建设更多人工智能数据中心的计划，这一动向反映了技术发展、行业影响以及未来趋势的多个层面。\n\n从技术发展的角度看，这表明TCS正积极拥抱人工智能技术，通过建设数据中心来提升其在AI领域的服务能力，这将有助于推动印度本地的AI技术发展和应用创新。\n\n从行业影响的角度来看，这一举措不仅会促进印度本地的科技产业发展，还会提升印度在全球AI产业链中的地位。同时，TCS与其他科技巨头达成更多合作的意向，意味着AI技术的应用范围将进一步扩大，能够为更多行业提供智能化服务。\n\n从未来趋势的角度来看，这反映出未来企业将更加注重通过AI技术提升自身的核心竞争力。全球范围内，越来越多的企业和组织开始重视AI技术的应用，将其作为推动业务创新和发展的重要手段。因此，预计未来将会有更多的企业在AI技术方面加大投入，推动AI技术的发展和普及。"
+    },
+    {
       "id": "news_1772851040392_1",
       "title": "TCS 正在就扩大印度的人工智能数据中心进行advanced阶段的谈判。",
       "summary": "塔塔咨询服务有限公司（TCS）正与多家科技巨头就扩大印度的人工智能数据中心进行深入谈判，最新进展是已与OpenAI达成协议在印度建设AI数据中心。此举显示TCS正致力于转型业务模式，充分利用人工智能技术。这一系列动作表明印度将成为TCS在全球AI战略中的重要布局点。",
@@ -950,18 +1034,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.bloomberg.com/news/features/2026-03-05/tcs-is-in-advanced-talks-for-more-ai-data-centers-in-india",
       "aiInsight": "这篇新闻主要报道了塔塔咨询服务有限公司（TCS）计划在印度建设人工智能数据中心，并且正在与其他科技巨头就类似协议进行谈判。这一动态反映了以下几个方面的洞察：\n\n1. **技术发展**：这表明TCS正逐步涉足基础设施建设，特别是AI数据中心的建设，这是推动AI技术广泛应用的关键一步。随着AI技术的不断进步，对强大计算能力的需求日益增长，数据中心的建设和优化变得尤为重要。\n\n2. **行业影响**：此举将显著增强印度在AI基础设施领域的地位，吸引更多AI相关的研究和开发活动，促进当地技术生态系统的发展。同时，这也意味着TCS正在调整其业务策略，以更好地服务于迅速增长的AI市场。\n\n3. **未来趋势**：随着全球对AI需求的增加，建设数据中心不仅限于美国和中国这样的主要市场，印度等新兴市场也展现出巨大的潜力。这可能预示着全球数据中心市场的地理分布将更加分散，为更多国家和地区提供参与全球技术竞赛的机会。\n\n4. **合作与竞争**：TCS与OpenAI的合作以及与其他科技巨头的谈判，表明在AI技术领域，合作与竞争共存。这种动态不仅将加速AI技术的发展，也将促使企业提升自身在技术栈上的竞争力。\n\n综上所述，这一动态不仅是TCS战略调整的一部分，也反映了全球技术生态系统正在经历的重大变革。"
-    },
-    {
-      "id": "news_1772840149985_1",
-      "title": "TCS 正在就更多人工智能数据中心在印度的事宜进行advanced阶段的谈判。",
-      "summary": "塔塔咨询服务有限公司正在就与多家科技巨头在印度建设更多人工智能数据中心的事宜进行advanced阶段的谈判。近期，TCS已与OpenAI达成协议，在印度建立人工智能数据中心。此举表明TCS正致力于转型业务模式，以更好地利用人工智能技术。此次谈判和合作将有助于TCS在印度市场进一步扩大其在人工智能领域的影响力。",
-      "content": "塔塔咨询服务有限公司刚刚与OpenAI达成协议，将在印度建设人工智能数据中心，该公司正接近与其他科技巨头达成更多协议，这表明其致力于重塑业务模式以利用... [611字节]",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iuE7H1rjy4F0/v0/1200x800.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2026-03-05T11:21:47.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.bloomberg.com/news/features/2026-03-05/tcs-is-in-advanced-talks-for-more-ai-data-centers-in-india",
-      "aiInsight": "这项新闻透露了TCS（塔塔咨询服务有限公司）在人工智能领域的扩张计划，特别是通过建设人工智能数据中心，表明了公司在技术发展和行业转型方面的积极姿态。以下是从不同角度进行的深度点评分析：\n\n1. **技术发展**：与OpenAI的合作以及建设人工智能数据中心，标志着TCS正在积极拥抱最新的人工智能技术。这不仅包括硬件设施的升级，也包括软硬件一体化的解决方案开发，有助于公司在未来技术竞赛中保持竞争力。\n\n2. **行业影响**：此次合作和后续可能的更多协议，预示着印度乃至全球IT服务市场格局的变化。TCS作为行业的领导者之一，其决策将影响到其他同行企业的策略调整。同时，这也可能促进印度在人工智能基础设施建设方面的专业化和规模化发展。\n\n3. **未来趋势**：从长期来看，人工智能数据中心的建设将促进数据处理能力的提升，为企业提供更强大的分析工具，加速行业数字化转型。此外，随着更多企业加入这一领域，或将引发新一轮的技术创新和应用探索。\n\n综上所述，TCS的这一举动不仅反映了当前全球范围内对人工智能技术的重视，也预示着未来IT服务行业将朝着更加技术驱动和数据密集型的方向发展。"
     },
     {
       "id": "news_1772836681784_1",
@@ -1322,114 +1394,6 @@
       "category": "国外AI",
       "originalUrl": "https://36kr.com/newsflashes/3709534699073668?f=rss",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772686366321_c5b00335",
-      "title": "IDC 预测：2026 年全球智能机器人硬件市场规模将接近 300 亿美元，中国引领增长",
-      "summary": "IT之家 3 月 5 日消息，IDC 今日发文称，具身智能是智能机器人的核心发展方向，当前其产业已迈入技术突破、场景分化、生态协同的新阶段，全球多元厂商正加快智能机器人的产品布局与技术攻关，中外企业呈现出鲜明的差异化发展特征。",
-      "content": "IT之家 3 月 5 日消息，IDC 今日发文称，具身智能是智能机器人的核心发展方向，当前其产业已迈入技术突破、场景分化、生态协同的新阶段，全球多元厂商正加快智能机器人的产品布局与技术攻关，中外企业呈现出鲜明的差异化发展特征。 报告显示，中国厂商聚焦人形、四足机器人运动控制、精细操作等核心技术攻坚，同时积极开展多场景落地探索，已形成商业规模化发展基础。 据 IDC 数据，2025 年全球人形机器人市场出货量接近 1.8 万台，同比大幅增长约 508%，销售额达 4.4 亿美元（IT之家注：现汇率约合 30.38 亿元人民币）；其中，中国作为人形机器人主要应用市场，预计 2026 年应用场景将拓展至当前的 3 倍以上，市场规模逼近 13 亿美元（现汇率约合 89.77 亿元人民币），同比实现翻倍以上增长。与此同时，中国四足机器人市场规模也将突破 7 亿美元（现汇率约合 48.34 亿元人民币），同比同样翻倍。 海外企业也应用人形机器人、四足机器人、服务机器人等深化垂直场景布局，重点深耕城市服务、工业巡检等细分领域。此外，手机、智能家居等领域的头部厂商也纷纷跨界入局，加速构建“机器人 + 智能终端 + IoT”全生态体系，推动智能终端领域的深度融合发展。 IDC 预测，2026 年全球智能机器人硬件市场规模将接近 300 亿美元（现汇率约合 2071.69 亿元人民币），其中中国将引领全球具身智能机器人市场增长，成为市场加速扩张的核心主导力量，届时中国具身智能机器人市场规模将突破 110 亿美元（现汇率约合 759.62 亿元人民币）。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/7f038392-cf08-4b37-9eb4-ae0bac0b12d5.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-05T04:00:36.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/926/110.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772851039843_2",
-      "title": "OpenAI年度化营收突破25亿美元，据《信息》杂志报道",
-      "summary": "OpenAI的年度化营收在3月上月底突破250亿美元，较之前21.4亿美元增长17%。这一消息由《信息》杂志援引知情人士报道。OpenAI是一家知名的人工智能初创公司，此次营收增长反映了其在人工智能领域的强劲市场表现和巨大商业潜力。",
-      "content": "3月4日（路透社）——据《信息》杂志周三援引知情人士的话报道，截至上月底，人工智能初创公司OpenAI的年度化收入已超过250亿美元。这比之前的21.4亿美元增长了17%……（原文剩余内容省略）",
-      "imageUrl": "https://www.reuters.com/resizer/v2/WEDUFM62XBJCJGONYLRP2P2EZE.jpg?auth=ab348bfe1833c485f119bc78e78666ca34ee1c9dc0719b28559bdf2fcf3a7454&height=1005&width=1920&quality=80&smart=true",
-      "source": "Reuters",
-      "publishedAt": "2026-03-05T03:38:56.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.reuters.com/technology/openai-tops-25-billion-annualized-revenue-last-month-information-reports-2026-03-05/",
-      "aiInsight": "这项报道显示，OpenAI在短短一年内实现了显著的收入增长，达到250亿美元的年度化营业收入。从技术发展角度看，这反映了大型语言模型和生成式AI技术的商业潜力和市场需求正在快速增长。行业影响方面，OpenAI的收入增长表明，AI技术正在从科研领域向商业应用加速转化，推动了相关产业链的发展和创新。对于整个科技行业来说，这也预示着AI技术可能会开启新的商业模式和巨大的市场空间。未来趋势上，预计AI技术将更加深入地融入各行各业，推动数字化转型，同时AI企业之间的竞争也将进一步加剧，技术创新和差异化将成为企业可持续发展的关键。"
-    },
-    {
-      "id": "news_1772840145273_2",
-      "title": "OpenAI年化收入突破25亿美元，据《信息》报道",
-      "summary": "OpenAI的年化收入在截至上月底时已突破250亿美元，较之前的21.4亿美元增长了17%。这一消息据《信息时报》周三援引知情人士的话报道。OpenAI是一家知名的人工智能初创公司，此次收入增长反映了其在人工智能领域的强大市场地位和商业潜力。",
-      "content": "3月4日（路透社）——据《信息时报》周三援引知情人士的话报道，截至上月底，人工智能初创公司OpenAI的年度化收入已超过250亿美元。这比之前的21.4亿美元增长了17%……",
-      "imageUrl": "https://www.reuters.com/resizer/v2/WEDUFM62XBJCJGONYLRP2P2EZE.jpg?auth=ab348bfe1833c485f119bc78e78666ca34ee1c9dc0719b28559bdf2fcf3a7454&height=1005&width=1920&quality=80&smart=true",
-      "source": "Reuters",
-      "publishedAt": "2026-03-05T03:38:56.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.reuters.com/technology/openai-tops-25-billion-annualized-revenue-last-month-information-reports-2026-03-05/",
-      "aiInsight": "这一新闻反映了OpenAI在商业上取得了显著进展，从技术发展的角度看，这表明OpenAI不仅在技术研究上取得了重大突破，而且在商业模式上也找到了一条可行的道路。OpenAI的收入增长可能得益于其与微软的合作伙伴关系，微软的投资和云服务支持，使得OpenAI能够开发和部署更强大的AI模型。从行业影响来看，OpenAI的商业成功可能会激励更多的企业和研究机构加大对AI领域的投资，促进整个行业的发展。未来趋势方面，随着OpenAI等领先企业的成功，AI技术的应用范围将进一步扩大，从基础研究到商业应用都将有更广泛的发展空间。同时，这也可能引发关于AI技术发展和监管的新讨论，特别是在数据隐私、算法偏见和安全性等问题上。"
-    },
-    {
-      "id": "news_1772836681929_2",
-      "title": "OpenAI年度化营收突破25亿美元，据《信息》报道",
-      "summary": "据《信息》网站报道，截至上月底，人工智能初创公司OpenAI的年度化营收已突破250亿美元，较此前的214亿美元增长17%。这一增长表明OpenAI在商业化道路上取得显著进展，其收入来源可能包括微软的投资、合作伙伴关系以及产品销售等。",
-      "content": "3月4日（路透社）——据《信息》网站周三援引知情人士的话报道，截至上月底，人工智能初创公司OpenAI的年度化营收已超过250亿美元。这比此前的214亿美元增长了17%……",
-      "imageUrl": "https://www.reuters.com/resizer/v2/WEDUFM62XBJCJGONYLRP2P2EZE.jpg?auth=ab348bfe1833c485f119bc78e78666ca34ee1c9dc0719b28559bdf2fcf3a7454&height=1005&width=1920&quality=80&smart=true",
-      "source": "Reuters",
-      "publishedAt": "2026-03-05T03:38:56.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.reuters.com/technology/openai-tops-25-billion-annualized-revenue-last-month-information-reports-2026-03-05/",
-      "aiInsight": "从技术发展角度看，OpenAI年度化营收突破25亿美元，表明AI技术正在迅速商业化，尤其是大模型和生成式AI的商业化应用正在加速。这反映了企业、机构和消费者对于高质量AI服务的需求日益增长，以及AI技术在多个行业的广泛应用，如自然语言处理、图像识别、智能客服等。\n\n从行业影响看，OpenAI的营收增长预示着AI行业的整体繁荣，特别是大型语言模型的商业化应用，正在重塑多个行业的工作流程和商业模式。这不仅推动了AI初创公司和科技巨头之间的竞争，也促使传统企业加速数字化转型，以适应这一技术变革。\n\n从未来趋势看，随着技术的不断进步和应用场景的不断拓展，AI商业化有望进一步加速。同时，随着AI技术的普及和成熟，AI伦理和安全性等问题将更加凸显，这将推动相关法律法规的完善和技术治理的加强。未来，AI技术的健康发展将依赖于技术创新、行业合作和伦理监管三方面的平衡。"
-    },
-    {
-      "id": "news_1772816048474_2",
-      "title": "OpenAI年度化营收超过25亿美元，据《信息》杂志报道",
-      "summary": "OpenAI的年度化营收在截至上月底时已超过250亿美元，较之前的21.4亿美元增长了17%。这一消息来源于《信息时报》的报道，显示了这家人工智能初创公司在过去一年中的强劲增长。",
-      "content": "3月4日（路透社）——据《信息时报》周三报道，一位了解情况的人士透露，截至上月底，人工智能初创公司OpenAI的年度化营收已超过250亿美元。这比之前的21.4亿美元增长了17%。",
-      "imageUrl": "https://www.reuters.com/resizer/v2/WEDUFM62XBJCJGONYLRP2P2EZE.jpg?auth=ab348bfe1833c485f119bc78e78666ca34ee1c9dc0719b28559bdf2fcf3a7454&height=1005&width=1920&quality=80&smart=true",
-      "source": "Reuters",
-      "publishedAt": "2026-03-05T03:38:56.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.reuters.com/technology/openai-tops-25-billion-annualized-revenue-last-month-information-reports-2026-03-05/",
-      "aiInsight": "这一新闻反映了OpenAI在商业化方面取得了显著进展，从技术发展角度看，OpenAI的成功表明其在生成式AI、自然语言处理等领域的研究和应用已具备商业化潜力。从行业影响来看，OpenAI的快速增长吸引了更多公司和投资者关注AI领域，促进了整个行业的快速发展。未来趋势方面，随着OpenAI等企业的成功案例增加，预计AI技术将在更多行业得到应用，推动生产力提升和创新。同时，随着市场对AI技术依赖加深，数据隐私和伦理问题也将成为关注焦点，未来AI技术的发展需在商业化与伦理责任之间找到平衡。"
-    },
-    {
-      "id": "news_1772794069491_2",
-      "title": "OpenAI 年化收入突破 250 亿美元，The Information 报道",
-      "summary": "OpenAI的年化收入突破250亿美元，较之前的21.4亿美元增长了17%。这一消息由《信息》网站报道，引用了知情人士的消息。OpenAI是一家知名的人工智能初创公司，此次收入增长反映了其在人工智能领域的强大市场地位和商业潜力。",
-      "content": "3月4日（路透社）——据《信息》网站周三报道，引用知情人士的消息称，截至上月底，人工智能初创公司OpenAI的年度化营收已超过250亿美元。这比之前的21.4亿美元增长了17%……（剩余字符省略）",
-      "imageUrl": "https://www.reuters.com/resizer/v2/WEDUFM62XBJCJGONYLRP2P2EZE.jpg?auth=ab348bfe1833c485f119bc78e78666ca34ee1c9dc0719b28559bdf2fcf3a7454&height=1005&width=1920&quality=80&smart=true",
-      "source": "Reuters",
-      "publishedAt": "2026-03-05T03:38:56.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.reuters.com/technology/openai-tops-25-billion-annualized-revenue-last-month-information-reports-2026-03-05/",
-      "aiInsight": "该新闻反映了OpenAI在商业层面的强劲表现，从技术发展的角度看，这意味着OpenAI的商业化步伐加快，其技术正被更广泛地应用于各个行业，如金融科技、医疗健康和教育等领域。行业影响方面，OpenAI的高收入表明大模型技术正逐步成为推动企业数字化转型的重要力量，可能加速人工智能技术在更多领域的普及。未来趋势方面，这预示着OpenAI可能会进一步扩大其市场影响力，吸引更多合作伙伴和投资者，同时其技术也可能持续迭代升级，推动AI行业的整体进步。然而，这也引发了关于数据隐私、算法公平性和监管合规等方面的讨论和挑战。"
-    },
-    {
-      "id": "news_1772787074524_2",
-      "title": "OpenAI 年化收入突破 250 亿美元，据《信息》杂志报道",
-      "summary": "据《信息》杂志报道，截至上月底，人工智能初创公司OpenAI的年化收入已突破250亿美元，较此前的21.4亿美元增长了17%。这一增长反映了OpenAI在人工智能领域的强劲市场表现和商业潜力。",
-      "content": "3月4日（路透社）——据《信息》杂志周三援引知情人士的话报道，截至上月底，人工智能初创公司OpenAI的年化收入已超过250亿美元。这比此前的21.4亿美元增长了17%。[959字符]",
-      "imageUrl": "https://www.reuters.com/resizer/v2/WEDUFM62XBJCJGONYLRP2P2EZE.jpg?auth=ab348bfe1833c485f119bc78e78666ca34ee1c9dc0719b28559bdf2fcf3a7454&height=1005&width=1920&quality=80&smart=true",
-      "source": "Reuters",
-      "publishedAt": "2026-03-05T03:38:56.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.reuters.com/technology/openai-tops-25-billion-annualized-revenue-last-month-information-reports-2026-03-05/",
-      "aiInsight": "从技术发展角度看，OpenAI的收入突破250亿美元展示了生成式AI技术的商业化潜力和市场需求的快速增长。这不仅反映了OpenAI在大语言模型和多模态技术上的领先地位，还体现了其商业模式的有效性，如API服务和企业合作。从行业影响来看，这一收入增长预示着AI技术将更深入地融入全球经济和各行各业，加速推动数字化转型。未来趋势上，随着更多企业寻求利用AI技术提升效率和创新能力，OpenAI及类似平台的收入有望继续增长。此外，这也将促进AI技术的进一步创新和应用扩展。然而，这也带来数据安全和隐私保护、模型偏见等伦理和社会问题，需要行业内外共同努力解决。"
-    },
-    {
-      "id": "news_1772686340103_251468be",
-      "title": "博通 AVGO：AI 火力全开，英伟达对头更飒？",
-      "summary": "博通 AVGO：AI 火力全开，英伟达对头更飒？",
-      "content": "AI 增长提速，明确指引注入信心。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-05T03:35:10.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7900483.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772686341620_935b0dd7",
-      "title": "AI漫剧霸屏春节档，下一个文娱出海主力军来了？｜ 出海参考",
-      "summary": "AI漫剧霸屏春节档，下一个文娱出海主力军来了？｜ 出海参考",
-      "content": "AI漫剧占比春节档短剧总播放29.4%，这是对真人短剧的替代，还是内容消费的新主流？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-05T02:50:47.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7900619.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
