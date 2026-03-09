@@ -1,8 +1,104 @@
 {
   "success": true,
-  "timestamp": "2026-03-08T23:33:13.724Z",
-  "total": 75,
+  "timestamp": "2026-03-09T02:52:05.303Z",
+  "total": 73,
   "data": [
+    {
+      "id": "news_1773024707984_3ddbdf4e",
+      "title": "从 Demo 到规模落地：AIOps Agent 在复杂云原生场景下的研发范式与数据飞轮实践｜QCon北京",
+      "summary": "从 Demo 到规模落地：AIOps Agent 在复杂云原生场景下的研发范式与数据飞轮实践｜QCon北京...",
+      "content": "从 Demo 到规模落地：AIOps Agent 在复杂云原生场景下的研发范式与数据飞轮实践｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-09T10:10:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/5ydQqEFM2Kkskgyl0u3X?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773024709807_e031b788",
+      "title": "谷歌研究院探索多智能体协调的扩展原则",
+      "summary": "谷歌研究院探索多智能体协调的扩展原则",
+      "content": "谷歌研究院探索多智能体协调的扩展原则",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-09T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/8uzPv9ggRNrgDLtb7ywE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773024711456_f3dfcaf7",
+      "title": "Claude Code之父自曝刘慈欣铁粉！不写PRD、不设职称，揭秘Anthropic 如何连续推出两个AI 爆款？",
+      "summary": "Claude Code之父自曝刘慈欣铁粉！不写PRD、不设职称，揭秘Anthropic 如何连续推出两个AI 爆款？",
+      "content": "Claude Code之父自曝刘慈欣铁粉！不写PRD、不设职称，揭秘Anthropic 如何连续推出两个AI 爆款？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-09T09:53:35.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/58MqJzPWvi2Mtdu147Qv?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773024712822_8d051a2c",
+      "title": "雷军：不推荐普通用户在主力设备升级“龙虾”；鹅厂门口排队装OpenClaw，”龙虾之父“点赞；OpenAI 开源计划：开发者免费享半年 ChatGPT Pro 订阅 | AI周报",
+      "summary": "雷军：不推荐普通用户在主力设备升级“龙虾”；鹅厂门口排队装OpenClaw，”龙虾之父“点赞；OpenAI 开源计划：开发者免费享半年 ChatGPT Pro 订阅 | AI周报...",
+      "content": "雷军：不推荐普通用户在主力设备升级“龙虾”；鹅厂门口排队装OpenClaw，”龙虾之父“点赞；OpenAI 开源计划：开发者免费享半年 ChatGPT Pro 订阅 | AI周报",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-09T09:46:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/oRLbiZDv9maVQDk0swaR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773024714485_ce6a38bc",
+      "title": "Leapwork研究显示，测试中的AI仍然依赖于可靠性，而不仅仅是创新",
+      "summary": "Leapwork研究显示，测试中的AI仍然依赖于可靠性，而不仅仅是创新",
+      "content": "Leapwork研究显示，测试中的AI仍然依赖于可靠性，而不仅仅是创新",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-09T09:40:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/IHiheIrpN1lo0jJJlqhD?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773024694757_e4830e7b",
+      "title": "软通动力在北京成立智芯技术公司",
+      "summary": "36氪获悉，爱企查App显示，近日，北京软通智芯技术有限公司成立，法定代表人为刘会福，注册资本1000万元人民币，经营范围包括数字技术服务、计算机系统服务、软件开发、信息系统集成服务等。股东信息显示，该公司由软通动力信息技术（集团）股份有限公司全资持股。",
+      "content": "36氪获悉，爱企查App显示，近日，北京软通智芯技术有限公司成立，法定代表人为刘会福，注册资本1000万元人民币，经营范围包括数字技术服务、计算机系统服务、软件开发、信息系统集成服务等。股东信息显示，该公司由软通动力信息技术（集团）股份有限公司全资持股。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-09T02:28:45.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://36kr.com/newsflashes/3715093709500553?f=rss",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773024701099_4443b361",
+      "title": "1110亿夺权战：甲骨文太子截胡华纳，奈飞白赚28亿转身搞AI",
+      "summary": "1110亿夺权战：甲骨文太子截胡华纳，奈飞白赚28亿转身搞AI",
+      "content": "1110亿夺权战：甲骨文太子截胡华纳，奈飞白赚28亿转身搞AI",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-09T01:37:42.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7904969.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773024703943_88833dbb",
+      "title": "2026 AI 创业终局：算力驱动 = 数字佃农，数据驱动 = 数字地主",
+      "summary": "2026 AI 创业终局：算力驱动 = 数字佃农，数据驱动 = 数字地主",
+      "content": "数据空心化、地域数据管网、新数字地主、算力券陷阱、私有数据饲料。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-09T01:31:11.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7904816.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1773012761229_073879a3",
       "title": "深圳龙岗拟出台措施，支持OpenClaw&OPC发展",
@@ -112,16 +208,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773012773569_a56177be",
-      "title": "OpenAI Codex-Spark 在 Cerebras 硬件上实现超快编码速度",
-      "summary": "OpenAI Codex-Spark 在 Cerebras 硬件上实现超快编码速度",
-      "content": "OpenAI Codex-Spark 在 Cerebras 硬件上实现超快编码速度",
+      "id": "news_1773024717364_6fa8088c",
+      "title": "多模态+Agent 在培训与教育领域的应用｜QCon北京",
+      "summary": "多模态+Agent 在培训与教育领域的应用｜QCon北京",
+      "content": "多模态+Agent 在培训与教育领域的应用｜QCon北京",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-08T11:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/q2gYpu0ys425KtKuGCm5?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-03-08T10:05:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/UlSPN3tdkCRtgTkuN2q1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772966087997_a0f6a161",
@@ -436,18 +532,6 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773012777152_a77c50fb",
-      "title": "AI教父Hinton最新警告：AI会撒谎、可能操纵人类，这比大规模失业更可怕",
-      "summary": "AI教父Hinton最新警告：AI会撒谎、可能操纵人类，这比大规模失业更可怕",
-      "content": "AI教父Hinton最新警告：AI会撒谎、可能操纵人类，这比大规模失业更可怕",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-07T17:48:23.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/TZ9h5JFJ5GZ92PL76yaD?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1772894031409_a6a6e115",
       "title": "全国政协委员王小龙：国产高端机床已直接用于制造大飞机、航空发动机等大国重器",
       "summary": "IT之家 3 月 7 日消息，据央视新闻报道，今天下午，全国政协十四届四次会议第二场“委员通道”在人民大会堂举行，全国政协委员、宁夏福思泰智能装备、一工机器人总经理王小龙接受了记者采访。",
@@ -554,6 +638,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/926/852.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773024720488_404b2a42",
+      "title": "Vercel发布React最佳实践技能包，内含40余条面向AI代理的性能规则",
+      "summary": "Vercel发布React最佳实践技能包，内含40余条面向AI代理的性能规则",
+      "content": "Vercel发布React最佳实践技能包，内含40余条面向AI代理的性能规则",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-07T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/eJaITDi1aTzpAR6wmZzz?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1772876275088_bb042c76",
@@ -782,126 +878,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/926/769.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772851069798_5cd7fed7",
-      "title": "AI 手机助手安全问题引两会关注，抖音副总裁李亮邀请委员亲测产品澄清疑虑",
-      "summary": "IT之家 3 月 7 日消息，在今年的全国两会期间，AI 技术的安全与治理成为代表委员们热议的焦点。 全国政协委员李萌娇在接受采访时提出，当前手机 AI 助手在带来便捷的同时，也暴露出过度收集个人信息、权限边界模糊等安全隐患，建议加快完善相关安全管理体系。",
-      "content": "IT之家 3 月 7 日消息，在今年的全国两会期间，AI 技术的安全与治理成为代表委员们热议的焦点。 全国政协委员李萌娇在接受采访时提出，当前手机 AI 助手在带来便捷的同时，也暴露出过度收集个人信息、权限边界模糊等安全隐患，建议加快完善相关安全管理体系。 她以某些具备“接管手机”能力的 AI 助手为例指出，这类应用通过“视觉读屏”与“模拟点击”技术，能够直接调用手机底层系统权限，在用户难以感知的情况下连续执行多个操作，甚至存在被恶意利用的风险 —— 一封看似普通的恶意邮件就可能“骗过”系统，将用户的银行验证码泄露给攻击者。 李萌娇还特别提到，这种无边界的信息获取可能导致“数字上帝”的出现，即 AI 助手比用户本人更了解其数字档案，给个人隐私与财产安全带来巨大挑战。 针对这一观点，抖音集团副总裁李亮刚刚在微博发文进行了回应。他首先感谢了李萌娇委员对 AI 安全议题的关注，但同时也指出可能存在误解，误将黑客的恶意攻击行为与正规 AI 手机助手的合规技术能力混为一谈。 李亮强调，正规的手机 AI 助手所有操作均需由用户主动发起，整个过程用户可感知、可查看、可随时接管；尤其是在涉及账号登录、支付验证等敏感环节时，AI 会自动停止操作，交还用户亲自处理，不会在用户无感知的情况下自行完成高风险指令。 他表示，AI 安全是产业健康发展的生命线，欢迎基于客观事实和专业认知的监督与建议，如果李萌娇委员有兴趣进一步了解，团队愿意提供测试版手机供其调研体验，以便在掌握客观事实的基础上更好地建言献策。 IT之家注意到，关于 AI 助手安全性的讨论在近期已有发酵。今年 2 月底，豆包手机助手曾就所谓“安全漏洞”传闻发布声明，指出相关演示视频实为需要用户主动指令才能触发，并非系统自动执行的漏洞，并斥之为“黑公关”恶意炒作行为。 当时李亮也曾发文表示，没有绝对安全的系统，所有系统都可能存在漏洞，关键在于区分正常的技术操作与恶意的攻击行为，并强调此类不负责任的披露方式涉嫌违反国家相关规定。 相关阅读： 《豆包手机助手回应安全隐私问题：仅在用户明确授权的前提下调用必要能力，内容不存储不训练》 《消息称字节去年底已开启豆包手机助手正式版项目，二代机型今年 Q2 发布》 《豆包手机助手：针对网传漏洞演示已升级相应防护措施，网上出现典型黑公关炒作》 《马化腾在腾讯年会谈 AI 战略，“罕见”点评豆包手机与阿里千问》 《豆包手机大家族：字节跳动被曝正推进与 vivo、联想、传音等多家硬件厂商开展 AI 手机合作》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/110d7f63-1f7c-475f-b9f2-3777991a9f41.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-07T02:09:20.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/926/756.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772851069990_0daa7de9",
-      "title": "OpenAI 推出 Codex Security，面向代码安全审计场景",
-      "summary": "IT之家 3 月 7 日消息，OpenAI 现已推出 Codex Security AI 工具，主要面向代码安全审计场景。",
-      "content": "IT之家 3 月 7 日消息，OpenAI 现已推出 Codex Security AI 工具，主要面向代码安全审计场景。 据介绍，Codex Security 主要使用前沿 AI 模型推理能力结合自动化验证机制解决安全审查问题，可提供高可信度漏洞发现、可执行修复方案，帮助开发团队更快发现重要漏洞，进而加速代码发布流程。 这套工具已在去年对小部分客户启动内部测试，在早期部署中成功发现 SSRF（IT之家注：服务器端请求伪造）漏洞等真实问题，随着 Beta 测试推进，系统精度也在持续提升，例如在同一代码库中噪声减少 84%、误报率下降 50%。 同时，Codex Security 首先可通过系统上下文生成专属模型，优先排序并验证漏洞，随后提出一套与系统设计一致的修复方案，还能够根据用户反馈持续学习。 目前这套方案已经通过研究预览版的形式向 ChatGPT Pro、Enterprise、Business 以及 Edu 用户推出，还能够通过 Codex Web 访问，未来一个月可免费使用。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/113d6485-5ac1-429c-aba3-330ae2d98852.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-07T01:44:15.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/926/751.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772851070203_0a378c16",
-      "title": "Microsoft 365 生产力套件 E7 企业版订阅曝光：捆绑 AI 功能，单月 99 美元",
-      "summary": "IT之家 3 月 7 日消息，外媒 Business Insider 当地时间 2 月末曝光了微软正在考虑推出 Microsoft 365 生产力套件 E7 企业版。",
-      "content": "IT之家 3 月 7 日消息，外媒 Business Insider 当地时间 2 月末曝光了微软正在考虑推出 Microsoft 365 生产力套件 E7 企业版。这一版本在现有 E5 订阅的基础上整合了多项额外的 AI 功能，单月价格至高可达每员工 99 美元（IT之家注：现汇率约合 684.8 元人民币）。 IT之家注意到，Microsoft 365 E5 订阅已内置部分 AI 功能，包括“由最新大型语言模型提供支持的安全 AI 聊天”“使用 Power BI 进行可缩放的业务分析”，而 E7 订阅还将新增 Microsoft Copilot 和 Agent 365 智能体控制平面等。 Microsoft 365 E5 当前的官网标价为 57 美元，单独的 Microsoft Copilot 服务包标价 21 美元。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/2c7e67df-2632-4433-9c60-062d7153a496.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-07T01:19:35.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/926/745.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772851052384_2c40398c",
-      "title": "阿里千问变局：天才与巨头的分叉口",
-      "summary": "阿里千问变局：天才与巨头的分叉口",
-      "content": "一个关于“实验室理想”与“AI帝国”的故事。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-07T01:16:52.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7903121.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1772851053250_ea70a2b8",
-      "title": "「短剧变天」持续发酵，真人剧公司加速AI布局",
-      "summary": "我们与多家真人短剧公司负责人交流，几乎无一例外，无论体量大小，都已在漫剧条线或AI制作方向有所动作或储备。",
-      "content": "我们与多家真人短剧公司负责人交流，几乎无一例外，无论体量大小，都已在漫剧条线或AI制作方向有所动作或储备。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-07T00:56:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7903220.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773012780926_626ba08e",
-      "title": "网易有道 LobsterAI 推出技能商店并支持 MCP 协议，打造更开放的智能体生态",
-      "summary": "网易有道 LobsterAI 推出技能商店并支持 MCP 协议，打造更开放的智能体生态",
-      "content": "网易有道 LobsterAI 推出技能商店并支持 MCP 协议，打造更开放的智能体生态",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-06T17:14:01.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/TJ4K86cg0ilwKlZHuvxD?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773012782973_e392177c",
-      "title": "海尔智家发布制造行业首份AI+细分岗位能力模型，引领领域人才标准演进",
-      "summary": "海尔智家发布制造行业首份AI+细分岗位能力模型，引领领域人才标准演进",
-      "content": "海尔智家发布制造行业首份AI+细分岗位能力模型，引领领域人才标准演进",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-06T16:18:43.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/qOpuZutTvaO9O1NcwFRc?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773012784981_c597ca3c",
-      "title": "软件不再卖给人，而是智能体！900 亿风投教父摊牌：Cursor 要“死”了，英伟达遇劲敌",
-      "summary": "软件不再卖给人，而是智能体！900 亿风投教父摊牌：Cursor 要“死”了，英伟达遇劲敌",
-      "content": "软件不再卖给人，而是智能体！900 亿风投教父摊牌：Cursor 要“死”了，英伟达遇劲敌",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-06T16:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/oy5f04ZRYI2YRgD7p8y6?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773012786932_cd86737d",
-      "title": "微软开源企业级AI智能体基准测试入门工具包Evals for Agent Interop",
-      "summary": "微软开源企业级AI智能体基准测试入门工具包Evals for Agent Interop",
-      "content": "微软开源企业级AI智能体基准测试入门工具包Evals for Agent Interop",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-06T15:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/djsCe3heSCRUEwBZtsvW?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773012788316_0c0933c4",
-      "title": "去哪儿旅行研发工程师刘洋确认出席QCon北京，分享智能体平台如何助力运营提效 1 万 PD",
-      "summary": "去哪儿旅行研发工程师刘洋确认出席QCon北京，分享智能体平台如何助力运营提效 1 万 PD",
-      "content": "去哪儿旅行研发工程师刘洋确认出席QCon北京，分享智能体平台如何助力运营提效 1 万 PD",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-06T10:10:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/vhvC3K6BIR9dhJ1FVqK2?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
