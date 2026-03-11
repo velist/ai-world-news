@@ -1,8 +1,92 @@
 {
   "success": true,
-  "timestamp": "2026-03-11T09:54:49.689Z",
-  "total": 133,
+  "timestamp": "2026-03-11T10:55:31.650Z",
+  "total": 134,
   "data": [
+    {
+      "id": "news_1773226515666_9b926bcb",
+      "title": "黄仁勋砸千亿兆瓦算力，押注下一个“Open AI”",
+      "summary": "黄仁勋砸千亿兆瓦算力，押注下一个“Open AI”",
+      "content": "黄仁勋砸千亿兆瓦算力，押注下一个“Open AI”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-11T18:08:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/tMAPqeVAGN4q4vIsqNbP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773226530647_c4653945",
+      "title": "每人 1000 万 Tokens 免费领，国家超算互联网为 OpenClaw 用户发放两周福利",
+      "summary": "IT之家 3 月 11 日消息，国家超算互联网今日发文，宣布面向平台的全体 OpenClaw 用户，免费发放每人限时 2 周总计 1000 万 Tokens 额度。",
+      "content": "IT之家 3 月 11 日消息，国家超算互联网今日发文，宣布面向平台的全体 OpenClaw 用户，免费发放每人限时 2 周总计 1000 万 Tokens 额度。 与此同时，平台还公布了 OpenClaw 的 Token 续购价格，最低 0.1 元 / 百万 Tokens，较市场均价有明显降幅，旨在进一步降低智能体的使用门槛，助力 AI 应用在全社会的普及。 随着开源 AI 智能体 OpenClaw（因其图标被昵称为“龙虾”）在全球开发者社区持续走热，用户在实际使用中面临的算力成本问题也日益凸显。智能体应用正从“生成式”迈向“自主执行”阶段，单次交互的 Token 消耗量呈指数级增长，尤其是 OpenClaw 这类复杂智能体项目的涌现，让算力需求迅速攀升。 业内估算，一个成熟智能体的日均 Token 消耗可达传统对话模型的数十倍，算力账单成为众多个人用户和小微企业难以回避的现实难题。 根据规则，用户在活动期间登录平台，通过简单操作即可一键部署 OpenClaw，系统将自动发放 1000 万 Tokens 福利，供用户在两周内使用。 用户可通过 PC 端登录超算互联网（IT之家附官网地址：www.scnet.cn），进入「Chat」界面，点击左侧栏【OpenClaw】进入领取页面，再点击【一键部署你的 OpenClaw】启动部署，系统将自动发放福利，刷新页面后即可开启对话。用户还可通过【Chat】-【模型 API】-【用量信息】查询赠送 Token 的余量情况。 与此同时，超算互联网平台上的 OpenClaw 已完成重要升级，用户无需复杂的环境搭建与繁琐安装，即可实现“开箱即用”。 据官方介绍，伴随由中科曙光 scaleX 万卡超集群提供支持的国家超算互联网核心节点上线试运行，超算互联网平台已构建起全国最大的 AI 算力资源池，践行“让算力像水电一样自由流通”的理念。该平台由科技部统筹指导建设，致力于打通全国超算中心、AI 应用开发者与算力需求方之间的连接通道，以互联网化运营模式推进算力资源整合与共享。 相关阅读： 《国家超算互联网 OpenClaw 服务升级，正式打通飞书、企业微信》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/e2cf93b0-e544-4117-83c8-9d5fe5d201d6.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-11T10:23:40.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/928/118.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773226517144_e806c4ae",
+      "title": "来自 GitHub 的数据表明，AI 工具正在创造“便利循环”，重塑开发者的语言选择",
+      "summary": "来自 GitHub 的数据表明，AI 工具正在创造“便利循环”，重塑开发者的语言选择",
+      "content": "来自 GitHub 的数据表明，AI 工具正在创造“便利循环”，重塑开发者的语言选择",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-11T10:10:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/6U6QxjzgUwA4XL80Kv2b?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773226504766_37cef8ff",
+      "title": "2026春招大厂抢人大战开启，AI行业薪酬结构性分化",
+      "summary": "2026春招大厂抢人大战开启，AI行业薪酬结构性分化",
+      "content": "提早开抢、抬高薪资、抢高质量候选人，成为本届春招AI岗位的特点。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-11T10:07:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7908965.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773226506161_4414bd6b",
+      "title": "大厂“龙虾钳”，掐住谁的喉咙？",
+      "summary": "AI从“对话者”升级为拥有系统最高权限的“执行者”，OpenClaw的爆火，将技术创新的狂欢与数据安全的“死穴”同时推至台前。我们是否准备好迎接一个能力越强、风险越大的智能体时代？",
+      "content": "AI从“对话者”升级为拥有系统最高权限的“执行者”，OpenClaw的爆火，将技术创新的狂欢与数据安全的“死穴”同时推至台前。我们是否准备好迎接一个能力越强、风险越大的智能体时代？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-11T10:02:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/7909582.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773226507414_31d5a7b1",
+      "title": "黄仁勋的万亿AI蓝图，卡在兆瓦现实",
+      "summary": "未来的AI竞争，将是能源获取能力、散热技术、电网韧性的综合竞争。 只有解决了能源层的问题，黄仁勋描绘的那个万物皆用AI、智能无处不在的未来，才有可能从蓝图变为现实。",
+      "content": "未来的AI竞争，将是能源获取能力、散热技术、电网韧性的综合竞争。 只有解决了能源层的问题，黄仁勋描绘的那个万物皆用AI、智能无处不在的未来，才有可能从蓝图变为现实。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-11T09:58:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7909394.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773226508940_5d27baaa",
+      "title": "卷了3年大模型，黄仁勋一句话，戳破了全行业的泡沫",
+      "summary": "卷了3年大模型，黄仁勋一句话，戳破了全行业的泡沫",
+      "content": "别再被AI焦虑骗了！黄仁勋的长文，说透了AI的真实终局。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-11T09:52:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7909286.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1773222888683_555150e2",
       "title": "格力董明珠再谈网络谣言：我是首当其冲的受害者，造谣的人迟早要受到惩罚",
@@ -520,19 +604,19 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773222880858_ffc85029",
-      "title": "模力工场 034 周 AI 应用榜：OpenClaw 爆火，永不掉线的 AI 打工人时代来了",
-      "summary": "模力工场 034 周 AI 应用榜：OpenClaw 爆火，永不掉线的 AI 打工人时代来了",
-      "content": "模力工场 034 周 AI 应用榜：OpenClaw 爆火，永不掉线的 AI 打工人时代来了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-10T20:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/5q7ysFgsdBqjLuqGxGyz?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1773226484752_0",
+      "title": "ChatGPT, other AI chatbots approved for official use in US Senate, NYT reports",
+      "summary": "March 10 (Reuters) - ChatGPT ​and two other artificial ‌intelligence chatbots have been approved for official ​use in ​the U.S. Senate, the New ⁠York ...",
+      "content": "March 10 (Reuters) - ChatGPT ​and two other artificial ‌intelligence chatbots have been approved for official ​use in ​the U.S. Senate, the New ⁠York Times ​reported on Tuesday, citing ​a memo.\nAides could use Google's (GOOGL.O), opens new tab Gemini... [389 chars]",
+      "imageUrl": "https://www.reuters.com/resizer/v2/W32MPLTOQZIVZFB2UKVCMOH5BM.jpg?auth=c70808f1e3dd2d1382a1865529e836999131b2f224609c7d2a2b36390071768e&height=1005&width=1920&quality=80&smart=true",
+      "source": "Reuters",
+      "publishedAt": "2026-03-10T22:43:32.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.reuters.com/technology/chatgpt-other-ai-chatbots-approved-official-use-us-senate-nyt-reports-2026-03-10/",
+      "aiInsight": ""
     },
     {
-      "id": "news_1773222844481_0",
+      "id": "news_1773226484053_1",
       "title": "Nielsen's Gracenote sues OpenAI over use of metadata in AI training",
       "summary": "March 10 (Reuters) - Nielsen's [RIC:RIC:VALCVN.UL] Gracenote, which creates metadata that identifies movies, TV programs and other media, sued ​OpenAI...",
       "content": "March 10 (Reuters) - Nielsen's [RIC:RIC:VALCVN.UL] Gracenote, which creates metadata that identifies movies, TV programs and other media, sued ​OpenAI in Manhattan federal court on Tuesday, alleging ‌that its work was used without permission to train... [417 chars]",
@@ -544,19 +628,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1773222882246_f07cec81",
-      "title": "无需代理也能零信任：Akamai 联合英伟达推出 DPU 安全方案",
-      "summary": "无需代理也能零信任：Akamai 联合英伟达推出 DPU 安全方案",
-      "content": "无需代理也能零信任：Akamai 联合英伟达推出 DPU 安全方案",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-10T18:15:49.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/m4lQlXIAK0st0siiQzgk?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773222844248_1",
+      "id": "news_1773226484571_2",
       "title": "Nvidia to invest in Thinking Machines Lab and supply AI chips",
       "summary": "By Rachel Metz, Bloomberg\nNvidia Corp. is making a new investment in Thinking Machines Lab, an artificial intelligence company founded by former OpenA...",
       "content": "By Rachel Metz, Bloomberg\nNvidia Corp. is making a new investment in Thinking Machines Lab, an artificial intelligence company founded by former OpenAI executive Mira Murati, and will supply chips to help train and run the startup’s AI models.\nThinki... [2352 chars]",
@@ -604,9 +676,9 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773222844412_2",
+      "id": "news_1773226484031_3",
       "title": "ChatGPT, other chatbots approved for official use in the Senate",
-      "summary": "A top Senate administrator on Monday gave aides the green light to use three artificial intelligence chatbots for official work, a reflection of how w...",
+      "summary": "The Capitol Building in Washington, March 10, 2026. A top Senate administrator on Monday gave aides the green light to use three artificial intelligen...",
       "content": "A top Senate administrator on Monday gave aides the green light to use three artificial intelligence chatbots for official work, a reflection of how widespread the use of the products has become in workplaces around the world.\nThe chief information o... [2719 chars]",
       "imageUrl": "https://thumb.spokesman.com/B3Xi0JeT0iOD7wTz5qo6h_XIdd4=/1200x630/smart/media.spokesman.com/photos/2026/03/10/69b0da150f7a3.hires.jpg",
       "source": "Spokane Spokesman-Review",
@@ -628,7 +700,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773222844647_3",
+      "id": "news_1773226484834_4",
       "title": "Mira Murati’s AI startup Thinking Machines secures Nvidia investment, 1 gigawatt of AI compute",
       "summary": "Silicon Valley’s race for artificial intelligence infrastructure is getting another heavyweight contender. Thinking Machines Lab, the AI startup found...",
       "content": "Silicon Valley’s race for artificial intelligence infrastructure is getting another heavyweight contender. Thinking Machines Lab, the AI startup founded by former OpenAI chief technology officer Mira Murati, has secured a multi-year partnership with ... [3500 chars]",
@@ -652,7 +724,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773222844516_4",
+      "id": "news_1773226485173_5",
       "title": "OpenAI acquires Promptfoo to secure AI agents as the next security battleground emerges",
       "summary": "OpenAI is moving deeper into the security layer of artificial intelligence. The company said Monday it has acquired the cybersecurity startup Promptfo...",
       "content": "OpenAI is moving deeper into the security layer of artificial intelligence. The company said Monday it has acquired the cybersecurity startup Promptfoo, a developer platform for testing and safeguarding AI systems. Terms of the deal were not disclose... [4295 chars]",
@@ -664,7 +736,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1773222844087_5",
+      "id": "news_1773226485312_6",
       "title": "Nvidia to Invest in Thinking Machines Lab and Supply AI Chips",
       "summary": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial inf...",
       "content": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world\nConnecting decision makers to a dynamic network of infor... [704 chars]",
@@ -940,9 +1012,9 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773222846223_6",
+      "id": "news_1773226484229_7",
       "title": "Time to learn new skills with the advent of Artificial Intelligence",
-      "summary": "They came to teach Artificial Intelligence.\nWhy didn’t they come to teach Brain Surgery After Lunch?\nOr Rebuilding Automobile Transmissions?\nMight as ...",
+      "summary": "Time to learn new skills with the advent of Artificial Intelligence Mac Gordon Special to the Mississippi Clarion Ledger March 10, 2026, 4:13 a.m. CT ...",
       "content": "They came to teach Artificial Intelligence.\nWhy didn’t they come to teach Brain Surgery After Lunch?\nOr Rebuilding Automobile Transmissions?\nMight as well.\nI could’ve learned those as easily as AI.\nWhich means, of course, not at all.\nI’m not wired to... [3222 chars]",
       "imageUrl": "https://www.gannett-cdn.com/authoring/authoring-images/2025/10/27/PJAM/86929022007-mag-gordon.jpg?auto=webp&crop=1680,946,x0,y752&format=pjpg&width=1200",
       "source": "Jackson Clarion-Ledger",
@@ -1012,7 +1084,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773222844039_7",
+      "id": "news_1773226484740_8",
       "title": "Anthropic Has Brought Something New to AI. The Power to Say No",
       "summary": "For years technology has been defined by the unstoppable growth of a handful of companies. Big Tech’s consolidation of power seemed a foregone conclus...",
       "content": "For years technology has been defined by the unstoppable growth of a handful of companies. Big Tech’s consolidation of power seemed a foregone conclusion even as Sam Altman’s OpenAI sparked an artificial intelligence boom with ChatGPT. Having promise... [634 chars]",
@@ -1168,7 +1240,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773222844237_8",
+      "id": "news_1773226484572_9",
       "title": "Ukraine biathlete credits ChatGPT for silver win",
       "summary": "March 10 (Reuters) - Ukraine’s Maksym Murashkovskyi credited artificial intelligence for helping him win a ​silver medal at the Milano Cortina ‌Winter...",
       "content": "March 10 (Reuters) - Ukraine’s Maksym Murashkovskyi credited artificial intelligence for helping him win a ​silver medal at the Milano Cortina ‌Winter Paralympics, calling ChatGPT a “revolutionary technology” after finishing runner‑up in Sunday’s bia... [740 chars]",
@@ -1538,66 +1610,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/927/348.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773056401101_6ac7b2f2",
-      "title": "再次超过美国：中国大模型上周调用量 4.19 万亿 Token 环比涨 34.9%",
-      "summary": "IT之家 3 月 9 日消息，据 OpenRouter 最新监测数据显示，在刚刚过去的一周（3 月 2 日至 3 月 8 日），中国大模型的周调用总量达到 4.19 万亿 Token，较前一周大幅增长 34.9%；相比之下，美国大模型的周调用量为 3.63 万亿 Token，环比下滑 8.5%。",
-      "content": "IT之家 3 月 9 日消息，据 OpenRouter 最新监测数据显示，在刚刚过去的一周（3 月 2 日至 3 月 8 日），中国大模型的周调用总量达到 4.19 万亿 Token，较前一周大幅增长 34.9%；相比之下，美国大模型的周调用量为 3.63 万亿 Token，环比下滑 8.5%。这是继此前一周之后，中国大模型调用规模再度超越美国。 IT之家注意到，上周全球调用量排名前五的大模型中，中国产品占据三个席位。 具体排名方面，MiniMax 旗下的 M2.5 模型以 1.87 万亿 Token 的周调用量蝉联全球榜首，环比增长 15%。DeepSeek V3.2 以 0.83 万亿 Token 位列第三，周调用量小幅上涨 4%。值得注意的是，阶跃星辰的 Step 3.5 Flash 表现尤为亮眼，周调用量达 0.75 万亿 Token，环比激增 69%，成功跻身全球第五。 此前表现稳健的 Kimi K2.5（月之暗面）本周排名下滑至第六位，周调用量为 0.74 万亿 Token，虽仍保持 8% 的环比增长，但未能守住前五位置。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/427d8f6e-db5e-4442-827a-81ed637ad384.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-09T10:45:22.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/927/345.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773056401304_d134fb10",
-      "title": "南方科技大学团队研发出“半人马机器人”，与人连接组成“负重搭子”",
-      "summary": "IT之家 3 月 9 日消息，南方科技大学机械与能源工程系付成龙教授团队在穿戴式助行机器人领域取得研究进展。相关成果于今年 2 月在机器人领域权威期刊 International Journal of Robotics Research（IJRR）发表。",
-      "content": "IT之家 3 月 9 日消息，南方科技大学机械与能源工程系付成龙教授团队在穿戴式助行机器人领域取得研究进展。相关成果于今年 2 月在机器人领域权威期刊 International Journal of Robotics Research（IJRR）发表。 负重行走是军事活动、应急救援、日常生活中的常见活动，高强度负重行走不仅会导致人体代谢急剧上升、作业效率下降，还极易引发肌肉骨骼损伤等健康风险。现有以外骨骼为主的穿戴式机器人，其助力方向与人体行进方向夹角大、助力效率低。与背包负重的方式相比，人体新陈代谢率仅能降低约 10%。 针对外骨骼助力形式的局限性，付成龙团队原创提出了穿戴式半人马负重助行机器人。该机器人通过独特的软化弹性耦合机构与人机协同控制策略，兼具高负载能力与高运动灵活性，实现了助力与平衡的动态解耦。 实验验证，该机器人可使人体行走代谢成本降低高达 35%，为负重助行提供了全新的高效解决方案。 研究团队从自然界四足动物负重形态汲取灵感，提出了一种全新的人机协作模式：机器人不与人腿刚性并联，而是作为独立的肢体，借助穿戴式弹性耦合接口与人背部连接。此构型构建了“人类智能领航 + 机器人力量负重”的人机混合四足系统，既保留了人类在复杂环境下的导航决策能力，又发挥了机器人分担重量并高效提供行进方向推力的作用。 为解决人机之间复杂的动力学耦合难题，团队设计了基于菱形连杆与拮抗弹簧的“软化弹性耦合机构”。此机构具备非线性刚度特性，即在作用力小时刚度大、响应快，在作用力大时刚度小、缓冲强。该设计实现了人机动力学的动态解耦，使机器人能够像独立个体一样稳定控制，同时通过接口精准输出助力。 结合所提出的“行走-交互（Loco-interaction）协同控制框架”，半人马机器人能够实时感知人体运动意图，在无需人工指令的情况下实现高精度全向跟随运动，并在维持自身平衡的同时，向人体提供稳定的水平行进推力。 ▲ 半人马人机行走-交互协同控制策略框架 基于所提出的半人马系统，研究团队开展了多维度的综合实验验证。在机动性方面，机器人展现了卓越的灵活性与良好的地形适应能力，不仅能在 1 米狭窄空间内连续完成“8”字绕桩，还能利用视觉感知自主规划策略，顺畅通过台阶、斜坡及户外复杂路面。 ▲ 半人马机器人在真实环境下行走，为多位受试者提供助力辅助 在负重效能方面，人体实验数据表明：相较于背负 20kg 重物（约占体重 29%）的情况，穿戴半人马机器人并具有水平助力条件下，人体净代谢成本显著降低了 35%，足底压力减少了 52%。 此外，步态分析结果显示，受试者穿戴该机器人后，步宽变异性显著降低，其稳定性指标与零负载空载行走无显著差异，这表明半人马人机四足构型能有效缓解负重力对人体带来的行走扰动，并进一步显著提升了负重行走的侧向稳定性，充分验证了“垂直负载分担 + 水平质心助力”复合助力范式的高能效优势。 ▲ 半人马人机系统负重行走实验结果 南方科技大学机械与能源工程系博士生涂志鑫和江轶豪为论文共同第一作者，付成龙为论文唯一通讯作者，南方科技大学为论文唯一署名单位。该研究得到了国家自然科学基金联合基金重点项目、教育部联合基金创新团队、深圳市科技创新局及南方科技大学高水平专项资金的资助支持。 IT之家附论文链接： https://journals.sagepub.com/doi/10.1177/02783649261418155",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/e8ea360a-ebb2-45ef-a84a-93bb685ceb2e.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-09T10:20:29.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/927/341.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773056401494_d569338f",
-      "title": "Oracle 甲骨文：“星际之门”阿比林数据中心园区正按计划推进",
-      "summary": "IT之家 3 月 9 日消息，Oracle 甲骨文北京时间今日在 X 平台表示，近期媒体关于“星际之门”首个站点 —— 得克萨斯州阿比林 (Abilene) 园区的报道存在虚假与不实内容。",
-      "content": "IT之家 3 月 9 日消息，Oracle 甲骨文北京时间今日在 X 平台表示，近期媒体关于“星际之门”首个站点 —— 得克萨斯州阿比林 (Abilene) 园区的报道存在虚假与不实内容。 Oracle 澄清称，该企业正与 Crusoe 紧密协作，以创纪录的速度建设阿比林站点，两栋建筑已全面投入运营，园区其余部分也按计划推进；Oracle 还已完成额外 4.5GW 的租赁签约，以兑现对 OpenAI 的承诺。 此外，Oracle 持续评估全球各地站点，通过与优秀合作伙伴及客户的紧密协作，满足对 OCI 云服务日益增长的需求。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/74b68d86-85df-4561-8339-5e1e87903764.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-09T10:13:49.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/927/340.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773024707984_3ddbdf4e",
-      "title": "从 Demo 到规模落地：AIOps Agent 在复杂云原生场景下的研发范式与数据飞轮实践｜QCon北京",
-      "summary": "从 Demo 到规模落地：AIOps Agent 在复杂云原生场景下的研发范式与数据飞轮实践｜QCon北京...",
-      "content": "从 Demo 到规模落地：AIOps Agent 在复杂云原生场景下的研发范式与数据飞轮实践｜QCon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-09T10:10:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/5ydQqEFM2Kkskgyl0u3X?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773165228588_9",
-      "title": "Love in the Time of A.I. Companions",
-      "summary": "Adrianne Brookins is, by her own account, an “old soul,” an “introvert,” and a “big nerd.” She is thirty-four years old, has a faint Texas accent and ...",
-      "content": "Adrianne Brookins is, by her own account, an “old soul,” an “introvert,” and a “big nerd.” She is thirty-four years old, has a faint Texas accent and delicate features, and carries herself in a way that suggests she’s trying not to take up space. Bro... [51111 chars]",
-      "imageUrl": "https://media.newyorker.com/photos/69a70d3c9e8dfc1c1fd316ff/16:9/w_1280,c_limit/r48614.jpg",
-      "source": "The New Yorker",
-      "publishedAt": "2026-03-09T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.newyorker.com/magazine/2026/03/16/love-in-the-time-of-ai-companions",
-      "aiInsight": ""
     }
   ]
 }
