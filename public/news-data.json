@@ -1,32 +1,8 @@
 {
   "success": true,
-  "timestamp": "2026-03-13T13:18:54.316Z",
-  "total": 115,
+  "timestamp": "2026-03-13T14:53:35.745Z",
+  "total": 114,
   "data": [
-    {
-      "id": "news_1773407914311_67385717",
-      "title": "狂裁1600人，换掉CTO、晋升“下一代AI人才”！SaaS巨头的转型焦虑",
-      "summary": "狂裁1600人，换掉CTO、晋升“下一代AI人才”！SaaS巨头的转型焦虑",
-      "content": "狂裁1600人，换掉CTO、晋升“下一代AI人才”！SaaS巨头的转型焦虑",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T18:14:05.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/4NJUKjq6VphyYuG4CaZQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773407915676_64f33d8c",
-      "title": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
-      "summary": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
-      "content": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T16:12:24.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/pdg3TkbgvSc2PolE5ioy?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
     {
       "id": "news_1773385666138_5df2cdaa",
       "title": "刘铁岩对话《哈萨比斯：谷歌AI之脑》作者：一位极度好胜的天才，如何带着DeepMind挑战OpenAI",
@@ -38,6 +14,54 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/tGoB4wqMeOHE0Zb3tYSf?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773413614349_39e4900b",
+      "title": "OpenClaw“小龙虾”之父斯坦伯格发声：希望百度能提供开发支持，而不仅仅是部署",
+      "summary": "IT之家 3 月 13 日消息，OpenClaw“小龙虾”创始人彼得 · 斯坦伯格（Peter Steinberger）昨天在 X 平台发文，回应百度前天在北京举行的“龙虾市集”线下活动。",
+      "content": "IT之家 3 月 13 日消息，OpenClaw“小龙虾”创始人彼得 · 斯坦伯格（Peter Steinberger）昨天在 X 平台发文，回应百度前天在北京举行的“龙虾市集”线下活动。 彼得 · 斯坦伯格对此表示，这些活动非常棒，他们欢迎维护者和赞助商加入，并喊话道：“你觉得百度能否也为 OpenClaw 的开发提供支持，而不仅仅是部署？”。 而百度方面则回应道，OpenClaw 取得的进展让他们印象深刻，希望与斯坦伯格联系一下交流想法，探讨双方如何合作开发 OpenClaw。 百度官方还在今天表示，公司现已赞助 OpenClaw 社区表达敬意。非常希望探讨如何通过赞助、维护或其他形式进一步支持 OpenClaw 基金会。 综合IT之家此前报道，随着“小龙虾”爆火，目前国内各大云服务厂商都在推广自家的“小龙虾养殖”平台，腾讯、百度等公司近日都举办了线下活动，意图教用户如何部署 OpenClaw。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/18f9e7b6-000c-4f8b-b4b6-07f83c69d5e6.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-13T14:09:13.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/928/964.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773413614549_aa7da8df",
+      "title": "京东发布 AI 智慧家装品牌“京东家装”：采取自营模式，号称重新定义标准",
+      "summary": "IT之家 3 月 13 日消息，今天晚间，“京东黑板报”公众号宣布，京东全新发布 AI 智慧家装品牌 —— 京东家装。",
+      "content": "IT之家 3 月 13 日消息，今天晚间，“京东黑板报”公众号宣布，京东全新发布 AI 智慧家装品牌 —— 京东家装。 “京东家装”将拥有全球 101 个设计大师，1000+ 专职设计师，500+ 专业采销，5200+ 直管工人，超级供应链覆盖全球 14 国，26 家京东 MALL 开启入驻，通过自营模式入场，号称重新定义家装新标准。 官方还宣布，京东家装将以 JoyAI 智慧基建及超级供应链能力，重塑用户家装体验；以更聪明易用的 AI 智能产品，更透明高效的智慧服务，让消费者闭眼选、放心选、省心选。 据IT之家了解，京东家装还将全面入驻京东 MALL，计划 2026 年覆盖全国 30 个城市。此外，京东家装将全面开放装修加盟，携手行业伙伴共建生态，目标未来 3 年实现 GMV 突破 300 亿元。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/909adfe6-1de3-472a-bc7f-922063c33f7a.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-13T13:49:01.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/928/960.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773413584428_5f72cc90",
+      "title": "香港大学参与出资，中科创星首支外币基金完成首关｜机构动态",
+      "summary": "香港大学参与出资，中科创星首支外币基金完成首关｜机构动态",
+      "content": "重点投向香港高校及海外研发机构中的世界领先技术团队，以及AI浪潮下由华人主导的全球硬科技初创企业。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-13T13:34:59.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7913682.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773413614743_30ebf5c2",
+      "title": "海尔联合支付宝， “碰一下”管理智能家电、查看产品信息等",
+      "summary": "IT之家 3 月 13 日消息，2025 年 10 月，蚂蚁集团与海尔集团达成全面战略合作，支付宝“碰一下”融入海尔智慧家电。中国家电及消费电子博览会（AWE2026）于 3 月 12 日至 15 日在上海举办，海尔展示了这一功能。",
+      "content": "IT之家 3 月 13 日消息，2025 年 10 月，蚂蚁集团与海尔集团达成全面战略合作，支付宝“碰一下”融入海尔智慧家电。中国家电及消费电子博览会（AWE2026）于 3 月 12 日至 15 日在上海举办，海尔展示了这一功能。 据介绍，消费者在海尔门店购物时，只需解锁手机“碰一下”即可完成支付。消费者看到感兴趣的家电产品，“碰一下”可直达海尔支付宝小程序，一键获取产品详情、功能演示、套系方案推荐等服务。 IT之家注意到，海尔还支持支付宝“碰一下”管理智能家电。在商用洗衣场景，用户手机“碰一下”蓝环，就能进入智能体 AI 智控界面，可以下单洗衣服务、调节洗衣模式、设备报修等，也可随时查询洗衣进度。 在售后服务环节，服务人员上门操作完成后，用户手机“碰一下”他们的工牌，可以快速完成服务确认、在线评价和售后付费等。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/43966359-c1fb-458b-98b4-d5fdda36fd56.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-13T13:24:40.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/928/956.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1773407898314_cbbbd250",
@@ -124,6 +148,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1773413604124_8a179baf",
+      "title": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
+      "summary": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
+      "content": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-13T11:14:36.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/f6pSw1rxN9DdrEsGrcq1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1773401934148_de8fc280",
       "title": "国家网络安全通报中心发布 OpenClaw 安全风险预警",
       "summary": "IT之家 3 月 13 日消息，今天傍晚，国家网络安全通报中心发布《OpenClaw 风险预警》。其中提到，OpenClaw 自发布以来，凭借其强大的自动化任务处理能力与开放式插件生态，在全球范围内引发部署热潮。",
@@ -145,18 +181,6 @@
       "publishedAt": "2026-03-13T10:25:13.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/4sQ3okmbEVqbl8GMZj4m?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773407922321_f87bf9dd",
-      "title": "新研究重新评估AGENTS.md文件在AI编码中的价值",
-      "summary": "新研究重新评估AGENTS.md文件在AI编码中的价值",
-      "content": "新研究重新评估AGENTS.md文件在AI编码中的价值",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T10:20:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/IoNg3mSbIMVYNSxLjjYD?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -182,18 +206,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/928/916.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773407925480_f03082d1",
-      "title": "OpenSandbox：重新思考 Agent 时代的 Runtime｜QCon北京",
-      "summary": "OpenSandbox：重新思考 Agent 时代的 Runtime｜QCon北京",
-      "content": "OpenSandbox：重新思考 Agent 时代的 Runtime｜QCon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T10:03:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/AyCYbOWywTf6VwGmSvSP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1773395474335_4d60f4e4",
@@ -700,7 +712,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773407888225_0",
+      "id": "news_1773413567085_0",
       "title": "Microsoft's top Office executive Rajesh Jha retiring after 35 years",
       "summary": "Microsoft said Thursday that Rajesh Jha, the software vendor's highest-ranking executive supervising Office, is retiring in July after more than 35 ye...",
       "content": "Microsoft said Thursday that Rajesh Jha, the software vendor's highest-ranking executive supervising Office, is retiring in July after more than 35 years at the company.\nJha's departure is a significant loss for Microsoft as the company tries to both... [2386 chars]",
@@ -904,7 +916,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773407886756_1",
+      "id": "news_1773413566024_1",
       "title": "The wacky beliefs of the tech elite shaping global society",
       "summary": "The leaders of top tech companies are irreversibly changing how people work and live, while shaping the future with artificial intelligence — but most...",
       "content": "The leaders of top tech companies are irreversibly changing how people work and live, while shaping the future with artificial intelligence — but most have a seriously weird way of viewing the world.\nOne burns wooden effigies at holiday parties, anot... [6498 chars]",
@@ -1358,30 +1370,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/O24ZOD9jtmX2cowCeWWV?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773241000210_e1ad4c74",
-      "title": "小米 AWE 2026 官方逛展攻略出炉，含 Xiaomi Miloco、高智感生活场景等",
-      "summary": "IT之家 3 月 11 日消息，小米智能生态官方今日发布了 AWE 逛展攻略，覆盖逛展路线、必体验场景、新品亮点等。据介绍，本次小米 AWE 看点包括 Xiaomi Miloco 智能家居未来探索方案、三大高智感生活场景、数款智能家居新品等。",
-      "content": "IT之家 3 月 11 日消息，小米智能生态官方今日发布了 AWE 逛展攻略，覆盖逛展路线、必体验场景、新品亮点等。据介绍，本次小米 AWE 看点包括 Xiaomi Miloco 智能家居未来探索方案、三大高智感生活场景、数款智能家居新品等。 IT之家注：2026 中国家电及消费电子博览会（AWE 2026）将于 3 月 12 日至 15 日在上海举行。小米展台位于上海浦东新区 · 东方枢纽国际商务合作区 | B10 展位。 去年 11 月，小米发布智能家居未来探索方案 Xiaomi Miloco，探索由大模型驱动全屋智能生活，用户可以跟智能家居系统对话沟通，经过大模型的推理计算，自动完成家庭生活中的各类智能需求和规则。 目前，小米米家扫拖机器人 6 Max、2026 款米家空调巨省电 Pro 系列已发布。前者号称米家最强覆盖清洁主机，提供水箱版、上下水版可选，支持 Al 识别全景避障；后者支持超一级能效、米家灵云智控引擎等。 相关阅读： 《米家最强覆盖清洁主机：小米推出米家扫拖机器人 6 Max，首发国补价 4899 元起》 《小米 2026 款米家空调巨省电 Pro 系列发布，首发国补价 1954 元起》 《小米发布 Miloco 智能家居未来探索方案，对全社会开放》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/2e0109df-b0e5-4f88-b3b7-de62eef13b90.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-11T13:47:39.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/928/159.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773240979972_c6764f64",
-      "title": "AI订单狂欢难掩盈利困局，芯原股份刚融18亿又闯港股",
-      "summary": "AI订单狂欢难掩盈利困局，芯原股份刚融18亿又闯港股",
-      "content": "靠低毛利业务拉动增长，打5折激励无盈利考核。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-11T13:26:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7909862.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
