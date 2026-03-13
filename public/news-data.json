@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-03-13T07:08:03.323Z",
-  "total": 106,
+  "timestamp": "2026-03-13T08:53:50.570Z",
+  "total": 107,
   "data": [
+    {
+      "id": "news_1773392009206_64f33d8c",
+      "title": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
+      "summary": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
+      "content": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-13T16:12:24.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/pdg3TkbgvSc2PolE5ioy?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1773385666138_5df2cdaa",
       "title": "刘铁岩对话《哈萨比斯：谷歌AI之脑》作者：一位极度好胜的天才，如何带着DeepMind挑战OpenAI",
@@ -14,18 +26,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/tGoB4wqMeOHE0Zb3tYSf?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773385667544_8a179baf",
-      "title": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
-      "summary": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
-      "content": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T11:14:36.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/f6pSw1rxN9DdrEsGrcq1?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1773369994532_e3e4c54d",
@@ -40,6 +40,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1773392015573_f87bf9dd",
+      "title": "新研究重新评估AGENTS.md文件在AI编码中的价值",
+      "summary": "新研究重新评估AGENTS.md文件在AI编码中的价值",
+      "content": "新研究重新评估AGENTS.md文件在AI编码中的价值",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-13T10:20:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/IoNg3mSbIMVYNSxLjjYD?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1773369997697_5788b7b1",
       "title": "Cloudflare 推出面向 AI 代理的 Markdown 页面与 Content Signals，用于引导 AI 爬虫",
       "summary": "Cloudflare 推出面向 AI 代理的 Markdown 页面与 Content Signals，用于引导 AI 爬虫...",
@@ -49,6 +61,102 @@
       "publishedAt": "2026-03-13T10:10:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/Szkb4Zld4RplFWYUpfq6?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773392018091_f03082d1",
+      "title": "OpenSandbox：重新思考 Agent 时代的 Runtime｜QCon北京",
+      "summary": "OpenSandbox：重新思考 Agent 时代的 Runtime｜QCon北京",
+      "content": "OpenSandbox：重新思考 Agent 时代的 Runtime｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-13T10:03:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/AyCYbOWywTf6VwGmSvSP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773392019732_e3bf1a6d",
+      "title": "26 年 IDE 老厂押注 Agent 编排：JetBrains 公开预览 AI IDE Air",
+      "summary": "26 年 IDE 老厂押注 Agent 编排：JetBrains 公开预览 AI IDE Air",
+      "content": "26 年 IDE 老厂押注 Agent 编排：JetBrains 公开预览 AI IDE Air",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-13T09:14:41.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/feSV9dcs3V8amUQyJYN7?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773392028554_f0df6dbc",
+      "title": "马斯克道歉：过去数年 xAI 拒绝了大量有才华的求职者，将重新审视简历",
+      "summary": "IT之家 3 月 13 日消息，随着多名核心员工和联合创始人相继离开 xAI，马斯克开始重新审视公司的招聘记录，希望重新接触曾经错过的人才。 马斯克今日在 X 平台发帖说：“过去几年里，很多有才华的人申请 xAI 时被拒绝，甚至没有获得面试机会。我对此表示抱歉。",
+      "content": "IT之家 3 月 13 日消息，随着多名核心员工和联合创始人相继离开 xAI，马斯克开始重新审视公司的招聘记录，希望重新接触曾经错过的人才。 马斯克今日在 X 平台发帖说：“过去几年里，很多有才华的人申请 xAI 时被拒绝，甚至没有获得面试机会。我对此表示抱歉。” 马斯克表示，他将与 xAI 人才工程团队成员巴里斯 · 阿基斯一起，重新检查公司以往的面试记录，并重新联系那些当时表现出潜力的候选人。 与此同时，xAI 的联合创始人离职潮仍在继续。据《商业内幕》报道，戴子航（音译，下同）本周早些时候已经离开公司，张国栋也计划在未来数日内离职。 此前已有多名联合创始人离开 xAI，托比 · 波伦、吉米 · 巴、托尼 · 吴和格雷格 · 杨都已在今年 1 月之后陆续离职。 马斯克在 2023 年创立 xAI，与 11 名联合创始人一起启动该公司。xAI 开发了 Grok 模型，目标是与 OpenAI 和谷歌等领先 AI 实验室竞争。随着戴子航和张国栋离开，最初的 11 名联合创始人中只剩下两人仍在公司，分别是曼努埃尔 · 克罗斯和罗斯 · 诺丁。 据IT之家了解，马斯克上个月宣布对 xAI 进行重组，并裁减部分员工。此轮裁员涉及 AI 项目“巨硬”Macrohard 以及 AI 图像和视频生成工具 Grok Imagine 团队。 面对联合创始人接连离职，马斯克也承认 xAI 在早期建设中存在问题。马斯克今天早些时候在 X 平台发文称：“xAI 并非一蹴而就，因此现在正在推倒重来，特斯拉当年也经历过类似过程。” 马斯克周三在 Abundance Summit 峰会上说：“Grok 在编程能力方面目前仍然落后。我今天迟到，是因为刚参加了一场规模很大的编程会议。团队正在逐一梳理需要完成的任务，以便在编程能力上超过竞争对手，我相信最终能够做到。”",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/687cc55b-5ab7-4b37-9a85-b15a4c8e17f4.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-13T08:49:37.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/928/875.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773392028980_797d2056",
+      "title": "摩尔线程：在 FP8 技术研发上取得了系统性突破，全球与英伟达保持技术同步",
+      "summary": "IT之家 3 月 13 日消息，摩尔线程今日在互动平台表示，公司在 FP8 技术研发上取得了系统性突破，是国内少数掌握该项技术的 GPU 厂商，在全球与英伟达保持技术同步。经过持续技术攻关，公司形成了从芯片设计到应用部署的 FP8 完整技术栈。",
+      "content": "IT之家 3 月 13 日消息，摩尔线程今日在互动平台表示，公司在 FP8 技术研发上取得了系统性突破，是国内少数掌握该项技术的 GPU 厂商，在全球与英伟达保持技术同步。经过持续技术攻关，公司形成了从芯片设计到应用部署的 FP8 完整技术栈。该技术栈为 AI 模型训练推理提供了新的效率基准，也为图形渲染、流体仿真等传统高性能计算领域开辟了新的技术路径，具有广泛的产业应用前景。 摩尔线程介绍，公司第四代“平湖”芯片架构大幅提升了 AI 算力，基于第四代“平湖”架构打造的 MTT S5000 率先实现硬件级原生 FP8 计算精度支持，其单卡 AI 稠密算力最高可达 1000TFLOPS，配备 80GB 显存，显存带宽达到 1.6TB/s，卡间互联带宽为 784GB/s，完整支持从 FP8 到 FP64 的全精度计算。同时，依托 MUSA 全栈平台，S5000 实现了对 PyTorch、Megatron-LM、vLLM 及 SGLang 等主流 AI 生态的深度兼容与平替。 摩尔线程还表示，MUSA 架构支持 FP64、FP32、TF32、FP16、BF16、FP8 和 INT8 等多种计算精度，具备高度的灵活性和扩展性。公司至今已推出五代 GPU 架构（IT之家注：苏堤、春晓、曲院、平湖、花港），覆盖 AI 智算、专业图形加速及桌面级图形加速等领域，构建了完整的产品矩阵，公司产品在部分性能指标上已接近或超过国际先进水平，未来公司将持续推动技术创新发展。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-03-13T08:37:19.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/928/871.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773391994917_16d74b5a",
+      "title": "美团王莆中：建设物理世界AI底座，帮每个商家都用上自己的AI助理",
+      "summary": "3月13日，美团召开2026管理层沟通会。对于AI发展，美团核心本地商业CEO王莆中表示，美团将坚持加大投入，一层是投入研发物流、机器人等相关科技，譬如无人机、无人车等；另一层是建设丰富的物理世界信息、真实的评价，捕捉即时动态的信息，为模型、C端Agent所用。",
+      "content": "3月13日，美团召开2026管理层沟通会。对于AI发展，美团核心本地商业CEO王莆中表示，美团将坚持加大投入，一层是投入研发物流、机器人等相关科技，譬如无人机、无人车等；另一层是建设丰富的物理世界信息、真实的评价，捕捉即时动态的信息，为模型、C端Agent所用。“帮商家去了解和改造物理世界，是我们非常清晰的战略。”王莆中表示，美团将帮每个商家都用上自己的AI助理。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-13T08:31:58.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3721113083525511?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773392029403_3a0c3a17",
+      "title": "消息称华为 Pura X2 为行业首个横向大尺寸阔折叠，Pura 90 系列已备案",
+      "summary": "IT之家 3 月 13 日消息，博主 @数码闲聊站 今日爆料，华为 Pura X2 已经开始外围预热，代号 Hope，不出意外是“行业首个横向大尺寸阔折叠”。 此外，他还爆料，华为 Pura90 系列也备案了，不出意外是行业第二个 2 亿超大底潜望镜，排期暂定 4 月。",
+      "content": "IT之家 3 月 13 日消息，博主 @数码闲聊站 今日爆料，华为 Pura X2 已经开始外围预热，代号 Hope，不出意外是“行业首个横向大尺寸阔折叠”。 此外，他还爆料，华为 Pura90 系列也备案了，不出意外是行业第二个 2 亿超大底潜望镜，排期暂定 4 月。 IT之家注意到，博主 @体验more 今年 2 月曾爆料，华为 Pura X2 预计会是首台阔大折：7.69 英寸 WQHD+ 内屏、外屏升级至 5.5 英寸，方便交互。另外，该机还会升级麒麟 9030 芯片和长焦。 作为参考，华为 Pura X 手机发布于去年 3 月，搭载 3.5 英寸 1:1 比例外屏、 6.3 英寸 16:10 阔型屏，内屏分辨率为 2120*1320，支持 1~120Hz LTPO 2.0 自适应刷新率、2500 尼特峰值亮度、HDR Vivid，相比 16:9 比例，看视频、文档都有 30% 的观感体验提升，标价 7499 元起。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/b2f60508-ad5c-47df-a3d2-32df334af9d9.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-13T08:28:33.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/928/848.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773392029567_558120c4",
+      "title": "灵童展示全球首个机器人女团表演：二代机今年二季度开启预售，实现自主站立与行走",
+      "summary": "IT之家 3 月 13 日消息，在本周的 2026 中国家电及消费电子博览会（AWE 2026）上，灵童机器人展示了全球首个机器人女团表演。",
+      "content": "IT之家 3 月 13 日消息，在本周的 2026 中国家电及消费电子博览会（AWE 2026）上，灵童机器人展示了全球首个机器人女团表演。 机器人女团采用 60 厘米小巧身躯，自研 6 毫米级微型数字伺服舵机，实现 32 个自由度，0.01° 关节精度，不仅能跑、能跳、模仿人类肢体，还能在桌面上演绎完整舞蹈。 AI 智能交互方面，灵童机器人内置“大小脑”协同具身智能模型，支持多模态交互与情绪识别，加上模块化设计和“灵魂编辑器”，用户可自由塑造外观、性格与记忆。 IT之家从灵童机器人公告获悉，灵童机器人二代机今年二季度即将开启预售。相较一代，二代机实现自主站立与行走，并推出全球最小的 1/3 尺寸超高自由度仿生面部，为用户提供更拟人、更贴心的情感交互；同时面向极客与开发者推出支持二次开发的发烧友版本，国内与海外市场同步开启。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/e44d1662-af32-49e2-84cb-e5f8032ad12c.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-13T08:28:31.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/928/846.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773392002029_107a9d99",
+      "title": "从“工具”到“引擎”：2026年企业AI转型的六大核心行动指南",
+      "summary": "2026年企业AI竞赛的胜负手，将取决于能否以业务价值为核心，构建一个技术底座稳固、组织人才适配、生态协同紧密的体系化能力，从而真正将AI的潜力转化为可持续的竞争优势。",
+      "content": "2026年企业AI竞赛的胜负手，将取决于能否以业务价值为核心，构建一个技术底座稳固、组织人才适配、生态协同紧密的体系化能力，从而真正将AI的潜力转化为可持续的竞争优势。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-13T07:54:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7912647.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -364,31 +472,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773385676443_fb0619e3",
-      "title": "智能体时代的强化学习：AReaL 框架与 Agent 最佳实践",
-      "summary": "智能体时代的强化学习：AReaL 框架与 Agent 最佳实践",
-      "content": "智能体时代的强化学习：AReaL 框架与 Agent 最佳实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-12T18:05:40.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/QuR5u12v1qlslVDrVbzj?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773385677842_d3b92eb8",
-      "title": "JoySafeter 重磅开源：开启 AI 驱动安全（AISecOps）新范式",
-      "summary": "JoySafeter 重磅开源：开启 AI 驱动安全（AISecOps）新范式",
-      "content": "JoySafeter 重磅开源：开启 AI 驱动安全（AISecOps）新范式",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-12T17:55:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/h1tMycBO3Ky8y6Xr8FSK?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773385639078_0",
+      "id": "news_1773391984908_0",
       "title": "Microsoft's top Office executive Rajesh Jha retiring after 35 years",
       "summary": "Microsoft said Thursday that Rajesh Jha, the software vendor's highest-ranking executive supervising Office, is retiring in July after more than 35 ye...",
       "content": "Microsoft said Thursday that Rajesh Jha, the software vendor's highest-ranking executive supervising Office, is retiring in July after more than 35 years at the company.\nJha's departure is a significant loss for Microsoft as the company tries to both... [2386 chars]",
@@ -592,7 +676,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773385639140_1",
+      "id": "news_1773391984497_1",
       "title": "The wacky beliefs of the tech elite shaping global society",
       "summary": "The leaders of top tech companies are irreversibly changing how people work and live, while shaping the future with artificial intelligence — but most...",
       "content": "The leaders of top tech companies are irreversibly changing how people work and live, while shaping the future with artificial intelligence — but most have a seriously weird way of viewing the world.\nOne burns wooden effigies at holiday parties, anot... [6498 chars]",
@@ -1202,78 +1286,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/928/098.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773219330304_61b2ae6f",
-      "title": "是石科技与熠智科技联合推出OpenClaw推理与DataVault数据保护一体化集群解决方案",
-      "summary": "近日，工信部发布安全风险提示，指出开源AI智能体OpenClaw在默认配置下存在“信任边界模糊”风险，建议用户强化权限控制、访问审计与数据加密。是石科技迅速响应，与熠智科技联合研发，推出预装OpenClaw的本地模型推理与DataVault数据保护一体化集群解决方案。",
-      "content": "近日，工信部发布安全风险提示，指出开源AI智能体OpenClaw在默认配置下存在“信任边界模糊”风险，建议用户强化权限控制、访问审计与数据加密。是石科技迅速响应，与熠智科技联合研发，推出预装OpenClaw的本地模型推理与DataVault数据保护一体化集群解决方案。该方案从架构层面系统性重构安全边界，让企业既能享受OpenClaw的强大效能，又能守住数据与系统的安全底线，双方均对外提供对接客户租用OpenClaw的集群服务需求。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-11T08:45:51.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/newsflashes/3718295582504585?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773219336493_30357196",
-      "title": "对话熵简科技CEO费斌杰：AI投研的“龙虾”时刻｜AI Founder请回答",
-      "summary": "对话熵简科技CEO费斌杰：AI投研的“龙虾”时刻｜AI Founder请回答",
-      "content": "金融圈需要能“干活”的AI，不是技术玩具。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-11T08:38:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7909492.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773219339818_53c8280e",
-      "title": "华为押宝U6GHz，通信业如何赚大模型的钱",
-      "summary": "华为押宝U6GHz，通信业如何赚大模型的钱",
-      "content": "整个行业都在观察，华为会如何出招。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-11T08:33:19.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7909425.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773219367601_e41f8fe5",
-      "title": "拥抱 OpenClaw：商汤小浣熊为其装上“安全办公钳”，养出精通 Excel 的龙虾",
-      "summary": "IT之家 3 月 11 日消息，随着开源 AI 智能体 OpenClaw（“龙虾”）在技术圈持续走热，如何让其从单纯的“聊天玩具”转变为能真正处理实际工作的“数字员工”，成为业界关注的焦点。",
-      "content": "IT之家 3 月 11 日消息，随着开源 AI 智能体 OpenClaw（“龙虾”）在技术圈持续走热，如何让其从单纯的“聊天玩具”转变为能真正处理实际工作的“数字员工”，成为业界关注的焦点。 今日，商汤科技宣布为旗下“办公小浣熊”加入 OpenClaw 生态双路径赋能方案，通过开放核心办公能力与推出软硬一体化的 AI Box，推动 AI 从“会回答”向“会完成”迈进，并解决部署复杂与成本不可控等落地难题。 OpenClaw 作为 2026 年初走红的开源项目，凭借其强大的任务执行与自动化调度能力，在 GitHub 上已获得超过 27 万星标，引发了全球范围内的“养龙虾”热潮。然而，许多开发者和团队在实际引入时，却常被技术门槛高、本地部署复杂以及调用云端大模型 API 带来的高昂且持续的 Token 费用所困扰。 针对这些痛点，商汤小浣熊首先是在生态接入层面，将其在办公场景中积累的核心能力，如智能表格处理、数据深度分析、报告自动生成等，封装为一组名为“Raccoon Skills”的可调用技能，并正式上架至 OpenClaw 生态平台。 商汤表示，这意味着所有 OpenClaw 用户都可以为他们的“龙虾”直接安装这一“办公钳”，使其能够像熟练的办公助理一样，执行具体的 Excel 处理、数据提炼与信息分析任务，快速增强智能体在复杂文档及数据处理方面的实操能力。 其次，针对希望深度、安全部署 AI 能力的小微企业与创业团队，商汤小浣熊联合趋境科技推出了“AI Box 一体化方案”。这套方案采用了“本地部署 + 云端扩展”的模式，将 OpenClaw 作为智能体执行层，整合了办公小浣熊的专业能力与趋境科技的本地 AI 算力设备，打造出一个开箱即用的“AI 办公专用机”。 在该架构中，OpenClaw 负责任务调度与执行，办公小浣熊提供专业办公技能与扩展服务，并通过趋境 AI Box 承载本地化推理、安全部署与运维支持。 商汤介绍称，该方案的核心优势在于成本与安全：采用一次性买断模式，核心办公与推理能力均在本地运行，无需为持续的云端 Token 调用付费，将不可预测的运营成本转化为清晰的一次性投入；同时，所有数据处理均在本地完成，保障了数据隐私与合规性，且预配置的软硬件大幅降低了部署与运维的技术门槛。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/72d29417-86f2-4638-b8d9-0a52c3bb62a6.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-11T08:19:39.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/928/025.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773219342195_3a9da256",
-      "title": "砍专业只是开始，大学在AI时代正面临生死时速",
-      "summary": "砍专业只是开始，大学在AI时代正面临生死时速",
-      "content": "新的比赛已经开始，哪怕我们明知道跑不过，也要继续向前奔跑。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-11T07:31:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7909106.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773219345080_9bd7bb7e",
-      "title": "微信把超级Agent之战一把拉进了自己的舒适圈",
-      "summary": "微信把超级Agent之战一把拉进了自己的舒适圈",
-      "content": "龙虾全家桶只是前菜，微信agent即将统治小程序。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-11T07:12:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/7909087.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
