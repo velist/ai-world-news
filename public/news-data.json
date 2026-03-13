@@ -1,20 +1,8 @@
 {
   "success": true,
-  "timestamp": "2026-03-13T08:53:50.570Z",
-  "total": 107,
+  "timestamp": "2026-03-13T09:52:05.972Z",
+  "total": 113,
   "data": [
-    {
-      "id": "news_1773392009206_64f33d8c",
-      "title": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
-      "summary": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
-      "content": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T16:12:24.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/pdg3TkbgvSc2PolE5ioy?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
     {
       "id": "news_1773385666138_5df2cdaa",
       "title": "刘铁岩对话《哈萨比斯：谷歌AI之脑》作者：一位极度好胜的天才，如何带着DeepMind挑战OpenAI",
@@ -28,6 +16,18 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1773395506563_8a179baf",
+      "title": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
+      "summary": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
+      "content": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-13T11:14:36.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/f6pSw1rxN9DdrEsGrcq1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1773369994532_e3e4c54d",
       "title": "18 岁创业者用 OpenClaw 管 16 个 AI Agent，一个人的 Agent 公司怎么运转",
       "summary": "18 岁创业者用 OpenClaw 管 16 个 AI Agent，一个人的 Agent 公司怎么运转...",
@@ -37,18 +37,6 @@
       "publishedAt": "2026-03-13T10:25:13.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/4sQ3okmbEVqbl8GMZj4m?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773392015573_f87bf9dd",
-      "title": "新研究重新评估AGENTS.md文件在AI编码中的价值",
-      "summary": "新研究重新评估AGENTS.md文件在AI编码中的价值",
-      "content": "新研究重新评估AGENTS.md文件在AI编码中的价值",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T10:20:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/IoNg3mSbIMVYNSxLjjYD?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -64,28 +52,124 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773392018091_f03082d1",
-      "title": "OpenSandbox：重新思考 Agent 时代的 Runtime｜QCon北京",
-      "summary": "OpenSandbox：重新思考 Agent 时代的 Runtime｜QCon北京",
-      "content": "OpenSandbox：重新思考 Agent 时代的 Runtime｜QCon北京",
+      "id": "news_1773395474335_4d60f4e4",
+      "title": "慧荣科技展出专为AI优化的启动存储与企业级解决方案",
+      "summary": "慧荣科技在德国纽伦堡举行的Embedded World 2026上，展示其专为AI优化的启动存储解决方案。除启动存储产品外，慧荣科技还将展示其MonTitan®企业级SSD主控解决方案，其中包括专为近GPU、计算、近线及边缘服务器部署而优化的SM8366。",
+      "content": "慧荣科技在德国纽伦堡举行的Embedded World 2026上，展示其专为AI优化的启动存储解决方案。除启动存储产品外，慧荣科技还将展示其MonTitan®企业级SSD主控解决方案，其中包括专为近GPU、计算、近线及边缘服务器部署而优化的SM8366。SM8366 PCIe Gen5企业级SSD主控芯片旨在支持高性能AI基础设施，能够为GPU加速计算环境提供高效的数据流转能力与可扩展的存储架构。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T10:03:00.000Z",
+      "source": "36氪",
+      "publishedAt": "2026-03-13T09:43:31.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/AyCYbOWywTf6VwGmSvSP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://36kr.com/newsflashes/3721183426919040?f=rss",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773392019732_e3bf1a6d",
-      "title": "26 年 IDE 老厂押注 Agent 编排：JetBrains 公开预览 AI IDE Air",
-      "summary": "26 年 IDE 老厂押注 Agent 编排：JetBrains 公开预览 AI IDE Air",
-      "content": "26 年 IDE 老厂押注 Agent 编排：JetBrains 公开预览 AI IDE Air",
+      "id": "news_1773395476377_625ffe15",
+      "title": "RortiX与时的科技达成合作，签署100架E20 eVTOL采购协议",
+      "summary": "3月13日，在（AWE）中国家电及消费电子博览会E7追觅馆现场，RortiX与时的科技达成深度战略合作，签署100架E20 eVTOL采购协议。时的科技创始合伙人兼首席市场官蒋俊与RortiX执行总裁邓杰现场完成签约。",
+      "content": "3月13日，在（AWE）中国家电及消费电子博览会E7追觅馆现场，RortiX与时的科技达成深度战略合作，签署100架E20 eVTOL采购协议。时的科技创始合伙人兼首席市场官蒋俊与RortiX执行总裁邓杰现场完成签约。此次合作标志双方将在全球低空经济市场深度合作，同时在低空交通装备与人工智能技术方向展开合作。未来还将共同研发下一代更智能化的eVTOL机型，推动全球“AI+低空经济”产业生态的发展。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T09:14:41.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/feSV9dcs3V8amUQyJYN7?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "36氪",
+      "publishedAt": "2026-03-13T09:39:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3721179605121409?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773395484925_39295f10",
+      "title": "陈天桥落子三位顶尖科学家：MiroMind 放弃参数崇拜，重仓“系统2”推理",
+      "summary": "陈天桥落子三位顶尖科学家：MiroMind 放弃参数崇拜，重仓“系统2”推理",
+      "content": "单纯堆砌算力的打法，正在遭遇商业落地的现实高墙。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-13T09:37:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7913203.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773395524554_f6200d4c",
+      "title": "Meta、谷歌等被指“制造有害产品”，美国“社交媒体成瘾案”庭审结束",
+      "summary": "IT之家 3 月 13 日消息，据《卫报》今天报道，美国洛杉矶高等法院现已结束庭审“社交媒体成瘾案”，陪审团即将作出裁决。 据报道，原告律师在案件中表示，Meta、谷歌等科技公司一直在制造有害产品，故意把社交媒体设计得容易上瘾，导致儿童和青少年出现心理健康问题。",
+      "content": "IT之家 3 月 13 日消息，据《卫报》今天报道，美国洛杉矶高等法院现已结束庭审“社交媒体成瘾案”，陪审团即将作出裁决。 据报道，原告律师在案件中表示，Meta、谷歌等科技公司一直在制造有害产品，故意把社交媒体设计得容易上瘾，导致儿童和青少年出现心理健康问题。 这场庭审持续 6 周，Meta CEO 马克 · 扎克伯格、Instagram 负责人亚当 · 莫塞里和 YouTube 工程副总裁 Cristos Goodrow 等人出庭作证，陪审团还听取了 20 岁女性原告（IT之家注：化名 KGM）、她的治疗师、举报人以及社交媒体成瘾领域专家的证词。 如果陪审团裁定 KGM 胜诉，Meta、谷歌等社交媒体巨头则可能面临巨额经济赔偿，其律师希望裁决迫使公司改变社媒核心设计。 KGM 在庭中表示，她从 6 岁开始沉迷 YouTube、9 岁使用 Instagram，10 岁时出现抑郁、自残等症状。她认为社交媒体导致自己与家人关系紧张，并影响到学校生活。同时，KGM 在 13 岁时被诊断出躯体变形障碍、社交恐惧症，她认为这一切都与长期使用社交媒体有关。 而 KGM 的律师认为，这名女孩的经历代表了成千上万青少年。并且某些社交媒体的无限滚动流、自动播放、点赞按钮等从设计之初就是为了让人不停浏览，利用了青少年寻求认可的心理扭曲他们的自我形象。 此外，庭审还曝光了大量保密文件。一份 2021 年的 YouTube 内部文件提出问题：“我们如何衡量用户福祉？”，回答则是：“不想这方面”。甚至有文件写道：“我们的目标不是点击数，而是让用户上瘾”。 YouTube 发言人 José Castañeda 对此表示，原告指控完全不属实。公司一直在为青少年提供更安全、更健康的使用体验。KGM 的心理问题主要是源自困难的家庭环境。 值得注意的是，本案是针对 Meta、TikTok、YouTube 以及 Snap 等一系列合并诉讼的第一起审判，代表 1600 多名原告、350 个家庭以及 250 个学区。KGM 已在开庭前与 TikTok 和 Snap 达成和解。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/7953dc6e-8c97-4d1d-915d-9cbb7281411d.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-13T09:28:17.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/928/886.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773395524690_4d773294",
+      "title": "消息称魅族近期启动大调整：超 50% 员工即将离开，涉及约 400 人",
+      "summary": "IT之家 3 月 13 日消息，今天下午，“智能涌现”援引内部人士消息称，魅族近期宣布一轮大调整，超 50% 的员工即将离开，涉及 400 人左右。这部分人有三个去处。 其中一部分将获得“N+2”的赔偿。消息人士称，大多数人将在本周五之内办完。",
+      "content": "IT之家 3 月 13 日消息，今天下午，“智能涌现”援引内部人士消息称，魅族近期宣布一轮大调整，超 50% 的员工即将离开，涉及 400 人左右。这部分人有三个去处。 其中一部分将获得“N+2”的赔偿。消息人士称，大多数人将在本周五之内办完。 “PANDAER”潮牌团队将分拆，自负盈亏； AR 眼镜团队则部分被 AR 眼镜公司「雷鸟创新」吸收。 经过调整后，魅族手机剩余员工只有 400 人左右，后续有两个去处，一部分整合进魅族的 flyme 车机团队，另一部分转向 AI 软件方向的探索。 ▲ IT之家图赏：魅族 22 前述知情人士称，剩余的员工主要集中在珠海团队，接下来不再继续使用魅族的品牌，团队人员也或将更换公司主体。对于以上消息，魅族方面表示：未来，魅族将以 Flyme 开放生态系统为核心基座，构建可持续发展的良性业务闭环。对于“雷鸟吸收”的信息，魅族方面称“消息不实”。 而在此前，魅族手机一度出现转圜空间。多位知情人士消息称 AI 公司阶跃星辰曾与魅族手机团队洽谈并购事项，但后续却无疾而终。消息人士对此解释说，“可能认为魅族当前品牌价值不大”。 据IT之家此前报道，今年 2 月，魅族科技发布战略转型公告，宣布将暂停国内手机新产品自研硬件项目。魅族将暂停国内手机新产品自研硬件项目，并在积极接洽第三方硬件合作伙伴，同时原有业务不受任何影响。 相关阅读： 《魅族科技宣布战略转型，将暂停国内手机新产品自研硬件项目》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/1ebbf04b-26a9-44a5-9b13-18dd012a49e1.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-13T09:17:21.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/928/883.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773395486379_b8bfefd6",
+      "title": "当AI学会写作，人类开始互相怀疑",
+      "summary": "当AI学会写作，人类开始互相怀疑",
+      "content": "AI时代创作者面临身份焦虑，需自证清白。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-13T09:14:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7913045.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773395488385_4cbc68e6",
+      "title": "AI眼镜如何从“真香爆款”到“退货重灾区”？",
+      "summary": "AI眼镜如何从“真香爆款”到“退货重灾区”？",
+      "content": "看得清世界，也经得起端详？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-13T09:09:51.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7913031.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773395490108_4784a53b",
+      "title": "微软Copilot沦为“泔水”，纳德拉：快去西天请Cowork",
+      "summary": "微软Copilot沦为“泔水”，纳德拉：快去西天请Cowork",
+      "content": "OpenAI：bro 你公然背刺，我不要面子的吗？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-13T09:09:45.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7913059.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773395492887_a9e874ea",
+      "title": "任建华的 AI 大棋能让老板电器摆脱房地产依赖吗？",
+      "summary": "任建华的 AI 大棋能让老板电器摆脱房地产依赖吗？",
+      "content": "老板电器要颠覆厨房赛道?",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-13T09:06:17.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7912939.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773395524829_241d83af",
+      "title": "美团 CEO 王兴：我们都应该努力“减少登味”，内部不要再叫我“兴哥”",
+      "summary": "IT之家 3 月 13 日消息，今天上午，美团召开 2026 年管理层沟通会，线上线下共有 2000 余名管理者参与。会上，王兴围绕食杂零售、国际化与 AI 等方向分享了行业判断与发展思考。 在谈到对公司管理者的期待时，王兴提出：“我想把它落实到更具体的点上面，我们都应该努力减少登味，从我开始。",
+      "content": "IT之家 3 月 13 日消息，今天上午，美团召开 2026 年管理层沟通会，线上线下共有 2000 余名管理者参与。会上，王兴围绕食杂零售、国际化与 AI 等方向分享了行业判断与发展思考。 在谈到对公司管理者的期待时，王兴提出：“我想把它落实到更具体的点上面，我们都应该努力减少登味，从我开始。” 他还以内部常见称呼为例：“比如大家习惯叫我‘兴哥’，我觉得这是‘登味’明显的叫法，虽然这其实是从 1997 年开始的。” 据了解，“兴哥”是美团内部对王兴的称呼，这一叫法源于他的学生时代。王兴现场也解释了这一称呼的由来：“因为我和老王（IT之家注：美团联合创始人王慧文）同一个宿舍，宿舍里有两个姓王的，他比我大几个月，所以从 1997 年入学开始，他是老王，我是兴哥，就这么延续下来了。” 在此基础上，王兴发出一项具体倡议：“所以，我有一个很具体的倡议，我希望大家在公司内部称呼都直呼其名，不要再叫 XX 哥，从我开始，大家从这一刻开始不要再叫我兴哥了，就叫我王兴就好，我没有英文名，虽然我在美国读过书但我也没有英文名。我们从自身做起，去拥抱新事物、新潮流。”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-03-13T08:54:35.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/928/878.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1773392028554_f0df6dbc",
@@ -472,7 +556,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773391984908_0",
+      "id": "news_1773395458481_0",
       "title": "Microsoft's top Office executive Rajesh Jha retiring after 35 years",
       "summary": "Microsoft said Thursday that Rajesh Jha, the software vendor's highest-ranking executive supervising Office, is retiring in July after more than 35 ye...",
       "content": "Microsoft said Thursday that Rajesh Jha, the software vendor's highest-ranking executive supervising Office, is retiring in July after more than 35 years at the company.\nJha's departure is a significant loss for Microsoft as the company tries to both... [2386 chars]",
@@ -676,7 +760,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773391984497_1",
+      "id": "news_1773395459246_1",
       "title": "The wacky beliefs of the tech elite shaping global society",
       "summary": "The leaders of top tech companies are irreversibly changing how people work and live, while shaping the future with artificial intelligence — but most...",
       "content": "The leaders of top tech companies are irreversibly changing how people work and live, while shaping the future with artificial intelligence — but most have a seriously weird way of viewing the world.\nOne burns wooden effigies at holiday parties, anot... [6498 chars]",
@@ -1274,18 +1358,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7909286.html",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773222888683_555150e2",
-      "title": "格力董明珠再谈网络谣言：我是首当其冲的受害者，造谣的人迟早要受到惩罚",
-      "summary": "IT之家 3 月 11 日消息，2026 年全国两会期间，全国人大代表、格力电器董事长兼总裁董明珠再次就网络谣言治理问题发声。 在接受《工人日报》采访时，董明珠直言自己就是网络谣言的“首当其冲的受害者”，并表示“造谣的人迟早要受到惩罚”。",
-      "content": "IT之家 3 月 11 日消息，2026 年全国两会期间，全国人大代表、格力电器董事长兼总裁董明珠再次就网络谣言治理问题发声。 在接受《工人日报》采访时，董明珠直言自己就是网络谣言的“首当其冲的受害者”，并表示“造谣的人迟早要受到惩罚”。她认为，随着形势的发展变化，最终会通过法律途径来解决这一社会问题。 董明珠在采访中强调，对于那些为了博取流量而造谣获利的行为，“他迟早要受到惩罚的”。她相信法律会不断完善，以应对网络空间出现的新挑战。 “当你遇到这些流氓的时候，他想博取流量而获利的话，他迟早要受到惩罚的。我相信会随着新的形势、新的变化，会用法律的方式，来解决这个社会问题。”董明珠说道。 这并非董明珠首次在全国两会期间关注网络乱象治理问题。作为连续多年履职的全国人大代表，她持续就网络暴力、网络谣言等议题提出建议。 回顾 2024 年全国两会期间，董明珠在接受采访时特别提到网络诽谤问题，尤其是针对女性的“造黄谣”行为。她指出，有些人将揣测臆想的内容通过网络进行宣泄，这种行为破坏了网络环境，是一种负能量的传递。她当时强调，“网络的言论自由要依法依规，不能无法无天”，并认为国家依法严厉打击网络暴力、网络诽谤十分必要，建议检察机关加强对此类犯罪行为的惩治力度，助力营造清朗、安全的网络环境。 到了 2025 年全国两会，董明珠进一步将关注点提升至立法层面。她当时表示，“网络暴力是在社会发展过程中产生的新问题”。在大量市场调研的基础上，她严肃提出了关于强化网络谣言与网络暴力综合治理体系建设的建议。她提到，尽管 2024 年国家网信部门开展了“清朗”专项行动，但相关犯罪行为仍时有发生，因此“反网暴需升级到立法层面”。当时她提出了一系列具体建议，包括尽快全面修订《中华人民共和国网络安全法》，建议网信部门尽快出台网络谣言、网络暴力信息互联网平台治理规定，建议在拟出台的新《治安管理处罚法》中新增对网络谣言、网络暴力信息的分类界定与处罚条款，并建议“两高”尽快出台专门针对网络谣言、网络暴力犯罪行为的相关司法解释。 IT之家查询获悉，董明珠在 2025 年的建议中指出，一些机构和个人为了追流量、牟私利，进行跟风炒作、制造话题，更有甚者利用网络谣言等手段有组织、有计划地散布虚假信息，恶意攻击竞争对手或特定个人，不仅严重扰乱网络秩序，对社会和工业制造发展也可能造成破坏性影响。她认为，网络谣言给他人、给企业带来的伤害是巨大的。 相关阅读： 《格力电器董明珠：企业必须向消费者如实公布所用材料，不能以铝代铜而卖高价》 《格力电器董明珠称自己已熟练使用 AI 处理工作：我那么大年纪都不怕被 AI 替代，年轻人怕什么》 《格力电器董明珠：不主张加班，许多简单粗重的劳动已经被机器解放》 《格力电器董明珠 2026 两会建议：压实电商平台打假责任、规范二手家电市场等》 《格力董明珠称“将尽量少说话”，透露将为“年轻人让出更多舞台”》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/eee14cdd-9220-420f-a9db-f455ea7a7fda.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-11T09:42:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/928/098.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
