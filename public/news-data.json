@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-03-14T11:33:16.016Z",
-  "total": 92,
+  "timestamp": "2026-03-14T13:11:16.923Z",
+  "total": 86,
   "data": [
+    {
+      "id": "news_1773493875920_b76dfdeb",
+      "title": "我国一项物联网安全协议测试技术成为国际标准，RFID / NFC 领域累计贡献 8 项",
+      "summary": "IT之家 3 月 14 日消息，据新华社今日报道，记者日前从 WAPI 产业联盟获悉，一项由中国提出的物联网安全协议测试技术（TRAIS-P TEST）提案，已被国际标准化组织（ISO）和国际电工委员会（IEC）联合发布成为国际标准。这是我国在物联网安全技术领域又一项拥有自主知识产权的国际标准。",
+      "content": "IT之家 3 月 14 日消息，据新华社今日报道，记者日前从 WAPI 产业联盟获悉，一项由中国提出的物联网安全协议测试技术（TRAIS-P TEST）提案，已被国际标准化组织（ISO）和国际电工委员会（IEC）联合发布成为国际标准。这是我国在物联网安全技术领域又一项拥有自主知识产权的国际标准。 IT之家从报道获悉，当前，射频识别（RFID）技术已广泛应用于智能制造、物流仓储、医疗、电子支付等领域。TRAIS-P 国际标准规范了有源 RFID 系统的空中接口安全防护方法，能够提供实体鉴别、安全通信等高等级安全服务，有效防范身份伪造、数据窃听与篡改等风险。本次发布的 TRAIS-P TEST 作为配套测试规范，明确了空中接口安全协议实现的一致性测试方法，便于对产品安全能力进行客观验证。 “至此，从技术规范到产品测试两个层面形成了完整的国际标准体系。”WAPI 产业联盟秘书长张璐璐表示，此前我国在 RFID、NFC 等短距离通信安全领域已累计有 7 项包含自主技术的国际标准。加上此次发布的测试规范，共同构成物联网安全关键技术标准体系，有助于推动全球物联网的互联互通与共享共治。 据了解，西电捷通公司、无线网络安全技术国家工程研究中心是上述 8 项国际标准的主要技术贡献者。WAPI 产业联盟、商用密码检测认证中心、国家无线电监测中心检测中心等 10 余家联盟成员参与了标准研制工作。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-03-14T11:40:55.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/929/138.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1773487967906_a98eb9e9",
       "title": "Block员工拒绝加薪留任：AI是吞噬岗位的反乌托邦",
@@ -244,7 +256,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773487942601_0",
+      "id": "news_1773493833556_0",
       "title": "Meta delays release of new AI, weighs licensing Google's Gemini after disappointing trial runs: report",
       "summary": "Mark Zuckerberg’s Meta is reportedly delaying the release of its next artificial intelligence model at least about two months after internal tests sho...",
       "content": "Mark Zuckerberg’s Meta is reportedly delaying the release of its next artificial intelligence model at least about two months after internal tests showed the tech falling short of rival models from Google, OpenAI and Anthropic.\nThe leaders of Meta’s ... [3355 chars]",
@@ -256,31 +268,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1773487979358_67385717",
-      "title": "狂裁1600人，换掉CTO、晋升“下一代AI人才”！SaaS巨头的转型焦虑",
-      "summary": "狂裁1600人，换掉CTO、晋升“下一代AI人才”！SaaS巨头的转型焦虑",
-      "content": "狂裁1600人，换掉CTO、晋升“下一代AI人才”！SaaS巨头的转型焦虑",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T18:14:05.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/4NJUKjq6VphyYuG4CaZQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773487981094_64f33d8c",
-      "title": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
-      "summary": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
-      "content": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T16:12:24.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/pdg3TkbgvSc2PolE5ioy?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773487942182_1",
+      "id": "news_1773493833572_1",
       "title": "CU to consider new policy on AI",
       "summary": "The University of Colorado is developing a new policy surrounding artificial intelligence as it prepares to roll out a CU-controlled version of ChatGP...",
       "content": "The University of Colorado is developing a new policy surrounding artificial intelligence as it prepares to roll out a CU-controlled version of ChatGPT effective March 31.\nThe proposed policy recognizes that AI “presents ethical, legal, and operation... [2675 chars]",
@@ -364,7 +352,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773487943223_2",
+      "id": "news_1773493833927_2",
       "title": "Sam Altman warns AI could upend jobs and the economy sooner than expected",
       "summary": "OpenAI CEO Sam Altman delivered a blunt message this week: artificial intelligence is moving into the workforce far faster than most people expect, an...",
       "content": "OpenAI CEO Sam Altman delivered a blunt message this week: artificial intelligence is moving into the workforce far faster than most people expect, and the shift could reshape jobs and the broader economy sooner than many leaders are ready for.\nSpeak... [6318 chars]",
@@ -448,6 +436,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1773493866226_8a179baf",
+      "title": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
+      "summary": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
+      "content": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-13T11:14:36.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/f6pSw1rxN9DdrEsGrcq1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1773401934148_de8fc280",
       "title": "国家网络安全通报中心发布 OpenClaw 安全风险预警",
       "summary": "IT之家 3 月 13 日消息，今天傍晚，国家网络安全通报中心发布《OpenClaw 风险预警》。其中提到，OpenClaw 自发布以来，凭借其强大的自动化任务处理能力与开放式插件生态，在全球范围内引发部署热潮。",
@@ -469,18 +469,6 @@
       "publishedAt": "2026-03-13T10:25:13.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/4sQ3okmbEVqbl8GMZj4m?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773487988261_f87bf9dd",
-      "title": "新研究重新评估AGENTS.md文件在AI编码中的价值",
-      "summary": "新研究重新评估AGENTS.md文件在AI编码中的价值",
-      "content": "新研究重新评估AGENTS.md文件在AI编码中的价值",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T10:20:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/IoNg3mSbIMVYNSxLjjYD?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -1012,7 +1000,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773487943445_3",
+      "id": "news_1773493834146_3",
       "title": "Microsoft's top Office executive Rajesh Jha retiring after 35 years",
       "summary": "Microsoft said Thursday that Rajesh Jha, the software vendor's highest-ranking executive supervising Office, is retiring in July after more than 35 ye...",
       "content": "Microsoft said Thursday that Rajesh Jha, the software vendor's highest-ranking executive supervising Office, is retiring in July after more than 35 years at the company.\nJha's departure is a significant loss for Microsoft as the company tries to both... [2386 chars]",
@@ -1046,66 +1034,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/928/543.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773321645112_1d919a49",
-      "title": "美股大型科技股盘前普跌，英特尔跌超1%",
-      "summary": "36氪获悉，美股大型科技股盘前普跌，截至发稿，英特尔跌超1%，Meta跌0.82%，谷歌跌0.8%，英伟达跌0.78%，亚马逊跌0.66%，微软跌0.48%，苹果跌0.3%，特斯拉跌0.21%。",
-      "content": "36氪获悉，美股大型科技股盘前普跌，截至发稿，英特尔跌超1%，Meta跌0.82%，谷歌跌0.8%，英伟达跌0.78%，亚马逊跌0.66%，微软跌0.48%，苹果跌0.3%，特斯拉跌0.21%。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-12T12:55:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3719956147960195?f=rss",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773321646244_4f393bdc",
-      "title": "宝马暂时放弃L3级自动驾驶",
-      "summary": "“宝马车型曾为车型配备L3级自动驾驶系统，但因该技术尚未达到商业化盈利水平，已暂时降低了L3级自动驾驶项目研发的优先级。",
-      "content": "“宝马车型曾为车型配备L3级自动驾驶系统，但因该技术尚未达到商业化盈利水平，已暂时降低了L3级自动驾驶项目研发的优先级。”宝马集团全球CEO奥利弗·齐普策（Oliver Zipse）在2026财年会上表示，这并不代表宝马会放弃更高阶的自动驾驶技术研发，将持续关注自动驾驶技术发展趋势，一旦高阶自动驾驶技术出现可行的商业化模式，将立即推进相关研发工作。 (第一财经)",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-12T12:38:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3719940152243586?f=rss",
-      "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773321677250_c3cfddff",
-      "title": "马斯克：全球最先进人形机器人特斯拉 Optimus 3 今夏投产",
-      "summary": "IT之家 3 月 12 日消息，特斯拉 CEO 埃隆 · 马斯克表示，Optimus 3（擎天柱 3 代）有望在今年夏季启动生产。马斯克在“富足峰会”的采访中透露了这一最新进展。 据马斯克介绍，特斯拉已进入 Optimus 3 研发的最后阶段，他称这款机器人是全球最先进的人形机器人。",
-      "content": "IT之家 3 月 12 日消息，特斯拉 CEO 埃隆 · 马斯克表示，Optimus 3（擎天柱 3 代）有望在今年夏季启动生产。马斯克在“富足峰会”的采访中透露了这一最新进展。 据马斯克介绍，特斯拉已进入 Optimus 3 研发的最后阶段，他称这款机器人是全球最先进的人形机器人。 “我们已进入 Optimus 3 的最后完成阶段，它无疑将成为全球最先进的机器人，没有任何产品能与之匹敌。事实上，我从未见过任何机器人的演示效果能媲美 Optimus 3。”马斯克说道。 他同时对 Optimus 3 的产能爬坡节奏做出预期，称这款人形机器人初期产量会非常低，但也表示 2027 年有望实现大规模量产。 “我认为我们会在今年夏季启动 Optimus 3 的生产，但初期速度会很慢，呈现制造业典型的 S 型产能增长曲线。大概明年夏季前后，能实现大规模量产。”他表示。 值得关注的是，马斯克透露特斯拉计划对该机器人进行快速迭代，可能每年都会推出新的擎天柱设计。 “我们明年会完成 Optimus 4 的设计，力争每年发布一款全新的机器人设计。”马斯克称。 IT之家注意到，特斯拉已制定了在首条生产线之外扩大擎天柱生产规模的更广泛计划。马斯克此前曾表示，Optimus 4 将在得克萨斯超级工厂生产，产量会大幅提高。 该机器人的初期产线预计将设在特斯拉弗里蒙特工厂，该公司计划在此打造一条年产量高达 100 万台机器人的生产线。 更大规模的产能扩张将在得克萨斯超级工厂落地，马斯克此前曾透露，该工厂未来有望实现年产 1000 万台机器人的规模。 “我们将启动史上所有大型复杂制造产品中最快的产能爬坡节奏，首先在弗里蒙特建成年产 100 万台的产线，这是一号产线。随后在这里（得州）建成年产 1000 万台的产线。”马斯克此前表示。 上述表态意味着，Optimus 3 大概率将在弗里蒙特工厂投产，而特斯拉更大规模的制造布局，将随着 Optimus 4 在得克萨斯超级工厂落地。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/ec4fcd0f-41e2-4f7b-8a9a-38231b5b3c77.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-12T12:31:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/928/529.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773321677402_b67dc30c",
-      "title": "当贝官宣首发 OpenClaw 中文版 Molili，支持一键安装部署",
-      "summary": "IT之家 3 月 12 日消息，当贝今日官宣首发 OpenClaw 中文版 Molili。据介绍，当贝 Molili 在 2026 年 1 月诞生，支持一键部署、一键安装，主打“小白开箱即用”。",
-      "content": "IT之家 3 月 12 日消息，当贝今日官宣首发 OpenClaw 中文版 Molili。据介绍，当贝 Molili 在 2026 年 1 月诞生，支持一键部署、一键安装，主打“小白开箱即用”。 当贝表示，Molili 专为国内用户深度优化，全链路升级中文能力，搭载 DeepSeek、MiniMax、通义千问、Kimi、智谱 GLM 等国产大模型，能精准理解复杂中文指令，解决海外产品的语言壁垒。Molili 还支持可视化自定义配置模型。 IT之家从当贝官方获悉，最新的 Molili 1.0.7 版本采用订阅制服务，号称不用担心 Token“爆炸”产生高昂费用；并且深度优化了智能体的执行逻辑，压缩了无效 Token 消耗，宣称“实测使用成本比原版低一半”。 另外，当贝 Molili 在 1.0.7 版本新增敏感权限精细化设置项，用户可自主管控文件读取、系统操作、应用调用、网络访问等权限，并全面打通微信、钉钉、飞书、苹果 Siri 等平台，同时还开放了技能商店。 ▲ 当贝 Molili 官网页面",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/78d65d0e-362e-4939-a8ec-e55964d58239.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-12T12:06:52.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/928/526.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773321677594_50d841af",
-      "title": "谷歌用 Gemini 大语言模型阅读 500 万篇新闻预测山洪",
-      "summary": "IT之家 3 月 12 日消息，山洪暴发是全球致死率最高的气象灾害之一，每年造成超过 5000 人死亡，同时也是最难预测的灾害之一。而谷歌认为，他们以一种出人意料的方式破解了这一难题 —— 通过阅读新闻。",
-      "content": "IT之家 3 月 12 日消息，山洪暴发是全球致死率最高的气象灾害之一，每年造成超过 5000 人死亡，同时也是最难预测的灾害之一。而谷歌认为，他们以一种出人意料的方式破解了这一难题 —— 通过阅读新闻。 据IT之家了解，尽管人类已经积累了大量气象数据，但山洪暴发持续时间短且具有局部性，无法像温度甚至河流流量那样进行长期全面监测。这种数据缺口导致如今愈发强大的深度学习气象预测模型，依然无法准确预报山洪。 为解决这一问题，谷歌研究人员利用其大语言模型 Gemini，梳理了全球 500 万篇新闻报道，从中提取出 260 万次不同洪水事件的记录，并将这些报道转化为带有地理标记的时序数据，命名为“地面数据源（Groundsource）”。谷歌研究产品经理吉拉 · 洛伊克表示，这是该公司首次将语言模型用于此类工作。相关研究成果与数据集已于当地时间周四上午公开。 以 Groundsource 作为真实场景基准，研究人员训练了一个基于长短期记忆（LSTM）神经网络的模型。该模型接收全球气象预报数据，生成特定区域的山洪暴发概率。 目前，谷歌的山洪预测模型已在其洪水中心平台上，为 150 个国家的城市区域标注风险等级，并向全球应急机构共享数据。南部非洲发展共同体应急官员安东尼奥 · 何塞 · 贝莱扎与谷歌合作测试了该预测模型，他表示，这一模型帮助其所在机构更快地应对洪水。 该模型仍存在局限性：一方面，其分辨率较低，仅能识别 20 平方公里区域内的洪水风险；另一方面，精度不及美国国家气象局的洪水预警系统，部分原因是谷歌模型未纳入可实时追踪降水的本地雷达数据。 不过，该项目的核心意义之一，是专为那些无力承担昂贵气象监测基础设施、或缺乏完整气象数据记录的地区设计。 谷歌抗灾项目负责人朱丽叶 · 罗森伯格本周向记者表示：“通过整合数百万份报道，Groundsource 数据集实际上让数据分布地图变得更加均衡。它让我们能够将预测能力推广到信息匮乏的其他地区。” 罗森伯格称，团队希望这种利用大语言模型，从文字类定性信息中构建定量数据集的方法，未来可应用于其他短暂但重要的灾害预测，例如热浪和泥石流。 科技公司 Upstream Tech 首席执行官马歇尔 · 莫滕奥特，其公司曾利用类似深度学习模型为水电企业预测河流流量。他表示，谷歌的这项成果，是当前为深度学习气象预测模型构建数据体系的众多努力之一。莫滕奥特联合创立了 dynamical.org，该机构为研究人员和初创企业整理适用于机器学习的气象数据集。 “数据稀缺是地球物理学领域最棘手的难题之一。”莫滕奥特说，“一方面，地球相关数据多到过剩；但当你需要用真实情况做校验时，数据又严重不足。谷歌这种获取数据的方式极具创新性。”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/0fbc40a2-3c2d-4082-875a-0820eb436a5d.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-12T11:55:01.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/928/522.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
