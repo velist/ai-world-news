@@ -1,19 +1,115 @@
 {
   "success": true,
-  "timestamp": "2026-03-15T05:41:16.612Z",
-  "total": 76,
+  "timestamp": "2026-03-15T07:10:37.139Z",
+  "total": 78,
   "data": [
     {
-      "id": "news_1773553262619_70e40d07",
-      "title": "10分钟装好一只“龙虾”，周鸿祎亲自动手！360推出国内首个“安全龙虾”，内置百款大模型",
-      "summary": "10分钟装好一只“龙虾”，周鸿祎亲自动手！360推出国内首个“安全龙虾”，内置百款大模型",
-      "content": "10分钟装好一只“龙虾”，周鸿祎亲自动手！360推出国内首个“安全龙虾”，内置百款大模型",
+      "id": "news_1773558623335_c6de45e6",
+      "title": "Cloudflare发布AI辅助开发的实验性Next.js替代方案",
+      "summary": "Cloudflare发布AI辅助开发的实验性Next.js替代方案",
+      "content": "Cloudflare发布AI辅助开发的实验性Next.js替代方案",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-15T12:47:57.000Z",
+      "publishedAt": "2026-03-15T11:00:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/XgX3qjd9RZ0aOaFjqbZQ?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/9bFq7FJUQSXANWqtf8fQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773558625559_9f144199",
+      "title": "GitLab：AI 能发现漏洞，但风险治理才是关键",
+      "summary": "GitLab：AI 能发现漏洞，但风险治理才是关键",
+      "content": "GitLab：AI 能发现漏洞，但风险治理才是关键",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-15T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/SkoHHJPpp6bpctKdbFws?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773558635838_e2b97cfe",
+      "title": "科学家首次实现冷冻小鼠脑组织功能恢复，短期内仍无法实现人体冷冻复苏",
+      "summary": "IT之家 3 月 15 日消息，科幻作品中，将人体冷冻保存、数百年后唤醒的设想正在向现实迈进。 德国埃尔朗根-纽伦堡大学（简称 FAU）研究团队首次成功让冷冻的小鼠脑组织在解冻后保留了部分功能，相关成果已于 2026 年 3 月 3 日发表在《美国国家科学院院刊》（PNAS）上。",
+      "content": "IT之家 3 月 15 日消息，科幻作品中，将人体冷冻保存、数百年后唤醒的设想正在向现实迈进。 德国埃尔朗根-纽伦堡大学（简称 FAU）研究团队首次成功让冷冻的小鼠脑组织在解冻后保留了部分功能，相关成果已于 2026 年 3 月 3 日发表在《美国国家科学院院刊》（PNAS）上。 大脑组织之所以难以从冷冻状态中完全恢复，核心障碍在于冰晶的形成会造成不可逆的损伤。冰晶会挤压甚至刺破神经元等精密结构，破坏细胞的关键功能。 为解决这一问题，研究人员采用了被称为“玻璃化冷冻”的无冰低温保存技术。该方法通过快速降温，使液体中的分子在形成冰晶之前就进入一种无序的玻璃态，从而避免冰晶对组织的破坏。 研究团队首先在包含海马体的小鼠脑切片上展开实验。海马体是负责记忆与空间导航的核心脑区。他们将脑切片置于含有低温保护剂的溶液中预处理，然后用 -196℃ 的液氮进行快速冷冻，并在-150 ℃ 的环境中以玻璃态保存，时间从 10 分钟到 7 天不等。 解冻后，研究人员对组织进行了详细的功能检测。结果显示，神经元的细胞膜和突触结构保持完整，线粒体活性未发现代谢损伤。更重要的是，神经元对电刺激的反应基本正常，海马体中负责学习与记忆的神经通路仍保留着“长时程增强”这一基础机制。 随后，团队将实验规模扩大至完整的小鼠大脑，使其在-140℃ 的玻璃态下保存最长 8 天。解冻后，研究人员对海马体进行电生理记录，证实包括记忆相关通路在内的神经元网络得以存活，且仍能发生长时程增强。不过，由于仅对脑组织切片进行了检测，目前无法确定这些小鼠的记忆是否在冷冻过程中完好保留。 研究团队表示，这一成果预示着未来的潜在可能 —— 在疾病期间或严重损伤后保护大脑、建立器官库，甚至实现哺乳动物的全身冷冻保存。但也有专家指出，这项研究虽然推动了脑组织低温保存技术的发展，但要将这些原理应用于更大的人体器官，仍面临传热限制、热机械应力等诸多挑战，需要研发更优的玻璃化溶液、冷却及复温技术。目前，该研究距离实现人体器官的长期保存或人类全身冷冻复苏，仍有相当长的距离。 IT之家附论文地址： https://doi.org/10.1073/pnas.2516848123 相关阅读： 《科学家提出新方法使冷冻器官不再破裂，为长期移植保存铺路》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/56582842-e6ed-4bca-910b-184e44610fe8.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-15T06:49:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/929/250.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773558599657_56104f65",
+      "title": "阅文作家助手Claw开启内测",
+      "summary": "36氪获悉，3月15日，阅文集团旗下专业网文创作工具“作家助手”宣布，作家助手Claw已开启内测。作家用户可一键完成安装部署，领养专属AI智能体，使用各种深度贴合网文创作场景的专属技能。",
+      "content": "36氪获悉，3月15日，阅文集团旗下专业网文创作工具“作家助手”宣布，作家助手Claw已开启内测。作家用户可一键完成安装部署，领养专属AI智能体，使用各种深度贴合网文创作场景的专属技能。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-15T06:46:22.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://36kr.com/newsflashes/3723840436435584?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773558600872_d904f606",
+      "title": "中国互联网金融协会发布《关于OpenClaw在互联网金融行业应用安全的风险提示》",
+      "summary": "36氪获悉，中国互联网金融协会提示称，OpenClaw智能体虽能提升工作效率，但其默认的高系统权限与弱安全配置，极易被攻击者利用，成为窃取敏感数据或非法操控交易的突破口，给行业带来严峻的风险挑战。",
+      "content": "36氪获悉，中国互联网金融协会提示称，OpenClaw智能体虽能提升工作效率，但其默认的高系统权限与弱安全配置，极易被攻击者利用，成为窃取敏感数据或非法操控交易的突破口，给行业带来严峻的风险挑战。中国互联网金融协会建议金融消费者在办理网上银行、证券交易、支付等个人金融业务的终端上极其谨慎安装OpenClaw。如确有必要安装，建议不授予金融服务类系统操作权限，及时跟进OpenClaw漏洞修复，严控功能插件安装，不在使用时输入身份证号、银行卡号、支付密码等敏感信息。另外，此类应用在运行过程中持续调用大模型接口，可能会产生较高的Token费用，建议使用者密切关注。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-15T06:14:40.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://36kr.com/newsflashes/3723809260731012?f=rss",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773558602077_3fb7a32b",
+      "title": "钉钉或将发布多款AI硬件",
+      "summary": "36氪获悉，钉钉预计将在3月17日发布会上，一次性推出多款新品，覆盖不止一个硬件品类。如果消息属实，这将是钉钉自去年推出AI录音卡片DingTalk A1以来，在硬件领域最大规模的一次动作。",
+      "content": "36氪获悉，钉钉预计将在3月17日发布会上，一次性推出多款新品，覆盖不止一个硬件品类。如果消息属实，这将是钉钉自去年推出AI录音卡片DingTalk A1以来，在硬件领域最大规模的一次动作。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-15T05:59:32.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3723794395871625?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773558603192_5eddce5e",
+      "title": "河南首家人形机器人4S店开业，租赁业务火热",
+      "summary": "河南首家人形机器人4S店15日在郑州正式开业。当日，记者在这家机器人4S店看到，店内汇聚宇树、智元、乐聚等中国机器人龙头企业的多款主流产品，不仅展示、租赁、销售人形机器人产品，还提供数据采集、场景训练、模型迭代、售后运维等配套服务。",
+      "content": "河南首家人形机器人4S店15日在郑州正式开业。当日，记者在这家机器人4S店看到，店内汇聚宇树、智元、乐聚等中国机器人龙头企业的多款主流产品，不仅展示、租赁、销售人形机器人产品，还提供数据采集、场景训练、模型迭代、售后运维等配套服务。 “顾客可以像选车一样对比多款主流机型，在实际场景中测试效能，获得定制化训练方案，大大降低使用门槛与风险。”负责运营该机器人4S店的河南具身智能产业发展有限公司业务经理陈杨受访时称，该店于今年1月底试营业以来，租赁业务火热。（证券时报）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-15T05:52:45.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3723779907893889?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773558635986_b3f7fb59",
+      "title": "科学家发现夸克-胶子等离子体具有液体特性，揭示宇宙大爆炸后“原始汤”流动本质",
+      "summary": "IT之家 3 月 15 日消息，据科技媒体 Scitechdaily 昨天报道，大爆炸后，宇宙刚刚诞生时是一种温度高达数万亿度的混合物，由夸克和胶子接近光速运动形成，还没有原子、恒星以及质子。 不过这种状态只持续了几百万分之一秒，之后宇宙逐渐冷却，夸克和胶子逐渐结合形成质子、中子以及各种粒子。",
+      "content": "IT之家 3 月 15 日消息，据科技媒体 Scitechdaily 昨天报道，大爆炸后，宇宙刚刚诞生时是一种温度高达数万亿度的混合物，由夸克和胶子接近光速运动形成，还没有原子、恒星以及质子。 不过这种状态只持续了几百万分之一秒，之后宇宙逐渐冷却，夸克和胶子逐渐结合形成质子、中子以及各种粒子。 欧洲核子研究组织（IT之家注：CERN）的科学家们正在利用大型强子对撞机重现这种宇宙早期状态，实验显示，当重离子以接近光速碰撞时，可以短暂释放普通物质中的夸克和胶子，形成微小夸克-胶子等离子体“液滴”，类似宇宙最初诞生时的状态。 而美国麻省理工学院的物理学家们最近有了新发现，当夸克在这种等离子体中移动时，会像物体穿过水面一样，在身后留下“尾迹”。 这足以说明夸克-胶子等离子体并不是松散的粒子云，而是一种表现更为紧密的流体，高速运动的夸克可以在其中引发向外传播的波动。 麻省理工物理学教授 Yen-Jie Lee 对此表示：“这个领域的长期争论是等离子体是否会对夸克产生响应。我们现在看到，这种等离子体非常紧密，能够减慢夸克速度，并产生液体一样的漩涡和飞溅。所以夸克-胶子等离子体确实是一种‘原始汤’”。 同时，物理学家们还进一步测量这些尾迹的尺寸、速度、扩散范围等，推断等离子体的物理性质、宇宙诞生最初几微秒时物质的行为方式。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/16f66a93-37a5-4504-8a2a-f76f3863954a.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-15T05:50:35.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/929/240.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773558636138_611c8bc0",
+      "title": "河南首家人形机器人 4S 店正式开业，汇聚宇树 / 智元 / 乐聚等主流品牌产品",
+      "summary": "IT之家 3 月 15 日消息，据证券时报报道，河南首家人形机器人 4S 店自 2026 年 1 月底试营业，于今天正式开业。 据报道，该店位于郑州中原科技城人工智能科技园，由河南具身智能产业发展有限公司打造，是中原地区首个集展示、销售、租赁、场景训练及售后运维于一体的综合性服务中心。",
+      "content": "IT之家 3 月 15 日消息，据证券时报报道，河南首家人形机器人 4S 店自 2026 年 1 月底试营业，于今天正式开业。 据报道，该店位于郑州中原科技城人工智能科技园，由河南具身智能产业发展有限公司打造，是中原地区首个集展示、销售、租赁、场景训练及售后运维于一体的综合性服务中心。 有关负责人介绍，该店在试营业期间机器人租赁需求旺盛，尤其表演类机器人和工业机器人组合较为火热，租赁模式包含“机器人 + 操作员”的打包服务，适用于展会、商业演出等短期场景。 目前，店内已汇聚有宇树、智元、乐聚等主流品牌产品，号称能够为消费者提供“像选车一样”的对比测试、定制化训练方案及数据服务，涵盖农业、工业、医疗等各种领域。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/be86b9ec-be81-4684-9ece-10ab8582268d.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-15T05:42:17.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/929/237.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1773545035683_c8e71286",
@@ -122,6 +218,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/929/165.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773558590055_0",
+      "title": "Kyrie Irving Puts Billionaire Sam Altman on Blast for Business Plan",
+      "summary": "From play tracking to reviewing calls to using AI to prepare the fixture schedule, the NBA has started to view itself in a different light recently. H...",
+      "content": "From play tracking to reviewing calls to using AI to prepare the fixture schedule, the NBA has started to view itself in a different light recently. However, while Commissioner Adam Silver continues to integrate technology into the game, he must be w... [3678 chars]",
+      "imageUrl": "https://image-cdn.essentiallysports.com/wp-content/uploads/Kyrie-Irving-and-Sam-Altman.jpg",
+      "source": "Essentially Sports",
+      "publishedAt": "2026-03-14T18:39:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.essentiallysports.com/nba-active-basketball-news-kyrie-irving-puts-billionaire-sam-altman-on-blast-for-business-plan/",
+      "aiInsight": ""
     },
     {
       "id": "news_1773506573915_49ab8c25",
@@ -388,7 +496,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773553242845_0",
+      "id": "news_1773558589634_1",
       "title": "Meta delays release of new AI, weighs licensing Google's Gemini after disappointing trial runs: report",
       "summary": "Mark Zuckerberg’s Meta is reportedly delaying the release of its next artificial intelligence model at least about two months after internal tests sho...",
       "content": "Mark Zuckerberg’s Meta is reportedly delaying the release of its next artificial intelligence model at least about two months after internal tests showed the tech falling short of rival models from Google, OpenAI and Anthropic.\nThe leaders of Meta’s ... [3355 chars]",
@@ -400,7 +508,31 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1773553243343_1",
+      "id": "news_1773558627416_67385717",
+      "title": "狂裁1600人，换掉CTO、晋升“下一代AI人才”！SaaS巨头的转型焦虑",
+      "summary": "狂裁1600人，换掉CTO、晋升“下一代AI人才”！SaaS巨头的转型焦虑",
+      "content": "狂裁1600人，换掉CTO、晋升“下一代AI人才”！SaaS巨头的转型焦虑",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-13T18:14:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/4NJUKjq6VphyYuG4CaZQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773558629030_64f33d8c",
+      "title": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
+      "summary": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
+      "content": "模型不再是关键？LangChain 创始人：真正决定Agent 上限的是运行框架",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-13T16:12:24.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/pdg3TkbgvSc2PolE5ioy?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773558589757_2",
       "title": "CU to consider new policy on AI",
       "summary": "The University of Colorado is developing a new policy surrounding artificial intelligence as it prepares to roll out a CU-controlled version of ChatGP...",
       "content": "The University of Colorado is developing a new policy surrounding artificial intelligence as it prepares to roll out a CU-controlled version of ChatGPT effective March 31.\nThe proposed policy recognizes that AI “presents ethical, legal, and operation... [2675 chars]",
@@ -484,7 +616,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773553243827_2",
+      "id": "news_1773558590376_3",
       "title": "Sam Altman warns AI could upend jobs and the economy sooner than expected",
       "summary": "OpenAI CEO Sam Altman delivered a blunt message this week: artificial intelligence is moving into the workforce far faster than most people expect, an...",
       "content": "OpenAI CEO Sam Altman delivered a blunt message this week: artificial intelligence is moving into the workforce far faster than most people expect, and the shift could reshape jobs and the broader economy sooner than many leaders are ready for.\nSpeak... [6318 chars]",
@@ -566,18 +698,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7912677.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773553271878_8a179baf",
-      "title": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
-      "summary": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
-      "content": "从“暴力烧Token”到“系统工程”：OpenAI与华为的两条 AI 编程路径",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-13T11:14:36.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/f6pSw1rxN9DdrEsGrcq1?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1773401934148_de8fc280",
@@ -818,102 +938,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7912647.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773385658789_82c84716",
-      "title": "2月漫剧：新剧超6成，环比增长58.4%，女性向AI仿真人剧供需双爆发",
-      "summary": "2月漫剧：新剧超6成，环比增长58.4%，女性向AI仿真人剧供需双爆发",
-      "content": "2月漫剧：新剧超6成，环比增长58.4%，女性向AI仿真人剧供需双爆发",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-13T07:07:29.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7912757.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773385650656_09e9e5a1",
-      "title": "A股三大指数集体收跌，稳定币概念走低",
-      "summary": "36氪获悉，A股三大指数集体收跌，沪指跌0.82%，深成指跌0.65%，创业板指跌0.22%；稳定币、黄金、AI算力概念跌幅居前，拉卡拉跌超8%，拓维信息跌超7%，招金黄金跌超5%；大基建、白酒、电信股走强，中国核建涨停，泸州老窖涨超2%，中国移动涨超1%。",
-      "content": "36氪获悉，A股三大指数集体收跌，沪指跌0.82%，深成指跌0.65%，创业板指跌0.22%；稳定币、黄金、AI算力概念跌幅居前，拉卡拉跌超8%，拓维信息跌超7%，招金黄金跌超5%；大基建、白酒、电信股走强，中国核建涨停，泸州老窖涨超2%，中国移动涨超1%。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-13T07:01:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3721024240433793?f=rss",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773385660641_821e38b3",
-      "title": "蚂蚁、美团、京东、腾讯都入局了，互联网巨头在养老市场全面“开战”",
-      "summary": "蚂蚁、美团、京东、腾讯都入局了，互联网巨头在养老市场全面“开战”",
-      "content": "互联网巨头扎堆养老市场，差异化布局争抢银发蓝海。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-13T06:48:55.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7912629.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773385682319_f7ddf384",
-      "title": "腾讯客服回应上线朋友圈编辑功能：暂时没有收到通知",
-      "summary": "IT之家 3 月 13 日消息，今日有关“微信朋友圈编辑”的话题登上热搜，引发网友关注。 有网友表示：“这个功能真的跪求啊！有些朋友圈为了踩点卡点着急发了，后面发现少了一些内容又不想再重新发一次了太麻烦了。",
-      "content": "IT之家 3 月 13 日消息，今日有关“微信朋友圈编辑”的话题登上热搜，引发网友关注。 有网友表示：“这个功能真的跪求啊！有些朋友圈为了踩点卡点着急发了，后面发现少了一些内容又不想再重新发一次了太麻烦了。” 微信公关总监曾在播客中表示：“不太会出编辑功能，朋友圈记录历史，一个人的人生不太可能再回头修改，不太会轻易让人去篡改个人编年史。” 对此腾讯客服回应IT之家表示：关于朋友圈编辑功能的上线时间暂时没有收到通知，我们会继续优化产品功能，建议您保持微信为最新版本，以便及时体验后续更新带来的便利。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/2538a582-49b8-4f82-9cbf-274bf8d36c34.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-13T06:43:56.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/928/777.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773385651777_562c5c55",
-      "title": "字节跳动旗下公司在乌兰察布成立新科技公司",
-      "summary": "36氪获悉，爱企查App显示，近日，乌兰察布雁北致远科技有限公司成立，法定代表人为董佳建，注册资本16亿元人民币，经营范围包括信息技术咨询服务、软件开发、信息系统集成服务等。股东信息显示，该公司由字节跳动旗下北京字跳网络技术有限公司全资持股。",
-      "content": "36氪获悉，爱企查App显示，近日，乌兰察布雁北致远科技有限公司成立，法定代表人为董佳建，注册资本16亿元人民币，经营范围包括信息技术咨询服务、软件开发、信息系统集成服务等。股东信息显示，该公司由字节跳动旗下北京字跳网络技术有限公司全资持股。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-13T06:30:26.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3720993610332803?f=rss",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773385662260_22644c03",
-      "title": "实录拆解马斯克最新对谈：AI自我提升已实现，透露Optimus 3量产时间表",
-      "summary": "实录拆解马斯克最新对谈：AI自我提升已实现，透露Optimus 3量产时间表",
-      "content": "完全自动化的模型自我提升，最迟在明年就会出现。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-13T06:19:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7912730.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773381472871_e6a9c575",
-      "title": "消息称亚马逊计划将 2026 年 Prime Day 会员日大促提前至 6 月下旬",
-      "summary": "IT之家 3 月 13 日消息，彭博社在当地时间 12 日的报道中表示，根据知情人士的透露，全球电商巨头 Amazon 亚马逊计划将 2026 年的 Prime Day 会员日大促从传统的 7 月提前至 6 月下旬。",
-      "content": "IT之家 3 月 13 日消息，彭博社在当地时间 12 日的报道中表示，根据知情人士的透露，全球电商巨头 Amazon 亚马逊计划将 2026 年的 Prime Day 会员日大促从传统的 7 月提前至 6 月下旬。 图源：Pixabay 自 2015 年启动以来，Prime Day 这一年度例行促销活动一直是亚马逊吸引集中消费的重要手段之一。IT之家注意到，该企业 2025 年为提升新鲜感和吸引力将 Prime Day 全面从 2 天延长至 4 天，给消费者留出更多比价浏览的时间。 亚马逊 Prime Day 的表现已成为衡量整体消费者情绪的晴雨表，尤其是在当下这一经济不确定的时期。根据第三方统计数据，去年的亚马逊 Prime Day 和其它平台同期活动推动美国零售商线上销售总额提升了 30.3%。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/934a196d-8c69-452d-a6e0-a12bf198b13e.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-13T05:50:29.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/928/753.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773381434905_10fdeb41",
-      "title": "网易有道发布行业首个同传Agent",
-      "summary": "36氪获悉，网易有道率先推出行业首个“同传Agent”，继开源国内首个“龙虾”后再度加速Agent落地。目前用户可在有道词典/有道翻译首页进行体验。此次升级，有道同传Agent还新增录音转写功能，并在识别广度、准确率以及复杂场景适配性方面持续优化，为用户在真实场景中提供专业准确的结果。",
-      "content": "36氪获悉，网易有道率先推出行业首个“同传Agent”，继开源国内首个“龙虾”后再度加速Agent落地。目前用户可在有道词典/有道翻译首页进行体验。此次升级，有道同传Agent还新增录音转写功能，并在识别广度、准确率以及复杂场景适配性方面持续优化，为用户在真实场景中提供专业准确的结果。目前，该功能已支持 71种语言、125种口音的实时识别，不仅覆盖主流通用语言，还包括粤语、印度英语等常见特色口音，以适配更加多元的国际交流环境。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-13T05:49:10.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3720953040009608?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
