@@ -1,30 +1,66 @@
 {
   "success": true,
-  "timestamp": "2026-03-20T05:59:46.974Z",
-  "total": 98,
+  "timestamp": "2026-03-20T07:10:36.489Z",
+  "total": 96,
   "data": [
     {
-      "id": "news_1773986370214_10bb9abe",
-      "title": "Meta内部Agent失控升级：首个Sev 1级事故曝光，系统数据裸奔了两小时",
-      "summary": "Meta内部Agent失控升级：首个Sev 1级事故曝光，系统数据裸奔了两小时",
-      "content": "Meta内部Agent失控升级：首个Sev 1级事故曝光，系统数据裸奔了两小时",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-20T10:26:55.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/IfVHPs1luTCi7om8XzgR?utm_source=rss&utm_medium=article",
+      "id": "news_1773990635482_f52b990d",
+      "title": "美国最大外卖平台 DoorDash 为配送小哥提供有偿“副业”，同时训练自家 AI",
+      "summary": "IT之家 3 月 20 日消息，据外媒 Engadget 今日报道，美国最大外卖平台 DoorDash 推出名为“Tasks”的新功能，让平台配送员在送单间隙或空闲时间完成简单任务，从而获得额外收入。",
+      "content": "IT之家 3 月 20 日消息，据外媒 Engadget 今日报道，美国最大外卖平台 DoorDash 推出名为“Tasks”的新功能，让平台配送员在送单间隙或空闲时间完成简单任务，从而获得额外收入。 据IT之家了解，DoorDash 提供的任务包括拍摄餐厅菜品照片、录制非英语的自然对话视频等，内容将用于训练 AI 和机器人模型。 DoorDash 方面介绍，这些数据不仅用于评估自研 AI 模型，也会用于零售、保险、酒店和科技等合作伙伴的模型测试。该公司正在试运行一款独立的 Tasks 应用，配送员可以通过该应用提交内容。每项任务的报酬会提前标明，具体金额取决于任务复杂程度。 此前已有多家 AI 和机器人初创公司，通过向普通用户付费的方式获取训练数据。在行业频繁因未经授权使用版权内容而引发诉讼的背景下，这类做法提供了一种更直接的补偿机制。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/60a66a67-6a7b-4767-bcde-98c9ec466e82.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-20T07:07:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/931/002.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773986372261_5cd9b8c1",
-      "title": "智能体架构的降龙十八掌：从原型到工程落地的“生死取舍”｜QCon北京",
-      "summary": "智能体架构的降龙十八掌：从原型到工程落地的“生死取舍”｜QCon北京",
-      "content": "智能体架构的降龙十八掌：从原型到工程落地的“生死取舍”｜QCon北京",
+      "id": "news_1773990592831_924a89f5",
+      "title": "恒生科技指数跌幅扩大至3%",
+      "summary": "恒生科技指数跌幅扩大至3%",
+      "content": "36氪获悉，恒生科技指数跌幅扩大至3%。小米集团跌逾8%，阿里巴巴跌超7%。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-20T09:55:00.000Z",
+      "source": "36氪",
+      "publishedAt": "2026-03-20T07:04:32.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3730936172855552?f=rss",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773990598580_1541cbac",
+      "title": "腾讯云实现规模盈利，AI开始赚钱了？｜看财报",
+      "summary": "腾讯云实现规模盈利，AI开始赚钱了？｜看财报",
+      "content": "行业此前普遍存在“AI投入对应高亏损”的认知，本次腾讯财报的数据呈现出不同的特征。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-20T06:21:17.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7922270.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773990601946_735039b8",
+      "title": "北大团队推出AI自主全球直播，探讨脑机接口技术安全｜公司动态",
+      "summary": "北大团队推出AI自主全球直播，探讨脑机接口技术安全｜公司动态",
+      "content": "论论全球提出了一个解决方案：全面呼吁构建“开源科技文明”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-20T06:20:52.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7921889.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773990603950_cedb6ecf",
+      "title": "对话易点天下：Agent与过去有本质区别，安全风险不在于模型微调，而在于模型选择",
+      "summary": "对话易点天下：Agent与过去有本质区别，安全风险不在于模型微调，而在于模型选择",
+      "content": "核心业务场景落地，关键是要给Agent权力框定边界。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-20T06:17:17.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/3BUqAjZIrpKVwfbpKqBX?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/7921199.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -244,7 +280,19 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773986342998_0",
+      "id": "news_1773990617499_ae9bd36f",
+      "title": "从AI编程到Agent开发 九章云极智算云助力生态普惠升级",
+      "summary": "从AI编程到Agent开发 九章云极智算云助力生态普惠升级",
+      "content": "从AI编程到Agent开发 九章云极智算云助力生态普惠升级",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-19T15:04:13.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/d0fGGHB46WOiqtAUbgAF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1773990576434_0",
       "title": "AI Coding Startup Cursor Plans New Model to Rival Anthropic, OpenAI",
       "summary": "Cursor, a leading artificial intelligence startup for coding, is set to release a more efficient AI model for software development in a bid to keep pa...",
       "content": "Cursor, a leading artificial intelligence startup for coding, is set to release a more efficient AI model for software development in a bid to keep pace with larger firms like Anthropic PBC and OpenAI .\nThe company on Thursday plans to unveil Compose... [1075 chars]",
@@ -424,7 +472,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773986342534_1",
+      "id": "news_1773990575879_1",
       "title": "Has Google Gemini Surpassed ChatGPT in 2026? Latest Benchmarks and Expert Comparisons Reveal a Tight Race",
       "summary": "As of March 2026, the rivalry between Google's Gemini and OpenAI's ChatGPT remains one of the most closely watched battles in artificial intelligence....",
       "content": "As of March 2026, the rivalry between Google's Gemini and OpenAI's ChatGPT remains one of the most closely watched battles in artificial intelligence. What began as OpenAI's dominant launch with ChatGPT in late 2022 has evolved into a neck-and-neck c... [5159 chars]",
@@ -448,18 +496,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773986382291_ec546d81",
-      "title": "构建 AI 的“第二大脑”：大规模多模态记忆平台技术实践｜QCon北京",
-      "summary": "构建 AI 的“第二大脑”：大规模多模态记忆平台技术实践｜QCon北京",
-      "content": "构建 AI 的“第二大脑”：大规模多模态记忆平台技术实践｜QCon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-19T10:05:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/E8tbY8hNSjwU5iqxpY02?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1773917669902_38fb9173",
       "title": "GPT-5.4养龙虾太贵？OpenAI自己出手砍到了一折",
       "summary": "GPT-5.4养龙虾太贵？OpenAI自己出手砍到了一折",
@@ -472,7 +508,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773986343173_2",
+      "id": "news_1773990575886_2",
       "title": "Samsung Elec to supply HBM4 chips to OpenAI, South Korean paper says",
       "summary": "SEOUL, March 19 (Reuters) - Samsung Electronics (005930.KS), opens new tab plans to supply its next-generation high-bandwidth memory (HBM4) chips to O...",
       "content": "SEOUL, March 19 (Reuters) - Samsung Electronics (005930.KS), opens new tab plans to supply its next-generation high-bandwidth memory (HBM4) chips to OpenAI for use in the ​ChatGPT maker's first in-house artificial intelligence processor, the ‌Korean ... [267 chars]",
@@ -796,7 +832,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773986343534_3",
+      "id": "news_1773990576533_3",
       "title": "Participatory-informed preference optimization (PiPrO): A reinforcement learning simulation study",
       "summary": "Techniques to update algorithms based on feedback\nThere are already numerous existing techniques to achieve feedback on model performance. These metho...",
       "content": "Techniques to update algorithms based on feedback\nThere are already numerous existing techniques to achieve feedback on model performance. These methods include Reinforcement Learning with Human Feedback (RLHF), [15] Direct Preference Optimization (D... [14270 chars]",
@@ -1012,7 +1048,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1773986343522_4",
+      "id": "news_1773990576995_4",
       "title": "Microsoft threatens legal action over OpenAI’s $50B Amazon cloud deal",
       "summary": "The AI alliance that helped power Microsoft’s rise is now at risk of unraveling. Microsoft is weighing legal action against OpenAI over a $50 billion ...",
       "content": "The AI alliance that helped power Microsoft’s rise is now at risk of unraveling. Microsoft is weighing legal action against OpenAI over a $50 billion cloud agreement with Amazon—a deal that could redraw the balance of power in the infrastructure behi... [3119 chars]",
@@ -1118,66 +1154,6 @@
       "category": "国内AI",
       "originalUrl": "https://36kr.com/newsflashes/3728111395126406?f=rss",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773818063687_f94a6f1e",
-      "title": "腾讯QClaw实测：4000万Token天天到账，微信互联远程遥控，普通人“养虾”自由开始了？",
-      "summary": "腾讯QClaw实测：4000万Token天天到账，微信互联远程遥控，普通人“养虾”自由开始了？",
-      "content": "个人版智能体在复杂任务链上仍需人类老板“兜底”。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-18T07:07:44.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7918993.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773818091414_8fffc164",
-      "title": "AI 公司招募演员进行即兴表演，时薪最高 74 美元",
-      "summary": "IT之家 3 月 18 日消息，如果你是一名演员，你以后的工作或许是为一家人工智能公司进行表演。 据 Businessinsider 报道，招聘信息显示，Handshake AI 正在招募表演者，其中包括具备即兴表演能力的人员，要求他们与其他演员一起，针对“简单提示或场景”做出回应并录制视频。",
-      "content": "IT之家 3 月 18 日消息，如果你是一名演员，你以后的工作或许是为一家人工智能公司进行表演。 据 Businessinsider 报道，招聘信息显示，Handshake AI 正在招募表演者，其中包括具备即兴表演能力的人员，要求他们与其他演员一起，针对“简单提示或场景”做出回应并录制视频。 根据 Handshake 的介绍，这份工作为兼职、远程办公，要求应聘者至少拥有学士学位，时薪最高可达 74 美元（IT之家注：现汇率约合 510.1 元人民币）。该公司表示，对演员来说，这份工作“很容易与试镜、课程或排练兼顾”。 招聘信息中写道：“你将即兴演绎场景、塑造角色，并在当下做出自然反应，拥有充分的创作自由来决定每段互动的走向。”招聘详情中还嵌入了一段视频，内容是两人进行即兴对话。 该招聘称，此项目是为“一家头部人工智能公司”开展，但并未说明这些录制内容将如何使用。 Handshake 此前运营了约十年，是面向大学生和年轻职场人士的求职社交平台，去年该公司正式成立了人工智能部门。 在 Reddit 论坛上，有网友对 Handshake 收集这些录音录像的目的展开了讨论。一名用户发帖称：“这显然就是想让人们训练人工智能模型，用来生成 AI 视频。” 另一位网友则预测，即便这些内容被用来训练能创作喜剧的 AI，反而可能让市场更加需要人类“真实、未经打磨”的现场喜剧表演。 Handshake 的这则招聘，是人工智能公司正在招募各类职业人员（包括艺术与创意类岗位）的最新案例。 过去几年，人工智能训练类岗位不断增多。许多公司并不要求培训师具备人工智能相关经验或技术背景。不少学生或艺术从业者将这份工作当作副业，工作内容可能包括讲述童年回忆，甚至对 AI 进行“故意刁难”。 以网约车和外卖骑手等零工业务闻名的 Uber，也已拓展至人工智能训练领域，并专门招募拥有研究生学历、且具备非科技行业工作经验的培训人员。 许多人工智能训练岗位属于独立合同工，这意味着公司不会像对待全职员工那样，为其提供医疗保险、缴纳退休金等福利。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/4bcf6a1d-f80b-46ac-94fb-0ea23919f9ea.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-18T06:52:33.000Z",
-      "category": "AI趣味新闻",
-      "originalUrl": "https://www.ithome.com/0/930/261.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773818091585_fd08e53d",
-      "title": "微软、OpenAI 等六巨头注资 1250 万美元，携手 Linux 基金会整治“AI 垃圾报告”",
-      "summary": "IT之家 3 月 18 日消息，Linux 基金会昨日（3 月 17 日）发布公告，已获得 Anthropic、AWS、GitHub、谷歌、微软和 OpenAI 六家科技巨头 1250 万美元（IT之家注：现汇率约合 8616.9 万元人民币）注资，启动新计划帮助自由开源软件（FOSS）维护者抵御“...",
-      "content": "IT之家 3 月 18 日消息，Linux 基金会昨日（3 月 17 日）发布公告，已获得 Anthropic、AWS、GitHub、谷歌、微软和 OpenAI 六家科技巨头 1250 万美元（IT之家注：现汇率约合 8616.9 万元人民币）注资，启动新计划帮助自由开源软件（FOSS）维护者抵御“AI 垃圾漏洞报告”（AI slop）侵扰。 Linux 基金会在公告中指出，AI 技术的进步大幅加快了开源软件漏洞被发现的速度与规模，维护者目前正面临前所未有的安全报告激增，但其中多数由自动化系统生成。由于缺乏有效的分类和修复工具，这些庞杂且低价值的报告让维护者不堪重负。 Alpha-Omega（Linux 基金会旗下的供应链安全项目）将携手开源安全基金会（OpenSSF），共同运营这项新计划，直接与维护者及其社区合作，提供实用且契合现有工作流程的新型安全工具。 Linux 内核项目的 Greg Kroah-Hartman 强调，想要解决 AI 工具给开源安全团队造成的困扰，单纯依靠资金注资是无法实现的。 他同时表示，OpenSSF 拥有充足的活跃资源，可以通过多个项目支持那些被 AI 生成安全报告压得不堪重负的维护者，更高效地分类和处理这类报告。 不过，目前有关这项新计划的具体技术路径、实施方式以及时间表，Linux 基金会尚未给出进一步细节。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/9f59414e-2712-48c0-9758-eaf80a1333a6.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-18T06:49:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/930/258.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773818053915_ca74dab3",
-      "title": "松延动力在常熟成立科技新公司",
-      "summary": "36氪获悉，爱企查App显示，近日，松延智展（常熟）科技有限公司成立，法定代表人为姜哲源，注册资本3000万元人民币，经营范围包括人工智能理论与算法软件开发、服务消费机器人制造、智能机器人的研发等。股东信息显示，该公司由北京松延动力科技集团股份有限公司全资持股。",
-      "content": "36氪获悉，爱企查App显示，近日，松延智展（常熟）科技有限公司成立，法定代表人为姜哲源，注册资本3000万元人民币，经营范围包括人工智能理论与算法软件开发、服务消费机器人制造、智能机器人的研发等。股东信息显示，该公司由北京松延动力科技集团股份有限公司全资持股。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-18T06:47:51.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/newsflashes/3728075896634497?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773818092289_88dfb131",
-      "title": "Facebook 在 2025 年清理超 2000 万个仿冒知名创作者的账号",
-      "summary": "IT之家 3 月 18 日消息，根据 Facebook 当地时间 13 日发布的公告，这家 Meta 旗下的知名社交媒体平台在去年删除了超过 2000 万个仿冒大型内容创作者的账户，与大型内容创作者相关的冒充举报数量也下降了 33%。",
-      "content": "IT之家 3 月 18 日消息，根据 Facebook 当地时间 13 日发布的公告，这家 Meta 旗下的知名社交媒体平台在去年删除了超过 2000 万个仿冒大型内容创作者的账户，与大型内容创作者相关的冒充举报数量也下降了 33%。 与此同时，Facebook 上的原创内容在平台本身的优先推广下正愈发受到用户欢迎：数据显示，原创 Facebook Reels 短视频的观看次数和观看时长在 2025H2 同比增长了近 1 倍，这意味着原创作者获得了更大的内容货币化机会。 Facebook 还在测试一项新功能：为现有内容保护系统添加检测潜在仿冒行为的能力，并让原创作者能更便捷地进行举报投诉。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/7dda5223-dee7-4854-a970-76f17e91eab9.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-18T06:34:09.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/930/246.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
