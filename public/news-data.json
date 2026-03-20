@@ -1,31 +1,43 @@
 {
   "success": true,
-  "timestamp": "2026-03-20T10:50:53.264Z",
-  "total": 101,
+  "timestamp": "2026-03-20T11:39:36.614Z",
+  "total": 100,
   "data": [
     {
-      "id": "news_1774003842336_3e21484d",
-      "title": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
-      "summary": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
-      "content": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
+      "id": "news_1774006743473_42361baa",
+      "title": "黄仁勋谈太空数据中心：直接在太空处理数据是合乎逻辑的 太空冷却是最大难题之一",
+      "summary": "英伟达CEO黄仁勋在一档播客节目中承认了轨道计算的长期潜力。黄仁勋称，直接在太空处理数据（而不是将其传回地球）是合乎逻辑的下一步。与此同时，他也暗示在太空建立AI数据中心可能比想象中更难，并指出冷却是最大难题之一。",
+      "content": "英伟达CEO黄仁勋在一档播客节目中承认了轨道计算的长期潜力。黄仁勋称，直接在太空处理数据（而不是将其传回地球）是合乎逻辑的下一步。与此同时，他也暗示在太空建立AI数据中心可能比想象中更难，并指出冷却是最大难题之一。“太空冷却只能使用辐射散热，”黄仁勋说道，“这种方式需要非常大面积的散热装置，这样一来，系统就会变得复杂且成本高昂。”他表示，公司已在卫星上部署基于CUDA的系统，用于执行成像和AI处理任务。（财联社）",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-20T18:30:58.000Z",
+      "source": "36氪",
+      "publishedAt": "2026-03-20T11:27:06.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Z791iXT2AhuA0Fiz0pcs?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://36kr.com/newsflashes/3731194292928777?f=rss",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774003844342_04361ec4",
-      "title": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
-      "summary": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
-      "content": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
+      "id": "news_1774006750055_a209da31",
+      "title": "阿里惊魂：电商触顶，AI成“全村的希望”",
+      "summary": "阿里惊魂：电商触顶，AI成“全村的希望”",
+      "content": "“大象”转身，举步维艰。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-20T18:11:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/l7LKI978i4PjYLAhabiZ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "钛媒体",
+      "publishedAt": "2026-03-20T11:24:08.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7922891.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774006752882_83465f19",
+      "title": "Tencent Cloud Achieves Scaled Profitability for First Time in 2025",
+      "summary": "There had previously been a widespread belief across the industry that “AI investment goes hand in hand with heavy losses,” but the figures in this Te...",
+      "content": "There had previously been a widespread belief across the industry that “AI investment goes hand in hand with heavy losses,” but the figures in this Tencent earnings report told a different story.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-20T11:05:15.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/7922942.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774003820749_636776db",
@@ -37,18 +49,6 @@
       "publishedAt": "2026-03-20T10:38:50.000Z",
       "category": "国内AI",
       "originalUrl": "https://36kr.com/newsflashes/3731146841587971?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774003846315_10bb9abe",
-      "title": "Meta内部Agent失控升级：首个Sev 1级事故曝光，系统数据裸奔了两小时",
-      "summary": "Meta内部Agent失控升级：首个Sev 1级事故曝光，系统数据裸奔了两小时",
-      "content": "Meta内部Agent失控升级：首个Sev 1级事故曝光，系统数据裸奔了两小时",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-20T10:26:55.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/IfVHPs1luTCi7om8XzgR?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -73,18 +73,6 @@
       "publishedAt": "2026-03-20T10:20:45.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/931/126.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774003848355_5cd9b8c1",
-      "title": "智能体架构的降龙十八掌：从原型到工程落地的“生死取舍”｜QCon北京",
-      "summary": "智能体架构的降龙十八掌：从原型到工程落地的“生死取舍”｜QCon北京",
-      "content": "智能体架构的降龙十八掌：从原型到工程落地的“生死取舍”｜QCon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-20T09:55:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/3BUqAjZIrpKVwfbpKqBX?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -448,7 +436,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774003806711_0",
+      "id": "news_1774006727133_0",
       "title": "AI Coding Startup Cursor Plans New Model to Rival Anthropic, OpenAI",
       "summary": "Cursor, a leading artificial intelligence startup for coding, is set to release a more efficient AI model for software development in a bid to keep pa...",
       "content": "Cursor, a leading artificial intelligence startup for coding, is set to release a more efficient AI model for software development in a bid to keep pace with larger firms like Anthropic PBC and OpenAI .\nThe company on Thursday plans to unveil Compose... [1075 chars]",
@@ -628,7 +616,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774003808021_1",
+      "id": "news_1774006727940_1",
       "title": "Has Google Gemini Surpassed ChatGPT in 2026? Latest Benchmarks and Expert Comparisons Reveal a Tight Race",
       "summary": "As of March 2026, the rivalry between Google's Gemini and OpenAI's ChatGPT remains one of the most closely watched battles in artificial intelligence....",
       "content": "As of March 2026, the rivalry between Google's Gemini and OpenAI's ChatGPT remains one of the most closely watched battles in artificial intelligence. What began as OpenAI's dominant launch with ChatGPT in late 2022 has evolved into a neck-and-neck c... [5159 chars]",
@@ -664,7 +652,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774003806719_2",
+      "id": "news_1774006727642_2",
       "title": "Samsung Elec to supply HBM4 chips to OpenAI, South Korean paper says",
       "summary": "SEOUL, March 19 (Reuters) - Samsung Electronics (005930.KS), opens new tab plans to supply its next-generation high-bandwidth memory (HBM4) chips to O...",
       "content": "SEOUL, March 19 (Reuters) - Samsung Electronics (005930.KS), opens new tab plans to supply its next-generation high-bandwidth memory (HBM4) chips to OpenAI for use in the ​ChatGPT maker's first in-house artificial intelligence processor, the ‌Korean ... [267 chars]",
@@ -988,7 +976,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774003807613_3",
+      "id": "news_1774006728252_3",
       "title": "Participatory-informed preference optimization (PiPrO): A reinforcement learning simulation study",
       "summary": "Techniques to update algorithms based on feedback\nThere are already numerous existing techniques to achieve feedback on model performance. These metho...",
       "content": "Techniques to update algorithms based on feedback\nThere are already numerous existing techniques to achieve feedback on model performance. These methods include Reinforcement Learning with Human Feedback (RLHF), [15] Direct Preference Optimization (D... [14270 chars]",
@@ -1204,7 +1192,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774003807317_4",
+      "id": "news_1774006727634_4",
       "title": "Microsoft threatens legal action over OpenAI’s $50B Amazon cloud deal",
       "summary": "The AI alliance that helped power Microsoft’s rise is now at risk of unraveling. Microsoft is weighing legal action against OpenAI over a $50 billion ...",
       "content": "The AI alliance that helped power Microsoft’s rise is now at risk of unraveling. Microsoft is weighing legal action against OpenAI over a $50 billion cloud agreement with Amazon—a deal that could redraw the balance of power in the infrastructure behi... [3119 chars]",
