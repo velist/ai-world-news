@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-03-21T04:44:37.849Z",
-  "total": 93,
+  "timestamp": "2026-03-21T05:50:14.747Z",
+  "total": 94,
   "data": [
+    {
+      "id": "news_1774072200272_f491e2f7",
+      "title": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
+      "summary": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
+      "content": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-21T09:54:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/VGTtEPwPCd101Iwm9wQi?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774072202225_d523db0c",
+      "title": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
+      "summary": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
+      "content": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-21T08:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/QhXW1UCVYwHtx7W9EdDp?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1774068250879_154a4150",
       "title": "报告：影石全景相机及拇指相机全球市占双第一，增速强劲",
@@ -29,6 +53,18 @@
     },
     {
       "id": "news_1774068276295_c6f36cdf",
+      "title": "西北地区唯一三网接入，国家顶级域名（新疆）解析节点正式上线运行",
+      "summary": "IT之家 3 月 21 日消息，新疆通信管理局昨日宣布，国家顶级域名（新疆）解析节点已于 3 月 16 日正式上线运行，面向全疆提供互联网域名解析服务。 该节点是西北地区唯一同时接入中国电信、中国移动、中国联通三家基础电信企业的解析节点，标志着新疆具备了国家顶级域名的本地化解析能力。",
+      "content": "IT之家 3 月 21 日消息，新疆通信管理局昨日宣布，国家顶级域名（新疆）解析节点已于 3 月 16 日正式上线运行，面向全疆提供互联网域名解析服务。 该节点是西北地区唯一同时接入中国电信、中国移动、中国联通三家基础电信企业的解析节点，标志着新疆具备了国家顶级域名的本地化解析能力。 IT之家注：国家顶级域名解析节点是互联网关键信息基础设施，主要实现“.CN”等国家顶级域名的权威解析，是互联网的“导航系统”、网络空间的“中枢神经”。 据官方介绍，新疆节点由新疆通信管理局、中国互联网络信息中心和三大电信运营商共同建设，是工信系统产业援疆项目之一。目前，该系统日均承载解析量达 2.42 亿次，疆内用户域名解析时延从 45.62 毫秒降至 11.14 毫秒，提速 76%，有效提升了新疆地区的互联网访问质量与稳定性。 新疆节点的建成运行，解决了长期以来疆内用户访问“.CN”域名需跨省绕转、网络跳数多、时延长、自主安全性难以保障等问题，降低了物理距离对网络效率的影响。该节点的投用为“数字新疆”建设提供了重要的基础设施支撑。 相关阅读： 《国家顶级域名（雄安）解析节点正式上线，河北移动用户访问解析时延下降至 9.52ms》 《国家顶级域名解析服务深圳交换中心节点上线，大幅提升广东用户访问互联网速度》 《国家顶级域名西藏解析节点正式上线提供服务》 《中国互联网络信息中心开展“.CN”域名推广活动，普及国家顶级域名》 《中央网信办：我国网民规模、国家顶级域名注册量均为全球第一》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/8e0959ca-d117-4f78-8c20-2f2ea1ee3f43.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-21T04:00:27.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/931/247.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774072213670_c6f36cdf",
       "title": "西北地区唯一三网接入，国家顶级域名（新疆）解析节点正式上线运行",
       "summary": "IT之家 3 月 21 日消息，新疆通信管理局昨日宣布，国家顶级域名（新疆）解析节点已于 3 月 16 日正式上线运行，面向全疆提供互联网域名解析服务。 该节点是西北地区唯一同时接入中国电信、中国移动、中国联通三家基础电信企业的解析节点，标志着新疆具备了国家顶级域名的本地化解析能力。",
       "content": "IT之家 3 月 21 日消息，新疆通信管理局昨日宣布，国家顶级域名（新疆）解析节点已于 3 月 16 日正式上线运行，面向全疆提供互联网域名解析服务。 该节点是西北地区唯一同时接入中国电信、中国移动、中国联通三家基础电信企业的解析节点，标志着新疆具备了国家顶级域名的本地化解析能力。 IT之家注：国家顶级域名解析节点是互联网关键信息基础设施，主要实现“.CN”等国家顶级域名的权威解析，是互联网的“导航系统”、网络空间的“中枢神经”。 据官方介绍，新疆节点由新疆通信管理局、中国互联网络信息中心和三大电信运营商共同建设，是工信系统产业援疆项目之一。目前，该系统日均承载解析量达 2.42 亿次，疆内用户域名解析时延从 45.62 毫秒降至 11.14 毫秒，提速 76%，有效提升了新疆地区的互联网访问质量与稳定性。 新疆节点的建成运行，解决了长期以来疆内用户访问“.CN”域名需跨省绕转、网络跳数多、时延长、自主安全性难以保障等问题，降低了物理距离对网络效率的影响。该节点的投用为“数字新疆”建设提供了重要的基础设施支撑。 相关阅读： 《国家顶级域名（雄安）解析节点正式上线，河北移动用户访问解析时延下降至 9.52ms》 《国家顶级域名解析服务深圳交换中心节点上线，大幅提升广东用户访问互联网速度》 《国家顶级域名西藏解析节点正式上线提供服务》 《中国互联网络信息中心开展“.CN”域名推广活动，普及国家顶级域名》 《中央网信办：我国网民规模、国家顶级域名注册量均为全球第一》",
@@ -194,6 +230,30 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/931/189.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774072204190_3e21484d",
+      "title": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
+      "summary": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
+      "content": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-20T18:30:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Z791iXT2AhuA0Fiz0pcs?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774072206435_04361ec4",
+      "title": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
+      "summary": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
+      "content": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-20T18:11:50.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/l7LKI978i4PjYLAhabiZ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774018431101_a9e54c1f",
@@ -532,7 +592,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774068238935_0",
+      "id": "news_1774072174293_0",
       "title": "AI Won't Kill Movies. Tom Cruise and Brad Pitt Can Relax",
       "summary": "Justin Hackney is used to being ostracized. The movie producer, who played “the infected kid” in director Danny Boyle’s 28 Days Later, shadowed Boyle ...",
       "content": "Justin Hackney is used to being ostracized. The movie producer, who played “the infected kid” in director Danny Boyle’s 28 Days Later, shadowed Boyle for years and then pivoted into tech halfway through his career, taking roles with OpenAI and Eleven... [816 chars]",
@@ -676,7 +736,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774068238563_1",
+      "id": "news_1774072175063_1",
       "title": "AI Coding Startup Cursor Plans New Model to Rival Anthropic, OpenAI",
       "summary": "Cursor, a leading artificial intelligence startup for coding, is set to release a more efficient AI model for software development in a bid to keep pa...",
       "content": "Cursor, a leading artificial intelligence startup for coding, is set to release a more efficient AI model for software development in a bid to keep pace with larger firms like Anthropic PBC and OpenAI .\nThe company on Thursday plans to unveil Compose... [1075 chars]",
@@ -856,7 +916,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774068238455_2",
+      "id": "news_1774072174217_2",
       "title": "Has Google Gemini Surpassed ChatGPT in 2026? Latest Benchmarks and Expert Comparisons Reveal a Tight Race",
       "summary": "As of March 2026, the rivalry between Google's Gemini and OpenAI's ChatGPT remains one of the most closely watched battles in artificial intelligence....",
       "content": "As of March 2026, the rivalry between Google's Gemini and OpenAI's ChatGPT remains one of the most closely watched battles in artificial intelligence. What began as OpenAI's dominant launch with ChatGPT in late 2022 has evolved into a neck-and-neck c... [5159 chars]",
@@ -892,7 +952,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774068239353_3",
+      "id": "news_1774072174441_3",
       "title": "Samsung Elec to supply HBM4 chips to OpenAI, South Korean paper says",
       "summary": "SEOUL, March 19 (Reuters) - Samsung Electronics (005930.KS), opens new tab plans to supply its next-generation high-bandwidth memory (HBM4) chips to O...",
       "content": "SEOUL, March 19 (Reuters) - Samsung Electronics (005930.KS), opens new tab plans to supply its next-generation high-bandwidth memory (HBM4) chips to OpenAI for use in the ​ChatGPT maker's first in-house artificial intelligence processor, the ‌Korean ... [267 chars]",
@@ -1070,54 +1130,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/930/631.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773904172384_2ebd1880",
-      "title": "五大模型如何给企业“定价”？｜济安学派",
-      "summary": "五大模型如何给企业“定价”？｜济安学派",
-      "content": "与其用一把尺子量世界，不如换几把不同的尺子，从不同角度去测同一个东西。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-19T05:28:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7920883.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773904181070_270dbed2",
-      "title": "黄仁勋与全球最火AI初创公司CEO们，都聊了什么",
-      "summary": "黄仁勋与全球最火AI初创公司CEO们，都聊了什么",
-      "content": "OpenClaw只是开始，AI的终极形态是什么？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-19T05:22:03.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7920735.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773904182325_450adeb3",
-      "title": "阅文2025财报：IP+AI进入验证期，第二曲线能否成型？",
-      "summary": "阅文2025财报：IP+AI进入验证期，第二曲线能否成型？",
-      "content": "综合来看，阅文2025年的财报是一份典型的结构调整期答卷。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-19T05:21:54.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7920710.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773896551105_607fbfc8",
-      "title": "58 同城姚劲波：不必担心 AI 取代人，我们这一代人应该能够实现一周 4 天工作制",
-      "summary": "IT之家 3 月 19 日消息，2026 亚布力论坛年会于 3 月 17 日-19 日在黑龙江亚布力举办。在今日的闭幕式上，亚布力论坛联席轮值主席、58 同城（集团）董事长兼 CEO 姚劲波发表闭幕致辞。",
-      "content": "IT之家 3 月 19 日消息，2026 亚布力论坛年会于 3 月 17 日-19 日在黑龙江亚布力举办。在今日的闭幕式上，亚布力论坛联席轮值主席、58 同城（集团）董事长兼 CEO 姚劲波发表闭幕致辞。 姚劲波表示，AI 的使命是解放人，而非淘汰人，很多人对 AI 有焦虑，担心取代人力，其实大可不必。在 58 同城的业务实践里，AI 在帮我们优化服务流程，提升匹配的效率，降低运营成本，把人力从繁琐的重复性工作解放出来，去做更有价值的创新与决策。 姚劲波还称：“我预测，我们这一代人，所有人应该能够见到一周 4 天工作制，我们不只是有周六周日的假期，我们还有周五、周六、周日三天的这个长假，多出来的一天就是 AI 技术的效率提升带来的。我再预测，我们的下一代，去工作应该不是一个被默认是必须的，而是可选的爱好，我们并不需要那么多人去做重复性的工作，我们的工作可以成为一种兴趣。” 姚劲波认为，无论是 AI 助力企业降本增效，还是机器人赋能实体经济，AI 会改变所有人、所有企业，也创造巨大的机遇。AI 变革带来的规模比上一代互联网还要大十倍。互联网时代能够诞生马云、马化腾等成功的互联网企业家，AI 时代也将创造新一代的成功企业和企业家。 IT之家注意到，58 集团旗下 58 到家平台本月携手自变量机器人，在深圳正式推出了一项全新的智能保洁家庭服务。全球首个机器人保洁员正式“上岗”，与保洁阿姨协同作业完成家庭清洁服务。 在单次约 3 小时左右的服务中，阿姨和机器人分工明确：保洁阿姨主要承担与客户沟通、现场判断以及更复杂的深度保洁工作，机器人主要负责客厅区域的收纳和基础清洁。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/fd892098-43fd-479d-9b3c-ad335098a676.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1",
-      "source": "IT之家",
-      "publishedAt": "2026-03-19T04:54:01.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/930/597.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
