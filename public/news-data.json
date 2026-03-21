@@ -1,30 +1,102 @@
 {
   "success": true,
-  "timestamp": "2026-03-21T02:41:14.255Z",
+  "timestamp": "2026-03-21T04:44:37.849Z",
   "total": 93,
   "data": [
     {
-      "id": "news_1774060864178_f491e2f7",
-      "title": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
-      "summary": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
-      "content": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
+      "id": "news_1774068250879_154a4150",
+      "title": "报告：影石全景相机及拇指相机全球市占双第一，增速强劲",
+      "summary": "3月21日，IDC发布2025全球手持智能相机报告，市场高速增长，全景相机突破12.12亿美元、同比大增88%。影石Insta360以66%市占率蝉联全球全景相机第一，拇指相机销售额以57%份额登顶全球第一，广义运动相机销售额位居全球前列第二。",
+      "content": "3月21日，IDC发布2025全球手持智能相机报告，市场高速增长，全景相机突破12.12亿美元、同比大增88%。影石Insta360以66%市占率蝉联全球全景相机第一，拇指相机销售额以57%份额登顶全球第一，广义运动相机销售额位居全球前列第二。数据显示，影石广角、全景、拇指相机销售额分别同比增长321%、61%、89%，整体广义运动相机销售额增幅则达97.5%。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-21T09:54:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/VGTtEPwPCd101Iwm9wQi?utm_source=rss&utm_medium=article",
+      "source": "36氪",
+      "publishedAt": "2026-03-21T04:33:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3732202908516610?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774068276131_4c223fac",
+      "title": "AI 算力卷向太空，英伟达黄仁勋称散热是最大挑战",
+      "summary": "IT之家 3 月 21 日消息，本周四在 All-In Podcast 播客节目中，英伟达首席执行官黄仁勋公开探讨了太空 AI 数据中心的长期潜力，并指出散热是最大难题，想要解决可能需要数年时间。",
+      "content": "IT之家 3 月 21 日消息，本周四在 All-In Podcast 播客节目中，英伟达首席执行官黄仁勋公开探讨了太空 AI 数据中心的长期潜力，并指出散热是最大难题，想要解决可能需要数年时间。 黄仁勋表示随着全球 AI 算力需求呈指数级激增，科技巨头正积极寻找传统高能耗数据中心之外的替代方案，而太空数据中心正成为极具吸引力的新方向。 黄仁勋强调，虽然目前人类仍需优先建设地面基础设施，但提前布局太空计算网络同样至关重要，太空拥有充沛的太阳能与几乎无限的物理空间。 不过黄仁勋也挑明建设太空数据中心存在诸多挑战，最大技术壁垒就是散热。在地球上，数据中心主要依靠传导和对流来散发热量；但在真空的太空中，这些常规方法完全失效。 IT之家援引博文介绍，太空设备只能依赖“辐射”来散热，这意味着需要极其庞大的表面积才能有效释放热量，从而导致系统设计极其复杂。此外，高昂的硬件发射与基建成本也是目前核心的经济制约因素。 尽管困难重重，英伟达目前已经迈出了太空计算的实质性步伐。黄仁勋透露，英伟达的 CUDA 系统已经成功部署在部分卫星上，直接用于执行图像处理和 AI 计算任务。 相比于将海量数据通过网络传回地球处理，直接在太空中完成数据运算是更符合逻辑的演进方向。他强调，这种在轨处理模式正是太空探索的未来趋势。 为了巩固硬件领先地位，英伟达在近期的 GPU 技术大会上发布了专为太空 AI 计算打造的 Space-1 Vera Rubin 模块。同时，黄仁勋确认其 THOR 芯片已经通过了严格的“防辐射认证”。 在行业层面，不仅是英伟达，埃隆 · 马斯克以及谷歌（Alphabet）等科技巨头目前都在积极探索太空数据中心的可行性，以满足未来庞大的 AI 需求。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/101b0094-b5f4-44e0-880d-ae158fb66a63.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1",
+      "source": "IT之家",
+      "publishedAt": "2026-03-21T04:14:42.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/931/249.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774068276295_c6f36cdf",
+      "title": "西北地区唯一三网接入，国家顶级域名（新疆）解析节点正式上线运行",
+      "summary": "IT之家 3 月 21 日消息，新疆通信管理局昨日宣布，国家顶级域名（新疆）解析节点已于 3 月 16 日正式上线运行，面向全疆提供互联网域名解析服务。 该节点是西北地区唯一同时接入中国电信、中国移动、中国联通三家基础电信企业的解析节点，标志着新疆具备了国家顶级域名的本地化解析能力。",
+      "content": "IT之家 3 月 21 日消息，新疆通信管理局昨日宣布，国家顶级域名（新疆）解析节点已于 3 月 16 日正式上线运行，面向全疆提供互联网域名解析服务。 该节点是西北地区唯一同时接入中国电信、中国移动、中国联通三家基础电信企业的解析节点，标志着新疆具备了国家顶级域名的本地化解析能力。 IT之家注：国家顶级域名解析节点是互联网关键信息基础设施，主要实现“.CN”等国家顶级域名的权威解析，是互联网的“导航系统”、网络空间的“中枢神经”。 据官方介绍，新疆节点由新疆通信管理局、中国互联网络信息中心和三大电信运营商共同建设，是工信系统产业援疆项目之一。目前，该系统日均承载解析量达 2.42 亿次，疆内用户域名解析时延从 45.62 毫秒降至 11.14 毫秒，提速 76%，有效提升了新疆地区的互联网访问质量与稳定性。 新疆节点的建成运行，解决了长期以来疆内用户访问“.CN”域名需跨省绕转、网络跳数多、时延长、自主安全性难以保障等问题，降低了物理距离对网络效率的影响。该节点的投用为“数字新疆”建设提供了重要的基础设施支撑。 相关阅读： 《国家顶级域名（雄安）解析节点正式上线，河北移动用户访问解析时延下降至 9.52ms》 《国家顶级域名解析服务深圳交换中心节点上线，大幅提升广东用户访问互联网速度》 《国家顶级域名西藏解析节点正式上线提供服务》 《中国互联网络信息中心开展“.CN”域名推广活动，普及国家顶级域名》 《中央网信办：我国网民规模、国家顶级域名注册量均为全球第一》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/8e0959ca-d117-4f78-8c20-2f2ea1ee3f43.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-21T04:00:27.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/931/247.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774068276400_0b034d97",
+      "title": "月之暗面回应“Cursor 使用 Kimi K2.5 作为 AI 底座”事件，另外感谢马斯克发声",
+      "summary": "IT之家 3 月 21 日消息，@月之暗面Kimi 官方账号今天（3 月 21 日）发布微博，回应称 Kimi K2.5 为 Composer 2 提供了底座，Cursor 是通过 Fireworks 的托管推理与 RL 平台接入该模型，属于授权商业合作。",
+      "content": "IT之家 3 月 21 日消息，@月之暗面Kimi 官方账号今天（3 月 21 日）发布微博，回应称 Kimi K2.5 为 Composer 2 提供了底座，Cursor 是通过 Fireworks 的托管推理与 RL 平台接入该模型，属于授权商业合作。 AI 编程平台 Cursor 推出 Composer 2 和 Composer 2 Fast 两款编程模型，主打“长周期智能体编程”，具备 20 万 Token 上下文窗口，专为 Cursor 环境内的复杂多步任务深度优化。 不过在 Composer 2 发布后，网友 @fynnso 发现 Composer 2 疑似套用 Kimi-k2.5 模型，在操作 base URL 后发现“accounts/anysphere/models/kimi-k2p5-rl-0317-s515-fast”，推测 Composer 2 就是带 RL 的 Kimi K2.5。 在舆论发酵后，埃隆 · 马斯克也评论指出：“没错，这就是 Kimi 2.5”。 Kimi 昨日发布微博，感谢马斯克的力挺： Kimi 今天发布微博，IT之家附上微博内容如下： 一则声明 恭喜 Cursor 团队发布 Composer 2！ 我们自豪地看到 Kimi K2.5 为其奠定基础。看到我们的模型通过 Cursor 的持续预训练与高强度 RL 训练被高效集成，正是我们乐于支持的开放模型生态。 注意：Cursor 通过 Fireworks AI 托管的强化学习与推理平台接入 Kimi K2.5，这是作为授权商业合作的一部分。 前端开发者、Cursor 开发者体验副总裁 Lee Robinson 发文称：“我非常支持开源软件，尤其是在人工智能技术不断进步的今天。从一开始就没在博客里提到 Kimi 基地，这确实是个疏忽。我们会在下一款模型中弥补这个不足。”",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/ca5da5bd-d1a7-4927-9487-d9c8ee249971.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-21T03:55:27.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/931/246.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774060865786_d523db0c",
-      "title": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
-      "summary": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
-      "content": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
+      "id": "news_1774068276551_0e0cbe57",
+      "title": "研究称全球发病率约 10% 的慢性肾病可激活致命脑部病毒",
+      "summary": "IT之家 3 月 21 日消息，科技媒体 Ars Technica 今天（3 月 21 日）发布博文，报道称研究人员发现全球发病率高达 10% 的慢性肾脏病（CKD），正成为诱发进行性多灶性白质脑病（PML）致命脑部感染的“隐性通道”。",
+      "content": "IT之家 3 月 21 日消息，科技媒体 Ars Technica 今天（3 月 21 日）发布博文，报道称研究人员发现全球发病率高达 10% 的慢性肾脏病（CKD），正成为诱发进行性多灶性白质脑病（PML）致命脑部感染的“隐性通道”。 该报道聚焦名为 JC 病毒（人类多瘤病毒 2 型）的隐秘病原体，预估能感染全球约 90% 的人，该病毒通常在人体细胞内安静潜伏一生，不会引起任何不适，绝大多数感染者对此毫无察觉，但免疫力极度低下时可能会“苏醒”作恶。 科学家于 1971 年首次从患者约翰 · 坎宁安（John Cunningham）体内分离出该病毒，并以此为其命名。JC 病毒首先感染人体的扁桃体或胃肠道，在感染初期，人体感染的是“原型 JC 病毒”，这一阶段完全没有任何症状。 随后，病毒会在人体内建立起持续终生却毫无声息的隐性感染，绝大多数人终其一生都不会受到实质性伤害。 不过病毒一旦苏醒，便会重组自身的遗传物质，突变为极具攻击性的“PML 型”JC 病毒。突变后的病毒会疯狂入侵大脑，精准破坏形成绝缘髓鞘的特定脑细胞（少突胶质细胞）。 髓鞘的大面积脱落会导致神经细胞功能丧失甚至死亡，进而引发进行性多灶性白质脑病（PML）。患者随后会出现类似中风或多发性硬化症的症状，包括语言障碍、视觉缺陷、运动功能障碍以及癫痫发作。 研究人员发现，全球发病率约为 10% 的慢性肾脏病（CKD），正悄然成为诱发这种致命脑部感染的“隐性通道”。即使没有使用免疫抑制类药物，肾病患者也可能面临极高的病毒入侵风险。 而最新研究详细记录了一起典型病例。一名患有终末期肾病（尿毒症）的 72 岁男性，因突发间歇性失语、意识模糊和全身乏力被紧急送医。 医生起初怀疑这是尿毒症引发的脑病，但在入院 48 小时后，患者的语言障碍急剧恶化。经过脑部核磁共振（MRI）扫描，医生在其大脑白质中发现了典型的脱髓鞘病变。 随后，脑脊液检测确认了 JC 病毒的存在，患者被正式诊断为 PML。遗憾的是，该患者病情迅速恶化，在确诊仅 2 天后便不幸离世。 为什么普通的肾病会引发罕见的脑部病毒感染？研究揭示了背后的致命机制：慢性肾脏病会引发一种名为“免疫瘫痪”的状态。 随着肾功能衰退，体内蓄积的尿毒症毒素（如吲哚硫酸盐）会严重破坏免疫细胞的功能，导致 T 细胞耗竭和白细胞防御力下降。 这种慢性炎症环境不仅让免疫系统加速衰老，更让原本潜伏在人体内的 JC 病毒得以苏醒，进而长驱直入破坏中枢神经系统。 这一致命病例为全球医学界敲响了警钟，由于慢性肾病引发的 PML 极为罕见且隐蔽，临床医生极易漏诊。 专家呼吁，当肾病患者出现新发、进行性的神经系统症状（如失语、认知障碍或步态不稳）时，必须高度警惕 PML 的可能。 IT之家附上参考地址 Beyond Uremia: Chronic Kidney Disease as a Cryptic Gateway for Opportunistic Neuroinvasion by John Cunningham Virus",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/749d282b-0ba0-46c9-8e71-a26e370dcbda.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-21T03:12:42.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/931/238.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774068257351_b3909b2d",
+      "title": "谁在制造AI天才？",
+      "summary": "谁在制造AI天才？",
+      "content": "姚顺雨、杨植麟、林俊旸、罗福莉……天才，为什么在批量涌现。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-21T08:00:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-21T02:57:08.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/QhXW1UCVYwHtx7W9EdDp?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/7923551.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774068259240_ef71a782",
+      "title": "Nat Commun：南方医科大学肖中举团队揭示感官诱导逃逸背后的神经机制",
+      "summary": "该研究表明TeA不同神经元亚型的功能分工，揭示了TeA‑dPAG 通路在多模态感觉整合与奔跑/逃避行为中的关键调控作用，为理解感觉信息向运动输出转化的皮层‑皮层下环路机制提供了新的实验依据，也为防御行为与运动调控相关的神经机制研究提供了重要参考。",
+      "content": "该研究表明TeA不同神经元亚型的功能分工，揭示了TeA‑dPAG 通路在多模态感觉整合与奔跑/逃避行为中的关键调控作用，为理解感觉信息向运动输出转化的皮层‑皮层下环路机制提供了新的实验依据，也为防御行为与运动调控相关的神经机制研究提供了重要参考。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-21T02:56:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7923272.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774068276847_44e697d2",
+      "title": "穿透 85 米火星地层：“毅力号”发现约 40 亿年前形成的隐藏三角洲",
+      "summary": "IT之家 3 月 21 日消息，科技媒体 Wccftech 今天（3 月 21 日）发布博文，报道称来自加州大学洛杉矶分校（UCLA）的科研团队深入分析美国宇航局“毅力号”火星车收集的雷达数据，在火星耶泽罗陨石坑（Jezero Crater）西部三角洲下方数十米处，发现了一个更古老的隐藏地下河口三角...",
+      "content": "IT之家 3 月 21 日消息，科技媒体 Wccftech 今天（3 月 21 日）发布博文，报道称来自加州大学洛杉矶分校（UCLA）的科研团队深入分析美国宇航局“毅力号”火星车收集的雷达数据，在火星耶泽罗陨石坑（Jezero Crater）西部三角洲下方数十米处，发现了一个更古老的隐藏地下河口三角洲。 “毅力号”火星车于 2021 年登陆耶泽罗陨石坑，目的是在干涸的湖床中搜寻远古生命的迹象。科学家们的目光此前一直聚焦于陨石坑内壮观的西部三角洲。 不过天体生物学家艾米丽 · 卡达雷利（Emily L. Cardarelli）带领下，来自加州大学洛杉矶分校（UCLA）的科研团队分析数据，在现有地貌下方数十米处，探测到了另一个更古老的隐藏地下河口三角洲。 这一突破得益于“毅力号”搭载的火星地下实验雷达成像仪（RIMFAX）。在 2023 年 9 月至 2024 年 2 月的 250 多个火星日里，“毅力号”驶过了一片被称为“边缘单元”的地质区。 图源：美国宇航局 该区域富含碳酸镁，而碳酸镁在地球上极易保存生命的化学指纹。雷达信号在这里穿透了超过 35 米的深度，探测深度是此前区域的 1.75 倍。团队据此推测，该地层的实际厚度至少达到 85 至 90 米。 图源：论文 在这些深层数据中，雷达揭示了高度结构化的地质特征。图像显示，地下存在向陨石坑中心倾斜 3 至 15 度的平行沉积层。当湍急的河流汇入平静的湖泊时，会依次沉积形成顶积层、前积层和底积层。 雷达精确捕捉到了这些过渡特征。这表明，该区域并非只经历过一次短暂的泥石流，而是长期存在着活跃的水流活动，不断将沉积物搬运至此。 该隐藏三角洲形成于距今约 42 亿至 37 亿年前的诺亚纪。深层沉积层的存在有力地证明，早期的火星并非只有短暂的湿润期，而是长期维持着能够大规模搬运沉积物的稳定水环境。 尽管团队也考虑了火山灰或冰川融水等其他成因假说，但地下特征的数量、规模和复杂性让他们更倾向于“河流三角洲”理论。如果火星上曾存在微生物，这种长期稳定的水环境将为其提供充足的营养和化学能。 IT之家附上参考地址 Ground penetrating radar observations of ancient large-scale deltaic structures in Jezero crater, Mars",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/ac98d376-8107-46b5-a3d4-a8376b505dd4.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-21T02:41:50.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/931/234.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -122,30 +194,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/931/189.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774060867253_3e21484d",
-      "title": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
-      "summary": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
-      "content": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-20T18:30:58.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Z791iXT2AhuA0Fiz0pcs?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774060868515_04361ec4",
-      "title": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
-      "summary": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
-      "content": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-20T18:11:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/l7LKI978i4PjYLAhabiZ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774018431101_a9e54c1f",
@@ -484,7 +532,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774060837899_0",
+      "id": "news_1774068238935_0",
       "title": "AI Won't Kill Movies. Tom Cruise and Brad Pitt Can Relax",
       "summary": "Justin Hackney is used to being ostracized. The movie producer, who played “the infected kid” in director Danny Boyle’s 28 Days Later, shadowed Boyle ...",
       "content": "Justin Hackney is used to being ostracized. The movie producer, who played “the infected kid” in director Danny Boyle’s 28 Days Later, shadowed Boyle for years and then pivoted into tech halfway through his career, taking roles with OpenAI and Eleven... [816 chars]",
@@ -628,7 +676,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774060837818_1",
+      "id": "news_1774068238563_1",
       "title": "AI Coding Startup Cursor Plans New Model to Rival Anthropic, OpenAI",
       "summary": "Cursor, a leading artificial intelligence startup for coding, is set to release a more efficient AI model for software development in a bid to keep pa...",
       "content": "Cursor, a leading artificial intelligence startup for coding, is set to release a more efficient AI model for software development in a bid to keep pace with larger firms like Anthropic PBC and OpenAI .\nThe company on Thursday plans to unveil Compose... [1075 chars]",
@@ -808,7 +856,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774060837802_2",
+      "id": "news_1774068238455_2",
       "title": "Has Google Gemini Surpassed ChatGPT in 2026? Latest Benchmarks and Expert Comparisons Reveal a Tight Race",
       "summary": "As of March 2026, the rivalry between Google's Gemini and OpenAI's ChatGPT remains one of the most closely watched battles in artificial intelligence....",
       "content": "As of March 2026, the rivalry between Google's Gemini and OpenAI's ChatGPT remains one of the most closely watched battles in artificial intelligence. What began as OpenAI's dominant launch with ChatGPT in late 2022 has evolved into a neck-and-neck c... [5159 chars]",
@@ -844,7 +892,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774060838262_3",
+      "id": "news_1774068239353_3",
       "title": "Samsung Elec to supply HBM4 chips to OpenAI, South Korean paper says",
       "summary": "SEOUL, March 19 (Reuters) - Samsung Electronics (005930.KS), opens new tab plans to supply its next-generation high-bandwidth memory (HBM4) chips to O...",
       "content": "SEOUL, March 19 (Reuters) - Samsung Electronics (005930.KS), opens new tab plans to supply its next-generation high-bandwidth memory (HBM4) chips to OpenAI for use in the ​ChatGPT maker's first in-house artificial intelligence processor, the ‌Korean ... [267 chars]",
@@ -1069,54 +1117,6 @@
       "publishedAt": "2026-03-19T04:54:01.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/930/597.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773896532215_1d3200ab",
-      "title": "美光 MU：AI 带动存储 “疯涨”，能破周期 “紧箍咒” 吗？",
-      "summary": "美光 MU：AI 带动存储 “疯涨”，能破周期 “紧箍咒” 吗？",
-      "content": "公司下季度指引明显好于市场预期，依然是受传统存储产品持续涨价的带动。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-19T04:04:49.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7920688.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773896551258_2f0b6c30",
-      "title": "小米认领网传神秘顶尖模型：罗福莉承诺 MiMo-V2 系列将开源",
-      "summary": "IT之家 3 月 19 日消息，代号为“Hunter Alpha”的神秘模型本月（3 月）在全球最大 API 聚合平台 OpenRouter 引发热议，一度登上大模型调用榜第一，不少网友猜测是“DeepSeek V4”早期版本。",
-      "content": "IT之家 3 月 19 日消息，代号为“Hunter Alpha”的神秘模型本月（3 月）在全球最大 API 聚合平台 OpenRouter 引发热议，一度登上大模型调用榜第一，不少网友猜测是“DeepSeek V4”早期版本。 今天（19 日）凌晨，小米正式认领“Hunter Alpha”，宣布推出三款大模型 —— MiMo-V2-Pro & Omni & TTS，可限时免费体验一周。 随后，小米 MiMo 大模型负责人罗福莉发布长文，表示这是小米首款真正为智能体时代打造的全栈产品系列。 我称之为一次悄无声息的伏击 —— 并非因为我们事先策划，而是因为从聊天模式到智能代理模式的转变发生得太快，连我们自己都难以置信。在这两者之间，经历了一个既激动人心又痛苦不堪，同时又引人入胜的过程。 1T 基础模型几个月前就开始训练了。最初的目标是提高长上下文推理的效率。混合注意力机制带来了真正的创新，却又不至于过度扩张 —— 事实证明，它正是智能体时代最合适的基石。1M 上下文窗口。MTP 推理实现超低延迟和成本。这些架构决策并非一时兴起，而是我们在需要之前就构建的结构性优势。 真正改变一切的是我第一次体验到复杂的智能体框架 —— 我称之为“精心编排的语境”。第一天我就震惊了。我试图说服团队使用它，但没有成功。于是我下达了一条强硬指令：MiMo 团队中，明天对话次数少于 100 次的成员可以辞职 / 退出。这招奏效了。一旦团队的想象力被智能体系统的功能所激发，这种想象力便直接转化为研究速度。 人们问我们为什么发展如此迅速。我在构建 DeepSeek R1 时亲身经历了这一点。我的真实总结是： —— 骨干网和基础设施研究周期很长。你需要一年的战略决心才能看到回报。 —— 训练后敏捷性是一种不同的能力：产品直觉驱动评估，迭代周期缩短，范式转变及早发生。 —— 以及不变的：好奇心、敏锐的技术直觉、果断的执行力、全身心的投入。 —— 还有一点很容易被低估：对你所创造的世界的真挚热爱。 罗福莉还承诺，新的 MiMo-V2 系列模型会开源 —— 当模型足够稳定，值得开源的时候。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/8b426b78-f7c6-466d-9916-5bf30d031b24.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-19T03:37:33.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/930/569.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773896551362_c2fcc5da",
-      "title": "华为 WATCH Ultimate 2 非凡探索手表“旷野绿”明日预售，3 月 23 日发布",
-      "summary": "IT之家 3 月 19 日消息，华为今日官宣，华为 WATCH Ultimate 2 非凡探索手表“旷野绿”3 月 20 日 10:08 开启预售，3 月 23 日华为春季全场景新品发布会，不见不散。",
-      "content": "IT之家 3 月 19 日消息，华为今日官宣，华为 WATCH Ultimate 2 非凡探索手表“旷野绿”3 月 20 日 10:08 开启预售，3 月 23 日华为春季全场景新品发布会，不见不散。 IT之家注意到，华为 WATCH Ultimate 2 非凡探索手表于去年 11 月首销，首发海豚声呐通信、支持 AI 智能体小艺，售价 6499 元起。 该手表配备纳米微晶陶瓷表圈、蓝宝石玻璃表镜、钛金属表带、钛金属表冠、氟橡胶表带、非晶锆合金表壳，首次加入海豚声呐通信，可在水下 30 米互发消息、60 米发出 SOS 信号，为潜水用户提供更多安全保障和联络手段。 华为 WATCH Ultimate 2 非凡探索手表还是业界首款支持北斗卫星语音消息的大众智能手表，支持 AI 语音编解码技术、200 倍高保真压缩。 华为 WATCH Ultimate 2 非凡探索还搭载腕上鸿蒙智能体，支持 AI 运动解读、AI 健康问答等功能；支持 eSIM 独立通信、X-TAP 智感窗；手表还接入鸿蒙生态，提供第三方 App 下载使用。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/fb1d16ca-7097-4cae-89a3-8cc648ac0cbb.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-19T03:28:50.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/930/565.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773889013132_3cc009f9",
-      "title": "椰树集团招标 50 台人形机器人剥椰子，要求每小时处理超 360 个",
-      "summary": "IT之家 3 月 19 日消息，3 月 16 日，椰树集团海南椰汁饮料有限公司发布《人形机器人椰子破壳削皮设备采购招标公告》，招标 50 台人形机器人“剥椰子”。",
-      "content": "IT之家 3 月 19 日消息，3 月 16 日，椰树集团海南椰汁饮料有限公司发布《人形机器人椰子破壳削皮设备采购招标公告》，招标 50 台人形机器人“剥椰子”。 公告称，为建造一条无人自动化智能化椰子加工生产线，提升企业形象，保障生产效率，提高产品质量，降低用工成本，现面向社会公开招标采购人形机器人全自动椰子破壳、削皮设备，用于椰子去壳、去皮工序。设备需满足模拟人的动作，高效、安全、易维护等要求，适用于潮湿、规模化生产场景。 IT之家从公告获悉，招标机器人需要处理每小时处理超过 360 个椰子，可连续稳定运行；适用范围为直径 8-15cm 的新鲜带壳椰子；能自动抓取椰子，拿住破壳并削皮。 附加功能方面，招标机器人需要达到削净率≥95%（去除外皮，露出白色椰肉），去壳率 100%，损伤率≤1%（不得伤及内部椰肉导致椰子水流失）。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/0d5d1151-a640-4e4f-8130-5b5faa5c3d18.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-19T02:43:08.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/930/504.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
