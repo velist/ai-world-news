@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-03-21T13:08:06.310Z",
-  "total": 83,
+  "timestamp": "2026-03-21T14:36:04.260Z",
+  "total": 86,
   "data": [
+    {
+      "id": "news_1774103763108_0d1b0efa",
+      "title": "报告显示我国近半数成年人有睡眠困扰，用手表监测可能越测越睡不好",
+      "summary": "IT之家 3 月 21 日消息，据央视财经报道，今天（3 月 21 日）是世界睡眠日，今年的主题是“优质睡眠，美好生活”。 《2025 年中国睡眠健康调查报告》显示，中国 18 岁及以上人群睡眠困扰率超过 48%。越来越多人将“睡个好觉”视为生活的头等大事。",
+      "content": "IT之家 3 月 21 日消息，据央视财经报道，今天（3 月 21 日）是世界睡眠日，今年的主题是“优质睡眠，美好生活”。 《2025 年中国睡眠健康调查报告》显示，中国 18 岁及以上人群睡眠困扰率超过 48%。越来越多人将“睡个好觉”视为生活的头等大事。随着智能可穿戴设备的普及，很多人会主动监测睡眠状况，但却因为监测结果不理想而感到焦虑，越测越睡不好。 这些可穿戴设备的监测结果科学吗？北京大学人民医院睡眠医学科主任韩芳指出，目前很多可穿戴设备还不能科学地区分深睡眠和浅睡眠，过分依赖监测结果会引起数字焦虑。根据睡眠分期标准，成年人深睡眠占整夜睡眠的正常比例是 13% 至 23%。如果晚上睡眠时间是 6 至 7 小时，整夜深睡眠能达到 50 分钟即为正常。 IT之家从公开资料获悉，世界睡眠日（World Sleep Day）是全球性健康倡导活动，由国际精神卫生和神经科学基金会于 2001 年发起，定于每年 3 月 21 日，旨在提高公众对睡眠重要性的认知。2003 年，中国睡眠研究会将其引入国内，并自 2008 年起每年发布中国主题，如“规律作息健康睡眠”（2018 年）。通过学术研讨、科普讲座、公益义诊等形式，活动呼吁关注睡眠障碍与慢性疾病的关联，倡导科学作息。 随着睡眠问题成为公共卫生议题，中国睡眠经济市场规模从 2016 年 2616 亿元增至 2020 年 3778 亿元，预计 2030 年突破万亿元，涵盖智能寝具、健康监测及医疗干预等领域。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/11b1df3d-ae36-4e98-ab26-f0c3decaa46c.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-21T14:02:09.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/931/354.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774103763258_127c8aa6",
+      "title": "腾讯云发布行业首个官网内置 Agent 助手 KiKi，一句话完成 OpenClaw 部署",
+      "summary": "IT之家 3 月 21 日消息，昨晚，腾讯云宣布正式发布行业首个官网内置 Agent 助手 —KiKi，用户只需用一句自然语言描述需求，KiKi 即可在控制台模拟人完成资源配置、服务购买、应用部署等一系列操作。",
+      "content": "IT之家 3 月 21 日消息，昨晚，腾讯云宣布正式发布行业首个官网内置 Agent 助手 —KiKi，用户只需用一句自然语言描述需求，KiKi 即可在控制台模拟人完成资源配置、服务购买、应用部署等一系列操作。 IT之家从官方介绍获悉，不同于传统 AI 助手仅能问答，KiKi 具备完整任务执行能力，可理解页面上下文、自动拆解步骤并跨页面操作。目前，KiKi 已全量登陆腾讯云官网。KiKi 上线第一天，就有超 2000 名用户通过一句话完成 OpenClaw“零操作”部署。 用户只需输入“帮我部署 OpenClaw”，KiKi 就会自动完成资源购买、环境初始化到部署配置的全过程，并在关键节点提示确认，其余步骤全部自动执行。 KiKi 还可以实现在官网、控制台、购买页等多个页面之间的自动跳转，理解当前上下文，自主拆解任务并选择最优路径执行，把原本割裂的多页面操作，变成一次连续完成的任务。 在执行能力之外，KiKi 也保留了对流程的控制权。所有操作步骤均可视、可追溯，用户可以随时介入或中断；在涉及关键或敏感操作时，系统会主动暂停并请求确认，确保操作边界清晰可控。当任务执行受阻时，KiKi 还能自动调整策略、重新规划路径。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/40be3572-5d98-4c7e-86c9-4b68b7c63ac9.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-21T13:11:27.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/931/349.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1774092715389_9bc29390",
       "title": "苹果 CEO 库克：人工智能是对人能力的放大，而不是对人的取代",
@@ -37,6 +61,18 @@
       "publishedAt": "2026-03-21T10:33:41.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7923819.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774103748486_f491e2f7",
+      "title": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
+      "summary": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
+      "content": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-21T09:54:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/VGTtEPwPCd101Iwm9wQi?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -121,6 +157,18 @@
       "publishedAt": "2026-03-21T08:14:39.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7923709.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774103750320_d523db0c",
+      "title": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
+      "summary": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
+      "content": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-21T08:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/QhXW1UCVYwHtx7W9EdDp?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -436,7 +484,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774098439345_0",
+      "id": "news_1774103713232_0",
       "title": "AI Daily: OpenAI plans to launch desktop ‘superapp’",
       "summary": "Catch up on the top artificial intelligence news and commentary by Wall Street analysts on publicly traded companies in the space with this daily reca...",
       "content": "Catch up on the top artificial intelligence news and commentary by Wall Street analysts on publicly traded companies in the space with this daily recap compiled by The Fly.\nClaim 70% Off TipRanks Premium\nUnlock hedge fund-level data and powerful inve... [7869 chars]",
@@ -446,6 +494,30 @@
       "category": "国外AI",
       "originalUrl": "https://markets.businessinsider.com/news/stocks/ai-daily-openai-plans-to-launch-desktop-superapp-1035951787",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1774103752727_3e21484d",
+      "title": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
+      "summary": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
+      "content": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-20T18:30:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Z791iXT2AhuA0Fiz0pcs?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774103754583_04361ec4",
+      "title": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
+      "summary": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
+      "content": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-20T18:11:50.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/l7LKI978i4PjYLAhabiZ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774018431101_a9e54c1f",
@@ -784,7 +856,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774098439124_1",
+      "id": "news_1774103712898_1",
       "title": "AI Won't Kill Movies. Tom Cruise and Brad Pitt Can Relax",
       "summary": "Justin Hackney is used to being ostracized. The movie producer, who played “the infected kid” in director Danny Boyle’s 28 Days Later, shadowed Boyle ...",
       "content": "Justin Hackney is used to being ostracized. The movie producer, who played “the infected kid” in director Danny Boyle’s 28 Days Later, shadowed Boyle for years and then pivoted into tech halfway through his career, taking roles with OpenAI and Eleven... [816 chars]",
@@ -928,7 +1000,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774098439005_2",
+      "id": "news_1774103712494_2",
       "title": "AI Coding Startup Cursor Plans New Model to Rival Anthropic, OpenAI",
       "summary": "Cursor, a leading artificial intelligence startup for coding, is set to release a more efficient AI model for software development in a bid to keep pa...",
       "content": "Cursor, a leading artificial intelligence startup for coding, is set to release a more efficient AI model for software development in a bid to keep pace with larger firms like Anthropic PBC and OpenAI .\nThe company on Thursday plans to unveil Compose... [1075 chars]",
@@ -961,42 +1033,6 @@
       "publishedAt": "2026-03-19T14:35:51.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/RrUxZpVIe44S0slaHvr5?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773932264287_ce6632ff",
-      "title": "Alibaba DingTalk CEO: Two Major Structural Opportunities Behind Tokenomics",
-      "summary": "AI will bring an enormous digital workforce, fundamentally reshaping the future business models of technology companies....",
-      "content": "AI will bring an enormous digital workforce, fundamentally reshaping the future business models of technology companies.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-19T14:18:10.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7921848.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773932291193_7d9d0144",
-      "title": "电商版“龙虾”来了！阿里悟空发布，用 AI 破解电商经营核心焦虑",
-      "summary": "3 月 19 日晚间，阿里巴巴集团发布最新一季财报。财报显示，本季度，包含淘宝闪购在内的即时零售收入同比强劲增长 56%，推动淘宝 App 活跃买家及 88VIP 用户均实现双位数增长。现在 88VIP 用户规模已逼近 6000 万大关。",
-      "content": "3 月 19 日晚间，阿里巴巴集团发布最新一季财报。财报显示，本季度，包含淘宝闪购在内的即时零售收入同比强劲增长 56%，推动淘宝 App 活跃买家及 88VIP 用户均实现双位数增长。现在 88VIP 用户规模已逼近 6000 万大关。除了电商相关数据外，最值得注意的要数阿里在 AI 领域的布局进展。财报显示，阿里 C 端应用“千问”月活跃用户超 3 亿；B 端平台“悟空”开启邀测，打造全球首个企业级 AI 原生工作平台。 从阿里最近一系列 AI 大动作可以看出，阿里以 AI 强化了体系内的业务协同相应，这些协同不仅繁荣了淘宝天猫电商生态，还重构了电商人经营的底层系统，从内容创意生成，到店铺管理、营销投放，阿里的 AI 电商矩阵正全力护航电商人生意进阶、品牌上行。 技能模块化与全链路协同，“悟空”+ 电商的深度解法 近日，阿里巴巴正式推出全球首个企业级 AI 原生工作平台 ——“悟空”，在电商领域，淘宝、天猫核心经营能力将以 Skill（技能模块）形式陆续接入，对于广大商家而言，这无异于一次生产工具的革命。 商家可以像搭积木一样，把这些 Skill 进行组合并在悟空上创造自己的 AI 工作流，搭建出一支可随时随地待命的覆盖开店、选品、营销、运营、发货等各个环节的 AI Agent 团队。 更厉害的是，除了电商经营，商家还能通过悟空接入财税、法务、设计、技术开发等各类专业 Skill，组建起一套完整的企业职能 AI Agent 团队。以后商家只需要做关键决策，繁琐的调研、数据分析、方案撰写这些前置工作，统统交给 AI 团队来完成，全面开启 AI 时代的企业经营。 上线首期，支持淘宝商品素材优化、店铺经营周报分析、1688 找同款等核心经营领域的“AI 员工”将率先到岗，此外，商家还可将自身经营经验标准化为 Skill 技能包，搭建起满足个性化经营的 AI Agent。 以“优化商品素材”为例，有了悟空后，商家只需编排好相应 AI 工作流，AI Agent 即会自动完成“数据分析 → 给出建议”等前期工作，商家一键确认更新后，AI Agent 将自动执行“素材制作-更新上架-监控效果”等后期步骤。也就是说，以前需要多人协同的工作，如今通过 AI 可一键完成。 单个 AI Agent 已经很强，一支 AI Agent 团队实现自主的互相协同更厉害。未来，当商家的经营分析 Agent 发现某款商品转化率下降，则其可自动通知商品素材 Agent 优化更新主图，与此同步，广告投放 Agent 也将会自动调整推广策略，整个经营工作商家只需在关键环节进行决策，其他全由 AI Agent 自主协调完成。 至于商家们最关心的信息安全问题，悟空也做了充分考虑。悟空主打企业可用级安全，为电商经营者提供成熟、安全的电商服务能力和合规的大模型技术，通过数据权限管理体系和加密部署，保障商家的数据信息安全。 目前，淘宝、天猫、支付宝、1688、阿里云等阿里巴巴核心业务 Skill 正陆续接入悟空。作为阿里巴巴 AI 能力在企业工作场景的统一出口，悟空让每个商家，哪怕是“一人店”，也能拥有一支 24 小时待命的 AI 经营团队。 这一切背后，自然背后离不开阿里巴巴在组织架构与基础设施上的深度支持。 3 月 16 日，阿里巴巴宣布正式成立 Alibaba Token Hub（ATH）事业群，由阿里巴巴 CEO 吴泳铭直接负责。该事业群涵盖了通义实验室、千问事业部以及首次亮相的悟空事业部等。其中，悟空事业部明确了打造 B 端 AI 原生工作平台的战略定位，旨在将模型能力深度融入企业工作流。 结合悟空能够原生操作钉钉上千项能力并内置到超 2000 万企业组织钉钉之中的庞大生态规模，其采用的安全沙箱运行机制与透明的 token 成本预算管理，使得企业能够像管理常规财务预算一样精准管理 AI 开支。 为了加速行业落地，悟空还同步发布了涵盖电商、跨境电商、制造、法律等十大场景的 OPT（一人团队）行业解决方案，让商家一键启用便可获得精通行业技能的智能团队。 破解行业核心焦虑，AI 重构电商经营底层逻辑 中国电商行业经过多年发展，如今品牌与中小商家普遍面临流量、效率、内容、决策、转化五大核心经营焦虑，而阿里悟空在电商领域的落地，正是通过 AI Agent 技术，为这些行业痛点提供了系统性的破局方案。 传统电商经营模式中，人力与时间成本是制约商家发展的核心瓶颈。一家中型淘宝店铺至少需要配置运营、设计、数据分析三个专业岗位，才能完成全链路经营工作，中小商家往往难以承担相应成本，在市场竞争中处于天然劣势。而悟空的出现彻底打破了这一格局，商家无需额外采购软件与设备，通过按需调用、即开即用的 Skill 模块，即便是“一人店”，也能拥有专业级的全链路经营能力，抹平了中小商家与头部品牌在运营能力上的差距。 从行业层面来看，悟空的落地标志着 AI 在电商领域的应用，从单点的工具辅助升级为全链路的经营范式重构。过去 AI 更多被用于图片美化、文案生成等零散环节，而悟空通过 Skill 的组合与多 Agent 的协同，实现了从选品、素材制作、上架运营、数据监控到策略调整的全流程自动化，让商家的核心价值回归到商品打磨与核心决策本身，推动整个电商行业从人力密集型的粗放运营，转向技术驱动的精细化经营。 这一动作的背后，是阿里全栈 AI 能力的规模化落地，也是其 B 端商业生态的深度整合。阿里巴巴最新发布的 2026 财年第三财季财报显示，当期阿里云智能集团收入达 432.8 亿元，同比增长 36%，其中 AI 相关产品收入连续第十个季度实现三位数增长；千问 App 全端 MAU 已突破 3 亿，AI 智能体进入规模化办事时代。 此前阿里已将 AGI 确立为公司首要目标，宣布投入 3800 亿元用于 AI 基础设施建设，ATH 事业群的成立，更是完成了从基础模型研发到企业端 AI 应用的全链路战略整合。 悟空作为阿里 AI 能力在企业工作场景的统一出口，将电商、办公、云服务、支付等 B 端核心能力深度融合，形成了从技术底座到行业应用的完整商业闭环，不仅为阿里 B 端业务打开了新的增长空间，也为整个电商行业的智能化升级提供了可落地的完整解决方案。 拥抱技术变革 AI 成为电商增长核心基础设施 时至今日，AI 的发展已经实实在在地呈现出对企业经营带来的改变，大模型、AI Agent 等技术的爆发，让我们清晰认知到，AI 已经从商家经营中的“可选工具”，升级为驱动增长的核心“基础设施”。 作为国内头部电商平台，淘宝天猫在商品运营、数据洞察、平台合规、商家服务等领域积累了深厚的能力，而悟空的出现，正是将这些平台能力通过 AI 原生的方式，无门槛地开放给所有商家，让每一个市场主体都能平等享受到技术进步带来的红利。 对于广大电商商家而言，面对行业的智能化转型浪潮，最关键的是打破固有经营思维的桎梏，不要犹豫，积极拥抱技术变化，主动学习和应用 AI 工具，在行业范式转换的过程中，找到属于自身的增长新路径。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/e30db614-c34e-48be-b512-a7f5b60148e6.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-19T13:42:38.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/930/790.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773932291501_c74c0cfc",
-      "title": "Adobe FireFly 解锁新技能：可使用自己的画作训练 AI 模型，确保风格一致性",
-      "summary": "IT之家 3 月 19 日消息，今天晚间，据外媒 The Verge 报道，Adobe 推出了名为“Firefly 自定义模型（Firefly Custom Models）”的新功能，用户可以定制 AI 图像生成模型，使其能够复刻特定艺术风格和角色设计。",
-      "content": "IT之家 3 月 19 日消息，今天晚间，据外媒 The Verge 报道，Adobe 推出了名为“Firefly 自定义模型（Firefly Custom Models）”的新功能，用户可以定制 AI 图像生成模型，使其能够复刻特定艺术风格和角色设计。该功能已进入公开测试阶段，创作者和品牌可以用自有素材进行训练，让生成内容在角色、插画以及摄影风格上保持统一。 这一工具主要面向高频内容生产场景。通过预先训练模型，团队可以反复调用同一套风格基础，无需每次从零开始，同时在不同项目之间维持一致的视觉表达。Adobe 强调，自定义模型能够稳定保留笔触、配色、光影以及角色细节等关键元素。 IT之家注：训练数据默认不外流，也不会被纳入通用 Firefly 模型。 在官方表述中，Adobe 把这一能力与品牌建设直接挂钩：稳定输出统一风格的素材，是品牌表达的核心；模型一旦训练完成，就可以在不同项目和营销活动中持续复用，在规模化生产的同时保留创作特征。 这项功能早在去年的 Adobe Max 大会上就已亮相，当时仍处于小范围测试阶段，现在正式开放给所有用户。Adobe 一直强调 Firefly 的训练数据来源合规，主要来自授权素材和公共领域内容，以此区别于部分依赖抓取数据的竞品。 不过，控制权提升的同时也带来新的问题。Adobe 并没有说明如何防止用户使用未经授权的素材训练模型。现有机制主要依赖用户自我声明 —— 在训练前确认拥有相关权利，并保证不会侵犯他人的版权、知识产权、肖像权或隐私权。至于是否存在更严格的限制措施，目前尚未给出明确答案。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/55efbffb-52d8-4668-9255-73cb75b71bf4.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-19T13:41:54.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/930/789.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
