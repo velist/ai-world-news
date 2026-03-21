@@ -1,31 +1,55 @@
 {
   "success": true,
-  "timestamp": "2026-03-21T05:50:14.747Z",
-  "total": 94,
+  "timestamp": "2026-03-21T06:58:17.716Z",
+  "total": 90,
   "data": [
     {
-      "id": "news_1774072200272_f491e2f7",
-      "title": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
-      "summary": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
-      "content": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
+      "id": "news_1774076265187_5cb8f95c",
+      "title": "雷军官宣：XiaomiMiMo首周限免开放",
+      "summary": "36氪获悉，雷军发博表示：Xiaomi MiMo联合OpenClaw、OpenCode、KiloCode、Cline和BLACKBOXAI五大主流Agent框架，首周限免开放。欢迎国内开发者试用。",
+      "content": "36氪获悉，雷军发博表示：Xiaomi MiMo联合OpenClaw、OpenCode、KiloCode、Cline和BLACKBOXAI五大主流Agent框架，首周限免开放。欢迎国内开发者试用。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-21T09:54:00.000Z",
+      "source": "36氪",
+      "publishedAt": "2026-03-21T06:54:11.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/VGTtEPwPCd101Iwm9wQi?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://36kr.com/newsflashes/3732341580841218?f=rss",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774072202225_d523db0c",
-      "title": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
-      "summary": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
-      "content": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
+      "id": "news_1774076267291_a8fe2555",
+      "title": "百度网盘GenFlow全新升级，融合OpenClaw，支持多人AI协作",
+      "summary": "36氪获悉，3月21日，百度网盘宣布全新升级GenFlow，并兼容OpenClaw能力，该功能已上线PC客户端及全新推出的团队空间，个人用户、团队可以在百度网盘一键部署OpenClaw、开箱即用。",
+      "content": "36氪获悉，3月21日，百度网盘宣布全新升级GenFlow，并兼容OpenClaw能力，该功能已上线PC客户端及全新推出的团队空间，个人用户、团队可以在百度网盘一键部署OpenClaw、开箱即用。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-21T08:00:00.000Z",
+      "source": "36氪",
+      "publishedAt": "2026-03-21T06:26:50.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3732314690240769?f=rss",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774076296517_afd90e77",
+      "title": "黄仁勋补贴人才价值底薪 50% 的 AI 算力，为英伟达打造数十万名“数字员工”",
+      "summary": "IT之家 3 月 21 日消息，CNBC 昨日（3 月 20 日）发布博文，报道称在英伟达年度 GTC 大会上，黄仁勋宣布了一项颠覆性的薪酬模式：在工程师几十万美元底薪的基础上，额外发放相当于底薪 50% 的“AI 算力 Tokens”，鼓励员工调用 AI 智能体来大幅提升生产力。",
+      "content": "IT之家 3 月 21 日消息，CNBC 昨日（3 月 20 日）发布博文，报道称在英伟达年度 GTC 大会上，黄仁勋宣布了一项颠覆性的薪酬模式：在工程师几十万美元底薪的基础上，额外发放相当于底薪 50% 的“AI 算力 Tokens”，鼓励员工调用 AI 智能体来大幅提升生产力。 黄仁勋表示此举是为了提升员工的生产力，工程师可以使用这些 Tokens 来部署和运行 AI 智能体（AI Agents），让它们自动完成繁琐的任务。黄仁勋指出，算力 Tokens 正在成为硅谷抢夺顶尖人才的新型筹码。 CNBC 解读认为，此举折射出黄仁勋对未来工作形态的宏大构想：人类工程师将转变为“管理者”，只需输入极少的指令，就能监督大量 AI 智能体自主完成复杂的多步骤任务。 黄仁勋透露，英伟达目前拥有 4.2 万名人类员工，未来将配备数十万名“数字员工”。同时，黄仁勋强调，这一趋势不仅不会摧毁软件行业，反而会因为庞大的 AI 智能体集群频繁调用编程工具和计算资源，极大地拉动底层软件基础设施的需求。 CNBC 指出这种高度自动化的愿景加剧了业界对“白领失业”的恐慌。高盛预测，AI 有望让生产力提升 15%，但也可能接管美国 25% 的工作时长，并导致 6% 至 7% 的岗位被彻底取代。 当前职场正陷入一种“人才悖论”：美世咨询（Mercer）指出，尽管 98% 的高管预计 AI 将在未来两年内引发裁员，但仍有 54% 的高管将“人才短缺”视为首要挑战。企业极度缺乏具备 AI 素养的熟练员工，而负责数据分析、文档处理的初级岗位却面临被率先淘汰的风险。 初级岗位的消失正在切断职场新人传统的培训与晋升路径，进一步拉大了技能鸿沟。不过，高盛经济学家约瑟夫 · 布里格斯（Joseph Briggs）认为，尽管就业市场在转型期会经历失业率上升的阵痛，但技术变革长远来看总会催生全新的职业。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/002168c6-9485-42a9-b8fe-f614a4c28a25.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-21T06:25:40.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/931/276.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774076296712_bc68e224",
+      "title": "曝 ChatGPT 广告测试推进缓慢，部分品牌预算月底前恐难花完",
+      "summary": "IT之家 3 月 21 日消息，据外媒 CNBC 昨天报道，当 OpenAI 首次宣布将在 ChatGPT 引入广告时，麦迪逊大道（美国广告业代名词）的广告代理公司纷纷摩拳擦掌，希望借此探索 AI 广告战略。",
+      "content": "IT之家 3 月 21 日消息，据外媒 CNBC 昨天报道，当 OpenAI 首次宣布将在 ChatGPT 引入广告时，麦迪逊大道（美国广告业代名词）的广告代理公司纷纷摩拳擦掌，希望借此探索 AI 广告战略。 不过根据多位匿名人士透露，ChatGPT 目前的广告测试进展过于缓慢，未能达到最初的热度，同时 OpenAI 采取的保守策略未能让合作伙伴感到满意，部分品牌最初投入的广告预算为 20 万-25 万美元（IT之家注：现汇率约合 138.1 万- 172.6 万元人民币），这一金额是普通实验性广告预算的两倍。 据悉，OpenAI 的试点项目将持续到 3 月底，但由于进展缓慢，一些甲方担心无法在项目结束前花完预算，尽管未使用的资金可以退回，但这些预算已经在本季度锁定，无法转投到其他渠道。同时广告主也无法获得原本预期的大量数据洞察。 OpenAI 针对此事向 CNBC 表示：“ChatGPT 的广告仍处于早期测试阶段，当前目标是在大规模推广之前学习并优化用户体验。我们从用户和甲方看到了积极信号，同时广告主的兴趣依然强劲”。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/d6329c5f-3325-462f-9c11-ef23ca46cc84.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-21T05:58:45.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/QhXW1UCVYwHtx7W9EdDp?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.ithome.com/0/931/271.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774068250879_154a4150",
@@ -53,18 +77,6 @@
     },
     {
       "id": "news_1774068276295_c6f36cdf",
-      "title": "西北地区唯一三网接入，国家顶级域名（新疆）解析节点正式上线运行",
-      "summary": "IT之家 3 月 21 日消息，新疆通信管理局昨日宣布，国家顶级域名（新疆）解析节点已于 3 月 16 日正式上线运行，面向全疆提供互联网域名解析服务。 该节点是西北地区唯一同时接入中国电信、中国移动、中国联通三家基础电信企业的解析节点，标志着新疆具备了国家顶级域名的本地化解析能力。",
-      "content": "IT之家 3 月 21 日消息，新疆通信管理局昨日宣布，国家顶级域名（新疆）解析节点已于 3 月 16 日正式上线运行，面向全疆提供互联网域名解析服务。 该节点是西北地区唯一同时接入中国电信、中国移动、中国联通三家基础电信企业的解析节点，标志着新疆具备了国家顶级域名的本地化解析能力。 IT之家注：国家顶级域名解析节点是互联网关键信息基础设施，主要实现“.CN”等国家顶级域名的权威解析，是互联网的“导航系统”、网络空间的“中枢神经”。 据官方介绍，新疆节点由新疆通信管理局、中国互联网络信息中心和三大电信运营商共同建设，是工信系统产业援疆项目之一。目前，该系统日均承载解析量达 2.42 亿次，疆内用户域名解析时延从 45.62 毫秒降至 11.14 毫秒，提速 76%，有效提升了新疆地区的互联网访问质量与稳定性。 新疆节点的建成运行，解决了长期以来疆内用户访问“.CN”域名需跨省绕转、网络跳数多、时延长、自主安全性难以保障等问题，降低了物理距离对网络效率的影响。该节点的投用为“数字新疆”建设提供了重要的基础设施支撑。 相关阅读： 《国家顶级域名（雄安）解析节点正式上线，河北移动用户访问解析时延下降至 9.52ms》 《国家顶级域名解析服务深圳交换中心节点上线，大幅提升广东用户访问互联网速度》 《国家顶级域名西藏解析节点正式上线提供服务》 《中国互联网络信息中心开展“.CN”域名推广活动，普及国家顶级域名》 《中央网信办：我国网民规模、国家顶级域名注册量均为全球第一》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/8e0959ca-d117-4f78-8c20-2f2ea1ee3f43.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-21T04:00:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/931/247.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774072213670_c6f36cdf",
       "title": "西北地区唯一三网接入，国家顶级域名（新疆）解析节点正式上线运行",
       "summary": "IT之家 3 月 21 日消息，新疆通信管理局昨日宣布，国家顶级域名（新疆）解析节点已于 3 月 16 日正式上线运行，面向全疆提供互联网域名解析服务。 该节点是西北地区唯一同时接入中国电信、中国移动、中国联通三家基础电信企业的解析节点，标志着新疆具备了国家顶级域名的本地化解析能力。",
       "content": "IT之家 3 月 21 日消息，新疆通信管理局昨日宣布，国家顶级域名（新疆）解析节点已于 3 月 16 日正式上线运行，面向全疆提供互联网域名解析服务。 该节点是西北地区唯一同时接入中国电信、中国移动、中国联通三家基础电信企业的解析节点，标志着新疆具备了国家顶级域名的本地化解析能力。 IT之家注：国家顶级域名解析节点是互联网关键信息基础设施，主要实现“.CN”等国家顶级域名的权威解析，是互联网的“导航系统”、网络空间的“中枢神经”。 据官方介绍，新疆节点由新疆通信管理局、中国互联网络信息中心和三大电信运营商共同建设，是工信系统产业援疆项目之一。目前，该系统日均承载解析量达 2.42 亿次，疆内用户域名解析时延从 45.62 毫秒降至 11.14 毫秒，提速 76%，有效提升了新疆地区的互联网访问质量与稳定性。 新疆节点的建成运行，解决了长期以来疆内用户访问“.CN”域名需跨省绕转、网络跳数多、时延长、自主安全性难以保障等问题，降低了物理距离对网络效率的影响。该节点的投用为“数字新疆”建设提供了重要的基础设施支撑。 相关阅读： 《国家顶级域名（雄安）解析节点正式上线，河北移动用户访问解析时延下降至 9.52ms》 《国家顶级域名解析服务深圳交换中心节点上线，大幅提升广东用户访问互联网速度》 《国家顶级域名西藏解析节点正式上线提供服务》 《中国互联网络信息中心开展“.CN”域名推广活动，普及国家顶级域名》 《中央网信办：我国网民规模、国家顶级域名注册量均为全球第一》",
@@ -232,28 +244,16 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774072204190_3e21484d",
-      "title": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
-      "summary": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
-      "content": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-20T18:30:58.000Z",
+      "id": "news_1774076249080_0",
+      "title": "AI Daily: OpenAI plans to launch desktop ‘superapp’",
+      "summary": "Catch up on the top artificial intelligence news and commentary by Wall Street analysts on publicly traded companies in the space with this daily reca...",
+      "content": "Catch up on the top artificial intelligence news and commentary by Wall Street analysts on publicly traded companies in the space with this daily recap compiled by The Fly.\nClaim 70% Off TipRanks Premium\nUnlock hedge fund-level data and powerful inve... [7869 chars]",
+      "imageUrl": "https://markets.businessinsider.com/favicon-32x32.png",
+      "source": "Markets Insider",
+      "publishedAt": "2026-03-20T18:50:32.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Z791iXT2AhuA0Fiz0pcs?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774072206435_04361ec4",
-      "title": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
-      "summary": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
-      "content": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-20T18:11:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/l7LKI978i4PjYLAhabiZ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://markets.businessinsider.com/news/stocks/ai-daily-openai-plans-to-launch-desktop-superapp-1035951787",
+      "aiInsight": ""
     },
     {
       "id": "news_1774018431101_a9e54c1f",
@@ -592,7 +592,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774072174293_0",
+      "id": "news_1774076248567_1",
       "title": "AI Won't Kill Movies. Tom Cruise and Brad Pitt Can Relax",
       "summary": "Justin Hackney is used to being ostracized. The movie producer, who played “the infected kid” in director Danny Boyle’s 28 Days Later, shadowed Boyle ...",
       "content": "Justin Hackney is used to being ostracized. The movie producer, who played “the infected kid” in director Danny Boyle’s 28 Days Later, shadowed Boyle for years and then pivoted into tech halfway through his career, taking roles with OpenAI and Eleven... [816 chars]",
@@ -736,7 +736,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774072175063_1",
+      "id": "news_1774076247659_2",
       "title": "AI Coding Startup Cursor Plans New Model to Rival Anthropic, OpenAI",
       "summary": "Cursor, a leading artificial intelligence startup for coding, is set to release a more efficient AI model for software development in a bid to keep pa...",
       "content": "Cursor, a leading artificial intelligence startup for coding, is set to release a more efficient AI model for software development in a bid to keep pace with larger firms like Anthropic PBC and OpenAI .\nThe company on Thursday plans to unveil Compose... [1075 chars]",
@@ -916,7 +916,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774072174217_2",
+      "id": "news_1774076247987_3",
       "title": "Has Google Gemini Surpassed ChatGPT in 2026? Latest Benchmarks and Expert Comparisons Reveal a Tight Race",
       "summary": "As of March 2026, the rivalry between Google's Gemini and OpenAI's ChatGPT remains one of the most closely watched battles in artificial intelligence....",
       "content": "As of March 2026, the rivalry between Google's Gemini and OpenAI's ChatGPT remains one of the most closely watched battles in artificial intelligence. What began as OpenAI's dominant launch with ChatGPT in late 2022 has evolved into a neck-and-neck c... [5159 chars]",
@@ -952,7 +952,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774072174441_3",
+      "id": "news_1774076249601_4",
       "title": "Samsung Elec to supply HBM4 chips to OpenAI, South Korean paper says",
       "summary": "SEOUL, March 19 (Reuters) - Samsung Electronics (005930.KS), opens new tab plans to supply its next-generation high-bandwidth memory (HBM4) chips to O...",
       "content": "SEOUL, March 19 (Reuters) - Samsung Electronics (005930.KS), opens new tab plans to supply its next-generation high-bandwidth memory (HBM4) chips to OpenAI for use in the ​ChatGPT maker's first in-house artificial intelligence processor, the ‌Korean ... [267 chars]",
@@ -1082,54 +1082,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/930/636.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773904170853_ad442797",
-      "title": "实测MiniMax M2.7 ：上能拆英伟达，下能演我爸妈",
-      "summary": "实测MiniMax M2.7 ：上能拆英伟达，下能演我爸妈",
-      "content": "MiniMax第一个深度参与迭代自己的模型。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-19T06:55:37.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7919893.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773904208943_394230fa",
-      "title": "Facebook 砸钱抢其它平台创作者，有十万粉保底月入 1000 美元",
-      "summary": "IT之家 3 月 19 日消息，Facebook 当地时间周三宣布推出一项名为创作者快速通道（Creator Fast Track）的全新计划，旨在通过保底收入与扩大内容曝光，助力创作者在 Facebook 平台实现成长。",
-      "content": "IT之家 3 月 19 日消息，Facebook 当地时间周三宣布推出一项名为创作者快速通道（Creator Fast Track）的全新计划，旨在通过保底收入与扩大内容曝光，助力创作者在 Facebook 平台实现成长。该社交平台同时透露，2025 年已通过其变现计划向创作者支付近 30 亿美元（IT之家注：现汇率约合 206.68 亿元人民币），同比增长 35%，创下年度支付总额历史新高。 这项全新变现计划的核心思路，是吸引已在其他平台积累粉丝的创作者入驻 Facebook。创作者无需在新平台从零起步，通过该计划即可获得符合条件的 Reels 短视频曝光扶持，加速粉丝增长，同时在 Facebook 发布合规 Reels 还可享受三个月保底收入。 参与计划的创作者，若在 Instagram、TikTok 或 YouTube 任一平台拥有至少 10 万粉丝，每月可赚取 1000 美元（现汇率约合 6889 元人民币）；若任一平台粉丝量超 100 万，每月可赚取 3000 美元（现汇率约合 20668 元人民币）。 该计划还允许符合条件的创作者直接使用 Facebook 内容变现工具，无需满足平台常规门槛（如最低粉丝数要求），即便创作者快速通道计划结束，仍可通过发帖持续获得收益。 Facebook 创作者产品副总裁亚伊尔 · 利夫内（Yair Livne）在媒体通气会上表示：“我们希望解决创作者的顾虑 —— 他们担心入驻 Facebook、从零搭建社群和积累粉丝会困难重重。因此我们推出了这项计划来解决这一问题。” 利夫内提到，如果创作者需要超过三个月才能在 Facebook 搭建起受众群体，公司会持续提供扶持。虽然现金奖励仅为期三个月，但 Facebook 会继续扩大其曝光量，直至创作者在平台找到属于自己的受众。 “参与该计划无需为满足初始发布要求专门创作独家全新内容，”利夫内说，“当然，我们非常欢迎你带来最新、最优质的内容，但如果你有优质的过往热门作品，我们同样接受，且这些内容同样符合计划条款。我们对此十分期待，这回应了我们从众多成熟创作者那里收到的大量反馈 —— 我们一直希望吸引这些创作者入驻，他们也对加入平台抱有兴趣。” Facebook 在此次公告中还表示，平台上年收入超 1 万美元（现汇率约合 68892 元人民币）的创作者数量同比增长超 30%。此外，去年平台向创作者支付的总费用中，60% 流向 Reels 短视频，其余则分配给快拍、照片和文字帖子。 Facebook 还宣布将推出全新数据指标，帮助创作者更清晰地了解收益情况。 全新的合格播放量（qualified views）指标，会告知创作者其内容中可产生收益的播放次数。利夫内解释，播放量不合格存在多种原因，例如用户仅观看视频一秒便划走。 另一项收益率（earnings rate）指标，将展示每千次合格播放的预估收益；而不合格播放量（non-qualified views）指标，则会说明部分播放量不合格的原因，以及创作者可如何优化后续内容以提升收益。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/99a589e5-507b-4464-a65b-a3fe0c68e715.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-19T06:54:39.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/930/633.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773904209375_b8583923",
-      "title": "消息称某厂 200Mp 1/1.28\" 连续光变方案预研中：支持长焦微距，预计属华为旗下",
-      "summary": "IT之家 3 月 19 日消息，博主 @数码闲聊站 今日发文透露，某厂 200Mp 1/1.28\" 连续光变方案预研中。 有网友表示：“重点是焦段，如果能 3-7 倍，哪怕他 1.4 我也能接受，前提是得有长焦微距，一味去争底大没意义。”博主回复称：“有长焦微距。",
-      "content": "IT之家 3 月 19 日消息，博主 @数码闲聊站 今日发文透露，某厂 200Mp 1/1.28\" 连续光变方案预研中。 有网友表示：“重点是焦段，如果能 3-7 倍，哪怕他 1.4 我也能接受，前提是得有长焦微距，一味去争底大没意义。”博主回复称：“有长焦微距。” 从评论区讨论和暗示表情来看，博主所指的“某厂”预计是华为。 参考IT之家此前报道，华为 Pura 80 Ultra 业界首创了「一镜双目」双焦段切换式长焦结构（含 5000 万像素超大底长焦摄像头、1250 万像素大底超长焦摄像头，拥有 143 个零部件，备件价格 2899 元），支持 3.7 倍和 9.4 倍光学变焦。 但在去年 11 月，有消息称一镜双焦段本身是过渡方案，物理结构体积大成本高，后面大概率不会做了，而真・连续光变方案正在积极测试中。 相关阅读： 《一镜双焦段或成绝唱，消息称华为真・连续光变在积极测试中》 《【视频】一镜双目，全新色卡玩法，华为 Pura80 系列首发上手体验》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/160f5da9-3d2b-484e-a934-a8b4e2b63230.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-19T06:48:12.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/930/632.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773904209477_e34d95a6",
-      "title": "视障人群专属“夜视眼镜”：Luna Glass 开启预订，用 AR 照亮青光眼患者视野",
-      "summary": "IT之家 3 月 19 日消息，科技媒体 Notebook Check 昨日（3 月 18 日）发布博文，报道称全球首款专为夜盲症患者设计的夜视眼镜 Luna Glass 开放预订候补，首批提供 500 个名额，官方预计于 2026 年第一季度开始发货。",
-      "content": "IT之家 3 月 19 日消息，科技媒体 Notebook Check 昨日（3 月 18 日）发布博文，报道称全球首款专为夜盲症患者设计的夜视眼镜 Luna Glass 开放预订候补，首批提供 500 个名额，官方预计于 2026 年第一季度开始发货。 IT之家援引博文介绍，该产品专为夜盲症、青光眼、黄斑变性等视障人群设计，采用增强现实（AR）技术，结合半透半反镜片与光波导技术，将增强后的图像直接投射到用户视野中。 青光眼是一种常见的眼部疾病，通常因眼内压升高导致视神经受损，会引发视野缺损和夜间视力下降。而黄斑变性一种导致视网膜中心区域（黄斑）受损的眼疾，严重影响中心视力和暗光环境下的视觉清晰度。 首席执行官强调，尽管夜视改善的具体效果会因个人身体状况而异，但这款眼镜极具潜力，甚至有望帮助仅保留 10% 视力的患者在夜间获得清晰视野。 图源：Luna 这项突破性功能因此大幅延长了视障人群安全、独立外出的活动时间，并让他们能够观察到以往难以察觉的环境细节。此外，该眼镜单次续航时间达到 1.0 至 1.5 小时，用户同时可通过 USB-C 接口连接移动电源来延长使用时长。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/d8d7a7ce-5a9e-4991-8400-63f7b9f322d1.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-19T06:46:50.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/930/631.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
