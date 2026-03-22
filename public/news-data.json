@@ -1,20 +1,8 @@
 {
   "success": true,
-  "timestamp": "2026-03-22T02:57:29.587Z",
-  "total": 79,
+  "timestamp": "2026-03-22T05:00:36.789Z",
+  "total": 70,
   "data": [
-    {
-      "id": "news_1774148234382_d1dc1450",
-      "title": "MCP Gateway：构建下一代 AI Agent 的“中枢网关”｜QCon北京",
-      "summary": "MCP Gateway：构建下一代 AI Agent 的“中枢网关”｜QCon北京",
-      "content": "MCP Gateway：构建下一代 AI Agent 的“中枢网关”｜QCon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-22T10:02:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/wwu9ccjyS00J9YMgKHI7?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
     {
       "id": "news_1774148236727_1d6ae8a1",
       "title": "Java近期资讯：Apache Solr 10、LangChain4j、Grails、JobRunr、Gradle、Devnexus和Commonhaus",
@@ -26,6 +14,54 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/ia7cifkMwDqYjd1FsdEQ?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774155614384_42a45a2a",
+      "title": "韩文秀：全方位应对人工智能冲击，促进高质量充分就业",
+      "summary": "中央财经委员会办公室分管日常工作的副主任、中央农村工作领导小组办公室主任韩文秀在“中国发展高层论坛2026年年会”上表示，面对人口减量发展、老龄化和少子化的结构性变化，“十五五”规划纲要首次将人口高质量发展单独成篇作出部署。中国注重在高质量发展中保障和改善民生，在满足民生需求中拓展高质量发展空间。",
+      "content": "中央财经委员会办公室分管日常工作的副主任、中央农村工作领导小组办公室主任韩文秀在“中国发展高层论坛2026年年会”上表示，面对人口减量发展、老龄化和少子化的结构性变化，“十五五”规划纲要首次将人口高质量发展单独成篇作出部署。中国注重在高质量发展中保障和改善民生，在满足民生需求中拓展高质量发展空间。当今人工智能时代，面临无所不在的冲击和渗透，全方位加以应对，坚持科技向善，促进高质量充分就业，优化收入分配结构，健全社会保障体系，促进社会公平正义，不断增强人民群众的获得感、幸福感、安全感。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-22T04:30:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3733568329531393?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774155616006_3dd2cf36",
+      "title": "微信推出官方龙虾插件",
+      "summary": "据腾讯官微3月22日消息，正式推出微信“ClawBot”插件，支持接入OpenClaw。用户扫码或复制命令，即可将OpenClaw接入微信。连接后，用户就能通过微信聊天的方式，快速调用自己的“龙虾”高效互动。",
+      "content": "据腾讯官微3月22日消息，正式推出微信“ClawBot”插件，支持接入OpenClaw。用户扫码或复制命令，即可将OpenClaw接入微信。连接后，用户就能通过微信聊天的方式，快速调用自己的“龙虾”高效互动。除此之外，腾讯“养虾车间”云端虾Lighthouse、自研虾workbuddy、本地虾QClaw等均已就位。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-22T04:00:53.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3733567272239111?f=rss",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774155620500_0d82e4d7",
+      "title": "【数智周报】黄仁勋豪言2027年AI芯片收入剑指1万亿美元；Cursor承认新模型基于Kimi训练并致歉；“木头姐”：人工智能已经提高了劳动生产率",
+      "summary": "（3月16日-21日）亚马逊预计未来十年AI将助力AWS年销售额达6000亿美元；阿里成立Token Hub事业群，由CEO吴泳铭直接负责；MiniMax发布新一代大模型M2.7；吴泳铭宣布阿里AI战略商业目标：五年内，云和AI商业化年收入超1000亿美元；华为云CEO周跃峰：将重兵投入行业智能体赛...",
+      "content": "（3月16日-21日）亚马逊预计未来十年AI将助力AWS年销售额达6000亿美元；阿里成立Token Hub事业群，由CEO吴泳铭直接负责；MiniMax发布新一代大模型M2.7；吴泳铭宣布阿里AI战略商业目标：五年内，云和AI商业化年收入超1000亿美元；华为云CEO周跃峰：将重兵投入行业智能体赛道......",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-22T03:52:29.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7924052.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774155635786_dd443d82",
+      "title": "从“默默无闻”到全球抢货：中国变压器海外订单暴增，部分企业生产任务已排到 2027 年",
+      "summary": "IT之家 3 月 22 日消息，据央视财经今日报道，最近一段时间，国内多地的变压器生产企业都在满负荷运转，海外订单持续爆满，有些企业的生产任务已经排到了 2027 年。 IT之家注：变压器是一种利用电磁感应的原理来改变交流电压的装置，主要构件是初级线圈、次级线圈和铁芯（磁芯）。",
+      "content": "IT之家 3 月 22 日消息，据央视财经今日报道，最近一段时间，国内多地的变压器生产企业都在满负荷运转，海外订单持续爆满，有些企业的生产任务已经排到了 2027 年。 IT之家注：变压器是一种利用电磁感应的原理来改变交流电压的装置，主要构件是初级线圈、次级线圈和铁芯（磁芯）。主要功能有电压变换、电流变换、阻抗变换、隔离、稳压（磁饱和变压器）等。 报道提到，变压器等电力设备的全球订单潮的涌现背后是人工智能发展催生的巨大电力需求。数据显示，一个超大规模 AI 数据中心的用电负荷已超过 1 吉瓦，相当于一座中型城市的夏季用电高峰负荷。此外，AI 大模型正从“训练”阶段加速迈向“推理”阶段，这意味着其用电量从一次性投入转向持续性消耗。 值得一提的是，我国变压器行业企业约 3000 家。2025 年变压器出口总值达 646 亿元，比 2024 年增长近 36%。我国已成为世界第一大变压器生产国，在原材料、成本、生产周期等方面都具备明显优势。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/a7f3c7eb-7c43-4004-93ba-fe2210b83900.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-22T03:44:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/931/433.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774148224745_e488468a",
@@ -76,7 +112,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774148208384_0",
+      "id": "news_1774155602671_0",
       "title": "OpenAI to nearly double workforce to 8,000 by end-2026, FT reports",
       "summary": "March 21 (Reuters) - Artificial intelligence start-up OpenAI plans to nearly ​double its workforce to 8,000 ‌from 4,500 by the end of 2026, the Financ...",
       "content": "March 21 (Reuters) - Artificial intelligence start-up OpenAI plans to nearly ​double its workforce to 8,000 ‌from 4,500 by the end of 2026, the Financial Times reported on Saturday, ​citing two people with knowledge of ​the matter.\nReuters could not ... [711 chars]",
@@ -121,18 +157,6 @@
       "publishedAt": "2026-03-21T10:33:41.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7923819.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774148238819_f491e2f7",
-      "title": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
-      "summary": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
-      "content": "AI Agent 的记忆中间件：火山 Mem0 架构拆解及落地实践｜QCon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-21T09:54:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/VGTtEPwPCd101Iwm9wQi?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -217,18 +241,6 @@
       "publishedAt": "2026-03-21T08:14:39.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7923709.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774148240433_d523db0c",
-      "title": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
-      "summary": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
-      "content": "AI 成本压不住？AKS 用 DRA + vGPU 给出一条新路",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-21T08:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/QhXW1UCVYwHtx7W9EdDp?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -544,7 +556,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774148207729_1",
+      "id": "news_1774155603217_1",
       "title": "AI Daily: OpenAI plans to launch desktop ‘superapp’",
       "summary": "Catch up on the top artificial intelligence news and commentary by Wall Street analysts on publicly traded companies in the space with this daily reca...",
       "content": "Catch up on the top artificial intelligence news and commentary by Wall Street analysts on publicly traded companies in the space with this daily recap compiled by The Fly.\nClaim 70% Off TipRanks Premium\nUnlock hedge fund-level data and powerful inve... [7869 chars]",
@@ -554,30 +566,6 @@
       "category": "国外AI",
       "originalUrl": "https://markets.businessinsider.com/news/stocks/ai-daily-openai-plans-to-launch-desktop-superapp-1035951787",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1774148242041_3e21484d",
-      "title": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
-      "summary": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
-      "content": "为应对“AI垃圾”满天飞，arXiv脱离康奈尔大学单独运营",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-20T18:30:58.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Z791iXT2AhuA0Fiz0pcs?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774148243623_04361ec4",
-      "title": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
-      "summary": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
-      "content": "OpenAI推出“超级应用”，开抢Anthropic的企业客户",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-20T18:11:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/l7LKI978i4PjYLAhabiZ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774018431101_a9e54c1f",
@@ -854,102 +842,6 @@
       "category": "国内AI",
       "originalUrl": "https://36kr.com/newsflashes/3730841980977156?f=rss",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773982485384_3b4b1abd",
-      "title": "腾讯QClaw正式开启全量公测",
-      "summary": "36氪获悉，3月20日，腾讯QClaw正式开启全量公测。新版本持续优化微信生态体验，同时打通企业微信、QQ、飞书、钉钉等多平台远控通道，进一步拓展AI协作入口。“龙虾像素工作室”、定时任务等特色功能也在本次公测中正式开放。",
-      "content": "36氪获悉，3月20日，腾讯QClaw正式开启全量公测。新版本持续优化微信生态体验，同时打通企业微信、QQ、飞书、钉钉等多平台远控通道，进一步拓展AI协作入口。“龙虾像素工作室”、定时任务等特色功能也在本次公测中正式开放。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-20T04:50:47.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3730804701167874?f=rss",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773982520969_fbbb5f28",
-      "title": "华为常务董事汪涛：2025 年华为政企业务收入首次突破 1000 亿元",
-      "summary": "IT之家 3 月 20 日消息，华为中国合作伙伴大会 2026 于 3 月 19 日 ~20 日在深圳举行。华为常务董事汪涛在致辞中表示，2025 年华为整体经营稳健，中国政企业务快速增长。",
-      "content": "IT之家 3 月 20 日消息，华为中国合作伙伴大会 2026 于 3 月 19 日 ~20 日在深圳举行。华为常务董事汪涛在致辞中表示，2025 年华为整体经营稳健，中国政企业务快速增长。2025 年华为政企业务收入首次突破 1000 亿元，中国政企伙伴业绩也超过了 800 亿，华为在 NA 市场、商业市场和分销三类市场均实现了双位数的增长。 汪涛认为，这份成绩的背后离不开每一位伙伴的信任与投入。他透露，当前华为全部交易的伙伴超过 59000 家，华为坤灵精英工程商已超过 2600 家，华为云软件伙伴超过 4000 家，计算应用软件生态伙伴超过 9800 家，企业业务已经成为华为增长的主业引擎。 ▲ 华为常务董事汪涛发表主题演讲 IT之家注：华为中国合作伙伴大会 2026 以“因聚而升 融智有为”为主题，于 3 月 19 日 ~20 日在深圳举行。 汪涛在 3 月 19 日的主题演讲中还表示，华为坚持全面拥抱 AI，打造坚实的算力底座，开源开放，用 AI 技术重构产品和方案，支持伙伴使能千行百业全面智能化。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/230cc8cb-4c0e-4f04-afc8-5b51b21c93c1.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-20T04:41:54.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/930/935.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773982486699_0ec1ed8d",
-      "title": "机构：泰国近期旅游业势头或将减弱",
-      "summary": "RHB Bank的Barnabas Gan在一份报告中表示，在风险上升的情况下，泰国近期的旅游业势头似乎正在减弱。从1月1日到3月11日，游客到访量同比下降4.4%。这一下降主要是由于包括春节在内的季节性因素。Gan表示，外部冲击进一步拖累了游客到访量的下降，其中包括中东地缘政治紧张局势的升温。",
-      "content": "RHB Bank的Barnabas Gan在一份报告中表示，在风险上升的情况下，泰国近期的旅游业势头似乎正在减弱。从1月1日到3月11日，游客到访量同比下降4.4%。这一下降主要是由于包括春节在内的季节性因素。Gan表示，外部冲击进一步拖累了游客到访量的下降，其中包括中东地缘政治紧张局势的升温。早期指标显示，从欧洲和中东到泰国的游客到访量下降了约16%。（新浪财经）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-20T04:41:39.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3730765402259464?f=rss",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773982491837_1764b8d2",
-      "title": "81000人深夜倾诉：AI正在偷走人类最珍贵的东西？",
-      "summary": "81000人深夜倾诉：AI正在偷走人类最珍贵的东西？",
-      "content": "全球最大AI调研背后的欲望与恐惧。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-20T04:29:44.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7922305.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773982493717_9ed27fe7",
-      "title": "阿里的1000亿美金野心与美团的243亿亏损阴影",
-      "summary": "阿里的1000亿美金野心与美团的243亿亏损阴影",
-      "content": "2026年3月19日晚，杭州西溪园区与北京望京的空气密度截然不同。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-20T04:12:46.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7922309.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774148207463_2",
-      "title": "AI Won't Kill Movies. Tom Cruise and Brad Pitt Can Relax",
-      "summary": "Justin Hackney is used to being ostracized. The movie producer, who played “the infected kid” in director Danny Boyle’s 28 Days Later, shadowed Boyle ...",
-      "content": "Justin Hackney is used to being ostracized. The movie producer, who played “the infected kid” in director Danny Boyle’s 28 Days Later, shadowed Boyle for years and then pivoted into tech halfway through his career, taking roles with OpenAI and Eleven... [816 chars]",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iTPM5A3FOrAs/v1/1200x798.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2026-03-20T04:00:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bloomberg.com/opinion/articles/2026-03-20/ai-won-t-kill-movies-tom-cruise-and-brad-pitt-can-relax",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1773982521285_5a7afcec",
-      "title": "华为云 CEO 周跃峰：下半年将发布一系列面向行业和产品化的“龙虾”",
-      "summary": "IT之家 3 月 20 日消息，在今日的华为中国合作伙伴大会 2026 上，华为高级副总裁、华为云 CEO 周跃峰介绍，华为坚持自研盘古大模型开源，目前全尺寸模型已经开源，多模态等模型即将开源。",
-      "content": "IT之家 3 月 20 日消息，在今日的华为中国合作伙伴大会 2026 上，华为高级副总裁、华为云 CEO 周跃峰介绍，华为坚持自研盘古大模型开源，目前全尺寸模型已经开源，多模态等模型即将开源。同时开放拥抱 SOTA 模型，目前 MaaS Tokens 服务接入超过 160 个业界主流模型，并在模型后训练提供差异化能力。 周跃峰透露，华为云还将在今年推出更多行业智能体，包括企业级智能体开发平台 AgentArts、数据智能体 DataArts 等。预计在下半年基于 AgentArts 智能体开发平台发布一系列“龙虾”，涉及办公、代码、营销等领域。 IT之家注：华为中国合作伙伴大会 2026 以“因聚而升 融智有为”为主题，于 3 月 19 日 ~20 日在深圳举行。 华为常务董事汪涛在 3 月 19 日的主题演讲中表示，华为坚持全面拥抱 AI，打造坚实的算力底座，开源开放，用 AI 技术重构产品和方案，支持伙伴使能千行百业全面智能化。华为将聚焦五个方面加强投入，支持伙伴： 围绕鲲鹏和昇腾，打造开放易用的基础软硬件平台，创新的超节点架构使能伙伴基于行业场景，适配大中小算力的灵活部署； 战略投入昇腾 CANN 生态，以开发者为中心，全量开源，为开发者提供更高效、更便捷的开发体验； 依托华为云，打造算力黑土地，支持伙伴用 AI 解决行业难题； 以鸿蒙操作系统和开源鸿蒙为基础，构建全场景智能生态，加速 AI 应用落地； 在 NA、商业、分销三类市场，支持伙伴构建有竞争力的场景化解决方案，使能千行百业全面智能化。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/12f5446b-dfca-4b49-9846-6a9a71a7e488.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-20T03:27:35.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/930/918.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1773982521389_41e23d50",
-      "title": "Cursor 推出 Composer 2 AI 模型：百万 Token 输入 / 输出价低 86%，主打长周期编程",
-      "summary": "IT之家 3 月 20 日消息，AI 编程平台 Cursor 昨日（3 月 19 日）发布公告，宣布推出 Composer 2 和 Composer 2 Fast 两款编程模型，主打“长周期智能体编程”，具备 20 万 Token 上下文窗口，专为 Cursor 环境内的复杂多步任务深度优化。",
-      "content": "IT之家 3 月 20 日消息，AI 编程平台 Cursor 昨日（3 月 19 日）发布公告，宣布推出 Composer 2 和 Composer 2 Fast 两款编程模型，主打“长周期智能体编程”，具备 20 万 Token 上下文窗口，专为 Cursor 环境内的复杂多步任务深度优化。 定价方面，相比今年 2 月发布的 Composer 1.5（3.50 美元 / 17.5 美元），新一代 Composer 2 标准版百万 Token 输入 / 输出价格为 0.5 美元和 2.5 美元，降幅高达 86%。 而 Fast 版本（1.5 美元 / 7.5 美元）也比前代便宜了约 57%。此外，Cursor 还引入了“缓存读取”折扣，进一步下调开发者的日常使用成本。 得注意的是，Composer 2 并非通用的独立大模型，而是被严格锁定在 Cursor 生态内的专属引擎。官方文档明确指出，该模型并未通过外部平台提供 API 接口，而是深度集成了 Cursor 自身的工具栈（如语义搜索、浏览器控制和终端操作）。 有别于仅擅长单行代码补全的传统模型，Composer 2 将核心发力点瞄准了“长周期智能体编程”（Long-horizon coding）。 IT之家援引博文介绍，该模型具备 20 万 Token 的上下文窗口，经过专门的强化学习训练，能够自主处理包含数百个操作的复杂任务。 该模型可以在 Cursor 环境内顺畅地阅读代码库、决定修改方案、编辑多个文件并运行终端命令，从而真正扮演“AI 软件工程师”的角色。 在第三方基准测试中，Composer 2 展现出了显著的代际提升。在衡量终端操作能力的 Terminal-Bench 2.0 测试中，Composer 2 以 61.7 的得分击败了 Claude Opus 4.6（58.0），不过，该成绩依然落后于行业标杆 GPT-5.4（75.1）。 对此，Cursor 并未盲目宣扬“全面领先”，而是抛出了更务实的“性价比”论点：在日常编程任务中，Composer 2 能以远低于顶级模型的成本，提供足够优秀的智能表现。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/1323fc03-77c2-4467-a069-41f85a43fe5f.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-20T03:09:15.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/930/912.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
