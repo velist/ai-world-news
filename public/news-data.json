@@ -1,19 +1,43 @@
 {
   "success": true,
-  "timestamp": "2026-03-24T07:16:19.247Z",
-  "total": 72,
+  "timestamp": "2026-03-24T09:02:40.210Z",
+  "total": 68,
   "data": [
     {
-      "id": "news_1774336557725_7c93e202",
-      "title": "HubSpot推出多模型AI代码审查工具Sidekick，反馈速度提升90%，工程师认可率达80%",
-      "summary": "HubSpot推出多模型AI代码审查工具Sidekick，反馈速度提升90%，工程师认可率达80%",
-      "content": "HubSpot推出多模型AI代码审查工具Sidekick，反馈速度提升90%，工程师认可率达80%",
+      "id": "news_1774342936823_d33868a7",
+      "title": "AI 可观测如何助力 Agentic 时代的确定性工程？",
+      "summary": "AI 可观测如何助力 Agentic 时代的确定性工程？",
+      "content": "AI 可观测如何助力 Agentic 时代的确定性工程？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-24T15:00:00.000Z",
+      "publishedAt": "2026-03-24T16:08:47.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/0yPYTaTgSzlDbwXiZeuK?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/video/jzSzcszN0dLwv57hvaxk?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774342938777_cb54b36e",
+      "title": "从写文案到盯数据、算 ROI，流量见顶后，AI Agent 正在杀进核心业务",
+      "summary": "从写文案到盯数据、算 ROI，流量见顶后，AI Agent 正在杀进核心业务",
+      "content": "从写文案到盯数据、算 ROI，流量见顶后，AI Agent 正在杀进核心业务",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-24T15:18:19.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/P4c8cU7dalmhvWbAsqHL?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774342942215_2af64f67",
+      "title": "Agentic AI 时代，软件工程如何被重塑｜QCon 北京 2026 即将开幕",
+      "summary": "Agentic AI 时代，软件工程如何被重塑｜QCon 北京 2026 即将开幕",
+      "content": "Agentic AI 时代，软件工程如何被重塑｜QCon 北京 2026 即将开幕",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-24T12:38:15.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/oWDM8y5ozWwrNdyUdhc1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774328521675_3b8933d8",
@@ -28,16 +52,28 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774336564971_dd7b6f38",
-      "title": "Deep Research 智能体工程化实践：从原型到生产级服务的关键挑战与解法｜QCon北京",
-      "summary": "Deep Research 智能体工程化实践：从原型到生产级服务的关键挑战与解法｜QCon北京",
-      "content": "Deep Research 智能体工程化实践：从原型到生产级服务的关键挑战与解法｜QCon北京",
+      "id": "news_1774342946005_1ce2599d",
+      "title": "英伟达联手 Akamai：AI Grid 背后的 Token 成本与吞吐博弈",
+      "summary": "英伟达联手 Akamai：AI Grid 背后的 Token 成本与吞吐博弈",
+      "content": "英伟达联手 Akamai：AI Grid 背后的 Token 成本与吞吐博弈",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-24T09:46:58.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Xge5O9rQeOlg0gu0Diic?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-03-24T11:15:34.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/cBqdxzzI0YOXSUAbsaxz?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774342959209_e198f5b7",
+      "title": "微软计划重大整改 Exchange Server，未来十年将聚焦网络安全与单一版本",
+      "summary": "IT之家 3 月 24 日消息，据科技媒体 neowin 今天报道，微软承认许多企业客户仍然偏爱可自主管理、部署的 Exchange Server。随着该套件即将迎来 30 岁生日，官方最近公布其未来发展计划。",
+      "content": "IT之家 3 月 24 日消息，据科技媒体 neowin 今天报道，微软承认许多企业客户仍然偏爱可自主管理、部署的 Exchange Server。随着该套件即将迎来 30 岁生日，官方最近公布其未来发展计划。 IT之家从报道中了解到，Exchange Server 从 1996 年首次发布以来已经历多次演进，初代主打整合日历、电子邮件等，支持 SMTP、X.400 等标准协议，后续发展影响了 Active Directory 设计，其新特性逐步聚焦于自动化、可扩展性和可靠性等方面。 微软强调，Exchange Server 在 30 周岁之际仍具有重大价值，因此官方将通过 Exchange Subscription Edition 继续支持，至少延续到 2035 年，并持续投入未来发展。 长期以来，微软允许一个组织同时运行多版本 Exchange Server，虽然这带来了无缝迁移的好处，但也有开发速度减缓、架构清理困难、每次更新都得兼容旧版本等弊端，因此微软希望客户能切换到 Exchange SE 单一版本。目前最新版本的 Exchange SE CU2 已不支持多版本共存。 未来，Exchange Server 将持续以网络安全作为核心发展方向，官方强调，电子邮件架构仍将长期存在，因此持续投入其演进至关重要。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/93d835e9-47f9-4e78-839d-142d61d97af5.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-24T08:09:56.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/932/166.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774336577418_58752103",
@@ -256,6 +292,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1774342949932_c555c6d3",
+      "title": "极客部落“OPC 创业者招募计划”正式发布，赋能 AI 时代“一人独角兽”",
+      "summary": "极客部落“OPC 创业者招募计划”正式发布，赋能 AI 时代“一人独角兽”",
+      "content": "极客部落“OPC 创业者招募计划”正式发布，赋能 AI 时代“一人独角兽”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-23T21:41:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/71MQtQpYKbCLSbXo6v8u?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1774263707285_26ee7012",
       "title": "Bosch 集团首席 AI 科学家阎栋博士已确认出席QCon北京站，探讨AI大模型是否会吞噬软件世界",
       "summary": "Bosch 集团首席 AI 科学家阎栋博士已确认出席QCon北京站，探讨AI大模型是否会吞噬软件世界...",
@@ -265,30 +313,6 @@
       "publishedAt": "2026-03-23T18:15:12.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/g29j1RVFBqGg1t4BQExV?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774336569681_c662a436",
-      "title": "AICon 2026 上海站正式启动：OpenClaw 袭来，我们来谈点真的",
-      "summary": "AICon 2026 上海站正式启动：OpenClaw 袭来，我们来谈点真的",
-      "content": "AICon 2026 上海站正式启动：OpenClaw 袭来，我们来谈点真的",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-23T17:39:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/C2WQHsZF6ruKr61USuSa?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774336571126_089255eb",
-      "title": "DoorDash 构建大模型对话模拟与评估闭环，实现客服机器人规模化测试",
-      "summary": "DoorDash 构建大模型对话模拟与评估闭环，实现客服机器人规模化测试",
-      "content": "DoorDash 构建大模型对话模拟与评估闭环，实现客服机器人规模化测试",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-23T15:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/ZaJmZWklKB37egQrQzBk?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -388,7 +412,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774336527787_0",
+      "id": "news_1774342914773_0",
       "title": "Exclusive: OpenAI sweetens private equity pitch amid enterprise turf war with Anthropic, sources say",
       "summary": "NEW YORK, March 23 (Reuters) - ChatGPT maker OpenAI is offering private-equity firms a sweeter deal than rival Anthropic as both artificial intelligen...",
       "content": "NEW YORK, March 23 (Reuters) - ChatGPT maker OpenAI is offering private-equity firms a sweeter deal than rival Anthropic as both artificial intelligence companies court buyout firms to ​form joint ventures aimed at raising fresh capital and accelerat... [3942 chars]",
@@ -794,78 +818,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/931/514.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774172533502_7f45aed5",
-      "title": "OpenAI：将在美国 ChatGPT 免费版及 Go 版投放广告",
-      "summary": "IT之家 3 月 22 日消息，OpenAI 发言人在发给路透社的邮件声明中表示，未来几周内，公司将开始向美国地区所有 ChatGPT 免费版及 Go 版用户展示广告。",
-      "content": "IT之家 3 月 22 日消息，OpenAI 发言人在发给路透社的邮件声明中表示，未来几周内，公司将开始向美国地区所有 ChatGPT 免费版及 Go 版用户展示广告。 广告技术公司 Criteo 在本月早些时候的声明中称，OpenAI 近期已将其接入美国 ChatGPT 免费版与 Go 版的广告测试项目中。Criteo 主要为广告主提供广告采购与精准投放优化接口。 据《The Information》消息，Criteo 正在向广告主招商，要求其承诺 5 万至 10 万美元（IT之家注：现汇率约合 34.5 万至 69 万元人民币）的广告投放预算。 此外，OpenAI 已建议广告主：提供更多版本的广告文案与视觉素材，能够提升广告曝光频次与投放效果。 随着 ChatGPT 使用量激增，OpenAI 一直在探索将广告作为新的收入来源。在生成式人工智能竞争日趋激烈、计算基础设施成本不断攀升的背景下，该公司正寻求实现收入来源多元化。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/b1d725a2-585f-483b-880d-47b62417e4f6.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-22T08:51:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/931/509.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774169220914_e999d893",
-      "title": "中国AI大模型周调用量达4.69万亿Token",
-      "summary": "全球最大AI模型API聚合平台OpenRouter最新发布的数据显示，截至3月15日，中国AI大模型的周调用量达到4.69万亿Token，连续第二周超越美国。全球调用量排名前三的位置，更是被中国模型包揽。",
-      "content": "全球最大AI模型API聚合平台OpenRouter最新发布的数据显示，截至3月15日，中国AI大模型的周调用量达到4.69万亿Token，连续第二周超越美国。全球调用量排名前三的位置，更是被中国模型包揽。摩根大通预测，中国的AI推理Token消耗量将从2025年的约10千万亿增长至2030年的约3900千万亿，五年间增长约370倍。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-22T08:30:35.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3733795048587524?f=rss",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774169222592_0589286a",
-      "title": "国产大模型连续5周霸榜全球冠军",
-      "summary": "国产大模型MiniMax M2.5连续五周霸榜全球大模型调用量冠军，在公司总部的办公区，产品研发人员向记者展示了直观的价格差距。“达到同样能力水平的海外模型跟我们相比，价格可能有十几倍的差距。”性价比正在成为国产大模型吸引全球用户的核心竞争力。这种性价比从何而来？",
-      "content": "国产大模型MiniMax M2.5连续五周霸榜全球大模型调用量冠军，在公司总部的办公区，产品研发人员向记者展示了直观的价格差距。“达到同样能力水平的海外模型跟我们相比，价格可能有十几倍的差距。”性价比正在成为国产大模型吸引全球用户的核心竞争力。这种性价比从何而来？第一个关键因素是技术创新，通过底层架构创新，从根本上降低了推理成本，简单来说，就是用更少的Token完成同样的任务。另一关键因素是能源优势，业内人士告诉记者，目前电费在算力成本中占比高达70%到80%。对于需要百万张卡并行运算的AI集群来说，电价几毛钱的差距投射到年度运营成本上就是天文数字。稳定的能源供应和相对低廉的电价，为中国AI产业筑起了更有竞争力的成本防线。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-22T08:00:02.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3733794493694209?f=rss",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774148236727_1d6ae8a1",
-      "title": "Java近期资讯：Apache Solr 10、LangChain4j、Grails、JobRunr、Gradle、Devnexus和Commonhaus",
-      "summary": "Java近期资讯：Apache Solr 10、LangChain4j、Grails、JobRunr、Gradle、Devnexus和Commonhaus...",
-      "content": "Java近期资讯：Apache Solr 10、LangChain4j、Grails、JobRunr、Gradle、Devnexus和Commonhaus",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-22T08:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/ia7cifkMwDqYjd1FsdEQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774165359091_55b13060",
-      "title": "马斯克：“Terafab”项目将落户奥斯汀，由特斯拉和SpaceX共同运营",
-      "summary": "当地时间3月21日，马斯克就“Terafab”项目召开发布会，称这项旨在最终为机器人、人工智能和太空数据中心制造自有芯片的宏伟计划将落户奥斯汀，并由特斯拉和SpaceX共同运营。马斯克表示，他将首先在奥斯汀建立一座“先进技术晶圆厂”，该厂将配备制造和测试各类芯片所需的全套设备。",
-      "content": "当地时间3月21日，马斯克就“Terafab”项目召开发布会，称这项旨在最终为机器人、人工智能和太空数据中心制造自有芯片的宏伟计划将落户奥斯汀，并由特斯拉和SpaceX共同运营。马斯克表示，他将首先在奥斯汀建立一座“先进技术晶圆厂”，该厂将配备制造和测试各类芯片所需的全套设备。 马斯克表示，尽管半导体行业正在增加产量，但其发展速度仍无法满足他预期的芯片需求。“这个速度远低于我们的预期，”马斯克表示。““要么我们建造‘太瓦级工厂’，要么我们就没有芯片可用，而我们需要这些芯片，所以我们要建造‘太瓦级工厂’。”马斯克的项目目标是未来每年支持1太瓦的计算能力。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-22T07:30:13.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3733739661950979?f=rss",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774165387610_7abdfcd7",
-      "title": "中国 AI 大模型周调用量达 4.69 万亿 Token，连续两周超越美国",
-      "summary": "IT之家 3 月 22 日消息，据央视财经消息，全球最大 AI 模型 API 聚合平台 OpenRouter 最新数据显示，中国 AI 大模型的调用量达到 4.69 万亿 Token（3 月 9 日至 3 月 15 日），连续两周超越美国。 据报道，全球调用量排名前三的位置也被中国模型包揽。",
-      "content": "IT之家 3 月 22 日消息，据央视财经消息，全球最大 AI 模型 API 聚合平台 OpenRouter 最新数据显示，中国 AI 大模型的调用量达到 4.69 万亿 Token（3 月 9 日至 3 月 15 日），连续两周超越美国。 据报道，全球调用量排名前三的位置也被中国模型包揽。摩根大通预测，中国的 AI 推理 Token 消耗量将从 2025 年的约 10 千万亿增长至 2030 年的约 3900 千万亿，五年间增长约 370 倍。 IT之家注：Token（常被称为词元）是计算机科学与自然语言处理领域中的一个基础且重要的概念，通常指文本数据经过分词或标记化处理后的最小单位，其中单位可以是单词、标点符号、数字或其他任何有意义的符号。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/123a223c-a82d-4495-bd50-9d84b6d53fee.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-22T07:25:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/931/481.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
