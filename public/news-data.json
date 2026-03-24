@@ -1,43 +1,55 @@
 {
   "success": true,
-  "timestamp": "2026-03-24T22:41:46.312Z",
-  "total": 82,
+  "timestamp": "2026-03-24T23:40:35.618Z",
+  "total": 83,
   "data": [
     {
-      "id": "news_1774392083045_a5438bc4",
-      "title": "GTC解读：当我们谈论AI推理的KV Cache，我们在做什么？",
-      "summary": "GTC解读：当我们谈论AI推理的KV Cache，我们在做什么？",
-      "content": "GTC解读：当我们谈论AI推理的KV Cache，我们在做什么？",
+      "id": "news_1774395593055_0b9a524f",
+      "title": "亚马逊据悉开发新型AI智能体以自动执行部分部门职能",
+      "summary": "据报道，亚马逊旗下云计算部门AWS正在开发一种AI智能体，旨在自动执行销售、业务开发及其他部门的部分职能，而这些部门此前一直是该科技巨头的裁员重灾区。AWS开发的这款智能体可以处理数千名技术专家在网络安全和服务器网络等领域的部分工作量。",
+      "content": "据报道，亚马逊旗下云计算部门AWS正在开发一种AI智能体，旨在自动执行销售、业务开发及其他部门的部分职能，而这些部门此前一直是该科技巨头的裁员重灾区。AWS开发的这款智能体可以处理数千名技术专家在网络安全和服务器网络等领域的部分工作量。（界面）",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-24T19:59:40.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/MQ9xMgqr7XrSbD8yu6Tw?utm_source=rss&utm_medium=article",
+      "source": "36氪",
+      "publishedAt": "2026-03-24T23:33:09.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://36kr.com/newsflashes/3737564482404614?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774395634337_fdff1832",
+      "title": "小米推出“米家智能微蒸烤一体机 Pro 嵌入式 52L”：TFT 彩屏、温湿双维智控，4699 元",
+      "summary": "IT之家 3 月 25 日消息，小米现已在有品上架一款“米家智能微蒸烤一体机 Pro 嵌入式 52L”（点此访问），该产品主打温湿双维智控、智能交互设计，定价为 4699 元。 该产品延续小米家族式外观设计，正面搭载一块 TFT 彩屏，下方带有磁吸可拆卸旋钮进行交互。",
+      "content": "IT之家 3 月 25 日消息，小米现已在有品上架一款“米家智能微蒸烤一体机 Pro 嵌入式 52L”（点此访问），该产品主打温湿双维智控、智能交互设计，定价为 4699 元。 该产品延续小米家族式外观设计，正面搭载一块 TFT 彩屏，下方带有磁吸可拆卸旋钮进行交互。产品采用三层搁架设计，内置 9 种烹饪功能，号称可以取代微波炉、蒸烤箱、空气炸锅、电炖锅、干果机、恒温柜、酸奶机、消毒柜。 其他方面，该产品内置 AI 算法监测温湿度，能够智能生成专属温湿曲线，自动调节温度和蒸汽量，，支持小米米家 App 连接。 IT之家附产品参数：",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/5d97670a-f837-4387-8135-52464c85ee59.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-24T23:21:24.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/932/316.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774392085193_35a0d86f",
-      "title": "基于 Snowflake 的 MONAI 分布式医学影像处理 ｜ 技术实践",
-      "summary": "基于 Snowflake 的 MONAI 分布式医学影像处理 ｜ 技术实践",
-      "content": "基于 Snowflake 的 MONAI 分布式医学影像处理 ｜ 技术实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-24T19:48:46.000Z",
+      "id": "news_1774395634543_bc48ace7",
+      "title": "苹果推出“Apple Business”一站式平台：整合设备管理与企业服务，地图广告计划同步官宣",
+      "summary": "IT之家 3 月 25 日消息，苹果公司昨日宣布推出 Apple Business，定位是一个集设备管理、生产力工具与客户触达功能于一体的一站式平台。",
+      "content": "IT之家 3 月 25 日消息，苹果公司昨日宣布推出 Apple Business，定位是一个集设备管理、生产力工具与客户触达功能于一体的一站式平台。 该服务旨在整合苹果现有的多项企业级产品，包括 Apple Business Essentials、Apple Business Manager 和 Apple Business Connect，为企业提供一个统一界面，用于管理设备、员工、通信及客户在苹果生态内的交互体验。 Apple Business 内置了移动设备管理功能，企业可在一个界面内配置设备设置、安全策略、应用及用户组。配套的 Apple Business 应用可允许员工安装工作软件、查看同事联系方式并提交技术支持请求。 新增的“蓝图”功能使管理员能够为设备预配置特定设置和应用，实现零接触部署 —— 员工拆箱后即可直接使用设备。通过苹果或授权经销商采购的设备均可支持零接触部署。 该平台还引入了“托管式 Apple 账户”，苹果称其在个人数据与工作数据之间实现了“加密分离”，使员工能够在同一台设备上兼顾工作与生活用途，而无需担心信息混淆。账户配置可通过与 Google Workspace、Microsoft Entra ID 等身份提供商集成实现自动化。 其他功能包括：创建用户组、分配角色、通过 App Store 分发应用，以及提供 Admin API 以支持大规模部署，涵盖设备、用户、审计及 MDM 服务数据。 Apple Business 还新增了与自定义域名绑定的集成式邮件、日历和通讯录服务，关于企业托管邮箱的相关内容IT之家已有报道。企业可选择使用现有域名，也可通过平台购买新域名。这些工具包括日历委托功能，以及带有个性化联系卡片的公司通讯录。 在内部管理工具之外，Apple Business 还引入了新的客户互动工具。该平台允许企业管理其品牌及门店在苹果各项服务中的呈现方式，整合了此前 Apple Business Connect 中的相关功能。 具体功能包括：包含企业标识与详细信息的品牌档案；在 Apple 地图中可自定义的商家信息卡，支持展示照片、营业时间以及预订或下单等快捷操作；以及分析工具，用于展示用户如何发现并互动门店。品牌化沟通将扩展至邮件应用和 iCloud 邮件，以及钱包中的订单追踪功能。使用 iPhone 上的“轻触支付”功能的商家，可在交易过程中展示其品牌标识。 苹果还宣布了一项与 Apple 地图相关的新广告功能，计划于今年夏季晚些时候在美国和加拿大上线。企业可创建广告，使其显示在地图搜索结果顶部，以及新的“推荐地点”中。 Apple Business 将于 4 月 14 日起在超过 200 个国家和地区作为免费服务面向现有及新用户开放。此前使用苹果企业平台的老用户数据将自动迁移，部分功能仅在特定地区提供。平台内仍可选购额外的 iCloud 存储空间和 AppleCare+ 等付费服务。 Apple Business 上线后，原有的 Apple Business Essentials、Apple Business Manager 和 Apple Business Connect 将停止服务。已认领的地点信息、账户资料等现有数据将自动迁移至新系统。过渡完成后，Business Essentials 用户将不再按月支付设备管理费用。 相关阅读： 《苹果推出全新企业托管邮箱，瞄准谷歌 Workspace、Microsoft 365 市场》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/6044673e-c716-4ba9-a83e-32ebfd54892f.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-24T22:50:32.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/yc7p7KfKMuayhRD3z5dY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.ithome.com/0/932/309.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774392087310_add44545",
-      "title": "英伟达早不靠GPU躺赢！黄仁勋终极预判：10亿程序员时代将至，AI智能彻底廉价",
-      "summary": "英伟达早不靠GPU躺赢！黄仁勋终极预判：10亿程序员时代将至，AI智能彻底廉价",
-      "content": "英伟达早不靠GPU躺赢！黄仁勋终极预判：10亿程序员时代将至，AI智能彻底廉价",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-24T18:11:01.000Z",
+      "id": "news_1774395634616_b865f1a3",
+      "title": "苹果为旧款 Apple Watch 推送 watchOS 5.3.10/8.8.2 更新，延长设备证书有效期",
+      "summary": "IT之家 3 月 25 日消息，苹果公司今天除了为现款 Apple Watch 推送 watchOS 26.4 正式版外，还为旧款 Apple Watch Series 1-4 推送了 watchOS 5.3.10 版本更新，为旧款 Apple Watch Series 3-7 及初代 SE 等机型...",
+      "content": "IT之家 3 月 25 日消息，苹果公司今天除了为现款 Apple Watch 推送 watchOS 26.4 正式版外，还为旧款 Apple Watch Series 1-4 推送了 watchOS 5.3.10 版本更新，为旧款 Apple Watch Series 3-7 及初代 SE 等机型推送了 watchOS 8.8.2 更新。 参考苹果介绍，本次更新主要延长了相应设备“激活、iMessage、FaceTime”等功能正常运行所需的证书有效期，以便用户在 2027 年 1 月后还能继续使用。 苹果为 Apple Watch Series 3/4 同时推送 watchOS 5.3.10 及 watchOS 8.8.2 的原因是如果用户持有 iPhone 5s/6 系列手机，那么手机配对的手表只能停在 watchOS 5.x。如果用户持有 iPhone 6s/SE 及后续机型，则可以将配对的旧款手表升级至 watchOS 8.8.2。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/60ff6e9d-ae70-4fe0-91bd-99915b8c9f2e.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-24T22:44:12.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/3ZLmLsMVwD1PzL6s86YO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.ithome.com/0/932/308.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774379808031_2baede10",
@@ -76,15 +88,15 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774392089168_254d1c15",
-      "title": "3月27-28日相约杭州！极客时间携智能体时代AI人才粮仓模型亮相CSTD人才发展灯塔峰会",
-      "summary": "3月27-28日相约杭州！极客时间携智能体时代AI人才粮仓模型亮相CSTD人才发展灯塔峰会",
-      "content": "3月27-28日相约杭州！极客时间携智能体时代AI人才粮仓模型亮相CSTD人才发展灯塔峰会",
+      "id": "news_1774395618889_d33868a7",
+      "title": "AI 可观测如何助力 Agentic 时代的确定性工程？",
+      "summary": "AI 可观测如何助力 Agentic 时代的确定性工程？",
+      "content": "AI 可观测如何助力 Agentic 时代的确定性工程？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-24T16:59:58.000Z",
+      "publishedAt": "2026-03-24T16:08:47.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/I56iru1tbLQxVRt9gaEa?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/video/jzSzcszN0dLwv57hvaxk?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -100,6 +112,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1774395620844_cb54b36e",
+      "title": "从写文案到盯数据、算 ROI，流量见顶后，AI Agent 正在杀进核心业务",
+      "summary": "从写文案到盯数据、算 ROI，流量见顶后，AI Agent 正在杀进核心业务",
+      "content": "从写文案到盯数据、算 ROI，流量见顶后，AI Agent 正在杀进核心业务",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-24T15:18:19.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/P4c8cU7dalmhvWbAsqHL?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1774372267790_8aa6c791",
       "title": "美国服饰品牌 Gap（盖璞）与谷歌 Gemini 合作，让消费者直接用 AI 助手购买旗下商品",
       "summary": "IT之家 3 月 24 日消息，据外媒 CNBC 今天报道，美国服饰品牌 Gap（IT之家注：盖璞）现已与谷歌 Gemini 达成合作，让消费者直接用 AI 助手购买旗下品牌产品。",
@@ -110,18 +134,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/932/294.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774392094670_7c93e202",
-      "title": "HubSpot推出多模型AI代码审查工具Sidekick，反馈速度提升90%，工程师认可率达80%",
-      "summary": "HubSpot推出多模型AI代码审查工具Sidekick，反馈速度提升90%，工程师认可率达80%",
-      "content": "HubSpot推出多模型AI代码审查工具Sidekick，反馈速度提升90%，工程师认可率达80%",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-24T15:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/0yPYTaTgSzlDbwXiZeuK?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774365015808_a106b5d0",
@@ -208,6 +220,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1774395624681_2af64f67",
+      "title": "Agentic AI 时代，软件工程如何被重塑｜QCon 北京 2026 即将开幕",
+      "summary": "Agentic AI 时代，软件工程如何被重塑｜QCon 北京 2026 即将开幕",
+      "content": "Agentic AI 时代，软件工程如何被重塑｜QCon 北京 2026 即将开幕",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-24T12:38:15.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/oWDM8y5ozWwrNdyUdhc1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1774359827060_4d4a654d",
       "title": "甲骨文 CEO 西西里亚：AI 不会取代人类，而是增强能力",
       "summary": "IT之家 3 月 24 日消息，据科技媒体 Tech Radar 今天报道，甲骨文联合 CEO 麦克 · 西西里亚在伦敦介绍旗下“全球最大 AI 云”最新进展，谈及 AI 工具带来的广泛可能性。",
@@ -242,6 +266,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/MH22YHstzlv7ROS6diuj?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774395629079_1ce2599d",
+      "title": "英伟达联手 Akamai：AI Grid 背后的 Token 成本与吞吐博弈",
+      "summary": "英伟达联手 Akamai：AI Grid 背后的 Token 成本与吞吐博弈",
+      "content": "英伟达联手 Akamai：AI Grid 背后的 Token 成本与吞吐博弈",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-24T11:15:34.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/cBqdxzzI0YOXSUAbsaxz?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774353215554_6311498b",
@@ -688,7 +724,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774392050705_0",
+      "id": "news_1774395579332_0",
       "title": "Exclusive: OpenAI sweetens private equity pitch amid enterprise turf war with Anthropic, sources say",
       "summary": "NEW YORK, March 23 (Reuters) - ChatGPT maker OpenAI is offering private-equity firms a sweeter deal than rival Anthropic as both artificial intelligen...",
       "content": "NEW YORK, March 23 (Reuters) - ChatGPT maker OpenAI is offering private-equity firms a sweeter deal than rival Anthropic as both artificial intelligence companies court buyout firms to ​form joint ventures aimed at raising fresh capital and accelerat... [3942 chars]",
@@ -961,30 +997,6 @@
       "publishedAt": "2026-03-23T00:44:01.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7924486.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774222621727_db423f06",
-      "title": "消息称 Meta CEO 扎克伯格开发“CEO 智能体”：帮自己履行职责、提升工作效率",
-      "summary": "IT之家 3 月 23 日消息，今天早间，《华尔街日报》爆料称，Meta 正在推动一场内部转型，而核心工具是 AI 智能体。目标是让每个员工都拥有自己的 AI 助手，甚至包括 CEO 扎克伯格本人。 据知情人士透露，扎克伯格已经在开发一个“CEO 智能体”，用于提升信息获取效率。",
-      "content": "IT之家 3 月 23 日消息，今天早间，《华尔街日报》爆料称，Meta 正在推动一场内部转型，而核心工具是 AI 智能体。目标是让每个员工都拥有自己的 AI 助手，甚至包括 CEO 扎克伯格本人。 据知情人士透露，扎克伯格已经在开发一个“CEO 智能体”，用于提升信息获取效率。该系统可以直接给出答案，替代过去需要层层沟通的流程。 这一尝试背后，是 Meta 希望提升整体效率、压缩组织层级，并改变员工工作方式，以应对 AI 原生公司的竞争压力。公司认为，AI 的全面应用关系到未来发展。 扎克伯格曾在 1 月财报电话会上说：“我们正在推动 AI 原生工具，让个人能完成更多工作，同时减少层级。如果做到这一点，效率会更高，工作体验也会更好。” AI 工具已经在 Meta 内部迅速普及，并被纳入绩效考核。员工在内部平台上分享 AI 应用场景和自建工具，整体氛围被一些人形容为回到早期 Facebook 时期的“快速推进”状态。 在具体应用层面，员工开始使用 My Claw 等个人智能体工具。其能够读取聊天记录和文件，并代表用户与同事或其他智能体沟通。 另一款工具 Second Brain 也在内部得到推广。该工具基于 Claude 开发，能够索引和查询项目文档，被定位为类似“AI 参谋”的角色。 组织结构方面，Meta 新成立了应用 AI 工程团队，负责加速大语言模型的开发。该团队采用极度扁平结构，最多 50 人直接向一名负责人汇报。负责该项目的 Meta 高管马赫尔 · 萨巴表示：“这个组织从一开始就是 AI 原生设计。” 与此同时，员工被鼓励频繁参与 AI 培训和黑客马拉松，并开发自己的工具以提升效率。 不过，这种快速转型也带来压力。一部分员工认为当前环境充满机会，另一部分则担心 AI 应用会加剧裁员风险。 据IT之家了解，Meta 在 2022 年曾大规模裁员，削减 11000 个岗位。随后在号称“效率年”的 2023 年继续推进裁员和成本控制，员工规模一度降至约 67000 人。之后人数再次回升，目前达到 78865 人。 Meta 首席财务官苏珊 · 李表示，公司正在调整用工方式，以确保效率不落后于 AI 原生公司：“对于我们这样的规模来说，保持与 AI 原生公司的效率水平，是一个必须解决的问题。”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-03-22T23:33:32.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/931/567.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774222621881_63275f62",
-      "title": "消息称苹果 50 周年全球庆典活动收官仪式将于 Apple Park 举行，硬件工程负责人 John Ternus 或站 C 位",
-      "summary": "IT之家 3 月 23 日消息，据科技媒体 MacRumors 昨天报道，苹果近期正在全球各地举办活动，庆祝公司成立 50 周年，而收官庆典很可能会在美国加州的 Apple Park 总部举行。",
-      "content": "IT之家 3 月 23 日消息，据科技媒体 MacRumors 昨天报道，苹果近期正在全球各地举办活动，庆祝公司成立 50 周年，而收官庆典很可能会在美国加州的 Apple Park 总部举行。 彭博社记者马克 · 古尔曼对此表示，苹果计划在加州库比蒂诺举办一场“精心打造的 50 岁生日派对”，并预计公司硬件工程负责人 John Ternus（IT之家注：被广泛视为苹果下一任 CEO 最有力人选）将成为“站在舞台中央的人”。 古尔曼并没有透露此次活动的更多细节。不过 MacRumors 推测，收官仪式很可能会在 Apple Park 中央的彩虹拱门下举行。同时苹果将在 4 月 1 日正式成立 50 周年，因此该活动很可能即将举办，不过目前尚不清楚活动是否仅限员工、媒体参与，还是包含公众部分。 本月中旬，苹果在美国纽约的大中央火车站 Apple Store 举行 50 周年庆典开幕式，之后又在中国、韩国举办了类似活动。接下来几天苹果还计划在澳大利亚、加拿大、法国、泰国和英国继续举行庆祝活动。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/4fdd8688-b548-445f-9add-e8467f504a3f.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-22T22:44:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/931/558.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
