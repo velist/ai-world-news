@@ -1,32 +1,8 @@
 {
   "success": true,
-  "timestamp": "2026-03-27T18:00:37.870Z",
-  "total": 77,
+  "timestamp": "2026-03-27T20:56:55.409Z",
+  "total": 76,
   "data": [
-    {
-      "id": "news_1774634418618_405dce4d",
-      "title": "非营利组织上线首个“AI 失业补助”：每月发 1000 美元，持续 1 年",
-      "summary": "非营利组织上线首个“AI 失业补助”：每月发 1000 美元，持续 1 年",
-      "content": "非营利组织上线首个“AI 失业补助”：每月发 1000 美元，持续 1 年",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-27T18:52:19.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/cuHaMeYSqw3dOYHW1P8A?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774634420339_a9b82e88",
-      "title": "传月之暗面考虑赴香港进行 IPO，内部人员证实去年底已启动成本核算",
-      "summary": "传月之暗面考虑赴香港进行 IPO，内部人员证实去年底已启动成本核算",
-      "content": "传月之暗面考虑赴香港进行 IPO，内部人员证实去年底已启动成本核算",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-27T18:48:55.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/HUWHl1y4s0K0fNxm7iv0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
     {
       "id": "news_1774609059753_ce9cd5b5",
       "title": "1.9 万行 Claude 写的代码进入 Node.js 核心库！社区当场吵翻天，反对者呼吁封杀AI代码",
@@ -52,28 +28,40 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774634432252_ff420e1d",
-      "title": "Uber 借助智能体系统实现设计文档自动化",
-      "summary": "Uber 借助智能体系统实现设计文档自动化",
-      "content": "Uber 借助智能体系统实现设计文档自动化",
+      "id": "news_1774645004247_f6ffdb67",
+      "title": "AI 正在毁掉开源：从“协作圣地”到“垃圾洪水”，维护者士气跌至谷底，开始集体掀桌",
+      "summary": "AI 正在毁掉开源：从“协作圣地”到“垃圾洪水”，维护者士气跌至谷底，开始集体掀桌",
+      "content": "AI 正在毁掉开源：从“协作圣地”到“垃圾洪水”，维护者士气跌至谷底，开始集体掀桌",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-27T15:00:00.000Z",
+      "publishedAt": "2026-03-27T16:20:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/xic3EKabhq6RYYa9mNIP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774645005937_9a4c3d30",
+      "title": "当数据库的主要用户不再是人类：我们在 AI Agent 场景下的架构实践与思考",
+      "summary": "当数据库的主要用户不再是人类：我们在 AI Agent 场景下的架构实践与思考",
+      "content": "当数据库的主要用户不再是人类：我们在 AI Agent 场景下的架构实践与思考",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-27T16:14:09.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/ByY97HEFsSdPTMIVzJuP?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/9OKvpT7uHXxYJBkKYyrf?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774634433722_08fc05a9",
-      "title": "AI 编码助手并未加快交付速度，因为编码从来都不是瓶颈",
-      "summary": "AI 编码助手并未加快交付速度，因为编码从来都不是瓶颈",
-      "content": "AI 编码助手并未加快交付速度，因为编码从来都不是瓶颈",
+      "id": "news_1774645007830_c4ea9a9f",
+      "title": "AI一键生成网站之后，最残酷的差距出现了：代码不再值钱，审美决定生死",
+      "summary": "AI一键生成网站之后，最残酷的差距出现了：代码不再值钱，审美决定生死",
+      "content": "AI一键生成网站之后，最残酷的差距出现了：代码不再值钱，审美决定生死",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-27T14:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/jZgYXoUQ01pRrKODUgeT?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-03-27T16:13:02.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/QKUxE1tLX7p2EvM7Kldq?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774623957951_6625879f",
@@ -568,7 +556,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774634073236_0",
+      "id": "news_1774644648182_0",
       "title": "US book critics honor Nobel laureate and South Korean novelist Han Kang",
       "summary": "A novel by Nobel laureate Han Kang, Karen Hao’s examination of artificial intelligence and OpenAI (the company behind ChatGPT) and a memoir by the aut...",
       "content": "A novel by Nobel laureate Han Kang, Karen Hao’s examination of artificial intelligence and OpenAI (the company behind ChatGPT) and a memoir by the author Arundhati Roy were among the winners Thursday of the annual National Book Critics Circle awards.... [1757 chars]",
@@ -580,7 +568,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1774634391257_1",
+      "id": "news_1774644973243_1",
       "title": "US Book Critics Honor Nobel Laureate and South Korean Novelist Han Kang",
       "summary": "A novel by Nobel laureate Han Kang, Karen Hao's examination of artificial intelligence and OpenAI (the company behind ChatGPT) and a memoir by the aut...",
       "content": "A novel by Nobel laureate Han Kang, Karen Hao's examination of artificial intelligence and OpenAI (the company behind ChatGPT) and a memoir by the author Arundhati Roy were among the winners Thursday of the annual National Book Critics Circle awards.... [1757 chars]",
@@ -640,7 +628,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774634072199_2",
+      "id": "news_1774644647898_2",
       "title": "Apple plans to open Siri to rival AI services, Bloomberg News reports",
       "summary": "The move, expected as part of Apple's iOS 27 update, would allow third-party AI ​apps to integrate directly with Siri, enabling ​users to route querie...",
       "content": "The move, expected as part of Apple's iOS 27 update, would allow third-party AI ​apps to integrate directly with Siri, enabling ​users to route queries to services such as ⁠Alphabet's Gemini or Anthropic's Claude from within the ​assistant, according... [934 chars]",
@@ -724,7 +712,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774634072440_3",
+      "id": "news_1774644648804_3",
       "title": "OpenAI signs lease for Richmond building as company expands",
       "summary": "RICHMOND — After recently securing a lease in Mountain View, OpenAI signed a lease for an industrial hub in Richmond, a deal that marks a fresh expans...",
       "content": "RICHMOND — After recently securing a lease in Mountain View, OpenAI signed a lease for an industrial hub in Richmond, a deal that marks a fresh expansion for the artificial intelligence company in the Bay Area.\nTotaling 202,400 square feet, the build... [724 chars]",
@@ -916,7 +904,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774634072336_4",
+      "id": "news_1774644648201_4",
       "title": "Ending OpenAI's Sora unlikely to slow influx of AI-generated video online, experts say",
       "summary": "OpenAI is discontinuing Sora, its app that allows users to generate artificial intelligence videos with text prompts.\nThe app and a major update to So...",
       "content": "OpenAI is discontinuing Sora, its app that allows users to generate artificial intelligence videos with text prompts.\nThe app and a major update to Sora were announced just last fall, followed shortly by a $1 billion deal with Disney that would’ve al... [3475 chars]",
