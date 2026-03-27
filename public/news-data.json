@@ -1,8 +1,44 @@
 {
   "success": true,
-  "timestamp": "2026-03-27T09:04:27.944Z",
-  "total": 78,
+  "timestamp": "2026-03-27T10:57:57.244Z",
+  "total": 79,
   "data": [
+    {
+      "id": "news_1774609055626_405dce4d",
+      "title": "非营利组织上线首个“AI 失业补助”：每月发 1000 美元，持续 1 年",
+      "summary": "非营利组织上线首个“AI 失业补助”：每月发 1000 美元，持续 1 年",
+      "content": "非营利组织上线首个“AI 失业补助”：每月发 1000 美元，持续 1 年",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-27T18:52:19.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/cuHaMeYSqw3dOYHW1P8A?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774609057647_a9b82e88",
+      "title": "传月之暗面考虑赴香港进行 IPO，内部人员证实去年底已启动成本核算",
+      "summary": "传月之暗面考虑赴香港进行 IPO，内部人员证实去年底已启动成本核算",
+      "content": "传月之暗面考虑赴香港进行 IPO，内部人员证实去年底已启动成本核算",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-27T18:48:55.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/HUWHl1y4s0K0fNxm7iv0?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774609059753_ce9cd5b5",
+      "title": "1.9 万行 Claude 写的代码进入 Node.js 核心库！社区当场吵翻天，反对者呼吁封杀AI代码",
+      "summary": "1.9 万行 Claude 写的代码进入 Node.js 核心库！社区当场吵翻天，反对者呼吁封杀AI代码...",
+      "content": "1.9 万行 Claude 写的代码进入 Node.js 核心库！社区当场吵翻天，反对者呼吁封杀AI代码",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-27T18:30:30.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/WryxXgBQWKB29rkoxuLo?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1774602245893_cc38e766",
       "title": "AI 已能写 80% 代码，但 Agent 也有致命短板！OpenAI Codex 技术总监：问错了，比不会写更麻烦",
@@ -16,40 +52,28 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774602247836_f6ffdb67",
-      "title": "AI 正在毁掉开源：从“协作圣地”到“垃圾洪水”，维护者士气跌至谷底，开始集体掀桌",
-      "summary": "AI 正在毁掉开源：从“协作圣地”到“垃圾洪水”，维护者士气跌至谷底，开始集体掀桌",
-      "content": "AI 正在毁掉开源：从“协作圣地”到“垃圾洪水”，维护者士气跌至谷底，开始集体掀桌",
+      "id": "news_1774609068957_ff420e1d",
+      "title": "Uber 借助智能体系统实现设计文档自动化",
+      "summary": "Uber 借助智能体系统实现设计文档自动化",
+      "content": "Uber 借助智能体系统实现设计文档自动化",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-27T16:20:05.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/xic3EKabhq6RYYa9mNIP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774602249355_9a4c3d30",
-      "title": "当数据库的主要用户不再是人类：我们在 AI Agent 场景下的架构实践与思考",
-      "summary": "当数据库的主要用户不再是人类：我们在 AI Agent 场景下的架构实践与思考",
-      "content": "当数据库的主要用户不再是人类：我们在 AI Agent 场景下的架构实践与思考",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-27T16:14:09.000Z",
+      "publishedAt": "2026-03-27T15:00:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/9OKvpT7uHXxYJBkKYyrf?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/ByY97HEFsSdPTMIVzJuP?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774602251270_c4ea9a9f",
-      "title": "AI一键生成网站之后，最残酷的差距出现了：代码不再值钱，审美决定生死",
-      "summary": "AI一键生成网站之后，最残酷的差距出现了：代码不再值钱，审美决定生死",
-      "content": "AI一键生成网站之后，最残酷的差距出现了：代码不再值钱，审美决定生死",
+      "id": "news_1774609071007_08fc05a9",
+      "title": "AI 编码助手并未加快交付速度，因为编码从来都不是瓶颈",
+      "summary": "AI 编码助手并未加快交付速度，因为编码从来都不是瓶颈",
+      "content": "AI 编码助手并未加快交付速度，因为编码从来都不是瓶颈",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-27T16:13:02.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/QKUxE1tLX7p2EvM7Kldq?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-03-27T14:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/jZgYXoUQ01pRrKODUgeT?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774581750962_c7ab0f90",
@@ -64,6 +88,18 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1774609047451_7f612d18",
+      "title": "当周杰伦对撞AI和短视频：腾B抖快怎么分这块蛋糕？",
+      "summary": "从实体唱片到数字时代，从微博热搜到短视频二创，平台玩法换了又换，站在乐坛C位的那个人，好像始终没变。...",
+      "content": "从实体唱片到数字时代，从微博热搜到短视频二创，平台玩法换了又换，站在乐坛C位的那个人，好像始终没变。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-27T10:42:52.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7932108.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1774581754335_d820fc48",
       "title": "用得越多、失业越快？GitHub 大改 Copilot 规则：默认拿个人代码训练 AI，还搬出 Anthropic 挡枪！",
       "summary": "用得越多、失业越快？GitHub 大改 Copilot 规则：默认拿个人代码训练 AI，还搬出 Anthropic 挡枪！",
@@ -74,6 +110,66 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/4ODfuXhhcI9mAeYepXY0?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774609075813_5a5eddf3",
+      "title": "京东发布全国首个互联网宠物犬猫交易标准，解决信息不透明痛点",
+      "summary": "IT之家 3 月 27 日消息，据京东黑板报，3 月 26 日，京东超市在全国最大宠物繁育基地鞍山正式发布京东宠物《伴侣动物（犬猫）交易标准》，这标志着全国首个互联网宠物犬猫交易标准落地，解决宠物犬猫交易信息不透明的痛点。",
+      "content": "IT之家 3 月 27 日消息，据京东黑板报，3 月 26 日，京东超市在全国最大宠物繁育基地鞍山正式发布京东宠物《伴侣动物（犬猫）交易标准》，这标志着全国首个互联网宠物犬猫交易标准落地，解决宠物犬猫交易信息不透明的痛点。 IT之家从官方介绍获悉，作为产业链的“第一公里”，宠物犬猫交易长期处于“非标”状态，乱象丛生：“星期宠”现象屡禁不止，消费者花重金购买的宠物到家一周就病亡，维权又无门；宠物交易信息不透明，部分无良商家给病宠注射血清、兴奋剂，刻意隐瞒犬瘟、猫瘟等致命疾病，而且消费者仅凭照片和视频，难以判断宠物的真实情况，陷入“买宠焦虑”的困境。长此以往，劣币驱逐良币，这些问题制约着行业健康有序发展。 该标准规范引用了多项国家标准，覆盖电商平台销售服务的全链路，为经营主体在售前、售中、售后的服务提供操作指南。 具体来说，标准设定了商家准入的门槛，经营主体必须是依法取得营业执照的企业法人，经营范围符合要求，并签署承诺函，确保入驻京东平台的经营主体均为正规企业，从源头保障消费者的权益。 在售前阶段，标准对宠物犬猫的身份验证、健康检查、信息提供、遗传病筛查、风险提示等提出了要求。同时，要求经营主体如实披露犬猫的品种、毛色、性别、日龄、体重、疫苗接种情况、驱虫记录、健康检查情况等关键信息，不得隐瞒、篡改，同时鼓励开展遗传病项目筛查。 在售中阶段，运输配送和交付验收是犬猫交易的关键环节，也是宠物应激风险最高、最容易出现问题的环节。该标准对运输与配送、交付与验收提出了严格的要求，确保宠物的运输安全和交易的顺利完成。 在售后阶段，该标准对健康保障、责任划分、纠纷处理机制、退换货操作划定了规范。此外，京东保险推出领先行业的 365 天新宠医疗保险。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/c89eb370-a6a5-4559-9d6b-c01ae203f0b8.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-27T09:59:09.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/933/442.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774609076089_e073a21e",
+      "title": "菜鸟与泰国正大集团旗下 CP AXTRA 签约，在东盟复制“中国闪购”模式",
+      "summary": "IT之家 3 月 27 日消息，今日，菜鸟集团与泰国正大集团旗下 CP AXTRA 签署战略合作协议。菜鸟将应用数字供应链科技、仓储自动化技术，以及海外仓储网络运营经验，支持 CP AXTRA 在泰国及东盟国家打造线上线下一体的即时零售物流网络，复制“中国闪购”模式。",
+      "content": "IT之家 3 月 27 日消息，今日，菜鸟集团与泰国正大集团旗下 CP AXTRA 签署战略合作协议。菜鸟将应用数字供应链科技、仓储自动化技术，以及海外仓储网络运营经验，支持 CP AXTRA 在泰国及东盟国家打造线上线下一体的即时零售物流网络，复制“中国闪购”模式。 据介绍，CP AXTRA 是泰国正大集团子公司，运营着亚洲领先的批发和零售品牌“万客隆（Makro）”和“莲花超市（Lotus's）”。公司总部位于泰国，业务遍及 10 个国家，泰国及亚洲地区管理着超过 2,700 家线下门店，并拥有强大的线上业务布局。 此前，双方已就 CP AXTRA 在泰国的多个前置仓的仓配运营项目达成一致，由菜鸟运营的部分 CP AXTRA 泰国前置仓项目也已经投入使用。 根据协议以及双方达成的共识，双方将持续在数字供应链科技、仓储自动化、泰国以及东盟市场前置仓网运营服务等方面进行共同创新与探索。 IT之家查询获悉，目前，菜鸟已经在全球 18 个国家运营了超过 40 个海外仓。去年 9 月 4 日，菜鸟宣布对东南亚跨境物流产品矩阵进行全面升级，推出中国直达东南亚多国的小包“标准专线”。来自中国的电商快递最快 3 天送达越南、5 天送达新加坡和菲律宾、6 天送达马来西亚和泰国，运费价格较行业低 20% 左右。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/d0cd5c85-7427-405e-b6a7-284d385ec603.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-27T09:43:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/933/436.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774609076241_163c239e",
+      "title": "新研究：《纽约时报》已刊登大量 AI 生成的文章",
+      "summary": "IT之家 3 月 27 日消息，当地时间 3 月 26 日，据外媒 Futurism 报道，越来越多迹象表明，《纽约时报》等主流媒体已经在不知不觉中刊登过 AI 生成内容。 本周，这一话题迅速发酵，起因是一篇发表于去年 11 月的《纽约时报》“Modern Love（现代爱情）”专栏。",
+      "content": "IT之家 3 月 27 日消息，当地时间 3 月 26 日，据外媒 Futurism 报道，越来越多迹象表明，《纽约时报》等主流媒体已经在不知不觉中刊登过 AI 生成内容。 本周，这一话题迅速发酵，起因是一篇发表于去年 11 月的《纽约时报》“Modern Love（现代爱情）”专栏。Lit Mag News 的 Becky Tuch 在 X 平台贴出文章片段并直言“读起来完全像 AI 拼凑的劣质文本”，由此引发广泛讨论。 《大西洋月刊》随后披露的调查显示，这一质疑并非毫无根据。专栏作者 Kate Gilgan 表示，自己没有直接复制 AI 生成的文本，但承认在写作过程中借助了 ChatGPT、Claude 和 Gemini 等工具，用于获取灵感、修改和润色。“我把 AI 当作协作编辑，而不是写作工具。” 但在当前阶段，这种区分很难成立。频繁依赖聊天机器人，很容易在不知不觉中受到其表达方式和结构的影响。 问题的规模也不容忽视。围绕该专栏的争议，促使多名 AI 研究人员回溯调查 AI 内容在美国新闻中的渗透情况。 研究结果显示，新发表的文章中约有 9% 至少部分由 AI 生成，其中主要集中在地方媒体。 图源：Pexels 当研究对象转向《纽约时报》《华尔街日报》《华盛顿邮报》等权威媒体的评论版面时，情况更为突出 —— 评论文章中出现 AI 生成内容的概率，是新闻稿件的六倍以上。 报道提醒，这一结论“需要谨慎看待”。AI 检测工具长期存在误判问题，例如曾有工具将玛丽 · 雪莱的《弗兰肯斯坦》误判为“100% AI 生成”，引发大量嘲讽。 IT之家获悉，被识别出问题的主要是评论文章，而非新闻报道，主因在于评论作者往往并非职业记者，且不在媒体内部任职，写作流程缺乏严格审核。因此，AI 内容更容易出现在评论版面，一定程度上解释了检测结果的合理性。 与此同时，新闻机构与 AI 公司的关系正变得愈发紧密。《华盛顿邮报》推出 AI 播客自动生成新闻摘要，并上线问答机器人；《纽约时报》使用 AI 生成标题；彭博社提供 AI 摘要功能；美联社管理层甚至明确表示，对 AI 的抵制“没有意义”。 但让 AI 深入新闻生产流程，风险同样明显。上个月，《Ars Technica》一名资深记者因误用 AI 虚构的引语被迫更正报道。该记者解释称，自己没有用 AI 写稿，但在用聊天机器人整理笔记时误采纳了 AI 生成的虚假内容。调查结束后，该记者最终难逃解雇的命运。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/290fe782-c692-4997-a6de-2abf8659a86b.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-27T09:37:47.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/933/435.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774609049360_14c78c0d",
+      "title": "AI演员的风还是刮起来了，好莱坞忙着给AI洗白，我们已经顶着骂声落地",
+      "summary": "AI演员的风还是刮起来了，好莱坞忙着给AI洗白，我们已经顶着骂声落地",
+      "content": "观众都在骂，资本都在追，A演员到底咋样？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-27T09:05:20.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7930188.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774609051215_9bc15802",
+      "title": "AIDC储能第一股，但前方的赛道还很长",
+      "summary": "AIDC储能第一股，但前方的赛道还很长",
+      "content": "双登年报：AIDC储能收入跃居第一，AI驱动行业变革。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-27T09:05:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7931534.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774602232274_d0c76ae2",
@@ -448,7 +544,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774602209650_0",
+      "id": "news_1774609031676_0",
       "title": "Apple plans to open Siri to rival AI services, Bloomberg News reports",
       "summary": "The move, expected as part of Apple's iOS 27 update, would allow third-party AI ​apps to integrate directly with Siri, enabling ​users to route querie...",
       "content": "The move, expected as part of Apple's iOS 27 update, would allow third-party AI ​apps to integrate directly with Siri, enabling ​users to route queries to services such as ⁠Alphabet's Gemini or Anthropic's Claude from within the ​assistant, according... [934 chars]",
@@ -460,7 +556,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1774602209703_1",
+      "id": "news_1774609032040_1",
       "title": "US book critics honor Nobel laureate and South Korean novelist Han Kang",
       "summary": "The National Book Critics Circle honored a novel by Nobel laureate Han Kang and Karen Hao&rsquo;s examination of artificial intelligence and OpenAI at...",
       "content": "The National Book Critics Circle honored a novel by Nobel laureate Han Kang and Karen Hao’s examination of artificial intelligence and OpenAI at its annual awards on Thursday\nUS book critics honor Nobel laureate and South Korean novelist Han KangBy A... [1719 chars]",
@@ -544,7 +640,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774602209758_2",
+      "id": "news_1774609031867_2",
       "title": "OpenAI signs lease for huge East Bay building as tech dynamo expands",
       "summary": "RICHMOND — OpenAI has signed a lease for a huge industrial hub in Richmond, a rental deal that marks a fresh major expansion for the artificial intell...",
       "content": "RICHMOND — OpenAI has signed a lease for a huge industrial hub in Richmond, a rental deal that marks a fresh major expansion for the artificial intelligence company in the Bay Area.\nThe deal marks a a new East Bay foothold for OpenAI and arrives on t... [1267 chars]",
@@ -724,7 +820,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774602209988_3",
+      "id": "news_1774609031602_3",
       "title": "Ending OpenAI's Sora unlikely to slow influx of AI-generated video online, experts say",
       "summary": "OpenAI is discontinuing Sora, its app that allows users to generate artificial intelligence videos with text prompts.\nThe app and a major update to So...",
       "content": "OpenAI is discontinuing Sora, its app that allows users to generate artificial intelligence videos with text prompts.\nThe app and a major update to Sora were announced just last fall, followed shortly by a $1 billion deal with Disney that would’ve al... [3475 chars]",
@@ -736,7 +832,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1774602209982_4",
+      "id": "news_1774609031824_4",
       "title": "Musk’s xAI ‘Doubling Down’ on AI Videos After OpenAI Nixes Sora",
       "summary": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial inf...",
       "content": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world\nConnecting decision makers to a dynamic network of infor... [569 chars]",
@@ -772,7 +868,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774602210004_5",
+      "id": "news_1774609031856_5",
       "title": "AI Science Startup Periodic Labs Is in Deal Talks at About $7 Billion Valuation",
       "summary": "Periodic Labs , an artificial intelligence research startup founded last year by former OpenAI and DeepMind staffers, is having discussions with inves...",
       "content": "Periodic Labs , an artificial intelligence research startup founded last year by former OpenAI and DeepMind staffers, is having discussions with investors about raising at least hundreds of millions of dollars at a valuation of about $7 billion, acco... [282 chars]",
@@ -808,7 +904,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774602209752_6",
+      "id": "news_1774609031384_6",
       "title": "What Sora’s End Says About OpenAI’s Strategy",
       "summary": "DealBook|What Sora’s End Says About OpenAI’s Strategy\nhttps://www.nytimes.com/2026/03/25/business/dealbook/sora-openai-finances-ipo.html\nAdvertisement...",
       "content": "DealBook|What Sora’s End Says About OpenAI’s Strategy\nhttps://www.nytimes.com/2026/03/25/business/dealbook/sora-openai-finances-ipo.html\nAdvertisement\nSKIP ADVERTISEMENT\nNewsletter\nDealBook\nWhat Sora’s End Says About OpenAI’s Strategy\nThe artificial ... [901 chars]",
@@ -820,7 +916,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1774602209735_7",
+      "id": "news_1774609032018_7",
       "title": "China's Open-Source AI Strategy Builds Self-Reinforcing Edge, Challenging ChatGPT's Dominance",
       "summary": "China's aggressive embrace of open-source artificial intelligence models is creating a \"self-reinforcing competitive advantage\" that threatens U.S. le...",
       "content": "China's aggressive embrace of open-source artificial intelligence models is creating a \"self-reinforcing competitive advantage\" that threatens U.S. leadership in the sector, even as Washington restricts access to advanced chips, according to a new re... [7638 chars]",
@@ -854,90 +950,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7928697.html",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774436569278_fad96865",
-      "title": "AI客服的善恶生意经：一边是人工智障，一边是暴力催收",
-      "summary": "AI客服的善恶生意经：一边是人工智障，一边是暴力催收",
-      "content": "“技术作恶”在智能客服领域发挥的尤为淋漓尽致。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-25T10:36:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7928409.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774436570468_62615780",
-      "title": "AI的红利，阅文吃一口，字节吃一锅",
-      "summary": "AI的红利，阅文吃一口，字节吃一锅",
-      "content": "旧账出清，新仗难打。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-25T10:34:26.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7928972.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774436571739_a1cb5f30",
-      "title": "“龙虾思想”背后：把AI战火正式推向软件层",
-      "summary": "“龙虾思想”背后：把AI战火正式推向软件层",
-      "content": "龙虾，加速AI战火在TO B市场的前移。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-25T10:29:20.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7928874.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774436573988_15b9e2c7",
-      "title": "Sora没了，但Seedance还不能躺平",
-      "summary": "Sora没了，但Seedance还不能躺平",
-      "content": "Seedance的当务之急是找到一条赚钱的路。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-25T10:29:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7928955.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774436596602_01a8c09f",
-      "title": "英伟达黄仁勋：AI 不仅会冲击白领岗位，蓝领同样无法置身事外",
-      "summary": "IT之家 3 月 25 日消息，据《商业内幕》今日报道，英伟达首席执行官黄仁勋提醒，人工智能带来的冲击不仅限于白领岗位，蓝领群体同样无法置身事外。 黄仁勋表示，无论是农民、电工还是药剂师，都应该主动使用 AI，以提升自身能力并增强职业稳定性。",
-      "content": "IT之家 3 月 25 日消息，据《商业内幕》今日报道，英伟达首席执行官黄仁勋提醒，人工智能带来的冲击不仅限于白领岗位，蓝领群体同样无法置身事外。 黄仁勋表示，无论是农民、电工还是药剂师，都应该主动使用 AI，以提升自身能力并增强职业稳定性。他认为，关键不只是避免被取代，而是利用 AI 成为推动行业变化的人。“如果我是农民，我一定会用 AI；如果我是药剂师，我也会用 AI。我想看看 AI 如何提升我的工作，让我成为改变行业的人。” 他还举例称，木匠如果掌握编程和 AI 能力，其角色甚至可以延伸到建筑设计层面。“使用 AI 的木匠，也可以成为建筑师，他们能为客户创造的价值会大幅提升。” 围绕就业影响，黄仁勋重申 AI 将改变所有人的工作。部分岗位会被自动化取代，但同时也会产生新的机会。对于仍然需要人为参与的工作，更需要通过 AI 来提升效率。“如果你的工作仍然需要你参与，那么你必须学会用 AI 去自动化这些任务。” IT之家从报道中获悉，随着 AI 快速发展，就业焦虑正在上升。一些企业已经以发展 AI 和自动化为由裁减岗位。对此，黄仁勋给出的建议是，无论从事什么职业，都应尽快掌握 AI 技能，甚至可能决定一个人能否获得工作机会，因为在多数情况下，他更倾向于雇佣具备 AI 能力的候选人。“每个大学生毕业时都应该成为 AI 专家。” 对于更长期的发展，黄仁勋认为通用人工智能时代已经到来。他表示，未来 AI 甚至可能具备创建和运营大型公司的能力。即便是他自己所从事的工作，也不会免受 AI 影响。因此，他建议所有人尽早拥抱这一技术，通过 AI 提升自身能力，而不是被其取代。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-03-25T10:25:16.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/932/662.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774436596822_10898f77",
-      "title": "亚马逊 Zoox Robotaxi 投运不到一年已提供超 35 万人次出行服务",
-      "summary": "IT之家 3 月 25 日消息，Amazon 亚马逊旗下 Robotaxi 企业 Zoox 当地时间 24 日宣布，将大幅扩展在拉斯维加斯和旧金山这两座城市的免费测试运营覆盖范围，该企业的自动驾驶出租车服务也即将登陆奥斯汀与迈阿密。",
-      "content": "IT之家 3 月 25 日消息，Amazon 亚马逊旗下 Robotaxi 企业 Zoox 当地时间 24 日宣布，将大幅扩展在拉斯维加斯和旧金山这两座城市的免费测试运营覆盖范围，该企业的自动驾驶出租车服务也即将登陆奥斯汀与迈阿密。 Zoox 表示，不到一年以来其无人 Robotaxi 已为超过 35 万人次乘客提供出行服务，累计行驶近 200 万英里（IT之家注：约 321.9 万公里）。 对于拉斯维加斯，Zoox 表示当前的服务覆盖范围已是最初的 2 倍以上，最近启动了 Sphere 和 T-Mobile Arena 这两个场馆的接送试点，很快将覆盖到该市的哈里 · 里德国际机场；而在旧金山，其业务将覆盖城市东部的大部分区域，规模扩大四倍。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/52a1e719-4375-4396-85a6-42aa71d840e9.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-25T10:00:10.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/932/655.htm",
-      "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774436597041_ef80b64f",
-      "title": "特斯拉发布 Optimus 机器人相关岗位招聘信息，目标尽快大规模量产",
-      "summary": "IT之家 3 月 25 日消息，今天上午，特斯拉 Optimus 机器人官方 X 账号发布了一则“英雄帖”：Optimus 将是有史以来“最宏大”的产品。作为能够大规模干活的通用人形机器人，其也是一种可以颠覆劳动和制造业的经济模式。 Optimus 称，目标是尽快实现 Optimus 的大规模量产。",
-      "content": "IT之家 3 月 25 日消息，今天上午，特斯拉 Optimus 机器人官方 X 账号发布了一则“英雄帖”：Optimus 将是有史以来“最宏大”的产品。作为能够大规模干活的通用人形机器人，其也是一种可以颠覆劳动和制造业的经济模式。 Optimus 称，目标是尽快实现 Optimus 的大规模量产。“如果你在 AI、工程或制造领域是顶尖高手，想一起成就大事业，那就快来加入我们吧！” 本月早些时候，据IT之家报道，马斯克表示，Optimus 3 有望在今年夏季启动生产。 据马斯克介绍，特斯拉已进入 Optimus 3 研发的最后阶段，他称这款机器人是全球最先进的人形机器人。“我们已进入 Optimus 3 的最后完成阶段，它无疑将成为全球最先进的机器人，没有任何产品能与之匹敌。事实上，我从未见过任何机器人的演示效果能媲美 Optimus 3。” 他同时对 Optimus 3 的产能爬坡节奏做出预期，称这款人形机器人初期产量会非常低，但也表示 2027 年有望实现大规模量产。 相关阅读： 《马斯克：全球最先进人形机器人特斯拉 Optimus 3 今夏投产》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/af0636fd-9fb2-4b8c-b383-94ef701be35a.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-25T09:18:33.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/932/641.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
