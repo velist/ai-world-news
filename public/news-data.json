@@ -1,8 +1,128 @@
 {
   "success": true,
-  "timestamp": "2026-03-26T23:41:08.098Z",
-  "total": 70,
+  "timestamp": "2026-03-27T03:22:52.143Z",
+  "total": 71,
   "data": [
+    {
+      "id": "news_1774581749409_cd355ed0",
+      "title": "从“盲目调优”到“数据驱动”：大规模 Agent 的评估工程实践｜QCon北京",
+      "summary": "从“盲目调优”到“数据驱动”：大规模 Agent 的评估工程实践｜QCon北京",
+      "content": "从“盲目调优”到“数据驱动”：大规模 Agent 的评估工程实践｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-27T10:52:53.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/0rWvlDuuA5kN06q5raNR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774581750962_c7ab0f90",
+      "title": "aiXcoder全新推出代码变更应用模型aiX-apply-4B，效果比肩DeepSeek-V3.2，推理效率提升15倍",
+      "summary": "aiXcoder全新推出代码变更应用模型aiX-apply-4B，效果比肩DeepSeek-V3.2，推理效率提升15倍...",
+      "content": "aiXcoder全新推出代码变更应用模型aiX-apply-4B，效果比肩DeepSeek-V3.2，推理效率提升15倍",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-27T10:51:09.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/aFl3mHPMjIGb6mZX5Dv1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774581752755_29c8b1c4",
+      "title": "阿里云CIO与40家企业对话数月，打捞出鲜少公开的AI落地真相",
+      "summary": "阿里云CIO与40家企业对话数月，打捞出鲜少公开的AI落地真相",
+      "content": "阿里云CIO与40家企业对话数月，打捞出鲜少公开的AI落地真相",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-27T10:20:27.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/jUUq67MUlQYq0146lADD?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774581754335_d820fc48",
+      "title": "用得越多、失业越快？GitHub 大改 Copilot 规则：默认拿个人代码训练 AI，还搬出 Anthropic 挡枪！",
+      "summary": "用得越多、失业越快？GitHub 大改 Copilot 规则：默认拿个人代码训练 AI，还搬出 Anthropic 挡枪！",
+      "content": "用得越多、失业越快？GitHub 大改 Copilot 规则：默认拿个人代码训练 AI，还搬出 Anthropic 挡枪！",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-27T10:08:44.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/4ODfuXhhcI9mAeYepXY0?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774581741589_e87955ce",
+      "title": "深度解析2026 GTC：英伟达万亿订单背后的AI大爆发、Token经济学与失衡供应链",
+      "summary": "深度解析2026 GTC：英伟达万亿订单背后的AI大爆发、Token经济学与失衡供应链",
+      "content": "深度解析2026 GTC：英伟达万亿订单背后的AI大爆发、Token经济学与失衡供应链",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-27T03:02:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7931283.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774581734146_ee7bccbb",
+      "title": "腾讯云Agent产品全景图首次亮相",
+      "summary": "36氪获悉，3月27日，在腾讯云上海峰会上，腾讯云首次对外发布Agent产品全景图，升级MaaS平台为TokenHub，并推出企业级Agent Infra治理方案，打造面向Agent时代的全栈AI引擎。",
+      "content": "36氪获悉，3月27日，在腾讯云上海峰会上，腾讯云首次对外发布Agent产品全景图，升级MaaS平台为TokenHub，并推出企业级Agent Infra治理方案，打造面向Agent时代的全栈AI引擎。腾讯云副总裁吴运声表示，此次发布的Agent全景图覆盖Infra、模型与生态、场景及应用、安全五大维度，涵盖个人提效、办公提效、研发提效等多场景，产品矩阵全面升级。同时，开放涵盖腾讯自研Skills、开源SkillsHub及微信、企微等在内的丰富技能生态，适配全民养虾趋势。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-27T02:58:24.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3740603253571843?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774581743913_c99246c6",
+      "title": "地方文旅流量战，AI能不能接棒文旅局长？",
+      "summary": "地方文旅流量战，AI能不能接棒文旅局长？",
+      "content": "如何成功打造真正可感知的城市符号",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-27T02:50:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7931088.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774581735450_7991fb81",
+      "title": "腾讯李强：腾讯云已服务长三角超11万家客户",
+      "summary": "36氪获悉，3月27日，在腾讯云上海峰会上，腾讯集团副总裁、政企业务总裁李强表示，腾讯自2002年在上海设立办事处以来，已在长三角持续深耕超过二十年，目前拥有超过8000位员工，已服务长三角超过11万家客户，覆盖金融、制造、零售、医疗、教育等各行各业。",
+      "content": "36氪获悉，3月27日，在腾讯云上海峰会上，腾讯集团副总裁、政企业务总裁李强表示，腾讯自2002年在上海设立办事处以来，已在长三角持续深耕超过二十年，目前拥有超过8000位员工，已服务长三角超过11万家客户，覆盖金融、制造、零售、医疗、教育等各行各业。腾讯发起的科学探索奖和新基石研究员项目，已累计公益资助长三角143位科学家。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-27T02:49:32.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3740594549899524?f=rss",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774581736709_01561c3f",
+      "title": "腾讯汤道生：Harness工程能力是AI落地关键变量",
+      "summary": "36氪获悉，3月27日，在腾讯云上海峰会上，腾讯集团高级执行副总裁、云与智慧产业事业群CEO汤道生表示，AI落地不只是一道算法题，更是一道工程题。在同样的模型能力下，不同的Harness，即包括工具调用、分层上下文工程、长记忆管理、工作流设计等在内的系统工程手段，都将影响AI落地实际效果。",
+      "content": "36氪获悉，3月27日，在腾讯云上海峰会上，腾讯集团高级执行副总裁、云与智慧产业事业群CEO汤道生表示，AI落地不只是一道算法题，更是一道工程题。在同样的模型能力下，不同的Harness，即包括工具调用、分层上下文工程、长记忆管理、工作流设计等在内的系统工程手段，都将影响AI落地实际效果。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-03-27T02:48:40.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3740593688838151?f=rss",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774581745404_56ef22e9",
+      "title": "趣丸科技Tunee上线MV Agent，支持接入OpenClaw｜独家",
+      "summary": "和市面上多数“生成即终点”的工具不同，Tunee强调全流程可编辑：创意、角色、脚本、分镜，每个环节都可以单独调整。",
+      "content": "和市面上多数“生成即终点”的工具不同，Tunee强调全流程可编辑：创意、角色、脚本、分镜，每个环节都可以单独调整。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-03-27T02:25:37.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.tmtpost.com/7931207.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1774568466135_a8f8f24b",
       "title": "最贵流媒体订阅，Netflix 高级套餐月费升至 26.99 美元",
@@ -52,18 +172,6 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774568451514_ac5e29e4",
-      "title": "月之暗面创始人重磅判断：今年起 AI 研发模式将剧变，海量Token成研究员标配资源",
-      "summary": "月之暗面创始人重磅判断：今年起 AI 研发模式将剧变，海量Token成研究员标配资源",
-      "content": "月之暗面创始人重磅判断：今年起 AI 研发模式将剧变，海量Token成研究员标配资源",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-26T18:20:59.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/WwJZI3vSu5qKagvDvhwK?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1774522958396_8702e8f8",
       "title": "如何在 Snowflake 中利用 RelationalAI 原生应用实现图分析与社区检测 ｜ 技术实践",
       "summary": "如何在 Snowflake 中利用 RelationalAI 原生应用实现图分析与社区检测 ｜ 技术实践...",
@@ -88,16 +196,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774568456912_9ba147a1",
-      "title": "从云原生到 AI 原生：模型引发的新一代基础设施构建",
-      "summary": "从云原生到 AI 原生：模型引发的新一代基础设施构建",
-      "content": "从云原生到 AI 原生：模型引发的新一代基础设施构建",
+      "id": "news_1774581762173_5f673011",
+      "title": "华为AI软件工程实践：30年专业经验沉淀打造企业级确定性的高质量软件",
+      "summary": "华为AI软件工程实践：30年专业经验沉淀打造企业级确定性的高质量软件",
+      "content": "华为AI软件工程实践：30年专业经验沉淀打造企业级确定性的高质量软件",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-03-26T17:35:57.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/1op6MbNG1wYsJrOINAWv?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-03-26T15:50:12.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/IPk1UBNeqdj88ZlEWFsk?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774538178373_b6d99b3d",
@@ -146,6 +254,18 @@
       "category": "国外AI",
       "originalUrl": "https://36kr.com/newsflashes/3739772334817536?f=rss",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774581725862_0",
+      "title": "OpenAI signs lease for huge East Bay building as tech dynamo expands",
+      "summary": "RICHMOND — OpenAI has signed a lease for a huge industrial hub in Richmond, a rental deal that marks a fresh major expansion for the artificial intell...",
+      "content": "RICHMOND — OpenAI has signed a lease for a huge industrial hub in Richmond, a rental deal that marks a fresh major expansion for the artificial intelligence company in the Bay Area.\nThe deal marks a a new East Bay foothold for OpenAI and arrives on t... [1267 chars]",
+      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2026/03/SJM-L-RICHOPENAI-02.jpg?w=1007&h=556",
+      "source": "The Mercury News",
+      "publishedAt": "2026-03-26T12:00:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.mercurynews.com/2026/03/26/openai-tech-richmond-jobs-ai-web-build-property-develop-east-bay-economy/",
+      "aiInsight": ""
     },
     {
       "id": "news_1774532898620_83ef9ed0",
@@ -316,7 +436,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774568427647_0",
+      "id": "news_1774581726759_1",
       "title": "Ending OpenAI's Sora unlikely to slow influx of AI-generated video online, experts say",
       "summary": "OpenAI is discontinuing Sora, its app that allows users to generate artificial intelligence videos with text prompts.\nThe app and a major update to So...",
       "content": "OpenAI is discontinuing Sora, its app that allows users to generate artificial intelligence videos with text prompts.\nThe app and a major update to Sora were announced just last fall, followed shortly by a $1 billion deal with Disney that would’ve al... [3475 chars]",
@@ -328,7 +448,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1774568426225_1",
+      "id": "news_1774581726041_2",
       "title": "Musk’s xAI ‘Doubling Down’ on AI Videos After OpenAI Nixes Sora",
       "summary": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial inf...",
       "content": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world\nConnecting decision makers to a dynamic network of infor... [569 chars]",
@@ -364,7 +484,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774568426593_2",
+      "id": "news_1774581726169_3",
       "title": "AI Science Startup Periodic Labs Is in Deal Talks at About $7 Billion Valuation",
       "summary": "Periodic Labs , an artificial intelligence research startup founded last year by former OpenAI and DeepMind staffers, is having discussions with inves...",
       "content": "Periodic Labs , an artificial intelligence research startup founded last year by former OpenAI and DeepMind staffers, is having discussions with investors about raising at least hundreds of millions of dollars at a valuation of about $7 billion, acco... [282 chars]",
@@ -400,7 +520,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774568426456_3",
+      "id": "news_1774581726330_4",
       "title": "What Sora’s End Says About OpenAI’s Strategy",
       "summary": "DealBook|What Sora’s End Says About OpenAI’s Strategy\nhttps://www.nytimes.com/2026/03/25/business/dealbook/sora-openai-finances-ipo.html\nAdvertisement...",
       "content": "DealBook|What Sora’s End Says About OpenAI’s Strategy\nhttps://www.nytimes.com/2026/03/25/business/dealbook/sora-openai-finances-ipo.html\nAdvertisement\nSKIP ADVERTISEMENT\nNewsletter\nDealBook\nWhat Sora’s End Says About OpenAI’s Strategy\nThe artificial ... [901 chars]",
@@ -412,7 +532,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1774568426848_4",
+      "id": "news_1774581726431_5",
       "title": "China's Open-Source AI Strategy Builds Self-Reinforcing Edge, Challenging ChatGPT's Dominance",
       "summary": "China's aggressive embrace of open-source artificial intelligence models is creating a \"self-reinforcing competitive advantage\" that threatens U.S. le...",
       "content": "China's aggressive embrace of open-source artificial intelligence models is creating a \"self-reinforcing competitive advantage\" that threatens U.S. leadership in the sector, even as Washington restricts access to advanced chips, according to a new re... [7638 chars]",
@@ -734,114 +854,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7928055.html",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774407233978_552040c2",
-      "title": "阿里云宣布全面开放JVS Claw，无需邀请码即可养虾",
-      "summary": "36氪获悉，阿里云宣布JVSClaw全面开放，所有用户无需邀请码，访问网址下载对应的客户端，即可获得一只云端“龙虾”。据介绍，新版JVS Claw也带来了多个核心功能升级：移动端语音输入、JVS文件空间、Skill调用优化、定时任务专用入口和Clawbot一键升级等。",
-      "content": "36氪获悉，阿里云宣布JVSClaw全面开放，所有用户无需邀请码，访问网址下载对应的客户端，即可获得一只云端“龙虾”。据介绍，新版JVS Claw也带来了多个核心功能升级：移动端语音输入、JVS文件空间、Skill调用优化、定时任务专用入口和Clawbot一键升级等。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-25T02:52:29.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3737766282412297?f=rss",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774407262707_8a24f0e5",
-      "title": "拒绝重复造轮子：Mozilla 首发 cq 共享知识库，让 AI 编程学会“抄作业”",
-      "summary": "IT之家 3 月 25 日消息，Mozilla 于 3 月 23 日发布博文，宣布推出“cq”项目，将其打造为“专门给 AI 程序使用的问答社区（类似程序员用的 Stack Overflow）”，让 AI 之间可以互相分享写代码的经验。",
-      "content": "IT之家 3 月 25 日消息，Mozilla 于 3 月 23 日发布博文，宣布推出“cq”项目，将其打造为“专门给 AI 程序使用的问答社区（类似程序员用的 Stack Overflow）”，让 AI 之间可以互相分享写代码的经验。 IT之家援引博文介绍，Mozilla 表示该项目主要瞄准了两大行业痛点。首先，AI 智能体在进行代码决策时，经常会调用已废弃的 API 或使用过期信息。 这主要源于大模型训练数据的截止日期限制，同时 AI 也缺乏可靠的结构化途径来获取最新的运行环境上下文。虽然开发者有时会引入检索增强生成（RAG）技术来补充知识，但这种机制往往不够全面，且 AI 常常无法识别自身的认知盲区。 其次，不同 AI 智能体在面对相同的技术障碍时，往往需要各自独立寻找解决方案。由于模型训练结束后缺乏有效的知识共享机制，成百上千的智能体一直在重复消耗昂贵的算力 Token 和能源，去解决已经被其他 AI 解决过的问题。理想状态下，一旦某个智能体排除了故障，其他智能体应当能直接调用该成功经验。 cq 项目希望打破这一信息孤岛，构建公共知识库。当 AI 智能体准备处理陌生任务（如全新的 API 集成或未接触过的框架）前，会优先在“cq 公共库”中发起查询。 如果其他智能体已经摸索出特定报错的规律，当前智能体在编写第一行代码前就能掌握正确策略。同时，当智能体在实践中发现新知识后，也会主动将其回传至知识库。 开发者目前大多依靠不断试错，手动修改本地的 claude.md 或 agents.md 文件来纠正 AI 的错误认知。cq 项目希望彻底替代这种低效的手工作业模式，让 AI 智能体实现自主的知识流转与迭代。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/11c42212-c93d-41f4-82ca-b4028a39816e.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-25T02:46:28.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/932/390.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774407235024_d9a217a2",
-      "title": "阿里速卖通和奥地利邮政签署MOU，加强欧洲本地履约服务",
-      "summary": "36氪获悉，近日，阿里旗下跨境电商平台速卖通AliExpress与奥地利邮政公司签署谅解备忘录（MOU） ，建立深度战略合作伙伴关系，重点辐射中欧、东欧等关键市场。",
-      "content": "36氪获悉，近日，阿里旗下跨境电商平台速卖通AliExpress与奥地利邮政公司签署谅解备忘录（MOU） ，建立深度战略合作伙伴关系，重点辐射中欧、东欧等关键市场。 根据备忘录，双方将聚焦两大核心领域：一是加强本地化战略，共同建设本地仓储及物流解决方案，缩短配送链路；二是优化跨境包裹履约，加大自提柜等物流基础设施投入、强化旺季产能保障，提升消费者收货体验。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-25T02:42:32.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3737756508815623?f=rss",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774407263046_4bad3c5e",
-      "title": "阿里 JVS Claw 全面开放，无需邀请码云端“养龙虾”",
-      "summary": "IT之家 3 月 25 日消息，阿里云今日官宣 JVS Claw 全面开放，所有用户无需邀请码，下载对应的客户端，即可获得一只云端“龙虾”。 全面公测版新增语音输入、专属文件共建、一键修复、Skill 开关等多个功能。",
-      "content": "IT之家 3 月 25 日消息，阿里云今日官宣 JVS Claw 全面开放，所有用户无需邀请码，下载对应的客户端，即可获得一只云端“龙虾”。 全面公测版新增语音输入、专属文件共建、一键修复、Skill 开关等多个功能。 新版 JVS Claw 也带来了多个核心功能升级：移动端语音输入、JVS 文件空间、Skill 调用优化、定时任务专用入口和 Clawbot 一键升级等。 JVS Claw 手机 App 上新增语音输入入口，交互更轻松，任务下达更高效； JVS 文件空间则提供 5GB 的专属存储，可在多轮对话中精准搜索历史任务； 新增 Skill 管控台，提供三方 Skill 自定义开关，Skill 执行更高效更安全。 Clawbot 极简升级，一键热升级 Clawbot 最新功能，无需等待重建； 定时任务升级，新增定时任务专用入口，轻松配置管理； 新增助手接入，支持微博龙虾助手一键接入。 JVS Claw 为新用户提供了 7 天免费体验权益，同时新增“匠心版（Artisan）”和“大师版（Master）”套餐，其中“匠心版（Artisan）”月卡首月 39 元、后续 129 元 / 月。 IT之家附 JVS Claw 体验地址： https://jvsclaw.aliyun.com/",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/1d62a0a3-7abf-4786-8d30-25640fcec595.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-25T02:41:59.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/932/388.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774407263387_a70af55d",
-      "title": "40 人团队拯救美国宇航局约 5 亿美元资产，雨燕天文卫星救援倒计时",
-      "summary": "IT之家 3 月 25 日消息，科技媒体 Ars Technica 于 3 月 23 日发布博文，报道称运行 21 年的尼尔 · 格雷尔斯雨燕天文台（Neil Gehrels Swift Observatory，简称雨燕 / Swift）正面临坠毁危机，美国宇航局计划派遣“Link”航天器救援。",
-      "content": "IT之家 3 月 25 日消息，科技媒体 Ars Technica 于 3 月 23 日发布博文，报道称运行 21 年的尼尔 · 格雷尔斯雨燕天文台（Neil Gehrels Swift Observatory，简称雨燕 / Swift）正面临坠毁危机，美国宇航局计划派遣“Link”航天器救援。 IT之家注：雨燕天文卫星于 2004 年发射，主要用于迅速定位和观测伽马射线暴（GRB），因其转向速度极快（像雨燕一样敏捷）而得名，造价约 5 亿美元。 雨燕天文卫星，图源：美国宇航局 它在 Gamma 射线、X 射线和紫外 / 光学波段工作，是研究宇宙最强烈爆炸的关键设备，运行在高度约 600 公里的近地轨道。 不过近期活跃的太阳风暴导致地球大气层膨胀，低地球轨道的空气阻力剧增。工程师预测，若不进行变轨提升，该天文卫星将在今年 7 月至 10 月间陨落。 美国宇航局为挽救这台重要仪器，于 2025 年 9 月向初创公司 Katalyst Space Technologies 授予了一份 3000 万美元的商业合同。 Katalyst 大约有 40 名员工参与“雨燕”救援，需在极端的 9 个月期限内，研发并交付名为“Link”的机器人服务航天器。 Link 将尝试与“雨燕”对接，随后将其推至更高轨道。与耗资巨大的“哈勃”维修任务不同，此次任务旨在验证“低成本、高风险容忍度”的商业太空救援新模式。 艺术家绘制的 Katalyst 的 Link 飞船（上方）接近 NASA 的雨燕天文卫星（下方），图源：Katalyst 此次救援在技术上面临着史无前例的挑战。“雨燕”在设计之初从未考虑过在轨对接，且美国宇航局和制造商甚至找不到该卫星发射前底部的清晰照片。 此外，卫星外层的隔热材料在太空中暴露了 22 年，受原子氧侵蚀已经变得像玻璃一样脆弱，一旦触碰极易碎裂。为此，Katalyst 为救援飞船配备了三个带有夹具的机械臂，以应对各种未知的抓取状况。 雨燕天文卫星救援规划，图源：Katalyst 救援任务的发射窗口定于 6 月 1 日，容错率极低。为了满足“雨燕”特殊的赤道轨道需求（旨在避开南大西洋异常区的高辐射），Katalyst 放弃了常见的 SpaceX“猎鹰 9 号”火箭，转而选用了目前仅存的最后一枚“飞马座”XL（Pegasus XL）空射火箭。 这种火箭不仅能完美匹配 400 公斤的载荷需求，还能在赤道附近的马绍尔群岛进行灵活发射，从而将高昂的发射成本控制在预算之内。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/7b45de39-68cb-41f9-b868-0777cb4e7c39.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-25T02:35:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/932/383.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774407239849_a334a361",
-      "title": "大厂 AI 生死战：2025 下狠手，2026 见真章",
-      "summary": "大厂 AI 生死战：2025 下狠手，2026 见真章",
-      "content": "轻舟已过，巨轮仍在找岸。留给巨头的时间不多了。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-25T02:03:13.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7927478.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774407241922_aac967bb",
-      "title": "张雪峰，一个向AI世界喊停的人",
-      "summary": "张雪峰，一个向AI世界喊停的人",
-      "content": "张雪峰站在两个世界的交界处。一边是被AI放大的效率角色，一边是被无限压缩的个体。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-25T01:58:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7927618.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774407230936_35fb686e",
-      "title": "AI智能体下场：新药开发如何告别单步解题、突破认知盲区？  | 最前线",
-      "summary": "当AI落地到新药研发全流程，会带来怎样的改变？ “对于阿斯利康而言，AI已不再是仅用于药物发现的单一工具，我们正在打造‘AI First’的研发文化。从早期的药物发现，到后期的临床转化，我们希望研发全流程都能被AI深度赋能。",
-      "content": "当AI落地到新药研发全流程，会带来怎样的改变？ “对于阿斯利康而言，AI已不再是仅用于药物发现的单一工具，我们正在打造‘AI First’的研发文化。从早期的药物发现，到后期的临床转化，我们希望研发全流程都能被AI深度赋能。”3月21日，阿斯利康全球高级副总裁、全球研发中国负责人何静在接受媒体访谈时表示。 3月20日，阿斯利康与清华大学签署校级科研合作协议，宣布成立“清华大学（智能产业研究院）- 阿斯利康人工智能药物研发联合研究中心”。据介绍，该联合研究中心是双方战略合作框架下的首个重点落地项目。 过去几年里，AI 在新药发现（AIDD）方面已经展现出了极大的潜力，但既往的落地实践更多集中于分子生成与结构优化。接下来，利用AI发现并验证新靶点、精准解析疾病机制、提高临床试验成功率，降低新药研发的科学不确定性，已成为当下产业界的重要关注点。 “AI 带来的不仅是技术迭代，而是科学发现范式的重塑。”清华大学智能产业研究院（以下简称清华AIR）兰艳艳教授指出：AI正在为药物研发带来三个递进层次的实质性改变。 首先最直接的变化是效率的跃升。以今年1月为例，清华AIR团队在《Science》上发表了超高通量药物虚拟筛选平台DrugCLIP，其筛选速度对比传统药物方法实现了百万倍提升，并实现覆盖人类基因组规模的药物虚拟筛选。这使得人类能够更系统地探索高达10^60量级的庞大化学空间。AI快速完成海量初筛后，研究人员可以将资源聚焦于精筛后的数据库中候选分子的研发。 第二是科学发现路径的改变，从人类科学家的“假设��动”走向AI“数据驱动”。传统模式下，研发高度依赖顶级科学家在既有知识框架下提出假设，再耗费数年去验证，这不可避免地受限于“认知盲区”。而数据驱动的新范式，能够整合文献、知识图谱、干湿实验结果���多模态海量数据，自动挖掘并提出底层的、基础性的假设。AI发掘和理解复杂事物关联的能力，正在为新药研发等高度复杂任务带来新机会。 第三层面，“如今AI Agent的发展，正将科学研究范式变革推向极致。”传统药物研发往往是线性推进，过程中，研究者很难前置性地预见当前的单点决策在未来会产生怎样的连锁反应，这也直接导致了新药研发的错误累积和高失败率。 “Agent能够高度整合各种AI模块，并与人类进行深度协同。”兰艳艳指出，“更关键的是，它在进行决策时，能够将前端证据收集、中端假设生成、及后端未来结果模拟，全部纳入当前的决策闭环。它不是在做单步解题，而是在进行全局化的系统决策。对于极其复杂的生命科学体系，Agent的引入将带来质的变化。” “AI科学家”落地临床开发是必然的趋势，但如何赋予模型长程的逻辑推理能力、如何对极其复杂的任务进行精密规划，仍存在大量需要攻克的技术难点。解决这些技术难点，并转化为可观价值，离不开真实产业场景、高质量数据。 “阿斯利康具备全球化的医药研发平台与临床转化能力，清华AIR有顶尖的AI算法能力和人才优势。这种结合，可以让源自中国的尖端科技平台在‘起跑线’就对接全球研发标准和真实需求，加速从科学发现到药物研发的转化，让更多中国的科研成果更快进入全球研发管线，转化为可开发的创新项目，”何静指出。 据了解，该人工智能药物研发联合研究中心将聚焦人工智能驱动的分子研究、转化医学和临床开发创新，推动研究成果加速走向临床与应用。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-03-25T00:24:07.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/p/3736278401286401?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774568426453_5",
-      "title": "OpenAI pulls the plug on Sora, the viral AI video app that sparked deepfake concerns",
-      "summary": "OpenAI is shutting down its social media app Sora, which went viral last fall as a place to share short-form videos generated by artificial intelligen...",
-      "content": "OpenAI is shutting down its social media app Sora, which went viral last fall as a place to share short-form videos generated by artificial intelligence but also raised alarms in Hollywood and elsewhere.\nOpenAI said in a brief social media message Tu... [1504 chars]",
-      "imageUrl": "https://wjla.com/resources/media2/16x9/6000/1320/0x313/90/8987a5dc-53bd-40a2-a147-d4089b63c435-AP26016688224182.jpg",
-      "source": "WJLA",
-      "publishedAt": "2026-03-25T00:15:26.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://wjla.com/news/nation-world/openai-sora-artificial-intelligence-video-short-form-hollywood-news-chatgpt-advertising-business-technology-app-academics-concerns-deepfakes-slop-public-figures",
-      "aiInsight": ""
     }
   ]
 }
