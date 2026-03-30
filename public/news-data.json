@@ -1,19 +1,19 @@
 {
   "success": true,
-  "timestamp": "2026-03-30T21:52:53.926Z",
-  "total": 56,
+  "timestamp": "2026-03-30T22:48:23.054Z",
+  "total": 55,
   "data": [
     {
-      "id": "news_1774907553844_d3d480b1",
-      "title": "利用 Snowflake Cortex AI 能力，打造高效 IPO 研究智能体 ｜ 技术实践",
-      "summary": "利用 Snowflake Cortex AI 能力，打造高效 IPO 研究智能体 ｜ 技术实践",
-      "content": "利用 Snowflake Cortex AI 能力，打造高效 IPO 研究智能体 ｜ 技术实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-30T19:30:01.000Z",
+      "id": "news_1774910901734_1361b4d4",
+      "title": "苹果被指向美执法部门披露使用隐私邮箱用户的真实身份",
+      "summary": "IT之家 3 月 31 日消息，据 Techcrunch 报道，苹果公司已向联邦执法人员披露了至少两名用户的真实身份。这两名用户曾使用苹果一项隐私保护功能，该功能原本用于向各类应用和网站隐藏用户的真实邮箱地址。",
+      "content": "IT之家 3 月 31 日消息，据 Techcrunch 报道，苹果公司已向联邦执法人员披露了至少两名用户的真实身份。这两名用户曾使用苹果一项隐私保护功能，该功能原本用于向各类应用和网站隐藏用户的真实邮箱地址。 据IT之家了解，“隐藏我的邮箱（Hide My Email）”是苹果 iCloud+ 付费订阅用户专属功能，用户可借此生成匿名邮箱地址，所有收到的邮件都会自动转发至个人真实私密邮箱。苹果声称不会读取转发的邮件内容。但法庭文件显示，这项邮箱隐私功能并不能阻止执法部门查到匿名 iCloud 邮箱的实际使用者。 据 TechCrunch 查阅的法庭记录显示，本月早些时候，联邦调查局（FBI）在调查一起恐吓案件时，向苹果调取了相关用户记录。涉案邮件涉嫌恐吓联邦调查局局长卡什 · 帕特尔的女友亚历克西斯 · 威尔金斯，二人的恋情此前已被广泛报道。 搜查令宣誓书中写道：“应执法部门要求，苹果提供相关记录，证实该隐藏邮箱地址为关联目标苹果账号的匿名邮箱账户。” 苹果不仅提供了账号持有人的全名、真实邮箱，还交出了该用户通过“隐藏我的邮箱”功能创建的 134 个匿名邮箱账户记录。 TechCrunch 还查阅到另一份搜查令：美国移民与海关执法局下属国土安全调查处的联邦探员发起调查后，苹果又向其移交了另一名用户的相关信息。该案调查对象涉嫌身份诈骗犯罪。国土安全调查处一名探员在报告中提及 2026 年 1 月“从苹果获取的记录”，指出涉案嫌疑人曾通过多个苹果账号，利用“隐藏我的邮箱”创建了大量匿名邮箱地址。 苹果一直宣传其大部分 iCloud 服务采用端到端加密技术，意味着除用户本人外，包括苹果在内的任何第三方都无法访问用户数据。但并非所有用户信息都能规避执法调查：苹果留存的用户姓名、住址、账单信息等资料，以及未加密的邮件内容，均有可能被执法部门调取。 执法部门能够调取这类信息，也凸显了邮箱隐私保护的局限性。时至今日，绝大多数邮件传输仍未加密，仅以明文形式传输路由所需信息。 苹果公司发言人尚未对此事作出置评请求回应。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/1a676d11-7c5f-4021-8cc9-d35df27e2d2d.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-03-30T22:46:09.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/MesTUMq8XAB0Ip3ZTlSw?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.ithome.com/0/934/278.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774897954065_de4b3bcb",
@@ -25,6 +25,30 @@
       "publishedAt": "2026-03-30T17:53:16.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/934/274.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774910883941_2c18f9bf",
+      "title": "智能体安全实践：可控与可靠｜QCon 前瞻",
+      "summary": "智能体安全实践：可控与可靠｜QCon 前瞻",
+      "content": "智能体安全实践：可控与可靠｜QCon 前瞻",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-30T17:51:58.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/64irlwhbFtLW8IkPFrNa?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1774910886066_bf0d901e",
+      "title": "OpenClaw 走红背后：Agent、AI Coding 与团队协作的新问题",
+      "summary": "OpenClaw 走红背后：Agent、AI Coding 与团队协作的新问题",
+      "content": "OpenClaw 走红背后：Agent、AI Coding 与团队协作的新问题",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-30T17:48:24.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/D8E3q93kBviq8Z8mu0Ao?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -50,18 +74,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/934/267.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774907561155_e18bc067",
-      "title": "OpenAI扩展Responses API，为自主智能体提供基础设施",
-      "summary": "OpenAI扩展Responses API，为自主智能体提供基础设施",
-      "content": "OpenAI扩展Responses API，为自主智能体提供基础设施",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-30T15:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/lrjJhCF8qHoQ1VbsacNz?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1774883923431_a3b91b5e",
@@ -112,6 +124,18 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1774910892020_f21c0561",
+      "title": "记忆驱动的 DevOps Agent：从经验沉淀到自动化技能进化的工程实践｜QCon北京",
+      "summary": "记忆驱动的 DevOps Agent：从经验沉淀到自动化技能进化的工程实践｜QCon北京",
+      "content": "记忆驱动的 DevOps Agent：从经验沉淀到自动化技能进化的工程实践｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-30T11:56:30.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/sxxIEeo332F2st6I1RwC?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1774879184898_551ead84",
       "title": "回看2025，AI的系统工程时刻：重构智能的底座与边界",
       "summary": "AI竞争的核心，正从单一模型的参数竞赛，转向覆盖芯片、框架、模型、平台乃至应用的全栈“系统工程”能力比拼。",
@@ -148,30 +172,6 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1774907564945_99d415fe",
-      "title": "全网疯传！Claude最新模型意外曝光：全面碾压Opus 4.6，强到让Anthropic不敢发布",
-      "summary": "全网疯传！Claude最新模型意外曝光：全面碾压Opus 4.6，强到让Anthropic不敢发布",
-      "content": "全网疯传！Claude最新模型意外曝光：全面碾压Opus 4.6，强到让Anthropic不敢发布",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-30T10:46:08.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/xqbRhE3BteB7wqJKIhI1?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774907566910_237e1e91",
-      "title": "DeepSeek 崩溃超12小时，工程师连夜抢修，现已恢复正常",
-      "summary": "DeepSeek 崩溃超12小时，工程师连夜抢修，现已恢复正常",
-      "content": "DeepSeek 崩溃超12小时，工程师连夜抢修，现已恢复正常",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-30T10:03:26.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/EoGsQ765xrY9bJDDTzhP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1774866264804_dfa390a7",
       "title": "松延动力仿生机器人表情控制相关专利公布",
       "summary": "36氪获悉，爱企查App显示，近日，北京松延动力科技集团股份有限公司一项名为“一种仿生机器人表情控制方法、装置、设备、介质及产品”的发明专利公布。",
@@ -181,18 +181,6 @@
       "publishedAt": "2026-03-30T10:02:53.000Z",
       "category": "国外AI",
       "originalUrl": "https://36kr.com/newsflashes/3745267281019139?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774907568441_9fe717e5",
-      "title": "Revenium发布工具注册中心，揭示AI智能体的真实成本",
-      "summary": "Revenium发布工具注册中心，揭示AI智能体的真实成本",
-      "content": "Revenium发布工具注册中心，揭示AI智能体的真实成本",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-03-30T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/PwHSMp0gMz4DVVwA1bC8?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
