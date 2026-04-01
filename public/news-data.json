@@ -1,42 +1,18 @@
 {
   "success": true,
-  "timestamp": "2026-04-01T21:53:11.666Z",
-  "total": 85,
+  "timestamp": "2026-04-01T22:50:50.356Z",
+  "total": 82,
   "data": [
     {
-      "id": "news_1775080378358_d27cab07",
-      "title": "告别“语义黑盒”：当 Agent 走进生产环境，我们如何驯服它的“不可预测”？",
-      "summary": "告别“语义黑盒”：当 Agent 走进生产环境，我们如何驯服它的“不可预测”？",
-      "content": "告别“语义黑盒”：当 Agent 走进生产环境，我们如何驯服它的“不可预测”？",
+      "id": "news_1775083836267_20225fc2",
+      "title": "深化 AI 与开源协同，构建开放共赢生态 —— 太湖共识",
+      "summary": "深化 AI 与开源协同，构建开放共赢生态 —— 太湖共识",
+      "content": "深化 AI 与开源协同，构建开放共赢生态 —— 太湖共识",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-01T15:39:06.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/NuNH2aN2qGfdm2s2TlMd?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775080379863_d033cf7b",
-      "title": "突破泛化瓶颈：阿里云智能运维 Agent 评测体系实践",
-      "summary": "突破泛化瓶颈：阿里云智能运维 Agent 评测体系实践",
-      "content": "突破泛化瓶颈：阿里云智能运维 Agent 评测体系实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-01T15:20:13.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/9qgbqQFhMvJmTkPoFG8l?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775080381614_99860e26",
-      "title": "Claude Code 意外“开源”，51 万行源码曝光，但真正的秘密没有泄露",
-      "summary": "Claude Code 意外“开源”，51 万行源码曝光，但真正的秘密没有泄露",
-      "content": "Claude Code 意外“开源”，51 万行源码曝光，但真正的秘密没有泄露",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-01T14:20:45.000Z",
+      "publishedAt": "2026-04-01T20:14:35.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/cCAes2WpcXMxcovMSFCl?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/rBHMv1NbHASpMK2akGr8?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -169,18 +145,6 @@
       "publishedAt": "2026-04-01T10:02:33.000Z",
       "category": "国内AI",
       "originalUrl": "https://36kr.com/newsflashes/3748098113176066?f=rss",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775080383886_dec7f43d",
-      "title": "从日志到 Commit：蓝鲸全链路可观测与 AI 提效实践｜QCon北京",
-      "summary": "从日志到 Commit：蓝鲸全链路可观测与 AI 提效实践｜QCon北京",
-      "content": "从日志到 Commit：蓝鲸全链路可观测与 AI 提效实践｜QCon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-01T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/cdrsZORyN18ZsqlCjcsk?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -412,7 +376,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775080350473_0",
+      "id": "news_1775083807986_0",
       "title": "Teens Don‘t Worry About AI. Should They?",
       "summary": "...WINTER WEATHER ADVISORY IN EFFECT FROM 1 AM THURSDAY TO 7 AM CDT FRIDAY... * WHAT...Mixed precipitation expected. Total snow and sleet accumulation...",
       "content": "...WINTER WEATHER ADVISORY IN EFFECT FROM 1 AM THURSDAY TO 7 AM CDT FRIDAY... * WHAT...Mixed precipitation expected. Total snow and sleet accumulations between 3 and 5 inches except between 5 and 7 inches for northern Bayfield County and between 3 an... [984 chars]",
@@ -556,7 +520,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775080351250_1",
+      "id": "news_1775083845025_63e85d1e",
+      "title": "ClawTip来了！京东科技首发推出AI智能体的“专属自主零钱包”",
+      "summary": "ClawTip来了！京东科技首发推出AI智能体的“专属自主零钱包”",
+      "content": "ClawTip来了！京东科技首发推出AI智能体的“专属自主零钱包”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-31T21:53:56.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/0LYV5gNFxcNMV4vUeISx?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775083808730_1",
       "title": "In White Stadium debate, AI enters the chat",
       "summary": "“One of the powerful things about AI is that it’s leveling the playing field in terms of providing people with answers so that they don’t have to wait...",
       "content": "“One of the powerful things about AI is that it’s leveling the playing field in terms of providing people with answers so that they don’t have to wait for politicians to give them,” said Kristen Ransom, the founder of Include Web Design, who is leadi... [5163 chars]",
@@ -904,7 +880,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775080351447_2",
+      "id": "news_1775083808070_2",
       "title": "Trump helped build the Middle East’s AI ambitions. Could his war break them?",
       "summary": "By John Liu, Lisa Eadicicco, CNN\nHong Kong/New York (CNN) — President Donald Trump arrived in the Middle East last spring, making deals that would vau...",
       "content": "By John Liu, Lisa Eadicicco, CNN\nHong Kong/New York (CNN) — President Donald Trump arrived in the Middle East last spring, making deals that would vault the Gulf into the global race for artificial intelligence.\nAccompanied by an entourage of Big Tec... [5918 chars]",
@@ -1009,18 +985,6 @@
       "publishedAt": "2026-03-30T23:23:53.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/934/283.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774910901734_1361b4d4",
-      "title": "苹果被指向美执法部门披露使用隐私邮箱用户的真实身份",
-      "summary": "IT之家 3 月 31 日消息，据 Techcrunch 报道，苹果公司已向联邦执法人员披露了至少两名用户的真实身份。这两名用户曾使用苹果一项隐私保护功能，该功能原本用于向各类应用和网站隐藏用户的真实邮箱地址。",
-      "content": "IT之家 3 月 31 日消息，据 Techcrunch 报道，苹果公司已向联邦执法人员披露了至少两名用户的真实身份。这两名用户曾使用苹果一项隐私保护功能，该功能原本用于向各类应用和网站隐藏用户的真实邮箱地址。 据IT之家了解，“隐藏我的邮箱（Hide My Email）”是苹果 iCloud+ 付费订阅用户专属功能，用户可借此生成匿名邮箱地址，所有收到的邮件都会自动转发至个人真实私密邮箱。苹果声称不会读取转发的邮件内容。但法庭文件显示，这项邮箱隐私功能并不能阻止执法部门查到匿名 iCloud 邮箱的实际使用者。 据 TechCrunch 查阅的法庭记录显示，本月早些时候，联邦调查局（FBI）在调查一起恐吓案件时，向苹果调取了相关用户记录。涉案邮件涉嫌恐吓联邦调查局局长卡什 · 帕特尔的女友亚历克西斯 · 威尔金斯，二人的恋情此前已被广泛报道。 搜查令宣誓书中写道：“应执法部门要求，苹果提供相关记录，证实该隐藏邮箱地址为关联目标苹果账号的匿名邮箱账户。” 苹果不仅提供了账号持有人的全名、真实邮箱，还交出了该用户通过“隐藏我的邮箱”功能创建的 134 个匿名邮箱账户记录。 TechCrunch 还查阅到另一份搜查令：美国移民与海关执法局下属国土安全调查处的联邦探员发起调查后，苹果又向其移交了另一名用户的相关信息。该案调查对象涉嫌身份诈骗犯罪。国土安全调查处一名探员在报告中提及 2026 年 1 月“从苹果获取的记录”，指出涉案嫌疑人曾通过多个苹果账号，利用“隐藏我的邮箱”创建了大量匿名邮箱地址。 苹果一直宣传其大部分 iCloud 服务采用端到端加密技术，意味着除用户本人外，包括苹果在内的任何第三方都无法访问用户数据。但并非所有用户信息都能规避执法调查：苹果留存的用户姓名、住址、账单信息等资料，以及未加密的邮件内容，均有可能被执法部门调取。 执法部门能够调取这类信息，也凸显了邮箱隐私保护的局限性。时至今日，绝大多数邮件传输仍未加密，仅以明文形式传输路由所需信息。 苹果公司发言人尚未对此事作出置评请求回应。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/1a676d11-7c5f-4021-8cc9-d35df27e2d2d.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-03-30T22:46:09.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/934/278.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
