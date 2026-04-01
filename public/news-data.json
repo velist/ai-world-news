@@ -1,42 +1,18 @@
 {
   "success": true,
-  "timestamp": "2026-04-01T19:16:15.300Z",
-  "total": 85,
+  "timestamp": "2026-04-01T20:56:30.992Z",
+  "total": 83,
   "data": [
     {
-      "id": "news_1775070961803_d27cab07",
-      "title": "告别“语义黑盒”：当 Agent 走进生产环境，我们如何驯服它的“不可预测”？",
-      "summary": "告别“语义黑盒”：当 Agent 走进生产环境，我们如何驯服它的“不可预测”？",
-      "content": "告别“语义黑盒”：当 Agent 走进生产环境，我们如何驯服它的“不可预测”？",
+      "id": "news_1775076977266_20225fc2",
+      "title": "深化 AI 与开源协同，构建开放共赢生态 —— 太湖共识",
+      "summary": "深化 AI 与开源协同，构建开放共赢生态 —— 太湖共识",
+      "content": "深化 AI 与开源协同，构建开放共赢生态 —— 太湖共识",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-01T15:39:06.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/NuNH2aN2qGfdm2s2TlMd?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775070963912_d033cf7b",
-      "title": "突破泛化瓶颈：阿里云智能运维 Agent 评测体系实践",
-      "summary": "突破泛化瓶颈：阿里云智能运维 Agent 评测体系实践",
-      "content": "突破泛化瓶颈：阿里云智能运维 Agent 评测体系实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-01T15:20:13.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/9qgbqQFhMvJmTkPoFG8l?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775070965894_99860e26",
-      "title": "Claude Code 意外“开源”，51 万行源码曝光，但真正的秘密没有泄露",
-      "summary": "Claude Code 意外“开源”，51 万行源码曝光，但真正的秘密没有泄露",
-      "content": "Claude Code 意外“开源”，51 万行源码曝光，但真正的秘密没有泄露",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-01T14:20:45.000Z",
+      "publishedAt": "2026-04-01T20:14:35.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/cCAes2WpcXMxcovMSFCl?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/rBHMv1NbHASpMK2akGr8?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -169,18 +145,6 @@
       "publishedAt": "2026-04-01T10:02:33.000Z",
       "category": "国内AI",
       "originalUrl": "https://36kr.com/newsflashes/3748098113176066?f=rss",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775070967998_dec7f43d",
-      "title": "从日志到 Commit：蓝鲸全链路可观测与 AI 提效实践｜QCon北京",
-      "summary": "从日志到 Commit：蓝鲸全链路可观测与 AI 提效实践｜QCon北京",
-      "content": "从日志到 Commit：蓝鲸全链路可观测与 AI 提效实践｜QCon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-01T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/cdrsZORyN18ZsqlCjcsk?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -412,7 +376,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775070931587_0",
+      "id": "news_1775076950887_0",
       "title": "Teens Don‘t Worry About AI. Should They?",
       "summary": "...WINTER WEATHER ADVISORY IN EFFECT FROM 1 AM THURSDAY TO 7 AM CDT FRIDAY... * WHAT...Mixed precipitation expected. Total snow and sleet accumulation...",
       "content": "...WINTER WEATHER ADVISORY IN EFFECT FROM 1 AM THURSDAY TO 7 AM CDT FRIDAY... * WHAT...Mixed precipitation expected. Total snow and sleet accumulations between 3 and 5 inches except between 5 and 7 inches for northern Bayfield County and between 3 an... [984 chars]",
@@ -556,7 +520,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775070930720_1",
+      "id": "news_1775076985330_63e85d1e",
+      "title": "ClawTip来了！京东科技首发推出AI智能体的“专属自主零钱包”",
+      "summary": "ClawTip来了！京东科技首发推出AI智能体的“专属自主零钱包”",
+      "content": "ClawTip来了！京东科技首发推出AI智能体的“专属自主零钱包”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-03-31T21:53:56.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/0LYV5gNFxcNMV4vUeISx?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775076952247_1",
       "title": "In White Stadium debate, AI enters the chat",
       "summary": "“One of the powerful things about AI is that it’s leveling the playing field in terms of providing people with answers so that they don’t have to wait...",
       "content": "“One of the powerful things about AI is that it’s leveling the playing field in terms of providing people with answers so that they don’t have to wait for politicians to give them,” said Kristen Ransom, the founder of Include Web Design, who is leadi... [5163 chars]",
@@ -904,7 +880,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775070932339_2",
+      "id": "news_1775076951496_2",
       "title": "Trump helped build the Middle East’s AI ambitions. Could his war break them?",
       "summary": "By John Liu, Lisa Eadicicco, CNN\nHong Kong/New York (CNN) — President Donald Trump arrived in the Middle East last spring, making deals that would vau...",
       "content": "By John Liu, Lisa Eadicicco, CNN\nHong Kong/New York (CNN) — President Donald Trump arrived in the Middle East last spring, making deals that would vault the Gulf into the global race for artificial intelligence.\nAccompanied by an entourage of Big Tec... [5918 chars]",
