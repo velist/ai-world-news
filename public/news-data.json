@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-04-02T03:17:09.976Z",
-  "total": 84,
+  "timestamp": "2026-04-02T05:45:55.762Z",
+  "total": 91,
   "data": [
+    {
+      "id": "news_1775108737095_090ca2c6",
+      "title": "“奥特曼拉来多少万亿都没用”！UML之父判断：大模型不会真正思考，从架构上就是死胡同",
+      "summary": "“奥特曼拉来多少万亿都没用”！UML之父判断：大模型不会真正思考，从架构上就是死胡同",
+      "content": "“奥特曼拉来多少万亿都没用”！UML之父判断：大模型不会真正思考，从架构上就是死胡同",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-02T12:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/lOu1d22q6Qom0qp5ifxP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1775099814240_b96f02c4",
       "title": "智谱AI财报炸场，Token价值暴涨、核心指标直追Anthropic水平！CEO张鹏：人人都将是“Token架构师” ",
@@ -16,15 +28,123 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775099815623_bae263ad",
-      "title": "淘宝闪购：从骑手智能助手业务落地到 Agent 平台化建设｜QCon北京",
-      "summary": "淘宝闪购：从骑手智能助手业务落地到 Agent 平台化建设｜QCon北京",
-      "content": "淘宝闪购：从骑手智能助手业务落地到 Agent 平台化建设｜QCon北京",
+      "id": "news_1775108754051_6cb5a7af",
+      "title": "耗时 9 个月，微软完成必应地图近年来最大规模数据升级",
+      "summary": "IT之家 4 月 2 日消息，微软于 3 月 31 日发布公告，已完成必应地图（Bing Maps）近年来最大规模的地址数据升级。本次升级从 2025 年 6 月开始，历时 9 个月，目前已全面接入 TomTom Orbis 地图数据。 本次升级核心，在于接入 TomTom Orbis 地图数据。",
+      "content": "IT之家 4 月 2 日消息，微软于 3 月 31 日发布公告，已完成必应地图（Bing Maps）近年来最大规模的地址数据升级。本次升级从 2025 年 6 月开始，历时 9 个月，目前已全面接入 TomTom Orbis 地图数据。 本次升级核心，在于接入 TomTom Orbis 地图数据。IT之家援引博文介绍，该地图基于 Overture 地图基金会的通用标准打造，巧妙融合了开源地图、传感器观测数据以及 TomTom 独家商业数据，从而打破了传统地图数据的孤岛效应。 微软在博文中表示，引入新数据后，必应地图实现了三项关键突破： 首先是覆盖率激增，全球新增海量地址坐标； 其次是定位精度大幅提升，地址坐标更贴近真实地理位置； 最后是数据鲜活度，新系统采用持续更新模式，能实时同步现实世界的道路变化。 在部署方面，微软为确保稳定性，采用分阶段部署策略，先在欧洲核心市场进行数据抽取与索引比对，只有当新数据在覆盖率和精度上全面超越旧版时，才最终推向全球。 用户目前可以通过必应地图网页版、必应搜索以及人工智能助手 Copilot 等多款微软产品体验新版地图。此外微软还优化企业级服务 Azure Maps，其 API 调用结果也更加精准。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/647df624-3fed-4828-957b-dee44f1f6e39.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-02T05:41:28.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/935/284.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775108723161_a762107f",
+      "title": "韩国交易所启动SIDECAR机制，暂停KOSDAQ程序化卖出",
+      "summary": "韩国交易所启动SIDECAR机制，暂停KOSDAQ程序化卖出",
+      "content": "36氪获悉，韩国交易所启动SIDECAR机制，暂停KOSDAQ程序化卖出。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-02T10:00:00.000Z",
+      "source": "36氪",
+      "publishedAt": "2026-04-02T05:38:09.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/SUMzHGexfbxTRYCyr8AT?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://36kr.com/newsflashes/3749253767741954?f=rss",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775108754208_e0e8e0a5",
+      "title": "腾讯云就 WorkBuddy 龙虾登录异常致歉：已全部恢复，补偿 1000 Credits",
+      "summary": "IT之家 4 月 2 日消息，针对今日上午出现的 WorkBuddy 登录异常问题，腾讯云官方发布公告称，今天上午部分用户登录异常，目前已全部恢复，将为受影响用户补偿 1000 Credits。 我们于今日（2026 年 4 月 2 日）09:10 监测到部分国内用户出现登录异常的情况。",
+      "content": "IT之家 4 月 2 日消息，针对今日上午出现的 WorkBuddy 登录异常问题，腾讯云官方发布公告称，今天上午部分用户登录异常，目前已全部恢复，将为受影响用户补偿 1000 Credits。 我们于今日（2026 年 4 月 2 日）09:10 监测到部分国内用户出现登录异常的情况。团队在第一时间介入并紧急处理，相关问题已于 11:45 逐步修复，目前服务已全面恢复稳定。 对于此次故障给您的工作和计划带来的不便与困扰，我们深表歉意。 我们将向所有受影响的国内用户补偿 1000 Credits，该积分将在 2 个工作日内发放，请在 4 月 30 日 24 时前登录“用量管理”页面领取。 IT之家查询发现，部分网友晒图显示，腾讯云版龙虾 WorkBuddy 今日上午出现 504 服务错误，具体表现为无法登录、登录后闪退、加载失败等。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/15b1a4e6-4516-41ee-b82e-8159649123df.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-02T05:24:29.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/935/280.htm",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775108728334_6654a9d5",
+      "title": "PC之后，联想能否靠“碳硅融合”再造一个自己？",
+      "summary": "2026年是AI价值规模化落地的元年，对于联想而言，这既是机遇，也是其能否真正从“硬件巨人”蜕变为“AI时代领航者”的关键一役。",
+      "content": "2026年是AI价值规模化落地的元年，对于联想而言，这既是机遇，也是其能否真正从“硬件巨人”蜕变为“AI时代领航者”的关键一役。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-02T05:11:04.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7939348.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775108754298_eaa4c49a",
+      "title": "不是愚人节玩笑：谷歌 20 美元 / 月 AI Pro 订阅存储空间从 2TB 猛增至 5TB",
+      "summary": "IT之家 4 月 2 日消息，北京时间今天（4 月 2 日）凌晨，谷歌对每月 20 美元（现汇率约合 137.7 元人民币）的 AI Pro 订阅进行了大幅升级，存储空间和功能层面都有所扩展。",
+      "content": "IT之家 4 月 2 日消息，北京时间今天（4 月 2 日）凌晨，谷歌对每月 20 美元（现汇率约合 137.7 元人民币）的 AI Pro 订阅进行了大幅升级，存储空间和功能层面都有所扩展。该订阅同时提供每年 200 美元（现汇率约合 1377 元人民币）的方案，包含 Gemini、Veo 和 Nano Banana 等 AI 服务。 最直观的变化是云存储从 2TB 提升至 5TB，且不额外收费。这部分空间不仅可用于 AI 功能，也适用于 Gmail、Google Drive 和 Google Photos 的数据存储。 在功能方面，Gemini 的能力进一步增强。用户可以从 Gmail 和互联网获取上下文信息，用于 Drive、Docs、Slides 和 Sheets 等办公套件，同时还能总结邮箱内容，并在发送前对邮件进行校对。 谷歌还加入了更多 AI 智能体功能，其中包括 Chrome 自动浏览。谷歌副总裁希姆里特 · 本-亚伊尔表示，这些功能可以处理规划旅行或填写表单等繁琐的多步骤任务。 此外，谷歌还将原本每月 10 美元（IT之家注：现汇率约合 68.9 元人民币）的 Home Premium 订阅整合进 AI Pro，无需额外付费。上述新存储和功能已向所有用户开放。本-亚伊尔表示，即便暂时尚未看到更新，也无需担心，“这绝对不是愚人节玩笑”。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/c67cb923-f6ac-4989-8630-3c47097f198e.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-02T05:05:15.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/935/276.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775108754452_a1a114df",
+      "title": "阿里 Qwen3.6-Plus 模型发布，编码智能体能力全面跃升",
+      "summary": "IT之家 4 月 2 日消息，阿里今日宣布推出 Qwen3.6-Plus 模型，现已通过阿里云百炼 API 开放调用，相较于前代模型实现了全方位的能力跃升。 本次更新聚焦于开发者核心诉求：显著提升模型的智能体编程能力。",
+      "content": "IT之家 4 月 2 日消息，阿里今日宣布推出 Qwen3.6-Plus 模型，现已通过阿里云百炼 API 开放调用，相较于前代模型实现了全方位的能力跃升。 本次更新聚焦于开发者核心诉求：显著提升模型的智能体编程能力。在前端页面生成、代码修复、终端自动化等场景中，Qwen3.6-Plus 表现出更稳定的任务执行能力。同时，模型默认支持 100 万上下文窗口，多模态感知与推理能力也同步优化。 IT之家附更新亮点： 国内同尺寸模型中，编码智能体能力领先：代码任务端到端成功率显著提升 Coding Agent 能力升级：代码生成、修复、工具调用更可靠 100 万上下文：长文档、多轮对话信息提取更精准 多模态能力增强：视觉理解、指令遵循更稳定 性价比：相比 K2.5/GLM5 尺寸不到 1/2，性价比更高 Qwen3.6 系列更多版本近期发布，更强性能版本 Qwen3.6-Max & 小尺寸开源模型，敬请期待 Qwen3.6 通过深度融合推理、记忆与执行能力，在代码智能体、通用智能体和工具调用都实现了全面跃升。 在代码智能体领域，Qwen3.6-Plus 不仅在主流代码修复基准上紧追行业标杆，更在复杂的终端操作与自动化任务执行中表现突出。 在通用智能体与工具使用方面，模型实现了显著突破，特别是在多个高难度的长程规划任务中取得最优成绩，并在各类工具调用基准上全面领先。 在通用能力上，无论是高难度的 STEM 推理，还是超长上下文的精准信息提取，亦或是多语言环境的广泛适配，Qwen3.6-Plus 模型均在多项关键评测中刷新最佳表现。 Qwen3.6-Plus 在多模态能力上进一步升级，并围绕推理能力增强、指令模式实用性提升以及复杂任务执行能力拓展三个方向持续演进。 在多模态推理方面，Qwen3.6-Plus 在复杂文档理解、物理世界视觉理解、视频推理和视觉编程等任务上取得了稳定提升，模型能够更有效地整合跨模态信息，并完成更复杂的分析与决策。 在指令模式实用性方面，Qwen3.6-Plus 结合真实业务场景持续优化，在指令遵循、疑难文字识别、万物识别、细粒度图像感知，以及真实场景理解中展现出更强的实用性与稳定性。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/f7de8bbd-58e9-47e6-931f-0b97c27739cb.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-02T04:41:50.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/935/274.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775108729699_6b48cd2b",
+      "title": "追捧人形机器人的资本，为什么看不见能赚钱的装卸具身智能？",
+      "summary": "追捧人形机器人的资本，为什么看不见能赚钱的装卸具身智能？",
+      "content": "“具身智能不一定是人形。在装卸领域，强化臂力与支撑力比仿生结构更高效。”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-02T04:19:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7938838.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775108754602_06de984a",
+      "title": "替代 eMMC：兆易创新新一代 4Gb / 8Gb 大容量 SPI NAND Flash 闪存进入样品阶段",
+      "summary": "IT之家 4 月 2 日消息，兆易创新 GigaDevice 今日宣布，其新一代大容量 SPI NAND Flash 闪存 GD5F4GM7 (4Gb) / GD5F8GM8 (8Gb) 已进入样品阶段。",
+      "content": "IT之家 4 月 2 日消息，兆易创新 GigaDevice 今日宣布，其新一代大容量 SPI NAND Flash 闪存 GD5F4GM7 (4Gb) / GD5F8GM8 (8Gb) 已进入样品阶段。 IT之家了解到，这两款产品旨在提供同等容量 eMMC 的替代方案，面向智能穿戴、高端路由、安防设备、扫地机器人等领域。 GD5F4GM7 与 GD5F8GM8 均采用 4KB 页面大小设计，支持更高的数据传输速率。其可选 1.8V / 3.3V 两种工作电压，支持工规温度范围，4Gb 款支持 WSON8 6mm×5mm 紧凑封装，待机功耗相比传统叠封方案降低约 50%。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/5a6bf9d8-c1cf-45c3-9aac-118e66d99f67.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-02T04:00:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/935/266.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775108754760_1cf2058c",
+      "title": "索尼 PS6 掌机爆料：光栅性能超微软 Xbox Series S 主机",
+      "summary": "IT之家 4 月 2 日消息，消息源 KeplerL2 于 3 月 31 日在 NeoGAF 论坛发帖爆料，指出传统光栅化渲染和光线追踪表现上，索尼 PlayStation 6 掌机（代号 Project Canis）将全面超越微软现款 Xbox Series S 主机。",
+      "content": "IT之家 4 月 2 日消息，消息源 KeplerL2 于 3 月 31 日在 NeoGAF 论坛发帖爆料，指出传统光栅化渲染和光线追踪表现上，索尼 PlayStation 6 掌机（代号 Project Canis）将全面超越微软现款 Xbox Series S 主机。 核心配置方面，现有消息称款掌机采用台积电 3 纳米制程工艺，芯片面积仅为 135 平方毫米。设备内置 4 个 Zen 6c 核心与 2 个 Zen 6 低功耗核心，搭配 16 组 RDNA 5 计算单元，并配备最高 24GB 的 LPDDR5X 显存。 IT之家附上相关截图如下： 除了强悍的底层硬件，索尼自研的 AI 图像超分增强技术将成为核心杀手锏。爆料指出，PS6 掌机首发的 PSSR 3 技术在画面表现上，不仅能轻松击退任天堂 Switch 2 使用的“青春版” DLSS，其最终画质甚至有望反超英伟达当前的 DLSS 4.5 技术。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/7090f94e-d431-4a30-bfaf-384a028667c4.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-02T03:58:23.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/935/265.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775108731152_1b04fc08",
+      "title": "被黄仁勋多次提到的“AI工厂”，已经在中国落地了",
+      "summary": "被黄仁勋多次提到的“AI工厂”，已经在中国落地了",
+      "content": "算力竞争的新范式，AI工厂能否让智能体规模化落地？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-02T03:56:47.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/7938207.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -124,15 +244,51 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775099817206_20225fc2",
-      "title": "深化 AI 与开源协同，构建开放共赢生态 —— 太湖共识",
-      "summary": "深化 AI 与开源协同，构建开放共赢生态 —— 太湖共识",
-      "content": "深化 AI 与开源协同，构建开放共赢生态 —— 太湖共识",
+      "id": "news_1775108716079_0",
+      "title": "With Sora shuttered, smaller video AI apps surge into the spotlight",
+      "summary": "A week after OpenAI said it would shutter its artificial intelligence video generator, Sora, rival tools like Kling AI and RunwayML are already gainin...",
+      "content": "A week after OpenAI said it would shutter its artificial intelligence video generator, Sora, rival tools like Kling AI and RunwayML are already gaining ground.\nKling AI, a video generator app owned by China’s Kuaishou Technology, saw global weekly ac... [3293 chars]",
+      "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/42407d2/2147483647/strip/true/crop/2000x1050+0+142/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F76%2Ff9%2F6b8f436da53ba82dd78406984c51%2F1x-1.jpg",
+      "source": "Los Angeles Times",
+      "publishedAt": "2026-04-01T16:57:35.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.latimes.com/business/story/2026-04-01/with-sora-shuttered-smaller-video-ai-apps-surge-into-spotlight",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1775108744422_d27cab07",
+      "title": "告别“语义黑盒”：当 Agent 走进生产环境，我们如何驯服它的“不可预测”？",
+      "summary": "告别“语义黑盒”：当 Agent 走进生产环境，我们如何驯服它的“不可预测”？",
+      "content": "告别“语义黑盒”：当 Agent 走进生产环境，我们如何驯服它的“不可预测”？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-01T20:14:35.000Z",
+      "publishedAt": "2026-04-01T15:39:06.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/NuNH2aN2qGfdm2s2TlMd?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775108745951_d033cf7b",
+      "title": "突破泛化瓶颈：阿里云智能运维 Agent 评测体系实践",
+      "summary": "突破泛化瓶颈：阿里云智能运维 Agent 评测体系实践",
+      "content": "突破泛化瓶颈：阿里云智能运维 Agent 评测体系实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-01T15:20:13.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/9qgbqQFhMvJmTkPoFG8l?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775108747423_99860e26",
+      "title": "Claude Code 意外“开源”，51 万行源码曝光，但真正的秘密没有泄露",
+      "summary": "Claude Code 意外“开源”，51 万行源码曝光，但真正的秘密没有泄露",
+      "content": "Claude Code 意外“开源”，51 万行源码曝光，但真正的秘密没有泄露",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-01T14:20:45.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/rBHMv1NbHASpMK2akGr8?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/cCAes2WpcXMxcovMSFCl?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -160,7 +316,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775099789220_0",
+      "id": "news_1775108715996_1",
       "title": "The AI video apps gaining ground after OpenAI declared Sora dead",
       "summary": "By Natalie Lung, Bloomberg\nA week after OpenAI said it would shutter its artificial intelligence video generator, Sora, rival tools like Kling AI and ...",
       "content": "By Natalie Lung, Bloomberg\nA week after OpenAI said it would shutter its artificial intelligence video generator, Sora, rival tools like Kling AI and RunwayML are already gaining ground.\nKling AI, a video generator app owned by China’s Kuaishou Techn... [3395 chars]",
@@ -277,6 +433,18 @@
       "publishedAt": "2026-04-01T10:02:33.000Z",
       "category": "国内AI",
       "originalUrl": "https://36kr.com/newsflashes/3748098113176066?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775108748946_dec7f43d",
+      "title": "从日志到 Commit：蓝鲸全链路可观测与 AI 提效实践｜QCon北京",
+      "summary": "从日志到 Commit：蓝鲸全链路可观测与 AI 提效实践｜QCon北京",
+      "content": "从日志到 Commit：蓝鲸全链路可观测与 AI 提效实践｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-01T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/cdrsZORyN18ZsqlCjcsk?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -508,7 +676,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775099788493_1",
+      "id": "news_1775108715582_2",
       "title": "Teens Don‘t Worry About AI. Should They?",
       "summary": "...WINTER WEATHER ADVISORY IN EFFECT FROM 1 AM THURSDAY TO 7 AM CDT FRIDAY... * WHAT...Mixed precipitation expected. Total snow and sleet accumulation...",
       "content": "...WINTER WEATHER ADVISORY IN EFFECT FROM 1 AM THURSDAY TO 7 AM CDT FRIDAY... * WHAT...Mixed precipitation expected. Total snow and sleet accumulations between 3 and 5 inches except between 5 and 7 inches for northern Bayfield County and between 3 an... [984 chars]",
@@ -652,7 +820,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775099788855_2",
+      "id": "news_1775108716149_3",
       "title": "In White Stadium debate, AI enters the chat",
       "summary": "“One of the powerful things about AI is that it’s leveling the playing field in terms of providing people with answers so that they don’t have to wait...",
       "content": "“One of the powerful things about AI is that it’s leveling the playing field in terms of providing people with answers so that they don’t have to wait for politicians to give them,” said Kristen Ransom, the founder of Include Web Design, who is leadi... [5163 chars]",
@@ -926,90 +1094,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7935669.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774936101267_334813bb",
-      "title": "微软\"叛逃\"OpenAI：让GPT和Claude互审，AI幻觉的结构性解法?",
-      "summary": "微软\"叛逃\"OpenAI：让GPT和Claude互审，AI幻觉的结构性解法?",
-      "content": "对于中国AI产业而言，微软的这一动作同样具有参考价值。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-31T05:35:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7936078.html",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774936102475_ef3d91f4",
-      "title": "豆包带货，千问充话费：大模型进入“办事时代”",
-      "summary": "豆包带货，千问充话费：大模型进入“办事时代”",
-      "content": "大模型从知行脱节走向知行合一，办事能力的每一次扩展，都是离钱更近的一步。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-31T05:09:31.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7935979.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774936103918_709ba7cc",
-      "title": "一个蛋白的进化史：当物理AI遇见百年国货",
-      "summary": "一个蛋白的进化史：当物理AI遇见百年国货",
-      "content": "“生物技术不应止于实验室，而应成为产业迭代的新引擎。”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-31T05:08:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7935878.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774936105756_39c2a0cf",
-      "title": "桌面龙虾来了？阶跃星辰的本地Agent战事",
-      "summary": "桌面龙虾来了？阶跃星辰的本地Agent战事",
-      "content": "阶跃交卷的时间不算早，但交出了一个不错的答卷。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-31T04:51:09.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7935893.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774936107948_caf8782e",
-      "title": "AI 云下一程：从出海伙伴到全球智能基石",
-      "summary": "在 AI 定义未来的时代，真正的全球化竞争力，源于技术硬实力与生态软实力的兼备，也源于与全球客户共成长、共创新的深度绑定。",
-      "content": "在 AI 定义未来的时代，真正的全球化竞争力，源于技术硬实力与生态软实力的兼备，也源于与全球客户共成长、共创新的深度绑定。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-31T04:16:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7935695.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1774936109982_fab57b36",
-      "title": "商汤跨越AI周期实录：定义AI公司的盈利路径",
-      "summary": "真正决定一家AI公司长期价值的，是能将技术沉淀为稳定、可复制、可扩展的产品体系。商汤科技2025年业绩报告可以发现一个清晰的战略信号。",
-      "content": "真正决定一家AI公司长期价值的，是能将技术沉淀为稳定、可复制、可扩展的产品体系。商汤科技2025年业绩报告可以发现一个清晰的战略信号。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-03-31T04:03:57.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7934820.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775099789524_3",
-      "title": "Trump helped build the Middle East’s AI ambitions. Could his war break them?",
-      "summary": "By John Liu, Lisa Eadicicco, CNN\nHong Kong/New York (CNN) — President Donald Trump arrived in the Middle East last spring, making deals that would vau...",
-      "content": "By John Liu, Lisa Eadicicco, CNN\nHong Kong/New York (CNN) — President Donald Trump arrived in the Middle East last spring, making deals that would vault the Gulf into the global race for artificial intelligence.\nAccompanied by an entourage of Big Tec... [5918 chars]",
-      "imageUrl": "https://abc17news.b-cdn.net/abc17news.com/2023/08/kmiz-860x484.webp",
-      "source": "ABC17News.com",
-      "publishedAt": "2026-03-31T03:34:45.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://abc17news.com/money/cnn-business-consumer/2026/03/30/trump-helped-build-the-middle-easts-ai-ambitions-could-his-war-break-them/",
-      "aiInsight": ""
     }
   ]
 }
