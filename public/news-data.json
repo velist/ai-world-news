@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-04-04T22:39:52.909Z",
-  "total": 74,
+  "timestamp": "2026-04-04T23:40:26.753Z",
+  "total": 77,
   "data": [
+    {
+      "id": "news_1775346025749_30af9695",
+      "title": "Django Web 框架共同创始人威利森：AI 将为编程带来“黑灯工厂”时代",
+      "summary": "IT之家 4 月 5 日消息，西蒙 · 威利森是 Django Web 框架的联合创始人，该框架更是被 Instagram 等数千个网站用于搭建初始系统。对其来说，目前的 AI 可以完成大部分原本需自己完成的代码编写工作，而他又提出了一个更大的问题：当 AI 完全不再需要人类时，会发生什么。",
+      "content": "IT之家 4 月 5 日消息，西蒙 · 威利森是 Django Web 框架的联合创始人，该框架更是被 Instagram 等数千个网站用于搭建初始系统。对其来说，目前的 AI 可以完成大部分原本需自己完成的代码编写工作，而他又提出了一个更大的问题：当 AI 完全不再需要人类时，会发生什么。 据《商业内幕》今天（4 月 5 日）早间报道，威利森指出，目前开发者使用 AI 通常遵循固定流程 —— 提出需求、监督执行、再进行代码审核。但如果连这些环节都交给 AI 完成，就进入了他所说的“黑灯工厂”阶段。 威利森解释称，这一概念源于工业自动化：当生产完全自动化后，工厂甚至不需要照明，因为已经没有人类在场，机器可以独立运行。对应到软件开发，就意味着 AI 可能在没有人类参与的情况下完成整个开发流程。 随着 AI 能力持续提升，其对就业的影响也愈发受到关注。有人认为 AI 会创造新岗位，也有人担心其将取代人类工作。据IT之家了解，Klarna、IBM、Block、甲骨文等多家公司，已将部分裁员归因于 AI。 威利森表示，这种变化已经开始发生。一些企业甚至要求员工停止手写代码。“老实说，六个月前我还认为这样太疯狂了，但现在我产出的代码中，大概 95% 都来自 AI。” 不过，氛围编程降低了开发门槛，并不意味着成功变得轻而易举。真正关键的，仍然是是否具备原创性和创造力，而不仅仅是工具本身。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2024/10/1e49cd7b-4b1b-4d78-b322-580914f2f7fa.png?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_23,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_9,y_9/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-04T23:18:31.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/936/067.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775346009301_4bae830e",
+      "title": "智能体 AI 模式强化软件工程规范性",
+      "summary": "智能体 AI 模式强化软件工程规范性",
+      "content": "智能体 AI 模式强化软件工程规范性",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-04T14:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/UdLhY0p8iDDIbtLtfV35?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1775302596287_436b8739",
       "title": "Anthropic成立PAC：厨子不看菜谱看上兵法了",
@@ -26,6 +50,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/936/024.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775346011166_b771e08c",
+      "title": "从 ChatBI 到 DataAgent：企业级智能数据分析平台的技术演进和实践｜QCon北京",
+      "summary": "从 ChatBI 到 DataAgent：企业级智能数据分析平台的技术演进和实践｜QCon北京",
+      "content": "从 ChatBI 到 DataAgent：企业级智能数据分析平台的技术演进和实践｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-04T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/JPqgmdcQJRRWprIqQo7X?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775299388738_6f95a527",
@@ -328,7 +364,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775342357219_0",
+      "id": "news_1775345985465_0",
       "title": "Framework would protect news organizations from Artificial Intelligence",
       "summary": "Expect hunger to rise as new SNAP rules take effect Observations on the changes at the Enterprise Constructing collaboration Early-season paddlers Big...",
       "content": "A musician spends years learning and honing his craft, investing in equipment and practice space, hiring musicians, living on a friend’s couch and taking odd jobs to pay for travel to venues. It’s not just an investment in time and money. It’s an inv... [6046 chars]",
@@ -340,7 +376,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1775342356986_1",
+      "id": "news_1775345984782_1",
       "title": "Annie Altman Files Amended Lawsuit Against Brother Sam Altman In Federal Court As Filing Revives Explosive Abuse Allegations",
       "summary": "CASE AT A GLANCE\nA dismissed lawsuit involving one of the most powerful figures in artificial intelligence has unexpectedly been revived through a nar...",
       "content": "CASE AT A GLANCE\nA dismissed lawsuit involving one of the most powerful figures in artificial intelligence has unexpectedly been revived through a narrow legal pathway.\nThe case now pivots on procedural law rather than factual determinations, raising... [5919 chars]",
@@ -364,28 +400,28 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775342380820_9d4030a1",
-      "title": "跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、 一半GPU用量，推出三款王炸低价模型",
-      "summary": "跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、 一半GPU用量，推出三款王炸低价模型",
-      "content": "跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、 一半GPU用量，推出三款王炸低价模型",
+      "id": "news_1775346014752_60c44ad9",
+      "title": "在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才培训？",
+      "summary": "在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才培训？",
+      "content": "在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才培训？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-03T18:00:00.000Z",
+      "publishedAt": "2026-04-03T16:58:07.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/zUMeCNaChlTHDoa7pFVX?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/b6XkgAcvz9hjrpmX6OGr?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775342385303_a226cb3d",
-      "title": "PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信息被窃取",
-      "summary": "PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信息被窃取",
-      "content": "PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信息被窃取",
+      "id": "news_1775346016840_6a255de0",
+      "title": "AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来",
+      "summary": "AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来",
+      "content": "AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-03T15:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/YqWdW6lF74rlqXkJ5AMJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-04-03T16:34:12.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/Z18OTUTFlmqbQb5Ia4Fp?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775245745277_dc3e20ea",
@@ -434,6 +470,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/935/879.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775346020628_a5e855e4",
+      "title": "前网易副总裁下场，要做“Agent 时代的iPhone”",
+      "summary": "前网易副总裁下场，要做“Agent 时代的iPhone”",
+      "content": "前网易副总裁下场，要做“Agent 时代的iPhone”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-03T11:32:43.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/jURmq5J0lm5Py5bkJbZ4?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775216705463_4af863b1",
@@ -868,7 +916,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775342357217_2",
+      "id": "news_1775345984680_2",
       "title": "Teens Don‘t Worry About AI. Should They?",
       "summary": "...ICE STORM WARNING REMAINS IN EFFECT FROM 4 PM THIS AFTERNOON TO 10 AM CDT SATURDAY... * WHAT...Significant icing expected. Total snow and sleet acc...",
       "content": "...ICE STORM WARNING REMAINS IN EFFECT FROM 4 PM THIS AFTERNOON TO 10 AM CDT SATURDAY... * WHAT...Significant icing expected. Total snow and sleet accumulations up to two inches and ice accumulations up to one half of an inch. * WHERE...Price, Ashlan... [877 chars]",
@@ -878,18 +926,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.apg-wi.com/online_features/community_cares/teens-don-t-worry-about-ai-should-they/article_e9ad25f4-f820-579b-b9e2-7a0174a03e7b.html",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1775173424722_85559f41",
-      "title": "北京信息光电子芯片平台预计今年 6 月产线贯通，力争实现产业链自主可控",
-      "summary": "IT之家 4 月 3 日消息，据“北京亦庄”公众号，3 月 31 日，北京信息光电子芯片平台设备搬入仪式在北京经济技术开发区（北京亦庄）之所新质产业园举行。随着首批核心设备的顺利入机，标志着该平台建设由基础设施建设阶段转入设备安装与调试阶段。",
-      "content": "IT之家 4 月 3 日消息，据“北京亦庄”公众号，3 月 31 日，北京信息光电子芯片平台设备搬入仪式在北京经济技术开发区（北京亦庄）之所新质产业园举行。随着首批核心设备的顺利入机，标志着该平台建设由基础设施建设阶段转入设备安装与调试阶段。 IT之家从官方介绍获悉，北京信息光电子芯片平台的核心技术源自清华大学电子工程系罗毅院士团队的深厚科研积累，由北京经开区企业华毅瀛飞（北京）光电科技有限公司与北京领创光电有限公司联合建设。平台瞄准人工智能算力中心、无线通信等全球前沿科技，全面布局数据高速光互联、OI/O、光电共封装（CPO）、卫星光通信、光载无线通信、量子计算及新一代光电计算等尖端领域，致力于攻坚核心高端光电子芯片及器件技术。 建成后，该平台将构建起服务于北京乃至全国高校、科研院所以及创新型企业的高端光电子芯片研发与中试阵地，力争实现我国高端光电子器件产业链的自主可控。 据相关负责人介绍，北京信息光电子芯片平台自 2025 年 12 月 22 日正式启动建设以来，各项工程快速、高质量推进。3 月 30 日，厂房如期达成设备入机条件。此次核心设备搬入后，平台将全速开启装配调试工作，预计将于今年 6 月全面完成调试并实现产线贯通。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-04-02T23:38:27.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/935/538.htm",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
