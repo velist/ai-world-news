@@ -1,10 +1,58 @@
 {
   "success": true,
-  "timestamp": "2026-04-04T04:59:15.957Z",
+  "timestamp": "2026-04-04T06:07:30.057Z",
   "total": 81,
   "data": [
     {
+      "id": "news_1775282822102_4bae830e",
+      "title": "智能体 AI 模式强化软件工程规范性",
+      "summary": "智能体 AI 模式强化软件工程规范性",
+      "content": "智能体 AI 模式强化软件工程规范性",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-04T14:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/UdLhY0p8iDDIbtLtfV35?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775282823793_b771e08c",
+      "title": "从 ChatBI 到 DataAgent：企业级智能数据分析平台的技术演进和实践｜QCon北京",
+      "summary": "从 ChatBI 到 DataAgent：企业级智能数据分析平台的技术演进和实践｜QCon北京",
+      "content": "从 ChatBI 到 DataAgent：企业级智能数据分析平台的技术演进和实践｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-04T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/JPqgmdcQJRRWprIqQo7X?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775282848479_fdf385f5",
+      "title": "Claude 卸磨杀虾！开发者一夜工作流全断，OpenAI 躺赚用户",
+      "summary": "糟了的，龙虾也进了 Claude 的斩杀线。 昨晚，不少用户收到了一封来自 A 社的邮件。官方直接宣布，像 Claude Pro 这种按月交钱的订阅，以后只能用在 Anthropic 自家的产品上。 从 4 月 5 日 3 点起（北京时间），以龙虾为首的第三方工具，一概不能通过订阅调用。",
+      "content": "糟了的，龙虾也进了 Claude 的斩杀线。 昨晚，不少用户收到了一封来自 A 社的邮件。官方直接宣布，像 Claude Pro 这种按月交钱的订阅，以后只能用在 Anthropic 自家的产品上。 从 4 月 5 日 3 点起（北京时间），以龙虾为首的第三方工具，一概不能通过订阅调用。 也就是说，龙虾被 Claude 封杀了。 要是还想继续用第三方，那就得额外掏钱，比如充按量收费的 API 额度才行。 当然了，官方也给了点小补偿，会给订阅用户发一笔和月订阅费等额的额度。 但如果你要坚持退订，那也请便吧…… 龙虾之父对此也表示：我真劝过了，劝了一周，但没用…… 网友破防了 消息一出自然是一石激起千层浪，订阅用户直接炸了锅，开始追着骂，专戳 Claude 痛处…… 难道源码泄露没教会你成长吗？（doge） Claude Code 负责人 Boris Cherny 也出来和网友对线，试图解释原因。 他说 Anthropic 其实一直在努力应对 Claude 的用户需求增长，但订阅服务从设计之初就没考虑过第三方工具这种用法。 系统容量本来就得小心控制，现在只能优先保障官方产品和 API 用户。 你要是继续用呢，那就会获得一笔和月费等额的额度，要是坚持退订…… 那就退吧。 所以为啥要禁用第三方工具，总结起来就是一句话 —— 你们薅羊毛太狠，遭不住了。 像 OpenClaw 这类第三方工具，能靠着机器全天 24 小时不停歇运行，高强度做编码、测试这些活儿，让订阅用户的实际使用量直接飙上去了； 要是按 API 的计费模式算，这些用量得花几千甚至几万美元…… 虽然 A 社的意思是用量激增，系统负担太大，但网友们并不买账，直言：你就是嫌钱赚少了。 当然了，也有一部分网友表示理解，龙虾这种 7x24 小时的 token 烧法早已超过了订阅套餐能承受的用量，现在算力成本又很高，平台确实扛不住亏钱。 不过那群订阅 Claude 只是想写代码的人，也高兴自己能获得更多算力资源。 按量收费本来也是理所当然的事，但 Anthropic 错就错在做得太不地道了。 没给缓冲说封就封，完全没给用户留足过渡时间，导致很多基于 Claude+Openclaw 搭建的工作流直接瘫痪。 于是，不少网友直接转头拥抱友商：错付了，Claude 拜拜，OpenAI 我来了。 不提 OpenAI 还好，一提 OpenAI，网友的怒火又烧到了龙虾之父 Peter 身上 —— OpenClaw 的创始人都加入 OpenAI 了，Anthropic 封龙虾也是早晚的事…… 对此，Peter 也是暗暗抨击了一波：Claude 抄完我的就又开始打厨子了。 Claude 大战 OpenClaw 而 Claude 与 OpenClaw 结下的梁子，最早可以追溯到 OpenClaw 刚刚爆火的时候。 早在 1 月初，龙虾还只是“有点起势”的时候，Anthropic 就已经出手 —— 封锁 Claude Max 订阅 API 用于 Clawdbot 等工具，导致一批开发者账户被突发封禁。 具体而言，当时 A 社阻断了对官方 Claude Code 客户端的“伪装”（spoofing）。结果就是，大量开发者在用 OpenClaw、Cursor 等工具时，突然发现： 要么 API 用不了了，要么账号直接被封。 不少开发者在 Reddit 和 X 上抱怨“订阅费白交了，还得自掏腰包买独立 API”。 事后，Anthropic 工程师的解释是： 这是为了遏制异常流量（比如批量自动化请求），而且这类第三方调用本身就违反服务条款。 但不管动机如何，这一步实际上完成了一件事： 第一次大规模“技术性断供”，直接切掉了 OpenClaw 最关键的低成本燃料。 事情在 1 月底进一步升级。 当时还叫 Clawdbot 的龙虾，被 Claude 强制要求改名。 原因很简单，「克劳德宝特」和我们「克劳德」的发音太像，你在蹭我们热度。 有趣的是，Peter 甚至尝试过把“d”去掉，但仍遭拒绝。 网友的普遍反应是“这不是免费给 Claude 引流吗？怎么反被怪罪？” 在此之后，Anthropic 又借机修订法律文件，明确规定： 免费、Pro 或 Max 计划的 OAuth 令牌仅限官方 Claude.ai 和 Claude Code 使用，甚至自家代理 SDK 也被排除。 同时官方对社区的说法是：第三方工具正在制造“失控的代理流量”，可能带来诈骗风险、权限滥用，以及配额失控。 根据其内部监控，Clawdbot 一度贡献了 20%+ 的 API 调用峰值。 再往后，谷歌开始加码限制，各大厂也纷纷收紧配额与词元。服务开始变得断断续续，时灵时不灵。 直到今天 ——Claude 与龙虾，彻底走向切割。 当然，客观来说，龙虾也因安全问题被广为诟病。 比如，文件内容随意访问、操作权限过宽、误删风险等客观隐患。 在这场“维护战争”中，这些漏洞不仅是封杀“借口”，更是核心导火索 —— Anthropic 也顺势推出了更“可控”的官方方案（如 Cowork），试图替代 OpenClaw 这类“高自由度但高风险”的代理工具。 不过，在开源社区的推动下，OpenClaw 的迭代速度极快 —— 一度达到每周 2–3 次更新，不断补安全、补能力。 这也让整个局面变得微妙起来： 一边是不断收紧边界的大厂，一边是快速进化的开源代理。 最终，这类 harness 工具会收敛到 Anthropic 这样的闭环生态里，还是在开源侧长出新的生命力，现在还远没有定论。 One More Thing 有趣的是，早在 Claude 让龙虾改名的时候，就有网友精准预言了今天的事。 像 Anthropic 一样，看到一个基于你模型做出来的独立项目。 它卖出的你那每月 200 美元订阅，比你那无能的市场营销还多，然后你转头就把用它的账号全封了。 还给它那个搞笑但能帮你产品传播的名字发版权警告。 Dario Amodei，你是厌恶成功吗？ Dario Amodei，你是厌恶成功吗？ Dario Amodei，你是厌恶成功吗？ 参考链接： [1]https://x.com/steipete/status/2040209434019082522?s=20 [2]https://x.com/VadimStrizheus/status/2040199979927482618?s=20 [3]https://x.com/marinatedvapor/status/2040204762579136544?s=20 本文来自微信公众号：量子位（ID：QbitAI），作者：henry 闻乐",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/61f115da-d0ad-4534-864d-217f13b898d0.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-04T05:14:43.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.ithome.com/0/935/972.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1775278754493_69614e0d",
+      "title": "我国主导的国际学术期刊《Vita》今年 6 月将出版纸质版",
+      "summary": "IT之家 4 月 4 日消息，央视新闻昨日（4 月 3 日）报道称，由我国主导的国际学术期刊《Vita》将于 2026 年 6 月正式出版纸质版。 该期刊对标国际顶级学术期刊，聚焦生命科学与生物医学领域，主刊面向全球科研人员免费开放。",
+      "content": "IT之家 4 月 4 日消息，央视新闻昨日（4 月 3 日）报道称，由我国主导的国际学术期刊《Vita》将于 2026 年 6 月正式出版纸质版。 该期刊对标国际顶级学术期刊，聚焦生命科学与生物医学领域，主刊面向全球科研人员免费开放。 IT之家附上相关视频如下： “Vita”一词源自拉丁语，中文为“生命”之意。我国 15 家高校和科研机构于 2025 年 8 月共同发起成立生命科学开放联盟，并正式宣布创办《Vita》，该联盟成员单位目前已扩大至 30 多家，近百位国内外顶尖科学家受邀加入其学术顾问委员会。 中国科学院院士施一公指出，中国科技文献占全球约 20%，但科技类杂志稀缺，创办高质量期刊对掌握学术话语权至关重要。 长期以来，国际期刊论文处理费持续上涨，已成为科研人员的沉重负担。数据显示，2024 年全球 OA 期刊篇均处理费首次突破 3000 美元。 中国作者 2024 年 OA 发文量超 31 万篇，支付费用高达 9.09 亿美元（约合人民币 64 亿元），有科研人员直言，高昂费用让青年科学家苦不堪言，甚至挤占项目实验经费。 中国科学院已明确自今年 3 月 1 日起，停止使用财政经费支付《自然-通讯》等高收费期刊的论文处理费。此举旨在优化学术论文发表管理，合理控制费用支出。 同时，国家密集出台举措推动自主期刊建设，科技部与国家自然科学基金委新规要求，项目形成的代表性论文发表在我国科技期刊上的比例需占 20% 以上。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/2dc685d3-74b1-49e9-b383-3cf30e71df73.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-04T04:53:13.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/935/965.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775282848633_69614e0d",
       "title": "我国主导的国际学术期刊《Vita》今年 6 月将出版纸质版",
       "summary": "IT之家 4 月 4 日消息，央视新闻昨日（4 月 3 日）报道称，由我国主导的国际学术期刊《Vita》将于 2026 年 6 月正式出版纸质版。 该期刊对标国际顶级学术期刊，聚焦生命科学与生物医学领域，主刊面向全球科研人员免费开放。",
       "content": "IT之家 4 月 4 日消息，央视新闻昨日（4 月 3 日）报道称，由我国主导的国际学术期刊《Vita》将于 2026 年 6 月正式出版纸质版。 该期刊对标国际顶级学术期刊，聚焦生命科学与生物医学领域，主刊面向全球科研人员免费开放。 IT之家附上相关视频如下： “Vita”一词源自拉丁语，中文为“生命”之意。我国 15 家高校和科研机构于 2025 年 8 月共同发起成立生命科学开放联盟，并正式宣布创办《Vita》，该联盟成员单位目前已扩大至 30 多家，近百位国内外顶尖科学家受邀加入其学术顾问委员会。 中国科学院院士施一公指出，中国科技文献占全球约 20%，但科技类杂志稀缺，创办高质量期刊对掌握学术话语权至关重要。 长期以来，国际期刊论文处理费持续上涨，已成为科研人员的沉重负担。数据显示，2024 年全球 OA 期刊篇均处理费首次突破 3000 美元。 中国作者 2024 年 OA 发文量超 31 万篇，支付费用高达 9.09 亿美元（约合人民币 64 亿元），有科研人员直言，高昂费用让青年科学家苦不堪言，甚至挤占项目实验经费。 中国科学院已明确自今年 3 月 1 日起，停止使用财政经费支付《自然-通讯》等高收费期刊的论文处理费。此举旨在优化学术论文发表管理，合理控制费用支出。 同时，国家密集出台举措推动自主期刊建设，科技部与国家自然科学基金委新规要求，项目形成的代表性论文发表在我国科技期刊上的比例需占 20% 以上。",
@@ -29,6 +77,18 @@
     },
     {
       "id": "news_1775278754649_e808e716",
+      "title": "丰田发布新款兰德酷路泽 250：强化防盗系统，意在摆脱“日本高失窃车型”之名",
+      "summary": "IT之家 4 月 4 日消息，当地时间 4 月 3 日，丰田在日本为兰德酷路泽 250 带来了小幅升级。整体变化不大，重点强化了安全和防盗配置。据悉，目前仅汽油版率先更新，柴油版需等到 12 月之后。 新车外观基本没有调整，依旧保持方正硬派风格。",
+      "content": "IT之家 4 月 4 日消息，当地时间 4 月 3 日，丰田在日本为兰德酷路泽 250 带来了小幅升级。整体变化不大，重点强化了安全和防盗配置。据悉，目前仅汽油版率先更新，柴油版需等到 12 月之后。 新车外观基本没有调整，依旧保持方正硬派风格。配色新增中性黑，取代旧款黑色，同时加入取消白色车顶的沙漠色车漆，并保留“铂金白珍珠云母”和“前卫青铜金属”等配色选项。原本仅限首发版的双光束圆形 LED 大灯，现可在 VX 车型上选装。相比标配的三段式矩形 LED 灯组，这一设计更具复古气质。 新车座舱升级集中在配置层面。VX 车型新增高级版辅助驾驶系统，带来拥堵辅助、驾驶员监测摄像头、前方横向来车预警、变道辅助以及紧急转向辅助等功能。舒适性方面也有所提升，主驾驶座椅支持 8 向电动调节及记忆功能，副驾驶为 4 向电动调节。 考虑到兰德酷路泽在日本长期位列高失窃车型，丰田此次进一步强化了防盗系统，支持基于钥匙距离的解锁与启动限制、远程禁用发动机启动等功能。 动力系统保持不变，继续搭载 2.7 升自然吸气四缸发动机，最大功率 160hp，峰值扭矩 246Nm，匹配 6 速自动变速箱和全时四驱系统。 价格方面，兰德酷路泽 250 VX 汽油四驱七座版在日本起售价为 577.94 万日元（IT之家注：现汇率约合 25 万元人民币），较此前上调 329400 日元（现汇率约合 14222 元人民币）。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/a593b6ca-ec66-412d-9bec-278dc1d1031d.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-04T04:34:57.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/935/964.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775282848735_e808e716",
       "title": "丰田发布新款兰德酷路泽 250：强化防盗系统，意在摆脱“日本高失窃车型”之名",
       "summary": "IT之家 4 月 4 日消息，当地时间 4 月 3 日，丰田在日本为兰德酷路泽 250 带来了小幅升级。整体变化不大，重点强化了安全和防盗配置。据悉，目前仅汽油版率先更新，柴油版需等到 12 月之后。 新车外观基本没有调整，依旧保持方正硬派风格。",
       "content": "IT之家 4 月 4 日消息，当地时间 4 月 3 日，丰田在日本为兰德酷路泽 250 带来了小幅升级。整体变化不大，重点强化了安全和防盗配置。据悉，目前仅汽油版率先更新，柴油版需等到 12 月之后。 新车外观基本没有调整，依旧保持方正硬派风格。配色新增中性黑，取代旧款黑色，同时加入取消白色车顶的沙漠色车漆，并保留“铂金白珍珠云母”和“前卫青铜金属”等配色选项。原本仅限首发版的双光束圆形 LED 大灯，现可在 VX 车型上选装。相比标配的三段式矩形 LED 灯组，这一设计更具复古气质。 新车座舱升级集中在配置层面。VX 车型新增高级版辅助驾驶系统，带来拥堵辅助、驾驶员监测摄像头、前方横向来车预警、变道辅助以及紧急转向辅助等功能。舒适性方面也有所提升，主驾驶座椅支持 8 向电动调节及记忆功能，副驾驶为 4 向电动调节。 考虑到兰德酷路泽在日本长期位列高失窃车型，丰田此次进一步强化了防盗系统，支持基于钥匙距离的解锁与启动限制、远程禁用发动机启动等功能。 动力系统保持不变，继续搭载 2.7 升自然吸气四缸发动机，最大功率 160hp，峰值扭矩 246Nm，匹配 6 速自动变速箱和全时四驱系统。 价格方面，兰德酷路泽 250 VX 汽油四驱七座版在日本起售价为 577.94 万日元（IT之家注：现汇率约合 25 万元人民币），较此前上调 329400 日元（现汇率约合 14222 元人民币）。",
@@ -172,28 +232,28 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775278740257_9d4030a1",
-      "title": "跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、 一半GPU用量，推出三款王炸低价模型",
-      "summary": "跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、 一半GPU用量，推出三款王炸低价模型",
-      "content": "跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、 一半GPU用量，推出三款王炸低价模型",
+      "id": "news_1775282827118_60c44ad9",
+      "title": "在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才培训？",
+      "summary": "在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才培训？",
+      "content": "在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才培训？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-03T18:00:00.000Z",
+      "publishedAt": "2026-04-03T16:58:07.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/zUMeCNaChlTHDoa7pFVX?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/b6XkgAcvz9hjrpmX6OGr?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775278745999_a226cb3d",
-      "title": "PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信息被窃取",
-      "summary": "PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信息被窃取",
-      "content": "PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信息被窃取",
+      "id": "news_1775282829048_6a255de0",
+      "title": "AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来",
+      "summary": "AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来",
+      "content": "AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-03T15:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/YqWdW6lF74rlqXkJ5AMJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-04-03T16:34:12.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/Z18OTUTFlmqbQb5Ia4Fp?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775245745277_dc3e20ea",
@@ -244,6 +304,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1775282841952_a5e855e4",
+      "title": "前网易副总裁下场，要做“Agent 时代的iPhone”",
+      "summary": "前网易副总裁下场，要做“Agent 时代的iPhone”",
+      "content": "前网易副总裁下场，要做“Agent 时代的iPhone”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-03T11:32:43.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/jURmq5J0lm5Py5bkJbZ4?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1775216705463_4af863b1",
       "title": "广州 4 个智算项目开工新增 4 万 P，全国首个词元级算力调度平台同步上线",
       "summary": "IT之家 4 月 3 日消息，据南方 +，广州市算力新基建开工暨算力供需会在中国移动粤港澳（广州）数据中心举行。 会上，4 个获批算力项目集体开工建设，建成后将新增智算规模 4 万 P，实现广州单体万卡万 P 智算中心建设零的突破。",
@@ -290,18 +362,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7940661.html",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775278750625_d914c9ea",
-      "title": "微软推出 Azure Copilot Migration Agent，加速云迁移规划",
-      "summary": "微软推出 Azure Copilot Migration Agent，加速云迁移规划",
-      "content": "微软推出 Azure Copilot Migration Agent，加速云迁移规划",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-03T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/ZQsEz5TXqUWGcbk2FWDL?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775213672819_0e3e0a20",
@@ -688,7 +748,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775278714691_0",
+      "id": "news_1775282798238_0",
       "title": "Teens Don‘t Worry About AI. Should They?",
       "summary": "...ICE STORM WARNING REMAINS IN EFFECT FROM 4 PM THIS AFTERNOON TO 10 AM CDT SATURDAY... * WHAT...Significant icing expected. Total snow and sleet acc...",
       "content": "...ICE STORM WARNING REMAINS IN EFFECT FROM 4 PM THIS AFTERNOON TO 10 AM CDT SATURDAY... * WHAT...Significant icing expected. Total snow and sleet accumulations up to two inches and ice accumulations up to one half of an inch. * WHERE...Price, Ashlan... [877 chars]",
@@ -724,7 +784,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775278715139_1",
+      "id": "news_1775282798833_1",
       "title": "The AGI Awakening: AI’s accelerated evolution and the dawn of a new era",
       "summary": "Artificial intelligence (AI) has shifted from narrow task-based systems to reasoning, creative and self-improving intelligence at a double-exponential...",
       "content": "Artificial intelligence (AI) has shifted from narrow task-based systems to reasoning, creative and self-improving intelligence at a double-exponential pace, with models like GPT-4o and Claude 3.5 Sonnet nearing human-like cognition.\nGovernments and B... [5982 chars]",
@@ -736,7 +796,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1775278715341_2",
+      "id": "news_1775282798269_2",
       "title": "Microsoft aims to create large cutting-edge AI models by 2027",
       "summary": "Matt Day, Bloomberg\nMicrosoft Corp. aims to develop large, cutting-edge artificial intelligence models by next year, part of a push to build in-house ...",
       "content": "Matt Day, Bloomberg\nMicrosoft Corp. aims to develop large, cutting-edge artificial intelligence models by next year, part of a push to build in-house alternatives to the most powerful AI tools from OpenAI and Anthropic.\n“We must deliver the absolute ... [2594 chars]",
@@ -914,66 +974,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7939368.html",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775108754051_6cb5a7af",
-      "title": "耗时 9 个月，微软完成必应地图近年来最大规模数据升级",
-      "summary": "IT之家 4 月 2 日消息，微软于 3 月 31 日发布公告，已完成必应地图（Bing Maps）近年来最大规模的地址数据升级。本次升级从 2025 年 6 月开始，历时 9 个月，目前已全面接入 TomTom Orbis 地图数据。 本次升级核心，在于接入 TomTom Orbis 地图数据。",
-      "content": "IT之家 4 月 2 日消息，微软于 3 月 31 日发布公告，已完成必应地图（Bing Maps）近年来最大规模的地址数据升级。本次升级从 2025 年 6 月开始，历时 9 个月，目前已全面接入 TomTom Orbis 地图数据。 本次升级核心，在于接入 TomTom Orbis 地图数据。IT之家援引博文介绍，该地图基于 Overture 地图基金会的通用标准打造，巧妙融合了开源地图、传感器观测数据以及 TomTom 独家商业数据，从而打破了传统地图数据的孤岛效应。 微软在博文中表示，引入新数据后，必应地图实现了三项关键突破： 首先是覆盖率激增，全球新增海量地址坐标； 其次是定位精度大幅提升，地址坐标更贴近真实地理位置； 最后是数据鲜活度，新系统采用持续更新模式，能实时同步现实世界的道路变化。 在部署方面，微软为确保稳定性，采用分阶段部署策略，先在欧洲核心市场进行数据抽取与索引比对，只有当新数据在覆盖率和精度上全面超越旧版时，才最终推向全球。 用户目前可以通过必应地图网页版、必应搜索以及人工智能助手 Copilot 等多款微软产品体验新版地图。此外微软还优化企业级服务 Azure Maps，其 API 调用结果也更加精准。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/647df624-3fed-4828-957b-dee44f1f6e39.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-02T05:41:28.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/935/284.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775108723161_a762107f",
-      "title": "韩国交易所启动SIDECAR机制，暂停KOSDAQ程序化卖出",
-      "summary": "韩国交易所启动SIDECAR机制，暂停KOSDAQ程序化卖出",
-      "content": "36氪获悉，韩国交易所启动SIDECAR机制，暂停KOSDAQ程序化卖出。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-04-02T05:38:09.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/newsflashes/3749253767741954?f=rss",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775108754208_e0e8e0a5",
-      "title": "腾讯云就 WorkBuddy 龙虾登录异常致歉：已全部恢复，补偿 1000 Credits",
-      "summary": "IT之家 4 月 2 日消息，针对今日上午出现的 WorkBuddy 登录异常问题，腾讯云官方发布公告称，今天上午部分用户登录异常，目前已全部恢复，将为受影响用户补偿 1000 Credits。 我们于今日（2026 年 4 月 2 日）09:10 监测到部分国内用户出现登录异常的情况。",
-      "content": "IT之家 4 月 2 日消息，针对今日上午出现的 WorkBuddy 登录异常问题，腾讯云官方发布公告称，今天上午部分用户登录异常，目前已全部恢复，将为受影响用户补偿 1000 Credits。 我们于今日（2026 年 4 月 2 日）09:10 监测到部分国内用户出现登录异常的情况。团队在第一时间介入并紧急处理，相关问题已于 11:45 逐步修复，目前服务已全面恢复稳定。 对于此次故障给您的工作和计划带来的不便与困扰，我们深表歉意。 我们将向所有受影响的国内用户补偿 1000 Credits，该积分将在 2 个工作日内发放，请在 4 月 30 日 24 时前登录“用量管理”页面领取。 IT之家查询发现，部分网友晒图显示，腾讯云版龙虾 WorkBuddy 今日上午出现 504 服务错误，具体表现为无法登录、登录后闪退、加载失败等。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/15b1a4e6-4516-41ee-b82e-8159649123df.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-02T05:24:29.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/935/280.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775108728334_6654a9d5",
-      "title": "PC之后，联想能否靠“碳硅融合”再造一个自己？",
-      "summary": "2026年是AI价值规模化落地的元年，对于联想而言，这既是机遇，也是其能否真正从“硬件巨人”蜕变为“AI时代领航者”的关键一役。",
-      "content": "2026年是AI价值规模化落地的元年，对于联想而言，这既是机遇，也是其能否真正从“硬件巨人”蜕变为“AI时代领航者”的关键一役。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-02T05:11:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7939348.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775108754298_eaa4c49a",
-      "title": "不是愚人节玩笑：谷歌 20 美元 / 月 AI Pro 订阅存储空间从 2TB 猛增至 5TB",
-      "summary": "IT之家 4 月 2 日消息，北京时间今天（4 月 2 日）凌晨，谷歌对每月 20 美元（现汇率约合 137.7 元人民币）的 AI Pro 订阅进行了大幅升级，存储空间和功能层面都有所扩展。",
-      "content": "IT之家 4 月 2 日消息，北京时间今天（4 月 2 日）凌晨，谷歌对每月 20 美元（现汇率约合 137.7 元人民币）的 AI Pro 订阅进行了大幅升级，存储空间和功能层面都有所扩展。该订阅同时提供每年 200 美元（现汇率约合 1377 元人民币）的方案，包含 Gemini、Veo 和 Nano Banana 等 AI 服务。 最直观的变化是云存储从 2TB 提升至 5TB，且不额外收费。这部分空间不仅可用于 AI 功能，也适用于 Gmail、Google Drive 和 Google Photos 的数据存储。 在功能方面，Gemini 的能力进一步增强。用户可以从 Gmail 和互联网获取上下文信息，用于 Drive、Docs、Slides 和 Sheets 等办公套件，同时还能总结邮箱内容，并在发送前对邮件进行校对。 谷歌还加入了更多 AI 智能体功能，其中包括 Chrome 自动浏览。谷歌副总裁希姆里特 · 本-亚伊尔表示，这些功能可以处理规划旅行或填写表单等繁琐的多步骤任务。 此外，谷歌还将原本每月 10 美元（IT之家注：现汇率约合 68.9 元人民币）的 Home Premium 订阅整合进 AI Pro，无需额外付费。上述新存储和功能已向所有用户开放。本-亚伊尔表示，即便暂时尚未看到更新，也无需担心，“这绝对不是愚人节玩笑”。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/c67cb923-f6ac-4989-8630-3c47097f198e.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-02T05:05:15.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/935/276.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
