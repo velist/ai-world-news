@@ -1,8 +1,92 @@
 {
   "success": true,
-  "timestamp": "2026-04-05T23:43:49.894Z",
-  "total": 52,
+  "timestamp": "2026-04-06T03:32:35.784Z",
+  "total": 49,
   "data": [
+    {
+      "id": "news_1775446334507_5e0d3eb6",
+      "title": "有道龙虾 LobsterAI 的养成与实践｜QCon北京",
+      "summary": "有道龙虾 LobsterAI 的养成与实践｜QCon北京",
+      "content": "有道龙虾 LobsterAI 的养成与实践｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-06T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/yS2ckf9u8eUVflGIjdcF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775446318064_15e2116c",
+      "title": "中国AI大模型周调用量增31.48%，连续五周超美国",
+      "summary": "根据OpenRouter最新数据测算，上周（3月30日至4月5日）全球AI大模型总调用量为27万亿Token，环比增长18.9%。",
+      "content": "根据OpenRouter最新数据测算，上周（3月30日至4月5日）全球AI大模型总调用量为27万亿Token，环比增长18.9%。其中，上榜的AI大模型中，中国AI大模型的周调用量上升至12.96万亿Token，较此前一周上涨31.48%；美国AI大模型周调用量为3.03万亿Token，环比增长0.76%。中国AI大模型周调用量连续五周增长，且连续五周超越美国。（每日经济新闻）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-04-06T03:29:06.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3754746077921799?f=rss",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775446354658_b1e8580d",
+      "title": "阿耳忒弥斯二号任务将测试 NASA 激光通信系统，可传输 4K 视频、照片",
+      "summary": "IT之家 4 月 6 日消息，随着阿耳忒弥斯二号任务前往月球进行飞掠探测，猎户座乘员舱正在测试美国国家航空航天局（NASA）迄今为止最具雄心的太空通信升级项目之一：一套名为 O2O 的激光通信系统。",
+      "content": "IT之家 4 月 6 日消息，随着阿耳忒弥斯二号任务前往月球进行飞掠探测，猎户座乘员舱正在测试美国国家航空航天局（NASA）迄今为止最具雄心的太空通信升级项目之一：一套名为 O2O 的激光通信系统。 据IT之家了解，O2O 是“猎户座阿耳忒弥斯二号光通信系统（Orion Artemis II Optical Communications System）”的缩写，该系统凝聚了美国国家航空航天局与麻省理工学院林肯实验室二十余年的研究成果，旨在为深空探测搭建更优质的高带宽通信链路。该系统设计下行数据传输速率最高可达 260 兆比特每秒，远超早期任务所依赖的无线电通信链路。《Scientific American》采访了该系统的部分研发人员，揭秘其工作原理。 以光为媒 美国国家航空航天局太空通信与导航项目副项目经理格雷格 · 赫克勒表示：“自 NASA 成立以来，我们一直采用微波通信技术，通常使用吉赫兹频段的信号。”该项目为 O2O 系统提供了资金支持。事实上，猎户座载人舱仍将以这项传统技术作为核心通信系统，与 NASA 分布在全球的近地太空网络以及深空网络巨型无线电天线建立连接。 NASA 在过去二十年持续研发光通信系统。这类系统利用激光发射的红外光脉冲而非微波来编码数据，相比传统通信系统，不仅能传输海量信息，所需设备也更小巧轻便。 早在十余年前，O2O 的核心设计组件就已通过一系列验证试验得到证实。2013 年的月球激光通信演示实验创下了月球至地球的下载速度纪录；而近期的任务，例如搭载在近地轨道立方星上的万亿字节红外传输系统，以及部署在“灵神星”探测器上的深空光通信实验，更是将激光通信的速率与传输距离推向新高度。一台与猎户座搭载设备几乎一致的光通信终端，已在国际空间站稳定运行两年多。赫克勒称：“每一次试验，我们都刷新了数据传输速率纪录，而 O2O 将成为这一系列验证项目的收官之作。” O2O 设备体积与家猫相仿，预计对地下行速率可达 260 兆比特每秒，上行至猎户座的速率为 20 兆比特每秒。赫克勒打趣道：“这样的网速放在家用宽带里，也足够让人满意了。”上下行速率不对等，是因为猎户座上的光接收器尺寸更小。 在双向视频通话场景下，信号往返延迟约为一秒。赫克勒表示：“这种延迟能被感知，但并不会构成通信障碍。”随着阿耳忒弥斯计划逐步实现人类在月球及月球轨道的长期驻留，实时双向通话能力将至关重要。他还说：“试想一下，对于身处压力环境的月球宇航员而言，能与家人视频通话有着怎样的意义。” 更高效的信息传输通道，还能让地球科学家实时获取飞行记录仪中的关键任务数据，无需等待猎户座返航着陆后再回收。未来，持续的双向通信还能支持科学家远程操控月球车，监测月球关键基础设施的运行状态。 瞄准、锁定、发射 研发 O2O 终端的麻省理工学院林肯实验室光与量子通信组负责人布莱恩 · 罗宾逊介绍，O2O 模块所用的激光并无特别之处：“我们大量采用了光纤通信行业通用的激光与发射设备。”该设备为半导体激光，工作在电信领域常用的不可见红外波段，铒掺杂光纤放大器可将激光孔径发射功率提升至 1 瓦。 猎户座发射的激光束抵达约 38.44 万公里外的地球时，光斑直径可达 6 公里。罗宾逊解释：“激光笔的孔径只有几毫米，在数米距离内，投射在屏幕上只是一个小点。但若是在太空中传播 40 万公里，光斑会远比刚才说的大得多。” 从月球视角来看，直径 6 公里的目标极为微小。罗宾逊表示：“本次任务最大的技术难题，是实现激光的精准指向。”O2O 模块将数据传输至新墨西哥州和加利福尼亚州的地面站，当地干燥的空气与稀少的云层有利于保障通信链路稳定。“想要建立通信，指向精度必须达到千分之一度。” 要精准命中目标，需要精准掌握猎户座飞船的位置与姿态，这在太空中难度极大。猎户座搭载的星敏感器可识别飞船朝向，但星敏感器与通信终端之间的偏差，只有进入太空后才能完整测量并校正。罗宾逊说：“我们会仔细测算与星敏感器的校准偏差，可即便只是星敏感器和飞船上 O2O 终端的距离差异，温度等因素也会产生形变，影响指向精度。” O2O 系统通过一台安装在双轴万向支架上的 10 厘米望远镜实现激光指向，该支架可在半球范围内灵活转动捕捉目标。后端光学组件，包括聚光透镜、追踪传感器、快速转向镜等，会对激光束进行精细微调。罗宾逊表示：“只要飞船将我们对准目标半球，就能正常工作。”但仍存在不确定因素，比如猎户座的太阳能板或船体可能遮挡信号，飞船能否保持稳定姿态也未可知。“首次尝试指向时，我们一定会发现只有在太空航行中才能察觉的飞船特性问题。” 当猎户座飞至月球背面时，所有通信系统会出现短暂中断。不过在后续阿耳忒弥斯任务中，中继卫星将弥补月球背面的通信盲区。 而对于公众而言，O2O 最直观的价值，是通过猎户座 28 台摄像头传回更清晰的画面。该系统可同步传输 4K 视频、照片、科研数据与语音通信。赫克勒说：“摄像头记录的就是任务本身，我们希望用 4K 高清影像回馈美国民众。”",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/5a1df4c4-9b5f-4cb7-8bb3-829ae2c26c29.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-06T03:04:50.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/936/210.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775446354762_9b1eb685",
+      "title": "银河系边缘发现数十条暗淡恒星带，为破解暗物质分布提供新线索",
+      "summary": "IT之家 4 月 6 日消息，天文学家借助欧洲空间局盖亚卫星任务的数据，在银河系外围发现了数十条暗淡的恒星带状结构。 研究人员表示，此次发现依托一款全新算法，让这类被称作“恒星流（stellar stream）”的已知候选天体数量增至原先的四倍以上。",
+      "content": "IT之家 4 月 6 日消息，天文学家借助欧洲空间局盖亚卫星任务的数据，在银河系外围发现了数十条暗淡的恒星带状结构。 研究人员表示，此次发现依托一款全新算法，让这类被称作“恒星流（stellar stream）”的已知候选天体数量增至原先的四倍以上。这一发现有望为探究银河系的演化历程及其暗物质分布情况提供全新线索。 据IT之家了解，恒星流是呈弧形延展的恒星条带，形成于致密星团穿越银河系引力场的过程中，星团不断抛射恒星，这些恒星被引力拉伸形成狭长的尾随带状结构。 密歇根大学理论天体物理学家、该研究合著者奥列格 · 格涅丁在一份声明中比喻道：“这就好比骑着自行车驮着一袋沙子，只不过袋子破了洞。沙粒就如同星团运行轨迹上被遗落的恒星。” 探寻恒星流极具价值，因为这类天体的形态与运动轨迹，保留了长期以来作用于其上的引力作用记录。这让它们成为测绘银河系质量的有力工具，而质量测算范围还将包含难以捉摸的暗物质晕 —— 暗物质被视作维系星系形态的无形“黏合剂”，尽管人类已付出数十年努力，却仍未直接观测到它。 这项由密歇根大学 Yingtian “Bill” Chen 主导的新研究，识别出 87 条与球状星团相关的恒星流候选体。球状星团是环绕银河系运行的致密古老恒星集群。在此之前，人类仅偶然在盖亚卫星数据中发现不足 20 条恒星流，过小的样本量让天文学家无法得出普遍性结论。 目前已知的恒星流大多源自已被大幅撕裂的矮星系或星团。而此次新发现的、来自仍完整存在的球状星团的恒星流则更为罕见，且研究价值极高，因为天文学家可将恒星流与其母体星团直接对比分析。 研究显示，为找到这些恒星流，Yingtian “Bill” Chen 研发了一款名为“星流（StarStream）”的计算机算法，该算法依托物理模型搜寻恒星流，而非仅依靠视觉特征。研究团队随后将该方法应用于盖亚卫星数据，该卫星在 2014 至 2025 年间，测绘了银河系内数十亿颗恒星的位置与运动轨迹。 格涅丁在声明中称：“事实证明，当你对寻找的目标有理论预判、有简单的现象模型时，搜寻工作会容易得多。” 研究结果还显示，许多恒星流并不符合经典理论中纤细、排列规整的形态。相反，部分新发现的恒星流更短、更宽，甚至与母体星团的运行轨道错位 —— 这表明此前的研究仅聚焦最明显的结构，因而遗漏了这些天体。 研究还指出，扩大后的样本证实，部分弥散的球状星团抛射恒星的速度异常之快，这意味着它们或许即将被潮汐力完全瓦解。 不过研究人员表示，并非全部 87 个候选体都能得到证实，部分探测结果因无关恒星的背景干扰，可信度较低。 Yingtian “Bill” Chen 在声明中称，该研究成果及所用算法，可通过下一代观测设备的后续观测进行验证，其中包括薇拉 ·C· 鲁宾天文台、美国国家航空航天局的南希 · 格雷斯 · 罗曼空间望远镜以及暗能量光谱仪，以此确认哪些恒星流真实存在。他表示：“这款算法能轻松适配未来的探测任务，一旦获取新数据，就能直接应用。” 该研究相关论文已于 3 月 23 日发表在《天体物理学杂志》上。 参考资料： https://iopscience.iop.org/article/10.3847/1538-4365/ae471f",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/49c92aa9-8621-4c81-bdae-402a4b7d44e5.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-06T02:38:55.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/936/209.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775446323501_3e9bf1cf",
+      "title": "OpenAI IPO前夜：CFO说不，COO被调走",
+      "summary": "OpenAI IPO前夜：CFO说不，COO被调走",
+      "content": "财务路线的内部撕裂与高管团队的集中缺位交织在一起。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-06T01:42:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7942711.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775446326800_b271852b",
+      "title": "满地小板凳",
+      "summary": "在 AI 把创作和开发门槛不断拉低的当下，越来越多三十出头的上班族，开始在深夜一遍遍做那些暂时无用、却真实属于自己的“小板凳”。",
+      "content": "在 AI 把创作和开发门槛不断拉低的当下，越来越多三十出头的上班族，开始在深夜一遍遍做那些暂时无用、却真实属于自己的“小板凳”。它未必立刻变现，却会留下手感、能力，以及把自己一点点捡回来的力量",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-06T00:53:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7942361.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775446329866_96ad1d38",
+      "title": "智能体上线就翻车？AWS 这款 “质检神器”，帮你把 Agent 稳稳送上生产线",
+      "summary": "你的AI Agent演示时惊艳四座，上线后疯狂翻车？问题不在于Agent不行，而在于你没有\"体检报告\"。",
+      "content": "你的AI Agent演示时惊艳四座，上线后疯狂翻车？问题不在于Agent不行，而在于你没有\"体检报告\"。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-06T00:19:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/7940504.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1775432628563_f56ab6db",
       "title": "薇拉 ·C· 鲁宾天文台初显神威，早期数据已发现逾 1.1 万颗未知小行星",
@@ -16,19 +100,19 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775403714834_6da7dd1c",
-      "title": "我国首台国产海上平台燃气轮机，中国航发“太行 7”进军国际高端市场",
-      "summary": "IT之家 4 月 5 日消息，3 月 31 日，中国航发燃气轮机有限公司与瀚辰精英海洋工程（江苏）有限公司于江苏南通正式签署协议，瀚辰精英向中国航发燃机采购 5 台“太行 7”燃气轮机作为核心动力设备。",
-      "content": "IT之家 4 月 5 日消息，3 月 31 日，中国航发燃气轮机有限公司与瀚辰精英海洋工程（江苏）有限公司于江苏南通正式签署协议，瀚辰精英向中国航发燃机采购 5 台“太行 7”燃气轮机作为核心动力设备。 据介绍，该设备应用于马来西亚国家石油公司 Sepat 综合再开发项目的浮式生产储卸油装置（FPSO）。这标志着国产燃气轮机首次进军高端 FPSO 市场，实现海洋能源极端工况应用新突破。 “太行 7”燃气轮机专为海洋高盐雾、高湿度、高腐蚀工况适配打造，在可靠性、稳定性及连续运行能力上表现优异，可满足 FPSO 对动力系统的严苛要求，契合国际顶级能源项目标准。 瀚辰精英集团是海洋能源领域工程设计、采购、施工、调试及运营一体化（EPCIC）头部服务商，业务覆盖东南亚多国及我国重点城市。 IT之家注意到，中国航发燃气轮机“太行 7”于 2023 年 10 月正式投用，这是我国首台具有完全自主知识产权，正式在海上油气平台上投用的燃气轮机。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/a2a998c7-6cec-48ba-b9bf-93e3605407df.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-05T15:04:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/936/174.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1775446336429_f30702da",
+      "title": "Helidon 引入 Agent 能力，Java 框架开始内建 AI 编排",
+      "summary": "Helidon 引入 Agent 能力，Java 框架开始内建 AI 编排",
+      "content": "Helidon 引入 Agent 能力，Java 框架开始内建 AI 编排",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-05T21:49:47.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/TQ4A6w3oROqdUJRmfMLX?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775432628891_6da7dd1c",
+      "id": "news_1775403714834_6da7dd1c",
       "title": "我国首台国产海上平台燃气轮机，中国航发“太行 7”进军国际高端市场",
       "summary": "IT之家 4 月 5 日消息，3 月 31 日，中国航发燃气轮机有限公司与瀚辰精英海洋工程（江苏）有限公司于江苏南通正式签署协议，瀚辰精英向中国航发燃机采购 5 台“太行 7”燃气轮机作为核心动力设备。",
       "content": "IT之家 4 月 5 日消息，3 月 31 日，中国航发燃气轮机有限公司与瀚辰精英海洋工程（江苏）有限公司于江苏南通正式签署协议，瀚辰精英向中国航发燃机采购 5 台“太行 7”燃气轮机作为核心动力设备。 据介绍，该设备应用于马来西亚国家石油公司 Sepat 综合再开发项目的浮式生产储卸油装置（FPSO）。这标志着国产燃气轮机首次进军高端 FPSO 市场，实现海洋能源极端工况应用新突破。 “太行 7”燃气轮机专为海洋高盐雾、高湿度、高腐蚀工况适配打造，在可靠性、稳定性及连续运行能力上表现优异，可满足 FPSO 对动力系统的严苛要求，契合国际顶级能源项目标准。 瀚辰精英集团是海洋能源领域工程设计、采购、施工、调试及运营一体化（EPCIC）头部服务商，业务覆盖东南亚多国及我国重点城市。 IT之家注意到，中国航发燃气轮机“太行 7”于 2023 年 10 月正式投用，这是我国首台具有完全自主知识产权，正式在海上油气平台上投用的燃气轮机。",
@@ -64,6 +148,30 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1775446338091_79e8e5b5",
+      "title": "Pinterest 部署生产级模型上下文协议生态系统，赋能 AI 智能体工作流",
+      "summary": "Pinterest 部署生产级模型上下文协议生态系统，赋能 AI 智能体工作流",
+      "content": "Pinterest 部署生产级模型上下文协议生态系统，赋能 AI 智能体工作流",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-05T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/04DleCzUztGhKgo26Mmk?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775446339910_5fef3f39",
+      "title": "Evomap如何让Agent从单体智能到群体进化｜QCon北京",
+      "summary": "Evomap如何让Agent从单体智能到群体进化｜QCon北京",
+      "content": "Evomap如何让Agent从单体智能到群体进化｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-05T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/sDj8K6IhNzNQgMKhOGKr?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1775379358802_14207460",
       "title": "新型 AI 模型可通过血检识别多种神经退行性疾病，包括阿尔茨海默病等",
       "summary": "IT之家 4 月 5 日消息，据新华社今日报道，瑞典隆德大学日前宣布，该校参与研发出一种新型人工智能（AI）模型，可通过单次血液检测辅助识别多种神经退行性疾病，为相关疾病早期筛查和辅助诊断提供新思路。",
@@ -88,7 +196,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775432588795_0",
+      "id": "news_1775446309658_0",
       "title": "Data centers delayed by infrastructure",
       "summary": "In the red dirt of Abilene, Texas, more than 6,000 workers travel around on electric buggies, spending day and night constructing a massive data cente...",
       "content": "In the red dirt of Abilene, Texas, more than 6,000 workers travel around on electric buggies, spending day and night constructing a massive data center that will feed the world's growing artificial intelligence needs. When completed this year, the ei... [8123 chars]",
@@ -208,18 +316,6 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775432614309_4bae830e",
-      "title": "智能体 AI 模式强化软件工程规范性",
-      "summary": "智能体 AI 模式强化软件工程规范性",
-      "content": "智能体 AI 模式强化软件工程规范性",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-04T14:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/UdLhY0p8iDDIbtLtfV35?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1775302596287_436b8739",
       "title": "Anthropic成立PAC：厨子不看菜谱看上兵法了",
       "summary": "Anthropic成立PAC：厨子不看菜谱看上兵法了",
@@ -242,18 +338,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/936/024.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775432616319_b771e08c",
-      "title": "从 ChatBI 到 DataAgent：企业级智能数据分析平台的技术演进和实践｜QCon北京",
-      "summary": "从 ChatBI 到 DataAgent：企业级智能数据分析平台的技术演进和实践｜QCon北京",
-      "content": "从 ChatBI 到 DataAgent：企业级智能数据分析平台的技术演进和实践｜QCon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-04T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/JPqgmdcQJRRWprIqQo7X?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775299388738_6f95a527",
@@ -472,115 +556,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775278754954_b3dc87f6",
-      "title": "不只是出错，研究称 AI 智能体开始学会“撒谎”“不听话”",
-      "summary": "IT之家 4 月 4 日消息，AI 智能体被寄望于提升效率，但最新研究显示，其不当行为正在迅速增加。 英国《卫报》当地时间 3 月 27 日发表的报告指出，从 2025 年 10 月至 2026 年 3 月，AI 异常行为数量增长约五倍，这其中更包括未经许可删除邮件和文件等情况。",
-      "content": "IT之家 4 月 4 日消息，AI 智能体被寄望于提升效率，但最新研究显示，其不当行为正在迅速增加。 英国《卫报》当地时间 3 月 27 日发表的报告指出，从 2025 年 10 月至 2026 年 3 月，AI 异常行为数量增长约五倍，这其中更包括未经许可删除邮件和文件等情况。研究基于大量真实用户在社交平台上的反馈，涵盖谷歌、OpenAI、Anthropic 等公司的产品，期间共识别出近 700 起 AI“自主策划”的案例。 部分案例颇具争议。例如，有 AI 智能体发布博客指责用户“缺乏安全感”，试图对操作者施加压力；还有智能体在被禁止修改代码的情况下，通过创建另一个智能体间接完成修改。 研究负责人汤米 · 谢弗 · 谢恩指出，目前 AI 智能体还只是“略显不可靠的初级员工”，但在一年内可能演变为“能力极强、甚至会反过来设计用户的高级员工”。他警告，随着 AI 进入军事和关键基础设施领域，这类行为可能带来严重后果。 与此同时，在美国等地区，用户可能需要为 AI 智能体的行为承担法律责任，从而导致风险进一步放大。目前，已有实际案例表明问题并非假设：据 The Information 报道，Meta 的一款 AI 智能体曾错误地公开内部回复，导致不具备权限的员工获取了访问数据权限。 尽管问题频现，科技公司仍在积极推进 AI 智能体的发展。据IT之家了解，亚马逊等多家企业预计，未来每家公司内部都可能部署数十亿个 AI 智能体。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/f0488f67-7845-41a4-b81e-3b68f5102bd5.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-04T02:58:46.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/935/950.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775271077217_545b1c8f",
-      "title": "Meta超智能实验室或正在组建硬件团队",
-      "summary": "Meta超智能实验室或正在组建硬件团队",
-      "content": "Meta超智能实验室或正在组建硬件团队。（财联社）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-04-04T02:23:15.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3751810910520064?f=rss",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775271107739_e12595c7",
-      "title": "NASA 宇航员执行载人绕月任务突遇微软 Outlook 故障，地面团队接管 Surface 后修复",
-      "summary": "IT之家 4 月 4 日消息，据外媒 The Verge 报道，当地时间周四，在阿耳忒弥斯二号飞往月球的过程中，指令长里德 · 怀斯曼遇到了一件颇为“接地气”的问题：Outlook 无法使用。在 NASA 直播中，怀斯曼向地面报告：“我这边有两个 Microsoft Outlook，但都打不开。",
-      "content": "IT之家 4 月 4 日消息，据外媒 The Verge 报道，当地时间周四，在阿耳忒弥斯二号飞往月球的过程中，指令长里德 · 怀斯曼遇到了一件颇为“接地气”的问题：Outlook 无法使用。在 NASA 直播中，怀斯曼向地面报告：“我这边有两个 Microsoft Outlook，但都打不开。” 为了解决问题，地面控制团队远程接管了怀斯曼使用的 Microsoft Surface Pro。在新闻发布会上，飞行指挥贾德 · 弗里林解释称，这类情况并不罕见，尤其是在没有稳定直连网络的环境下，Outlook 容易出现配置问题。团队通过重新加载相关文件，恢复了系统正常运行。 在通信方面，NASA 通过近地空间网络和深空网络与飞船保持联系，并依靠全球天线和轨道卫星进行切换。随着飞船远离地球，位于休斯敦约翰逊航天中心的控制中心需要在不同通信系统之间动态切换。 据IT之家了解，机组携带的不仅有 Microsoft Surface Pro，还包括尼康 D5 单反相机、ZCube 编码器以及 GoPro 相机，用于拍摄迪士尼和国家地理的纪录片。同时，机组成员还可以携带个人手机，直播画面中可以看到这些设备被收纳在航天服口袋内。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/1bfd7e0f-b3ee-4720-8b01-f3d5dc64d7ed.jpg?x-bce-process=image/format,f_webp/quality,q_75",
-      "source": "IT之家",
-      "publishedAt": "2026-04-04T01:47:56.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/935/941.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775271107883_2f63bac6",
-      "title": "抗辐射能力超航天设备 1000 倍，日本研发耐核反应堆 Wi-Fi 接收器",
-      "summary": "IT之家 4 月 4 日消息，科技媒体 Tom's Hardware 昨日（4 月 3 日）发布博文，报道称在 IEEE 国际固态电路会议上，东京科学研究所展示可耐受核反应堆强辐射环境的 Wi-Fi 芯片。",
-      "content": "IT之家 4 月 4 日消息，科技媒体 Tom's Hardware 昨日（4 月 3 日）发布博文，报道称在 IEEE 国际固态电路会议上，东京科学研究所展示可耐受核反应堆强辐射环境的 Wi-Fi 芯片。 核反应堆环境对电子设备的要求极为严苛，该设备可承受 50 万戈瑞辐射剂量，是航天电子设备耐受力的 1000 倍以上，主要为核反应堆退役机器人提供可靠的无线通信方案。 戈瑞（Gray）是指国际单位制中电离辐射吸收剂量的标准单位，用于衡量单位质量物质吸收辐射能量的大小，1 戈瑞等于 1 千克物质吸收 1 焦耳的辐射能量。 IT之家援引博文介绍，该芯片的设计初衷主要针对福岛第一核电站事故后的清理工作，让机器人能在高污染区域长时间执行任务。 在核辐射环境下，传统硅基半导体极易受到干扰，导致机器人必须依赖物理线缆进行控制，而线缆又容易缠绕，严重影响了清理效率与操作安全性。 东京科学研究所团队因此决定开发可耐受核反应堆强辐射环境的 Wi-Fi 芯片。在研发过程中，团队遇到了诸多挑战，首先是简单的物理屏蔽无法解决这一问题，铅屏蔽虽然能阻挡放射性辐射，但也会阻断无线信号传输。 由于天线本身也会受到辐射干扰，因此外接天线方案同样不可行。最终研发团队决定从芯片架构入手，打造能够直接承受核反应堆核心辐射环境的 Wi-Fi 接收器。 以上图源：东京科学研究所 研究团队从晶体管层面进行了抗辐射加固设计。他们增加硅 MOSFET 晶体管的栅极长度和宽度，减少使用辐射敏感的 PMOS 晶体管，用无氧化层的电感器替代部分元件。这些改进有效缓解了伽马射线在氧化层中捕获电荷导致的性能退化问题。 测试数据显示，该接收器在辐射前性能与普通 Wi-Fi 接收器相当。经受 500 千戈瑞总辐射剂量后，设备增益仅下降约 1.5 分贝（decibel）。 团队目前为实现双向通信，正致力于开发耐辐射发射器。早期试验版本在 300 千戈瑞辐射下损坏，团队正探索使用金刚石等半导体材料提升发射器耐辐射性能。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/85766d44-f203-4a93-89e9-589f3ec71a35.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-04T01:46:06.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/935/940.htm",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775271083575_3df29fd4",
-      "title": "聊聊MiniMax和智谱财报：谁先跑通盈利模型？",
-      "summary": "聊聊MiniMax和智谱财报：谁先跑通盈利模型？",
-      "content": "聊聊MiniMax和智谱财报：谁先跑通盈利模型？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-04T00:45:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7941412.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775271084976_a1b032c4",
-      "title": "57k Star霸榜GitHub！字节这款超级智能体，凭何让全球AI圈真香？",
-      "summary": "57k Star霸榜GitHub！字节这款超级智能体，凭何让全球AI圈真香？",
-      "content": "DeerFlow 不只是一个研究工具。它更像一个 harness。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-04T00:30:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7939926.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775271086380_e5db5b22",
-      "title": "人形机器人卖出8亿，优必选还没走到赚钱那一步",
-      "summary": "人形机器人卖出8亿，优必选还没走到赚钱那一步",
-      "content": "已证明人形机器人能卖出去，但还没证明这门生意能稳定赚钱。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-04T00:23:03.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7941464.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775432589578_1",
-      "title": "Framework would protect news organizations from Artificial Intelligence",
-      "summary": "Expect hunger to rise as new SNAP rules take effect Observations on the changes at the Enterprise Constructing collaboration Early-season paddlers Big...",
-      "content": "A musician spends years learning and honing his craft, investing in equipment and practice space, hiring musicians, living on a friend’s couch and taking odd jobs to pay for travel to venues. It’s not just an investment in time and money. It’s an inv... [6046 chars]",
-      "imageUrl": "https://d14e0irai0gcaa.cloudfront.net/www.adirondackdailyenterprise.com/images/2017/04/17105339/Untitled-2.jpg",
-      "source": "Adirondack Daily Enterprise",
-      "publishedAt": "2026-04-04T00:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.adirondackdailyenterprise.com/opinion/editorials/2026/04/framework-would-protect-news-organizations-from-artificial-intelligence/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1775432588833_2",
-      "title": "Annie Altman Files Amended Lawsuit Against Brother Sam Altman In Federal Court As Filing Revives Explosive Abuse Allegations",
-      "summary": "CASE AT A GLANCE\nA dismissed lawsuit involving one of the most powerful figures in artificial intelligence has unexpectedly been revived through a nar...",
-      "content": "CASE AT A GLANCE\nA dismissed lawsuit involving one of the most powerful figures in artificial intelligence has unexpectedly been revived through a narrow legal pathway.\nThe case now pivots on procedural law rather than factual determinations, raising... [5919 chars]",
-      "imageUrl": "https://usaherald.com/wp-content/uploads/2017/09/usa_favicon32.png",
-      "source": "USA Herald",
-      "publishedAt": "2026-04-03T23:57:55.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://usaherald.com/annie-altman-files-amended-lawsuit-against-brother-sam-altman-in-federal-court-as-filing-revives-explosive-abuse-allegations/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1775432618135_9d4030a1",
+      "id": "news_1775446345012_9d4030a1",
       "title": "跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、 一半GPU用量，推出三款王炸低价模型",
       "summary": "跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、 一半GPU用量，推出三款王炸低价模型",
       "content": "跟OpenAI撕破脸、微软喊话要“完全独立”！靠不到10人、 一半GPU用量，推出三款王炸低价模型",
@@ -592,7 +568,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775432619902_60c44ad9",
+      "id": "news_1775446346640_60c44ad9",
       "title": "在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才培训？",
       "summary": "在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才培训？",
       "content": "在金融强国的背景下，金融企业如何分层分级有序开展 AI 人才培训？",
@@ -604,7 +580,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775432622135_6a255de0",
+      "id": "news_1775446348471_6a255de0",
       "title": "AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来",
       "summary": "AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来",
       "content": "AMD 锐龙 AI 智能体创新应用大赛邀你定义 AI 新未来",
@@ -614,18 +590,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/Z18OTUTFlmqbQb5Ia4Fp?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775432624276_a226cb3d",
-      "title": "PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信息被窃取",
-      "summary": "PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信息被窃取",
-      "content": "PyPI 供应链攻击导致 LiteLLM 遭入侵，致使敏感信息被窃取",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-03T15:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/YqWdW6lF74rlqXkJ5AMJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
