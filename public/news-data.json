@@ -1,19 +1,115 @@
 {
   "success": true,
-  "timestamp": "2026-04-07T09:15:42.934Z",
-  "total": 33,
+  "timestamp": "2026-04-07T11:07:47.969Z",
+  "total": 43,
   "data": [
     {
-      "id": "news_1775553332813_349e5879",
-      "title": "Cursor 3 发布：IDE 不重要了，智能体控制台上位，VS Code 这一套开始失效",
-      "summary": "Cursor 3 发布：IDE 不重要了，智能体控制台上位，VS Code 这一套开始失效",
-      "content": "Cursor 3 发布：IDE 不重要了，智能体控制台上位，VS Code 这一套开始失效",
+      "id": "news_1775560054039_20a5553a",
+      "title": "Teleport的报告发现，过度授权的AI系统与安全事件增长密切相关",
+      "summary": "Teleport的报告发现，过度授权的AI系统与安全事件增长密切相关",
+      "content": "Teleport的报告发现，过度授权的AI系统与安全事件增长密切相关",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-07T11:41:00.000Z",
+      "publishedAt": "2026-04-07T15:00:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/t2evtKXuwXOUo9woSQyX?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/iVJbFCtkDxMSgw9KoRV0?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775560055690_7556bac0",
+      "title": "从上下文到经验资产：OpenClaw 热潮下的 Agent 记忆系统工程实践｜QCon北京",
+      "summary": "从上下文到经验资产：OpenClaw 热潮下的 Agent 记忆系统工程实践｜QCon北京",
+      "content": "从上下文到经验资产：OpenClaw 热潮下的 Agent 记忆系统工程实践｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-07T14:03:40.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/IQfviaUpKcyUVudfrzip?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775560066386_9d9289b2",
+      "title": "谷歌改进 Gemini 助手危机响应机制，可帮助用户一键拨打求助热线",
+      "summary": "IT之家 4 月 7 日消息，据科技媒体 9To5Google 今天报道，谷歌今天对 Gemini 进行一系列改进，更好应对用户提出的心理健康问题。",
+      "content": "IT之家 4 月 7 日消息，据科技媒体 9To5Google 今天报道，谷歌今天对 Gemini 进行一系列改进，更好应对用户提出的心理健康问题。 据报道，目前 Gemini 在遇到与自杀、自残相关的危机信号时会出现“一键连接”模块，引导用户一键拨打求助热线，还能够打电话、在线聊天、发送短信或访问相关网站。相关机制一旦触发将在整个对话过程中持续显示，系统也会以“鼓励用户寻求帮助”为核心进行回应。 如果对话表明用户需要心理健康方面信息，Gemini 就会展示“帮助就在身边”模块，旨在提供更高效、及时的专业支持资源。 同时，Gemini 的回复将鼓励用户寻求帮助，避免出现认同或强化自杀、自残冲动。并且 Gemini 还不会认同错误信念，而是以温和方式区分主观体验与客观事实。 谷歌还针对年轻一代用户提供多重保护机制，防止 Gemini 变得像具有人类属性的“陪伴者”，同时避免使用模拟亲密关系或表达情感需求的语言，防止情感依赖现象出现。 谷歌计划在未来三年内投入 3000 万美元（IT之家注：现汇率约合 2.07 亿元人民币），以提升全球热线服务承载能力。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/d0855bf7-138e-4484-82cf-98ae2b2b98a6.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-07T10:35:37.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/936/695.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775560058769_a1726400",
+      "title": "美团内部禁用Qwen；月之暗面将给未毕业实习生发期权；小米要全体研发人员进行AI考试｜AI周报",
+      "summary": "美团内部禁用Qwen；月之暗面将给未毕业实习生发期权；小米要全体研发人员进行AI考试｜AI周报",
+      "content": "美团内部禁用Qwen；月之暗面将给未毕业实习生发期权；小米要全体研发人员进行AI考试｜AI周报",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-07T10:29:51.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/MJmMrcJzh7vo6egI3Bbz?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775560066578_1941f3ff",
+      "title": "苹果海外官网上架 Herschel Cloudform iPhone 斜挎包：可放置 AirTag，59.95 美元",
+      "summary": "IT之家 4 月 7 日消息，苹果现已在美国官网上架一款 Herschel Cloudform iPhone 斜挎包（点此访问），提供粉色和黑色两种版本可选，定价为 59.95 美元（IT之家注：现汇率约合 413 元人民币）。",
+      "content": "IT之家 4 月 7 日消息，苹果现已在美国官网上架一款 Herschel Cloudform iPhone 斜挎包（点此访问），提供粉色和黑色两种版本可选，定价为 59.95 美元（IT之家注：现汇率约合 413 元人民币）。 IT之家注：公开信息显示，Herschel 是一家于 2009 年创立的加拿大潮流品牌，产品涵盖背包、旅行袋、行李箱等。 据苹果介绍，该斜挎包采用简约设计，并以轻盈的衬垫面料制成。其配备拉链封口和可调节肩带，可确保用户的 iPhone 安全无虞，同时其内置了衬垫插槽，可用于放置 AirTag 追踪器。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/2387a622-0456-49b5-b9f8-fb1ce725ed26.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-07T10:26:21.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/936/692.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775560066773_0c1f5ddb",
+      "title": "星际贯穿式“大”蓝灯上车：鸿蒙智行 2026 款问界 M9 无伪装实车智驾状态首曝",
+      "summary": "IT之家 4 月 7 日消息，鸿蒙智行 2026 款问界 M9 无伪装实车已开启路测，目前正持续有新信息曝出。多位博主今日分享了新款问界 M9 在智驾状态下行驶的视频。画面显示，新车前脸装配有星际贯穿式“大”蓝灯。",
+      "content": "IT之家 4 月 7 日消息，鸿蒙智行 2026 款问界 M9 无伪装实车已开启路测，目前正持续有新信息曝出。多位博主今日分享了新款问界 M9 在智驾状态下行驶的视频。画面显示，新车前脸装配有星际贯穿式“大”蓝灯。 据IT之家昨日报道，目前 2026 款问界 M9 已曝光的画面显示，新车整体线条更硬朗，前脸经过部分重新设计，增加段贯穿式镀铬条，进气格栅改成网格样式，还有更霸气的镀铬装饰；后保的样式也有调整，尾部看起来更硬朗、大气。 ▲ 2026 款问界 M9 智驾蓝灯 AI 效果预览（改自工信部申报图）| 最终效果以官方公布为准 新车前脸日行灯采用贯穿式设计，灯组轮廓偏向 M8 的风格；尾灯跟老款相比去掉了银色的边框。另外，2026 款问界 M9 配备有华为乾崑 896 线激光雷达，其下预计还有舱内激光雷达。 另外，2026 款问界 M9 的门把手焕新，有望改为尊界 S800 同款的“九天星辰”设计，预计还将支持隔空手势开门等功能；同时，新车前后均配备了隐私玻璃。 相关阅读： 《鸿蒙智行 2026 款问界 M9 无伪装实车再曝：前后隐私玻璃、华为乾崑 896 线激光雷达》 《鸿蒙智行 2026 款问界 M9 无伪装实车上路：门把手焕新、外观更硬朗》 《鸿蒙智行新款问界 M9 工信部申报：换装非隐藏式门把手，可选大饼轮毂》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/db019369-34bd-4c45-abb8-2fb8ceea77a5.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-07T10:18:50.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/936/690.htm",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775560045801_daa10d9d",
+      "title": "AI的订阅制，被Agent用崩了",
+      "summary": "AI的订阅制，被Agent用崩了",
+      "content": "大家一直在讲“让AI替人工作”，真有人这么干了，平台先受不了了。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-07T09:55:02.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/7942980.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775560066967_35506c51",
+      "title": "20 年老牌网站 360doc 个人图书馆宣布 5 月 1 日停止服务",
+      "summary": "IT之家 4 月 7 日消息，360doc 个人图书馆网站 4 月 1 日发布停止运营公告，因无法在确保数据安全与服务延续的前提下找到合适的接手方，网站将于 2026 年 5 月 1 日正式停止所有服务。",
+      "content": "IT之家 4 月 7 日消息，360doc 个人图书馆网站 4 月 1 日发布停止运营公告，因无法在确保数据安全与服务延续的前提下找到合适的接手方，网站将于 2026 年 5 月 1 日正式停止所有服务。 即日起，360doc 个人图书馆网站暂停新内容发布，但登录、数据备份、VIP 退费申请、钱包提现功能均正常开放。 重要时间点提示： 2026 年 5 月 1 日前：请完成所有数据备份、钱包提现、退费申请。 2026 年 5 月 1 日起：网站所有服务停止，服务器关闭。 IT之家查询公开资料获悉，360doc 个人图书馆是由北京六智信息技术有限公司运营的免费网络文章收藏与分享平台，用户可通过注册建立个人数字图书馆，分类收藏、管理网页文章及文档，支持 Office、PDF 等多种格式处理，并提供个性化域名服务，核心技术依托智能信息聚合引擎（360doc ICE）实现自动化采集与语义理解。 该平台自 2005 年上线，至今已运营 20 年，累计服务超 8000 万用户，收藏文章达 11 亿篇。2026 年 1 月 24 日，360doc 个人图书馆宣布无偿转让平台资产，包括核心技术、数据及运营团队，要求接收方具备不少于 500 万元资金实力以保障持续运营。 360doc 个人图书馆创始人蔡智也发布了《创始人致用户的告别信》： 亲爱的朋友： 这一次，是真的要说再见了。这两个月，我尝试将 360doc 无偿转让，最终失败。 二十年前，我在新开放的网站上注册了“360doc 小助手”这个账号，在屏幕下写下了一行签名：“热爱人和为人服务，是人生中最有价值的事。”那时的我没想到，这个小小的个人图书馆，会走过二十年。更没想到，二十年后的今天，我要亲手为她写下告别。 请相信，为了给她找一条能活下去的路，我竭尽全力。 我和有承接能力的互联网巨头谈过，做过方案，做过试点，也等过、求过、忍过。但最终，被搁置，被推诿，熬尽了最后一丝力量。 也感谢一些跨界朋友和创业公司递来的橄榄枝，但我最终没有选择。因为我很清楚：没有互联网经验、没有 AI 能力，这个平台接过去，只会变成负担。我无法确认他们是否真的会保护好大家的数据与隐私，是否会认真把服务继续下去。 还有一些心怀叵测的人，试探着能否购买域名和用户数据，我坚决拒绝了他们。8000 万用户的数据，一旦流入灰产，后果不堪设想。 与其把隐患留给未来或被转卖，不如在还可控的时候，亲手画上一个稳妥的句号。 我可以把她交出去， 但我不能把你们一起交出去。 我知道，这个决定，对很多人来说都不容易接受。这里面承载的，可能有你多年积累的文章，也有你反复翻看的记忆。想到这些，我心中愧疚难当。 走到这一步，我最放不下的，是你们的文章、你们的钱款。请务必按公告指引带走你的文章，取回你的钱款。把这些都安排妥当，我才能安心地关掉最后一台服务器。 最后，请允许我向所有用户致以最深切的歉意。 感谢您二十年来的信任与托付。纵有万般不舍，也衷心祝愿每一位，能在更广阔的世界里，继续书写与珍藏生命的美好。 珍重，再见。 如有任何问题，请联系我。岁月沧桑，“小助手”变“老助手”，惟愿初心不改。",
+      "imageUrl": "https://qimg.ithome.com/newfiles/2026/4/1a1df706-ca29-402c-b4dc-f3547fc4cec3.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-07T09:46:31.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/936/677.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775560047251_7769be3d",
+      "title": "第一批用AI的人，已经染上了AI疲惫症",
+      "summary": "第一批用AI的人，已经染上了AI疲惫症",
+      "content": "AI带来的是解放还是一台加速运转的跑步机",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-07T09:40:37.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7943806.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775553341928_6af28df0",
@@ -172,7 +268,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775553306203_0",
+      "id": "news_1775560035112_0",
       "title": "OpenAI, Anthropic, Google Unite to Combat Model Copying in China",
       "summary": "Rivals OpenAI, Anthropic PBC, and Alphabet Inc.’s Google have begun working together to try to clamp down on Chinese competitors extracting results fr...",
       "content": "Rivals OpenAI, Anthropic PBC, and Alphabet Inc.’s Google have begun working together to try to clamp down on Chinese competitors extracting results from cutting-edge US artificial intelligence models to gain an edge in the global AI race.\nThe firms a... [283 chars]",
@@ -184,7 +280,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1775553306144_1",
+      "id": "news_1775560035496_1",
       "title": "OpenAI advocates electric grid, safety net spending for new AI era",
       "summary": "By Rachel Metz and Shirin Ghaffary, Bloomberg\nOpenAI has released a set of policy recommendations meant to help navigate an era of artificial intellig...",
       "content": "By Rachel Metz and Shirin Ghaffary, Bloomberg\nOpenAI has released a set of policy recommendations meant to help navigate an era of artificial intelligence-fueled upheaval — including suggesting the creation of a public wealth fund, fast-response soci... [2891 chars]",
@@ -206,6 +302,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/936/288.htm",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775560060286_5e0d3eb6",
+      "title": "有道龙虾 LobsterAI 的养成与实践｜QCon北京",
+      "summary": "有道龙虾 LobsterAI 的养成与实践｜QCon北京",
+      "content": "有道龙虾 LobsterAI 的养成与实践｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-06T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/yS2ckf9u8eUVflGIjdcF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775470675780_1633d3ad",
@@ -328,7 +436,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775553306430_2",
+      "id": "news_1775560036158_2",
       "title": "Use of generative AI for health among urban youth in Pakistan: A mixed-methods study",
       "summary": "Figures\nAbstract\nGenerative AI (GAI) tools are increasingly used informally for health, yet evidence from low- and middle-income countries (LMICs) is ...",
       "content": "Figures\nAbstract\nGenerative AI (GAI) tools are increasingly used informally for health, yet evidence from low- and middle-income countries (LMICs) is limited. This study generates early evidence on such health systems from the fifth most populous cou... [53060 chars]",
@@ -350,6 +458,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/936/180.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775560061766_f30702da",
+      "title": "Helidon 引入 Agent 能力，Java 框架开始内建 AI 编排",
+      "summary": "Helidon 引入 Agent 能力，Java 框架开始内建 AI 编排",
+      "content": "Helidon 引入 Agent 能力，Java 框架开始内建 AI 编排",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-05T21:49:47.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/TQ4A6w3oROqdUJRmfMLX?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775547878122_2",
