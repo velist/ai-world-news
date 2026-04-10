@@ -1,30 +1,102 @@
 {
   "success": true,
-  "timestamp": "2026-04-10T03:32:56.416Z",
-  "total": 97,
+  "timestamp": "2026-04-10T06:04:50.140Z",
+  "total": 96,
   "data": [
     {
-      "id": "news_1775791956502_ea837668",
-      "title": "从云原生到 Agent Engineering：AI 时代的软件架构跃迁｜QCon北京",
-      "summary": "从云原生到 Agent Engineering：AI 时代的软件架构跃迁｜QCon北京",
-      "content": "从云原生到 Agent Engineering：AI 时代的软件架构跃迁｜QCon北京",
+      "id": "news_1775801088593_f5e1fd28",
+      "title": "消息称马斯克 SpaceX 封装厂和 PCB 厂良率低于预期，量产计划推迟至 2027 年中",
+      "summary": "IT之家 4 月 10 日消息，行业媒体 Digitimes 今天（4 月 10 日）发布博文，报道称马斯克旗下公司 SpaceX 在美国得州新建的 FOPLP（扇出型面板级）封装厂与 PCB（印刷电路板）工厂面临严重生产挑战，良率低于预期，量产计划被迫推迟至 2027 年中。",
+      "content": "IT之家 4 月 10 日消息，行业媒体 Digitimes 今天（4 月 10 日）发布博文，报道称马斯克旗下公司 SpaceX 在美国得州新建的 FOPLP（扇出型面板级）封装厂与 PCB（印刷电路板）工厂面临严重生产挑战，良率低于预期，量产计划被迫推迟至 2027 年中。 IT之家援引博文介绍，Starlink 低轨卫星服务业务增长迅猛，每月全球新增用户超过 2 万个，应用场景已拓展至车联网、航空及军事领域。 每台接收器需搭载约 200 至 400 颗射频芯片，每月产生数千万颗的新增需求，规模远超消费电子，导致现有供应链满负荷运转仍显吃力。 为降低风险，SpaceX 实施双轨供应策略。在依赖意法半导体、格芯与群创等外部合作伙伴的同时，积极推进自建 FOPLP 工厂。得州工厂一期目标月产 2000 片 700 毫米 ×700 毫米面板，单板可封装 10 万颗芯片。 报道称 SpaceX 位于美国得州的 FOPLP 封装厂和 PCB 厂设备安装已接近完成，但良率表现远低于预期，阻碍了大规模制造的进程。 而制约生产爬坡的关键因素，是人才短缺。FOPLP 核心团队目前仅有约 10 名成员，导致生产效率与良率远未达标。PCB 业务同样面临产能限制，良率仅维持在 60% 左右，和主流供应商超过 90% 的水平存在巨大差距。 SpaceX 计划在得州 Terafab 构建整合半导体生态，服务特斯拉、SpaceX 及 xAI。然而，行业分析指出，得州当地人才短缺与产业集群缺失，将限制马斯克完全脱离亚洲供应链的目标。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-10T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/DXzhsW63lQ5IoohR1uDD?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "IT之家",
+      "publishedAt": "2026-04-10T05:56:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/937/780.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775791958252_61afb085",
-      "title": "谷歌开源实验性多智能体编排测试平台 Scion",
-      "summary": "谷歌开源实验性多智能体编排测试平台 Scion",
-      "content": "谷歌开源实验性多智能体编排测试平台 Scion",
+      "id": "news_1775801088775_a2d8bafa",
+      "title": "谷歌 Gemini AI 解锁新技能：生成交互式图表和 3D 模型",
+      "summary": "IT之家 4 月 10 日消息，谷歌正不断强化 Gemini 的可视化能力，当地时间 4 月 9 日，Gemini 的最新更新带来了交互式 3D 模拟与模型功能，用户通过简单提示即可生成动态内容。",
+      "content": "IT之家 4 月 10 日消息，谷歌正不断强化 Gemini 的可视化能力，当地时间 4 月 9 日，Gemini 的最新更新带来了交互式 3D 模拟与模型功能，用户通过简单提示即可生成动态内容。 据外媒 Neowin 报道，相比过去以文本和静态图示为主的回答方式，Gemini 在更新后能够提供“可操作的模拟”，让用户以更直观的方式理解复杂概念。 这一功能支持多种使用场景，包括模拟复杂物理系统、观察分子结构变化，以及演示月球绕地运行过程等。以轨道模拟为例，用户可以通过滑动控制调整初始速度和引力强度，实时观察轨道如何形成或发生变化，而不再受限于固定图示。 在使用方式上，用户只需在提示中加入“向我展示（show me）”或“帮我可视化（help me visualize）”等指令，并选择“Pro”模型即可。例如输入“可视化分形的生成过程”，即可看到分形生长，并可调整分支角度、长度比例和迭代次数等参数。 若用户想要探索量子物理领域，则可以输入“展示双缝实验如何运作”，Gemini 将提供波长、波速以及缝隙间距等参数选项，使波动变化能够实时呈现。 谷歌宣布该功能正逐步向所有用户开放，教育版与 Workspace 账户则暂不受支持。据IT之家了解，这一更新是在此前可交互学习功能基础上的进一步扩展。 此前，Gemini 已支持在生物、物理、化学和数学领域生成可点击的交互式图示，用户可以通过点击不同区域获取详细说明，从而逐步理解复杂知识结构。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/1c2978a1-adf0-4a6b-ad1f-280584374b17.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-10T05:51:28.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/937/774.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775801061014_48cf6544",
+      "title": "AI带火了储能，但“升咖”之路依然漫长",
+      "summary": "AI带火了储能，但“升咖”之路依然漫长",
+      "content": "AIDC储能概念火热，但能源测与设备侧仍存在割裂问题。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-10T10:00:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-10T05:22:30.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7948002.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775801089137_43baf3d9",
+      "title": "美国载人绕月任务猎户座飞船氦气泄漏，不影响宇航员安全返回",
+      "summary": "IT之家 4 月 10 日消息，科技媒体 Ars Technica 今天（4 月 10 日）发布博文，报道称在美国载人绕月计划“阿耳忒弥斯 2 号”（Artemis II）执行中，发现猎户座（Orion）飞船服务舱存在氦气泄漏问题，不影响当前任务的安全返回。",
+      "content": "IT之家 4 月 10 日消息，科技媒体 Ars Technica 今天（4 月 10 日）发布博文，报道称在美国载人绕月计划“阿耳忒弥斯 2 号”（Artemis II）执行中，发现猎户座（Orion）飞船服务舱存在氦气泄漏问题，不影响当前任务的安全返回。 美国宇航局“阿耳忒弥斯 2 号”飞行主任 Jeff Radigan 证实，猎户座飞船推进系统存在氦气泄漏，泄漏点位于服务舱内的氧化剂压力供应阀门，但没有泄漏至太空。虽然泄漏率比地面观察到的数据高出一个数量级，但官员强调这仍在可接受范围内，不会威胁返回任务安全。 IT之家援引博文介绍，猎户座飞船利用氦气将推进剂压送至发动机，本次任务已消耗约 40% 燃料，推进系统目前运行正常。美国宇航局副局长 Amit Kshatriya 透露，工程师在“阿耳忒弥斯 1 号”任务中就曾观察到类似泄漏现象。 由于“阿耳忒弥斯 2 号”采用“自由返回轨道”且不需要复杂的入轨机动，美国宇航局决定按计划发射。任务团队取消了原定的手动驾驶演示，转而执行推进系统检查，以评估飞船不同朝向对泄漏的影响。 服务舱将在重返大气层前约 20 分钟被抛弃并在大气层中烧毁，工程师无法回收检查阀门硬件。Kshatriya 明确表示，虽然本次安全事件，对于 2027 年的“阿耳忒弥斯 3 号”任务影响较小，不过计划于 2028 年登月的“阿耳忒弥斯 4 号”任务必须更换新型氦气阀门。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/65f3ae20-6569-437f-a3f0-f22eeb640c35.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-10T05:19:52.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/937/762.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775801064186_89d6d02b",
+      "title": "DeepSeek能否扛住V4冲击波，得问代达劢",
+      "summary": "DeepSeek能否扛住V4冲击波，得问代达劢",
+      "content": "V4发布时不崩，那才是真正的封神时刻。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-10T04:39:22.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7948243.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775801065440_7a5789f2",
+      "title": "逛完博华展之后，我发现了酒店AI的这些真相",
+      "summary": "逛完博华展之后，我发现了酒店AI的这些真相",
+      "content": "酒店AI正在重塑生产力。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-10T04:30:43.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7948150.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775801066584_3b4d4ce4",
+      "title": "从大模型到Agent的跨越难度，正被整个行业严重低估",
+      "summary": "从大模型到Agent的跨越难度，正被整个行业严重低估",
+      "content": "扯开遮羞布，直抵逻辑底层。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-10T04:28:36.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/LsqHHXER21x6BNZ2Q7BM?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/7948137.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775801068340_30086ed6",
+      "title": "价格连涨三次，错失万亿Token：智谱在Agent浪潮中跑输大盘",
+      "summary": "价格连涨三次，错失万亿Token：智谱在Agent浪潮中跑输大盘",
+      "content": "模型越强，离红利越远？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-10T04:19:56.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7947142.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -208,19 +280,19 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775791960120_18e22ee9",
-      "title": "聚焦AI，深耕智造丨2026 赋能开发者大会圆满举办！",
-      "summary": "聚焦AI，深耕智造丨2026 赋能开发者大会圆满举办！",
-      "content": "聚焦AI，深耕智造丨2026 赋能开发者大会圆满举办！",
+      "id": "news_1775801076414_d6ac53a1",
+      "title": "高能研讨会｜Arm SME2 赋能端侧 AI：极致推理性能实践",
+      "summary": "高能研讨会｜Arm SME2 赋能端侧 AI：极致推理性能实践",
+      "content": "高能研讨会｜Arm SME2 赋能端侧 AI：极致推理性能实践",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-09T17:31:40.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/UFSb4zOXu9IKc6lhXZdQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-04-09T15:59:58.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/gkS9sFcN0eMGxPyG0g41?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775791922840_0",
+      "id": "news_1775801045758_0",
       "title": "Florida AG opens probe into OpenAI ahead of potential IPO",
       "summary": "April 9 (Reuters) - Florida Attorney General James Uthmeier on Thursday launched an investigation ​into OpenAI and its chatbot ChatGPT, as the ‌artifi...",
       "content": "April 9 (Reuters) - Florida Attorney General James Uthmeier on Thursday launched an investigation ​into OpenAI and its chatbot ChatGPT, as the ‌artificial intelligence firm prepares for an IPO that could value it at up to $1 trillion.\nIn a video post... [1095 chars]",
@@ -242,18 +314,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7947345.html",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775791963402_4f0a7e62",
-      "title": "Spotify 2025 年度回顾：AI 规模化叙事背后的隐私博弈",
-      "summary": "Spotify 2025 年度回顾：AI 规模化叙事背后的隐私博弈",
-      "content": "Spotify 2025 年度回顾：AI 规模化叙事背后的隐私博弈",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-09T15:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/qfW0WobGro3ofIrVIRfO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775743469483_6a5158ec",
@@ -352,18 +412,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775791965203_01dbd139",
-      "title": "TigerFS：将 PostgreSQL 数据库挂载为文件系统，面向开发者与 AI 智能体",
-      "summary": "TigerFS：将 PostgreSQL 数据库挂载为文件系统，面向开发者与 AI 智能体",
-      "content": "TigerFS：将 PostgreSQL 数据库挂载为文件系统，面向开发者与 AI 智能体",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-09T11:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/r5EHCug4069tix7kDGLf?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1775732859594_89f66cef",
       "title": "1.24亿抢科学家后，大厂盯上13岁AI产品经理",
       "summary": "1.24亿抢科学家后，大厂盯上13岁AI产品经理",
@@ -398,18 +446,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7946574.html",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775791967112_6d97217b",
-      "title": "大前端性能优化新范式：AI 火焰图在亿级 App 中的落地｜QCon北京",
-      "summary": "大前端性能优化新范式：AI 火焰图在亿级 App 中的落地｜QCon北京",
-      "content": "大前端性能优化新范式：AI 火焰图在亿级 App 中的落地｜QCon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-09T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/xJZRwpf2uuMA3UaS2SWm?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775732884750_d064dd3e",
@@ -784,19 +820,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775791970395_50ad714d",
-      "title": "GitHub 如何用 AI 重构反馈处理机制",
-      "summary": "GitHub 如何用 AI 重构反馈处理机制",
-      "content": "GitHub 如何用 AI 重构反馈处理机制",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-08T16:53:43.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/5SYq9w4s86yxTAuu0opy?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775791922028_1",
+      "id": "news_1775801046115_1",
       "title": "Juhyun Nam: An AI threat looms, and we are not prepared",
       "summary": "Juhyun Nam is a Duke University student studying economics and computer science. He co-founded OpenPolicy, a platform scoring U.S. senators’ AI policy...",
       "content": "Juhyun Nam is a Duke University student studying economics and computer science. He co-founded OpenPolicy, a platform scoring U.S. senators’ AI policy positions, and hosts \"The Alignment Gap,\" an interview series with AI safety researchers.\nLove\n0\nFu... [262 chars]",
@@ -832,7 +856,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775791922087_2",
+      "id": "news_1775801045744_2",
       "title": "An AI threat looms, and we are not prepared | Juhyun Nam",
       "summary": "Nam is a Duke University student studying economics and computer science. He co-founded OpenPolicy, a platform scoring U.S. senators’ AI policy positi...",
       "content": "Nam is a Duke University student studying economics and computer science. He co-founded OpenPolicy, a platform scoring U.S. senators’ AI policy positions, and hosts The Alignment Gap, an interview series with AI safety researchers. This column was pr... [273 chars]",
@@ -1129,42 +1153,6 @@
       "publishedAt": "2026-04-08T06:57:35.000Z",
       "category": "国外AI",
       "originalUrl": "https://36kr.com/p/3757769438609920?f=rss",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775627534443_647a8a28",
-      "title": "马斯克：SpaceXAI的Colossus 2目前有6个模型正在训练中",
-      "summary": "马斯克：SpaceXAI的Colossus 2目前有6个模型正在训练中",
-      "content": "马斯克表示，SpaceXAI的Colossus 2目前有6个模型正在训练中。（财联社）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-04-08T05:44:23.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3757753366331907?f=rss",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775627557209_8a50610b",
-      "title": "美国“阿耳忒弥斯 2 号”任务载人绕月飞船开始返回地球之旅",
-      "summary": "IT之家 4 月 8 日消息，据美国航空航天局 NASA 消息，执行美国“阿耳忒弥斯 2 号”载人绕月飞行任务的“猎户座”飞船 7 日开始返回地球的旅程。",
-      "content": "IT之家 4 月 8 日消息，据美国航空航天局 NASA 消息，执行美国“阿耳忒弥斯 2 号”载人绕月飞行任务的“猎户座”飞船 7 日开始返回地球的旅程。 根据美国航空航天局发布的任务规划，在完成绕月飞行后，“猎户座”飞船大约在美国东部时间 7 日 13 时 23 分（IT之家注：北京时间 8 日 1 时 23 分）飞离月球引力影响范围。接下来，飞船将于美东时间 7 日 21 时 03 分点燃推进器，执行三次轨道修正点火中的第一次，以调整飞船轨道、进一步校准其返回地球的航线。飞船预计 10 日晚在美国加利福尼亚州圣迭戈海岸附近溅落。 据美国方面消息，航天器返回地球的“再入”阶段是航天任务中风险最高的阶段之一。执行“阿耳忒弥斯 2 号”任务的“猎户座”飞船将以超过音速 30 倍的速度冲入地球大气层，该过程会导致空气被剧烈压缩，可将飞船外部温度加热到 2760 摄氏度以上。 据悉，“猎户座”飞船隔热罩在 2022 年“阿耳忒弥斯 1 号”无人绕月飞行测试任务中被发现存在隐患，执行该任务的飞船重返地球时隔热罩材料异常脱落，损耗方式与设计预期不符。为了解决这一问题，执行“阿耳忒弥斯 2 号”任务的“猎户座”飞船采取一种更缓和的方式调整飞行轨道。收集隔热罩表现数据也是此次任务的一项关键目标。 美国航空航天局还公布了“猎户座”飞船 6 日绕月飞行时拍摄的一批照片，包括“地落”和“日食”等。从月球背面拍摄的“地落”照片展示了地球落入月球地平线以下的景象；“日食”画面则显示月球完全遮挡住太阳。从宇航员的视角看，月球足够彻底挡住太阳，形成近 54 分钟的日全食。 “阿耳忒弥斯 2 号”载人绕月飞行任务 1 日实施，利用“太空发射系统”火箭和“猎户座”飞船将 4 名宇航员送往月球轨道。据美国航空航天局官网数据，“猎户座”飞船从发射到溅落预计总共飞行 695081 英里（约 1118624 公里）。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/a43e90f1-3e85-4c6a-8ec2-9d9d36a57b0f.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-08T04:18:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/936/921.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775634489584_e856bc0f",
-      "title": "Arista Networks 获得评级上调，AI 超大规模云服务商可能推动该股创下历史新高",
-      "summary": "Arista Networks 获得评级上调，AI 超大规模云服务商可能推动该股创下历史新高",
-      "content": "该股年初以来一直横盘整理，但一位分析师表示这种情况可能会发生变化。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-08T03:50:41.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7945024.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
