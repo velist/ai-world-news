@@ -1,8 +1,68 @@
 {
   "success": true,
-  "timestamp": "2026-04-12T09:01:05.660Z",
-  "total": 47,
+  "timestamp": "2026-04-12T09:57:05.759Z",
+  "total": 52,
   "data": [
+    {
+      "id": "news_1775987808458_5dca636d",
+      "title": "谷歌开源 Colab MCP Server，AI 智能体可云端运行代码",
+      "summary": "谷歌开源 Colab MCP Server，AI 智能体可云端运行代码",
+      "content": "谷歌开源 Colab MCP Server，AI 智能体可云端运行代码",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-12T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/Z71AB0lSu0DcEhSNFXqQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775987810402_b390bf01",
+      "title": "可复制的 AI Coding 全栈实战：比 OpenSpec 更轻量、更丝滑｜QCon北京",
+      "summary": "可复制的 AI Coding 全栈实战：比 OpenSpec 更轻量、更丝滑｜QCon北京",
+      "content": "可复制的 AI Coding 全栈实战：比 OpenSpec 更轻量、更丝滑｜QCon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-12T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/4wNXLbIeHGEWrGNUwOjc?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775987824102_58c05cf3",
+      "title": "MiniMax 开源 M2.7 模型，AI 自主训练与复杂任务能力再突破",
+      "summary": "IT之家 4 月 12 日消息，MiniMax 今天宣布开源 M2.7 模型，据称能让模型深度参与自身训练与优化流程，构建复杂的 Agent 框架并完成高度复杂的生产力任务。 据介绍，M2.7 模型在真实软件工程场景表现出色，包括端到端项目交付、日志分析、Bug 排查、代码安全、机器学习等。",
+      "content": "IT之家 4 月 12 日消息，MiniMax 今天宣布开源 M2.7 模型，据称能让模型深度参与自身训练与优化流程，构建复杂的 Agent 框架并完成高度复杂的生产力任务。 据介绍，M2.7 模型在真实软件工程场景表现出色，包括端到端项目交付、日志分析、Bug 排查、代码安全、机器学习等。在 SWE-Pro 基准测试中得分 56.22%，接近顶级模型水平。同时在完整项目交付（VIBE-Pro 55.6%）和复杂系统理解（Terminal Bench 2：57.0%）方面也表现强劲。 同时，M2.7 还能够“自我进化”，内部系统可自动收集反馈、构建评估集，持续优化自身架构、技能和记忆机制。在优化编程能力时，M2.7 可以自主运行超 100 轮循环，最终内部测试可实现 30% 性能提升。 此外，该模型还具备 OpenRoom 交互系统，把 AI 交互从文本扩展到可视化界面，支持实时场景反馈，支持高度扩展，未来可探索全新人机交互方式。 IT之家附上 MiniMax M2.7 模型开源地址如下： Huggingface：https://huggingface.co/MiniMaxAI/MiniMax-M2.7 MiniMax API：https://platform.minimax.io/docs/guides/models-intro",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/562f6c8d-c907-44a3-8a1c-7dc063636e5b.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-12T09:32:18.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/938/310.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775987791815_d0a9e2d2",
+      "title": "荣耀机器人“闪电”“元气仔”出征北京亦庄马拉松",
+      "summary": "4月19日，机器人马拉松将在北京亦庄举行。荣耀自研机器人“闪电”“元气仔”正式报名参赛，成为全球首个由终端大厂派出选手的机器人马拉松挑战者。据荣耀技术团队介绍，荣耀机器人“闪电”集成了荣耀在智能制造与具身AI领域的最新成果，高性能高爆发稳定的本体、高动态运控算法、实时感知理解与自主决策能力。",
+      "content": "4月19日，机器人马拉松将在北京亦庄举行。荣耀自研机器人“闪电”“元气仔”正式报名参赛，成为全球首个由终端大厂派出选手的机器人马拉松挑战者。据荣耀技术团队介绍，荣耀机器人“闪电”集成了荣耀在智能制造与具身AI领域的最新成果，高性能高爆发稳定的本体、高动态运控算法、实时感知理解与自主决策能力。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-04-12T09:17:20.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3763625016476420?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775987824250_01fe1529",
+      "title": "小红书“黑客松巅峰赛”落幕：口袋卡片吉他获全场大奖，脑控轮椅等入围",
+      "summary": "IT之家 4 月 12 日消息，小红书“黑客松巅峰赛”已在昨天落幕，50 万奖金尘埃落定。 IT之家附本次大赛获奖项目如下： 全场大奖： 项目：Pocket Guitar 口袋卡片吉他，by DAIZY（叶博文 / 刘孟乔 / 陈容贤 / 高雪丹） 硬件赛道： 一等奖：脑控轮椅，以无障碍的智能驾驶，...",
+      "content": "IT之家 4 月 12 日消息，小红书“黑客松巅峰赛”已在昨天落幕，50 万奖金尘埃落定。 IT之家附本次大赛获奖项目如下： 全场大奖： 项目：Pocket Guitar 口袋卡片吉他，by DAIZY（叶博文 / 刘孟乔 / 陈容贤 / 高雪丹） 硬件赛道： 一等奖：脑控轮椅，以无障碍的智能驾驶，帮助更多失能人群，by 香菇肥牛（王宁 / Mira） 二等奖：好运日历机，把原本停留在手机里的 AI 陪伴，变成桌面上可看、可玩、可打印、可带走的“实体好物”，by noonwake.ai（吴尚 Shawn / 蒲森林 / 唐美捷） 三等奖：TRI.ME 吹了么：智能浴室黑科技，将吹头发、剃须、刷牙集成在一个机械臂，把时间还给自己，by MVP（张振尧 / 张子豪 / 殷孟浩 / 刘宓 / 代福莹） 软件赛道： 一等奖：Chic Chic，一款越刷越懂你的“发型 TikTok”，为你无限生成专属发型 Vibe，从“头”开始成为你的完美造型助理，by ~ 当理发遇到 Token 上限 ~（余亮 / 洪沐天 / 贺泽邦 / 林诗逸） 二等奖：Attune“注意力界面”，实现从“人找功能”到“功能找人”，由 AI 驱动的人机意图协同，探索下一代人机交互边界，by 好好睡觉（莫少政 / 罗国荣 / 伍海玮） 三等奖：MonoSlides，为了做出世界上审美最好的 PPT 生成器，我们在浏览器里搓了个本地运行的 Linux 操作系统，by Time go fishing（薛来 / 张纪翔） IT之家注：“黑客松”又名“黑客马拉松”，是世界上最硬核的科技比赛形式，几百名脑力运动员将在一个封闭空间内，两天两夜不睡觉写代码，创造一个了不起的初稿。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/a3859536-bc13-46cb-a0d3-89351a963012.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-12T09:11:31.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/938/306.htm",
+      "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1775984464448_f3167e71",
       "title": "一女子起诉 OpenAI，指控 GPT-4o 助长前男友妄想症并加剧骚扰",
@@ -124,6 +184,18 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1775987812278_7e5ec88e",
+      "title": "Tailwind CSS 4.2 发布 Webpack 插件、新配色方案以及逻辑属性工具类",
+      "summary": "Tailwind CSS 4.2 发布 Webpack 插件、新配色方案以及逻辑属性工具类",
+      "content": "Tailwind CSS 4.2 发布 Webpack 插件、新配色方案以及逻辑属性工具类",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-11T15:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/50T48b3TOSJZRAa4GGx9?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1775918705574_f6fac019",
       "title": "Pura 80 Pro → Pura 90 Pro Max，消息称华为准备命名升维",
       "summary": "IT之家 4 月 11 日消息，博主 @体验 more 今天在微博透露，华为应该是准备命名升维，价格不升、还是抢份额。",
@@ -160,18 +232,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775984452870_e3b523c5",
-      "title": "Cloudflare 与苏黎世联邦理工学院概述了基于 AI 的缓存优化方法",
-      "summary": "Cloudflare 与苏黎世联邦理工学院概述了基于 AI 的缓存优化方法",
-      "content": "Cloudflare 与苏黎世联邦理工学院概述了基于 AI 的缓存优化方法",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-11T11:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/e6qh5DKlDApGZGxxgKZO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1775876152162_29b6e907",
       "title": "让每个员工都有一个 Coding Agent：蚂蚁 Vibe Coding 平台落地半年后的实践经验｜QCon北京",
       "summary": "让每个员工都有一个 Coding Agent：蚂蚁 Vibe Coding 平台落地半年后的实践经验｜QCon北京...",
@@ -181,6 +241,18 @@
       "publishedAt": "2026-04-11T10:00:00.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/zwsaRqiZ99H7l3y8G9Lc?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775987815243_f2ea5f22",
+      "title": "面向 AI 智能体的有状态接续：传输层为何至关重要",
+      "summary": "面向 AI 智能体的有状态接续：传输层为何至关重要",
+      "content": "面向 AI 智能体的有状态接续：传输层为何至关重要",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-11T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/P3Ko14uHlmRMm50rIhXs?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -242,6 +314,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7949710.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1775987818231_7fc45974",
+      "title": "Anthropic 推出多代理 Harness，重构长时 AI 编程流程",
+      "summary": "Anthropic 推出多代理 Harness，重构长时 AI 编程流程",
+      "content": "Anthropic 推出多代理 Harness，重构长时 AI 编程流程",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-11T08:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/qPNs964YbMjfjR0r1vP6?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775897824740_41ceff40",
@@ -400,7 +484,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1775984424081_0",
+      "id": "news_1775987784370_0",
       "title": "Former OpenAI Stargate Leaders Plan to Join Meta Platforms",
       "summary": "Three key players in OpenAI’s massive effort to set up hundreds of billions of dollars’ worth of artificial intelligence data center capacity are join...",
       "content": "Three key players in OpenAI’s massive effort to set up hundreds of billions of dollars’ worth of artificial intelligence data center capacity are joining Meta Platforms Inc., according to people familiar with the matter.\nPeter Hoeschele, who played a... [378 chars]",
@@ -412,7 +496,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1775984424949_1",
+      "id": "news_1775987783752_1",
       "title": "Suspect arrested after Molotov cocktail attack at OpenAI CEO Sam Altman's home",
       "summary": "April 10 (Reuters) - San Francisco police arrested a person for allegedly throwing a Molotov cocktail at OpenAI CEO ​Sam Altman's home and for making ...",
       "content": "April 10 (Reuters) - San Francisco police arrested a person for allegedly throwing a Molotov cocktail at OpenAI CEO ​Sam Altman's home and for making threats outside the artificial ‌intelligence startup's headquarters, the company said on Friday.\nIn ... [1322 chars]",
@@ -424,7 +508,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1775984424203_2",
+      "id": "news_1775987783628_2",
       "title": "Molotov Cocktail Is Hurled at Home of Sam Altman, OpenAI’s CEO",
       "summary": "A 20-year-old man was arrested on Friday after throwing a Molotov cocktail at the San Francisco home of Sam Altman, chief executive of the artificial ...",
       "content": "A 20-year-old man was arrested on Friday after throwing a Molotov cocktail at the San Francisco home of Sam Altman, chief executive of the artificial intelligence company OpenAI, according to the company and the police.\nThe incendiary device lit a fi... [1682 chars]",
@@ -446,18 +530,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.nytimes.com/2026/04/10/us/open-ai-sam-altman-molotov-cocktail.html",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1775984459974_97d51166",
-      "title": "没有KPI，也能领先OpenAI？从“内部观察者”视角看顶级AI实验室如何运作",
-      "summary": "没有KPI，也能领先OpenAI？从“内部观察者”视角看顶级AI实验室如何运作",
-      "content": "没有KPI，也能领先OpenAI？从“内部观察者”视角看顶级AI实验室如何运作",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-10T17:37:06.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/UeZ4cvw5hl06J0vFEJck?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1775828486530_e482e163",
@@ -554,18 +626,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/937/933.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775816086624_35e1c9d1",
-      "title": "三星承认 Galaxy S25 Ultra 手机“虚拟光圈”功能存在 Bug，计划尽快修复",
-      "summary": "IT之家 4 月 10 日消息，据科技媒体 SammyGuru 今天报道，三星现已在官方社区承认 Galaxy S25 Ultra 手机“虚拟光圈”（Virtual Aperture）功能存在 Bug，计划尽快修复。",
-      "content": "IT之家 4 月 10 日消息，据科技媒体 SammyGuru 今天报道，三星现已在官方社区承认 Galaxy S25 Ultra 手机“虚拟光圈”（Virtual Aperture）功能存在 Bug，计划尽快修复。 据报道，三星的“虚拟光圈”功能允许用户控制照片景深 / 背景虚化效果，可在 Expert RAW 相机打开，最初仅支持主摄（IT之家注：2 亿像素）。 三星从 S26 Ultra 开始为 3 倍、5 倍长焦镜头加入“虚拟光圈”，随后将同款功能下放至 S25 Ultra。 不过有用户发现这项功能在 S25 Ultra 上存在异常，拍摄的照片背景虚化效果看起来很不均匀，5 倍长焦模式下尤为明显。随后三星社区版主确认了这一情况，并通知开发团队修复。 官方表示，该问题将通过 One UI 8.5 更新进行修复。稳定版预计 4 月底部分地区上线，5 月初有望大范围推送。 此外三星还表示，3 倍、5 倍长焦的“虚拟光圈”功能不会下放至 Galaxy S24 系列或更旧机型。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/a8c5a494-1afa-43e7-b5a8-360796a04214.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-10T09:32:25.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/937/912.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
