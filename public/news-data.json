@@ -1,44 +1,8 @@
 {
   "success": true,
-  "timestamp": "2026-04-13T14:02:15.710Z",
-  "total": 58,
+  "timestamp": "2026-04-13T16:20:29.559Z",
+  "total": 56,
   "data": [
-    {
-      "id": "news_1776088918226_9af45d7d",
-      "title": "不用则废：开发者直面 AI 编码工具的隐性代价",
-      "summary": "不用则废：开发者直面 AI 编码工具的隐性代价",
-      "content": "不用则废：开发者直面 AI 编码工具的隐性代价",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-13T16:59:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/bLageDSMAujcPRLriJi5?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776088920329_5c4f24ec",
-      "title": "从拒绝 AI 到一切先问 Agent，DHH：这是我最爽的编程时刻之一，但程序员黄金时代到头了",
-      "summary": "从拒绝 AI 到一切先问 Agent，DHH：这是我最爽的编程时刻之一，但程序员黄金时代到头了",
-      "content": "从拒绝 AI 到一切先问 Agent，DHH：这是我最爽的编程时刻之一，但程序员黄金时代到头了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-13T16:19:48.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/dOey7eV1T9p3dtPWTPCV?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776088922519_e2645195",
-      "title": "OpenAI 不想写 spec 了：Codex 只留 10 条要点，把执行交给 skills",
-      "summary": "OpenAI 不想写 spec 了：Codex 只留 10 条要点，把执行交给 skills",
-      "content": "OpenAI 不想写 spec 了：Codex 只留 10 条要点，把执行交给 skills",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-13T15:43:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/C2fWkH2EgBlDPNUNlcZX?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
     {
       "id": "news_1776071193765_2fa5f5ba",
       "title": "Cloudflare发布Dynamic Workers公开测试版：基于Isolates的沙箱环境执行AI智能体代码",
@@ -50,6 +14,42 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/71XfFmTWWDmIhtqjoZED?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776097228386_f88c8cf8",
+      "title": "开源监控平台 Grafana 曝提示词漏洞，黑客可诱导 AI 助手泄露企业敏感数据",
+      "summary": "IT之家 4 月 13 日消息，安全公司 Noma 发布研究报告，披露开源监控与数据可视化平台 Grafana 的 AI 助手功能中存在一项名为“GrafanaGhost”的安全漏洞，允许黑客利用“间接提示注入”（Indirect Prompt Injection）方式诱导 AI 助手泄露企业敏感数...",
+      "content": "IT之家 4 月 13 日消息，安全公司 Noma 发布研究报告，披露开源监控与数据可视化平台 Grafana 的 AI 助手功能中存在一项名为“GrafanaGhost”的安全漏洞，允许黑客利用“间接提示注入”（Indirect Prompt Injection）方式诱导 AI 助手泄露企业敏感数据至外部服务器。 据介绍，Grafana 内置的 AI 助手支持用户通过自然语言查询与分析监控数据。但研究人员发现，黑客可以在 Grafana 可访问的外部网页中嵌入恶意指令。当 AI 助手解析这些内容时，可能被误导绕过既有安全机制，并触发对外请求，将敏感信息以 URL 参数形式发送至黑客控制的服务器，由于整个过程不会产生明显报错提示，用户往往难以及时察觉异常。 对此，安全媒体 Hackread 援引 Grafana 开发方 Grafana Labs 首席安全官 Joe McManus 的说法称，公司在收到通报后已迅速修复相关问题。同时其强调，该漏洞并不属于“零点击”（zero-click）或“自主攻击”（autonomous exploit）类型，黑客本身需要先获得用户端权限，才能主动与 AI 助手交互，同时需要多次触发才能实现恶意操作。 Grafana Labs 进一步表示，目前没有证据表明该漏洞已被实际利用，也未发现 Grafana Cloud 有数据泄露的情况。相应问题属于特定条件下、由用户操作触发的风险场景，而非完全自动化、无感知的 AI 攻击，因此呼吁平台用户无需紧张。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/66747210-c5c2-4466-959e-a2484260fc4d.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-13T14:36:10.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/938/736.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776097228557_b4348521",
+      "title": "爆改阔直屏难度直降：第三方推出华为 Pura X 手机内屏不折叠钢化膜",
+      "summary": "IT之家 4 月 13 日消息，华为 Pura X 阔折叠手机发布后，因为内屏独特的 16:10 比例吸引了大批用户。为了应对用户不想折叠使用的需求，早在去年 11 月就有商家为该机推出了「不折叠保护壳」。",
+      "content": "IT之家 4 月 13 日消息，华为 Pura X 阔折叠手机发布后，因为内屏独特的 16:10 比例吸引了大批用户。为了应对用户不想折叠使用的需求，早在去年 11 月就有商家为该机推出了「不折叠保护壳」。 虽然已有不折叠手机壳的产品面世，但如果想把华为 Pura X 内屏保护的更好，且彻底改装为直屏手机，还需要用户自己定制钢化玻璃膜等，成本和难度较高。 IT之家注意到，目前已有第三方商家推出了不折叠钢化膜，让华为 Pura X 爆改阔直屏难度直线下降。用户可以直接购买不折叠手机壳和钢化膜，让这款手机从折叠机固定成直屏手机。 不过需要注意的是，华为 Pura X 阔折叠屏手机的内屏本身较为脆弱，损坏后更换价格较贵，且改装完成后基本无法使用外屏，因此不建议大家轻易尝试。 不过今年 3 月，有爆料称华为将推出阔屏大折叠、阔屏直板机、超大屏 Air，内部也在尝试其它品类的手机。目前爆料提到的阔屏大折叠已正式官宣，是行业首款横向阔折叠手机 —— Pura X Max，将于 4 月 20 日与 Pura 90 系列手机一同发布。而阔屏直板机仍需等待。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/e9970c98-8a6b-46dc-8495-a23e7adcf662.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-13T14:05:25.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/938/730.htm",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776097199043_28e4bb68",
+      "title": "小红书出海业务\"Redshop\"即将上线；海关总署新政：9610模式退货可在全国任一海关办理；有孚国际与孚腾资本80亿美元加码亚太AI产业｜一周出海参考",
+      "summary": "小红书出海业务\"Redshop\"即将上线；海关总署新政：9610模式退货可在全国任一海关办理；有孚国际与孚腾资本80亿美元加码亚太AI产业｜一周出海参考",
+      "content": "一周看遍上周出海热点。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-13T14:00:04.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7951478.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776088934214_335d907e",
@@ -182,18 +182,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/938/682.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776088928489_6d1d4243",
-      "title": "Kubescape 4.0为Kubernetes带来运行时安全和AI智能体扫描",
-      "summary": "Kubescape 4.0为Kubernetes带来运行时安全和AI智能体扫描",
-      "content": "Kubescape 4.0为Kubernetes带来运行时安全和AI智能体扫描",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-13T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/FA7cwRtSJMI63GFiHFDX?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776079433574_ee973547",
@@ -686,18 +674,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7949987.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775922150126_4b4f09ba",
-      "title": "谷歌 YouTube Premium 美区涨价：个人版涨至 15.99 美元 / 月，家庭版 26.99 美元",
-      "summary": "IT之家 4 月 11 日消息，谷歌正在对 YouTube Premium 美国订阅计划实施新一轮涨价，最高幅度达到每月 4 美元。新价格即日起对新订阅用户生效，老用户将从 2026 年 6 月的账单周期开始生效。",
-      "content": "IT之家 4 月 11 日消息，谷歌正在对 YouTube Premium 美国订阅计划实施新一轮涨价，最高幅度达到每月 4 美元。新价格即日起对新订阅用户生效，老用户将从 2026 年 6 月的账单周期开始生效。 调整后，美区 YouTube Premium 各档位价格如下： 个人版从每月 13.99 美元涨至 15.99 美元（现汇率约合 109.4 元人民币） 家庭版从 22.99 美元涨至 26.99 美元（现汇率约合 184.7 元人民币） Lite 版从 7.99 美元涨至 8.99 美元（IT之家注：现汇率约合 61.5 元人民币） Music Premium 从 10.99 美元涨至 11.99 美元（现汇率约合 82.1 元人民币） 此次涨价紧随上个月 Netflix 和亚马逊 Prime Video 的调价步伐。YouTube Premium 上一轮涨价发生在 2022 年，当时家庭版从 17.99 美元跃升至 22.99 美元；个人版则在 2023 年从 11.99 美元涨至 13.99 美元。不过许多国际用户在 2024 年底经历了涨价。 虽然此次涨价幅度不算太大 —— 作为对比，Netflix 近期也涨价 2 美元，且是不到两年内的第二次调价 —— 但很显然不会受到用户欢迎。Premium 订阅用户可通过 YouTube 会员中心取消订阅，也可选择暂停订阅最长六个月。个人版用户选择按年支付可节省 15%，折合每月 13 美元出头。 相关阅读： 《堪比国内爱优腾，美国人均每年流媒体订阅支出近 1000 美元》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/f4f80e95-8fd0-4fe6-aab7-c30dffdfd432.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-11T15:09:46.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/938/185.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
