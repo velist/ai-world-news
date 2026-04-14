@@ -1,8 +1,44 @@
 {
   "success": true,
-  "timestamp": "2026-04-14T22:58:09.457Z",
+  "timestamp": "2026-04-14T23:54:35.274Z",
   "total": 88,
   "data": [
+    {
+      "id": "news_1776210844927_ce7e3e2e",
+      "title": "算力紧缺之下，Anthropic调整定价模式，按企业AI使用量计费",
+      "summary": "Anthropic发言人证实，根据此次定价调整，Claude企业版客户除每月为每位用户支付20美元固定费用外，还需按使用软件时消耗的算力容量额外付费。Claude企业版是面向大型企业推出的产品组合，已推出两年，目前包含代码工具ClaudeCode及办公助手ClaudeCowork。",
+      "content": "Anthropic发言人证实，根据此次定价调整，Claude企业版客户除每月为每位用户支付20美元固定费用外，还需按使用软件时消耗的算力容量额外付费。Claude企业版是面向大型企业推出的产品组合，已推出两年，目前包含代码工具ClaudeCode及办公助手ClaudeCowork。（新浪财经）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-04-14T23:45:33.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3767287174054665?f=rss",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776210873344_7a606b98",
+      "title": "Mac 离线也能跑代码，Claude Code 新增线上自动化例程",
+      "summary": "IT之家 4 月 15 日消息，Anthropic 昨日（4 月 14 日）发布公告，宣布为 Claude Code 引入例程（routines）功能，这是一项基于 Web 基础设施的自动化服务。",
+      "content": "IT之家 4 月 15 日消息，Anthropic 昨日（4 月 14 日）发布公告，宣布为 Claude Code 引入例程（routines）功能，这是一项基于 Web 基础设施的自动化服务。 开发者可打包代码仓库和连接器的自动化任务，设定时间表或触发条件执行，核心优势在于任务运行于云端，即使 Mac 设备离线，预定任务仍能按时完成。 该功能目前以研究预览版形式发布，针对定时任务、API 工作流及 GitHub 自动化流程等任务场景，主要解决开发者手动管理 cron 作业和基础设施的痛点。 IT之家注：cron 作业是类 Unix 系统中用于定时执行任务的常用工具，传统开发者需手动编写脚本并配置服务器环境。 在订阅权限方面，Pro 用户每日可运行 5 个例程，Max 用户限额为 15 个，Team 及企业版用户则支持每日运行 25 个例程。 除例程功能外，Anthropic 还发布了重新设计的 Claude Code Mac 客户端。新版本引入并行会话功能，用户可在单一窗口内并排运行多个 Claude 会话，通过新增侧边栏统一管理。 改版后的客户端集成了终端、文件编辑器、HTML 及 PDF 预览功能，配备更快的差异查看器。界面采用拖拽式布局，开发者可根据个人习惯自由排列工作区。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/21abcb02-d127-4ec9-abcd-daa5f9b33878.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-14T23:44:47.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/939/177.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776210873532_09d4704f",
+      "title": "微软推出低成本高效文生图模型 MAI-Image-2-Efficient，成本降低 41%",
+      "summary": "IT之家 4 月 15 日消息，本月初，微软公布了一系列自研 AI 模型，其中包括具备转录、语音、图像生成下一代能力的 MAI-Transcribe-1、MAI-Voice-1 和 MAI-Image-2。",
+      "content": "IT之家 4 月 15 日消息，本月初，微软公布了一系列自研 AI 模型，其中包括具备转录、语音、图像生成下一代能力的 MAI-Transcribe-1、MAI-Voice-1 和 MAI-Image-2。 如今，这家科技巨头推出了 MAI-Image-2-Efficient，这是其旗舰级文本生成图像模型的低成本、高速版本，微软表示该版本以近一半的价格提供了可投入生产的质量。微软将该工具标榜为旗下“最佳文生图模型”，称其能生成“照片级真实且富有表现力”的图像，并能稳定生成图像内文字。 微软表示，该模型速度提升 22%，效率提升 4 倍，成本直接降低 41%。具体定价为：每百万文本输入词元（token） 5 美元（IT之家注：现汇率约合 34.2 元人民币），每百万图像输出 19.50 美元（现汇率约合 133.4 元人民币）。 MAI-Image-2-Efficient 速度似乎将超过微软旗舰模型，平均比头部云厂商模型快 40%。更值得关注的是，微软拥有两款独立的文生图模型：MAI-Image-2-Efficient 和 MAI-Image-2。 微软将前者定位为量产主力模型，适合需要“批量生成、速度与严格成本控制”的场景。该工具擅长生成产品实拍图和 UI 原型图，主要因为它能很好地处理标题、标签等短文本，还可无缝融入交互式工作流。 而 MAI-Image-2 则是追求精准度时的首选。它擅长满足高保真需求，如照片级写实场景、动漫或插画等风格化效果，以及更长、更复杂的图像内文字生成，能精准理解并输出贴合详细提示词的内容。 目前，MAI-Image-2-Efficient 已正式商用，可在微软 Foundry 和 MAI Playground 中使用。微软还承诺，很快会将该工具集成到 Copilot 和必应中。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/ae5071dc-7ad5-45b9-86b3-98d59c5cfb00.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-14T23:41:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/939/176.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1776207488113_813638c9",
       "title": "OpenAI 推出网络安全专用 AI 模型 GPT-5.4-Cyber，对标 Claude Mythos",
@@ -28,27 +64,15 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776207468712_87814d38",
-      "title": "MiniMax修改开源授权被骂疯了！限制M2.7商用、强制标注来源，却没完全撤下MIT标识",
-      "summary": "MiniMax修改开源授权被骂疯了！限制M2.7商用、强制标注来源，却没完全撤下MIT标识",
-      "content": "MiniMax修改开源授权被骂疯了！限制M2.7商用、强制标注来源，却没完全撤下MIT标识",
+      "id": "news_1776210860220_98d7c17d",
+      "title": "模力工场 036 周 AI 应用周榜：AI不只做“单点能力”，而是在拼“完整工作流”",
+      "summary": "模力工场 036 周 AI 应用周榜：AI不只做“单点能力”，而是在拼“完整工作流”",
+      "content": "模力工场 036 周 AI 应用周榜：AI不只做“单点能力”，而是在拼“完整工作流”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-14T18:36:42.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/UGpjbIzIbbxbZ3XyWeRL?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776207470806_1df9f088",
-      "title": "AI 助力 Dragonwell Native 加速：10 倍性能提升机会的自动发现实践",
-      "summary": "AI 助力 Dragonwell Native 加速：10 倍性能提升机会的自动发现实践",
-      "content": "AI 助力 Dragonwell Native 加速：10 倍性能提升机会的自动发现实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-14T14:58:12.000Z",
+      "publishedAt": "2026-04-14T20:37:39.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/L15t21Z0dk1HQmxuQDmK?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/G27veSK8ZHwhmNdHilNB?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -194,18 +218,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7952815.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776207474471_76a32e60",
-      "title": "Serverless 智能弹性与 AI 驱动的云原生数据库平台 | 腾讯云数据库 DBTalk",
-      "summary": "Serverless 智能弹性与 AI 驱动的云原生数据库平台 | 腾讯云数据库 DBTalk",
-      "content": "Serverless 智能弹性与 AI 驱动的云原生数据库平台 | 腾讯云数据库 DBTalk",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-14T10:22:17.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/video/1CcwySmxXzh7JYU5mphM?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776162149342_1e213d2a",
@@ -496,7 +508,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776207444156_0",
+      "id": "news_1776210838699_0",
       "title": "Man accused in Molotov cocktail attack of OpenAI CEO's home charged with attempted murder",
       "summary": "SPRING, Texas (AP) — The man accused of throwing a Molotov cocktail at OpenAI CEO Sam Altman’s home in San Francisco has been charged with attempting ...",
       "content": "SPRING, Texas (AP) — The man accused of throwing a Molotov cocktail at OpenAI CEO Sam Altman’s home in San Francisco has been charged with attempting to kill Altman and a security guard at the residence, San Francisco District Attorney Brooke Jenkins... [328 chars]",
@@ -508,7 +520,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776207443879_1",
+      "id": "news_1776210838387_1",
       "title": "Maniac who threw Molotov cocktail at Sam Altman’s SF mega-mansion kept terrifying list of other AI execs: court docs",
       "summary": "The man arrested for throwing a Molotov cocktail at OpenAI chief Sam Altman’s San Francisco mega-mansion had a disdain for artificial intelligence and...",
       "content": "The man arrested for throwing a Molotov cocktail at OpenAI chief Sam Altman’s San Francisco mega-mansion had a disdain for artificial intelligence and drew up a list naming other AI executives, court documents show.\nOn Friday, Daniel Moreno-Gama is a... [1724 chars]",
@@ -520,7 +532,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776207443566_2",
+      "id": "news_1776210838293_2",
       "title": "Court docs: Suspect in Molotov attack on OpenAI CEO's home opposed artificial intelligence",
       "summary": "A man who is accused of throwing a Molotov cocktail at the home of Sam Altman, OpenAI's founder, in San Francisco, was opposed to artificial intellige...",
       "content": "A man who is accused of throwing a Molotov cocktail at the home of Sam Altman, OpenAI's founder, in San Francisco, was opposed to artificial intelligence, according to court documents. The documents also showed that the man had a list of other AI tec... [928 chars]",
@@ -532,7 +544,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776207443507_3",
+      "id": "news_1776210838609_3",
       "title": "Man accused in Molotov cocktail attack of Sam Altman's home opposed AI, court documents say",
       "summary": "SPRING, Texas (AP) — The man accused of throwing a Molotov cocktail at OpenAI founder Sam Altman’s home in San Francisco was opposed to artificial int...",
       "content": "SPRING, Texas (AP) — The man accused of throwing a Molotov cocktail at OpenAI founder Sam Altman’s home in San Francisco was opposed to artificial intelligence and had list of other AI tech executives, according to court documents.\nAuthorities allege... [1754 chars]",
@@ -544,7 +556,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776207443059_4",
+      "id": "news_1776210838211_4",
       "title": "Man accused in Molotov attack of Altman home opposed AI, documents say",
       "summary": "By JUAN LOZANO and LEKAN OYEKANMI, Associated Press\nSPRING, Texas (AP) — The man accused of throwing a Molotov cocktail at OpenAI founder Sam Altman’s...",
       "content": "By JUAN LOZANO and LEKAN OYEKANMI, Associated Press\nSPRING, Texas (AP) — The man accused of throwing a Molotov cocktail at OpenAI founder Sam Altman’s home in San Francisco was opposed to artificial intelligence and had list of other AI tech executiv... [1801 chars]",
@@ -1046,18 +1058,6 @@
       "category": "国外AI",
       "originalUrl": "https://journals.plos.org/digitalhealth/article?id=10.1371%2Fjournal.pdig.0001158",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1776037568703_2d7c9f6b",
-      "title": "Anthropic 上线 Claude for Word 测试版，主打“律师的高效助理”",
-      "summary": "IT之家 4 月 13 日消息，当地时间 4 月 11 日，Anthropic 宣布推出 Claude for Word 测试版，向微软软件体系发起又一次挑战，同时也旨在吸引法律行业用户。",
-      "content": "IT之家 4 月 13 日消息，当地时间 4 月 11 日，Anthropic 宣布推出 Claude for Word 测试版，向微软软件体系发起又一次挑战，同时也旨在吸引法律行业用户。 据IT之家了解，该公司今年早些时候将 Claude 引入 Excel 和 PowerPoint，此次推出的 Word 插件面向需要大量处理文档的专业人士，尤其适宜法律审查、财务备忘录撰写以及反复编辑方面等场景。 Claude for Word 允许用户就文档内容提问，并获得带有可点击段落引用的回答。其他功能还包括：在保留周围样式、编号和格式的情况下编辑选中文本；用户可逐条接受或拒绝每一次编辑的“修订模式”。 根据发布说明，Claude 还可以处理评论线程，对锚定文本进行编辑，并回复说明所做的更改。 Anthropic 给出了律师在审阅合同时可使用的提示示例： 总结关键商业条款：合同各方、期限、适用法律，以及任何偏离市场惯例的内容。 标记偏离标准市场立场的条款，并按严重程度排序。 将赔偿条款改为对等，并插入我们的标准备选措辞。 以修订形式处理全部五条审阅意见。 对方做了哪些修改？哪些修订会成为交易障碍？ 目前，该功能仅向 Team 和 Enterprise 套餐开放。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/f101600e-2343-4e96-be33-2e4efc12ce6f.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-12T23:28:49.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/938/373.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
