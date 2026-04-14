@@ -1,18 +1,54 @@
 {
   "success": true,
-  "timestamp": "2026-04-14T21:58:59.129Z",
-  "total": 85,
+  "timestamp": "2026-04-14T22:58:09.457Z",
+  "total": 88,
   "data": [
     {
-      "id": "news_1776203925002_98d7c17d",
-      "title": "模力工场 036 周 AI 应用周榜：AI不只做“单点能力”，而是在拼“完整工作流”",
-      "summary": "模力工场 036 周 AI 应用周榜：AI不只做“单点能力”，而是在拼“完整工作流”",
-      "content": "模力工场 036 周 AI 应用周榜：AI不只做“单点能力”，而是在拼“完整工作流”",
+      "id": "news_1776207488113_813638c9",
+      "title": "OpenAI 推出网络安全专用 AI 模型 GPT-5.4-Cyber，对标 Claude Mythos",
+      "summary": "IT之家 4 月 15 日消息，OpenAI 公司昨日（4 月 14 日）发布公告，宣布扩大网络防御可信访问计划（TAC），向数千名网络安全专家及数百个团队开放 GPT-5.4-Cyber。该模型基于 GPT-5.4 模型，并针对网络安全防御场景专门微调，具有更高的网络权限许可。",
+      "content": "IT之家 4 月 15 日消息，OpenAI 公司昨日（4 月 14 日）发布公告，宣布扩大网络防御可信访问计划（TAC），向数千名网络安全专家及数百个团队开放 GPT-5.4-Cyber。该模型基于 GPT-5.4 模型，并针对网络安全防御场景专门微调，具有更高的网络权限许可。 OpenAI 强调将继续围绕着民主化访问、迭代部署与生态韧性三大核心，推进网络安全战略。IT之家援引博文介绍，在访问机制上，为了让各类合法防御者（包括保护关键基础设施的人员）都能获得先进的防御能力，OpenAI 实施强身份验证等客观标准，避免主观决定访问权限。 在生态建设方面，公司自 2023 年起启动网络安全资助计划，今年推出 Codex Security 工具，自动监控代码库并建议修复方案，目前已协助修复超过 3000 个高危及严重漏洞。 面对 AI 被攻击者利用的风险，OpenAI 认为防御能力必须与模型能力同步扩展。公司从 GPT-5.2 开始引入网络特定安全训练，并在 GPT-5.4 中将其归类为“高”网络能力等级。 GPT-5.4-Cyber 专为合法网络安全工作设计，降低了拒绝边界，支持二进制逆向工程等高级工作流，允许安全专业人员分析编译软件中的恶意软件及漏洞。 由于该模型权限更开放，OpenAI 采取有限且迭代的部署策略，仅向经过审查的安全供应商及研究人员开放。个人用户可通过官网验证身份，企业客户可通过代表申请团队访问，所有获批客户将获得在双重用途网络活动中摩擦更低的模型版本，以支持安全教育与漏洞研究。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/ead3f597-373f-45dc-b072-71eb9b911dbd.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-14T22:50:46.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/939/167.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776207488454_4a68daea",
+      "title": "谷歌 Chrome 浏览器新增 AI Skills 功能，支持保存复用提示词",
+      "summary": "IT之家 4 月 15 日消息，谷歌当地时间周二宣布，将为其 Chrome 浏览器新增更多人工智能功能。该公司将推出一项名为 Skills（技能）的新功能，允许用户保存并重复使用自己常用的 AI 提示词，这些提示词可在不同网页间通用，无需重复输入。",
+      "content": "IT之家 4 月 15 日消息，谷歌当地时间周二宣布，将为其 Chrome 浏览器新增更多人工智能功能。该公司将推出一项名为 Skills（技能）的新功能，允许用户保存并重复使用自己常用的 AI 提示词，这些提示词可在不同网页间通用，无需重复输入。 该功能与谷歌将 Gemini AI 集成到 Chrome 浏览器的举措相呼应。与此同时，浏览器生态也迎来了一批新的竞争对手，包括 OpenAI（Atlas）、Perplexity（Comet）以及 The Browser Company（Dia）等公司的产品。 Gemini 目前已支持用户针对网页提问、总结内容，或执行各类任务。而 Skills 功能将在此基础上更进一步，让用户只需点击一下，就能反复调用自己创建的 AI 提示词。 例如，谷歌举例：如果用户在浏览食谱网站时，经常让 Gemini 推荐素食替代食材，现在可以将这条提示词保存为技能，在不同网页上直接使用。 使用方法为：从聊天记录中将 AI 提示词直接保存为 Skill。之后在 Chrome 的 Gemini 中，输入斜杠（/）或点击加号（+）按钮，即可重复使用该技能。技能会在当前浏览网页及已选中的其他标签页上运行。 谷歌表示，这些技能还可随时编辑。 测试中发现，早期用户主要在健康养生（如计算食谱中的蛋白质宏量营养素）、购物比价，以及扫描并总结长文档等场景使用 Skills 功能。 为方便用户上手，谷歌还将推出技能库（Skills library），提供生产力、购物、食谱、预算等领域的常用任务和工作流模板。用户只需将预设技能添加到 Chrome 的已保存技能中即可使用，也可通过编辑提示词进行自定义，满足自身需求。 据IT之家了解，与 Chrome 中其他 Gemini 操作一样，在执行发送邮件、添加日历事件等特定操作前，Skills 会先向用户请求确认。 Skills 功能从今日起，面向已登录谷歌账号的 Chrome 桌面版用户逐步推送。初期仅在浏览器语言设置为美式英语时可用。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/6e7c9d04-2235-4eb6-9ef7-db9e70befc07.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-14T22:48:13.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/939/166.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776207468712_87814d38",
+      "title": "MiniMax修改开源授权被骂疯了！限制M2.7商用、强制标注来源，却没完全撤下MIT标识",
+      "summary": "MiniMax修改开源授权被骂疯了！限制M2.7商用、强制标注来源，却没完全撤下MIT标识",
+      "content": "MiniMax修改开源授权被骂疯了！限制M2.7商用、强制标注来源，却没完全撤下MIT标识",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-14T20:37:39.000Z",
+      "publishedAt": "2026-04-14T18:36:42.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/UGpjbIzIbbxbZ3XyWeRL?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776207470806_1df9f088",
+      "title": "AI 助力 Dragonwell Native 加速：10 倍性能提升机会的自动发现实践",
+      "summary": "AI 助力 Dragonwell Native 加速：10 倍性能提升机会的自动发现实践",
+      "content": "AI 助力 Dragonwell Native 加速：10 倍性能提升机会的自动发现实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-14T14:58:12.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/G27veSK8ZHwhmNdHilNB?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/L15t21Z0dk1HQmxuQDmK?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -158,6 +194,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7952815.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776207474471_76a32e60",
+      "title": "Serverless 智能弹性与 AI 驱动的云原生数据库平台 | 腾讯云数据库 DBTalk",
+      "summary": "Serverless 智能弹性与 AI 驱动的云原生数据库平台 | 腾讯云数据库 DBTalk",
+      "content": "Serverless 智能弹性与 AI 驱动的云原生数据库平台 | 腾讯云数据库 DBTalk",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-14T10:22:17.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/video/1CcwySmxXzh7JYU5mphM?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776162149342_1e213d2a",
@@ -448,7 +496,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776203904644_0",
+      "id": "news_1776207444156_0",
       "title": "Man accused in Molotov cocktail attack of OpenAI CEO's home charged with attempted murder",
       "summary": "SPRING, Texas (AP) — The man accused of throwing a Molotov cocktail at OpenAI CEO Sam Altman’s home in San Francisco has been charged with attempting ...",
       "content": "SPRING, Texas (AP) — The man accused of throwing a Molotov cocktail at OpenAI CEO Sam Altman’s home in San Francisco has been charged with attempting to kill Altman and a security guard at the residence, San Francisco District Attorney Brooke Jenkins... [328 chars]",
@@ -460,7 +508,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776203904112_1",
+      "id": "news_1776207443879_1",
       "title": "Maniac who threw Molotov cocktail at Sam Altman’s SF mega-mansion kept terrifying list of other AI execs: court docs",
       "summary": "The man arrested for throwing a Molotov cocktail at OpenAI chief Sam Altman’s San Francisco mega-mansion had a disdain for artificial intelligence and...",
       "content": "The man arrested for throwing a Molotov cocktail at OpenAI chief Sam Altman’s San Francisco mega-mansion had a disdain for artificial intelligence and drew up a list naming other AI executives, court documents show.\nOn Friday, Daniel Moreno-Gama is a... [1724 chars]",
@@ -472,7 +520,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776203903887_2",
+      "id": "news_1776207443566_2",
       "title": "Court docs: Suspect in Molotov attack on OpenAI CEO's home opposed artificial intelligence",
       "summary": "A man who is accused of throwing a Molotov cocktail at the home of Sam Altman, OpenAI's founder, in San Francisco, was opposed to artificial intellige...",
       "content": "A man who is accused of throwing a Molotov cocktail at the home of Sam Altman, OpenAI's founder, in San Francisco, was opposed to artificial intelligence, according to court documents. The documents also showed that the man had a list of other AI tec... [928 chars]",
@@ -484,7 +532,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776203904312_3",
+      "id": "news_1776207443507_3",
       "title": "Man accused in Molotov cocktail attack of Sam Altman's home opposed AI, court documents say",
       "summary": "SPRING, Texas (AP) — The man accused of throwing a Molotov cocktail at OpenAI founder Sam Altman’s home in San Francisco was opposed to artificial int...",
       "content": "SPRING, Texas (AP) — The man accused of throwing a Molotov cocktail at OpenAI founder Sam Altman’s home in San Francisco was opposed to artificial intelligence and had list of other AI tech executives, according to court documents.\nAuthorities allege... [1754 chars]",
@@ -496,7 +544,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776203903951_4",
+      "id": "news_1776207443059_4",
       "title": "Man accused in Molotov attack of Altman home opposed AI, documents say",
       "summary": "By JUAN LOZANO and LEKAN OYEKANMI, Associated Press\nSPRING, Texas (AP) — The man accused of throwing a Molotov cocktail at OpenAI founder Sam Altman’s...",
       "content": "By JUAN LOZANO and LEKAN OYEKANMI, Associated Press\nSPRING, Texas (AP) — The man accused of throwing a Molotov cocktail at OpenAI founder Sam Altman’s home in San Francisco was opposed to artificial intelligence and had list of other AI tech executiv... [1801 chars]",
@@ -1010,18 +1058,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/938/373.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776037569041_f7decc7f",
-      "title": "NASA 阿耳忒弥斯 2 号航天员返回休斯敦，分享飞掠月球感悟",
-      "summary": "IT之家 4 月 13 日消息，美国国家航空航天局（NASA）阿耳忒弥斯 2 号绕月任务的乘组人员已返回地球，如今回到了位于休斯敦的家中。",
-      "content": "IT之家 4 月 13 日消息，美国国家航空航天局（NASA）阿耳忒弥斯 2 号绕月任务的乘组人员已返回地球，如今回到了位于休斯敦的家中。 NASA 宇航员里德 · 怀斯曼、维克多 · 格洛弗、克里斯蒂娜 · 科赫，以及加拿大航天局的杰里米 · 汉森于美国东部时间周六（4 月 11 日）降落在埃林顿联合储备基地，这里距离 NASA 约翰逊航天中心仅有很短的车程。 该乘组搭乘 NASA 的“猎户座”飞船完成了为期 10 天的绕月任务，并于美国东部时间周五晚间（4 月 10 日）在圣地亚哥附近海域溅落。这是半个多世纪以来人类首次月球探测任务，宇航员们在太空中拍摄的震撼画面，吸引了全世界的目光。 怀斯曼、格洛弗、科赫与汉森飞往休斯敦，于美国东部时间周六下午 3 点 45 分降落在埃林顿基地。这是将他们从溅落点送回位于约翰逊航天中心的 NASA 任务控制中心及宇航员训练设施的最后一程交通。 阿耳忒弥斯 2 号于 4 月 1 日搭载 NASA 的太空发射系统（SLS）火箭升空。任务期间，飞船先进入地球轨道，随后完成了一次月球背面飞掠，创下了人类宇航员飞离地球最远的纪录。此次月球飞掠仅占用了乘组约 10 天太空任务中的一天时间，其余时间均用于穿越地球与这颗天然卫星之间的遥远距离。 在埃林顿基地着陆后，乘组人员先与家人私下团聚，随后现身机库，与亲友、NASA 同事及媒体见面。当 NASA 局长贾里德 · 艾萨克曼邀请四人登台发言时，现场响起热烈掌声。 阿耳忒弥斯 2 号指令长怀斯曼首先发言。“维克多、克里斯蒂娜、杰里米，我们将永远紧密相连，”他表示，并称这段共同经历是“我人生中最特别的事”。 “身处离家 20 多万英里的地方 —— 发射前，这仿佛是世间最伟大的梦想。可真正置身太空时，你只想回到家人和朋友身边，”怀斯曼说，“生而为人是一件幸事，生活在地球更是一件幸事。” 格洛弗紧随其后发言，坦言这段经历难以用言语形容。“我会简短说几句，因为我…… 我怕一开口就停不下来，”他说，“我还没消化完我们刚刚完成的壮举，甚至不敢试着去梳理。” “比起难以描述这段经历，更让我心怀感恩的是，我能亲眼见证宇宙的壮阔，参与这次任务，与这群伙伴并肩前行。这份感受太过宏大，远非一人所能承载。”格洛弗说道。 科赫第三个发言。她回顾了几年前被问及“团队与乘组有何区别”时自己给出的答案。“乘组，是一群无论发生什么都始终并肩同行的人，每一刻都同心协力、目标一致，甘愿为彼此默默付出，彼此包容、相互督促。乘组有着共同的牵挂与需求，彼此之间有着无法割舍、美好而尽责的联结。”科赫说道。 “当我们看到渺小的地球时，有人问我们有何感受。说实话，打动我的不只是地球本身，还有它周遭无尽的黑暗，”她继续说道，“地球就像一艘在宇宙中安然漂浮的生命之舟。” “我知道，这段旅程教会我的东西，我还未全部领悟，但有一件事我已然明了：地球，我们人类本身就是一个乘组。”科赫对着现场观众，向全人类说道。 汉森最后发言，为现场增添了几分轻松幽默。“唉，感触太多了。听你们这么说，我更绷不住了，”他谈及队友们动情的发言时笑道，还看向舞台另一头的怀斯曼打趣道，“这是我好久以来离里德最远的一次了。”（IT之家注：“猎户座”飞船内部空间约相当于两辆小型厢式货车，宇航员在太空期间共处空间十分狭小。） 随后怀斯曼起身穿过舞台，坐到汉森的座位旁，听他继续发言。汉森站在他身旁，怀斯曼轻轻将手搭在了这位队友的小腿上。“首先我要心怀感恩 —— 感谢我的家人，感谢 NASA 及其领导层，感谢加拿大航天局，”汉森说，“我想人们或许永远无法真正理解，我们得到了多么完善的保障与训练。这一切几乎令人难以置信。”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/8e730382-a37a-4b59-9720-7b1256535512.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-12T22:54:20.000Z",
-      "category": "AI趣味新闻",
-      "originalUrl": "https://www.ithome.com/0/938/365.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
