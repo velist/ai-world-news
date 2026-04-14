@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-04-14T03:32:21.715Z",
-  "total": 68,
+  "timestamp": "2026-04-14T06:07:00.485Z",
+  "total": 75,
   "data": [
+    {
+      "id": "news_1776146806571_d046a354",
+      "title": "Java近期资讯：TornadoVM 4.0、Google ADK for Java 1.0、Grails、Tomcat、Log4j和Gradle",
+      "summary": "Java近期资讯：TornadoVM 4.0、Google ADK for Java 1.0、Grails、Tomcat、Log4j和Gradle...",
+      "content": "Java近期资讯：TornadoVM 4.0、Google ADK for Java 1.0、Grails、Tomcat、Log4j和Gradle",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-14T12:19:09.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/AXhuGjl3AjN3fAyctSLV?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1776137526744_55d1e713",
       "title": "TDSQL-C AI 查询优化器：LLM 重塑 SQL 调优与计划管理 | 腾讯云数据库 DBTalk",
@@ -16,18 +28,6 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776137527885_76a32e60",
-      "title": "Serverless 智能弹性与 AI 驱动的云原生数据库平台 | 腾讯云数据库 DBTalk",
-      "summary": "Serverless 智能弹性与 AI 驱动的云原生数据库平台 | 腾讯云数据库 DBTalk",
-      "content": "Serverless 智能弹性与 AI 驱动的云原生数据库平台 | 腾讯云数据库 DBTalk",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-14T10:22:17.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/video/1CcwySmxXzh7JYU5mphM?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1776137529511_f4c378a7",
       "title": "构建 Coding Agent 的飞轮：Feedback Loop、Benchmark、Agent Engineers｜QCon北京",
       "summary": "构建 Coding Agent 的飞轮：Feedback Loop、Benchmark、Agent Engineers｜QCon北京...",
@@ -38,6 +38,54 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/ylG1DXoCyyBF65MTycHk?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776146798623_55388d9c",
+      "title": "卸任米哈游董事长后，蔡浩宇在新加坡造“活人”",
+      "summary": "卸任米哈游董事长后，蔡浩宇在新加坡造“活人”",
+      "content": "一个能陪你聊45分钟的AI数字生命诞生背后。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-14T05:37:30.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7952418.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776146800334_6fd931d4",
+      "title": "重整完成基本面焕新，算电协同重估增长空间",
+      "summary": "重整完成基本面焕新，算电协同重估增长空间",
+      "content": "金刚光伏以重整为起点，押注AI时代核心赛道，试图在产业变革中迎来属于自己的新增长周期。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-14T04:33:55.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7952219.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776146819482_9ab4d6c2",
+      "title": "单日 300 美元 Claude 预算：消息称苹果商业团队推进 AI 使用率，并挂钩招聘审批",
+      "summary": "IT之家 4 月 14 日消息，科技媒体 Wccftech 昨日（4 月 13 日）发布博文，报道称苹果内部正在加速推进 AI 应用，商业团队获每日 300 美元的 Claude 预算，配额使用较低的团队甚至面临招聘申请被拒的风险。",
+      "content": "IT之家 4 月 14 日消息，科技媒体 Wccftech 昨日（4 月 13 日）发布博文，报道称苹果内部正在加速推进 AI 应用，商业团队获每日 300 美元的 Claude 预算，配额使用较低的团队甚至面临招聘申请被拒的风险。 据知情人士透露，苹果商务拓展团队过去几周推进 AI 应用，每日 Token 预算高达 300 美元（IT之家注：现汇率约合 2053 元人民币）。 作为对比，Anthropic 官方数据显示，开发者使用 Claude Code 的月均成本在 100 至 200 美元之间，这意味着苹果为商务团队设定的单日预算，已接近甚至超过普通开发者的月度开销。 更引人关注的是，苹果将 AI 使用率与团队编制直接挂钩。当团队主管申请补缺时候，高层会优先评估该团队的 AI 使用情况。 若团队长期未消耗完每日 Token 配额，更大概率会拒绝团队招聘申请。该媒体解读认为，苹果为了提升整个团队的运行效率，通过硬性指标倒逼员工将 AI 融入日常工作流。 在消费端，苹果的 AI 战略也即将落地，新版 Siri 聊天机器人将运行于谷歌的 TPU 和云基础设施之上，但苹果强调隐私保护标准不会因此改变。 根据彭博社 Mark Gurman 的报道，该版本将深度集成于系统底层，能够调用个人数据、执行应用内操作、生成图文、编写代码并分析文件。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/135b20d2-d4ea-4f88-b149-1e47d043e7d2.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-14T04:31:53.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/938/889.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776146802068_65525a10",
+      "title": "长视频的AI竞赛：技术是门票，人才是底牌",
+      "summary": "长视频的AI竞赛：技术是门票，人才是底牌",
+      "content": "谁能圈住更多优质创作者、掌控更多核心创意，就能掌握AI时代的内容主导权。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-14T04:25:27.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.tmtpost.com/7952318.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776137540533_4b0750df",
@@ -148,6 +196,66 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1776146785169_0",
+      "title": "The Evolution of Artificial Intelligence: From Handwritten Rules to Generative and Agentic Machines",
+      "summary": "ChatGPT Conversations Are Still Accessible Through a Shady Technique Despite Attempt to Remove Them From the Internet; Grok Chats Have Also Surfaced U...",
+      "content": "\"AI\" is easily one of the most exhausted terms in tech right now. It’s a bit ironic, really, because the actual history of the field is far more interesting than the buzzword version you see on social media. Contrary to popular belief, AI isn't just ... [12931 chars]",
+      "imageUrl": "https://cdn.wccftech.com/wp-content/uploads/2026/04/The-Evolution-of-AI.jpg",
+      "source": "Wccftech",
+      "publishedAt": "2026-04-13T18:02:01.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://wccftech.com/evolution-of-artificial-intelligence-handwritten-rules-to-generative-and-agentic-machines/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1776146784672_1",
+      "title": "OpenAI CEO Sam Altman addresses Molotov cocktail attack on his home and AI backlash",
+      "summary": "By Queenie Wong, Los Angeles Times\nHours after a Molotov cocktail was thrown at his San Francisco home, OpenAI Chief Executive Sam Altman addressed th...",
+      "content": "By Queenie Wong, Los Angeles Times\nHours after a Molotov cocktail was thrown at his San Francisco home, OpenAI Chief Executive Sam Altman addressed the criticism surrounding artificial intelligence that appears to have been the impetus for the attack... [4835 chars]",
+      "imageUrl": "https://www.courant.com/wp-content/uploads/2026/04/202604131345MCT_____PHOTO____BIZ-OPENAI-ALTMAN-HOME-ATTACK-GET.jpg?w=1024&h=688",
+      "source": "Hartford Courant",
+      "publishedAt": "2026-04-13T17:45:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.courant.com/2026/04/13/openai-ceo-sam-altman-addresses-molotov-cocktail-attack-on-his-home-and-ai-backlash-3/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1776146812683_9af45d7d",
+      "title": "不用则废：开发者直面 AI 编码工具的隐性代价",
+      "summary": "不用则废：开发者直面 AI 编码工具的隐性代价",
+      "content": "不用则废：开发者直面 AI 编码工具的隐性代价",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-13T16:59:11.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/bLageDSMAujcPRLriJi5?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776146814991_5c4f24ec",
+      "title": "从拒绝 AI 到一切先问 Agent，DHH：这是我最爽的编程时刻之一，但程序员黄金时代到头了",
+      "summary": "从拒绝 AI 到一切先问 Agent，DHH：这是我最爽的编程时刻之一，但程序员黄金时代到头了",
+      "content": "从拒绝 AI 到一切先问 Agent，DHH：这是我最爽的编程时刻之一，但程序员黄金时代到头了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-13T16:19:48.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/dOey7eV1T9p3dtPWTPCV?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776146784948_2",
+      "title": "Man accused in Molotov cocktail attack of OpenAI CEO’s home opposed AI, court documents say",
+      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Virginia Because you are coming from a location (Virginia) covered by a Privacy Law, many of the features of Trib...",
+      "content": "SPRING, Texas — The man accused of throwing a Molotov cocktail at OpenAI founder Sam Altman’s home in San Francisco was opposed to artificial intelligence and had list of other AI tech executives, according to court documents.\nAuthorities allege Dani... [1749 chars]",
+      "imageUrl": "https://assets-varnish.triblive.com/2026/04/9477134_web1_9477134-160027a2498349978f2159d3f59b7bd3.jpg",
+      "source": "Pittsburgh Tribune-Review",
+      "publishedAt": "2026-04-13T15:37:29.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://triblive.com/news/world/man-accused-in-molotov-cocktail-attack-of-openai-ceos-home-opposed-ai-court-documents-say/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1776071193765_2fa5f5ba",
       "title": "Cloudflare发布Dynamic Workers公开测试版：基于Isolates的沙箱环境执行AI智能体代码",
       "summary": "Cloudflare发布Dynamic Workers公开测试版：基于Isolates的沙箱环境执行AI智能体代码...",
@@ -256,7 +364,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776137507025_0",
+      "id": "news_1776146785334_3",
       "title": "Man accused in Molotov cocktail attack of OpenAI CEO's home opposed AI, court documents say",
       "summary": "Court documents say the man accused of throwing a Molotov cocktail at OpenAI CEO Sam Altman&rsquo;s home in San Francisco was opposed to artificial in...",
       "content": "Court documents say the man accused of throwing a Molotov cocktail at OpenAI founder Sam Altman’s home in San Francisco was opposed to artificial intelligence and had list of other AI tech executives\nMan accused in Molotov cocktail attack of OpenAI C... [2230 chars]",
@@ -268,7 +376,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776137507799_1",
+      "id": "news_1776146785000_4",
       "title": "OpenAI touts Amazon alliance in memo, Microsoft 'limited our ability'",
       "summary": "OpenAI's newly appointed revenue chief, Denise Dresser, sent a memo to staffers on Sunday, touting the company's alliance with Amazon as a key growth ...",
       "content": "OpenAI's newly appointed revenue chief, Denise Dresser, sent a memo to staffers on Sunday, touting the company's alliance with Amazon as a key growth driver for its enterprise business, while noting the constraints of its longstanding tie-up with Mic... [4106 chars]",
@@ -326,18 +434,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7951204.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776137507114_2",
-      "title": "OpenAI CEO Sam Altman addresses Molotov cocktail attack on his home and AI backlash",
-      "summary": "News Nation OpenAI CEO Sam Altman addresses Molotov cocktail attack on his home and AI backlash April 13, 2026 Updated Mon., April 13, 2026 at 1:32 p....",
-      "content": "Hours after a Molotov cocktail was thrown at his San Francisco home, OpenAI Chief Executive Sam Altman addressed the criticism surrounding artificial intelligence that appears to have been the impetus for the attack.\nIn a lengthy blog post, Altman sh... [4709 chars]",
-      "imageUrl": "https://thumb.spokesman.com/3vHR3vpkaUK8OsWu_2Ai0V0yeZ8=/1200x630/smart/media.spokesman.com/photos/2026/04/13/69dd423181b24.hires.jpg",
-      "source": "Spokane Spokesman-Review",
-      "publishedAt": "2026-04-13T10:45:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.spokesman.com/stories/2026/apr/13/openai-ceo-sam-altman-addresses-molotov-cocktail-a/",
-      "aiInsight": ""
     },
     {
       "id": "news_1776051788757_f97cf00f",
@@ -592,7 +688,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776137507262_3",
+      "id": "news_1776146785941_5",
       "title": "MultiMindNet: AI-based mental health analysis using hybrid deep learning approach and Hybrid Ant-Grey Wolf Optimization (HAGWO) algorithm",
       "summary": "2. Prior work\nMany recent studies have been focused on the possible application of artificial intelligence in mental health assessment, diagnosis, and...",
       "content": "2. Prior work\nMany recent studies have been focused on the possible application of artificial intelligence in mental health assessment, diagnosis, and treatment support. Tutun et al. (2023) [13] introduced an AI-based DSS to assist in the diagnosis o... [65165 chars]",
@@ -806,18 +902,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/938/288.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1775973658778_cf9b7cba",
-      "title": "安徽省首例半侵入式脑机接口植入手术成功，患者有望重获抓、握、捏等左手精准运动功能",
-      "summary": "IT之家 4 月 12 日消息，据蚌埠医科大学第一附属医院分享，左侧肢体偏瘫 5 年的湖北恩施患者麻先生，在神经外科姜之全主任团队的帮助下成功完成安徽省首例半侵入式脑机接口植入手术，标志着安徽在脑机接口领域实现“零的突破”。",
-      "content": "IT之家 4 月 12 日消息，据蚌埠医科大学第一附属医院分享，左侧肢体偏瘫 5 年的湖北恩施患者麻先生，在神经外科姜之全主任团队的帮助下成功完成安徽省首例半侵入式脑机接口植入手术，标志着安徽在脑机接口领域实现“零的突破”。 据介绍，麻先生的芯片置入手术历时约 3 个小时，非常顺利，经过后续信号调整和康复训练后，有望重获抓、握、捏等左手的精准运动功能，实现自主喝水、持物、吃饭等基础动作。 值得一提的是，半侵入式脑机接口设备与完全侵入式（需刺入脑实质）脑机接口不同，半侵入式脑机接口通常将柔性电极植入于硬膜外或硬膜下，并不破坏大脑皮层组织。 IT之家从蚌埠医科大学第一附属医院获悉，这种新的技术路线既克服了非侵入式设备信号微弱、易受干扰的缺点，又极大降低了完全侵入式手术带来的脑组织创伤风险，实现了安全性与脑电信号采集精度的平衡，这也为大量脑卒中偏瘫患者康复带来革命性的治疗新路径。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/1df3b3b2-d4e0-4d86-b571-978566a73d2c.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-12T05:18:54.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/938/247.htm",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
