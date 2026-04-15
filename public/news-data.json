@@ -1,19 +1,67 @@
 {
   "success": true,
-  "timestamp": "2026-04-15T22:54:44.292Z",
-  "total": 77,
+  "timestamp": "2026-04-15T23:53:46.308Z",
+  "total": 75,
   "data": [
     {
-      "id": "news_1776293670010_933c0955",
-      "title": "深度访谈：阿里云X平头哥，模型推理提升13倍背后的秘密",
-      "summary": "深度访谈：阿里云X平头哥，模型推理提升13倍背后的秘密",
-      "content": "深度访谈：阿里云X平头哥，模型推理提升13倍背后的秘密",
+      "id": "news_1776297224993_bbe3b1fc",
+      "title": "Adobe 发布 Firefly AI 助手：跨应用编排工作，加速你的创意落地",
+      "summary": "IT之家 4 月 16 日消息，Adobe 加码人工智能领域，昨日（4 月 15 日）宣布推出 Firefly AI Assistant，是一款具备自主决策能力的智能体工具。 该工具定位具备 Agent（智能体）能力的创作助手，能够自主决策并执行复杂任务。",
+      "content": "IT之家 4 月 16 日消息，Adobe 加码人工智能领域，昨日（4 月 15 日）宣布推出 Firefly AI Assistant，是一款具备自主决策能力的智能体工具。 该工具定位具备 Agent（智能体）能力的创作助手，能够自主决策并执行复杂任务。与传统的指令响应式 AI 不同，智能体无需用户持续引导，只需设定目标，即可独立规划步骤并完成操作。 IT之家援引博文介绍，Adobe Firefly AI Assistant 能够跨 Creative Cloud 应用执行多步骤工作流，覆盖 Photoshop、Premiere、Lightroom、Express、Illustrator 等核心产品。 用户在 Firefly 应用内的统一对话界面中，用自然语言描述期望的结果，助手便会编排工作流、维护上下文，并将最终结果同步至各个应用。 Adobe 创意与生产力业务总裁 David Wadhwani 将此定义为“智能体创意时代”的开端。他认为，用户的视角、声音与品味将成为最强大的创作工具，AI 则扮演支持角色。助手会主动提出上下文相关问题并给出建议，用户也可随时介入，引导、优化或调整输出内容。 Adobe 为了降低使用门槛，预置了多种创意技能。例如，用户仅需单一提示词，即可通过预设方案统一修饰人像照片。 该助手还具备学习能力，随着时间推移掌握用户的偏好，从而在不同项目中保持风格一致性。此外，工具集成了 Frame.io 审阅功能，用户可要求助手整理并分享信息给利益相关者，后者可直接向助手提供可执行的反馈。 Firefly AI Assistant 目前尚未正式发布。Beta 测试者将在未来几周内获得公测版访问权限。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/e703b81a-6916-43c1-9bf7-bbf5e55cd09a.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-15T23:47:20.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.ithome.com/0/939/655.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776297187827_03f437bf",
+      "title": "OpenAI退出挪威“星门”数据中心合作，微软接手",
+      "summary": "OpenAI放弃直接从英国AI云服务商Nscale在挪威运营的数据中心租赁算力的计划。微软将接手该数据中心的剩余算力。OpenAI 表示，正与微软洽谈从其手中租赁算力。",
+      "content": "OpenAI放弃直接从英国AI云服务商Nscale在挪威运营的数据中心租赁算力的计划。微软将接手该数据中心的剩余算力。OpenAI 表示，正与微软洽谈从其手中租赁算力。（新浪财经）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-04-15T23:44:22.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3768220910912009?f=rss",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776297225149_f35913e2",
+      "title": "2022 年以来企业招聘规模下降约两成，领英高管称并不全是因为 AI",
+      "summary": "IT之家 4 月 16 日消息，当地时间 4 月 15 日，据外媒 TechCrunch 报道，领英全球事务与法务负责人布莱克 · 洛维特在本周的 Semafor 世界经济峰会上证实，领英数据显示，自 2022 年以来招聘规模下降约 20%，但这一变化并非由 AI 驱动。",
+      "content": "IT之家 4 月 16 日消息，当地时间 4 月 15 日，据外媒 TechCrunch 报道，领英全球事务与法务负责人布莱克 · 洛维特在本周的 Semafor 世界经济峰会上证实，领英数据显示，自 2022 年以来招聘规模下降约 20%，但这一变化并非由 AI 驱动。 洛维特表示，“领英拥有覆盖超过 10 亿用户的经济图谱，涵盖企业、岗位和技能，可以实时观察劳动力市场变化。针对 AI 是否已经影响就业的问题，我们进行了分析，目前尚未发现明显影响。” IT之家从报道中获悉，他指出，招聘放缓更可能与利率上升有关。“在客户支持、行政和市场营销等被认为最可能受 AI 影响的领域，我们并没有看到预期中的变化。如果 AI 已经产生影响，这些领域本应首先体现出来。招聘确实在下降，但降幅并没有进一步扩大。” 他还表示，大学毕业生等初入职场人群的招聘降幅，并未明显高于职业中后期人群。“这并不意味着未来不会发生，但目前还没有。”他同时提醒，过去几年岗位所需技能已变化约 25%，随着 AI 发展，这一比例到 2030 年可能达到 70%，“即使不换工作，岗位本身也在发生变化。”",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/5/064cca50-2baa-40ab-bbcb-39b4e830a8a2.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-15T23:41:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/939/654.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776297225304_643c760a",
+      "title": "进入新世代，宝马官宣 2026 BMW 品牌之夜 4 月 22 日举行",
+      "summary": "IT之家 4 月 16 日消息，宝马中国 4 月 14 日宣布 2026 BMW 品牌之夜将于 4 月 22 日举行，带来三大全球首发车型。",
+      "content": "IT之家 4 月 16 日消息，宝马中国 4 月 14 日宣布 2026 BMW 品牌之夜将于 4 月 22 日举行，带来三大全球首发车型。 从官方预热来看，本次活动与 BMW 新世代车型有关，包括 BMW 首创驾控超级大脑（HOJ）、BMW 首创全景 iDrive、BMW 第六代 eDrive 电驱系统 (Gen6)、BMW 智能辅助驾驶等等，号称“让电动车回归驾驶的本能”。 IT之家注意到，宝马集团此前已公布 2026 北京车展阵容，BMW、MINI 和 BMW Motorrad 三大品牌共带来 16 款新车型，其中 4 款全球首发、8 款中国首发。 据介绍，新世代 BMW iX3 与新世代 BMW i3 长轴距版迎来全球首发，深度融合中国智能 AI，全场景领航驾驶辅助将首发于国产新世代 BMW iX3。 此外，全球限量 70 台的收藏级 BMW Speedtop 概念车将迎中国首秀，MINI 品牌将携多款个性化车型登场，宝马摩托车将携旗下中大排量车型亮相，全新 BMW 7 系及全新 BMW i7 即将迎来全球首发。 IT之家注：第十九届北京车展将于 2026 年 4 月 24 日 ——5 月 3 日在北京中国国际展览中心（顺义馆）和首都国际会展中心（新国展二期）举行。 2026 北京车展将是北京车展发展历史上具有里程碑意义的重要时刻。2026 北京车展将同时使用中国国际展览中心（顺义馆）和首都国际会展中心的全部展览场馆，加上室外展出场地，展会总面积将达到北京车展创纪录的 38 万平米，展会规模处于全球车展领先地位。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/70cd37e7-9d4d-4dda-9e19-8fef07b44b8d.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-15T23:33:55.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/939/653.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776297208373_63c23be0",
+      "title": "网易智企发布企业级 AI Agent 管理平台：一人指挥一整支“龙虾军团”",
+      "summary": "网易智企发布企业级 AI Agent 管理平台：一人指挥一整支“龙虾军团”",
+      "content": "网易智企发布企业级 AI Agent 管理平台：一人指挥一整支“龙虾军团”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-15T16:27:45.000Z",
+      "publishedAt": "2026-04-15T16:56:11.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/Y2Vxov2UT0LbMjG5JjF1?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/wSpS6icWMeyHS7jmYGbK?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776269516270_9fa566c5",
@@ -76,18 +124,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776293671850_68181f93",
-      "title": "Agent 下一战，决胜“记忆”之巅——AICon 深度专题前瞻",
-      "summary": "Agent 下一战，决胜“记忆”之巅——AICon 深度专题前瞻",
-      "content": "Agent 下一战，决胜“记忆”之巅——AICon 深度专题前瞻",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-15T11:11:49.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/BFfOpHfuRzyMGE4ZL7lU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1776254464101_564867ce",
       "title": "AI培训课，中老年难逃的新“骗局”",
       "summary": "AI培训课，中老年难逃的新“骗局”",
@@ -121,18 +157,6 @@
       "publishedAt": "2026-04-15T11:01:41.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7954434.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776293673265_41273d28",
-      "title": "360doc关停之后：蔡智谈AI时代个人知识管理的商业重构",
-      "summary": "360doc关停之后：蔡智谈AI时代个人知识管理的商业重构",
-      "content": "360doc关停之后：蔡智谈AI时代个人知识管理的商业重构",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-15T10:39:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/h5FJUJKYUDYjdyaOpNBT?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -268,7 +292,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776293642236_0",
+      "id": "news_1776297180089_0",
       "title": "Why many Americans are turning to AI for health advice, according to recent polls",
       "summary": "NEW YORK (AP) — When Tiffany Davis has a question about a symptom from the weight-loss injections she’s taking, she doesn’t call her doctor. She pulls...",
       "content": "NEW YORK (AP) — When Tiffany Davis has a question about a symptom from the weight-loss injections she’s taking, she doesn’t call her doctor. She pulls out her phone and consults ChatGPT.\n“I’ll just basically let ChatGPT know my status, how I’m feelin... [1488 chars]",
@@ -280,7 +304,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776293640819_1",
+      "id": "news_1776297179833_1",
       "title": "Polls show why many Americans are turning to AI for health advice",
       "summary": "NEW YORK (AP) — When Tiffany Davis has a question about a symptom from the weight-loss injections she’s taking, she doesn’t call her doctor. She pulls...",
       "content": "NEW YORK (AP) — When Tiffany Davis has a question about a symptom from the weight-loss injections she’s taking, she doesn’t call her doctor. She pulls out her phone and consults ChatGPT.\n“I’ll just basically let ChatGPT know my status, how I’m feelin... [5683 chars]",
@@ -472,9 +496,9 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776293641173_2",
+      "id": "news_1776297179668_2",
       "title": "AI chatbots give misleading medical advice 50% of the time, study finds",
-      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Iowa Because you are coming from a location (Iowa) covered by a Privacy Law, many of the features of TribLIVE.com...",
+      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Virginia Because you are coming from a location (Virginia) covered by a Privacy Law, many of the features of Trib...",
       "content": "Artificial intelligence-driven chatbots are giving users problematic medical advice about half the time, according to a new study, highlighting the health risks of the technology that’s becoming increasingly integral in day-to-day life.\nResearchers f... [1869 chars]",
       "imageUrl": "https://assets-varnish.triblive.com/2026/04/9481830_web1_AP24162711569524.jpg",
       "source": "Pittsburgh Tribune-Review",
@@ -484,27 +508,15 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776293676853_87814d38",
-      "title": "MiniMax修改开源授权被骂疯了！限制M2.7商用、强制标注来源，却没完全撤下MIT标识",
-      "summary": "MiniMax修改开源授权被骂疯了！限制M2.7商用、强制标注来源，却没完全撤下MIT标识",
-      "content": "MiniMax修改开源授权被骂疯了！限制M2.7商用、强制标注来源，却没完全撤下MIT标识",
+      "id": "news_1776297215911_98d7c17d",
+      "title": "模力工场 036 周 AI 应用周榜：AI不只做“单点能力”，而是在拼“完整工作流”",
+      "summary": "模力工场 036 周 AI 应用周榜：AI不只做“单点能力”，而是在拼“完整工作流”",
+      "content": "模力工场 036 周 AI 应用周榜：AI不只做“单点能力”，而是在拼“完整工作流”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-14T18:36:42.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/UGpjbIzIbbxbZ3XyWeRL?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776293678697_1df9f088",
-      "title": "AI 助力 Dragonwell Native 加速：10 倍性能提升机会的自动发现实践",
-      "summary": "AI 助力 Dragonwell Native 加速：10 倍性能提升机会的自动发现实践",
-      "content": "AI 助力 Dragonwell Native 加速：10 倍性能提升机会的自动发现实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-14T14:58:12.000Z",
+      "publishedAt": "2026-04-14T20:37:39.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/L15t21Z0dk1HQmxuQDmK?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/G27veSK8ZHwhmNdHilNB?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -890,42 +902,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/938/849.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776124465907_6402ec61",
-      "title": "用户指控微软与 OpenAI 合谋抬高 ChatGPT Plus 价格，微软申请法院驳回反垄断案",
-      "summary": "IT之家 4 月 14 日消息，用户指控微软与 OpenAI 合作导致抬高 ChatGPT Plus 的订阅价格、服务质量下降。 对此，微软要求法院不予受理此次反垄断诉讼，理由是这些指控依赖于推测，而缺乏直接损害的证据，这导致 ChatGPT Plus 用户群体在法庭上面临阻力。",
-      "content": "IT之家 4 月 14 日消息，用户指控微软与 OpenAI 合作导致抬高 ChatGPT Plus 的订阅价格、服务质量下降。 对此，微软要求法院不予受理此次反垄断诉讼，理由是这些指控依赖于推测，而缺乏直接损害的证据，这导致 ChatGPT Plus 用户群体在法庭上面临阻力。 微软在提交给法院的文件中表示，该诉讼应被驳回，因为用户是从 OpenAI 购买的服务，而不是从微软购买。微软辩称，这一主体分离意味着原告无法证明其遭受了反垄断法所要求的“直接伤害”。 即便法官认为案件可以继续审理，微软也表示，该争议应属于仲裁范畴，而非联邦法院管辖。 微软律师朱莉娅 · 查普曼辩称，用户在注册 ChatGPT 时已接受仲裁条款，而这些条款同样应适用于与该项服务紧密相关的索赔主张。“衡平法上的禁止反言原则正是为了防止原告钻空子。” IT之家注：衡平法在普通法系中，是指历史上普通法系的司法系统针对普通法的不足，而发展出的一系列法律原则。亚里士多德认为衡平法和法律相互关联，但是衡平法是“更好形式的司法公正”，衡平法需要跳出法律的限制，以更“公正”来用来修改法律的严酷，从而让司法更加公正。 原告律师不同意这一观点，他认为订阅用户从未同意与微软通过仲裁解决争议。原告律师布莱恩 · 邓恩表示，将仲裁保护延伸到原始协议之外的公司，超出了该原则允许的范围。 在听证会上，法官 P· 凯西 · 皮茨对微软的仲裁论点表示怀疑。他指出，用户协议之间可能存在某些关联，但他质疑 OpenAI 的条款是否应当对针对微软的索赔具有约束力。“也许存在一些‘重叠’，”皮茨说道，“但我不明白为什么我必须去考虑那份与 OpenAI 的协议。” 简单来说，此次争议的核心在于，原告指控微软要求 OpenAI 只能使用其 Azure 服务器来提供运行 ChatGPT 所需的计算资源。 原告认为，依赖单一供应商限制了算力输出，导致成本上升和速度下降。微软则否认这些指控，称订阅价格完全由 OpenAI 制定，与微软无关。 微软法律团队还辩称，所谓的协议涉及的是云基础设施服务，而原告声称受到损害的却是消费级 AI 市场，两者之间存在鸿沟，这将削弱反垄断案件的根基。“这根本不是一项本质上非法的横向协议，”微软律师科恩表示，“法律对此规定得清清楚楚。”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/643ff5d3-4f29-4172-b081-0f67df014741.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-13T23:52:20.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/938/764.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776124466060_ef304294",
-      "title": "我国首次发布东部海域“海底化学元素图”，覆盖渤海黄海东海",
-      "summary": "IT之家 4 月 14 日消息，一层层堆积在海底的泥沙和生物遗骸，如同连续的地质记录，保存着数百万年来大陆漂移、气候变迁以及河流改道等信息。",
-      "content": "IT之家 4 月 14 日消息，一层层堆积在海底的泥沙和生物遗骸，如同连续的地质记录，保存着数百万年来大陆漂移、气候变迁以及河流改道等信息。 据央视新闻今日报道，中国地质调查局近日首次正式发布近 20 年我国东部海域海洋地质调查成果，并绘制出了一份详尽的“海底化学元素地图”，为相关海岸带及海域空间规划、生态环境保护、资源勘查等工作提供精准的数据支撑。 此次研究填补了我国东部海域沉积物地球化学系统性编图的空白，提升了我国在全球边缘海研究领域的学术话语权。 IT之家注：中国东部海域包括渤海、黄海、东海等，是连接亚欧大陆与太平洋的关键海域。 通过此次系统的调查研究，科研团队集成的表层沉积物实测与机器学习数据超过 2 万个站位，形成了迄今为止中国东部海域覆盖范围最广、数据维度最全、质量可靠性最高的地球化学数据集，实现了对中国东部海域沉积物从陆地到海洋全过程的地球化学解析。 科研人员把铁、锰、铜、稀土等几十种化学元素的位置、含量、分布规律绘制成图，形成了《中国东部海域沉积物地球化学图集》，该图集被视为我国东部海域海洋开发保护的“总导航图”。 自然资源部中国地质调查局青岛海洋地质研究所研究员窦衍光介绍称，通过元素分布能够快速识别污染区和生态敏感区，有助于划定海洋生态保护红线，管控海洋污染与风险；同时可以精准锁定海底矿产资源的潜在分布区，减少盲目勘探；该图集还可为相关科学研究提供数据支撑，助力科学家解读海洋的地质演化历史。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/5a79e487-c535-47b3-bc54-ca8f704c13c8.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-13T23:34:34.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/938/761.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776124441538_c7855101",
-      "title": "【钛晨报】李强签署国务院令，公布《中华人民共和国反外国不当域外管辖条例》；央行2026年3月重要金融数据出炉，M2-M1剪刀差连续10个月保持在5个百分点以内；多家龙头公司辟谣：多晶硅控产挺价传闻不实",
-      "summary": "【钛晨报】李强签署国务院令，公布《中华人民共和国反外国不当域外管辖条例》；央行2026年3月重要金融数据出炉，M2-M1剪刀差连续10个月保持在5个百分点以内；多家龙头公司辟谣：多晶硅控产挺价传闻不实...",
-      "content": "荣耀发布自研龙虾AI智能体；据报软银、本田及索尼等日企组新公司发展人工智能；苹果智能眼镜据悉已进入密集测试阶段，预计2027年亮相；OpenAI将于2027年在伦敦设立首个永久性办公室；中共中央办公厅、国务院办公厅发布推动行业协会商会深化改革的意见；香港交易所推出两项科技主题指数；高盛股票交易业务收入再创新高，较此前纪录高出逾10亿美元；宁德时代据悉考虑出售不超50亿美元股票；中国网络文学阅读市场规模达502.1亿元，同比增长16.6%",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-13T23:20:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/7951509.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
