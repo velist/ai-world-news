@@ -1,67 +1,79 @@
 {
   "success": true,
-  "timestamp": "2026-04-16T08:50:39.895Z",
-  "total": 90,
+  "timestamp": "2026-04-16T10:23:06.033Z",
+  "total": 83,
   "data": [
     {
-      "id": "news_1776329420433_7a7f3086",
-      "title": "3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第一个月卖了10万美元",
-      "summary": "3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第一个月卖了10万美元",
-      "content": "3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第一个月卖了10万美元",
+      "id": "news_1776334966183_f7fc16e2",
+      "title": "阿里“快乐马”团队再出手！世界模型 HappyOyster 来了，正面叫板谷歌 Genie 3",
+      "summary": "阿里“快乐马”团队再出手！世界模型 HappyOyster 来了，正面叫板谷歌 Genie 3",
+      "content": "阿里“快乐马”团队再出手！世界模型 HappyOyster 来了，正面叫板谷歌 Genie 3",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-16T16:49:41.000Z",
+      "publishedAt": "2026-04-16T17:35:00.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/aabRtNR5WreQuo4Kt4h9?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/XhNNKN6qY4YNml04B0fF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776334977173_24c7a88c",
+      "title": "Airbnb 将高吞吐指标采集管道迁移至 OpenTelemetry",
+      "summary": "Airbnb 将高吞吐指标采集管道迁移至 OpenTelemetry",
+      "content": "Airbnb 将高吞吐指标采集管道迁移至 OpenTelemetry",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-16T12:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/PegogtX4txhVdQmex0Og?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776329422363_2572c7e2",
-      "title": "世界变了、Linus妥协了？AI代码可以进Linux内核，但出了事人来背",
-      "summary": "世界变了、Linus妥协了？AI代码可以进Linux内核，但出了事人来背",
-      "content": "世界变了、Linus妥协了？AI代码可以进Linux内核，但出了事人来背",
+      "id": "news_1776334953388_f82fda4e",
+      "title": "佑驾创新与荣耀达成合作",
+      "summary": "36氪获悉，佑驾创新宣布与荣耀达成合作，双方将依托无人物流车与机器人，共同探索工业制造物流、末端配送等垂直场景的落地应用，构建“无人车+机器人”的物流无人化闭环。",
+      "content": "36氪获悉，佑驾创新宣布与荣耀达成合作，双方将依托无人物流车与机器人，共同探索工业制造物流、末端配送等垂直场景的落地应用，构建“无人车+机器人”的物流无人化闭环。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-16T16:42:05.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/h4WPj7MeydhFDpsOqyCl?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776329424172_fe6a548b",
-      "title": "蚂蚁灵波开源LingBot-Map：仅需一个 RGB 摄像头，就能让机器人“理解”真实世界",
-      "summary": "蚂蚁灵波开源LingBot-Map：仅需一个 RGB 摄像头，就能让机器人“理解”真实世界",
-      "content": "蚂蚁灵波开源LingBot-Map：仅需一个 RGB 摄像头，就能让机器人“理解”真实世界",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-16T15:07:07.000Z",
+      "source": "36氪",
+      "publishedAt": "2026-04-16T10:21:12.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/d2ODNNUg38yOQZyuUwUY?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://36kr.com/newsflashes/3769350098912000?f=rss",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776329425682_7af075f7",
-      "title": "Anthropic 的论文探讨了大语言模型中类情绪机制对行为的影响",
-      "summary": "Anthropic 的论文探讨了大语言模型中类情绪机制对行为的影响",
-      "content": "Anthropic 的论文探讨了大语言模型中类情绪机制对行为的影响",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-16T15:00:00.000Z",
+      "id": "news_1776334984870_ba35ecf9",
+      "title": "欧盟委员会：谷歌应允许第三方搜索引擎获取搜索数据",
+      "summary": "IT之家 4 月 16 日消息，欧盟委员会已向谷歌发送初步调查结果，列明了为遵守《数字市场法案》（DMA）而拟采取的措施。根据这些拟议措施，谷歌应允许第三方搜索引擎以公平、合理且非歧视的条款获取搜索数据，包括排名、查询、点击和浏览数据。",
+      "content": "IT之家 4 月 16 日消息，欧盟委员会已向谷歌发送初步调查结果，列明了为遵守《数字市场法案》（DMA）而拟采取的措施。根据这些拟议措施，谷歌应允许第三方搜索引擎以公平、合理且非歧视的条款获取搜索数据，包括排名、查询、点击和浏览数据。 这些措施旨在让第三方在线搜索引擎（即“数据受益方”）优化其搜索服务，并与谷歌搜索展开竞争。 IT之家注意到，拟议措施涵盖以下内容： 可获取搜索数据的受益方资格，包括具备搜索功能的人工智能（AI）聊天机器人； 谷歌必须共享的搜索数据范围； 谷歌共享搜索数据的方式与频率； 确保个人数据匿名化的措施； 为搜索数据设定公平、合理、非歧视价格的参数； 规范受益方获取搜索数据的流程。 为确保这些拟议措施切实有效，欧盟委员会邀请相关方通过公开咨询对其发表意见。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/9/2d16eb63-477a-41a8-9dd4-bfe3df5771fa.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-16T10:04:46.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/3z0Q6dZ0YO4dzN9Qwmf8?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.ithome.com/0/940/019.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776329427327_836ff49d",
-      "title": "神秘模型排名超 Gemma 4 31B：不跟 Qwen 硬刚，主打“快”和“省 token”",
-      "summary": "神秘模型排名超 Gemma 4 31B：不跟 Qwen 硬刚，主打“快”和“省 token”",
-      "content": "神秘模型排名超 Gemma 4 31B：不跟 Qwen 硬刚，主打“快”和“省 token”",
+      "id": "news_1776334985031_e469a505",
+      "title": "我国科研团队开创关键金属绿色提取新技术",
+      "summary": "IT之家 4 月 16 日消息，能否实现关键金属的高效回收、替代提取与循环利用，直接关系到国家在新能源时代产业竞争力和科技自主权。据央视新闻今日报道，我国科研团队开创关键金属绿色提取新技术。",
+      "content": "IT之家 4 月 16 日消息，能否实现关键金属的高效回收、替代提取与循环利用，直接关系到国家在新能源时代产业竞争力和科技自主权。据央视新闻今日报道，我国科研团队开创关键金属绿色提取新技术。 报道提到，中国科学院青岛生物能源与过程研究所、太阳能光电转化与利用全国重点实验室高军研究员、李朝旭教授联合中国科学院理化技术研究所江雷研究员等人组成科研团队，成功开发出一种受生物钙离子通道启发的普适性重金属离子膜分离方法。 该方法可高效、绿色、选择性地提取铀、铜、金等多种对新能源至关重要的重金属资源，有望解决传统重金属资源提取技术高污染、低效率、高能耗的长期难题，推动关键金属提取向绿色化、高效化变革，为我国矿产供应链自主可控提供技术支撑。 另外，在当前全球能源结构深度转型与大国战略资源竞争日趋激烈的背景下，这项研究还有望引发关键金属资源提取技术的绿色变革，为我国构建自主可控的关键矿产供应链提供了新方法、新理论。目前团队正在努力解决规模化制造仿钙离子通道分离膜问题，推动应用。 目前，相关研究成果以《Versatile heavy metal ion separation via biological ion-channel-inspired membranes》发表在国际顶级学术期刊《自然-纳米技术》上，青岛能源所助理研究员赵永晔和副研究员高宏飞为论文共同第一作者，高军研究员和李朝旭研究员为论文通讯作者。 本研究得到了国家自然科学基金、青岛能源所 / 山东能源研究院“强基计划”等项目的支持。IT之家附论文链接： https://www.nature.com/articles/s41565-026-02147-8",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/4fd521b3-2e12-45a0-9fb7-fcac9760352e.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-16T09:32:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/940/006.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776334958943_b4458a79",
+      "title": "挑战闭源格局！腾讯混元3D世界模型2.0开源发布，性能对标商业级模型",
+      "summary": "点云F1-score达43.16，超越SEVA、Gen3C等模型30%以上，开源生态迎来“鲶鱼效应”？...",
+      "content": "点云F1-score达43.16，超越SEVA、Gen3C等模型30%以上，开源生态迎来“鲶鱼效应”？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-16T14:48:12.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-16T08:57:00.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/t9ZBwRdLF4cRKqIMNYXY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.tmtpost.com/7955800.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776329438606_ee1ecf72",
@@ -388,16 +400,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776329433081_933c0955",
-      "title": "深度访谈：阿里云X平头哥，模型推理提升13倍背后的秘密",
-      "summary": "深度访谈：阿里云X平头哥，模型推理提升13倍背后的秘密",
-      "content": "深度访谈：阿里云X平头哥，模型推理提升13倍背后的秘密",
+      "id": "news_1776334978966_63c23be0",
+      "title": "网易智企发布企业级 AI Agent 管理平台：一人指挥一整支“龙虾军团”",
+      "summary": "网易智企发布企业级 AI Agent 管理平台：一人指挥一整支“龙虾军团”",
+      "content": "网易智企发布企业级 AI Agent 管理平台：一人指挥一整支“龙虾军团”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-15T16:27:45.000Z",
+      "publishedAt": "2026-04-15T16:56:11.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/Y2Vxov2UT0LbMjG5JjF1?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/wSpS6icWMeyHS7jmYGbK?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776269516270_9fa566c5",
@@ -628,7 +640,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776329392825_0",
+      "id": "news_1776334944678_0",
       "title": "Why many Americans are turning to AI for health advice, according to recent polls",
       "summary": "NEW YORK (AP) — When Tiffany Davis has a question about a symptom from the weight-loss injections she’s taking, she doesn’t call her doctor. She pulls...",
       "content": "NEW YORK (AP) — When Tiffany Davis has a question about a symptom from the weight-loss injections she’s taking, she doesn’t call her doctor. She pulls out her phone and consults ChatGPT.\n“I’ll just basically let ChatGPT know my status, how I’m feelin... [1488 chars]",
@@ -640,7 +652,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776329392818_1",
+      "id": "news_1776334945140_1",
       "title": "Polls show why many Americans are turning to AI for health advice",
       "summary": "NEW YORK (AP) — When Tiffany Davis has a question about a symptom from the weight-loss injections she’s taking, she doesn’t call her doctor. She pulls...",
       "content": "NEW YORK (AP) — When Tiffany Davis has a question about a symptom from the weight-loss injections she’s taking, she doesn’t call her doctor. She pulls out her phone and consults ChatGPT.\n“I’ll just basically let ChatGPT know my status, how I’m feelin... [5727 chars]",
@@ -832,9 +844,9 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776329392353_2",
+      "id": "news_1776334944199_2",
       "title": "AI chatbots give misleading medical advice 50% of the time, study finds",
-      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Virginia Because you are coming from a location (Virginia) covered by a Privacy Law, many of the features of Trib...",
+      "summary": "Quick Links ETRIB High School Sports Network TribLIVE Local Newsletters Advertise Classifieds Jobs Feedback / Issues -->...",
       "content": "Artificial intelligence-driven chatbots are giving users problematic medical advice about half the time, according to a new study, highlighting the health risks of the technology that’s becoming increasingly integral in day-to-day life.\nResearchers f... [1869 chars]",
       "imageUrl": "https://assets-varnish.triblive.com/2026/04/9481830_web1_AP24162711569524.jpg",
       "source": "Pittsburgh Tribune-Review",
@@ -986,102 +998,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7952815.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776162149342_1e213d2a",
-      "title": "阿里AI大集权，为什么是吴泳铭？",
-      "summary": "阿里AI大集权，为什么是吴泳铭？",
-      "content": "云、淘天、Token，力出一孔才能赢。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-14T10:09:05.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7951110.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776162150866_8d846ad0",
-      "title": "一份内部备忘录，暴露了OpenAI最真实的焦虑与野心",
-      "summary": "一份内部备忘录，暴露了OpenAI最真实的焦虑与野心",
-      "content": "古今中外，所谓“全员信”无不是给外人看的。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-14T10:04:44.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7952622.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776137529511_f4c378a7",
-      "title": "构建 Coding Agent 的飞轮：Feedback Loop、Benchmark、Agent Engineers｜QCon北京",
-      "summary": "构建 Coding Agent 的飞轮：Feedback Loop、Benchmark、Agent Engineers｜QCon北京...",
-      "content": "构建 Coding Agent 的飞轮：Feedback Loop、Benchmark、Agent Engineers｜QCon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-14T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/ylG1DXoCyyBF65MTycHk?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776162154506_3eedbc60",
-      "title": "Hermes Agent，反“龙虾”情绪的一次烟花",
-      "summary": "Hermes Agent，反“龙虾”情绪的一次烟花",
-      "content": "Hermes Agent发布0.9.0功能，支持原生微信Callback。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-14T09:59:37.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/7952589.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776162156040_36dafdf6",
-      "title": "AI裁员，裁到了“消费”这根大动脉？",
-      "summary": "AI裁员，裁到了“消费”这根大动脉？",
-      "content": "他们知道，但没人愿意说会裁多少人。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-14T09:52:53.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7952590.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776162158365_dc9ac9ac",
-      "title": "AI时代的老板糊弄学",
-      "summary": "AI时代的老板糊弄学",
-      "content": "它教人在老板的焦虑和工作现实之间，找到一条成本最低的生存路径。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-14T09:43:55.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7952580.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776162176532_6b7da176",
-      "title": "全国首个：中国移动、华为等联合打造养老院里的“隐形守护者”，秒级 AI 识别老人摔倒",
-      "summary": "IT之家 4 月 14 日消息，我国每年 65 岁以上人群中每 10 人就有 3 人经历过跌倒，而 70% 以上的致命性跌倒事件，恰恰发生在卧室、卫生间等私密性最高的空间。传统视觉类摄像头方案在这些场景中难以适用，老人与家属对 24 小时视觉影像监控心存抵触，隐私保护与安全保障难以两全。",
-      "content": "IT之家 4 月 14 日消息，我国每年 65 岁以上人群中每 10 人就有 3 人经历过跌倒，而 70% 以上的致命性跌倒事件，恰恰发生在卧室、卫生间等私密性最高的空间。传统视觉类摄像头方案在这些场景中难以适用，老人与家属对 24 小时视觉影像监控心存抵触，隐私保护与安全保障难以两全。 华为光网官方今日发文，由中国移动杭州研发中心联合中国移动黑龙江绥化分公司、江西合一云数据科技股份有限公司、华为共同打造的全国首个“3D 光感知 + 摄像头 +FTTR”智慧康养标杆在黑龙江兰西县中心敬老院率先落地。 中国移动联合华为打造的创新产品 3D 光感知设备采用激光雷达技术，通过发射近红外激光生成三维点云图，仅识别人体轮廓与动作幅度，全程采用 3D 点云记录，彻底消除隐私泄露风险。 ▲ 3D 光感知设备实时动作识别 该设备不受环境光线干扰，无论白天黑夜均能精准捕捉高度变化、姿态异常。当老人在卫生间意外跌倒或长时间滞留，系统秒级触发 AI 识别，3 秒内通过电话、App、监控大屏三重告警，确保护理员在“黄金 10 分钟”内抵达处理。全院已实现“一床一监测、无盲区感知”，识别准确率达 95% 以上，让老人在“无感”中享受“有质”服务。 IT之家获悉，该一体化解决方案可应对复杂场景的差异化需求： 在公共区域部署高清摄像头进行视觉识别 在卧室、走廊等通过 FTTR Wi-Fi 感知人员状态变化 在卫生间、床头则安装 3D 激光雷达感知异常变化 当摄像头未捕捉到老人在客厅活动，而 Wi-Fi 感知也长时间未监测到卧室动静时，AI 结合当下时间与老人作息习惯，自动判断“久睡未起、久坐不动、久出未归”等风险，分钟级生成告警。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/c0658f03-bc59-4b58-b120-e566747b0254.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-14T09:42:16.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/939/061.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776162176691_651565b4",
-      "title": "央视曝光“AI 换脸”黑产链：上游窃信息、中游开培训、下游行诈骗",
-      "summary": "IT之家 4 月 14 日消息，据央视网报道，随着 AI 换脸技术升级和应用的普及，当前利用 AI 换脸技术实施犯罪的现象也愈演愈烈。有人利用 AI 换脸冒充受害人的亲朋好友实施诈骗，有人利用 AI 换脸绕过人脸识别系统侵入他人账户。",
-      "content": "IT之家 4 月 14 日消息，据央视网报道，随着 AI 换脸技术升级和应用的普及，当前利用 AI 换脸技术实施犯罪的现象也愈演愈烈。有人利用 AI 换脸冒充受害人的亲朋好友实施诈骗，有人利用 AI 换脸绕过人脸识别系统侵入他人账户。 例如，近期内蒙古鄂尔多斯警方查获一起 AI 换脸案，受害者李女士被一个自称老同学“贾某”的人诈骗，对方通过 QQ 发来了视频通话邀请，其中可以看到所谓老同学的样貌。 在李女士放松戒备后，所谓的老同学“贾某”就以遇到急事，想借李女士的账户做个资金周转的桥梁为由，忽悠李女士将 40 万元现金转到了诈骗账户上。好在警方启动了紧急止付机制，成功将被骗的 40 万元拦截。 除此之外，近期南京警方侦破一起 AI“换脸”诈骗购物案，案件中的被害人朱先生收到一条扣款验证码信息，起初朱先生以为是诈骗短信并未在意。直到四天后，朱先生打开手机银行才发现，自己账户被某电商平台分两笔扣除共计 15996 元。朱先生当即给该电商平台客服打电话核实，得知这两笔钱用来购买了两部苹果手机，并已在深圳收货成功。 南京警方接到被害人报案后，很快锁定犯罪嫌疑人符某，并在湖南将其抓获。在符某的出租屋内，民警现场查扣 38 部手机，并在符某的网盘内发现了他非法获取的 195 万多条公民个人信息和多款 AI 换脸软件。 对此，奇安信算法工程师介绍，如今网络上正形成一条隐形的 AI 换脸黑产。最上游负责从多种渠道拿到真实人脸数据和信息，中游通过各种技术培训 AI 换脸视频和诈骗话术，下游通过 AI 换脸实施犯罪。在这类犯罪中，获取被害人的通讯录、照片库等个人隐私信息，则是“AI 换脸”类犯罪的重要前提之一。 为遏制侵犯公民个人信息犯罪等网络犯罪，公安部等部门连续多年开展“净网”专项行动，成功捣毁一批个人信息交易平台。同时，中央网信办、工业和信息化部、公安部近日会同相关部门，部署开展新一轮个人信息保护系列专项行动，进一步深入治理 App、软件开发工具包等服务产品以及互联网广告、教育、交通、卫生健康、金融等重点领域违法违规收集使用个人信息典型问题。 专家表示，维护网络安全需要制度建设与技术创新并重，制度为技术的应用提供保障，技术则为制度的落地提供可行路径。利用 AI 技术实施的犯罪，最终也会随着 AI 技术的进步而减少。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/b0904188-4cf5-4235-bff2-0e651d24689d.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-14T09:07:12.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/939/056.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
