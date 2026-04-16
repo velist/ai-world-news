@@ -1,8 +1,56 @@
 {
   "success": true,
-  "timestamp": "2026-04-16T22:54:09.138Z",
-  "total": 89,
+  "timestamp": "2026-04-16T23:53:13.984Z",
+  "total": 87,
   "data": [
+    {
+      "id": "news_1776383592506_13ca9cf7",
+      "title": "挑战谷歌：OpenAI 推出生物学专用 AI 模型 GPT-Rosalind",
+      "summary": "IT之家 4 月 17 日消息，OpenAI 周四宣布推出 GPT-Rosalind，这是一款专为生物学工作流训练的大语言模型。与谷歌、微软等科技巨头推出的通用科学模型不同，GPT-Rosalind 走垂直路线，专注于生物学领域。",
+      "content": "IT之家 4 月 17 日消息，OpenAI 周四宣布推出 GPT-Rosalind，这是一款专为生物学工作流训练的大语言模型。与谷歌、微软等科技巨头推出的通用科学模型不同，GPT-Rosalind 走垂直路线，专注于生物学领域。 在发布会上，OpenAI 生命科学（Life Sciences Research）产品负责人王昀昀（Yunyun Wang）表示，该模型目的是解决生物学研究者面临的两大核心障碍：数十年基因组测序积累的海量数据，以及高度细分的专业术语壁垒。 生物学研究正面临信息过载困境。一位专注于特定基因的遗传学家，在面对海量的神经生物学文献时往往束手无策。 IT之家援引博文介绍，OpenAI 针对这一痛点，在通用大模型基础上，引入 50 种常见生物工作流，以及主流公共数据库访问能力，通过专项训练让模型能够通过已知通路和调控机制连接基因型与表型，推断蛋白质的结构或功能属性，并据此筛选潜在药物靶点。 为了抑制大语言模型常见的“阿谀奉承”倾向，OpenAI 针对性调整 GPT-Rosalind，让其更具批判性思维。当面对低价值靶点时，模型更倾向于直接否定而非盲目附和。 幻觉问题仍是悬而未决的挑战。大语言模型在解释推理步骤时，可能生成看似合理实则错误的内容，这在严谨的科学研究中风险极高。 基于过往经验，该模型既可能会产出令人惊喜的意外关联，也会给出明显错误的建议。OpenAI 坦言尚未完全解决这一顽疾，用户需保持审慎态度。 生物安全风险是另一重考量。若被恶意利用以优化病毒传染性，后果不堪设想。因此 OpenAI 实施严格的访问限制，目前仅限美国本土实体通过可信访问部署框架申请使用。同时，功能受限的生命科学研究插件将面向更广泛用户开放。 OpenAI 联合创始人 Greg Brockman 表示，GPT-Rosalind 是 OpenAI 用于生命科学研究的前沿模型，朝着加速科学发展和改善人类福祉这个目标迈进。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/a2a09b78-3088-410e-afe6-ad6e6fd0bd1d.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-16T23:49:56.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/940/115.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776383562353_b671d637",
+      "title": "谷歌推出用于生成合成人工智能数据集的Simula",
+      "summary": "当地时间4月16日，谷歌推出专为构建定制化AI设计的合成数据生成框架“Simula”。谷歌指出，AI的大规模集成需要模型具备处理稀缺、隐私敏感或非常规应用场景的能力，而传统的互联网数据正面临成本高、获取难及合规风险等挑战。",
+      "content": "当地时间4月16日，谷歌推出专为构建定制化AI设计的合成数据生成框架“Simula”。谷歌指出，AI的大规模集成需要模型具备处理稀缺、隐私敏感或非常规应用场景的能力，而传统的互联网数据正面临成本高、获取难及合规风险等挑战。Simula通过“首要原则”和机制设计提供更严谨的合成数据，弥补了现有生成方法缺乏逻辑精度的缺陷。（界面）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-04-16T23:38:13.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://36kr.com/newsflashes/3770133608055557?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776383592666_7c83c605",
+      "title": "影像升级：消息称苹果 iPhone 18 Pro 可变光圈致动器已启动量产",
+      "summary": "IT之家 4 月 17 日消息，韩媒 ETNews 昨日（4 月 16 日）发布博文，报道称苹果 iPhone 18 Pro 系列核心影像组件可变光圈致动器已进入量产阶段。",
+      "content": "IT之家 4 月 17 日消息，韩媒 ETNews 昨日（4 月 16 日）发布博文，报道称苹果 iPhone 18 Pro 系列核心影像组件可变光圈致动器已进入量产阶段。 IT之家援引 ET News 供应链消息，中国舜宇光学已启动生产致动器，LG Innotech 也在韩国龟尾工厂部署专用设备，为大规模量产做准备。 可变光圈堪称 iPhone 影像系统近年来最重要的硬件升级。传统手机镜头光圈固定，进光量无法物理调节。 可变光圈通过致动器移动镜头组件，物理改变孔径大小，让用户能精准控制景深。强光场景下缩小光圈可避免过曝，暗光环境下则开大光圈提升进光量，无需依赖算法补偿。 对于用户实际体验而言，在日常拍摄时相机不再仅靠计算摄影算法模拟，而是获得真实的光学虚化效果。 供应链分工方面，LG Innotech 曾为 iPhone 15 Pro Max 独家供应四重反射棱镜长焦模组，此次负责可变光圈系统的研发与量产准备。舜宇光学与立讯精密则参与致动器制造，目前舜宇已开工，立讯进度尚未明确。 iPhone 18 Pro 系列预计 2026 年 9 月发布，可变光圈将成为核心卖点。另有传闻称该系列可能缩小灵动岛区域，但具体落地时间存在 2026 年与 2027 年两种说法。 相关阅读： 《消息称大立光电婉拒苹果加单，iPhone 18 Pro / Max 可变光圈镜头由舜宇光学主供》 《苹果 iPhone 18 Pro / Pro Max 手机升级要点前瞻：灵动岛缩小、可变光圈，A20 Pro 芯片配 C2 基带》 《消息称受苹果 iPhone 18 Pro 传闻影响，三星计划为 Galaxy S27 系列手机带回可变光圈摄像头》 《苹果 iPhone 18 Pro 渲染视频曝光：单打孔、可变光圈》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/1/547b03ce-7750-4851-84d4-f17eb2340d51.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1",
+      "source": "IT之家",
+      "publishedAt": "2026-04-16T23:19:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/940/108.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776383592814_4d1a6836",
+      "title": "神舟二十一号乘组圆满完成第三次出舱活动，张陆 7 次出舱刷新中国航天员纪录",
+      "summary": "IT之家 4 月 17 日消息，据中国载人航天工程办公室，北京时间 2026 年 4 月 17 日 01 时 36 分，经过约 5.5 小时的出舱活动，神舟二十一号乘组航天员张陆、武飞、张洪章密切协同，在空间站机械臂和地面科研人员的配合支持下，圆满完成空间碎片防护装置安装、舱外设备设施巡检等任务。",
+      "content": "IT之家 4 月 17 日消息，据中国载人航天工程办公室，北京时间 2026 年 4 月 17 日 01 时 36 分，经过约 5.5 小时的出舱活动，神舟二十一号乘组航天员张陆、武飞、张洪章密切协同，在空间站机械臂和地面科研人员的配合支持下，圆满完成空间碎片防护装置安装、舱外设备设施巡检等任务。 IT之家从公告获悉，出舱航天员张陆、武飞已安全返回问天实验舱，出舱活动取得圆满成功。截至目前，航天员张陆已累计进行 7 次出舱活动，刷新了中国航天员个人出舱活动次数的纪录。 自 3 月 16 日圆满完成第二次出舱活动以来，神舟二十一号航天员乘组稳步推进空间生命科学与人体研究、微重力物理科学等领域实（试）验任务，持续开展站内环境监测、设备检查维护、物资整理等工作，完成全系统压力应急演练、应急救生在轨训练以及出舱活动准备。 目前，3 名航天员已在轨驻留超过 5 个月，工作生活状态良好。为进一步深化验证航天员长期在轨驻留相关技术，充分发挥神舟二十二号飞船应急发射向空间站补充物资的综合效益，经周密论证评估，计划将该乘组在轨驻留时间延长约 1 个月。在接下来的飞天旅程中，航天员乘组将继续开展相关科学实验与技术试验，在轨迎接中国航天日、欢度国际劳动节。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/f286b09a-2ecc-4f62-bba7-71232e72b580.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-16T22:58:05.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/940/104.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1776380047943_c6e17d58",
       "title": "魏哲家回应英特尔竞争挑战：台积电提供最佳芯片封装方案，CoWoS 月产能 2027 冲刺 17 万片",
@@ -16,28 +64,16 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776380029581_2b1b7ad7",
-      "title": "3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第一个月卖了10万美元",
-      "summary": "3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第一个月卖了10万美元",
-      "content": "3分钟，这个AI帮我手搓出带货视频！前钉钉副总裁创业：有人第一个月卖了10万美元",
+      "id": "news_1776383574655_f7fc16e2",
+      "title": "阿里“快乐马”团队再出手！世界模型 HappyOyster 来了，正面叫板谷歌 Genie 3",
+      "summary": "阿里“快乐马”团队再出手！世界模型 HappyOyster 来了，正面叫板谷歌 Genie 3",
+      "content": "阿里“快乐马”团队再出手！世界模型 HappyOyster 来了，正面叫板谷歌 Genie 3",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-16T16:49:40.000Z",
+      "publishedAt": "2026-04-16T17:35:00.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/aabRtNR5WreQuo4Kt4h9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776380031258_2572c7e2",
-      "title": "世界变了、Linus妥协了？AI代码可以进Linux内核，但出了事人来背",
-      "summary": "世界变了、Linus妥协了？AI代码可以进Linux内核，但出了事人来背",
-      "content": "世界变了、Linus妥协了？AI代码可以进Linux内核，但出了事人来背",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-16T16:42:05.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/h4WPj7MeydhFDpsOqyCl?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/XhNNKN6qY4YNml04B0fF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776360292749_519f0905",
@@ -50,42 +86,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/940/099.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776380033617_fe6a548b",
-      "title": "蚂蚁灵波开源LingBot-Map：仅需一个 RGB 摄像头，就能让机器人“理解”真实世界",
-      "summary": "蚂蚁灵波开源LingBot-Map：仅需一个 RGB 摄像头，就能让机器人“理解”真实世界",
-      "content": "蚂蚁灵波开源LingBot-Map：仅需一个 RGB 摄像头，就能让机器人“理解”真实世界",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-16T15:07:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/d2ODNNUg38yOQZyuUwUY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776380035777_7af075f7",
-      "title": "Anthropic 的论文探讨了大语言模型中类情绪机制对行为的影响",
-      "summary": "Anthropic 的论文探讨了大语言模型中类情绪机制对行为的影响",
-      "content": "Anthropic 的论文探讨了大语言模型中类情绪机制对行为的影响",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-16T15:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/3z0Q6dZ0YO4dzN9Qwmf8?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776380037213_836ff49d",
-      "title": "神秘模型排名超 Gemma 4 31B：不跟 Qwen 硬刚，主打“快”和“省 token”",
-      "summary": "神秘模型排名超 Gemma 4 31B：不跟 Qwen 硬刚，主打“快”和“省 token”",
-      "content": "神秘模型排名超 Gemma 4 31B：不跟 Qwen 硬刚，主打“快”和“省 token”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-16T14:48:12.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/t9ZBwRdLF4cRKqIMNYXY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776351799081_de4c0929",
@@ -122,6 +122,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/940/079.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776383584052_24c7a88c",
+      "title": "Airbnb 将高吞吐指标采集管道迁移至 OpenTelemetry",
+      "summary": "Airbnb 将高吞吐指标采集管道迁移至 OpenTelemetry",
+      "content": "Airbnb 将高吞吐指标采集管道迁移至 OpenTelemetry",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-16T12:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/PegogtX4txhVdQmex0Og?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776341105408_735ce4aa",
@@ -232,7 +244,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776380005564_0",
+      "id": "news_1776383555128_0",
       "title": "To Make a Tech Unicorn, Mix a Few Workers With Some AI Hype",
       "summary": "Sam Altman, the chief executive officer of OpenAI, said at a finance conference in October 2023 that he and his “CEO friends” were running a betting p...",
       "content": "Sam Altman, the chief executive officer of OpenAI, said at a finance conference in October 2023 that he and his “CEO friends” were running a betting pool on when the first one-person billion-dollar company would be created thanks to artificial intell... [337 chars]",
@@ -388,7 +400,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776380005502_1",
+      "id": "news_1776383555689_1",
       "title": "ChatGPT maker OpenAI shifts its focus to business users amid Anthropic pressure",
       "summary": "OpenAI executives say they will introduce a new artificial intelligence model for &ldquo;high-value professional work&rdquo; as the company faces heig...",
       "content": "OpenAI executives say they will introduce a new artificial intelligence model for “high-value professional work” as the company faces heightened competition with rival Anthropic in attracting corporate customers to adopt AI assistants in their workpl... [7096 chars]",
@@ -460,7 +472,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776380005228_2",
+      "id": "news_1776383555592_2",
       "title": "OpenAI shifts focus to business-oriented products for profitability",
       "summary": "The same ChatGPT chatbot that gave OpenAI’s chief financial officer Sarah Friar a tilapia recipe for a recent Sunday night dinner at home is also now ...",
       "content": "The same ChatGPT chatbot that gave OpenAI’s chief financial officer Sarah Friar a tilapia recipe for a recent Sunday night dinner at home is also now doing her most mundane tasks at work like summarizing her emails and Slack messages.\nFriar and other... [6706 chars]",
@@ -640,16 +652,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776380042504_933c0955",
-      "title": "深度访谈：阿里云X平头哥，模型推理提升13倍背后的秘密",
-      "summary": "深度访谈：阿里云X平头哥，模型推理提升13倍背后的秘密",
-      "content": "深度访谈：阿里云X平头哥，模型推理提升13倍背后的秘密",
+      "id": "news_1776383585861_63c23be0",
+      "title": "网易智企发布企业级 AI Agent 管理平台：一人指挥一整支“龙虾军团”",
+      "summary": "网易智企发布企业级 AI Agent 管理平台：一人指挥一整支“龙虾军团”",
+      "content": "网易智企发布企业级 AI Agent 管理平台：一人指挥一整支“龙虾军团”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-15T16:27:45.000Z",
+      "publishedAt": "2026-04-15T16:56:11.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/Y2Vxov2UT0LbMjG5JjF1?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/wSpS6icWMeyHS7jmYGbK?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776269516270_9fa566c5",
@@ -868,7 +880,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776380004856_3",
+      "id": "news_1776383555619_3",
       "title": "Teens Don‘t Worry About AI. Should They?",
       "summary": "...DENSE FOG ADVISORY REMAINS IN EFFECT UNTIL 10 AM CDT THIS MORNING... * WHAT...Visibility one quarter mile or less in dense fog. * WHERE...In Minnes...",
       "content": "...DENSE FOG ADVISORY REMAINS IN EFFECT UNTIL 10 AM CDT THIS MORNING... * WHAT...Visibility one quarter mile or less in dense fog. * WHERE...In Minnesota, Carlton and South St. Louis, Southern Cook and Southern Lake Counties. In Wisconsin, Ashland, B... [830 chars]",
@@ -892,7 +904,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776380005008_4",
+      "id": "news_1776383556038_4",
       "title": "Why many Americans are turning to AI for health advice, according to recent polls",
       "summary": "NEW YORK (AP) — When Tiffany Davis has a question about a symptom from the weight-loss injections she’s taking, she doesn’t call her doctor. She pulls...",
       "content": "NEW YORK (AP) — When Tiffany Davis has a question about a symptom from the weight-loss injections she’s taking, she doesn’t call her doctor. She pulls out her phone and consults ChatGPT.\n“I’ll just basically let ChatGPT know my status, how I’m feelin... [1488 chars]",
@@ -904,7 +916,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776380004134_5",
+      "id": "news_1776383556053_5",
       "title": "Polls show why many Americans are turning to AI for health advice",
       "summary": "NEW YORK (AP) — When Tiffany Davis has a question about a symptom from the weight-loss injections she’s taking, she doesn’t call her doctor. She pulls...",
       "content": "NEW YORK (AP) — When Tiffany Davis has a question about a symptom from the weight-loss injections she’s taking, she doesn’t call her doctor. She pulls out her phone and consults ChatGPT.\n“I’ll just basically let ChatGPT know my status, how I’m feelin... [5727 chars]",
@@ -1034,42 +1046,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7952641.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776210844927_ce7e3e2e",
-      "title": "算力紧缺之下，Anthropic调整定价模式，按企业AI使用量计费",
-      "summary": "Anthropic发言人证实，根据此次定价调整，Claude企业版客户除每月为每位用户支付20美元固定费用外，还需按使用软件时消耗的算力容量额外付费。Claude企业版是面向大型企业推出的产品组合，已推出两年，目前包含代码工具ClaudeCode及办公助手ClaudeCowork。",
-      "content": "Anthropic发言人证实，根据此次定价调整，Claude企业版客户除每月为每位用户支付20美元固定费用外，还需按使用软件时消耗的算力容量额外付费。Claude企业版是面向大型企业推出的产品组合，已推出两年，目前包含代码工具ClaudeCode及办公助手ClaudeCowork。（新浪财经）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-04-14T23:45:33.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3767287174054665?f=rss",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776210873344_7a606b98",
-      "title": "Mac 离线也能跑代码，Claude Code 新增线上自动化例程",
-      "summary": "IT之家 4 月 15 日消息，Anthropic 昨日（4 月 14 日）发布公告，宣布为 Claude Code 引入例程（routines）功能，这是一项基于 Web 基础设施的自动化服务。",
-      "content": "IT之家 4 月 15 日消息，Anthropic 昨日（4 月 14 日）发布公告，宣布为 Claude Code 引入例程（routines）功能，这是一项基于 Web 基础设施的自动化服务。 开发者可打包代码仓库和连接器的自动化任务，设定时间表或触发条件执行，核心优势在于任务运行于云端，即使 Mac 设备离线，预定任务仍能按时完成。 该功能目前以研究预览版形式发布，针对定时任务、API 工作流及 GitHub 自动化流程等任务场景，主要解决开发者手动管理 cron 作业和基础设施的痛点。 IT之家注：cron 作业是类 Unix 系统中用于定时执行任务的常用工具，传统开发者需手动编写脚本并配置服务器环境。 在订阅权限方面，Pro 用户每日可运行 5 个例程，Max 用户限额为 15 个，Team 及企业版用户则支持每日运行 25 个例程。 除例程功能外，Anthropic 还发布了重新设计的 Claude Code Mac 客户端。新版本引入并行会话功能，用户可在单一窗口内并排运行多个 Claude 会话，通过新增侧边栏统一管理。 改版后的客户端集成了终端、文件编辑器、HTML 及 PDF 预览功能，配备更快的差异查看器。界面采用拖拽式布局，开发者可根据个人习惯自由排列工作区。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/21abcb02-d127-4ec9-abcd-daa5f9b33878.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-14T23:44:47.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/939/177.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776210873532_09d4704f",
-      "title": "微软推出低成本高效文生图模型 MAI-Image-2-Efficient，成本降低 41%",
-      "summary": "IT之家 4 月 15 日消息，本月初，微软公布了一系列自研 AI 模型，其中包括具备转录、语音、图像生成下一代能力的 MAI-Transcribe-1、MAI-Voice-1 和 MAI-Image-2。",
-      "content": "IT之家 4 月 15 日消息，本月初，微软公布了一系列自研 AI 模型，其中包括具备转录、语音、图像生成下一代能力的 MAI-Transcribe-1、MAI-Voice-1 和 MAI-Image-2。 如今，这家科技巨头推出了 MAI-Image-2-Efficient，这是其旗舰级文本生成图像模型的低成本、高速版本，微软表示该版本以近一半的价格提供了可投入生产的质量。微软将该工具标榜为旗下“最佳文生图模型”，称其能生成“照片级真实且富有表现力”的图像，并能稳定生成图像内文字。 微软表示，该模型速度提升 22%，效率提升 4 倍，成本直接降低 41%。具体定价为：每百万文本输入词元（token） 5 美元（IT之家注：现汇率约合 34.2 元人民币），每百万图像输出 19.50 美元（现汇率约合 133.4 元人民币）。 MAI-Image-2-Efficient 速度似乎将超过微软旗舰模型，平均比头部云厂商模型快 40%。更值得关注的是，微软拥有两款独立的文生图模型：MAI-Image-2-Efficient 和 MAI-Image-2。 微软将前者定位为量产主力模型，适合需要“批量生成、速度与严格成本控制”的场景。该工具擅长生成产品实拍图和 UI 原型图，主要因为它能很好地处理标题、标签等短文本，还可无缝融入交互式工作流。 而 MAI-Image-2 则是追求精准度时的首选。它擅长满足高保真需求，如照片级写实场景、动漫或插画等风格化效果，以及更长、更复杂的图像内文字生成，能精准理解并输出贴合详细提示词的内容。 目前，MAI-Image-2-Efficient 已正式商用，可在微软 Foundry 和 MAI Playground 中使用。微软还承诺，很快会将该工具集成到 Copilot 和必应中。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/ae5071dc-7ad5-45b9-86b3-98d59c5cfb00.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-14T23:41:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/939/176.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
