@@ -1,19 +1,103 @@
 {
   "success": true,
-  "timestamp": "2026-04-22T03:33:42.307Z",
-  "total": 72,
+  "timestamp": "2026-04-22T06:06:57.190Z",
+  "total": 74,
   "data": [
     {
-      "id": "news_1776828811444_acfba033",
-      "title": "亚马逊云科技宣布DevOps Agent正式可用，可自动化开展事件排查",
-      "summary": "亚马逊云科技宣布DevOps Agent正式可用，可自动化开展事件排查",
-      "content": "亚马逊云科技宣布DevOps Agent正式可用，可自动化开展事件排查",
+      "id": "news_1776838004835_d9e184f3",
+      "title": "为 AI 智能体设计记忆机制：揭秘 LinkedIn 的认知记忆智能体",
+      "summary": "为 AI 智能体设计记忆机制：揭秘 LinkedIn 的认知记忆智能体",
+      "content": "为 AI 智能体设计记忆机制：揭秘 LinkedIn 的认知记忆智能体",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-22T10:00:00.000Z",
+      "publishedAt": "2026-04-22T12:00:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/kqX8oCFVhIJG2pXR7dix?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/SCh9qpVmgQ1ObT3eVR17?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776837993977_29eca0e4",
+      "title": "爱奇艺踩下 AI 油门，艺人集体拉手刹",
+      "summary": "爱奇艺踩下 AI 油门，艺人集体拉手刹",
+      "content": "当长视频平台开始相信AI能救自己。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-22T05:35:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7961649.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776838015879_f75f4721",
+      "title": "有未经授权用户访问 Claude Mythos AI 模型，Anthropic 回应称正在调查",
+      "summary": "IT之家 4 月 22 日消息，彭博社昨日（4 月 21 日）发布博文，报道称少数未经授权的用户访问了 Anthropic 最新研发的 Claude Mythos AI 模型，Anthropic 官方已确认正在调查此事。",
+      "content": "IT之家 4 月 22 日消息，彭博社昨日（4 月 21 日）发布博文，报道称少数未经授权的用户访问了 Anthropic 最新研发的 Claude Mythos AI 模型，Anthropic 官方已确认正在调查此事。 Mythos 模型于 4 月 7 日发布，Anthropic 此前曾公开表示，该模型具备极强的网络安全攻击能力，能识别并利用主流操作系统和浏览器的漏洞。出于安全考量，公司仅允许苹果、亚马逊等少数获批企业通过“Glasswing 项目”进行测试，用于排查系统漏洞。 Anthropic 发言人证实，公司正在调查关于通过第三方供应商环境未授权访问 Claude Mythos Preview 的报告。虽然目前未发现未授权活动对 Anthropic 自身系统造成影响，但已确认攻击路径。 IT之家援引博文介绍，此次泄露发生在 Anthropic 宣布限量测试计划的同一天，涉事组织属于一个专注于搜寻未发布 AI 模型的 Discord 频道，他们根据 Anthropic 过往模型的格式规律，对 Mythos 的在线位置做出了“有根据的猜测”，从而绕过防线。 该组织向媒体提供了截图及现场演示，证明他们已持续使用该工具数周，并声称目的仅在于测试新模型而非制造破坏。为避免触发安全警报，该小组并未尝试网络攻击类指令，而是执行了搭建简单网站等低风险任务。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-04-22T05:19:23.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/942/042.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776838016083_2a1ff641",
+      "title": "Anthropic 最强 AI 立功，揪出火狐 Firefox 150 浏览器 271 个漏洞",
+      "summary": "IT之家 4 月 22 日消息，连线（Wired）昨日（4 月 21 日）发布博文，报道称本周发布的火狐 Firefox 浏览器 150 稳定版中，Mozilla 借助 Anthropic 的 Mythos Preview AI 模型，发现并修复了 271 个漏洞。",
+      "content": "IT之家 4 月 22 日消息，连线（Wired）昨日（4 月 21 日）发布博文，报道称本周发布的火狐 Firefox 浏览器 150 稳定版中，Mozilla 借助 Anthropic 的 Mythos Preview AI 模型，发现并修复了 271 个漏洞。 IT之家此前报道，双方已在 Firefox 148 版本中开展合作，使用 Opus 4.6 模型成功检出 22 个漏洞。 Mozilla Firefox 首席技术官 Bobby Holley 指出，以往漏洞测试主要结合模糊测试等自动化工具与人工分析，难以覆盖所有漏洞类型，攻击者若投入巨资仍有机可乘。 而 AI 几乎能覆盖所有漏洞空间，迫使所有软件必须经历一次彻底的“安检过渡期”，挖掘并修复深藏代码中的隐患。 这一变革对开源软件生态挑战巨大。许多全球通用的开源项目仅由少数志愿者维护，甚至处于无人维护状态。Holley 指出，大厂尚可调动数千工程师应对，但小型项目维护者既缺乏资源，也无力应对海量的漏洞修复工作。 Mozilla CTO Raffi Krikorian 也撰文警示，AI 技术可能加剧既有不公：最关键的基础设施常由免费劳动力维护，而大企业却免费搭便车。 拥有资源的组织将率先获得防护能力，弱势一方则更易暴露在风险中。Mozilla 目前正积极向开源社区分享经验与工具，试图弥合这一安全鸿沟。 相关阅读： 《火狐 Firefox 浏览器被 Claude AI 两周挖出 14 个高危漏洞，相当于 2025 年修复总数 20%》 《火狐 Firefox 浏览器 150 发布：增强分屏视图、优化 PDF 阅读器、新增实时隐私翻译》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/fd465c82-0192-4623-beaa-d0642b08b4db.png?x-bce-process=image/format,f_auto/auto-orient,o_1",
+      "source": "IT之家",
+      "publishedAt": "2026-04-22T04:56:03.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/942/039.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776837995446_6331e6a6",
+      "title": "AI艺人上热搜，是爱奇艺“疯了”吗？",
+      "summary": "AI艺人上热搜，是爱奇艺“疯了”吗？",
+      "content": "AI不是取代人，是要把行业的蛋糕做大。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-22T04:34:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7961684.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776838016188_c2eec520",
+      "title": "OpenAI 奥尔特曼再谈家中遇袭事件：感觉今后还会有更多此类事件发生",
+      "summary": "IT之家 4 月 22 日消息，据《商业内幕》报道，OpenAI CEO 萨姆 · 奥尔特曼与 Anthropic 之间的激烈对抗，现如今又升级了。 当地时间周二，奥尔特曼谈到自己位于旧金山的住所最近遭到袭击，并直接提到了 Anthropic。",
+      "content": "IT之家 4 月 22 日消息，据《商业内幕》报道，OpenAI CEO 萨姆 · 奥尔特曼与 Anthropic 之间的激烈对抗，现如今又升级了。 当地时间周二，奥尔特曼谈到自己位于旧金山的住所最近遭到袭击，并直接提到了 Anthropic。围绕 AI 的末日论调无助于缓和局面，其他一些实验室谈论 OpenAI 的方式同样无助于缓和局面。“Anthropic 谈论 OpenAI 的方式也没有帮助。” 那次清晨袭击发生后，奥尔特曼曾发文提到“我们这个行业里各家公司之间那种莎士比亚式戏剧冲突”，但文中没有点名 Anthropic，也没有提到其他 AI 模型公司。奥尔特曼还暗示，《纽约客》近期一篇揭露性报道可能让自己面临的风险进一步上升。 奥尔特曼说：“我当时就在想，今后还会发生更多这样的事，这实在太让人沮丧了。我因此经历了一段很严重的低落期，非常可怕。” 有关部门表示，袭击奥尔特曼住宅的丹尼尔 · 莫雷诺-加马从得克萨斯州赶到加利福尼亚州，意图“杀死奥尔特曼”。有关部门还表示，在 4 月 10 日清晨于 OpenAI 总部外被捕前，莫雷诺-加马曾向奥尔特曼价值 2700 万美元（IT之家注：现汇率约合 1.85 亿元人民币）的住宅投掷燃烧瓶。 莫雷诺-加马目前面临州和联邦两级刑事指控，其中包括谋杀未遂。美国联邦调查局表示，执法人员从其身上发现一份“反 AI”文件，里面列有其他 AI 公司 CEO 的名字，不过这些人的姓名目前尚未公开。 相关阅读： 《OpenAI 奥尔特曼住所遭燃烧瓶袭击后发声：AI 担忧不应演变为暴力行为》",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-04-22T04:13:12.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/941/993.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776837996872_73a95d74",
+      "title": "市占率第一，“AI全病程管理”公司冲刺IPO",
+      "summary": "市占率第一，“AI全病程管理”公司冲刺IPO",
+      "content": "百度集团、阿里与腾讯高管的基金共同押注。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-22T03:49:28.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7962062.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776837998603_c8c791cc",
+      "title": "实测Images 2.0 :  10招玩转生图新王",
+      "summary": "实测Images 2.0 :  10招玩转生图新王",
+      "content": "OpenAI刚放出Images 2.0，最危险的不是它更会画了......",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-22T03:48:57.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7962460.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776828799371_b6253c4d",
@@ -100,6 +184,30 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1776838007729_4d73cffc",
+      "title": "模力工场 037 周 AI 应用周榜：生态意识增强，多模态已成AI应用标配",
+      "summary": "模力工场 037 周 AI 应用周榜：生态意识增强，多模态已成AI应用标配",
+      "content": "模力工场 037 周 AI 应用周榜：生态意识增强，多模态已成AI应用标配",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-21T19:59:47.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/fKc0YsLc9aDjzk1V81oW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776838009772_9d6b43d1",
+      "title": "智能与互联：AI 数据治理时代的数据目录关键能力 ｜ 技术趋势",
+      "summary": "智能与互联：AI 数据治理时代的数据目录关键能力 ｜ 技术趋势",
+      "content": "智能与互联：AI 数据治理时代的数据目录关键能力 ｜ 技术趋势",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-21T17:29:37.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/2bUZm9d80lzXWSHxqqYG?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1776794755764_f6331874",
       "title": "特斯拉车机语音大模型服务在我国上海市完成备案",
       "summary": "IT之家 4 月 22 日消息，网信上海 4 月 21 日发布了生成式人工智能服务已备案信息公告：截至 4 月 21 日，上海市新增 1 款已完成备案的生成式人工智能服务，累计已完成 158 款生成式人工智能服务备案。",
@@ -110,18 +218,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/941/858.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776828816617_4975c9dc",
-      "title": "构建可信数据智能体的上下文层 ｜ 技术趋势",
-      "summary": "构建可信数据智能体的上下文层 ｜ 技术趋势",
-      "content": "构建可信数据智能体的上下文层 ｜ 技术趋势",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-21T15:06:43.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/QyXUMEdTVvStcoE1bBZK?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776788263329_15bc25d7",
@@ -172,7 +268,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776828791961_0",
+      "id": "news_1776837983011_0",
       "title": "Montana Digital Academy on AI and tech in K-12 schools",
       "summary": "Nicole Girten is the education reporter for the Ravalli Republic and the Missoulian.\nYou must be logged in to react.\nClick any reaction to login.\nLove...",
       "content": "Nicole Girten is the education reporter for the Ravalli Republic and the Missoulian.\nYou must be logged in to react.\nClick any reaction to login.\nLove\n0\nFunny\n0\nWow\n0\nSad\n0\nAngry\n0\nWant to see more like this?\nGet our local education coverage delivere... [557 chars]",
@@ -532,7 +628,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776828793411_1",
+      "id": "news_1776837983315_1",
       "title": "Evaluating large language model performance and reliability in scoring picture description tasks for neuropsychological assessment",
       "summary": "1. Introduction\nPicture description tasks have been commonly used in neuropsychological assessments for over 50 years [1], with the Cookie Theft pictu...",
       "content": "1. Introduction\nPicture description tasks have been commonly used in neuropsychological assessments for over 50 years [1], with the Cookie Theft picture from the Boston Diagnostic Aphasia Examination (BDAE) being one of the most widely used stimuli. ... [32552 chars]",
@@ -794,78 +890,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/941/130.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776666215953_bde046b0",
-      "title": "杰创智能在广州成立科技新公司，含多项AI业务",
-      "summary": "36氪获悉，爱企查App显示，近日，广州杰耀信辉科技有限公司成立，法定代表人为孙宇奇，注册资本100万元人民币，经营范围包括人工智能基础软件开发、人工智能应用软件开发、人工智能理论与算法软件开发、人工智能公共数据平台等。股东信息显示，该公司由杰创智能科技股份有限公司全资持股。",
-      "content": "36氪获悉，爱企查App显示，近日，广州杰耀信辉科技有限公司成立，法定代表人为孙宇奇，注册资本100万元人民币，经营范围包括人工智能基础软件开发、人工智能应用软件开发、人工智能理论与算法软件开发、人工智能公共数据平台等。股东信息显示，该公司由杰创智能科技股份有限公司全资持股。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-04-20T06:04:30.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/newsflashes/3774760060420608?f=rss",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776666227003_1167c3b1",
-      "title": "又一个AI赛道爆发，暴涨300%，有商家年入千万",
-      "summary": "又一个AI赛道爆发，暴涨300%，有商家年入千万",
-      "content": "机器人赛道最先跑出的细分品类，治好了“人宠分离焦虑”。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-20T06:02:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7959400.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776666228792_618f231e",
-      "title": "AI芯片初创公司，进入“斩杀线”？",
-      "summary": "AI芯片初创公司，进入“斩杀线”？",
-      "content": "99进25，这场淘汰赛，谁能活到最后?",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-20T05:55:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/7959344.html",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776666230470_784efeb5",
-      "title": "阿里AI赛马：高德不想只当背景板",
-      "summary": "阿里AI赛马：高德不想只当背景板",
-      "content": "高德“途途”走在马拉松赛场边缘，想赢的是另一个赛场。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-20T05:47:39.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7959278.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776666256040_83442cc1",
-      "title": "华为官宣刘雯担任 WATCH ULTIMATE DESIGN 非凡大师星钻绽放品牌大使，今天发布系列首款珠宝智能腕表",
-      "summary": "IT之家 4 月 20 日消息，华为终端 BG 首席执行官何刚今日宣布，刘雯担任华为 WATCH ULTIMATE DESIGN 非凡大师星钻绽放品牌大使，将一起迎接非凡大师系列首款珠宝智能腕表。",
-      "content": "IT之家 4 月 20 日消息，华为终端 BG 首席执行官何刚今日宣布，刘雯担任华为 WATCH ULTIMATE DESIGN 非凡大师星钻绽放品牌大使，将一起迎接非凡大师系列首款珠宝智能腕表。 公开信息显示，刘雯 17 岁出道，20 岁成为超 A 类模特，21 岁走上“维多利亚的秘密”的舞台，她是首位站在维密 T 台上的亚洲模特。2013 年，刘雯在权威模特网站 MDCtop50 全新榜单位列第三，创亚洲模特纪录。2025 年，刘雯第 9 次亮相维密大秀，刷新亚洲模特登台维密次数纪录。 据IT之家此前报道，华为官方宣布与国际著名珠宝设计师 Francesca Amfitheatrof 合作，打造华为首款珠宝智能腕表 —— 华为 WATCH ULTIMATE DESIGN 非凡大师星钻绽放款。 设计师 Francesca Amfitheatrof 表示，她将“斐波那契数列”黄金曲线转化为艺术图案，重构表盘、表冠与表带的舒展姿态，与 99 颗天然钻石的手工镶钻，呈现出集奢美与智能于一身的华为星钻手镯表。它是一款智能手表，也是钻石手镯。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/b0c41e13-5cbe-43fa-8cec-15b2b362f345.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-20T05:20:27.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/941/114.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776666233388_1cfdfc39",
-      "title": "荣耀机器人夺冠，只是“应试”高手？",
-      "summary": "荣耀机器人夺冠，只是“应试”高手？",
-      "content": "50分钟跑完半马，人形机器人一年内加速进化。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-20T04:33:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7959355.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
