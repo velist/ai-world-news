@@ -1,19 +1,67 @@
 {
   "success": true,
-  "timestamp": "2026-04-22T22:58:51.156Z",
+  "timestamp": "2026-04-22T23:56:21.104Z",
   "total": 86,
   "data": [
     {
-      "id": "news_1776898713930_157f6c7f",
-      "title": "高能研讨会｜端侧 AI 正在重写实时感知效率上限",
-      "summary": "高能研讨会｜端侧 AI 正在重写实时感知效率上限",
-      "content": "高能研讨会｜端侧 AI 正在重写实时感知效率上限",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-22T19:15:10.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/UJySiBqf8hEsjBTWqpHS?utm_source=rss&utm_medium=article",
+      "id": "news_1776902177599_e8e890d0",
+      "title": "台积电揭示 A13、预告 A12 尖端逻辑制程工艺，均将于 2029 年量产",
+      "summary": "IT之家 4 月 23 日消息，台积电 (TSMC) 美国当地时间 22 日举行了 2026 年北美技术论坛，其中在尖端逻辑制程方面该企业揭示了 A14 后的 A13、A12 尖端工艺，这两项技术均将于 2029 年量产。",
+      "content": "IT之家 4 月 23 日消息，台积电 (TSMC) 美国当地时间 22 日举行了 2026 年北美技术论坛，其中在尖端逻辑制程方面该企业揭示了 A14 后的 A13、A12 尖端工艺，这两项技术均将于 2029 年量产。 A13 是对 A14 的直接光学收缩，在设计规则与 A14 完全向后兼容的同时节省了 6% 的面积。此外其通过设计与技术协同优化，提供了额外的能效及性能提升。 而 A12 是台积电在 A16 后的新一代的超级电轨 (Super Power Rail) 背面供电工艺，面向 AI / HPC 应用场景。 ▲ 图源：台积电 台积电还宣布了 2nm 平台的演进版本 N2U，其速度较 N2P 提升 3-4% 或功耗降低 8-10% ，逻辑密度提升 2-3%，预计于 2028 年开始生产。一并推出的还有首款采用 GAA 的车用制程技术 N2A，其在相同功耗下速度较今年投产的 N3A 提升 15-20%，预计于 2028 年完成 AEC-Q100 验证。 在相对成熟的逻辑工艺方面，台积电今年将率先将高压技术引入 FinFET 晶体管技术，带来面向 DDIC 的 N16HV 制程技术。这项工艺相较 N28HV 栅极密度增加 41%，功耗降低 35%。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/70afaebe-3d5a-4b92-9efb-72f3c371f134.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-22T23:34:36.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/942/355.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776902177856_5e3faa94",
+      "title": "OpenAI 在美国推出 ChatGPT 临床医生版本，认证后免费使用",
+      "summary": "IT之家 4 月 23 日消息，OpenAI 于当地时间 4 月 22 日宣布推出 ChatGPT 临床医生版本，这是一种旨在支持临床任务的版本，如文档和医学研究，使临床医生能够专注于提供高质量的患者护理。OpenAI 在美国开始，所有认证的医生、护士执业医师、医师助理或药剂师都免费使用。",
+      "content": "IT之家 4 月 23 日消息，OpenAI 于当地时间 4 月 22 日宣布推出 ChatGPT 临床医生版本，这是一种旨在支持临床任务的版本，如文档和医学研究，使临床医生能够专注于提供高质量的患者护理。OpenAI 在美国开始，所有认证的医生、护士执业医师、医师助理或药剂师都免费使用。 据官方介绍，美国医疗体系如今承受着极大的压力。临床医生被要求在管理日益增长的行政需求和快速扩展的医学研究体系的同时，照顾更多患者。许多人已经开始依赖像 ChatGPT 这样的 AI 工具来支持。根据 2026 年由美国医学会数据，医生对人工智能的使用现已达到历史最高，72% 的医生表示他们现在在临床实践中使用人工智能，较去年的 48% 有所上升。如今，全球数百万临床医生每周都使用 ChatGPT 支持他们的临床护理，应用于护理咨询、写作与文档以及医学研究等。过去一年，临床医生使用 ChatGPT 的比例翻了一番多。 OpenAI 的团队与数百位医生顾问合作，指导并提升了 ChatGPT 临床医生的能力，确保它们支持关键的临床应用场景。 临床医生用的 ChatGPT 包括： 针对复杂临床问题的高级 AI 模型：免费访问我们当前的前沿医疗模型，帮助更可靠地处理问题、研究和文档。 实现可重复临床工作流程的技能：将常见工作流程转化为可重复使用的技能，使 ChatGPT 每次都能遵循相同的步骤，处理转诊信、事先授权和患者指示等任务。 可信的临床检索：通过实时、基于数百万权威、同行评审医学来源的证据，以更快速、更自信的方式推理案例。 跨医学期刊进行深入研究：将医学文献综述交由 ChatGPT，选择你信任的来源，必要时引导研究方向，让它在几分钟内编制出全面且引用良好的报告。 来自真实临床问题的 CME：当你在 ChatGPT 中研究临床问题时，合格的证据审查可以自动计入继续医学教育学分 —— 无需单独课程或额外文件。 HIPAA 合规的可选支持：许多临床任务不需要 PHI，但如有需要，符合条件的账户可通过业务合作伙伴协议（BAA）获得 HIPAA 支持。 账户安全与隐私：对话不用于训练模型，且多因素认证等保护措施有助于保护敏感工作安全。 IT之家从官方公告获悉，OpenAI 一直在提升 ChatGPT 在健康场景中响应的安全性和准确性。OpenAI 的医生顾问持续审查模型回应，并就质量、推理、可信度和安全性提供反馈。迄今为止，他们已审查了超过 70 万个模型响应，反映了临床医生和患者在现实世界中如何使用 ChatGPT；每隔几分钟，医生会审查一个新的模型反应。OpenAI 的模型在第三方评估中被评为实际医疗应用中表现最优的系统。 这种严谨性也影响了 ChatGPT 临床医生的发展。在发布前，医生顾问在日常工作中测试了 6,924 次对话，涵盖临床护理、文档和研究。总体而言，医生们将 99.6% 的回答评为安全且准确。在 355 个例子中，每个案例有三位独立医生指定了真实引用，临床医生 ChatGPT 引用这些来源的频率高于人类医生。即便如此，ChatGPT 临床医生旨在为临床医生提供信息支持，而不是取代他们的判断力或专业知识。 今天，OpenAI 还要介绍 HealthBench 专业版，一个针对真实临床人员聊天任务的开放基准，涵盖三个用例：护理咨询、写作与文档以及医学研究。基于 HealthBench 对健康对话的更广泛评估，它利用医生撰写的对话和评分标准、多阶段医生裁决以及细致的数据过滤，来衡量常见临床医生聊天中的表现和安全。 HealthBench Professional 示例因其质量、代表性和难度被选中，以便持续测量进展。大约三分之一的例子涉及医生有意“红队”，即试图在我们的模型中发现问题，在 OpenAI 选择的数据集中，最难进行的对话是模型的 3.5 倍。 OpenAI 通过 ChatGPT 报告临床医生及跨模型的结果。作为一个强有力的基础，OpenAI 要求人类医生在其专科内，拥有无限时间和网络访问，自行生成回答。OpenAI 发现，ChatGPT for Clinicians 工作空间中的 GPT-5.4 表现优于基础 GPT-5.4、所有其他 OpenAI 和外部模型，以及人类医生。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/e7283e17-6263-4977-ad38-c4e1b971a6ff.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-22T23:23:06.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/942/352.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776902178143_b1a20b78",
+      "title": "谷歌：目前公司内部 75% 的新代码由 AI 生成",
+      "summary": "IT之家 4 月 23 日消息，据《商业内幕》报道，当地时间周三，谷歌称目前公司内部新编写的代码中已有 3/4 由 AI 生成，随后再交给人类工程师审核。 这个比例近几年一直在持续上升。谷歌曾透露，截至 2024 年 10 月，公司大约四分之一的代码由 AI 生成。",
+      "content": "IT之家 4 月 23 日消息，据《商业内幕》报道，当地时间周三，谷歌称目前公司内部新编写的代码中已有 3/4 由 AI 生成，随后再交给人类工程师审核。 这个比例近几年一直在持续上升。谷歌曾透露，截至 2024 年 10 月，公司大约四分之一的代码由 AI 生成。到了去年秋天，这一比例已经提高到 50%。 谷歌一直在推动员工把 AI 用到编程和其他工作中。CEO 皮查伊周三在博客中披露，谷歌正在转向“真正以智能体为核心的工作流程”，让工程师运行更多自主任务。“最近，一项由智能体和工程师协同完成的复杂代码迁移工作，完成速度比一年前仅靠工程师时快了 6 倍。” 谷歌工程师目前正使用 Gemini 模型生成代码，其中一些工程师还被设定了明确的 AI 使用目标，这些目标将纳入今年的绩效评估。 最近几个月，谷歌 DeepMind 部分员工已获准使用 Anthropic 的 Claude Code，这也在员工之间引发了一些紧张情绪。 据IT之家了解，谷歌并不是唯一一家加大 AI 编程力度的科技巨头。 去年 4 月，微软 CEO 萨提亚 · 纳德拉表示，微软部分项目中已有 20% 到 30% 的代码由 AI 编写。微软 CTO 凯文 · 斯科特也在同月表示，他相信未来 5 年内，95% 的代码都会由 AI 生成。 Meta 同样在大力推进这个方向。截至 2025 年第四季度，Meta 已经设定目标，要求部分组织中软件工程师提交的代码改动里，有 55% 应属于“Agent-Assisted”。文件还说，在 2026 年上半年，Meta 创作组织中 65% 的工程师预计会使用 AI 编写超过 75% 的已提交代码。 本月早些时候，Snap 表示，按照新的运营模式，至少 65% 的新代码由 AI 生成。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/7aa018d8-c291-4e20-a45b-b4e0d579f518.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-22T23:19:11.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/942/351.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776902178428_6400dd56",
+      "title": "库克反思其 15 年 CEO 任期：苹果地图发布是“首个重大错误”，也是“宝贵经验”",
+      "summary": "IT之家 4 月 23 日消息，彭博社昨日（4 月 22 日）跟进后续报道，在史蒂夫 · 乔布斯剧院举办的全员大会上，蒂姆 · 库克（Tim Cook）在宣布 9 月 1 日卸任 CEO，交由约翰 · 特努斯（John Ternus）接任后，向员工阐述过渡计划并回顾任期得失。",
+      "content": "IT之家 4 月 23 日消息，彭博社昨日（4 月 22 日）跟进后续报道，在史蒂夫 · 乔布斯剧院举办的全员大会上，蒂姆 · 库克（Tim Cook）在宣布 9 月 1 日卸任 CEO，交由约翰 · 特努斯（John Ternus）接任后，向员工阐述过渡计划并回顾任期得失。 IT之家援引博文介绍，库克在会上坦言其 CEO 任期内，将苹果地图的发布失误定义为“首个真正的大错误”，但也是“一次宝贵的经验”。 他解释称，当时团队误判了产品成熟度，认为本地测试结果良好，在产品实际没有做好充足准备的情况下就推向市场。 库克还表示在其 CEO 任期内，所犯的错误清单“长得惊人”，不过苹果公司在过去 15 年间，基本上避开了其他消费电子公司的大规模产品召回与取消事件。 谈及职业生涯高光时刻，库克特别提及 Apple Watch，并视为其最引以为豪的作品。他回忆称首次收到用户邮件，称 Apple Watch 挽救其生命时深受触动。尽管如今此类邮件已成日常，但初次经历仍令他难以忘怀。 关于未来角色，库克此前已确认身体状况良好，计划长期担任董事长一职。特努斯则在会上承诺，苹果将“再次改变世界”。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/8773b71f-77e1-43e7-831b-198278713ed1.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-22T23:07:44.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.ithome.com/0/942/349.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776902180102_9f478918",
+      "title": "小米迄今最强大模型 Xiaomi MiMo-V2.5 系列开启公测",
+      "summary": "IT之家 4 月 23 日消息，小米今日宣布，Xiaomi MiMo-V2.5 系列模型正式开启公测。MiMo-V2.5-Pro 和 MiMo-V2.5 模型即将全球开源。",
+      "content": "IT之家 4 月 23 日消息，小米今日宣布，Xiaomi MiMo-V2.5 系列模型正式开启公测。MiMo-V2.5-Pro 和 MiMo-V2.5 模型即将全球开源。 IT之家从公告获悉，Xiaomi MiMo-V2.5 系列包含 MiMo-V2.5、V2.5-Pro 、V2.5-TTS Series 、V2.5-ASR，拥有更强的推理、更稳的 Agent、更长的上下文、更强的指令遵循与模糊指令理解、更好的全模态感知和理解。与此同时，小米也对 Token Plan 定价方案进行了优化。 MiMo-V2.5-Pro：更强的智能体，更长的专注力 据介绍，MiMo-V2.5-Pro 是小米迄今最强大的模型。在通用智能体能力、复杂软件工程以及长程任务等维度上，它已能与全球顶尖 Agent 模型（Claude Opus 4.6、GPT-5.4 ）正面较量，相较上一代 MiMo-V2-Pro 实现了全方位跃升。 内部测试中，MiMo-V2.5-Pro 搭配合适的运行框架，它可以稳定完成单次涉及近千轮工具调用的长程任务，在智能体场景下的指令遵循能力也明显提升 —— 既能精准捕捉上下文中的隐性要求，又能在超长周期内保持逻辑一致。至此，MiMo-V2.5-Pro 已经可以以更高的置信度承担起真正严肃的专业工作。 MiMo-V2.5-Pro 为更高难、更复杂的任务目标而生。小米把那些需要人类专家数天、乃至数周才能完成的任务交给它，让它独立跑完长程，且仍然可以保持极高质量。以下是它交付的结果： 用 Rust 实现完整的 SysY 编译器 该任务源自北京大学《编译原理》课程项目，要求模型用 Rust 从零实现一个完整的 SysY 编译器：词法分析器、语法分析器、AST、Koopa IR 代码生成、RISC-V 汇编后端，以及性能优化。作为参考，北大本科生完成该项目通常需要数周时间，然而 MiMo-V2.5-Pro 用时仅 4.3 小时、经过 672 次工具调用完成全部工作，在隐藏测试集上取得 233/233 的满分，展现了极高效的生产力价值。 它没有陷入反复试错的蛮力，而是逐层搭建整个编译器：先搭完整流水线骨架，再逐层攻克 —— Koopa IR 满分（110/110），RISC-V 后端满分（103/103），性能优化满分（20/20）。首次编译即通过 137/233，59% 的冷启动通过率，意味着在跑任何测试之前，架构就已经是对的了。第 512 轮，一次重构令 lv9/riscv 回退了两个测试点；模型自行诊断、恢复、继续推进。 开发一个视频编辑器 仅凭几句简单指令 ——\" 构建一个视频编辑器 Web 应用 \"——MiMo-V2.5-Pro 便交付了一款可运行的 Web 应用：具备多轨道时间线、片段裁剪、交叉淡化、音频混合以及导出流程等功能。最终构建的代码量达 8,192 行，历经 1,868 次工具调用，在 11.5 小时的自主工作中完成。 MiMo-V2.5：越级全模态 Agent，百万上下文 MiMo-V2.5 是为 Agent 场景而生的原生全模态大模型，能同时看、听、读，并把理解转化为行动。这一次，MiMo-V2.5 带来个关键升级： Agent 能力全面超越 MiMo-V2-Pro 在 Claw-Eval 等权威 Agent 评测中，MiMo-V2.5 超过 MiMo-V2-Pro 水平，胜任日常简单任务，同时 API 成本降低约 50%。 多模态感知全面超越 MiMo-V2-Omni 跨模态推理、视频理解、图表分析等能力提升，在 VideoMME、CharXiv、MMMU-Pro 等评测中逼近甚至超越业界顶级闭源模型。 MiMo-V2.5 全系列：更高 Token 效率 MiMo-V2.5 全系列针对 Token 效率进行优化，用更少的 Token 做更多的事。 在达到相同 Agent 基准榜单 ClawEval 分数情况下： MiMo-V2.5-Pro 相比 Kimi K2.6 节省了 42% Token MiMo-V2.5 相比 Muse Spark 节省了 50% Token MiMo-V2.5 全系列：如何搭配使用？ MiMo-V2.5-Pro 专为长难 Agent 任务打造，MiMo-V2.5 覆盖绝大多数通用 Agent 场景 MiMo-V2.5 支持原生全模态 Agent 能力，涵盖图像、音频与视频 MiMo-V2.5 具备更高的平均推理速度，可以更迅速地响应对时延敏感的任务 Token Plan 焕新升级 我们针对 Token Plan 做了几项适合你的、实质性的优化： Credits 速率更新，更优惠 MiMo-V2.5：1x（消耗 1 Token = 1 Credit） MiMo-V2.5-Pro： 2x（消耗 1 Token = 2 Credits） 取消 1 Token = 4 Credits 计费方式，从现在起，Token Plan 不再区分 256k 和 1 M 上下文窗口的 Credit 倍率。 夜间专属优惠速率 北京时间每天 00:00 ~ 08:00，所有模型 Credits 消耗速率在原有基础上再打 8 折。 自动续费享折扣 新增「连续包月」订阅模式，老用户开通自动续费享次月 7 折，新用户享次月 77 折，均限一次。 新增「包年」订阅周期，一次订阅享全年 88 折，不再叠加首购 / 自动续费优惠。 上线福利：Token Plan 用户 Credits 全量重置 所有已购买 Token Plan 用户（截至北京时间 4 月 22 日 22:00 前）的 Credits 额度将全部重置清零，重新开始计算。 参考 Xiaomi MiMo 开放平台 Token Plan 订阅 Xiaomi MiMo Studio 产品体验",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/e3c33a81-0932-4c1f-ab16-f575ab6c65d2.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-22T23:03:24.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/942/347.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776853519459_afe047e2",
@@ -26,18 +74,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/LIb7POBCMo8213s9lk0T?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776898717395_ee73d2ae",
-      "title": "在AK大神爆火的任务里，摸清国产AI真实水平",
-      "summary": "在AK大神爆火的任务里，摸清国产AI真实水平",
-      "content": "在AK大神爆火的任务里，摸清国产AI真实水平",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-22T16:31:23.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/IPZaVe2hAKCougHa1zAm?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776874581811_d609f7c8",
@@ -88,18 +124,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776898720416_f3fef4dd",
-      "title": "当 PM 懂AI，当技术懂产品：AI 时代产品力的双向进化｜PM x AI产品力领航者大会即将开幕",
-      "summary": "当 PM 懂AI，当技术懂产品：AI 时代产品力的双向进化｜PM x AI产品力领航者大会即将开幕",
-      "content": "当 PM 懂AI，当技术懂产品：AI 时代产品力的双向进化｜PM x AI产品力领航者大会即将开幕",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-22T14:43:36.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/PGUEKqa88emfLiIL1Mwz?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1776869543517_518b9f06",
       "title": "华为公开全新一代问界 M9 更多配置：全系 800V 高压平台，Ultimate 领世加长版支持线控转向",
       "summary": "IT之家 4 月 22 日消息，在刚刚结束的鸿蒙智行春季新品发布会上，全新一代问界 M9 首秀登场，带来了标准版和 Ultimate 领世加长版两款车型，预售价为 49.98 万元 / 66.98 万元起。 IT之家注意到，目前华为官网已开启新车预订。",
@@ -134,6 +158,18 @@
       "category": "国外AI",
       "originalUrl": "https://36kr.com/newsflashes/3777977546101766?f=rss",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776902168669_d9e184f3",
+      "title": "为 AI 智能体设计记忆机制：揭秘 LinkedIn 的认知记忆智能体",
+      "summary": "为 AI 智能体设计记忆机制：揭秘 LinkedIn 的认知记忆智能体",
+      "content": "为 AI 智能体设计记忆机制：揭秘 LinkedIn 的认知记忆智能体",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-22T12:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/SCh9qpVmgQ1ObT3eVR17?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776859461164_c62e2559",
@@ -172,6 +208,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1776902143756_0",
+      "title": "Mother Testifies in California for AI Chatbot Regulations After Son’s Suicide",
+      "summary": "Introduction\nMaria Raine testified Monday in Sacramento, California, urging state lawmakers to impose stricter regulations on artificial intelligence ...",
+      "content": "Introduction\nMaria Raine testified Monday in Sacramento, California, urging state lawmakers to impose stricter regulations on artificial intelligence 'companion' chatbots. Her testimony supports two proposed bills following the April 2025 suicide of ... [6720 chars]",
+      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/04/ai-chatbot-regulation-teen-suicide-chatgpt-interactions-1054-original.jpg",
+      "source": "Natural News",
+      "publishedAt": "2026-04-22T11:13:40.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.naturalnews.com/2026-04-22-mother-testifies-in-california-for-ai-chatbot-regulations.html",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1776853538292_e3e74375",
       "title": "中国空间站将迎来首位外籍航天员，巴基斯坦载荷专家将参与飞行任务",
       "summary": "IT之家 4 月 22 日消息，据中国载人航天工程办公室消息，中国载人航天工程首批外籍航天员选拔工作顺利完成，2 名巴基斯坦籍候选对象穆罕默德 · 齐尚 · 阿里（Muhammad Zeeshan Ali）和胡拉姆 · 达乌德（Khurram Daud）最终入选。",
@@ -182,18 +230,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/942/251.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776898723003_acfba033",
-      "title": "亚马逊云科技宣布DevOps Agent正式可用，可自动化开展事件排查",
-      "summary": "亚马逊云科技宣布DevOps Agent正式可用，可自动化开展事件排查",
-      "content": "亚马逊云科技宣布DevOps Agent正式可用，可自动化开展事件排查",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-22T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/kqX8oCFVhIJG2pXR7dix?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776853538438_e46427cb",
@@ -352,7 +388,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776898699497_0",
+      "id": "news_1776902144352_1",
       "title": "OpenAI in talks to commit up to $1.5 billion to private equity JV, FT reports",
       "summary": "April 22 (Reuters) - Artificial intelligence firm OpenAI is set to commit up to $1.5 billion to a new joint ​venture with private equity firms, Financ...",
       "content": "April 22 (Reuters) - Artificial intelligence firm OpenAI is set to commit up to $1.5 billion to a new joint ​venture with private equity firms, Financial Times reported on ‌Wednesday, citing people familiar with the matter.\nThe ChatGPT maker will ini... [1420 chars]",
@@ -484,7 +520,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776898699494_1",
+      "id": "news_1776902143623_2",
       "title": "Florida launches criminal probe into OpenAI and ChatGPT over deadly shooting",
       "summary": "WASHINGTON, April 21 (Reuters) - Florida Attorney General James Uthmeier said on Tuesday the state was launching a criminal probe into OpenAI and its ...",
       "content": "WASHINGTON, April 21 (Reuters) - Florida Attorney General James Uthmeier said on Tuesday the state was launching a criminal probe into OpenAI and its ​artificial intelligence app ChatGPT over a deadly shooting last year that ‌killed two people at Flo... [1536 chars]",
@@ -496,9 +532,9 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776898699509_2",
+      "id": "news_1776902144128_3",
       "title": "Florida’s attorney general launches criminal probe into ChatGPT over FSU shooting",
-      "summary": "Quick Links ETRIB High School Sports Network TribLIVE Local Newsletters Advertise Classifieds Jobs Feedback / Issues -->...",
+      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Virginia Because you are coming from a location (Virginia) covered by a Privacy Law, many of the features of Trib...",
       "content": "ORLANDO, Fla. — Florida’s attorney general on Tuesday opened a rare criminal investigation into OpenAI’s ChatGPT over whether the artificial intelligence app offered advice to a gunman who killed two people and wounded six others last year at Florida... [3397 chars]",
       "imageUrl": "https://assets-varnish.triblive.com/2026/04/9503810_web1_9503810-36b72d4f9f9f4ad9b72a0d827dec4313.jpg",
       "source": "Pittsburgh Tribune-Review",
@@ -508,7 +544,19 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776898699628_3",
+      "id": "news_1776902171558_4d73cffc",
+      "title": "模力工场 037 周 AI 应用周榜：生态意识增强，多模态已成AI应用标配",
+      "summary": "模力工场 037 周 AI 应用周榜：生态意识增强，多模态已成AI应用标配",
+      "content": "模力工场 037 周 AI 应用周榜：生态意识增强，多模态已成AI应用标配",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-21T19:59:47.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/fKc0YsLc9aDjzk1V81oW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776902143589_4",
       "title": "OpenAI Consults With Accenture, PwC, Capgemini To Sell Codex To Businesses",
       "summary": "OpenAI has brought on consulting firms in an effort to scale its artificial intelligence coding model, Codex.\nAs a result, OpenAI is launching Codex L...",
       "content": "OpenAI has brought on consulting firms in an effort to scale its artificial intelligence coding model, Codex.\nAs a result, OpenAI is launching Codex Labs, combining its experts with organizations to help businesses apply the model to real-world situa... [1081 chars]",
@@ -520,7 +568,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776898699468_4",
+      "id": "news_1776902143264_5",
       "title": "OpenAI Unveils Image Model That’s Better at Charts and Diagrams",
       "summary": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial inf...",
       "content": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world\nConnecting decision makers to a dynamic network of infor... [783 chars]",
@@ -532,7 +580,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776898699473_5",
+      "id": "news_1776902144057_6",
       "title": "Criminal probe launched into ChatGPT's possible involvement in deadly mass shooting at Florida State University",
       "summary": "Authorities have launched a criminal probe into whether the artificial-intelligence platform ChatGPT helped a man plan a deadly mass shooting at Flori...",
       "content": "Authorities have launched a criminal probe into whether the artificial-intelligence platform ChatGPT helped a man plan a deadly mass shooting at Florida State University last year.\nFlorida Attorney General James Uthmeier said Tuesday that his office ... [3512 chars]",
@@ -542,6 +590,18 @@
       "category": "国外AI",
       "originalUrl": "https://nypost.com/2026/04/21/us-news/criminal-probe-launched-into-chatgpts-possible-involvement-in-deadly-mass-shooting-at-florida-state-university/",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1776902173370_9d6b43d1",
+      "title": "智能与互联：AI 数据治理时代的数据目录关键能力 ｜ 技术趋势",
+      "summary": "智能与互联：AI 数据治理时代的数据目录关键能力 ｜ 技术趋势",
+      "content": "智能与互联：AI 数据治理时代的数据目录关键能力 ｜ 技术趋势",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-21T17:29:37.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/2bUZm9d80lzXWSHxqqYG?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776794755764_f6331874",
@@ -604,7 +664,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776898699271_6",
+      "id": "news_1776902143746_7",
       "title": "Montana Digital Academy on AI and tech in K-12 schools",
       "summary": "Nicole Girten is the education reporter for the Ravalli Republic and the Missoulian.\nYou must be logged in to react.\nClick any reaction to login.\nLove...",
       "content": "Nicole Girten is the education reporter for the Ravalli Republic and the Missoulian.\nYou must be logged in to react.\nClick any reaction to login.\nLove\n0\nFunny\n0\nWow\n0\nSad\n0\nAngry\n0\nWant to see more like this?\nGet our local education coverage delivere... [557 chars]",
@@ -964,7 +1024,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776898700030_7",
+      "id": "news_1776902144318_8",
       "title": "Evaluating large language model performance and reliability in scoring picture description tasks for neuropsychological assessment",
       "summary": "1. Introduction\nPicture description tasks have been commonly used in neuropsychological assessments for over 50 years [1], with the Cookie Theft pictu...",
       "content": "1. Introduction\nPicture description tasks have been commonly used in neuropsychological assessments for over 50 years [1], with the Cookie Theft picture from the Boston Diagnostic Aphasia Examination (BDAE) being one of the most widely used stimuli. ... [32552 chars]",
@@ -974,66 +1034,6 @@
       "category": "科技新闻",
       "originalUrl": "https://journals.plos.org/digitalhealth/article?id=10.1371%2Fjournal.pdig.0001385",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1776729212277_cccecc24",
-      "title": "Kimi K2.6 发布并开源代码及Agent",
-      "summary": "36氪获悉，月之暗面Kimi发布并开源 Kimi K2.6 模型，通用Agent、代码、视觉理解等综合能力全面提升，在多个基准测试优于或持平 GPT-5.4、Claude Opus 4.6 和 Gemini 3.1 Pro等闭源模型。",
-      "content": "36氪获悉，月之暗面Kimi发布并开源 Kimi K2.6 模型，通用Agent、代码、视觉理解等综合能力全面提升，在多个基准测试优于或持平 GPT-5.4、Claude Opus 4.6 和 Gemini 3.1 Pro等闭源模型。Kimi K2.6长程编码能力得到显著提升，在测试中可不间断编码13小时，编写或修改超过4000行代码。同时大幅增强了Agent自主化执行能力，由 K2.6 模型驱动的Agent集群架构迎来大升级，支持300个子Agent并行完成4000个协作步骤，实现更大规模的并行化。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-04-20T23:48:32.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3775335514407685?f=rss",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776729244346_5620ffe0",
-      "title": "四星好评反成“差评”，苹果 App Store 评分体系遭开发者质疑",
-      "summary": "IT之家 4 月 21 日消息，据 9to5mac 报道，开发者们认为，苹果 App Store 的评分体系在至少几个方面存在根本性缺陷，其中就包括：你给出的四星评分，反而可能弊大于利。",
-      "content": "IT之家 4 月 21 日消息，据 9to5mac 报道，开发者们认为，苹果 App Store 的评分体系在至少几个方面存在根本性缺陷，其中就包括：你给出的四星评分，反而可能弊大于利。 他们还指出了一个矛盾点：用户不希望自己的应用使用体验被打断，而苹果实际上却在迫使开发者不断催促用户进行评分和评价…… 所有 iPhone 开发者都清楚，能否被苹果官方推荐，往往决定了一款应用是默默无闻还是一炮而红。他们表示，这正是 App Store 评分体系第一个问题的根源所在。 反复催促用户评价 应用用户通常都反感被反复提醒评分和写评价，尤其是在这一举动打断他们正常使用应用的时候。开发者史蒂文 · 特劳顿-史密斯表示，开发者对此完全别无选择，因为只有积累足够多的五星评价，苹果才会对应用进行推荐，而主动弹窗提示，正是获取这些评价的途径。 评价弹窗，决定了一款优秀应用是只有五条好评，还是收获成千上万条好评。我绝不会建议任何开发者不去接入相关接口。对大多数应用来说，这无异于自绝于苹果 App Store 编辑推荐，因为苹果通常只会在应用拥有大量评价数据时才会注意到它。 他主张开发者应在用户打开应用时弹出提示，并每隔数月重复一次。但也有人认为，这是最令人反感的时机。 应该在用户完成某项操作后弹出，比如保存或发布内容之后。但千万不要在打开应用时就弹。我打开应用是想做事的，这是最不该被打扰的时候。 不过这一点操作起来也很棘手，因为开发者未必能准确判断用户何时完成了自己的目标。 四星评分等同于差评 IT之家注意到，另一个问题在于，用户对星级评分的理解，与实际规则完全不符。这和 Uber 司机评分体系中出现的问题如出一辙。 按常理，我们可能会认为星级评分是这样对应的： 3 星：默认评分，代表应用表现符合预期 4 星：“超出预期” 5 星：“完美 —— 无可挑剔” 2 星：“低于预期” 1 星：“糟糕 / 无法使用” 包括特里 · 戈迪耶在内的开发者表示，实际情况并非如此。苹果只看重五星评价，即便你本意是正面评价却打了四星，这实际上反而会拉低应用的排名。 如果一款应用在应用商店的评分为 4.1 星，那么任何一条四星评价都会拉低这个平均分。换句话说，给出四星评价，本质上就等同于给出差评。 苹果应该改用点赞模式吗？ 约翰 · 格鲁伯认为，苹果解决这一问题的方法，是放弃星级评分体系，转而贴合大多数用户的真实行为习惯 —— 喜欢就打 5 星，不喜欢就打 1 星。 星级评分体系在数据汇总上简直糟透了。如果要收集并计算用户评分的平均值，最有效的模式是二元制：点赞或点踩。Netflix 在 2017 年就从星级改成了点赞，YouTube 更是早在 2009 年就完成了切换。App Store 也应该改用点赞模式。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/a05e73b8-588d-42b0-be04-40a91f93a8c9.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-20T23:40:56.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/941/397.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776729220496_6d1eac7a",
-      "title": "【钛晨报】李强：进一步优化调整能源结构，强化能源科技创新；“爱奇艺疯了”冲上热搜第一，CEO回应AI争议；抖音副总裁澄清“字节净利下滑70%”传闻",
-      "summary": "明年开启首款轿跑车型量产交付，追觅造车进入实质性推进阶段；华为余承东：手机定价压力较大，后期可能涨价；阿里HappyHorse将于4月27日开放测试；谷歌据悉组建团队以改进AI编程模型；特斯拉：目前并无在上海超级工厂量产机器人的具体计划；中国企业能拿到美国关税退款吗？",
-      "content": "明年开启首款轿跑车型量产交付，追觅造车进入实质性推进阶段；华为余承东：手机定价压力较大，后期可能涨价；阿里HappyHorse将于4月27日开放测试；谷歌据悉组建团队以改进AI编程模型；特斯拉：目前并无在上海超级工厂量产机器人的具体计划；中国企业能拿到美国关税退款吗？专家分析：两类中企或能拿到美国关税退款。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-20T23:20:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7960514.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776729244502_32b63856",
-      "title": "华硕推出 TUF Gaming Platinum 电源：导入氮化镓 MOSFET",
-      "summary": "IT之家 4 月 21 日消息，华硕 (ASUS) 现已在官网上线 TUF Gaming Platinum 系列全模组电源。",
-      "content": "IT之家 4 月 21 日消息，华硕 (ASUS) 现已在官网上线 TUF Gaming Platinum 系列全模组电源。这批 80 PLUS 白金转换效率认证新品包含 850W / 1000W / 1200W 三个版本，均采用了氮化镓 (GaN) MOSFET，是少见的主流定位 GaN PC 电源。 TUF Gaming Platinum 系列采用 150mm 长度 ATX 外形规格设计，符合 ATX 3.1 和 PCIe CEM 5.1 规范，配备压纹镀锡实心铜模组线，可通过 12V-2×6 接口提供 600W 供电，搭载 135mm 双滚珠轴承风扇。 其搭载 TUF 5K 黑金电容，PCB 覆盖保护性涂层，具备六大主要安全防护机制，通过跌落、高低温循环、盐雾、火焰等系列严苛耐久度测试，享受 8 年质保。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/82584796-5381-4b48-b386-255c4c680184.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-20T23:16:59.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/941/390.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776729244611_c9879cea",
-      "title": "库克发布公开信，感谢全球苹果 iPhone / iPad 等用户 15 年来与其分享生活点滴",
-      "summary": "IT之家 4 月 21 日消息，科技媒体 Cult of Mac 今天（4 月 21 日）发布博文，报道称苹果公司现任首席执行官蒂姆 · 库克（Tim Cook）面向全球苹果用户，发布一封情真意切的感谢信。",
-      "content": "IT之家 4 月 21 日消息，科技媒体 Cult of Mac 今天（4 月 21 日）发布博文，报道称苹果公司现任首席执行官蒂姆 · 库克（Tim Cook）面向全球苹果用户，发布一封情真意切的感谢信。 苹果公司今日宣布，蒂姆 · 库克将出任苹果董事会执行董事长，硬件工程高级副总裁约翰 · 特努斯（John Ternus）将担任苹果下一任首席执行官，该任命自 2026 年 9 月 1 日起生效。库克卸任后，将转任公司执行董事长，继续留在苹果董事会。 在这份感谢信中，库克深情回顾了过去 15 年的 CEO 生涯。他习惯每天早晨阅读全球用户发来的邮件，这些信件记录了用户被 Apple Watch 挽救生命的时刻，也包含了用户对产品改进的直言建议。库克表示，这些互动让他感受到了共同人性的跳动，也让他对领导这家公司充满了深深的感激与荣幸。 IT之家附上苹果公司官网公开信内容如下： 过去 15 年来，我几乎每个早晨都以同样的方式开启这一天。我会打开邮箱，阅读前一天收到的来自全球 Apple 用户的来信。 你们与我分享生活中的点滴，告诉我 Apple 如何走进了你们的生活 —— 比如某位用户的母亲被 Apple Watch 救下的那一刻，或是在难以攀登的山巅上拍下的那张完美的自拍照。 你们感谢 Mac 如何改变了工作中的可能性，有时也会对我提出建议，因为某个你们珍视的功能没有如预期般正常工作。 在每一封这样的邮件中，我都能感受到我们共同人性中那颗跳动的心。我感到一种日益加深的责任感，驱使我们更加努力、走得更远。 但最重要的是，我感受到一种无法用言语表达的感激 —— 感激我竟然能成为在邮件的另一端，作为一家以超越言语能描述的方式来激发想象、让大家的生活更丰富的公司的领导者。这是何等的殊荣与幸运。 今天，我们宣布我将迈出在 Apple 旅程中的下一步。在接下来的几个月里，我将过渡到一个新的角色，于九月份卸任 CEO 一职，成为 Apple 的 Executive Chairman。 将有一位新人接任我心中世界上最好的工作。这位领导者就是 John Ternus —— 一位杰出的工程师和思想家。 他在过去 25 年里，致力于打造我们的用户深爱的 Apple 产品，注重每一个细节，专注于每一个让产品变得更美妙、更大胆、更美丽、更有意义的可能。他是这个职位的最佳人选。 John 深谙 Apple 的初心与使命，珍视我们所坚守的价值，更牵挂每一位用户。他拥有非凡的正直来领导公司的品格和心性。 无比自豪地称他为 Apple 的下一任 CEO。在他的领导下，这家公司将达到令人难以置信的新高度，而在未来产品与服务所带来的每一次喜悦和发现中，你们都会感受到他的影响。我迫不及待地希望你们像我一样了解他。 这不是告别。但在这个过渡的时刻，我想借此机会说一声谢谢。这一次，不是代表公司 —— 尽管公司内部对你们的感激之情如泉涌般满溢 —— 而仅仅是代表我自己，Tim。 一个来自不同时代、乡村之地长大的人，在这些神奇的时刻，成为了这家世界上最伟大公司的 CEO。感谢你们给予我的信任和善意。 感谢你们在街头和我们的店里向我打招呼。感谢你们在我们发布新产品或服务时与我一同欢呼。最要感谢的是，你们相信我能领导这家始终把你们放在工作中心的公司。 每一天，我们起床后都在思考，能做些什么让你们的生活变得更好一点。而每一天，你们都让我的生活成为了我所能期望的最好模样。 谢谢你们。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/f5b32bd9-e42d-42dc-97b4-f9d7f5045d12.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-20T23:15:56.000Z",
-      "category": "AI趣味新闻",
-      "originalUrl": "https://www.ithome.com/0/941/389.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
