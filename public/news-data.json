@@ -1,20 +1,8 @@
 {
   "success": true,
-  "timestamp": "2026-04-24T15:20:41.477Z",
-  "total": 68,
+  "timestamp": "2026-04-24T17:09:03.027Z",
+  "total": 58,
   "data": [
-    {
-      "id": "news_1777044021627_d933fb70",
-      "title": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
-      "summary": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
-      "content": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T19:18:13.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/ub0bHyfIRpbO61I876k2?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
     {
       "id": "news_1777044023016_6b14fccf",
       "title": "Snowflake Cortex Code 的规范驱动开发：将 SDLC 方法论引入 AI 辅助工作流 ｜ 技术实践",
@@ -28,64 +16,16 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777044026429_84f7fd65",
-      "title": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
-      "summary": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
-      "content": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
+      "id": "news_1777050527375_90a68903",
+      "title": "金融智能的架构编排：基于 Snowflake Cortex Agents 实现结构化与非结构化数据统一分析 ｜ 技术实践",
+      "summary": "金融智能的架构编排：基于 Snowflake Cortex Agents 实现结构化与非结构化数据统一分析 ｜ 技术实践...",
+      "content": "金融智能的架构编排：基于 Snowflake Cortex Agents 实现结构化与非结构化数据统一分析 ｜ 技术实践",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T18:46:43.000Z",
+      "publishedAt": "2026-04-24T18:48:28.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/U3BlkMiBlgWgLiKFth4N?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/LIb7POBCMo8213s9lk0T?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777044028247_111565cf",
-      "title": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
-      "summary": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
-      "content": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T18:39:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/RKJhuuOzLMaZmtmc4Uvf?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777044029531_c08c77bf",
-      "title": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
-      "summary": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
-      "content": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T18:34:59.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/ur7bvh7ayrDBPY1rTVtP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777044030921_e7b55a75",
-      "title": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
-      "summary": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
-      "content": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T17:59:41.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/GPGgiqtS9tCiHjNkUOOd?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777044032210_7fb3dcf2",
-      "title": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
-      "summary": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
-      "content": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T17:29:54.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/ua0m0lj6zOcEI6GGge72?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777044033743_f358a2e6",
@@ -98,18 +38,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/wUUPEzvNajcaVN0k7HPF?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777044035160_6b9d068d",
-      "title": "GPT-5.5 登顶时刻，Anthropic 亲口承认 Claude 变笨了！网友群嘲：太敷衍",
-      "summary": "GPT-5.5 登顶时刻，Anthropic 亲口承认 Claude 变笨了！网友群嘲：太敷衍",
-      "content": "GPT-5.5 登顶时刻，Anthropic 亲口承认 Claude 变笨了！网友群嘲：太敷衍",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T17:17:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/6iDjLwYiOXIVwjl4taOP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777044040473_0f1120fd",
@@ -208,7 +136,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777043889717_0",
+      "id": "news_1777050504591_0",
       "title": "DeepSeek Unveils Newest Flagship AI Model a Year after Upending Silicon Valley",
       "summary": "DeepSeek rolled out preview versions of a new flagship artificial intelligence model a year after upending Silicon Valley, calling it the most powerfu...",
       "content": "DeepSeek rolled out preview versions of a new flagship artificial intelligence model a year after upending Silicon Valley, calling it the most powerful open-source platform in a challenge to rivals from OpenAI to Anthropic PBC.\nThe Chinese startup un... [486 chars]",
@@ -304,7 +232,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777043889383_1",
+      "id": "news_1777050504913_1",
       "title": "OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?",
       "summary": "Home &raquo; Artificial intelligence &raquo; OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?...",
       "content": "OpenAI GPT-5.5 tops the Artificial Analysis Intelligence Index by 3 points, breaking a three-way tie with Anthropic and Google. There is indication that is faster and has some good results but some results are mid. More time is needed. It is a good m... [786 chars]",
@@ -328,7 +256,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777043889870_2",
+      "id": "news_1777050505340_2",
       "title": "5.5 with advanced coding, pushes deeper into AI agents and autonomous work",
       "summary": "OpenAI has released GPT-5.5, its latest artificial intelligence model, advancing its push into systems that can handle real-world work with less human...",
       "content": "OpenAI has released GPT-5.5, its latest artificial intelligence model, advancing its push into systems that can handle real-world work with less human input.\nThe new model lands less than two months after GPT-5.4, underscoring how quickly the AI race... [3156 chars]",
@@ -520,7 +448,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777043889389_3",
+      "id": "news_1777050504450_3",
       "title": "Goldberg: Keep artificial intelligence out of classrooms",
       "summary": "Norway is, by almost any metric, a profoundly successful nation. It’s rich, democratic and relatively corruption-free. It’s not a socialist country, b...",
       "content": "Norway is, by almost any metric, a profoundly successful nation. It’s rich, democratic and relatively corruption-free. It’s not a socialist country, but fans of a robust welfare state and high taxes see much to admire in the very progressive Norwegia... [4156 chars]",
@@ -580,7 +508,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777043889344_4",
+      "id": "news_1777050504816_4",
       "title": "ChatGPT and Claude? The Real-World AI Action Is Elsewhere",
       "summary": "With everyone’s attention fixed on powerful chatbots like ChatGPT and Claude, it’s been easy to overlook the growth of another field of artificial int...",
       "content": "With everyone’s attention fixed on powerful chatbots like ChatGPT and Claude, it’s been easy to overlook the growth of another field of artificial intelligence: world models. These systems can grasp three-dimensional space and physics, providing the ... [1224 chars]",
@@ -760,7 +688,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777043889954_5",
+      "id": "news_1777050504995_5",
       "title": "SpaceX says it can buy AI coding tool Cursor for $60B later this year",
       "summary": "SAN FRANCISCO — SpaceX says it has the rights to buy artificial intelligence coding tool Cursor for $60 billion later this year as Elon Musk’s space e...",
       "content": "SAN FRANCISCO — SpaceX says it has the rights to buy artificial intelligence coding tool Cursor for $60 billion later this year as Elon Musk’s space exploration and AI company looks for ways to compete with rivals Anthropic and OpenAI ahead of a plan... [1648 chars]",
@@ -770,54 +698,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.nbcnews.com/tech/tech-news/spacex-says-can-buy-ai-coding-tool-cursor-60b-later-year-rcna341455",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1776853519459_afe047e2",
-      "title": "金融智能的架构编排：基于 Snowflake Cortex Agents 实现结构化与非结构化数据统一分析 ｜ 技术实践",
-      "summary": "金融智能的架构编排：基于 Snowflake Cortex Agents 实现结构化与非结构化数据统一分析 ｜ 技术实践...",
-      "content": "金融智能的架构编排：基于 Snowflake Cortex Agents 实现结构化与非结构化数据统一分析 ｜ 技术实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-22T16:56:38.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/LIb7POBCMo8213s9lk0T?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776874581811_d609f7c8",
-      "title": "真我手机 realme UI 系统 4 月升级计划公布，大量 AI 功能上线、车机投屏将支持微信 App",
-      "summary": "IT之家 4 月 23 日消息，真我手机已在 OPPO 社区发布了 realme UI 系统的 4 月体验升级计划，新版本已开启陆续推送。",
-      "content": "IT之家 4 月 23 日消息，真我手机已在 OPPO 社区发布了 realme UI 系统的 4 月体验升级计划，新版本已开启陆续推送。 ▲ IT之家评测室：realme 真我 GT8 Pro 体验评测 据介绍，realme UI 系统 4 月体验升级内容包括小布记忆账单导入、小布记忆支持识别部分应用中聊天转账信息、车机投屏应用支持微信、手机接续车机投屏导航、支持在桌面添加 2×1 和 2×2 尺寸空气质量卡片、极客性能面板支持温控调节等功能。 真我手机官方表示，以上功能已于 4 月 20 日开始陆续推送，分批覆盖 realme UI 7.0 及以上机型： 真我 GT8 Pro 真我 GT8 真我 Neo8 真我 GT7 Pro 真我 GT7 Pro 竞速版 真我 GT7 真我 Neo7 真我 Neo7 Turbo 真我 Neo7 SE 真我 GT5 Pro 真我 GT6 真我 GT Neo6 真我 GT Neo6 SE IT之家附 realme UI 系统 4 月体验升级计划如下：",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/10/d9a99e37-97aa-451b-afd5-2fa5dd77c179.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1",
-      "source": "IT之家",
-      "publishedAt": "2026-04-22T16:10:24.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/942/341.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776847988367_462ee898",
-      "title": "百灵Ling-2.6-flash 正式发布：高 Token 效率，以 1/10 消耗实现 SOTA 级 Agent 能力",
-      "summary": "百灵Ling-2.6-flash 正式发布：高 Token 效率，以 1/10 消耗实现 SOTA 级 Agent 能力...",
-      "content": "百灵Ling-2.6-flash 正式发布：高 Token 效率，以 1/10 消耗实现 SOTA 级 Agent 能力",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-22T15:48:37.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/haZgR6XNQhh7r448wxPP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776874581995_248459ac",
-      "title": "师从钱学森的开创者：戴汝为院士逝世享年 94 岁，曾开创中国模式识别研究、培养大批智能科学人才",
-      "summary": "IT之家 4 月 22 日消息，中国科学院院士、中国科学院大学荣誉讲席教授、中国科学院自动化研究所研究员戴汝为同志，因病医治无效，于 2026 年 4 月 19 日 10 时 11 分在北京逝世，享年 94 岁。",
-      "content": "IT之家 4 月 22 日消息，中国科学院院士、中国科学院大学荣誉讲席教授、中国科学院自动化研究所研究员戴汝为同志，因病医治无效，于 2026 年 4 月 19 日 10 时 11 分在北京逝世，享年 94 岁。 官方资料显示，戴汝为 1932 年 12 月 31 日出生于云南石屏，1951 年考入清华大学数学系，后因院系调整并入北京大学，1955 年 7 月毕业于北京大学数学力学系。毕业后，他被选派到中国科学院力学研究所，师从著名科学家钱学森，成为钱学森归国后指导的第一位学生。 当时，钱学森正在北京中关村为科研人员讲授《工程控制论》，戴汝为被安排负责课堂笔记的整理工作，他后来回忆：“我把课堂记录的笔记拿给钱老看，请他审核。他总是很耐心细致地用红笔标记出不合适的地方，然后我再刻钢板印讲义发给听课的人。” 正是在钱学森的亲自指导下，戴汝为与合作者一起于 1958 年完成了《工程控制论》中文版的翻译工作，这部译著成为我国自动化领域长期以来的经典教科书。 1956 年，他进入中国科学院自动化研究所工作，1991 年当选为中国科学院学部委员（院士），曾任第五届中国科学院学部主席团成员，1986 年 7 月加入中国共产党。 戴汝为是自动控制、模式识别、智能科学、思维科学领域的专家。自 20 世纪 50 年代以来，他继承和发扬钱学森的科学思想，在控制论、人工智能等领域作出了开创性的研究工作。20 世纪 70 年代初，他率先将“模式识别”理论引入中国，当时国际上这一新兴领域刚刚起步，国内对此几乎一无所知。 1980 年，作为国家首批赴美访问学者前往普渡大学，他师从国际模式识别大师傅京孙教授，将统计模式识别与句法模式识别有机结合，开创性地提出了“语义-句法模式识别”方法，为中国汉字识别与汉字信息化应用和普及作出了重大贡献。这一理论创新被应用于手写汉字的机器识别，成为“汉王”手写识别核心技术的理论基础，他主持完成的手写数字识别系统成功应用于邮政信函自动分拣，获国家科技进步一等奖。IT之家注意到，20 世纪 90 年代初，戴汝为将研究视野拓展至系统科学领域，与钱学森共同构建了“开放的复杂巨系统及其方法论”，该方法被应用于中国经济、军事及社会发展等领域的重大问题决策中。他与钱学森等一起在《自然杂志》发表的“一个科学新领域 —— 开放的复杂巨系统及其方法论的研究”一文，成为我国“系统学”发展过程中具有里程碑意义的著作。在国家自然科学基金项目支持下，戴汝为还完成了“支持宏观决策的人-机结合综合集成研讨厅体系研究”，于 2005 年国家验收时荣获“特优”评价。 戴汝为曾获国家科技进步一等奖、中国科学院自然科学一等奖、“何梁何利”科技进步奖、中国模式识别科技终身成就奖、中国系统工程终身成就奖。他先后培养硕士生、博士生 80 余名，年过八旬仍在指导学生，并兼任清华大学、北京师范大学教授以及中国科技大学、上海交通大学、北京航空航天大学、南京航空航天大学等 30 余所大学的名誉教授。2010 年获颁“中国模式识别科技终身成就奖”时，他在获奖感言中说：“这份荣誉属于我们中国在模式识别领域辛勤耕耘的专家、学者，属于曾经指导过我的傅京孙教授，属于和我一起工作、进行过研究的许多同事、学生。” 当被问及对年轻科研工作者的期望时，他说：“我只相信一句话‘青出于蓝而胜于蓝’，只要能够踏踏实实地做，中国的模式识别研究将会有更加美好的明天。”近年来，戴汝为及其团队聚焦城镇化建设，提出智慧城市建设应运用系统科学的思想进行“顶层设计”的构想，并将“科学方法论”和“综合集成”操作平台应用于智慧城市建设的诸多领域。 中国科学院自动化研究所与中国科学院大学在讣告中写道：“戴汝为同志毕生热爱祖国，对党忠诚，矢志科研报国。他始终潜心研究，坚持求真创新，开学术之先河，树学风之楷模。他奖掖后学，桃李满天下，为我国智能科学领域培养了大批人才。他淡泊名利，品格高尚，宽于待人，深受大家敬重与爱戴。戴汝为同志的逝世是我国科技界的重大损失。我们沉痛悼念并深切缅怀戴汝为同志！他的精神与风范长存！”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/988fd7dd-5648-4aa6-81b3-33e390104d86.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-22T15:25:06.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/942/339.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
