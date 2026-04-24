@@ -1,19 +1,55 @@
 {
   "success": true,
-  "timestamp": "2026-04-23T19:30:12.431Z",
-  "total": 81,
+  "timestamp": "2026-04-24T00:02:54.868Z",
+  "total": 78,
   "data": [
     {
-      "id": "news_1776972597994_b6efc0c7",
-      "title": "姚顺雨腾讯模型首秀！不卷参数只做 “听话打工人”，Hy3 preview登场 | 附实测",
-      "summary": "姚顺雨腾讯模型首秀！不卷参数只做 “听话打工人”，Hy3 preview登场 | 附实测",
-      "content": "姚顺雨腾讯模型首秀！不卷参数只做 “听话打工人”，Hy3 preview登场 | 附实测",
+      "id": "news_1776988972709_fa5a342e",
+      "title": "中国移动“天通 + 北斗”双星通信服务在全国上线，31 款机型已支持",
+      "summary": "IT之家 4 月 24 日消息，据人民邮电报昨日报道，近日，中国移动正式面向全国上线天通卫星通话服务，该服务与北斗卫星短信服务一道构建起“天通 + 北斗”双星协同的天地一体通信保障体系。",
+      "content": "IT之家 4 月 24 日消息，据人民邮电报昨日报道，近日，中国移动正式面向全国上线天通卫星通话服务，该服务与北斗卫星短信服务一道构建起“天通 + 北斗”双星协同的天地一体通信保障体系。无论是在深山荒漠、远洋海岛，还是在地面通信因灾中断的场景中，用户均可通过手机直连卫星，获得“文字 + 语音”双重通信保障。 据介绍，天通一号卫星系统是我国自主建设、运营的卫星通信基础设施，被称作“太空通信基站”，能在无地面网络覆盖的区域提供语音通话服务。它与北斗卫星系统共同构成中国移动双星通信的核心底座，将卫星通信能力深度融入民用通信体系，实现手机直连卫星的全场景应用。 两大系统功能互补，构筑了双重保障。北斗卫星短信可在无地面网络时收发文字与位置信息，部分机型还支持图片、语音传输，实现快速求救与精准定位，并与地图导航平台联动，为应急救援提供基础通信兜底。天通卫星通话则在荒漠、深山、远海、高原等信号盲区，以及地震、洪水、泥石流等极端灾害导致地面通信瘫痪时，提供稳定清晰的实时语音服务，成为守护生命的关键通道。除应急通信外，双星通信还可广泛服务于远洋渔业、地质勘探、边防巡逻、户外探险、科学考察等领域，并发挥重要作用。 目前，双星通信的终端生态日趋完善，华为、荣耀、小米、OPPO、vivo、三星、中兴 7 个主流品牌的 31 款机型已全面支持相关功能。用户可通过编辑“KTTTGN”短信发送至 10086，登录中国移动 App 搜索“卫星通话”“卫星短信”“天通卫星”，或前往线下营业厅等多种方式便捷开通服务，无需更换手机卡和手机号码，也无需额外配备专用通信设备，真正实现了“一卡畅行天地间”。 IT之家注意到，工信部去年 9 月宣布向中国移动颁发卫星移动通信业务经营许可。继中国电信之后，中国移动、中国联通两家基础电信企业也已获得卫星移动通信业务经营资质，可依法开展手机直连卫星等业务，深化应急通信、海事通信、偏远地区通信等场景应用，丰富通信服务与产品供给。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-23T17:27:11.000Z",
+      "source": "IT之家",
+      "publishedAt": "2026-04-23T23:55:32.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/muFy49vXpNUHW09hxt7G?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/0/942/846.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776988972976_c57cc257",
+      "title": "转录工具 MacWhisper 13.20 发布：新增命令行工具，支持自动化转录",
+      "summary": "IT之家 4 月 24 日消息，科技媒体 9to5Mac 昨日（4 月 23 日）发布博文，报道称 MacWhisper 推出 13.20 版本更新，新增命令行工具 mw，支持用户在 Terminal（终端）中运行 AI 转录工作流。",
+      "content": "IT之家 4 月 24 日消息，科技媒体 9to5Mac 昨日（4 月 23 日）发布博文，报道称 MacWhisper 推出 13.20 版本更新，新增命令行工具 mw，支持用户在 Terminal（终端）中运行 AI 转录工作流。 IT之家注：MacWhisper 是 Mac 平台一款优秀的语音转录工具，此前版本中主要为 GUI 图形界面，而本次发布的 13.20 版本进一步扩展工作流，引入名为 mw 的命令行工具，让 Mac 用户能够通过 Terminal 驱动应用。 新工具的核心优势在于无缝集成与自动化。mw 通过本地套接字与运行中的 MacWhisper 应用通信，直接调用用户在图形界面中配置的引擎、模型和设置。用户可借此列出模型、切换配置、转录文件，并将结果通过管道传递给其他程序。 在功能层面，该工具支持处理本地及云端模型，不仅能转录和流式传输媒体文件，还能结合 LLM（大语言模型）优化转录文本。 对于开发者与技术爱好者而言，这一更新解决了重复性转录任务效率低下的痛点。用户无需频繁点击界面，即可通过脚本串联转录流程，将输出结果直接接入后续处理环节。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/a18a1513-1d33-416a-9ca5-c32e484f77d9.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-23T23:54:55.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/942/845.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776988973139_58d1561d",
+      "title": "苹果地图 3D 化 F1 迈阿密站：精细还原赛道地标、集成丰富导航信息",
+      "summary": "IT之家 4 月 24 日消息，科技媒体 Cult of Mac 昨日（4 月 23 日）发布博文，报道称苹果为迎接迈阿密 F1 大奖赛（5 月 3 日开赛），在苹果地图（Apple Maps）应用中推出沉浸式 3D 体验，详细展示赛道地标、维修区建筑及周边设施，并提供餐饮与观赛指南。",
+      "content": "IT之家 4 月 24 日消息，科技媒体 Cult of Mac 昨日（4 月 23 日）发布博文，报道称苹果为迎接迈阿密 F1 大奖赛（5 月 3 日开赛），在苹果地图（Apple Maps）应用中推出沉浸式 3D 体验，详细展示赛道地标、维修区建筑及周边设施，并提供餐饮与观赛指南。 在视觉呈现方面，本次应用更新涵盖迈阿密国际赛道的关键地标，包括看台、码头、终点线及维修区建筑，其中维修区模型还精细还原了赛车细节。用户只需在苹果地图搜索框输入“F1 Miami”，点击搜索结果并选择 3D 模式，即可俯瞰整条赛道的立体风貌。 苹果公司还集成了丰富的实用导航信息，可以精准指引前往现场观赛的车迷，详细标注了赛场入口、桥梁、洗手间及饮水站位置。 IT之家援引博文介绍，苹果同步发布了两份本地指南：“迈阿密 F1 赛车周本地指南”推荐周边餐饮购物场所，“F1 迈阿密赛车周精选地点”则帮助用户锁定赛道附近的绝佳观赛点位。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/b8655905-0f30-4998-a9a8-472763ecf29c.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-23T23:45:23.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/942/842.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1776988973597_2bbdb89a",
+      "title": "OpenAI 最智能 AI 模型：GPT-5.5 登场，Token 成本降至 1/35、每兆瓦输出提升 50 倍",
+      "summary": "IT之家 4 月 24 日消息，OpenAI 公司今天（4 月 24 日）宣布推出 GPT-5.5 模型，是其迄今最智能、最直观的 AI 模型，在 Agentic Coding、计算机使用及科研领域表现卓越，相比较 GPT-5.4，在完成相同任务的情况下减少词元（Token）消耗。",
+      "content": "IT之家 4 月 24 日消息，OpenAI 公司今天（4 月 24 日）宣布推出 GPT-5.5 模型，是其迄今最智能、最直观的 AI 模型，在 Agentic Coding、计算机使用及科研领域表现卓越，相比较 GPT-5.4，在完成相同任务的情况下减少词元（Token）消耗。 OpenAI 总裁格雷格 · 布罗克曼（Greg Brockman）强调，GPT-5.5 的核心突破，在于能够以更少的指导完成更多任务，最大的亮点在于在处理模糊问题时，展现出更强的自主性，能快速理解用户意图，自主规划并执行多步骤复杂任务，在代码编写调试、在线研究、数据分析及跨工具操作等场景表现出色。 GPT-5.5 的核心优势在于 Agent（智能体）能力，用户无需精细管理每一步，只需下达模糊的多部分任务，模型即可自主规划、调用工具、检查结果并持续推进直至完成。 性能方面，GPT-5.5 进一步平衡智能与速度。尽管模型更大、能力更强，但在实际服务中，其每个 Token 的延迟与 GPT-5.4 持平，且完成相同任务所需的 Token 显著减少： 在 Artificial Analysis 的 Coding Index 中，它以竞争模型一半的成本提供了 SOTA（最先进）的智能水平。 在 Terminal-Bench 2.0 测试中，GPT-5.5 取得了 82.7% 的准确率； 在评估 GitHub 问题解决的 SWE-Bench Pro 中达到 58.6%；在 Expert-SWE 等长周期任务中均超越前代模型。 早期测试者反馈，该模型在理解系统架构、定位故障及预测审查需求方面能力显著增强。 科研与知识工作领域迎来质变。GPT-5.5 在 GeneBench 基因数据分析及 BixBench 生物信息学基准测试中取得领先成绩，甚至协助发现了关于 Ramsey Numbers（拉姆齐数）的新证明。 在企业应用中，OpenAI 内部超 85% 的员工每周使用 Codex，财务团队利用其审核了超 7 万页税务文件，效率提升显著。NVIDIA 等合作伙伴证实，该模型将调试时间从数天缩短至数小时。 GPT-5.5 目前已向 Plus、Pro 等用户开放，API 版本即将上线，输入定价为每百万 Token 售价 5 美元（IT之家注：现汇率约合 34.2 元人民币），Pro 版本输入定价为每百万 Token 30 美元。 山姆 · 奥尔特曼称在 GPT-5.5 模型上，OpenAI 和英伟达高度合作，推广 Codex 到英伟达全公司，并晒出了和黄仁勋的交流邮件： 英伟达在新闻稿中指出，OpenAI 发布的 GPT-5.5 模型是其最新前沿成果，目前已在 NVIDIA GB200 NVL72 机架级系统上运行，为智能体编程应用 Codex 提供核心动力。 NVIDIA 内部已有超过 10000 名员工率先使用该技术，涵盖工程、产品、法务、市场等多个部门，员工反馈称其效果令人震撼。 英伟达工程师通过 Codex 应用使用 GPT-5.5 已数周，基于 GB200 NVL72 系统，该模型实现了极具竞争力的经济效益：相比前代系统，百万 Token 成本降低至 35 分之一，每兆瓦 Token 输出量提升 50 倍。 在实际应用中，原本耗时数天的调试周期缩短至数小时，复杂多文件代码库的实验周期从数周压缩至一夜之间。团队甚至能通过自然语言提示实现端到端功能交付。 IT之家附上参考地址 Introducing GPT‑5.5 OpenAI’s New GPT-5.5 Powers Codex on NVIDIA Infrastructure — and NVIDIA Is Already Putting It to Work",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/617d8b95-deca-4052-99b0-70a0b4bd7e22.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-23T23:35:00.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.ithome.com/0/942/841.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776957899505_f9f27ae8",
@@ -28,7 +64,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776972611037_f9f27ae8",
+      "id": "news_1776988973867_f9f27ae8",
       "title": "日本福岛核事故反应堆内部测得“极高”水平核辐射",
       "summary": "IT之家 4 月 23 日消息，据央视新闻今日报道，日本东京电力公司 23 日公布了福岛第一核电站 2 号机组反应堆内部调查结果，表示在反应堆内部测得“极高”水平核辐射。 报道称，这是 2011 年福岛第一核电站发生核事故以来，东电公司首次在堆芯熔毁的反应堆内部测量核辐射。",
       "content": "IT之家 4 月 23 日消息，据央视新闻今日报道，日本东京电力公司 23 日公布了福岛第一核电站 2 号机组反应堆内部调查结果，表示在反应堆内部测得“极高”水平核辐射。 报道称，这是 2011 年福岛第一核电站发生核事故以来，东电公司首次在堆芯熔毁的反应堆内部测量核辐射。据悉，东电公司此次调查于 16 日进行，通过将装有测量仪器的光纤内窥镜经由管道送入反应堆内部，在距反应堆底部约 5 米的位置，测得核辐射剂量约为每小时 4.7 希沃特，处于“极高”水平。 东电公司称，此次调查结果显示 2 号机组反应堆内部仍残留一定数量的核残渣，公司将进一步分析相关数据，并研究取出核残渣的方法。 IT之家注：受 2011 年“3·11”东日本大地震和海啸双重影响，福岛第一核电站全部 6 个机组中的 1 至 3 号机组堆芯熔毁，形成约 880 吨核残渣，迄今仅通过试验性作业取出约 0.9 克样本。 由于反应堆内部辐射极高，相关作业只能依赖远程设备开展，成为报废工作的最大难关。原计划 2030 年代初启动的正式回收作业，也已推迟至 2037 年度以后。 相关阅读： 《福岛第一核电站首次拍摄到 3 号机组反应堆压力容器底部影像》",
@@ -208,7 +244,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776972303725_0",
+      "id": "news_1776988667836_0",
       "title": "Goldberg: Keep artificial intelligence out of classrooms",
       "summary": "Norway is, by almost any metric, a profoundly successful nation. It’s rich, democratic and relatively corruption-free. It’s not a socialist country, b...",
       "content": "Norway is, by almost any metric, a profoundly successful nation. It’s rich, democratic and relatively corruption-free. It’s not a socialist country, but fans of a robust welfare state and high taxes see much to admire in the very progressive Norwegia... [4156 chars]",
@@ -436,19 +472,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776972600185_157f6c7f",
-      "title": "高能研讨会｜端侧 AI 正在重写实时感知效率上限",
-      "summary": "高能研讨会｜端侧 AI 正在重写实时感知效率上限",
-      "content": "高能研讨会｜端侧 AI 正在重写实时感知效率上限",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-22T19:15:10.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/UJySiBqf8hEsjBTWqpHS?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776972303530_1",
+      "id": "news_1776988668392_1",
       "title": "SpaceX says it can buy AI coding tool Cursor for $60B later this year",
       "summary": "SAN FRANCISCO — SpaceX says it has the rights to buy artificial intelligence coding tool Cursor for $60 billion later this year as Elon Musk’s space e...",
       "content": "SAN FRANCISCO — SpaceX says it has the rights to buy artificial intelligence coding tool Cursor for $60 billion later this year as Elon Musk’s space exploration and AI company looks for ways to compete with rivals Anthropic and OpenAI ahead of a plan... [1648 chars]",
@@ -470,18 +494,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/LIb7POBCMo8213s9lk0T?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776972603653_ee73d2ae",
-      "title": "在AK大神爆火的任务里，摸清国产AI真实水平",
-      "summary": "在AK大神爆火的任务里，摸清国产AI真实水平",
-      "content": "在AK大神爆火的任务里，摸清国产AI真实水平",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-22T16:31:23.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/IPZaVe2hAKCougHa1zAm?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776874581811_d609f7c8",
@@ -520,7 +532,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776972575608_2",
+      "id": "news_1776988931616_2",
       "title": "SpaceX Says It Can Buy AI Coding Tool Cursor for $60B Later This Year",
       "summary": "SAN FRANCISCO (AP) — SpaceX says it has the rights to buy artificial intelligence coding tool Cursor for $60 billion later this year as Elon Musk's sp...",
       "content": "SAN FRANCISCO (AP) — SpaceX says it has the rights to buy artificial intelligence coding tool Cursor for $60 billion later this year as Elon Musk's space exploration and AI company looks for ways to compete with rivals Anthropic and OpenAI ahead of a... [1786 chars]",
@@ -532,7 +544,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1776972303225_3",
+      "id": "news_1776988668492_3",
       "title": "OpenAI says its new image tool can make complex charts and diagrams",
       "summary": "OpenAI is releasing an update to its artificial intelligence image-generating software that it says will let users create accurate, complex charts and...",
       "content": "OpenAI is releasing an update to its artificial intelligence image-generating software that it says will let users create accurate, complex charts and scientific diagrams, part of a bid by the company to make its technology more appealing to professi... [1643 chars]",
@@ -554,18 +566,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/7963485.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776972606459_f3fef4dd",
-      "title": "当 PM 懂AI，当技术懂产品：AI 时代产品力的双向进化｜PM x AI产品力领航者大会即将开幕",
-      "summary": "当 PM 懂AI，当技术懂产品：AI 时代产品力的双向进化｜PM x AI产品力领航者大会即将开幕",
-      "content": "当 PM 懂AI，当技术懂产品：AI 时代产品力的双向进化｜PM x AI产品力领航者大会即将开幕",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-22T14:43:36.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/PGUEKqa88emfLiIL1Mwz?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1776869543517_518b9f06",
@@ -604,6 +604,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1776988969281_d9e184f3",
+      "title": "为 AI 智能体设计记忆机制：揭秘 LinkedIn 的认知记忆智能体",
+      "summary": "为 AI 智能体设计记忆机制：揭秘 LinkedIn 的认知记忆智能体",
+      "content": "为 AI 智能体设计记忆机制：揭秘 LinkedIn 的认知记忆智能体",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-22T12:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/SCh9qpVmgQ1ObT3eVR17?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1776859461164_c62e2559",
       "title": "徕芬 CEO 叶洪新预热 AirFold 手持风扇，5 月将集中推出 7 款新品",
       "summary": "IT之家 4 月 22 日消息，徕芬 CEO 叶洪新在微博发文，宣布将于 5 月举办新品发布会，届时将集中发布 7 款新品，号称是徕芬自 2025 年发布直线往复式剃须刀以来，规模最大的一次产品矩阵更新。",
@@ -640,7 +652,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776972303491_4",
+      "id": "news_1776988667353_4",
       "title": "Mother Testifies in California for AI Chatbot Regulations After Son’s Suicide",
       "summary": "Introduction\nMaria Raine testified Monday in Sacramento, California, urging state lawmakers to impose stricter regulations on artificial intelligence ...",
       "content": "Introduction\nMaria Raine testified Monday in Sacramento, California, urging state lawmakers to impose stricter regulations on artificial intelligence 'companion' chatbots. Her testimony supports two proposed bills following the April 2025 suicide of ... [6720 chars]",
@@ -820,7 +832,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1776972303361_5",
+      "id": "news_1776988672241_5",
       "title": "OpenAI in talks to commit up to $1.5 billion to private equity JV, FT reports",
       "summary": "April 22 (Reuters) - Artificial intelligence firm OpenAI is set to commit up to $1.5 billion to a new joint ​venture with private equity firms, Financ...",
       "content": "April 22 (Reuters) - Artificial intelligence firm OpenAI is set to commit up to $1.5 billion to a new joint ​venture with private equity firms, Financial Times reported on ‌Wednesday, citing people familiar with the matter.\nThe ChatGPT maker will ini... [1420 chars]",
@@ -926,54 +938,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/7962067.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776815112217_9635ab5b",
-      "title": "特努斯将接任苹果 CEO，承诺“再次改变世界”",
-      "summary": "IT之家 4 月 22 日消息，科技媒体 9to5Mac 昨日（4 月 21 日）发布博文，报道称在全员大会上，即将掌舵苹果公司的约翰 · 特努斯（John Ternus）发表重要讲话，宣称苹果即将“再次改变世界”，并称当下是其职业生涯中最激动人心的产品构建时刻。",
-      "content": "IT之家 4 月 22 日消息，科技媒体 9to5Mac 昨日（4 月 21 日）发布博文，报道称在全员大会上，即将掌舵苹果公司的约翰 · 特努斯（John Ternus）发表重要讲话，宣称苹果即将“再次改变世界”，并称当下是其职业生涯中最激动人心的产品构建时刻。 约翰 · 特努斯（John Ternus），图源：苹果 在苹果公司官宣重大人事变动的次日，苹果公司内部举办全员大会，确认现任 CEO 蒂姆 · 库克将于 2026 年 9 月 1 日卸任，届时特努斯将接任 CEO 职位。IT之家援引博文介绍，特努斯在会上向员工发表了重要讲话，试图在过渡期稳定团队士气并勾勒未来蓝图。 在讲话中，特努斯对苹果的未来表现出极强信心。他明确表示，此时接任是一个特殊的时刻，并向员工承诺苹果即将“再次改变世界”。他形容公司拥有一份“令人难以置信的路线图”，并断言这是其职业生涯中在苹果构建产品和服务最激动人心的时刻。 在此次过渡安排中，库克将于卸任后转任苹果董事会执行董事长，他强调自己健康状况良好，计划长期担任新职务，并全力支持特努斯取得成功。 库克指出，苹果 \" 令人难以置信 \" 的产品管线、当前的财务成功以及特努斯的准备就绪，构成了此刻交接的三大关键因素。 在具体战略层面，特努斯将 AI 视为核心驱动力。他指出，AI 将创造几乎无限的潜力，不断解锁新的可能性，从而为公司的产品和服务开辟全新机遇。此前有消息称，特努斯已开始利用新 AI 系统重塑公司内部运营，显示出他对这一技术的重视不仅停留在口号层面，更已付诸实践。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/a3aa3a8c-0622-48ab-8b8a-0001c73b0357.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-21T23:12:52.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/941/864.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776815112372_f0045864",
-      "title": "OpenAI CEO 奥尔特曼炮轰 Anthropic：为 Mythos“制造恐慌式营销”",
-      "summary": "IT之家 4 月 22 日消息，OpenAI 与 Anthropic 仍在持续互相指责。本周，OpenAI 首席执行官萨姆 · 奥尔特曼在一档播客节目中公开批评其竞争对手推出的全新网络安全模型，称该公司是在利用恐慌情绪，夸大产品的实际能力。",
-      "content": "IT之家 4 月 22 日消息，OpenAI 与 Anthropic 仍在持续互相指责。本周，OpenAI 首席执行官萨姆 · 奥尔特曼在一档播客节目中公开批评其竞争对手推出的全新网络安全模型，称该公司是在利用恐慌情绪，夸大产品的实际能力。 IT之家注意到，本月早些时候，Anthropic 发布了名为 Mythos 的模型，并仅向少数企业客户开放试用。该公司宣称，由于担心网络犯罪分子会将其用作攻击工具，Mythos 能力过强，不宜向公众开放。批评人士则认为，这种说法言过其实。 奥尔特曼在《Core Memory》播客节目中表示，Anthropic 这种“制造恐慌式营销”，实则是为了让人工智能技术只掌握在少数精英群体手中。“世界上一直有一部分人，长期以来都希望人工智能只被少数人掌控，”他说道，“他们能找出各种理由来为此辩解。” 他还补充道：“这种营销手段显然很高明，就好比在说：‘我们造出了炸弹，正要扔向你。然后我们以一亿美元的价格卖给你防空洞。’” Techcrunch 称，制造恐慌式营销并非 Anthropic 首创。可以说，人工智能行业的不少企业都在借助恐吓话术与夸张宣传，凸显自身工具的强大实力。有关人工智能可能导致世界末日的持续言论，不仅出自反对技术进步的悲观主义者，也来自向公众推销这项技术的从业者 —— 其中就包括奥尔特曼本人。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/8ad2304d-c61b-4004-9483-e1a55ca43342.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-21T22:54:29.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/941/860.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776972303371_6",
-      "title": "Florida launches criminal probe into OpenAI and ChatGPT over deadly shooting",
-      "summary": "WASHINGTON, April 21 (Reuters) - Florida Attorney General James Uthmeier said on Tuesday the state was launching a criminal probe into OpenAI and its ...",
-      "content": "WASHINGTON, April 21 (Reuters) - Florida Attorney General James Uthmeier said on Tuesday the state was launching a criminal probe into OpenAI and its ​artificial intelligence app ChatGPT over a deadly shooting last year that ‌killed two people at Flo... [1536 chars]",
-      "imageUrl": "https://www.reuters.com/resizer/v2/YI7XUZXX6JNG5EDKUQWHJPI7EE.jpg?auth=99c4520e449f53723e4bc821f65fceff7c1366eb93e4f855dc963382ab7ff0cf&height=1005&width=1920&quality=80&smart=true",
-      "source": "Reuters",
-      "publishedAt": "2026-04-21T22:48:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.reuters.com/world/us/florida-launches-criminal-probe-into-openai-chatgpt-over-deadly-shooting-2026-04-21/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1776972303468_7",
-      "title": "Florida’s attorney general launches criminal probe into ChatGPT over FSU shooting",
-      "summary": "Quick Links ETRIB High School Sports Network TribLIVE Local Newsletters Advertise Classifieds Jobs Feedback / Issues -->...",
-      "content": "ORLANDO, Fla. — Florida’s attorney general on Tuesday opened a rare criminal investigation into OpenAI’s ChatGPT over whether the artificial intelligence app offered advice to a gunman who killed two people and wounded six others last year at Florida... [3397 chars]",
-      "imageUrl": "https://assets-varnish.triblive.com/2026/04/9503810_web1_9503810-36b72d4f9f9f4ad9b72a0d827dec4313.jpg",
-      "source": "Pittsburgh Tribune-Review",
-      "publishedAt": "2026-04-21T21:49:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://triblive.com/news/world/floridas-attorney-general-launches-criminal-probe-into-chatgpt-over-fsu-shooting/",
-      "aiInsight": ""
     }
   ]
 }
