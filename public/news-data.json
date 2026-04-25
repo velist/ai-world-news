@@ -1,19 +1,43 @@
 {
   "success": true,
-  "timestamp": "2026-04-25T09:05:19.827Z",
-  "total": 69,
+  "timestamp": "2026-04-25T10:54:15.493Z",
+  "total": 60,
   "data": [
     {
-      "id": "news_1777107892577_04ca24cc",
-      "title": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
-      "summary": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
-      "content": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
+      "id": "news_1777114454334_2d087709",
+      "title": "破局 1.6T 量产瓶颈：万里眼 65GHz 采样示波器正式发布",
+      "summary": "IT之家 4 月 25 日消息，2026 九峰山论坛暨中国光谷国际化合物半导体产业博览会于 4 月 23 日至 25 日在中国武汉光谷科技会展中心举行。",
+      "content": "IT之家 4 月 25 日消息，2026 九峰山论坛暨中国光谷国际化合物半导体产业博览会于 4 月 23 日至 25 日在中国武汉光谷科技会展中心举行。 新凯来旗下深圳市万里眼技术有限公司在会上正式发布了面向 1.6T 高速光模块研发与大规模制造场景的 65GHz 采样示波器，实现 1.6T 研发量产测试全流程高效贯通。 随着 AI 算力扩张对高带宽、低时延的迫切需求，光互连技术正加速从 800G 向 1.6T 代际演进，而高速光模块的测试能力已成为制约 AI 算力集群部署效率的关键。 万里眼 CEO 刘桑表示，从数字经济到集成电路，再到半导体设计制造，有“一代技术、一代工艺、一代设备”的发展逻辑。在这一严密链条中，测量仪器是所有设备的基础，被行业称之为“设备的设备”，是负责定量和校准的“龙眼”。“没有精准的测量，就不可能有高性能的设备和产品。” 据刘桑介绍，万里眼此次发布的 65GHz 采样示波器，实现了三大核心突破，IT之家总结如下： 一是效率。凭借业界领先的 500kHz 采样率，测试效率对比传统方案提升了 100%，大幅缩短产品生产周期； 二是代际演进。65GHz 超高带宽支持单波 200G 光测量，为 1.6T 光通信提供底座，且模块化架构支持未来向更高速率演进； 三是超高精度。低至 12μW（典型值）的超低光功率噪声，精准捕捉微弱信号，保障高质量生产与产品交付。 相关阅读： 《国产仪器再获突破：万里眼 110G 频谱分析仪亮相，较瓦森纳出口管制水平提升近 400%》 《突破美国长期卡脖子：新凯来子公司万里眼 90GHz 超高速实时示波器重磅发布，性能全球第二》 《可支撑 3nm 先进制程研发检测！新凯来子公司万里眼新一代超高速实时示波器硬刚国外高端产品》 《水平全国第一、全球第二，新凯来子公司万里眼推出新一代超高速实时示波器》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/2b0968bc-6e5f-4d4d-832f-b0fe38f1b849.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-25T10:42:27.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/943/506.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777114454490_a68bc4dc",
+      "title": "小马智行发布新一代自动驾驶域控制器，基于英伟达 DRIVE Hyperion 方案打造",
+      "summary": "IT之家 4 月 25 日消息，小马智行今天发布全新一代自动驾驶域控制器，基于英伟达 DRIVE Hyperion 平台打造，面向 L4 级自动驾驶平台及更广泛的自动驾驶应用场景。",
+      "content": "IT之家 4 月 25 日消息，小马智行今天发布全新一代自动驾驶域控制器，基于英伟达 DRIVE Hyperion 平台打造，面向 L4 级自动驾驶平台及更广泛的自动驾驶应用场景。 IT之家在此援引官方公众号，相比上一代域控制器，新产品系统在 AI 算力、能效表现以及对最新 AI 模型的支持能力上进一步提升，能够更好满足 L4 级自动驾驶在多传感器融合、全场景感知和复杂场景理解等方面的需求，并进一步提升系统的安全保障能力、复杂场景应对能力和部署灵活性。该系统也将支持 Robotaxi 业务下一阶段商业化，并为域控制器业务发展提供支撑。 同时，该平台支持灵活单芯片和多芯片配置，计划引入英伟达 NVLink 技术，实现两个 DRIVE Thor 系统级芯片之间的高速、低时延通信，综合计算性能最高可达 4000 FP4 TFLOPS。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/03f08e43-b78c-4340-b21d-64651b9067e1.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-25T09:47:56.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/943/481.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777114402257_8cbc1294",
+      "title": "元戎启行全面押注大模型自动驾驶",
+      "summary": "4月25日，北京车展上，前DeepSeek多模态技术核心研究员阮翀以元戎启行首席科学家身份首次公开亮相。元戎启行CEO周光表示，多模态大模型能力在2026年初取得突破性进展，大模型自动驾驶路线起点已远优于上一代技术，小模型自动驾驶存在“跷跷板效应”，无法实现全场景安全覆盖，公司已全面转向大模型路线。",
+      "content": "4月25日，北京车展上，前DeepSeek多模态技术核心研究员阮翀以元戎启行首席科学家身份首次公开亮相。元戎启行CEO周光表示，多模态大模型能力在2026年初取得突破性进展，大模型自动驾驶路线起点已远优于上一代技术，小模型自动驾驶存在“跷跷板效应”，无法实现全场景安全覆盖，公司已全面转向大模型路线。（证券时报）",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-25T16:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/GL7YlM38mlEarquKkSE9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "36氪",
+      "publishedAt": "2026-04-25T09:18:50.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3782028988882178?f=rss",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777107872050_104fec19",
@@ -292,18 +316,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777107894875_d933fb70",
-      "title": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
-      "summary": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
-      "content": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T19:18:13.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/ub0bHyfIRpbO61I876k2?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1777044023016_6b14fccf",
       "title": "Snowflake Cortex Code 的规范驱动开发：将 SDLC 方法论引入 AI 辅助工作流 ｜ 技术实践",
       "summary": "Snowflake Cortex Code 的规范驱动开发：将 SDLC 方法论引入 AI 辅助工作流 ｜ 技术实践...",
@@ -328,66 +340,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777107900827_84f7fd65",
-      "title": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
-      "summary": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
-      "content": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T18:46:43.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/U3BlkMiBlgWgLiKFth4N?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777107902789_111565cf",
-      "title": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
-      "summary": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
-      "content": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T18:39:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/RKJhuuOzLMaZmtmc4Uvf?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777107904835_c08c77bf",
-      "title": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
-      "summary": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
-      "content": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T18:34:59.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/ur7bvh7ayrDBPY1rTVtP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777107906909_e7b55a75",
-      "title": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
-      "summary": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
-      "content": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T17:59:41.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/GPGgiqtS9tCiHjNkUOOd?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777107909154_7fb3dcf2",
-      "title": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
-      "summary": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
-      "content": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T17:29:54.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/ua0m0lj6zOcEI6GGge72?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1777044033743_f358a2e6",
       "title": "DeepSeek V4 重磅开源！首次打通华为Ascend，也没丢掉英伟达，百万上下文夺回国产模型话语权",
       "summary": "DeepSeek V4 重磅开源！首次打通华为Ascend，也没丢掉英伟达，百万上下文夺回国产模型话语权...",
@@ -398,18 +350,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/wUUPEzvNajcaVN0k7HPF?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777107913546_6b9d068d",
-      "title": "GPT-5.5 登顶时刻，Anthropic 亲口承认 Claude 变笨了！网友群嘲：太敷衍",
-      "summary": "GPT-5.5 登顶时刻，Anthropic 亲口承认 Claude 变笨了！网友群嘲：太敷衍",
-      "content": "GPT-5.5 登顶时刻，Anthropic 亲口承认 Claude 变笨了！网友群嘲：太敷衍",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-24T17:17:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/6iDjLwYiOXIVwjl4taOP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777044040473_0f1120fd",
@@ -496,7 +436,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777107854383_0",
+      "id": "news_1777114394124_0",
       "title": "China's DeepSeek rolls out a long-anticipated update of its AI model",
       "summary": "HONG KONG (AP) — DeepSeek, the Chinese artificial intelligence startup that shook world markets last year, launched preview versions of its latest maj...",
       "content": "HONG KONG (AP) — DeepSeek, the Chinese artificial intelligence startup that shook world markets last year, launched preview versions of its latest major update Friday as the AI rivalry between China and the U.S. heats up.\nDeepSeek’s V4 has been keenl... [1486 chars]",
@@ -520,7 +460,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777107854178_1",
+      "id": "news_1777114393367_1",
       "title": "DeepSeek Unveils Newest Flagship AI Model a Year after Upending Silicon Valley",
       "summary": "DeepSeek rolled out preview versions of a new flagship artificial intelligence model a year after upending Silicon Valley, calling it the most powerfu...",
       "content": "DeepSeek rolled out preview versions of a new flagship artificial intelligence model a year after upending Silicon Valley, calling it the most powerful open-source platform in a challenge to rivals from OpenAI to Anthropic PBC.\nThe Chinese startup un... [486 chars]",
@@ -616,7 +556,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777107853522_2",
+      "id": "news_1777114393359_2",
       "title": "OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?",
       "summary": "Home &raquo; Artificial intelligence &raquo; OpenAI GPT 5.5 Has Good Ranking Scores But Is It Better?...",
       "content": "OpenAI GPT-5.5 tops the Artificial Analysis Intelligence Index by 3 points, breaking a three-way tie with Anthropic and Google. There is indication that is faster and has some good results but some results are mid. More time is needed. It is a good m... [786 chars]",
@@ -640,7 +580,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777107854380_3",
+      "id": "news_1777114393928_3",
       "title": "5.5 with advanced coding, pushes deeper into AI agents and autonomous work",
       "summary": "OpenAI has released GPT-5.5, its latest artificial intelligence model, advancing its push into systems that can handle real-world work with less human...",
       "content": "OpenAI has released GPT-5.5, its latest artificial intelligence model, advancing its push into systems that can handle real-world work with less human input.\nThe new model lands less than two months after GPT-5.4, underscoring how quickly the AI race... [5073 chars]",
@@ -782,54 +722,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/7964511.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776941269916_89d571dc",
-      "title": "罕见药不用愁：京东大药房推出“AI 全球找药”功能，利用药智模型快速匹配药源",
-      "summary": "IT之家 4 月 23 日消息，京东大药房在今天的合作伙伴大会上，正式推出了“AI 全球找药”服务，该服务依托京东药智模型和海量医药图谱，结合平台供应链，实现快速判定用户用药需求，在全球范围内匹配罕见药源，完成从寻源、采购全流程。",
-      "content": "IT之家 4 月 23 日消息，京东大药房在今天的合作伙伴大会上，正式推出了“AI 全球找药”服务，该服务依托京东药智模型和海量医药图谱，结合平台供应链，实现快速判定用户用药需求，在全球范围内匹配罕见药源，完成从寻源、采购全流程。 除了全球找药外，京东大药房还推出了 AI 药师服务，患者购药前可以利用相应功能获取用药见解；患者购药后还可让 AI 主动提醒按时用药、及时复购。 京东大药房表示，后续平台还将继续利用 AI 技术在新药首发、中药材标准、医药保险等方面持续升级，让更多人用上平价好药。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/3ef08982-2a95-4cb6-8891-143a04ab5d44.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-23T10:30:01.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/942/768.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776915672533_8d1be7d6",
-      "title": "靠“AI 云”爆红的 Vercel，栽在一个第三方AI工具手里！IPO前夕遭黑，200万美元赎金谈崩？",
-      "summary": "靠“AI 云”爆红的 Vercel，栽在一个第三方AI工具手里！IPO前夕遭黑，200万美元赎金谈崩？...",
-      "content": "靠“AI 云”爆红的 Vercel，栽在一个第三方AI工具手里！IPO前夕遭黑，200万美元赎金谈崩？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-23T09:58:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/OJN55xPWaVxT2IajEw6G?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776941269951_a059f234",
-      "title": "银昕推出两款 AM5 / AM4 平台下压风冷，高度仅 22mm、40mm",
-      "summary": "IT之家 4 月 23 日消息，SilverStone（银欣 / 银昕）本周推出了 2 款适用于 AMD AM5 / AM4 CPU 平台的下压式低高度风冷散热器，分别为 22mm 高的 NT07-AM5 和 40mm 高的 NT09-AM5。",
-      "content": "IT之家 4 月 23 日消息，SilverStone（银欣 / 银昕）本周推出了 2 款适用于 AMD AM5 / AM4 CPU 平台的下压式低高度风冷散热器，分别为 22mm 高的 NT07-AM5 和 40mm 高的 NT09-AM5。 NT07-AM5 采用经典“太阳花”造型，结合铜芯、铜底、铝挤鳍片和定制 8010 液压轴承风扇，拥有 65W 的 TDP。其风扇转速 1500~3600 RPM，噪声 18~34.7 dB(A)，最大风量 28.14 CFM，最大静压 2.6 mmAq。 NT09-AM5 则完全由铝挤型散热片和风扇构成，TDP 为 80W。其搭载 70mm 的双滚珠轴承风扇，转速 800~3400 RPM，最大风量 21.11 CFM，最大静压 2.32 mmAq，最大噪声 30.9 dB(A)。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/f4557394-45a3-4829-9599-d3492144e754.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-23T09:45:01.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/942/710.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1776941250515_2500bf9b",
-      "title": "这一次，OpenAI干掉了90%人类设计师",
-      "summary": "这一次，OpenAI干掉了90%人类设计师",
-      "content": "人们距离那个所思即所得的视觉奇点，可能真的只有一步之遥了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-23T09:37:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7964063.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
