@@ -1,19 +1,31 @@
 {
   "success": true,
-  "timestamp": "2026-04-26T08:21:50.814Z",
-  "total": 68,
+  "timestamp": "2026-04-26T10:04:46.960Z",
+  "total": 73,
   "data": [
     {
-      "id": "news_1777191685049_6eb34643",
-      "title": "Anthropic推出面向Claude Code的基于智能体的代码审查功能",
-      "summary": "Anthropic推出面向Claude Code的基于智能体的代码审查功能",
-      "content": "Anthropic推出面向Claude Code的基于智能体的代码审查功能",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-26T10:00:00.000Z",
+      "id": "news_1777197885759_29971f6f",
+      "title": "研究显示：AI 智能体不会让软件工程师丢饭碗，反而拓展其工作边界",
+      "summary": "IT之家 4 月 26 日消息，据科技媒体 The Decoder 今天报道，查尔姆斯理工大学、沃尔沃集团研究团队最近在一篇论文指出，AI 智能体并不会让软件工程师失业。反而还可以通过“半可信执行栈”扩展工作范围。",
+      "content": "IT之家 4 月 26 日消息，据科技媒体 The Decoder 今天报道，查尔姆斯理工大学、沃尔沃集团研究团队最近在一篇论文指出，AI 智能体并不会让软件工程师失业。反而还可以通过“半可信执行栈”扩展工作范围。 据报道，研究团队首先提出了一个由六环组成的“半可信执行栈”（semi-executable stack）模型，将传统代码向外延伸，触达欧盟 AI 法案等社会因素。 论文中的“半可信执行栈”由六个环组成：经典代码、提示词和自然语言规范、智能体工作流编排、控制系统、运营组织逻辑、社会与制度适配。 目前，软件工程师主要在经典代码（IT之家注：第一环）、提示词（第二环）工作；而智能体工作流（第三环）、安全围栏（第四环）和决策流程（第五环）正在成为高优先级工程对象；社会制度适配（第六环）则决定 AI 的实际执行。 研究者认为，目前 AI 智能体最大的漏洞集中在第五环和第六环，人们已经写了几十年代码，但 AI 决策、制度适配等宏观流程仍然缺失，大多数研究仍然集中在修复错误、测试 AI 等。 学者表示，AI 不需要拥有顶尖人类学者的水平，只需要够用就行。大量部署 AI 带来的价值高于部分顶级专家。 此外，研究人员并没有忽视 AI 的“幻觉”问题，他们认为这更凸显了测试、监控的必要。人类在未来仍存在价值。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/2c2f523e-676e-4ad4-9eea-b77c59ea9351.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-26T09:37:22.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/QyeZg05iakideMTGCQKi?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/0/943/707.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777197885955_66ba2534",
+      "title": "哈佛大学、MIT、斯坦福等高校子域名 DNS 记录未及时清理，被劫持用于非法内容",
+      "summary": "IT之家 4 月 26 日消息，研究人员 Alex Shakhov 发现，由于网站管理员维护不善，全球多所顶尖大学的官方域名被不法分子利用，用于传播露骨色情及恶意内容，并成功被谷歌索引。",
+      "content": "IT之家 4 月 26 日消息，研究人员 Alex Shakhov 发现，由于网站管理员维护不善，全球多所顶尖大学的官方域名被不法分子利用，用于传播露骨色情及恶意内容，并成功被谷歌索引。 Shakhov 表示，目前已发现至少有 34 所大学的数百个子域名正在被滥用，包括但不限于： 麻省理工学院、哈佛大学、斯坦福大学、加州大学伯克利分校、哥伦比亚大学、芝加哥大学、约翰霍普金斯大学、乔治 · 华盛顿大学、密歇根大学、罗格斯大学、弗吉尼亚大学、得克萨斯农工大学、加州大学圣地亚哥分校、石溪大学、奥本大学、犹他大学、佐治亚大学、乔治梅森大学、得克萨斯克里斯汀大学、加州大学旧金山分校、埃默里大学、华盛顿大学、圣路易斯华盛顿大学、凯斯西储大学、北卡罗来纳大学教堂山分校、北卡罗来纳大学格林斯伯勒分校、佛罗里达州立大学、佛罗里达南方学院、加州理工州立大学、安迪亚克大学、鲍尔州立大学、圣地亚哥超级计算机中心、亚特兰蒂斯大学以及史蒂文斯理工学院。 谷歌搜索结果中可列出数千个被劫持的页面，具体案例包括： hXXps://causal.stat.berkeley.edu/ ymy / video / xxx-porn-girl-and-boy-ej5210.html hXXps://conversion-dev.svc.cul.columbia [.]edu / brazzers-gym-porn hXXps://provost.washu.edu/ app / uploads / formidable/6/dmkcsex-10.pdf 这些地址均直接显示色情内容，其中至少一个还指向冒充感染警告的诈骗网站，诱导访客付费清除不存在的恶意软件。 在他公布初步研究结果后，Infoblox 威胁情报副总裁 Renée Burton 确认该行动系威胁组织 Hazy Hawk 所为 —— 该团队自该组织利用相同技术劫持 CDC 子域名以来便一直在追踪。安全社区成员还指出，国防部教育活动局（DoDEA）下属的一个域名同样存在被相同攻击模式利用的漏洞。 安全顾问 Henk G. 也指出，国防部教育活动局的一个域名同样存在该问题。该问题已通过国防部适当渠道上报。从大学研究实验室到军事教育基础设施，同一类漏洞的广泛存在凸显了问题的普遍性。 Shakhov 称，骗子利用的是高校网站管理员的“文书错误”。当大学为某个子域名创建 CNAME 记录时，该记录将子域名指向一个“权威”外部服务（例如 GitHub Pages、WP Engine 等）。而当该子域名日后因各种原因被停用时，对应的 DNS 记录却未被删除。Hazy Hawk 组织只需在外部平台上注册一个匹配废弃目标的新账户便可趁机完成劫持，从而完全控制该域名所指向的内容。 例如，Shakhov 发现 www.ccct.uchicago.edu 的 CNAME 记录指向一个不再被认领的 WP Engine 站点，任何注册了相应 WP Engine 账户的人都可以在芝加哥大学的子域名下发布任意内容。 Shakhov 指出，这些高校的人创建 DNS 记录后从不清理，而 CNAME 记录又没有过期时间，目标停止响应时也不会有人收到警报，且大多数大学 IT 部门没有维护其子域名的完整清单及指向信息。加之大学高度去中心化，各院系、实验室、研究小组和学生组织均可独立申请子域名，人员离职后其创建的 DNS 记录往往没有注销流程。 Shakhov 表示，截至本周五，许多子域名仍跳转至色情网站。据称，自本月初公开研究结果以来，仅有少数受影响大学清理了闲置 CNAME 记录，但未能让谷歌将相关 URL 从搜索结果中移除。 Shakhov 提醒：任何拥有网站的组织都应建立子域名清单，注明每个子域名的用途及其对应的 CNAME 记录，并定期审计是否存在已停用但未删除的空闲 CNAME 记录，一旦发现应立即移除。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/c32d97af-20a1-4981-af57-e5536500a801.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-26T09:31:50.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/943/706.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777191618221_0f9a4491",
@@ -316,15 +328,15 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777191686795_39739724",
-      "title": "北京车展直击：斑马智能甩出车载Agent短剧，比亚迪率先落地，AI让智能座舱又热起来了",
-      "summary": "北京车展直击：斑马智能甩出车载Agent短剧，比亚迪率先落地，AI让智能座舱又热起来了",
-      "content": "北京车展直击：斑马智能甩出车载Agent短剧，比亚迪率先落地，AI让智能座舱又热起来了",
+      "id": "news_1777197869647_04ca24cc",
+      "title": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
+      "summary": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
+      "content": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-25T21:04:45.000Z",
+      "publishedAt": "2026-04-25T16:00:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/WjIGlEGAJUmNw8e3JeXO?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/GL7YlM38mlEarquKkSE9?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -700,6 +712,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1777197871121_d933fb70",
+      "title": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
+      "summary": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
+      "content": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-24T19:18:13.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/ub0bHyfIRpbO61I876k2?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1777044023016_6b14fccf",
       "title": "Snowflake Cortex Code 的规范驱动开发：将 SDLC 方法论引入 AI 辅助工作流 ｜ 技术实践",
       "summary": "Snowflake Cortex Code 的规范驱动开发：将 SDLC 方法论引入 AI 辅助工作流 ｜ 技术实践...",
@@ -722,6 +746,66 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/LIb7POBCMo8213s9lk0T?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777197875345_84f7fd65",
+      "title": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
+      "summary": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
+      "content": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-24T18:46:43.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/U3BlkMiBlgWgLiKFth4N?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777197876643_111565cf",
+      "title": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
+      "summary": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
+      "content": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-24T18:39:14.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/RKJhuuOzLMaZmtmc4Uvf?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777197878118_c08c77bf",
+      "title": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
+      "summary": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
+      "content": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-24T18:34:59.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/ur7bvh7ayrDBPY1rTVtP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777197879613_e7b55a75",
+      "title": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
+      "summary": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
+      "content": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-24T17:59:41.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/GPGgiqtS9tCiHjNkUOOd?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777197881041_7fb3dcf2",
+      "title": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
+      "summary": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
+      "content": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-24T17:29:54.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/ua0m0lj6zOcEI6GGge72?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777044033743_f358a2e6",
@@ -793,30 +877,6 @@
       "publishedAt": "2026-04-24T10:51:54.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7966317.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777043986497_1456a151",
-      "title": "科大讯飞联合清华系团队，如何做一家“AI+量子”公司",
-      "summary": "“如果量子计算真的应用到现在人工智能的深度神经网络和预训练方法中，可以想象，现在所有的问题都会被解决掉。”刘庆峰说。",
-      "content": "“如果量子计算真的应用到现在人工智能的深度神经网络和预训练方法中，可以想象，现在所有的问题都会被解决掉。”刘庆峰说。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-24T09:55:56.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7966322.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777044017691_ce582272",
-      "title": "AI重塑专业服务新生态，瑞承战略升级获行业权威认可",
-      "summary": "瑞承近期全面推进 AI 战略升级，凭借其坚定的顶层设计、扎实的全栈技术能力与成熟的场景化落地，成功走出一条科技赋能专业服务的高质量发展之路。",
-      "content": "瑞承近期全面推进 AI 战略升级，凭借其坚定的顶层设计、扎实的全栈技术能力与成熟的场景化落地，成功走出一条科技赋能专业服务的高质量发展之路。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-24T09:33:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7966306.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
