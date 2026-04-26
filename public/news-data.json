@@ -1,19 +1,43 @@
 {
   "success": true,
-  "timestamp": "2026-04-26T03:47:56.241Z",
-  "total": 61,
+  "timestamp": "2026-04-26T06:16:56.211Z",
+  "total": 69,
   "data": [
     {
-      "id": "news_1777175255116_6eb34643",
-      "title": "Anthropic推出面向Claude Code的基于智能体的代码审查功能",
-      "summary": "Anthropic推出面向Claude Code的基于智能体的代码审查功能",
-      "content": "Anthropic推出面向Claude Code的基于智能体的代码审查功能",
+      "id": "news_1777184215206_55613453",
+      "title": "今天起，DeepSeek V4 成 OpenClaw 默认模型",
+      "summary": "今天，OpenClaw 重磅接入 DeepSeek V4！新版本 OpenClaw 2026.4.24 一发布，随即接入了最新的 DeepSeek V4 双版本 —— V4 Flash 成为默认大模型，V4 Pro 也已上线模型库。",
+      "content": "今天，OpenClaw 重磅接入 DeepSeek V4！新版本 OpenClaw 2026.4.24 一发布，随即接入了最新的 DeepSeek V4 双版本 —— V4 Flash 成为默认大模型，V4 Pro 也已上线模型库。 从今天起，全球每一个更新 OpenClaw 的人，打开的第一秒钟，跟自己对话的大脑就是 DeepSeek V4 Flash。 可以说，DeepSeek V4 的接入，成为了 OpenClaw 更新的最大亮点。一时间，全网激动地都开始跃跃欲试。 这一次，OpenClaw 还打通了 Google Meet，实时语音通话让全网震撼。 DeepSeek V4，成为 OpenClaw 默认模型 两天前，DeepSeek V4 一声惊雷炸出，全球 AI 圈的人期待已久的开源新王，终于靴子落地。OpenClaw 第一时间接入 DeepSeek V4「双版本」，还把 V4 Flash 设为默认模型。「龙虾」亲手把中国 AI 推向了最 C 位。 对普通用户来说，最直接的变化是，上手 OpenClaw 时默认进入 DeepSeek V4 Flash 路线。 感受一下 V4 的含金量。 DeepSeek V4 Pro：1.6 万亿总参数，49B 激活参数，MoE 架构，全球最大的开源模型。DeepSeek V4 Flash：284B 总参数，13B 激活参数，同样 MoE 架构。更小、更快、更便宜，但推理能力在 Max 模式下几乎追平 Pro 版本。两个模型都支持 100 万 token 上下文，都采用 MIT 协议完全开源 这次更新，还修复了 DeepSeek 在多轮工具调用中的 thinking 和 replay 行为。 此前，Agent 在连续调用工具、切换会话模型时，容易因为 reasoning_content 缺失触发 provider replay 检查错误。 新版本补齐了相关占位逻辑，让 DeepSeek V4 Flash 和 DeepSeek V4 Pro 在长链路任务里更稳定。这类修复看起来偏工程细节，但对 Agent 产品很关键。 OpenClaw 的核心场景已经不只是聊天，更多时候是让模型连续调用浏览器、会议、语音、文件和插件。模型接入如果停在文本回复层，价值有限。真正影响体验的，是它能否撑住复杂任务链路。 龙虾打电话，Google Meet 成内置插件 这次更新中，Google Meet 被加入 OpenClaw，成为 bundled participant plugin。 新版本支持个人谷歌账号授权、显式会议 URL 加入、Chrome 和 Twilio 实时传输，也支持 paired-node Chrome，用于 Parallels、BlackHole、SoX 这类本地音频与浏览器组合环境。 更重要的变化在会议结束后。 OpenClaw 可以处理会议记录、录音、转写、智能笔记和参会人会话，并导出为 Markdown 或其他类型文件。 系统还支持查找最新会议记录，以及扫描历史 conference records。 这让 OpenClaw 在会议场景中的位置更靠前。它承担的不只是转写，而是会议进入、实时参与、内容沉淀和结果回查。AI 会议助手过去多围绕「记录」展开。OpenClaw 这次把会议变成一个可被 Agent 调用和管理的工作节点。 实时语音接入完整 Agent Talk、Voice Call 和 Google Meet 现在都可以使用实时语音循环。 这部分更新的重点，是实时语音可以调用完整 OpenClaw Agent。 通过 openclaw_agent_consult，电话或会议里的问题可以交给后台 Agent 处理，Agent 再调用工具、查询上下文、组织答案，并用语音返回。 Voice Call 插件新增 setup 和默认 dry-run 的 smoke command，用来在真实拨号前检查 Twilio 或其他 provider 是否准备好。 Google provider 侧新增 Gemini Live 实时语音能力，支持双向音频和函数调用。 Gateway / VoiceClaw 也加入基于 Gemini Live 的 realtime brain WebSocket endpoint，并通过 owner-auth 做权限限制。 这说明 OpenClaw 正在把语音做成一级入口。文本框之外，电话和会议正在成为 Agent 的运行环境。 浏览器自动化，继续补工程短板 浏览器自动化是另一个重点。新版本加入 viewport coordinate clicks，支持 managed automation 和 existing-session automation，CLI 侧也新增 openclaw browser click-coords。 网页控件无法稳定识别时，坐标点击提供了兜底方案。默认 action budget 被延长到 60 秒，减少长等待被误判失败的情况。浏览器 profile 也支持单独设置 headless，一个 profile 可以无头运行，其他 profile 不受影响。 Google Meet 相关修复也集中在浏览器稳定性上。新版本可以复用已经打开的 Meet 标签页，浏览器超时后尝试恢复，还能识别登录、权限、麦克风选择等人工阻塞点。 这些改动不容易成为传播点，但会影响 Agent 是否能持续工作。浏览器 Agent 的问题经常出在标签页、权限、等待时间和恢复机制上。 插件和模型架构变轻 OpenClaw 同时在降低启动负担。模型列表改用静态目录，减少默认 models list 时的 registry 枚举。 模型目录加入 manifest-sourced model rows，让 provider index、cache、onboarding 和 listing 可以在不加载 provider runtime 的情况下工作。 插件侧也在做类似调整：modelCatalog、channelConfigs、setup.providers 等信息更多从 manifest 暴露，descriptor-only setup contract 也变得更明确。 随着 Google Meet、Voice Call、PDF、Anthropic Vertex、Bonjour 等能力插件化，启动时加载全部 runtime 会拖慢系统。 新版本把描述信息前置，把运行时依赖后置。这是一种典型的工程取舍，牺牲一点早期兼容便利，换取更轻的启动路径和更清晰的插件边界。 SDK 发生破坏性变化 此次更新还有一项破坏性变动： OpenClaw 移除了 Pi-only 的 api.registerEmbeddedExtensionFactory (...) 兼容路径。 之后 bundled tool-result rewrites 需要使用 api.registerAgentToolResultMiddleware (...)，并在 contracts.agentToolResultMiddleware 中声明目标 harness。 这会影响插件开发者。 官方希望工具结果转换在 Pi 和 Codex app-server dynamic tools 中保持一致，旧接口需要迁移。 相应地，OpenClaw 增加了插件兼容性 registry 和迁移记录，用来管理 SDK、配置、setup 和 runtime 的弃用路径。 这背后是 OpenClaw 在整理早期快速扩张留下的接口债务。 OpenClaw 的方向更清楚了 这次更新覆盖模型、会议、语音、浏览器、插件、诊断、TTS、Slack、Telegram 和 MCP 等模块。 DeepSeek V4 进入默认模型路径，解决的是模型能力；Google Meet 和 Voice Call 强化的是协作入口；浏览器自动化、插件懒加载和 SDK 迁移，补的是复杂任务运行时的工程底座。 OpenClaw 正在从聊天产品走向工作流系统。 参考资料： https://github.com/openclaw/openclaw/releases/tag/v2026.4.24 本文来自微信公众号：新智元（ID：AI_era），作者：新智元新智元",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/70c3308c-6a03-4de9-b818-732250746a9b.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-26T05:53:25.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/943/615.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777184148147_df2d3b9b",
+      "title": "京东启动AI硬件孵化计划",
+      "summary": "36氪获悉，4月26日，京东宣布启动“Aidol创造营”计划，面向全球征集AI智能硬件项目，希望联合产业伙伴在今年孵化101个AI硬件标杆。据京东介绍，报名截止到5月15日，首期“Aidol创造营”活动将于5月25日至6月18日落地。",
+      "content": "36氪获悉，4月26日，京东宣布启动“Aidol创造营”计划，面向全球征集AI智能硬件项目，希望联合产业伙伴在今年孵化101个AI硬件标杆。据京东介绍，报名截止到5月15日，首期“Aidol创造营”活动将于5月25日至6月18日落地。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-26T10:00:00.000Z",
+      "source": "36氪",
+      "publishedAt": "2026-04-26T05:02:53.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3783158630948103?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777184149416_7bad6ae4",
+      "title": "国信证券：结构上结合行业拥挤度均衡配置，重视科技成长主线、战略资源、以及白酒地产",
+      "summary": "36氪获悉，国信证券发布研报称，年初以来AI相关板块领涨，传统板块明显跑输，4月反弹行情中结构分化愈加明显。综合持仓结构、交易热度、超额轮动三大视角看，目前AI硬件、电新拥挤度较高但或尚未达到极致，AI应用、资源品热度回落至适中水平，消费地产热度仍偏冷。",
+      "content": "36氪获悉，国信证券发布研报称，年初以来AI相关板块领涨，传统板块明显跑输，4月反弹行情中结构分化愈加明显。综合持仓结构、交易热度、超额轮动三大视角看，目前AI硬件、电新拥挤度较高但或尚未达到极致，AI应用、资源品热度回落至适中水平，消费地产热度仍偏冷。该行认为，市场震荡向上趋势不改，结构上结合行业拥挤度均衡配置，重视科技成长主线、战略资源、以及白酒地产。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-04-26T04:35:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/QyeZg05iakideMTGCQKi?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://36kr.com/newsflashes/3783131237653763?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777175274434_bfa04c31",
@@ -220,15 +244,15 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777175256541_1ff42389",
-      "title": "北京车展直击：斑马智能甩出车载Agent短剧，比亚迪率先落地，AI让智能座舱又热起来了",
-      "summary": "北京车展直击：斑马智能甩出车载Agent短剧，比亚迪率先落地，AI让智能座舱又热起来了",
-      "content": "北京车展直击：斑马智能甩出车载Agent短剧，比亚迪率先落地，AI让智能座舱又热起来了",
+      "id": "news_1777184195324_04ca24cc",
+      "title": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
+      "summary": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
+      "content": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-25T21:04:46.000Z",
+      "publishedAt": "2026-04-25T16:00:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/WjIGlEGAJUmNw8e3JeXO?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/GL7YlM38mlEarquKkSE9?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -604,6 +628,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1777184197281_d933fb70",
+      "title": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
+      "summary": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
+      "content": "复杂的项目管理怎么做到「AI 友好」？飞书项目用「开放」给出答案",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-24T19:18:13.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/ub0bHyfIRpbO61I876k2?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1777044023016_6b14fccf",
       "title": "Snowflake Cortex Code 的规范驱动开发：将 SDLC 方法论引入 AI 辅助工作流 ｜ 技术实践",
       "summary": "Snowflake Cortex Code 的规范驱动开发：将 SDLC 方法论引入 AI 辅助工作流 ｜ 技术实践...",
@@ -626,6 +662,66 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/LIb7POBCMo8213s9lk0T?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777184203271_84f7fd65",
+      "title": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
+      "summary": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
+      "content": "Copilot 不让注册了：从“随便用”到“全面限”，agent 把原有订价模型顶穿了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-24T18:46:43.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/U3BlkMiBlgWgLiKFth4N?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777184205191_111565cf",
+      "title": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
+      "summary": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
+      "content": "当互联网用AI卷效率时，这家公司先问了一连串“能不能”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-24T18:39:14.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/RKJhuuOzLMaZmtmc4Uvf?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777184206874_c08c77bf",
+      "title": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
+      "summary": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
+      "content": "Meta 开始记录员工每一次点击：AI 要接管工作，先监控会工作的人",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-24T18:34:59.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/ur7bvh7ayrDBPY1rTVtP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777184208847_e7b55a75",
+      "title": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
+      "summary": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
+      "content": "Meta“Token榜”逼疯打工人，一夜烧掉公司几万刀！AI时代Token焦虑越来越离谱",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-24T17:59:41.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/GPGgiqtS9tCiHjNkUOOd?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777184210270_7fb3dcf2",
+      "title": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
+      "summary": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
+      "content": "智源FlagOS完成DeepSeek-V4-Flash在八款芯片Day0适配，实现三重技术突破",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-24T17:29:54.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/ua0m0lj6zOcEI6GGge72?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777044033743_f358a2e6",
@@ -724,7 +820,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777175229254_0",
+      "id": "news_1777184138582_0",
       "title": "China's DeepSeek rolls out a long-anticipated update of its AI model",
       "summary": "HONG KONG (AP) — DeepSeek, the Chinese artificial intelligence startup that shook world markets last year, launched preview versions of its latest maj...",
       "content": "HONG KONG (AP) — DeepSeek, the Chinese artificial intelligence startup that shook world markets last year, launched preview versions of its latest major update Friday as the AI rivalry between China and the U.S. heats up.\nDeepSeek’s V4 has been keenl... [1486 chars]",
