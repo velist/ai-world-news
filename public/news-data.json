@@ -1,8 +1,56 @@
 {
   "success": true,
-  "timestamp": "2026-04-27T22:01:08.762Z",
-  "total": 70,
+  "timestamp": "2026-04-27T23:05:29.908Z",
+  "total": 72,
   "data": [
+    {
+      "id": "news_1777331093878_090e6a2c",
+      "title": "微软：将不再向OpenAI支付收入分成，微软的OpenAI许可现将转为非独家许可",
+      "summary": "微软和OpenAI公布合作的下一阶段安排，微软公司称，将不再向OpenAI支付收入分成。OpenAI向Microsoft的收入分成支付将持续到2030年，与OpenAI的技术进步无关，按相同比例支付，但受总额上限限制。",
+      "content": "微软和OpenAI公布合作的下一阶段安排，微软公司称，将不再向OpenAI支付收入分成。OpenAI向Microsoft的收入分成支付将持续到2030年，与OpenAI的技术进步无关，按相同比例支付，但受总额上限限制。Microsoft将继续持有OpenAI的IP授权，适用于模型和产品，直到2032年。Microsoft的许可将成为非独占的。 Microsoft仍然是OpenAI的主要云合作伙伴，OpenAI产品将优先在Azure上发布，除非Microsoft无法支持或选择不支持必要的功能。Microsoft作为主要股东，继续直接参与OpenAI的成长。（财联社）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-04-27T23:04:12.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3785671513021698?f=rss",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777331128710_82d379ef",
+      "title": "微软 GitHub Copilot 宣布转向按量计费：6 月 1 日起改用 AI Credits，基础订阅价格不变",
+      "summary": "IT之家 4 月 28 日消息，微软旗下 GitHub 今日宣布，其 AI 编程工具 GitHub Copilot 将自 2026 年 6 月 1 日起从固定额度订阅制全面转向按使用量计费模式。",
+      "content": "IT之家 4 月 28 日消息，微软旗下 GitHub 今日宣布，其 AI 编程工具 GitHub Copilot 将自 2026 年 6 月 1 日起从固定额度订阅制全面转向按使用量计费模式。 届时，所有 Copilot 计划将不再采用“高级请求”（Premium Request）计数，而是每月为每个订阅分配一定数量的 GitHub AI Credits，付费用户可额外购买额度。用量将根据 Token 消耗计算，包括输入、输出及缓存 Token，具体费率按各模型的公开 API 定价执行。 GitHub 解释称，Copilot 已从编辑器内辅助工具演变为一个智能体平台，能够执行长时间、多步骤的自主编码会话，并调用最新模型遍历整个仓库，现有的 PRU 计费方式已难以为继。按使用量计费有助于维持长期服务可靠性，并减少对重度用户的限制。 同时，GitHub Copilot 基础订阅价格维持不变： Copilot Pro 仍为 10 美元 / 月，每月含 10 美元（现汇率约合 68.4 元人民币） AI Credits 额度； Copilot Pro+ 仍为 39 美元 / 月，每月含 39 美元（现汇率约合 266.8 元人民币） AI Credits 额度； Copilot Business 为 19 美元 / 人 / 月，Copilot Enterprise 为 39 美元 / 人 / 月，均包含等值的月度 AI Credits 额度。 代码补全（code completions）和 Next Edit 建议功能仍包含在各订阅计划内，且不消耗 AI Credits。Copilot 代码审查功能除消耗 AI Credits 外，还将消耗 GitHub Actions 运行时长。 IT之家提醒：企业级客户在此次调整中可获得更高的灵活性。Copilot Business 和 Enterprise 用户将拥有整个组织共享的额度池，轻量用户的未使用额度可抵消同组织内重度用户的消耗。 为进一步协助过渡，GitHub 将为 Business 和 Enterprise 客户提供 6 月、7 月、8 月三个月的促销额度：Business 每月额外获得 30 美元 AI Credits，Enterprise 每月额外获得 70 美元。管理员还可按企业、成本中心或用户级别设置预算限额，并选择是否允许超额使用。 对于已有的年度订阅用户，GitHub 采取了特殊的过渡安排。已购买年度版 Pro 或 Pro+ 的用户将继续维持原有的按请求计费条款，直至计划期满，但从 6 月 1 日起模型乘数将显著提升；用户在年度计划到期后将自动转为 Copilot Free 模式，并可选择升级为月度付费计划，或将年度计划提前转换为月度计划，剩余价值将按比例折算为 Credits。 GitHub 还计划于 5 月初推出计费预览体验，用户和管理员可在 6 月全面上线前了解预估成本。开发者社区的初步反应各异，部分用户担心按量计费将使成本更难预测，也有人认为重度用户可能因此支付更高费用，而轻度用户则有望降低成本。GitHub 表示，过去一周已对 Copilot Individual 计划（包括 Free、Pro、Pro+ 和 Student）实施了临时调整以改善可靠性和性能，在按量计费正式生效后将放宽这些使用限制。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/20963649-32a8-491d-8964-c9daf60ec96b.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-27T23:00:03.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/944/205.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777331094829_db13e94b",
+      "title": "美股三大指数收盘涨跌不一，英伟达涨4%创新高",
+      "summary": "36氪获悉，4月27日收盘，美股三大指数涨跌不一，道指跌0.13%，纳指涨0.2%，标普500指数涨0.12%。大型科技股多数上涨，英伟达涨4%创新高，英特尔涨超2%，谷歌涨超1%，特斯拉、Meta、微软小幅上涨；苹果、奈飞、亚马逊跌超1%。",
+      "content": "36氪获悉，4月27日收盘，美股三大指数涨跌不一，道指跌0.13%，纳指涨0.2%，标普500指数涨0.12%。大型科技股多数上涨，英伟达涨4%创新高，英特尔涨超2%，谷歌涨超1%，特斯拉、Meta、微软小幅上涨；苹果、奈飞、亚马逊跌超1%。热门中概股多数下跌，爱奇艺跌超5%，阿里巴巴、老虎证券、哔哩哔哩跌超2%，京东跌超1%；新东方涨超1%。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-04-27T23:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3785617500429577?f=rss",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777331128901_b87785c3",
+      "title": "苹果前 AI 主管吉安南德雷亚加盟 CuspAI，兼职担任顾问身份",
+      "summary": "IT之家 4 月 28 日消息，苹果公司前 AI 主管约翰 · 吉安南德雷亚（John Giannandrea）本月早些时候结束在 Apple 的最后工作日，最新消息显示，他下一站是英国剑桥科学 AI 初创公司 CuspAI。",
+      "content": "IT之家 4 月 28 日消息，苹果公司前 AI 主管约翰 · 吉安南德雷亚（John Giannandrea）本月早些时候结束在 Apple 的最后工作日，最新消息显示，他下一站是英国剑桥科学 AI 初创公司 CuspAI。 据 Upstarts Media 报道，吉安南德雷亚将以兼职方式加入 CuspAI，重点帮助这家材料实验室拓展美国业务。他的任务包括组建美国团队，吸引更强的 AI 人才，并在湾区设立办公室。 IT之家援引博文介绍，这份顾问工作目前还没有正式头衔，对 CuspAI 来说，吉安南德雷亚的价值不只在管理经验，更主要是组建团队的能力。 他曾负责 Apple Intelligence、机器人和 Siri 等项目，也曾在 Google 掌管搜索和 AI，熟悉大公司 AI 系统的搭建路径。 与此同时，他预计不会只服务 CuspAI。报道称，吉安南德雷亚计划把时间分给多家 AI 初创公司，提供咨询支持。外界尚不清楚，这只是他寻找全职岗位前的过渡安排，还是他会长期留在初创公司顾问圈。 相比在谷歌公司时期的履历，吉安南德雷亚在苹果公司的任期评价更复杂。苹果公司在生成式 AI 浪潮中动作偏慢，Siri 升级和部分 Apple Intelligence 功能后来还需要依赖 Google 技术支持，这也让外界重新审视他的管理结果。 苹果前 AI 主管吉安南德雷亚，图源：WikiMedia",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/360774f7-ca76-4cfe-865f-68f371594ecb.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-27T22:55:28.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/944/204.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1777313562693_cc6e476c",
       "title": "苹果 visionOS 26.5 开发者预览版 Beta 4 发布",
@@ -14,18 +62,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/944/201.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777327255034_f3bb15d4",
-      "title": "数据分析师如何快速建立在 AI 时代最值钱的能力：一份可落地的行动路线图",
-      "summary": "数据分析师如何快速建立在 AI 时代最值钱的能力：一份可落地的行动路线图",
-      "content": "数据分析师如何快速建立在 AI 时代最值钱的能力：一份可落地的行动路线图",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-27T15:50:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/JB3gFJKZfDASpaXWqwHE?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777299629890_0813b3dc",
@@ -172,18 +208,6 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777327256713_7c8dba4b",
-      "title": "“我把所有模型都换成了DeepSeek V4”：月账单将降 90%，效果还更好",
-      "summary": "“我把所有模型都换成了DeepSeek V4”：月账单将降 90%，效果还更好",
-      "content": "“我把所有模型都换成了DeepSeek V4”：月账单将降 90%，效果还更好",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-27T10:43:39.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/e4UXTsCToLXsRVEWNUqW?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1777261902279_e6e645de",
       "title": "阿里云智能集团高级技术专家刘少伟已确认出席AICon上海站，并分享如何构建企业 Agent 的自动化行动架构",
       "summary": "阿里云智能集团高级技术专家刘少伟已确认出席AICon上海站，并分享如何构建企业 Agent 的自动化行动架构...",
@@ -196,7 +220,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777327223575_0",
+      "id": "news_1777331085250_0",
       "title": "Elon Musk and OpenAI CEO Sam Altman head to court in high-stakes showdown over AI",
       "summary": "Technology tycoons Elon Musk and Sam Altman are poised to face off in a high-stakes trial revolving around the alleged betrayal, deceit and unbridled ...",
       "content": "Technology tycoons Elon Musk and Sam Altman are poised to face off in a high-stakes trial revolving around the alleged betrayal, deceit and unbridled ambition that blurred the bickering billionaires’ once-shared vision for the development of artifici... [5819 chars]",
@@ -220,7 +244,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777327223764_1",
+      "id": "news_1777331085637_1",
       "title": "Elon Musk and Sam Altman are about to face off in court. Is an impartial jury even possible?",
       "summary": "By Hadas Gold, CNN\n(CNN) — A group of regular people who might not even know much about artificial intelligence could soon determine OpenAI’s future.\n...",
       "content": "By Hadas Gold, CNN\n(CNN) — A group of regular people who might not even know much about artificial intelligence could soon determine OpenAI’s future.\nElon Musk’s lawsuit against ChatGPT maker OpenAI and its leaders, including CEO Sam Altman, heads to... [4804 chars]",
@@ -280,7 +304,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777327223098_2",
+      "id": "news_1777331085448_2",
       "title": "AI showdown: Musk and Altman go to trial in fight over OpenAI's beginnings",
       "summary": "OAKLAND, Calif. (AP) — Technology tycoons Elon Musk and Sam Altman are poised to face off in a high-stakes trial revolving around the alleged betrayal...",
       "content": "OAKLAND, Calif. (AP) — Technology tycoons Elon Musk and Sam Altman are poised to face off in a high-stakes trial revolving around the alleged betrayal, deceit and unbridled ambition that blurred the bickering billionaires’ once-shared vision for the ... [5844 chars]",
@@ -304,9 +328,9 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777327223469_3",
+      "id": "news_1777331085269_3",
       "title": "OpenAI breaks off Microsoft exclusivity to free up path for Amazon, Google deals",
-      "summary": "News National business OpenAI breaks off Microsoft exclusivity to free up path for Amazon, Google deals April 27, 2026 Updated Mon., April 27, 2026 at...",
+      "summary": "Microsoft is losing exclusive access to OpenAI’s technology, clearing the way for the ChatGPT creator to sell its products across rival cloud platform...",
       "content": "Microsoft is losing exclusive access to OpenAI’s technology, clearing the way for the ChatGPT creator to sell its products across rival cloud platforms in a sweeping change to one of the artificial intelligence era’s most consequential alliances.\nThe... [3574 chars]",
       "imageUrl": "https://thumb.spokesman.com/kfU7hNTOWQ05IysqOmfdKE9rNAY=/1200x630/smart/media.spokesman.com/photos/2026/04/27/69efaba9b2cc1.image.jpg",
       "source": "Spokane Spokesman-Review",
@@ -364,7 +388,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777327225318_4",
+      "id": "news_1777331086756_4",
       "title": "College students wary of the job market are changing course in search of 'AI-proof' majors",
       "summary": "Two years ago, Josephine Timperman arrived at college with a plan. She declared a major in business analytics, figuring she'd learn niche skills that ...",
       "content": "Two years ago, Josephine Timperman arrived at college with a plan. She declared a major in business analytics, figuring she'd learn niche skills that would stand out on a resume and help land a good job after college.\nBut the rise of artificial intel... [266 chars]",
@@ -436,7 +460,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777327230685_07395ce3",
+      "id": "news_1777331092923_07395ce3",
       "title": "12款产品入选，2026春季「焦点」产品计划重磅发布",
       "summary": "【点音Divoom桌搭全家桶评测视频】 &amp;amp;nbsp; 本文来自微信公众号“36氪”，36氪经授权发布。",
       "content": "【点音Divoom桌搭全家桶评测视频】 &amp;amp;nbsp; 本文来自微信公众号“36氪”，36氪经授权发布。",
@@ -494,6 +518,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7967688.html",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777331121642_6eb34643",
+      "title": "Anthropic推出面向Claude Code的基于智能体的代码审查功能",
+      "summary": "Anthropic推出面向Claude Code的基于智能体的代码审查功能",
+      "content": "Anthropic推出面向Claude Code的基于智能体的代码审查功能",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-26T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/QyeZg05iakideMTGCQKi?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777197885759_29971f6f",
@@ -808,19 +844,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777160999346_937c48b1",
-      "title": "Anthropic 搭建了一个 AI 智能体交易测试平台",
-      "summary": "IT之家 4 月 26 日消息，在近期一项实验中，人工智能公司 Anthropic 搭建了一个二手交易市场，由智能体分别扮演买家和卖家，针对真实商品达成交易，并使用真实货币结算。 该公司承认，这项名为交易计划（Project Deal）的测试仅为试点实验，参与者为 69 名自愿报名的公司员工。",
-      "content": "IT之家 4 月 26 日消息，在近期一项实验中，人工智能公司 Anthropic 搭建了一个二手交易市场，由智能体分别扮演买家和卖家，针对真实商品达成交易，并使用真实货币结算。 该公司承认，这项名为交易计划（Project Deal）的测试仅为试点实验，参与者为 69 名自愿报名的公司员工。每名员工获得 100 美元（IT之家注：现汇率约合 684.7 元人民币）预算（以礼品卡形式发放），可与同事进行物品买卖。 尽管如此，Anthropic 表示，交易计划的运行效果远超预期，实验期间共达成 186 笔交易，总交易价值超过 4000 美元（现汇率约合 27388 元人民币）。 该公司实际搭建了四个独立交易市场，分别搭载不同人工智能模型：其中一个为真实交易市场（所有参与者均由公司最先进模型提供支持，实验达成的交易均会实际履约），另外三个则仅用于学术研究。 Anthropic 称，当用户由更高级的智能体代理交易时，能获得客观上更优的交易结果。但用户自身似乎并未察觉这种收益差距，这也暴露出智能体能力层级差距带来的潜在风险：处于交易劣势的一方，可能根本意识不到自身利益受损。 此外，研究发现，给智能体设定的初始指令，并不会对成交概率或协商定价产生明显影响。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/3/c9d125a1-f857-4d71-800d-d2f99b63bd49.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-25T22:57:47.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/943/557.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777327261697_39739724",
+      "id": "news_1777331123299_39739724",
       "title": "北京车展直击：斑马智能甩出车载Agent短剧，比亚迪率先落地，AI让智能座舱又热起来了",
       "summary": "北京车展直击：斑马智能甩出车载Agent短剧，比亚迪率先落地，AI让智能座舱又热起来了",
       "content": "北京车展直击：斑马智能甩出车载Agent短剧，比亚迪率先落地，AI让智能座舱又热起来了",
@@ -832,7 +856,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777327263706_04ca24cc",
+      "id": "news_1777331125207_04ca24cc",
       "title": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
       "summary": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
       "content": "Snowflake 作为智能体运行时：从静态管道迈向自主数据系统 ｜ 技术实践",
