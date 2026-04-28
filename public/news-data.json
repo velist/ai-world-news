@@ -1,8 +1,116 @@
 {
   "success": true,
-  "timestamp": "2026-04-28T06:42:38.814Z",
-  "total": 72,
+  "timestamp": "2026-04-28T09:35:07.686Z",
+  "total": 77,
   "data": [
+    {
+      "id": "news_1777368895040_233b1f28",
+      "title": "用 Snowflake Cortex Agents 释放结构化数据的最大价值 ｜ 技术实践",
+      "summary": "用 Snowflake Cortex Agents 释放结构化数据的最大价值 ｜ 技术实践",
+      "content": "用 Snowflake Cortex Agents 释放结构化数据的最大价值 ｜ 技术实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-28T15:36:43.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/fgDaebwIGabVwLdljJTN?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777368896905_b0face4d",
+      "title": "Cloudflare Sandboxes 正式发布，为 AI 代理提供持久化隔离环境",
+      "summary": "Cloudflare Sandboxes 正式发布，为 AI 代理提供持久化隔离环境",
+      "content": "Cloudflare Sandboxes 正式发布，为 AI 代理提供持久化隔离环境",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-28T11:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Vtb1hXgxEAEueGtcAlUj?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777368898352_c9a1cd32",
+      "title": "Agent 的下一站：基于长期记忆系统 EverOS 的自我演进｜AICon上海",
+      "summary": "Agent 的下一站：基于长期记忆系统 EverOS 的自我演进｜AICon上海",
+      "content": "Agent 的下一站：基于长期记忆系统 EverOS 的自我演进｜AICon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-28T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/eI5gqlAawBxPPfZZ2B33?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777368900319_0e060d01",
+      "title": "同一赛道，四种收费：Agent 控制层（Harness）开始分裂",
+      "summary": "同一赛道，四种收费：Agent 控制层（Harness）开始分裂",
+      "content": "同一赛道，四种收费：Agent 控制层（Harness）开始分裂",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-28T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/Z3MKvAKFC2Hjjk643oKQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777368901371_d844d51c",
+      "title": "Agent 的“记忆断片”困局，该怎么破？",
+      "summary": "Agent 的“记忆断片”困局，该怎么破？",
+      "content": "Agent 的“记忆断片”困局，该怎么破？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-28T09:17:42.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/AetF3mwIAP5iljCD0iW7?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777368906433_d1ad6376",
+      "title": "网信部门依法查处剪映、猫箱、即梦 AI 生成合成内容标识违法问题网站平台",
+      "summary": "IT之家 4 月 28 日消息，IT之家从中国网信网获悉，近期网信部门工作中发现，“剪映”“猫箱”App 及“即梦 AI”网站存在未有效落实人工智能生成合成内容标识规定要求等问题，违反《网络安全法》《生成式人工智能服务管理暂行办法》《人工智能生成合成内容标识办法》等法律规定。",
+      "content": "IT之家 4 月 28 日消息，IT之家从中国网信网获悉，近期网信部门工作中发现，“剪映”“猫箱”App 及“即梦 AI”网站存在未有效落实人工智能生成合成内容标识规定要求等问题，违反《网络安全法》《生成式人工智能服务管理暂行办法》《人工智能生成合成内容标识办法》等法律规定。国家互联网信息办公室指导属地互联网信息办公室，依法对上述网站平台采取约谈、责令改正、警告、从严处理责任人等处置处罚措施。 国家互联网信息办公室相关负责人表示，网站平台要严守法律底线红线，严格落实人工智能生成合成内容标识相关规定要求。网信部门将深入推进依法管网治网，持续加大人工智能生成合成内容标识监督管理力度，切实维护社会公共利益，推动人工智能健康有序发展。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/80678efe-8fa1-436e-8f36-857bdd4a5778.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-28T09:07:54.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/944/539.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777368906516_38c414a0",
+      "title": "网传新疆一校运会人形机器人失控，误入舞蹈方阵“拳打脚踢”",
+      "summary": "IT之家 4 月 28 日消息，据界面新闻报道，在 4 月 27 日的新疆科技学院运动会开幕式上，一台参与表演的人形机器人失控，连续跌倒又跳起，胡乱挥拳踢腿，而周围都是穿民族服装跳舞的学生，场面混乱且有潜在的危险。",
+      "content": "IT之家 4 月 28 日消息，据界面新闻报道，在 4 月 27 日的新疆科技学院运动会开幕式上，一台参与表演的人形机器人失控，连续跌倒又跳起，胡乱挥拳踢腿，而周围都是穿民族服装跳舞的学生，场面混乱且有潜在的危险。 4 月 28 日，一名在校学生向该媒体确认开幕式确有机器人表演，称机器人在出现异常后很快被老师带走，现场没有学生受伤。至于机器人的来历和品牌，学生表示并不清楚。 IT之家查询发现，新疆科技学院今日发布宣传推文确认，新疆科技学院第四届全民健身运动会于 4 月 27 日开幕。 在开幕式上，信息科学与工程学院、人工智能学院方队就出现了人形机器人、四足机器人。 ▲ 图源“新疆科技学院”公众号，下同 而在节目表演环节，有一个名为《科技浪潮 · 智引未来》的节目也出现了人形机器人，看起来和网传视频中的机器人比较相似。 而在机器人表演节目之后的《同心共筑 · 榴花正红》节目正是穿民族服装跳舞环节，和网传视频基本对应。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/23a0d055-5a2b-4913-a015-a4494f63d186.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-28T08:54:32.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/944/533.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777368906683_730efad2",
+      "title": "华为地图 App 获 5.9.2.302 版本尝鲜升级，内置的打车服务将在今晚 18:00 暂时关闭",
+      "summary": "IT之家 4 月 28 日消息，华为地图 App 今日在华为应用市场（App Gallery）发布了 5.9.2.302(50902302) 版本尝鲜升级（无需收到短信通知后点击链接跳转安装），测试时间为 2026/4/28-2026/5/28。",
+      "content": "IT之家 4 月 28 日消息，华为地图 App 今日在华为应用市场（App Gallery）发布了 5.9.2.302(50902302) 版本尝鲜升级（无需收到短信通知后点击链接跳转安装），测试时间为 2026/4/28-2026/5/28。 此次应用尝鲜的测试说明显示：由于业务策略调整，地图内的打车服务将于 2026 年 4 月 28 日 18:00 暂时关闭，已在 5.9.2.302 版本全面升级为对接第三方元服务的模式。 据IT之家此前报道，2022 年 9 月，华为 Petal 出行公测版上线，华为手机用户可在应用市场、桌面下拉搜索栏、负一屏等多个入口打开该服务，或通过小艺语音发起打车任务。而升级至 HarmonyOS 3 的手机还支持打车任务信息在服务卡片中动态呈现，如等候时长预计、行程信息、订单状态等。 去年 3 月，华为花瓣地图在鸿蒙 HarmonyOS NEXT 系统开启了 5.0.0.302 版本尝鲜，带来了巡航模式、室内地图、公交地铁线路图以及打车功能。花瓣地图打车属于聚合平台，可提供多平台打车服务。 ▲ 尝鲜前的华为地图打车页面 ▲ 尝鲜后的华为地图打车页面 IT 之家小伙伴记得用最会买打车，享受折扣价的同时还可以获得返利，单单都能省钱！",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/1ec5883b-a27d-488b-ad23-2a718b08539c.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-28T08:47:12.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/944/528.htm",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777368890732_26896e14",
+      "title": "DeepSeek给大家留出了准备空间",
+      "summary": "DeepSeek给大家留出了准备空间",
+      "content": "牌桌之下的各方的角力早已开始。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-04-28T06:58:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7970019.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1777358525806_ef1420e5",
       "title": "两部门：引导算力企业、模型企业、数据企业和应用开发企业组建“模数共振”创新联合体",
@@ -232,7 +340,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777358252065_0",
+      "id": "news_1777368604597_0",
       "title": "Prosecutors say suspect in missing students' killings asked ChatGPT about disposing of a body",
       "summary": "ORLANDO, Fla. (AP) — The suspect in the killings of two University of South Florida doctoral students from Bangladesh had asked ChatGPT what would hap...",
       "content": "ORLANDO, Fla. (AP) — The suspect in the killings of two University of South Florida doctoral students from Bangladesh had asked ChatGPT what would happen if a human body was put in a garbage bag and thrown in a dumpster, days before they went missing... [408 chars]",
@@ -244,7 +352,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777358252202_1",
+      "id": "news_1777368603935_1",
       "title": "Elon Musk sues OpenAI as diary surfaces in court",
       "summary": "TECH NEWS Artificial Intelligence Add Topic Elon Musk sues OpenAI as court reveals founder's private diary Deepa Seetharaman and Jonathan Stempel Reut...",
       "content": "The bitter legal fight between Elon Musk and the leading artificial intelligence firm, OpenAI, led by Sam Altman, may come down to a few pages in one executive's personal diary.\n\"This is the only chance we have to get out from Elon,\" wrote Greg Brock... [5349 chars]",
@@ -256,7 +364,19 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777358252074_2",
+      "id": "news_1777368903179_f3bb15d4",
+      "title": "数据分析师如何快速建立在 AI 时代最值钱的能力：一份可落地的行动路线图",
+      "summary": "数据分析师如何快速建立在 AI 时代最值钱的能力：一份可落地的行动路线图",
+      "content": "数据分析师如何快速建立在 AI 时代最值钱的能力：一份可落地的行动路线图",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-27T15:50:35.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/JB3gFJKZfDASpaXWqwHE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777368604549_2",
       "title": "OpenAI Publishes 5 Principles For Its AGI Push",
       "summary": "Innovation AI OpenAI Publishes 5 Principles For Its AGI Push By Ron Schmelzer , Contributor. Forbes contributors publish independent expert analyses a...",
       "content": "OpenAI CEO Sam Altman published five operating principles this week that outline OpenAI’s work toward advanced artificial intelligence, saying the company wants AI to serve humanity broadly, not gather power inside a few labs or a few governments. Fu... [8993 chars]",
@@ -268,7 +388,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777358313952_3",
+      "id": "news_1777368604503_3",
       "title": "Microsoft cuts OpenAI revenue share in a fresh step to loosen their AI alliance",
       "summary": "SAN FRANCISCO (AP) — Microsoft said Monday it will no longer pay a share of its revenue to ChatGPT maker OpenAI, the latest move to untether a close p...",
       "content": "SAN FRANCISCO (AP) — Microsoft said Monday it will no longer pay a share of its revenue to ChatGPT maker OpenAI, the latest move to untether a close partnership that helped unleash an artificial intelligence boom.\nOpenAI relied exclusively on Microso... [1143 chars]",
@@ -280,7 +400,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777358251711_4",
+      "id": "news_1777368605014_4",
       "title": "Microsoft cuts OpenAI revenue share as their AI alliance loosens",
       "summary": "SAN FRANCISCO (AP) — Microsoft said Monday it will no longer pay a share of its revenue to ChatGPT maker OpenAI, the latest move to untether a close p...",
       "content": "SAN FRANCISCO (AP) — Microsoft said Monday it will no longer pay a share of its revenue to ChatGPT maker OpenAI, the latest move to untether a close partnership that helped unleash an artificial intelligence boom.\nOpenAI relied exclusively on Microso... [1378 chars]",
@@ -292,7 +412,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777358518698_5",
+      "id": "news_1777368877245_5",
       "title": "Microsoft Cuts OpenAI Revenue Share in a Fresh Step to Loosen Their AI Alliance",
       "summary": "SAN FRANCISCO (AP) — Microsoft said Monday it will no longer pay a share of its revenue to ChatGPT maker OpenAI, the latest move to untether a close p...",
       "content": "SAN FRANCISCO (AP) — Microsoft said Monday it will no longer pay a share of its revenue to ChatGPT maker OpenAI, the latest move to untether a close partnership that helped unleash an artificial intelligence boom.\nOpenAI relied exclusively on Microso... [1511 chars]",
@@ -304,7 +424,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777358251861_6",
+      "id": "news_1777368604260_6",
       "title": "Elon Musk and OpenAI CEO Sam Altman head to court in high-stakes showdown over AI",
       "summary": "Technology tycoons Elon Musk and Sam Altman are poised to face off in a high-stakes trial revolving around the alleged betrayal, deceit and unbridled ...",
       "content": "Technology tycoons Elon Musk and Sam Altman are poised to face off in a high-stakes trial revolving around the alleged betrayal, deceit and unbridled ambition that blurred the bickering billionaires’ once-shared vision for the development of artifici... [5821 chars]",
@@ -724,7 +844,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777358524830_07395ce3",
+      "id": "news_1777368884356_07395ce3",
       "title": "12款产品入选，2026春季「焦点」产品计划重磅发布",
       "summary": "【点音Divoom桌搭全家桶评测视频】 &amp;amp;nbsp; 本文来自微信公众号“36氪”，36氪经授权发布。",
       "content": "【点音Divoom桌搭全家桶评测视频】 &amp;amp;nbsp; 本文来自微信公众号“36氪”，36氪经授权发布。",
@@ -805,66 +925,6 @@
       "publishedAt": "2026-04-26T09:31:50.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/943/706.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777191618221_0f9a4491",
-      "title": "实测混元Hy3 preview：腾讯AI，终于能打了？",
-      "summary": "实测混元Hy3 preview：腾讯AI，终于能打了？",
-      "content": "代码能跑，复杂逻辑会翻车。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-26T07:08:41.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7967449.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777191623753_9a5f9da7",
-      "title": "模型拉胯逼得Meta昏招迭出，结果被员工一招轻松化解",
-      "summary": "模型拉胯逼得Meta昏招迭出，结果被员工一招轻松化解",
-      "content": "内忧外患，不得不然。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-26T07:07:32.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7967546.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777191629746_8b0cd873",
-      "title": "地平线不只做芯片了，但车企会接受新的“底座”吗？",
-      "summary": "地平线不只做芯片了，但车企会接受新的“底座”吗？",
-      "content": "北京车展期间，地平线发布了新一代舱驾融合芯片和操作系统。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-26T06:59:56.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7967585.html",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777191643742_216a5f59",
-      "title": "DeepSeek V4炸场背后：硅谷在“造墙”，中国在“修路”",
-      "summary": "硅谷疯正在狂 “ 竖起高墙 ” ，试图用闭源守住既得利益；国大模型厂商则选择 “ 拆掉围墙 ” ，在开源的土壤上走向了协同进化。",
-      "content": "硅谷疯正在狂 “ 竖起高墙 ” ，试图用闭源守住既得利益；国大模型厂商则选择 “ 拆掉围墙 ” ，在开源的土壤上走向了协同进化。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-04-26T06:58:18.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7967484.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777191709812_8ac49d4b",
-      "title": "拿鸭肉冒充牛肉，上海公布一批网络餐饮食品安全典型案例",
-      "summary": "IT之家 4 月 26 日消息，据央视网今天报道，上海市市场监督管理局最近公布首批网络餐饮食品安全典型案例，其中存在“拿鸭肉冒充牛肉”“使用过期原料加工食品”“幽灵外卖”等现象。旨在以案示警，希望广大入网餐饮经营者引以为戒，切实履行食品安全主体责任。",
-      "content": "IT之家 4 月 26 日消息，据央视网今天报道，上海市市场监督管理局最近公布首批网络餐饮食品安全典型案例，其中存在“拿鸭肉冒充牛肉”“使用过期原料加工食品”“幽灵外卖”等现象。旨在以案示警，希望广大入网餐饮经营者引以为戒，切实履行食品安全主体责任。 IT之家附八大典型案例如下： 一、上海市市场监督管理局执法总队查处松江区上海某餐饮公司涉嫌伪造食品经营许可证案 案情介绍：2026 年 2 月，上海市市场监督管理局执法总队在查处当事人涉嫌发布虚假广告的违法行为中发现当事人未取得食品经营许可。经查，当事人为满足电子商务平台规定的店铺上线的食品经营许可证要求，通过手机图片的编辑功能对其他公司的食品经营许可证的经营者名称、统一社会信用代码、法定代表人（负责人）、住所及经营场所、有效期起止日期等内容进行修改，伪造成当事人的食品经营许可证后上传至电子商务平台使用并对外公示。 法律依据及处罚：当事人的上述行为涉嫌违反《食品经营许可和备案管理办法》第二十八条第一款“食品经营者应当妥善保管食品经营许可证，不得伪造、涂改、倒卖、出租、出借、转让”的规定，构成《中华人民共和国治安管理处罚法》第六十三条第一项的规定的伪造国家机关证明文件的行为，上海市市场监督管理局执法总队依据《中华人民共和国行政处罚法》第二十七条第一款、《行政执法机关移送涉嫌犯罪案件的规定》第三条的规定，4 月 14 日将该案移送上海市公安局松江分局。当事人发布虚假广告的违法行为另案调查处理。 案例警示：该案对当事人伪造食品经营许可证违法行为进行查办，严厉打击通过伪造资质蒙混过关、利用虚假信息误导消费者的违法行为。警示广大入网餐饮经营者，食品经营许可证是合法经营的“身份证”。切勿心存侥幸，以身试法，通过伪造、变造、冒用许可证来博取流量和利益。牢固树立合法合规经营的底线，确保资质真实、信息透明，共同营造安全、放心的网络餐饮消费环境。 二、浦东新区市场监督管理局查处浦东新区某餐饮店涉嫌经营掺假掺杂食品案 案情介绍：2026 年 4 月 16 日，浦东新区市场监督管理局与浦东公安对当事人开展联合检查，现场查见当事人后厨储存待用的“黑椒柳条”原料，其标签标示配料：鸭肉、水、淀粉等，用于店内制作炽牛土豆烤盘饭、烘牛茄子烤盘饭、烘牛豆皮烤盘饭。经查，自 2023 年开业起，当事人在店内制售炽牛土豆烤盘饭，并在外卖平台上销售，外卖平台上显示商品原料主料：土豆、牛肉。当事人通过线下及两个外卖平台上销售标称原料为牛肉实际为鸭肉的菜品，存在经营掺假掺杂的食品的行为，执法人员现场对涉案原料实施扣押。 法律依据及处罚：当事人的上述违法行为涉嫌违反《中华人民共和国食品安全法》第三十四条第六项的规定。因违法时间跨度较长，金额较大，浦东新区市场监督管理局依据《中华人民共和国行政处罚法》第二十七条第一款、《行政执法机关移送涉嫌犯罪案件的规定》第三条的规定，依法移送公安机关。 案例警示：该案对当事人经营掺假掺杂的食品，将鸭肉当成牛肉来制售的违法行为予以查处。警示广大入网餐饮经营者，规范标签标识、进货查验等全流程操作，提升市场主体的守法意识，维护规范有序的肉制品市场环境。 三、长宁区市场监督管理局查处长宁区上海某品牌管理有限公司未落实食品安全主体责任系列案 案情介绍：2026 年 3 月 15 日，长宁区市场监督管理局根据舆情线索，对辖区某无堂食外卖聚集区开展检查。经查，该聚集区提供入网餐饮服务，区内 23 家入网餐饮商户均存在不同程度的食品安全违法行为，主要表现为：使用过期食品原料加工食品、厨房环境脏乱、清洗消毒设施不规范、食品存储条件不达标，以及未建立“日管控、周排查、月调度”记录制度等。 法律依据及处罚：当事人的上述行为违反了《中华人民共和国食品安全法》第三十三条第一款第十一项、《中华人民共和国食品安全法》第三十四条第三项、《上海市食品安全条例》第二十四条第一款第一项、《食品生产经营企业落实食品安全主体责任监督管理规定》第十一条第一款的规定。长宁区市场监督管理局依法责令上述 23 家企业改正违法行为，并分别作出警告、没收违法所得、罚款等行政处罚。 案例警示：该案对当事人未落实食品安全主体责任的违法行为予以查处，并分别对 23 家涉案入网餐饮商户进行处罚。警示广大入网餐饮经营者切实增强食品安全主体责任意识、日常卫生管理意识、风险防范意识、从业人员规范操作意识。 四、杨浦区市场监督管理局查处杨浦区上海某餐饮店涉嫌经营掺杂掺假食品案 案情介绍：2026 年 4 月 16 日，杨浦区市场监督管理局对上海某餐饮店开展监督检查。经查，当事人为无堂食外卖经营者，其通过“快驴”“美菜”等微信小程序进货原材料为“鸭肉、牛脂肪”的“复合雪花肉卷”，用于作为麻辣香锅中“雪花肥牛”的原材料对外进行销售，使消费者将鸭肉误以为雪花牛肉进行购买。 法律依据及处罚：当事人涉嫌经营掺杂掺假食品金额达到入刑标准，构成犯罪，依据《中华人民共和国行政处罚法》第二十七条第一款、《行政执法机关移送涉嫌犯罪案件的规定》第三条的规定，杨浦区市场监督管理局已依法将该违法线索移送上海市公安局杨浦分局。 案例警示：该案对当事人涉嫌经营掺杂掺假食品的情况予以移送公安，强化与区公安局信息共享、线索移送工作机制。警示广大入网餐饮经营者严格落实主体责任，严把原料采购、进货查验、加工制作全流程关口，杜绝销售以假充真、以次充好、掺杂掺假食品。 五、闵行区市场监督管理局查处上海市闵行区某餐饮服务有限公司生产经营混有异物的食品案 案情介绍：2026 年 3 月 17 日，闵行区市场监督管理局对网民在社交平台反映存在食品卫生问题的上海市闵行区某餐饮服务有限公司予以处罚。经查，当事人员工在取物时不慎将操作台上一块抹布碰入待用的空烫煮菜篓中并与后续接到的一份外卖订单菜品一起烫煮后打包出餐，致使混有整块抹布的食品配送至消费者手中，存在食品安全风险隐患。 法律依据及处罚：当事人的上述行为违反了《中华人民共和国食品安全法》第三十四条第六项的规定。闵行区市场监督管理局依据《中华人民共和国食品安全法》第一百二十四条第一款第四项的规定，依法对当事人处罚款人民币 50000 元。 案例警示：该案对当事人生产经营混有异物的食品的违法行为予以查处。警示广大入网餐饮经营者严格落实分区分色管理，定期排查管理漏洞，不断完善操作规范，确保餐饮制售全流程、全环节的食品安全。 六、嘉定区市场监督管理局查处张某未按要求更新经营许可信息案 案情介绍：2026 年 4 月 7 日，嘉定区市场监督管理局在网络餐饮日常专项治理检查中发现张某存在未及时更新经营许可信息的行为。经查，当事人为小型餐饮服务提供者，在某网络平台开设外卖店铺，店铺内公示的经营许可信息已失效，但未按要求及时更新。 法律依据及处罚：当事人的上述行为违反了《网络餐饮服务食品安全监督管理办法》第九条的规定。嘉定区市场监督管理局依据《中华人民共和国行政处罚法》第二十八条第一款、第五十一条、《网络餐饮服务食品安全监督管理办法》第三十二条的规定，依法对当事人作出了警告的行政处罚。 案例警示：该案对当事人未按要求在外卖平台更新经营许可信息的行为予以查处。警示广大入网餐饮经营者落实主体责任、规范线上信息公示，也提示平台方应加强资质信息的动态核验。 七、松江区市场监督管理局查处上海市松江区某餐饮店提供虚假网络食品安全信息案 案情介绍：2026 年 3 月 25 日，上海市松江区市场监督管理局依托“食安小蜜蜂”小程序收到了来自骑手反馈的“幽灵外卖”违法线索。执法人员当即赶赴现场进行核查，经查当事人自身持有合法证照，又利用他人证照，在网络平台额外开设外卖店铺，存在入网食品经营者提供虚假网络食品安全信息的违法行为。 法律依据及处罚：当事人的行为违反了《网络食品安全违法行为查处办法》第四条第二款的规定，上海市松江区市场监督管理局依据《网络食品安全违法行为查处办法》第四十三条规定，依法责令当事人改正违法行为，并处罚款人民币 18000 元。 案例警示：该案对当事人借用他人证照违规注册店铺，引发注册地址与实际取餐地址不一致，导致“幽灵外卖”的行为予以查处。警示广大入网餐饮经营者莫要为了流量，忽视合规守法底线。同时，积极鼓励骑手参与食品安全社会监督共治。 八、奉贤区市场监督管理局查处上海市奉贤区某小吃店安排未取得健康证明的人员从事接触直接入口食品工作案 案情介绍：2026 年 3 月 20 日，奉贤区市场监督管理局执法人员对上海市奉贤区某小吃店开展执法检查。经查，当事人为餐饮服务经营主体（含网络），现场检查发现，当事人在从事食品制售经营过程中，安排一名未取得有效健康证明的员工从事接触直接入口食品的相关工作，存在食品安全风险隐患。 法律依据及处罚：当事人的上述行为违反了《中华人民共和国食品安全法》第四十五条第二款的规定。奉贤区市场监督管理局依据《中华人民共和国食品安全法》第一百二十六条第一款第六项的规定，依法对当事人作出了警告的行政处罚。 案例警示：该案对当事人不履行从业人员定期健康检查义务的违法行为查处，防范餐饮加工食品安全风险。警示广大入网餐饮经营者牢固树立食品安全隐患自查和处置意识，充分认识并严格履行日常食品从业人员健康检查的法定义务。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/63fee23a-9e82-41bc-9304-1c35f14a6c43.png?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-26T06:45:34.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/943/624.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
