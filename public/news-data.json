@@ -1,8 +1,80 @@
 {
   "success": true,
-  "timestamp": "2026-04-28T22:07:00.184Z",
-  "total": 77,
+  "timestamp": "2026-04-29T00:01:48.788Z",
+  "total": 88,
   "data": [
+    {
+      "id": "news_1777420877604_64e0b8a9",
+      "title": "OpenAI预计用户将大幅转向更便宜的ChatGPT套餐",
+      "summary": "当地时间4月28日，据报道，OpenAI预计，其更便宜、含广告的套餐不仅将吸引新用户，也会促使数千万付费订阅用户降级。OpenAI预计，今年其消费者订阅用户将增长一倍以上，达到1.22亿，并在2030年增至3.06亿。",
+      "content": "当地时间4月28日，据报道，OpenAI预计，其更便宜、含广告的套餐不仅将吸引新用户，也会促使数千万付费订阅用户降级。OpenAI预计，今年其消费者订阅用户将增长一倍以上，达到1.22亿，并在2030年增至3.06亿。其中，旗舰月费套餐ChatGPT Plus的订阅用户数量预计今年将下降80%，至约900万；最昂贵的Pro套餐用户数量预计将翻倍，但占比仍不到总用户的1%。（界面）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-04-28T23:59:39.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3787131818368000?f=rss",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777420878561_092b7e92",
+      "title": "英国国王会见黄仁勋等美国科技公司高管",
+      "summary": "英国国王查尔斯周二会见了美国科技界领袖，这是他对美国为期四天国事访问的一部分。双方讨论了早期创业公司面临的挑战，因为英国正努力将自身打造成为科技公司的理想目的地。",
+      "content": "英国国王查尔斯周二会见了美国科技界领袖，这是他对美国为期四天国事访问的一部分。双方讨论了早期创业公司面临的挑战，因为英国正努力将自身打造成为科技公司的理想目的地。查尔斯会见的科技界领袖包括亚马逊创始人杰夫·贝索斯、苹果CEO蒂姆·库克、英伟达CEO黄仁勋、AMD首席执行官苏姿丰、Salesforce首席执行官马克·贝尼奥夫以及Alphabet总裁露丝·波拉特。（新浪财经）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-04-28T23:54:20.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3787128575679751?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777420907514_a1f3f814",
+      "title": "突破 2 纳米工艺极限：DNA 生物晶体管实现分子级计算与存储双重突破",
+      "summary": "IT之家 4 月 29 日消息，韩国科学技术院（KAIST）于 4 月 22 日发布博文，宣布其工程生物学研究生院崔英宰（Yeongjae Choi）教授领导的团队突破 2 纳米工艺极限，成功研发出一种基于 DNA 的生物晶体管，实现了分子层面的计算与信息存储双重功能。",
+      "content": "IT之家 4 月 29 日消息，韩国科学技术院（KAIST）于 4 月 22 日发布博文，宣布其工程生物学研究生院崔英宰（Yeongjae Choi）教授领导的团队突破 2 纳米工艺极限，成功研发出一种基于 DNA 的生物晶体管，实现了分子层面的计算与信息存储双重功能。 相关研究成果已发表于国际期刊《Science Advances》。 IT之家援引博文介绍，随着半导体技术逼近 2 纳米极限，进一步微型化硅基器件面临巨大挑战，促使科学界探索分子级信息处理的替代方案。 DNA 凭借其碱基互补配对的特性，可实现精准可编程反应，且碱基对间距仅为 0.34 纳米，为超微型信息处理提供了理想平台。 然而，传统 DNA 电路存在一次性使用的缺陷。DNA 分子一旦发生反应即被消耗，无法维持连续的信息处理或记忆存储，导致以往系统仅限于简单的单次检测功能。 KAIST 研究团队为攻克这一难题，设计出能够响应外部信号进行可逆组装与解组装的 DNA 分子，这种结构变化能够持久存在并编码信息，让系统具备存储历史输入并以此为基础进行后续计算的能力。 该技术模拟了半导体晶体管的工作原理。如同电子晶体管处理电信号，该 DNA 系统能处理化学信号并同步存储计算结果，实质上发挥着生物晶体管的作用。 该技术有望应用于体内分子级诊断装置，实时监测特定疾病信号并自主判断。崔英宰教授表示，该成果将 DNA 分子计算机的实现可能性提升至新高度，为生物计算与医疗技术领域提供了全新发展方向。 参考 Reset-free DNA logic circuits for real-time input processing and memory KAIST Researchers Develop DNA-Based Bio-Transistor Enabling Molecular Computation and Memory",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/7dddb0f1-3676-4273-a336-219f6436390a.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-28T23:34:49.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/944/738.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777420907620_01a18bf2",
+      "title": "滴滴发布五一出行预测，预计前往大型交通枢纽的打车需求相比平日上涨 63%",
+      "summary": "IT之家 4 月 29 日消息，滴滴出行官方昨晚发布了五一出行预测：五一期间，异地滴滴打车需求，预计比节前上涨 56%。 滴滴出行表示，节前打车高峰将于 4 月 30 日 15 时启动，17 时达峰，并持续至 19 时。预计前往大型交通枢纽的打车需求相比平日上涨 63%。",
+      "content": "IT之家 4 月 29 日消息，滴滴出行官方昨晚发布了五一出行预测：五一期间，异地滴滴打车需求，预计比节前上涨 56%。 滴滴出行表示，节前打车高峰将于 4 月 30 日 15 时启动，17 时达峰，并持续至 19 时。预计前往大型交通枢纽的打车需求相比平日上涨 63%。 同时，充电、加油需求预计分别在 4 月 27 日、30 日进入高峰。五一期间，加油需求预计较日常增长四成。建议尽量避开每日 16 时-18 时的加油高峰，错峰补能。 IT 之家小伙伴记得用最会买打车，享受折扣价的同时还可以获得返利，单单都能省钱！",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/81ac4c35-4126-4d21-8d67-515b9f06e928.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-28T23:09:37.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/944/732.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777420907786_31a11936",
+      "title": "苹果《足球教练》第四季 8 月 5 日首播，Ted 转战女足赛场",
+      "summary": "IT之家 4 月 29 日消息，苹果宣布 Apple TV 热门喜剧《足球教练》（Ted Lasso）第四季将于 8 月 5 日首播。新一季中，主角 Ted 将重返英国，迎接执教乙级女子足球队的全新挑战。",
+      "content": "IT之家 4 月 29 日消息，苹果宣布 Apple TV 热门喜剧《足球教练》（Ted Lasso）第四季将于 8 月 5 日首播。新一季中，主角 Ted 将重返英国，迎接执教乙级女子足球队的全新挑战。 苹果今日宣布，旗下流媒体平台 Apple TV 的热门喜剧《足球教练》第四季首集将于 8 月 5 日（周三）上线，随后每周三更新一集，直至 10 月 7 日迎来季终。IT之家附上预告片如下： 作为 Apple TV 迄今为止最受欢迎的剧集之一，《足球教练》凭借积极治愈的基调赢得了大量观众。Jason Sudeikis 饰演的主角 Ted Lasso 原本是堪萨斯州的一名美式橄榄球教练，在毫无足球执教经验的情况下，跨界前往英国执教职业足球队。 第四季剧情迎来了全新转折。苹果透露，Ted 将重返英国，接手一项前所未有的挑战：执教一支乙级女子足球队。苹果官方表示，在整个赛季中，Ted 与球队将学会打破常规，勇敢抓住那些曾经遥不可及的机会。 距离 2023 年第三季完结已有一段时间，粉丝对第四季的呼声一直很高。自 2020 年首播以来，该剧已斩获多项重量级奖项，成为许多观众心中的治愈系佳作。 演员阵容方面，除了主演 Jason Sudeikis，Hannah Waddingham、Juno Temple、Brett Goldstein、Brendan Hunt 以及 Jeremy Swift 等备受观众喜爱的核心卡司均将在第四季悉数回归。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/dfbf7f05-8845-4d55-9e0a-4f37fd999d30.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-28T22:56:21.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/944/730.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777420895868_233b1f28",
+      "title": "用 Snowflake Cortex Agents 释放结构化数据的最大价值 ｜ 技术实践",
+      "summary": "用 Snowflake Cortex Agents 释放结构化数据的最大价值 ｜ 技术实践",
+      "content": "用 Snowflake Cortex Agents 释放结构化数据的最大价值 ｜ 技术实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-28T15:36:43.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/fgDaebwIGabVwLdljJTN?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1777395670088_18c81932",
       "title": "苹果 Vision Pro 辅助完成白内障手术，支持 3D 可视化与远程协作",
@@ -52,6 +124,18 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1777420871034_0",
+      "title": "Oracle, CoreWeave lead AI selloff on OpenAI growth concerns",
+      "summary": "April 28 (Reuters) - Shares of artificial intelligence-related firms ​dropped on Tuesday after the Wall Street Journal reported that OpenAI had missed...",
+      "content": "April 28 (Reuters) - Shares of artificial intelligence-related firms ​dropped on Tuesday after the Wall Street Journal reported that OpenAI had missed its goals for new users and revenue in ‌recent months, raising concerns over the ChatGPT creator's ... [2059 chars]",
+      "imageUrl": "https://www.reuters.com/resizer/v2/UCPJJ74G4JPGXB2QFE5K26FOWM.jpg?auth=8ec908ea95176c4cc2b9a0ba6d1befa70d068f11599b32ef9753a223e8500f1b&height=1005&width=1920&quality=80&smart=true",
+      "source": "Reuters",
+      "publishedAt": "2026-04-28T11:56:27.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.reuters.com/business/media-telecom/oracle-coreweave-shares-drop-after-report-flags-openai-growth-worries-2026-04-28/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1777377467191_2c0bcd96",
       "title": "寒武纪：2025年度权益分派拟每10股派15元转增4.9股，股权登记日为2026年5月7日",
       "summary": "36氪获悉，寒武纪公告，公司2025年年度权益分派方案为，以实施权益分派股权登记日登记的总股本扣除回购专用账户股份为基数，向全体股东每10股派发现金红利15元(含税)，同时以资本公积金每10股转增4.9股。股权登记日为2026年5月7日，除权除息日为2026年5月8日。",
@@ -61,6 +145,18 @@
       "publishedAt": "2026-04-28T11:46:17.000Z",
       "category": "国外AI",
       "originalUrl": "https://36kr.com/newsflashes/3786420670881032?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777420897593_b0face4d",
+      "title": "Cloudflare Sandboxes 正式发布，为 AI 代理提供持久化隔离环境",
+      "summary": "Cloudflare Sandboxes 正式发布，为 AI 代理提供持久化隔离环境",
+      "content": "Cloudflare Sandboxes 正式发布，为 AI 代理提供持久化隔离环境",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-28T11:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Vtb1hXgxEAEueGtcAlUj?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -100,7 +196,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777413983634_0",
+      "id": "news_1777420870511_1",
       "title": "Musk's social media use questioned as he, Sam Altman arrive for OpenAI trial",
       "summary": "OAKLAND, California, April 28 (Reuters) - A trial that could help shape the future of artificial ​intelligence begins on Tuesday, with billionaires El...",
       "content": "OAKLAND, California, April 28 (Reuters) - A trial that could help shape the future of artificial ​intelligence begins on Tuesday, with billionaires Elon Musk and Sam Altman at odds over the evolution of ChatGPT maker OpenAI from a nonprofit to ‌a pro... [3860 chars]",
@@ -110,6 +206,30 @@
       "category": "国外AI",
       "originalUrl": "https://www.reuters.com/legal/litigation/openai-trial-pitting-elon-musk-against-sam-altman-kicks-off-2026-04-28/",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1777420898981_c9a1cd32",
+      "title": "Agent 的下一站：基于长期记忆系统 EverOS 的自我演进｜AICon上海",
+      "summary": "Agent 的下一站：基于长期记忆系统 EverOS 的自我演进｜AICon上海",
+      "content": "Agent 的下一站：基于长期记忆系统 EverOS 的自我演进｜AICon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-28T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/eI5gqlAawBxPPfZZ2B33?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777420900384_0e060d01",
+      "title": "同一赛道，四种收费：Agent 控制层（Harness）开始分裂",
+      "summary": "同一赛道，四种收费：Agent 控制层（Harness）开始分裂",
+      "content": "同一赛道，四种收费：Agent 控制层（Harness）开始分裂",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-28T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/Z3MKvAKFC2Hjjk643oKQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777377478355_f411f7b6",
@@ -122,6 +242,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/7970697.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777420901062_d844d51c",
+      "title": "Agent 的“记忆断片”困局，该怎么破？",
+      "summary": "Agent 的“记忆断片”困局，该怎么破？",
+      "content": "Agent 的“记忆断片”困局，该怎么破？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-28T09:17:42.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/AetF3mwIAP5iljCD0iW7?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777368906433_d1ad6376",
@@ -268,7 +400,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777413983876_1",
+      "id": "news_1777420870715_2",
       "title": "Tuesday Morning News Roundup",
       "summary": "Monday marked the first official day of the trial of Elon Musk's lawsuit against Sam Altman and the artificial intelligence developer OpenAI, the comp...",
       "content": "Monday marked the first official day of the trial of Elon Musk's lawsuit against Sam Altman and the artificial intelligence developer OpenAI, the company responsible for the creation of ChatGPT.\nMusk claims that even though OpenAI was formed as a non... [15484 chars]",
@@ -376,7 +508,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777413983243_2",
+      "id": "news_1777420870341_3",
       "title": "Elon Musk and OpenAI CEO Sam Altman head to court in high-stakes showdown over AI",
       "summary": "All Contact & Submissions Contact Us Submit a Letter Submit Your News Newsletter Sign Up Submit a Classified Ad Place an Obituary Advertise With Us Po...",
       "content": "OAKLAND, Calif. (AP) — Technology tycoons Elon Musk and Sam Altman are poised to face off in a high-stakes trial revolving around the alleged betrayal, deceit and unbridled ambition that blurred the bickering billionaires' once-shared vision for the ... [6089 chars]",
@@ -412,7 +544,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777413983246_3",
+      "id": "news_1777420870548_4",
       "title": "Microsoft and OpenAI gut their exclusive deal, freeing OpenAI to sell on AWS and Google Cloud",
       "summary": "Microsoft and OpenAI gut their exclusive deal, freeing OpenAI to sell on AWS and Google Cloud Michael Nuñez Published 3:27 pm, PT, April 27, 2026 Upda...",
       "content": "Microsoft and OpenAI on Monday announced a sweeping overhaul of the partnership that has defined the commercial AI era, dismantling key pillars of exclusivity and revenue-sharing that bound the two companies together for years and replacing them with... [14793 chars]",
@@ -436,7 +568,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777413983409_4",
+      "id": "news_1777420870902_5",
       "title": "Prosecutors say suspect in missing students' killings asked ChatGPT about disposing of a body",
       "summary": "ORLANDO, Fla. (AP) — The suspect in the killings of two University of South Florida doctoral students from Bangladesh had asked ChatGPT what would hap...",
       "content": "ORLANDO, Fla. (AP) — The suspect in the killings of two University of South Florida doctoral students from Bangladesh had asked ChatGPT what would happen if a human body was put in a garbage bag and thrown in a dumpster, days before they went missing... [408 chars]",
@@ -448,7 +580,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777413983233_5",
+      "id": "news_1777420870677_6",
       "title": "Elon Musk sues OpenAI as diary surfaces in court",
       "summary": "TECH NEWS Artificial Intelligence Add Topic Elon Musk sues OpenAI as court reveals founder's private diary Deepa Seetharaman and Jonathan Stempel Reut...",
       "content": "The bitter legal fight between Elon Musk and the leading artificial intelligence firm, OpenAI, led by Sam Altman, may come down to a few pages in one executive's personal diary.\n\"This is the only chance we have to get out from Elon,\" wrote Greg Brock... [5349 chars]",
@@ -460,7 +592,19 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777413983576_6",
+      "id": "news_1777420902995_f3bb15d4",
+      "title": "数据分析师如何快速建立在 AI 时代最值钱的能力：一份可落地的行动路线图",
+      "summary": "数据分析师如何快速建立在 AI 时代最值钱的能力：一份可落地的行动路线图",
+      "content": "数据分析师如何快速建立在 AI 时代最值钱的能力：一份可落地的行动路线图",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-27T15:50:35.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/JB3gFJKZfDASpaXWqwHE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777420870651_7",
       "title": "OpenAI Publishes 5 Principles For Its AGI Push",
       "summary": "Innovation AI OpenAI Publishes 5 Principles For Its AGI Push By Ron Schmelzer , Contributor. Forbes contributors publish independent expert analyses a...",
       "content": "OpenAI CEO Sam Altman published five operating principles this week that outline OpenAI’s work toward advanced artificial intelligence, saying the company wants AI to serve humanity broadly, not gather power inside a few labs or a few governments. Fu... [8993 chars]",
@@ -472,7 +616,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777413983843_7",
+      "id": "news_1777420870145_8",
       "title": "Microsoft cuts OpenAI revenue share in a fresh step to loosen their AI alliance",
       "summary": "SAN FRANCISCO (AP) — Microsoft said Monday it will no longer pay a share of its revenue to ChatGPT maker OpenAI, the latest move to untether a close p...",
       "content": "SAN FRANCISCO (AP) — Microsoft said Monday it will no longer pay a share of its revenue to ChatGPT maker OpenAI, the latest move to untether a close partnership that helped unleash an artificial intelligence boom.\nOpenAI relied exclusively on Microso... [1143 chars]",
@@ -484,7 +628,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777413983907_8",
+      "id": "news_1777420870880_9",
       "title": "Microsoft cuts OpenAI revenue share as their AI alliance loosens",
       "summary": "SAN FRANCISCO (AP) — Microsoft said Monday it will no longer pay a share of its revenue to ChatGPT maker OpenAI, the latest move to untether a close p...",
       "content": "SAN FRANCISCO (AP) — Microsoft said Monday it will no longer pay a share of its revenue to ChatGPT maker OpenAI, the latest move to untether a close partnership that helped unleash an artificial intelligence boom.\nOpenAI relied exclusively on Microso... [1598 chars]",
@@ -914,18 +1058,6 @@
       "category": "科技新闻",
       "originalUrl": "https://36kr.com/p/3784491394784519?f=rss",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777247463300_03e3d924",
-      "title": "我国科学家突破纳米金属三维成像技术，实现晶界“透视”",
-      "summary": "IT之家 4 月 27 日消息，“中科院之声”公众号今日发文称，近日，中国科学院金属研究所团队开发出暗场电子层析成像新方法 DFET-Nano，实现了对纳米金属晶界的三维“透视”。简单来说，这就像给纳米晶粒作 CT 扫描。",
-      "content": "IT之家 4 月 27 日消息，“中科院之声”公众号今日发文称，近日，中国科学院金属研究所团队开发出暗场电子层析成像新方法 DFET-Nano，实现了对纳米金属晶界的三维“透视”。简单来说，这就像给纳米晶粒作 CT 扫描。 团队利用透射电子显微镜，从不同角度为纳米晶粒拍摄大量暗场像照片，然后通过复杂的重构算法，将二维图像合成为高精度的三维立体模型。目前，该技术的空间分辨率已经达到 0.3 纳米。 IT之家从文中获悉，这种方法不仅重建了晶粒的外形，还能同步解析其晶体学取向。也就是说，研究人员不仅能“看见”晶粒长什么样，还能知道每个晶粒的晶界结构特征，从而精确计算出晶界的晶面指数和曲率。这些直观的三维证据，首次在实验中验证了理论物理学家提出的“受限晶体结构”特征。 这项研究就像一把钥匙，打开了纳米材料“黑箱”。借助它，科学家能在三维空间中直接观察和测量晶界变化，从而更透彻地理解纳米金属稳定机制，为未来设计更高性能、更稳定的纳米材料提供了新的表征手段。 参考 论文链接",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/9b42ce26-c6ac-48b9-82b0-42614b5cd094.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-26T23:43:53.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/943/760.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
