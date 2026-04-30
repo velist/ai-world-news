@@ -1,31 +1,43 @@
 {
   "success": true,
-  "timestamp": "2026-04-30T14:19:34.254Z",
-  "total": 88,
+  "timestamp": "2026-04-30T16:27:13.421Z",
+  "total": 86,
   "data": [
     {
-      "id": "news_1777558753936_dd76a4fe",
-      "title": "“AI预测未来”赛道登顶！北京中关村学院信息智能团队统斩获全球桂冠",
-      "summary": "“AI预测未来”赛道登顶！北京中关村学院信息智能团队统斩获全球桂冠",
-      "content": "“AI预测未来”赛道登顶！北京中关村学院信息智能团队统斩获全球桂冠",
+      "id": "news_1777566408904_5d5159d0",
+      "title": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
+      "summary": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
+      "content": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-30T20:00:00.000Z",
+      "publishedAt": "2026-04-30T19:00:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/3rNioRsQcs1G5vMq8VlO?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/2c2JX4m7VqPrFaP5cI6t?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777558759056_a44c70d0",
-      "title": "谷歌开源“Agent Skill 超级工具箱”，云、库、引擎、AI全线打通，开发者狂喜",
-      "summary": "谷歌开源“Agent Skill 超级工具箱”，云、库、引擎、AI全线打通，开发者狂喜",
-      "content": "谷歌开源“Agent Skill 超级工具箱”，云、库、引擎、AI全线打通，开发者狂喜",
+      "id": "news_1777566410643_9d8d26aa",
+      "title": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了",
+      "summary": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了",
+      "content": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-04-30T14:25:01.000Z",
+      "publishedAt": "2026-04-30T18:06:28.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/ihRlIjt3N5seuQN27OQe?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/tHktl4M8KRWON0veTT3b?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777566432418_ab8be501",
+      "title": "DeepSeek 公布多模态模型技术报告",
+      "summary": "IT之家 4 月 30 日消息，DeepSeek 在 GitHub 平台正式发布了其多模态大模型，并同步公开了配套技术报告。该报告提出了一种基于“视觉原语”的创新推理框架，旨在突破当前多模态大语言模型（MLLMs）在空间参照任务中的核心瓶颈。",
+      "content": "IT之家 4 月 30 日消息，DeepSeek 在 GitHub 平台正式发布了其多模态大模型，并同步公开了配套技术报告。该报告提出了一种基于“视觉原语”的创新推理框架，旨在突破当前多模态大语言模型（MLLMs）在空间参照任务中的核心瓶颈。 技术报告指出，尽管多模态大语言模型近年来取得长足进步，但主流的链式思维（CoT）推理范式仍主要局限于语言学领域。现有研究多聚焦于通过高分辨率图像裁剪等技术手段弥合“感知鸿沟”，即提升模型对视觉细节的识别能力。然而，DeepSeek 团队认为，这一思路忽视了一个更为根本的限制：参照鸿沟。 自然语言固有的模糊性使其难以对复杂的空间布局提供精确、明确的指引。当模型需要执行涉及严谨空间参照的任务时，这种语言表达的局限性往往导致推理链条断裂，出现逻辑崩溃。 针对上述问题，DeepSeek 提出了“基于视觉原语的思考”（Thinking with Visual Primitives）框架。该框架将点、边界框等空间标记从单纯的视觉输入元素，提升为推理过程中的“基本思维单元”。通过将这些视觉原语直接嵌入模型的思考链路，DeepSeek 使模型在推理过程中具备了“指代”能力 —— 即能够将抽象的认知轨迹锚定到图像的具体物理坐标上，从而实现对空间关系的精确推演。 技术报告披露，该框架采用了高度优化的模型架构，具备极高的视觉标记效率。尽管模型规模紧凑且图像标记预算显著较低，DeepSeek 的多模态模型在具有挑战性的计数和空间推理基准测试上，能够与 GPT-5.4、Claude-Sonnet-4.6 和 Gemini-3-Flash 等前沿模型匹配。这为开发更高效、更具可扩展性的 System-2 类多模态智能指明了方向。 IT之家注意到，DeepSeek 此前已经上线了“识图模式”，该模式和“快速模式”“专家模式”并列，并非简单的 OCR 文字，而是终于具备了多模态识别能力。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/d2bd1226-b738-4414-bb68-ba025d43c247.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-04-30T14:39:33.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/945/740.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777558773249_9c11a312",
@@ -38,18 +50,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/945/718.htm",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777558760374_3dfbf929",
-      "title": "Slack 长时运行多智能体系统的上下文管理方案",
-      "summary": "Slack 长时运行多智能体系统的上下文管理方案",
-      "content": "Slack 长时运行多智能体系统的上下文管理方案",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-30T13:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/v51PWObFB4xuqM2lkMpg?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777558743170_7b5c13e9",
@@ -100,6 +100,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1777566415647_c4ce4244",
+      "title": "谷歌云推出 Agents CLI，简化 AI 智能体开发全流程",
+      "summary": "谷歌云推出 Agents CLI，简化 AI 智能体开发全流程",
+      "content": "谷歌云推出 Agents CLI，简化 AI 智能体开发全流程",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-30T11:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/O9hWJ1JZYBPF9PZKkY3C?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1777549604330_e6e6c366",
       "title": "巅峰集结，FBIF2026首日回顾！全球食品高层共探破局之路",
       "summary": "作者：FBIF媒体部 FBIF2026食品饮料创新论坛及FBIF食品创新展（f展）于2026年4月27-29日在杭州国际博览中心举办。 3天的FBIF2026将包含160+位演讲嘉宾，650+展商参展，6000+渠道观众观展，累计将吸引53000+观众观展。 FBIF2026以“大势可为”为主题。",
@@ -121,6 +133,42 @@
       "publishedAt": "2026-04-30T10:04:02.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7974161.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777566417587_69c2ee80",
+      "title": "亚马逊云科技终止 WorkMail 服务，并将 App Runner 转入维护模式",
+      "summary": "亚马逊云科技终止 WorkMail 服务，并将 App Runner 转入维护模式",
+      "content": "亚马逊云科技终止 WorkMail 服务，并将 App Runner 转入维护模式",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-30T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/FjThiiwEJaFUxADp3rUx?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777566424087_b0bf7a51",
+      "title": "OPPO小布记忆：全模态碎片化内容的理解与智能整理实践｜AICon上海",
+      "summary": "OPPO小布记忆：全模态碎片化内容的理解与智能整理实践｜AICon上海",
+      "content": "OPPO小布记忆：全模态碎片化内容的理解与智能整理实践｜AICon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-30T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/zIEkfmCaYdqpCfwheuqs?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777566425656_75abd627",
+      "title": "模力工场038周AI应用周榜：工具在消失，工作流在出现",
+      "summary": "模力工场038周AI应用周榜：工具在消失，工作流在出现",
+      "content": "模力工场038周AI应用周榜：工具在消失，工作流在出现",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-30T09:48:56.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/qUMVgFNMYqXMFx8CawJ1?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -376,7 +424,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777558726226_0",
+      "id": "news_1777566374761_0",
       "title": "Anthropic Considering Funding Offers at Over $900 Billion Value",
       "summary": "Anthropic PBC has begun weighing a fresh funding round that would value the artificial intelligence developer at more than $900 billion, according to ...",
       "content": "Anthropic PBC has begun weighing a fresh funding round that would value the artificial intelligence developer at more than $900 billion, according to people familiar with the matter, potentially leapfrogging its longtime rival OpenAI as the world’s m... [325 chars]",
@@ -436,7 +484,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777558725499_1",
+      "id": "news_1777566373541_1",
       "title": "OpenAI sued by families of Canada school shooting victims",
       "summary": "By Rachel Metz, Bloomberg\nOpenAI is the target of new lawsuits over the mass shooting in Tumbler Ridge, British Columbia, that allege the artificial i...",
       "content": "By Rachel Metz, Bloomberg\nOpenAI is the target of new lawsuits over the mass shooting in Tumbler Ridge, British Columbia, that allege the artificial intelligence company could have stopped the suspected killer from using its popular chatbot, ChatGPT,... [3874 chars]",
@@ -460,7 +508,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777558725631_2",
+      "id": "news_1777566374491_2",
       "title": "Musk testifies for a second day in a suit that could change artificial intelligence",
       "summary": "By Samantha Delouya, Hadas Gold, CNN\n(CNN) — Elon Musk took the stand for a second day of testimony against OpenAI and its leaders in a lawsuit that c...",
       "content": "By Samantha Delouya, Hadas Gold, CNN\n(CNN) — Elon Musk took the stand for a second day of testimony against OpenAI and its leaders in a lawsuit that could reshape the future of artificial intelligence, as the emerging technology has sent ripples thro... [2637 chars]",
@@ -472,7 +520,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777558725988_3",
+      "id": "news_1777566374198_3",
       "title": "Families of Canada school shooting victims sue OpenAI over shooter's use of ChatGPT",
       "summary": "The families of victims of a school shooting in a Canadian Rockies town are suing artificial intelligence company OpenAI in U.S. federal court, seekin...",
       "content": "The families of victims of a school shooting in a Canadian Rockies town are suing artificial intelligence company OpenAI in U.S. federal court, seeking to hold the ChatGPT maker responsible for failing to alert police to the shooter’s alarming intera... [312 chars]",
@@ -484,7 +532,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777558725315_4",
+      "id": "news_1777566374626_4",
       "title": "Families of Canada school shooting victims sue OpenAI over shooter’s use of ChatGPT",
       "summary": "The families of victims of a school shooting in a Canadian Rockies town are suing artificial intelligence company OpenAI in U.S. federal court, seekin...",
       "content": "The families of victims of a school shooting in a Canadian Rockies town are suing artificial intelligence company OpenAI in U.S. federal court, seeking to hold the ChatGPT maker responsible for failing to alert police to the shooter’s alarming intera... [5199 chars]",
@@ -496,7 +544,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777558725721_5",
+      "id": "news_1777566373953_5",
       "title": "Families of Tumbler Ridge school shooting victims sue ChatGPT maker OpenAI",
       "summary": "The families of victims of a school shooting in a Canadian Rockies town are suing artificial intelligence company OpenAI in U.S. federal court, seekin...",
       "content": "The families of victims of a school shooting in a Canadian Rockies town are suing artificial intelligence company OpenAI in U.S. federal court, seeking to hold the ChatGPT maker responsible for failing to alert police to the shooter’s alarming intera... [5066 chars]",
@@ -986,78 +1034,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.dailycamera.com/2026/04/28/musk-openai-trial-opening-statements/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1777437241443_0",
-      "title": "Here Are the Key Players in the OpenAI Trial",
-      "summary": "Advertisement\nSKIP ADVERTISEMENT\nHere Are the Key Players in the OpenAI Trial\nElon Musk, Sam Altman and several other key artificial intelligence indu...",
-      "content": "Advertisement\nSKIP ADVERTISEMENT\nHere Are the Key Players in the OpenAI Trial\nElon Musk, Sam Altman and several other key artificial intelligence industry figures are slated to testify in the trial, which is expected to last several weeks.\nApril 28, ... [1281 chars]",
-      "imageUrl": "https://static01.nyt.com/images/2026/04/28/arts/28openai-trial-tech-whos-who/28openai-trial-tech-whos-who-facebookJumbo.jpg",
-      "source": "The New York Times",
-      "publishedAt": "2026-04-28T16:03:28.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.nytimes.com/2026/04/28/technology/key-players-openai-trial.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1777437240714_1",
-      "title": "Musk, Altman appear for opening statements in trial over OpenAI's origins",
-      "summary": "OAKLAND, Calif. (AP) — OpenAI co-founders Elon Musk and Sam Altman have shown up for Tuesday’s opening statements in a high-stakes trial revolving aro...",
-      "content": "OAKLAND, Calif. (AP) — OpenAI co-founders Elon Musk and Sam Altman have shown up for Tuesday’s opening statements in a high-stakes trial revolving around a bitter feud between the former friends that could reshape the future development of artificial... [1155 chars]",
-      "imageUrl": "https://dims.apnews.com/dims4/default/016b7ff/2147483647/strip/true/crop/3756x2503+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F56%2F1e%2Fd9f9422e7af87f112123e2532fa3%2F64ede997efa7434086cfb296c38056b0",
-      "source": "The Associated Press",
-      "publishedAt": "2026-04-28T16:03:13.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://apnews.com/article/elon-musk-openai-altman-trial-b3c647391fbaa0f081611027b4e98479",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1777437240768_2",
-      "title": "Musk and Altman show up for opening statements in trial that could reshape AI's future",
-      "summary": "Local 4’s Karen Drew takes action, gets answers in latest investigation ▶ 0:46 Local 4’s Karen Drew takes action, gets answers in latest investigation...",
-      "content": "OAKLAND, Calif. – OpenAI co-founders Elon Musk and Sam Altman appeared for Tuesday's opening statements in a high-stakes trial revolving around a bitter feud between the former friends that could reshape the future development of artificial intellige... [4159 chars]",
-      "imageUrl": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/T36OAPNVJFCL3BI4L42O6BCSV4.jpg?_a=DATAg1fkZAA0",
-      "source": "WDIV ClickOnDetroit",
-      "publishedAt": "2026-04-28T16:03:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.clickondetroit.com/business/2026/04/28/musk-and-altman-show-up-for-opening-statements-in-trial-that-could-reshape-ais-future/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1777437505613_3",
-      "title": "Musk and Altman Show up for Opening Statements in Trial That Could Reshape AI's Future",
-      "summary": "OAKLAND, Calif. (AP) — OpenAI co-founders Elon Musk and Sam Altman have shown up for Tuesday's opening statements in a high-stakes trial revolving aro...",
-      "content": "OAKLAND, Calif. (AP) — OpenAI co-founders Elon Musk and Sam Altman have shown up for Tuesday's opening statements in a high-stakes trial revolving around a bitter feud between the former friends that could reshape the future development of artificial... [1288 chars]",
-      "imageUrl": "https://www.usnews.com/dims4/USNEWS/b9a5759/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F85%2F789f1b55e433b29daed3772a255a7a%2F64ede997efa7434086cfb296c38056b0Musk_OpenAI_Trial_11492.jpg",
-      "source": "U.S. News & World Report",
-      "publishedAt": "2026-04-28T16:03:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.usnews.com/news/us/articles/2026-04-28/musk-and-altman-show-up-for-opening-statements-in-trial-that-could-reshape-ais-future",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1777437241263_4",
-      "title": "Chip Stocks Fall On OpenAI Funding Concerns",
-      "summary": "Information in Investor’s Business Daily is for informational and educational purposes only and should not be construed as an offer, recommendation, s...",
-      "content": "Information in Investor’s Business Daily is for informational and educational purposes only and should not be construed as an offer, recommendation, solicitation, or rating to buy or sell securities. The information has been obtained from sources we ... [1013 chars]",
-      "imageUrl": "https://www.investors.com/wp-content/uploads/2026/04/stock-Broadcom-designed-Meta-company.jpg",
-      "source": "Investor's Business Daily",
-      "publishedAt": "2026-04-28T15:19:01.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.investors.com/news/technology/chip-stocks-falls-openai-funding-concerns/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1777395670088_18c81932",
-      "title": "苹果 Vision Pro 辅助完成白内障手术，支持 3D 可视化与远程协作",
-      "summary": "IT之家 4 月 28 日消息，苹果 Vision Pro 再度创下医疗应用里程碑，纽约一位眼科医生成为首位借助这款空间计算头显完成白内障手术的外科医师。 视光医疗机构 SightMD 的埃里克 · 罗森伯格医生于 2025 年 10 月完成了首例手术。",
-      "content": "IT之家 4 月 28 日消息，苹果 Vision Pro 再度创下医疗应用里程碑，纽约一位眼科医生成为首位借助这款空间计算头显完成白内障手术的外科医师。 视光医疗机构 SightMD 的埃里克 · 罗森伯格医生于 2025 年 10 月完成了首例手术。此后，他利用自己为苹果混合现实设备联合开发的手术平台 ScopeXR，又陆续完成了数百例同类手术。 ScopeXR 可将 3D 数字化手术显微镜的实时画面直接传输至 Vision Pro 头显，让外科医生以立体 3D 视角观察手术区域，同时叠加显示术前诊断数据。该平台还支持实时远程协作，其他外科医生可虚拟参与手术过程，与主刀医生看到完全一致的手术画面。 罗森伯格医生在公司新闻稿中表示：“如今，我们能把全球顶尖的外科医师，随时随地请到世界上任何一间手术室。无论是首次独立手术的住院医师，还是遭遇突发手术并发症的资深医生，这项技术让专业医疗资源得以普惠大众，进而守护更多人的视力。” IT之家注意到，这也是苹果推动 Vision Pro 走向企业及专业领域应用的又一例证。目前这款头显 29,999 元的起售价和笨重的机身设计，使其难以在普通消费市场普及。苹果正愈发深耕医疗、航空培训、工业设计等专业领域的定制化应用，在这些场景中，设备的专业价值足以匹配其高昂定价。 苹果方面坦言，这款头显从面世之初就并未定位大众消费级产品。据最新消息，苹果目前已暂停所有新款 Vision 系列头显的研发工作，转而将重心转向轻量化智能眼镜，而 Meta 早已在该赛道取得市场突破。去年 10 月，苹果推出搭载 M5 芯片的升级版 Vision Pro，这也是该设备问世后的首次硬件迭代。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/81514ca1-aba3-4ca9-a767-509616c85a62.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-28T15:18:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/944/705.htm",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
