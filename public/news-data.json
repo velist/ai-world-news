@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-05-02T13:39:52.834Z",
+  "timestamp": "2026-05-02T14:57:52.919Z",
   "total": 38,
   "data": [
+    {
+      "id": "news_1777733871645_7540ef37",
+      "title": "哈佛新研究：AI 模型“急诊科”场景诊断能力有望超越人类医生",
+      "summary": "IT之家 5 月 2 日消息，当地时间 5 月 1 日，据外媒 TechSpot 报道，AI 正开始进入医学中最难的一类场景：信息不完整时如何作出正确的判断。",
+      "content": "IT之家 5 月 2 日消息，当地时间 5 月 1 日，据外媒 TechSpot 报道，AI 正开始进入医学中最难的一类场景：信息不完整时如何作出正确的判断。《科学》期刊一项新研究显示，OpenAI 的一款推理模型在真实临床病例中接受测试后，在诊断患者和制定治疗方案方面达到人类医生水平，很多情况下甚至表现更好。 这项研究由哈佛医学院和贝斯以色列女执事医疗中心研究人员完成。与传统受控基准测试不同，研究重点放在真实临床环境下的表现，也就是模型面对不完整、不规整、不断变化的医疗信息时能否作出有效判断。 其中一个病例中，一名患者因肺栓塞进入急诊科。治疗后一度好转，随后病情再次恶化。医生最初怀疑药物没有发挥作用。AI 模型则基于当时同样可获得的电子健康记录，提示患者可能有狼疮病史。 据悉，狼疮是一种自身免疫性疾病，可能导致心脏炎症。后续结果证明，模型给出的方向是正确的。 研究团队在多个诊疗环节测试了这个模型，从急诊分诊到住院阶段都有覆盖。每一步中，模型都只能使用当时已经掌握的信息。总体结果显示，在相同限制条件下，模型表现超过了两名经验丰富的医生。 贝斯以色列女执事医疗中心临床研究人员、研究作者之一亚当 · 罗德曼表示：“对我来说，最大的结论是，它能处理急诊科那些混乱的真实世界数据。它能在真实世界中用于诊断。” 研究人员还使用《新英格兰医学杂志》临床病例报告，以及其他标准化诊断挑战来测试模型。这类病例主要考察复杂诊断推理能力。结果显示，模型再次超过了作为对照的一大组医生。 参与研究的哈佛医学院生物医学信息学助理教授拉杰 · 曼赖表示：“模型表现超过了我们规模很大的医生基准组。” 不过，这项研究也有重要限制。模型完全依赖文本病历，没有处理影像、声音和非语言线索，而这些信息在真实临床工作中非常关键。即便如此，它在不确定条件下的表现仍比早期系统更强，尤其是在鉴别诊断中更突出。鉴别诊断要求医生同时考虑多种可能疾病，再逐步排除和收窄范围。 作为对比，过去的大模型在病例信息模糊或不完整时，经常难以稳定推理。 外部专家认为，这项进展确实重要，但真正落地仍有很多问题。 研究作者同样强调，这项研究并没有证明 AI 应该取代医生，仅仅说明 AI 有机会成为临床决策支持工具，尤其适用于急诊这类节奏快、时间紧、信息不完整的场景。曼赖说：“我认为，这确实意味着我们正在见证一场非常深刻的技术变化，它将重塑医学。” 真正困难的下一步，是把这类系统放进真实临床环境中接受测试。研究人员需要设计严谨试验，不只看模型答得准不准，还要看它是否真正改善患者结局。赖希表示：“设计这类试验是一个非常有挑战性的过程，但这项研究正是一个非常合适的行动号召。”",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/07844464-7d71-4aac-9aa6-1b71460799d8.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-02T14:16:25.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/946/077.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1777729190979_a4c52535",
       "title": "麻省理工 AI 专家警告：用自动化替代 Z 世代入门员工是“透支未来”",
@@ -172,7 +184,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777729152405_0",
+      "id": "news_1777733832178_0",
       "title": "Pentagon signs AI deals with OpenAI, Google, Microsoft, and Amazon for classified networks, leaves out Anthropic",
       "summary": "The Pentagon is opening its doors wider to artificial intelligence—and closing one, at least for now. On Friday, the Department of Defense said it has...",
       "content": "The Pentagon is opening its doors wider to artificial intelligence—and closing one, at least for now. On Friday, the Department of Defense said it has reached agreements with a group of major AI providers to bring their tools into its most sensitive ... [3348 chars]",
@@ -182,6 +194,18 @@
       "category": "科技新闻",
       "originalUrl": "https://techstartups.com/2026/05/01/pentagon-signs-ai-deals-with-openai-google-microsoft-and-amazon-for-classified-networks-leaves-out-anthropic/",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1777733853858_46fdc4f8",
+      "title": "当国产模型追上闭源旗舰，企业 AI 编程的真正障碍才浮出水面",
+      "summary": "当国产模型追上闭源旗舰，企业 AI 编程的真正障碍才浮出水面",
+      "content": "当国产模型追上闭源旗舰，企业 AI 编程的真正障碍才浮出水面",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-01T14:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/K7hpIOogPsLlPQz4lwXu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777647931464_401c3558",
@@ -217,18 +241,6 @@
       "publishedAt": "2026-05-01T11:54:48.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/945/886.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777729176067_14d147fa",
-      "title": "Mistral AI 推出 Workflows，用于编排企业 AI 工作流",
-      "summary": "Mistral AI 推出 Workflows，用于编排企业 AI 工作流",
-      "content": "Mistral AI 推出 Workflows，用于编排企业 AI 工作流",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-01T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/W1YiyHH4UXv05AqpiHag?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -268,7 +280,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777729151683_1",
+      "id": "news_1777733830665_1",
       "title": "Friday Morning News Roundup",
       "summary": "The lawsuit alleges that under Altman's leadership, OpenAI, the nonprofit San Francisco artificial intelligence developer, has abandoned its charitabl...",
       "content": "The lawsuit alleges that under Altman's leadership, OpenAI, the nonprofit San Francisco artificial intelligence developer, has abandoned its charitable mission and has become a primarily profit-focused commercial enterprise in violation of the law th... [9643 chars]",
@@ -364,18 +376,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777729177345_dd76a4fe",
-      "title": "“AI预测未来”赛道登顶！北京中关村学院信息智能团队统斩获全球桂冠",
-      "summary": "“AI预测未来”赛道登顶！北京中关村学院信息智能团队统斩获全球桂冠",
-      "content": "“AI预测未来”赛道登顶！北京中关村学院信息智能团队统斩获全球桂冠",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-04-30T20:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/3rNioRsQcs1G5vMq8VlO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1777679917764_1",
       "title": "Judge warns lawyers that AI itself is not on trial",
       "summary": "OAKLAND, California — The third day of Elon Musk’s testimony in his high-stakes trial against OpenAI began with a bout of bickering over whether AI co...",
@@ -386,6 +386,30 @@
       "category": "国外AI",
       "originalUrl": "https://www.nbcnews.com/tech/tech-news/elon-musk-testimony-day-three-sam-altman-openai-trial-rcna342967",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1777733859318_5d5159d0",
+      "title": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
+      "summary": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
+      "content": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-30T19:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/2c2JX4m7VqPrFaP5cI6t?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777733861287_9d8d26aa",
+      "title": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了",
+      "summary": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了",
+      "content": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-04-30T18:06:28.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/tHktl4M8KRWON0veTT3b?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777663356365_2",
@@ -400,19 +424,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777566432418_ab8be501",
-      "title": "DeepSeek 公布多模态模型技术报告",
-      "summary": "IT之家 4 月 30 日消息，DeepSeek 在 GitHub 平台正式发布了其多模态大模型，并同步公开了配套技术报告。该报告提出了一种基于“视觉原语”的创新推理框架，旨在突破当前多模态大语言模型（MLLMs）在空间参照任务中的核心瓶颈。",
-      "content": "IT之家 4 月 30 日消息，DeepSeek 在 GitHub 平台正式发布了其多模态大模型，并同步公开了配套技术报告。该报告提出了一种基于“视觉原语”的创新推理框架，旨在突破当前多模态大语言模型（MLLMs）在空间参照任务中的核心瓶颈。 技术报告指出，尽管多模态大语言模型近年来取得长足进步，但主流的链式思维（CoT）推理范式仍主要局限于语言学领域。现有研究多聚焦于通过高分辨率图像裁剪等技术手段弥合“感知鸿沟”，即提升模型对视觉细节的识别能力。然而，DeepSeek 团队认为，这一思路忽视了一个更为根本的限制：参照鸿沟。 自然语言固有的模糊性使其难以对复杂的空间布局提供精确、明确的指引。当模型需要执行涉及严谨空间参照的任务时，这种语言表达的局限性往往导致推理链条断裂，出现逻辑崩溃。 针对上述问题，DeepSeek 提出了“基于视觉原语的思考”（Thinking with Visual Primitives）框架。该框架将点、边界框等空间标记从单纯的视觉输入元素，提升为推理过程中的“基本思维单元”。通过将这些视觉原语直接嵌入模型的思考链路，DeepSeek 使模型在推理过程中具备了“指代”能力 —— 即能够将抽象的认知轨迹锚定到图像的具体物理坐标上，从而实现对空间关系的精确推演。 技术报告披露，该框架采用了高度优化的模型架构，具备极高的视觉标记效率。尽管模型规模紧凑且图像标记预算显著较低，DeepSeek 的多模态模型在具有挑战性的计数和空间推理基准测试上，能够与 GPT-5.4、Claude-Sonnet-4.6 和 Gemini-3-Flash 等前沿模型匹配。这为开发更高效、更具可扩展性的 System-2 类多模态智能指明了方向。 IT之家注意到，DeepSeek 此前已经上线了“识图模式”，该模式和“快速模式”“专家模式”并列，并非简单的 OCR 文字，而是终于具备了多模态识别能力。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/d2bd1226-b738-4414-bb68-ba025d43c247.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-04-30T14:39:33.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/945/740.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777729182096_a44c70d0",
+      "id": "news_1777733863340_a44c70d0",
       "title": "谷歌开源“Agent Skill 超级工具箱”，云、库、引擎、AI全线打通，开发者狂喜",
       "summary": "谷歌开源“Agent Skill 超级工具箱”，云、库、引擎、AI全线打通，开发者狂喜",
       "content": "谷歌开源“Agent Skill 超级工具箱”，云、库、引擎、AI全线打通，开发者狂喜",
@@ -424,19 +436,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777729151167_2",
-      "title": "Elon Musk v. Sam Altman trial day 4",
-      "summary": "watch now\nWhat you need to know\nJudge Yvonne Gonzalez Rogers is weighing a request to strike some of the testimony from Jared Birchall, who manages Mu...",
-      "content": "watch now\nWhat you need to know\nJudge Yvonne Gonzalez Rogers is weighing a request to strike some of the testimony from Jared Birchall, who manages Musk's family office.\nOpenAI's lawyers are seeking to eliminate some of Birchall's testimony about xAI... [18194 chars]",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108300356-1777584227347-gettyimages-2273293860-MUSK_ALTMAN_TRIAL.jpeg?v=1777584287&w=1920&h=1080",
-      "source": "CNBC",
-      "publishedAt": "2026-04-30T13:55:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.cnbc.com/2026/04/30/openai-trial-elon-musk-sam-altman-live-updates.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1777729184027_3dfbf929",
+      "id": "news_1777733865088_3dfbf929",
       "title": "Slack 长时运行多智能体系统的上下文管理方案",
       "summary": "Slack 长时运行多智能体系统的上下文管理方案",
       "content": "Slack 长时运行多智能体系统的上下文管理方案",
@@ -448,7 +448,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777729185279_c4ce4244",
+      "id": "news_1777733866841_c4ce4244",
       "title": "谷歌云推出 Agents CLI，简化 AI 智能体开发全流程",
       "summary": "谷歌云推出 Agents CLI，简化 AI 智能体开发全流程",
       "content": "谷歌云推出 Agents CLI，简化 AI 智能体开发全流程",
