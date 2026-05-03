@@ -1,8 +1,68 @@
 {
   "success": true,
-  "timestamp": "2026-05-03T11:55:39.028Z",
-  "total": 36,
+  "timestamp": "2026-05-03T13:41:05.196Z",
+  "total": 41,
   "data": [
+    {
+      "id": "news_1777815647573_84de5cb7",
+      "title": "微软警告称，AI 正在掏空初级开发者的培养渠道",
+      "summary": "微软警告称，AI 正在掏空初级开发者的培养渠道",
+      "content": "微软警告称，AI 正在掏空初级开发者的培养渠道",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-03T13:41:35.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/w3Oek9aKw8lfpRZ7QBo4?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777815649336_fcc67fad",
+      "title": "Sauce Labs 推出 AI 智能体，实现测试创建自动化",
+      "summary": "Sauce Labs 推出 AI 智能体，实现测试创建自动化",
+      "content": "Sauce Labs 推出 AI 智能体，实现测试创建自动化",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-03T13:37:48.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/8k6MQWB5duEDY8wulZYk?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777815663793_8ee7ed99",
+      "title": "马斯克 xAI 坐拥 55 万张英伟达 GPU 但算力利用率仅 11%，Meta 和谷歌可达 43~46%",
+      "summary": "IT之家 5 月 3 日消息，据《The Information》今日报道，马斯克旗下人工智能公司 xAI—— 也就是 Grok 大模型的幕后团队，目前手头上约有 55 万块英伟达 GPU（包括 H100 与 H200），但实际利用率仅有 11%。",
+      "content": "IT之家 5 月 3 日消息，据《The Information》今日报道，马斯克旗下人工智能公司 xAI—— 也就是 Grok 大模型的幕后团队，目前手头上约有 55 万块英伟达 GPU（包括 H100 与 H200），但实际利用率仅有 11%。 据介绍，这些硬件目前主要部署在孟菲斯的 Colossus 超算集群中，采用液冷配置。尽管与 Blackwell 最新一代产品相比稍显老旧，但这样的体量在全球范围内依然位居前列。 然而，如此海量的硬件并未转化为有效的计算产出。该集群的实际利用率仅有 11%。当然，这并非意味着其余 89% 的 GPU 处于完全闲置状态，而是指模型的实际浮点运算利用率远远低于理论峰值。 业内人士解释称，衡量 AI 算力效率的关键指标叫做 MFU（Model FLOPs Utilization），即模型浮点运算利用率。11% 的 MFU 意味着，理论上能产生 100 份训练吞吐量的硬件，实际只产出了 11 份，大量的电力和硬件时间都消耗在了数据等待、通信开销和重新计算等环节，而没有转化为有效的训练吞吐。 面对这一数字，xAI 总裁 Michael Nicolls 在一份内部备忘录中承认其“低得尴尬”，并为团队设定了在未来几个月内将利用率拉升至 50% 的目标。 xAI 并非个例，算力利用率偏低是整个 AI 基础设施领域的行业性难题。报道指出，在超大规模集群下，软件优化跟不上硬件部署速度是普遍现象。作为对比，Meta 和谷歌在软件堆栈上投入了大量精力，因此其 GPU 利用率相对较高，但也只有约 43% 和约 46%。 IT之家此前曾报道，Colossus 集群的建设速度令人瞠目，从启动到首阶段投用仅用了 19 天，英伟达 CEO 黄仁勋更指出“这通常需要四年的时间”。这种飞速扩张虽然让 xAI 在硬件储备上占据了先机，但目前似乎也暴露出了软件配套与分布式训练能力的滞后。 此外，业界分析指出，AI 训练具有间歇性特征，硬件在模型推理时满负荷运转，但在数据分析阶段则会陷入闲置，这是导致利用率较低的重要因素。 除了 AI 训练本身的间歇性，业内人士指出，GPU 供应短缺带来的行为扭曲也加剧了算力浪费。由于高端 GPU 产能紧张且获取周期长，许多企业担心被回收资源而倾向于囤积硬件，实际负载却无法消化，从而造成了庞大的闲置资源与高昂的闲置成本并存的现象。 为了改变现状，xAI 计划从基础设施和软件堆栈优化入手。同时，有消息指出，xAI 未来可能会推出针对其庞大 GPU 集群的租赁服务，将闲置算力转化为收入。 此外，马斯克也在大力投入 TeraFab 项目，旨在为 xAI、SpaceX 等企业设计自研 AI 芯片，并基于 Intel 14A 工艺打造下一代先进计算方案。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/7342a820-0124-4a07-8ba0-dcca2b8208dc.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-03T13:30:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/946/187.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777815651017_891efece",
+      "title": "构建分层的Agentic RAG系统：具备自主纠错的多模态推理",
+      "summary": "构建分层的Agentic RAG系统：具备自主纠错的多模态推理",
+      "content": "构建分层的Agentic RAG系统：具备自主纠错的多模态推理",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-03T13:24:35.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/zx2KoLNl2bz0zh8TuCZd?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777815664087_559c63bf",
+      "title": "首个 GCC 16 正式版发布：默认开启 C++20，支持英特尔 Nova Lake 与 AMD Zen 6",
+      "summary": "IT之家 5 月 3 日消息，作为 GNU 编译器套件（GCC）16 系列的首个稳定版，GCC 16.1 已于当地时间 4 月 30 日正式发布，标志着该编译器进入了全新的里程碑。",
+      "content": "IT之家 5 月 3 日消息，作为 GNU 编译器套件（GCC）16 系列的首个稳定版，GCC 16.1 已于当地时间 4 月 30 日正式发布，标志着该编译器进入了全新的里程碑。 本次更新最显著的变化是 C++ 前端默认语言标准从原来的 GNU C++17 切换为 GNU C++20，这意味着开发者在不手动指定标准的情况下，将默认使用 C++20 规范。此外，GCC 16 现已将 C++20 运行库（libstdc++）相关组件标记为非实验性，整体稳定性大幅提升。 在 C++ 语言特性方面，GCC 16.1 引入了对多项 C++26 功能的实验性支持。在底层性能与矢量化（Vectorizer）方面，GCC 16 展现了更强的灵活性。 本次发布还新增了一个实验性的 Algol 68 编译器前端 ga68。根据 GCC 项目组的说明，该前端旨在实现《修订报告》（Revised Report）中所描述的 Algol 68 语言，包括经 IFIP WG2.1 下属 Algol 68 支持小组批准的勘误内容，同时实现了部分 GNU 扩展和一套 POSIX 预定义环境。 编译器诊断功能迎来多项改进。GCC 16.1 现已支持以实验性 HTML 格式输出诊断信息，SARIF 输出中新增了控制流信息。旧版的 JSON 诊断格式已被移除，官方推荐需要机器可读诊断输出的用户改用 SARIF 格式。 在硬件支持方面，x86 架构新增了针对 AMD Zen6 的支持，同时加入了 Intel Wildcat Lake 和 Nova Lake 的编译选项。 对于 x86-64 平台，新版本在开启 AVX512 支持时，会自动尝试使用掩码矢量余弦（Epilog）来优化代码大小与性能。而在 GPU 卸载计算方面，OpenMP 与 OpenACC 针对 AMD Instinct MI300 等设备的启动开销也得到了大幅缩减。 另外，GCC 16.1 还为龙芯 LoongArch 架构新增了函数多版本技术（Function Multi-Versioning）支持，可通过 target_clones 属性为不同 CPU 特性（IT之家注：如 LSX、LASX）生成多个函数版本，并在运行时自动选择最优版本。 参考资料： 《GCC 16 Release Series — Changes, New Features, and Fixes- GNU Project》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/646dd280-a14b-4474-a30d-12aae2180d34.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-03T12:22:18.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/946/169.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1777809337705_4db681fd",
       "title": "粤港澳大湾区首个“华龙一号”核电建设基地，太平岭 2 号机组首次核燃料装载完成",
@@ -352,7 +412,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777809304249_0",
+      "id": "news_1777815627867_0",
       "title": "Pentagon signs AI deals with OpenAI, Google, Microsoft, and Amazon for classified networks, leaves out Anthropic",
       "summary": "The Pentagon is opening its doors wider to artificial intelligence—and closing one, at least for now. On Friday, the Department of Defense said it has...",
       "content": "The Pentagon is opening its doors wider to artificial intelligence—and closing one, at least for now. On Friday, the Department of Defense said it has reached agreements with a group of major AI providers to bring their tools into its most sensitive ... [3348 chars]",
@@ -362,6 +422,18 @@
       "category": "科技新闻",
       "originalUrl": "https://techstartups.com/2026/05/01/pentagon-signs-ai-deals-with-openai-google-microsoft-and-amazon-for-classified-networks-leaves-out-anthropic/",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1777815652622_46fdc4f8",
+      "title": "当国产模型追上闭源旗舰，企业 AI 编程的真正障碍才浮出水面",
+      "summary": "当国产模型追上闭源旗舰，企业 AI 编程的真正障碍才浮出水面",
+      "content": "当国产模型追上闭源旗舰，企业 AI 编程的真正障碍才浮出水面",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-01T14:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/K7hpIOogPsLlPQz4lwXu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777647931464_401c3558",
@@ -376,19 +448,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777643199400_a4b6ae3a",
-      "title": "迎战大疆 Pocket 4、影石 Insta360 Luna，佳能云台相机专利公布",
-      "summary": "IT之家 5 月 1 日消息，据外媒 NotebookCheck 今晚报道，佳能最新公开了一项 2026 年云台相机专利。其展现出潜在的自动折叠设计，预计将正面迎战大疆 Osmo Pocket 4 和即将登场的双镜头影石 Insta360 Luna Ultra。",
-      "content": "IT之家 5 月 1 日消息，据外媒 NotebookCheck 今晚报道，佳能最新公开了一项 2026 年云台相机专利。其展现出潜在的自动折叠设计，预计将正面迎战大疆 Osmo Pocket 4 和即将登场的双镜头影石 Insta360 Luna Ultra。 ▲ 专利文件（左）与假想图（右） 相比单纯堆规格，这项专利更强调耐用性和智能电源管理，目标是在越来越拥挤的 Vlog 设备市场里找到突破口。这项新公开专利显示，佳能构想的是一款一体式三轴云台相机，形态已经比较成熟。 从结构看，这款设备并不陌生：包含手柄、屏幕、稳定云台头。专利显示，佳能将通过磁传感器阵列和图像分析，判断用户是否已经结束拍摄，然后在关闭电机前自动完成安全折叠。报道认为，这项专利意味着云台不会像某些设备那样一断电就直接“塌下去”，也能减少长期使用中的机械磨损。 IT之家提醒：专利不等于产品马上发布。 报道还提到，佳能已经至少提交了三项与大疆 Osmo Pocket 类似云台相机有关的专利。同时，文件里对软件逻辑、磁传感器和电机断电流程的描述非常细，说明佳能很可能已经开始考虑预量产工程问题。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/5030368e-26c7-40b0-8947-0a68e03d9f1e.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-05-01T12:15:45.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/945/888.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777809329739_14d147fa",
+      "id": "news_1777815654075_14d147fa",
       "title": "Mistral AI 推出 Workflows，用于编排企业 AI 工作流",
       "summary": "Mistral AI 推出 Workflows，用于编排企业 AI 工作流",
       "content": "Mistral AI 推出 Workflows，用于编排企业 AI 工作流",
@@ -400,7 +460,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777809331013_dd76a4fe",
+      "id": "news_1777815655554_dd76a4fe",
       "title": "“AI预测未来”赛道登顶！北京中关村学院信息智能团队统斩获全球桂冠",
       "summary": "“AI预测未来”赛道登顶！北京中关村学院信息智能团队统斩获全球桂冠",
       "content": "“AI预测未来”赛道登顶！北京中关村学院信息智能团队统斩获全球桂冠",
@@ -412,7 +472,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777809332336_5d5159d0",
+      "id": "news_1777815657244_5d5159d0",
       "title": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
       "summary": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
       "content": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
@@ -424,7 +484,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777809333795_9d8d26aa",
+      "id": "news_1777815658947_9d8d26aa",
       "title": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了",
       "summary": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了",
       "content": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了",
