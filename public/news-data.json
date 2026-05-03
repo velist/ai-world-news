@@ -1,43 +1,31 @@
 {
   "success": true,
-  "timestamp": "2026-05-03T07:22:47.752Z",
-  "total": 38,
+  "timestamp": "2026-05-03T09:27:16.172Z",
+  "total": 37,
   "data": [
     {
-      "id": "news_1777792948112_84de5cb7",
-      "title": "微软警告称，AI 正在掏空初级开发者的培养渠道",
-      "summary": "微软警告称，AI 正在掏空初级开发者的培养渠道",
-      "content": "微软警告称，AI 正在掏空初级开发者的培养渠道",
+      "id": "news_1777800434598_b1a67503",
+      "title": "OpenAI 奥尔特曼谈 GPT-5.5 自主策划发布会：希望人类开发者为其祝酒，但它自己拒绝发表祝酒词",
+      "summary": "IT之家 5 月 3 日消息，据《Business Insider》今日报道，OpenAI CEO 萨姆 · 奥尔特曼（Sam Altman）在 Stripe Sessions 的一次炉边谈话中透露，他曾让该公司最新的大模型 GPT-5.5 为自己策划一场发布活动，而它给出的答复既“美丽”又让人感到...",
+      "content": "IT之家 5 月 3 日消息，据《Business Insider》今日报道，OpenAI CEO 萨姆 · 奥尔特曼（Sam Altman）在 Stripe Sessions 的一次炉边谈话中透露，他曾让该公司最新的大模型 GPT-5.5 为自己策划一场发布活动，而它给出的答复既“美丽”又让人感到“奇怪”。 他曾询问 GPT-5.5 想要什么样的发布会，而该模型希望 OpenAI 能够将此次发布活动安排在 5 月 5 日举行、保持演讲简短，并由人类创造者举杯祝酒（它还特别强调它自己不想发表祝酒辞）。 另外，GPT-5.5 还提议设立一个中心区域，用于收集用户对 GPT-6 的功能建议，并将这些建议反馈回模型本身。奥尔特曼表示，“我们打算照做，但这确实是一件奇怪的事情。” 并非只有奥尔特曼遇到这样的情形。支付处理公司 Stripe 的 CEO 约翰 · 科里森（John Collison）在同场活动中也表示，他给了公司内部的一个 AI 智能体 20 美元（IT之家注：现汇率约合 136.9 元人民币），让它在互联网上随便花。结果这个 AI 智能体给自己买了一套 HTTP 设计。奥尔特曼在听到这里时也不禁感叹“哇哦”。 GPT-5.5 于 4 月底发布，是 OpenAI 最新的旗舰模型。该公司表示，它旨在处理更复杂的多步骤任务，其行为相比此前版本更像一个自主助手。该模型在整体速度上有所提升，且能更好地保持对用户的了解。奥尔特曼认为，这些能力正在改变人们与 AI 的交互方式 —— 从自动化工作，到让模型参与“如何为它庆祝”的策划。 奥尔特曼还分享更多有趣的 GPT 轶事，此次讨论的核心是：能力越来越强的 AI 可能会以出乎意料地带有“人性”的方式行事，包括索要礼物和想在网上给自己买东西。他将此类互动称为“一种奇怪的涌现行为”。“这些事确实让人觉得有点奇怪。” 说到奇怪，他还提到了关于其早期模型对哥布林（goblins）和小妖精（gremlins）等奇幻生物莫名其妙的痴迷行为。从 GPT-5.1 开始，这些模型似乎就经常热衷于在对话中随机提及这些奇幻生物，导致该公司不得不在系统提示词中加入更多指令，严格限制模型提及这些内容，除非与用户查询绝对相关。 据称，OpenAI 在源代码提示词中明确写道：“永远不要谈论哥布林、小妖精、浣熊、巨魔、食人魔、鸽子，或其他任何动物或生物，除非与用户查询的问题绝对且明确相关。”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-03T13:41:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/w3Oek9aKw8lfpRZ7QBo4?utm_source=rss&utm_medium=article",
+      "source": "IT之家",
+      "publishedAt": "2026-05-03T09:08:07.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.ithome.com/0/946/140.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1777800434809_39e14da3",
+      "title": "VideoLAN 团队提前布局，发布开源 AV2 解码器 Dav2d",
+      "summary": "IT之家 5 月 3 日消息，据科技媒体 Phoronix 昨天报道，开放媒体联盟原计划 2025 年底发布 AV2 标准，但目前仍处于草案阶段。不过开发 VLC 播放器的 VideoLAN 团队已经提前行动，本周发布开源 AV2 解码器 Dav2d。",
+      "content": "IT之家 5 月 3 日消息，据科技媒体 Phoronix 昨天报道，开放媒体联盟原计划 2025 年底发布 AV2 标准，但目前仍处于草案阶段。不过开发 VLC 播放器的 VideoLAN 团队已经提前行动，本周发布开源 AV2 解码器 Dav2d。 据报道，Dav2d 是一款完全开源 CPU 视频解码器，脱胎于 AV1 解码器 Dav1d。当前具备跨平台特性，强调高性能、解码正确性。 官方表示，目前相关代码已经达到“经过实战验证、可用于生产环境”的水平。目前正在稳步完善 API、完整 C 语言实现，并计划移植到更多平台。 此外，团队还计划针对 x86 平台的 AVX2 指令集进行优化，并将 Dav2d 移植到 Arm、RISC-V 架构。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/8e5c9b58-4c80-4c55-950b-3b7b13407d05.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-03T07:25:37.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/946/130.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777792949512_fcc67fad",
-      "title": "Sauce Labs 推出 AI 智能体，实现测试创建自动化",
-      "summary": "Sauce Labs 推出 AI 智能体，实现测试创建自动化",
-      "content": "Sauce Labs 推出 AI 智能体，实现测试创建自动化",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-03T13:37:48.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/8k6MQWB5duEDY8wulZYk?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777792951804_891efece",
-      "title": "构建分层的Agentic RAG系统：具备自主纠错的多模态推理",
-      "summary": "构建分层的Agentic RAG系统：具备自主纠错的多模态推理",
-      "content": "构建分层的Agentic RAG系统：具备自主纠错的多模态推理",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-03T13:24:35.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/zx2KoLNl2bz0zh8TuCZd?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777792966361_7db6f318",
@@ -352,7 +340,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777792925678_0",
+      "id": "news_1777800399683_0",
       "title": "Pentagon signs AI deals with OpenAI, Google, Microsoft, and Amazon for classified networks, leaves out Anthropic",
       "summary": "The Pentagon is opening its doors wider to artificial intelligence—and closing one, at least for now. On Friday, the Department of Defense said it has...",
       "content": "The Pentagon is opening its doors wider to artificial intelligence—and closing one, at least for now. On Friday, the Department of Defense said it has reached agreements with a group of major AI providers to bring their tools into its most sensitive ... [3348 chars]",
@@ -362,18 +350,6 @@
       "category": "科技新闻",
       "originalUrl": "https://techstartups.com/2026/05/01/pentagon-signs-ai-deals-with-openai-google-microsoft-and-amazon-for-classified-networks-leaves-out-anthropic/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1777792953576_46fdc4f8",
-      "title": "当国产模型追上闭源旗舰，企业 AI 编程的真正障碍才浮出水面",
-      "summary": "当国产模型追上闭源旗舰，企业 AI 编程的真正障碍才浮出水面",
-      "content": "当国产模型追上闭源旗舰，企业 AI 编程的真正障碍才浮出水面",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-01T14:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/K7hpIOogPsLlPQz4lwXu?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1777647931464_401c3558",
@@ -412,6 +388,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1777800425555_14d147fa",
+      "title": "Mistral AI 推出 Workflows，用于编排企业 AI 工作流",
+      "summary": "Mistral AI 推出 Workflows，用于编排企业 AI 工作流",
+      "content": "Mistral AI 推出 Workflows，用于编排企业 AI 工作流",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-01T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/W1YiyHH4UXv05AqpiHag?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1777629290195_cb818ad6",
       "title": "美银：全球超大规模云计算企业2027年AI资本开支或达1万亿美元",
       "summary": "美银证券发布半导体行业研究报告，分析师Vivek Arya团队在四大美国科技巨头——谷歌、微软、亚马逊、Meta相继公布2026年第一季度财报并更新资本支出展望后，将2026年全球超大规模云计算企业资本支出预测上调至超过8000亿美元，同比增长67%，并预计2027年将进一步突破1万亿美元，同比增长...",
@@ -424,7 +412,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777792957443_dd76a4fe",
+      "id": "news_1777800427020_dd76a4fe",
       "title": "“AI预测未来”赛道登顶！北京中关村学院信息智能团队统斩获全球桂冠",
       "summary": "“AI预测未来”赛道登顶！北京中关村学院信息智能团队统斩获全球桂冠",
       "content": "“AI预测未来”赛道登顶！北京中关村学院信息智能团队统斩获全球桂冠",
@@ -436,7 +424,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777792959496_5d5159d0",
+      "id": "news_1777800428477_5d5159d0",
       "title": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
       "summary": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
       "content": "王兴兴亲测后点赞！这家AI公司提前半年把“龙虾”能力带上车，还管住了Token黑洞",
@@ -448,7 +436,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1777792961246_9d8d26aa",
+      "id": "news_1777800429752_9d8d26aa",
       "title": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了",
       "summary": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了",
       "content": "从 AI Agent、RLHF 到 MoE 大规模训练：AMD 这场开发者日，把一线实战话题凑齐了",
