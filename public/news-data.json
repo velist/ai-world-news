@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-05-06T12:02:16.318Z",
-  "total": 44,
+  "timestamp": "2026-05-06T14:41:12.945Z",
+  "total": 37,
   "data": [
+    {
+      "id": "news_1778078449783_de6acb72",
+      "title": "OpenChoreo 1.0 将 AI 代理和 GitOps 引入 Kubernetes 开发平台",
+      "summary": "OpenChoreo 1.0 将 AI 代理和 GitOps 引入 Kubernetes 开发平台",
+      "content": "OpenChoreo 1.0 将 AI 代理和 GitOps 引入 Kubernetes 开发平台",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-06T16:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/D7iLJ0aKtBPgS3RCQlQr?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778078451730_7e84f6d4",
+      "title": "“如果你不用更多Token，就永远逃不出底层”：AI竞赛开始变成资源战争",
+      "summary": "“如果你不用更多Token，就永远逃不出底层”：AI竞赛开始变成资源战争",
+      "content": "“如果你不用更多Token，就永远逃不出底层”：AI竞赛开始变成资源战争",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-06T15:55:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/fdAdSjRh8TNNy6RMrjGm?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1778060228732_8900f2c2",
       "title": "阿里高绩效员工年终奖上浮1-2个月；追觅CEO要求所有员工开通社交账号，每天发三条视频；马斯克去年在特斯拉挣了0美元｜AI周报",
@@ -16,40 +40,16 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778068920889_7e78d498",
-      "title": "第一个全职AI CEO来了！29岁前编程神童正让AI替他管理千人公司",
-      "summary": "第一个全职AI CEO来了！29岁前编程神童正让AI替他管理千人公司",
-      "content": "第一个全职AI CEO来了！29岁前编程神童正让AI替他管理千人公司",
+      "id": "news_1778078471942_39672351",
+      "title": "商汤科技首席科学家林达华：我们将以成本取胜，模型效率也很高",
+      "summary": "IT之家 5 月 6 日消息，据美国 CNBC 当地时间 5 日报道，商汤科技联合创始人兼首席科学家林达华表示，公司从 DeepSeek 身上获得启发：即便在资金和技术条件受限的情况下，也可以推出高性能模型。",
+      "content": "IT之家 5 月 6 日消息，据美国 CNBC 当地时间 5 日报道，商汤科技联合创始人兼首席科学家林达华表示，公司从 DeepSeek 身上获得启发：即便在资金和技术条件受限的情况下，也可以推出高性能模型。 林达华表示，OpenAI 的图像生成工具 ChatGPT Images 2.0 可以根据文本提示生成“精致而漂亮”的图像，但日日新 U1 的成本只有前者十分之一。“很多情况下，如果一个模型可以处理大多数任务，那么就未必需要顶级模型。我们与 OpenAI 的 GPT Image 2 和 Gemini 的 Nano Banana 等国际前沿模型之间仍有差距，但我们的成本低得多，而且效率很高。” 林达华表示，字节跳动 AI 视频模型 Seedance 起初确实带来竞争压力。此后，商汤科技把 Seedance 的部分能力整合进短视频工具 Seko，使 Seko 可以结合 Seedance 的背景生成能力和商汤科技自有音频功能。 林达华表示，商汤科技希望通过整合大型 AI 模型、应用和基础设施形成差异化，在提升服务质量的同时降低单次使用成本。商汤科技许多产品面向企业客户，这类客户通常要求更高服务质量，也愿意支付更高价格，且更不容易更换供应商。“价格战可能在短期促销中发挥战略作用，但长期可持续性取决于差异化价值。”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-06T12:13:58.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/F7cOsyYyhcBaHUYD5kYx?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778068922889_443e6fa6",
-      "title": "0%准确率！图灵奖得主“石破天”：大模型写SQL远不够格，计算机科学不再是增长行业",
-      "summary": "0%准确率！图灵奖得主“石破天”：大模型写SQL远不够格，计算机科学不再是增长行业",
-      "content": "0%准确率！图灵奖得主“石破天”：大模型写SQL远不够格，计算机科学不再是增长行业",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-06T12:01:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/dWXdRNIyHKzd8TV9kctv?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778068924657_b3473232",
-      "title": "42%的代码是AI写的，可96%的开发者不信它：谁敢拍板说“上线”？这成了2026年最大挑战",
-      "summary": "42%的代码是AI写的，可96%的开发者不信它：谁敢拍板说“上线”？这成了2026年最大挑战",
-      "content": "42%的代码是AI写的，可96%的开发者不信它：谁敢拍板说“上线”？这成了2026年最大挑战",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-06T11:53:30.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/e40mGRhF9o583Yi3akyM?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "IT之家",
+      "publishedAt": "2026-05-06T13:32:02.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/947/007.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1778068935105_feacf1e2",
@@ -73,18 +73,6 @@
       "publishedAt": "2026-05-06T11:27:06.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/946/979.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778068926688_f9f929df",
-      "title": "CodeGuardian：一种用于 AI 代码质量分析和安全扫描的模型上下文协议服务器",
-      "summary": "CodeGuardian：一种用于 AI 代码质量分析和安全扫描的模型上下文协议服务器",
-      "content": "CodeGuardian：一种用于 AI 代码质量分析和安全扫描的模型上下文协议服务器",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-06T10:37:29.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/VkpOOYrXHY8Q2Ax6JE8N?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -122,18 +110,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7978182.html",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778068928140_72dedc99",
-      "title": "从唤醒到陪伴：多模态 Agent 如何重构手机交互范式｜AICon上海",
-      "summary": "从唤醒到陪伴：多模态 Agent 如何重构手机交互范式｜AICon上海",
-      "content": "从唤醒到陪伴：多模态 Agent 如何重构手机交互范式｜AICon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-06T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/G1OWuJNmI9slcpLWv5YR?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1778060212020_fb7eb265",
@@ -292,7 +268,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778068581880_0",
+      "id": "news_1778078150670_0",
       "title": "Musk wanted $80 billion to colonize Mars, OpenAI president testifies at trial",
       "summary": "OAKLAND, California, May 5 (Reuters) - OpenAI's president testified on Tuesday that Elon Musk supported transforming the ​artificial intelligence star...",
       "content": "OAKLAND, California, May 5 (Reuters) - OpenAI's president testified on Tuesday that Elon Musk supported transforming the ​artificial intelligence startup into a for-profit company, but wanted full control in part to help him raise $80 billion to colo... [3600 chars]",
@@ -304,7 +280,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778068582279_1",
+      "id": "news_1778078150782_1",
       "title": "OpenAI to Spend $50 Billion on Computing in 2026, Brockman Says",
       "summary": "OpenAI expects to spend $50 billion on computing power this year to support its artificial intelligence software, according to co-founder and Presiden...",
       "content": "OpenAI expects to spend $50 billion on computing power this year to support its artificial intelligence software, according to co-founder and President Greg Brockman .\nBrockman said Tuesday that the ChatGPT maker’s computing costs have surged from ro... [266 chars]",
@@ -316,7 +292,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778068581512_2",
+      "id": "news_1778078150970_2",
       "title": "The War Department Announces Agreements With Leading AI Companies To Deploy Capabilities On Classified Networks",
       "summary": "The War Department Announces Agreements With Leading AI Companies To Deploy Capabilities On Classified Networks by Jenn Baker May. 5, 2026 9:15 am...",
       "content": "The Department of War – Official Press Release\nThe War Department has entered into agreements with seven of the world’s leading frontier artificial intelligence companies, SpaceX, OpenAI, Google, NVIDIA, Reflection, Microsoft, and Amazon Web Services... [2290 chars]",
@@ -338,18 +314,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/LhzkgpOBi5mPkYHoKgE5?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778068931498_35d0b2d4",
-      "title": "Vercel 开源 Open Agents，支持后台运行 AI 编码工作流",
-      "summary": "Vercel 开源 Open Agents，支持后台运行 AI 编码工作流",
-      "content": "Vercel 开源 Open Agents，支持后台运行 AI 编码工作流",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-05T13:55:09.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/2D4Ky0AYKQu2JGeUW6HN?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1778003367375_e7607f44",
@@ -436,7 +400,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778068581488_3",
+      "id": "news_1778078151223_3",
       "title": "OpenAI president discloses his stake in the company is worth $30B",
       "summary": "OAKLAND, Calif. (AP) — Greg Brockman, OpenAI’s president and CEO Sam Altman’s top lieutenant, disclosed in court Monday that his stake in the artifici...",
       "content": "OAKLAND, Calif. (AP) — Greg Brockman, OpenAI’s president and CEO Sam Altman’s top lieutenant, disclosed in court Monday that his stake in the artificial intelligence company is worth nearly $30 billion.\nBrockman, who also said he did not personally i... [1229 chars]",
@@ -448,7 +412,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778068883174_4",
+      "id": "news_1778078420525_4",
       "title": "OpenAI President Discloses His Stake in the Company Is Worth $30B",
       "summary": "OAKLAND, Calif. (AP) — Greg Brockman, OpenAI's president and CEO Sam Altman's top lieutenant, disclosed in court Monday that his stake in the artifici...",
       "content": "OAKLAND, Calif. (AP) — Greg Brockman, OpenAI's president and CEO Sam Altman's top lieutenant, disclosed in court Monday that his stake in the artificial intelligence company is worth nearly $30 billion.\nBrockman, who also said he did not personally i... [1362 chars]",
@@ -460,7 +424,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778068582226_5",
+      "id": "news_1778078151539_5",
       "title": "OpenAI is going Hollywood with 'Critterz,' and its Cannes-bound film used AI across its production",
       "summary": "The debate over AI in Hollywood just found its biggest stage yet. AGC Studios is bringing Critterz to the upcoming Cannes Film Market, positioning it ...",
       "content": "The debate over AI in Hollywood just found its biggest stage yet. AGC Studios is bringing Critterz to the upcoming Cannes Film Market, positioning it as the first mainstream commercial animated family film to be made with AI assistance woven into its... [2622 chars]",
@@ -472,55 +436,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1777904686444_7e2dbd35",
-      "title": "英国警方扩大 AI 人脸识别应用，利用手机等设备实时比对数据库确认人员身份",
-      "summary": "IT之家 5 月 4 日消息，据外媒 Sky News 报道，英国警方目前正持续扩大 AI 人脸识别技术在执法中的应用，执法人员可以利用手机等设备将实时拍摄到的画面与警方数据库进行实时比对，从而快速确认人员身份。",
-      "content": "IT之家 5 月 4 日消息，据外媒 Sky News 报道，英国警方目前正持续扩大 AI 人脸识别技术在执法中的应用，执法人员可以利用手机等设备将实时拍摄到的画面与警方数据库进行实时比对，从而快速确认人员身份。 根据警方规划，该系统已逐步与随身手机、执法记录仪等设备整合，可应用于街头巡逻、大型活动安保以及高风险区域执法领域，以进一步缩短身份核查时间，提高响应效率。这意味着当地部署的人脸识别功能正从过去单一固定监控摄像头延伸到更加灵活的一线执法场景。 对此，外界担心英国警方在提升执法效率的同时可能带来过度监控以及误识别等问题。对此，英国警方表示，相关技术仍在持续完善，警方将遵循现有的数据保护和法律框架，以平衡安全与隐私之间的关系。 相关阅读： 《英国拟全面推广 AI 人脸识别系统，但黑人、亚裔“极易”被误报为涉案人员》",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-05-04T14:20:38.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/946/317.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777904686663_8af89399",
-      "title": "“AI 面试”逐渐受企业追捧，近四成求职者因此主动选择放弃机会",
-      "summary": "IT之家 5 月 4 日消息，据《财富》4 日报道，员工已开始担心 AI 会取代自己的工作，而在求职过程中，AI 也正在让候选人感到反感。虚拟化身和聊天机器人开始进入面试环节，一些求职者甚至因此直接退出招聘流程。",
-      "content": "IT之家 5 月 4 日消息，据《财富》4 日报道，员工已开始担心 AI 会取代自己的工作，而在求职过程中，AI 也正在让候选人感到反感。虚拟化身和聊天机器人开始进入面试环节，一些求职者甚至因此直接退出招聘流程。 Greenhouse 最近发布的报告显示，约 63% 的美国求职者曾经历 AI 面试，比 6 个月前上升 13%。Greenhouse 首席人力官 Sharawn Tipton 告诉《财富》，在竞争激烈的就业市场中，申请量激增，招聘团队正使用 AI 面试官来“筛掉”海量申请。“招聘人员被大量申请淹没，也担心自己被取代。双方都存在信任缺口，技术发展速度超过了变革管理。没有人向候选人解释，现在招聘流程已经变得不一样。所有这些成本，最终最沉重地落在候选人身上。” 对许多求职者来说，AI 面试已经成为明显的劝退因素。约 38% 的候选人曾因为招聘流程中包含 AI 面试而退出，另有 12% 表示，如果被要求参加 AI 面试，也会选择退出。 即便候选人完成 AI 面试，后续结果也常常不理想：约 51% 的人要么完全没有收到反馈，要么仍在等待回复。不过，这份报告没有提供真人面试官的对照数据，而真人面试官同样存在面试后不回复求职者的情况。 据IT之家了解，Tipton 认为，糟糕的 AI 面试体验可能反过来伤害雇主品牌。求职者会把负面经历告诉朋友，也可能发布到社交媒体上。“候选人并不是在远离 AI。他们是在远离糟糕 AI 造成的糟糕体验。他们感受到的是，自己像是在被流程处理，而不是被认真评估。我最近和一位刚收到拒信的人聊过，那封邮件的措辞让她觉得自己毫无价值。” Tipton 表示，AI 面试流程已经变成军备竞赛，而非招聘流程。候选人觉得必须大量投递，才有机会被看到；招聘经理则依赖技术，更快筛选数千份申请。 对于雇主接下来如何使用 AI 面试，Tipton 建议先退一步，重新审视招聘流程。招聘经理应明确告诉候选人，AI 评估结果会由具备判断力的人审阅，同时也应提供真人面试选项。“现在外界非常关注 AI 的效率和生产率，但对谁受益、谁没有受益，关注还不够。” 此外，AI 面试可能进一步拉大求职者之间的差距：有些人接受过 AI 工具训练，另一些人则没有机会接触这类资源。“如果雇主现在不主动处理这个问题，AI 招聘只会把行业一直试图打破的不平等更快地放大。”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/5/064cca50-2baa-40ab-bbcb-39b4e830a8a2.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-05-04T14:03:30.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/946/316.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777904686859_4e4ddcb9",
-      "title": "Red Hat 红帽推出 Tank OS 开源项目，将 OpenClaw 运行环境封装为专用容器以提升安全",
-      "summary": "IT之家 5 月 4 日消息，Red Hat 红帽首席软件工程师 Sally O'Malley 在红帽博客发文，公布了名为 Tank OS 的开源项目。",
-      "content": "IT之家 5 月 4 日消息，Red Hat 红帽首席软件工程师 Sally O'Malley 在红帽博客发文，公布了名为 Tank OS 的开源项目。该项目主要利用容器化与无 root 权限（rootless）架构设计，以提升 OpenClaw 安全性，IT之家附项目地址（https://www.redhat.com/en/blog/building-hardened-image-based-foundation-ai-agents）。 O'Malley 指出，如果 OpenClaw 配置不当，可能带来误删数据或敏感信息泄露等风险。因此其设计了 Tank OS 项目，其核心思路是将 OpenClaw 运行环境封装进容器中，以打造专门面向 AI 智能体的运行环境，避免宿主系统权限被滥用。 在底层架构方面，Tank OS 构建于 Fedora Linux 及 fedora-bootc 技术之上，主要利用镜像作为完整运行环境，同时支持在同一设备上运行多个 AI 智能体实例，各实例之间相互隔离，彼此不共享凭据及系统资源。 此外，Tank OS 采用不可变（immutable）操作系统设计，系统将内核、运行环境及服务预先定义在镜像中，大部分文件系统保持只读，仅允许有限范围内修改，从而进一步确保安全性。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-05-04T13:11:34.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/946/311.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777904686892_b49272c4",
-      "title": "苹果 iPhone 18 Pro 手机 CAD 设计文件再曝光，FaceID 摄像头开孔面积缩小 35%",
-      "summary": "IT之家 5 月 4 日消息，外媒 notebookcheck 援引消息源 earlyappleleaks 发布的苹果 iPhone 18 Pro 手机的 CAD 渲染图，重申 iPhone 18 Pro 的 FaceID 摄像头开孔面积相对于 iPhone 17 Pro 小了 35%。",
-      "content": "IT之家 5 月 4 日消息，外媒 notebookcheck 援引消息源 earlyappleleaks 发布的苹果 iPhone 18 Pro 手机的 CAD 渲染图，重申 iPhone 18 Pro 的 FaceID 摄像头开孔面积相对于 iPhone 17 Pro 小了 35%。 随着 iPhone 18 Pro 设计定型，如今第三方壳膜制造商都会通过各种渠道获悉苹果 iPhone 新品的具体尺寸规格，以便提前生产壳膜迅速抢占市场，相应 CAD 图预计也是从这一管道内流出。 技术层面上，iPhone 18 Pro 主要将红外传感器移至屏幕左上角，并将所有 FaceID 传感器移到屏幕下方，预计苹果将在 20 周年版 iPhone 中彻底“消灭”打孔，实现“真正全面屏”设计。 同时，此前消息显示，苹果将对 iPhone 18 Pro 系列手机采取激进定价策略，这意味着 iPhone 18 Pro 和 Pro Max 的起售价可能维持在 1099 美元（IT之家注：现汇率约合 7514 元人民币）、1199 美元（现汇率约合 8198 元人民币）。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/4370148a-acb0-4172-b34b-827931012051.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-05-04T12:12:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/946/306.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778068890957_47886137",
+      "id": "news_1778078428557_47886137",
       "title": "豆包将在免费模式外新增付费订阅，推出三档月包/年包价格｜最前线",
       "summary": "近日，豆包App Store页面出现付费版本服务声明。声明称，为更好地服务专业用户，豆包将在免费版的基础上，推出包含更多增值服务的付费版本。",
       "content": "近日，豆包App Store页面出现付费版本服务声明。声明称，为更好地服务专业用户，豆包将在免费版的基础上，推出包含更多增值服务的付费版本。同时，该页面还披露了三档订阅价格：标准版连续包月每月68元（连续包年688元）、加强版连续包月每月200元（连续包年2048元）、专业版连续包月每月500元（连续包年5088元）。 豆包 目前，尚未在豆包产品中看到相关的付费选项和功能。豆包官方回应称，“豆包始终提供免费服务，在免费服务的基础上，豆包也在探索推出更多增值服务，以满足不同用户的差异化需求。相关方案细节目前还在测试阶段，正式上线时会通过官方渠道发布完整信息。” 据接近豆包的人士透露，付费功能将主要专注在复杂任务和生产力场景，如PPT生成、数据分析、影视制作等。随着模型能力持续升级，产品已经能满足越来越多的复杂高价值任务。但此类任务需消耗更多算力与推理时间，因此豆包计划上线付费服务，满足好这部分复杂场景需求。免费版本则继续面向用户的日常使用。",
