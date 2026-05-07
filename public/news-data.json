@@ -1,8 +1,152 @@
 {
   "success": true,
-  "timestamp": "2026-05-07T06:46:54.869Z",
-  "total": 51,
+  "timestamp": "2026-05-07T09:42:28.184Z",
+  "total": 60,
   "data": [
+    {
+      "id": "news_1778146928046_5aacd8f3",
+      "title": "Vitest 4.1：测试标签、原生 Node.js 执行和 AI 代理报告器",
+      "summary": "Vitest 4.1：测试标签、原生 Node.js 执行和 AI 代理报告器",
+      "content": "Vitest 4.1：测试标签、原生 Node.js 执行和 AI 代理报告器",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-07T17:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/qE1NsAwbZbmUEalctUC4?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778146930096_2fab1af8",
+      "title": "Kubernetes 被 AI 打回“半成品”！K8s 之父发出警告：代码生成越快，程序员越危险",
+      "summary": "Kubernetes 被 AI 打回“半成品”！K8s 之父发出警告：代码生成越快，程序员越危险",
+      "content": "Kubernetes 被 AI 打回“半成品”！K8s 之父发出警告：代码生成越快，程序员越危险",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-07T15:02:06.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/7dyslCPBMAPyLporTATv?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778146932308_ff87919f",
+      "title": "JobRunr 发布开源 Java AI 智能体 ClawRunr",
+      "summary": "JobRunr 发布开源 Java AI 智能体 ClawRunr",
+      "content": "JobRunr 发布开源 Java AI 智能体 ClawRunr",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-07T15:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/pk5tLlqhqQsukB3ANhFh?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778146934355_9a290c4a",
+      "title": "硅谷大厂开始AI-first换血：先裁3万人、再招8000个新人，传统产品经理正在被Builder淘汰！",
+      "summary": "硅谷大厂开始AI-first换血：先裁3万人、再招8000个新人，传统产品经理正在被Builder淘汰！",
+      "content": "硅谷大厂开始AI-first换血：先裁3万人、再招8000个新人，传统产品经理正在被Builder淘汰！",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-07T14:58:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/w9qpMpQGfmxAmxFttNt6?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778146936156_e478e568",
+      "title": "京东 xLLM 的投机推理架构设计｜AICon上海",
+      "summary": "京东 xLLM 的投机推理架构设计｜AICon上海",
+      "content": "京东 xLLM 的投机推理架构设计｜AICon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-07T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/wAml9HDVF8HuaQEhFesM?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778146946128_b2952f78",
+      "title": "小米米家恒温电水壶钛钢版发售：1.7L 容量、支持恒温 55°C，139 元",
+      "summary": "IT之家 5 月 7 日消息，小米米家恒温电水壶钛钢版现已在小米有品开启首销（点此访问），新品主打 1.7L 大容量、食品接触级钛钢，支持恒温 55°C，定价为 139 元。 IT之家从商品页面获悉，这款电水壶配备 316Ti 食品接触级钛钢，可耐高温、耐腐蚀，煮水无异味。",
+      "content": "IT之家 5 月 7 日消息，小米米家恒温电水壶钛钢版现已在小米有品开启首销（点此访问），新品主打 1.7L 大容量、食品接触级钛钢，支持恒温 55°C，定价为 139 元。 IT之家从商品页面获悉，这款电水壶配备 316Ti 食品接触级钛钢，可耐高温、耐腐蚀，煮水无异味。壶口宽至 13.5cm 大口径，拥有一体无缝内胆，不易产生水垢，清洗方便。 规格方面，这款电水壶支持 24 小时长效保温，只需按下底部按键就能开启保温模式，让水温持久保持 55°C，每日无需多次煮水。 此外，这款电水壶采用 1.7L 大容量，满足日常饮水需求。搭载 1800W 环形速热底座，拥有高品质控温器，通过 10000+ 次使用寿命测试。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/d9a1821e-8c19-45d6-ba86-dfe58103a8ab.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-07T09:40:14.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/947/366.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778146946268_22c884d4",
+      "title": "研究显示词元消耗 10 倍仅换 2 倍成果，CFO 开始严控 AI 开支",
+      "summary": "IT之家 5 月 7 日消息，科技行业正进入人工智能支出趋于理性的新阶段，企业管理平台 Jellyfish 发布的最新数据显示，并非消耗 AI 词元（token）最多的企业就能成为最终赢家。",
+      "content": "IT之家 5 月 7 日消息，科技行业正进入人工智能支出趋于理性的新阶段，企业管理平台 Jellyfish 发布的最新数据显示，并非消耗 AI 词元（token）最多的企业就能成为最终赢家。 IT之家注意到，Jellyfish 在近期一项研究中表示，Claude Code 使用率前 10% 的用户，消耗的 AI 词元数量约为普通开发者中位数水平的 10 倍，但产出成果仅为后者的两倍左右。 AI 词元是人工智能模型将文字和输入内容拆分而成的小型文本单元，用于模型运算处理。同时它也是 AI 服务的计费依据，收费标准通常按每百万词元计价。 Jellyfish 人工智能与研究主管尼古拉斯・阿尔科拉诺表示，这一差距清晰表明，员工无节制消耗 AI 词元的极致词元滥用行为，并非可持续的使用策略。 他在采访中坦言：“首席财务官们已经开始严格管控这类开支。如今大多数企业里，员工开展工作都必须提供费用凭据。客户固然希望业务推进提速，也愿意在人工智能领域投入资金，但前提是必须证明开支合理、能产生实际价值。” Jellyfish 掌握数百家企业、数十万软件工程师的编程行为数据。研究发现，海量消耗 AI 词元未必能创造实际效益，反而会推高企业成本。这也推动科技行业迈入全新阶段：AI 使用效率的重要性日益凸显。 阿尔科拉诺称：“即便你能自圆其说，认为 AI 完成工作的综合价值高于人工，但一旦词元成本飙升，首席财务官依然会担心财务报表失控。” 事实上，Jellyfish 的报告凸显了高端用户词元消耗量的惊人增幅。Claude Code 高频使用者人均每周词元消耗量高达 2.25 亿，而平台监测的普通软件工程师周消耗量仅为 3200 万。 与此同时，以代码提交合并请求（代码产出的通用衡量指标）为标准来看，AI 使用率与工作效率呈正相关。最新数据显示，AI 高使用率团队的代码合并请求处理量，较低使用率团队高出 77%。 阿尔科拉诺指出，单纯的词元总量杂乱无章，无法单独作为工作效率评判标准。即便工程师编程习惯没有变化，AI 模型版本更新也可能导致词元消耗量大幅波动，这意味着开发者的词元花费并不能真实代表实际工作产出。他建议企业管理者应关注单次代码合并请求成本等以成果为导向的指标，而非单纯统计词元总消耗量。 换言之，大量使用 AI 确实能提升效率，但效果存在边际上限。公司数据表明，频繁借助 AI 智能体辅助编程的高活跃用户，整体效率确实更高，但其效率提升幅度与词元投入成本并不成正比。 阿尔科拉诺解释道：“有些人不愿提前规划最优方案，反而让五个 AI 智能体用五种不同方式开发，再从中挑选最优版本。这过程中会浪费大量无效工作量。这种方式或许有效，总成本也仍低于纯人工开发，但远不如提前定好一套方案来得省钱。” 在阿尔科拉诺看来，最优发展路径是大范围推广 AI 编程应用，让更多工程师进入中等合理使用区间，既避免 AI 使用不足，也杜绝过度消耗资源。 维持这种适中水平，才能让人工智能成为企业持久的运营优势：既能借助 AI 切实提升产品交付效率，又不会为了追求微弱的产出增量而无谓浪费成本。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2025/11/49e3c3c3-5ece-4eb9-bb3b-fc680292d666.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-07T09:29:48.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.ithome.com/0/947/364.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778146946547_e7d5ea6f",
+      "title": "小米开源 OmniVoice 多语言语音克隆 TTS，号称一个模型搞定 600 余种语言",
+      "summary": "IT之家 5 月 7 日消息，“小米技术”公众号今天下午宣布，小米 AI 实验室新一代 Kaldi 团队全新推出 OmniVoice，不仅在中英文场景达到顶尖性能，更在多语言任务中展现出超越商用系统的实力，是业内首个覆盖数百语种的语音克隆 TTS 模型。",
+      "content": "IT之家 5 月 7 日消息，“小米技术”公众号今天下午宣布，小米 AI 实验室新一代 Kaldi 团队全新推出 OmniVoice，不仅在中英文场景达到顶尖性能，更在多语言任务中展现出超越商用系统的实力，是业内首个覆盖数百语种的语音克隆 TTS 模型。 官方表示，该模型在低资源小语种上具备极强的泛化能力，你想得到的所有语种几乎都可以用 OmniVoice 来合成。OmniVoice“最亮眼的突破”是其极简的模型架构。它仅用一个双向 Transformer 网络，就能直接实现文本到语音的转化，省去了多余的结构和环节：没有文本的单独建模，没有复杂的混合结构，也没有多层级的 token 预测，是目前最简单的非自回归 TTS 模型。 OmniVoice 的语音合成质量优于目前同类主流模型，同时，训练和推理速度极具优势，一天完成 10 万小时训练，用 PyTorch 推理就可以达到 40 倍实时，轻松适配各类应用场景。 在这种实力的背后，是两项“关键设计”：一是通过全码本随机掩蔽策略，显著提升模型的训练效率，进而全面提升模型能力；二是引入大语言模型作为模型的预训练参数，首次在非自回归 TTS 模型中有效利用大语言模型，让语音合成的可懂度大幅提升，解决“读不准”的问题。 IT之家从官方介绍获悉，在多语言测试中，即便仅基于开源数据训练，在 24 语种的测试中，其语音相似度和可懂度均超越多款商用系统；在 102 种语种的测试中，它的语音可懂度逼近甚至优于真实语音；即便对于训练数据不足 10 小时的小语种，OmniVoice 也能实现高质量的语音合成，大大降低了低资源语种的语音合成门槛。 该模型还具备多项实用功能： 自定义音色设计：无需参考音频，只需描述音色属性（如性别、年龄、音调、方言、口音等），就能生成符合预期的音色，还支持耳语等特殊风格。 带噪参考音频适配：针对实际使用中参考音频音质不佳的问题，OmniVoice 能自动过滤噪声，提取清晰的音色特征，即便在嘈杂环境下录制的音频，也能克隆出高质量语音。 丰富语气表达：支持插入笑声、叹气等语气符号，让合成语音更有表现力，更贴近真人交流。 发音精准纠正：针对中英文多音字、专有名词易读错的问题，用户可通过简单设置，纠正发音错误，提升语音合成的可靠性。 参考 论文：https://arxiv.org/abs/2604.00688（了解技术细节） Github：https://github.com/k2-fsa/OmniVoice（含完整训练、推理代码） 语音样本展示：https://zhu-han.github.io/omnivoice/（直观感受语音合成效果） Huggingface Demo Space：https://huggingface.co/spaces/k2-fsa/OmniVoice（无需代码一键试用）",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/d3eb4f10-5a23-4e53-9b32-0709a94484b8.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-07T09:19:45.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/947/354.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778146946698_9006bf97",
+      "title": "国内首个商业空间站：紫微科技 B300 系列组合体完成关键试验",
+      "summary": "IT之家 5 月 7 日消息，紫微科技今日官宣，紫微科技自主研制的 B300 组合体项目顺利完成迪迩六号、迪迩十一号和节点舱联合振动、分离及各项配套测试，为后续组合体的在轨飞行任务筑牢技术根基。 目前，B300 组合体后续集成工作已在江苏无锡有序推进。",
+      "content": "IT之家 5 月 7 日消息，紫微科技今日官宣，紫微科技自主研制的 B300 组合体项目顺利完成迪迩六号、迪迩十一号和节点舱联合振动、分离及各项配套测试，为后续组合体的在轨飞行任务筑牢技术根基。 目前，B300 组合体后续集成工作已在江苏无锡有序推进。 IT之家查询公开资料获悉，北京紫微宇通科技有限公司是中国首家民营太空飞船公司，于 2019 年 3 月 8 日成立，主营业务为太空飞船的设计制造和飞行运行。 B300 组合体由迪迩六号（B300-L03 留轨版）和迪迩十一号（B300-F01 返回版）两船组成。此前，紫微科技已先后完成迪迩五号发射、迪迩六号和迪迩十一号组合体总体方案设计评审、迪迩十一号再入返回弹道设计评审等关键节点。 根据任务规划，商业空间站计划于 2026 年二季度发射，进入高度 360 公里、倾角 41.5° 的近地圆轨道。两船将在轨开展交会对接试验，迪迩十一号独立在轨运行约一个月后返回地面。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/6cc1afc3-a3cc-4d65-a0ae-88b70110ce55.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-07T09:17:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/947/350.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778146921615_2c968a11",
+      "title": "Digital Quant 2026 & HSC资产管理峰会落幕：在传统金融与加密前沿，重新定义资本、稳定币与全球金融未来",
+      "summary": "这场圆桌讨论清晰地勾勒出机构资本在数字资产领域的演进路径：从宏观叙事分歧到 LP 风控趋严，从多资产配置扩展到 AI 工具的实际赋能，最终回归对结构性风险的普遍敬畏。这反映出加密货币市场正加速与传统金融逻辑融合，并在全球化、多资产、技术驱动的框架下，迈向更成熟但也更复杂的下一发展阶段。",
+      "content": "这场圆桌讨论清晰地勾勒出机构资本在数字资产领域的演进路径：从宏观叙事分歧到 LP 风控趋严，从多资产配置扩展到 AI 工具的实际赋能，最终回归对结构性风险的普遍敬畏。这反映出加密货币市场正加速与传统金融逻辑融合，并在全球化、多资产、技术驱动的框架下，迈向更成熟但也更复杂的下一发展阶段。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-05-07T09:02:14.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7979197.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778146947181_5eedd8b8",
+      "title": "肯辛通扩充 USB-C 氮化镓电源适配器产品线，新推 70W 三口、140W 四口",
+      "summary": "IT之家 5 月 7 日消息，Kensington（肯辛通）美国当地时间 5 日宣布扩充其 USB-C 氮化镓 (GaN) 电源适配器产品线，新推出 70W 三口的 K38101NA 和 140W 四口的 K38102NA，仅需一个充电头便可同时为多台设备补充电力。",
+      "content": "IT之家 5 月 7 日消息，Kensington（肯辛通）美国当地时间 5 日宣布扩充其 USB-C 氮化镓 (GaN) 电源适配器产品线，新推出 70W 三口的 K38101NA 和 140W 四口的 K38102NA，仅需一个充电头便可同时为多台设备补充电力。 K38101NA 售价 39.99 美元（现汇率约合 272.9 元人民币），多口同时使用时支持 25W + 25W + 20W / 35W + 35W / 45W + 25W 配置；K38102NA 售价 89.99 美元（现汇率约合 614.2 元人民币），支持 70W + 70W / 100W + 40W / 70W + 45W + 20W / 35W + 35W + 35W + 35W 等组合。 肯辛通还一并推出了符合 USB PD 3.1 规范 240W 功率的 USB CtoC 线材 K32304WW。这一产品长 2m，用于数据传输时支持 USB 2.0 (480Mbps)，定价 9.99 美元（IT之家注：现汇率约合 68.2 元人民币）。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/c794b76c-62c0-45c6-ae65-0cc81d546873.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-07T09:02:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/947/345.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778146937776_781d16ea",
+      "title": "Cursor 删库毁了一家公司？资深开发者讲了大实话：把数据库交给AI的那一刻，公司就已经没了",
+      "summary": "Cursor 删库毁了一家公司？资深开发者讲了大实话：把数据库交给AI的那一刻，公司就已经没了",
+      "content": "Cursor 删库毁了一家公司？资深开发者讲了大实话：把数据库交给AI的那一刻，公司就已经没了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-07T08:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/ikCBSErsyohVBiZ0MbxR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1778136412705_fd4131fb",
       "title": "全球首个人形机器人任务动作应用商店：宇树 UniStore 官方共享应用平台正式全面开放",
@@ -172,7 +316,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778136370601_0",
+      "id": "news_1778146909222_0",
       "title": "Shivon Zilis brainstormed possible scenarios for AI.",
       "summary": "E\nThe Verge\nShivon Zilis brainstormed possible scenarios for AI.\nThree were Tesla AI. One was OpenAI as a b-corp subsidiary of Tesla. One was Altman a...",
       "content": "E\nThe Verge\nShivon Zilis brainstormed possible scenarios for AI.\nThree were Tesla AI. One was OpenAI as a b-corp subsidiary of Tesla. One was Altman as anchor for TeslaAI. But my favorite? “Find a way to get Demis. Seriously…. Demis really does fanbo... [605 chars]",
@@ -184,7 +328,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778136370976_1",
+      "id": "news_1778146909183_1",
       "title": "In OpenAI trial, former technology chief says Altman sowed 'chaos,' distrust among top executives",
       "summary": "SAN FRANCISCO, May 6 (Reuters) - A former OpenAI technology chief testified on Wednesday ‌in Elon Musk's lawsuit that CEO Sam Altman sowed distrust am...",
       "content": "SAN FRANCISCO, May 6 (Reuters) - A former OpenAI technology chief testified on Wednesday ‌in Elon Musk's lawsuit that CEO Sam Altman sowed distrust among top executives as the company forged ahead with developing and broadly deploying its powerful ar... [2508 chars]",
@@ -194,30 +338,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.reuters.com/legal/litigation/openai-trial-former-technology-chief-says-altman-sowed-chaos-distrust-among-top-2026-05-06/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1778136397421_de6acb72",
-      "title": "OpenChoreo 1.0 将 AI 代理和 GitOps 引入 Kubernetes 开发平台",
-      "summary": "OpenChoreo 1.0 将 AI 代理和 GitOps 引入 Kubernetes 开发平台",
-      "content": "OpenChoreo 1.0 将 AI 代理和 GitOps 引入 Kubernetes 开发平台",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-06T16:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/D7iLJ0aKtBPgS3RCQlQr?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778136399662_7e84f6d4",
-      "title": "“如果你不用更多Token，就永远逃不出底层”：AI竞赛开始变成资源战争",
-      "summary": "“如果你不用更多Token，就永远逃不出底层”：AI竞赛开始变成资源战争",
-      "content": "“如果你不用更多Token，就永远逃不出底层”：AI竞赛开始变成资源战争",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-06T15:55:08.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/fdAdSjRh8TNNy6RMrjGm?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1778086482127_21a2d0f4",
@@ -244,7 +364,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778136371077_2",
+      "id": "news_1778146909119_2",
       "title": "Microsoft and OpenAI’s definition of AGI was just revealed.",
       "summary": "The two companies’ famed 2019 contract was made public as part of the Musk v. Altman trial exhibits. The 36-page agreement defines artificial general ...",
       "content": "The two companies’ famed 2019 contract was made public as part of the Musk v. Altman trial exhibits. The 36-page agreement defines artificial general intelligence as “a highly autonomous system that outperforms humans at most economically valuable wo... [440 chars]",
@@ -364,7 +484,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778136370491_3",
+      "id": "news_1778146908877_3",
       "title": "Edmonds College talks future of education at roundtable event",
       "summary": "You are using an outdated browser. Please upgrade your browser or activate Google Chrome Frame to improve your experience. Local News Northwest Crime ...",
       "content": "EDMONDS — Edmonds College officials highlighted the college’s progress over the past five years and discussed how technology is shaping education at a roundtable event Monday.\nAbout 40 community members gathered at the Edmonds Waterfront Center to le... [4616 chars]",
@@ -508,7 +628,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778136370984_4",
+      "id": "news_1778146909327_4",
       "title": "Musk wanted $80 billion to colonize Mars, OpenAI president testifies at trial",
       "summary": "OAKLAND, California, May 5 (Reuters) - OpenAI's president testified on Tuesday that Elon Musk supported transforming the ​artificial intelligence star...",
       "content": "OAKLAND, California, May 5 (Reuters) - OpenAI's president testified on Tuesday that Elon Musk supported transforming the ​artificial intelligence startup into a for-profit company, but wanted full control in part to help him raise $80 billion to colo... [3600 chars]",
@@ -520,9 +640,9 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778136370481_5",
+      "id": "news_1778146909406_5",
       "title": "OpenAI to Spend $50 Billion on Computing in 2026, Brockman Says",
-      "summary": "OpenAI expects to spend $50 billion on computing power this year to support its artificial intelligence software, according to co-founder and Presiden...",
+      "summary": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial inf...",
       "content": "OpenAI expects to spend $50 billion on computing power this year to support its artificial intelligence software, according to co-founder and President Greg Brockman .\nBrockman said Tuesday that the ChatGPT maker’s computing costs have surged from ro... [266 chars]",
       "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iiA4_UE0HMGc/v1/1200x800.jpg",
       "source": "Bloomberg",
@@ -532,7 +652,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778136370779_6",
+      "id": "news_1778146910210_6",
       "title": "OpenAI, Anthropic ventures in talks to buy AI services firms, sources say",
       "summary": "NEW YORK, May 5 (Reuters) - The joint ventures OpenAI ​and Anthropic separately created with private equity firms are in talks to acquire services com...",
       "content": "NEW YORK, May 5 (Reuters) - The joint ventures OpenAI ​and Anthropic separately created with private equity firms are in talks to acquire services companies ‌that help businesses deploy artificial intelligence, with OpenAI's new venture in advanced s... [2327 chars]",
@@ -544,7 +664,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778136370657_7",
+      "id": "news_1778146908875_7",
       "title": "The War Department Announces Agreements With Leading AI Companies To Deploy Capabilities On Classified Networks",
       "summary": "The War Department Announces Agreements With Leading AI Companies To Deploy Capabilities On Classified Networks by Jenn Baker May. 5, 2026 9:15 am...",
       "content": "The Department of War – Official Press Release\nThe War Department has entered into agreements with seven of the world’s leading frontier artificial intelligence companies, SpaceX, OpenAI, Google, NVIDIA, Reflection, Microsoft, and Amazon Web Services... [2290 chars]",
@@ -601,18 +721,6 @@
       "publishedAt": "2026-05-05T11:41:02.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/946/459.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1777983195646_f5a9a183",
-      "title": "豆包开启付费订阅，国内AI商业化迎来拐点？",
-      "summary": "如果AI真的像水电煤一样常态化接入千家万户，订阅开销迟早会成为每个人账单上固定的一行。豆包此次付费尝试的结果，将成为整个行业观察国内用户AI付费意愿的第一块真正意义上的试金石。",
-      "content": "如果AI真的像水电煤一样常态化接入千家万户，订阅开销迟早会成为每个人账单上固定的一行。豆包此次付费尝试的结果，将成为整个行业观察国内用户AI付费意愿的第一块真正意义上的试金石。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-05T09:13:35.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7976659.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
