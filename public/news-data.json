@@ -1,19 +1,43 @@
 {
   "success": true,
-  "timestamp": "2026-05-07T11:56:23.938Z",
-  "total": 62,
+  "timestamp": "2026-05-07T17:05:22.270Z",
+  "total": 68,
   "data": [
     {
-      "id": "news_1778154966496_34f6b65f",
-      "title": "重新思考 AI TCO：为何每 Token 成本才是唯一重要的指标",
-      "summary": "重新思考 AI TCO：为何每 Token 成本才是唯一重要的指标",
-      "content": "重新思考 AI TCO：为何每 Token 成本才是唯一重要的指标",
+      "id": "news_1778173511015_5aacd8f3",
+      "title": "Vitest 4.1：测试标签、原生 Node.js 执行和 AI 代理报告器",
+      "summary": "Vitest 4.1：测试标签、原生 Node.js 执行和 AI 代理报告器",
+      "content": "Vitest 4.1：测试标签、原生 Node.js 执行和 AI 代理报告器",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-05-07T17:45:38.000Z",
+      "publishedAt": "2026-05-07T17:00:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Ot1auU07EMlexHsFJaaM?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/qE1NsAwbZbmUEalctUC4?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778173512438_2fab1af8",
+      "title": "Kubernetes 被 AI 打回“半成品”！K8s 之父发出警告：代码生成越快，程序员越危险",
+      "summary": "Kubernetes 被 AI 打回“半成品”！K8s 之父发出警告：代码生成越快，程序员越危险",
+      "content": "Kubernetes 被 AI 打回“半成品”！K8s 之父发出警告：代码生成越快，程序员越危险",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-07T15:02:06.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/7dyslCPBMAPyLporTATv?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778173513721_ff87919f",
+      "title": "JobRunr 发布开源 Java AI 智能体 ClawRunr",
+      "summary": "JobRunr 发布开源 Java AI 智能体 ClawRunr",
+      "content": "JobRunr 发布开源 Java AI 智能体 ClawRunr",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-07T15:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/pk5tLlqhqQsukB3ANhFh?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1778146934355_9a290c4a",
@@ -25,6 +49,54 @@
       "publishedAt": "2026-05-07T14:58:02.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/w9qpMpQGfmxAmxFttNt6?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778173492008_c2b8e3a6",
+      "title": "Neuralink：正研发一种能够到达大脑任何区域的手术机器人",
+      "summary": "当地时间5月6日，马斯克旗下脑机接口公司Neuralink发文称，正在研发一种能够到达大脑任何区域的手术机器人，目标是开发一种通用的神经接口，以帮助解决所有源于大脑的疾病。Neuralink称，设备目前处于研究阶段，尚未获得FDA批准。",
+      "content": "当地时间5月6日，马斯克旗下脑机接口公司Neuralink发文称，正在研发一种能够到达大脑任何区域的手术机器人，目标是开发一种通用的神经接口，以帮助解决所有源于大脑的疾病。Neuralink称，设备目前处于研究阶段，尚未获得FDA批准。（界面）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-05-07T13:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3799233331731717?f=rss",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778173493150_a76d1e76",
+      "title": "热门中概股美股盘前涨跌不一，阿里巴巴涨超1%",
+      "summary": "36氪获悉，热门中概股美股盘前涨跌不一，截至发稿，叮咚买菜跌超2%，京东、拼多多跌超1%；知乎涨超4%，阿里巴巴涨超1%，哔哩哔哩涨0.63%。",
+      "content": "36氪获悉，热门中概股美股盘前涨跌不一，截至发稿，叮咚买菜跌超2%，京东、拼多多跌超1%；知乎涨超4%，阿里巴巴涨超1%，哔哩哔哩涨0.63%。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-05-07T12:52:45.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3799226213653510?f=rss",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778173494210_2e2679e4",
+      "title": "美股大型科技股盘前普涨，谷歌涨超1%",
+      "summary": "36氪获悉，美股大型科技股盘前普涨，截至发稿，甲骨文涨超2%，特斯拉、微软、谷歌涨超1%，Meta涨0.71%，苹果涨0.41%，奈飞涨0.39%，亚马逊涨0.24%，英伟达涨0.12%...",
+      "content": "36氪获悉，美股大型科技股盘前普涨，截至发稿，甲骨文涨超2%，特斯拉、微软、谷歌涨超1%，Meta涨0.71%，苹果涨0.41%，奈飞涨0.39%，亚马逊涨0.24%，英伟达涨0.12%",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-05-07T12:48:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3799221620710402?f=rss",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778173500348_983d0095",
+      "title": "降价留客、爆款豪赌、AI续命：影视江湖大逃杀 | 行业风向标",
+      "summary": "降价留客、爆款豪赌、AI续命：影视江湖大逃杀 | 行业风向标",
+      "content": "影视寒冬下如何自救？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-05-07T12:06:09.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/7979500.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -86,6 +158,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7978895.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778173517035_e478e568",
+      "title": "京东 xLLM 的投机推理架构设计｜AICon上海",
+      "summary": "京东 xLLM 的投机推理架构设计｜AICon上海",
+      "content": "京东 xLLM 的投机推理架构设计｜AICon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-07T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/wAml9HDVF8HuaQEhFesM?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1778154960451_987a7dc7",
@@ -184,6 +268,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1778173518353_781d16ea",
+      "title": "Cursor 删库毁了一家公司？资深开发者讲了大实话：把数据库交给AI的那一刻，公司就已经没了",
+      "summary": "Cursor 删库毁了一家公司？资深开发者讲了大实话：把数据库交给AI的那一刻，公司就已经没了",
+      "content": "Cursor 删库毁了一家公司？资深开发者讲了大实话：把数据库交给AI的那一刻，公司就已经没了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-07T08:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/ikCBSErsyohVBiZ0MbxR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1778136412705_fd4131fb",
       "title": "全球首个人形机器人任务动作应用商店：宇树 UniStore 官方共享应用平台正式全面开放",
       "summary": "IT之家 5 月 7 日消息，宇树科技官方今日宣布，宇树 UniStore 官方共享应用平台正式全面开放。据介绍，这是全球首个人形机器人任务动作应用商店。",
@@ -266,6 +362,30 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/947/148.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778173215699_0",
+      "title": "Worries about AI's risks to humanity loom over Elon Musk's trial against OpenAI",
+      "summary": "OAKLAND, Calif. (AP) — At the heart of the trial pitting Elon Musk against OpenAI CEO Sam Altman is a moment when they found common cause on an ever m...",
+      "content": "OAKLAND, Calif. (AP) — At the heart of the trial pitting Elon Musk against OpenAI CEO Sam Altman is a moment when they found common cause on an ever more pressing question: how to protect humanity from the risks of artificial intelligence.\nIt turned ... [4661 chars]",
+      "imageUrl": "https://dims.apnews.com/dims4/default/62bf312/2147483647/strip/true/crop/5649x3764+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F17%2F10%2F73181b5451adad1cf139a1a7c930%2F0991c1e6e49d49cea94b351fadc1a4d1",
+      "source": "The Associated Press",
+      "publishedAt": "2026-05-07T04:00:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://apnews.com/article/openai-musk-altman-trial-agi-4f8810743d6ef9a72f91f8721a3f4027",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1778173215707_1",
+      "title": "Worries about AI's risks to humanity loom over the trial pitting Musk against OpenAI's leaders",
+      "summary": "OpenAI president Greg Brockman, second left, exits the U.S. District Court, in Oakland, Calif., Thursday, April 30, 2026. (AP Photo/Godofredo A. Vásqu...",
+      "content": "OAKLAND, Calif. (AP) — At the heart of the trial pitting Elon Musk against OpenAI CEO Sam Altman is a moment when they found common cause on an ever more pressing question: how to protect humanity from the risks of artificial intelligence.\nIt turned ... [4661 chars]",
+      "imageUrl": "https://barchart-news-media-prod.aws.barchart.com/ap/d1521c6551cc42929c271f4e07f3209b/d1521c6551cc42929c271f4e07f3209b_main_musk_openai_trial_5_854.jpg",
+      "source": "Barchart",
+      "publishedAt": "2026-05-07T04:00:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.barchart.com/story/news/1771304/worries-about-ai-s-risks-to-humanity-loom-over-the-trial-pitting-musk-against-openai-s-leaders",
+      "aiInsight": ""
     },
     {
       "id": "news_1778126218277_5d700f11",
@@ -352,7 +472,19 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778154945738_0",
+      "id": "news_1778173485785_2",
+      "title": "Worries About AI's Risks to Humanity Loom Over the Trial Pitting Musk Against OpenAI's Leaders",
+      "summary": "OAKLAND, Calif. (AP) — At the heart of the trial pitting Elon Musk against OpenAI CEO Sam Altman is a moment when they found common cause on an ever m...",
+      "content": "OAKLAND, Calif. (AP) — At the heart of the trial pitting Elon Musk against OpenAI CEO Sam Altman is a moment when they found common cause on an ever more pressing question: how to protect humanity from the risks of artificial intelligence.\nIt turned ... [4661 chars]",
+      "imageUrl": "https://www.usnews.com/dims4/USNEWS/1e7b0fe/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F9f%2F6129dd309ccbff242cf681030ef8f3%2F0991c1e6e49d49cea94b351fadc1a4d1Musk_OpenAI_Trial_43274.jpg",
+      "source": "U.S. News & World Report",
+      "publishedAt": "2026-05-06T18:36:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.usnews.com/news/best-states/california/articles/2026-05-07/worries-about-ais-risks-to-humanity-loom-over-the-trial-pitting-musk-against-openais-leaders",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1778173215556_3",
       "title": "Shivon Zilis brainstormed possible scenarios for AI.",
       "summary": "E\nThe Verge\nShivon Zilis brainstormed possible scenarios for AI.\nThree were Tesla AI. One was OpenAI as a b-corp subsidiary of Tesla. One was Altman a...",
       "content": "E\nThe Verge\nShivon Zilis brainstormed possible scenarios for AI.\nThree were Tesla AI. One was OpenAI as a b-corp subsidiary of Tesla. One was Altman as anchor for TeslaAI. But my favorite? “Find a way to get Demis. Seriously…. Demis really does fanbo... [605 chars]",
@@ -364,7 +496,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778154945710_1",
+      "id": "news_1778173215566_4",
       "title": "In OpenAI trial, former technology chief says Altman sowed 'chaos,' distrust among top executives",
       "summary": "SAN FRANCISCO, May 6 (Reuters) - A former OpenAI technology chief testified on Wednesday ‌in Elon Musk's lawsuit that CEO Sam Altman sowed distrust am...",
       "content": "SAN FRANCISCO, May 6 (Reuters) - A former OpenAI technology chief testified on Wednesday ‌in Elon Musk's lawsuit that CEO Sam Altman sowed distrust among top executives as the company forged ahead with developing and broadly deploying its powerful ar... [2508 chars]",
@@ -400,7 +532,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778154945048_2",
+      "id": "news_1778173215199_5",
       "title": "Microsoft and OpenAI’s definition of AGI was just revealed.",
       "summary": "The two companies’ famed 2019 contract was made public as part of the Musk v. Altman trial exhibits. The 36-page agreement defines artificial general ...",
       "content": "The two companies’ famed 2019 contract was made public as part of the Musk v. Altman trial exhibits. The 36-page agreement defines artificial general intelligence as “a highly autonomous system that outperforms humans at most economically valuable wo... [440 chars]",
@@ -520,7 +652,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778154945396_3",
+      "id": "news_1778173215396_6",
       "title": "Edmonds College talks future of education at roundtable event",
       "summary": "You are using an outdated browser. Please upgrade your browser or activate Google Chrome Frame to improve your experience. Local News Northwest Crime ...",
       "content": "EDMONDS — Edmonds College officials highlighted the college’s progress over the past five years and discussed how technology is shaping education at a roundtable event Monday.\nAbout 40 community members gathered at the Edmonds Waterfront Center to le... [4616 chars]",
@@ -664,7 +796,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778154945587_4",
+      "id": "news_1778173215451_7",
       "title": "Musk wanted $80 billion to colonize Mars, OpenAI president testifies at trial",
       "summary": "OAKLAND, California, May 5 (Reuters) - OpenAI's president testified on Tuesday that Elon Musk supported transforming the ​artificial intelligence star...",
       "content": "OAKLAND, California, May 5 (Reuters) - OpenAI's president testified on Tuesday that Elon Musk supported transforming the ​artificial intelligence startup into a for-profit company, but wanted full control in part to help him raise $80 billion to colo... [3600 chars]",
@@ -676,7 +808,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778154945468_5",
+      "id": "news_1778173215420_8",
       "title": "OpenAI to Spend $50 Billion on Computing in 2026, Brockman Says",
       "summary": "OpenAI expects to spend $50 billion on computing power this year to support its artificial intelligence software, according to co-founder and Presiden...",
       "content": "OpenAI expects to spend $50 billion on computing power this year to support its artificial intelligence software, according to co-founder and President Greg Brockman .\nBrockman said Tuesday that the ChatGPT maker’s computing costs have surged from ro... [266 chars]",
@@ -686,66 +818,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.bloomberg.com/news/articles/2026-05-05/openai-to-spend-50-billion-on-computing-in-2026-brockman-says",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1778154945346_6",
-      "title": "OpenAI, Anthropic ventures in talks to buy AI services firms, sources say",
-      "summary": "NEW YORK, May 5 (Reuters) - The joint ventures OpenAI ​and Anthropic separately created with private equity firms are in talks to acquire services com...",
-      "content": "NEW YORK, May 5 (Reuters) - The joint ventures OpenAI ​and Anthropic separately created with private equity firms are in talks to acquire services companies ‌that help businesses deploy artificial intelligence, with OpenAI's new venture in advanced s... [2327 chars]",
-      "imageUrl": "https://www.reuters.com/resizer/v2/ME6MNVTPDJJ5ZA7VRGPBLYEBSU.jpg?auth=0521d9090745417bbd4c2129b45d805363e96ef1b1a77cd80de2b3647f491407&height=1005&width=1920&quality=80&smart=true",
-      "source": "Reuters",
-      "publishedAt": "2026-05-05T15:08:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.reuters.com/world/openai-anthropic-ventures-talks-buy-ai-services-firms-sources-say-2026-05-05/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1778154945951_7",
-      "title": "The War Department Announces Agreements With Leading AI Companies To Deploy Capabilities On Classified Networks",
-      "summary": "The War Department Announces Agreements With Leading AI Companies To Deploy Capabilities On Classified Networks by Jenn Baker May. 5, 2026 9:15 am...",
-      "content": "The Department of War – Official Press Release\nThe War Department has entered into agreements with seven of the world’s leading frontier artificial intelligence companies, SpaceX, OpenAI, Google, NVIDIA, Reflection, Microsoft, and Amazon Web Services... [2290 chars]",
-      "imageUrl": "https://www.thegatewaypundit.com/wp-content/uploads/2026/05/260128-d-hr740-1006_16x9-1200x630.png",
-      "source": "The Gateway Pundit",
-      "publishedAt": "2026-05-05T14:15:26.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.thegatewaypundit.com/2026/05/war-department-announces-agreements-leading-ai-companies-deploy/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1777965789726_51c5b9f1",
-      "title": "Java 近期资讯：OpenJDK、 Oracle 关键补丁更新、 Open Liberty、Testcontainers、IntelliJ IDEA",
-      "summary": "Java 近期资讯：OpenJDK、 Oracle 关键补丁更新、 Open Liberty、Testcontainers、IntelliJ IDEA...",
-      "content": "Java 近期资讯：OpenJDK、 Oracle 关键补丁更新、 Open Liberty、Testcontainers、IntelliJ IDEA",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-05T13:57:41.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/LhzkgpOBi5mPkYHoKgE5?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778003367375_e7607f44",
-      "title": "Bose 推出 Lifestyle Ultra 系列音频产品：含回音壁 / 低音炮等、支持苹果隔空播放，299-1099 美元",
-      "summary": "IT之家 5 月 5 日消息，Bose 今天宣布重启 Lifestyle 子品牌，推出三款音频产品，定价为 299-1099 美元，IT之家整理规格如下： Bose Lifestyle Ultra 音箱 定价：299 美元（IT之家注：现汇率约合 2045 元人民币）起 该产品主打通用性，配备三个驱...",
-      "content": "IT之家 5 月 5 日消息，Bose 今天宣布重启 Lifestyle 子品牌，推出三款音频产品，定价为 299-1099 美元，IT之家整理规格如下： Bose Lifestyle Ultra 音箱 定价：299 美元（IT之家注：现汇率约合 2045 元人民币）起 该产品主打通用性，配备三个驱动单元，内置 Direct / Reflecting 扬声器技术及 TrueSpatial 音频处理技术，能够增强声音的高度和立体感。 Bose Lifestyle Ultra 回音壁 定价：1099 美元（现汇率约合 7517 元人民币） 该产品采用全新声学架构，旨在从单个箱体中呈现影院级音效，其配备六个全频驱动单元、一个中置高音单元以及两个 Bose 独有的 PhaseGuide 驱动单元，可播放 Dolby Atmos 内容，呈现栩栩如生的三维环绕声。 Bose Lifestyle Ultra 低音炮 定价：899 美元（现汇率约合 6149 元人民币） 该产品搭载 CleanBass 技术，可提供深沉、精准的低音，号称在任何音量下都能保持清晰，为家庭影院体验增添厚重感和震撼力。与 Lifestyle Ultra 条形音箱和扬声器搭配使用时，它能够出色地再现低频，带来影院级的震撼效果，使系统的其他部分能够专注于中高频，从而实现更清晰的对话和更开阔、更细腻的声音。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/acb49228-f7b8-47cb-b962-20f21ef3dc81.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-05-05T13:14:12.000Z",
-      "category": "AI趣味新闻",
-      "originalUrl": "https://www.ithome.com/0/946/467.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778003345025_4ad8d282",
-      "title": "百万上下文之后，拼什么？",
-      "summary": "百万上下文之后，拼什么？",
-      "content": "DeepSeek V4的分数，是这篇文章最不值一提的部分。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-05T13:10:35.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7976839.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
