@@ -1,31 +1,43 @@
 {
   "success": true,
-  "timestamp": "2026-05-08T22:05:44.744Z",
+  "timestamp": "2026-05-09T00:03:46.213Z",
   "total": 66,
   "data": [
     {
-      "id": "news_1778277927966_ea963e30",
-      "title": "Anthropic最新论文撬开大模型黑箱：隐藏动机发现率提升4倍以上",
-      "summary": "Anthropic最新论文撬开大模型黑箱：隐藏动机发现率提升4倍以上",
-      "content": "Anthropic最新论文撬开大模型黑箱：隐藏动机发现率提升4倍以上",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-08T18:27:15.000Z",
+      "id": "news_1778285025010_2ec5c98d",
+      "title": "微软 Edge 浏览器 148 稳定版发布：工作区迁移 V2，推进 Copilot 新标签页",
+      "summary": "IT之家 5 月 9 日消息，微软开始推送 Microsoft Edge 148 稳定版，版本号为 148.0.3967.54。本次更新覆盖工作区（Workspaces）、密码自动填充、Microsoft 365 认证弹窗，以及 AI 设置页等多个模块。",
+      "content": "IT之家 5 月 9 日消息，微软开始推送 Microsoft Edge 148 稳定版，版本号为 148.0.3967.54。本次更新覆盖工作区（Workspaces）、密码自动填充、Microsoft 365 认证弹窗，以及 AI 设置页等多个模块。 本次更新最值得关注的变化，在于微软为了提高工作区（Workspaces）的稳定性和性能，加速推进其切换到 V2 架构，已保存的工作区数据会从 OneDrive 和 SharePoint 迁移到 Edge Sync 服务。 IT之家注：工作区是 Edge 中用于保存标签页、窗口状态和相关浏览上下文的功能，方便用户集中管理同一项目，适合研究资料整理、跨页面办公和任务切换场景。 伴随着本次迁移，微软移除了工作区的协作和数据共享功能。如果企业通过策略禁用了同步，旧版 Workspaces v1 数据仍会迁移；可迁移完成后，新建的 Workspaces v2 不会跨设备同步，而是只保存在本地。 在 AI 方面，微软 Edge 148 浏览器更新了 Microsoft 365 Copilot Chat 在侧边栏中的内部容器页，并提醒管理员不要屏蔽 edge:// 或 chrome-untrusted:// 这类内部地址，否则可能直接导致 Microsoft 365 侧边栏 Copilot Chat 无法使用。 与此同时，Copilot 新标签页开始上线，把搜索、聊天和网页探索合并进一个搜索栏，并加入个性化新闻与活动内容。 为了让企业检索更贴近日常工作，新版本还加入基于工作浏览历史的 Copilot 搜索增强。在管理员批准后，Edge 可把来自第三方应用的部分工作浏览历史发送给 Microsoft 365 Copilot。 这样一来，用户在 Microsoft 365 Copilot Search 中搜索后，也能看到最近访问过的工作页面结果，查找内部资料会更快。 Edge 148 还更新了密码匹配服务。过去自动填充主要按顶级域名匹配，因此 account.microsoft.com 和 office.microsoft.com 这类站点可能共用同一组凭据建议。 新方案会把相关域名归入 affiliation groups（关联组），并通过内部服务返回关联网址列表，让自动填充在桌面和移动站点之间更一致。同时，浏览器新增护照、驾照等文档类型的自动填充支持。 Microsoft Edge 主题图片 参考 微软 Edge 浏览器下载地址",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/911023a5-4e81-4572-85f2-7973a1ef5955.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-08T23:33:24.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/gAkVCqphr0A1r2PLSWDz?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.ithome.com/0/948/004.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778277929424_28c7ea54",
-      "title": "LinkedIn 整合招聘数据管道，为 AI 系统赋能",
-      "summary": "LinkedIn 整合招聘数据管道，为 AI 系统赋能",
-      "content": "LinkedIn 整合招聘数据管道，为 AI 系统赋能",
+      "id": "news_1778285025210_332122d3",
+      "title": "微软 Edge 浏览器下月将推网站排障提示，网页异常后告诉用户如何修复",
+      "summary": "IT之家 5 月 9 日消息，科技媒体 NeoWin 昨日（5 月 8 日）发布博文，报道称微软计划在 Edge 浏览器中加入网站故障排查提示，帮助用户直接在浏览器界面内处理兼容性问题。 根据 Microsoft 365 路线图，项目名称为“改进的网站兼容性与站点故障排查控件”。",
+      "content": "IT之家 5 月 9 日消息，科技媒体 NeoWin 昨日（5 月 8 日）发布博文，报道称微软计划在 Edge 浏览器中加入网站故障排查提示，帮助用户直接在浏览器界面内处理兼容性问题。 根据 Microsoft 365 路线图，项目名称为“改进的网站兼容性与站点故障排查控件”。当网页显示异常、功能失灵或加载结果不符合预期后，Edge 浏览器为优化使用体验，会直接给出可操作提示。 IT之家援引博文介绍，这项功能的核心思路很直接：把“哪里可能出问题”提前告诉用户，并把修复入口放到当前浏览页面。 用户上网遇到问题后，不必再点进层层设置寻找相应开关，Edge 会结合当前网页状态，自动弹出相关排查选项，从而缩短定位问题的时间。 微软提到，一个重点场景是 Tracking Prevention（跟踪防护）。如果用户把 Edge 设为 Strict（严格）模式，某些网站可能因为脚本、Cookie 或跨站资源受限而出现登录失败、页面错乱或按钮失效。新功能会在这种情况下提醒用户检查相关设置，帮助用户判断是不是浏览器防护策略影响了网站表现。 除了跟踪防护，Edge 还会引导用户查看站点级权限和配置，比如通知、弹窗、位置、Cookie 或其他单站点设置，都可能让某些服务无法正常工作。 按微软 365 路线图，这项功能预计 2026 年 6 月开始推送，但路线图时间并不总是稳定，后续仍可能调整。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-05-08T23:20:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/948/000.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778285004215_ffbe55c0",
+      "title": "创新智能体 新质生产力 ｜ 博云企业级 AI 原生智能体平台 BoAgent 暨生态合作战略发布会",
+      "summary": "创新智能体 新质生产力 ｜ 博云企业级 AI 原生智能体平台 BoAgent 暨生态合作战略发布会",
+      "content": "创新智能体 新质生产力 ｜ 博云企业级 AI 原生智能体平台 BoAgent 暨生态合作战略发布会",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-05-08T16:44:01.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/o2z964wv6v7jB8d9ZM0K?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-05-08T19:56:50.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/Ch593mOMhlZBcTOzlXoh?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1778237379232_d544c85d",
@@ -112,6 +124,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1778285011234_de66b4fa",
+      "title": "Agent时代需要怎样的分布式基础设施",
+      "summary": "Agent时代需要怎样的分布式基础设施",
+      "content": "Agent时代需要怎样的分布式基础设施",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-08T11:34:36.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/qYQfpT8BaIPEkbeSXwzu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1778237364153_d4fcc573",
       "title": "百度搭子DuMate登顶PinchBench",
       "summary": "36氪获悉，5月8日凌晨，百度搭子DuMate登顶智能体评测基准PinchBench榜首，并在前5位中占据3席。据了解，在另外一项DeepResearch深度研究榜单中，DuMate同样位列第一。",
@@ -146,6 +170,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/947/906.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778285012992_abae80e6",
+      "title": "算力新基建，推荐新智能：快手推荐系统池化的探索与实践｜AICon上海",
+      "summary": "算力新基建，推荐新智能：快手推荐系统池化的探索与实践｜AICon上海",
+      "content": "算力新基建，推荐新智能：快手推荐系统池化的探索与实践｜AICon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-08T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/NUDF12Di1WHvAQX3qdGS?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1778237393313_7d62709c",
@@ -352,28 +388,16 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778277936628_5aacd8f3",
-      "title": "Vitest 4.1：测试标签、原生 Node.js 执行和 AI 代理报告器",
-      "summary": "Vitest 4.1：测试标签、原生 Node.js 执行和 AI 代理报告器",
-      "content": "Vitest 4.1：测试标签、原生 Node.js 执行和 AI 代理报告器",
+      "id": "news_1778285014489_34f6b65f",
+      "title": "重新思考 AI TCO：为何每 Token 成本才是唯一重要的指标",
+      "summary": "重新思考 AI TCO：为何每 Token 成本才是唯一重要的指标",
+      "content": "重新思考 AI TCO：为何每 Token 成本才是唯一重要的指标",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-05-07T17:00:00.000Z",
+      "publishedAt": "2026-05-07T17:45:38.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/qE1NsAwbZbmUEalctUC4?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/Ot1auU07EMlexHsFJaaM?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778277938100_2fab1af8",
-      "title": "Kubernetes 被 AI 打回“半成品”！K8s 之父发出警告：代码生成越快，程序员越危险",
-      "summary": "Kubernetes 被 AI 打回“半成品”！K8s 之父发出警告：代码生成越快，程序员越危险",
-      "content": "Kubernetes 被 AI 打回“半成品”！K8s 之父发出警告：代码生成越快，程序员越危险",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-07T15:02:06.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/7dyslCPBMAPyLporTATv?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1778146934355_9a290c4a",
@@ -388,7 +412,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778277904255_0",
+      "id": "news_1778284981694_0",
       "title": "The Messy, Humiliating Courtroom Drama Between Elon Musk and OpenAI",
       "summary": "In January 2018, Greg Brockman , a co-founder of OpenAI, sent Elon Musk a lengthy memo about the future of the artificial intelligence lab, which was ...",
       "content": "In January 2018, Greg Brockman , a co-founder of OpenAI, sent Elon Musk a lengthy memo about the future of the artificial intelligence lab, which was then structured as a not-for-profit entity. Musk had been urging Brockman and another OpenAI co-foun... [735 chars]",
@@ -676,7 +700,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778277904410_1",
+      "id": "news_1778284981636_1",
       "title": "Worries about AI's risks to humanity loom over the trial pitting Musk against OpenAI's leaders",
       "summary": "Questions about the dangers of artificial intelligence have been looming over the trial pitting Elon Musk against OpenAI CEO Sam Altman Worries about ...",
       "content": "Questions about the dangers of artificial intelligence have been looming over the trial pitting Elon Musk against OpenAI CEO Sam Altman\nWorries about AI’s risks to humanity loom over the trial pitting Musk against OpenAI’s leadersBy BARBARA ORTUTAY a... [4983 chars]",
@@ -700,7 +724,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778277904085_2",
+      "id": "news_1778284981333_2",
       "title": "Worries about AI's risks to humanity loom over Elon Musk's trial against OpenAI",
       "summary": "OAKLAND, Calif. (AP) — At the heart of the trial pitting Elon Musk against OpenAI CEO Sam Altman is a moment when they found common cause on an ever m...",
       "content": "OAKLAND, Calif. (AP) — At the heart of the trial pitting Elon Musk against OpenAI CEO Sam Altman is a moment when they found common cause on an ever more pressing question: how to protect humanity from the risks of artificial intelligence.\nIt turned ... [4661 chars]",
@@ -770,30 +794,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7978008.html",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778111897381_af2a8e41",
-      "title": "谷歌停运 Project Mariner，跨网页自动化技术整合至 AI Mode",
-      "summary": "IT之家 5 月 7 日消息，谷歌于 5 月 4 日挂出横幅公告，宣布停运实验性网页自动化项目 Project Mariner。该项目技术并未废弃，已整合至 Gemini Agent 和 AI Mode 等核心产品中。",
-      "content": "IT之家 5 月 7 日消息，谷歌于 5 月 4 日挂出横幅公告，宣布停运实验性网页自动化项目 Project Mariner。该项目技术并未废弃，已整合至 Gemini Agent 和 AI Mode 等核心产品中。 IT之家注：谷歌 Project Mariner 项目于 2024 年 12 月首次亮相，主要任务是代替用户，执行跨网页的多步骤任务，如信息检索和操作。经过迭代，它已具备同时处理 10 个任务的能力，展现出强大的多任务并发处理潜力。 谷歌过去一年时间里，逐步将该项目的核心功能整合进自家生态。其智能体能力被分别融入 Gemini Agent（如代为归档邮件、预订酒店）以及搜索产品 AI Mode 中。 在此背景下，谷歌今年早些时候展示了 Chrome 的新 AI 功能“auto-browse”。该功能可执行查询航班价格等多步骤任务，被视为对 OpenAI 和 Perplexity 等竞品网页代理工具的直接回应。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/2eccd3ec-cca4-4c0a-a5a2-d4ee449067a5.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-05-06T23:21:39.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/947/028.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778111897641_1d252042",
-      "title": "SpaceX 向 Anthropic 开放大型 AI 超级计算机 Colossus 1 使用权，包含超 22 万颗英伟达 GPU",
-      "summary": "IT之家 5 月 7 日消息，当地时间 5 月 6 日，SpaceX 与 Anthropic 同时宣布，双方已签署协议，Anthropic 可使用 SpaceX Colossus 1 数据中心的所有算力容量，这是全球规模最大且部署速度最快的 AI 超级计算机之一。",
-      "content": "IT之家 5 月 7 日消息，当地时间 5 月 6 日，SpaceX 与 Anthropic 同时宣布，双方已签署协议，Anthropic 可使用 SpaceX Colossus 1 数据中心的所有算力容量，这是全球规模最大且部署速度最快的 AI 超级计算机之一。 IT之家从新闻稿获悉，Colossus 1 配备了超过 220,000 颗英伟达 GPU，包括密集部署的 H100、H200 以及下一代 GB200 加速器。 Anthropic 计划利用这些额外的算力来直接提升 Claude Pro 和 Claude Max 订阅用户的容量，并宣布即日起全面提高付费订阅用户的使用上限： Pro、Max、Team 以及 Enterprise 方案的 Claude Code 五小时速率限制提高一倍 取消了 Pro 和 Max 账户在高峰时段对 Claude Code 的速率限制下调 大幅提高了 Claude Opus 模型的 API 速率限制，如下表所示： 作为该协议的一部分，Anthropic 还表示有兴趣通过合作伙伴关系开发数吉瓦（gigawatts）规模的轨道 AI 算力。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/f9cfc4fe-5337-422f-af71-8398670c0ff2.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-05-06T22:53:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/947/024.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
