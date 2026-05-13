@@ -1,18 +1,66 @@
 {
   "success": true,
-  "timestamp": "2026-05-13T21:41:43.269Z",
-  "total": 51,
+  "timestamp": "2026-05-13T23:13:49.250Z",
+  "total": 54,
   "data": [
     {
-      "id": "news_1778708483759_84dc2305",
-      "title": "从「自我进化」到「DAA」，百度给出 Agent 时代系统答案",
-      "summary": "从「自我进化」到「DAA」，百度给出 Agent 时代系统答案",
-      "content": "从「自我进化」到「DAA」，百度给出 Agent 时代系统答案",
+      "id": "news_1778714027799_61465c10",
+      "title": "消息称苹果评估 AI 编程类应用入驻方案，担心恶意软件与收入流失",
+      "summary": "IT之家 5 月 14 日消息，科技媒体 The Information 昨日（5 月 13 日）报道，苹果公司正在内部讨论，如何在不触碰现有审核规则的前提下，让使用 AI Agent（智能体）的应用进入 App Store。",
+      "content": "IT之家 5 月 14 日消息，科技媒体 The Information 昨日（5 月 13 日）报道，苹果公司正在内部讨论，如何在不触碰现有审核规则的前提下，让使用 AI Agent（智能体）的应用进入 App Store。 消息称开发者近年来在其 App 中大量整合 AI 元素，不过使用 AI Agent 的应用，未必能顺利进入 App Store。 最新报道称，苹果公司正在内部讨论应对方案，目标是既不打破长期审核规则，也不放过这波新应用带来的收入机会。 IT之家援引博文介绍，本次审核的核心冲突集中在 Agentic Coding（智能体编程）和 Vibe Coding（氛围编程）类应用中，这类应用可用 AI 写代码、生成程序，甚至替用户做出新的软件。 而根据苹果官方设定的 App Store Review（应用商店审核），禁止应用在 iPhone 和 iPad 上直接编程并生成其他应用，导致这类产品天然更容易卡在审核环节。 该媒体指出对于苹果公司而言，一旦开闸，那么将极大弱化现有的审核流程。如果某个应用通过审核后，再由内部 AI 生成 Apple 事先无法检查的新代码，那就可能绕开现有安全把关。原文也提到，这类应用还可能让用户少买其他 App，从而削弱 App Store 的分发和抽成收入。 因此消息称苹果公司内部正在探索一条折中路线，内部工作之一是设计一套让相关应用遵守隐私和安全标准的系统。但这也意味着，能力范围更大、能深度调用系统资源的 Agentic AI，未必能直接登陆 iPhone。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-05-13T23:04:18.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/950/076.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778713998981_ed2bce63",
+      "title": "阿里吴泳铭：未来三年资本开支可能远超3800亿，可能销售平头哥AI服务器",
+      "summary": "5月13日，阿里巴巴CEO吴泳铭在财报会上表示，阿里计划，未来阿里云所持有的数据机房资产将是2022年AI爆发前的十倍以上增长，阿里未来三年的资本开支可能远超3800亿。",
+      "content": "5月13日，阿里巴巴CEO吴泳铭在财报会上表示，阿里计划，未来阿里云所持有的数据机房资产将是2022年AI爆发前的十倍以上增长，阿里未来三年的资本开支可能远超3800亿。他同时提到，目前情况复杂，不见得所有算力中心都会自建去获取，也可能以租赁方式获取，随着平头哥芯片产能扩大，也可能通过销售平头哥AI服务器的方式去和服务商共建数据中心。（第一财经）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-05-13T23:03:30.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3807869993360902?f=rss",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778714011731_f26c2813",
+      "title": "当 AI Agent 走进生产数据库，DBA 的角色正在被重新定义",
+      "summary": "当 AI Agent 走进生产数据库，DBA 的角色正在被重新定义",
+      "content": "当 AI Agent 走进生产数据库，DBA 的角色正在被重新定义",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-05-13T18:58:26.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/aaLabGa4T7z5m1UBiJ2O?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-05-13T17:22:58.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/79tRpwBeNjESHu3c3YLb?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778714013381_7c6f81a1",
+      "title": "GitHub 如何保障现代CI/CD系统中智能体工作流的安全",
+      "summary": "GitHub 如何保障现代CI/CD系统中智能体工作流的安全",
+      "content": "GitHub 如何保障现代CI/CD系统中智能体工作流的安全",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-13T16:08:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/ACTA4vlLcqBOTu5vw2cR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778714015425_e75ee1b9",
+      "title": "Manus 交易失败后，创始人仍在谈论 Agent 时代的成功经验",
+      "summary": "Manus 交易失败后，创始人仍在谈论 Agent 时代的成功经验",
+      "content": "Manus 交易失败后，创始人仍在谈论 Agent 时代的成功经验",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-13T16:02:25.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/bqjNfpZk9b3UoVXav3ee?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -50,18 +98,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/950/065.htm",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778708490455_633736bf",
-      "title": "智能体成新型攻击入口？模型上线前OpenAI内部到底审什么？董事会成员首次详解",
-      "summary": "智能体成新型攻击入口？模型上线前OpenAI内部到底审什么？董事会成员首次详解",
-      "content": "智能体成新型攻击入口？模型上线前OpenAI内部到底审什么？董事会成员首次详解",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-13T14:18:40.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/9lIsQifBWYzKi9j3D88I?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1778699218119_9d1ecb45",
@@ -160,6 +196,30 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1778714021577_84470077",
+      "title": "局中局！给 Agent 装上 OpenViking，它们竟然学会了“记仇”和“伪装”？",
+      "summary": "局中局！给 Agent 装上 OpenViking，它们竟然学会了“记仇”和“伪装”？",
+      "content": "局中局！给 Agent 装上 OpenViking，它们竟然学会了“记仇”和“伪装”？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-13T10:50:59.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/CWa1OBVphAdE6wgxPJlA?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778714022868_9a6022f7",
+      "title": "OpenAI 推出基于 WebSocket 的执行模式，减少代理工作流延迟",
+      "summary": "OpenAI 推出基于 WebSocket 的执行模式，减少代理工作流延迟",
+      "content": "OpenAI 推出基于 WebSocket 的执行模式，减少代理工作流延迟",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-13T10:34:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Bh5aINDHFALibFhNWEKi?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1778668928363_2ddc7dee",
       "title": "机器人行业最缺的，已经不是想象力了",
       "summary": "机器人行业最缺的，已经不是想象力了",
@@ -196,7 +256,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778708461149_0",
+      "id": "news_1778713991943_0",
       "title": "Notable Researchers Join $4 Billion Effort to Build Self-Improving A.I.",
       "summary": "Companies like Anthropic and OpenAI released new A.I. systems late last year that were particularly good at writing computer code.\nIn recent months, t...",
       "content": "Companies like Anthropic and OpenAI released new A.I. systems late last year that were particularly good at writing computer code.\nIn recent months, the technology has rapidly remade the way that Silicon Valley’s engineers build, test and modify new ... [1210 chars]",
@@ -304,7 +364,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778708461147_1",
+      "id": "news_1778713992731_1",
       "title": "Here’s What Musk And Altman Have Said About Each Other At Trial",
       "summary": "Breaking Business Musk Vs. Altman: What The Dueling Billionaires Have Said About Each Other At Trial By Antonio Pequeño IV , Forbes Staff. Pequeño is ...",
       "content": "Topline\nElon Musk and Sam Altman’s ongoing feud has moved to the witness stand recently as Musk’s lawsuit against OpenAI has gone to trial, producing some revelatory information about the dueling billionaires and their experience at OpenAI.\nKey Facts... [1684 chars]",
@@ -328,7 +388,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778708461652_2",
+      "id": "news_1778713993041_2",
       "title": "OpenAI chief Sam Altman makes a high-stakes appearance in his court bout with Elon Musk",
       "summary": "OAKLAND, Calif. (AP) — OpenAI CEO Sam Altman took the witness stand Tuesday to defend his business record in a trial pitting him against Elon Musk, re...",
       "content": "OAKLAND, Calif. (AP) — OpenAI CEO Sam Altman took the witness stand Tuesday to defend his business record in a trial pitting him against Elon Musk, rebutting testimony that disparaged his leadership at a pivotal time for the ChatGPT maker.\nMusk, the ... [1097 chars]",
@@ -340,7 +400,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778708461150_3",
+      "id": "news_1778713992556_3",
       "title": "‘ChatGPT for doctors' moved from Mass. to Florida, now expanding",
       "summary": "An artificial intelligence company behind a chatbot system that helps doctors with medical diagnoses moved to Florida from Massachusetts last year and...",
       "content": "An artificial intelligence company behind a chatbot system that helps doctors with medical diagnoses moved to Florida from Massachusetts last year and is now expanding there with the help of a national medical society.\nFounded in 2022, OpenEvidence —... [487 chars]",
@@ -352,7 +412,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778708461232_4",
+      "id": "news_1778713992339_4",
       "title": "Grok downloads fall nearly 60%",
       "summary": "This audio is auto-generated. Please let us know if you have feedback.\nDownloads of X’s separate Grok app have declined significantly in recent months...",
       "content": "This audio is auto-generated. Please let us know if you have feedback.\nDownloads of X’s separate Grok app have declined significantly in recent months, pointing to an uphill battle for Elon Musk’s xAI project as it looks to compete with bigger player... [3565 chars]",
@@ -424,7 +484,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778708461129_5",
+      "id": "news_1778713992383_5",
       "title": "China Sought Access to Anthropic’s Newest A.I. The Answer Was No.",
       "summary": "A representative from a Chinese think tank approached officials from Anthropic at a meeting in Singapore last month to insist that the company change ...",
       "content": "A representative from a Chinese think tank approached officials from Anthropic at a meeting in Singapore last month to insist that the company change its stance and give Beijing access to its powerful new artificial intelligence model, according to p... [2285 chars]",
@@ -590,30 +650,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/7984458.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778540627431_032225d3",
-      "title": "美国加州版创新 1 美元硬币公布：纪念苹果乔布斯，总产量 25950 枚",
-      "summary": "IT之家 5 月 12 日消息，科技媒体 AppleInsider 昨日（5 月 11 日）发布博文，报道称美国铸币局计划于 2026 年推出加州版“美国创新 1 美元硬币”，主角是前苹果首席执行官史蒂夫 · 乔布斯（Steve Jobs）。",
-      "content": "IT之家 5 月 12 日消息，科技媒体 AppleInsider 昨日（5 月 11 日）发布博文，报道称美国铸币局计划于 2026 年推出加州版“美国创新 1 美元硬币”，主角是前苹果首席执行官史蒂夫 · 乔布斯（Steve Jobs）。 IT之家注：“美国创新 1 美元硬币”是美国自 2018 年启动的官方纪念硬币项目，按州、哥伦比亚特区和美国海外领地分别发行主题设计，用来纪念当地的创新成果或代表人物。 到目前为止，已有 33 个州的硬币设计发布或亮相，题材覆盖宾夕法尼亚州的脊髓灰质炎疫苗、新泽西州的灯泡、俄亥俄州的地下铁路和得州的国际空间站。 这些硬币虽然保留 1 美元面值，但销售时常以纪念和收藏属性定价，因此市场关注点通常不在支付能力，而在题材、数量和稀缺性。 加州版硬币面值为 1 美元，但官方售价高于面值，25 枚卷装售 61 美元（现汇率约合 415.2 元人民币），100 枚袋装售 154.50 美元（现汇率约合 1052 元人民币），折合单枚最低约 1.55 美元。 产品将于 2026 年 5 月 12 日在美国铸币局官网开售，总产量 25950 枚，每户购买卷装和袋装各限 10 件。 美国铸币局介绍，加州版硬币将展示“坐在北加州橡树山丘景观前的年轻乔布斯”。在选题和设计流程上，铸币局会直接与各州州长办公室或其他行政负责人合作，再由美国财政部长敲定最终设计。新闻稿中，加州州长 Gavin Newsom 将乔布斯描述为体现加州创新和创业精神的人物。 硬币设计还会加入“Steve Jobs”和“Make Something Wonderful”字样。后一句来自 Steve Jobs 在 2007 年 10 月 23 日一次 Apple 内部员工沟通会上的表述。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/4b489d8c-d361-4bd5-86dd-bbe9c3e2ded1.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-05-11T22:59:31.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/949/043.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778708460979_6",
-      "title": "Microsoft CEO Satya Nadella testifies in OpenAI trial",
-      "summary": "Microsoft CEO Satya Nadella took the witness stand Monday in a trial about control of the artificial intelligence startup OpenAI, making him the third...",
-      "content": "Microsoft CEO Satya Nadella took the witness stand Monday in a trial about control of the artificial intelligence startup OpenAI, making him the third tech billionaire to testify in the closely watched lawsuit in as many weeks.\nNadella’s testimony fo... [4149 chars]",
-      "imageUrl": "https://media.nbcchicago.com/2026/05/MICROSOFT-CEO.jpg?quality=85&strip=all&resize=1200%2C675",
-      "source": "NBC 5 Chicago",
-      "publishedAt": "2026-05-11T21:50:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.nbcchicago.com/news/national-international/microsoft-ceo-satya-nadella-testifies-musk-openai-trial/3934505/",
-      "aiInsight": ""
     }
   ]
 }
