@@ -1,20 +1,8 @@
 {
   "success": true,
-  "timestamp": "2026-05-15T18:32:05.883Z",
-  "total": 56,
+  "timestamp": "2026-05-15T22:10:01.221Z",
+  "total": 52,
   "data": [
-    {
-      "id": "news_1778869909541_d895bdb2",
-      "title": "Kubernetes v1.36 发布：安全默认配置强化，AI 工作负载支持日趋成熟",
-      "summary": "Kubernetes v1.36 发布：安全默认配置强化，AI 工作负载支持日趋成熟",
-      "content": "Kubernetes v1.36 发布：安全默认配置强化，AI 工作负载支持日趋成熟",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-15T20:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/kNkrHGzRvA7r6pRtlGB5?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
     {
       "id": "news_1778844678449_a0425537",
       "title": "“一人公司”正在重做AI创业？极客部落首场16个OPC项目路演：AI 创业已从“卷模型”转向“卷闭环”",
@@ -25,6 +13,30 @@
       "publishedAt": "2026-05-15T17:42:45.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/7m4Os8IANbmWbDOc4wDj?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778882990238_d3fdeed6",
+      "title": "当AI助手进化为自主智能体：英伟达如何携手 SAP 重构企业级“信任逻辑”？",
+      "summary": "当AI助手进化为自主智能体：英伟达如何携手 SAP 重构企业级“信任逻辑”？",
+      "content": "当AI助手进化为自主智能体：英伟达如何携手 SAP 重构企业级“信任逻辑”？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-15T17:15:43.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/wEexICwqpBc5TsScTyiB?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1778882991555_024f7a42",
+      "title": "兼顾效率、成本与能力，百灵开源旗舰推理模型 Ring-2.6-1T",
+      "summary": "兼顾效率、成本与能力，百灵开源旗舰推理模型 Ring-2.6-1T",
+      "content": "兼顾效率、成本与能力，百灵开源旗舰推理模型 Ring-2.6-1T",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-15T15:08:25.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/rtbXo0YG1cQ0kFwd2ueK?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -62,30 +74,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7989694.html",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778869916476_e28057f7",
-      "title": "蚂蚁灵波开源LingBot-VLA真机后训练全流程代码，150条示教数据即可适配新机器人",
-      "summary": "蚂蚁灵波开源LingBot-VLA真机后训练全流程代码，150条示教数据即可适配新机器人",
-      "content": "蚂蚁灵波开源LingBot-VLA真机后训练全流程代码，150条示教数据即可适配新机器人",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-15T10:08:15.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/5QHOQQCUdrGBBNfmm4Dk?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778869918657_175afbcc",
-      "title": "科大讯飞面向超大规模教育场景的 Agent 系统架构演进与工程实践｜AICon上海",
-      "summary": "科大讯飞面向超大规模教育场景的 Agent 系统架构演进与工程实践｜AICon上海",
-      "content": "科大讯飞面向超大规模教育场景的 Agent 系统架构演进与工程实践｜AICon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-15T10:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/yuljK2uBsZXszoWbZhOS?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1778844672870_bc894f54",
@@ -208,7 +196,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778869609139_0",
+      "id": "news_1778882700188_0",
       "title": "From ChatGPT to deepfakes: Osceola schools confront AI challenges",
       "summary": "The Osceola County School District is taking steps to keep up with the everchanging world of artificial intelligence. At a workshop last week, the Sch...",
       "content": "The Osceola County School District is taking steps to keep up with the everchanging world of artificial intelligence. At a workshop last week, the School Board discussed the use and abuse of AI by students—and the consequences of such actions.\nCommon... [3907 chars]",
@@ -244,7 +232,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1778869608286_1",
+      "id": "news_1778882700230_1",
       "title": "“I told you in my opening statement you wouldn’t hear very much from Microsoft, and you haven’t”",
       "summary": "E\nThe Verge\n“I told you in my opening statement you wouldn’t hear very much from Microsoft, and you haven’t”\nGod bless. We are in the Microsoft closin...",
       "content": "E\nThe Verge\n“I told you in my opening statement you wouldn’t hear very much from Microsoft, and you haven’t”\nGod bless. We are in the Microsoft closing statements. “Microsoft never found a single page of a single document” that referenced Musk’s alle... [503 chars]",
@@ -256,19 +244,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778869920682_57d46f68",
-      "title": "当 Agent 开始接管工作流，企业最在意的三件事：安全运行、稳定交付、持续进化",
-      "summary": "当 Agent 开始接管工作流，企业最在意的三件事：安全运行、稳定交付、持续进化",
-      "content": "当 Agent 开始接管工作流，企业最在意的三件事：安全运行、稳定交付、持续进化",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-14T19:45:22.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/gEPoH90ZqdWLPimRcQez?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778869608577_2",
+      "id": "news_1778882700035_2",
       "title": "Musk, OpenAI lawyers begin closing arguments in landmark trial that could shape AI’s future",
       "summary": "OAKLAND, Calif. — Lawyers for Elon Musk and OpenAI began closing arguments Thursday in the landmark trial whose outcome could shape the future of arti...",
       "content": "OAKLAND, Calif. — Lawyers for Elon Musk and OpenAI began closing arguments Thursday in the landmark trial whose outcome could shape the future of artificial intelligence.\nMusk, the world’s richest man, was a co-founder of OpenAI, which started as a n... [4202 chars]",
@@ -280,7 +256,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778869608309_3",
+      "id": "news_1778882700387_3",
       "title": "Cerebras, A.I. Chip Maker, Rises 89% in Market Debut as Tech IPOs Ramp Up",
       "summary": "A wave of expected initial public offerings of artificial intelligence companies started with a bang on Thursday.\nCerebras, a Silicon Valley maker of ...",
       "content": "A wave of expected initial public offerings of artificial intelligence companies started with a bang on Thursday.\nCerebras, a Silicon Valley maker of A.I. chips, opened trading of its shares on the stock market at $350, up 89 percent from an I.P.O. p... [1820 chars]",
@@ -292,7 +268,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778869608482_4",
+      "id": "news_1778882699985_4",
       "title": "Closing arguments begin in Musk-OpenAI trial that could shape AI’s future",
       "summary": "OAKLAND, Calif. (AP) — Lawyers for Elon Musk and OpenAI made their final arguments Thursday in the landmark trial whose outcome could shape the future...",
       "content": "OAKLAND, Calif. (AP) — Lawyers for Elon Musk and OpenAI made their final arguments Thursday in the landmark trial whose outcome could shape the future of artificial intelligence.\nMusk, the world’s richest man, was a co-founder of OpenAI, which starte... [6719 chars]",
@@ -304,9 +280,9 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778869608378_5",
+      "id": "news_1778882700822_5",
       "title": "Musk, OpenAI lawyers begin closing arguments in landmark trial that could shape AI's future",
-      "summary": "OAKLAND, Calif. – Lawyers for Elon Musk and OpenAI began closing arguments Thursday in the landmark trial whose outcome could shape the future of arti...",
+      "summary": "Detroit to celebrate boxing legend Joe Louis with birthday event ▶ 0:46 Detroit to celebrate boxing legend Joe Louis with birthday event...",
       "content": "OAKLAND, Calif. – Lawyers for Elon Musk and OpenAI began closing arguments Thursday in the landmark trial whose outcome could shape the future of artificial intelligence.\nMusk, the world's richest man, was a co-founder of OpenAI, the company that lau... [1542 chars]",
       "imageUrl": "https://res.cloudinary.com/graham-media-group/image/upload/f_auto/q_auto/c_thumb,w_700/v1/media/gmg/VKMEOI6B3ZBNREBQBF5OJN4S6M.jpg?_a=DATAg1fkZAA0",
       "source": "WDIV ClickOnDetroit",
@@ -316,7 +292,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1778869608769_6",
+      "id": "news_1778882700040_6",
       "title": "Lawyers for Elon Musk and OpenAI make their final case in a trial that could shape AI’s future",
       "summary": "By BARBARA ORTUTAY and MATT O’BRIEN\nOAKLAND, Calif. (AP) — Lawyers for Elon Musk and OpenAI made their final arguments Thursday in the landmark trial ...",
       "content": "By BARBARA ORTUTAY and MATT O’BRIEN\nOAKLAND, Calif. (AP) — Lawyers for Elon Musk and OpenAI made their final arguments Thursday in the landmark trial whose outcome could shape the future of artificial intelligence.\nMusk, the world’s richest man, was ... [5635 chars]",
@@ -325,6 +301,18 @@
       "publishedAt": "2026-05-14T16:55:41.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.mercurynews.com/2026/05/14/lawyers-for-elon-musk-and-openai-make-their-final-case-in-a-trial-that-could-shape-ais-future/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1778882966437_7",
+      "title": "Lawyers for Elon Musk and OpenAI Make Their Final Case in a Trial That Could Shape AI's Future",
+      "summary": "OAKLAND, Calif. (AP) — Lawyers for Elon Musk and OpenAI made their final arguments Thursday in the landmark trial whose outcome could shape the future...",
+      "content": "OAKLAND, Calif. (AP) — Lawyers for Elon Musk and OpenAI made their final arguments Thursday in the landmark trial whose outcome could shape the future of artificial intelligence.\nMusk, the world's richest man, was a co-founder of OpenAI, which starte... [6610 chars]",
+      "imageUrl": "https://www.usnews.com/dims4/USNEWS/29f69c3/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F10%2F8dcffd5bdd59c881d372e669f04f24%2Fc9f2f00705c6489e892670ca24baf058Musk_OpenAI_Trial_22828.jpg",
+      "source": "U.S. News & World Report",
+      "publishedAt": "2026-05-14T16:55:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.usnews.com/news/technology/articles/2026-05-14/musk-openai-lawyers-begin-closing-arguments-in-landmark-trial-that-could-shape-ais-future",
       "aiInsight": ""
     },
     {
@@ -638,42 +626,6 @@
       "category": "国内AI",
       "originalUrl": "https://36kr.com/newsflashes/3807869993360902?f=rss",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1778820996134_7",
-      "title": "OpenAI Floats Idea of Global AI Governance Body With US, China",
-      "summary": "OpenAI would support the creation of a global governance body for artificial intelligence led by the US and including China as a member, a top company...",
-      "content": "OpenAI would support the creation of a global governance body for artificial intelligence led by the US and including China as a member, a top company executive said, hours before the start of President Donald Trump ’s high-stakes meeting with Chines... [277 chars]",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iY0rDYPB0ACM/v1/1200x800.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2026-05-13T21:36:55.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2026-05-13/openai-floats-idea-of-global-ai-governance-body-with-us-china",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1778803422020_4",
-      "title": "Sam Altman Says Elon Musk Left OpenAI Nonprofit \"For Dead\" in Explosive Trial Testimony",
-      "summary": "Sam Altman turned Elon Musk's central accusation against him in federal court on Tuesday, testifying that the Tesla CEO did not preserve OpenAI's nonp...",
-      "content": "Sam Altman turned Elon Musk's central accusation against him in federal court on Tuesday, testifying that the Tesla CEO did not preserve OpenAI's nonprofit mission but abandoned it after he failed to gain control.\n\"We were kind of left for dead,\" Alt... [2567 chars]",
-      "imageUrl": "https://d.ibtimes.com/en/full/4581965/elon-musk-sam-altman-were-among-11-person-team-that-founded-openai-2015.jpg",
-      "source": "International Business Times",
-      "publishedAt": "2026-05-13T20:06:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ibtimes.com/sam-altman-says-elon-musk-left-openai-nonprofit-dead-explosive-trial-testimony-3802742",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1778803422453_5",
-      "title": "Oakland: Testimony Closes In Liability Phase Of Musk V. Altman Trial",
-      "summary": "A marine layer hung over Oakland on Wednesday, the last day of testimony in the liability phase of Elon Musk's lawsuit against artificial intelligence...",
-      "content": "A marine layer hung over Oakland on Wednesday, the last day of testimony in the liability phase of Elon Musk's lawsuit against artificial intelligence company OpenAI and its CEO and president -- Sam Altman and Greg Brockman, respectively.\nMusk conten... [8951 chars]",
-      "imageUrl": "https://s.hdnux.com/photos/01/66/06/42/30959771/3/rawImage.jpg",
-      "source": "SFGATE",
-      "publishedAt": "2026-05-13T19:07:02.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.sfgate.com/news/bayarea/article/oakland-testimony-closes-in-liability-phase-of-22258112.php",
-      "aiInsight": ""
     }
   ]
 }
