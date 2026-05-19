@@ -1,8 +1,44 @@
 {
   "success": true,
-  "timestamp": "2026-05-19T21:40:19.616Z",
-  "total": 55,
+  "timestamp": "2026-05-19T23:13:56.783Z",
+  "total": 56,
   "data": [
+    {
+      "id": "news_1779232435439_f672bda3",
+      "title": "OpenAI 联合创始人卡帕西官宣加盟 Anthropic，重返大模型研发前线",
+      "summary": "5 月 20 日，人工智能领域顶级研究员安德烈 · 卡帕西（Andrej Karpathy）正式宣布加入 Anthropic。 作为 OpenAI 创始成员及前特斯拉 AI 总监，卡帕西此举被视为 Anthropic 在顶尖 AI 人才争夺战中的重大突破，进一步巩固了该公司作为行业精英聚集地的地位。",
+      "content": "5 月 20 日，人工智能领域顶级研究员安德烈 · 卡帕西（Andrej Karpathy）正式宣布加入 Anthropic。 作为 OpenAI 创始成员及前特斯拉 AI 总监，卡帕西此举被视为 Anthropic 在顶尖 AI 人才争夺战中的重大突破，进一步巩固了该公司作为行业精英聚集地的地位。 卡帕西将于本周正式入职 Anthropic 的预训练团队。该团队负责 Claude 大模型的预训练工作，直接决定了模型的核心知识储备与基础能力。据了解，他将重点主导建立一支全新的团队，探索利用 Claude 自身的能力来加速预训练研究，这是当前 AI 企业竞相推动 AI 开发自动化的关键前沿方向。 对于此次加盟，卡帕西在社交媒体上表示，当前大语言模型的发展正处于决定性阶段，他期待通过重返一线研发工作，参与到模型的前沿探索中。卡帕西在学术界、工业界及教育领域均具有深厚影响力。他不仅是 OpenAI 的早期核心成员，还曾在特斯拉领导计算机视觉团队，开发了 Autopilot 的核心技术。 自 2022 年从特斯拉离职后，卡帕西以技术普及者的身份在 YouTube 及社交平台积累了大量关注。他近期提出过“vibe coding”等行业概念，并公开描述了自己近期对前沿模型进行极限压力测试的状态。尽管转入一线研发，卡帕西表示他依然对教育事业保持热情，并计划在未来回归相关工作。 卡帕西的职业履历与行业内的巨头博弈深度绑定。在周一刚刚结案并以萨姆 · 奥特曼（Sam Altman）胜诉告终的马斯克诉奥特曼案中，卡帕西的动向曾作为关键证据被多次提及。2017 年，埃隆 · 马斯克利用同时担任两家公司董事的身份，将卡帕西从 OpenAI 挖角至特斯拉，领导自动驾驶（Autopilot）计算机视觉团队。法庭公开邮件显示，马斯克曾评价卡帕西是全球计算机视觉领域“排名第二的人物”，仅次于伊利亚 · 苏茨克维（Ilya Sutskever）。2022 年离开特斯拉后，卡帕西曾短暂回归 OpenAI，随后创办了 AI 教育企业 Eureka Labs 直至此次履新。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/9f78e401-e8d1-4636-be72-d3d21676d22c.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-19T23:12:50.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/952/553.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1779232435597_7674c5ae",
+      "title": "OpenAI 为应对算力紧缺推出“保证容量”服务：客户可锁定 1 至 3 年长期算力，年消费越高折扣越大",
+      "summary": "IT之家 5 月 20 日消息，OpenAI 刚刚宣布推出一项名为“保证容量”（Guaranteed Capacity）的新服务，旨在让客户能够长期锁定该公司用于人工智能工作负载的计算基础设施访问权限。 IT之家从官方获悉，该计划允许客户选择一至三年的合约期限，并根据年消费水平提供递增的折扣。",
+      "content": "IT之家 5 月 20 日消息，OpenAI 刚刚宣布推出一项名为“保证容量”（Guaranteed Capacity）的新服务，旨在让客户能够长期锁定该公司用于人工智能工作负载的计算基础设施访问权限。 IT之家从官方获悉，该计划允许客户选择一至三年的合约期限，并根据年消费水平提供递增的折扣。“保证容量”根据客户的消费水平提供确定性的算力访问保障，客户可以在 OpenAI 的全线产品组合中使用所承诺的额度。 OpenAI 表示，公司已在基础设施、合作伙伴关系及容量规划方面进行了长期投入，以帮助客户随着需求增长而扩展算力。OpenAI 称，此项服务解决了其所谓的“算力受限环境”下客户的实际需求。 该计划包含用于生产系统、面向客户的应用以及在 OpenAI 上运行的 AI 智能体的专用容量。客户可以在所支持的云服务提供商和模型家族范围内，使用其保证的消费额度，并根据业务需求灵活调整。 OpenAI 表示，客户可与其团队合作，针对各自企业的 AI 工作负载评估容量规划与基础设施配置方案。该计划使组织能够将其算力容量与预测需求、产品扩展以及多年的 AI 采用计划相匹配。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/04fb10ef-f30f-436f-b902-bebaff12c4c3.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-19T22:52:32.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/952/550.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1779232435780_2631cf24",
+      "title": "苹果 Sports 应用扩至 170+ 个市场，为 2026 世界杯引入对阵图等",
+      "summary": "IT之家 5 月 20 日消息，苹果公司昨日（5 月 19 日）宣布，Apple Sports 已新增覆盖 90 多个国家和地区，总可用范围扩大到超过 170 个市场。 Apple Sports 现在已在 90 多个新增国家和地区上线，覆盖范围从原先的北美、南美和欧洲，扩大到亚太、中东和非洲等市场。",
+      "content": "IT之家 5 月 20 日消息，苹果公司昨日（5 月 19 日）宣布，Apple Sports 已新增覆盖 90 多个国家和地区，总可用范围扩大到超过 170 个市场。 Apple Sports 现在已在 90 多个新增国家和地区上线，覆盖范围从原先的北美、南美和欧洲，扩大到亚太、中东和非洲等市场。在本次扩张后，这款应用已在全球 170 个国家和地区提供。 为了配合 2026 国际足协世界杯（FIFA World Cup），Apple Sports 加入赛程对阵图，用户可以通过可滚动界面查看每一轮对阵和结果，并追踪一支球队从小组赛到最后一场比赛的晋级路径。 Apple Sports 2026 FIFA World Cup 界面 Apple Sports 还引入可视化阵型卡片，能在比赛开始前显示双方首发阵容的站位，让用户更直观地看懂战术安排。 IT之家援引博文介绍，Apple Sports 应用还加入了一键跳转 Apple News 的入口，方便用户从比分页面直接进入相关新闻报道。 苹果公司强调，Apple Sports 支持 Live Activities，用户可以在 iPhone 锁屏、灵动岛以及 Apple Watch 上，快速查看自己关注球队的比分和比赛进展，这对只想“抬手看一眼”的用户更实用。 Apple 负责 Music、Sports、Apple TV 和 Beats 的副总裁 Oliver Schusser 表示，世界杯能把全球球迷连接起来，因此也是把 Apple Sports 带给更多用户的合适时机。 不过，Apple 也说明，Apple Sports 目前仍然只支持 iPhone，对于 iPad、Mac 和其他平台用户而言，暂时还无法单独使用这款应用。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/ec6cd9b7-9537-455d-88aa-875c74b31dd7.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-19T22:26:31.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/952/546.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1779193068831_97501dec",
       "title": "蜂群Agent来了！openJiuwen社区发布JiuwenSwarm，引领Coordination Engineering新范式",
@@ -88,16 +124,16 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1779226809562_92cc7f40",
-      "title": "05·29 腾讯云「数据库+AI」产品发布会重磅启幕",
-      "summary": "05·29 腾讯云「数据库+AI」产品发布会重磅启幕",
-      "content": "05·29 腾讯云「数据库+AI」产品发布会重磅启幕",
+      "id": "news_1779232424027_089346a8",
+      "title": "AMD苏妈对话李开复：AI转型只能由CEO驱动、未来“DRI”（直接负责人）将是企业核心｜直击现场",
+      "summary": "AMD苏妈对话李开复：AI转型只能由CEO驱动、未来“DRI”（直接负责人）将是企业核心｜直击现场",
+      "content": "AMD苏妈对话李开复：AI转型只能由CEO驱动、未来“DRI”（直接负责人）将是企业核心｜直击现场",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-05-19T14:50:50.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/FAhJ08IG1ffzxw1OYYza?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-05-19T16:50:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/jFHWeWQONCamboTNyw5l?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1779208130868_a6690fdc",
@@ -110,30 +146,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/7994018.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779226811144_64750a0f",
-      "title": "Airbnb 采用基于上下文的身份识别模型，支持隐私优先的社交功能",
-      "summary": "Airbnb 采用基于上下文的身份识别模型，支持隐私优先的社交功能",
-      "content": "Airbnb 采用基于上下文的身份识别模型，支持隐私优先的社交功能",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-19T13:46:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/IfmltpVtyyg7Lv9ruzzo?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779226812833_5ef161d0",
-      "title": "Anthropic首次揭秘下一代Claude怎么造！用户吐槽直接喂模型，连AI“做梦”都被训练",
-      "summary": "Anthropic首次揭秘下一代Claude怎么造！用户吐槽直接喂模型，连AI“做梦”都被训练",
-      "content": "Anthropic首次揭秘下一代Claude怎么造！用户吐槽直接喂模型，连AI“做梦”都被训练",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-19T13:21:43.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/8AFM65dK2wFMypqoz6ok?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1779208120484_57200bb2",
@@ -170,6 +182,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/952/462.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1779232398558_0",
+      "title": "OpenAI avoided a costly court loss to Elon Musk, but neither side is unscathed",
+      "summary": "OAKLAND, Calif. (AP) — After prevailing in its court fight with Elon Musk, OpenAI — the ChatGPT maker valued at $852 billion — remains on track for wh...",
+      "content": "OAKLAND, Calif. (AP) — After prevailing in its court fight with Elon Musk, OpenAI — the ChatGPT maker valued at $852 billion — remains on track for what could be one of the largest initial public offerings in history.\nMusk had been seeking the ouster... [1429 chars]",
+      "imageUrl": "https://images.ajc.com/resizer/v2/Y2ZHSW6S6VELFBR56MEU44JLLQ.jpg?auth=38f55c86ad28c8c0229b154c8f9bc195661cff428f9aaaae0cac203f7b853901&width=1200&height=630&smart=true",
+      "source": "The Atlanta Journal-Constitution",
+      "publishedAt": "2026-05-19T10:42:09.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ajc.com/news/2026/05/openai-avoided-a-costly-court-loss-to-elon-musk-but-neither-side-is-unscathed/",
+      "aiInsight": ""
     },
     {
       "id": "news_1779193081901_30778213",
@@ -376,7 +400,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1779226779703_0",
+      "id": "news_1779232399559_1",
       "title": "Real-time prediction of cardiorespiratory deterioration during paediatric critical care transport using interpretable machine learning",
       "summary": "Methods\nStudy approval\nThe study was approved by Great Ormond Street Hospital’s (GOSH) Research and Innovation Department, under ethical approvals for...",
       "content": "Methods\nStudy approval\nThe study was approved by Great Ormond Street Hospital’s (GOSH) Research and Innovation Department, under ethical approvals for use of routine de-identified healthcare and operational hospital data (Research Database, NHS REC r... [32148 chars]",
@@ -412,7 +436,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1779226779310_1",
+      "id": "news_1779232398258_2",
       "title": "Jury throws out Musk's lawsuit against OpenAI and Sam Altman",
       "summary": "Geoff Bennett:\nThe trial pitting two of the world's biggest tech billionaires against each other has come to an end.\nA federal judge in California tod...",
       "content": "Geoff Bennett:\nThe trial pitting two of the world's biggest tech billionaires against each other has come to an end.\nA federal judge in California today dismissed a lawsuit from Elon Musk against the maker of ChatGPT after a jury found that he exceed... [6157 chars]",
@@ -424,7 +448,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1779226778888_2",
+      "id": "news_1779232398223_3",
       "title": "After Elon Musk’s Court Loss Comes the Long Hot A.I. Summer",
       "summary": "Elon Musk lost his bid to derail OpenAI. Few will feel sorry for him.\nUnless you are a corporate chieftain or a venture capitalist, you might want to ...",
       "content": "Elon Musk lost his bid to derail OpenAI. Few will feel sorry for him.\nUnless you are a corporate chieftain or a venture capitalist, you might want to take a moment, however, to feel sorry for yourself. The juggernaut of artificial intelligence bearin... [314 chars]",
@@ -436,7 +460,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1779226779092_3",
+      "id": "news_1779232398111_4",
       "title": "Elon Musk Loses $150 Billion Suit Against OpenAI and Sam Altman",
       "summary": "Elon Musk’s $150 billion lawsuit against OpenAI and Sam Altman was quickly rejected by a federal jury on Monday, in a major blow to Mr. Musk’s credibi...",
       "content": "Elon Musk’s $150 billion lawsuit against OpenAI and Sam Altman was quickly rejected by a federal jury on Monday, in a major blow to Mr. Musk’s credibility and his effort to become a serious competitor in the artificial intelligence race.\nThe nine-mem... [1635 chars]",
@@ -448,7 +472,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1779226779111_4",
+      "id": "news_1779232397897_5",
       "title": "Federal court rejects Elon Musk’s claims against OpenAI, saying he filed his lawsuit too late",
       "summary": "Elon Musk arrives at the U.S. District Court in Oakland, Calif., Tuesday, April 28, 2026. (AP Photo/Godofredo A. Vásquez)(AP/Godofredo A. Vásquez) Elo...",
       "content": "The nine-person jury found Musk waited too long to file his lawsuit and missed a statutory deadline. After a three-week trial, the jury deliberated less than two hours.\nMusk, the world’s richest man, was a co-founder of OpenAI, which launched in 2015... [4544 chars]",
@@ -460,7 +484,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1779226779097_5",
+      "id": "news_1779232397968_6",
       "title": "Instant View: California jury sides with OpenAI over Musk lawsuit",
       "summary": "May 18 (Reuters) - A U.S. jury in Oakland, California, ruled against Elon Musk in his lawsuit against OpenAI on Monday, ​finding the artificial intell...",
       "content": "May 18 (Reuters) - A U.S. jury in Oakland, California, ruled against Elon Musk in his lawsuit against OpenAI on Monday, ​finding the artificial intelligence company not liable for ‌allegedly straying from its original mission to benefit humanity.\nIn ... [1231 chars]",
@@ -472,7 +496,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1779226780616_6",
+      "id": "news_1779232398431_7",
       "title": "Federal court rejects Elon Musk's claims against OpenAI, saying he filed his lawsuit too late",
       "summary": "OAKLAND, Calif. (AP) — A federal court on Monday dismissed claims filed against OpenAI and its top executives by Elon Musk, who accused them of betray...",
       "content": "OAKLAND, Calif. (AP) — A federal court on Monday dismissed claims filed against OpenAI and its top executives by Elon Musk, who accused them of betraying a shared vision for it to remain a nonprofit dedicated to guiding artificial intelligence’s deve... [1434 chars]",
@@ -484,7 +508,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1779226778836_7",
+      "id": "news_1779232398389_8",
       "title": "What to Know About Elon Musk’s Trial Against OpenAI",
       "summary": "A jury reached a decision on Monday on Elon Musk’s blockbuster lawsuit against OpenAI, finding that the billionaire brought his suit after the statute...",
       "content": "A jury reached a decision on Monday on Elon Musk’s blockbuster lawsuit against OpenAI, finding that the billionaire brought his suit after the statute of limitations expired.\nMr. Musk co-founded OpenAI in 2015 with Sam Altman and other artificial int... [1536 chars]",
@@ -650,18 +674,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.aroundosceola.com/index.php/news/chatgpt-deepfakes-osceola-schools-confront-ai-challenges",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1779063090775_8cda5a8e",
-      "title": "警惕 AI 造谣传谣！“张家界大峡谷玻璃桥断裂垮塌”视频系伪造",
-      "summary": "IT之家 5 月 18 日消息，一条发布于 4 月 26 日的“湖南张家界大峡谷玻璃桥断裂垮塌”视频近期在网上流传，并迅速引发关注，视频画面看起来十分惊险，大量游客四处奔跑避险，有数名游客从桥面坠落。",
-      "content": "IT之家 5 月 18 日消息，一条发布于 4 月 26 日的“湖南张家界大峡谷玻璃桥断裂垮塌”视频近期在网上流传，并迅速引发关注，视频画面看起来十分惊险，大量游客四处奔跑避险，有数名游客从桥面坠落。 这段 13 秒的视频里有坍塌声和尖叫声，配文是“没事就别总想着出去玩了，还是家里安全”，并加上了有关张家界的话题词。而据央视新闻报道，发布这则视频的马某某并不在张家界，他是用 AI 生成的虚假视频，而原始图片竟是他十年前在张家界大峡谷景区拍摄的。 IT之家注意到，目前相关虚假视频已全部下架清理，嫌疑人马某某因涉嫌编造、故意传播虚假信息罪，被公安机关依法采取刑事强制措施，案件还在进一步侦办中。 而据马某某自己坦白，他刷到了一条玻璃索道坍塌的视频，上面写是用 AI 来制作，自己就点它来拍同款，图片是 10 年前张家界大峡谷拍的照片。因为自己看了平台那个短视频，它原视频的流量热度比较高，自己就想，发的视频会不会也一样火。 截至 4 月 29 日，该视频发布仅 4 天，点赞量达 1.5 万次，转发量超 1.1 万次。警方调查发现，4 月 30 日该视频被举报下架后，5 月 1 日马某某又截取视频中的图片再次发布。 IT之家提醒：AI 是方便大家生活的技术工具，但绝不是我们随意造谣、博眼球、赚流量的工具，网络更不是法外之地，千万不要为了流量触碰法律底线。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/bbf2c85c-28b0-4324-9c88-8371de50b818.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-05-17T23:08:23.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/951/587.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
