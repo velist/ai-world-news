@@ -1,20 +1,8 @@
 {
   "success": true,
-  "timestamp": "2026-05-23T06:42:37.273Z",
-  "total": 70,
+  "timestamp": "2026-05-23T11:20:28.805Z",
+  "total": 57,
   "data": [
-    {
-      "id": "news_1779518540773_0400af6b",
-      "title": "OpenAI 详解规模化低延迟语音 AI 的 WebRTC 架构",
-      "summary": "OpenAI 详解规模化低延迟语音 AI 的 WebRTC 架构",
-      "content": "OpenAI 详解规模化低延迟语音 AI 的 WebRTC 架构",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-23T14:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/HzTpYj4SIqzFOHybIO2q?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
     {
       "id": "news_1779508834859_a847fbad",
       "title": "华为鸿蒙突击队编程框架首席技术专家谢国确认出席AICon上海站，并以鸿蒙为例分享AI 时代的跨平台框架演进",
@@ -26,6 +14,42 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/SS6HIq6yvrJaV4PJMHG1?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1779535227801_f89ee006",
+      "title": "湖北电信与华为打造 5G-AxAI 大上行网络：多穿一堵墙，单用户最高 1Gbps 上行",
+      "summary": "IT之家 5 月 23 日消息，“华为无线网络”公众号昨日发文，作为 517 世界电信和信息社会日系列活动，中国电信股份有限公司湖北分公司（以下简称“湖北电信”）携手华为率先在武汉江汉路步行街打造 5G-AxAI 大上行样板点。",
+      "content": "IT之家 5 月 23 日消息，“华为无线网络”公众号昨日发文，作为 517 世界电信和信息社会日系列活动，中国电信股份有限公司湖北分公司（以下简称“湖北电信”）携手华为率先在武汉江汉路步行街打造 5G-AxAI 大上行样板点。 IT之家从官方介绍获悉，随着 Mobile AI 业务不断涌现，手机采集的庞大多媒体数据需要实时传送至云端进行处理，对网络上行速率提出了前所未有的挑战。在武汉黄陂区大上行示范区，湖北电信携手华为，创新采用 1.8GHz+2.1GHz 双频 8T8R 解决方案。该方案基于 FDD 8T8R 技术，融合高增益阵列、精准波束扫描、高分辨率空域配对等领先能力，相比传统解决方案实现跃升： 更广覆盖：穿墙能力更强，室内深度覆盖提升 3~5dB，可多穿一堵墙。 更优体验：依托“波随人动”、功率精准投放及全时全域节能调度算法，提升谱效率、降低干扰、减少功耗，整体体验提升 40%。 更大上行：1.8GHz、2.1GHz 与 3.5GHz 多频协同，为单用户提供最高 1Gbps 上行能力基础；通过链路管理、频谱协同、小区协同持续优化，实现“随时随地 20Mbps”上行能力，为 Mobile AI 业务提供稳定支撑。 更低能耗：采用第三代半导体材料、预失真算法及高集成架构，并结合功率共享、时频功空关断技术、极致休眠等节能技术，能耗大幅降低。 此外，双频 8T8R 方案可整合原有单频模块，减少设备盒子数量，打造极简站点，进一步节省站点租金。 湖北电信表示，基于双频 8T8R 方案的大上行示范区的建成，是其推进“5G-AxAI 大上行”战略的重要实践，当前已在武汉江汉路步行街先行试点。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/e59c5018-23f3-489e-8b19-d982409863c6.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-23T09:46:49.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/954/393.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1779535208573_cf9e2b92",
+      "title": "【数智周报】  谷歌推出Gemini 3.5系列模型；阿里发布新一代千问旗舰模型Qwen3.7-Max；Meta内部文件曝光：拟裁员10%，全面转向AI架构",
+      "summary": "（5月18日~5月23日）中国信通院启动首批“人工智能营销客服平台能力”测评；华大基因启用“华大时空智惠健康中心”；xAI推出Skills；谷歌推出全天候AI代理Gemini Spark...",
+      "content": "（5月18日~5月23日）中国信通院启动首批“人工智能营销客服平台能力”测评；华大基因启用“华大时空智惠健康中心”；xAI推出Skills；谷歌推出全天候AI代理Gemini Spark",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-05-23T09:06:40.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/7999893.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1779535200503_d6356d50",
+      "title": "DeepSeek-V4-Pro API永久降价",
+      "summary": "36氪获悉，据DeepSeek官微，DeepSeek-V4-Pro模型API价格将于2026年5月31日结束2.5折优惠活动后，正式调整为原定价的1/4。",
+      "content": "36氪获悉，据DeepSeek官微，DeepSeek-V4-Pro模型API价格将于2026年5月31日结束2.5折优惠活动后，正式调整为原定价的1/4。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-05-23T08:04:04.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3821591669166214?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1779518555474_3c36b881",
@@ -160,19 +184,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1779518544524_5078b7fc",
-      "title": "买了卡不等于买到生产力：企业 Token 焦虑，逼出 AI Infra 新战场",
-      "summary": "买了卡不等于买到生产力：企业 Token 焦虑，逼出 AI Infra 新战场",
-      "content": "买了卡不等于买到生产力：企业 Token 焦虑，逼出 AI Infra 新战场",
+      "id": "news_1779535218996_fdeda0a2",
+      "title": "AI Coding 很强，为什么企业没提速？",
+      "summary": "AI Coding 很强，为什么企业没提速？",
+      "content": "AI Coding 很强，为什么企业没提速？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-05-22T20:34:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/TLRAmZy8pPICVFVWmu6p?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-05-22T18:15:47.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/L2Joj8CCghK126zbga2h?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1779518518974_0",
+      "id": "news_1779535193275_0",
       "title": "OpenAI Crushed Anthropic in Q1 Revenue and Still Hemorrhaged Billions",
       "summary": "OpenAI , the artificial intelligence (AI) firm behind ChatGPT, has surpassed rival Anthropic , the startup behind the Claude models, in quarterly reve...",
       "content": "OpenAI, the artificial intelligence (AI) firm behind ChatGPT, has surpassed rival Anthropic, the startup behind the Claude models, in quarterly revenue. The firm pulled in a massive $5.7 billion in the first quarter of 2026, beating Anthropic’s $4.8 ... [2767 chars]",
@@ -184,16 +208,28 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1779518550990_c1a91f1a",
-      "title": "千问云发布，阿里云将模型路由、认证、用量查询全面 CLI、SKill化",
-      "summary": "千问云发布，阿里云将模型路由、认证、用量查询全面 CLI、SKill化",
-      "content": "千问云发布，阿里云将模型路由、认证、用量查询全面 CLI、SKill化",
+      "id": "news_1779535220347_c905d489",
+      "title": "中经社发布“十五五”新产业研究智能体，可自主生成产业链分析报告",
+      "summary": "中经社发布“十五五”新产业研究智能体，可自主生成产业链分析报告",
+      "content": "中经社发布“十五五”新产业研究智能体，可自主生成产业链分析报告",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-05-22T16:08:57.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/zvEY7iEgQOTcIlXDPJ0i?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-05-22T18:01:21.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/2Gb32HBQU3CtTGm7oqq3?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1779535222243_e1da0419",
+      "title": "虚拟上下文窗口技术实现10倍扩容，联想天禧AI 4.0破解大模型长程推理难题",
+      "summary": "虚拟上下文窗口技术实现10倍扩容，联想天禧AI 4.0破解大模型长程推理难题",
+      "content": "虚拟上下文窗口技术实现10倍扩容，联想天禧AI 4.0破解大模型长程推理难题",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-22T17:32:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/wCwTSfI13xoY4xKQg0Oh?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1779470182659_a9938360",
@@ -220,7 +256,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1779518519462_1",
+      "id": "news_1779535193732_1",
       "title": "Anthropic set for first profitable quarter as OpenAI and xAI continue burning billions",
       "summary": "Artificial intelligence companies have spent the past three years burning cash at a pace Silicon Valley has rarely seen. Billions have gone into GPUs,...",
       "content": "Artificial intelligence companies have spent the past three years burning cash at a pace Silicon Valley has rarely seen. Billions have gone into GPUs, data centers, talent wars, and training larger AI models. Profitability felt far away, almost irrel... [3737 chars]",
@@ -640,7 +676,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1779518518853_2",
+      "id": "news_1779535193210_2",
       "title": "SpaceX, OpenAI and Anthropic Race to Go Public",
       "summary": "Andrew here. Here we go: Both SpaceX and OpenAI may be going public within weeks, or months, of each other. We dive deep into the SpaceX prospectus — ...",
       "content": "Andrew here. Here we go: Both SpaceX and OpenAI may be going public within weeks, or months, of each other. We dive deep into the SpaceX prospectus — note not just the numbers, but the unusual governance structure — and what an OpenAI I.P.O. could lo... [1960 chars]",
@@ -650,198 +686,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.nytimes.com/2026/05/21/business/dealbook/spacex-openai-anthropic-ipo.html",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1779366180677_77315f15",
-      "title": "菜鸟副总裁毕江华：仓库人效提升100%，攀爬机器人ZeeBot启动全球交付",
-      "summary": "攀爬机器人ZeeBot的平面移动速度最高可达 4 米/秒，垂直攀爬能力可实现10秒钟内爬升至 5 层楼高（约 15 米左右）的货架。",
-      "content": "攀爬机器人ZeeBot的平面移动速度最高可达 4 米/秒，垂直攀爬能力可实现10秒钟内爬升至 5 层楼高（约 15 米左右）的货架。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-21T11:07:55.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7997611.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779366182108_54624f0c",
-      "title": "硅谷 AI 格局生变：卡帕西跳槽、马斯克助阵，孙正义成孤守者",
-      "summary": "硅谷 AI 格局生变：卡帕西跳槽、马斯克助阵，孙正义成孤守者",
-      "content": "资本疯狂倒贴，极客却排队逃亡。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-21T10:32:40.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7997279.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779366172430_6fdf1c47",
-      "title": "从概念到产线一：AI在工业制造领域的深水区探索| 2026AI Partner·北京亦庄AI+产业大会",
-      "summary": "AI在工业制造领域，不是“锦上添花”的辅助工具，而是“重新设计工厂”的核心引擎。从AOI报废板的秒级识别，到刀具参数的动态优化，再到打通设计、生产、供应链的全链路智能——这场对话告诉我们，每1%的效率提升都是真金白银，AI的价值不是叠加功能，而是把“人等货”变成“货等人”。",
-      "content": "AI在工业制造领域，不是“锦上添花”的辅助工具，而是“重新设计工厂”的核心引擎。从AOI报废板的秒级识别，到刀具参数的动态优化，再到打通设计、生产、供应链的全链路智能——这场对话告诉我们，每1%的效率提升都是真金白银，AI的价值不是叠加功能，而是把“人等货”变成“货等人”。 演讲拆解了AI从概念到产线的落地路径：用自动化中台打通全链路协同，让AI在研发设计、工程预测、供应链管理、生产执行四个领域实现可量化的提效。针对不同制造业企业，给出分层方案。AI不是在某个环节帮你做得更好，而是从原生流程开始，重新定义制造业的生产力基准。 以下为嘉立创云ERP负责人 杨超 演讲内容，经36氪整理编辑： 杨超丨嘉立创云ERP负责人 尊敬的各位嘉宾、行业同仁： 大家好！感谢 36 氪与北京亦庄 AI + 产业大会提供本次交流平台。我是嘉立创云 ERP 负责人杨超，今天将围绕AI 在工业制造从概念验证到产线规模化落地的核心命题，结合嘉立创在电子制造领域的全链路实战经验，分享 AI 如何从辅助工具升级为制造生产力核心引擎，破解行业落地深水区难题。 当前，AI 已不是工业制造的锦上添花型辅助手段，而是重构工厂运行逻辑、重塑产业效率基准的核心驱动力。从研发设计、工程预测、供应链协同到生产执行，AI 的价值不在于单点功能叠加，而在于全链路打通与流程原生再造，让制造从 “人等货” 转向 “货等人”，每 1% 的效率提升都转化为实打实的经济效益。 一、AI 落地核心定位：全链路智能，重构制造生产力 嘉立创以电子制造为核心场景，打造AI 驱动的设计 - 生产 - 供应链一体化解决方案，实现 AI 技术在制造全流程的深度渗透： 研发设计端：AI 智能辅助设计、3D 模型前置智能处理、技术资料智能解析与生成，替代传统人工重复性工作，提升设计效率与准确率。 生产执行端：AI 视觉检测、加工参数智能优化、产线动态调度，破解生产瓶颈与质量隐患。 供应链协同端：需求智能预测、物料自动匹配、库存动态预警，实现供需精准匹配。 工程预测端：设备寿命预判、生产异常预警，从被动维修转向主动预防。 通过四大场景全域覆盖，AI 完成从辅助工具到核心生产力引擎的本质跨越，重新定义电子制造智能化标准。 二、实战落地案例：AI 赋能制造的可量化价值 1. AOI 报废板 AI 智能识别 传统 AOI 检测依赖人工判读，耗时久、误判率高，单块板材检测需数分钟；引入 AI 视觉识别后，实现秒级精准判定，检测效率提升 80% 以上，大幅降低误判与物料报废率，直接实现产线降本增效。 2. CNC 加工刀具参数 AI 动态优化 基于历史加工数据、设备状态、物料特性构建 AI 优化模型，实时迭代刀具运行参数，实现刀具利用率最大化、损耗最小化，延长刀具使用寿命，提升加工精度与生产稳定性。 3. 全流程自动化协同 以自动化中台为核心载体，打通设计、生产、仓储、采购、财务全链路数据壁垒，实现： 订单驱动：销售订单自动拆解生产需求、库存校验、一键采购； 生产智能：自动排产、智能领料、入库识别、库存预警； 闭环管控：生产全流程数据可追溯，效率与质量双重提升。 AI 落地的核心价值，最终体现为人力成本降低、生产效率提升、物料损耗减少、产品质量稳定四大核心指标的可量化改善。 三、分层落地方案：适配不同制造企业的 AI 转型路径 针对制造业企业数字化基础差异，我们提供分层级、可落地、低门槛的 AI+ERP 解决方案，破解企业 “不会用、不能用、不敢用” 的痛点。 方案一：无 ERP 系统的中小企业 聚焦轻量化、快部署、易上手，依托嘉立创云 ERP+AI 原生能力，降低数字化转型门槛： 深度贴合电子制造行业痛点，内置元器件库、替代料自动识别、智能排产等场景化功能； 全流程智能链路贯穿，无需复杂配置，即可实现订单 - 采购 - 生产 - 仓储 - 财务一体化自动化； 目前已服务 1 万余家制造企业，验证中小制造企业 AI 落地的可行性与规模化价值。 方案二：已有 ERP / 自研系统的中大型企业 聚焦能力升级、智能迭代、流程再造，助力企业从人工协作迈向智能治理： 需求智能生成：通过自然语言交互，快速将业务想法转化为 PRD、UI 原型等落地文档； AI 原生编程：基于需求文档自动生成代码，替代传统手动开发，缩短研发周期； 缺陷智能自愈：系统自动检测程序漏洞、生成修复补丁，完成验证与迭代，实现系统自我进化。 核心落地逻辑：AI 执行 + 人工确认，既保证智能效率，又兼顾业务可控性，实现数字化系统的原生升级。 四、核心价值与未来展望：AI 成为制造规模化放大器 1. 核心价值总结 AI 对制造的价值，不是单点提效，而是全链路范式革新： 嘉立创云作为制造企业，自身完成全链路 AI 实践验证，具备可复制的实战经验； AI 是 ERP 能力的规模化放大器，将单工厂的降本增效成果，复制服务于数上万家制造企业； 让前沿 AI 技术以低成本、快部署、易落地的方式，普惠中小制造企业。 2. 未来合作愿景 我们坚信，工业制造 AI 转型不是单点企业的孤军奋战，而是全行业的协同共进。嘉立创云愿开放全链路 AI 落地方法论、场景化解决方案、实战化技术能力，与行业同仁携手，以实战落地为核心，打造真正服务于制造业的智能 ERP 体系，推动中国工业制造向全链路智能化、规模化、高效化转型升级。 最后，感谢各位聆听，期待与各位深度合作，共筑工业 AI 新生态！ 谢谢大家！",
-      "imageUrl": "https://img.36krcdn.com/hsossms/20260521/v2_6fbdfc4310614544b11ae314bdbf4aa0@6381723_oswg100808oswg1269oswg847_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1",
-      "source": "36氪",
-      "publishedAt": "2026-05-21T10:29:53.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/p/3818903062004870?f=rss",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779366183614_18b97298",
-      "title": "Meta裁员8000人背后：扎克伯格千亿美元豪赌AI",
-      "summary": "Meta裁员8000人背后：扎克伯格千亿美元豪赌AI",
-      "content": "Meta全面押注AI。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-21T10:24:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7996168.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779366185081_d5f637b8",
-      "title": "孙正义600亿美元押注OpenAI，软银内部慌了",
-      "summary": "孙正义600亿美元押注OpenAI，软银内部慌了",
-      "content": "这一次是封神还是翻车？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-21T10:24:09.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7996159.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779366186572_d0df4427",
-      "title": "AI硬件最火的一届618，绿联科技豪赌AI NAS的未来",
-      "summary": "AI硬件最火的一届618，绿联科技豪赌AI NAS的未来",
-      "content": "现金流崩了，绿联科技在“折腾”什么？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-21T10:17:01.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7997622.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779366188898_29d6c2c0",
-      "title": "“一人公司”火了，谁靠AI员工挣到第一桶金？",
-      "summary": "“一人公司”火了，谁靠AI员工挣到第一桶金？",
-      "content": "需要抛弃“一夜暴富”的幻想。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-21T10:16:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7997791.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779366173881_eff76bbd",
-      "title": "36氪x PureblueAI清蓝战略合作启动仪式暨《2026消费品牌AI推荐力名册》发布 | 2026 AI Partner·北京亦庄AI+产业大会",
-      "summary": "36氪x PureblueAI清蓝战略合作启动仪式暨《2026消费品牌AI推荐力名册》发布 | 2026 AI Partner·北京亦庄AI+产业大会 未来一氪 · 2026年05月21日 18:03...",
-      "content": "5月19日，2026北京亦庄AI+产业大会上，36氪与PureblueAI清蓝正式达成战略合作，并联合发布《2026消费品牌AI推荐力名册》。随着AI逐渐成为新的信息入口和消费决策入口，品牌在AI回答中是否被提及、是否被推荐、排序是否靠前，正在成为新的竞争维度。36氪副总裁迟涵表示，36氪是最早发现和报道GEO的媒体，PureblueAI清蓝在自研技术算法和“科学GEO”方法论上的积累令其成为可信的合作伙伴。PureblueAI清蓝市场副总裁李铭则用“最敏锐的商业洞察和最硬核的AI营销技术的融合”来形容此次合作，并透露该名册将分期、分行业持续发布，为品牌在AI时代提供“AI语境下的体检报告和风向标”。 迟涵丨36氪副总裁 李铭丨PureblueAI清蓝 市场副总裁 主持人：随着AI逐渐成为新的信息入口和消费决策入口，品牌竞争正在从传统搜索、电商货架、内容平台，进一步延伸到AI回答和AI推荐场景。品牌在AI回答中是否被提及、是否被推荐、排序是否靠前，正在变得越来越重要。 36氪长期关注新经济、新消费与科技商业趋势，PureblueAI清蓝则以“科学GEO”方法论为核心，为企业提供AI口碑营销服务。双方将从产业观察与AI口碑营销实践两个角度出发，持续关注品牌在AI平台中的推荐表现，为行业提供新的观察参考。接下来，我们邀请双方负责人上台，一起聊聊这次战略合作背后的思考，并共同开启36氪与PureblueAI清蓝战略合作启动仪式暨《2026消费品牌AI推荐力名册》发布环节。掌声有请 36氪副总裁迟涵、PureblueAI清蓝市场副总裁李铭。 主持人：两位负责人好。刚才我们提到，随着AI逐渐进入消费决策场景，品牌在AI回答中的呈现方式正在变得越来越重要。在正式启动合作与发布名册之前，我们想先请两位聊一聊：双方为什么会在这个时间点选择合作？又为什么选择从“消费品牌 AI 推荐力”这个方向切入？我们先请36氪迟涵总为我们简单分享。 迟涵：相信这两天AI Partner大会听下来也能充分感受到AI对我们的工作、生活带来的变化，数字营销领域更是这样，36氪作为最早发现和最早报道GEO的媒体，我们发现PureblueAI清蓝是非常优秀的GEO合作伙伴，他们有自研的大模型算法，且合规可信，那我相信将来通过这样的合作可以让更多品牌被看到、被选择。 主持人：感谢 36氪负责人的分享。刚才我们也听到，36氪很早就关注到 GEO 这一新兴赛道，并且选择与 PureblueAI清蓝合作，也是看重 PureblueAI清蓝在自研技术算法、科学 GEO 方法论以及合规服务实践上的积累。那从 PureblueAI清蓝的角度来看，为什么会选择与 36氪达成战略合作？这份《2026消费品牌AI推荐力名册》，又希望为行业和品牌提供哪些新的参考？ 李铭：这次双方合作，其实也是一次理念和能力上的高度契合。大家知道36氪所提倡的是“让一部分人先看到未来”，而PureblueAI清蓝也希望“让一部分品牌先被AI所看到”。所以我们双方在底色上是完全相融的，36氪懂行业、懂品牌、懂趋势，PureblueAI清蓝懂AI、懂算法、懂大模型，双方的合作是敏锐的商业洞察和硬核的AI营销技术融合，我们希望通过「2026消费品牌AI推荐力名册」，为企业和品牌提供AI语境下的体检报告与参考风向标，帮助更多品牌去理解AI时代的竞争变化。 同时今天AI推荐力名册是第一期，之后还会发布更多行业、更多批次的名册，如果有一部分的名册和品牌暂时没有入选，没有关系，我们再接再励，希望大家能够从更科学、更规范、更合规的方式来做AI营销，能够真正提升品牌自己的推荐力。 主持人：感谢两位负责人的精彩分享。通过刚才的交流，我们也更加清晰地看到，AI 推荐力正在成为品牌需要关注的新议题，而 36氪与PureblueAI清蓝的合作，也将为这一议题提供新的观察视角。下面我宣布，36氪与 PureblueAI清蓝战略合作正式启动！请二位负责人面向镜头合影留念，也请现场嘉宾共同见证这一重要时刻。 请两位到台下稍事休息，下面我宣布，“2026消费品牌AI推荐力名册”正式揭晓，请看大屏幕。",
-      "imageUrl": "https://img.36krcdn.com/hsossms/20260521/v2_6f8c8d44dfb94f6994c7fbf426420cb4@6381723_oswg98035oswg1269oswg846_img_jpeg?x-oss-process=image/quality,q_100/format,jpg/interlace,1",
-      "source": "36氪",
-      "publishedAt": "2026-05-21T10:03:58.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/p/3818877539091333?f=rss",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779366190393_5b8fc3a7",
-      "title": "两个第一，两场战争，火山引擎依然是阿里云的最大变量",
-      "summary": "两个第一，两场战争，火山引擎依然是阿里云的最大变量",
-      "content": "蔡崇信吴泳铭要的回报，阿里云能从火山引擎手里抢回来吗？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-21T09:46:30.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/7996807.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779352837868_539e1480",
-      "title": "谷歌为 AI 搜索重塑广告形态，Gemini 生成专属选购解读",
-      "summary": "IT之家 5 月 21 日消息，谷歌人工智能驱动的搜索时代显然也延伸到了其广告业务领域。如今用户在谷歌搜索商品时，旗下 Gemini 人工智能模型会推送相关产品，还会生成专属选购解读，说明推荐这款产品的购买理由。",
-      "content": "IT之家 5 月 21 日消息，谷歌人工智能驱动的搜索时代显然也延伸到了其广告业务领域。如今用户在谷歌搜索商品时，旗下 Gemini 人工智能模型会推送相关产品，还会生成专属选购解读，说明推荐这款产品的购买理由。 就在此次功能更新的前一天，谷歌刚推出适配长篇自然对话式搜索的全新搜索框，并将重心放在人工智能生成搜索结果上。谷歌分享了一则示例：用户搜索“小型浓缩咖啡胶囊机”时，页面会在赞助商品标签下推送奈斯派索 Vertuo Up 咖啡机，同时搭配人工智能撰写的介绍文案： 想要选购优质咖啡机，可关注胶囊适配性、口味丰富度、能否萃取绵密咖啡油脂、预热速度，以及一键调节杯量、制作冰咖啡等功能。这款机身小巧、快速启动的机型适配 Vertuo 胶囊，萃取风味浓郁，还可自主调节冲泡浓度（适配冰咖啡制作），3 秒即可完成预热，支持制作 6 种不同杯型的咖啡。 谷歌搜索还将推出内置聊天机器人的广告，这类广告页面设有提问按钮，点击即可与 Gemini 智能助手对话。该人工智能聊天机器人会调取商品或服务官网信息解答用户疑问，还能引导用户填写表单，对接商家进行咨询沟通。 谷歌同时也在人工智能搜索模式（AI Mode，聊天式搜索界面）中测试多款全新广告形式。去年谷歌就已在该模式下为部分搜索结果上线赞助内容，而此次新推出的广告形式看起来似乎更加显眼。 IT之家注意到，其中一种广告形式可依据用户具体问题推送对应赞助商品。例如用户搜索“有哪些省心居家香氛好物”，人工智能搜索模式会在作答内容下方推送香氛类赞助商品，附带产品详情与实物图。谷歌演示案例显示，用户滑动浏览时，该类广告可全屏展示。 谷歌还在试点另一类广告样式，在好物推荐列表中醒目植入赞助商品及服务。比如用户查找语言学习平台时，人工智能搜索模式会在推荐列表底部推送多邻国 APP 广告，并附上这款应用的功能介绍。 谷歌广告与商务业务副总裁维迪亚・斯里尼瓦桑在公告中表示：“我们正为人工智能搜索重塑广告形态，让广告自然融入对话场景、为用户提供实用参考。这类新一代广告形式，既能打通用户从提出疑问到完成下单的消费链路，也能帮助用户轻松发掘更多新晋品牌。”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/c8b1e9ab-405e-494d-8a4a-fcfbb6db89e9.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-05-21T08:38:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/953/503.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779352796381_b281d388",
-      "title": "腾讯会议推出“AI同传”功能",
-      "summary": "36氪获悉，5月21日，腾讯会议AI同传功能正式上线，参会者开启后，系统会将发言人的语音进行实时识别和翻译，并合成语音即时播报，传递到会议另一端，首期支持中英双向互译。此外，腾讯会议AI同传能做到时延低于3秒，发言与翻译几乎同步进行。",
-      "content": "36氪获悉，5月21日，腾讯会议AI同传功能正式上线，参会者开启后，系统会将发言人的语音进行实时识别和翻译，并合成语音即时播报，传递到会议另一端，首期支持中英双向互译。此外，腾讯会议AI同传能做到时延低于3秒，发言与翻译几乎同步进行。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-05-21T08:25:23.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3818773604352901?f=rss",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779352797684_f73c9fb0",
-      "title": "恒指收跌1.03%，恒生科技指数跌2.15%",
-      "summary": "36氪获悉，恒指收跌1.03%，恒生科技指数跌2.15%；科技、光模块走弱，，剑桥科技、哔哩哔哩跌超7%，百度集团、快手跌超5%，阿里巴巴、智谱跌超4%；医药生物、航空股逆势走强凯莱英涨超7%，昭衍新药涨超5%，中国国航涨超4%；南向资金净流出61.05亿港元。",
-      "content": "36氪获悉，恒指收跌1.03%，恒生科技指数跌2.15%；科技、光模块走弱，，剑桥科技、哔哩哔哩跌超7%，百度集团、快手跌超5%，阿里巴巴、智谱跌超4%；医药生物、航空股逆势走强凯莱英涨超7%，昭衍新药涨超5%，中国国航涨超4%；南向资金净流出61.05亿港元。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-05-21T08:10:13.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3818766556464265?f=rss",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779352809040_326d206b",
-      "title": "Cloud Platforms Regain AI “Pricing Power”",
-      "summary": "The move by cloud platforms could prove pivotal to scaling up agent deployments and making the business model work....",
-      "content": "The move by cloud platforms could prove pivotal to scaling up agent deployments and making the business model work.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-21T08:10:07.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/7997544.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779352810706_5d1e06d4",
-      "title": "99%的作业都是AI写的：当代名校生眼里，大学还剩下什么？",
-      "summary": "99%的作业都是AI写的：当代名校生眼里，大学还剩下什么？",
-      "content": "用AI学习，比刷短视频更上瘾。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-21T07:47:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7997212.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779352812007_223e8472",
-      "title": "黄仁勋最尴尬的时刻，AMD的苏姿丰决定押注中国",
-      "summary": "黄仁勋刚离开中国，苏姿丰就来了上海。AMD 不是来卖一张 AI 芯片，而是想趁英伟达最尴尬的时刻，抢走 CUDA 之外的第二条路。这一次，它赌的是中国开发者，也是 AMD 自己的下一次翻身。",
-      "content": "黄仁勋刚离开中国，苏姿丰就来了上海。AMD 不是来卖一张 AI 芯片，而是想趁英伟达最尴尬的时刻，抢走 CUDA 之外的第二条路。这一次，它赌的是中国开发者，也是 AMD 自己的下一次翻身。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-21T07:33:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/7997297.html",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779352813408_812b214d",
-      "title": "Tencent-backed Leju Robot Files for an IPO in Shenzhen",
-      "summary": "Losses have been widening year by year, and profitability won’t come at least until 2028....",
-      "content": "Losses have been widening year by year, and profitability won’t come at least until 2028.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-05-21T07:31:06.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/7997435.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
