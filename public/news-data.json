@@ -1,8 +1,80 @@
 {
   "success": true,
-  "timestamp": "2026-05-28T21:18:50.745Z",
-  "total": 60,
+  "timestamp": "2026-05-28T23:30:13.453Z",
+  "total": 66,
   "data": [
+    {
+      "id": "news_1780010969514_1455e746",
+      "title": "微软拟下周发布一系列全新人工智能模型",
+      "summary": "据报道，微软将于下周在年度Build开发者大会上发布一系列全新人工智能模型，其中包括一款编码模型，以提升GitHub Copilot的竞争力，其他模型涉及转录、推理、语音和图像处理等领域。",
+      "content": "据报道，微软将于下周在年度Build开发者大会上发布一系列全新人工智能模型，其中包括一款编码模型，以提升GitHub Copilot的竞争力，其他模型涉及转录、推理、语音和图像处理等领域。（界面）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-05-28T23:25:29.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3829111455884674?f=rss",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780011009228_dbd833c0",
+      "title": "苹果公布最新供应链调查结果：未发现供应商资助刚果武装组织",
+      "summary": "IT之家 5 月 29 日消息，据 9to5mac 报道，苹果公司今天向美国证券交易委员会（SEC）提交了年度冲突矿产披露文件，详细介绍了其覆盖 iPhone、Mac 等产品的供应链审查情况。",
+      "content": "IT之家 5 月 29 日消息，据 9to5mac 报道，苹果公司今天向美国证券交易委员会（SEC）提交了年度冲突矿产披露文件，详细介绍了其覆盖 iPhone、Mac 等产品的供应链审查情况。 去年 11 月，国际权利倡导组织（IRAdvocates）第二次起诉苹果，指控其供应链中仍包含与刚果民主共和国（DRC）及卢旺达地区童工、强迫劳动和武装组织有关的矿产。2024 年初，该组织曾就钴矿采购问题起诉苹果及其他四家科技公司，但该诉讼后来被驳回。 苹果一直否认这些指控，并通过官网透明中心发布了关于供应链、人权、供应商行为准则和负责任采购的材料与报告。 此次披露涉及 2025 年 1 月 1 日至 12 月 31 日期间。文件指出：“基于我们的尽职调查，包括分析第三方审计计划、上游追溯计划、独立报告以及供应商提供的信息，我们没有发现合理依据可以认定，截至 2025 年 12 月 31 日我们供应链中确定的任何 3TG（IT之家注：即锡、钽、钨、金）冶炼厂或精炼厂直接或间接资助了刚果民主共和国或邻国（涵盖国家）境内的武装组织。” 在报告中，苹果表示要求所有在生产中使用了 3TG 矿产的供应商提交行业标准的冲突矿产报告模板。涉及的产品包括“iPhone、Mac、iPad、AirPods、Apple TV、Apple Watch、Apple Vision Pro、Beats 系列产品、HomePod、HomePod mini、Apple Card 以及所有苹果配件”。 苹果还表示，其供应链中所有已确认的 3TG 冶炼厂和精炼厂都必须每年参与独立的第三方审计。如果这些冶炼厂或精炼厂“无法或不愿”达到苹果的标准，公司将“通过我们的供应商采取必要行动，终止相关的业务关系”。 苹果还提到，由于该公司“并不直接从矿场购买、采购或获取原生矿产”，因此公司依赖供应商、冶炼厂、精炼厂和第三方审计计划来追溯这些矿产的来源。正因如此，苹果表示“无法始终确定”其特定零部件和产品中“实际含有的 3TG 的原产国”。 苹果称其产品中含有的 3TG 可能来自刚果民主共和国或邻国，也可能来自回收和废料来源，但强调没有发现合理依据能够认定任何已确认的冶炼厂或精炼厂为该地区的武装组织提供了资金或从中受益。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/30b6dd8c-cba5-4e2b-ad54-3743debd2b9b.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-28T23:12:20.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/956/831.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780011011460_c984f44a",
+      "title": "Claude Opus 4.8 上线：提升 AI 编程可靠性，减少无依据结论",
+      "summary": "IT之家 5 月 29 日消息，Anthropic 今天（5 月 29 日）宣布推出旗舰新模型 Claude Opus 4.8，主打更强的智能体编程、多领域推理和知识工作能力。",
+      "content": "IT之家 5 月 29 日消息，Anthropic 今天（5 月 29 日）宣布推出旗舰新模型 Claude Opus 4.8，主打更强的智能体编程、多领域推理和知识工作能力。 官方表示，相比较 Opus 4.7 模型，本次 Opus 4.8 更新幅度较小，在保持价格不变的情况下，主要提升编程、智能体、推理和知识工作等用户能感知的方面。 能力层面，官方援引多家早期测试方反馈称，表示 Opus 4.8 “更可靠，判断也更敏锐”，在复杂多步骤任务中判断更稳，能主动提问、识别自身错误，并在计划不合理时提出异议。 官方评估显示，和前代相比，Opus 4.8 放任自己所写代码缺陷、却不加说明的概率降低至四分之一，更愿意主动标出不确定性，减少缺乏依据的结论。 对齐表现方面，Opus 4.8 在支持用户自主性、按用户最佳利益行动等亲社会指标上创下新高。与此同时，欺骗等失配行为的出现率低于 Opus 4.7，并与 Claude Mythos Preview 接近。IT之家附上相关截图如下： 配套功能方面，claude.ai 新增 effort 程度控制，用户可平衡更高质量与更快响应。默认是 high 档，在编码任务中，token 消耗与 Opus 4.7 默认档接近，但效果更好；若选择 extra（在 Claude Code 中为 xhigh）或者 max 更高档位，模型会消耗更多 tokens 以换取更优结果。 基准测试方面，Anthropic 称 Opus 4.8 在 SWE-Bench Pro 上得到 69.2%，并在该测试和其他多项基准中超过 GPT–5.5 与 Gemini 3.1 Pro。但在终端编程基准上，GPT–5.5 仍然领先。 这次更新还带来性能和价格调整。Anthropic 表示，Opus 4.8 的快速模式运行速度提升到 2.5 倍，模型成本则降到此前模型的 1/3。 定价方面，常规模式维持每 100 万输入令牌 5 美元、每 100 万输出令牌 25 美元；快速模式为每 100 万输入令牌 10 美元、每 100 万输出令牌 50 美元。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/cf5f3846-4276-480c-a2ac-2e773bace385.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-28T22:52:22.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/956/827.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780011011663_1768c767",
+      "title": "首次亮相：央视揭秘军事智能“黑科技”机器獒",
+      "summary": "IT之家 5 月 29 日消息，据央视报道，在北京举行的第十一届中国（北京）军事智能技术装备博览会（即北京军博会）上，一系列以“机器獒”命名的国产地面无人装备首次全谱系亮相，引发广泛关注。 本届军博会以“无人具身智能引领，指挥控制体系赋能”为主题，旨在推动新质生产力向新质战斗力高效转化。",
+      "content": "IT之家 5 月 29 日消息，据央视报道，在北京举行的第十一届中国（北京）军事智能技术装备博览会（即北京军博会）上，一系列以“机器獒”命名的国产地面无人装备首次全谱系亮相，引发广泛关注。 本届军博会以“无人具身智能引领，指挥控制体系赋能”为主题，旨在推动新质生产力向新质战斗力高效转化。作为该领域的前沿观察平台，此次展出的“机器獒”并非简单孤立的地面作战单元，而是一套可依据任务需求灵活配置的开放式作战基座。 这款装备被命名为“獒”，彰显出与传统“机器狗”或“机器狼”截然不同的战略定位。如果说消费级“机器狗”象征辅助与从属，此前被称为“机器狼”是强调集群协同，那么“獒”则代表着更强悍的单体性能与独立作战能力，凸显其从单纯辅助工具向班组火力节点乃至独立作战单元的深刻演进。 IT之家从官方获悉，此次展出的“机器獒”系列涵盖了“影獒”与“铁獒”两大平台，通过“高低搭配、轻重结合”的思路适配复杂战场。 小型的“影獒”侧重于隐蔽渗透。它的体型更加紧凑，具备出色的静音机动能力，能够适配山地、城市巷战等复杂场景，可搭载机枪、侦察设备等多样载荷。基于其精巧的体积，“影獒”能够潜入建筑物内部，通过狭窄楼道甚至通风管道遂行隐蔽侦察与敌后清剿任务。 与“影獒”形成互补的是体型更大的“铁獒”。这一平台具备强大的察打一体能力，不仅可搭载 7.62 毫米通用机枪或自动榴弹发射器执行火力压制，还能配备侦察模块执行前沿侦察任务。 在机动性上，“铁獒”采用轮足复合运动结构，在平坦空旷地带可利用轮式模式实现约 50 公里每小时的高速追击，遇到废墟、台阶等障碍时则切换为足式步态，拥有跨越 1.6 米宽战壕与 80 厘米高垂直障碍的越障能力。 在智能化方面，“铁獒”搭载了智能瞄准系统及三光侦察系统（可见光、红外夜视、激光测距），可全天候感知战场态势并自动追踪锁定目标。 此外，其部署的 UWB 超宽带自主跟随系统使其能在班组行军或野外布防时自主跟随作战人员同步移动，无需持续手动遥控，大幅降低了操作员的额外作战负荷。 展商方面指出，未来无人装备不会单打独斗，必须融入体系化作战。各种无人装备集群将在统一指控体系下实现协同组网、任务分配与态势自主感知，形成“群控、群打”的作战闭环。 军事专家王明志对此表示，AI 赋能的“机器獒”在未来地面战场上的广泛运用将颠覆传统步兵作战模式，其核心逻辑可概括为“机器主战、人类主控、人机协同、空地一体”。 在进攻中，机器獒可作为先锋前置突入高危区域；在防御时，可分散配置以管控外围。通过具身智能的组网协同，这些机器獒能够实现自主跟随避障，并通过与单兵智能穿戴系统的深度组网，从冷冰冰的工具转变为亲密无间的“有温度的战友”。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/0db0e9aa-30c8-4b74-82e4-a22ee1e088b0.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-28T22:50:12.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/956/826.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780011011856_2b52fca1",
+      "title": "万兆宽带体验：实测显示 6G 终端原理样机系统下行峰值速率可达 10Gbps",
+      "summary": "IT之家 5 月 29 日消息，据新华社报道，中国电信研究院、中国电信股份有限公司湖北分公司联合中信科移动通信技术股份有限公司昨日在武汉开展 6G 终端原理样机系统下行峰速测试。",
+      "content": "IT之家 5 月 29 日消息，据新华社报道，中国电信研究院、中国电信股份有限公司湖北分公司联合中信科移动通信技术股份有限公司昨日在武汉开展 6G 终端原理样机系统下行峰速测试。结果显示，单台终端下行峰值速率达到 5Gbps，系统下行峰值速率可达 10Gbps，验证了 6G 技术吞吐量和频谱效率的巨大潜力。 据报道，本次测试的 6G 试验系统由通感算智 6G 云化基站、超大规模 AAU（IT之家注：有源阵列天线处理单元）和 6G 终端原理样机组成。其中核心 AAU 设备最大可支持 128 个数字通道和 1024 个天线振子。为超高速率、超低时延的网络测试铺平道路。 实测环节中，技术人员采用 MU-MIMO（多用户多输入多输出）方式，将两台 6G 终端原理样机同时接入基站。测试结果表明，在单终端支持下行 400MHz 信号的带宽条件下，两台终端的下行峰值速率均分别达到 5Gbps，系统下行峰值速率达到 10Gbps，实现万兆无线宽带体验。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/a905ee26-9fd2-4e81-b6b3-060537262f86.png?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-28T22:47:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/956/825.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780010989051_340e9a2f",
+      "title": "Agent 能用，为什么还是不好用？",
+      "summary": "Agent 能用，为什么还是不好用？",
+      "content": "Agent 能用，为什么还是不好用？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-28T15:45:04.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/E0H31R7GiUmbixDKELEi?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1779992564962_17e1d3f7",
       "title": "《使命召唤：现代战争 4》官宣：首度登陆任天堂 Switch 2，10 月 23 日发售",
@@ -16,7 +88,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780003129740_17e1d3f7",
+      "id": "news_1780011012451_17e1d3f7",
       "title": "《使命召唤：现代战争 4》官宣：首度登陆任天堂 Switch 2，10 月 23 日发售",
       "summary": "IT之家 5 月 28 日消息，今年的《使命召唤》新作《使命召唤：现代战争 4》将成为现代战争系列首款放弃 PS4 和 Xbox One 的作品，只面向本世代硬件推出。",
       "content": "IT之家 5 月 28 日消息，今年的《使命召唤》新作《使命召唤：现代战争 4》将成为现代战争系列首款放弃 PS4 和 Xbox One 的作品，只面向本世代硬件推出。 《使命召唤：现代战争 4》将于 10 月 23 日周五全球发售，登陆 Xbox Series X|S、PlayStation 5、PC 和任天堂 Switch 2。开发商 Infinity Ward 确认，新作将延续更“硬派”“真实”的风格，故事背景设定在韩国，并首次登陆任天堂 Switch 2。 IT之家附预告片如下： 《现代战争 4》依旧包含三大核心模式：战役、多人模式和 DMZ。动视称，本作是系列的“全新技术标杆”，并且专门为最新一代主机和 PC 打造。 该作新增敏捷跑酷机制，并完全重做腰射系统，战役任务将覆盖纽约、巴黎和孟买等多样化的全球地点。 多人模式方面，Infinity Ward 表示，首发当天将带来 12 张核心 6v6 地图，同时提供 Gunfight 地图、多张围绕载具和步兵战斗打造的 Big War 地图，以及 Kill Block。Kill Block 是一个动态战场，拥有 500 多种配置，可以不断改变路线、视线和掩体，让玩家每一局都必须重新适应。 今年最核心的玩法变化是“Ballistic Authority”。据悉，Ballistic Authority 是新的“武器优先技术栈”，会把精准瞄准、物理操控、真实音频传播、更清晰的视觉呈现和更智能的战斗感知整合起来，打造迄今最真实的 Modern Warfare 枪战体验。 动视表示，子弹轨迹、武器动作、干员姿态、镜头、音频、视野和目标可见性，都会在一个经过高度调校的战斗保真系统中保持一致。没有散布，没有猜测，没有疑问。每一枪都会真实反映结果。",
@@ -26,6 +98,30 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/956/822.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780010990988_87621242",
+      "title": "全球首个完全AI编写的训练框架来了，速度反超英伟达：面壁要用 AI 把国产算力软件重写一遍",
+      "summary": "全球首个完全AI编写的训练框架来了，速度反超英伟达：面壁要用 AI 把国产算力软件重写一遍",
+      "content": "全球首个完全AI编写的训练框架来了，速度反超英伟达：面壁要用 AI 把国产算力软件重写一遍",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-28T15:27:30.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/hXDXRKIGlowu0y6fWA96?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780010992213_80ff8575",
+      "title": "深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？",
+      "summary": "深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？",
+      "content": "深度对话：后龙虾时代，企业Agent从“能用”到“生产级”的差距在哪里？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-28T15:08:42.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/6O9sEPBIVkVl1kXBay8W?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1779963907227_a672bd37",
@@ -40,6 +136,30 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1780010994463_612f35d8",
+      "title": "Agentic Coding + ClickHouse: 1人1栈1应用，AI全栈几天搞定",
+      "summary": "Agentic Coding + ClickHouse: 1人1栈1应用，AI全栈几天搞定",
+      "content": "Agentic Coding + ClickHouse: 1人1栈1应用，AI全栈几天搞定",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-28T14:41:52.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/UdQ0zzmK6TOwZlB1qDSo?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780010996271_2cb55f08",
+      "title": "昇腾管推理、鲲鹏管Agent，Agentic AI 让 CPU 重回舞台中央",
+      "summary": "昇腾管推理、鲲鹏管Agent，Agentic AI 让 CPU 重回舞台中央",
+      "content": "昇腾管推理、鲲鹏管Agent，Agentic AI 让 CPU 重回舞台中央",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-28T14:25:47.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/cp3uKO2GTRsWsewJjYVt?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1779992534979_0abd2b99",
       "title": "这只油田服务类股票才刚刚起步",
       "summary": "这只油田服务类股票才刚刚起步",
@@ -50,6 +170,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8006483.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780010997014_25ef41a5",
+      "title": "腾讯云 DMC 重塑人机协同：让 Agent“用得顺”更“管得住” | 腾讯云数据库 DBTalk",
+      "summary": "腾讯云 DMC 重塑人机协同：让 Agent“用得顺”更“管得住” | 腾讯云数据库 DBTalk",
+      "content": "腾讯云 DMC 重塑人机协同：让 Agent“用得顺”更“管得住” | 腾讯云数据库 DBTalk",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-28T14:14:53.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/video/brDB9ddjTMsKZd79o9Yc?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1779979630362_1b3ade88",
@@ -74,6 +206,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/956/800.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780010998891_78d36a30",
+      "title": "Azure Logic Apps 为智能体工作流新增沙箱化代码解释器",
+      "summary": "Azure Logic Apps 为智能体工作流新增沙箱化代码解释器",
+      "content": "Azure Logic Apps 为智能体工作流新增沙箱化代码解释器",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-28T14:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/f5Fcj4Ho2dx8ZxhezBvV?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1779979623772_3883e1ff",
@@ -196,30 +340,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780003125052_8d9052b8",
-      "title": "「AI研习社」规范AI行为，用CodeBuddy从0-1做出真正可上线小程序",
-      "summary": "「AI研习社」规范AI行为，用CodeBuddy从0-1做出真正可上线小程序",
-      "content": "「AI研习社」规范AI行为，用CodeBuddy从0-1做出真正可上线小程序",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-28T09:21:37.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/A9OKjbcWKWYPIqvP48AU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780003126627_25b4521e",
-      "title": "「AI研习社」用腾讯云ADP部署OpenClaw，为企业效率赋能",
-      "summary": "「AI研习社」用腾讯云ADP部署OpenClaw，为企业效率赋能",
-      "content": "「AI研习社」用腾讯云ADP部署OpenClaw，为企业效率赋能",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-05-28T09:19:26.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/video/x7SpzJAJYoexdHIZv198?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1779945339193_7b60170e",
       "title": "Zod 作者推出 Pullfrog：一个跑在 GitHub Actions 里的开源 AI 编程 Agent",
       "summary": "Zod 作者推出 Pullfrog：一个跑在 GitHub Actions 里的开源 AI 编程 Agent...",
@@ -280,7 +400,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780002782655_0",
+      "id": "news_1780010671478_0",
       "title": "Sam Altman’s AI job apocalypse REVERSAL looks like a calculated pivot as people fight for their livelihoods",
       "summary": "OpenAI CEO Sam Altman stood before a Sydney conference audience on Tuesday and declared he was “delighted to be wrong” about artificial intelligence e...",
       "content": "OpenAI CEO Sam Altman stood before a Sydney conference audience on Tuesday and declared he was “delighted to be wrong” about artificial intelligence eliminating entry-level white-collar jobs, a striking reversal from his previous warnings that “jobs ... [4505 chars]",
@@ -388,7 +508,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780002782371_1",
+      "id": "news_1780010671717_1",
       "title": "Anthropic’s Revenue Surpasses OpenAI as Companies Race Toward IPOs",
       "summary": "Anthropic’s revenue has surpassed that of rival OpenAI as the two artificial intelligence (AI) startups race towards initial public offerings (IPOs) t...",
       "content": "Anthropic’s revenue has surpassed that of rival OpenAI as the two artificial intelligence (AI) startups race towards initial public offerings (IPOs) this year.\nMemorial Day Sale – Claim 70% Off TipRanks\nUnlock trusted, data-backed investing tools wit... [1727 chars]",
@@ -412,7 +532,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780003081461_2",
+      "id": "news_1780010962339_2",
       "title": "Teachers Union President Urges School AI, Screen Limits",
       "summary": "American Federation of Teachers President Randi Weingarten is sounding the alarm over the explosion of screens and artificial intelligence in America'...",
       "content": "American Federation of Teachers President Randi Weingarten is sounding the alarm over the explosion of screens and artificial intelligence in America's classrooms, warning that students \"are drowning in tech\" as schools become increasingly dependent ... [2713 chars]",
@@ -424,7 +544,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1780002782721_3",
+      "id": "news_1780010672331_3",
       "title": "OpenAI Foundation commits $250M to help workers adapt to AI",
       "summary": "OpenAI is putting real money behind one of the biggest questions hanging over artificial intelligence: What happens to workers when AI starts doing mo...",
       "content": "OpenAI is putting real money behind one of the biggest questions hanging over artificial intelligence: What happens to workers when AI starts doing more of their jobs?\nOn Wednesday, the non-profit foundation that controls OpenAI said it will commit a... [3033 chars]",
@@ -674,54 +794,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8001563.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779837381374_e2acaea5",
-      "title": "IREN斥资16亿美元从戴尔采购英伟达Blackwell系统",
-      "summary": "数据中心运营商IREN周二表示，已同意以约16亿美元的价格从戴尔采购英伟达风冷式Blackwell系统，旨在上线更多算力，以满足不断增长的人工智能需求。IREN在一份声明中表示，这笔交易是为了履行此前宣布的与人工智能服务器制造商戴尔签订的价值34亿美元的五年期云人工智能服务合同。",
-      "content": "数据中心运营商IREN周二表示，已同意以约16亿美元的价格从戴尔采购英伟达风冷式Blackwell系统，旨在上线更多算力，以满足不断增长的人工智能需求。IREN在一份声明中表示，这笔交易是为了履行此前宣布的与人工智能服务器制造商戴尔签订的价值34亿美元的五年期云人工智能服务合同。（新浪财经）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-05-26T23:14:50.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3826733711872901?f=rss",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779837402868_d2afbc13",
-      "title": "Apple Watch 无创血糖监测释放落地信号，苹果调整项目负责人",
-      "summary": "IT之家 5 月 27 日消息，彭博社记者马克 · 古尔曼（Mark Gurman）昨日（5 月 26 日）发布博文，爆料称苹果调整 Apple Watch 无创血糖监测项目负责人，从 Tim Millet 转交给高级工程负责人 Zongjian Chen。",
-      "content": "IT之家 5 月 27 日消息，彭博社记者马克 · 古尔曼（Mark Gurman）昨日（5 月 26 日）发布博文，爆料称苹果调整 Apple Watch 无创血糖监测项目负责人，从 Tim Millet 转交给高级工程负责人 Zongjian Chen。 高级工程负责人 Zongjian Chen，图源：contactout 古尔曼在最新《Power On》通讯中透露，苹果公司推进多年的 Apple Watch 无创血糖监测项目迎来新的负责人，可以解读为该项目走出前期探索，开始朝着更具体的开发阶段迈进。 IT之家援引博文介绍，苹果公司的 Apple Watch 无创血糖监测项目最早可以追溯到乔布斯时期，苹果公司目标是不需要传统的扎手指采血，也不需要抽血检测，通过传感器就能识别血糖升高。 最新消息称该项目此前由平台架构主管 Tim Millet 推进，而苹果目前将该项目转交给高级工程负责人 Zongjian Chen。 Zongjian Chen 目前负责 Advanced Technologies Group，并主管包括基带在内的部分硬件项目。报道提到，苹果内部一些人把这次交接视为积极信号，原因在于 Chen 被认为更擅长把研发项目推进到可交付阶段。 但这不等于 Apple Watch 很快就会加入无创血糖监测。报道明确提到，这项功能今年不会出现，明年也未必上线，真正进入消费级产品仍可能需要数年时间。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/55b26c71-7143-4110-8e92-2c744b96b12b.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-05-26T23:14:36.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/955/639.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779837382277_81e3d649",
-      "title": "软银为Roze在美进行首次公开募股（IPO）聘请银行",
-      "summary": "软银聘请高盛、摩根大通、瑞穗银行和摩根士丹利，为其机器人业务分拆公司Roze在美进行首次公开募股（IPO）。",
-      "content": "软银聘请高盛、摩根大通、瑞穗银行和摩根士丹利，为其机器人业务分拆公司Roze在美进行首次公开募股（IPO）。（财联社）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-05-26T23:13:26.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3826732348920456?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1779837402977_cc028b12",
-      "title": "英伟达宣布退役沿用 20 年的 GeForce 控制面板，仅保留专业功能支持",
-      "summary": "IT之家 5 月 27 日消息，当地时间 5 月 26 日，英伟达发布了最新的 GeForce Game Ready 610.47 WHQL 驱动（针对《007 初露锋芒》《坦克世界：HEAT》优化），并宣布经典的 NVIDIA 控制面板现正式取消 Game Ready 和 Studio 驱动支持。",
-      "content": "IT之家 5 月 27 日消息，当地时间 5 月 26 日，英伟达发布了最新的 GeForce Game Ready 610.47 WHQL 驱动（针对《007 初露锋芒》《坦克世界：HEAT》优化），并宣布经典的 NVIDIA 控制面板现正式取消 Game Ready 和 Studio 驱动支持。 英伟达表示：NVIDIA App 更新后，面向 GeForce 用户的所有在支持范围内的 NVIDIA 控制面板功能都实现了现代化，并迁移到了新客户端。 不过IT之家注意到，对于 RTX PRO 专业卡用户，英伟达仍会在将专业功能迁移到 NVIDIA App 之前继续提供 NVIDIA 控制面板的支持。 英伟达在公告中提醒：已安装的 NVIDIA 控制面板将继续保留在用户的系统上，除非他们执行全新安装。并且仍然需要 NVIDIA 控制面板的用户可以继续从 Microsoft Store 下载，但我们不会添加功能、修复或其他更改。 相关阅读： 《英伟达 App 11.0.6 稳定版发布：DLSS 4.5 正式落地，同时为开发者提供新一代 SDK 及工具》 《英伟达 DLSS 4.5 动态多帧生成、6 倍多帧生成开启教程公布》 《英伟达推出全新 NVIDIA App 现代化控制面板，551.61 驱动更新》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2024/2/b0192cf9-341e-4fc2-895f-06b2591766ca.jpg?x-bce-process=image/format,f_auto/auto-orient,o_1",
-      "source": "IT之家",
-      "publishedAt": "2026-05-26T22:47:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/955/635.htm",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
