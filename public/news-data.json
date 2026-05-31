@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-05-31T14:04:13.006Z",
-  "total": 39,
+  "timestamp": "2026-05-31T16:19:27.483Z",
+  "total": 41,
   "data": [
+    {
+      "id": "news_1780244366086_80ad559f",
+      "title": "Linux 7.1-rc6 内核将支持华硕 ROG 雷切 2、小鸡 Nova 2 Lite 手柄",
+      "summary": "IT之家 5 月 31 日消息，据科技媒体 Phoronix 今天报道，一批输入子系统修复补丁已提交到 Linux 7.1-rc6 内核，增添多款手柄支持。 据报道，本次更新中的 XPad 通用控制器驱动将新增华硕 ROG 雷切 2（IT之家注：Raikiri II）手柄支持。",
+      "content": "IT之家 5 月 31 日消息，据科技媒体 Phoronix 今天报道，一批输入子系统修复补丁已提交到 Linux 7.1-rc6 内核，增添多款手柄支持。 据报道，本次更新中的 XPad 通用控制器驱动将新增华硕 ROG 雷切 2（IT之家注：Raikiri II）手柄支持。该手柄定价 160 美元（现汇率约合 1086 元人民币），配备 TMR 摇杆、双模式扳机键、微动按键，支持 USB-C、蓝牙、2.4G 三模连。提供实体开关，可在 PC 和 Xbox 模式之间切换。 同时，本次 XPad 更新还新增了小鸡 Nova 2 Lite 支持，该产品是一款无线手柄，售价约 30-35 美元（现汇率约合 203.6 - 237.5 元人民币）。由于本次更新仅涉及新增设备 ID，因此风险较低，适合直接并入 Linux 7.1 开发周期，无需等到几周后的 7.2 合并窗口。 此外，今天提交的输入子系统更新还对 Synaptics 触控板驱动进行调整，使联想 ThinkPad E490 的触控板能够以 RMI（Register Mapping Interface）模式运行。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/03eba074-148e-4eb9-8146-f66b83897338.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-31T15:00:19.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/957/894.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780244366477_ca5ef236",
+      "title": "古尔曼：全新 Apple TV 和 HomePod mini 预计今秋发布，Siri 遥控器或迎来更新",
+      "summary": "IT之家 5 月 31 日消息，彭博社记者马克 · 古尔曼今天在最新一期《Power On》通讯透露，苹果准备在今年秋季推出新一代 Apple TV 和 HomePod mini，两款设备将升级芯片，不过 Apple TV 可能还会配备新版 Siri Remote 遥控器。",
+      "content": "IT之家 5 月 31 日消息，彭博社记者马克 · 古尔曼今天在最新一期《Power On》通讯透露，苹果准备在今年秋季推出新一代 Apple TV 和 HomePod mini，两款设备将升级芯片，不过 Apple TV 可能还会配备新版 Siri Remote 遥控器。 古尔曼表示，全新 Apple TV 和 HomePod mini 已经推迟很久，根本原因在于，两款设备原本是为了配合新版 Siri 和 Apple 智能（IT之家注：Apple Intelligence）一同发布而设计。经历多次延期后，这些软件预计将在今年秋季推出。 虽然报道中没有明确指出新产品将采用哪些芯片，但外界普遍认为，全新 Apple TV 将从 A15 芯片升级至 A17 Pro，而 HomePod mini 则从 S5 升级至 S9。 其中，A17 Pro 芯片将让 Apple TV 能够运行本地 AI 模型。而 S9 芯片显然无法运行类似任务，因此 HomePod mini 的 Apple 智能可能需要由云端模型驱动。 古尔曼还透露，Siri Remote 遥控器可能会以某种形式进行更新，但 Apple TV 本身将与现款产品保持相似设计，沿用 2010 年以来的工业设计语言。而且遥控器即使更新，也可能只是调整内部硬件，外观变化并不明显。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/0f18820a-c7d9-415c-9637-8f54c863fede.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-05-31T14:48:35.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/957/893.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1780236252000_d402c8f0",
       "title": "中国品牌张雪机车 WSBK 阿拉贡站稳守积分，德比斯两回合正赛均列第八",
@@ -26,6 +50,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/957/838.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780244345006_465ac519",
+      "title": "网易智企 IM 研发多智能体中心建设与实践：从单点 Agent 到研发基础设施｜AICon上海",
+      "summary": "网易智企 IM 研发多智能体中心建设与实践：从单点 Agent 到研发基础设施｜AICon上海",
+      "content": "网易智企 IM 研发多智能体中心建设与实践：从单点 Agent 到研发基础设施｜AICon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-31T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/GlN4vSis105MkMajCcJz?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1780219015326_29c2e894",
@@ -220,6 +256,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1780244347102_4cfa4f97",
+      "title": "腾讯PCG 质效团队技术负责人张晔确认出席AICon上海站，分享测试智能体驱动质量工程新范式",
+      "summary": "腾讯PCG 质效团队技术负责人张晔确认出席AICon上海站，分享测试智能体驱动质量工程新范式",
+      "content": "腾讯PCG 质效团队技术负责人张晔确认出席AICon上海站，分享测试智能体驱动质量工程新范式",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-05-30T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/u6lPG0uJcGuF1aSxrumc?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1780135705359_fd071d75",
       "title": "全新梅赛德斯-AMG GT 纯电四门跑车欧洲价格公布：15.47 万-20.81 万欧元",
       "summary": "IT之家 5 月 30 日消息，据外媒 motor1 报道，2026 年 5 月的争议新车，一辆接一辆纷至沓来。全新法拉利 Luce 发布后吐槽不断，更早之前的全新纯电 AMG GT 四门版也未能赢得所有人的认可。",
@@ -376,7 +424,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780236238704_6f7a5a1d",
+      "id": "news_1780244351272_6f7a5a1d",
       "title": "半数华人、3位亿万富翁：这张十年前的量化实习生合照，藏着 AI 时代的新贵版图",
       "summary": "半数华人、3位亿万富翁：这张十年前的量化实习生合照，藏着 AI 时代的新贵版图",
       "content": "半数华人、3位亿万富翁：这张十年前的量化实习生合照，藏着 AI 时代的新贵版图",
@@ -388,31 +436,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780236216296_0",
-      "title": "Anthropic Surpasses OpenAI In Valuation After Massive $65 Billion Funding Round",
-      "summary": "Anthropic has overtaken OpenAI as the world's most valuable artificial intelligence startup after raising $65 billion in a new funding round that valu...",
-      "content": "Anthropic has overtaken OpenAI as the world's most valuable artificial intelligence startup after raising $65 billion in a new funding round that valued the company at $965 billion, marking one of the largest private fundraising rounds in technology ... [2575 chars]",
-      "imageUrl": "https://d.ibtimes.com/en/full/4648344/anthropic.jpg",
-      "source": "International Business Times",
-      "publishedAt": "2026-05-29T15:05:52.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ibtimes.com/anthropic-surpasses-openai-valuation-after-massive-65-billion-funding-round-3803477",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1780073762386_41ab37c5",
-      "title": "航天英雄杨利伟：我国载人登月计划正常推进",
-      "summary": "IT之家 5 月 29 日消息，5 月 29 日（今天），神舟二十二号载人飞船返回舱在东风着陆场着陆。中国首飞航天员、航天英雄、现任中国载人航天工程副总设计师杨利伟在现场接受新华社记者采访时表示，载人登月计划正常推进。",
-      "content": "IT之家 5 月 29 日消息，5 月 29 日（今天），神舟二十二号载人飞船返回舱在东风着陆场着陆。中国首飞航天员、航天英雄、现任中国载人航天工程副总设计师杨利伟在现场接受新华社记者采访时表示，载人登月计划正常推进。 杨利伟表示：“大家看到了去年我们做了大量试验，今年年初也做了火箭的、航天器的（有关试验）。航天员下一步也要接受这方面的一些选拔和训练，整个的推进还是很正常的。” 根据规划，2028 年至 2030 年间，我国将在文昌航天发射场密集执行 3 次无人绕月验证任务及 1 次载人登月任务，标志着中国载人航天工程正式从近地轨道迈向地月空间。 据IT之家此前报道，杨利伟曾在 2023 年透露：“将来我们登月的航天员，一定会从前期执行过任务的航天员当中选拔。”此外，杨利伟称载人登月“一定不是最终目标”，可能是作为一个中转站，将来可能会到更深远的太空中探索。“这也是我们搞载人航天、利用这种资源为人类服务的一个目的。”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-05-29T14:55:32.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/957/384.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780236239840_535e4306",
+      "id": "news_1780244352900_535e4306",
       "title": "把GPT-4o拉下神坛！星源智联合北大推出RoboAgent，让3B VLM在未知场景跑出94%成功率",
       "summary": "把GPT-4o拉下神坛！星源智联合北大推出RoboAgent，让3B VLM在未知场景跑出94%成功率...",
       "content": "把GPT-4o拉下神坛！星源智联合北大推出RoboAgent，让3B VLM在未知场景跑出94%成功率",
@@ -424,7 +448,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780236241205_024c1c2b",
+      "id": "news_1780244354835_024c1c2b",
       "title": "Opus 4.8 刚发布，Redis 之父质疑跑分：DHH 盛赞的 GPT-5.5，正在动摇编码王座",
       "summary": "Opus 4.8 刚发布，Redis 之父质疑跑分：DHH 盛赞的 GPT-5.5，正在动摇编码王座...",
       "content": "Opus 4.8 刚发布，Redis 之父质疑跑分：DHH 盛赞的 GPT-5.5，正在动摇编码王座",
@@ -436,7 +460,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780236242737_dc591916",
+      "id": "news_1780244356758_dc591916",
       "title": "编程 Agent 可能是软件开发史上最昂贵的错误之一",
       "summary": "编程 Agent 可能是软件开发史上最昂贵的错误之一",
       "content": "编程 Agent 可能是软件开发史上最昂贵的错误之一",
@@ -448,7 +472,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780236244341_cfa5ae1b",
+      "id": "news_1780244358401_cfa5ae1b",
       "title": "当“码农”成为历史：AI时代工程师的生存法则",
       "summary": "当“码农”成为历史：AI时代工程师的生存法则",
       "content": "当“码农”成为历史：AI时代工程师的生存法则",
@@ -460,7 +484,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780236245841_edbf5621",
+      "id": "news_1780244360076_edbf5621",
       "title": "美图Roboneo：设计生产场景下多智能体编排工程实践｜AICon上海",
       "summary": "美图Roboneo：设计生产场景下多智能体编排工程实践｜AICon上海",
       "content": "美图Roboneo：设计生产场景下多智能体编排工程实践｜AICon上海",
