@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-06-02T18:51:33.278Z",
-  "total": 54,
+  "timestamp": "2026-06-02T21:55:46.680Z",
+  "total": 51,
   "data": [
+    {
+      "id": "news_1780437344651_3f2c09b2",
+      "title": "共同开发、部署 AI 医疗模型，微软与梅奥诊所达成合作",
+      "summary": "IT之家 6 月 3 日消息，微软今天在 Build 2026 大会宣布与梅奥诊所达成战略合作，共同开发部署医疗保健领域的前沿 AI 模型，让更多人在需要时获得梅奥诊所的医疗知识、服务模式。",
+      "content": "IT之家 6 月 3 日消息，微软今天在 Build 2026 大会宣布与梅奥诊所达成战略合作，共同开发部署医疗保健领域的前沿 AI 模型，让更多人在需要时获得梅奥诊所的医疗知识、服务模式。 IT之家在此援引官方新闻稿，本次合作将整合梅奥诊所的全球医疗专业能力、去标识化临床健康数据，以及微软的先进 AI、云计算及超级智能能力，为临床推理、医疗应用场景打造前沿 AI 模型。 同时，该模型将由梅奥诊所持有，以延续其长期以来的患者信任、临床严谨性、安全性口碑。微软计划通过 Azure Foundry API 提供该模型，使全球各地的机构都能够获得先进的医疗 AI 能力，更好地服务患者、临床医生以及普通消费者。 IT之家注：梅奥诊所是一家成立于 1864 年的医疗机构，在美国佛罗里达州的杰克逊维尔及亚利桑那州的斯科茨代尔设有分院，常年在各大权威报道中位列世界排名第一的最佳医院。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/75137313-3ee6-4884-9612-d782c63231cd.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-02T19:17:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/959/025.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1780426290878_d2f3f0c0",
       "title": "微软发布 ACS 开源标准，让开发者精细化控制 AI 智能体行为",
@@ -26,6 +38,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/959/021.htm",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780437328756_554e22d4",
+      "title": "英伟达甩出物理AI王炸！Cosmos 3全模态模型开源，Agent Tookit补齐工具短板",
+      "summary": "英伟达甩出物理AI王炸！Cosmos 3全模态模型开源，Agent Tookit补齐工具短板",
+      "content": "英伟达甩出物理AI王炸！Cosmos 3全模态模型开源，Agent Tookit补齐工具短板",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-02T18:44:46.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/Ahsy8EcCLj8ESwbkJxu8?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1780397501813_561de472",
@@ -76,30 +100,6 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780426277660_5a864f33",
-      "title": "Token 卖疯了挣的也是小钱，Snowflake 盯上了 AI 时代最贵的资产",
-      "summary": "Token 卖疯了挣的也是小钱，Snowflake 盯上了 AI 时代最贵的资产",
-      "content": "Token 卖疯了挣的也是小钱，Snowflake 盯上了 AI 时代最贵的资产",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-02T17:14:56.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Afq4IVzRZ7cqr934jFYR?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780426279343_f977554b",
-      "title": "不会写代码的“鲸鱼哥”，被 DeepSeek 改写人生 | 专访 Hunter Bown",
-      "summary": "不会写代码的“鲸鱼哥”，被 DeepSeek 改写人生 | 专访 Hunter Bown",
-      "content": "不会写代码的“鲸鱼哥”，被 DeepSeek 改写人生 | 专访 Hunter Bown",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-02T17:09:19.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/dxWDEmZrgm23D9Y5152j?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1780426292276_652907ff",
       "title": "继 Phi-4-mini 后：微软宣布为 Edge 浏览器引入更高效的 Aion-1.0-Instruct 模型与翻译 API，支持 145 种以上语言",
       "summary": "IT之家 6 月 3 日消息，在今日开幕的 Build 2026 开发者大会上，微软宣布在去年为 Edge 浏览器推出基于 Phi-4-mini 模型的写作辅助 API 基础上扩展了其端侧 AI 能力，新增了模型和 API。",
@@ -110,30 +110,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/959/012.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780426280843_ee8265f7",
-      "title": "Sarang Kulkarni 谈在生产环境中构建深度研究智能体的经验教训",
-      "summary": "Sarang Kulkarni 谈在生产环境中构建深度研究智能体的经验教训",
-      "content": "Sarang Kulkarni 谈在生产环境中构建深度研究智能体的经验教训",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-02T17:07:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/TQY0ybkQAjZK9b6oVfeZ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780426282613_9128c08d",
-      "title": "85%的企业 AI 落地卡在数据上，为什么你还在选模型？",
-      "summary": "85%的企业 AI 落地卡在数据上，为什么你还在选模型？",
-      "content": "85%的企业 AI 落地卡在数据上，为什么你还在选模型？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-02T15:26:47.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/eyoJhLqNXMZQEAQUBhB9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1780412458936_4a8c69f6",
@@ -160,18 +136,6 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780426283852_aaf03d6e",
-      "title": "谷歌扩大 SynthID 在 AI 水印技术中的应用，并提供内容检测 API 预览",
-      "summary": "谷歌扩大 SynthID 在 AI 水印技术中的应用，并提供内容检测 API 预览",
-      "content": "谷歌扩大 SynthID 在 AI 水印技术中的应用，并提供内容检测 API 预览",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-02T14:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/NkqXbxUbPZgu21AvAxor?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1780412410857_73012966",
       "title": "美股大型科技股盘前涨跌不一，迈威尔科技涨超18%",
       "summary": "36氪获悉，美股大型科技股盘前涨跌不一，截至发稿，迈威尔科技涨超18%，英伟达涨超1%，Meta涨0.47%，特斯拉涨0.43%；微软跌超3%，谷歌跌超2%，亚马逊跌超1%，苹果跌0.06%。",
@@ -182,6 +146,18 @@
       "category": "国外AI",
       "originalUrl": "https://36kr.com/newsflashes/3836029722064007?f=rss",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780437338943_eb41ef90",
+      "title": "Snowflake Summit 2026 现场：AI 的胜负手，正在从模型转向数据",
+      "summary": "Snowflake Summit 2026 现场：AI 的胜负手，正在从模型转向数据",
+      "content": "Snowflake Summit 2026 现场：AI 的胜负手，正在从模型转向数据",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-02T11:33:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/vx6tJOKdlyRYSBNx9HwH?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1780397484517_f37886bb",
@@ -304,7 +280,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780426248317_0",
+      "id": "news_1780437304241_0",
       "title": "Bubble or Breakthrough? Anthropic’s $965 Billion Valuation Reveals the Terrifying Truth About AI’s Corporate Takeover",
       "summary": "Anthropic, the artificial intelligence company behind the Claude chatbot, has raised $65 billion in a funding round that values the firm at $965 billi...",
       "content": "Anthropic, the artificial intelligence company behind the Claude chatbot, has raised $65 billion in a funding round that values the firm at $965 billion, according to a Bloomberg report cited by ZeroHedge [1]. The round was led by Altimeter Capital, ... [7744 chars]",
@@ -364,7 +340,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780426247788_1",
+      "id": "news_1780437303744_1",
       "title": "Anthropic Pulls Ahead of OpenAI in High-Stakes Race for IPO Riches",
       "summary": "Anthropic PBC pulled ahead of OpenAI with its confidential IPO filing Monday, as the free-spending artificial intelligence startups battle for a fundr...",
       "content": "Anthropic PBC pulled ahead of OpenAI with its confidential IPO filing Monday, as the free-spending artificial intelligence startups battle for a fundraising edge that’s set to determine who will win the ultimate battle for computing power.\nThe oneupm... [343 chars]",
@@ -376,7 +352,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1780426247967_2",
+      "id": "news_1780437303597_2",
       "title": "Anthropic leapfrogs OpenAI in IPO race with confidential SEC filing",
       "summary": "Artificial intelligence company Anthropic is moving toward going public on Wall Street, the latest chapter in its meteoric rise from a little-known re...",
       "content": "Artificial intelligence company Anthropic is moving toward going public on Wall Street, the latest chapter in its meteoric rise from a little-known research laboratory to one of the leading AI companies valued at $965 billion.\nAnthropic said Monday i... [4211 chars]",
@@ -388,7 +364,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1780426248404_3",
+      "id": "news_1780437303776_3",
       "title": "AI company Anthropic files to list shares, heating up race with OpenAI",
       "summary": "Anthropic, the company behind the powerful artificial intelligence chatbot Claude, has filed to go public, the company said Monday.\nThe development co...",
       "content": "Anthropic, the company behind the powerful artificial intelligence chatbot Claude, has filed to go public, the company said Monday.\nThe development comes days after the company raised $65 billion, valuing it at $965 billion.\nThe company, founded in 2... [721 chars]",
@@ -400,7 +376,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1780426248283_4",
+      "id": "news_1780437303474_4",
       "title": "Florida Sues OpenAI, Sam Altman Over Chatbot Safety Concerns",
       "summary": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial inf...",
       "content": "Connecting decision makers to a dynamic network of information, people and ideas, Bloomberg quickly and accurately delivers business and financial information, news and insight around the world\nConnecting decision makers to a dynamic network of infor... [731 chars]",
@@ -568,7 +544,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780426248658_5",
+      "id": "news_1780437303903_5",
       "title": "OpenAI “Data Cartel” Protected by US Government, Whistleblower Says",
       "summary": "Artificial intelligence companies including OpenAI and Anthropic have scraped nearly all human knowledge from the internet with assistance from the U....",
       "content": "Artificial intelligence companies including OpenAI and Anthropic have scraped nearly all human knowledge from the internet with assistance from the U.S. government, which is helping them sell that data back to the public, according to former Google e... [4224 chars]",
@@ -638,18 +614,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/957/907.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780426248263_6",
-      "title": "New Mexico officials call for statewide plan to govern AI use in schools",
-      "summary": "State officials are advocating for New Mexico to adopt a statewide governance plan for the use of artificial intelligence in schools.\nAt a meeting of ...",
-      "content": "State officials are advocating for New Mexico to adopt a statewide governance plan for the use of artificial intelligence in schools.\nAt a meeting of the Legislative Education Study Committee in Raton, policy analyst Saraí Ortiz presented a report on... [4104 chars]",
-      "imageUrl": "https://image.abqjournal.com/3028848.jpg?imageId=3028848&x=0&y=0&cropw=100&croph=100&panox=0&panoy=0&panow=100&panoh=100&width=1200&height=683",
-      "source": "Albuquerque Journal",
-      "publishedAt": "2026-05-31T21:32:16.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.abqjournal.com/news/new-mexico-should-come-up-with-a-plan-to-regulate-ai-use-in-schools-state-officials-say/3052327",
-      "aiInsight": ""
     }
   ]
 }
