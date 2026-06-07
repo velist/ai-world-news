@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-06-06T22:16:22.881Z",
-  "total": 57,
+  "timestamp": "2026-06-07T00:23:13.721Z",
+  "total": 52,
   "data": [
+    {
+      "id": "news_1780791792717_7c270b56",
+      "title": "微软警告称 ClaudeCode 存在漏洞，可能导致 GitHub 账号凭证泄露",
+      "summary": "IT之家 6 月 7 日消息，微软研究人员发现，Anthropic 旗下 Claude Code 的 GitHub 自动化流程存在一处漏洞，该漏洞可能导致持续集成 / 持续部署（CI / CD）工作流中的机密信息泄露，攻击者或可通过提示词注入攻击窃取敏感凭证。",
+      "content": "IT之家 6 月 7 日消息，微软研究人员发现，Anthropic 旗下 Claude Code 的 GitHub 自动化流程存在一处漏洞，该漏洞可能导致持续集成 / 持续部署（CI / CD）工作流中的机密信息泄露，攻击者或可通过提示词注入攻击窃取敏感凭证。 微软威胁情报团队在监测到公开代码库中出现针对人工智能辅助型 GitHub 工作流的提示词注入尝试后，启动了本次研究。 据IT之家了解，提示词注入是一类人工智能安全漏洞。攻击者会在大模型处理的内容中嵌入误导性指令，以此操控模型行为。大型语言模型的常规设计逻辑是遵循开发者指令、响应用户提问，而攻击者会设法诱骗模型，使其无视预设指令。 研究人员举例说明，有攻击者将注入指令藏在 HTML 注释中。这类内容在 GitHub 展示界面中不可见，但读取原始 Markdown 源码的人工智能模型却能识别。涉事代码库当时借助 GitHub 自动化流程来自动处理工单问题。 攻击者可将恶意指令伪装成普通的功能需求，无需获得项目修改权限，仅需提交一条 GitHub 工单，就能诱骗人工智能机器人代为执行修改操作。 微软证实，同类提示词注入手段同样可针对 Anthropic 的 Claude Code GitHub 自动化流程发起攻击。此前 Anthropic 已为部分工具（例如可让 Claude 在系统中执行命令的 Bash 工具）设置了沙箱防护。 但微软发现，Claude 用于读取文件的读取工具并未受到同等安全限制。 研究人员制作了提示词注入攻击载荷，对该漏洞进行验证测试。测试中，恶意提示词成功绕过两层防护，诱导这款人工智能助手读取了存放着应用程序接口密钥及其他凭证的系统文件。 微软于 4 月 29 日向 Anthropic 上报了该漏洞。Anthropic 已于 5 月 5 日发布 Claude Code 2.1.128 版本完成修复，通过限制程序对 /proc/ 目录下敏感文件的访问，防止相关信息被非法窃取。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/30a51401-4f34-4957-a1a3-034b4e841188.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-06T23:20:46.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/960/994.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1780762738612_76fb95bf",
       "title": "消息称百度 MEG 组织架构调整：数字人创新业务部升级独立部门，合并商业部与电商事业部",
@@ -86,18 +98,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/960/934.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780784166379_f2655de5",
-      "title": "上海人工智能实验室领军科学家胡侠确认出席AICon上海站，分享书安智能体操作系统的实践与思考",
-      "summary": "上海人工智能实验室领军科学家胡侠确认出席AICon上海站，分享书安智能体操作系统的实践与思考",
-      "content": "上海人工智能实验室领军科学家胡侠确认出席AICon上海站，分享书安智能体操作系统的实践与思考",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-06T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/ztM2hNuC8cfwT6FT7cGb?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1780741176891_ca1e20f0",
@@ -328,7 +328,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780783880792_0",
+      "id": "news_1780791173529_0",
       "title": "OpenAI in talks to give U.S. government an equity stake in $850 billion AI startup as IPO nears",
       "summary": "Just a day after Senator Bernie Sanders proposed that Americans should share directly in the wealth created by artificial intelligence, OpenAI is repo...",
       "content": "Just a day after Senator Bernie Sanders proposed that Americans should share directly in the wealth created by artificial intelligence, OpenAI is reportedly discussing an unprecedented idea with the Trump administration: giving the U.S. government an... [4063 chars]",
@@ -340,7 +340,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1780784140295_1",
+      "id": "news_1780791445532_1",
       "title": "OpenAI to Comply With Trump's AI Model Review Plan",
       "summary": "OpenAI will cooperate with President Donald Trump's new initiative to review advanced artificial intelligence models before they are released, accordi...",
       "content": "OpenAI will cooperate with President Donald Trump's new initiative to review advanced artificial intelligence models before they are released, according to a top company official.\nThe move follows Trump's executive order signed Tuesday that calls on ... [1580 chars]",
@@ -376,18 +376,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780784169434_975a4a64",
-      "title": "从流水线到蜂巢：AI 时代企业组织如何进化",
-      "summary": "从流水线到蜂巢：AI 时代企业组织如何进化",
-      "content": "从流水线到蜂巢：AI 时代企业组织如何进化",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-05T14:41:55.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Oaa5FuLAwC0ADOgm3DKY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1780675853345_a9d73bcd",
       "title": "加南 Kannan K2 智能眼镜发布：25.8g 重、32MP 摄像头，2350 元",
       "summary": "IT之家 6 月 5 日消息，加南科技今日发布了 Kannan K2 智能眼镜，售价 2350 元。 这款眼镜重 25.8 克，官方宣称为亚洲脸型而生；镜框采用欧洲进口超轻尼龙材料，耳挂最薄 5.5 毫米。",
@@ -400,7 +388,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780783880273_2",
+      "id": "news_1780791174474_2",
       "title": "SoftBank's Son says AI is designing OpenAI's next model",
       "summary": "Kim Kyung-Hoon | Reuters\nOpenAI's next model is being designed by another model in a sign that AI is reaching \"superintelligence,\" SoftBank CEO Masayo...",
       "content": "Kim Kyung-Hoon | Reuters\nOpenAI's next model is being designed by another model in a sign that AI is reaching \"superintelligence,\" SoftBank CEO Masayoshi Son told CNBC.\nThe billionaire's comments come amid a warning from Anthropic that artificial int... [3515 chars]",
@@ -568,7 +556,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780783879722_3",
+      "id": "news_1780791173452_3",
       "title": "China poaches U.S. AI talent from OpenAI as it eyes Claude, ChatGPT",
       "summary": "BEIJING — A former OpenAI researcher is now chief AI scientist for Tencent in China, and wants to build artificial general intelligence.\nIt's a sign o...",
       "content": "BEIJING — A former OpenAI researcher is now chief AI scientist for Tencent in China, and wants to build artificial general intelligence.\nIt's a sign of a shift in the U.S.-China tech race.\nAI with human-level or above capabilities (AGI) has long been... [2847 chars]",
@@ -592,55 +580,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1780783880624_4",
-      "title": "Development of a deep learning based framework for classification of Indian venomous snakes integrated with explainable artificial intelligence for primary and emergency care providers",
-      "summary": "?\nThis is an uncorrected proof.\nFigures\nAbstract\nBackground\nSnakebite envenoming is a significant global health crisis that has been long neglected as...",
-      "content": "?\nThis is an uncorrected proof.\nFigures\nAbstract\nBackground\nSnakebite envenoming is a significant global health crisis that has been long neglected as a global health priority. It is a huge problem for rural communities of low and middle-income count... [44048 chars]",
-      "imageUrl": "https://journals.plos.org/plosntds/article/figure/image?id=10.1371/journal.pntd.0014147.g009&size=inline",
-      "source": "PLOS (Public Library of Science)",
-      "publishedAt": "2026-06-05T00:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://journals.plos.org/plosntds/article?id=10.1371%2Fjournal.pntd.0014147",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1780615271567_b2208ef6",
-      "title": "LM Studio 上线 LM Link，让 iPhone 17 等直连 Mac 本地 AI 模型",
-      "summary": "IT之家 6 月 5 日消息，LM Studio 今天（6 月 5 日）更新 Mac 版 Locally 应用，新增 LM Link 功能，用户可直接在 iPhone 上调用 Mac 本地运行的 AI 大语言模型。",
-      "content": "IT之家 6 月 5 日消息，LM Studio 今天（6 月 5 日）更新 Mac 版 Locally 应用，新增 LM Link 功能，用户可直接在 iPhone 上调用 Mac 本地运行的 AI 大语言模型。 LM Link 主打“本地模型＋跨设备访问”体验，用户需要先创建 LM Studio 账号，并在 Mac 和 iPhone 两端登录同一账号。 用户启用 LM Link 后，系统会在两台设备之间建立安全连接，让 iPhone 把请求发送到 Mac，再由 Mac 上的本地模型完成处理与返回结果。 在隐私与安全层面，LM Studio 强调 LM Link 采用端到端加密。官方表示，LM Link 运行在定制的 Tailscale 网状虚拟专用网络之上，设备间的全部数据与通信都会保持私密和安全，且设备不会直接暴露到公共互联网。 兼容性方面，LM Link 支持用户安装在 Mac 上的任意模型，也包括 Apple Intelligence 基础模型。不过体验仍取决于 Mac 硬件性能，这与本地模型的一般规律一致。 价格策略上，LM Studio 确认 LM Link 在预览阶段免费。预览结束后，公司除保留免费方案外，还会推出付费方案，但具体价格与功能分层尚未公布。 IT之家注：LM Studio 是一款功能强大的桌面应用程序，专为在用户自己的计算机（本地）上轻松下载、配置和运行大型语言模型（LLM）而设计。 它旨在降低本地化部署 AI 的门槛，让不懂命令行或没有深度 Python 经验的用户也能快速体验开源模型。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/e212f38e-5992-4d43-ae83-8c708795cfa1.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-04T23:13:47.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/960/189.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780615271702_7e9d54c4",
-      "title": "OpenAI 升级 ChatGPT 记忆系统：算力降至 1/5，瞄准过时与错误两大痛点",
-      "summary": "IT之家 6 月 5 日消息，OpenAI 公司昨日（6 月 4 日）宣布升级 ChatGPT 记忆功能，新系统基于 Dreaming V3 机制，重点改善记忆过时、准确性和大规模服务能力。 ChatGPT 记忆系统原本用于记住用户偏好和长期信息，从而减少每次对话都要重新说明背景的麻烦。",
-      "content": "IT之家 6 月 5 日消息，OpenAI 公司昨日（6 月 4 日）宣布升级 ChatGPT 记忆功能，新系统基于 Dreaming V3 机制，重点改善记忆过时、准确性和大规模服务能力。 ChatGPT 记忆系统原本用于记住用户偏好和长期信息，从而减少每次对话都要重新说明背景的麻烦。 ChatGPT 的记忆功能最早在 2024 年 4 月上线，当时主要是 saved memories（保存记忆）。这套机制依赖用户明确提出“记住某件事”，系统只在对话中写入少量信息。 2024 年 4 月首次推出 到 2025 年 4 月，OpenAI 首次把 Dreaming 引入 ChatGPT 记忆系统。与保存记忆不同，Dreaming 能借助后台流程参考聊天历史，自动筛选并整理与用户相关的内容，不再过度依赖“请记住”这类强提示。 过去 1 年里，这套能力一直作为保存记忆的补充，显著提升了个性化效果，也缓解了旧记忆陈旧的问题，但当时还不足以单独支撑完整记忆系统。 而本次升级的重点，是把 Dreaming 升级为更成熟的底层架构。OpenAI 用 3 个标准衡量“好记忆”：一是延续有用上下文，二是遵循用户偏好和限制，三是能随时间自动更新。 官方以 2024 年的保存记忆、2025 年的保存记忆加 Dreaming V0，以及 2026 年的 Dreaming V3 作对比，IT之家附上相关对比数据如下： 在运行机制方面，OpenAI 表示本次升级围绕着 dreaming 展开，重点针对记忆容易过时、内容准确性不足，以及面对数亿用户和多年使用周期时的扩展压力优化，在原有基础上更强，也更节省计算资源。 新系统会自动整合重要细节，并把生成的记忆以摘要形式展示在记忆摘要页。用户可以快速查看 ChatGPT 掌握了哪些关于自己的信息，也能补充、修改个人资料，以及告诉 ChatGPT 哪些话题该在什么场景下提起。如果想了解某项记忆的细节，用户还能直接与模型对话追问。 在开放范围上，美国 Plus 和 Pro 用户昨日起可以体验新版记忆系统，同时记忆容量提升至原来的 2 倍。 OpenAI 表示，近期改进已把 Dreaming 服务 Free 用户所需算力压低至五分之一，因此终于能在质量达标的前提下向免费用户推广。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/cf4359b8-69ce-44ac-8e0a-5508ee6e49c4.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-04T23:07:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/960/187.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780615272084_38ae7843",
-      "title": "迎接 WWDC26，苹果 Apple Park 访客中心上架新周边",
-      "summary": "IT之家 6 月 5 日消息，科技媒体 MacRumors 昨日（6 月 4 日）发布博文，报道称在 2026 年全球开发者大会（WWDC）开幕前夕，苹果 Apple Park 游客中心商店上架一批新周边。",
-      "content": "IT之家 6 月 5 日消息，科技媒体 MacRumors 昨日（6 月 4 日）发布博文，报道称在 2026 年全球开发者大会（WWDC）开幕前夕，苹果 Apple Park 游客中心商店上架一批新周边。 随着开发者和媒体即将前往 Apple Park 参加活动，这批新品被视为大会前的现场预热，也让到场者有机会购买限定感更强的苹果官方纪念品。 IT之家查询 X 平台，网友 Mr. Macintosh 反馈，他在商店完成夜间陈列调整后，于当天早晨第一时间入店，并拍下了新商品照片。本次新增周边产品包括： 带经典 Apple Garamond 字样、并配有彩虹配色的圆领卫衣，售价 80 美元（IT之家注：现汇率约合 543.1 元人民币） 印有彩虹 Apple 标志的帽子，有黑色和白色两种，售价为 40 美元（现汇率约合 271.5 元人民币） 灰色和白色不锈钢水瓶，售价为 40 美元（现汇率约合 271.5 元人民币） 值得注意的是，Apple Park 游客中心不只是周边商店，它同时也是一家完整的 Apple Store（苹果零售店）。到访者除选购限定周边外，也能直接购买 iPhone、iPad、Mac 以及各类配件，这让它兼具纪念消费与常规购物功能。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/8218f6f9-62a5-40e1-9796-925a4245bff3.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-04T22:43:57.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/960/183.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780784172708_c227ef06",
+      "id": "news_1780791784316_c227ef06",
       "title": "凌晨 3 点数据库 P0，AI Agent 是怎么自己修好的？",
       "summary": "凌晨 3 点数据库 P0，AI Agent 是怎么自己修好的？",
       "content": "凌晨 3 点数据库 P0，AI Agent 是怎么自己修好的？",
@@ -652,7 +592,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780784174214_c9606b01",
+      "id": "news_1780791786073_c9606b01",
       "title": "AI开始进入材料实验室：一家中国公司尝试让高分子研发从“经验驱动”走向“智能协同”",
       "summary": "AI开始进入材料实验室：一家中国公司尝试让高分子研发从“经验驱动”走向“智能协同”",
       "content": "AI开始进入材料实验室：一家中国公司尝试让高分子研发从“经验驱动”走向“智能协同”",
@@ -664,7 +604,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780784175309_6314693c",
+      "id": "news_1780791787330_6314693c",
       "title": "3 个维度说清楚，工具型产品如何成为 AI 原生产品",
       "summary": "3 个维度说清楚，工具型产品如何成为 AI 原生产品",
       "content": "3 个维度说清楚，工具型产品如何成为 AI 原生产品",
@@ -676,7 +616,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780784176620_df2ba899",
+      "id": "news_1780791789569_df2ba899",
       "title": "别把懂语义和查事实混为一谈：企业级 Agent 真正缺的是什么？",
       "summary": "别把懂语义和查事实混为一谈：企业级 Agent 真正缺的是什么？",
       "content": "别把懂语义和查事实混为一谈：企业级 Agent 真正缺的是什么？",
