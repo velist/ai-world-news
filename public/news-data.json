@@ -1,8 +1,80 @@
 {
   "success": true,
-  "timestamp": "2026-06-08T16:15:54.782Z",
-  "total": 40,
+  "timestamp": "2026-06-08T19:33:05.964Z",
+  "total": 51,
   "data": [
+    {
+      "id": "news_1780947184143_11638c58",
+      "title": "Xcode 27 Beta 发布：苹果称其是构建 AI 智能体应用的“最佳场所”",
+      "summary": "IT之家 6 月 9 日消息，在今天（6 月 9 日）召开的 2026 全球开发者大会（WWDC）上，苹果公司面向开发者，升级推出全新 Xcode，并同步推出 Core AI 框架。 苹果发布了新版 Foundation Models 框架，让开发者更灵活地调用 AI 能力。",
+      "content": "IT之家 6 月 9 日消息，在今天（6 月 9 日）召开的 2026 全球开发者大会（WWDC）上，苹果公司面向开发者，升级推出全新 Xcode，并同步推出 Core AI 框架。 苹果发布了新版 Foundation Models 框架，让开发者更灵活地调用 AI 能力。新框架已支持图像输入，开发者可把图片与文本一并传给设备端模型，让应用直接处理更丰富的多模态任务。 Xcode 方面，苹果把编码助手进一步推向智能体式编码工作流。新能力已覆盖应用本地化，帮助开发者处理多语言适配；编码助手也能与模拟设备交互，在编写代码，还能触达测试与调试相关环节。IT之家附上相关截图如下： 苹果还表示，开发者之后可更轻松地调整应用预览尺寸，并与预览界面交互。更多细节会在后续专题场次和 State of the Union 演讲中披露。 苹果软件工程高级副总裁 Craig Federighi 还称，Xcode 已成为构建智能体 AI 应用的“最佳场所”。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/6c419665-3394-4975-8f05-c81bb4ebc395.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-08T19:18:57.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/961/694.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780947184491_95ac0dfc",
+      "title": "虽迟但到：苹果 tvOS 27 首个开发者测试版 Developer Beta1 发布",
+      "summary": "IT之家 6 月 9 日消息，虽然 WWDC26 并未过多提及，但苹果 tvOS 27 首个开发者测试版 Developer Beta1 也已发布。 目前，Apple TV 已经可以选择升级 tvOS 27 Developer Beta 版本。",
+      "content": "IT之家 6 月 9 日消息，虽然 WWDC26 并未过多提及，但苹果 tvOS 27 首个开发者测试版 Developer Beta1 也已发布。 目前，Apple TV 已经可以选择升级 tvOS 27 Developer Beta 版本。用户可以在设置应用的软件更新“Beta 版更新”部分找到该更新选项。 据 9to5mac 报道，今年 tvOS 的一个重大新功能是更新了播客应用，以及新的智能下载功能，性能提升包括更快的应用启动和控制中心加载，更大文本大小选项以方便无障碍，等等。 遗憾的是，苹果尚未像其他操作系统那样推出 tvOS 27 预览页面。这意味着目前关于这些功能的具体内容几乎没有（甚至没有截图）。它们只在主题演讲中分屏的词云画面中被提及。 IT之家注意到，tvOS 27 将从今天开始进入开发者测试阶段，7 月公开测试，秋季发布。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/da878e2e-f3e6-41d1-9613-89516b334172.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-08T19:11:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/961/693.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780947184702_cc1e5766",
+      "title": "苹果 visionOS 27 开发者预览版 Beta 1 发布",
+      "summary": "IT之家 6 月 9 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 27 开发者预览版 Beta 1 更新（内部版本号：24M5291p）。 苹果 visionOS 27 主要为海外机型引入了 Siri AI 功能，同步引入了全新视觉智能功能，可以看着场景询问 Siri。",
+      "content": "IT之家 6 月 9 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 27 开发者预览版 Beta 1 更新（内部版本号：24M5291p）。 苹果 visionOS 27 主要为海外机型引入了 Siri AI 功能，同步引入了全新视觉智能功能，可以看着场景询问 Siri。同时还支持将全景照片设置为个人环境。 需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/69c7bc3e-dd47-4d4b-9acc-123d8b9dc880.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-08T18:32:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/961/686.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780947163526_41282361",
+      "title": "蚂蚁国际推出移动智能体协议AMP，海外AI支付迈向统一标准",
+      "summary": "蚂蚁国际推出移动智能体协议AMP，海外AI支付迈向统一标准",
+      "content": "蚂蚁国际推出移动智能体协议AMP，海外AI支付迈向统一标准",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-08T18:29:19.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/gSR7FTxv2trGQjSIMkmp?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780947184857_fdfeeba6",
+      "title": "苹果 watchOS 27 淘汰 Apple Watch Series 6/7/8/9、SE 2、Ultra 初代手表",
+      "summary": "IT之家 6 月 9 日消息，苹果官网现已公布了 watchOS 27 要求的设备，相对于 watchOS 26，苹果一口气砍掉了 Apple Watch Series 6/7/8/9、Apple Watch Ultra 初代、Apple Watch SE 2 机型，IT之家整理具体设备要求如下： ...",
+      "content": "IT之家 6 月 9 日消息，苹果官网现已公布了 watchOS 27 要求的设备，相对于 watchOS 26，苹果一口气砍掉了 Apple Watch Series 6/7/8/9、Apple Watch Ultra 初代、Apple Watch SE 2 机型，IT之家整理具体设备要求如下： Apple Watch Series 10 Apple Watch Series 11 Apple Watch Ultra 2 Apple Watch Ultra 3 Apple Watch SE 3",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/8892c9f7-4224-45b8-921e-28322819f925.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-08T18:27:49.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/961/683.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780947184963_ef0599d6",
+      "title": "省去繁琐步骤：苹果 Siri AI 官宣支持自然语言生成快捷指令",
+      "summary": "IT之家 6 月 9 日消息，在今天召开的 2026 年全球开发者大会（WWDC）上，苹果带来了全新的 Siri AI 和 Siri App。 IT之家从 WWDC26 了解到，快捷指令也接入了 Siri AI，支持用户直接用自然语言快速创建快捷指令，不用像以前那样逐个配置。",
+      "content": "IT之家 6 月 9 日消息，在今天召开的 2026 年全球开发者大会（WWDC）上，苹果带来了全新的 Siri AI 和 Siri App。 IT之家从 WWDC26 了解到，快捷指令也接入了 Siri AI，支持用户直接用自然语言快速创建快捷指令，不用像以前那样逐个配置。不过需要注意的是，这项功能依赖 Apple Intelligence。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/98e08d7a-f4eb-4d88-afec-84b8451def8a.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-08T18:16:01.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/961/680.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1780917497188_d0a83ca2",
       "title": "Notion 封禁 Anthropic，并用模型降智把 Opus 4.8 送上热搜！12小时后紧急澄清系笔误",
@@ -26,6 +98,54 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/QHSuhmxx4CsdUHl0348D?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780947168829_91e3b8b4",
+      "title": "全球近1.8万人参赛，科研智能体同台竞技，第四届世界科学智能大赛初赛收官、复赛开启",
+      "summary": "全球近1.8万人参赛，科研智能体同台竞技，第四届世界科学智能大赛初赛收官、复赛开启",
+      "content": "全球近1.8万人参赛，科研智能体同台竞技，第四届世界科学智能大赛初赛收官、复赛开启",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-08T17:07:56.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/WMUg5jeYhWrOXVpA2b0N?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780947170322_84625984",
+      "title": "云知声U2，重新计算通用大模型的商业价值",
+      "summary": "云知声U2，重新计算通用大模型的商业价值",
+      "content": "云知声U2，重新计算通用大模型的商业价值",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-08T16:43:44.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/dXrSfgKc1E2Ck60IGYhT?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780947172277_8e12236f",
+      "title": "“英伟达也缺算力！”顶尖AI研究员转投xAI内幕：谁GPU管够，就去哪里",
+      "summary": "“英伟达也缺算力！”顶尖AI研究员转投xAI内幕：谁GPU管够，就去哪里",
+      "content": "“英伟达也缺算力！”顶尖AI研究员转投xAI内幕：谁GPU管够，就去哪里",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-08T16:34:49.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/E1oMvU7A5EH9hDMcAJLE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1780947174257_bb8d3025",
+      "title": "腾讯内部宣布调整 token额度；宇树回应牵手英伟达；阿里员工7万字离职帖引爆内网｜AI周报",
+      "summary": "腾讯内部宣布调整 token额度；宇树回应牵手英伟达；阿里员工7万字离职帖引爆内网｜AI周报",
+      "content": "腾讯内部宣布调整 token额度；宇树回应牵手英伟达；阿里员工7万字离职帖引爆内网｜AI周报",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-08T16:20:52.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/trQR8xPTugwC9YuT3gkw?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1780935352478_041d69aa",
@@ -64,6 +184,18 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1780947175851_d30cf159",
+      "title": "在美国硅谷深度考察一周后，我看清了中国 AI 该怎么走",
+      "summary": "在美国硅谷深度考察一周后，我看清了中国 AI 该怎么走",
+      "content": "在美国硅谷深度考察一周后，我看清了中国 AI 该怎么走",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-08T14:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/7AscwbNxN3u4SwY1FUFq?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1780917510355_ee1c7e98",
       "title": "奇遇团在硅谷: 7位到50位技术领袖集结SVAI - 深度拆解 Snowflake Summit 26",
       "summary": "奇遇团在硅谷: 7位到50位技术领袖集结SVAI - 深度拆解 Snowflake Summit 26...",
@@ -76,15 +208,15 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780935347574_bcb1bc0c",
-      "title": "测试自动化中的 AI 生产力悖论：从结构验证迈向感知与意图",
-      "summary": "测试自动化中的 AI 生产力悖论：从结构验证迈向感知与意图",
-      "content": "测试自动化中的 AI 生产力悖论：从结构验证迈向感知与意图",
+      "id": "news_1780947178949_b8780905",
+      "title": "参加完硅谷华人 AI Meet-Up，我最大的感受不是技术",
+      "summary": "参加完硅谷华人 AI Meet-Up，我最大的感受不是技术",
+      "content": "参加完硅谷华人 AI Meet-Up，我最大的感受不是技术",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-06-08T13:11:00.000Z",
+      "publishedAt": "2026-06-08T13:55:14.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/bDD6lTmWitaj0FtIVmm4?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/i4XGAvp4JhLkxElYrJew?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -304,7 +436,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780935303959_0",
+      "id": "news_1780947134262_0",
       "title": "Experts: Full Economic Impact of AI Remains Years Away",
       "summary": "More than three years after ChatGPT helped ignite the artificial intelligence boom, businesses across industries are increasingly integrating AI into ...",
       "content": "More than three years after ChatGPT helped ignite the artificial intelligence boom, businesses across industries are increasingly integrating AI into their operations. However, experts say the technology has yet to deliver the sweeping productivity g... [5132 chars]",
