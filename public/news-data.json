@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-06-08T19:33:05.964Z",
-  "total": 51,
+  "timestamp": "2026-06-08T22:02:35.696Z",
+  "total": 46,
   "data": [
+    {
+      "id": "news_1780956154694_1b37588b",
+      "title": "初探苹果 watchOS 27：升级 Siri AI、增强健康追踪、优化智能叠放",
+      "summary": "IT之家 6 月 9 日消息，在今天（6 月 9 日）召开的 2026 年全球开发者大会（WWDC）上，苹果公司预览发布 watchOS 27 系统更新，聚焦升级 Siri AI、健康追踪、健身辅导与智能叠放（Smart Stack）。",
+      "content": "IT之家 6 月 9 日消息，在今天（6 月 9 日）召开的 2026 年全球开发者大会（WWDC）上，苹果公司预览发布 watchOS 27 系统更新，聚焦升级 Siri AI、健康追踪、健身辅导与智能叠放（Smart Stack）。 在 Siri AI 方面，底层由 Apple Intelligence 驱动，支持开放式问题与更自然的多轮对话。用户可直接在手腕上询问跑后恢复拉伸建议，也可连续追问相关内容。 Siri AI 还能调用备忘录等个人内容，帮助查找驾照号码、租住房屋门禁码等已存信息，减少用户频繁拿起 iPhone 的需要。 健康追踪方面，苹果 watchOS 27 扩展经期健康支持，符合条件的用户可收到与围绝经期相关的周期偏差提醒。 IT之家注：围绝经期指女性在绝经前后，身体逐步过渡到绝经状态的一段时期，月经周期和身体感受可能出现波动。 在跑步追踪方面，苹果补充了与配速、距离和锻炼时长相关的新数据，让用户能更清楚地观察长期表现变化。 在健身辅导方面，苹果 watchOS 27 同步升级 Workout Buddy（运动伙伴），新增西班牙语支持，并可依据用户过往健身历史给出更个性化的激励与反馈。此外用户在锻炼时使用 Workout Buddy 不再需要随身携带 iPhone。 界面层面，watchOS 27 也强化了单手操作与信息前置能力，新手势支持用户用拇指和食指轻点 1 次，快速选取小组件并查看信息。 智能叠放（Smart Stack）则获得更强的情境感知能力，可按活动状态和即时需求主动展示内容，比如亲近联系人的生日提醒、停车位置，以及假日前的睡眠闹钟调整建议。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/71c96648-0417-4c78-b980-d10a1f49749d.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-08T20:07:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/961/701.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1780947184143_11638c58",
       "title": "Xcode 27 Beta 发布：苹果称其是构建 AI 智能体应用的“最佳场所”",
@@ -38,18 +50,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/961/686.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780947163526_41282361",
-      "title": "蚂蚁国际推出移动智能体协议AMP，海外AI支付迈向统一标准",
-      "summary": "蚂蚁国际推出移动智能体协议AMP，海外AI支付迈向统一标准",
-      "content": "蚂蚁国际推出移动智能体协议AMP，海外AI支付迈向统一标准",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-08T18:29:19.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/gSR7FTxv2trGQjSIMkmp?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1780947184857_fdfeeba6",
@@ -100,54 +100,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780947168829_91e3b8b4",
-      "title": "全球近1.8万人参赛，科研智能体同台竞技，第四届世界科学智能大赛初赛收官、复赛开启",
-      "summary": "全球近1.8万人参赛，科研智能体同台竞技，第四届世界科学智能大赛初赛收官、复赛开启",
-      "content": "全球近1.8万人参赛，科研智能体同台竞技，第四届世界科学智能大赛初赛收官、复赛开启",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-08T17:07:56.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/WMUg5jeYhWrOXVpA2b0N?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780947170322_84625984",
-      "title": "云知声U2，重新计算通用大模型的商业价值",
-      "summary": "云知声U2，重新计算通用大模型的商业价值",
-      "content": "云知声U2，重新计算通用大模型的商业价值",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-08T16:43:44.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/dXrSfgKc1E2Ck60IGYhT?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780947172277_8e12236f",
-      "title": "“英伟达也缺算力！”顶尖AI研究员转投xAI内幕：谁GPU管够，就去哪里",
-      "summary": "“英伟达也缺算力！”顶尖AI研究员转投xAI内幕：谁GPU管够，就去哪里",
-      "content": "“英伟达也缺算力！”顶尖AI研究员转投xAI内幕：谁GPU管够，就去哪里",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-08T16:34:49.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/E1oMvU7A5EH9hDMcAJLE?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780947174257_bb8d3025",
-      "title": "腾讯内部宣布调整 token额度；宇树回应牵手英伟达；阿里员工7万字离职帖引爆内网｜AI周报",
-      "summary": "腾讯内部宣布调整 token额度；宇树回应牵手英伟达；阿里员工7万字离职帖引爆内网｜AI周报",
-      "content": "腾讯内部宣布调整 token额度；宇树回应牵手英伟达；阿里员工7万字离职帖引爆内网｜AI周报",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-08T16:20:52.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/trQR8xPTugwC9YuT3gkw?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1780935352478_041d69aa",
       "title": "2026 高考英语落下帷幕，今年北京卷李华要谈“当运动遇见 AI”",
       "summary": "IT之家 6 月 8 日消息，今日下午，2026 年北京市高考英语科目结束。据央视新闻报道，作文题又再见我们的“老朋友”李华。 假设你是红星中学高三学生李华。",
@@ -184,18 +136,6 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780947175851_d30cf159",
-      "title": "在美国硅谷深度考察一周后，我看清了中国 AI 该怎么走",
-      "summary": "在美国硅谷深度考察一周后，我看清了中国 AI 该怎么走",
-      "content": "在美国硅谷深度考察一周后，我看清了中国 AI 该怎么走",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-08T14:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/7AscwbNxN3u4SwY1FUFq?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1780917510355_ee1c7e98",
       "title": "奇遇团在硅谷: 7位到50位技术领袖集结SVAI - 深度拆解 Snowflake Summit 26",
       "summary": "奇遇团在硅谷: 7位到50位技术领袖集结SVAI - 深度拆解 Snowflake Summit 26...",
@@ -208,15 +148,15 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780947178949_b8780905",
-      "title": "参加完硅谷华人 AI Meet-Up，我最大的感受不是技术",
-      "summary": "参加完硅谷华人 AI Meet-Up，我最大的感受不是技术",
-      "content": "参加完硅谷华人 AI Meet-Up，我最大的感受不是技术",
+      "id": "news_1780956150687_bcb1bc0c",
+      "title": "测试自动化中的 AI 生产力悖论：从结构验证迈向感知与意图",
+      "summary": "测试自动化中的 AI 生产力悖论：从结构验证迈向感知与意图",
+      "content": "测试自动化中的 AI 生产力悖论：从结构验证迈向感知与意图",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-06-08T13:55:14.000Z",
+      "publishedAt": "2026-06-08T13:11:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/i4XGAvp4JhLkxElYrJew?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/bDD6lTmWitaj0FtIVmm4?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -436,7 +376,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1780947134262_0",
+      "id": "news_1780956106515_0",
       "title": "Experts: Full Economic Impact of AI Remains Years Away",
       "summary": "More than three years after ChatGPT helped ignite the artificial intelligence boom, businesses across industries are increasingly integrating AI into ...",
       "content": "More than three years after ChatGPT helped ignite the artificial intelligence boom, businesses across industries are increasingly integrating AI into their operations. However, experts say the technology has yet to deliver the sweeping productivity g... [5132 chars]",
