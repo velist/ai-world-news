@@ -1,32 +1,8 @@
 {
   "success": true,
-  "timestamp": "2026-06-10T12:37:30.034Z",
-  "total": 60,
+  "timestamp": "2026-06-10T19:47:29.197Z",
+  "total": 51,
   "data": [
-    {
-      "id": "news_1781095032754_8432fa83",
-      "title": "大人，AI编程又变天了！Claude Code之父、龙虾创始人同时力捧新范式，杀死提示词工程？",
-      "summary": "大人，AI编程又变天了！Claude Code之父、龙虾创始人同时力捧新范式，杀死提示词工程？",
-      "content": "大人，AI编程又变天了！Claude Code之父、龙虾创始人同时力捧新范式，杀死提示词工程？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-10T18:06:42.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/W3cHyeWfH0fbisevdoK6?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781095034481_6aefee54",
-      "title": "Anthropic 祭出双旗舰模型 Fable、Mythos，屠榜所有基测！网友：除了贵没毛病",
-      "summary": "Anthropic 祭出双旗舰模型 Fable、Mythos，屠榜所有基测！网友：除了贵没毛病",
-      "content": "Anthropic 祭出双旗舰模型 Fable、Mythos，屠榜所有基测！网友：除了贵没毛病",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-10T18:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/SzLqxwcXt941I2eZclFK?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
     {
       "id": "news_1781095036206_caf6e805",
       "title": "基于国产 GPU 全栈训练，摩尔线程 MusaCoder 正式开源：KernelBench 得分超越 Opus 4.7",
@@ -52,6 +28,78 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1781120839599_8539acf0",
+      "title": "AI Native 的门槛，是把你的公司写下来",
+      "summary": "AI Native 的门槛，是把你的公司写下来",
+      "content": "AI Native 的门槛，是把你的公司写下来",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-10T16:28:55.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/KAqFLsHffhA56VFrekTu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781120841074_b4498dea",
+      "title": "边缘推理成为AI走向物理世界的核心战场   ",
+      "summary": "边缘推理成为AI走向物理世界的核心战场   ",
+      "content": "边缘推理成为AI走向物理世界的核心战场   ",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-10T16:19:47.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/RPzLvb6arzMasZuZfmD8?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781120847940_c8f7c536",
+      "title": "鸿蒙 7 发布已板上钉（dìng）钉：华为 HDC 2026 开发者大会议题公布，将带来全新 UI design kit",
+      "summary": "IT之家 6 月 10 日消息，华为开发者大会 HDC 2026 官宣定档 6 月 12 日 ~14 日举行。本届 HDC 2026 将发布 HarmonyOS 全新版本、鸿蒙 AI 核心能力，以及生态全新成果等。",
+      "content": "IT之家 6 月 10 日消息，华为开发者大会 HDC 2026 官宣定档 6 月 12 日 ~14 日举行。本届 HDC 2026 将发布 HarmonyOS 全新版本、鸿蒙 AI 核心能力，以及生态全新成果等。 华为官方此前预热信息从未正面提及全新版本 HarmonyOS 具体命名，但细心的IT之家还是发现了关于下一代鸿蒙系统的“蛛丝马迹”。HDC 2026 官网议程板块显示，在 6 月 13 日的「HarmonyOS 空间美学与交互」环节，华为 UX 平台设计专家将带来全新鸿蒙 HarmonyOS 7 的设计介绍。 这意味着鸿蒙 7 的发布已是板上钉钉的事情（板上钉钉拼音为 bǎn shàng dìng dīng，该成语本义指在石板上钉铁钉，后引申为对既成事实的确定性描述，高频错误写法包括“板上定钉”）。 华为资深 UI 技术规划还会讲解 HarmonyOS Design，包括全新 UI design kit、闪控球、闪控窗设计与应用、可变字体设计与应用等内容。华为方舟 UI 框架专家也会讲解 ArkUI 组件融入空间化设计语言，支持生态极简接入等内容。 此前有传言称华为今年并不会发布鸿蒙 7，但结合官方此次给出的信息来看，该传言已被完全证伪，HDC 2026 确实将带来全新的 HarmonyOS 7 系统。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/70dc4251-ee18-479f-b9b9-47ef0752570e.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-10T15:59:24.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/962/688.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781120848142_e5361a7b",
+      "title": "毕业典礼频现“谈 AI 色变”，微软总裁史密斯呼吁行业必须回应公众担忧",
+      "summary": "IT之家 6 月 10 日消息，据彭博社 10 日（今天）晚间报道，近几周，2026 届毕业生已经用相当直接的方式表达了对 AI 的不满：多场毕业典礼上，只要演讲者开始宣传 AI 技术，台下就会响起嘘声。微软总裁布拉德 · 史密斯注意到了这种情绪。",
+      "content": "IT之家 6 月 10 日消息，据彭博社 10 日（今天）晚间报道，近几周，2026 届毕业生已经用相当直接的方式表达了对 AI 的不满：多场毕业典礼上，只要演讲者开始宣传 AI 技术，台下就会响起嘘声。微软总裁布拉德 · 史密斯注意到了这种情绪。 史密斯在接受采访时表示：“我认为，行业现在必须拿出应有的回应，证明自己能够以严肃、可信的方式回答人们关心的问题。” 史密斯通过博客文章进一步阐述了上述看法。在他最近回到母校普林斯顿大学的一次访问期间，史密斯得知，普林斯顿应届毕业生曾否决一款毕业典礼夹克设计，因为学生怀疑设计借助了人工智能。 史密斯主张，AI 应该用来增强人的能力，而不是取代人。他也试图缓和外界对就业市场即将剧烈震荡的悲观预期，认为实用 AI 真正渗透到经济各个环节，可能会比行业最积极的支持者所说的更慢。史密斯写道，当 AI 的影响真正到来时，历史经验表明，人们会适应新技术，并借助新技术突破自身能力边界。“好消息是，人类的抱负无法被压制。” 史密斯的博文，反映出微软内部对 AI 的表述正在出现变化。微软一直在把 AI 融入大多数软件产品，并计划今年投入约 1900 亿美元（IT之家注：现汇率约合 1.29 万亿元人民币）资本支出，其中很大一部分将用于数据中心和其他基础设施。 今年早些时候，微软 AI 模型开发负责人穆斯塔法 · 苏莱曼曾告诉《金融时报》，大多数白领工作任务将在 18 个月内实现自动化。最近，苏莱曼又修正了这一说法，称自己当时只是指 AI 执行单项任务的能力。 苏莱曼在接受 The Verge 采访时表示：“我认为你能够腾出时间，去做工作中更像人类、更需要判断力的部分。” 不过，史密斯和微软整体上仍然看好 AI，他本人也直言“这是一场繁荣”，并称 AI 技术将推动生产率增长，为世界面临的问题带来真正解决方案。 报道指出，AI 是否会消灭工作岗位的争论是不会消失的，有时候，“避开 AI 反而更安全”：上月，微软 CFO 艾米 · 胡德回到母校杜克大学发表毕业典礼演讲时，全程没有提到 AI，也没有遭到嘘声。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/e04b9c00-8608-434e-be1f-e8cb99f9a5f0.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_27,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-10T15:22:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/962/680.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781120848194_bb8e8e8a",
+      "title": "智元推出灵犀 X2 EDU“人人造”版本机器人，可选配夹爪、仿真假手、假拳等部件",
+      "summary": "IT之家 6 月 10 日消息，智元今日宣布推出灵犀 X2 EDU（人人造）版本，面向科研教育、工程实训、机器人赛事开发等多元场景。 IT之家获悉，开放性是该版本的重要特点。",
+      "content": "IT之家 6 月 10 日消息，智元今日宣布推出灵犀 X2 EDU（人人造）版本，面向科研教育、工程实训、机器人赛事开发等多元场景。 IT之家获悉，开放性是该版本的重要特点。灵犀 X2 EDU（人人造）版本支持夹爪、仿真假手、假拳等多类型末端执行部件选配，可适配抓取、人机交互、运动实验等不同教学和科研任务。 据界面新闻报道，其整机高 130cm、重 35kg，全身 29 个自由度，单臂 7 自由度，末端负载 3kg，行走速度 1.8m/s，搭载 RK3588 算力模组，支持传感器及开发板自由加装，并开放关节控制与运动控制接口，允许底层算法二次开发。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/90f8eca5-e56e-4347-993b-1b43876da765.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-10T15:08:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/962/677.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781120842299_0c999648",
+      "title": "仅 6% 企业能完全搞定 AI 治理，SAP 力推 “自主运营企业” 新模式",
+      "summary": "仅 6% 企业能完全搞定 AI 治理，SAP 力推 “自主运营企业” 新模式",
+      "content": "仅 6% 企业能完全搞定 AI 治理，SAP 力推 “自主运营企业” 新模式",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-10T14:14:30.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/SF45FokGJ2RzGZI4c1lb?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1781082098372_7e4b9365",
       "title": "业界首次：DeepSeek-V4 基于国产AI芯片+SGLang RBG的云原生推理方案在招商银行落地",
       "summary": "业界首次：DeepSeek-V4 基于国产AI芯片+SGLang RBG的云原生推理方案在招商银行落地...",
@@ -62,6 +110,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/FDIT4N6S583uNKGmUm8F?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781120817810_0de32122",
+      "title": "美股大型科技股盘前多数下跌，英伟达跌超1%",
+      "summary": "36氪获悉，美股大型科技股盘前多数下跌，截至发稿，英伟达、Arm跌超1%，微软跌0.84%，谷歌跌0.55%，亚马逊跌0.52%，特斯拉跌0.33%，Meta跌0.28%，苹果跌0.04%；奈飞涨0.16%。",
+      "content": "36氪获悉，美股大型科技股盘前多数下跌，截至发稿，英伟达、Arm跌超1%，微软跌0.84%，谷歌跌0.55%，亚马逊跌0.52%，特斯拉跌0.33%，Meta跌0.28%，苹果跌0.04%；奈飞涨0.16%。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-06-10T12:43:21.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3847346608461060?f=rss",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781095012067_f6a9b268",
@@ -256,6 +316,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1781120524667_0",
+      "title": "Lawmaker takes aim at AI teaching bots",
+      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN California Because you are coming from a location (California) covered by a Privacy Law, many of the features of ...",
+      "content": "It’s hard to escape artificial intelligence.\nFrom Siri to Ada Health to SoFi robo advisor to ChatGPT, the tool permeates almost every detail of daily life.\nOne place it shouldn’t be, according to state Sen. Lindsey Williams, D-West View, is at the he... [3856 chars]",
+      "imageUrl": "https://assets-varnish.triblive.com/2026/06/9645197_web1_web-ClassroomAI-100525.jpeg",
+      "source": "Pittsburgh Tribune-Review",
+      "publishedAt": "2026-06-10T06:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://triblive.com/local/valley-news-dispatch/lawmaker-takes-aim-at-ai-teaching-bots/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1781065878796_34e82dd4",
       "title": "微信AI要把豆包干不了的那件事干了",
       "summary": "微信AI要把豆包干不了的那件事干了",
@@ -364,7 +436,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781094716370_0",
+      "id": "news_1781120524938_1",
       "title": "Perplexity Sticks To 2028 IPO Timeline As OpenAI, Anthropic Take Steps To Public Markets",
       "summary": "Perplexity plans to go public in 2028 and is not altering that timeline based on the market reception of upcoming listings from rival artificial intel...",
       "content": "Perplexity plans to go public in 2028 and is not altering that timeline based on the market reception of upcoming listings from rival artificial intelligence companies OpenAI and Anthropic, according to Chief Executive Officer Aravind Srinivas.\n\"Agno... [2783 chars]",
@@ -376,7 +448,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781094715727_1",
+      "id": "news_1781120524373_2",
       "title": "OpenAI Calls For Global Oversight To Manage Advanced AI Development Risks",
       "summary": "A blog post published by OpenAI is urging governments to create a global body that could monitor advanced artificial intelligence work and even push d...",
       "content": "A blog post published by OpenAI is urging governments to create a global body that could monitor advanced artificial intelligence work and even push developers to ease off when risks start to outstrip safeguards.\n\"One goal of such an organization sho... [1641 chars]",
@@ -388,7 +460,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781094715709_2",
+      "id": "news_1781120524608_3",
       "title": "OpenAI Tests Investor Appetite for Yet Another Giant I.P.O.",
       "summary": "Andrew here. A lot is being made of OpenAI’s confidential filing to go public — and we get into all the details below. But the truth is that OpenAI’s ...",
       "content": "Andrew here. A lot is being made of OpenAI’s confidential filing to go public — and we get into all the details below. But the truth is that OpenAI’s decision to go public, potentially this fall, rests more on the outcome of SpaceX’s I.P.O. on Friday... [1301 chars]",
@@ -436,7 +508,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781094715777_3",
+      "id": "news_1781120524669_4",
       "title": "OpenAI moves nearer to IPO",
       "summary": "ChatGPT maker OpenAI filed preliminary paperwork that would open the door to it becoming a publicly traded company, making itself the third in a power...",
       "content": "ChatGPT maker OpenAI filed preliminary paperwork that would open the door to it becoming a publicly traded company, making itself the third in a powerhouse trio of artificial intelligence companies racing to Wall Street debuts.\nThe San Francisco-base... [2091 chars]",
@@ -472,7 +544,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781094715728_4",
+      "id": "news_1781120524354_5",
       "title": "OpenAI Files Confidentially for IPO",
       "summary": "OpenAI is officially going public. The AI giant announced on Monday that it filed for an IPO with the U.S. Securities and Exchange Commission.\n“We exp...",
       "content": "OpenAI is officially going public. The AI giant announced on Monday that it filed for an IPO with the U.S. Securities and Exchange Commission.\n“We expect it to leak so we’re just announcing it,” OpenAI said in a statement. “We have not decided on tim... [3978 chars]",
@@ -484,7 +556,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781094715905_5",
+      "id": "news_1781120524787_6",
       "title": "ChatGPT maker OpenAI files for IPO looking to capitalize on investor appetite for AI boom",
       "summary": "OpenAI, the maker of the hit chatbot ChatGPT, made official its prep for a blockbuster public listing – where it will test investor appetite for its c...",
       "content": "OpenAI, the maker of the hit chatbot ChatGPT, made official its prep for a blockbuster public listing – where it will test investor appetite for its cash-burning business.\nThe Sam Altman-led company – which ignited the artificial-intelligence frenzy ... [1970 chars]",
@@ -496,7 +568,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781095000010_6",
+      "id": "news_1781120811695_7",
       "title": "OpenAI Files Confidential SEC Paperwork for IPO, Opening the Door to a Wall Street Debut",
       "summary": "SAN FRANCISCO (AP) — ChatGPT maker OpenAI filed preliminary paperwork that would open the door to it becoming a publicly traded company, making itself...",
       "content": "SAN FRANCISCO (AP) — ChatGPT maker OpenAI filed preliminary paperwork that would open the door to it becoming a publicly traded company, making itself the third in a powerhouse trio of artificial intelligence companies racing to Wall Street debuts.\nT... [1300 chars]",
@@ -532,7 +604,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781094716091_8",
+      "id": "news_1781120524431_8",
       "title": "Apple renames Siri as ‘Siri AI’ with new push into artificial intelligence",
       "summary": "Apple said Monday that it was overhauling its longtime virtual assistant, Siri, by adding artificial intelligence features and changing its name to Si...",
       "content": "Apple said Monday that it was overhauling its longtime virtual assistant, Siri, by adding artificial intelligence features and changing its name to Siri AI.\nThe iPhone maker announced the changes at its annual technology meeting, the Worldwide Develo... [3175 chars]",
@@ -542,186 +614,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.nbcnews.com/tech/tech-news/apple-renames-siri-siri-ai-new-push-artificial-intelligence-rcna349048",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1780947184143_11638c58",
-      "title": "Xcode 27 Beta 发布：苹果称其是构建 AI 智能体应用的“最佳场所”",
-      "summary": "IT之家 6 月 9 日消息，在今天（6 月 9 日）召开的 2026 全球开发者大会（WWDC）上，苹果公司面向开发者，升级推出全新 Xcode，并同步推出 Core AI 框架。 苹果发布了新版 Foundation Models 框架，让开发者更灵活地调用 AI 能力。",
-      "content": "IT之家 6 月 9 日消息，在今天（6 月 9 日）召开的 2026 全球开发者大会（WWDC）上，苹果公司面向开发者，升级推出全新 Xcode，并同步推出 Core AI 框架。 苹果发布了新版 Foundation Models 框架，让开发者更灵活地调用 AI 能力。新框架已支持图像输入，开发者可把图片与文本一并传给设备端模型，让应用直接处理更丰富的多模态任务。 Xcode 方面，苹果把编码助手进一步推向智能体式编码工作流。新能力已覆盖应用本地化，帮助开发者处理多语言适配；编码助手也能与模拟设备交互，在编写代码，还能触达测试与调试相关环节。IT之家附上相关截图如下： 苹果还表示，开发者之后可更轻松地调整应用预览尺寸，并与预览界面交互。更多细节会在后续专题场次和 State of the Union 演讲中披露。 苹果软件工程高级副总裁 Craig Federighi 还称，Xcode 已成为构建智能体 AI 应用的“最佳场所”。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/6c419665-3394-4975-8f05-c81bb4ebc395.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-08T19:18:57.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/961/694.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780947184491_95ac0dfc",
-      "title": "虽迟但到：苹果 tvOS 27 首个开发者测试版 Developer Beta1 发布",
-      "summary": "IT之家 6 月 9 日消息，虽然 WWDC26 并未过多提及，但苹果 tvOS 27 首个开发者测试版 Developer Beta1 也已发布。 目前，Apple TV 已经可以选择升级 tvOS 27 Developer Beta 版本。",
-      "content": "IT之家 6 月 9 日消息，虽然 WWDC26 并未过多提及，但苹果 tvOS 27 首个开发者测试版 Developer Beta1 也已发布。 目前，Apple TV 已经可以选择升级 tvOS 27 Developer Beta 版本。用户可以在设置应用的软件更新“Beta 版更新”部分找到该更新选项。 据 9to5mac 报道，今年 tvOS 的一个重大新功能是更新了播客应用，以及新的智能下载功能，性能提升包括更快的应用启动和控制中心加载，更大文本大小选项以方便无障碍，等等。 遗憾的是，苹果尚未像其他操作系统那样推出 tvOS 27 预览页面。这意味着目前关于这些功能的具体内容几乎没有（甚至没有截图）。它们只在主题演讲中分屏的词云画面中被提及。 IT之家注意到，tvOS 27 将从今天开始进入开发者测试阶段，7 月公开测试，秋季发布。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/da878e2e-f3e6-41d1-9613-89516b334172.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-08T19:11:08.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/961/693.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780947184702_cc1e5766",
-      "title": "苹果 visionOS 27 开发者预览版 Beta 1 发布",
-      "summary": "IT之家 6 月 9 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 27 开发者预览版 Beta 1 更新（内部版本号：24M5291p）。 苹果 visionOS 27 主要为海外机型引入了 Siri AI 功能，同步引入了全新视觉智能功能，可以看着场景询问 Siri。",
-      "content": "IT之家 6 月 9 日消息，苹果今日向 Vision Pro 用户推送了 visionOS 27 开发者预览版 Beta 1 更新（内部版本号：24M5291p）。 苹果 visionOS 27 主要为海外机型引入了 Siri AI 功能，同步引入了全新视觉智能功能，可以看着场景询问 Siri。同时还支持将全景照片设置为个人环境。 需要注意的是，因苹果各区域节点服务器配置缓存问题，可能有些地方探测到升级更新的时间略有延迟，一般半小时内，不会太久。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/69c7bc3e-dd47-4d4b-9acc-123d8b9dc880.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-08T18:32:08.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/961/686.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780947184857_fdfeeba6",
-      "title": "苹果 watchOS 27 淘汰 Apple Watch Series 6/7/8/9、SE 2、Ultra 初代手表",
-      "summary": "IT之家 6 月 9 日消息，苹果官网现已公布了 watchOS 27 要求的设备，相对于 watchOS 26，苹果一口气砍掉了 Apple Watch Series 6/7/8/9、Apple Watch Ultra 初代、Apple Watch SE 2 机型，IT之家整理具体设备要求如下： ...",
-      "content": "IT之家 6 月 9 日消息，苹果官网现已公布了 watchOS 27 要求的设备，相对于 watchOS 26，苹果一口气砍掉了 Apple Watch Series 6/7/8/9、Apple Watch Ultra 初代、Apple Watch SE 2 机型，IT之家整理具体设备要求如下： Apple Watch Series 10 Apple Watch Series 11 Apple Watch Ultra 2 Apple Watch Ultra 3 Apple Watch SE 3",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/8892c9f7-4224-45b8-921e-28322819f925.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-08T18:27:49.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/961/683.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780947184963_ef0599d6",
-      "title": "省去繁琐步骤：苹果 Siri AI 官宣支持自然语言生成快捷指令",
-      "summary": "IT之家 6 月 9 日消息，在今天召开的 2026 年全球开发者大会（WWDC）上，苹果带来了全新的 Siri AI 和 Siri App。 IT之家从 WWDC26 了解到，快捷指令也接入了 Siri AI，支持用户直接用自然语言快速创建快捷指令，不用像以前那样逐个配置。",
-      "content": "IT之家 6 月 9 日消息，在今天召开的 2026 年全球开发者大会（WWDC）上，苹果带来了全新的 Siri AI 和 Siri App。 IT之家从 WWDC26 了解到，快捷指令也接入了 Siri AI，支持用户直接用自然语言快速创建快捷指令，不用像以前那样逐个配置。不过需要注意的是，这项功能依赖 Apple Intelligence。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/98e08d7a-f4eb-4d88-afec-84b8451def8a.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-08T18:16:01.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/961/680.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780917497188_d0a83ca2",
-      "title": "Notion 封禁 Anthropic，并用模型降智把 Opus 4.8 送上热搜！12小时后紧急澄清系笔误",
-      "summary": "Notion 封禁 Anthropic，并用模型降智把 Opus 4.8 送上热搜！12小时后紧急澄清系笔误...",
-      "content": "Notion 封禁 Anthropic，并用模型降智把 Opus 4.8 送上热搜！12小时后紧急澄清系笔误",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-08T18:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/UOpVfBKh0JNk6Hse9XR0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780917498995_8145e1e4",
-      "title": "不卷Token总量，华为云改卷token生产力：Agentic Infra背后，AI云竞争进入下半场",
-      "summary": "不卷Token总量，华为云改卷token生产力：Agentic Infra背后，AI云竞争进入下半场...",
-      "content": "不卷Token总量，华为云改卷token生产力：Agentic Infra背后，AI云竞争进入下半场",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-08T17:48:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/QHSuhmxx4CsdUHl0348D?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781094716381_9",
-      "title": "OpenAI files paperwork for initial public offering",
-      "summary": "June 8 (UPI) Artificial intelligence company OpenAI confidentially filed for an initial public offering Monday, becoming the third in a well-known tri...",
-      "content": "June 8 (UPI) — Artificial intelligence company OpenAI confidentially filed for an initial public offering Monday, becoming the third in a well-known trio of U.S. AI companies to do so in the past few weeks.\nRival AI company Anthropic filed for an IPO... [1287 chars]",
-      "imageUrl": "https://media.breitbart.com/media/2025/08/wi/upi/openai-offers-federal-agencies-of-chatgpt-openai-offers-federal-agencies-of-chatgpt.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-06-08T16:48:04.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.breitbart.com/news/openai-files-paperwork-for-initial-public-offering/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1780935352478_041d69aa",
-      "title": "2026 高考英语落下帷幕，今年北京卷李华要谈“当运动遇见 AI”",
-      "summary": "IT之家 6 月 8 日消息，今日下午，2026 年北京市高考英语科目结束。据央视新闻报道，作文题又再见我们的“老朋友”李华。 假设你是红星中学高三学生李华。",
-      "content": "IT之家 6 月 8 日消息，今日下午，2026 年北京市高考英语科目结束。据央视新闻报道，作文题又再见我们的“老朋友”李华。 假设你是红星中学高三学生李华。你们学校上个月开展了“当运动遇见 AI”（When Sports Meet AI）的主题活动，你的外国好友 Jim 对此很感兴趣，发来邮件询问有关情况。请你用英文给他回复，内容包括活动内容、你的收获。 当下，科学技术发展已成为世界关注的焦点，AI、科技等关键词频频登上高考试卷。据IT之家昨日报道，昨天的语文科目考试中，老人与 AI 的相关话题就登上了北京卷微写作，而“科技改造世界时，也改造着我们的想象”则被写入上海卷。 在考场外，各地的考点外出现了一批新鲜面孔，一些特地赶来的人形机器人们以各种不同的姿势，为考生加油助威。在考场内，各地也运用起了 AI 智能巡查系统和智能安检门等科技手段，严防作弊。 相关阅读： 《高考首日机器人现身考场：穿大红旗袍跳舞、与考生碰拳花式助考》 《2026 高考各地作文题公布，上海卷聚焦“科技改造世界时，也改造着我们的想象”》 《2026 年全国高考今日开考，多地启用 AI 智能巡查系统严防考试作弊》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/2892bdf5-46c5-4701-b968-d623f42d4d74.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-08T15:50:28.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/961/656.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780935353253_ee86edf1",
-      "title": "消息称华为鸿蒙 HarmonyOS 7 系统已开启对内部保密 Beta 用户推送",
-      "summary": "IT之家 6 月 8 日消息，博主 @熠熠玩数码 刚刚发文透露，华为鸿蒙 HarmonyOS 7 系统已开启对内部保密 Beta 用户推送。 博主表示，按照惯例，在 HDC 发布后，预计 HarmonyOS 7 马上会开启 Developer Beta 招募，正式版则会在新旗舰手机上首发搭载。",
-      "content": "IT之家 6 月 8 日消息，博主 @熠熠玩数码 刚刚发文透露，华为鸿蒙 HarmonyOS 7 系统已开启对内部保密 Beta 用户推送。 博主表示，按照惯例，在 HDC 发布后，预计 HarmonyOS 7 马上会开启 Developer Beta 招募，正式版则会在新旗舰手机上首发搭载。 据IT之家此前报道，华为开发者大会 HDC 2026 官宣定档 6 月 12 日 ~14 日举行，早鸟票已于 4 月 29 日开售。本届 HDC 2026 将发布 HarmonyOS 全新版本、鸿蒙 AI 核心能力，以及生态全新成果等。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/7d736c2a-4fb0-4a14-b1ad-350c4117e578.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-08T15:37:57.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/961/655.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780935353778_874e8fe3",
-      "title": "人形机器人天工 3.0 将于下半年开启规模化量产，搭载地瓜机器人旭日 S600 芯片",
-      "summary": "IT之家 6 月 8 日消息，北京人形机器人创新中心（北京人形）与地瓜机器人今日正式公布产业化合作新进展，双方协同打造的全尺寸通用人形机器人天工 3.0，确定于 2026 年下半年开启规模化量产交付。",
-      "content": "IT之家 6 月 8 日消息，北京人形机器人创新中心（北京人形）与地瓜机器人今日正式公布产业化合作新进展，双方协同打造的全尺寸通用人形机器人天工 3.0，确定于 2026 年下半年开启规模化量产交付。 据介绍，该机型将正式搭载地瓜机器人旭日 S600 具身智能大算力芯片，广泛应用于工业制造、商业服务、3D 复杂场景作业等领域。 ▲ 旭日 S600 据IT之家此前报道，今年 2 月，天工 3.0 正式发布，配备高扭矩一体化关节实现肢体爆发力，可翻越 1 米障碍并完成高爆发连续动作；通过多自由度协同校准将操作精度控制在毫米级，适配工业制造场景需求。 官方表示，依托技术架构与规模化量产优势，天工 3.0 关键零部件综合成本有望显著降低。量产落地后的天工 3.0，将全面投入产线作业、仓储物流、智能服务、特殊环境运维等实景应用。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/633e0ead-9997-4b8f-b0b5-f9268afb6ce3.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-08T15:25:28.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/961/640.htm",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780917510355_ee1c7e98",
-      "title": "奇遇团在硅谷: 7位到50位技术领袖集结SVAI - 深度拆解 Snowflake Summit 26",
-      "summary": "奇遇团在硅谷: 7位到50位技术领袖集结SVAI - 深度拆解 Snowflake Summit 26...",
-      "content": "奇遇团在硅谷: 7位到50位技术领袖集结SVAI - 深度拆解 Snowflake Summit 26",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-08T13:57:57.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/RGDB7CQSi4E0rvOXzWMC?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780935311862_86c702f9",
-      "title": "美股大型科技股盘前普涨，康宁涨超9%",
-      "summary": "36氪获悉，美股大型科技股盘前普涨，截至发稿，康宁涨超9%，美光科技涨超7%，英特尔涨超4%，英伟达、特斯拉涨超2%，亚马逊涨超1%，Meta涨0.84%，苹果涨0.44%，微软跌0.36%。",
-      "content": "36氪获悉，美股大型科技股盘前普涨，截至发稿，康宁涨超9%，美光科技涨超7%，英特尔涨超4%，英伟达、特斯拉涨超2%，亚马逊涨超1%，Meta涨0.84%，苹果涨0.44%，微软跌0.36%。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-06-08T12:58:09.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3844530011834884?f=rss",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780935314182_c4a8d85b",
-      "title": "金安国纪：公司覆铜板主要客户为PCB厂商，未发现在AI服务器及算力领域的应用",
-      "summary": "36氪获悉，金安国纪公告，近期公司关注到网上传播关于公司产品纳入英伟达、华为供应链体系认证等相关信息，相关信息均为不实信息。截至目前公司未与英伟达、华为有过接触，也未与其开展任何形式的业务合作。",
-      "content": "36氪获悉，金安国纪公告，近期公司关注到网上传播关于公司产品纳入英伟达、华为供应链体系认证等相关信息，相关信息均为不实信息。截至目前公司未与英伟达、华为有过接触，也未与其开展任何形式的业务合作。公司覆铜板主要客户为PCB厂商，未发现在AI服务器及算力领域的应用，目前高频高速覆铜板产品尚在实验室研发及客户送样阶段，尚未形成收入。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-06-08T12:49:02.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3844521049065737?f=rss",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1780935315313_c2e733ec",
-      "title": "同程旅行将接入微信AI智能体，机票、酒店将实现AI一键预订",
-      "summary": "36氪获悉，6月8日，同程旅行宣布即将全面接入微信AI智能体生态，并成为首批接入微信AI生态的在线旅游平台（OTA）。未来，用户可在微信AI智能体内，通过语音指令或文字输入提出旅行需求，便可通过人工智能完成行程规划，并实现旅行产品的对比、决策及预订服务。",
-      "content": "36氪获悉，6月8日，同程旅行宣布即将全面接入微信AI智能体生态，并成为首批接入微信AI生态的在线旅游平台（OTA）。未来，用户可在微信AI智能体内，通过语音指令或文字输入提出旅行需求，便可通过人工智能完成行程规划，并实现旅行产品的对比、决策及预订服务。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-06-08T12:47:44.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/newsflashes/3844514407336201?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
