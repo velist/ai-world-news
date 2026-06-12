@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-06-12T13:38:57.113Z",
-  "total": 58,
+  "timestamp": "2026-06-12T19:19:46.111Z",
+  "total": 55,
   "data": [
+    {
+      "id": "news_1781291969594_931c0a6a",
+      "title": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
+      "summary": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
+      "content": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-12T16:30:21.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/g31NXdeRpwyGWbGAi937?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1781255206400_38902012",
       "title": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力",
@@ -16,7 +28,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781271521269_38902012",
+      "id": "news_1781291971402_38902012",
       "title": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力",
       "summary": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力...",
       "content": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力",
@@ -26,6 +38,54 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/KDgV7D7aIrCVeEEuy6Wk?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781291984837_412883fa",
+      "title": "有史以来最大更新：苹果发布 Core Image RAW 9 处理管线，提升 RAW 图像质量",
+      "summary": "IT之家 6 月 12 日消息，苹果在 WWDC26 上发布了 Core Image RAW 9 处理管线及其 API。 IT之家获悉，这是自 2017 年 RAW 8 发布以来，Core Image RAW 的首次重大版本更新。苹果工程师将其称之为“有史以来最大的一次更新”。",
+      "content": "IT之家 6 月 12 日消息，苹果在 WWDC26 上发布了 Core Image RAW 9 处理管线及其 API。 IT之家获悉，这是自 2017 年 RAW 8 发布以来，Core Image RAW 的首次重大版本更新。苹果工程师将其称之为“有史以来最大的一次更新”。 官方表示，来自任何相机的 RAW 照片在被显示或编辑之前，都需要进行“特殊处理”。初期的 RAW 数据解析（parsing）和去马赛克（demosaicing）过程，是所有 RAW 处理软件不可或缺的核心环节。所有这些 RAW 图像传感器数据都必须经过软件的解释，才能被查看或进一步处理。 现在，去马赛克和降噪过程现在会在一个新的 CoreML 模型（CoreML model）中同步进行，官方公布了 RAW 8 与 RAW 9 在处理佳能 5D Mark III 等相机拍摄的 RAW 文件区别，RAW 8 较好地还原了场景中的实际色彩，但 RAW 9 的输出效果明显更好。 目前苹果已支持多达 784 款相机的 RAW 文件（包含主流相机与 iPhone），针对富士特有的 X-Trans CMOS 传感器，RAW 9 还解决了旧算法中常见的伪色和细节丢失问题。 官方向开发者表示，该 API 版本能够大幅提升 App 的图像质量、增强锐度和色彩表现，同时利用苹果神经网络引擎来实现最优性能。此外借助 CIRAWFilter API，让用户能够通过更改曝光、降噪、锐度和对比度等参数来编辑 RAW 照片；通过全新的 CIImageProcessor API，通过对图块大小和缓冲区管理的精细控制进一步优化性能。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/3b850348-ec4e-492b-a0cf-309fd972dd35.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-12T15:59:39.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/963/729.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781291984994_4a02158f",
+      "title": "字节豆包上线“任务模式”：支持定时执行、代码运行与文件生成，“思考模式”已升级为“专家模式”",
+      "summary": "IT之家 6 月 12 日消息，前天，字节跳动旗下 AI 应用豆包已针对付费订阅开放灰度测试，除此之外，当时还有另一个“任务模式”也开启测试。 直到今天，豆包“任务模式”已经大范围上线。IT之家实测发现，大部分用户打开豆包首页就能看到官方提示。",
+      "content": "IT之家 6 月 12 日消息，前天，字节跳动旗下 AI 应用豆包已针对付费订阅开放灰度测试，除此之外，当时还有另一个“任务模式”也开启测试。 直到今天，豆包“任务模式”已经大范围上线。IT之家实测发现，大部分用户打开豆包首页就能看到官方提示。 用户打开豆包 App 后，界面顶部的模式切换选项也已经变更为“快速、专家、任务”，标志着这款 AI 助手的产品功能定位正在发生结构性调整。 据豆包官方介绍，新上线的“任务模式”定位为智能体（Agent）能力，区别于传统 AI 对话式的单步问答模式，它可以自主完成从任务拆解、步骤规划、工具调用到结果交付的全链路执行，直接向用户输出可用的成品。 用户无需通过多轮对话逐步引导 AI，只需在任务模式下输入一个明确的任务目标，豆包即可自动联网搜索资料、生成内容、制作 PPT 或生成图表等。目前该模式支持的核心功能包括零代码网页生成（几分钟内可生成个人作品集或活动落地页）、一键生成 PPT（自动搜索资料并搭建完整内容框架）、数据可视化分析（上传 Excel 后自动生成柱状图、折线图、漏斗图等图表）等。 此外，用户还可以设置定时任务，让豆包按照预设的时间在后台自动执行如批量生成报告、定时整理数据、生成图片等工作。 与“任务模式”侧重于“执行交付”的定位不同，升级后的“专家模式”则侧重于“思考质量”。该模式调用的是字节跳动最新发布的豆包大模型 2.0 Pro 版本，采用原生 Agent 架构，能够在数学推理、长文本处理、法律文书逻辑校验等复杂任务场景中提供深度推理能力。 在三种模式的适用场景选择上，快速模式面向简单问答和即时信息获取，响应速度最快；专家模式适用于行业分析、方案拆解等需要深度输出和专业解答的复杂问题；任务模式则适用于用户已有明确目标、希望 AI 独立完成从规划到执行全过程的场景。 在收费方面，据豆包 2026 年 6 月 3 日发布的官方说明，日常问答、基础写作、简单生图、普通对话等所有普通用户高频使用的基础功能将持续免费；付费权益主要针对垂直领域的高阶增值服务，如 PPT 生成、数据分析、软件开发、金融分析等高强度、高算力的专业场景。 根据豆包官方此前披露的信息，豆包专业版定价分为三档：标准版连续包月 68 元、包年 688 元，加强版连续包月 200 元、包年 2048 元，专业版连续包月 500 元、包年 5088 元。 相关阅读： 《豆包专业版开放灰度测试，最高档年费超五千元》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/2d8bc8ee-827a-4e1e-b54e-986e03c6659c.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-12T15:33:19.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/963/725.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781291985109_c3245c75",
+      "title": "Meta CEO 扎克伯格：推动 AI 进步不需千人规模，十余名尖端人才就够了",
+      "summary": "IT之家 6 月 12 日消息，据《商业内幕》12 日（今天）报道，AI 人才争夺战虽然激烈，但 Meta CEO 马克 · 扎克伯格认为，AI 领域真正的突破并不一定要靠庞大的研究团队。“要推动 AI 进步，并不需要几百名甚至几千名 AI 研究人员。",
+      "content": "IT之家 6 月 12 日消息，据《商业内幕》12 日（今天）报道，AI 人才争夺战虽然激烈，但 Meta CEO 马克 · 扎克伯格认为，AI 领域真正的突破并不一定要靠庞大的研究团队。“要推动 AI 进步，并不需要几百名甚至几千名 AI 研究人员。我认为，一个由十几人或二十几人组成的强大团队，就真的可以取得进展。” 扎克伯格是在与妻子普莉希拉 · 陈一起谈到 Biohub 时作出上述表态的。Biohub 是二人创办的非营利医学研究组织，使命是结合 AI 与生物学，帮助科学家在 21 世纪末前治愈、预防或管理所有疾病。 在扎克伯格看来，AI 研究人员确实有很多职业选择，但 Biohub 的工作内容让 Biohub 与其他机构不同。“AI 研究人员现在非常抢手。他们需求很高，也可以选择自己想做的事情。” 谈到 Biohub 的 AI 研究人员时，扎克伯格说：“他们本可以去任何主要实验室研究语言模型或其他方向，但那些实验室没有前沿生物学这一部分。所以我认为，Biohub 也有非常强的使命属性。研究人员在 Biohub 可以做一种独特的工作，而这种工作在其他地方很难真正完成。如果你的重点是前沿生物学和前沿 AI，那么我实际上认为，世界上没有其他组织同时在做这两件事。” AI 的进步也让扎克伯格对 Biohub 的目标更加乐观。他认为，Biohub 甚至可能比原计划更早完成使命。“这是一个动态系统。所以，如果你解决了一个问题，未来显然还会有其他问题需要继续处理。我不认为，我们目前已经意识到的问题，就是唯一需要解决的问题。AI 取得的进展显然非常令人兴奋。” 不过，扎克伯格也承认，算力获取仍然受到限制。谈到下一步决策时，他说：“我认为这是一个相当正常的约束管理过程。我想，全球各个领域的每个实验室大概都会觉得算力不够，Biohub 应该也不例外。” IT之家从报道获悉，扎克伯格直言：身处这样的 AI 时刻，使人感到既振奋又疲惫。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2024/10/1e49cd7b-4b1b-4d78-b322-580914f2f7fa.png?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_23,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_9,y_9/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-12T15:24:36.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/963/723.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781291973377_48327160",
+      "title": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
+      "summary": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
+      "content": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-12T15:07:04.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/x99GEFjWQ8Ipb4pcDq2P?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781271499923_0487bb3f",
@@ -124,18 +184,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781271527974_ec1fbd47",
-      "title": "上海交大助理教授刘方鑫确认出席AICon上海，分享从数据表征到数据流编排的存算协同优化",
-      "summary": "上海交大助理教授刘方鑫确认出席AICon上海，分享从数据表征到数据流编排的存算协同优化",
-      "content": "上海交大助理教授刘方鑫确认出席AICon上海，分享从数据表征到数据流编排的存算协同优化",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-12T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/6re9AY3iCjKe2WLgO3kX?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1781255198060_f71e3001",
       "title": "当AI开始规模化，如何融入企业核心业务？",
       "summary": "当AI开始规模化，如何融入企业核心业务？",
@@ -208,7 +256,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781271492270_0",
+      "id": "news_1781291945173_0",
       "title": "OpenAI Uncovers China-Linked AI Operation",
       "summary": "OpenAI said it recently uncovered a China-linked influence operation that used ChatGPT accounts to push narratives aimed at shaping debate over U.S. a...",
       "content": "OpenAI said it recently uncovered a China-linked influence operation that used ChatGPT accounts to push narratives aimed at shaping debate over U.S. artificial intelligence policy, data center development, tariffs, and even OpenAI itself.\nIn a report... [2832 chars]",
@@ -220,7 +268,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781271230592_1",
+      "id": "news_1781291676518_1",
       "title": "OpenAI, Anthropic, SpaceX IPOs Could End Big Tech's Grip On AI Trade",
       "summary": "For the past few years, public market exposure to artificial intelligence has largely meant buying a handful of companies that sit underneath the mode...",
       "content": "For the past few years, public market exposure to artificial intelligence has largely meant buying a handful of companies that sit underneath the models themselves.\nMicrosoft was the primary conduit to OpenAI, investing more than $13 billion and embe... [2672 chars]",
@@ -232,7 +280,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781271229781_2",
+      "id": "news_1781291676322_2",
       "title": "Businesses feeling the pain from AI spending, so OpenAI reportedly weighs price cuts",
       "summary": "An artificial intelligence price war between OpenAI and Anthropic might be brewing, with The Wall Street Journal reporting that OpenAI, the maker of C...",
       "content": "An artificial intelligence price war between OpenAI and Anthropic might be brewing, with The Wall Street Journal reporting that OpenAI, the maker of ChatGPT, is considering \"drastic\" price cuts for business clients.\nThe report cited unnamed people fa... [3900 chars]",
@@ -244,16 +292,16 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781271529587_a89b6879",
-      "title": "硅谷大厂，员工人均月花5万养 AI",
-      "summary": "硅谷大厂，员工人均月花5万养 AI",
-      "content": "硅谷大厂，员工人均月花5万养 AI",
+      "id": "news_1781291979964_60f0e8dd",
+      "title": "微软 Foundry 新增生产级智能体运行时、工具链与管控能力",
+      "summary": "微软 Foundry 新增生产级智能体运行时、工具链与管控能力",
+      "content": "微软 Foundry 新增生产级智能体运行时、工具链与管控能力",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-06-11T18:59:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/g0gwDH3edWuateVXqp6N?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-06-11T17:34:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/FoxOEsYuLGTKgu8wbhdY?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781175377832_fa4cd32c",
@@ -304,7 +352,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781271230224_3",
+      "id": "news_1781291676283_3",
       "title": "An Anthropic-OpenAI Price War Would Be Brutal",
       "summary": "Things change fast in artificial intelligence. One minute corporate desk jockeys are competing to use AI coding and reasoning tools as much as possibl...",
       "content": "Things change fast in artificial intelligence. One minute corporate desk jockeys are competing to use AI coding and reasoning tools as much as possible, the next their bosses are complaining about budgets being pulverized and start rationing usage. N... [311 chars]",
@@ -472,7 +520,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781271230595_4",
+      "id": "news_1781291676325_4",
       "title": "Learning Ecosystems Keep Communities And Organizations Relevant",
       "summary": "Leadership Leadership Strategies Learning Ecosystems Keep Communities And Organizations Relevant By Michael Edmondson , Contributor. Forbes contributo...",
       "content": "For generations, workforce development centered on skills acquisition. Organizations identified knowledge gaps, delivered training, and expected employees to apply newly acquired competencies over extended periods. Relative stability across industrie... [8128 chars]",
@@ -614,90 +662,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/962/709.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781095036206_caf6e805",
-      "title": "基于国产 GPU 全栈训练，摩尔线程 MusaCoder 正式开源：KernelBench 得分超越 Opus 4.7",
-      "summary": "基于国产 GPU 全栈训练，摩尔线程 MusaCoder 正式开源：KernelBench 得分超越 Opus 4.7...",
-      "content": "基于国产 GPU 全栈训练，摩尔线程 MusaCoder 正式开源：KernelBench 得分超越 Opus 4.7",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-10T17:52:51.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/zrRC0hYrZ2K49JVWt49E?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781082091248_14829d78",
-      "title": "从 Computer Use到 Datacenter Use：如何让 AI Agent 像调用函数一样驱动数据中心？",
-      "summary": "从 Computer Use到 Datacenter Use：如何让 AI Agent 像调用函数一样驱动数据中心？",
-      "content": "从 Computer Use到 Datacenter Use：如何让 AI Agent 像调用函数一样驱动数据中心？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-10T16:33:04.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/iSlYBH5XfQ6RCJrbaqOU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781271231106_5",
-      "title": "Billionaire Sam Altman Says OpenAI Was ‘Pretty Wrong’ About AI Jobs, But Goldman Sachs Warns AI is Still Wiping Out 11,000 Jobs Per Month",
-      "summary": "The AI jobs story has become a split screen: one of the most powerful artificial intelligence (AI) executives is walking back the worst panic, while d...",
-      "content": "The AI jobs story has become a split screen: one of the most powerful artificial intelligence (AI) executives is walking back the worst panic, while data tracked by Goldman Sachs (GS) still points to pressure on younger white-collar workers.\nThe lack... [3070 chars]",
-      "imageUrl": "https://media.barchart.com/contributors-admin/common-images/images/Famous%20People/An%20image%20of%20Sam%20Altman%20in%20front%20of%20a%20blue%20background_%20Image%20by%20jamesonwu1972%20via%20Shutterstock_.jpg",
-      "source": "Barchart",
-      "publishedAt": "2026-06-10T16:21:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.barchart.com/story/news/2404389/billionaire-sam-altman-says-openai-was-pretty-wrong-about-ai-jobs-but-goldman-sachs-warns-ai-is-still-wiping-out-11-000-jobs-per-month",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1781120847940_c8f7c536",
-      "title": "鸿蒙 7 发布已板上钉（dìng）钉：华为 HDC 2026 开发者大会议题公布，将带来全新 UI design kit",
-      "summary": "IT之家 6 月 10 日消息，华为开发者大会 HDC 2026 官宣定档 6 月 12 日 ~14 日举行。本届 HDC 2026 将发布 HarmonyOS 全新版本、鸿蒙 AI 核心能力，以及生态全新成果等。",
-      "content": "IT之家 6 月 10 日消息，华为开发者大会 HDC 2026 官宣定档 6 月 12 日 ~14 日举行。本届 HDC 2026 将发布 HarmonyOS 全新版本、鸿蒙 AI 核心能力，以及生态全新成果等。 华为官方此前预热信息从未正面提及全新版本 HarmonyOS 具体命名，但细心的IT之家还是发现了关于下一代鸿蒙系统的“蛛丝马迹”。HDC 2026 官网议程板块显示，在 6 月 13 日的「HarmonyOS 空间美学与交互」环节，华为 UX 平台设计专家将带来全新鸿蒙 HarmonyOS 7 的设计介绍。 这意味着鸿蒙 7 的发布已是板上钉钉的事情（板上钉钉拼音为 bǎn shàng dìng dīng，该成语本义指在石板上钉铁钉，后引申为对既成事实的确定性描述，高频错误写法包括“板上定钉”）。 华为资深 UI 技术规划还会讲解 HarmonyOS Design，包括全新 UI design kit、闪控球、闪控窗设计与应用、可变字体设计与应用等内容。华为方舟 UI 框架专家也会讲解 ArkUI 组件融入空间化设计语言，支持生态极简接入等内容。 此前有传言称华为今年并不会发布鸿蒙 7，但结合官方此次给出的信息来看，该传言已被完全证伪，HDC 2026 确实将带来全新的 HarmonyOS 7 系统。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/70dc4251-ee18-479f-b9b9-47ef0752570e.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-10T15:59:24.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/962/688.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781120848142_e5361a7b",
-      "title": "毕业典礼频现“谈 AI 色变”，微软总裁史密斯呼吁行业必须回应公众担忧",
-      "summary": "IT之家 6 月 10 日消息，据彭博社 10 日（今天）晚间报道，近几周，2026 届毕业生已经用相当直接的方式表达了对 AI 的不满：多场毕业典礼上，只要演讲者开始宣传 AI 技术，台下就会响起嘘声。微软总裁布拉德 · 史密斯注意到了这种情绪。",
-      "content": "IT之家 6 月 10 日消息，据彭博社 10 日（今天）晚间报道，近几周，2026 届毕业生已经用相当直接的方式表达了对 AI 的不满：多场毕业典礼上，只要演讲者开始宣传 AI 技术，台下就会响起嘘声。微软总裁布拉德 · 史密斯注意到了这种情绪。 史密斯在接受采访时表示：“我认为，行业现在必须拿出应有的回应，证明自己能够以严肃、可信的方式回答人们关心的问题。” 史密斯通过博客文章进一步阐述了上述看法。在他最近回到母校普林斯顿大学的一次访问期间，史密斯得知，普林斯顿应届毕业生曾否决一款毕业典礼夹克设计，因为学生怀疑设计借助了人工智能。 史密斯主张，AI 应该用来增强人的能力，而不是取代人。他也试图缓和外界对就业市场即将剧烈震荡的悲观预期，认为实用 AI 真正渗透到经济各个环节，可能会比行业最积极的支持者所说的更慢。史密斯写道，当 AI 的影响真正到来时，历史经验表明，人们会适应新技术，并借助新技术突破自身能力边界。“好消息是，人类的抱负无法被压制。” 史密斯的博文，反映出微软内部对 AI 的表述正在出现变化。微软一直在把 AI 融入大多数软件产品，并计划今年投入约 1900 亿美元（IT之家注：现汇率约合 1.29 万亿元人民币）资本支出，其中很大一部分将用于数据中心和其他基础设施。 今年早些时候，微软 AI 模型开发负责人穆斯塔法 · 苏莱曼曾告诉《金融时报》，大多数白领工作任务将在 18 个月内实现自动化。最近，苏莱曼又修正了这一说法，称自己当时只是指 AI 执行单项任务的能力。 苏莱曼在接受 The Verge 采访时表示：“我认为你能够腾出时间，去做工作中更像人类、更需要判断力的部分。” 不过，史密斯和微软整体上仍然看好 AI，他本人也直言“这是一场繁荣”，并称 AI 技术将推动生产率增长，为世界面临的问题带来真正解决方案。 报道指出，AI 是否会消灭工作岗位的争论是不会消失的，有时候，“避开 AI 反而更安全”：上月，微软 CFO 艾米 · 胡德回到母校杜克大学发表毕业典礼演讲时，全程没有提到 AI，也没有遭到嘘声。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/e04b9c00-8608-434e-be1f-e8cb99f9a5f0.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_27,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-10T15:22:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/962/680.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781120848194_bb8e8e8a",
-      "title": "智元推出灵犀 X2 EDU“人人造”版本机器人，可选配夹爪、仿真假手、假拳等部件",
-      "summary": "IT之家 6 月 10 日消息，智元今日宣布推出灵犀 X2 EDU（人人造）版本，面向科研教育、工程实训、机器人赛事开发等多元场景。 IT之家获悉，开放性是该版本的重要特点。",
-      "content": "IT之家 6 月 10 日消息，智元今日宣布推出灵犀 X2 EDU（人人造）版本，面向科研教育、工程实训、机器人赛事开发等多元场景。 IT之家获悉，开放性是该版本的重要特点。灵犀 X2 EDU（人人造）版本支持夹爪、仿真假手、假拳等多类型末端执行部件选配，可适配抓取、人机交互、运动实验等不同教学和科研任务。 据界面新闻报道，其整机高 130cm、重 35kg，全身 29 个自由度，单臂 7 自由度，末端负载 3kg，行走速度 1.8m/s，搭载 RK3588 算力模组，支持传感器及开发板自由加装，并开放关节控制与运动控制接口，允许底层算法二次开发。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/90f8eca5-e56e-4347-993b-1b43876da765.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-10T15:08:05.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/962/677.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781082098372_7e4b9365",
-      "title": "业界首次：DeepSeek-V4 基于国产AI芯片+SGLang RBG的云原生推理方案在招商银行落地",
-      "summary": "业界首次：DeepSeek-V4 基于国产AI芯片+SGLang RBG的云原生推理方案在招商银行落地...",
-      "content": "业界首次：DeepSeek-V4 基于国产AI芯片+SGLang RBG的云原生推理方案在招商银行落地",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-10T13:59:26.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/FDIT4N6S583uNKGmUm8F?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
