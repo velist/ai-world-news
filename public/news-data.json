@@ -1,8 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-06-13T14:24:10.562Z",
-  "total": 47,
+  "timestamp": "2026-06-13T18:21:41.480Z",
+  "total": 44,
   "data": [
+    {
+      "id": "news_1781374900184_7e65f794",
+      "title": "中国科学家突破量子速度极限：非厄米体系实现纠缠加速",
+      "summary": "IT之家 6 月 13 日消息，量子纠缠作为量子计算、量子通信和量子传感领域的核心资源，其制备速度长期受限于传统厄米量子系统中量子比特间的耦合强度。能否突破这一限制、实现更快的量子操控，一直是量子信息科学领域的前沿热点。",
+      "content": "IT之家 6 月 13 日消息，量子纠缠作为量子计算、量子通信和量子传感领域的核心资源，其制备速度长期受限于传统厄米量子系统中量子比特间的耦合强度。能否突破这一限制、实现更快的量子操控，一直是量子信息科学领域的前沿热点。 中国科学院精密测量科学与技术创新研究院冯芒研究团队与郑州大学等单位合作，在囚禁离子实验平台中首次实现了非厄米体系中纠缠生成的加速，成功超越传统厄米量子速度极限。 研究团队利用两枚 40Ca+ 离子构建线性 Paul 阱系统，量子比特编码在 40Ca+ 离子的基态与亚稳态能级上，通过 729 nm 激光驱动量子比特相干跃迁，854 nm 激光将 | 1 > 态耦合到短寿命激发态并引入可调耗散通道，同时利用双色激光场实现两离子之间的有效相互作用。 在仅有相干相互作用时，耦合强度为 J = 2π×625 Hz，对应的 Bell 态制备门时间为 200 微秒；在固定相干耦合强度的条件下选取三组逐步接近例外点的参数后，纠缠制备时间依次缩短为 177 微秒、155 微秒和 132 微秒，速度提升约 1.52 倍。 ▲ a）囚禁离子禁实验装置示意图；（b）厄米与非厄米情况下的路径对照，显示靠近奇异点时纠缠生成时间显着整个场景；（c）实验测量系统布居数随时间的此时；（d）立即生成的最大纠缠态的宇称测量 通常情况下，耗散效应被认为是破坏量子相干性的不利因素，但可控的耗散能将系统参数调至奇异点（例外点）附近，导致希尔伯特空间发生几何畸变，从而为量子态演化提供“捷径”。利用这一机制，产生最大纠缠态的速度比传统厄米方案有了显著提升。 不过值得注意的是，非厄米加速并非毫无代价 —— 理论分析和实验工作点均表明，纠缠产生越快，布居泄漏到计算子空间之外的概率也越大，因此成功概率相应降低。 研究团队在实验中选取了兼顾加速效率与成功概率的工作点，并通过宇称振荡测量验证了所制备纠缠态仍具有高保真度，从而成功展示了非厄米加速在实际应用中的可行性。 相关研究成果已于 2026 年 5 月 28 日在线发表于《物理评论快报》，这项成果首次在可编程量子系统中实验证实了非厄米体系能够突破传统公认的量子速度极限，也证明了经过精确设计的耗散不仅可以成为加速量子态制备的可控资源，更打破了长期以来将耗散单纯视为有害因素的固有认知。 IT之家附论文地址： https://journals.aps.org/prl/abstract/10.1103/g8v5-rbq7",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/9780f81e-be54-48ab-b786-15781c1a36cd.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-13T15:04:16.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/963/987.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781374900330_7f80a81a",
+      "title": "智谱 AI 编程工具 ZCode 3.0 版本发布：切换自研 ZCode Agent 内核，深度适配 GLM-5.2",
+      "summary": "IT之家 6 月 13 日消息，智谱今日发布了 AI 编程工具 ZCode 3.0 新版本，深度适配 GLM-5.2。 官方表示，ZCode 3.0 全面切换自研 ZCode Agent 内核。",
+      "content": "IT之家 6 月 13 日消息，智谱今日发布了 AI 编程工具 ZCode 3.0 新版本，深度适配 GLM-5.2。 官方表示，ZCode 3.0 全面切换自研 ZCode Agent 内核。针对满血 GLM 深度优化长程推理、工具调用和大型工程执行链路，整体任务完成效果已显著优于第三方 Agent；后续版本将聚焦自研 Agent 体验，不再内置或维护其他 Agent 适配。 此外，升级或已订阅 GLM Coding Plan 用户应用内相比 API 调用专享 150% 配额。 智谱今日还宣布 GLM-5.2 将面向 GLM Coding Plan 全量用户开放，智谱称 GLM-5.2 是智谱迄今能力最强的开源模型，支持真正可用的 1M 上下文，并在长程任务中继续保持领先。 IT之家附 ZCode 3.0 其他更新内容如下： 全新分组式任务工作区，支持拖拽折叠、跨区迁移、批量管理，高效管控多 Agent 并发任务 Zread 智能项目知识库，自动生成结构化项目文档，支持目录浏览、进度监测、一键重生成、随时终止构建 可视化 Git 分支图谱，直观呈现分支拓扑关系，支持快捷切分支、AI 自动生成标准化提交注释 可定制化聊天交互体验，自由开关流式渲染、思考过程展示、性能模式，兼容高低配设备 全方位状态监控看板，聚合聊天摘要、任务进度、模型用量图表、上下文占用提醒 多类型附件智能适配，支持图片、文件路径、白板截图上传，优化代码批注、会话内容插入等交互操作 全新一体化视觉体系，适配深浅双主题，重构启动、登录、欢迎页面，全面升级界面视觉与操作体验",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/3f5ad10e-4f90-4c95-a9e4-c2a6d684d6cb.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-13T14:56:15.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/963/985.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1781360649373_83715b47",
       "title": "消息称三星首款“阔折叠”智能手机 UTG 玻璃盖板更厚：折痕可更浅",
@@ -38,30 +62,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8026813.html",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781360630865_ecef5f61",
-      "title": "面壁智能开源社区负责人井晨哲将在AICon上海站，分享高效端侧大模型的技术趋势与产业应用观察",
-      "summary": "面壁智能开源社区负责人井晨哲将在AICon上海站，分享高效端侧大模型的技术趋势与产业应用观察",
-      "content": "面壁智能开源社区负责人井晨哲将在AICon上海站，分享高效端侧大模型的技术趋势与产业应用观察",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-13T10:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/sMxf71RUtLYgI0BsQhKw?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781360632681_544c5991",
-      "title": "AI驱动的网络钓鱼：技术演变与实施方式",
-      "summary": "AI驱动的网络钓鱼：技术演变与实施方式",
-      "content": "AI驱动的网络钓鱼：技术演变与实施方式",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-13T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/U140AaPLg0t5dXxE8x7q?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781339573938_11fe3b32",
@@ -122,6 +122,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8026629.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781374600866_0",
+      "title": "OpenAI Mulls “Drastic” Price Cuts Amid AI Market Turmoil",
+      "summary": "OpenAI is considering significantly reducing the prices it charges for its artificial intelligence (AI) services, according to a Wall Street Journal (...",
+      "content": "OpenAI is considering significantly reducing the prices it charges for its artificial intelligence (AI) services, according to a Wall Street Journal (WSJ) report cited by ZeroHedge [1].\nThe move is an attempt to regain customers from rival Anthropic,... [5269 chars]",
+      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/06/Open-AI-ChatGPT-Phone.jpg",
+      "source": "Natural News",
+      "publishedAt": "2026-06-13T04:52:13.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.naturalnews.com/2026-06-13-openai-mulls-drastic-cuts-amid-market-turmoil.html",
+      "aiInsight": ""
     },
     {
       "id": "news_1781325905829_4b8105cc",
@@ -208,19 +220,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781360634096_931c0a6a",
-      "title": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
-      "summary": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
-      "content": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-12T16:30:21.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/g31NXdeRpwyGWbGAi937?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781360334129_0",
+      "id": "news_1781374601064_1",
       "title": "Anthropic, OpenAI, Google executives plan to attend G7 summit",
       "summary": "By Shirin Ghaffary, Bloomberg\nArtificial intelligence executives from Anthropic PBC, OpenAI and Alphabet Inc.’s Google are slated to attend the Group ...",
       "content": "By Shirin Ghaffary, Bloomberg\nArtificial intelligence executives from Anthropic PBC, OpenAI and Alphabet Inc.’s Google are slated to attend the Group of Seven summit, a gathering of world leaders that gets underway next week in France.\nOpenAI’s Sam A... [1274 chars]",
@@ -244,7 +244,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781360635857_38902012",
+      "id": "news_1781374889106_38902012",
       "title": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力",
       "summary": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力...",
       "content": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力",
@@ -290,18 +290,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/963/723.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781360637621_48327160",
-      "title": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
-      "summary": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
-      "content": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-12T15:07:04.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/x99GEFjWQ8Ipb4pcDq2P?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781271499923_0487bb3f",
@@ -388,7 +376,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781360333761_1",
+      "id": "news_1781374600587_2",
       "title": "SpaceX-Anthropic-OpenAI Is a Cocktail With a Hangover",
       "summary": "That’s SpaceX out of the way. Next, investors will have to absorb the artificial-intelligence titans behind the Claude and ChatGPT chatbots, Anthropic...",
       "content": "That’s SpaceX out of the way. Next, investors will have to absorb the artificial-intelligence titans behind the Claude and ChatGPT chatbots, Anthropic PBC and OpenAI. It’s a heady cocktail for a market that isn’t used to swallowing initial public off... [292 chars]",
@@ -410,6 +398,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/video/9QTSak237x3L8ugfPoxH?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781374894580_ec1fbd47",
+      "title": "上海交大助理教授刘方鑫确认出席AICon上海，分享从数据表征到数据流编排的存算协同优化",
+      "summary": "上海交大助理教授刘方鑫确认出席AICon上海，分享从数据表征到数据流编排的存算协同优化",
+      "content": "上海交大助理教授刘方鑫确认出席AICon上海，分享从数据表征到数据流编排的存算协同优化",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-12T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/6re9AY3iCjKe2WLgO3kX?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781255198060_f71e3001",
@@ -484,7 +484,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781360612424_2",
+      "id": "news_1781374863298_3",
       "title": "OpenAI Uncovers China-Linked AI Operation",
       "summary": "OpenAI said it recently uncovered a China-linked influence operation that used ChatGPT accounts to push narratives aimed at shaping debate over U.S. a...",
       "content": "OpenAI said it recently uncovered a China-linked influence operation that used ChatGPT accounts to push narratives aimed at shaping debate over U.S. artificial intelligence policy, data center development, tariffs, and even OpenAI itself.\nIn a report... [2832 chars]",
@@ -496,7 +496,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781360333769_3",
+      "id": "news_1781374601180_4",
       "title": "OpenAI, Anthropic, SpaceX IPOs Could End Big Tech's Grip On AI Trade",
       "summary": "For the past few years, public market exposure to artificial intelligence has largely meant buying a handful of companies that sit underneath the mode...",
       "content": "For the past few years, public market exposure to artificial intelligence has largely meant buying a handful of companies that sit underneath the models themselves.\nMicrosoft was the primary conduit to OpenAI, investing more than $13 billion and embe... [2672 chars]",
@@ -508,7 +508,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781360333717_4",
+      "id": "news_1781374600779_5",
       "title": "Businesses feeling the pain from AI spending, so OpenAI reportedly weighs price cuts",
       "summary": "An artificial intelligence price war between OpenAI and Anthropic might be brewing, with The Wall Street Journal reporting that OpenAI, the maker of C...",
       "content": "An artificial intelligence price war between OpenAI and Anthropic might be brewing, with The Wall Street Journal reporting that OpenAI, the maker of ChatGPT, is considering \"drastic\" price cuts for business clients.\nThe report cited unnamed people fa... [3900 chars]",
@@ -520,51 +520,15 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781175377832_fa4cd32c",
-      "title": "构建 Coding Agent 的飞轮：Feedback Loop、Benchmark、Agent Engineers",
-      "summary": "构建 Coding Agent 的飞轮：Feedback Loop、Benchmark、Agent Engineers...",
-      "content": "构建 Coding Agent 的飞轮：Feedback Loop、Benchmark、Agent Engineers",
+      "id": "news_1781374896169_a89b6879",
+      "title": "硅谷大厂，员工人均月花5万养 AI",
+      "summary": "硅谷大厂，员工人均月花5万养 AI",
+      "content": "硅谷大厂，员工人均月花5万养 AI",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-06-11T16:59:57.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/l7BXlstUWDOBwI30miJU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781175378722_3198a0ab",
-      "title": "Agentic Enterprise，成为硅谷现场最强信号 ｜ 奇遇旧金山——探访 Snowflake Summit 26（EP1）",
-      "summary": "Agentic Enterprise，成为硅谷现场最强信号 ｜ 奇遇旧金山——探访 Snowflake Summit 26（EP1）...",
-      "content": "Agentic Enterprise，成为硅谷现场最强信号 ｜ 奇遇旧金山——探访 Snowflake Summit 26（EP1）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-11T15:48:14.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/Zjrk3R749vQqXqAMh2YV?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781202191566_221bf788",
-      "title": "我们推荐的Salesforce股票表现惨淡，我们准备止损离场",
-      "summary": "我们推荐的Salesforce股票表现惨淡，我们准备止损离场",
-      "content": "这只股票的表现远不尽如人意。怪人工智能。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-11T14:28:39.000Z",
+      "publishedAt": "2026-06-11T18:59:27.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8024973.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781189293591_7011a883",
-      "title": "铠侠预告月球数据中心愿景：SSD 将随 HPE 星载计算机登月，兼顾极端环境与 AI 负载",
-      "summary": "IT之家 6 月 11 日消息，铠侠宣布将参加下周在拉斯维加斯举行的 HPE Discover 2026 大会，展示其最新 SSD 解决方案，并透露相关技术未来将用于月球探索任务。铠侠表示，月球上出现首个数据中心只是时间问题。",
-      "content": "IT之家 6 月 11 日消息，铠侠宣布将参加下周在拉斯维加斯举行的 HPE Discover 2026 大会，展示其最新 SSD 解决方案，并透露相关技术未来将用于月球探索任务。铠侠表示，月球上出现首个数据中心只是时间问题。 铠侠在闪存领域布局已久，数年前便与慧与科技（HPE）合作，为 HPE 星载计算机 2 号项目提供 130 TB 数据存储，实质上在国际空间站上搭建起了一座数据中心。在最近一次星载计算机 2 号任务中，项目的其中一项工作正是测试高性能铠侠 SSD 如何在极端环境下支持科学研究和边缘计算。 在本届 HPE Discover 大会上，铠侠将重点介绍其对 HPE 星载计算机任务的贡献，以及其 SSD 未来如何成为月球探索的一部分。 同时，铠侠也将展示闪存存储如何推动现代云、AI 及混合环境转型。作为 HPE 的长期合作伙伴，铠侠的 SSD 解决方案早已融入 HPE 各类平台，参观者将看到从高容量前沿 PCIe 5.0 存储（采用企业和数据中心标准形态 EDSFF 以及 24G SAS 接口）到高性价比方案的全系列产品。 具体展品包括铠侠最新的 LC9 系列企业级 NVMe SSD 和 CM 系列企业级 SAS SSD。其展位将演示多项实际系统方案：使用 LC9 系列的高容量 AI 时代存储、配合 HPE Alletra Storage MP 10000 的 CM 系列关键任务负载支撑、搭配 HPE MSA 2070 SAS 的 PM7 系列高性价比方案、基于 CD9P 系列数据中心 NVMe SSD 的 HPE Morpheus VM Essentials 虚拟化部署简化方案、支持星载计算机项目的 SSD 方案，以及面向现代企业和云基础设施的 PCIe 5.0 与 EDSFF 技术全产品组合展示。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/217bb21b-78ed-41b6-bf73-5fbb092fae02.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-11T14:19:09.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/963/205.htm",
+      "originalUrl": "https://www.infoq.cn/article/g0gwDH3edWuateVXqp6N?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
