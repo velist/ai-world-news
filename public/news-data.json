@@ -1,8 +1,68 @@
 {
   "success": true,
-  "timestamp": "2026-06-13T08:33:27.755Z",
-  "total": 58,
+  "timestamp": "2026-06-13T14:24:10.562Z",
+  "total": 47,
   "data": [
+    {
+      "id": "news_1781360649373_83715b47",
+      "title": "消息称三星首款“阔折叠”智能手机 UTG 玻璃盖板更厚：折痕可更浅",
+      "summary": "IT之家 6 月 13 日消息，据韩媒 ZDNET Korea 当地时间昨日消息，三星电子已将其预计 2026H2 推出的首款“阔折叠”形态智能手机的 OLED 屏幕 UTG 玻璃盖板厚度从此前尝试的 30μm 上调至 60μm。",
+      "content": "IT之家 6 月 13 日消息，据韩媒 ZDNET Korea 当地时间昨日消息，三星电子已将其预计 2026H2 推出的首款“阔折叠”形态智能手机的 OLED 屏幕 UTG 玻璃盖板厚度从此前尝试的 30μm 上调至 60μm。 IT之家了解到，更大的 UTG 玻璃厚度有利于实现更浅折痕，同时提升抗外部冲击能力；不过与此对应的，折叠时破裂的风险会更高一些。 韩媒表示，在 2024 年的 Galaxy Z 6 系列中，“大折叠”标准版的 UTG 厚度为 30μm、FE 版为 45μm；2025 年的 Galaxy Z 7 系列中，“大折叠”UTG 厚度 45μm、“小折叠”为 50μm；而今年 Galaxy Z 8 系列“大折叠”UTG 厚度则会维持 45μm 不变。 相关阅读： 《消息称三星 Galaxy Z 8 系列折叠屏手机今年出货目标降至 500~600 万部》 《消息称三星 Galaxy Z Fold 8 Wide 折叠屏手机将配备 432 PPI 外屏、403 PPI 内屏》 《三星 Galaxy Z Fold8 Ultra 折叠手机实拍视频和系统壁纸曝光》 《三星 Galaxy Z Fold8 Ultra 等 3 款折叠手机机模曝光》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/dd50479d-3d70-4090-a4fe-23839dccdc7d.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-13T14:18:41.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/963/979.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781360649561_e4ba294c",
+      "title": "华为发布 DevEco Code 鸿蒙开发 AI Agent 工具，支持代码编写、编译构建、设备运行等能力",
+      "summary": "IT之家 6 月 13 日消息，华为在 HDC 2026 期间发布了 DevEco Code，这是一款面向 HarmonyOS 开发场景的 AI Agent 工具，支持代码编写、编译构建、设备运行、文档查阅、运行时调试及 ArkTS 问题修复等能力。",
+      "content": "IT之家 6 月 13 日消息，华为在 HDC 2026 期间发布了 DevEco Code，这是一款面向 HarmonyOS 开发场景的 AI Agent 工具，支持代码编写、编译构建、设备运行、文档查阅、运行时调试及 ArkTS 问题修复等能力。 据介绍，DevEco Code 基于开源项目 OpenCode 扩展开发，保留了 OpenCode 的终端交互、配置体系、 Provider / MCP / Skill / Plugin 等能力，并针对 HarmonyOS 工程增加了 DevEco Studio、Hvigor、HDC、Skill、HarmonyOS 知识库、ArkTS 检查和设备调试相关集成。 IT之家获悉，DevEco Code 集成了常用 HarmonyOS 开发工具能力（常见场景包括从零到一创建 HarmonyOS 工程、增量开发页面、修复编译报错、真机调试）： 工具说明 build_project执行编译构建并导出构建产物 start_app在模拟器或真机上运行应用 hdc_log收集 / 清理设备日志 / 查看连接模拟器 verify_ui执行 UI 操作验证功能是否正确 check_ets_filesArkTS 静态语法检查 arkts_knowledge_searchHarmonyOS 知识搜索 switch_cwd切换构建项目路径",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/9246df62-e4a5-473a-8cab-e24443fd5791.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-13T12:41:30.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/963/943.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781360624834_63d9ff5d",
+      "title": "阿里AI首席科学家周靖人被曝离职，千问迎来新考验",
+      "summary": "阿里AI首席科学家周靖人被曝离职，千问迎来新考验",
+      "content": "阿里巴巴的AI战略，正在经历一场从底层逻辑到组织架构的全面重构。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-13T11:48:11.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8026813.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781360630865_ecef5f61",
+      "title": "面壁智能开源社区负责人井晨哲将在AICon上海站，分享高效端侧大模型的技术趋势与产业应用观察",
+      "summary": "面壁智能开源社区负责人井晨哲将在AICon上海站，分享高效端侧大模型的技术趋势与产业应用观察",
+      "content": "面壁智能开源社区负责人井晨哲将在AICon上海站，分享高效端侧大模型的技术趋势与产业应用观察",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-13T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/sMxf71RUtLYgI0BsQhKw?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781360632681_544c5991",
+      "title": "AI驱动的网络钓鱼：技术演变与实施方式",
+      "summary": "AI驱动的网络钓鱼：技术演变与实施方式",
+      "content": "AI驱动的网络钓鱼：技术演变与实施方式",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-13T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/U140AaPLg0t5dXxE8x7q?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1781339573938_11fe3b32",
       "title": "讯灵智能与腾讯云达成战略合作",
@@ -148,7 +208,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781339301336_0",
+      "id": "news_1781360634096_931c0a6a",
+      "title": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
+      "summary": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
+      "content": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-12T16:30:21.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/g31NXdeRpwyGWbGAi937?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781360334129_0",
       "title": "Anthropic, OpenAI, Google executives plan to attend G7 summit",
       "summary": "By Shirin Ghaffary, Bloomberg\nArtificial intelligence executives from Anthropic PBC, OpenAI and Alphabet Inc.’s Google are slated to attend the Group ...",
       "content": "By Shirin Ghaffary, Bloomberg\nArtificial intelligence executives from Anthropic PBC, OpenAI and Alphabet Inc.’s Google are slated to attend the Group of Seven summit, a gathering of world leaders that gets underway next week in France.\nOpenAI’s Sam A... [1274 chars]",
@@ -172,7 +244,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781339593599_38902012",
+      "id": "news_1781360635857_38902012",
       "title": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力",
       "summary": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力...",
       "content": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力",
@@ -218,6 +290,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/963/723.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781360637621_48327160",
+      "title": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
+      "summary": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
+      "content": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-12T15:07:04.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/x99GEFjWQ8Ipb4pcDq2P?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781271499923_0487bb3f",
@@ -304,7 +388,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781339300878_1",
+      "id": "news_1781360333761_1",
       "title": "SpaceX-Anthropic-OpenAI Is a Cocktail With a Hangover",
       "summary": "That’s SpaceX out of the way. Next, investors will have to absorb the artificial-intelligence titans behind the Claude and ChatGPT chatbots, Anthropic...",
       "content": "That’s SpaceX out of the way. Next, investors will have to absorb the artificial-intelligence titans behind the Claude and ChatGPT chatbots, Anthropic PBC and OpenAI. It’s a heady cocktail for a market that isn’t used to swallowing initial public off... [292 chars]",
@@ -326,18 +410,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/video/9QTSak237x3L8ugfPoxH?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781339599923_ec1fbd47",
-      "title": "上海交大助理教授刘方鑫确认出席AICon上海，分享从数据表征到数据流编排的存算协同优化",
-      "summary": "上海交大助理教授刘方鑫确认出席AICon上海，分享从数据表征到数据流编排的存算协同优化",
-      "content": "上海交大助理教授刘方鑫确认出席AICon上海，分享从数据表征到数据流编排的存算协同优化",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-12T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/6re9AY3iCjKe2WLgO3kX?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781255198060_f71e3001",
@@ -412,7 +484,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781339566470_2",
+      "id": "news_1781360612424_2",
       "title": "OpenAI Uncovers China-Linked AI Operation",
       "summary": "OpenAI said it recently uncovered a China-linked influence operation that used ChatGPT accounts to push narratives aimed at shaping debate over U.S. a...",
       "content": "OpenAI said it recently uncovered a China-linked influence operation that used ChatGPT accounts to push narratives aimed at shaping debate over U.S. artificial intelligence policy, data center development, tariffs, and even OpenAI itself.\nIn a report... [2832 chars]",
@@ -424,7 +496,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781339300696_3",
+      "id": "news_1781360333769_3",
       "title": "OpenAI, Anthropic, SpaceX IPOs Could End Big Tech's Grip On AI Trade",
       "summary": "For the past few years, public market exposure to artificial intelligence has largely meant buying a handful of companies that sit underneath the mode...",
       "content": "For the past few years, public market exposure to artificial intelligence has largely meant buying a handful of companies that sit underneath the models themselves.\nMicrosoft was the primary conduit to OpenAI, investing more than $13 billion and embe... [2672 chars]",
@@ -436,7 +508,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781339300884_4",
+      "id": "news_1781360333717_4",
       "title": "Businesses feeling the pain from AI spending, so OpenAI reportedly weighs price cuts",
       "summary": "An artificial intelligence price war between OpenAI and Anthropic might be brewing, with The Wall Street Journal reporting that OpenAI, the maker of C...",
       "content": "An artificial intelligence price war between OpenAI and Anthropic might be brewing, with The Wall Street Journal reporting that OpenAI, the maker of ChatGPT, is considering \"drastic\" price cuts for business clients.\nThe report cited unnamed people fa... [3900 chars]",
@@ -446,18 +518,6 @@
       "category": "科技新闻",
       "originalUrl": "https://foxbaltimore.com/news/nation-world/businesses-feeling-the-pain-from-ai-spending-so-openai-reportedly-weighs-price-cuts",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1781339601482_a89b6879",
-      "title": "硅谷大厂，员工人均月花5万养 AI",
-      "summary": "硅谷大厂，员工人均月花5万养 AI",
-      "content": "硅谷大厂，员工人均月花5万养 AI",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-11T18:59:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/g0gwDH3edWuateVXqp6N?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781175377832_fa4cd32c",
@@ -506,198 +566,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/963/205.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781339300829_5",
-      "title": "An Anthropic-OpenAI Price War Would Be Brutal",
-      "summary": "Things change fast in artificial intelligence. One minute corporate desk jockeys are competing to use AI coding and reasoning tools as much as possibl...",
-      "content": "Things change fast in artificial intelligence. One minute corporate desk jockeys are competing to use AI coding and reasoning tools as much as possible, the next their bosses are complaining about budgets being pulverized and start rationing usage. N... [311 chars]",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iNh48GjvVYWE/v1/1200x750.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2026-06-11T13:35:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bloomberg.com/opinion/articles/2026-06-11/anthropic-openai-price-war-would-be-brutal-for-both-companies",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1781189256932_5a6fef39",
-      "title": "热门中概股美股盘前普跌，阿里巴巴跌超3%",
-      "summary": "36氪获悉，热门中概股美股盘前普跌，截至发稿，阿里巴巴跌超3%，京东、小鹏集团跌超2%，拼多多、百度跌超1%，哔哩哔哩跌0.66%，蔚来涨超1%。",
-      "content": "36氪获悉，热门中概股美股盘前普跌，截至发稿，阿里巴巴跌超3%，京东、小鹏集团跌超2%，拼多多、百度跌超1%，哔哩哔哩跌0.66%，蔚来涨超1%。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-06-11T12:59:12.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3848777761444869?f=rss",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781189258969_2c2b54d6",
-      "title": "贵州茅台：选举陈华为董事长并聘任多名高管",
-      "summary": "36氪获悉，贵州茅台公告称，公司第五届董事会2026年度第一次会议选举陈华为董事长，并聘任王莉代行总经理职责，涂华彬、向平、钟正强、张旭为副总经理，余思明为财务总监、董事会秘书。会议还审议通过了回购注销股份办理工商登记等事项。",
-      "content": "36氪获悉，贵州茅台公告称，公司第五届董事会2026年度第一次会议选举陈华为董事长，并聘任王莉代行总经理职责，涂华彬、向平、钟正强、张旭为副总经理，余思明为财务总监、董事会秘书。会议还审议通过了回购注销股份办理工商登记等事项。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-06-11T12:57:53.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3848776472335619?f=rss",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781189260026_337bf2e7",
-      "title": "美股大型科技股盘前多数上涨，英特尔涨超4%",
-      "summary": "36氪获悉，美股大型科技股盘前多数上涨，截至发稿，英特尔涨超4%，特斯拉涨超1%，英伟达涨0.78%，亚马逊涨0.65%，谷歌涨0.17%，微软跌0.4%，Meta跌0.01%。",
-      "content": "36氪获悉，美股大型科技股盘前多数上涨，截至发稿，英特尔涨超4%，特斯拉涨超1%，英伟达涨0.78%，亚马逊涨0.65%，谷歌涨0.17%，微软跌0.4%，Meta跌0.01%。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-06-11T12:57:33.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3848776149095428?f=rss",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781189268278_856c8340",
-      "title": "AI眼镜：禁在六月高考，火在六月华强北",
-      "summary": "AI眼镜：禁在六月高考，火在六月华强北",
-      "content": "终端的热闹是浪花，上游的瓶颈才是河床。河床越深，浪才能越高。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-11T11:05:53.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8022967.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781189271539_1a131363",
-      "title": "AI时代的\"光进铜退\"：为什么光互连是算力爆炸的唯一出路？",
-      "summary": "AI时代的\"光进铜退\"：为什么光互连是算力爆炸的唯一出路？",
-      "content": "当铜缆撞上物理极限，光模块从\"配套\"变\"主角\"的产业逻辑。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-11T11:05:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8024211.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781189273362_cd1ae038",
-      "title": "吴泳铭投出来的Rokid，开始正面迎战阿里",
-      "summary": "吴泳铭投出来的Rokid，开始正面迎战阿里",
-      "content": "吴泳铭的编外“心腹”，阿里AI的终端竞对。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-11T11:05:13.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8022925.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781189274510_51b737bd",
-      "title": "AI写高考作文，混元给DeepSeek-V4打了满分",
-      "summary": "当GPT-5.5、Fable-5、DeepSeek-V4、Hunyuan 3 Preview一起参加语文高考，会发生什么？",
-      "content": "当GPT-5.5、Fable-5、DeepSeek-V4、Hunyuan 3 Preview一起参加语文高考，会发生什么？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-11T10:59:30.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8024256.html",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781175360089_935f8b51",
-      "title": "龙虾创始人一条推文引800万人围观，全网都在吵的loop工程到底是个啥？",
-      "summary": "龙虾创始人一条推文引800万人围观，全网都在吵的loop工程到底是个啥？",
-      "content": "AI编程的下一个阶段，不是更好的模型，而是loop工程。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-11T10:20:43.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8024456.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781175361364_a4a7f311",
-      "title": "Grok选择暴力，Claude走向独裁：AI的虚拟社会有多可怕",
-      "summary": "Grok选择暴力，Claude走向独裁：AI的虚拟社会有多可怕",
-      "content": "剩下那些藏在暗处的危险，还在等着我们看见。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-11T10:12:30.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8024434.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781175362738_46c2e81a",
-      "title": "大模型竞争进入淘汰赛：智谱AI的“中厂”逻辑",
-      "summary": "大模型竞争进入淘汰赛：智谱AI的“中厂”逻辑",
-      "content": "巨头引力场下的突围：中国大模型创业公司的“中厂”之路。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-11T10:12:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8024326.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781175364628_d84e3aeb",
-      "title": "夏天的阿莫迪，在打脸春天的阿莫迪",
-      "summary": "夏天的阿莫迪，在打脸春天的阿莫迪",
-      "content": "阿莫迪：AI该被严管，标准该按我家基准定。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-11T10:10:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8024462.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781175366120_a0e22ae8",
-      "title": "钉钉火线换帅，阿里自我迭代",
-      "summary": "钉钉火线换帅，阿里自我迭代",
-      "content": "陈宇森“接棒”钉钉CEO背后，是阿里在AI时代重塑自身的“大调整”。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-11T10:04:44.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8024337.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781175367439_2db54d8d",
-      "title": "阿里、华为、百度、微软，都盯上了AI云新蓝海",
-      "summary": "阿里、华为、百度、微软，都盯上了AI云新蓝海",
-      "content": "面对千行百业智能化的蓝海，云厂商们再次站到了同一起跑线上，开启了一场比拼落地能力的竞速赛。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-11T10:01:58.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8024389.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781339302066_6",
-      "title": "Learning Ecosystems Keep Communities And Organizations Relevant",
-      "summary": "Leadership Leadership Strategies Learning Ecosystems Keep Communities And Organizations Relevant By Michael Edmondson , Contributor. Forbes contributo...",
-      "content": "For generations, workforce development centered on skills acquisition. Organizations identified knowledge gaps, delivered training, and expected employees to apply newly acquired competencies over extended periods. Relative stability across industrie... [8128 chars]",
-      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/6a1c1e51f99fb18c9212d498/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "source": "Forbes",
-      "publishedAt": "2026-06-11T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.forbes.com/sites/michaeledmondson/2026/06/11/learning-ecosystems-keep-communities-and-organizations-relevant/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1781175386677_e9787083",
-      "title": "京东发布国内首个智能体自主支付协议，AI 花钱权限划分 L0 至 L5 六个等级",
-      "summary": "IT之家 6 月 11 日消息，京东今日发布智能体自主支付协议，即 Agent Autonomous Payment Protocol（以下简称京东 A2P2 协议）。 京东表示，这是国内首个专门为智能体自主支付设计的协议，目的是让用户用 AI 省心又放心地花钱，同时每一笔都能查、都能追溯。",
-      "content": "IT之家 6 月 11 日消息，京东今日发布智能体自主支付协议，即 Agent Autonomous Payment Protocol（以下简称京东 A2P2 协议）。 京东表示，这是国内首个专门为智能体自主支付设计的协议，目的是让用户用 AI 省心又放心地花钱，同时每一笔都能查、都能追溯。这意味着，你的智能体不再只是帮你把商品放进购物车、等你亲手付钱，而是真正具备了在规则约束下自主完成支付的能力。 京东 A2P2 协议首次系统性地将智能体支付自主化划分为 L0 至 L5 六个等级，为不同场景下的自主化程度提供了演进路径。 L0 是完全由人确认每一笔支付，L5 是智能体完全自主支付。该协议重点聚焦中间的 L3 和 L4 两个等级： L3 指智能体在单一任务内可以自主发起支付请求，系统在用户设定的边界内裁决是否放行； L4 则给予智能体更多授权，只要支付金额、场景、用户等要素在预设范围内，智能体即可自主完成支付。 举例来说，用户希望“用不超过 200 元为我订一束花送给朋友”。在传统支付系统中，用户需手动筛选低于 200 元的花，且需点击后再扣款。而京东 A2P2 协议引入“任务委托凭证”（Mandate），把用户的自然语言指令转化为机器可校验的任务凭证。这能保证在扣款前，系统理解用户的意图，并实时核对金额、品类、收款方。如果智能体试图购买 300 元的花，系统会直接拒绝或要求用户本人确认。 资金安全方面，京东 A2P2 协议首创了 ARI（IT之家注：智能体运行时身份）机制，在支付瞬间实时绑定三方信息：真实用户、智能体身份、智能体的运行时环境。 当智能体发起扣款请求时，系统会立刻核验： 这笔钱最终由用户本人承担； 执行的是用户唯一授权的那一个智能体版本； 该智能体当前运行在可信设备上、没有被恶意程序注入。 三个条件全部满足，请求才能推进。如果智能体被“劫持”，试图在用户不知情的情况下转账，ARI 会在第一时间发现运行环境异常，直接拦截。 此外，京东 A2P2 协议还设计了“资金载体”隔离层。用户主账户不会被智能体直接调用，而是新设立一个严格受限的“专用账户”，对金额上限、使用场景、有效时间和允许的收款方都设有硬性规定。即使智能体被恶意控制，也突破不了这些限制，触碰不到用户的主账户。用户可以随时查看每个智能体被分配了多少钱、花在了哪里，也可以随时收回授权。 智能体自主支付完成后，钱是否真的花在了约定的任务上？一旦发生争议，能否快速追溯到源头？京东 A2P2 协议在支付结算与治理审计两个层面给出了解决方案： 在支付与结算层，系统会立即将这笔支付结果与前序的任务委托凭证、ARI 身份、决策裁决及执行令牌强行绑定，形成完整的证据闭环。 为解决智能体支付关键事实分散在不同架构层、而传统日志排查往往信息不全的问题，京东 A2P2 协议引入了“存证链”作为统一的事实锚点，让每一笔 AI 交易可验证、可处置、可审计。 相关阅读： 《业内首个：京东科技发布 ClawTip，让 AI 智能体自己付钱》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/4f72cdfe-0911-4fd2-9dc5-6dea715a7958.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-11T09:59:37.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/963/090.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
