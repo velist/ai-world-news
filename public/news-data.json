@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-06-14T21:23:18.141Z",
-  "total": 41,
+  "timestamp": "2026-06-14T23:18:48.892Z",
+  "total": 38,
   "data": [
+    {
+      "id": "news_1781479093946_afc58a15",
+      "title": "由激光写入的磁存储材料切换数据提速千倍",
+      "summary": "据最新一期《应用物理快报》报道，日本量子科学技术研究开发机构研究团队开发出可由激光直接写入的新型磁性存储材料，其数据切换速度可达传统电流驱动磁存储器的约1000倍，有望用于未来AI芯片和高速信息系统，同时可降低数据中心能耗。",
+      "content": "据最新一期《应用物理快报》报道，日本量子科学技术研究开发机构研究团队开发出可由激光直接写入的新型磁性存储材料，其数据切换速度可达传统电流驱动磁存储器的约1000倍，有望用于未来AI芯片和高速信息系统，同时可降低数据中心能耗。（科技日报）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-06-14T23:17:04.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://36kr.com/newsflashes/3853623109866496?f=rss",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1781449920296_9160e3c7",
       "title": "微软 CEO 纳德拉：AGI 并非人类最后一项技术发明，光烧 Token 撑不起 AI 未来",
@@ -26,30 +38,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/964/159.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781472180879_bc1a5352",
-      "title": "蚂蚁数科企业级 AGI 研发体系重塑实战｜AICon上海",
-      "summary": "蚂蚁数科企业级 AGI 研发体系重塑实战｜AICon上海",
-      "content": "蚂蚁数科企业级 AGI 研发体系重塑实战｜AICon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-14T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/k890EiwhdA4ISuOu8IhH?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781472182774_6704c6aa",
-      "title": "OpenAI GPT-5.5 与 Codex 正式登陆 Amazon Bedrock",
-      "summary": "OpenAI GPT-5.5 与 Codex 正式登陆 Amazon Bedrock",
-      "content": "OpenAI GPT-5.5 与 Codex 正式登陆 Amazon Bedrock",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-14T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/FuhAEYbk8T0b0GQZyq4c?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781430776488_947f9ad7",
@@ -256,30 +244,6 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781472184050_ecef5f61",
-      "title": "面壁智能开源社区负责人井晨哲将在AICon上海站，分享高效端侧大模型的技术趋势与产业应用观察",
-      "summary": "面壁智能开源社区负责人井晨哲将在AICon上海站，分享高效端侧大模型的技术趋势与产业应用观察",
-      "content": "面壁智能开源社区负责人井晨哲将在AICon上海站，分享高效端侧大模型的技术趋势与产业应用观察",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-13T10:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/sMxf71RUtLYgI0BsQhKw?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781472185790_544c5991",
-      "title": "AI驱动的网络钓鱼：技术演变与实施方式",
-      "summary": "AI驱动的网络钓鱼：技术演变与实施方式",
-      "content": "AI驱动的网络钓鱼：技术演变与实施方式",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-13T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/U140AaPLg0t5dXxE8x7q?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1781339573938_11fe3b32",
       "title": "讯灵智能与腾讯云达成战略合作",
       "summary": "36氪获悉，据腾讯云消息，近日，深圳市讯灵智能技术科技有限公司与腾讯云计算（北京）有限责任公司正式签署战略合作协议。双方将围绕技术底座共建、AI营销一体化方案、智能办公协同、行业生态与标准建设四大领域展开深度协作。",
@@ -340,7 +304,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781472157763_0",
+      "id": "news_1781479087352_0",
       "title": "OpenAI Mulls “Drastic” Price Cuts Amid AI Market Turmoil",
       "summary": "OpenAI is considering significantly reducing the prices it charges for its artificial intelligence (AI) services, according to a Wall Street Journal (...",
       "content": "OpenAI is considering significantly reducing the prices it charges for its artificial intelligence (AI) services, according to a Wall Street Journal (WSJ) report cited by ZeroHedge [1].\nThe move is an attempt to regain customers from rival Anthropic,... [5269 chars]",
@@ -436,7 +400,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781472187374_931c0a6a",
+      "id": "news_1781479116718_931c0a6a",
       "title": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
       "summary": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
       "content": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
@@ -448,7 +412,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781472189003_38902012",
+      "id": "news_1781479118567_38902012",
       "title": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力",
       "summary": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力...",
       "content": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力",
@@ -460,7 +424,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781472190710_48327160",
+      "id": "news_1781479120207_48327160",
       "title": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
       "summary": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
       "content": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
@@ -472,7 +436,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781472191350_beab54e8",
+      "id": "news_1781479121342_beab54e8",
       "title": "人效近 400 万如何炼成?  在 Snowflake 硅谷总部重新理解了 AI 时代的 Builder ｜ 奇遇旧金山收官篇",
       "summary": "人效近 400 万如何炼成?  在 Snowflake 硅谷总部重新理解了 AI 时代的 Builder ｜ 奇遇旧金山收官篇...",
       "content": "人效近 400 万如何炼成?  在 Snowflake 硅谷总部重新理解了 AI 时代的 Builder ｜ 奇遇旧金山收官篇",
@@ -484,7 +448,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781472191969_0cc6c37b",
+      "id": "news_1781479122287_0cc6c37b",
       "title": "Snowflake CoCo、CoWork 亮相 顶级玩家如何定义 Agentic AI 未来 ｜ 奇遇旧金山——探访 Snowflake Summit 26（EP2）",
       "summary": "Snowflake CoCo、CoWork 亮相 顶级玩家如何定义 Agentic AI 未来 ｜ 奇遇旧金山——探访 Snowflake Summit 26（EP2）...",
       "content": "Snowflake CoCo、CoWork 亮相 顶级玩家如何定义 Agentic AI 未来 ｜ 奇遇旧金山——探访 Snowflake Summit 26（EP2）",
