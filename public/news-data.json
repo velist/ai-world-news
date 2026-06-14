@@ -1,8 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-06-14T12:05:48.522Z",
-  "total": 47,
+  "timestamp": "2026-06-14T15:12:01.301Z",
+  "total": 41,
   "data": [
+    {
+      "id": "news_1781449920296_9160e3c7",
+      "title": "微软 CEO 纳德拉：AGI 并非人类最后一项技术发明，光烧 Token 撑不起 AI 未来",
+      "summary": "IT之家 6 月 14 日消息，微软 CEO 萨蒂亚 · 纳德拉本周三出席《纽约时报》科技播客 Hard Fork，谈及当下大火的 AI 概念。 这名 58 岁的微软掌门人表示：“你无法否认，人们对 AI 的观感非常糟糕”。",
+      "content": "IT之家 6 月 14 日消息，微软 CEO 萨蒂亚 · 纳德拉本周三出席《纽约时报》科技播客 Hard Fork，谈及当下大火的 AI 概念。 这名 58 岁的微软掌门人表示：“你无法否认，人们对 AI 的观感非常糟糕”。他承认，AI 发展确实可能导致部分人工岗位被机器取代，但 AI 蕴含的巨大能力还是能给人类社会带来诸多良机。 纳德拉认为，每个人都应该是 AI 的利益相关者。AI 不能只靠一两个前沿模型或几个头部公司驱动经济增长，必须构建整个经济体系都能用上的 AI 生态系统。 据悉，微软作为平台公司的目标是让每个国家的每个企业，都能走到前沿，否则如果经济只增长 2%，AI 这盘棋就满盘皆输。 谈到“Token 经济学”时纳德拉坦言，他本人也是“Token 最大化者”，但当前行业很多公司、个人用 AI 只是为了跟上风潮，而不是创造实际价值。他强调，Token 的边际成本必须匹配其实际价值，前沿模型不应用于解决非前沿问题，否则 AI 无法真正增长。 最后谈到 AGI（IT之家注：通用人工智能）时，纳德拉承认编程这种闭环任务进展确实大，但 AI 并不是人类最后一项技术发明。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/3e685857-555b-494b-93a8-099bcc91b3e6.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-14T13:53:28.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/964/178.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1781438747512_746c26ed",
       "title": "小米新媒体高级工程师再谈大模型：希望这个赛道永远比的是代码质量、推理速度和开源贡献",
@@ -14,30 +26,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/964/159.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781438730736_bc1a5352",
-      "title": "蚂蚁数科企业级 AGI 研发体系重塑实战｜AICon上海",
-      "summary": "蚂蚁数科企业级 AGI 研发体系重塑实战｜AICon上海",
-      "content": "蚂蚁数科企业级 AGI 研发体系重塑实战｜AICon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-14T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/k890EiwhdA4ISuOu8IhH?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781438732288_6704c6aa",
-      "title": "OpenAI GPT-5.5 与 Codex 正式登陆 Amazon Bedrock",
-      "summary": "OpenAI GPT-5.5 与 Codex 正式登陆 Amazon Bedrock",
-      "content": "OpenAI GPT-5.5 与 Codex 正式登陆 Amazon Bedrock",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-14T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/FuhAEYbk8T0b0GQZyq4c?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781430776488_947f9ad7",
@@ -244,30 +232,6 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781438733953_ecef5f61",
-      "title": "面壁智能开源社区负责人井晨哲将在AICon上海站，分享高效端侧大模型的技术趋势与产业应用观察",
-      "summary": "面壁智能开源社区负责人井晨哲将在AICon上海站，分享高效端侧大模型的技术趋势与产业应用观察",
-      "content": "面壁智能开源社区负责人井晨哲将在AICon上海站，分享高效端侧大模型的技术趋势与产业应用观察",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-13T10:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/sMxf71RUtLYgI0BsQhKw?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781438735290_544c5991",
-      "title": "AI驱动的网络钓鱼：技术演变与实施方式",
-      "summary": "AI驱动的网络钓鱼：技术演变与实施方式",
-      "content": "AI驱动的网络钓鱼：技术演变与实施方式",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-13T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/U140AaPLg0t5dXxE8x7q?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1781339573938_11fe3b32",
       "title": "讯灵智能与腾讯云达成战略合作",
       "summary": "36氪获悉，据腾讯云消息，近日，深圳市讯灵智能技术科技有限公司与腾讯云计算（北京）有限责任公司正式签署战略合作协议。双方将围绕技术底座共建、AI营销一体化方案、智能办公协同、行业生态与标准建设四大领域展开深度协作。",
@@ -328,7 +292,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781438704112_0",
+      "id": "news_1781449874570_0",
       "title": "OpenAI Mulls “Drastic” Price Cuts Amid AI Market Turmoil",
       "summary": "OpenAI is considering significantly reducing the prices it charges for its artificial intelligence (AI) services, according to a Wall Street Journal (...",
       "content": "OpenAI is considering significantly reducing the prices it charges for its artificial intelligence (AI) services, according to a Wall Street Journal (WSJ) report cited by ZeroHedge [1].\nThe move is an attempt to regain customers from rival Anthropic,... [5269 chars]",
@@ -424,19 +388,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781438737062_931c0a6a",
-      "title": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
-      "summary": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
-      "content": "智源大会圆桌：大模型没有终局，具身智能可能是中国的 AlphaGo 时刻",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-12T16:30:21.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/g31NXdeRpwyGWbGAi937?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781438703231_1",
+      "id": "news_1781449874977_1",
       "title": "Anthropic, OpenAI, Google executives plan to attend G7 summit",
       "summary": "By Shirin Ghaffary, Bloomberg\nArtificial intelligence executives from Anthropic PBC, OpenAI and Alphabet Inc.’s Google are slated to attend the Group ...",
       "content": "By Shirin Ghaffary, Bloomberg\nArtificial intelligence executives from Anthropic PBC, OpenAI and Alphabet Inc.’s Google are slated to attend the Group of Seven summit, a gathering of world leaders that gets underway next week in France.\nOpenAI’s Sam A... [1274 chars]",
@@ -460,7 +412,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781438738833_38902012",
+      "id": "news_1781449909985_38902012",
       "title": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力",
       "summary": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力...",
       "content": "Build 2026：Azure API Management 推出统一模型API并新增MCP内容安全能力",
@@ -508,7 +460,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781438740121_48327160",
+      "id": "news_1781449911769_48327160",
       "title": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
       "summary": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
       "content": "Snowflake 迈向 Agentic Enterprise 的关键一跃",
@@ -520,31 +472,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781271499923_0487bb3f",
-      "title": "美股大型科技股盘前普涨，谷歌涨超1%",
-      "summary": "36氪获悉，美股大型科技股盘前普涨，截至发稿，Arm、谷歌涨超1%，奈飞、Meta、微软涨近1%，特斯拉涨0.44%，苹果涨0.29%，英伟达涨0.19%。",
-      "content": "36氪获悉，美股大型科技股盘前普涨，截至发稿，Arm、谷歌涨超1%，奈飞、Meta、微软涨近1%，特斯拉涨0.44%，苹果涨0.29%，英伟达涨0.19%。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-06-12T12:49:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3850184110101509?f=rss",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781271536110_a4009b04",
-      "title": "首起波音 787 致命空难一周年：印度 AAIB 发布调查中期声明，呼吁勿对空难原因妄加猜测",
-      "summary": "IT之家 6 月 12 日消息，印度航空 AI-171 航班空难迎来一周年。今晚，印度航空器事故调查局（AAIB）发布了一份调查中期声明，概述了过去一年来的调查进展。 AAIB 在声明中首先向所有遇难者家属和受影响者表达最深切慰问。",
-      "content": "IT之家 6 月 12 日消息，印度航空 AI-171 航班空难迎来一周年。今晚，印度航空器事故调查局（AAIB）发布了一份调查中期声明，概述了过去一年来的调查进展。 AAIB 在声明中首先向所有遇难者家属和受影响者表达最深切慰问。这起悲剧发生于 2025 年 6 月 12 日，涉事飞机为一架波音 787-8 客机，原计划从艾哈迈达巴德的萨达尔 · 瓦拉巴伊 · 帕特尔国际机场飞往伦敦，起飞后不久即发生事故。IT之家此前报道，AAIB 已于 2025 年 7 月发布了一份包含事实信息的初步报告。 AAIB 表示，过去一年里，调查团队在相关组织的认可代表、技术顾问和专题专家的支持下，对与事故相关的所有技术、运行、组织和人为因素展开了广泛且严格的审查。目前已在飞机系统、飞行记录仪数据、发动机相关部件、维护和运行记录以及其他证据的检查和分析方面取得重大进展。 AAIB 称其正以综合全面的方式对已收集的证据和各项检查结果进行分析，必要时将继续开展额外的技术评估和专项检查，以确保所有发现和结论都有经过验证的证据和可靠的科学分析作为支撑。最终报告将在所有调查活动及《国际民用航空公约》规定的国际审查和磋商程序完成后发布。 AAIB 声明强调，事故调查的唯一目的是通过汲取教训和提出安全建议来提升航空安全，而非归咎责任。AAIB 敦促包括媒体和公众在内的所有相关方，在调查进行期间不要进行猜测或过早下结论。 相关阅读： 《波音 787 机型首起致命空难，初步调查聚焦飞行员行为和飞机燃油开关》 《美国国家运输安全委员会：对印航波音 787 空难原因下结论为时尚早》 《美联邦航空管理局：印度客机空难似乎并非由波音燃油控制装置引起》 《波音 787 机型首起致命空难，印度官方提交首份调查报告》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/acf0617d-3139-4798-a410-4f8e04ca7315.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-12T12:48:22.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/963/686.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781438740768_beab54e8",
+      "id": "news_1781449912564_beab54e8",
       "title": "人效近 400 万如何炼成?  在 Snowflake 硅谷总部重新理解了 AI 时代的 Builder ｜ 奇遇旧金山收官篇",
       "summary": "人效近 400 万如何炼成?  在 Snowflake 硅谷总部重新理解了 AI 时代的 Builder ｜ 奇遇旧金山收官篇...",
       "content": "人效近 400 万如何炼成?  在 Snowflake 硅谷总部重新理解了 AI 时代的 Builder ｜ 奇遇旧金山收官篇",
@@ -556,7 +484,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781438741432_0cc6c37b",
+      "id": "news_1781449913588_0cc6c37b",
       "title": "Snowflake CoCo、CoWork 亮相 顶级玩家如何定义 Agentic AI 未来 ｜ 奇遇旧金山——探访 Snowflake Summit 26（EP2）",
       "summary": "Snowflake CoCo、CoWork 亮相 顶级玩家如何定义 Agentic AI 未来 ｜ 奇遇旧金山——探访 Snowflake Summit 26（EP2）...",
       "content": "Snowflake CoCo、CoWork 亮相 顶级玩家如何定义 Agentic AI 未来 ｜ 奇遇旧金山——探访 Snowflake Summit 26（EP2）",
