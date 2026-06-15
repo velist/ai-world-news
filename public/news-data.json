@@ -1,31 +1,43 @@
 {
   "success": true,
-  "timestamp": "2026-06-15T21:16:12.788Z",
-  "total": 36,
+  "timestamp": "2026-06-15T23:54:05.599Z",
+  "total": 37,
   "data": [
     {
-      "id": "news_1781558157748_3f625720",
-      "title": "普通人创作千万播放量爆款视频不是梦！从字节走出的产品人，做了一款AIGC视频神器",
-      "summary": "普通人创作千万播放量爆款视频不是梦！从字节走出的产品人，做了一款AIGC视频神器",
-      "content": "普通人创作千万播放量爆款视频不是梦！从字节走出的产品人，做了一款AIGC视频神器",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-15T18:40:26.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/pfJ4soZQji2VsfuX1DMm?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1781567644432_aeb66541",
+      "title": "Adobe 升级 Photoshop、Premiere 等，为用户创作整合更多 AI 能力",
+      "summary": "IT之家 6 月 16 日消息，Adobe 昨日（6 月 15 日）发布公告，宣布升级 Creative Cloud 套件，涵盖 Lightroom、Premiere、After Effects 与 Photoshop，为用户创作流程整合更多 AI 能力。",
+      "content": "IT之家 6 月 16 日消息，Adobe 昨日（6 月 15 日）发布公告，宣布升级 Creative Cloud 套件，涵盖 Lightroom、Premiere、After Effects 与 Photoshop，为用户创作流程整合更多 AI 能力。 Lightroom Lightroom 方面，新版加入辅助筛选工具，用户可按“睁眼”与“眼部清晰度”等条件快速过滤照片，此外照片转视频功能则可把静态照片转成带 AI 运动效果的补充镜头或短视频内容。 IT之家援引博文介绍，在图像质量处理上，Lightroom 新增 AI 锐化功能，采用 Topaz Labs 的噪声感知锐化模型，可强化花瓣、毛发、树叶等细节表现。 在 Lightroom、Lightroom Classic 和 Adobe Camera Raw 中，已支持索尼 Alpha 7R VI 的全部 Sony RAW 格式。 Premiere Premiere 本次更新引入全局音频静音支持，用户可以一键关闭整个应用内的声音。标记搜索可按颜色或名称在所有已打开项目中查找标记；Single Word 在不打乱整段字幕结构情况下，让设计人员能直接修改单个词，更适合精细化后期流程。 Premiere 加入 3D Spinback 和 Slide 两种转场，并提供缓动控制。时间线中还可直接加入 Channel Blur、Gradient 和 Noise FX 等有机纹理效果。 After Effects After Effects 本次新增了 AI 对象蒙版（Object Matte）功能，用于改善抠像体验。 设计师现在可以直接将 SVG 文件作为可编辑的形状图层导入到 After Effects 中。Illustrator 新增的复制粘贴工作流程让设计师能够在不同程序之间无缝协作。 Photoshop Photoshop 更新较少，但加入设备端 AI 移除工具，无需等待联网处理；新的反光去除工具还能自动识别并清除隔着玻璃拍摄时的反射。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/2edfccf5-5a74-45c4-be41-e09b6c470474.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-15T23:30:06.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/964/624.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781558159235_4aff8aff",
-      "title": "智能体加速金融创新 | TF技术前线179期报名",
-      "summary": "智能体加速金融创新 | TF技术前线179期报名",
-      "content": "智能体加速金融创新 | TF技术前线179期报名",
+      "id": "news_1781567644598_3a75ba0b",
+      "title": "招商银行推出“运通工程师信用卡”，新用户办卡提供“专属 AI 权益”单月可享 18 亿 Token M3 用量",
+      "summary": "IT之家 6 月 16 日消息，招商银行宣布推出一款“运通工程师信用卡”，强调相应信用卡拥有“专属 AI 权益”。",
+      "content": "IT之家 6 月 16 日消息，招商银行宣布推出一款“运通工程师信用卡”，强调相应信用卡拥有“专属 AI 权益”。 IT之家参考官方介绍获悉，新用户办卡首次参与活动达标后，至高可享每月 18 亿 Token M3 用量，可直接用于文档、图像、音视频等多模态模型调用，以及 MaxClaw 龙虾部署等 AI 高频场景。具体来看，相应信用卡“AI 权益体系”提供三种方案可选： 面向频繁使用 AI 工具的专业开发者，提供 1 个月 MiniMax Token Plan Max，享受每月 18 亿 Token M3 用量，支持 4-5 个 Agent 并发运行； 面向日常工作需求的个人开发者，提供 2 个月 MiniMax Token Plan Plus，享受每月 6 亿 Token M3 用量，支持 3-4 个 Agent 并发运行； 面向需求更多元的 AI 使用者，提供 1 个月 MiniMax Token Plan Plus+1 个月 MaxClaw 基础版，在前者服务基础上，可以部署 7x24 小时在线的云端 MaxClaw，并在高峰时段优先使用。 事实上，此前 Kimi 智能助手也推出了一款“Kimi 信用卡”，持卡人可通过消费积分兑换 Kimi 算力额度（如 Agent 使用额度、高级功能权限等），该卡预计 7 月正式面市。 参考央行发布的《2025 年支付体系运行总体情况》，截至 2025 年年末，全国信用卡和借贷合一卡的数量为 6.96 亿张，较 2024 年年末减少约 3100 万张；发卡量已连续三年下滑，较 2022 年三季度末的历史高点减少 1.11 亿张，规模创下数年来新低。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/364fb8e3-882d-4331-b017-0ba95ccc87d9.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-15T22:59:02.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/964/614.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781567630308_5d1db48e",
+      "title": "前 OpenAI 高管清华演讲：比失业更可怕的，是 AI 时代我们不知道“我是谁”",
+      "summary": "前 OpenAI 高管清华演讲：比失业更可怕的，是 AI 时代我们不知道“我是谁”",
+      "content": "前 OpenAI 高管清华演讲：比失业更可怕的，是 AI 时代我们不知道“我是谁”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-06-15T18:39:02.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Bim80Njzp6ZYQJVm8dh7?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-06-15T22:31:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/BVEc18iUtotFGN2mpRSI?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781526926728_49c81065",
@@ -160,6 +172,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1781567640063_eab270da",
+      "title": "复杂业务场景下 RCA Agent 的探索实践",
+      "summary": "复杂业务场景下 RCA Agent 的探索实践",
+      "content": "复杂业务场景下 RCA Agent 的探索实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-15T10:20:58.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/dSexstkokyRe1TIkcBLW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1781526916234_673e7ff0",
       "title": "这届年轻人，开始向AI「问路」",
       "summary": "志愿填报本质上是对\"未知自我\"的探索，AI的推荐逻辑基于\"已知数据\"的匹配。但对于大多数18岁的年轻人来说，“我是谁”恰恰是在选择的过程中才被逐渐发现的。",
@@ -244,7 +268,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781558127136_0",
+      "id": "news_1781567607603_0",
       "title": "WormSORT: A detection-based multiple object tracking model for individual silkworms in breeding environments",
       "summary": "3.2. WormSORT for silkworm MOT\nTo enable precise tracking of individual silkworms in a breeding environment, we propose a multiple object tracking (MO...",
       "content": "3.2. WormSORT for silkworm MOT\nTo enable precise tracking of individual silkworms in a breeding environment, we propose a multiple object tracking (MOT) method based on a tracking-by-detection (TBD) framework, termed WormSORT. As illustrated in Fig 2... [23590 chars]",
@@ -422,18 +446,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8027027.html",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781396273541_16ece94a",
-      "title": "快递服务领域首个国际标准，顺丰牵头《快递电子运单》标准提案成功立项",
-      "summary": "IT之家 6 月 14 日消息，日前，国际标准化组织创新物流技术委员会快递服务标准委员会（ISO / TC 344/SC2）在浙江杭州成立并举行第一次全体会议，会议听取了中国参会代表提出的 3 项国际标准提案介绍，其中由顺丰牵头的《快递电子运单》技术报告项目成功立项进入起草阶段。",
-      "content": "IT之家 6 月 14 日消息，日前，国际标准化组织创新物流技术委员会快递服务标准委员会（ISO / TC 344/SC2）在浙江杭州成立并举行第一次全体会议，会议听取了中国参会代表提出的 3 项国际标准提案介绍，其中由顺丰牵头的《快递电子运单》技术报告项目成功立项进入起草阶段。该中国提案的成功立项也标志着快递服务标准国际化工作全面启动。 IT之家注意到，快递服务 SC2 是首个快递领域国际标准化机构，标志着全球快递服务领域的标准化工作迈入崭新的发展阶段。来自中国、韩国、德国、奥地利、法国、美国等 9 个国家的成员机构和 2 个国际组织的 40 余名专家代表参加了第一次全体会议，审议了 SC2 名称、范围以及联络关系等事项，听取了中国参会代表提出的 3 项国际标准提案介绍。 其中，由顺丰牵头的《快递电子运单》技术报告项目，经会议审议同意立项，并进入起草阶段。这也是快递服务领域首个成功立项的国际标准提案。 据悉，该报告将通过国际调研、典型案例等形式，对快递运单信息、格式和技术形成国际标准共识，助力推动快递电子运单标准化、跨境物流便利化和全行业可持续健康发展。项目将联合各国快递行业人士共同组建工作组进行报告编制，并在征求各方意见后发布。 在快递服务 SC2 成立大会上，国家邮政管理局局长赵冲久在讲话中指出，快递服务连通线上线下，服务千城百业，给人们的生产生活带来极大便利。快递服务标准委员会的成立，有利于促进互联互通，构建便捷、高效、安全、韧性的全球快递网络；有利于提升快递服务可及性和均衡性；有利于更好服务全球民生，推动联合国可持续发展目标实现。强调快递服务标准委员会要顺应发展趋势，构建科学合理的快递服务国际标准体系，在服务质量与认证、网络构建与运维、技术装备与应用、绿色发展与安全等方面开展国际标准研制工作，引领支撑全球快递健康发展。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/e76fa51c-927c-4f4f-ba67-a78886e92807.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-13T23:02:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/963/992.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
