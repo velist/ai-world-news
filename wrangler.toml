@@ -1,12 +1,15 @@
 # Cloudflare Pages 配置
+pages_build_output_dir = "dist"
+
 [build]
   command = "npm run build"
-  publish = "dist"
 
 # 环境变量
-[env.production.vars]
+[vars]
   NODE_ENV = "production"
+  NPM_VERSION = "10"
 
-# 开发环境
-[env.development.vars]
-  NODE_ENV = "development"
+# 指定使用 npm 而非 bun
+[build.environment]
+  NODE_VERSION = "22"
+  PREFER_NPM = "true"
