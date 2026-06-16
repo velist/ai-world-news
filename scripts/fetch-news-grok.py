@@ -95,13 +95,12 @@ def main():
             count = 0
             for item in items[:5]:
                 nid += 1
-                # 发布时间：用今天的 UTC 日期，hash 分散到 0-15 点
-                # 0-15 UTC = 8-23 北京时间，确保不会跨到次日
-                today = time.strftime('%Y-%m-%d', time.gmtime())
-                h = int(hashlib.md5(item.get('title', '').encode()).hexdigest()[:2], 16) % 16
-                m = int(hashlib.md5(item.get('title', '').encode()).hexdigest()[2:4], 16) % 60
-                s = int(hashlib.md5(item.get('title', '').encode()).hexdigest()[4:6], 16) % 60
-                pub_time = f'{today}T{h:02d}:{m:02d}:{s:02d}Z'
+                # 发布时间：按列表位置从近到远分散（0-12小时前）
+                # 每条间隔约 2-3 小时，第一条最新，最后一条最远
+                now_ts = time.time()
+                hours_ago = count * 2.5 + (int(hashlib.md5(item.get('title', '').encode()).hexdigest()[:2], 16) % 60) / 60
+                pub_ts = now_ts - hours_ago * 3600
+                pub_time = time.strftime('%Y-%m-%dT%H:%M:%SZ', time.gmtime(pub_ts))
                 all_news.append({
                     'id': f'grok_{nid:03d}',
                     'title': item.get('title', 'No title'),
