@@ -9,15 +9,22 @@
 import fs from 'fs';
 import path from 'path';
 
-// ===== 配置 =====
+// ===== 配置（从环境变量读取，CI 中用 GitHub Secrets）=====
 const CONFIG = {
-  GROK_API_BASE: 'https://jiuuij.de5.net/v1',
-  GROK_API_KEY: 'sk-dFtor0St8RvKMYA95Ia8RnSnAz15BVa0egCivwh4VKEnSYFI',
-  GROK_MODEL: 'grok-4.20-multi-agent-xhigh',
+  GROK_API_BASE: process.env.GROK_API_BASE || 'https://jiuuij.de5.net/v1',
+  GROK_API_KEY: process.env.GROK_API_KEY || '',
+  GROK_MODEL: process.env.GROK_MODEL || 'grok-4.20-multi-agent-xhigh',
   OUTPUT_FILE: path.join(process.cwd(), 'public', 'news-data.json'),
   VERSION_FILE: path.join(process.cwd(), 'public', 'version.json'),
   MAX_RESULTS: 15,
 };
+
+// 启动检查
+if (!CONFIG.GROK_API_KEY) {
+  console.error('❌ GROK_API_KEY 环境变量未设置！');
+  console.error('请在 GitHub Secrets 或 .env 中配置 GROK_API_KEY');
+  process.exit(1);
+}
 
 // ===== AI 新闻搜索提示词 =====
 const SEARCH_PROMPTS = [

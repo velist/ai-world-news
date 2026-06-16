@@ -37,7 +37,9 @@ jobs:
 
       - name: Grok AI 新闻抓取
         env:
+          GROK_API_BASE: ${{ secrets.GROK_API_BASE }}
           GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
+          GROK_MODEL: ${{ secrets.GROK_MODEL }}
         run: node scripts/fetch-news-grok.js
 
       - name: 生成RSS feed
