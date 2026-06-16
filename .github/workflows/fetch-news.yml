@@ -40,7 +40,7 @@ jobs:
           GROK_API_BASE: ${{ secrets.GROK_API_BASE }}
           GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
           GROK_MODEL: ${{ secrets.GROK_MODEL }}
-        run: node scripts/fetch-news-grok.js
+        run: python scripts/fetch-news-grok.py
 
       - name: 生成RSS feed
         run: node scripts/generate-feed.js
