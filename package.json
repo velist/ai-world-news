@@ -10,6 +10,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "fetch-news": "node scripts/fetch-news.js",
+    "fetch-news-grok": "node scripts/fetch-news-grok.js",
     "aggregate-news": "node scripts/simple-aggregator.js",
     "start-news-service": "node scripts/news-service.js",
     "generate-feed": "node scripts/generate-feed.js",

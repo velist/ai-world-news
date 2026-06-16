@@ -1,10 +1,10 @@
-﻿name: 获取AI新闻并更新
+name: 获取AI新闻 (Grok)
 
 on:
   schedule:
-    # 每小时运行一次（使用UTC时间）
-    - cron: '0 * * * *'
-  workflow_dispatch: # 允许手动触发
+    # 每天运行两次（UTC 0点和12点 = 北京时间8点和20点）
+    - cron: '0 0,12 * * *'
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -18,7 +18,7 @@ concurrency:
 jobs:
   fetch-and-update-news:
     runs-on: ubuntu-latest
-    
+
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
@@ -35,22 +35,10 @@ jobs:
       - name: 安装依赖
         run: npm ci
 
-      - name: 获取国际新闻数据
+      - name: Grok AI 新闻抓取
         env:
-          NEWS_API_KEY: ${{ secrets.NEWS_API_KEY }}
-          NEWSDATA_API_KEY: ${{ secrets.NEWSDATA_API_KEY }}
-          GNEWS_API_KEY: ${{ secrets.GNEWS_API_KEY }}
-          CURRENTS_API_KEY: ${{ secrets.CURRENTS_API_KEY }}
-          SILICONFLOW_API_KEY: ${{ secrets.SILICONFLOW_API_KEY }}
-          TENCENT_SECRET_ID: ${{ secrets.TENCENT_SECRET_ID }}
-          TENCENT_SECRET_KEY: ${{ secrets.TENCENT_SECRET_KEY }}
-          ZHIPU_API_KEY: ${{ secrets.ZHIPU_API_KEY }}
-          VOLC_API_KEY: ${{ secrets.VOLC_API_KEY }}
-        run: node scripts/fetch-news.js
-        continue-on-error: true
-
-      - name: 获取RSS国内新闻数据
-        run: node scripts/simple-aggregator.js
+          GROK_API_KEY: ${{ secrets.GROK_API_KEY }}
+        run: node scripts/fetch-news-grok.js
 
       - name: 生成RSS feed
         run: node scripts/generate-feed.js
@@ -62,20 +50,15 @@ jobs:
 
       - name: 提交更新的新闻数据
         run: |
-          # 确认切到 main 并更新
           git fetch origin main
           git checkout main
           git pull origin main
 
-          # 检查是否有变化
           if git diff --quiet public/news-data.json; then
             echo "新闻数据没有变化，跳过提交"
           else
             echo "检测到新闻数据更新，准备提交"
-            git add public/news-data.json
-            if ! git diff --quiet public/version.json; then
-              git add public/version.json
-            fi
-            git commit -m "🤖 自动更新AI新闻数据 - $(date +'%Y-%m-%d %H:%M:%S UTC')"
+            git add public/news-data.json public/version.json
+            git commit -m "🤖 Grok AI 自动更新新闻 - $(date +'%Y-%m-%d %H:%M:%S UTC')"
             git push origin main
           fi
