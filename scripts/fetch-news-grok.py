@@ -95,16 +95,13 @@ def main():
             count = 0
             for item in items[:5]:
                 nid += 1
-                # 处理日期：用 hash 分散到当天不同时段，避免全部显示同一时间
-                raw_date = item.get('date', '2026-06-16')
-                if 'T' in raw_date:
-                    # Grok 返回了完整 ISO 时间
-                    pub_time = raw_date.replace('Z', '+00:00') if raw_date.endswith('Z') else raw_date
-                else:
-                    # 只有日期，用标题 hash 分散到 6:00-22:00 UTC（北京时间 14:00-次日6:00）
-                    h = int(hashlib.md5(item.get('title', '').encode()).hexdigest()[:2], 16) % 17 + 6
-                    m = int(hashlib.md5(item.get('title', '').encode()).hexdigest()[2:4], 16) % 60
-                    pub_time = f'{raw_date}T{h:02d}:{m:02d}:00Z'
+                # 发布时间：用今天的 UTC 日期，hash 分散到 0-15 点
+                # 0-15 UTC = 8-23 北京时间，确保不会跨到次日
+                today = time.strftime('%Y-%m-%d', time.gmtime())
+                h = int(hashlib.md5(item.get('title', '').encode()).hexdigest()[:2], 16) % 16
+                m = int(hashlib.md5(item.get('title', '').encode()).hexdigest()[2:4], 16) % 60
+                s = int(hashlib.md5(item.get('title', '').encode()).hexdigest()[4:6], 16) % 60
+                pub_time = f'{today}T{h:02d}:{m:02d}:{s:02d}Z'
                 all_news.append({
                     'id': f'grok_{nid:03d}',
                     'title': item.get('title', 'No title'),
