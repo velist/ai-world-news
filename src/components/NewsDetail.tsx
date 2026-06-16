@@ -95,14 +95,14 @@ export const NewsDetail = ({
   const getCategoryStyle = (cat: string) => {
     const c = (cat || '').toLowerCase();
     if (c.includes('中国') || c.includes('国内') || c.includes('china'))
-      return { color: '#B8612E', bg: 'rgba(184,97,46,0.06)' };
+      return { color: '#B8612E', background: 'rgba(184,97,46,0.06)', border: '1px solid rgba(184,97,46,0.2)' };
     if (c.includes('国际') || c.includes('国外') || c.includes('international'))
-      return { color: '#4A6572', bg: 'rgba(74,101,114,0.06)' };
+      return { color: '#4A6572', background: 'rgba(74,101,114,0.06)', border: '1px solid rgba(74,101,114,0.2)' };
     if (c.includes('科技') || c.includes('tech'))
-      return { color: '#5C6E4A', bg: 'rgba(92,110,74,0.06)' };
+      return { color: '#5C6E4A', background: 'rgba(92,110,74,0.06)', border: '1px solid rgba(92,110,74,0.2)' };
     if (c.includes('趣味') || c.includes('fun') || c.includes('趣闻'))
-      return { color: '#8B6B84', bg: 'rgba(139,107,132,0.06)' };
-    return { color: '#4A6572', bg: 'rgba(74,101,114,0.06)' };
+      return { color: '#8B6B84', background: 'rgba(139,107,132,0.06)', border: '1px solid rgba(139,107,132,0.2)' };
+    return { color: '#4A6572', background: 'rgba(74,101,114,0.06)', border: '1px solid rgba(74,101,114,0.2)' };
   };
 
   const formatDate = (timestamp: string) => {
@@ -262,7 +262,7 @@ export const NewsDetail = ({
 
         {/* AI Insight */}
         {showAiInsight && (
-          <div className="mb-8 p-5 rounded-lg" style={{ background: 'rgba(181, 165, 184, 0.08)', border: '1px solid rgba(181, 165, 184, 0.2)' }}>
+          <div className="mb-8 p-5" style={{ background: 'rgba(196,77,52,0.04)', border: '1px solid rgba(196,77,52,0.15)' }}>
             <div className="flex items-center gap-2 mb-3">
               <span className="text-xs font-mono font-bold tracking-widest uppercase" style={{ fontFamily: "'DM Mono', monospace", color: '#C44D34' }}>AI 观点</span>
             </div>
