@@ -8,6 +8,7 @@
 
 import fs from 'fs';
 import path from 'path';
+import fetch from 'node-fetch';
 
 // ===== 配置（从环境变量读取，CI 中用 GitHub Secrets）=====
 const CONFIG = {
