@@ -3,9 +3,13 @@ Grok AI 新闻抓取脚本 (Python)
 每天调用 Grok API，获取最新 AI 新闻，保存为 news-data.json
 用法: python scripts/fetch-news-grok.py
 """
-import json, os, sys, time
+import json, os, sys, time, hashlib, io
 from urllib.request import Request, urlopen
 from urllib.error import URLError
+
+# 修复 Windows GBK 编码问题
+sys.stdout = io.TextIOWrapper(sys.stdout.buffer, encoding='utf-8', errors='replace')
+sys.stderr = io.TextIOWrapper(sys.stderr.buffer, encoding='utf-8', errors='replace')
 
 # ===== 配置（从环境变量读取）=====
 GROK_API_BASE = os.environ.get('GROK_API_BASE', 'https://jiuuij.de5.net/v1')
@@ -91,6 +95,16 @@ def main():
             count = 0
             for item in items[:5]:
                 nid += 1
+                # 处理日期：用 hash 分散到当天不同时段，避免全部显示同一时间
+                raw_date = item.get('date', '2026-06-16')
+                if 'T' in raw_date:
+                    # Grok 返回了完整 ISO 时间
+                    pub_time = raw_date.replace('Z', '+00:00') if raw_date.endswith('Z') else raw_date
+                else:
+                    # 只有日期，用标题 hash 分散到 6:00-22:00 UTC（北京时间 14:00-次日6:00）
+                    h = int(hashlib.md5(item.get('title', '').encode()).hexdigest()[:2], 16) % 17 + 6
+                    m = int(hashlib.md5(item.get('title', '').encode()).hexdigest()[2:4], 16) % 60
+                    pub_time = f'{raw_date}T{h:02d}:{m:02d}:00Z'
                 all_news.append({
                     'id': f'grok_{nid:03d}',
                     'title': item.get('title', 'No title'),
@@ -98,7 +112,7 @@ def main():
                     'content': item.get('snippet', ''),
                     'imageUrl': 'https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop',
                     'source': item.get('source') or (item.get('url', '').split('/')[2] if item.get('url') else 'AI News'),
-                    'publishedAt': f'{item.get("date", "2026-06-16")}T12:00:00Z',
+                    'publishedAt': pub_time,
                     'category': category,
                     'originalUrl': item.get('url', ''),
                     'aiInsight': '',
