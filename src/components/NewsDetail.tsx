@@ -1,4 +1,4 @@
-import { ArrowLeft, ExternalLink, Share2, Copy, Check } from "lucide-react";
+import { ArrowLeft, Clock, ExternalLink, Share2, Copy, Check } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
 import { useState } from "react";
