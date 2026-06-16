@@ -1,8 +1,7 @@
-import { Clock, ExternalLink, Share2, Bookmark, BookmarkCheck } from "lucide-react";
+import { Bookmark, BookmarkCheck } from "lucide-react";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
-import { generateWeChatShareUrl } from "@/hooks/useWeChatEnvironment";
 import { Link } from "react-router-dom";
-import { useEffect, useRef, useState } from "react";
+import { useEffect, useState } from "react";
 
 interface NewsCardProps {
   id: string;
@@ -16,171 +15,133 @@ interface NewsCardProps {
   onImageError?: () => void;
 }
 
+// 分类色：铜棕/钢蓝/苔绿/灰紫
+const CAT_STYLES: Record<string, { dot: string; bg: string; text: string }> = {
+  cn:   { dot: '#B8612E', bg: 'rgba(184,97,46,0.06)', text: '#B8612E' },
+  intl: { dot: '#4A6572', bg: 'rgba(74,101,114,0.06)', text: '#4A6572' },
+  tech: { dot: '#5C6E4A', bg: 'rgba(92,110,74,0.06)', text: '#5C6E4A' },
+  fun:  { dot: '#8B6B84', bg: 'rgba(139,107,132,0.06)', text: '#8B6B84' },
+};
+
+function getCatKey(cat: string): string {
+  const c = (cat || '').toLowerCase();
+  if (c.includes('中国') || c.includes('国内') || c.includes('china')) return 'cn';
+  if (c.includes('国际') || c.includes('国外') || c.includes('international')) return 'intl';
+  if (c.includes('科技') || c.includes('tech')) return 'tech';
+  return 'fun';
+}
+
+function formatTime(timestamp: string): string {
+  try {
+    const date = new Date(timestamp);
+    if (isNaN(date.getTime())) return '';
+    const diff = Math.abs(Date.now() - date.getTime());
+    const mins = Math.floor(diff / 60000);
+    const hrs = Math.floor(diff / 3600000);
+    const days = Math.floor(diff / 86400000);
+    if (mins < 60) return `${mins}m`;
+    if (hrs < 24) return `${hrs}h`;
+    return `${days}d`;
+  } catch { return ''; }
+}
+
 export const NewsCard = ({
-  id,
-  title,
-  summary,
-  imageUrl,
-  source,
-  publishedAt,
-  category,
-  className = "",
+  id, title, summary, source, publishedAt, category, className = "",
 }: NewsCardProps) => {
   const { getLocalizedCategory } = useNewsTranslation();
-  const cardRef = useRef<HTMLDivElement>(null);
   const [isBookmarked, setIsBookmarked] = useState(false);
-
-  const displayTitle = title;
-  // 正文质量检查：如果摘要和标题完全相同或太短，不显示
+  const catKey = getCatKey(category);
+  const catStyle = CAT_STYLES[catKey] || CAT_STYLES.intl;
   const hasSummary = summary && summary.trim() !== title.trim() && summary.trim().length > 15 && !title.startsWith(summary.trim());
 
-  // 检查收藏状态
   useEffect(() => {
     try {
       const bookmarks = localStorage.getItem('bookmarked-news');
       if (bookmarks) {
-        const bookmarkList = JSON.parse(bookmarks);
-        setIsBookmarked(Array.isArray(bookmarkList) && bookmarkList.some(item => item.id === id));
+        const list = JSON.parse(bookmarks);
+        setIsBookmarked(Array.isArray(list) && list.some((item: any) => item.id === id));
       }
-    } catch (error) {
-      console.error('检查收藏状态失败:', error);
-    }
+    } catch {}
   }, [id]);
 
-  // 处理收藏
   const handleBookmark = (e: React.MouseEvent) => {
     e.preventDefault();
     e.stopPropagation();
     try {
       const bookmarks = localStorage.getItem('bookmarked-news');
-      let bookmarkList = bookmarks ? JSON.parse(bookmarks) : [];
-      if (!Array.isArray(bookmarkList)) bookmarkList = [];
-
+      let list = bookmarks ? JSON.parse(bookmarks) : [];
+      if (!Array.isArray(list)) list = [];
       if (isBookmarked) {
-        bookmarkList = bookmarkList.filter((item: any) => item.id !== id);
+        list = list.filter((item: any) => item.id !== id);
         setIsBookmarked(false);
       } else {
-        bookmarkList.unshift({ id, title, summary, imageUrl, source, publishedAt, category });
+        list.unshift({ id, title, summary, imageUrl: '', source, publishedAt, category });
         setIsBookmarked(true);
       }
-      localStorage.setItem('bookmarked-news', JSON.stringify(bookmarkList));
-    } catch (error) {
-      console.error('收藏操作失败:', error);
-    }
+      localStorage.setItem('bookmarked-news', JSON.stringify(list));
+    } catch {}
   };
-
-  // 莫兰迪分类色
-  const getCategoryStyle = (cat: string) => {
-    const c = (cat || '').toLowerCase();
-    if (c.includes('中国') || c.includes('国内') || c.includes('china'))
-      return { color: '#C4A7A0', background: 'rgba(196, 167, 160, 0.12)', border: '1px solid rgba(196, 167, 160, 0.25)' };
-    if (c.includes('国际') || c.includes('国外') || c.includes('international'))
-      return { color: '#9EADB8', background: 'rgba(158, 173, 184, 0.12)', border: '1px solid rgba(158, 173, 184, 0.25)' };
-    if (c.includes('科技') || c.includes('tech'))
-      return { color: '#A3B0A0', background: 'rgba(163, 176, 160, 0.12)', border: '1px solid rgba(163, 176, 160, 0.25)' };
-    if (c.includes('趣味') || c.includes('fun') || c.includes('趣闻'))
-      return { color: '#B5A5B8', background: 'rgba(181, 165, 184, 0.12)', border: '1px solid rgba(181, 165, 184, 0.25)' };
-    return { color: '#C5B9A8', background: 'rgba(197, 185, 168, 0.12)', border: '1px solid rgba(197, 185, 168, 0.25)' };
-  };
-
-  const formatTime = (timestamp: string) => {
-    try {
-      const date = new Date(timestamp);
-      if (isNaN(date.getTime())) return '';
-      const diff = Math.abs(new Date().getTime() - date.getTime());
-      const minutes = Math.floor(diff / (1000 * 60));
-      const hours = Math.floor(diff / (1000 * 60 * 60));
-      const days = Math.floor(diff / (1000 * 60 * 60 * 24));
-      if (minutes < 60) return `${minutes}分钟前`;
-      if (hours < 24) return `${hours}小时前`;
-      return `${days}天前`;
-    } catch {
-      return '';
-    }
-  };
-
-  const handleShare = (e: React.MouseEvent) => {
-    e.stopPropagation();
-    e.preventDefault();
-    const shareUrl = generateWeChatShareUrl(id);
-    const shareText = `${displayTitle} - AI推`;
-
-    if (navigator.share) {
-      navigator.share({ title: shareText, text: (summary || '').substring(0, 100), url: shareUrl }).catch(() => {
-        // fallback to copy
-        if (navigator.clipboard) {
-          navigator.clipboard.writeText(shareUrl).then(() => alert('链接已复制'));
-        }
-      });
-    } else if (navigator.clipboard) {
-      navigator.clipboard.writeText(shareUrl).then(() => alert('链接已复制到剪贴板'));
-    }
-  };
-
-  const catStyle = getCategoryStyle(category);
 
   return (
-    <Link to={`/news/${id}`} className="block">
-      <article
-        ref={cardRef}
-        className={`group cursor-pointer transition-all duration-200 ${className}`}
-        style={{
-          padding: '24px 0',
-          borderBottom: '1px solid hsl(var(--border))',
-        }}
-      >
-        {/* Meta: category · source · time */}
-        <div className="flex items-center gap-2.5 mb-2 flex-wrap">
-          <span
-            className="text-xs font-medium px-2.5 py-0.5 rounded-full"
-            style={catStyle}
-          >
+    <Link to={`/news/${id}`} className="block group">
+      <article className={`${className}`} style={{
+        padding: '16px 0',
+        borderBottom: '1px solid hsl(var(--border))',
+      }}>
+        {/* Meta row: category dot + source + time */}
+        <div className="flex items-center gap-2 mb-2 flex-wrap">
+          <span className="inline-flex items-center gap-1.5" style={{
+            fontSize: '10px',
+            fontFamily: "'DM Mono', monospace",
+            fontWeight: 500,
+            letterSpacing: '0.06em',
+            color: catStyle.text,
+            textTransform: 'uppercase',
+          }}>
+            <span style={{
+              display: 'inline-block',
+              width: 7, height: 7,
+              background: catStyle.dot,
+            }} />
             {getLocalizedCategory(category)}
           </span>
-          <span className="w-[3px] h-[3px] rounded-full" style={{ background: 'hsl(var(--muted-foreground))' }} />
-          <span className="text-xs" style={{ color: 'hsl(var(--muted-foreground))' }}>{source}</span>
-          <span className="w-[3px] h-[3px] rounded-full" style={{ background: 'hsl(var(--muted-foreground))' }} />
-          <span className="text-xs" style={{ color: 'hsl(var(--muted-foreground))' }}>{formatTime(publishedAt)}</span>
+          <span style={{ color: 'hsl(var(--border))', fontSize: '10px' }}>|</span>
+          <span className="text-[10px] font-mono tracking-wider uppercase text-muted-foreground"
+            style={{ fontFamily: "'DM Mono', monospace" }}>
+            {source}
+          </span>
+          <span className="text-[10px] font-mono text-muted-foreground"
+            style={{ fontFamily: "'DM Mono', monospace" }}>
+            {formatTime(publishedAt)}
+          </span>
         </div>
 
-        {/* Title */}
-        <h2
-          className="text-base sm:text-lg font-semibold leading-relaxed mb-2 line-clamp-2 transition-colors duration-200"
-          style={{ color: 'hsl(var(--foreground))' }}
-        >
-          {displayTitle}
+        {/* Title - serif */}
+        <h2 className="text-base sm:text-lg font-serif font-bold leading-snug line-clamp-2 mb-1.5"
+          style={{ fontFamily: "'Noto Serif SC', 'Georgia', serif", letterSpacing: '-0.01em' }}>
+          {title}
         </h2>
 
-        {/* Summary - only if different from title */}
+        {/* Summary */}
         {hasSummary && (
-          <p
-            className="text-sm leading-relaxed line-clamp-3"
-            style={{ color: 'hsl(var(--muted-foreground))' }}
-          >
+          <p className="text-[13px] leading-relaxed line-clamp-2 text-muted-foreground"
+            style={{ fontFamily: "'Noto Sans SC', sans-serif" }}>
             {summary}
           </p>
         )}
 
-        {/* Action buttons (visible on hover) */}
-        <div className="flex items-center gap-3 mt-3 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+        {/* Actions (hover) */}
+        <div className="flex items-center gap-3 mt-2 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
           <button
             onClick={handleBookmark}
-            className="flex items-center gap-1 text-xs px-2 py-1 rounded-md transition-colors"
+            className="flex items-center gap-1 text-[10px] font-mono tracking-wider uppercase transition-colors"
             style={{
-              color: isBookmarked ? '#C4A7A0' : 'hsl(var(--muted-foreground))',
-              background: isBookmarked ? 'rgba(196, 167, 160, 0.12)' : 'transparent'
+              fontFamily: "'DM Mono', monospace",
+              color: isBookmarked ? '#C44D34' : 'hsl(var(--muted-foreground))'
             }}
           >
-            {isBookmarked ? <BookmarkCheck className="w-3.5 h-3.5" /> : <Bookmark className="w-3.5 h-3.5" />}
-            <span>{isBookmarked ? '已收藏' : '收藏'}</span>
-          </button>
-          <button
-            onClick={handleShare}
-            className="flex items-center gap-1 text-xs px-2 py-1 rounded-md transition-colors"
-            style={{ color: 'hsl(var(--muted-foreground))' }}
-          >
-            <Share2 className="w-3.5 h-3.5" />
-            <span>分享</span>
+            {isBookmarked ? <BookmarkCheck className="w-3 h-3" /> : <Bookmark className="w-3 h-3" />}
+            <span className="hidden sm:inline">{isBookmarked ? '已收藏' : '收藏'}</span>
           </button>
         </div>
       </article>

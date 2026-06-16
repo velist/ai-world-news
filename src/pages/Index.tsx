@@ -13,7 +13,7 @@ import { useNews } from '@/hooks/useNews';
 import { useLanguage } from '@/contexts/LanguageContext';
 import { useScrollPosition } from '@/hooks/useScrollPosition';
 import { usePerformanceOptimization } from '@/hooks/usePerformanceOptimization';
-import { RefreshCw, Clock } from 'lucide-react';
+import { RefreshCw } from 'lucide-react';
 
 const Index = () => {
   const { news, loading, error, categories, selectedCategory, setSelectedCategory, refreshNews } = useNews();
@@ -100,8 +100,8 @@ const Index = () => {
         <Disclaimer isOpen={disclaimerOpen} onClose={() => setDisclaimerOpen(false)} />
         <EmailSubscribe isOpen={emailSubscribeOpen} onClose={() => setEmailSubscribeOpen(false)} />
 
-        {/* Main Content - Single Column */}
-        <div className="max-w-[680px] mx-auto px-6 pb-20">
+        {/* Main Content */}
+        <div className="max-w-[1100px] mx-auto px-4 sm:px-6 pb-20">
           {/* Category Tabs */}
           <div className="pt-4 pb-2">
             <CategoryTabs
@@ -113,23 +113,26 @@ const Index = () => {
 
           {/* Update Status */}
           {!error && !loading && (
-            <div className="flex items-center justify-between py-3" style={{ borderBottom: '1px solid hsl(var(--border))' }}>
-              <div className="flex items-center space-x-2 text-sm" style={{ color: 'hsl(var(--muted-foreground))' }}>
-                <Clock className="w-3.5 h-3.5" />
-                <span className="text-xs">{formatUpdateTime(lastUpdateTime)}</span>
+            <div className="flex items-center justify-between py-2.5" style={{ borderBottom: '1px solid hsl(var(--border))' }}>
+              <div className="flex items-center gap-2 text-muted-foreground" style={{ fontFamily: "'DM Mono', monospace", fontSize: '10px', letterSpacing: '0.06em' }}>
+                <span className="inline-block w-1.5 h-1.5" style={{ background: '#C44D34', animation: 'pulse 2s infinite' }} />
+                <span>{formatUpdateTime(lastUpdateTime)}</span>
+                <span>· {news.length} {isZh ? '条' : 'items'}</span>
               </div>
               <button
                 onClick={handleRefresh}
                 disabled={loading}
-                className="flex items-center space-x-1.5 px-3 py-1.5 rounded-full text-xs transition-colors border disabled:opacity-50"
+                className="flex items-center gap-1.5 px-3 py-1.5 border transition-colors duration-150 hover:bg-foreground hover:text-background disabled:opacity-50"
                 style={{
-                  color: 'hsl(var(--muted-foreground))',
+                  fontFamily: "'DM Mono', monospace",
+                  fontSize: '10px',
+                  letterSpacing: '0.06em',
+                  textTransform: 'uppercase',
                   borderColor: 'hsl(var(--border))',
-                  background: 'transparent'
                 }}
               >
-                <RefreshCw className={`w-3.5 h-3.5 ${loading ? 'animate-spin' : ''}`} />
-                <span>{isZh ? '刷新' : 'Refresh'}</span>
+                <RefreshCw className={`w-3 h-3 ${loading ? 'animate-spin' : ''}`} />
+                <span className="hidden sm:inline">{isZh ? '刷新' : 'REFRESH'}</span>
               </button>
             </div>
           )}
@@ -163,7 +166,7 @@ const Index = () => {
                       key={i}
                       className="w-1.5 h-1.5 rounded-full animate-pulse"
                       style={{
-                        background: '#C5B9A8',
+                        background: '#C44D34',
                         animationDelay: `${i * 0.2}s`
                       }}
                     />

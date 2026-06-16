@@ -1,8 +1,9 @@
-import { ArrowLeft, Clock, ExternalLink, Share2, Copy, Check } from "lucide-react";
+import { ArrowLeft, ExternalLink, Share2, Copy, Check } from "lucide-react";
 import { useLanguage } from "@/contexts/LanguageContext";
 import { useNewsTranslation } from "@/hooks/useNewsTranslation";
 import { useState } from "react";
 import { generateWeChatShareUrl } from "@/hooks/useWeChatEnvironment";
+import { ShareCard } from "@/components/ShareCard";
 
 interface NewsDetailProps {
   id?: string;
@@ -90,18 +91,18 @@ export const NewsDetail = ({
 
   const showAiInsight = aiInsight && !isTemplateInsight(aiInsight);
 
-  // 分类样式（莫兰迪色调）
+  // 分类样式 (Editorial Swiss)
   const getCategoryStyle = (cat: string) => {
     const c = (cat || '').toLowerCase();
     if (c.includes('中国') || c.includes('国内') || c.includes('china'))
-      return { color: '#C4A7A0', background: 'rgba(196, 167, 160, 0.12)', border: '1px solid rgba(196, 167, 160, 0.25)' };
+      return { color: '#B8612E', bg: 'rgba(184,97,46,0.06)' };
     if (c.includes('国际') || c.includes('国外') || c.includes('international'))
-      return { color: '#9EADB8', background: 'rgba(158, 173, 184, 0.12)', border: '1px solid rgba(158, 173, 184, 0.25)' };
+      return { color: '#4A6572', bg: 'rgba(74,101,114,0.06)' };
     if (c.includes('科技') || c.includes('tech'))
-      return { color: '#A3B0A0', background: 'rgba(163, 176, 160, 0.12)', border: '1px solid rgba(163, 176, 160, 0.25)' };
+      return { color: '#5C6E4A', bg: 'rgba(92,110,74,0.06)' };
     if (c.includes('趣味') || c.includes('fun') || c.includes('趣闻'))
-      return { color: '#B5A5B8', background: 'rgba(181, 165, 184, 0.12)', border: '1px solid rgba(181, 165, 184, 0.25)' };
-    return { color: '#C5B9A8', background: 'rgba(197, 185, 168, 0.12)', border: '1px solid rgba(197, 185, 168, 0.25)' };
+      return { color: '#8B6B84', bg: 'rgba(139,107,132,0.06)' };
+    return { color: '#4A6572', bg: 'rgba(74,101,114,0.06)' };
   };
 
   const formatDate = (timestamp: string) => {
@@ -172,9 +173,9 @@ export const NewsDetail = ({
             <button onClick={handleCopyLink}
               className="flex items-center space-x-1.5 px-3 py-1.5 rounded-full text-xs transition-all border"
               style={{
-                color: copied ? '#A3B0A0' : 'hsl(var(--muted-foreground))',
-                borderColor: copied ? 'rgba(163, 176, 160, 0.4)' : 'hsl(var(--border))',
-                background: copied ? 'rgba(163, 176, 160, 0.1)' : 'transparent'
+                color: copied ? '#C44D34' : 'hsl(var(--muted-foreground))',
+                borderColor: copied ? 'rgba(196,77,52,0.4)' : 'hsl(var(--border))',
+                background: copied ? 'rgba(196,77,52,0.06)' : 'transparent'
               }}>
               {copied ? <Check className="w-3.5 h-3.5" /> : <Copy className="w-3.5 h-3.5" />}
               <span>{copied ? (isZh ? '已复制' : 'Copied') : (isZh ? '复制链接' : 'Copy')}</span>
@@ -209,13 +210,13 @@ export const NewsDetail = ({
         </div>
 
         {/* Title */}
-        <h1 className="text-2xl sm:text-3xl font-bold leading-tight mb-6" style={{ color: 'hsl(var(--foreground))' }}>
+        <h1 className="text-2xl sm:text-3xl font-serif font-black leading-tight mb-6" style={{ fontFamily: "'Noto Serif SC', serif", letterSpacing: '-0.02em', color: 'hsl(var(--foreground))' }}>
           {displayTitle}
         </h1>
 
         {/* Translation notice */}
         {!isZh && isTranslatedContent && (
-          <div className="mb-6 p-3 rounded-lg text-sm" style={{ background: 'rgba(158, 173, 184, 0.12)', color: '#9EADB8', border: '1px solid rgba(158, 173, 184, 0.25)' }}>
+          <div className="mb-6 p-3 text-sm" style={{ background: 'rgba(74,101,114,0.06)', color: '#4A6572', border: '1px solid rgba(74,101,114,0.2)' }}>
             This content is translated from Chinese.
           </div>
         )}
@@ -263,7 +264,7 @@ export const NewsDetail = ({
         {showAiInsight && (
           <div className="mb-8 p-5 rounded-lg" style={{ background: 'rgba(181, 165, 184, 0.08)', border: '1px solid rgba(181, 165, 184, 0.2)' }}>
             <div className="flex items-center gap-2 mb-3">
-              <span className="text-sm font-medium" style={{ color: '#B5A5B8' }}>AI 观点</span>
+              <span className="text-xs font-mono font-bold tracking-widest uppercase" style={{ fontFamily: "'DM Mono', monospace", color: '#C44D34' }}>AI 观点</span>
             </div>
             <p className="text-sm leading-relaxed" style={{ color: 'hsl(var(--foreground))', opacity: 0.8 }}>
               {aiInsight}
