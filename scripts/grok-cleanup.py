@@ -65,22 +65,44 @@ def main():
     # 3. AI 关键词过滤（去掉明显非AI的内容）
     ai_keywords = [
         'AI', '人工智能', 'ChatGPT', 'GPT', 'OpenAI', 'Claude', 'Gemini', 'DeepSeek', '大模型',
-        '机器学习', '深度学习', '神经网络', 'LLM', 'Agent', '智能体', 'Copilot', 'NLP', 'CV',
+        '机器学习', '深度学习', '神经网络', 'LLM', 'Agent', '智能体', 'Copilot', 'NLP',
         'Anthropic', 'Midjourney', 'Stable Diffusion', 'Sora', '智谱', '文心', '通义', '讯飞',
-        '混元', '豆包', '天工', '百川', '华为', '昇腾', '昆仑', 'AI芯片', 'NPU', 'GPU',
+        '混元', '豆包', '天工', '百川', '昇腾', '昆仑', 'AI芯片', 'NPU', 'GPU',
         'Cursor', 'Codex', 'IDE', '编码', '编程', '代码', 'Agentic', '多模态', 'Suno',
         'Runway', 'AI绘画', 'AI写作', 'AI音乐', 'AI视频', 'AI创作', 'AI娱乐', 'AI工具',
-        'IPO', '万亿', '估值', '融资', '收购', '投资', 'AI产业', 'AI市场', 'AI竞争',
         '机器人', 'Robotics', '自动驾驶', 'AI医疗', 'AI教育', 'AI安全', 'AI监管',
         'Qwen', '通义千问', 'ERNIE', 'GLM', 'Hunyuan', 'Pangu', '盘古', '星火',
         '月之暗面', '零一万物', '阶跃星辰', '生数', '面壁', '澜舟', '第四范式',
+        '模型', '算法', '算力', '推理', '训练', '开源', 'Transformer', '扩散',
+        '搜索', 'Coding', 'Copilot', 'text-to', 'token', 'embedding', 'fine-tun',
+    ]
+    # 非AI排除词：如果标题包含这些，即使有AI关键词也过滤掉
+    exclude_keywords = [
+        '水果', 'durian', '榴莲', 'Thai', 'festival', 'transaction',
+        '手写笔', '保护壳', '充电器', '数据线', '手机壳', '耳机', '音箱',
+        '平板', '笔记本', '显示器', '键鼠', '鼠标', '键盘', '打印机',
+        '手机', '手表', '智能手环', '手环', '电池', '移动电源',
+        '冰箱', '空调', '洗衣机', '电视', '投影仪', '扫地', '吸尘器',
+        '汽车', '电动车', 'SUV', '轿车', '轮胎', '加油', '充电桩',
+        '股票', '股市', '上证', '深证', '创业板', '纳斯达克', '道琼斯',
+        '涨停', '跌停', '开盘', '收盘', '恒指', '恒生', 'A股', '港股',
+        '基金', '债券', '期货', '汇率', '黄金', '原油', '外汇',
+        '足球', '篮球', 'NBA', '电竞', '游戏',
+        '电影', '电视剧', '综艺', '明星', '网红', '直播', '带货',
+        '房价', '楼市', '楼盘', '物业', '贷款', '利率', '房贷',
+        '快递', '外卖', '网购', '电商', '拼多多', '京东', '淘宝',
+        '旅游', '酒店', '机票', '景点', '签证', '护照',
+        '保险', '银行', '理财', '存款', '信用卡', '税务', '发票',
+        '高考', '中考', '考研', '留学', '大学', '学校', '培训',
+        '餐饮', '美食', '小吃', '奶茶', '咖啡', '外卖',
     ]
     ai_filtered = []
     removed_non_ai = 0
     for item in unique:
         title = (item.get('title', '') + ' ' + item.get('summary', '')).lower()
         is_ai = any(kw.lower() in title for kw in ai_keywords)
-        if is_ai:
+        is_excluded = any(kw.lower() in title for kw in exclude_keywords)
+        if is_ai and not is_excluded:
             ai_filtered.append(item)
         else:
             removed_non_ai += 1
