@@ -1,9 +1,57 @@
 {
   "success": true,
-  "timestamp": "2026-06-19T15:32:19Z",
-  "total": 30,
+  "timestamp": "2026-06-20T04:08:23Z",
+  "total": 27,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1781928390153_43ab8cfb",
+      "title": "三天内连失两位传奇：谷歌的AI人才大坝，正在决堤？",
+      "summary": "Google顶尖AI人才接连流向OpenAI与Anthropic，暴露其广告商业模式与AI使命的根本错位，人才版图正经历不可逆重组。",
+      "content": "Google顶尖AI人才接连流向OpenAI与Anthropic，暴露其广告商业模式与AI使命的根本错位，人才版图正经历不可逆重组。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-20T03:51:19.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8034755.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781928404228_d2ebae9e",
+      "title": "英特尔 AMD 世纪破冰完善 x86 生态，ACE 规范 1.15 公布增强 AI 算力",
+      "summary": "IT之家 6 月 20 日消息，科技媒体 Wccftech 昨日（6 月 19 日）发布博文，报道称 x86 生态系统咨询小组（EAG）发布 ACE 规范 1.15 版本，通过原生矩阵乘法引擎和低精度格式增强 x86 架构的 AI 性能。",
+      "content": "IT之家 6 月 20 日消息，科技媒体 Wccftech 昨日（6 月 19 日）发布博文，报道称 x86 生态系统咨询小组（EAG）发布 ACE 规范 1.15 版本，通过原生矩阵乘法引擎和低精度格式增强 x86 架构的 AI 性能。 IT之家注：为应对 AI 任务的挑战，英特尔和 AMD 公司于 2024 年“世纪破冰”，联合成立了 EAG 小组，协调 x86 架构的未来演进方向，进一步推动 x86 生态规范化和标准化。 ACE 全称为 AI Compute Extensions，是一组专为加速人工智能与机器学习负载设计的 x86 指令集，其核心目标是优化矩阵乘法运算（深度学习中最频繁的计算操作）和低精度数据格式处理。 在长期愿景方面，此前 AVX-512 指令集因各厂商不同实现导致软件生态碎片化，ACE 从设计之初就要求 AMD 与英特尔共同承诺支持，且未来产品更迭不会轻易废弃。 技术细节方面，ACE 在现有 AVX 向量指令基础上，新增了“图块寄存器”（tile register）状态，并定义了数据移动与处理操作。ACE 还纳入 AVX10 框架下的专用格式转换指令，进一步完善低精度数据支持。 在部署路线图上，AMD 明确 Zen 6 将引入“新 AI 数据类型支持”与“更多 AI 管线”，Zen 7 则直接配备“新矩阵引擎”与“AI 数据格式扩展”。 在数据支持范围上，ACE 支持 INT8、INT32、FP32、BF16、FP16、E8M0、FP8，以及 MX 联盟定义的 MX FP8（SE5M2/SE4M3）、MX FP6（SE3M2/SE2M3）、MX FP4（SE2M1）和 MX INT8 等。 参考 AI Compute Extensions (ACE) Specification",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/4246978b-8906-424c-82b9-c574c4a57822.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-20T03:05:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/966/482.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781928380608_0",
+      "title": "OpenAI Weaponizes ChatGPT Ads in Korea as IPO Engine Revs Up",
+      "summary": "ChatGPT creator OpenAI has expanded its artificial intelligence (AI) advertising pilot program to South Korea. The move comes just as the firm recentl...",
+      "content": "ChatGPT creator OpenAI has expanded its artificial intelligence (AI) advertising pilot program to South Korea. The move comes just as the firm recently expanded to Japan, underscoring OpenAI’s efforts to diversify revenue beyond subscriptions. It als... [3332 chars]",
+      "imageUrl": "https://blog.tipranks.com/wp-content/uploads/2026/06/Screenshot-2026-06-19-at-16-1-1024x545.png?utm_source=markets.businessinsider.com&utm_medium=referral",
+      "source": "Markets Insider",
+      "publishedAt": "2026-06-19T16:01:31.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://markets.businessinsider.com/news/stocks/openai-weaponizes-chatgpt-ads-in-korea-as-ipo-engine-revs-up-1036263450",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1781928380277_1",
+      "title": "Amazon Drops OpenAI Film 'Artificial' After Partnering With AI Company",
+      "summary": "Amazon has dropped their upcoming film Artificial, about OpenAI and its founder Sam Altman, four months after the two companies agreed to a “strategic...",
+      "content": "Amazon has dropped their upcoming film Artificial, about OpenAI and its founder Sam Altman, four months after the two companies agreed to a “strategic partnership.”\nArtificial, directed by Luca Guadagnino and starring Andrew Garfield, was reportedly ... [1463 chars]",
+      "imageUrl": "https://www.rollingstone.com/wp-content/uploads/2026/06/GettyImages-2259376876.jpg?w=1600&h=900&crop=1",
+      "source": "Rolling Stone",
+      "publishedAt": "2026-06-19T14:04:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.rollingstone.com/tv-movies/tv-movie-news/amazon-drops-openai-movie-artificial-partnership-1235580941/",
+      "aiInsight": ""
+    },
     {
       "id": "news_1781883051077_6671fd24",
       "title": "扎克伯格承诺 Meta 今年不会再裁员：未来可能更艰难",
@@ -15,6 +63,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/966/424.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781928396297_648b4cbf",
+      "title": "平安人寿AI 神盾平台在金融生态中的智能风控实践｜AICon上海",
+      "summary": "平安人寿AI 神盾平台在金融生态中的智能风控实践｜AICon上海",
+      "content": "平安人寿AI 神盾平台在金融生态中的智能风控实践｜AICon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-19T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/AERuuccQmeDjcPldZqfG?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781883034654_acd913c6",
@@ -161,19 +221,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781883043084_08a5c898",
-      "title": "当 Token 成为商品，AI 基础设施会怎么变化？",
-      "summary": "当 Token 成为商品，AI 基础设施会怎么变化？",
-      "content": "当 Token 成为商品，AI 基础设施会怎么变化？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-18T19:17:06.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/VXD37NcfxyXjXFLk2hyd?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781883015669_0",
+      "id": "news_1781928380295_2",
       "title": "OpenAI Taps Trump's Former AI Adviser For New Strategy Role",
       "summary": "OpenAI has hired former White House artificial intelligence adviser Dean Ball, adding a policy-focused hire in a new team buildout.\nBall noted that \"i...",
       "content": "OpenAI has hired former White House artificial intelligence adviser Dean Ball, adding a policy-focused hire in a new team buildout.\nBall noted that \"its work will cover both public-facing policy (for example, proposals for legislation) and internal g... [1854 chars]",
@@ -185,82 +233,10 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781883043689_b27caf33",
-      "title": "Gemini 联合负责人出走 OpenAI：Google 为什么总让 AI 天才感到挫败？",
-      "summary": "Gemini 联合负责人出走 OpenAI：Google 为什么总让 AI 天才感到挫败？",
-      "content": "Gemini 联合负责人出走 OpenAI：Google 为什么总让 AI 天才感到挫败？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-18T18:15:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/3hkmF10X9ec1ujwwIjFW?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781883044217_33303663",
-      "title": "个体10倍提效，组织却不足20%？AI产业正迎来Agent落地大考",
-      "summary": "个体10倍提效，组织却不足20%？AI产业正迎来Agent落地大考",
-      "content": "个体10倍提效，组织却不足20%？AI产业正迎来Agent落地大考",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-18T17:58:02.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Xbol4ryW7wkczQsumUY9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781883044737_79eabf7f",
-      "title": "自主智能体遇阻：数据库成最大挑战",
-      "summary": "自主智能体遇阻：数据库成最大挑战",
-      "content": "自主智能体遇阻：数据库成最大挑战",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-18T17:54:26.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/BtWV3huF3ZydPc501mAO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781883045239_6818c755",
-      "title": "JetBrains 开源 Mellum2，尝试 Claude Code 无法涉足的领域",
-      "summary": "JetBrains 开源 Mellum2，尝试 Claude Code 无法涉足的领域",
-      "content": "JetBrains 开源 Mellum2，尝试 Claude Code 无法涉足的领域",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-18T17:48:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/QQVa7HhtdoDzLFB7ewVQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781883045761_e100d607",
-      "title": "砍掉90%冗余词元，省下70万美元：Netflix开源工具狙击AI账单黑洞",
-      "summary": "砍掉90%冗余词元，省下70万美元：Netflix开源工具狙击AI账单黑洞",
-      "content": "砍掉90%冗余词元，省下70万美元：Netflix开源工具狙击AI账单黑洞",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-18T17:42:01.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/SdkcGqZQ2coEqM04xsQG?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781883046270_b008871b",
-      "title": "Google 想为 AI Agent 打造下一个 Kubernetes",
-      "summary": "Google 想为 AI Agent 打造下一个 Kubernetes",
-      "content": "Google 想为 AI Agent 打造下一个 Kubernetes",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-18T17:27:42.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/jNsfjJuAJjDzGYS51jHC?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781883014820_1",
+      "id": "news_1781928380105_3",
       "title": "OpenAI hires former Trump AI official Dean Ball",
       "summary": "While Ball has continued to have the White House’s ear, since early March he has emerged as a leading critic of the Trump administration’s ongoing feu...",
-      "content": "While Ball has continued to have the White House’s ear, since early March he has emerged as a leading critic of the Trump administration’s ongoing feud with Anthropic — including the Pentagon’s decision to label the company a supply chain risk and la... [755 chars]",
+      "content": "While Ball has continued to have the White House’s ear, since early March he has emerged as a leading critic of the Trump administration’s ongoing feud with Anthropic — including the Pentagon’s decision to label the company a supply chain risk and la... [863 chars]",
       "imageUrl": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2Fff%2F97%2F654663bf44e7ad2c79ac4b4a6ea6%2Fhttps-delivery-gettyimages.com%2Fdownloads%2F2277319890",
       "source": "POLITICO",
       "publishedAt": "2026-06-18T15:35:00.000Z",
@@ -281,8 +257,8 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781883015423_2",
-      "title": "‘xAI is a failure’: AI godfather warns of trouble ahead for Musk’s AI startup and a bigger AI bubble",
+      "id": "news_1781928380673_4",
+      "title": "‘xAI Is a Failure’: AI Godfather Warns of Trouble for Musk’s AI Startup and a Bigger AI Bubble",
       "summary": "Since its launch three years ago, Elon Musk has pitched xAI as a challenger to OpenAI, Anthropic, and Google in the race to build the most advanced ar...",
       "content": "Since its launch three years ago, Elon Musk has pitched xAI as a challenger to OpenAI, Anthropic, and Google in the race to build the most advanced artificial intelligence systems. One of the field’s most influential researchers is not convinced.\nYan... [5254 chars]",
       "imageUrl": "https://techstartups.com/wp-content/uploads/2026/06/musco-960x458.jpg",
@@ -351,18 +327,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8033380.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781756653383_552355f3",
-      "title": "对话网易智企：不卖Token卖什么？一家ToB厂商的AI生存样本",
-      "summary": "对话网易智企：不卖Token卖什么？一家ToB厂商的AI生存样本",
-      "content": "通信的核心价值，正在从“连接”转向理解信息、并成为Agent执行的入口。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-18T03:06:53.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8031566.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
