@@ -1,9 +1,33 @@
 {
   "success": true,
-  "timestamp": "2026-06-20T04:08:23Z",
-  "total": 27,
+  "timestamp": "2026-06-20T14:15:01Z",
+  "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1781964806420_db46999f",
+      "title": "谷歌 Gemini 联席负责人沙泽尔转投 OpenAI，奥尔特曼亲自发文欢迎",
+      "summary": "IT之家 6 月 20 日消息，谷歌前工程副总裁、Gemini 技术联席负责人诺姆 · 沙泽尔宣布离职，转投 OpenAI。",
+      "content": "IT之家 6 月 20 日消息，谷歌前工程副总裁、Gemini 技术联席负责人诺姆 · 沙泽尔宣布离职，转投 OpenAI。 IT之家获悉，当地时间 18 日，沙泽尔在 X 上宣布，离开谷歌是一个艰难决定，他为谷歌团队以及团队共同取得的成果感到自豪，“很高兴与大家分享，我将加入 OpenAI，也期待与那里的优秀团队共事。决定离开并不容易。我为谷歌出色的团队以及我们共同取得的一切成果感到无比自豪。能够参与其中，是我的荣幸，也是一段愉快的经历……” OpenAI CEO 萨姆 · 奥尔特曼随后发文欢迎沙泽尔加入：从 OpenAI 创立之初开始，沙泽尔就是他最希望合作的人之一。“只花了 10 年。我认为一切值得等待！” 沙泽尔是 2017 年论文《Attention Is All You Need》的共同作者之一，论文提出的 Transformer 架构至今仍支撑着大多数大语言模型。他还曾参与 LaMDA 等谷歌重要 AI 项目，并撰写了在 AI 社区影响广泛的 2016 年论文《Sparsely-gated Mixture of Experts》。 沙泽尔于 2021 年离开谷歌，共同创办 Character.AI。几年前，谷歌在与 OpenAI 和 Anthropic 的竞争中一度落后。2024 年，谷歌通过与 Character.AI 达成一项重大交易，将沙泽尔和多名研究人员带回谷歌 DeepMind。回归后，沙泽尔担任谷歌工程副总裁兼 Gemini 技术联席负责人。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/48e6a0ed-f9cb-4d0d-afd5-852b70a252ca.png",
+      "source": "IT之家",
+      "publishedAt": "2026-06-20T12:37:50.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/966/551.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781964793876_cdefde53",
+      "title": "花钱雇AI当同事，我的生意怎么样了？",
+      "summary": "花钱雇AI当同事，我的生意怎么样了？",
+      "content": "每月一两千，把数字员工用到起飞。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-20T07:40:57.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8034774.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1781928390153_43ab8cfb",
       "title": "三天内连失两位传奇：谷歌的AI人才大坝，正在决堤？",
@@ -29,7 +53,31 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781928380608_0",
+      "id": "news_1781964778720_0",
+      "title": "AI Didn’t Kill Coding Jobs. It Created a New Industry",
+      "summary": "The rise of AI slop refactoring is creating new demand for experienced engineers to turn AI-generated prototypes into production-ready software.\nFor n...",
+      "content": "The rise of AI slop refactoring is creating new demand for experienced engineers to turn AI-generated prototypes into production-ready software.\nFor nearly four years, the tech industry has been flooded with predictions that artificial intelligence w... [19343 chars]",
+      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/06/AI-Didnt-Kill-Coding-Jobs-The-Rise-of-AI-Slop-Refactoring-960x559.jpg",
+      "source": "TechStartups.com",
+      "publishedAt": "2026-06-20T00:34:21.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://techstartups.com/2026/06/19/ai-didnt-kill-coding-jobs-it-created-a-new-industry/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1781964778622_1",
+      "title": "Amazon’s Movie Arm Abandons Film About OpenAI",
+      "summary": "Amazon’s movie arm is abandoning an upcoming film, “Artificial,” about Sam Altman and his rocky road to becoming the chief executive of OpenAI.\nAmazon...",
+      "content": "Amazon’s movie arm is abandoning an upcoming film, “Artificial,” about Sam Altman and his rocky road to becoming the chief executive of OpenAI.\nAmazon, which announced plans to invest $50 billion in OpenAI this year, said in a statement on Friday tha... [2054 chars]",
+      "imageUrl": "https://static01.nyt.com/images/2026/06/19/multimedia/19biz-artificial-pmcj/19biz-artificial-pmcj-facebookJumbo.jpg",
+      "source": "The New York Times",
+      "publishedAt": "2026-06-20T00:11:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.nytimes.com/2026/06/19/business/media/amazon-openai-artificial-movie-sam-altman.html",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1781964778424_2",
       "title": "OpenAI Weaponizes ChatGPT Ads in Korea as IPO Engine Revs Up",
       "summary": "ChatGPT creator OpenAI has expanded its artificial intelligence (AI) advertising pilot program to South Korea. The move comes just as the firm recentl...",
       "content": "ChatGPT creator OpenAI has expanded its artificial intelligence (AI) advertising pilot program to South Korea. The move comes just as the firm recently expanded to Japan, underscoring OpenAI’s efforts to diversify revenue beyond subscriptions. It als... [3332 chars]",
@@ -41,7 +89,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781928380277_1",
+      "id": "news_1781964778438_3",
       "title": "Amazon Drops OpenAI Film 'Artificial' After Partnering With AI Company",
       "summary": "Amazon has dropped their upcoming film Artificial, about OpenAI and its founder Sam Altman, four months after the two companies agreed to a “strategic...",
       "content": "Amazon has dropped their upcoming film Artificial, about OpenAI and its founder Sam Altman, four months after the two companies agreed to a “strategic partnership.”\nArtificial, directed by Luca Guadagnino and starring Andrew Garfield, was reportedly ... [1463 chars]",
@@ -63,18 +111,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/966/424.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781928396297_648b4cbf",
-      "title": "平安人寿AI 神盾平台在金融生态中的智能风控实践｜AICon上海",
-      "summary": "平安人寿AI 神盾平台在金融生态中的智能风控实践｜AICon上海",
-      "content": "平安人寿AI 神盾平台在金融生态中的智能风控实践｜AICon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-19T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/AERuuccQmeDjcPldZqfG?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1781883034654_acd913c6",
@@ -221,7 +257,19 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781928380295_2",
+      "id": "news_1781964799018_08a5c898",
+      "title": "当 Token 成为商品，AI 基础设施会怎么变化？",
+      "summary": "当 Token 成为商品，AI 基础设施会怎么变化？",
+      "content": "当 Token 成为商品，AI 基础设施会怎么变化？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-18T19:17:06.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/VXD37NcfxyXjXFLk2hyd?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781964778420_4",
       "title": "OpenAI Taps Trump's Former AI Adviser For New Strategy Role",
       "summary": "OpenAI has hired former White House artificial intelligence adviser Dean Ball, adding a policy-focused hire in a new team buildout.\nBall noted that \"i...",
       "content": "OpenAI has hired former White House artificial intelligence adviser Dean Ball, adding a policy-focused hire in a new team buildout.\nBall noted that \"its work will cover both public-facing policy (for example, proposals for legislation) and internal g... [1854 chars]",
@@ -233,7 +281,79 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1781928380105_3",
+      "id": "news_1781964799466_b27caf33",
+      "title": "Gemini 联合负责人出走 OpenAI：Google 为什么总让 AI 天才感到挫败？",
+      "summary": "Gemini 联合负责人出走 OpenAI：Google 为什么总让 AI 天才感到挫败？",
+      "content": "Gemini 联合负责人出走 OpenAI：Google 为什么总让 AI 天才感到挫败？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-18T18:15:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/3hkmF10X9ec1ujwwIjFW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781964799907_33303663",
+      "title": "个体10倍提效，组织却不足20%？AI产业正迎来Agent落地大考",
+      "summary": "个体10倍提效，组织却不足20%？AI产业正迎来Agent落地大考",
+      "content": "个体10倍提效，组织却不足20%？AI产业正迎来Agent落地大考",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-18T17:58:02.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/Xbol4ryW7wkczQsumUY9?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781964800361_79eabf7f",
+      "title": "自主智能体遇阻：数据库成最大挑战",
+      "summary": "自主智能体遇阻：数据库成最大挑战",
+      "content": "自主智能体遇阻：数据库成最大挑战",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-18T17:54:26.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/BtWV3huF3ZydPc501mAO?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781964800884_6818c755",
+      "title": "JetBrains 开源 Mellum2，尝试 Claude Code 无法涉足的领域",
+      "summary": "JetBrains 开源 Mellum2，尝试 Claude Code 无法涉足的领域",
+      "content": "JetBrains 开源 Mellum2，尝试 Claude Code 无法涉足的领域",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-18T17:48:17.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/QQVa7HhtdoDzLFB7ewVQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781964801328_e100d607",
+      "title": "砍掉90%冗余词元，省下70万美元：Netflix开源工具狙击AI账单黑洞",
+      "summary": "砍掉90%冗余词元，省下70万美元：Netflix开源工具狙击AI账单黑洞",
+      "content": "砍掉90%冗余词元，省下70万美元：Netflix开源工具狙击AI账单黑洞",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-18T17:42:01.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/SdkcGqZQ2coEqM04xsQG?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781964801771_b008871b",
+      "title": "Google 想为 AI Agent 打造下一个 Kubernetes",
+      "summary": "Google 想为 AI Agent 打造下一个 Kubernetes",
+      "content": "Google 想为 AI Agent 打造下一个 Kubernetes",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-18T17:27:42.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/jNsfjJuAJjDzGYS51jHC?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1781964778163_5",
       "title": "OpenAI hires former Trump AI official Dean Ball",
       "summary": "While Ball has continued to have the White House’s ear, since early March he has emerged as a leading critic of the Trump administration’s ongoing feu...",
       "content": "While Ball has continued to have the White House’s ear, since early March he has emerged as a leading critic of the Trump administration’s ongoing feud with Anthropic — including the Pentagon’s decision to label the company a supply chain risk and la... [863 chars]",
@@ -243,90 +363,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.politico.com/news/2026/06/18/openai-hires-former-trump-ai-official-dean-ball-00967118",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1781797001293_de1f6f78",
-      "title": "盖洛普最新研究：不经常使用 AI 的员工更容易成为被裁员对象",
-      "summary": "IT之家 6 月 18 日消息，据彭博社 18 日（今天）报道，盖洛普最新研究显示，AI 给科技从业者带来的可能不只是效率提升，经常使用 AI 的员工，被裁员的风险也明显更低。",
-      "content": "IT之家 6 月 18 日消息，据彭博社 18 日（今天）报道，盖洛普最新研究显示，AI 给科技从业者带来的可能不只是效率提升，经常使用 AI 的员工，被裁员的风险也明显更低。 IT之家从数据中获悉，在美国科技行业，每月至少使用一次 AI 的员工，预计遭裁员的概率约为 6%；使用 AI 较少的员工，预计遭裁员的概率达到 18%，是前者的三倍。 研究数据来自盖洛普今年 2 月对超过 2.3 万名美国劳动者开展的调查，其中 660 人表示，自己的岗位被裁撤后处于失业状态。盖洛普统计了在职人员和失业人员使用 AI 的频率，从每天使用到完全不用不等，再通过统计模型分析 AI 使用频率、所属行业等因素与失业风险之间的关系。 盖洛普表示，科技行业以外也存在类似趋势：不经常使用 AI 的员工，更容易成为裁员对象，只是差距没有科技行业那么明显。研究人员发现，即使排除年龄、学历和所属行业等因素，AI 使用情况与工作稳定性之间的联系仍然存在，说明不使用 AI 的员工“在就业市场上更加脆弱”。 研究结果也表明，AI 正在企业内部形成新的职业分水岭。企业招聘时已经开始考察求职者的 AI 熟练程度，而在缩减人员时，是否使用 AI 也可能影响企业决定留下谁。与此同时，虽然公众对 AI 的态度趋于负面，对失业的担忧不断加深，企业高管仍在持续推动员工使用 AI。 不过，只有约 1% 的被裁员工认为，AI 是自己失业的直接原因。更多人把失业归因于组织重组、成本削减和经济环境。研究人员表示，这一比例可能低估了 AI 对企业裁员决定的间接影响。“即使企业没有告诉员工 AI 影响了裁员结果，组织重组、削减成本等解释背后，也可能存在 AI 对内部决策的影响。”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/e17c5818-482b-46c7-9d53-ea85bb8c7de1.jpg?x-bce-process=image/watermark,text_QUnnlJ_miJA,type_RlpMYW5UaW5nSGVpU0JHQg==,size_28,color_ffffffdd,skw_1,skc_00000051,g_7,blr_50,bls_50,x_11,y_11",
-      "source": "IT之家",
-      "publishedAt": "2026-06-18T14:43:57.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/966/269.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781928380673_4",
-      "title": "‘xAI Is a Failure’: AI Godfather Warns of Trouble for Musk’s AI Startup and a Bigger AI Bubble",
-      "summary": "Since its launch three years ago, Elon Musk has pitched xAI as a challenger to OpenAI, Anthropic, and Google in the race to build the most advanced ar...",
-      "content": "Since its launch three years ago, Elon Musk has pitched xAI as a challenger to OpenAI, Anthropic, and Google in the race to build the most advanced artificial intelligence systems. One of the field’s most influential researchers is not convinced.\nYan... [5254 chars]",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/06/musco-960x458.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-06-18T12:46:03.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://techstartups.com/2026/06/18/xai-is-a-failure-ai-godfather-warns-of-trouble-ahead-for-musks-ai-startup-and-a-bigger-ai-bubble/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1781796983655_db71ca52",
-      "title": "The VC That Invested in Semight, the King of Stocks in China",
-      "summary": "Bridge Capital consciously avoided sectors such as the internet and O2O services, areas long dominated by U.S. dollar venture funds....",
-      "content": "Bridge Capital consciously avoided sectors such as the internet and O2O services, areas long dominated by U.S. dollar venture funds.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-18T12:16:03.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8033601.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781756659152_3867a742",
-      "title": "Chrome 推出 WebMCP 标准提案（Origin Trial）：为智能体提供原生 Web 操作能力",
-      "summary": "Chrome 推出 WebMCP 标准提案（Origin Trial）：为智能体提供原生 Web 操作能力...",
-      "content": "Chrome 推出 WebMCP 标准提案（Origin Trial）：为智能体提供原生 Web 操作能力",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-18T11:35:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/wCUdx4sZt94siodQI7u0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781796984631_9a710940",
-      "title": "擎仓机器人30天极速部署欧莱雅产线，轻量化VLA范式突破",
-      "summary": "擎仓机器人成功部署欧莱雅全球战略生产基地，不仅证明国产轻量化VLA具身智能产品完全能够胜任国际高端制造的严苛标准，更标志着中国企业率先实现轻量化VLA技术的规模化商业突破，成为中国具身智能产业从技术研发迈向规模化、全球化商用的重要里程碑。",
-      "content": "擎仓机器人成功部署欧莱雅全球战略生产基地，不仅证明国产轻量化VLA具身智能产品完全能够胜任国际高端制造的严苛标准，更标志着中国企业率先实现轻量化VLA技术的规模化商业突破，成为中国具身智能产业从技术研发迈向规模化、全球化商用的重要里程碑。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-18T11:24:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8033573.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781796985051_07c68d50",
-      "title": "智源王仲远：世界模型是通往物理AGI之桥",
-      "summary": "智源王仲远：世界模型是通往物理AGI之桥",
-      "content": "世界模型是解决人工智能走入物理世界的最佳路径。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-18T11:11:19.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8032558.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781796988802_34768d29",
-      "title": "Transformer之父离开谷歌，奥特曼等了他十年",
-      "summary": "Transformer之父离开谷歌，奥特曼等了他十年",
-      "content": "27亿美元也没能留住，Noam Shazeer追寻下一代架构。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-18T11:09:43.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8033380.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
