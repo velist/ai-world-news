@@ -1,9 +1,21 @@
 {
   "success": true,
-  "timestamp": "2026-06-21T04:49:56Z",
-  "total": 25,
+  "timestamp": "2026-06-21T14:22:56Z",
+  "total": 21,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1782051686814_50ea6ce7",
+      "title": "央视披露“我国时隔 44 年试射洲际导弹”细节，专家称机动打击能力已达实战标准",
+      "summary": "IT之家 6 月 21 日消息，2024 年 9 月 25 日，火箭军向太平洋相关公海海域，成功发射 1 枚携载训练模拟弹头的洲际弹道导弹，导弹准确落入预定海域。央视今日发文披露了“我国时隔 44 年试射洲际导弹”细节，专家称机动打击能力已达实战标准。",
+      "content": "IT之家 6 月 21 日消息，2024 年 9 月 25 日，火箭军向太平洋相关公海海域，成功发射 1 枚携载训练模拟弹头的洲际弹道导弹，导弹准确落入预定海域。央视今日发文披露了“我国时隔 44 年试射洲际导弹”细节，专家称机动打击能力已达实战标准。 据介绍，此次任务是我国自 1980 年 5 月 18 日东风-5 全射程试验后，首次重返这片海域。军事评论员杜文龙从以下三点进行解读： 首先是野外条件，说明我们可以在任何地形、气象条件下打出洲际弹道导弹。 第二是机动发射，可以看出采用了车载机动方式，并不是依托固定设施进行发射，说明可以通过公路、铁路包括其他机动方式到达指定地点，把导弹打出去，完成一系列作战任务。 第三是冷发射，整个发射过程，上下两串烟的颜色不一样，上一段偏浅，下一段偏暗。冷发射对于保护发射装置和保护人员安全有特别重要的作用，可以看出，火箭军的机动打击能力已经达到了实战标准。 IT之家注意到，虽然车载发射机动性很强，但我国还是保留了发射井发射的方式。对此，军事评论员杜文龙解释称，井基发射是最原始的一种手段，在当时也是最保险的一种手段，因为依靠井基的辅助设施可以迅速完成导弹的保养，接到命令之后可以迅速进行打击。 另外，井基导弹一般尺寸较大、载重大，能够形成较强的综合毁伤能力。在战略威慑打击过程中，陆基这一级井基导弹依然承担着主力作用，所以下一步井基导弹随着技术的发展，包括其他综合要素的进步，反应能力、防护能力、打击水平还会同步提高。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/5cb5652f-ae62-42b2-afdb-ce4194e808a5.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-06-21T13:07:47.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/966/725.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1782017293741_ae565969",
       "title": "从“机审+人审”到“AI-Native”：大模型与 Agent 驱动内容风控智能化升级｜AICon上海",
@@ -15,6 +27,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/qTF6xLMZmM5vJe0L9twb?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782051673876_76f7216c",
+      "title": "微信和支付宝又在AI支付入口“打起来了”",
+      "summary": "微信和支付宝又在AI支付入口“打起来了”",
+      "content": "AI支付，下一个支付场景。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-21T09:14:26.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8035258.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1782017286466_ec6b2f90",
@@ -101,7 +125,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782017269109_0",
+      "id": "news_1782051651833_0",
       "title": "AI Didn’t Kill Coding Jobs. It Created a New Industry",
       "summary": "The rise of AI slop refactoring is creating new demand for experienced engineers to turn AI-generated prototypes into production-ready software.\nFor n...",
       "content": "The rise of AI slop refactoring is creating new demand for experienced engineers to turn AI-generated prototypes into production-ready software.\nFor nearly four years, the tech industry has been flooded with predictions that artificial intelligence w... [19343 chars]",
@@ -113,7 +137,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1782017268012_1",
+      "id": "news_1782051652105_1",
       "title": "Amazon’s Movie Arm Abandons Film About OpenAI",
       "summary": "Amazon’s movie arm is abandoning an upcoming film, “Artificial,” about Sam Altman and his rocky road to becoming the chief executive of OpenAI.\nAmazon...",
       "content": "Amazon’s movie arm is abandoning an upcoming film, “Artificial,” about Sam Altman and his rocky road to becoming the chief executive of OpenAI.\nAmazon, which announced plans to invest $50 billion in OpenAI this year, said in a statement on Friday tha... [2054 chars]",
@@ -125,7 +149,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1782017268046_2",
+      "id": "news_1782051651617_2",
       "title": "OpenAI Weaponizes ChatGPT Ads in Korea as IPO Engine Revs Up",
       "summary": "ChatGPT creator OpenAI has expanded its artificial intelligence (AI) advertising pilot program to South Korea. The move comes just as the firm recentl...",
       "content": "ChatGPT creator OpenAI has expanded its artificial intelligence (AI) advertising pilot program to South Korea. The move comes just as the firm recently expanded to Japan, underscoring OpenAI’s efforts to diversify revenue beyond subscriptions. It als... [3332 chars]",
@@ -137,31 +161,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1782017267843_3",
-      "title": "Amazon Drops OpenAI Film 'Artificial' After Partnering With AI Company",
-      "summary": "Amazon has dropped their upcoming film Artificial, about OpenAI and its founder Sam Altman, four months after the two companies agreed to a “strategic...",
-      "content": "Amazon has dropped their upcoming film Artificial, about OpenAI and its founder Sam Altman, four months after the two companies agreed to a “strategic partnership.”\nArtificial, directed by Luca Guadagnino and starring Andrew Garfield, was reportedly ... [1463 chars]",
-      "imageUrl": "https://www.rollingstone.com/wp-content/uploads/2026/06/GettyImages-2259376876.jpg?w=1600&h=900&crop=1",
-      "source": "Rolling Stone",
-      "publishedAt": "2026-06-19T14:04:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.rollingstone.com/tv-movies/tv-movie-news/amazon-drops-openai-movie-artificial-partnership-1235580941/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1781883051077_6671fd24",
-      "title": "扎克伯格承诺 Meta 今年不会再裁员：未来可能更艰难",
-      "summary": "IT之家 6 月 19 日消息，《连线》报道称，Meta 员工士气似乎已跌至谷底。CEO 马克 · 扎克伯格随后试图通过举办全公司 AI 黑客松提振士气，却遭员工冷淡回绝。 多轮大规模裁员令 Meta 员工持续动荡不安。",
-      "content": "IT之家 6 月 19 日消息，《连线》报道称，Meta 员工士气似乎已跌至谷底。CEO 马克 · 扎克伯格随后试图通过举办全公司 AI 黑客松提振士气，却遭员工冷淡回绝。 多轮大规模裁员令 Meta 员工持续动荡不安。仅上个月，Meta 就在围绕 AI 展开的混乱重组中裁撤 8000 人，约占员工总数的 10%。不少未被裁的员工还被迫承担训练 AI 模型的基础杂活。这类工作每周都要重复，已令部分员工难以忍受。 当地时间 11 日，扎克伯格向员工发送内部备忘录，试图提振士气。他宣布 7 月将举办一场全公司 AI“黑客松”，却遭到根本无心参加的员工直接回绝。 Meta 过去经常举办黑客松，但上个月宣布大规模裁员后，员工对活动的反应极其冷淡。 一名员工通过内部留言板直言：“我现在满脑子都是怎么让团队维持运转。我没有任何动力参加，更别说挤出时间了。” 另一名员工表示：“我不确定 Meta 现在是否还支持黑客松文化。公司一边裁掉同事，一边要求员工在支持减少的情况下承担更多工作。” 还有一名员工表示：“我参加过以前的黑客松，但在我所在的团队还要完成一轮轮冲刺任务的情况下，现在已经没有余力参加了。” 报道指出，员工承受了如此多的痛苦，Meta 却几乎没有拿出相应成果。竞争对手在 AI 竞赛中不断扩大领先优势，Meta 则频频失足，至今仍难以推出真正令人印象深刻的新 AI 模型。 IT之家从报道中获悉，扎克伯格在备忘录中承诺，Meta 今年余下时间不再裁员，但未来仍可能面临更加艰难的日子。“这些调整非常复杂，我们已经犯过错误，而且几乎肯定还会犯更多错误。”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/7af1c33c-20f6-4f40-9fd8-8752355e9d78.png",
-      "source": "IT之家",
-      "publishedAt": "2026-06-19T13:12:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/966/424.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782017294873_648b4cbf",
+      "id": "news_1782051678319_648b4cbf",
       "title": "平安人寿AI 神盾平台在金融生态中的智能风控实践｜AICon上海",
       "summary": "平安人寿AI 神盾平台在金融生态中的智能风控实践｜AICon上海",
       "content": "平安人寿AI 神盾平台在金融生态中的智能风控实践｜AICon上海",
@@ -173,55 +173,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1781883034654_acd913c6",
-      "title": "AI预测不了“佛得角”",
-      "summary": "AI预测不了“佛得角”",
-      "content": "世界杯AI预测团集体翻车，大模型这次靠不住了？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-19T09:31:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8034290.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781883036514_ea66e39d",
-      "title": "AI成绩单背后，藏着一位华人“出题人”",
-      "summary": "AI成绩单背后，藏着一位华人“出题人”",
-      "content": "AI，你需要向虎证明自己很聪明。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-19T09:12:01.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8034299.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781883037863_67878321",
-      "title": "美国AI狂飙，亚洲抢先吃饱",
-      "summary": "美国AI狂飙，亚洲抢先吃饱",
-      "content": "亚洲，正在成为全球算力基础设施制造中心。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-19T09:11:56.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8034217.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1781883038986_41e40356",
-      "title": "35岁被AI“顶替”，他用26万的判决书扯下企业的遮羞布",
-      "summary": "35岁被AI“顶替”，他用26万的判决书扯下企业的遮羞布",
-      "content": "不是AI太强，是借口太好用。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-19T09:06:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8033497.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782017295433_08a5c898",
+      "id": "news_1782051678874_08a5c898",
       "title": "当 Token 成为商品，AI 基础设施会怎么变化？",
       "summary": "当 Token 成为商品，AI 基础设施会怎么变化？",
       "content": "当 Token 成为商品，AI 基础设施会怎么变化？",
@@ -233,7 +185,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782017296037_b27caf33",
+      "id": "news_1782051679407_b27caf33",
       "title": "Gemini 联合负责人出走 OpenAI：Google 为什么总让 AI 天才感到挫败？",
       "summary": "Gemini 联合负责人出走 OpenAI：Google 为什么总让 AI 天才感到挫败？",
       "content": "Gemini 联合负责人出走 OpenAI：Google 为什么总让 AI 天才感到挫败？",
@@ -245,7 +197,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782017296589_33303663",
+      "id": "news_1782051679931_33303663",
       "title": "个体10倍提效，组织却不足20%？AI产业正迎来Agent落地大考",
       "summary": "个体10倍提效，组织却不足20%？AI产业正迎来Agent落地大考",
       "content": "个体10倍提效，组织却不足20%？AI产业正迎来Agent落地大考",
@@ -257,7 +209,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782017297109_79eabf7f",
+      "id": "news_1782051680467_79eabf7f",
       "title": "自主智能体遇阻：数据库成最大挑战",
       "summary": "自主智能体遇阻：数据库成最大挑战",
       "content": "自主智能体遇阻：数据库成最大挑战",
@@ -269,7 +221,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782017297665_6818c755",
+      "id": "news_1782051680971_6818c755",
       "title": "JetBrains 开源 Mellum2，尝试 Claude Code 无法涉足的领域",
       "summary": "JetBrains 开源 Mellum2，尝试 Claude Code 无法涉足的领域",
       "content": "JetBrains 开源 Mellum2，尝试 Claude Code 无法涉足的领域",
@@ -281,7 +233,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782017298245_e100d607",
+      "id": "news_1782051681519_e100d607",
       "title": "砍掉90%冗余词元，省下70万美元：Netflix开源工具狙击AI账单黑洞",
       "summary": "砍掉90%冗余词元，省下70万美元：Netflix开源工具狙击AI账单黑洞",
       "content": "砍掉90%冗余词元，省下70万美元：Netflix开源工具狙击AI账单黑洞",
@@ -293,7 +245,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782017298802_b008871b",
+      "id": "news_1782051682045_b008871b",
       "title": "Google 想为 AI Agent 打造下一个 Kubernetes",
       "summary": "Google 想为 AI Agent 打造下一个 Kubernetes",
       "content": "Google 想为 AI Agent 打造下一个 Kubernetes",
