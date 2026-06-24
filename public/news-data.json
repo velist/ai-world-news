@@ -1,9 +1,81 @@
 {
   "success": true,
-  "timestamp": "2026-06-23T15:00:44Z",
-  "total": 23,
+  "timestamp": "2026-06-24T04:00:55Z",
+  "total": 22,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1782273547614_c7875aee",
+      "title": "Spring 近期新闻：Boot、Security、Integration、Modulith 发布增量版本及 Spring AI 2.0 正式发布",
+      "summary": "Spring 近期新闻：Boot、Security、Integration、Modulith 发布增量版本及 Spring AI 2.0 正式发布...",
+      "content": "Spring 近期新闻：Boot、Security、Integration、Modulith 发布增量版本及 Spring AI 2.0 正式发布",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-24T11:11:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Jpi5XBmoO8smLYSyaD9t?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782273548123_9fc679b2",
+      "title": "全公司“围观”私聊与绩效，Meta紧急叫停用员工训练AI：士气崩了，员工怒骂高管“狗屎”",
+      "summary": "全公司“围观”私聊与绩效，Meta紧急叫停用员工训练AI：士气崩了，员工怒骂高管“狗屎”",
+      "content": "全公司“围观”私聊与绩效，Meta紧急叫停用员工训练AI：士气崩了，员工怒骂高管“狗屎”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-24T10:16:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/puuuQ3qD8AKrP5AmBGfk?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782273548602_d8ddfbbf",
+      "title": "蚂蚁集团副总裁周俊确认出席AICon上海站，分享百灵 2.6 的系统协同设计及挑战",
+      "summary": "蚂蚁集团副总裁周俊确认出席AICon上海站，分享百灵 2.6 的系统协同设计及挑战",
+      "content": "蚂蚁集团副总裁周俊确认出席AICon上海站，分享百灵 2.6 的系统协同设计及挑战",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-24T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/hG1Rz8KImMfgLirwscPv?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782273543627_afe592bc",
+      "title": "AI电力系统演进，或将重塑算力竞争格局",
+      "summary": "AI电力系统演进，或将重塑算力竞争格局",
+      "content": "AIDC用电需求爆发，科技巨头持续加码算力、电力基础设施布局。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-24T02:48:12.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8037739.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782273544063_74ca2745",
+      "title": "中国、日本覆铜板同步提涨，AI超级周期焊死供给缺口",
+      "summary": "截至6月23日，国内覆铜板价格年内已五次提价，累计涨幅超过50%；日本Resonac30%的提涨已执行四个月，三菱瓦斯化学30%的提价已生效三个月，台耀20%-40%涨价也已执行近两个半月。",
+      "content": "截至6月23日，国内覆铜板价格年内已五次提价，累计涨幅超过50%；日本Resonac30%的提涨已执行四个月，三菱瓦斯化学30%的提价已生效三个月，台耀20%-40%涨价也已执行近两个半月。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-24T02:34:04.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8038939.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782273544514_e44c307c",
+      "title": "谁把智谱推上了万亿神坛？",
+      "summary": "谁把智谱推上了万亿神坛？",
+      "content": "买西班牙赔的，用智谱赚回来？AI比足球更疯狂。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-24T01:56:32.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8038568.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1782226741508_5a6e6533",
       "title": "拿下OpenAI Offer后，她复盘了57场面试：Transformer要会手写，LeetCode还得刷",
@@ -17,30 +89,6 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782226742195_0baea093",
-      "title": "Meta 几周内毁掉二十年工程文化，给所有“AI 优先”公司上了一课",
-      "summary": "Meta 几周内毁掉二十年工程文化，给所有“AI 优先”公司上了一课",
-      "content": "Meta 几周内毁掉二十年工程文化，给所有“AI 优先”公司上了一课",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-23T19:04:13.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/CuH2KDSV1bvb6btQOeRf?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782226742603_7dde6c13",
-      "title": "主题征文｜跟鸿蒙一起迈入 Agent 时代，大展“鸿图”！",
-      "summary": "主题征文｜跟鸿蒙一起迈入 Agent 时代，大展“鸿图”！",
-      "content": "主题征文｜跟鸿蒙一起迈入 Agent 时代，大展“鸿图”！",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-23T18:35:51.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/p0LYKZdFku7y5BkSMNQN?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1782226743038_25e4fed4",
       "title": "腾讯云发布边缘 Web 与 AI Agent 托管平台 EdgeOne Makers：一键开发部署，分钟级全球上线",
       "summary": "腾讯云发布边缘 Web 与 AI Agent 托管平台 EdgeOne Makers：一键开发部署，分钟级全球上线...",
@@ -50,42 +98,6 @@
       "publishedAt": "2026-06-23T17:46:31.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/5iz5ew8NpQXIvvpFphDk?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782226743456_15060e4e",
-      "title": "使用Azure Container Apps Sandboxes安全运行不受信任的AI智能体代码",
-      "summary": "使用Azure Container Apps Sandboxes安全运行不受信任的AI智能体代码",
-      "content": "使用Azure Container Apps Sandboxes安全运行不受信任的AI智能体代码",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-23T17:12:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/2yiUMe6JxKGXK61luSIJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782226743921_234b642c",
-      "title": "Angular官方的智能体Skills助力AI编程工具生成现代化的Angular代码",
-      "summary": "Angular官方的智能体Skills助力AI编程工具生成现代化的Angular代码",
-      "content": "Angular官方的智能体Skills助力AI编程工具生成现代化的Angular代码",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-23T16:15:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/0yjp8ZXwUkA656NjsdPC?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782226744339_7285b35a",
-      "title": "谷歌推出Colab CLI：面向开发者、自动化与AI智能体的命令行工具",
-      "summary": "谷歌推出Colab CLI：面向开发者、自动化与AI智能体的命令行工具",
-      "content": "谷歌推出Colab CLI：面向开发者、自动化与AI智能体的命令行工具",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-23T14:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/UWmllxei7QLmEqZY5SrY?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -137,31 +149,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782226744759_62092e5f",
-      "title": "2026下半年中美AI创业机会：从技术红利到商业验证｜AICon上海",
-      "summary": "2026下半年中美AI创业机会：从技术红利到商业验证｜AICon上海",
-      "content": "2026下半年中美AI创业机会：从技术红利到商业验证｜AICon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-23T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/gk0VlPy3hufsH4zKTh2X?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782226745252_cc641b58",
-      "title": "Dropbox发布Nova：用于大规模运行AI编程智能体的内部平台",
-      "summary": "Dropbox发布Nova：用于大规模运行AI编程智能体的内部平台",
-      "content": "Dropbox发布Nova：用于大规模运行AI编程智能体的内部平台",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-23T09:40:37.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/5UOHryk6Ck66376bCULb?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782226720443_0",
+      "id": "news_1782273533085_0",
       "title": "SpaceX’s Explosive Debut Proves Investors Are Hungry for OpenAI and Anthropic IPOs",
       "summary": "Shares of SpaceX (SPCX) , the aerospace and artificial intelligence (AI) firm founded by Elon Musk , rose over 37% from $135 in the first week after i...",
       "content": "Shares of SpaceX (SPCX), the aerospace and artificial intelligence (AI) firm founded by Elon Musk, rose over 37% from $135 in the first week after it went public this June. The price rally was one of the strongest market debuts in recent history.\nTip... [3035 chars]",
@@ -185,7 +173,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782226720246_1",
+      "id": "news_1782273531615_1",
       "title": "Why Akron Public Schools is considering banning ChatGPT",
       "summary": "The Akron school board is considering a new policy that would add guardrails to how employees and students can use artificial intelligence in its clas...",
       "content": "The Akron school board is considering a new policy that would add guardrails to how employees and students can use artificial intelligence in its classrooms.\nThe board is expected to approve the proposed policy on June 22.\nThe proposed policy would b... [9666 chars]",
