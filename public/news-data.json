@@ -1,9 +1,141 @@
 {
   "success": true,
-  "timestamp": "2026-06-25T04:06:55Z",
-  "total": 28,
+  "timestamp": "2026-06-25T14:43:18Z",
+  "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1782398490425_f9eaa14a",
+      "title": "GitHub 推出 Copilot 桌面应用，支持并行 Agent 开发工作流",
+      "summary": "GitHub 推出 Copilot 桌面应用，支持并行 Agent 开发工作流",
+      "content": "GitHub 推出 Copilot 桌面应用，支持并行 Agent 开发工作流",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-25T19:06:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/GaAsWkrJQW2NFf06kgyG?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782398490953_96afb71d",
+      "title": "AI 智能体的身份与权限挑战：Uber 和 Auth0 如何重新思考访问控制",
+      "summary": "AI 智能体的身份与权限挑战：Uber 和 Auth0 如何重新思考访问控制",
+      "content": "AI 智能体的身份与权限挑战：Uber 和 Auth0 如何重新思考访问控制",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-25T18:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/tDY9pS7LlrVIBq1pPotd?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782398491570_e82f2683",
+      "title": "Claude Code 工程一号位亲自给 Agent 热潮降温：狂烧 Token 时代已过，现在该算ROI了",
+      "summary": "Claude Code 工程一号位亲自给 Agent 热潮降温：狂烧 Token 时代已过，现在该算ROI了...",
+      "content": "Claude Code 工程一号位亲自给 Agent 热潮降温：狂烧 Token 时代已过，现在该算ROI了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-25T16:54:29.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/XebV3B8Vy3Yx0A4HZX4b?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782398491967_956c82a7",
+      "title": "狂烧 Token 却赚不到钱？这家清华系 AI Infra 独角兽已破解算力成本难题",
+      "summary": "狂烧 Token 却赚不到钱？这家清华系 AI Infra 独角兽已破解算力成本难题",
+      "content": "狂烧 Token 却赚不到钱？这家清华系 AI Infra 独角兽已破解算力成本难题",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-25T16:50:01.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/szKShGMPxfQMVbOU4IbX?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782398492360_2aa4030e",
+      "title": "AI 编程代理拥有了自己的 Stack Overflow",
+      "summary": "AI 编程代理拥有了自己的 Stack Overflow",
+      "content": "AI 编程代理拥有了自己的 Stack Overflow",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-25T16:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/hqc2uU1TPpbMyyz2pFy8?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782398498502_a6c858f1",
+      "title": "2026 上海世界移动通信大会开幕，华为携手运营商发布多项创新成果",
+      "summary": "IT之家 6 月 25 日消息，为期三天的 2026 上海世界移动通信大会（MWC 上海 2026）6 月 24 日在上海新国际博览中心开幕。本届大会以“众智启新”为主题，聚焦 6G、移动 AI、具身智能等前沿领域。 华为副董事长、轮值董事长汪涛在大会上发表了主题演讲。",
+      "content": "IT之家 6 月 25 日消息，为期三天的 2026 上海世界移动通信大会（MWC 上海 2026）6 月 24 日在上海新国际博览中心开幕。本届大会以“众智启新”为主题，聚焦 6G、移动 AI、具身智能等前沿领域。 华为副董事长、轮值董事长汪涛在大会上发表了主题演讲。他表示，每一代技术突破都在不断提升谱效和性能的极限，网络架构逐渐走向扁平化，新的应用场景和业务层出不穷，持续扩展人类通信的边界。 展会期间，在业务创新领域，华为携手中国移动、中国联通、中国电信三家国内运营商发布了 5G-A 大上行和体验经营、AI 焕新主营业务、Token 经营等领域的技术及商业创新成果。在基础设施创新领域，华为发布了 AI-Centric 目标网。截至目前，5G-A 用户数已破亿。 大上行是 Token 经营时代运营商网络基础设施的重要能力之一，移动 AI 上行需求已凸显。面向智能体互联网时代，智能体业务爆发带来 Token 业务飞速发展，需要超宽带网络保障其大上行、高可靠、低时延需求。U6GHz 被认为是符合该网络的下一代频谱，其端到端产业生态已就绪。从全球协同来看，超过 20 个国家和地区已明确将 U6GHz 用于国际移动通信，覆盖全球近 80% 人口。2026 年是 U6GHz 商用元年，中东有望部署全球首个基于 U6GHz 的 5G-A 商用网络，中国香港、中国澳门等多个运营商也将启动 U6GHz 商用部署。 华为表示，2026 年将携手运营商在广东、上海、河北等地，通过 AI 重构面向消费者和家庭的主营业务；面向企业市场，打造以“算 + 网”为中心的 AI 算力服务；在重点区域加速无线、传送等多个领域单域智能的落地，实现维护、优化、能效、体验协同。 在大会期间，中国移动联合华为打造的无线网络智能化解决方案，荣获了首届“全球移动大奖 · 亚洲”（GLOMO Asia）的“亚洲最佳 AI 驱动网络解决方案奖”和“亚洲最佳促进气候行动移动创新奖”两项大奖。该方案基于数字孪生等 AI 技术，以及业界首个电信级智能体高效交互接口协议 A2A-T，实现中国移动无线网络智能体与华为无线智能化能力的安全协同。 据介绍，目前中国移动与华为已在广东、上海、安徽、福建、江苏、河南六大省市进行联合创新试点，覆盖 20 万站点、100 万小区，赋能超 2000 名网络工程师。试点中，网络质差工单自动闭环率提升至 15%，全网额外节能增益达 5.5%，放号准确率达 90%。 IT之家注：2026 MWC 上海于 6 月 24 日至 6 月 26 日举行。华为展区位于上海新国际博览中心 N1 馆。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/ee1900c9-58ad-4d54-a7d8-d1fb5f66a424.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-06-25T14:25:56.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/968/698.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782398486750_a52d2eba",
+      "title": "三个月融两轮，清华00后团队要给机器人“装上”触觉",
+      "summary": "三个月融两轮，清华00后团队要给机器人“装上”触觉",
+      "content": "产品已进入体系的小批量交付和快速扩张阶段。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-25T13:10:11.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8039662.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782398487614_afe6c30e",
+      "title": "连续6天，每天11小时，8台机器人\"进厂\"的进化史",
+      "summary": "连续6天，每天11小时，8台机器人\"进厂\"的进化史",
+      "content": "拐点已至，具身智能从 “炫技” 走向 “干活”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-25T13:09:34.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8039889.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782398492763_c00fa590",
+      "title": "三家公司一周内出手，编码 Agent 进入团队基础设施时代",
+      "summary": "三家公司一周内出手，编码 Agent 进入团队基础设施时代",
+      "content": "三家公司一周内出手，编码 Agent 进入团队基础设施时代",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-25T12:50:19.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/w4sl1mazwewiJ6Th2XqV?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782398493154_c7ef861d",
+      "title": "这家Agent 公司从 Claude 切到 DeepSeek v4：一年省下数百万美元，迁移工作量却是预期的 100 倍",
+      "summary": "这家Agent 公司从 Claude 切到 DeepSeek v4：一年省下数百万美元，迁移工作量却是预期的 100 倍...",
+      "content": "这家Agent 公司从 Claude 切到 DeepSeek v4：一年省下数百万美元，迁移工作量却是预期的 100 倍",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-25T12:43:30.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/KfCaAKEXqDsmrDCxr4P1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782398493553_c75c1954",
+      "title": "AI可以用任何手段、写任何东西，但你得是个“中年老登”",
+      "summary": "AI可以用任何手段、写任何东西，但你得是个“中年老登”",
+      "content": "AI可以用任何手段、写任何东西，但你得是个“中年老登”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-25T12:12:13.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/l2lF7aoPeLGlotlX1tdt?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1782360298598_b5e89949",
       "title": "企业微信5.0.9版本推出服务总结等AI功能",
@@ -53,6 +185,54 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1782398474870_0",
+      "title": "AI chatbots show left-wing bias, bombshell report finds; ChatGPT gives lefty answers 80% of time",
+      "summary": "Artificial-intelligence chatbots show a strongly left-leaning political bias — contrary to what leading AI companies claim, according to a bombshell r...",
+      "content": "Artificial-intelligence chatbots show a strongly left-leaning political bias — contrary to what leading AI companies claim, according to a bombshell report.\nWhen asked about issues from DEI and gay conversion to campaign finance and defunding the pol... [3918 chars]",
+      "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/06/Anthropic-CEO-comp.jpg?quality=75&strip=all&w=1200",
+      "source": "New York Post",
+      "publishedAt": "2026-06-24T22:51:40.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://nypost.com/2026/06/24/media/ai-chatbots-show-left-wing-bias-bombshell-report-finds-chatgpt-gives-lefty-answers-80-of-time/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1782398474855_1",
+      "title": "OpenAI Makes Custom AI Chip Debut With Jalapeño As Part of Broadcom Deal",
+      "summary": "OpenAI on Wednesday unveiled its first custom-designed artificial intelligence chip, marking a major milestone in the company's effort to gain greater...",
+      "content": "OpenAI on Wednesday unveiled its first custom-designed artificial intelligence chip, marking a major milestone in the company's effort to gain greater control over the hardware powering ChatGPT and its growing portfolio of AI products.\nThe chip, name... [3107 chars]",
+      "imageUrl": "https://d.ibtimes.com/en/full/4650538/openai-broadcom-jalapeno.jpg",
+      "source": "International Business Times",
+      "publishedAt": "2026-06-24T19:34:10.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ibtimes.com/openai-makes-custom-ai-chip-debut-jalapeno-part-broadcom-deal-3804514",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1782398474474_2",
+      "title": "OpenAI, Broadcom unveil chip to run models faster, cheaper",
+      "summary": "By Dina Bass, Bloomberg\nOpenAI unveiled its first custom artificial intelligence chip developed in partnership with Broadcom Inc., part of a bid by th...",
+      "content": "By Dina Bass, Bloomberg\nOpenAI unveiled its first custom artificial intelligence chip developed in partnership with Broadcom Inc., part of a bid by the ChatGPT maker to gain an edge by tailoring hardware to better run its AI products.\nThe companies s... [4160 chars]",
+      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2023/11/GettyImages-969249126.jpeg?w=1024&h=651",
+      "source": "The Mercury News",
+      "publishedAt": "2026-06-24T17:18:34.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.mercurynews.com/2026/06/24/openai-broadcom-unveil-chip-to-run-models-faster-cheaper/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1782398475318_3",
+      "title": "‘The intelligent age is replacing our cognitive capabilities with AI’: WEF founder Klaus Schwab",
+      "summary": "If intelligence were to become a utility billed on a meter, then the intelligent age would only benefit the elite and those who could afford it: persp...",
+      "content": "If intelligence were to become a utility billed on a meter, then the intelligent age would only benefit the elite and those who could afford it: perspective\nThe intelligent age is replacing our cognitive capabilities with AI, and universities should ... [9424 chars]",
+      "imageUrl": "https://www.activistpost.com/wp-content/uploads/2026/06/schwab-2026-3.jpg",
+      "source": "Activist Post",
+      "publishedAt": "2026-06-24T16:02:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.activistpost.com/the-intelligent-age-is-replacing-our-cognitive-capabilities-with-ai-wef-founder-klaus-schwab/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1782312338527_eba6e294",
       "title": "62%→ 94%，“AI 率”不降反升？央视介绍毕业论文 AI 检测原理",
       "summary": "IT之家 6 月 24 日消息，当下正是毕业季，论文的“AI 味”太浓，是高校共同面对的新难题。今年的高校毕业生在毕业论文阶段，除了传统的查重、盲审、答辩，毕业路上又多了一道关卡 ——AIGC 检测，也就是人工智能生成内容检测。",
@@ -65,7 +245,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782359981850_0",
+      "id": "news_1782398474302_4",
       "title": "OpenAI unveils custom chip it designed with Broadcom to boost its AI infrastructure",
       "summary": "Summary\nCompanies\nOpenAI plans to deploy Jalapeño by the end of this year\nBroadcom's CEO said Jalapeño matches Nvidia Blackwell and Google's tensor pr...",
       "content": "Summary\nCompanies\nOpenAI plans to deploy Jalapeño by the end of this year\nBroadcom's CEO said Jalapeño matches Nvidia Blackwell and Google's tensor processing units\nOpenAI designed Jalapeño for inference to answer chatbot queries\nSAN FRANCISCO, June ... [3467 chars]",
@@ -77,7 +257,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1782359982006_1",
+      "id": "news_1782398474738_5",
       "title": "OpenAI and Broadcom Unveil AI Chip to Run Models Faster, Cheaper",
       "summary": "OpenAI unveiled its first custom artificial intelligence chip developed in partnership with Broadcom Inc., part of a bid by the ChatGPT maker to gain ...",
       "content": "OpenAI unveiled its first custom artificial intelligence chip developed in partnership with Broadcom Inc., part of a bid by the ChatGPT maker to gain an edge by tailoring hardware to better run its AI products.\nThe companies said Wednesday that OpenA... [302 chars]",
@@ -173,7 +353,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782359981854_2",
+      "id": "news_1782398474677_6",
       "title": "AI Billionaires Score Win in $29 Million New York Proxy Fight",
       "summary": "Artificial intelligence billionaires including venture capitalist Marc Andreessen and OpenAI President Greg Brockman scored a key victory in a New Yor...",
       "content": "Artificial intelligence billionaires including venture capitalist Marc Andreessen and OpenAI President Greg Brockman scored a key victory in a New York City congressional primary that became a $29 million proxy battle over who will control the future... [307 chars]",
@@ -183,162 +363,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.bloomberg.com/news/articles/2026-06-24/ai-billionaires-score-win-in-29-million-new-york-proxy-fight",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1782360307010_9fc679b2",
-      "title": "全公司“围观”私聊与绩效，Meta紧急叫停用员工训练AI：士气崩了，员工怒骂高管“狗屎”",
-      "summary": "全公司“围观”私聊与绩效，Meta紧急叫停用员工训练AI：士气崩了，员工怒骂高管“狗屎”",
-      "content": "全公司“围观”私聊与绩效，Meta紧急叫停用员工训练AI：士气崩了，员工怒骂高管“狗屎”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-24T10:16:58.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/puuuQ3qD8AKrP5AmBGfk?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782360307450_d8ddfbbf",
-      "title": "蚂蚁集团副总裁周俊确认出席AICon上海站，分享百灵 2.6 的系统协同设计及挑战",
-      "summary": "蚂蚁集团副总裁周俊确认出席AICon上海站，分享百灵 2.6 的系统协同设计及挑战",
-      "content": "蚂蚁集团副总裁周俊确认出席AICon上海站，分享百灵 2.6 的系统协同设计及挑战",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-24T10:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/hG1Rz8KImMfgLirwscPv?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782359982304_3",
-      "title": "SoftBank CEO Masayoshi Son Lashes Out at Critics of Artificial Intelligence Boom",
-      "summary": "SoftBank founder and CEO Masayoshi Son told shareholders on Wednesday that artificial intelligence remains in its early stages and any suggestion of a...",
-      "content": "SoftBank founder and CEO Masayoshi Son told shareholders on Wednesday that artificial intelligence remains in its early stages and any suggestion of a market bubble constitutes a “blasphemy against AI,” adding religious significance to SoftBank’s mas... [3109 chars]",
-      "imageUrl": "https://media.breitbart.com/media/2026/06/Masayoshi-Son-head-of-SoftBank-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-06-24T07:58:33.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.breitbart.com/tech/2026/06/24/blasphemy-against-ai-softbank-ceo-masayoshi-son-lashes-out-at-critics-of-artificial-intelligence-boom/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1782273543627_afe592bc",
-      "title": "AI电力系统演进，或将重塑算力竞争格局",
-      "summary": "AI电力系统演进，或将重塑算力竞争格局",
-      "content": "AIDC用电需求爆发，科技巨头持续加码算力、电力基础设施布局。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-24T02:48:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8037739.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782273544063_74ca2745",
-      "title": "中国、日本覆铜板同步提涨，AI超级周期焊死供给缺口",
-      "summary": "截至6月23日，国内覆铜板价格年内已五次提价，累计涨幅超过50%；日本Resonac30%的提涨已执行四个月，三菱瓦斯化学30%的提价已生效三个月，台耀20%-40%涨价也已执行近两个半月。",
-      "content": "截至6月23日，国内覆铜板价格年内已五次提价，累计涨幅超过50%；日本Resonac30%的提涨已执行四个月，三菱瓦斯化学30%的提价已生效三个月，台耀20%-40%涨价也已执行近两个半月。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-24T02:34:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8038939.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782273544514_e44c307c",
-      "title": "谁把智谱推上了万亿神坛？",
-      "summary": "谁把智谱推上了万亿神坛？",
-      "content": "买西班牙赔的，用智谱赚回来？AI比足球更疯狂。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-24T01:56:32.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8038568.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782360292331_4",
-      "title": "All the World's a Robot-Staging Ground for Tech Entrepreneurs Building 'Physical AI'",
-      "summary": "PROVIDENCE, R.I. (AP) — Computer scientist Louis Castricato was in his eighth year studying large language models — the artificial intelligence techno...",
-      "content": "PROVIDENCE, R.I. (AP) — Computer scientist Louis Castricato was in his eighth year studying large language models — the artificial intelligence technology behind chatbots like ChatGPT and Claude — when he started to feel like he was hitting a dead en... [5806 chars]",
-      "imageUrl": "https://www.usnews.com/dims4/USNEWS/a78e1d2/2147483647/thumbnail/970x647/quality/85/?url=https%3A%2F%2Fwww.usnews.com%2Fcmsmedia%2F77%2F2616b3154c3c15d2ec48e0ba9ba20f%2F7359343a5f8d4f2495e16a4308e583e5AI_World_Models_74139.jpg",
-      "source": "U.S. News & World Report",
-      "publishedAt": "2026-06-23T21:10:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.usnews.com/news/us/articles/2026-06-24/all-the-worlds-a-robot-staging-ground-for-tech-entrepreneurs-building-physical-ai",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1782226741508_5a6e6533",
-      "title": "拿下OpenAI Offer后，她复盘了57场面试：Transformer要会手写，LeetCode还得刷",
-      "summary": "拿下OpenAI Offer后，她复盘了57场面试：Transformer要会手写，LeetCode还得刷...",
-      "content": "拿下OpenAI Offer后，她复盘了57场面试：Transformer要会手写，LeetCode还得刷",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-23T19:09:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/85A9DVFo51jUHia88mQ4?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782226743038_25e4fed4",
-      "title": "腾讯云发布边缘 Web 与 AI Agent 托管平台 EdgeOne Makers：一键开发部署，分钟级全球上线",
-      "summary": "腾讯云发布边缘 Web 与 AI Agent 托管平台 EdgeOne Makers：一键开发部署，分钟级全球上线...",
-      "content": "腾讯云发布边缘 Web 与 AI Agent 托管平台 EdgeOne Makers：一键开发部署，分钟级全球上线",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-23T17:46:31.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/5iz5ew8NpQXIvvpFphDk?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782226750565_302a1ad1",
-      "title": "全球最大变质岩潜山油田二期项目全部平台完工装船：创新引入焊接机器人，井口平台采用无人化运行",
-      "summary": "IT之家 6 月 23 日消息，据“海油工程微讯”消息，随着最后一座平台在海油工程天津智能制造基地交付启航，全球最大变质岩潜山油田 —— 渤中 26-6 油田开发项目（二期）全部平台陆地建造完工，为油田按期投产奠定了基础。",
-      "content": "IT之家 6 月 23 日消息，据“海油工程微讯”消息，随着最后一座平台在海油工程天津智能制造基地交付启航，全球最大变质岩潜山油田 —— 渤中 26-6 油田开发项目（二期）全部平台陆地建造完工，为油田按期投产奠定了基础。 据介绍，渤中 26-6 油田位于渤海中部海域，是全球最大变质岩潜山油田，累计探明油气地质储量超 2 亿立方米。一期开发项目于 2025 年正式投产。 IT之家注意到，该项目也是中国海油在渤海油田规划的重点二氧化碳捕集利用示范工程，渤中 26-6 油田承载着能源保供、绿色转型与科学研究的多重使命，对保障京津冀及环渤海地区能源安全具有重要意义。 二期项目将在海上新建 2 座井口平台，由导管架和上部组块组成。此次建造完工的 2 座井口平台将实现无人化运行。项目通过模块化设计、预制化生产与数字化装配，组块立柱、拉筋、墙皮及支架等一体化安装率达 100%。 项目还创新引入焊接机器人，通过工装改造与程序优化，有效解决气孔与未熔合缺陷，焊接效率提升 20%，成功实现标准化中间产品批量制造。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/f4162e4a-d550-45ae-acce-d19f6619eaa5.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-06-23T13:38:52.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/967/676.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782226737044_eeaa8fcf",
-      "title": "AI短剧，让品牌内容不再“次抛”",
-      "summary": "AI短剧，让品牌内容不再“次抛”",
-      "content": "创意和叙事成为“胜负手”。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-23T10:11:15.000Z",
-      "category": "AI趣味新闻",
-      "originalUrl": "https://www.tmtpost.com/8038091.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782226737853_98ef5a7a",
-      "title": "中美AI对弈之下的算力难题",
-      "summary": "中美AI对弈之下的算力难题",
-      "content": "中美AI竞赛受制于高端算力短缺，国内大模型面临发展瓶颈，国产GPU崛起但仍需突破。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-23T10:10:16.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8036519.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782226738303_f7f06298",
-      "title": "Google DeepMind CEO：AGI已走在正确路上，但还缺最后一两块拼图",
-      "summary": "DeepMind 负责人哈萨比斯访谈称现有大模型路径可行，AGI 缺持续学习、长效记忆与内省反思，预计 2030 年或有五成概率实现。",
-      "content": "DeepMind 负责人哈萨比斯访谈称现有大模型路径可行，AGI 缺持续学习、长效记忆与内省反思，预计 2030 年或有五成概率实现。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-23T10:05:20.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8038028.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
