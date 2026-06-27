@@ -1,68 +1,80 @@
 {
   "success": true,
-  "timestamp": "2026-06-26T14:36:25Z",
+  "timestamp": "2026-06-27T03:54:58Z",
   "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1782484481694_d3bff8d2",
-      "title": "像玩剧本杀一样，玩好 Agentic AI",
-      "summary": "像玩剧本杀一样，玩好 Agentic AI",
-      "content": "像玩剧本杀一样，玩好 Agentic AI",
+      "id": "news_1782532385999_0182e650",
+      "title": "AI 批量造 App，也在批量埋雷",
+      "summary": "当 Vibe Coding 把\"做出来\"变成一件低成本的事，真正昂贵的部分才开始浮出水面：权限、密钥、数据库、用户隐私，以及没人愿意接手的维护责任。",
+      "content": "当 Vibe Coding 把\"做出来\"变成一件低成本的事，真正昂贵的部分才开始浮出水面：权限、密钥、数据库、用户隐私，以及没人愿意接手的维护责任。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-26T22:21:52.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/2hp32gR1vuPJuL0ISlB3?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782484482673_cff291d8",
-      "title": "AI确实可以用任何手段、写任何东西，但你得是个“中年老登”",
-      "summary": "AI确实可以用任何手段、写任何东西，但你得是个“中年老登”",
-      "content": "AI确实可以用任何手段、写任何东西，但你得是个“中年老登”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-26T18:18:18.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-27T02:01:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/l2lF7aoPeLGlotlX1tdt?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8043427.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782484483208_0d486d4e",
-      "title": "API7.ai创始人温铭：烧了几百亿Token，我用AI重写了生产级网关，总结出6条经验",
-      "summary": "API7.ai创始人温铭：烧了几百亿Token，我用AI重写了生产级网关，总结出6条经验",
-      "content": "API7.ai创始人温铭：烧了几百亿Token，我用AI重写了生产级网关，总结出6条经验",
+      "id": "news_1782532386691_3a1dd311",
+      "title": "GPT-5.6来了：旗舰版碾压GPT-5.5，价格却没涨",
+      "summary": "GPT-5.6来了：旗舰版碾压GPT-5.5，价格却没涨",
+      "content": "OpenAI把GPT-5.6做成了像苹果芯片一样的产品矩阵。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-26T18:16:12.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-27T01:45:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/5YIK6SvTf5h07YckXZd3?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8043432.html",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782532387399_04c75804",
+      "title": "AI 创业者还没赚钱，先被自己的用户用破产了",
+      "summary": "AI 创业者还没赚钱，先被自己的用户用破产了",
+      "content": "AI 创业最怕的，已经不是没人用，而是用户越爱用，账单越失控。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-27T01:36:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8043335.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782484483717_e830c815",
-      "title": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout",
-      "summary": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout",
-      "content": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout",
+      "id": "news_1782532387826_6312f3a1",
+      "title": "当流量泡沫退去，AI大厂开始拼“真本事”了",
+      "summary": "当流量泡沫退去，AI大厂开始拼“真本事”了",
+      "content": "在AI时代还需要“唯流量论”吗？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-26T17:29:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/btKbO3iHbVM3p5WOVtqJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "钛媒体",
+      "publishedAt": "2026-06-27T01:12:43.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8043053.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782484484302_01ed3d6e",
-      "title": "当 Agent 成为新的核心云用户：阿里云重新定义“用云范式”",
-      "summary": "当 Agent 成为新的核心云用户：阿里云重新定义“用云范式”",
-      "content": "当 Agent 成为新的核心云用户：阿里云重新定义“用云范式”",
+      "id": "news_1782532388546_2eaea620",
+      "title": "GenBio AI宋乐：在虚拟细胞中寻找 AI 制药的 AlphaFold 时刻 | 达沃斯观察",
+      "summary": "GenBio AI宋乐：在虚拟细胞中寻找 AI 制药的 AlphaFold 时刻 | 达沃斯观察",
+      "content": "未来的某个时刻，模型的准确度突然接近实验水平，从而替代大量湿实验。他的保守预测是：大约五年。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-26T17:02:55.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/s6TAS5JMIW1miPSqIsk0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "钛媒体",
+      "publishedAt": "2026-06-27T01:12:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8042868.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782532372678_0",
+      "title": "OpenAI Weighs IPO in 2027 After Expected Anthropic Public Debut",
+      "summary": "OpenAI is considering an initial public offering as soon as in 2027, according to people familiar with the matter, a timeline that would potentially s...",
+      "content": "OpenAI is considering an initial public offering as soon as in 2027, according to people familiar with the matter, a timeline that would potentially see it go public after its artificial intelligence rival Anthropic PBC.\nThe ChatGPT maker’s leadershi... [308 chars]",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iejq5ohE9QL4/v1/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-06-26T14:40:01.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-06-26/openai-weighs-ipo-in-2027-after-expected-anthropic-public-debut",
+      "aiInsight": ""
     },
     {
       "id": "news_1782484484834_bcf264fb",
@@ -75,18 +87,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/CcT6wZSLyVcIAmSLM1l0?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782484485394_bb9b54f1",
-      "title": "4.5个月迁走1200个微服务：腾讯云参与印尼运营商云转型，AI开始接管迁移全流程",
-      "summary": "4.5个月迁走1200个微服务：腾讯云参与印尼运营商云转型，AI开始接管迁移全流程",
-      "content": "4.5个月迁走1200个微服务：腾讯云参与印尼运营商云转型，AI开始接管迁移全流程",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-26T14:15:42.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/TA7VPXQqYgTsu4Yl8qLa?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1782484492910_1433b658",
@@ -185,6 +185,18 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1782532373290_1",
+      "title": "SoftBank shares plunge 13% on report of OpenAI IPO delay to 2027",
+      "summary": "SoftBank shares plunge 13% as OpenAI reportedly weighs IPO delay to 2027\nComments\nSoftBank Group’s (SFTBY) shares tumbled as much as 13% on Friday fol...",
+      "content": "SoftBank shares plunge 13% as OpenAI reportedly weighs IPO delay to 2027\nComments\nSoftBank Group’s (SFTBY) shares tumbled as much as 13% on Friday following reports from The New York Times that artificial intelligence pioneer OpenAI (OPENAI) is consi... [266 chars]",
+      "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/477709666/image_477709666.jpg?io=getty-c-w630",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-06-26T06:39:59.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://seekingalpha.com/news/4607637-softbank-shares-plunge-13-as-openai-reportedly-weighs-ipo-delay-to-2027",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1782446807078_52644b4d",
       "title": "巴西提速、拥抱OpenAI，Shopee进入全线作战",
       "summary": "巴西提速、拥抱OpenAI，Shopee进入全线作战",
@@ -281,7 +293,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782484462098_0",
+      "id": "news_1782532373149_2",
       "title": "5.5 and narrows the gap with OpenAI and Anthropic",
       "summary": "Just a week after China’s Z.ai grabbed global attention after its GLM-5.2 outperformed GPT-5.5 on coding benchmarks at a fraction of the cost, the com...",
       "content": "Just a week after China’s Z.ai grabbed global attention after its GLM-5.2 outperformed GPT-5.5 on coding benchmarks at a fraction of the cost, the company said Thursday it plans to use proceeds from a domestic listing to fund its push toward artifici... [5440 chars]",
@@ -329,7 +341,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782484462092_1",
+      "id": "news_1782532372685_3",
       "title": "After Anthropic shutdown, China's Z.ai closes frontier gap as it plans dual listing",
       "summary": "Z.ai's flagship GLM-5.2 model, released a day ‌after Anthropic disabled worldwide access to its most advanced models, stunned global users after its p...",
       "content": "Z.ai's flagship GLM-5.2 model, released a day ‌after Anthropic disabled worldwide access to its most advanced models, stunned global users after its performance benchmarks narrowly trailed leading closed-source models.\nSign up here.\n\"Our mission is t... [3623 chars]",
@@ -350,18 +362,6 @@
       "publishedAt": "2026-06-25T03:54:40.000Z",
       "category": "国内AI",
       "originalUrl": "https://36kr.com/newsflashes/3868060552909827?f=rss",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782360302559_1490d357",
-      "title": "“AI 拉胯” 亚马逊：会上演逆袭大戏吗？",
-      "summary": "“AI 拉胯” 亚马逊：会上演逆袭大戏吗？",
-      "content": "Athropic当下一枝独秀，哪个云厂商会受益。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-25T03:41:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8039768.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
