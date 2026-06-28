@@ -1,9 +1,45 @@
 {
   "success": true,
-  "timestamp": "2026-06-27T13:58:50Z",
-  "total": 30,
+  "timestamp": "2026-06-28T04:21:12Z",
+  "total": 29,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1782620363441_c43e5328",
+      "title": "苹果推出 Core AI 框架，为自研芯片优化端侧生成式 AI",
+      "summary": "苹果推出 Core AI 框架，为自研芯片优化端侧生成式 AI",
+      "content": "苹果推出 Core AI 框架，为自研芯片优化端侧生成式 AI",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-28T11:06:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/x6KDPdgrdHzY7I38JK9U?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782620364049_37a806c2",
+      "title": "GitLab 19.0将Agentic AI嵌入凭证、合并请求与供应链安全",
+      "summary": "GitLab 19.0将Agentic AI嵌入凭证、合并请求与供应链安全",
+      "content": "GitLab 19.0将Agentic AI嵌入凭证、合并请求与供应链安全",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-28T09:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/ICdHZotGllYog0ocIrxA?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782620360091_8b71211c",
+      "title": "DeepSeek开始造富",
+      "summary": "DeepSeek开始造富",
+      "content": "DeepSeek走到造富前夜，普通人的机会在哪里？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-06-28T01:21:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8044065.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1782568623817_0f875ba4",
       "title": "GPT-5.6：最强的模型，最窄的门",
@@ -27,6 +63,18 @@
       "category": "国外AI",
       "originalUrl": "https://36kr.com/newsflashes/3871213411128577?f=rss",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782620084283_0",
+      "title": "OpenAI restricting release of new model",
+      "summary": "ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump's adm...",
+      "content": "ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump's administration, the latest in an unprecedented government vetting of AI products for cybersecurity risk... [4246 chars]",
+      "imageUrl": "https://wehco.media.clients.ellingtoncms.com/imports/adg/photos/213138277_213137310-df048727b111403e9acdb937a29ddbe9_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
+      "source": "Arkansas Online",
+      "publishedAt": "2026-06-27T08:13:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.arkansasonline.com/news/2026/jun/27/openai-restricting-release-of-new-model/",
+      "aiInsight": ""
     },
     {
       "id": "news_1782568624697_df3494f0",
@@ -101,19 +149,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782568629119_d3bff8d2",
-      "title": "像玩剧本杀一样，玩好 Agentic AI",
-      "summary": "像玩剧本杀一样，玩好 Agentic AI",
-      "content": "像玩剧本杀一样，玩好 Agentic AI",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-26T22:21:52.000Z",
+      "id": "news_1782620083778_1",
+      "title": "OpenAI and Anthropic limit new AI models to Trump",
+      "summary": "ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump’s adm...",
+      "content": "ChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump’s administration, the latest in an unprecedented government vetting of AI products for cybersecurity risk... [6430 chars]",
+      "imageUrl": "https://wtop.com/wp-content/uploads/2026/06/Artificial_Intelligence_Politics_56521-scaled.jpg",
+      "source": "WTOP",
+      "publishedAt": "2026-06-27T00:59:17.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/2hp32gR1vuPJuL0ISlB3?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://wtop.com/business-finance/2026/06/openai-limits-its-newest-chatgpt-product-to-trump-approved-customers-during-cybersecurity-review/",
+      "aiInsight": ""
     },
     {
-      "id": "news_1782568331139_0",
+      "id": "news_1782620083782_2",
       "title": "OpenAI limits its latest ChatGPT product to Trump-approved customers during cybersecurity review",
       "summary": "By MATT O’BRIEN\nChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Do...",
       "content": "By MATT O’BRIEN\nChatGPT maker OpenAI said Friday it is restricting the release of its new artificial intelligence model at the request of President Donald Trump’s administration, the latest in an unprecedented government vetting of AI products for cy... [5121 chars]",
@@ -125,7 +173,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1782568330778_1",
+      "id": "news_1782620083757_3",
       "title": "Apple’s Vision Pro and Smart Glasses Chief Paul Meade Is Leaving for OpenAI",
       "summary": "Apple Inc.’s top executive in charge of the Vision Pro headset and the company’s smart glasses efforts is leaving for OpenAI, continuing a streak of h...",
       "content": "Apple Inc.’s top executive in charge of the Vision Pro headset and the company’s smart glasses efforts is leaving for OpenAI, continuing a streak of high-profile defections to rivals in the artificial intelligence and hardware sectors.\nPaul Meade, a ... [296 chars]",
@@ -137,7 +185,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1782568331804_2",
+      "id": "news_1782620084926_4",
       "title": "Tax AI Where Profits Are Created, OpenAI Executive Says",
       "summary": "Skip to content Bloomberg the Company & Its Products The Company & its Products Bloomberg Terminal Demo Request Bloomberg Anywhere Remote Login Bloomb...",
       "content": "Tax policy for artificial intelligence should focus on where profits are created, a top OpenAI executive said Friday.\nIt’s unclear where profits are being generated in the AI ecosystem, and any tax policy should be “administrable,” said Stephen Bonov... [379 chars]",
@@ -149,31 +197,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1782568630153_cff291d8",
-      "title": "AI确实可以用任何手段、写任何东西，但你得是个“中年老登”",
-      "summary": "AI确实可以用任何手段、写任何东西，但你得是个“中年老登”",
-      "content": "AI确实可以用任何手段、写任何东西，但你得是个“中年老登”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-26T18:18:18.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/l2lF7aoPeLGlotlX1tdt?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782568630667_0d486d4e",
-      "title": "API7.ai创始人温铭：烧了几百亿Token，我用AI重写了生产级网关，总结出6条经验",
-      "summary": "API7.ai创始人温铭：烧了几百亿Token，我用AI重写了生产级网关，总结出6条经验",
-      "content": "API7.ai创始人温铭：烧了几百亿Token，我用AI重写了生产级网关，总结出6条经验",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-26T18:16:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/5YIK6SvTf5h07YckXZd3?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782568330930_4",
+      "id": "news_1782620083758_5",
       "title": "Trump Administration Asks OpenAI To Limit GPT-5.6 Release Over Security Concerns",
       "summary": "The Trump administration has asked OpenAI to limit the initial release of its upcoming GPT-5.6 artificial intelligence model to a small group of gover...",
       "content": "The Trump administration has asked OpenAI to limit the initial release of its upcoming GPT-5.6 artificial intelligence model to a small group of government-approved partners over security concerns.\nWashington has intensified its focus on the security... [3152 chars]",
@@ -183,18 +207,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ibtimes.com/trump-administration-asks-openai-limit-gpt-56-release-over-security-concerns-3804590",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1782568631188_e830c815",
-      "title": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout",
-      "summary": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout",
-      "content": "从 Copilot 到 Autopilot：微软发布常驻型企业智能体 Scout",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-26T17:29:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/btKbO3iHbVM3p5WOVtqJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1782568607791_5",
@@ -209,19 +221,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1782568631718_01ed3d6e",
-      "title": "当 Agent 成为新的核心云用户：阿里云重新定义“用云范式”",
-      "summary": "当 Agent 成为新的核心云用户：阿里云重新定义“用云范式”",
-      "content": "当 Agent 成为新的核心云用户：阿里云重新定义“用云范式”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-26T17:02:55.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/s6TAS5JMIW1miPSqIsk0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782568331409_6",
+      "id": "news_1782620083777_7",
       "title": "OpenAI weighs IPO in 2027 after expected Anthropic public debut",
       "summary": "By Ed Ludlow, Bloomberg\nOpenAI is considering an initial public offering as soon as in 2027, according to people familiar with the matter, a timeline ...",
       "content": "By Ed Ludlow, Bloomberg\nOpenAI is considering an initial public offering as soon as in 2027, according to people familiar with the matter, a timeline that would potentially see it go public after its artificial intelligence rival Anthropic PBC.\nThe C... [2338 chars]",
@@ -243,18 +243,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/CcT6wZSLyVcIAmSLM1l0?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782568632728_bb9b54f1",
-      "title": "4.5个月迁走1200个微服务：腾讯云参与印尼运营商云转型，AI开始接管迁移全流程",
-      "summary": "4.5个月迁走1200个微服务：腾讯云参与印尼运营商云转型，AI开始接管迁移全流程",
-      "content": "4.5个月迁走1200个微服务：腾讯云参与印尼运营商云转型，AI开始接管迁移全流程",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-26T14:15:42.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/TA7VPXQqYgTsu4Yl8qLa?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1782484492910_1433b658",
@@ -353,7 +341,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782568331046_8",
+      "id": "news_1782620084143_9",
       "title": "SoftBank shares plunge 13% on report of OpenAI IPO delay to 2027",
       "summary": "SoftBank shares plunge 13% as OpenAI reportedly weighs IPO delay to 2027\nComments\nSoftBank Group’s (SFTBY) shares tumbled as much as 13% on Friday fol...",
       "content": "SoftBank shares plunge 13% as OpenAI reportedly weighs IPO delay to 2027\nComments\nSoftBank Group’s (SFTBY) shares tumbled as much as 13% on Friday following reports from The New York Times that artificial intelligence pioneer OpenAI (OPENAI) is consi... [266 chars]",
