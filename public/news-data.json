@@ -1,9 +1,129 @@
 {
   "success": true,
-  "timestamp": "2026-07-01T04:19:28Z",
-  "total": 21,
+  "timestamp": "2026-07-01T14:48:03Z",
+  "total": 25,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1782917185013_89dd896e",
+      "title": "前后端一起消失：AI Coding 正在改写大厂工程师分工",
+      "summary": "前后端一起消失：AI Coding 正在改写大厂工程师分工",
+      "content": "前后端一起消失：AI Coding 正在改写大厂工程师分工",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-01T17:59:33.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/rHiSH66JZwoQG5Dfvv6x?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782917185521_178adb36",
+      "title": "聚力 AI 硬件创新｜2026 首届 openvela AI 硬件开发者大赛火热报名中",
+      "summary": "聚力 AI 硬件创新｜2026 首届 openvela AI 硬件开发者大赛火热报名中",
+      "content": "聚力 AI 硬件创新｜2026 首届 openvela AI 硬件开发者大赛火热报名中",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-01T16:02:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/arkN5tbl3ttDUTMM7v5J?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782917185788_7f0e3d5f",
+      "title": "他用一条中文推文，点燃DeepSeek开源社区",
+      "summary": "他用一条中文推文，点燃DeepSeek开源社区",
+      "content": "他用一条中文推文，点燃DeepSeek开源社区",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-01T14:36:45.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/video/7drQWlqtxBb5euT4eUYB?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782917186467_51785fc4",
+      "title": "Agent成为数据库新用户，AI数据库为什么必须走向湖库一体？   ",
+      "summary": "Agent成为数据库新用户，AI数据库为什么必须走向湖库一体？   ",
+      "content": "Agent成为数据库新用户，AI数据库为什么必须走向湖库一体？   ",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-01T14:11:36.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/1f1PdxW2458qx5gPfyeg?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782917186904_feffbbeb",
+      "title": "Slack 概述了构建多云 AI 服务平台的四阶段发展路径",
+      "summary": "Slack 概述了构建多云 AI 服务平台的四阶段发展路径",
+      "content": "Slack 概述了构建多云 AI 服务平台的四阶段发展路径",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-01T13:29:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/GMuuiabHp38rbydKJVqW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782917168587_a8886cc3",
+      "title": "Meta考虑出售闲置AI算力使用权以创收",
+      "summary": "据报道，Meta Platforms正筹划构建一项云基础设施业务，计划出售闲置AI算力和模型的使用权来创收。",
+      "content": "据报道，Meta Platforms正筹划构建一项云基础设施业务，计划出售闲置AI算力和模型的使用权来创收。（界面）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-07-01T12:38:33.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3877069027913989?f=rss",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782917177640_a2788e15",
+      "title": "字节Seed最新论文，解决了AI改图的核心难点",
+      "summary": "字节Seed最新论文，解决了AI改图的核心难点",
+      "content": "字节与新加坡国立大学最新成果。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-01T11:18:43.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8047518.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782917179128_c48331aa",
+      "title": "欧莱雅VivaTech十年：用AI重写美妆创新方法论",
+      "summary": "欧莱雅VivaTech十年：用AI重写美妆创新方法论",
+      "content": "当所有人都在关注算力能把效率推向何处时，欧莱雅已经率先开启了价值的升维。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-01T10:10:32.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8048103.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782917180977_7da7bc1e",
+      "title": "开源鸿蒙入局机器人，M-Robots不想再各自为战",
+      "summary": "开源鸿蒙入局机器人，M-Robots不想再各自为战",
+      "content": "做机器人操作系统根社区，生态爬坡期是痛苦的，能做的只有加速抵达临界点。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-01T10:09:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8048275.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782917181532_937b8b95",
+      "title": "99万的陪伴机器人，优必选不只是想单纯卖硬件",
+      "summary": "99万的陪伴机器人，优必选不只是想单纯卖硬件",
+      "content": "人形机器人要真正进入家庭成为“完美的家庭成员”，必须“两条腿走路”。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-01T10:08:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8048847.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1782879460205_4ac30c7a",
       "title": "Sonnet 5 降维：Anthropic 赌智能体降价换规模",
@@ -29,7 +149,31 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782879444194_0",
+      "id": "news_1782917157720_0",
+      "title": "CNBC Daily Open: AI demand fuels investors' portfolios while oil posts biggest monthly decline",
+      "summary": "Hello, this is Justina Lee writing to you from Singapore. Welcome to another edition of CNBC's Daily Open.\nArtificial intelligence remains the market'...",
+      "content": "Hello, this is Justina Lee writing to you from Singapore. Welcome to another edition of CNBC's Daily Open.\nArtificial intelligence remains the market's favorite, with investors continuing to rotate into semiconductor and technology names as companies... [3511 chars]",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/105305605-1530503822980gettyimages-693958656.jpg?v=1571633918&w=1920&h=1080",
+      "source": "CNBC",
+      "publishedAt": "2026-07-01T02:22:35.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.cnbc.com/2026/07/01/cnbc-daily-open-ai-demand-fuels-investors-portfolio-while-oil-posts-biggest-monthly-decline.html",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1782917187368_685a7449",
+      "title": "8 人起家年入上亿美元，推出自研大模型对战 Cursor、Claude Code？",
+      "summary": "8 人起家年入上亿美元，推出自研大模型对战 Cursor、Claude Code？",
+      "content": "8 人起家年入上亿美元，推出自研大模型对战 Cursor、Claude Code？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-30T18:29:30.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/lgKWA0PHN4zsOkB4C4Pv?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782917157227_1",
       "title": "The 8 Best AI SEO Companies Helping Brands Win in AI Search in 2026",
       "summary": "Artificial intelligence has rewritten the rules of online discovery in just a few short years, since people now turn to ChatGPT, Gemini, Perplexity, a...",
       "content": "Artificial intelligence has rewritten the rules of online discovery in just a few short years, since people now turn to ChatGPT, Gemini, Perplexity, and Google AI Overviews for answers that once sent them into a maze of blue links. AI is now woven in... [10224 chars]",
@@ -65,19 +209,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782879467690_e8dad8f2",
-      "title": "Agent 狂吞 Token，表面是模型之争，底层全是煤电博弈",
-      "summary": "Agent 狂吞 Token，表面是模型之争，底层全是煤电博弈",
-      "content": "Agent 狂吞 Token，表面是模型之争，底层全是煤电博弈",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-30T11:02:41.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/5sAu5pdOatCpxaIU4vOw?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782879444419_1",
+      "id": "news_1782917157007_2",
       "title": "Newsom's new AI report has grim findings for Bay Area workers",
       "summary": "A first-of-its-kind report came out last week, a month after Gov. Gavin Newsom mandated the state document how hard Californians have been hit by arti...",
       "content": "A first-of-its-kind report came out last week, a month after Gov. Gavin Newsom mandated the state document how hard Californians have been hit by artificial intelligence-related layoffs.\nThe new report, published Wednesday by the California Policy La... [4288 chars]",
@@ -89,7 +221,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1782879444005_2",
+      "id": "news_1782917156891_3",
       "title": "New California study finds highly educated workers most harmed by AI",
       "summary": "A first-of-its-kind report came out last week, a month after Gov. Gavin Newsom mandated the state document how hard Californians have been hit by arti...",
       "content": "A first-of-its-kind report came out last week, a month after Gov. Gavin Newsom mandated the state document how hard Californians have been hit by artificial intelligence-related layoffs.\nThe new report, published Wednesday by the California Policy La... [4288 chars]",
@@ -171,90 +303,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/970/231.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782748500705_c1097830",
-      "title": "多位DeepSeek API用户确认已收到调价邮件：V4正式版高峰期价格将翻倍",
-      "summary": "据蓝鲸新闻，6月29日，多位开发者确认，已收到DeepSeek发送的升级提醒邮件。邮件显示，DeepSeekV4正式版计划于7月中旬正式上线，并将同步调整API定价策略，引入峰谷定价机制，以更合理地配置资源、提升服务稳定性。",
-      "content": "据蓝鲸新闻，6月29日，多位开发者确认，已收到DeepSeek发送的升级提醒邮件。邮件显示，DeepSeekV4正式版计划于7月中旬正式上线，并将同步调整API定价策略，引入峰谷定价机制，以更合理地配置资源、提升服务稳定性。根据邮件内容，V4Pro和V4Flash模型在平时价格保持不变，但高峰时段API价格将调整为平时的2倍。高峰时段为每天上午9点至12点、下午2点至6点。（财联社）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-06-29T12:58:13.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3874257198880005?f=rss",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782748500416_a08dbb49",
-      "title": "自研全域柔性电子皮肤，Moxy摸喜发布首款AI陪伴机器人｜最前线",
-      "summary": "作者｜黄楠 编辑｜袁斯来 近日，奥感微（广州）科技公司旗下的情感陪伴品牌Moxy摸喜在深圳发布首款AI陪伴机器人产品。",
-      "content": "作者｜黄楠 编辑｜袁斯来 近日，奥感微（广州）科技公司旗下的情感陪伴品牌Moxy摸喜在深圳发布首款AI陪伴机器人产品。该产品以“无对话、无摄像头、纯触觉交互”为核心特色，将离电型柔性传感技术首次完整应用于消费级陪伴产品， 一个不可忽视的事实是，在语音和视觉占据智能产品交互主流的今天，触觉作为人类出生后最先发育、最本能的感觉通道，在消费级智能硬件中的潜力尚未被充分释放。大多数智能设备基于对话、观看等功能交互，而抚摸、按压、揉捏等人类原始的感知与表达方式，在陪伴类产品中鲜少被真正回应。 柔性电子皮肤技术的成熟正在改变这一局面。 Moxy摸喜的核心技术支撑，源于其团队自主研发的离电型触觉传感系统。相较于传统压阻式或电容式方案，离电型传感器利用离子在微压力下产生的界面电容变化，具备高灵敏度与高信噪比，对微小力极为敏感，同时能在宽量程内保持线性输出。加上材料本身柔软可拉伸，可以像“第二层皮肤”般贴合各类曲面。 Moxy AI陪伴机器人（图源/企业） 具体到Moxy的产品落地，这套传感系统具备超柔性、超高灵敏度、大量程、毫秒级快速响应四大特性。传感单元完整覆盖玩偶全身曲面，即便隔着厚实毛绒，也能精准识别轻抚、揉捏、拍打、摇晃、捏耳等动作，并能区分触摸的轻重力度，对应12类差异化情绪表达，比如轻触时温顺低鸣、重触时表达委屈等，复刻动物细腻的情绪反应。 Moxy品牌创始人林婴在发布会上表示，触觉是人来到世界学会的第一种语言，很多时候人不需要被听见、被看见，只需要被真切感觉到。此前，市场上大部分智能玩偶预设了固定的五官和对话脚本，本质上是在出厂前就已定义好产品的情绪反馈路径；而Moxy采用留白外观设计，不对产品的“性格”做任何前置设定，所有情绪表达完全由用户的抚摸方式触发和塑造。 Moxy品牌创始人林婴（图源企业） 团队还做出了一项差异化设计：整机不搭载任何摄像模块，同时摒弃主动语音交互逻辑，不会主动发声打扰用户独处。全部情绪与成长数据均在本地加密存储，通过克制的产品功能设定，回应了用户对安全感的核心诉求，从根源上规避了监控与隐私泄露风险。 交互方式之外，Moxy在产品机制层面也构建了一套完整的成长体系。其产品共涵盖了八款基础色彩的外观，对应八种原生初始性格；完整划分婴儿、幼儿、少年、青年、成熟、成年六大成长周期，音色、行为与性格倾向随用户长期触摸持续演化。在加上系统内置16套MBTI人格体系作为底层框架，每一台Moxy在与用户经过长久相处后，将逐渐成长为贴合其交互习惯与情感节奏，无法复制的专属陪伴个体。 Moxy AI陪伴机器人（图源/企业） 这是一套将单向使用转化为双向养成的机制设计。用户不是在与一台预设好的机器互动，而是在共同完成一段陪伴关系的塑造。同时，产品支持数据一键重置，可反复开启新的养成旅程，进一步延展了产品的生命周期与使用粘性。 此外，配套的专属APP将陪伴体验延伸至数字空间。用户可实时查看产品的情绪状态、成长阶段与人格档案，系统自动留存千日陪伴纪念徽章与诞生记录。线上同好互动功能的接入，则将个体的陪伴关系拓展为社群化的情感连接。 硬件架构方面，Moxy采用标准化、模块化的机芯设计，核心传感与驱动单元封装于统一的内部平台，仅需替换外层毛绒外皮即可完成形象重塑。考虑到日常陪伴的实用考量，产品机身尺寸约一颗苹果大小，采用安全亲肤毛绒材质，既能作为桌面或床头的静态摆件，也方便随身携带，满足通勤、差旅等多场景下的陪伴需求。 相关负责人表示，未来品牌将联动各类文旅IP推出联名限定系列，适配文创、礼品、潮玩收藏等多元场景。",
-      "imageUrl": "https://img.36krcdn.com/hsossms/20260629/v2_31e86d80b007446ba9709f8393995efc@6022551_oswg1936415oswg1600oswg1067_img_png?x-oss-process=image/quality,q_90/format,jpg/interlace,1",
-      "source": "36氪",
-      "publishedAt": "2026-06-29T10:49:39.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/p/3874015941645570?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782748507111_2145097f",
-      "title": "从AR泡沫到AI风口，Rokid迎来关键一役",
-      "summary": "从AR泡沫到AI风口，Rokid迎来关键一役",
-      "content": "从AR泡沫到AI风口，Rokid迎来关键一役",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-29T10:35:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8044617.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782748508022_eb89ea8e",
-      "title": "对话认知心理学家：为什么学生不喜欢上学？",
-      "summary": "“由于AI的存在，人们不再需要了解任何东西”是一个错误。AI可能会改变劳动力市场，知识的重要性可能会变化，但它不会从根本上改变人们需要知识才能思考这个事实。大脑的基本结构没有变。",
-      "content": "“由于AI的存在，人们不再需要了解任何东西”是一个错误。AI可能会改变劳动力市场，知识的重要性可能会变化，但它不会从根本上改变人们需要知识才能思考这个事实。大脑的基本结构没有变。”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-29T10:35:13.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8045697.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782748508462_64d7f47d",
-      "title": "马斯克：Grok 4.5接近Opus，每月发一个新模型，AI圈要变天？",
-      "summary": "马斯克：Grok 4.5接近Opus，每月发一个新模型，AI圈要变天？",
-      "content": "马斯克又回到了模型牌桌。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-29T10:30:20.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8045761.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782879444424_4",
-      "title": "STARTRADER Launches Pre-IPO Trading Products for OpenAI and",
-      "summary": "Dubai, UAE, June 29, 2026 (GLOBE NEWSWIRE) -- STARTRADER, a global multi-asset broker, today announced the launch of two new pre-IPO contracts for dif...",
-      "content": "Dubai, UAE, June 29, 2026 (GLOBE NEWSWIRE) -- STARTRADER, a global multi-asset broker, today announced the launch of two new pre-IPO contracts for difference (CFD) products, OPENAIUSD (OpenAI) and ANTHUSD (Anthropic), available for trading from 29 Ju... [2056 chars]",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop&auto=format",
-      "source": "GlobeNewswire",
-      "publishedAt": "2026-06-29T09:32:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.globenewswire.com/news-release/2026/06/29/3318747/0/en/startrader-launches-pre-ipo-trading-products-for-openai-and-anthropic.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1782879445149_5",
-      "title": "Anthropic, OpenAI Tax-Exempt IPO Move to Stoke Congress’ Ire",
-      "summary": "Skip to content Bloomberg the Company & Its Products The Company & its Products Bloomberg Terminal Demo Request Bloomberg Anywhere Remote Login Bloomb...",
-      "content": "The founders of major artificial intelligence companies have pledged to give away most of their wealth. Congress isn’t thrilled about it.\nAnthropic and OpenAI Inc., the creators of ChatGPT, have pledged to donate portions of company stock when it mak... [368 chars]",
-      "imageUrl": "https://bwrite-static.bloombergindustry.com/dims4/default/b5a3026/2147483647/strip/false/crop/7646x2947+5+0/resize/960x370!/quality/90/?url=https%3A%2F%2Fbloomberg-bna-brightspot.s3.us-east-1.amazonaws.com%2F7d%2Fbe%2F6312824e4a258cae57a7afb5e68b%2Fgettyimages-2279684918.jpg",
-      "source": "Bloomberg Tax News",
-      "publishedAt": "2026-06-29T09:00:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://news.bloombergtax.com/daily-tax-report/anthropic-openai-tax-exempt-ipo-move-to-stoke-congress-ire",
-      "aiInsight": ""
     }
   ]
 }
