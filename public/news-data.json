@@ -1,80 +1,44 @@
 {
   "success": true,
-  "timestamp": "2026-06-30T14:30:35Z",
-  "total": 29,
+  "timestamp": "2026-07-01T04:19:28Z",
+  "total": 21,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1782829731282_685a7449",
-      "title": "8 人起家年入上亿美元，推出自研大模型对战 Cursor、Claude Code？",
-      "summary": "8 人起家年入上亿美元，推出自研大模型对战 Cursor、Claude Code？",
-      "content": "8 人起家年入上亿美元，推出自研大模型对战 Cursor、Claude Code？",
+      "id": "news_1782879460205_4ac30c7a",
+      "title": "Sonnet 5 降维：Anthropic 赌智能体降价换规模",
+      "summary": "Sonnet 5 降维：Anthropic 赌智能体降价换规模",
+      "content": "一款更适配智能体的中型模型，专为规划、工具使用和自主工作流而构建。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-30T18:29:30.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/lgKWA0PHN4zsOkB4C4Pv?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782829731935_903db586",
-      "title": "物理 AI 演进之路：从受控环境走向现实世界",
-      "summary": "物理 AI 演进之路：从受控环境走向现实世界",
-      "content": "物理 AI 演进之路：从受控环境走向现实世界",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-30T17:56:34.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/erU6ZuSI5qowMlIGSr8i?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782829732350_fecefc50",
-      "title": "Anthropic 负责人：HTML 比 MD 更利于人类跟进智能体协作流程",
-      "summary": "Anthropic 负责人：HTML 比 MD 更利于人类跟进智能体协作流程",
-      "content": "Anthropic 负责人：HTML 比 MD 更利于人类跟进智能体协作流程",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-30T17:00:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-01T03:31:30.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/i3eauD7F8KF9gVY3SD18?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8047719.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782829732770_f9061c84",
-      "title": "Google OpenRL 是一个用于大型语言模型（LLM）后训练微调的实验性自托管 API",
-      "summary": "Google OpenRL 是一个用于大型语言模型（LLM）后训练微调的实验性自托管 API",
-      "content": "Google OpenRL 是一个用于大型语言模型（LLM）后训练微调的实验性自托管 API",
+      "id": "news_1782879460476_8a836f25",
+      "title": "AI 没书可读之后，两个 AI 教父赌上了相反未来",
+      "summary": "AI 没书可读之后，两个 AI 教父赌上了相反未来",
+      "content": "AI 没书可读之后，谁掌握“裁判”，谁掌握下一轮进化。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-30T15:21:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-01T03:04:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/d5MOPSyGi5XPi1erhUW3?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782829733224_f692719f",
-      "title": "3000块钱，这支中国团队把ChatGPT成功的“秘密”用在了机器人训练上",
-      "summary": "3000块钱，这支中国团队把ChatGPT成功的“秘密”用在了机器人训练上",
-      "content": "3000块钱，这支中国团队把ChatGPT成功的“秘密”用在了机器人训练上",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-30T15:07:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/t78dBsMM5KZabshzEMuo?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782829733670_9bad5482",
-      "title": "AI 接进企业之后，API 安全开始成为新盲区",
-      "summary": "AI 接进企业之后，API 安全开始成为新盲区",
-      "content": "AI 接进企业之后，API 安全开始成为新盲区",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-30T14:15:38.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/QODhrm0I3LSV0uGhFdWt?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8047621.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782879444194_0",
+      "title": "The 8 Best AI SEO Companies Helping Brands Win in AI Search in 2026",
+      "summary": "Artificial intelligence has rewritten the rules of online discovery in just a few short years, since people now turn to ChatGPT, Gemini, Perplexity, a...",
+      "content": "Artificial intelligence has rewritten the rules of online discovery in just a few short years, since people now turn to ChatGPT, Gemini, Perplexity, and Google AI Overviews for answers that once sent them into a maze of blue links. AI is now woven in... [10224 chars]",
+      "imageUrl": "https://augustafreepress.com/wp-content/uploads/2026/06/AI-SEO-chat-gpt-search-engine-optimization.jpg",
+      "source": "Augusta Free Press",
+      "publishedAt": "2026-06-30T14:37:26.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://augustafreepress.com/commercial/the-8-best-ai-seo-companies-helping-brands-win-in-ai-search-in-2026/",
+      "aiInsight": ""
     },
     {
       "id": "news_1782829726275_ec5f5b0e",
@@ -89,18 +53,6 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782829734102_3c4b78d0",
-      "title": "从 VCloud 到 Agentic VCloud：Agent 时代的范式重构",
-      "summary": "从 VCloud 到 Agentic VCloud：Agent 时代的范式重构",
-      "content": "从 VCloud 到 Agentic VCloud：Agent 时代的范式重构",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-06-30T13:30:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/4S4eBkKoq9Btx37VdTMW?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1782829740926_c5f06ab0",
       "title": "OpenAI 修复 Codex 额度消耗异常故障，并再次重置用户额度",
       "summary": "IT之家 6 月 30 日消息，OpenAI 表示，已修复导致旗下编程智能体 Codex 部分用户异常快速耗尽使用额度的故障。 OpenAI Codex 工程负责人蒂博 · 索蒂奥克斯当地时间周一晚间在 X 平台发文称，这款编程工具后台执行的运算量超出预设标准，进而消耗了更多算力资源。",
@@ -111,6 +63,42 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/970/755.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782879467690_e8dad8f2",
+      "title": "Agent 狂吞 Token，表面是模型之争，底层全是煤电博弈",
+      "summary": "Agent 狂吞 Token，表面是模型之争，底层全是煤电博弈",
+      "content": "Agent 狂吞 Token，表面是模型之争，底层全是煤电博弈",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-06-30T11:02:41.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/5sAu5pdOatCpxaIU4vOw?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1782879444419_1",
+      "title": "Newsom's new AI report has grim findings for Bay Area workers",
+      "summary": "A first-of-its-kind report came out last week, a month after Gov. Gavin Newsom mandated the state document how hard Californians have been hit by arti...",
+      "content": "A first-of-its-kind report came out last week, a month after Gov. Gavin Newsom mandated the state document how hard Californians have been hit by artificial intelligence-related layoffs.\nThe new report, published Wednesday by the California Policy La... [4288 chars]",
+      "imageUrl": "https://s.hdnux.com/photos/01/66/55/32/31119010/3/rawImage.jpg",
+      "source": "SFGATE",
+      "publishedAt": "2026-06-30T11:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.sfgate.com/politics/article/newsom-ai-layoffs-22321472.php",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1782879444005_2",
+      "title": "New California study finds highly educated workers most harmed by AI",
+      "summary": "A first-of-its-kind report came out last week, a month after Gov. Gavin Newsom mandated the state document how hard Californians have been hit by arti...",
+      "content": "A first-of-its-kind report came out last week, a month after Gov. Gavin Newsom mandated the state document how hard Californians have been hit by artificial intelligence-related layoffs.\nThe new report, published Wednesday by the California Policy La... [4288 chars]",
+      "imageUrl": "https://s.hdnux.com/photos/01/66/55/32/31119010/3/rawImage.jpg",
+      "source": "SFGATE",
+      "publishedAt": "2026-06-30T11:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.sfgate.com/politics/article/california-ai-study-22321472.php",
+      "aiInsight": ""
     },
     {
       "id": "news_1782829727594_91709d18",
@@ -245,7 +233,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1782829713254_1",
+      "id": "news_1782879444424_4",
       "title": "STARTRADER Launches Pre-IPO Trading Products for OpenAI and",
       "summary": "Dubai, UAE, June 29, 2026 (GLOBE NEWSWIRE) -- STARTRADER, a global multi-asset broker, today announced the launch of two new pre-IPO contracts for dif...",
       "content": "Dubai, UAE, June 29, 2026 (GLOBE NEWSWIRE) -- STARTRADER, a global multi-asset broker, today announced the launch of two new pre-IPO contracts for difference (CFD) products, OPENAIUSD (OpenAI) and ANTHUSD (Anthropic), available for trading from 29 Ju... [2056 chars]",
@@ -257,7 +245,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1782829713493_2",
+      "id": "news_1782879445149_5",
       "title": "Anthropic, OpenAI Tax-Exempt IPO Move to Stoke Congress’ Ire",
       "summary": "Skip to content Bloomberg the Company & Its Products The Company & its Products Bloomberg Terminal Demo Request Bloomberg Anywhere Remote Login Bloomb...",
       "content": "The founders of major artificial intelligence companies have pledged to give away most of their wealth. Congress isn’t thrilled about it.\nAnthropic and OpenAI Inc., the creators of ChatGPT, have pledged to donate portions of company stock when it mak... [368 chars]",
@@ -266,90 +254,6 @@
       "publishedAt": "2026-06-29T09:00:14.000Z",
       "category": "国外AI",
       "originalUrl": "https://news.bloombergtax.com/daily-tax-report/anthropic-openai-tax-exempt-ipo-move-to-stoke-congress-ire",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1782706889892_89065adf",
-      "title": "大模型战争下半场：谁还愿意一直租用 AI？",
-      "summary": "闭源 API 让 AI 应用更容易启动，也让创业者、企业和国家都开始重新计算代价：账单能不能扛住，数据能不能放心交出去，下一代智能能力又该掌握在谁手里。",
-      "content": "闭源 API 让 AI 应用更容易启动，也让创业者、企业和国家都开始重新计算代价：账单能不能扛住，数据能不能放心交出去，下一代智能能力又该掌握在谁手里。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-29T03:30:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8045011.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782706890797_a97a8cb3",
-      "title": "智谱、地平线、Momenta：七月之后，谁能留住钱？",
-      "summary": "智谱、地平线、Momenta：七月之后，谁能留住钱？",
-      "content": "钱真的来了，还是准备走了？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-29T03:25:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8045000.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782706891521_680c3d47",
-      "title": "供给暴涨153.4%、收益翻8倍，AI视听出海进入高速扩张期",
-      "summary": "供给暴涨153.4%、收益翻8倍，AI视听出海进入高速扩张期",
-      "content": "AI加速微短剧出海，YouTube短剧供给暴涨153.4%，产能结构彻底重构。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-29T03:13:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8044948.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782706892554_bddaa181",
-      "title": "实拍项目大批叫停，中资全面转向AI，日本短剧格局生变",
-      "summary": "实拍项目大批叫停，中资全面转向AI，日本短剧格局生变",
-      "content": "未来日本短剧行业最大的机会，不一定来自真人短剧。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-29T03:03:09.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8044956.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782706893453_0c142c4e",
-      "title": "出海短剧大洗牌：8成消耗流向AI短剧，实拍项目锐减50%",
-      "summary": "出海短剧大洗牌：8成消耗流向AI短剧，实拍项目锐减50%",
-      "content": "真人实拍大幅收缩，行业迎来新旧迭代拐点。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-06-29T02:51:53.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8044951.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782829713302_3",
-      "title": "GHF-ACL: A novel contrastive learning framework with multi-order graph structures for herb-disease association prediction",
-      "summary": "2.1 Dataset\nGiven the absence of a standardized dataset integrating traits, meridian medicinal properties, Yin-Yang, Five Elements, and disease associ...",
-      "content": "2.1 Dataset\nGiven the absence of a standardized dataset integrating traits, meridian medicinal properties, Yin-Yang, Five Elements, and disease associations of Chinese herbal medicine, we expanded the data sources and structural dimensions by buildin... [40768 chars]",
-      "imageUrl": "https://journals.plos.org/ploscompbiol/article/figure/image?id=10.1371/journal.pcbi.1014461.g010&size=inline",
-      "source": "PLOS (Public Library of Science)",
-      "publishedAt": "2026-06-29T00:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://journals.plos.org/ploscompbiol/article?id=10.1371%2Fjournal.pcbi.1014461",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1782829712772_4",
-      "title": "ChatGPT is the most popular AI tool for people in the US",
-      "summary": "This audio is auto-generated. Please let us know if you have feedback.\nChatGPT remains the most popular artificial intelligence chatbot on the market ...",
-      "content": "This audio is auto-generated. Please let us know if you have feedback.\nChatGPT remains the most popular artificial intelligence chatbot on the market for American consumers. Meanwhile, most people in the U.S. are using chatbots to assist with search,... [2286 chars]",
-      "imageUrl": "https://imgproxy.divecdn.com/OLkTWI2KSHINpUY05R-cqmtpTO-jlTCo1FLiHxzUXDw/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS9wZXdfcmVzZWFyY2hfYWlfdXNhZ2Vfc3R1ZHlfNS5wbmc=.webp",
-      "source": "Social Media Today",
-      "publishedAt": "2026-06-28T18:00:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.socialmediatoday.com/news/chatgpt-is-the-most-popular-ai-tool-for-people-in-the-us/823940/",
       "aiInsight": ""
     }
   ]
