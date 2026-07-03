@@ -1,91 +1,55 @@
 {
   "success": true,
-  "timestamp": "2026-07-02T14:17:44Z",
-  "total": 30,
+  "timestamp": "2026-07-03T03:42:25Z",
+  "total": 27,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1783001767161_277ead16",
-      "title": "用户太蠢不配用 Fable？被Anthropic的回应气笑了：最贵的模型，最憋屈的体验",
-      "summary": "用户太蠢不配用 Fable？被Anthropic的回应气笑了：最贵的模型，最憋屈的体验",
-      "content": "用户太蠢不配用 Fable？被Anthropic的回应气笑了：最贵的模型，最憋屈的体验",
+      "id": "news_1783050034702_cce391c2",
+      "title": "国产 AI 算力革命，走向「让子弹飞」时刻",
+      "summary": "国产 AI 算力革命，走向「让子弹飞」时刻",
+      "content": "道阻且长，行则能至。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T18:36:08.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-03T03:25:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/HDE9Hoe3RVyNlX3CCGzV?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8051440.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783050048056_6d8791cb",
+      "title": "Palantir CEO 卡普抨击 OpenAI 等 AI 公司“双重收费”，要钱还窃取数据",
+      "summary": "IT之家 7 月 3 日消息，科技媒体 Tom's Hardware 昨日（7 月 2 日）发布博文，数据分析公司帕兰提尔（Palantir）联合创始人、首席执行官亚历山大 · 卡普（Alex Karp）公开指责 OpenAI、Anthropic 等前沿 AI 公司，不仅收取用户高额 Token 消...",
+      "content": "IT之家 7 月 3 日消息，科技媒体 Tom's Hardware 昨日（7 月 2 日）发布博文，数据分析公司帕兰提尔（Palantir）联合创始人、首席执行官亚历山大 · 卡普（Alex Karp）公开指责 OpenAI、Anthropic 等前沿 AI 公司，不仅收取用户高额 Token 消耗费用，而且还窃取客户数据。 在接受 CNBC 《Squawk Box》采访时，卡普严厉指控前沿 AI 公司，指出 OpenAI、Anthropic 等公司在收取高额费用的同时，正通过提供其服务窃取客户有价值的业务数据。 卡普表示多家美国企业私下里对此“怒不可遏”，认为每月在支付高额 AI 账单的同时，还需要忍受 AI 公司窃取其客户的权重（weights）和阿尔法值（alpha）。这两个是指客户的业务流程、数据间的相互关联以及相关数据。 卡普将前沿 AI 公司的商业模式形容为“双重收费”：既向客户销售大语言模型（LLM）的使用权，又利用客户提供的数据来改进模型，导致客户面临核心业务流程被复制甚至被取代的风险。IT之家附上相关截图如下：",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/b3342888-dcb2-4802-8af4-b4101c1a6d1b.png",
+      "source": "IT之家",
+      "publishedAt": "2026-07-03T03:19:54.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/972/079.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783050048068_6a563eac",
+      "title": "被三家 YouTube 频道指控非法抓取数百万段视频训练 AI 模型，苹果要求驳回诉讼",
+      "summary": "IT之家 7 月 3 日消息，据外媒 MacRumors 今天（3 日）报道，今年早些时候，h3h3Productions、MrShortGame Golf 和 Golfholics 三个 YouTube 频道的运营者曾起诉苹果，指控苹果为训练 AI 模型，非法访问并抓取数百万段受版权保护的 You...",
+      "content": "IT之家 7 月 3 日消息，据外媒 MacRumors 今天（3 日）报道，今年早些时候，h3h3Productions、MrShortGame Golf 和 Golfholics 三个 YouTube 频道的运营者曾起诉苹果，指控苹果为训练 AI 模型，非法访问并抓取数百万段受版权保护的 YouTube 视频，违反美国《数字千年版权法》。 三个频道的运营者今年 4 月向美国加利福尼亚北区联邦地区法院提起集体诉讼，称苹果“蓄意绕过”YouTube 的视频防抓取措施，并借此获得巨额收益。 诉状称，苹果的做法不仅违法，也是对内容创作者群体无可容忍的攻击。生成式 AI 产业规模达到数万亿美元，却在不给创作者任何补偿的情况下，使用创作者的内容推动产业发展。 h3h3Productions 是由伊桑 · 克莱因和希拉 · 克莱因创办的知名 YouTube 频道，两人后来又推出 H3 Podcast。两人的频道拥有数百万关注者，MrShortGame Golf 和 Golfholics 也分别拥有数十万关注者。 三个频道还以相同理由起诉了 Meta、英伟达、字节跳动和 Snap。 法院文件显示，苹果本周要求法院驳回诉讼。苹果称，原告主动把视频公开上传至 YouTube，任何人都可以观看，因此苹果依据《数字千年版权法》和 YouTube 服务条款，有权访问这些视频。 苹果在回应中称，原告没有提出能够成立的诉讼请求。“原告声称，他们把视听作品发布到 YouTube，任何人都可以在那里观看。不需要密码，不需要付费，没有锁，也没有钥匙。据称，YouTube 采用技术措施防止未经授权的下载。但 YouTube 已经向公众开放这些视频，因此所谓技术措施并没有按照《数字千年版权法》第 1201 (a) 条的要求，限制公众访问作品。” 据IT之家了解，苹果据此要求法院驳回案件。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-07-03T03:02:29.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/972/065.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783001767745_f206d7eb",
-      "title": "Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
-      "summary": "Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
-      "content": "Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
+      "id": "news_1783050038415_d1ee28a1",
+      "title": "AI Native 组织转型：岗位，不再以\"人\"为单位",
+      "summary": "AI Native 不是让员工更会用 AI，而是让公司开始拆掉“岗位”这个旧单位，重新按任务、判断和责任来组织工作。",
+      "content": "AI Native 不是让员工更会用 AI，而是让公司开始拆掉“岗位”这个旧单位，重新按任务、判断和责任来组织工作。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T17:19:52.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/KmDMAvlzBGgwu5A2kf7t?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783001768291_6465a559",
-      "title": "亚马逊云科技推出 Lambda MicroVM，提供隔离式智能体与用户代码运行环境",
-      "summary": "亚马逊云科技推出 Lambda MicroVM，提供隔离式智能体与用户代码运行环境",
-      "content": "亚马逊云科技推出 Lambda MicroVM，提供隔离式智能体与用户代码运行环境",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T17:18:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/QbFT0uMbBd8rcZ0zEfit?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783001768839_d0b81be4",
-      "title": "行业智能体时代来临：出行、货运率先破局",
-      "summary": "行业智能体时代来临：出行、货运率先破局",
-      "content": "行业智能体时代来临：出行、货运率先破局",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T16:21:51.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/k8tlXTTbFmTGOLojQVZB?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783001769407_f72d80ec",
-      "title": "如何利用 AI Agent 实现热补丁的自动化生成",
-      "summary": "如何利用 AI Agent 实现热补丁的自动化生成",
-      "content": "如何利用 AI Agent 实现热补丁的自动化生成",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T16:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/BXc66LG3pVL8ZMme0ehy?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783001770300_44c5ec83",
-      "title": "从龙蜥孵化到上游贡献：SGLang Tracing 与 AI Agent 调优实践",
-      "summary": "从龙蜥孵化到上游贡献：SGLang Tracing 与 AI Agent 调优实践",
-      "content": "从龙蜥孵化到上游贡献：SGLang Tracing 与 AI Agent 调优实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T15:12:15.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/o5BOhliYRHIe4ZZPrHY9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783001770805_48d90f86",
-      "title": "GitLab 调研：AI 工具仅加快编码，整体软件交付效率并未提升",
-      "summary": "GitLab 调研：AI 工具仅加快编码，整体软件交付效率并未提升",
-      "content": "GitLab 调研：AI 工具仅加快编码，整体软件交付效率并未提升",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T15:00:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-03T02:54:57.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/8WD205mNH9OGrkf8BRYO?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8051023.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -101,15 +65,27 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783001771328_69cb6fdd",
-      "title": "让Agent越用越强：AReaL 2.0开源，给智能体装上“成长系统”",
-      "summary": "让Agent越用越强：AReaL 2.0开源，给智能体装上“成长系统”",
-      "content": "让Agent越用越强：AReaL 2.0开源，给智能体装上“成长系统”",
+      "id": "news_1783050044878_b297a8a5",
+      "title": "Vercel 推出开源 AI 智能体开发框架 Eve",
+      "summary": "Vercel 推出开源 AI 智能体开发框架 Eve",
+      "content": "Vercel 推出开源 AI 智能体开发框架 Eve",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T12:45:20.000Z",
+      "publishedAt": "2026-07-02T10:54:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/IeXGCZqbv5WQ5zFQXoup?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/kY3j5x1kIEvedufYJ1rJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783050045438_6e4f996b",
+      "title": "Cloudflare CEO 警告：未来两年，Agent 会让互联网每周爆出一个 Log4j",
+      "summary": "Cloudflare CEO 警告：未来两年，Agent 会让互联网每周爆出一个 Log4j",
+      "content": "Cloudflare CEO 警告：未来两年，Agent 会让互联网每周爆出一个 Log4j",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-02T10:25:24.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/zhoGu6x9CdUJ3XMFvyK1?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -135,6 +111,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8050492.html",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783050023423_0",
+      "title": "A grim job outlook meets a scrappy workforce as administrative assistants harness AI",
+      "summary": "With their numbers already in decline, secretaries and administrative assistants face another growing threat: artificial intelligence tools like ChatG...",
+      "content": "With their numbers already in decline, secretaries and administrative assistants face another growing threat: artificial intelligence tools like ChatGPT and Claude that can accomplish aspects of their workload with a tap.\nEmployment projection data o... [7194 chars]",
+      "imageUrl": "https://wtop.com/wp-content/uploads/2026/07/AI_Administrative_Assistants_57553-scaled.jpg",
+      "source": "WTOP",
+      "publishedAt": "2026-07-02T10:16:41.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://wtop.com/business-finance/2026/07/a-grim-job-outlook-meets-a-scrappy-workforce-as-administrative-assistants-harness-ai/",
+      "aiInsight": ""
     },
     {
       "id": "news_1783001758965_5008c5c8",
@@ -183,6 +171,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8049913.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783050023020_1",
+      "title": "OpenAI in talks to give Trump administration a 5% stake in the company, FT reports",
+      "summary": "By Hanna Ziady, CNN\nLondon (CNN) — OpenAI, the creator of ChatGPT, is reportedly discussing handing the Trump administration a 5% stake in the company...",
+      "content": "By Hanna Ziady, CNN\nLondon (CNN) — OpenAI, the creator of ChatGPT, is reportedly discussing handing the Trump administration a 5% stake in the company amid growing government scrutiny of artificial intelligence firms.\nThe proposal would involve other... [942 chars]",
+      "imageUrl": "https://abc17news.b-cdn.net/abc17news.com/2026/05/ABC-17-News-website-default-image-1280x720-1-860x484.png",
+      "source": "ABC17News.com",
+      "publishedAt": "2026-07-02T09:05:33.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://abc17news.com/money/cnn-business-consumer/2026/07/02/openai-in-talks-to-give-trump-administration-a-5-stake-in-the-company/",
+      "aiInsight": ""
     },
     {
       "id": "news_1782964664951_bba0d2c0",
@@ -245,7 +245,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783001738681_0",
+      "id": "news_1783050023399_3",
       "title": "OpenAI and Anthropic Built AI Around Tokens. Palantir's Karp Says 'Something Has Gone Completely Wrong' With The Model.",
       "summary": "Palantir CEO Alex Karp is escalating his criticism of Silicon Valley's biggest artificial intelligence companies, accusing OpenAI and Anthropic of pro...",
       "content": "Palantir CEO Alex Karp is escalating his criticism of Silicon Valley's biggest artificial intelligence companies, accusing OpenAI and Anthropic of promoting a business model that encourages companies to spend heavily on AI tokens without delivering m... [2392 chars]",
@@ -257,7 +257,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1783001738662_1",
+      "id": "news_1783050023531_4",
       "title": "Abu Dhabi’s MGX closes record $49 billion AI fund to invest in AI infrastructure and AI companies after backing OpenAI, Anthropic, and xAI",
       "summary": "The race to finance artificial intelligence just reached another milestone. Abu Dhabi investment firm MGX has closed a record $49 billion AI fund, MGX...",
       "content": "The race to finance artificial intelligence just reached another milestone. Abu Dhabi investment firm MGX has closed a record $49 billion AI fund, MGX Fund 1, creating one of the largest investment vehicles dedicated to artificial intelligence at a t... [2295 chars]",
@@ -327,42 +327,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8048847.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782879460205_4ac30c7a",
-      "title": "Sonnet 5 降维：Anthropic 赌智能体降价换规模",
-      "summary": "Sonnet 5 降维：Anthropic 赌智能体降价换规模",
-      "content": "一款更适配智能体的中型模型，专为规划、工具使用和自主工作流而构建。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-01T03:31:30.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8047719.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1782879460476_8a836f25",
-      "title": "AI 没书可读之后，两个 AI 教父赌上了相反未来",
-      "summary": "AI 没书可读之后，两个 AI 教父赌上了相反未来",
-      "content": "AI 没书可读之后，谁掌握“裁判”，谁掌握下一轮进化。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-01T03:04:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8047621.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783001740881_2",
-      "title": "CNBC Daily Open: AI demand fuels investors' portfolios while oil posts biggest monthly decline",
-      "summary": "Hello, this is Justina Lee writing to you from Singapore. Welcome to another edition of CNBC's Daily Open.\nArtificial intelligence remains the market'...",
-      "content": "Hello, this is Justina Lee writing to you from Singapore. Welcome to another edition of CNBC's Daily Open.\nArtificial intelligence remains the market's favorite, with investors continuing to rotate into semiconductor and technology names as companies... [3511 chars]",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/105305605-1530503822980gettyimages-693958656.jpg?v=1571633918&w=1920&h=1080",
-      "source": "CNBC",
-      "publishedAt": "2026-07-01T02:22:35.000Z",
-      "category": "国际AI",
-      "originalUrl": "https://www.cnbc.com/2026/07/01/cnbc-daily-open-ai-demand-fuels-investors-portfolio-while-oil-posts-biggest-monthly-decline.html",
-      "aiInsight": ""
     }
   ]
 }
