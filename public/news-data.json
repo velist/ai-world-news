@@ -1,9 +1,45 @@
 {
   "success": true,
-  "timestamp": "2026-07-03T14:20:32Z",
-  "total": 30,
+  "timestamp": "2026-07-04T03:35:34Z",
+  "total": 24,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1783136016954_d3a9761c",
+      "title": "4nm近售罄、部分8nm接近满载 三星晶圆代工开始选择性接单",
+      "summary": "据报道，业内人士称，随着AI半导体需求升温、全球大型科技公司订单增加，三星电子晶圆代工部门已针对部分制程启动配额机制（allocation），将有限产能集中分配给较重要的客户和制程，将产能优先分配给现有客户，新客户订单则选择性承接。",
+      "content": "据报道，业内人士称，随着AI半导体需求升温、全球大型科技公司订单增加，三星电子晶圆代工部门已针对部分制程启动配额机制（allocation），将有限产能集中分配给较重要的客户和制程，将产能优先分配给现有客户，新客户订单则选择性承接。（新浪财经）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-07-04T03:16:30.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3880717381382148?f=rss",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783136024150_c2a2a2a5",
+      "title": "AI 正在杀死靠复杂收费的公司",
+      "summary": "产品越来越火，公司却死了。过去一年，这种反常识的死亡发生在一批公司身上——它们卖的是\"帮你搞懂难事\"，而 AI 把这件事变成了免费赠品。",
+      "content": "产品越来越火，公司却死了。过去一年，这种反常识的死亡发生在一批公司身上——它们卖的是\"帮你搞懂难事\"，而 AI 把这件事变成了免费赠品。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-04T01:51:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8052652.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783136024722_400d1dcc",
+      "title": "微软、字节、福特都在高薪招人，AI又衍生了一个新岗位",
+      "summary": "微软、字节、福特都在高薪招人，AI又衍生了一个新岗位",
+      "content": "微软砸25亿派6000人进厂，Ford召回350位工程师",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-04T01:51:15.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8052647.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1783088324560_6aa883d5",
       "title": "Claude Code 80%的提示词说删就删，Anthropic用Fable 5打了个样：AI行业的“降本”才刚刚开始",
@@ -17,52 +53,16 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783088325358_7d511e48",
-      "title": "Agent 上岗之后，企业如何治理硅基团队？",
-      "summary": "Agent 上岗之后，企业如何治理硅基团队？",
-      "content": "Agent 上岗之后，企业如何治理硅基团队？",
+      "id": "news_1783136025295_360b686b",
+      "title": "可灵AI两部作品同时拿下戛纳金狮，视频大模型闯进商业创意主战场",
+      "summary": "可灵AI两部作品同时拿下戛纳金狮，视频大模型闯进商业创意主战场",
+      "content": "当2026年的夏天，AI不再只做隐藏在制作流程里的工具，它便打开了一个比技术参数更大的商业空间。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-03T19:03:18.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/pNFHkLos3FoDNm8cQsyt?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783088325819_d03845ad",
-      "title": "从 Coding 到 Anything，Agent 正在重写工作流",
-      "summary": "从 Coding 到 Anything，Agent 正在重写工作流",
-      "content": "从 Coding 到 Anything，Agent 正在重写工作流",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-03T18:40:56.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/yM8ms1eDlrY7wvF3SXtY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783088326285_7187caa5",
-      "title": "拒绝天价账单！OpenAI、Anthropic 自研芯片，剑指英伟达“暴利”护城河",
-      "summary": "拒绝天价账单！OpenAI、Anthropic 自研芯片，剑指英伟达“暴利”护城河",
-      "content": "拒绝天价账单！OpenAI、Anthropic 自研芯片，剑指英伟达“暴利”护城河",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-03T18:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/MOqFJbvWYlJ9PXcfdfCC?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783088326741_c15742d1",
-      "title": "大晓机器人首席科学家陶大程：世界模型的使命不是完整复制世界，而是精准支撑行动",
-      "summary": "大晓机器人首席科学家陶大程：世界模型的使命不是完整复制世界，而是精准支撑行动",
-      "content": "大晓机器人首席科学家陶大程：世界模型的使命不是完整复制世界，而是精准支撑行动",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-03T15:17:15.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/tZe66KJ12UsjrqpeSiaA?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "钛媒体",
+      "publishedAt": "2026-07-03T14:23:57.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.tmtpost.com/8052433.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1783088334129_4ca12cda",
@@ -89,18 +89,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783088327148_d13f2891",
-      "title": "从生成到交付，音视频 Agent 要有生产级开发套件",
-      "summary": "从生成到交付，音视频 Agent 要有生产级开发套件",
-      "content": "从生成到交付，音视频 Agent 要有生产级开发套件",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-03T11:48:25.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/qA1Ucwbw3KZy5yIgCrVo?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1783088320486_b0ea523f",
       "title": "LongCat-2.0：美团咋卖上开源AI期房了？",
       "summary": "LongCat-2.0：美团咋卖上开源AI期房了？",
@@ -111,6 +99,30 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8050932.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783136011619_0",
+      "title": "‘The intelligent age is replacing our cognitive capabilities with AI’: WEF founder Klaus Schwab",
+      "summary": "If intelligence were to become a utility billed on a meter, then the intelligent age would only benefit the elite and those who could afford it: persp...",
+      "content": "If intelligence were to become a utility billed on a meter, then the intelligent age would only benefit the elite and those who could afford it: perspective\nThe intelligent age is replacing our cognitive capabilities with AI, and universities should ... [9424 chars]",
+      "imageUrl": "https://www.activistpost.com/wp-content/uploads/2026/06/schwab-2026-3.jpg",
+      "source": "Activist Post",
+      "publishedAt": "2026-07-03T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.activistpost.com/the-intelligent-age-is-replacing-our-cognitive-capabilities-with-ai-wef-founder-klaus-schwab/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1783136011387_1",
+      "title": "How AI Is Shortening Your Curiosity Cycle And Why It Matters At Work",
+      "summary": "Leadership Leadership Strategies How AI Is Shortening Your Curiosity Cycle And Why It Matters At Work By Dr. Diane Hamilton , Contributor. Forbes cont...",
+      "content": "One of the questions I get asked most often lately is whether artificial intelligence will make us less curious. To answer that, it helps to understand the biological process our brains go through when we become curious and how AI can affect that pro... [7676 chars]",
+      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/6a428111cada3787a147ae79/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
+      "source": "Forbes",
+      "publishedAt": "2026-07-03T07:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.forbes.com/sites/dianehamilton/2026/07/03/how-ai-is-shortening-your-curiosity-cycle-and-why-it-matters-at-work/",
+      "aiInsight": ""
     },
     {
       "id": "news_1783050034702_cce391c2",
@@ -161,7 +173,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783088310316_0",
+      "id": "news_1783136011297_2",
       "title": "Fact Check Team: Trump moves to limit OpenAI model launch as their involvement grows",
       "summary": "The Trump administration is taking a more direct role in the rollout of advanced artificial intelligence, reportedly stepping in to limit access to Op...",
       "content": "The Trump administration is taking a more direct role in the rollout of advanced artificial intelligence, reportedly stepping in to limit access to OpenAI’s newest ChatGPT model while federal officials review potential national security risks.\nAccord... [2849 chars]",
@@ -173,76 +185,16 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1783088327593_277ead16",
-      "title": "用户太蠢不配用 Fable？被Anthropic的回应气笑了：最贵的模型，最憋屈的体验",
-      "summary": "用户太蠢不配用 Fable？被Anthropic的回应气笑了：最贵的模型，最憋屈的体验",
-      "content": "用户太蠢不配用 Fable？被Anthropic的回应气笑了：最贵的模型，最憋屈的体验",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T18:36:08.000Z",
+      "id": "news_1783136011398_3",
+      "title": "A grim job outlook meets a scrappy workforce as administrative assistants harness AI",
+      "summary": "With their numbers already in decline, secretaries and administrative assistants face another growing threat: artificial intelligence tools like ChatG...",
+      "content": "With their numbers already in decline, secretaries and administrative assistants face another growing threat: artificial intelligence tools like ChatGPT and Claude that can accomplish aspects of their workload with a tap.\nEmployment projection data o... [7531 chars]",
+      "imageUrl": "https://wtop.com/wp-content/uploads/2026/07/AI_Administrative_Assistants_57553-scaled.jpg",
+      "source": "WTOP",
+      "publishedAt": "2026-07-02T17:21:55.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/HDE9Hoe3RVyNlX3CCGzV?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783088328008_f206d7eb",
-      "title": "Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
-      "summary": "Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
-      "content": "Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T17:19:52.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/KmDMAvlzBGgwu5A2kf7t?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783088328407_6465a559",
-      "title": "亚马逊云科技推出 Lambda MicroVM，提供隔离式智能体与用户代码运行环境",
-      "summary": "亚马逊云科技推出 Lambda MicroVM，提供隔离式智能体与用户代码运行环境",
-      "content": "亚马逊云科技推出 Lambda MicroVM，提供隔离式智能体与用户代码运行环境",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T17:18:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/QbFT0uMbBd8rcZ0zEfit?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783088328902_d0b81be4",
-      "title": "行业智能体时代来临：出行、货运率先破局",
-      "summary": "行业智能体时代来临：出行、货运率先破局",
-      "content": "行业智能体时代来临：出行、货运率先破局",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T16:21:51.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/k8tlXTTbFmTGOLojQVZB?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783088329333_f72d80ec",
-      "title": "如何利用 AI Agent 实现热补丁的自动化生成",
-      "summary": "如何利用 AI Agent 实现热补丁的自动化生成",
-      "content": "如何利用 AI Agent 实现热补丁的自动化生成",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T16:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/BXc66LG3pVL8ZMme0ehy?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783088329753_44c5ec83",
-      "title": "从龙蜥孵化到上游贡献：SGLang Tracing 与 AI Agent 调优实践",
-      "summary": "从龙蜥孵化到上游贡献：SGLang Tracing 与 AI Agent 调优实践",
-      "content": "从龙蜥孵化到上游贡献：SGLang Tracing 与 AI Agent 调优实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-02T15:12:15.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/o5BOhliYRHIe4ZZPrHY9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://wtop.com/business-finance/2026/07/a-grim-job-outlook-meets-a-scrappy-workforce-as-administrative-assistants-harness-ai/",
+      "aiInsight": ""
     },
     {
       "id": "news_1783001776900_c320c1ce",
@@ -279,18 +231,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8050492.html",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783088309801_1",
-      "title": "A grim job outlook meets a scrappy workforce as administrative assistants harness AI",
-      "summary": "With their numbers already in decline, secretaries and administrative assistants face another growing threat: artificial intelligence tools like ChatG...",
-      "content": "With their numbers already in decline, secretaries and administrative assistants face another growing threat: artificial intelligence tools like ChatGPT and Claude that can accomplish aspects of their workload with a tap.\nEmployment projection data o... [7194 chars]",
-      "imageUrl": "https://wtop.com/wp-content/uploads/2026/07/AI_Administrative_Assistants_57553-scaled.jpg",
-      "source": "WTOP",
-      "publishedAt": "2026-07-02T10:16:41.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://wtop.com/business-finance/2026/07/a-grim-job-outlook-meets-a-scrappy-workforce-as-administrative-assistants-harness-ai/",
-      "aiInsight": ""
     },
     {
       "id": "news_1783001758965_5008c5c8",
@@ -341,7 +281,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783088310305_2",
+      "id": "news_1783136010836_4",
       "title": "OpenAI in talks to give Trump administration a 5% stake in the company, FT reports",
       "summary": "By Hanna Ziady, CNN\nLondon (CNN) — OpenAI, the creator of ChatGPT, is reportedly discussing handing the Trump administration a 5% stake in the company...",
       "content": "By Hanna Ziady, CNN\nLondon (CNN) — OpenAI, the creator of ChatGPT, is reportedly discussing handing the Trump administration a 5% stake in the company amid growing government scrutiny of artificial intelligence firms.\nThe proposal would involve other... [942 chars]",
@@ -351,18 +291,6 @@
       "category": "国外AI",
       "originalUrl": "https://abc17news.com/money/cnn-business-consumer/2026/07/02/openai-in-talks-to-give-trump-administration-a-5-stake-in-the-company/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1782964664951_bba0d2c0",
-      "title": "AI营销“引擎”已就位，但企业的“燃油泵”准备好了么？",
-      "summary": "AI营销“引擎”已就位，但企业的“燃油泵”准备好了么？",
-      "content": "把AI当成同事，远比把AI当成工具复杂得多。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-02T03:22:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8049807.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
