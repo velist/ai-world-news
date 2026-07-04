@@ -50,11 +50,7 @@ jobs:
         with:
           path: './dist'
 
-      - name: 部署到GitHub Pages
-        id: deployment
-        uses: actions/deploy-pages@v4
-
-      # CF Pages 的 Git 集成不响应 GITHUB_TOKEN 的推送，必须在此显式部署
+      # CF Pages 是主站(news.aipush.fun)，优先部署；其 Git 集成不响应 GITHUB_TOKEN 的推送，必须在此显式部署
       - name: 部署到Cloudflare Pages
         env:
           CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
@@ -65,3 +61,7 @@ jobs:
             exit 0
           fi
           npx wrangler@4 pages deploy ./dist --project-name=ai-news --branch=main
+
+      - name: 部署到GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
