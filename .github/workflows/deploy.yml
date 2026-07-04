@@ -52,6 +52,18 @@ jobs:
         with:
           path: './dist'
 
+      # CF Pages 的 Git 集成不响应 GITHUB_TOKEN 的推送，必须在此显式部署
+      - name: 部署到Cloudflare Pages
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: 4c1d8aa164a8e9f8a174a9e89fd3bffe
+        run: |
+          if [ -z "$CLOUDFLARE_API_TOKEN" ]; then
+            echo "⚠️ 未配置 CLOUDFLARE_API_TOKEN secret，跳过 Cloudflare Pages 部署"
+            exit 0
+          fi
+          npx wrangler@4 pages deploy ./dist --project-name=ai-news --branch=main
+
   deploy:
     environment:
       name: github-pages
