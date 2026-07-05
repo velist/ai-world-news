@@ -1,9 +1,45 @@
 {
   "success": true,
-  "timestamp": "2026-07-05T03:53:47Z",
-  "total": 23,
+  "timestamp": "2026-07-05T13:51:51Z",
+  "total": 26,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1783259412055_9ff7ddcc",
+      "title": "2026 中国互联网大会 7 月 8 日开幕，将举行智能体互联网、token 经济等论坛",
+      "summary": "IT之家 7 月 5 日消息，2026（第二十五届）中国互联网大会将于 7 月 8 日-10 日在北京国家会议中心举办，论坛议程现已公布。 7 月 8 日上午，大会开幕式将在主会场举行。",
+      "content": "IT之家 7 月 5 日消息，2026（第二十五届）中国互联网大会将于 7 月 8 日-10 日在北京国家会议中心举办，论坛议程现已公布。 7 月 8 日上午，大会开幕式将在主会场举行。开幕式后，特色论坛板块重磅启幕，围绕人工智能赋能新质生产力创新发展、AI 赋能数字消费新生态、Data For AI、未来产业创新发展四大核心方向展开。行业论坛板块聚焦垂直领域，三天内将同步举办多场行业论坛，覆盖人工智能、算力网络、数据安全、数字孪生、开源生态、网络法治等关键赛道。 其中，7 月 8 日下午，算电协同发展、智能体互联网、智能体安全、算力互联网与 token 经济、智能体终端高质量发展五大论坛率先登场。 7 月 9 日，接连举办人工智能赋能医疗健康创新与应用、第四届未成年人健康使用网络、互联网基础资源创新发展、智能时代的知识产权与合规治理、OPENVELA 开源生态发展、数据安全、网民权益和个人信息保护、第三届智能体创新推进、智联招聘首届全国 AI 创新大赛总决赛等论坛。 7 月 10 日上午，数字孪生与智能城市、以法治护航新兴和未来产业发展、网络文化发展、众智 FlagOS 跨芯片智算生态四大论坛将聚焦城市治理、文化创新与生态构建。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/a07cb5b3-ff6a-478c-8ebe-d9908dbefc02.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-07-05T12:58:07.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/972/839.htm",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783259412063_cd9276cf",
+      "title": "3 年入侵 144 万个 WordPress 网站：欧洲刑警组织成功对恶意木马 SocGholish 网络犯罪团伙实施打击",
+      "summary": "IT之家 7 月 5 日消息，欧洲刑警组织（Europol）于 6 月末公布了“Operation Endgame”网络执法行动最新成果，警方成功打击了恶意木马 SocGholish 背后的犯罪团伙，查封了 106 个域名 / 服务器，清理了 14971 个已被植入恶意代码的 WordPress 网...",
+      "content": "IT之家 7 月 5 日消息，欧洲刑警组织（Europol）于 6 月末公布了“Operation Endgame”网络执法行动最新成果，警方成功打击了恶意木马 SocGholish 背后的犯罪团伙，查封了 106 个域名 / 服务器，清理了 14971 个已被植入恶意代码的 WordPress 网站。 联合参与此次行动的网络安全公司 Shadowserver 基金会发文，进一步披露本次网络执法行动具体技术细节。 IT之家参考通报获悉，黑客从 2023 年 5 月 17 日至 2026 年 5 月 25 日三年间累计入侵超过 144 万个 WordPress 网站，受影响范围覆盖全球 187 个国家和地区，涉及 1,550 个自治系统编号（ASN）、1,134,542 个域名以及 271,176 个 IP 地址。黑客在得手后主要在网站中植入恶意代码、钓鱼文件，进而传播 SocGholish 恶意木马。 研究人员认为，黑客使用了密码喷洒（Password Spraying）、暴力撞库、安全漏洞等多种手法进行批量攻击，同时还大量采用了一种名为“域名影子（Domain Shadowing）”的隐蔽技术躲避安全公司追查。 具体来说，攻击者会先入侵域名注册商或域名管理后台，然后在合法域名下悄悄创建多个恶意子域名并建立钓鱼网站，之后将这些网站藏匿于钓鱼邮件或利用搜索引擎竞价排名推销形式引导受害者点击，这种方式不仅能够绕过安全公司检测，也更容易蒙骗受害者下载安装带有恶意木马的钓鱼内容。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/fe753d39-9d52-47a1-93bb-9782e9d64531.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-07-05T12:17:22.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/972/833.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783259398300_b37d4f6f",
+      "title": "AI 越记住你，越可能\"带着偏见理解你\"",
+      "summary": "AI 越记住你，越可能\"带着偏见理解你\"",
+      "content": "从\"信息茧房\"到\"人格茧房\"，AI 个性化的认知代价",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-05T09:28:45.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8053185.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1783223518676_7cddcbed",
       "title": "最高99万！优必选机器人卖爆，但实机有落差",
@@ -125,7 +161,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783223505557_0",
+      "id": "news_1783259385954_0",
       "title": "College of Charleston embraces AI in the classroom, teaching students to use it responsibly",
       "summary": "CHARLESTON, S.C. (WCSC) — While many colleges are banning generative artificial intelligence tools like ChatGPT, professors at the College of Charlest...",
       "content": "CHARLESTON, S.C. (WCSC) — While many colleges are banning generative artificial intelligence tools like ChatGPT, professors at the College of Charleston School of Business are taking a different approach: teaching students how to use them.\nThe messag... [4565 chars]",
@@ -149,6 +185,54 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1783259403314_7d511e48",
+      "title": "Agent 上岗之后，企业如何治理硅基团队？",
+      "summary": "Agent 上岗之后，企业如何治理硅基团队？",
+      "content": "Agent 上岗之后，企业如何治理硅基团队？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-03T19:03:18.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/pNFHkLos3FoDNm8cQsyt?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783259403790_d03845ad",
+      "title": "从 Coding 到 Anything，Agent 正在重写工作流",
+      "summary": "从 Coding 到 Anything，Agent 正在重写工作流",
+      "content": "从 Coding 到 Anything，Agent 正在重写工作流",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-03T18:40:56.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/yM8ms1eDlrY7wvF3SXtY?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783259404279_7187caa5",
+      "title": "拒绝天价账单！OpenAI、Anthropic 自研芯片，剑指英伟达“暴利”护城河",
+      "summary": "拒绝天价账单！OpenAI、Anthropic 自研芯片，剑指英伟达“暴利”护城河",
+      "content": "拒绝天价账单！OpenAI、Anthropic 自研芯片，剑指英伟达“暴利”护城河",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-03T18:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/MOqFJbvWYlJ9PXcfdfCC?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783259404762_c15742d1",
+      "title": "大晓机器人首席科学家陶大程：世界模型的使命不是完整复制世界，而是精准支撑行动",
+      "summary": "大晓机器人首席科学家陶大程：世界模型的使命不是完整复制世界，而是精准支撑行动",
+      "content": "大晓机器人首席科学家陶大程：世界模型的使命不是完整复制世界，而是精准支撑行动",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-03T15:17:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/tZe66KJ12UsjrqpeSiaA?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1783136025295_360b686b",
       "title": "可灵AI两部作品同时拿下戛纳金狮，视频大模型闯进商业创意主战场",
       "summary": "可灵AI两部作品同时拿下戛纳金狮，视频大模型闯进商业创意主战场",
@@ -161,67 +245,19 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783088334129_4ca12cda",
-      "title": "DeepSeek-V4 原厂直供模型 7 月中旬登陆腾讯云，同步引入峰谷定价机制",
-      "summary": "IT之家 7 月 3 日消息，腾讯云今日发布公告，宣布其 DeepSeek-V4 正式版【原厂直供】模型计划于 2026 年 7 月中旬在腾讯云大模型服务平台 TokenHub 和智能体开发平台正式上线。该模型由 DeepSeek 原厂直接提供，本次版本更新将带来多项功能优化与性能提升。",
-      "content": "IT之家 7 月 3 日消息，腾讯云今日发布公告，宣布其 DeepSeek-V4 正式版【原厂直供】模型计划于 2026 年 7 月中旬在腾讯云大模型服务平台 TokenHub 和智能体开发平台正式上线。该模型由 DeepSeek 原厂直接提供，本次版本更新将带来多项功能优化与性能提升。 伴随正式版发布，腾讯云将同步 DeepSeek 官网引入峰谷定价机制。高峰时段定义为每日 9:00 至 12:00 和 14:00 至 18:00（北京时间）。此次定价调整涉及 DeepSeek-V4-Pro 和 DeepSeek-V4-Flash 两个版本。 DeepSeek-V4-Pro 原厂直供方面，缓存命中（元 / 百万 tokens）平时价格为 0.025 元，高峰时段为 0.05 元；推理输入（元 / 百万 tokens）平时价格为 3 元，高峰时段为 6 元；推理输出（元 / 百万 tokens）平时价格为 6 元，高峰时段为 12 元。 DeepSeek-V4-Flash 原厂直供方面，缓存命中（元 / 百万 tokens）平时价格为 0.02 元，高峰时段为 0.04 元；推理输入（元 / 百万 tokens）平时价格为 1 元，高峰时段为 2 元；推理输出（元 / 百万 tokens）平时价格为 2 元，高峰时段为 4 元。 IT之家注意到，Token Plan 企业版的积分抵扣规则在本次调整中也有所变化。以广州地域为例，DeepSeek-V4-Pro 原厂直供模型的缓存命中输入抵扣量为 2.5 积分 / 百万 tokens（平时）与 5 积分 / 百万 tokens（高峰），未命中缓存输入为 300 积分 / 百万 tokens（平时）与 600 积分 / 百万 tokens（高峰），输出为 600 积分 / 百万 tokens（平时）与 1200 积分 / 百万 tokens（高峰）。DeepSeek-V4-Flash 原厂直供模型的缓存命中输入抵扣量为 2 积分 / 百万 tokens（平时）与 4 积分 / 百万 tokens（高峰），未命中缓存输入为 100 积分 / 百万 tokens（平时）与 200 积分 / 百万 tokens（高峰），输出为 200 积分 / 百万 tokens（平时）与 400 积分 / 百万 tokens（高峰）。 在产品对接方面，大模型服务平台 TokenHub 将提供 DeepSeek-V4-Pro 原厂直供（模型参数值：deepseek-v4-pro-202606）与 DeepSeek-V4-Flash 原厂直供（模型参数值：deepseek-v4-flash-202605）两款模型；智能体开发平台同样同步上线上述两款模型。 腾讯云方面表示，将在定价生效调整前 24 小时通过邮件、站内信、短信等方式向用户提前告知。如用户在计费调整后继续选择使用相关服务，则视为已同意调整后的计费方式。 相关阅读： 《DeepSeek V4 正式版官宣 7 月中旬上线，高峰时段 API 价格翻倍》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/4c2b1bb7-b2bc-4ca0-87e2-2e808e4e5408.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-07-03T13:01:08.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/972/437.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783088334198_d0b7356a",
-      "title": "支持实时视频通话和语音控制视频走向，生数科技发布 Vidu S1 实时交互模型",
-      "summary": "IT之家 7 月 3 日消息，生数科技今日发布面向实时交互场景的新一代模型 ——Vidu S1 实时交互模型。 官方表示，Vidu S1 模型支持实时视频通话和语音控制视频走向，用户不仅能通过语音控制数字人的行为，还能实现无限时长连续互动。",
-      "content": "IT之家 7 月 3 日消息，生数科技今日发布面向实时交互场景的新一代模型 ——Vidu S1 实时交互模型。 官方表示，Vidu S1 模型支持实时视频通话和语音控制视频走向，用户不仅能通过语音控制数字人的行为，还能实现无限时长连续互动。 Vidu S1 支持 540P（960x540）高清分辨率、25FPS 帧率（最高支持 42FPS），可基于真人、动漫、萌宠等任意初始形象及个性化音色，快速创建专属交互角色。 据介绍，Vidu S1 采用自回归扩散模型 (AR + Diffusion) 路线，不再一次性生成完整视频，而是基于已经生成的历史画面，结合当前语音指令和对话上下文，持续预测并生成后续内容。 当用户发出新的语音指令时，模型可以实时理解并调整角色的表情、动作及后续视频走向，使视频从预先确定的固定内容，转变为一个持续生成、实时响应、动态演化的交互过程。 Vidu S1 已开启内测，IT之家附相关链接如下： 线上体验地址：https://www.vidu.cn/vidu-stream API 体验地址：https://platform.vidu.cn/live/landing",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/2f27ea5b-d681-4acb-9da3-06e5ead136be.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-07-03T13:00:49.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/972/436.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783088320486_b0ea523f",
-      "title": "LongCat-2.0：美团咋卖上开源AI期房了？",
-      "summary": "LongCat-2.0：美团咋卖上开源AI期房了？",
-      "content": "coming soon.",
+      "id": "news_1783259405215_d13f2891",
+      "title": "从生成到交付，音视频 Agent 要有生产级开发套件",
+      "summary": "从生成到交付，音视频 Agent 要有生产级开发套件",
+      "content": "从生成到交付，音视频 Agent 要有生产级开发套件",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-03T10:49:14.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8050932.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783223505588_1",
-      "title": "‘The intelligent age is replacing our cognitive capabilities with AI’: WEF founder Klaus Schwab",
-      "summary": "If intelligence were to become a utility billed on a meter, then the intelligent age would only benefit the elite and those who could afford it: persp...",
-      "content": "If intelligence were to become a utility billed on a meter, then the intelligent age would only benefit the elite and those who could afford it: perspective\nThe intelligent age is replacing our cognitive capabilities with AI, and universities should ... [9424 chars]",
-      "imageUrl": "https://www.activistpost.com/wp-content/uploads/2026/06/schwab-2026-3.jpg",
-      "source": "Activist Post",
-      "publishedAt": "2026-07-03T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.activistpost.com/the-intelligent-age-is-replacing-our-cognitive-capabilities-with-ai-wef-founder-klaus-schwab/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1783223504908_2",
-      "title": "How AI Is Shortening Your Curiosity Cycle And Why It Matters At Work",
-      "summary": "Leadership Leadership Strategies How AI Is Shortening Your Curiosity Cycle And Why It Matters At Work By Dr. Diane Hamilton , Contributor. Forbes cont...",
-      "content": "One of the questions I get asked most often lately is whether artificial intelligence will make us less curious. To answer that, it helps to understand the biological process our brains go through when we become curious and how AI can affect that pro... [7676 chars]",
-      "imageUrl": "https://imageio.forbes.com/specials-images/imageserve/6a428111cada3787a147ae79/0x0.jpg?format=jpg&height=900&width=1600&fit=bounds",
-      "source": "Forbes",
-      "publishedAt": "2026-07-03T07:00:00.000Z",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-03T11:48:25.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.forbes.com/sites/dianehamilton/2026/07/03/how-ai-is-shortening-your-curiosity-cycle-and-why-it-matters-at-work/",
-      "aiInsight": ""
+      "originalUrl": "https://www.infoq.cn/article/qA1Ucwbw3KZy5yIgCrVo?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783223529578_277ead16",
+      "id": "news_1783259405688_277ead16",
       "title": "用户太蠢不配用 Fable？被Anthropic的回应气笑了：最贵的模型，最憋屈的体验",
       "summary": "用户太蠢不配用 Fable？被Anthropic的回应气笑了：最贵的模型，最憋屈的体验",
       "content": "用户太蠢不配用 Fable？被Anthropic的回应气笑了：最贵的模型，最憋屈的体验",
@@ -233,7 +269,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783223530058_f206d7eb",
+      "id": "news_1783259406149_f206d7eb",
       "title": "Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
       "summary": "Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
       "content": "Agent 狂欢热潮下的冷思考：为什么规模化落地总是陷入僵局？",
@@ -245,7 +281,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783223530578_6465a559",
+      "id": "news_1783259406605_6465a559",
       "title": "亚马逊云科技推出 Lambda MicroVM，提供隔离式智能体与用户代码运行环境",
       "summary": "亚马逊云科技推出 Lambda MicroVM，提供隔离式智能体与用户代码运行环境",
       "content": "亚马逊云科技推出 Lambda MicroVM，提供隔离式智能体与用户代码运行环境",
@@ -257,7 +293,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783223531070_d0b81be4",
+      "id": "news_1783259407060_d0b81be4",
       "title": "行业智能体时代来临：出行、货运率先破局",
       "summary": "行业智能体时代来临：出行、货运率先破局",
       "content": "行业智能体时代来临：出行、货运率先破局",
@@ -269,7 +305,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783223531549_f72d80ec",
+      "id": "news_1783259407609_f72d80ec",
       "title": "如何利用 AI Agent 实现热补丁的自动化生成",
       "summary": "如何利用 AI Agent 实现热补丁的自动化生成",
       "content": "如何利用 AI Agent 实现热补丁的自动化生成",
