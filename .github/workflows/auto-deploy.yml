@@ -62,6 +62,8 @@ jobs:
           fi
           npx wrangler@4 pages deploy ./dist --project-name=ai-news --branch=main
 
+      # GH Pages 仅作备份站，偶发 "Deployment failed, try again later" 不应让整个工作流告警
       - name: 部署到GitHub Pages
         id: deployment
+        continue-on-error: true
         uses: actions/deploy-pages@v4
