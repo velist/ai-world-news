@@ -1,31 +1,91 @@
 {
   "success": true,
-  "timestamp": "2026-07-07T14:48:33Z",
+  "timestamp": "2026-07-08T03:19:06Z",
   "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1783435607651_6661cf3a",
-      "title": "AI Agent 会自己选 CDN 了：当网站访问者从 “人” 扩展到 “AI”，内容分发已升级",
-      "summary": "AI Agent 会自己选 CDN 了：当网站访问者从 “人” 扩展到 “AI”，内容分发已升级",
-      "content": "AI Agent 会自己选 CDN 了：当网站访问者从 “人” 扩展到 “AI”，内容分发已升级",
+      "id": "news_1783480639399_4db435ce",
+      "title": "虚拟座谈会：机器时代的安全——专家解读 AI 威胁的演变",
+      "summary": "虚拟座谈会：机器时代的安全——专家解读 AI 威胁的演变",
+      "content": "虚拟座谈会：机器时代的安全——专家解读 AI 威胁的演变",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-07T19:02:25.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/WNWuMomRvix0FT0dZ8yI?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-07-08T10:22:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/LhZ4t3N4yxTm3ISZvUp5?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783435608120_929ff89c",
-      "title": "把世界学习拆成两条互补路径，悟界·RoboBrain Orca 成通用世界基础模型基石",
-      "summary": "把世界学习拆成两条互补路径，悟界·RoboBrain Orca 成通用世界基础模型基石",
-      "content": "把世界学习拆成两条互补路径，悟界·RoboBrain Orca 成通用世界基础模型基石",
+      "id": "news_1783480639886_1a29bd00",
+      "title": "Target 推出基于 LLM 的语义匹配系统，提升营销预测流程效率",
+      "summary": "Target 推出基于 LLM 的语义匹配系统，提升营销预测流程效率",
+      "content": "Target 推出基于 LLM 的语义匹配系统，提升营销预测流程效率",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-07T17:41:52.000Z",
+      "publishedAt": "2026-07-08T09:09:33.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/cEfBc7qdIDe3ZVFDyjS5?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783480634595_f0cdd034",
+      "title": "AI猜球总翻车？世界杯给了大模型一次压力测试",
+      "summary": "AI猜球总翻车？世界杯给了大模型一次压力测试",
+      "content": "赛场之外，一场关于国产AI大模型的淘汰赛也进入到了考验期。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-08T02:58:07.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8052191.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783480647814_77f4579f",
+      "title": "姚顺雨 OpenAI 前同事田永龙被曝加入腾讯，混元多模态有望迎来新负责人",
+      "summary": "IT之家 7 月 8 日消息，据雷峰网昨日报道，OpenAI 前研究员 Yonglong Tian（田永龙）已于近期加入腾讯。 据称，田永龙将成为腾讯混元多模态模型方向的负责人，其后续或将参与 VLM（视觉语言模型）相关研发。不过，这笔人事变动尚未最终落定。",
+      "content": "IT之家 7 月 8 日消息，据雷峰网昨日报道，OpenAI 前研究员 Yonglong Tian（田永龙）已于近期加入腾讯。 据称，田永龙将成为腾讯混元多模态模型方向的负责人，其后续或将参与 VLM（视觉语言模型）相关研发。不过，这笔人事变动尚未最终落定。若顺利成行，这将是继姚顺雨之后，又一位从 OpenAI 核心研究团队转投腾讯混元的研究人员。 田永龙与姚顺雨的渊源可追溯至 OpenAI 共事时期。2025 年 9 月，28 岁的姚顺雨从 OpenAI 离职，加入腾讯担任“CEO / 总裁办公室”首席 AI 科学家，直接向总裁刘炽平汇报。在 OpenAI 期间，田永龙与姚顺雨在同一时期效力于研究团队，亲历了 GPT 系列与多模态技术的快速迭代。 田永龙的学术履历遵循了中国计算机视觉领域顶尖人才的典型路径。他本科毕业于清华大学，随后在香港中文大学获得研究硕士学位，师从计算机视觉领域知名学者汤晓鸥和王晓刚。在港中文 MMLab 期间，他打下了视觉识别与深度学习的基础。之后，他进入麻省理工学院 EECS 系，在生成模型领域学者 Phillip Isola 指导下攻读博士学位，于 2022 年毕业。在 MIT 期间，他的研究重心逐渐从传统视觉识别转向生成模型和表征学习。其 Google Scholar 引用数已达 28,778 次，h-index 为 35，仅 2026 年就有 3,436 次引用。 博士毕业后，田永龙于 2022 年底加入位于剑桥的 Google Research 担任高级研究科学家，随后于 2024 年 5 月转入 Google DeepMind。IT之家注意到，在 DeepMind 期间，他专注于视觉感知与生成的基础研究。此后，他转投 OpenAI 担任 Member of Technical Staff，研究方向聚焦于计算机视觉、视觉表征学习以及生成式模型。 田永龙在学术界最具影响力的工作之一是 Supervised Contrastive Learning（有监督对比学习）。该研究将对比学习框架推广到监督场景，通过将同类样本在表示空间中聚集，显著提升了视觉表示的质量，影响了 SimCLR、MoCo 等后续视觉预训练模型的设计思路。 2024 年 10 月，他发表了关于自回归文本到图像生成模型规模化的研究 Fluid。该研究发现，在视觉领域使用连续 token 而非离散 token 的自回归模型在视觉质量上显著更优，同时随机生成顺序相比固定光栅顺序能获得更好效果。团队基于这些发现训练了 Fluid 10.5B 模型。 此外，他还参与了 Autoregressive Image Generation without Vector Quantization（与何恺明、Tianhong Li 合作）、Learning Vision from Models Rivals Learning Vision from Data（CVPR 2024）以及 Scaling Laws of Synthetic Images for Model Training（CVPR 2024）等研究工作。 田永龙的加入，是腾讯混元多模态团队近一年来一系列人事调整的最新一环。2024 年底，原负责多模态统筹的腾讯混元大模型技术负责人之一刘威从腾讯离职，创办公司主攻视频生成。刘威离职后，多模态方向一度由腾讯副总裁蒋杰直接负责。 2025 年 4 月，腾讯在技术工程事业群（TEG）体系内正式成立大语言模型部与多模态模型部，试图从组织架构上解决此前“虚拟团队、资源分散”的问题。此后，腾讯在多模态方向持续引入人才：2025 年初，前微软亚洲研究院视觉计算组首席研究员胡瀚加入腾讯，负责多模态大模型研发；2025 年 7 月，原阿里通义实验室应用视觉团队负责人薄列峰加入混元团队；2026 年 1 月，清华大学计算机系博士庞天宇加盟，负责多模态强化学习前沿算法探索。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/ca63d209-8dd4-41c4-b58b-eb946fccb454.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-07-08T02:57:08.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/973/892.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783480635348_67948d62",
+      "title": "Blueprints on the Dark Web: How India’s Epic Apple Leak Shattered the Secrecy of the Tech Supply Chain",
+      "summary": "Blueprints on the Dark Web: How India’s Epic Apple Leak Shattered the Secrecy of the Tech Supply Chain...",
+      "content": "A catastrophic 630-gigabyte data breach at Apple’s Indian manufacturing partner, Tata Electronics, has exposed highly confidential blueprints and unit procurement costs for the unreleased iPhone 18 Pro onto the dark web. As Apple aggressively shifts production out of its traditional hubs to meet diversification goals, this historic leak highlights a severe vulnerability in regional security infrastructure. The incident stands in stark contrast to the airtight, fortress-like physical and digital discipline engineered across the Chinese Mainland supply chain, proving that the tech giant's rapid global expansion has dangerously outpaced the cyber-armor of its newest manufacturing frontier.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-08T02:39:02.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8056862.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783480636133_de1a23fe",
+      "title": "实测微信小微：一个“生在微信里”的AI，边界在哪里",
+      "summary": "实测微信小微：一个“生在微信里”的AI，边界在哪里",
+      "content": "“浅层桥接”的定位决定了，小微离真正的深度集成还需要时间。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-08T02:27:21.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/HpkpCVSwAHQXAhphZm34?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8054184.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783480640351_3cb0b566",
+      "title": "企业微信首款 AI 硬件：出门问问TicNote合作款正式发布",
+      "summary": "企业微信首款 AI 硬件：出门问问TicNote合作款正式发布",
+      "content": "企业微信首款 AI 硬件：出门问问TicNote合作款正式发布",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-07T23:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/CiwPd7c4oYfzqBGMbotV?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -39,42 +99,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/CSS70hYSA57JBUMLdf7L?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783435609842_16f4a85a",
-      "title": "让 AI 真正“懂时间”：QC-MHM 时序知识图谱问答的全新突破 | AAAI",
-      "summary": "让 AI 真正“懂时间”：QC-MHM 时序知识图谱问答的全新突破 | AAAI",
-      "content": "让 AI 真正“懂时间”：QC-MHM 时序知识图谱问答的全新突破 | AAAI",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-07T16:54:10.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/pAGx3GoLbi16BwUsoKw7?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783435610271_a39c5096",
-      "title": "开源AI编程工具第一来啦：智谱GLM-5.2上线模力工场，还有专属折扣！",
-      "summary": "开源AI编程工具第一来啦：智谱GLM-5.2上线模力工场，还有专属折扣！",
-      "content": "开源AI编程工具第一来啦：智谱GLM-5.2上线模力工场，还有专属折扣！",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-07T15:04:51.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/woKuALR13UH0o9XicUlZ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783435610625_26eecbfc",
-      "title": "Elastic 开源了基于认知科学的 Atlas Agent Memory",
-      "summary": "Elastic 开源了基于认知科学的 Atlas Agent Memory",
-      "content": "Elastic 开源了基于认知科学的 Atlas Agent Memory",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-07T14:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/pzYuRUO0ECSKktJjKV8P?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1783435596877_37f5fc14",
@@ -99,6 +123,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/69BcusNft9EhAtSdqaYW?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783480644210_a4941216",
+      "title": "亚马逊云科技发布用于成本分析和优化的 FinOps Agent 预览版",
+      "summary": "亚马逊云科技发布用于成本分析和优化的 FinOps Agent 预览版",
+      "content": "亚马逊云科技发布用于成本分析和优化的 FinOps Agent 预览版",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-07T10:31:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/OtPug093U3A6NXXhxdiW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1783435602944_a6a14597",
@@ -221,31 +257,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783435611710_ba9880cc",
-      "title": "世界模型炒作了半年，反应速度还不如 VLA？穆尧团队和百度智能云给出最新解法",
-      "summary": "世界模型炒作了半年，反应速度还不如 VLA？穆尧团队和百度智能云给出最新解法",
-      "content": "世界模型炒作了半年，反应速度还不如 VLA？穆尧团队和百度智能云给出最新解法",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-06T19:50:19.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/Lb4pQTNTQdq657Gzj7EI?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783435612126_8e7a5810",
-      "title": "Linus 再谈 AI：大模型能写 Demo，但对复杂系统要有敬畏之心",
-      "summary": "Linus 再谈 AI：大模型能写 Demo，但对复杂系统要有敬畏之心",
-      "content": "Linus 再谈 AI：大模型能写 Demo，但对复杂系统要有敬畏之心",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-06T18:19:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/11fNtPYf59T76fyQkiPa?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783435590875_0",
+      "id": "news_1783480623827_1",
       "title": "FCA Official Urges Crackdown on OpenAI, Google, and Anthropic AI Models",
       "summary": "A senior U.K. Financial Conduct Authority (FCA) official, Sheldon Mills, said the country should consider regulating well-known artificial intelligenc...",
       "content": "A senior U.K. Financial Conduct Authority (FCA) official, Sheldon Mills, said the country should consider regulating well-known artificial intelligence (AI) models such as OpenAI’s ChatGPT, Anthropic’s Claude, and Google’s (GOOGL) Gemini. The proposa... [2117 chars]",
@@ -255,30 +267,6 @@
       "category": "科技新闻",
       "originalUrl": "https://markets.businessinsider.com/news/stocks/fca-official-urges-crackdown-on-openai-google-and-anthropic-ai-models-1036301462",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1783435612493_57a21c07",
-      "title": "Agentic 范式下的视频画质优化：火山引擎的新路径",
-      "summary": "Agentic 范式下的视频画质优化：火山引擎的新路径",
-      "content": "Agentic 范式下的视频画质优化：火山引擎的新路径",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-06T17:06:04.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Gx6eXWNCqcVkET9wFZq9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783435612876_5d9beacd",
-      "title": "腾讯混元Hy3正式发布，元宝同步上线Hy3 Agent能力、免费开放",
-      "summary": "腾讯混元Hy3正式发布，元宝同步上线Hy3 Agent能力、免费开放",
-      "content": "腾讯混元Hy3正式发布，元宝同步上线Hy3 Agent能力、免费开放",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-06T16:22:01.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/2IGjsbCMxxHjLGPJ7tls?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1783352544894_843bc7dd",
@@ -363,6 +351,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8054022.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783480622949_2",
+      "title": "Drones Use Machine Learning to Predict Mechanical Failures, Researchers Say",
+      "summary": "Researchers have developed a system that enables drones to detect anomalies and predict mechanical failures in real time, according to a report. The s...",
+      "content": "Researchers have developed a system that enables drones to detect anomalies and predict mechanical failures in real time, according to a report. The system uses onboard sensors and machine learning algorithms to monitor variables such as motor curren... [4643 chars]",
+      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/07/drones-machine-learning-mechanical-failure-prediction-2516-original.jpg",
+      "source": "Natural News",
+      "publishedAt": "2026-07-06T05:10:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.naturalnews.com/2026-07-06-drones-use-machine-learning-predict-mechanical-failures.html",
+      "aiInsight": ""
     }
   ]
 }
