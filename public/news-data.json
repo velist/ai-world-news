@@ -1,9 +1,93 @@
 {
   "success": true,
-  "timestamp": "2026-07-09T03:43:35Z",
-  "total": 27,
+  "timestamp": "2026-07-09T15:21:17Z",
+  "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1783610375928_dccf6929",
+      "title": "Agent 进化论：从对话到协作",
+      "summary": "Agent 进化论：从对话到协作",
+      "content": "Agent 进化论：从对话到协作",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-09T17:58:01.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/6StbVmZr0cicGREVjwZu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783610376459_5b569fb2",
+      "title": "百万上下文下的 DeepSeek V4：SGLang 推理优化实战｜AICon深圳",
+      "summary": "百万上下文下的 DeepSeek V4：SGLang 推理优化实战｜AICon深圳",
+      "content": "百万上下文下的 DeepSeek V4：SGLang 推理优化实战｜AICon深圳",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-09T16:15:15.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/qALuq71AxiG5VLmWqSzU?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783610377000_93c9d597",
+      "title": "Snowflake CoWork：每位知识工作者的专属工作 Agent ｜ 技术趋势",
+      "summary": "Snowflake CoWork：每位知识工作者的专属工作 Agent ｜ 技术趋势",
+      "content": "Snowflake CoWork：每位知识工作者的专属工作 Agent ｜ 技术趋势",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-09T16:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/VoJ3wVeUv5txrOYqSYpR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783610377550_a111b82d",
+      "title": "首个具身视频基模开源！LingBot-Video 如何为“机器人大脑”构建物理引擎？",
+      "summary": "首个具身视频基模开源！LingBot-Video 如何为“机器人大脑”构建物理引擎？",
+      "content": "首个具身视频基模开源！LingBot-Video 如何为“机器人大脑”构建物理引擎？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-09T15:32:04.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/SCC8javdsA2zgBg0c2C1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783610384754_e6745086",
+      "title": "Meta 正式向开发者开放 Muse Spark AI 模型 API，加入 AI 商业化竞争",
+      "summary": "IT之家 7 月 9 日消息，Meta Platforms 今日正式向开发者开 Muse Spark AI 模型 API，同时发布了升级版 Muse Spark 1.1。此举意味着 Meta 正式加入 AI 模型商业化竞争，与 Anthropic、OpenAI 等公司一样，开始通过模型调用收费。",
+      "content": "IT之家 7 月 9 日消息，Meta Platforms 今日正式向开发者开 Muse Spark AI 模型 API，同时发布了升级版 Muse Spark 1.1。此举意味着 Meta 正式加入 AI 模型商业化竞争，与 Anthropic、OpenAI 等公司一样，开始通过模型调用收费。 Meta 表示，Muse Spark 1.1 是公司迄今在真实世界编程（Coding）和 AI Agent（智能体）任务方面能力最强的模型，也是其打造“个人超级智能（Personal Superintelligence）”战略的重要组成部分。 据介绍，新版模型具备以下能力： 编写和调试代码； 操作软件及调用外部工具； 理解文本、图片和视频内容； 在更少人工干预的情况下完成复杂的多步骤任务。 今年 4 月，Meta 首次发布了 Muse Spark。这是 Meta 去年组建“超级智能（Superintelligence）”团队后推出的首款文本推理模型，旨在缩小与竞争对手在 AI 领域的差距。 发布之初，Meta 仅向部分合作伙伴开放了应用程序接口（API）私测。API 是 AI 模型商业化的重要基础，它相当于连接开发者与 AI 模型的“数字桥梁”，开发者可将模型能力集成到自己的应用和软件中。 如今，美国开发者已可通过 Meta Model API 公开预览版使用 Muse Spark，对模型进行提示词测试、输出效果比较以及应用原型开发。 注册 API 的开发者可获得 20 美元免费额度，用于体验模型，之后则按调用量付费。Meta 公布的定价为：每百万输入 Token 收费 1.25 美元；每百万输出 Token 收费 4.25 美元。 这一价格高于 OpenAI 入门级 GPT-5 mini 以及 Anthropic 主打低成本的 Claude Haiku 4.5，但低于 Anthropic 高端模型 Claude Sonnet 4.6。 除了开放 API 外，Muse Spark 1.1 已在 Meta AI 应用和网页版中以 Thinking（思考）模式上线。 未来，该模型还将逐步取代目前驱动 WhatsApp、Instagram、Facebook 以及 Meta 智能眼镜聊天机器人的 Llama 系列模型。 IT之家注意到，此次发布紧随 Meta 本周二的另一项 AI 更新。当时，公司宣布将生成式 AI 功能扩展至旗下各款应用，并推出了来自 Meta Superintelligence Labs 的首款图像生成模型 Muse Image。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/c66171f0-7374-49f1-ae17-a2827009daae.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-07-09T14:40:59.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/974/775.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783610370952_f34b8d46",
+      "title": "中国AI产业的三大优势（上）",
+      "summary": "中国AI产业的三大优势（上）",
+      "content": "AI产业的竞争，本质上是一场贯穿全产业链的国力较量。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-09T09:38:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8058613.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783610372796_f5ba783e",
+      "title": "华为天才少年与DeepSeek冲突背后，梁文锋的人才观是什么？",
+      "summary": "华为天才少年与DeepSeek冲突背后，梁文锋的人才观是什么？",
+      "content": "在招聘这件事上，梁文锋就是马斯克。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-09T09:30:52.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8058654.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1783568503968_ba6631bb",
       "title": "字节、美团、亚马逊都在“收拾”中层，AI抽走了他们最值钱的东西",
@@ -77,6 +161,66 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1783610354961_0",
+      "title": "With Anthropic expansion, will NYC stifle Boston's AI resurgence?",
+      "summary": "A quick check of Anthropic’s jobs page fills out the story. The company lists more than 200 open positions in New York compared to just 5 in Boston. M...",
+      "content": "The Boston tech scene’s AI mojo has been mounting, with a free-wheeling mega conference in May, dozens more events put on by the Mass. AI Coalition, and a growing list of startups raising big bucks.\nBut the news out of New York City this week had me ... [6213 chars]",
+      "imageUrl": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/IMFTZN5GZXGETO7RPSPX5KW3IE.jpg?auth=0d60e77af782a2d223493af61626621c028c025e4e38c600f096e513a5d8d76a&width=1440",
+      "source": "The Boston Globe",
+      "publishedAt": "2026-07-08T23:01:59.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bostonglobe.com/2026/07/08/business/ai-new-york-boston-jobs-talent/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1783610354138_1",
+      "title": "OpenAI Says Its New Voice Assistant Is 'One Step Closer to a Truly Accessible AGI’",
+      "summary": "OpenAI just dropped a new AI model that’s designed to sound like an actual, human conversation partner—and the company says it marks a step closer to ...",
+      "content": "OpenAI just dropped a new AI model that’s designed to sound like an actual, human conversation partner—and the company says it marks a step closer to AGI.\nFor years, OpenAI has been investing in the development of AI tools that can speak in humanlike... [4068 chars]",
+      "imageUrl": "https://gizmodo.com/app/uploads/2025/12/chatgpt-on-smartphone-1200x675.jpg",
+      "source": "Gizmodo",
+      "publishedAt": "2026-07-08T22:00:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://gizmodo.com/the-future-is-always-listening-openai-says-its-new-voice-assistant-is-one-step-closer-to-a-truly-accessible-agi-2000783210",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1783610354686_2",
+      "title": "US crackdown on top AI fuels open",
+      "summary": "The US governments shock moves to restrict access to top artificial intelligence systems from Anthropic and OpenAI have sparked growing interest in op...",
+      "content": "The US government’s shock moves to restrict access to top artificial intelligence systems from Anthropic and OpenAI have sparked growing interest in open-source models — especially ones from China.\nThe de facto bans from an anti-regulation White Hous... [3657 chars]",
+      "imageUrl": "https://media.breitbart.com/media/2026/07/wi/afp/09dac12ebaf50ce8a7092bb71672c8590ea13bcc-models-china-deepseek-gaining-fans-close-640x335.jpg",
+      "source": "Breitbart News Network",
+      "publishedAt": "2026-07-08T20:34:12.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.breitbart.com/news/us-crackdown-on-top-ai-fuels-open-source-surge/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1783610354448_3",
+      "title": "BofA's $520 Million OpenAI Loan Signals Wall Street's Race For AI IPOs",
+      "summary": "The credit line is BofA’s first loan to OpenAI. The bank’s internal figures reviewed by Reuters show it has participated in raising close to $500 bill...",
+      "content": "The credit line is BofA’s first loan to OpenAI. The bank’s internal figures reviewed by Reuters show it has participated in raising close to $500 billion for AI-linked issuers since 2025, spanning investment-grade debt, leveraged finance and equity d... [1027 chars]",
+      "imageUrl": "https://cdn.benzinga.com/cdn-cgi/image/width=1200,height=800,fit=crop/files/images/story/2026/07/08/2024-11-15-Los-Angeles-Usa-Bank-Of-Ameri.jpg",
+      "source": "Benzinga",
+      "publishedAt": "2026-07-08T19:15:36.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.benzinga.com/markets/private-markets/26/07/60344491/bofas-520-million-openai-loan-signals-wall-streets-race-for-ai-ipos",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1783610354165_4",
+      "title": "Maybe Anthropic and OpenAI Are Not the Future of Artificial Intelligence",
+      "summary": "Last week, the Palantir chief executive Alex Karp made one of his more remarkable television appearances in what is quickly becoming a notorious run o...",
+      "content": "Last week, the Palantir chief executive Alex Karp made one of his more remarkable television appearances in what is quickly becoming a notorious run of televised rants.\n“Something has gone completely wrong,” he declared on CNBC, in an appearance so v... [3730 chars]",
+      "imageUrl": "https://static01.nyt.com/images/2026/07/08/opinion/08wallace-wells-newsletter/08wallace-wells-newsletter-facebookJumbo.jpg",
+      "source": "The New York Times",
+      "publishedAt": "2026-07-08T19:00:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.nytimes.com/2026/07/08/opinion/openai-anthropic-palantir-alex-karp.html",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1783520704691_6d5b8377",
       "title": "“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论",
       "summary": "“300行代码写个Cursor，这是AI时代软件工程师的新底线。”Ralph Loop创造者、Claude Code核心技术设计者的暴论...",
@@ -89,7 +233,19 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783568491547_0",
+      "id": "news_1783610378550_d4f81aa3",
+      "title": "Cube Sandbox正式支持Arm架构！腾讯云与Arm联手解锁Agent多架构算力",
+      "summary": "Cube Sandbox正式支持Arm架构！腾讯云与Arm联手解锁Agent多架构算力",
+      "content": "Cube Sandbox正式支持Arm架构！腾讯云与Arm联手解锁Agent多架构算力",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-08T16:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/c4GEoZLWvNZQhSSSWAoH?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783610354175_5",
       "title": "BofA saw OpenAI as too risky, but now the bank wants to cash in on IPO",
       "summary": "By Sridhar Natarajan, Katherine Doherty, Liana Baker and Shirin Ghaffary, Bloomberg\nBank of America Corp. handed a $520 million credit line to OpenAI ...",
       "content": "By Sridhar Natarajan, Katherine Doherty, Liana Baker and Shirin Ghaffary, Bloomberg\nBank of America Corp. handed a $520 million credit line to OpenAI in recent weeks after previously spurning the artificial intelligence giant’s request, according to ... [5714 chars]",
@@ -101,7 +257,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1783568492118_1",
+      "id": "news_1783610354308_6",
       "title": "OpenAI Has Developed Its Most Advanced Model Yet. The U.S. Government Cleared Its Rollout",
       "summary": "The U.S. government has cleared OpenAI to move ahead with a broad rollout of its GPT-5.6 family of artificial intelligence models, ending weeks of res...",
       "content": "The U.S. government has cleared OpenAI to move ahead with a broad rollout of its GPT-5.6 family of artificial intelligence models, ending weeks of restricted access that had limited the technology to a small group of vetted partners during additional... [2755 chars]",
@@ -185,7 +341,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783568491909_2",
+      "id": "news_1783610354343_7",
       "title": "OpenAI gets US approval for broad GPT-5.6 rollout, Axios reports",
       "summary": "July 7 (Reuters) - The U.S. Department of Commerce has approved a broad launch of OpenAI's advanced GPT-5.6 model following ​additional government tes...",
       "content": "July 7 (Reuters) - The U.S. Department of Commerce has approved a broad launch of OpenAI's advanced GPT-5.6 model following ​additional government testing under Washington's new oversight framework for frontier ‌artificial intelligence, Axios reporte... [1800 chars]",
@@ -207,126 +363,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8052191.html",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783480647814_77f4579f",
-      "title": "姚顺雨 OpenAI 前同事田永龙被曝加入腾讯，混元多模态有望迎来新负责人",
-      "summary": "IT之家 7 月 8 日消息，据雷峰网昨日报道，OpenAI 前研究员 Yonglong Tian（田永龙）已于近期加入腾讯。 据称，田永龙将成为腾讯混元多模态模型方向的负责人，其后续或将参与 VLM（视觉语言模型）相关研发。不过，这笔人事变动尚未最终落定。",
-      "content": "IT之家 7 月 8 日消息，据雷峰网昨日报道，OpenAI 前研究员 Yonglong Tian（田永龙）已于近期加入腾讯。 据称，田永龙将成为腾讯混元多模态模型方向的负责人，其后续或将参与 VLM（视觉语言模型）相关研发。不过，这笔人事变动尚未最终落定。若顺利成行，这将是继姚顺雨之后，又一位从 OpenAI 核心研究团队转投腾讯混元的研究人员。 田永龙与姚顺雨的渊源可追溯至 OpenAI 共事时期。2025 年 9 月，28 岁的姚顺雨从 OpenAI 离职，加入腾讯担任“CEO / 总裁办公室”首席 AI 科学家，直接向总裁刘炽平汇报。在 OpenAI 期间，田永龙与姚顺雨在同一时期效力于研究团队，亲历了 GPT 系列与多模态技术的快速迭代。 田永龙的学术履历遵循了中国计算机视觉领域顶尖人才的典型路径。他本科毕业于清华大学，随后在香港中文大学获得研究硕士学位，师从计算机视觉领域知名学者汤晓鸥和王晓刚。在港中文 MMLab 期间，他打下了视觉识别与深度学习的基础。之后，他进入麻省理工学院 EECS 系，在生成模型领域学者 Phillip Isola 指导下攻读博士学位，于 2022 年毕业。在 MIT 期间，他的研究重心逐渐从传统视觉识别转向生成模型和表征学习。其 Google Scholar 引用数已达 28,778 次，h-index 为 35，仅 2026 年就有 3,436 次引用。 博士毕业后，田永龙于 2022 年底加入位于剑桥的 Google Research 担任高级研究科学家，随后于 2024 年 5 月转入 Google DeepMind。IT之家注意到，在 DeepMind 期间，他专注于视觉感知与生成的基础研究。此后，他转投 OpenAI 担任 Member of Technical Staff，研究方向聚焦于计算机视觉、视觉表征学习以及生成式模型。 田永龙在学术界最具影响力的工作之一是 Supervised Contrastive Learning（有监督对比学习）。该研究将对比学习框架推广到监督场景，通过将同类样本在表示空间中聚集，显著提升了视觉表示的质量，影响了 SimCLR、MoCo 等后续视觉预训练模型的设计思路。 2024 年 10 月，他发表了关于自回归文本到图像生成模型规模化的研究 Fluid。该研究发现，在视觉领域使用连续 token 而非离散 token 的自回归模型在视觉质量上显著更优，同时随机生成顺序相比固定光栅顺序能获得更好效果。团队基于这些发现训练了 Fluid 10.5B 模型。 此外，他还参与了 Autoregressive Image Generation without Vector Quantization（与何恺明、Tianhong Li 合作）、Learning Vision from Models Rivals Learning Vision from Data（CVPR 2024）以及 Scaling Laws of Synthetic Images for Model Training（CVPR 2024）等研究工作。 田永龙的加入，是腾讯混元多模态团队近一年来一系列人事调整的最新一环。2024 年底，原负责多模态统筹的腾讯混元大模型技术负责人之一刘威从腾讯离职，创办公司主攻视频生成。刘威离职后，多模态方向一度由腾讯副总裁蒋杰直接负责。 2025 年 4 月，腾讯在技术工程事业群（TEG）体系内正式成立大语言模型部与多模态模型部，试图从组织架构上解决此前“虚拟团队、资源分散”的问题。此后，腾讯在多模态方向持续引入人才：2025 年初，前微软亚洲研究院视觉计算组首席研究员胡瀚加入腾讯，负责多模态大模型研发；2025 年 7 月，原阿里通义实验室应用视觉团队负责人薄列峰加入混元团队；2026 年 1 月，清华大学计算机系博士庞天宇加盟，负责多模态强化学习前沿算法探索。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/ca63d209-8dd4-41c4-b58b-eb946fccb454.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-07-08T02:57:08.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/973/892.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783480635348_67948d62",
-      "title": "Blueprints on the Dark Web: How India’s Epic Apple Leak Shattered the Secrecy of the Tech Supply Chain",
-      "summary": "Blueprints on the Dark Web: How India’s Epic Apple Leak Shattered the Secrecy of the Tech Supply Chain...",
-      "content": "A catastrophic 630-gigabyte data breach at Apple’s Indian manufacturing partner, Tata Electronics, has exposed highly confidential blueprints and unit procurement costs for the unreleased iPhone 18 Pro onto the dark web. As Apple aggressively shifts production out of its traditional hubs to meet diversification goals, this historic leak highlights a severe vulnerability in regional security infrastructure. The incident stands in stark contrast to the airtight, fortress-like physical and digital discipline engineered across the Chinese Mainland supply chain, proving that the tech giant's rapid global expansion has dangerously outpaced the cyber-armor of its newest manufacturing frontier.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-08T02:39:02.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8056862.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783480636133_de1a23fe",
-      "title": "实测微信小微：一个“生在微信里”的AI，边界在哪里",
-      "summary": "实测微信小微：一个“生在微信里”的AI，边界在哪里",
-      "content": "“浅层桥接”的定位决定了，小微离真正的深度集成还需要时间。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-08T02:27:21.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8054184.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783568491902_3",
-      "title": "Large language models as versatile predictive engines for notifiable infectious diseases",
-      "summary": "Introduction\nAccurate forecasting of infectious disease cases and deaths is critical for timely public health interventions and epidemic control [1]. ...",
-      "content": "Introduction\nAccurate forecasting of infectious disease cases and deaths is critical for timely public health interventions and epidemic control [1]. Predictive models can help identify epidemic trends early and inform public health interventions by ... [46723 chars]",
-      "imageUrl": "https://journals.plos.org/digitalhealth/article/figure/image?id=10.1371/journal.pdig.0001527.g003&size=inline",
-      "source": "PLOS (Public Library of Science)",
-      "publishedAt": "2026-07-08T00:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://journals.plos.org/digitalhealth/article?id=10.1371%2Fjournal.pdig.0001527",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1783435608896_d550a93c",
-      "title": "微软通过 Copilot Autofix 将基于 AI 的漏洞修复功能引入 Azure DevOps",
-      "summary": "微软通过 Copilot Autofix 将基于 AI 的漏洞修复功能引入 Azure DevOps...",
-      "content": "微软通过 Copilot Autofix 将基于 AI 的漏洞修复功能引入 Azure DevOps",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-07T17:23:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/CSS70hYSA57JBUMLdf7L?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783435596877_37f5fc14",
-      "title": "SpaceX旗下Colossus数据中心遭关停令，450亿美元协议面临风险",
-      "summary": "一项诉讼请求法院下令SpaceX关闭为其Colossus 2数据中心供电的燃气轮机，理由是其在未取得所需许可的情况下运营。该诉讼可能会危及SpaceX与Anthropic签订的450亿美元合同中的部分内容。",
-      "content": "一项诉讼请求法院下令SpaceX关闭为其Colossus 2数据中心供电的燃气轮机，理由是其在未取得所需许可的情况下运营。该诉讼可能会危及SpaceX与Anthropic签订的450亿美元合同中的部分内容。下级法院很可能会下令在获得许可期间关停这些涡轮机，但也可能会给予SpaceX一定的时间来遵守规定。（财联社）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-07-07T12:49:13.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://36kr.com/newsflashes/3885567094583304?f=rss",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783435610983_676e576d",
-      "title": "Java 近期新闻：Hardwood 1.0、Endive 1.0、Azul Payara、Quarkus、WildFly、LangChain4j、OSSI",
-      "summary": "Java 近期新闻：Hardwood 1.0、Endive 1.0、Azul Payara、Quarkus、WildFly、LangChain4j、OSSI...",
-      "content": "Java 近期新闻：Hardwood 1.0、Endive 1.0、Azul Payara、Quarkus、WildFly、LangChain4j、OSSI",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-07T12:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/69BcusNft9EhAtSdqaYW?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783435602944_a6a14597",
-      "title": "一份内部报告显示，美国财政部开始评估AI泡沫风险",
-      "summary": "一份内部报告显示，美国财政部开始评估AI泡沫风险",
-      "content": "“AI正在重演2000年互联网泡沫，一旦破裂，冲击将穿透整个经济体系。”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-07T09:54:26.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8055875.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783435604157_401d69f6",
-      "title": "混元3正式版拿了高分，腾讯全家桶可以放心用了",
-      "summary": "混元3正式版拿了高分，腾讯全家桶可以放心用了",
-      "content": "搜索追平GPT-5.5，幻觉率减半。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-07T09:54:21.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8054278.html",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783435604604_63cd651a",
-      "title": "父亲手搓AI工具，让自闭症孩子说出了“我爱你”",
-      "summary": "父亲手搓AI工具，让自闭症孩子说出了“我爱你”",
-      "content": "还意外做成了一门小生意。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-07T09:50:10.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8055867.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
