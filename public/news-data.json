@@ -1,44 +1,116 @@
 {
   "success": true,
-  "timestamp": "2026-07-10T14:39:16Z",
+  "timestamp": "2026-07-11T02:59:13Z",
   "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1783694251808_53f87485",
-      "title": "AI时代最被低估的创业资本，不是技术，是你的“老本行”",
-      "summary": "AI时代最被低估的创业资本，不是技术，是你的“老本行”",
-      "content": "AI时代最被低估的创业资本，不是技术，是你的“老本行”",
+      "id": "news_1783738648596_c8806f0a",
+      "title": "从 HAMi 到 HAMi-DRA：异构环境的算力资源管理实践｜AICon深圳",
+      "summary": "从 HAMi 到 HAMi-DRA：异构环境的算力资源管理实践｜AICon深圳",
+      "content": "从 HAMi 到 HAMi-DRA：异构环境的算力资源管理实践｜AICon深圳",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-10T17:49:06.000Z",
+      "publishedAt": "2026-07-11T10:00:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/KAweBbBoUV2ufYlocaul?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/fRMquPuKMsj6zkyFmO6P?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783694252035_06b461eb",
-      "title": "精彩预告：从看见问题到解决问题，Agent 正重新定义可观测？",
-      "summary": "精彩预告：从看见问题到解决问题，Agent 正重新定义可观测？",
-      "content": "精彩预告：从看见问题到解决问题，Agent 正重新定义可观测？",
+      "id": "news_1783738649209_74932d75",
+      "title": "Airbnb 分享 Kubernetes 动态配置 Sidecar Sitar-agent 的架构",
+      "summary": "Airbnb 分享 Kubernetes 动态配置 Sidecar Sitar-agent 的架构",
+      "content": "Airbnb 分享 Kubernetes 动态配置 Sidecar Sitar-agent 的架构",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-10T15:30:00.000Z",
+      "publishedAt": "2026-07-11T09:00:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/GqOVrgegDNS1TDrwGLK4?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/fO5byVPuZwwlBPosijBV?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783694252637_3abca164",
-      "title": "从零开始预训练，蚂蚁灵波发布具身原生世界动作模型LingBot-VA 2.0",
-      "summary": "从零开始预训练，蚂蚁灵波发布具身原生世界动作模型LingBot-VA 2.0",
-      "content": "从零开始预训练，蚂蚁灵波发布具身原生世界动作模型LingBot-VA 2.0",
+      "id": "news_1783738658535_c9f129fe",
+      "title": "消息称 OpenAI 安全系统负责人 Johannes Heidecke 即将离职",
+      "summary": "IT之家 7 月 11 日消息，据《连线》杂志昨天报道，OpenAI 安全系统负责人约翰内斯 · 海德克（Johannes Heidecke）已在本周向员工表示，自己即将离开公司。本次职位变动发生在 OpenAI 调整组织架构之后，旨在进一步整合公司研究团队与安全团队。",
+      "content": "IT之家 7 月 11 日消息，据《连线》杂志昨天报道，OpenAI 安全系统负责人约翰内斯 · 海德克（Johannes Heidecke）已在本周向员工表示，自己即将离开公司。本次职位变动发生在 OpenAI 调整组织架构之后，旨在进一步整合公司研究团队与安全团队。 内部备忘录显示，OpenAI 首席研究官 Mark Chen 表示，公司安全团队今后将向研究副总裁米娅 · 格拉斯（IT之家注：Mia Glaese）汇报工作，而格拉斯本人今后也将担任研究与安全副总裁。 约翰内斯 · 海德克于 2021 年加入 OpenAI，最初担任 AI 安全分析师。2024 年，OpenAI 前任安全系统负责人 Lilian Weng 离职后，海德克接过了这一职位。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/165f85fc-a781-4357-a90c-48fbf4713727.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-07-11T02:32:59.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/975/404.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783738658598_a3951c2a",
+      "title": "路透社实测发现，Meta 检测工具面对裁剪后的自家 AI 生成图片竟然“失灵”",
+      "summary": "IT之家 7 月 11 日消息，路透社 10 日披露的测试结果显示，Meta 本周公布的一款 AI 图像检测工具存在明显局限：部分由 Meta 自家模型 Muse Image 生成的图片只要经过裁剪，检测工具便无法确认其 AI 来源。",
+      "content": "IT之家 7 月 11 日消息，路透社 10 日披露的测试结果显示，Meta 本周公布的一款 AI 图像检测工具存在明显局限：部分由 Meta 自家模型 Muse Image 生成的图片只要经过裁剪，检测工具便无法确认其 AI 来源。 Meta 在推出 Muse Image 的同时介绍了这款检测工具，并声称即使图片经过裁剪，工具仍可识别由 Meta AI 生成的内容。不过，路透社的测试结果显示，常见的图片修改操作就可能削弱检测能力。 路透社使用 Muse Image 生成了 40 张图片。检测工具成功识别了全部原图，但同一批图片被裁剪至原图约三分之一至二分之一大小后，55% 的图片无法通过验证。 据IT之家了解，Muse Image 会在每张生成图片中嵌入名为 Content Seal 的隐形水印。Meta 在官网称，检测工具可以通过这套水印系统确认图片是否由 Meta 的 AI 模型生成，即使图片经过裁剪也能识别。 Meta 回应路透社测试结果时强调，检测工具仍是预览版本。Content Seal 的设计目标是在常见编辑后继续保留水印信号，但图片一旦被大幅裁剪，信号仍可能丢失。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-10T15:14:29.000Z",
+      "source": "IT之家",
+      "publishedAt": "2026-07-11T02:19:46.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/aU7GMFKF8qZRhT8VMWvY?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/0/975/402.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783738645032_c9811895",
+      "title": "Deepseek决定自造“芯脏”",
+      "summary": "Deepseek决定自造“芯脏”",
+      "content": "被“逼”出来的第三条路。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-11T02:12:21.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8060417.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783738637703_c946c875",
+      "title": "OpenAI安全系统负责人据悉将离职",
+      "summary": "据报道，在OpenAI重组之际，该公司安全系统负责人Johannes Heidecke本周告知员工其将离职。此次重组旨在整合OpenAI的安全团队和研究团队。",
+      "content": "据报道，在OpenAI重组之际，该公司安全系统负责人Johannes Heidecke本周告知员工其将离职。此次重组旨在整合OpenAI的安全团队和研究团队。备忘录显示，OpenAI首席研究官Mark Chen表示，安全团队将向公司研究副总裁兼整合负责人Mia Glaese汇报工作，后者将兼任研��与安全副总裁。此前领导 OpenAI安全团队的Saachi Jain将成为公司临时安全系统负责人，向Glaese汇报工作。（界面）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-07-11T01:49:54.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://36kr.com/newsflashes/3890587147238152?f=rss",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783738658853_6b6124ef",
+      "title": "1662 万美元！开发者收到 Anthropic 巨额 AI 账单，Claude 控制台显示 0 美元",
+      "summary": "IT之家 7 月 11 日消息，科技媒体 Wccftech 昨日（7 月 10 日）发布博文，报道称一位韩国开发者收到来自 Anthropic 的 160 万美元、1662 万美元两笔扣款账单，但在 Claude API 控制台中显示为 0 美元。",
+      "content": "IT之家 7 月 11 日消息，科技媒体 Wccftech 昨日（7 月 10 日）发布博文，报道称一位韩国开发者收到来自 Anthropic 的 160 万美元、1662 万美元两笔扣款账单，但在 Claude API 控制台中显示为 0 美元。 博文指出该开发者于 7 月 8 日共收到 2 封由 Anthropic 自动发送的扣款通知，其中第一笔扣款金额通知约为 160 万美元（现汇率约合 1085.6 万元人民币），第二笔扣款通知显示约为 1662 万美元（IT之家注：现汇率约合 1.13 亿元人民币）。 开发者通过调用 API 方式来使用 AI 智能体编程，虽然有时候会因为无限循环，导致大额消耗 Token，形成巨额账单，但该媒体指出在单个周期内 1662 万美元的账单，依然是非常夸张的数据，对于个人开发者用度而言，几乎不可能达到这种消费水平。 Claude API 控制台中显示为 0 美元",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/20de3bdd-f6bc-4fde-b174-430186c36d54.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-07-11T01:18:10.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/975/395.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783738630297_0",
+      "title": "OpenAI faces sanctions bid as newspapers say ChatGPT was trained on stolen news",
+      "summary": "The New York Times, the Daily News and other media outlets are asking a federal judge to impose sanctions on OpenAI, escalating a fight over artificia...",
+      "content": "The New York Times, the Daily News and other media outlets are asking a federal judge to impose sanctions on OpenAI, escalating a fight over artificial intelligence and copyright that could shape the future of a struggling news industry.\nThe newspape... [4220 chars]",
+      "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/fed015e/2147483647/strip/true/crop/4771x2505+0+338/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F78%2F99%2F6b76af444aaaabcf1e113cc3c7d8%2Fdf048727b111403e9acdb937a29ddbe9.jpg",
+      "source": "Los Angeles Times",
+      "publishedAt": "2026-07-10T14:28:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.latimes.com/business/story/2026-07-10/openai-faces-sanctions-bid-as-newspapers-say-chatgpt-was-trained-on-stolen-news",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1783738629860_1",
+      "title": "Apple sues OpenAI, alleging the AI company stole trade secrets",
+      "summary": "News National business Apple sues OpenAI, alleging the AI company stole trade secrets July 10, 2026 Updated Fri., July 10, 2026 at 5:51 p.m. X Email R...",
+      "content": "SAN FRANCISCO - Tech giant Apple sued ChatGPT-maker OpenAI on Friday, alleging the artificial intelligence company stole its trade secrets as part of efforts to build out a competing hardware business.\n“This case is about Apple’s former employees ste... [1379 chars]",
+      "imageUrl": "https://media.spokesman.com/graphics/2020/08/sr_placeholder.png",
+      "source": "Spokane Spokesman-Review",
+      "publishedAt": "2026-07-10T14:17:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.spokesman.com/stories/2026/jul/10/apple-sues-openai-alleging-the-ai-company-stole-tr/",
+      "aiInsight": ""
     },
     {
       "id": "news_1783694253112_a7b7ee62",
@@ -53,28 +125,16 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783694253565_7621fb55",
-      "title": "史上最高调的AI重写：Claude花11天搞定Bun，创始人花一个月才敢交底",
-      "summary": "史上最高调的AI重写：Claude花11天搞定Bun，创始人花一个月才敢交底",
-      "content": "史上最高调的AI重写：Claude花11天搞定Bun，创始人花一个月才敢交底",
+      "id": "news_1783738653744_d2fa303a",
+      "title": "当 AI 智能体遭遇“至暗时刻”，企业的最后防线是什么？｜ 技术趋势",
+      "summary": "当 AI 智能体遭遇“至暗时刻”，企业的最后防线是什么？｜ 技术趋势",
+      "content": "当 AI 智能体遭遇“至暗时刻”，企业的最后防线是什么？｜ 技术趋势",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-10T13:21:31.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/uHkOoJ6Nfm6wNCsUryuO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783694254011_9c12956a",
-      "title": "GitHub 的旧模式被 AI 击穿，Cursor、GitLab、Zed 各自开打",
-      "summary": "GitHub 的旧模式被 AI 击穿，Cursor、GitLab、Zed 各自开打",
-      "content": "GitHub 的旧模式被 AI 击穿，Cursor、GitLab、Zed 各自开打",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-10T13:14:51.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/7ZSdewTwDBz1mrx6wmat?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-07-10T11:32:02.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/zi38zKUQa1l31F0ilh2T?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1783694245726_673a6b8e",
@@ -137,6 +197,54 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1783738654248_fbe1132d",
+      "title": "vLLM 针对多模态模型的推理优化实践｜AICon深圳",
+      "summary": "vLLM 针对多模态模型的推理优化实践｜AICon深圳",
+      "content": "vLLM 针对多模态模型的推理优化实践｜AICon深圳",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-10T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/ItOOYNuWf6t9KtfgeH7F?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783738630003_2",
+      "title": "New York Times and other publishers ask court to penalize OpenAI",
+      "summary": "SAN FRANCISCO — The New York Times, the New York Daily News, and 15 other media organizations said in a federal court filing Thursday that OpenAI was ...",
+      "content": "SAN FRANCISCO — The New York Times, the New York Daily News, and 15 other media organizations said in a federal court filing Thursday that OpenAI was withholding evidence that could play a key role in high-profile lawsuits the companies filed against... [3144 chars]",
+      "imageUrl": "https://www.inquirer.com/resizer/v2/Q5BFL7FR5U3HG22WYOZX2DLWWI.jpg?auth=e1b301225ae1b1210826cd2470a63b6aebd30de676825e50f6f55604dbc62c9d&width=760&height=507&smart=true",
+      "source": "The Philadelphia Inquirer",
+      "publishedAt": "2026-07-10T09:01:01.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.inquirer.com/business/openai-new-york-times-media-companies-lawsuits-withhold-evidence-20260710.html",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1783738629987_3",
+      "title": "News outlets ask judge to sanction OpenAI",
+      "summary": "NEW YORK -- The New York Times, the Daily News and other media outlets are asking a federal judge to impose sanctions on OpenAI, escalating a fight ov...",
+      "content": "NEW YORK -- The New York Times, the Daily News and other media outlets are asking a federal judge to impose sanctions on OpenAI, escalating a fight over artificial intelligence and copyright that could shape the future of a struggling news industry.\n... [4229 chars]",
+      "imageUrl": "https://wehco.media.clients.ellingtoncms.com/imports/adg/photos/213215627_213214564-df048727b111403e9acdb937a29ddbe9_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
+      "source": "Arkansas Online",
+      "publishedAt": "2026-07-10T08:10:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.arkansasonline.com/news/2026/jul/10/news-outlets-ask-judge-to-sanction-openai/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1783738630047_4",
+      "title": "OpenAI and Google Provide AI Services to Pentagon-Blacklisted Chinese Tech Giants",
+      "summary": "Artificial intelligence companies OpenAI and Google have been supplying advanced AI technology to subsidiaries of Chinese tech giants that appear on a...",
+      "content": "Artificial intelligence companies OpenAI and Google have been supplying advanced AI technology to subsidiaries of Chinese tech giants that appear on a Pentagon blacklist, revealing a significant loophole in America’s efforts to restrict Beijing’s AI ... [4525 chars]",
+      "imageUrl": "https://media.breitbart.com/media/2026/07/Sam-Altman-waves-to-his-China-friends-640x335.jpg",
+      "source": "Breitbart News Network",
+      "publishedAt": "2026-07-10T07:27:40.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.breitbart.com/tech/2026/07/10/openai-and-google-provide-ai-services-to-pentagon-blacklisted-chinese-tech-giants/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1783654984003_46db409c",
       "title": "GPT-5.6全量放送，Codex正式并入ChatGPT",
       "summary": "GPT-5.6全量放送，Codex正式并入ChatGPT",
@@ -161,7 +269,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783694233605_0",
+      "id": "news_1783738629952_5",
       "title": "OpenAI Has Released Its Latest Series of AI Models, CEO Sam Altman Says That They Increase Efficiency By More Than 50%",
       "summary": "OpenAI CEO Sam Altman said the company's latest flagship artificial intelligence model delivers a 54% improvement in token efficiency for agentic codi...",
       "content": "OpenAI CEO Sam Altman said the company's latest flagship artificial intelligence model delivers a 54% improvement in token efficiency for agentic coding tasks, a gain that could significantly reduce costs for businesses deploying AI-powered software ... [2665 chars]",
@@ -173,7 +281,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1783694233137_1",
+      "id": "news_1783738630016_6",
       "title": "OpenAI Releases GPT-5.6 Sol, Its Most Powerful AI Model Yet",
       "summary": "OpenAI has publicly released its flagship artificial intelligence technology, GPT-5.6 Sol, its most powerful model yet, alongside a new tool to assist...",
       "content": "OpenAI has publicly released its flagship artificial intelligence technology, GPT-5.6 Sol, its most powerful model yet, alongside a new tool to assist with everyday office work.\nThe new release, on Thursday, escalates the battle for A.I. dominance wi... [1433 chars]",
@@ -185,7 +293,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1783694233414_2",
+      "id": "news_1783738630160_7",
       "title": "AI Daily: OpenAI launches GPT-5.6 family of models for general availability",
       "summary": "Catch up on the top artificial intelligence news and commentary by Wall Street analysts on publicly traded companies in the space with this daily reca...",
       "content": "Catch up on the top artificial intelligence news and commentary by Wall Street analysts on publicly traded companies in the space with this daily recap compiled by The Fly.\nTipRanks Welcomes a New ETF – NYSE:RANK\nTipRanks has entered a new arena in t... [6795 chars]",
@@ -197,31 +305,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1783694255314_dccf6929",
-      "title": "Agent 进化论：从对话到协作",
-      "summary": "Agent 进化论：从对话到协作",
-      "content": "Agent 进化论：从对话到协作",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-09T17:58:01.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/6StbVmZr0cicGREVjwZu?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783694255809_5b569fb2",
-      "title": "百万上下文下的 DeepSeek V4：SGLang 推理优化实战｜AICon深圳",
-      "summary": "百万上下文下的 DeepSeek V4：SGLang 推理优化实战｜AICon深圳",
-      "content": "百万上下文下的 DeepSeek V4：SGLang 推理优化实战｜AICon深圳",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-09T16:15:15.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/qALuq71AxiG5VLmWqSzU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783694233566_3",
+      "id": "news_1783738630097_8",
       "title": "Grok 4.5 Launches With Focus on Coding and AI Agents, Intensifying Race With OpenAI and Anthropic",
       "summary": "Elon Musk's artificial intelligence company has unveiled Grok 4.5, the latest version of its flagship large language model, describing it as a faster,...",
       "content": "Elon Musk's artificial intelligence company has unveiled Grok 4.5, the latest version of its flagship large language model, describing it as a faster, more affordable system designed for coding, software engineering and autonomous AI agents rather th... [2846 chars]",
@@ -233,7 +317,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1783694233589_4",
+      "id": "news_1783738630116_9",
       "title": "News outlets urge a judge to sanction OpenAI in a high-stakes AI copyright fight",
       "summary": "NEW YORK — The New York Times, the Daily News and other media outlets are asking a federal judge to impose sanctions on OpenAI, escalating a fight ove...",
       "content": "NEW YORK — The New York Times, the Daily News and other media outlets are asking a federal judge to impose sanctions on OpenAI, escalating a fight over artificial intelligence and copyright that could shape the future of a struggling news industry.\nT... [3854 chars]",
@@ -257,18 +341,6 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783694233262_5",
-      "title": "News outlets ask judge to sanction OpenAI in copyright fight",
-      "summary": "NEW YORK (AP) — The New York Times, the Daily News and other media outlets are asking a federal judge to impose sanctions on OpenAI, escalating a figh...",
-      "content": "NEW YORK (AP) — The New York Times, the Daily News and other media outlets are asking a federal judge to impose sanctions on OpenAI, escalating a fight over artificial intelligence and copyright that could shape the future of a struggling news indust... [3833 chars]",
-      "imageUrl": "https://dims.apnews.com/dims4/default/9aeaf90/2147483647/strip/true/crop/4771x3179+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2Fbe%2F45%2F86af1ec5ef1b9f5e0e115ade8d4d%2Fdf048727b111403e9acdb937a29ddbe9",
-      "source": "The Associated Press",
-      "publishedAt": "2026-07-09T14:39:31.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://apnews.com/article/openai-new-york-times-ai-copyright-lawsuit-7ce19c7a25aad60d4c94556d36e96cc9",
-      "aiInsight": ""
-    },
-    {
       "id": "news_1783694233557_6",
       "title": "Meta jumps into AI coding market to chase Anthropic and OpenAI",
       "summary": "Three months after unveiling its first artificial intelligence model under the leadership of AI chief Alexandr Wang, Meta is rolling out a major updat...",
@@ -290,78 +362,6 @@
       "publishedAt": "2026-07-09T09:38:00.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8058613.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783610372796_f5ba783e",
-      "title": "华为天才少年与DeepSeek冲突背后，梁文锋的人才观是什么？",
-      "summary": "华为天才少年与DeepSeek冲突背后，梁文锋的人才观是什么？",
-      "content": "在招聘这件事上，梁文锋就是马斯克。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-09T09:30:52.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8058654.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783654969497_3",
-      "title": "Chinese tech firms, from Apple suppliers to OpenAI rivals, raise $17 billion in Hong Kong",
-      "summary": "July 9 - From robotaxi developers to AI startups and chipmakers, Chinese technology firms are flocking to Hong Kong's booming capital markets, raising...",
-      "content": "July 9 - From robotaxi developers to AI startups and chipmakers, Chinese technology firms are flocking to Hong Kong's booming capital markets, raising a combined HK$136.23 billion ($17.38 billion) this year to fund expansion in artificial intelligenc... [3947 chars]",
-      "imageUrl": "https://www.reuters.com/resizer/v2/PSVBBEG4G5N4LKZGRGLS3OZY2Y.jpg?auth=f51d4a12ce89e7d96ab1fb9f640d7b73aeed262d4e0ab1fdb0c5a992aa4cc617&height=1005&width=1920&quality=80&smart=true",
-      "source": "Reuters",
-      "publishedAt": "2026-07-09T04:59:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.reuters.com/world/asia-pacific/chinese-tech-firms-apple-suppliers-openai-rivals-raise-17-billion-hong-kong-2026-07-09/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1783568503968_ba6631bb",
-      "title": "字节、美团、亚马逊都在“收拾”中层，AI抽走了他们最值钱的东西",
-      "summary": "2026年，全球科技巨头集体“收拾”中层——不是裁员，就是降级，要么重新定义绩效。AI Agent完成了信息中转，旧中层的护城河坍塌了。但比谁被淘汰更紧迫的问题是：AI时代，管理者凭什么还有价值？",
-      "content": "2026年，全球科技巨头集体“收拾”中层——不是裁员，就是降级，要么重新定义绩效。AI Agent完成了信息中转，旧中层的护城河坍塌了。但比谁被淘汰更紧迫的问题是：AI时代，管理者凭什么还有价值？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-09T02:30:01.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8058019.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783568504675_7d9343c5",
-      "title": "The Algorithmic Oracle Fails the Beautiful Game: World Cup Stress-Tests the Limits of AI Predictive Modeling",
-      "summary": "The Algorithmic Oracle Fails the Beautiful Game: World Cup Stress-Tests the Limits of AI Predictive Modeling...",
-      "content": "During the 2026 FIFA World Cup, twelve major Chinese Large Language Models (LLMs) achieved a 64% accuracy rate in a tournament-wide predictive trial, statistically outperforming human baseline participants at 53.8%. Yet behind this modest statistical edge lay a deeper predictive bankruptcy: the models proved entirely incapable of anticipating the tournament's signature human dramas and group-stage upsets. Stymied by structural overhauls, expanding rosters, and a total absence of historical baseline data for debutant nations, the algorithms faltered as forecasters. Conversely, generative AI found a more comfortable, technocratic home in the dugout, where FIFA’s newly deployed AI Pro platform successfully delivered automated tactical dissections to all 48 competing national teams.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-09T02:28:11.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8058295.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783568505899_b8f3eb5b",
-      "title": "OpenAI的新语音模型，先把用户烦到了",
-      "summary": "OpenAI的新语音模型，先把用户烦到了",
-      "content": "AI语音助手不只是要会说话，也要学会闭嘴。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-09T02:16:21.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8058014.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783568506388_9dd6cc69",
-      "title": "不到半年，MiniMax与智谱身价差6000亿港元了",
-      "summary": "不到半年，MiniMax与智谱身价差6000亿港元了",
-      "content": "当你沉迷AI陪聊时，聪明钱悄悄换了个赛道。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-09T01:53:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8057610.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
