@@ -1,9 +1,105 @@
 {
   "success": true,
-  "timestamp": "2026-07-12T13:38:19Z",
-  "total": 30,
+  "timestamp": "2026-07-13T03:28:02Z",
+  "total": 27,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1783913175054_0170fd39",
+      "title": "UniRL：统一多模态 RL 框架的 2.4X 端到端性能优化实践｜AICon深圳",
+      "summary": "UniRL：统一多模态 RL 框架的 2.4X 端到端性能优化实践｜AICon深圳",
+      "content": "UniRL：统一多模态 RL 框架的 2.4X 端到端性能优化实践｜AICon深圳",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-13T11:15:39.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/jeAxpYI4tgewlBdvXZBJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783913175587_828677e6",
+      "title": "Circle CI推出Chunk Sidecars，将CI校验直接引入AI编码工作流",
+      "summary": "Circle CI推出Chunk Sidecars，将CI校验直接引入AI编码工作流",
+      "content": "Circle CI推出Chunk Sidecars，将CI校验直接引入AI编码工作流",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-13T11:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/gfOWRGdLD5IaqsO0rFxR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783913169605_7b77b01b",
+      "title": "马斯克要用户储给AI数据中心供电，虚拟电厂迎来春天？",
+      "summary": "马斯克要用户储给AI数据中心供电，虚拟电厂迎来春天？",
+      "content": "AIDC供电新方式。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-13T03:16:23.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8062289.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783913165243_e34ef148",
+      "title": "五一视界与环天智慧正式达成空天领域战略合作",
+      "summary": "36氪获悉，五一视界公告，公司与环天智慧正式达成空天领域战略合作，将围绕高精度卫星遥感数据的采集与“物理级可用”数据资产重建展开合作，联合定制全球首颗专为物理AI训练与仿真应用设计的商业遥感卫星——地球克隆之星“ECS-1”。",
+      "content": "36氪获悉，五一视界公告，公司与环天智慧正式达成空天领域战略合作，将围绕高精度卫星遥感数据的采集与“物理级可用”数据资产重建展开合作，联合定制全球首颗专为物理AI训练与仿真应用设计的商业遥感卫星——地球克隆之星“ECS-1”。据公告显示，地球克隆之星“ECS-1”是全球首颗针对物理AI数据需求专项定制的商业遥感卫星。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-07-13T03:13:23.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3893500374350338?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783913170520_0d9d8397",
+      "title": "Beyond the Chatbot: Big Tech’s Pragmatic Pivot to the Enterprise Agent",
+      "summary": "As consumer AI fatigue sets in, tech giants are racing to integrate autonomous intelligent agents into legacy corporate infrastructure—trading viral n...",
+      "content": "As consumer AI fatigue sets in, tech giants are racing to integrate autonomous intelligent agents into legacy corporate infrastructure—trading viral novelty for engineering reliability.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-13T03:04:03.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8062327.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783913171223_b61bdfc0",
+      "title": "两月狂揽400亿订单，千亿东阳光，“AI豪赌”提速",
+      "summary": "两月狂揽400亿订单，千亿东阳光，“AI豪赌”提速",
+      "content": "从当前来看，东阳光的AI转型之路，依旧道阻且长。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-13T01:27:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8061991.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783913171489_903ea1bc",
+      "title": "你发过的每一张自拍，都可能成为别人的 AI 素材",
+      "summary": "你发过的每一张自拍，都可能成为别人的 AI 素材",
+      "content": "你不会知道，某张随手发出的自拍，后来在哪个陌生人的AI对话框里，变成了另一个你。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-13T01:27:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8061897.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783913171939_710bbdba",
+      "title": "GPT-5.6来了，Fable 5慌了？",
+      "summary": "GPT-5.6来了，Fable 5慌了？",
+      "content": "一个能省钱，一个更聪明。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-13T00:52:26.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8061886.html",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1783863402454_af3b7bf8",
       "title": "全球首款可变形个人机器人，上纬新材启元 T1 亮相",
@@ -15,6 +111,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/975/794.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783913176074_81c4bda7",
+      "title": "面向 Qwen 系列模型线性注意力的高性能优化实践｜AICon深圳",
+      "summary": "面向 Qwen 系列模型线性注意力的高性能优化实践｜AICon深圳",
+      "content": "面向 Qwen 系列模型线性注意力的高性能优化实践｜AICon深圳",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-12T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/wg5h3JBMvs5ZkoP0azha?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1783863388617_919246d8",
@@ -77,19 +185,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783863392535_c63f7e10",
-      "title": "苹果甩出41页PDF怒告OpenAI“偷师”其核心机密！网友：早知道就等印度开源了",
-      "summary": "苹果甩出41页PDF怒告OpenAI“偷师”其核心机密！网友：早知道就等印度开源了",
-      "content": "苹果甩出41页PDF怒告OpenAI“偷师”其核心机密！网友：早知道就等印度开源了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-11T17:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Rzh9umgPl90MgGolBcWm?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783863376374_0",
+      "id": "news_1783913159911_0",
       "title": "News Outlets Seek Sanctions Against OpenAI in Copyright Dispute",
       "summary": "Several news outlets, including the New York Times (NYT), asked a federal judge on Thursday, July 9, to sanction OpenAI for allegedly withholding evid...",
       "content": "Several news outlets, including the New York Times (NYT), asked a federal judge on Thursday, July 9, to sanction OpenAI for allegedly withholding evidence in a long-running copyright dispute, according to court filings reviewed by TechCrunch.\nThe new... [5665 chars]",
@@ -111,6 +207,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8060588.html",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1783913177040_c8806f0a",
+      "title": "从 HAMi 到 HAMi-DRA：异构环境的算力资源管理实践｜AICon深圳",
+      "summary": "从 HAMi 到 HAMi-DRA：异构环境的算力资源管理实践｜AICon深圳",
+      "content": "从 HAMi 到 HAMi-DRA：异构环境的算力资源管理实践｜AICon深圳",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-11T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/fRMquPuKMsj6zkyFmO6P?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1783777008061_0d5ea812",
@@ -137,103 +245,19 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783738658535_c9f129fe",
-      "title": "消息称 OpenAI 安全系统负责人 Johannes Heidecke 即将离职",
-      "summary": "IT之家 7 月 11 日消息，据《连线》杂志昨天报道，OpenAI 安全系统负责人约翰内斯 · 海德克（Johannes Heidecke）已在本周向员工表示，自己即将离开公司。本次职位变动发生在 OpenAI 调整组织架构之后，旨在进一步整合公司研究团队与安全团队。",
-      "content": "IT之家 7 月 11 日消息，据《连线》杂志昨天报道，OpenAI 安全系统负责人约翰内斯 · 海德克（Johannes Heidecke）已在本周向员工表示，自己即将离开公司。本次职位变动发生在 OpenAI 调整组织架构之后，旨在进一步整合公司研究团队与安全团队。 内部备忘录显示，OpenAI 首席研究官 Mark Chen 表示，公司安全团队今后将向研究副总裁米娅 · 格拉斯（IT之家注：Mia Glaese）汇报工作，而格拉斯本人今后也将担任研究与安全副总裁。 约翰内斯 · 海德克于 2021 年加入 OpenAI，最初担任 AI 安全分析师。2024 年，OpenAI 前任安全系统负责人 Lilian Weng 离职后，海德克接过了这一职位。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/165f85fc-a781-4357-a90c-48fbf4713727.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-07-11T02:32:59.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/975/404.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783738658598_a3951c2a",
-      "title": "路透社实测发现，Meta 检测工具面对裁剪后的自家 AI 生成图片竟然“失灵”",
-      "summary": "IT之家 7 月 11 日消息，路透社 10 日披露的测试结果显示，Meta 本周公布的一款 AI 图像检测工具存在明显局限：部分由 Meta 自家模型 Muse Image 生成的图片只要经过裁剪，检测工具便无法确认其 AI 来源。",
-      "content": "IT之家 7 月 11 日消息，路透社 10 日披露的测试结果显示，Meta 本周公布的一款 AI 图像检测工具存在明显局限：部分由 Meta 自家模型 Muse Image 生成的图片只要经过裁剪，检测工具便无法确认其 AI 来源。 Meta 在推出 Muse Image 的同时介绍了这款检测工具，并声称即使图片经过裁剪，工具仍可识别由 Meta AI 生成的内容。不过，路透社的测试结果显示，常见的图片修改操作就可能削弱检测能力。 路透社使用 Muse Image 生成了 40 张图片。检测工具成功识别了全部原图，但同一批图片被裁剪至原图约三分之一至二分之一大小后，55% 的图片无法通过验证。 据IT之家了解，Muse Image 会在每张生成图片中嵌入名为 Content Seal 的隐形水印。Meta 在官网称，检测工具可以通过这套水印系统确认图片是否由 Meta 的 AI 模型生成，即使图片经过裁剪也能识别。 Meta 回应路透社测试结果时强调，检测工具仍是预览版本。Content Seal 的设计目标是在常见编辑后继续保留水印信号，但图片一旦被大幅裁剪，信号仍可能丢失。",
+      "id": "news_1783913177497_74932d75",
+      "title": "Airbnb 分享 Kubernetes 动态配置 Sidecar Sitar-agent 的架构",
+      "summary": "Airbnb 分享 Kubernetes 动态配置 Sidecar Sitar-agent 的架构",
+      "content": "Airbnb 分享 Kubernetes 动态配置 Sidecar Sitar-agent 的架构",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-07-11T02:19:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/975/402.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783738645032_c9811895",
-      "title": "Deepseek决定自造“芯脏”",
-      "summary": "Deepseek决定自造“芯脏”",
-      "content": "被“逼”出来的第三条路。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-11T02:12:21.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8060417.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783738637703_c946c875",
-      "title": "OpenAI安全系统负责人据悉将离职",
-      "summary": "据报道，在OpenAI重组之际，该公司安全系统负责人Johannes Heidecke本周告知员工其将离职。此次重组旨在整合OpenAI的安全团队和研究团队。",
-      "content": "据报道，在OpenAI重组之际，该公司安全系统负责人Johannes Heidecke本周告知员工其将离职。此次重组旨在整合OpenAI的安全团队和研究团队。备忘录显示，OpenAI首席研究官Mark Chen表示，安全团队将向公司研究副总裁兼整合负责人Mia Glaese汇报工作，后者将兼任研��与安全副总裁。此前领导 OpenAI安全团队的Saachi Jain将成为公司临时安全系统负责人，向Glaese汇报工作。（界面）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-07-11T01:49:54.000Z",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-11T09:00:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://36kr.com/newsflashes/3890587147238152?f=rss",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783738658853_6b6124ef",
-      "title": "1662 万美元！开发者收到 Anthropic 巨额 AI 账单，Claude 控制台显示 0 美元",
-      "summary": "IT之家 7 月 11 日消息，科技媒体 Wccftech 昨日（7 月 10 日）发布博文，报道称一位韩国开发者收到来自 Anthropic 的 160 万美元、1662 万美元两笔扣款账单，但在 Claude API 控制台中显示为 0 美元。",
-      "content": "IT之家 7 月 11 日消息，科技媒体 Wccftech 昨日（7 月 10 日）发布博文，报道称一位韩国开发者收到来自 Anthropic 的 160 万美元、1662 万美元两笔扣款账单，但在 Claude API 控制台中显示为 0 美元。 博文指出该开发者于 7 月 8 日共收到 2 封由 Anthropic 自动发送的扣款通知，其中第一笔扣款金额通知约为 160 万美元（现汇率约合 1085.6 万元人民币），第二笔扣款通知显示约为 1662 万美元（IT之家注：现汇率约合 1.13 亿元人民币）。 开发者通过调用 API 方式来使用 AI 智能体编程，虽然有时候会因为无限循环，导致大额消耗 Token，形成巨额账单，但该媒体指出在单个周期内 1662 万美元的账单，依然是非常夸张的数据，对于个人开发者用度而言，几乎不可能达到这种消费水平。 Claude API 控制台中显示为 0 美元",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/20de3bdd-f6bc-4fde-b174-430186c36d54.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-07-11T01:18:10.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/975/395.htm",
+      "originalUrl": "https://www.infoq.cn/article/fO5byVPuZwwlBPosijBV?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783863376389_1",
-      "title": "Apple files lawsuit accusing ChatGPT maker OpenAI of stealing trade secrets",
-      "summary": "Apple on Friday accused OpenAI of stealing trade secrets as it seeks to build its own hardware for ChatGPT, a major rupture in a partnership between t...",
-      "content": "Apple on Friday accused OpenAI of stealing trade secrets as it seeks to build its own hardware for ChatGPT, a major rupture in a partnership between the iPhone maker and the artificial intelligence company.\nApple said in the lawsuit filed in a Califo... [351 chars]",
-      "imageUrl": "https://images.ajc.com/resizer/v2/E2FRLJCBCBHF3EMSLGRYYTGYTI.jpg?auth=7acba7bf2c1b4cd57ba2bf14ed2ecf568a4a1e03978380aa15d8085562644a16&width=1200&height=630&smart=true",
-      "source": "The Atlanta Journal-Constitution",
-      "publishedAt": "2026-07-10T23:01:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ajc.com/news/2026/07/apple-files-lawsuit-accusing-chatgpt-maker-openai-of-stealing-trade-secrets/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1783776994210_1",
-      "title": "Apple files lawsuit accusing OpenAI of stealing trade secrets",
-      "summary": "Apple on Friday accused OpenAI of stealing trade secrets as it seeks to build its own hardware for ChatGPT, a major rupture in a partnership between t...",
-      "content": "Apple on Friday accused OpenAI of stealing trade secrets as it seeks to build its own hardware for ChatGPT, a major rupture in a partnership between the iPhone maker and the artificial intelligence company.\nApple said in the lawsuit filed in a Califo... [1201 chars]",
-      "imageUrl": "https://dims.apnews.com/dims4/default/657ade1/2147483647/strip/true/crop/6910x4604+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F23%2F8d%2Ff4503107627a1b52998cb24f874f%2Fce01861f27164d1f91d3911608dc9104",
-      "source": "The Associated Press",
-      "publishedAt": "2026-07-10T20:53:49.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://apnews.com/article/apple-openai-lawsuit-trade-secrets-theft-6fff8833f5889d86406b89a02dd8fb16",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1783863376175_2",
-      "title": "Apple files lawsuit against OpenAI, accusing ChatGPT maker of stealing trade secrets",
-      "summary": "JavaScript is disabled In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload th...",
-      "content": "Apple on Friday accused OpenAI of stealing trade secrets as it seeks to build its own hardware for ChatGPT, a major rupture in a partnership between the iPhone maker and the artificial intelligence company.\nREAD MORE: Apple unveils new AI features wi... [4786 chars]",
-      "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/07/2026-07-10T211010Z_2026948577_RC2P3EAEIF7R_RTRMADP_3_APPLE-OPENAI-LAWSUIT-1024x682.jpg",
-      "source": "PBS News",
-      "publishedAt": "2026-07-10T19:25:03.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.pbs.org/newshour/nation/apple-files-lawsuit-against-openai-accusing-chatgpt-maker-of-stealing-trade-secrets",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1783863394027_53f87485",
+      "id": "news_1783913177960_53f87485",
       "title": "AI时代最被低估的创业资本，不是技术，是你的“老本行”",
       "summary": "AI时代最被低估的创业资本，不是技术，是你的“老本行”",
       "content": "AI时代最被低估的创业资本，不是技术，是你的“老本行”",
@@ -245,19 +269,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783863376114_3",
-      "title": "Sam Altman’s OpenAI right-hand woman Fidji Simo steps down",
-      "summary": "Sam Altman’s right-hand woman at OpenAI, Fidji Simo, is stepping down from her full-time role after an extended medical leave – just as the artificial...",
-      "content": "Sam Altman’s right-hand woman at OpenAI, Fidji Simo, is stepping down from her full-time role after an extended medical leave – just as the artificial intelligence giant is gearing up for its IPO.\nThe No. 2 executive said on X that her medical issue,... [2396 chars]",
-      "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/07/newspress-collage-u3z1vcpgm-1783700667700.jpg?quality=75&strip=all&1783686326&w=1200",
-      "source": "New York Post",
-      "publishedAt": "2026-07-10T16:26:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://nypost.com/2026/07/10/business/sam-altmans-openai-right-hand-woman-fidji-simo-steps-down/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1783863394254_06b461eb",
+      "id": "news_1783913178181_06b461eb",
       "title": "精彩预告：从看见问题到解决问题，Agent 正重新定义可观测？",
       "summary": "精彩预告：从看见问题到解决问题，Agent 正重新定义可观测？",
       "content": "精彩预告：从看见问题到解决问题，Agent 正重新定义可观测？",
@@ -269,7 +281,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783863394728_3abca164",
+      "id": "news_1783913178630_3abca164",
       "title": "从零开始预训练，蚂蚁灵波发布具身原生世界动作模型LingBot-VA 2.0",
       "summary": "从零开始预训练，蚂蚁灵波发布具身原生世界动作模型LingBot-VA 2.0",
       "content": "从零开始预训练，蚂蚁灵波发布具身原生世界动作模型LingBot-VA 2.0",
@@ -281,31 +293,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783863376105_4",
-      "title": "OpenAI faces sanctions bid as newspapers say ChatGPT was trained on stolen news",
-      "summary": "The New York Times, the Daily News and other media outlets are asking a federal judge to impose sanctions on OpenAI, escalating a fight over artificia...",
-      "content": "The New York Times, the Daily News and other media outlets are asking a federal judge to impose sanctions on OpenAI, escalating a fight over artificial intelligence and copyright that could shape the future of a struggling news industry.\nThe newspape... [4218 chars]",
-      "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/fed015e/2147483647/strip/true/crop/4771x2505+0+338/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F78%2F99%2F6b76af444aaaabcf1e113cc3c7d8%2Fdf048727b111403e9acdb937a29ddbe9.jpg",
-      "source": "Los Angeles Times",
-      "publishedAt": "2026-07-10T14:28:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.latimes.com/business/story/2026-07-10/openai-faces-sanctions-bid-as-newspapers-say-chatgpt-was-trained-on-stolen-news",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1783863376183_5",
-      "title": "Apple sues OpenAI, alleging the AI company stole trade secrets",
-      "summary": "News National business Apple sues OpenAI, alleging the AI company stole trade secrets July 10, 2026 Updated Fri., July 10, 2026 at 5:51 p.m. X Email R...",
-      "content": "SAN FRANCISCO – Tech giant Apple sued ChatGPT-maker OpenAI on Friday, alleging the artificial intelligence company stole its trade secrets as part of efforts to build out a competing hardware business.\n“This case is about Apple’s former employees ste... [1379 chars]",
-      "imageUrl": "https://media.spokesman.com/graphics/2020/08/sr_placeholder.png",
-      "source": "Spokane Spokesman-Review",
-      "publishedAt": "2026-07-10T14:17:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.spokesman.com/stories/2026/jul/10/apple-sues-openai-alleging-the-ai-company-stole-tr/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1783694253112_a7b7ee62",
+      "id": "news_1783913179098_a7b7ee62",
       "title": "GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx",
       "summary": "GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx...",
       "content": "GPT-5.6全面围剿Claude Fable 5，“超级应用”ChatGPT Work上位，Altman紧急澄清：不会取代Coedx",
@@ -317,7 +305,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783863395817_7621fb55",
+      "id": "news_1783913179550_7621fb55",
       "title": "史上最高调的AI重写：Claude花11天搞定Bun，创始人花一个月才敢交底",
       "summary": "史上最高调的AI重写：Claude花11天搞定Bun，创始人花一个月才敢交底",
       "content": "史上最高调的AI重写：Claude花11天搞定Bun，创始人花一个月才敢交底",
@@ -329,7 +317,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783863396269_9c12956a",
+      "id": "news_1783913179995_9c12956a",
       "title": "GitHub 的旧模式被 AI 击穿，Cursor、GitLab、Zed 各自开打",
       "summary": "GitHub 的旧模式被 AI 击穿，Cursor、GitLab、Zed 各自开打",
       "content": "GitHub 的旧模式被 AI 击穿，Cursor、GitLab、Zed 各自开打",
@@ -339,30 +327,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/7ZSdewTwDBz1mrx6wmat?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783863396702_d2fa303a",
-      "title": "当 AI 智能体遭遇“至暗时刻”，企业的最后防线是什么？｜ 技术趋势",
-      "summary": "当 AI 智能体遭遇“至暗时刻”，企业的最后防线是什么？｜ 技术趋势",
-      "content": "当 AI 智能体遭遇“至暗时刻”，企业的最后防线是什么？｜ 技术趋势",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-10T11:32:02.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/zi38zKUQa1l31F0ilh2T?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783863397129_fbe1132d",
-      "title": "vLLM 针对多模态模型的推理优化实践｜AICon深圳",
-      "summary": "vLLM 针对多模态模型的推理优化实践｜AICon深圳",
-      "content": "vLLM 针对多模态模型的推理优化实践｜AICon深圳",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-10T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/ItOOYNuWf6t9KtfgeH7F?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
