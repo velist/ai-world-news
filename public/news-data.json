@@ -1,56 +1,128 @@
 {
   "success": true,
-  "timestamp": "2026-07-14T02:51:03Z",
-  "total": 29,
+  "timestamp": "2026-07-14T13:55:49Z",
+  "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1783997363430_53747c82",
-      "title": "从上下文到经验资产：Agent 记忆系统的工程化路径与 MemOS 实践",
-      "summary": "从上下文到经验资产：Agent 记忆系统的工程化路径与 MemOS 实践",
-      "content": "从上下文到经验资产：Agent 记忆系统的工程化路径与 MemOS 实践",
+      "id": "news_1784037247173_0a4e95d7",
+      "title": "治理 Agentic Enterprise：营销领导者当下必须知道的事 ｜ 技术趋势",
+      "summary": "治理 Agentic Enterprise：营销领导者当下必须知道的事 ｜ 技术趋势",
+      "content": "治理 Agentic Enterprise：营销领导者当下必须知道的事 ｜ 技术趋势",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-14T10:30:34.000Z",
+      "publishedAt": "2026-07-14T18:40:43.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/RivZJwpYltVDJX5imMUX?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/kMa4NtkHgLNFMJ02bIjJ?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783997363977_ea315682",
-      "title": "可复制的 AI Coding 全栈实战：比 OpenSpec 更轻量、更丝滑",
-      "summary": "可复制的 AI Coding 全栈实战：比 OpenSpec 更轻量、更丝滑",
-      "content": "可复制的 AI Coding 全栈实战：比 OpenSpec 更轻量、更丝滑",
+      "id": "news_1784037247448_0b1a2895",
+      "title": "Agentic Enterprise：Snowflake AI 如何重新定义工作 ｜ Summit 2026",
+      "summary": "Agentic Enterprise：Snowflake AI 如何重新定义工作 ｜ Summit 2026...",
+      "content": "Agentic Enterprise：Snowflake AI 如何重新定义工作 ｜ Summit 2026",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-14T10:13:36.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/XfXRhsGiL3CchrQNV4zj?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-07-14T16:43:09.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/7hqd5Z9AFMA6h9mtcrtA?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783997364494_e9450d5d",
-      "title": "面向 Agentic 负载的下一代 LLM 推理引擎设计实践｜AICon深圳",
-      "summary": "面向 Agentic 负载的下一代 LLM 推理引擎设计实践｜AICon深圳",
-      "content": "面向 Agentic 负载的下一代 LLM 推理引擎设计实践｜AICon深圳",
+      "id": "news_1784037248127_822963bd",
+      "title": "AlloyDB 推出代理模型，用数据库本地推理替代外部大模型调用",
+      "summary": "AlloyDB 推出代理模型，用数据库本地推理替代外部大模型调用",
+      "content": "AlloyDB 推出代理模型，用数据库本地推理替代外部大模型调用",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-14T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/fjkG0xhaV42S8sfCayFy?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-07-14T16:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/9RKrYlX2xWPNabO3ErVj?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783997365043_4833a641",
-      "title": "从 AI 取数到智能分析：企业级数据 Agent 的多阶段演进与工程化落地",
-      "summary": "从 AI 取数到智能分析：企业级数据 Agent 的多阶段演进与工程化落地",
-      "content": "从 AI 取数到智能分析：企业级数据 Agent 的多阶段演进与工程化落地",
+      "id": "news_1784037248646_d3505e8b",
+      "title": "SpaceX联手Cursor的首个AI产品曝光！全能办公智能体内测中，ChatGPT Work迎来劲敌",
+      "summary": "SpaceX联手Cursor的首个AI产品曝光！全能办公智能体内测中，ChatGPT Work迎来劲敌...",
+      "content": "SpaceX联手Cursor的首个AI产品曝光！全能办公智能体内测中，ChatGPT Work迎来劲敌",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-14T09:53:22.000Z",
+      "publishedAt": "2026-07-14T15:10:48.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/LfO7mzdhxMWTtICFuTNb?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/uwozdp7L5ex4Z2r7iZRC?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784037249147_22fb4318",
+      "title": "亚马逊云科技扩展了 DevOps 代理，新增基于 AI 的发布管理功能，可在代码投入生产前进行验证",
+      "summary": "亚马逊云科技扩展了 DevOps 代理，新增基于 AI 的发布管理功能，可在代码投入生产前进行验证",
+      "content": "亚马逊云科技扩展了 DevOps 代理，新增基于 AI 的发布管理功能，可在代码投入生产前进行验证",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-14T11:36:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/Af9AUfyturjojjQvv6QI?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784037239221_5e9ba697",
+      "title": "烟台这座老工业城市，在AI时代跑出了两只大牛股",
+      "summary": "烟台这座老工业城市，在AI时代跑出了两只大牛股",
+      "content": "杰瑞股份与冰轮环境，老登变小登",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-14T10:58:18.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8064246.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784037240832_ba09e8d8",
+      "title": "物理AI，让自动驾驶迎来了“第二春”",
+      "summary": "当字节跳动带着它的“世界模型”团队悄然叩响自动驾驶大门时，一个被行业讨论了近十年的命题，突然换了种全新的念法。这一次，颠覆它的不是更贵的传感器、更大的车队，而是一套能“脑补”物理世界运行规律的数字大脑。",
+      "content": "当字节跳动带着它的“世界模型”团队悄然叩响自动驾驶大门时，一个被行业讨论了近十年的命题，突然换了种全新的念法。这一次，颠覆它的不是更贵的传感器、更大的车队，而是一套能“脑补”物理世界运行规律的数字大脑。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-14T10:58:10.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8064199.html",
+      "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784037242203_1c2f8e83",
+      "title": "AI大厂进军医药，但资本市场等不了十年",
+      "summary": "AI大厂进军医药，但资本市场等不了十年",
+      "content": "医药，成了AI最诱人也最难兑现的故事。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-14T10:58:06.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8064038.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784037242752_4ddd9a14",
+      "title": "LibTV把100+AI视频魔法，封装进了这个全球最大的Skill商店里｜测评",
+      "summary": "LibTV把100+AI视频魔法，封装进了这个全球最大的Skill商店里｜测评",
+      "content": "1天，做一支韦斯安德森AI短片",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-14T10:58:04.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8064076.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784037243661_67677695",
+      "title": "AI下半场，买“云”不买“芯”？",
+      "summary": "AI下半场，买“云”不买“芯”？",
+      "content": "AI下半场，买“云”不买“芯”？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-14T10:57:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8063945.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1783997371831_1948a416",
@@ -60,7 +132,7 @@
       "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/a19bd7c2-6efa-4e76-a24d-39854c47d09c.jpg",
       "source": "IT之家",
       "publishedAt": "2026-07-14T02:20:03.000Z",
-      "category": "科技新闻",
+      "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/976/321.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
@@ -113,6 +185,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1784037227219_0",
+      "title": "Pritzker signs new laws on birth control, AI regulations, play-based learning",
+      "summary": "SPRINGFIELD – Gov. JB Pritzker signed 31 new laws on Friday as he continues evaluating measures passed in the spring session, including bills banning ...",
+      "content": "SPRINGFIELD — Gov. JB Pritzker signed 31 new laws on Friday as he continues evaluating measures passed in the spring session, including bills banning certain ingredients from cosmetics and correct the state’s property tax laws.\nAccess to birth contro... [4985 chars]",
+      "imageUrl": "https://www.shawlocal.com/resizer/v2/U5KLHYSM6JHF7LMOM76475U5EA.png?auth=61967006eb0db365e001a33c442c9ef3be13801594f56f7909ce889b5dc86d47&width=1200&height=630&focal=1078%2C129",
+      "source": "Shaw Local Enewspapers",
+      "publishedAt": "2026-07-13T19:37:11.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.shawlocal.com/news/2026/07/13/pritzker-signs-new-laws-on-birth-control-ai-regulations-play-based-learning/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1783953850418_fe5a6c3d",
       "title": "苹果调整Mac芯片路线图，加速AI芯片研发",
       "summary": "当地时间7月12日，科技记者马克·古尔曼发文称，苹果正调整Mac芯片路线图，以适应AI发展需求。苹果将在今年秋季推出M6基础版芯片后，首次跳过M6 Pro、M6 Max和M6 Ultra等高端版本，直接推进M7系列研发，M7预计于2027年上半年发布，M7 Ultra将于2028年推出。",
@@ -123,18 +207,6 @@
       "category": "科技新闻",
       "originalUrl": "https://36kr.com/newsflashes/3894068327759108?f=rss",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783997367831_2e84de04",
-      "title": "红帽决定聚焦中国企业的“多模型、多GPU、多云”选择权",
-      "summary": "红帽决定聚焦中国企业的“多模型、多GPU、多云”选择权",
-      "content": "红帽决定聚焦中国企业的“多模型、多GPU、多云”选择权",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-13T12:07:33.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/aIP7uI00KLecpDYZBKXl?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1783953862825_75061fe1",
@@ -197,7 +269,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783997340226_0",
+      "id": "news_1784037227193_1",
       "title": "AI Growth Drives Global Competition for Electricity as Strategic Resource",
       "summary": "The expansion of artificial intelligence (AI) is creating a surge in electricity demand that analysts say is reshaping global energy markets.\nA single...",
       "content": "The expansion of artificial intelligence (AI) is creating a surge in electricity demand that analysts say is reshaping global energy markets.\nA single ChatGPT query consumes roughly 10 times the energy of a standard Google search, according to indust... [6494 chars]",
@@ -281,7 +353,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1783997340554_1",
+      "id": "news_1784037226765_2",
       "title": "Apple bites OpenAI with lawsuit",
       "summary": "Apple has accused OpenAI of stealing trade secrets as it seeks to build its own hardware for ChatGPT, a major rupture in a partnership between the iPh...",
       "content": "Apple has accused OpenAI of stealing trade secrets as it seeks to build its own hardware for ChatGPT, a major rupture in a partnership between the iPhone maker and the artificial intelligence company.\nApple said in the lawsuit filed Friday in a Calif... [4021 chars]",
@@ -291,66 +363,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.bostonherald.com/2026/07/12/apple-bites-openai-with-lawsuit/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1783997339896_2",
-      "title": "TikTok launches AI literacy measures",
-      "summary": "This audio is auto-generated. Please let us know if you have feedback.\nTikTok has announced an initiative to address the rise of artificial intelligen...",
-      "content": "This audio is auto-generated. Please let us know if you have feedback.\nTikTok has announced an initiative to address the rise of artificial intelligence-generated content in the app, including an expanded educational program for users, and an improve... [3214 chars]",
-      "imageUrl": "https://imgproxy.divecdn.com/MCK9Eu_S09yuuA9wdaQlF0i5OQ31SCej0bL6SvpXlio/g:ce/rs:fit:770:435/Z3M6Ly9kaXZlc2l0ZS1zdG9yYWdlL2RpdmVpbWFnZS90aWt0b2tfYWlfY291cnNlLnBuZw==.webp",
-      "source": "Social Media Today",
-      "publishedAt": "2026-07-12T18:35:49.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.socialmediatoday.com/news/tiktok-launches-ai-literacy-measures/825020/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1783863402454_af3b7bf8",
-      "title": "全球首款可变形个人机器人，上纬新材启元 T1 亮相",
-      "summary": "IT之家 7 月 12 日消息，上纬新材今日发布启元 T1 实机视频，号称“全球首款可变形个人机器人”。 从官方公布的视频来看，这款新品机器人可在轮足人形与四足形态之间进行切换，具有不错的稳定性。即使从桌面高度跃下，也能保持机身平稳。",
-      "content": "IT之家 7 月 12 日消息，上纬新材今日发布启元 T1 实机视频，号称“全球首款可变形个人机器人”。 从官方公布的视频来看，这款新品机器人可在轮足人形与四足形态之间进行切换，具有不错的稳定性。即使从桌面高度跃下，也能保持机身平稳。 IT之家注意到，2026 世界人工智能大会暨人工智能全球治理高级别会议（WAIC 2026）将于 7 月 17 日至 20 日在上海世博、张江、西岸“三地四馆”同步举行。据财联社此前消息，上纬新材将在展会期间推出全球首个可变形个人机器人 —— 启元 T1。 上纬新材主营业务为环保高性能耐腐蚀材料、风电叶片用材料、新型复合材料的研发、生产和销售。此次推出的启元 T1 是其首次涉足消费级机器人领域的产品。据上纬新材 CEO 田华介绍，启元 T1 跳出传统人形机器人的固有框架，以可变形态设计锚定家用消费场景。该产品基于一个机器人本体，可实现轮足人形与四足两种形态的自动切换变形。此外，启元 T1 具备拍摄运镜功能，并在智能交互与陪伴方面取得了突破性进展。 上纬新材正加快个人机器人的商业化落地，上纬启元位于上海、深圳、西安、厦门、广州等地的线下体验门店近期已陆续落地，渠道体系建设正在同步推进。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/2c9ae0e2-6d34-4238-9353-9a7c57ad6490.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-07-12T11:32:40.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/975/794.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783863388617_919246d8",
-      "title": "巨浪已来，还是压力已至？智谱这封内部信，透露的不只是AGI野心",
-      "summary": "巨浪已来，还是压力已至？智谱这封内部信，透露的不只是AGI野心",
-      "content": "智谱，到底想成为一家什么公司？答案或许比很多人想象得更加激进。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-12T07:33:41.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8061646.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783863382727_938d1349",
-      "title": "全网骂Claude变笨，Anthropic下场揭秘：坑你的不是模型",
-      "summary": "换更大的模型就等于更聪明？ 【导读】换更大的模型就等于更聪明？这可能是Claude Code用户最深的误会。很多人为此一路换到最贵的Fable，近日，Anthropic，亲手澄清了这个误区。 你有没有过这种时刻：Claude Code写代码写砸了，第一反应，就是赶紧换个更强的模型。",
-      "content": "换更大的模型就等于更聪明？ 【导读】换更大的模型就等于更聪明？这可能是Claude Code用户最深的误会。很多人为此一路换到最贵的Fable，近日，Anthropic，亲手澄清了这个误区。 你有没有过这种时刻：Claude Code写代码写砸了，第一反应，就是赶紧换个更强的模型。 但这一招，很多时候并不管用，甚至是在白花钱。 近日，Anthropic官方发了一篇长文专门来讲这件事。 Anthropic官方长文 起因是太多人把Claude Code里的两个选项搞混了： 一个是模型选择（Model），一个是努力度（Effort）。 Anthropic官方长文 过去，大家对这两个选项的理解都很简单：换更大的模型，AI就更聪明；把Effort调高，无非是让AI多想一会儿。 而就在今年3月，这个误会还惹出了一场不小的混乱。 当时，不少开发者发现，手里的Claude Code突然「变笨」了。该读的文件不读，该跑的测试不跑，任务干到一半就撂挑子，反过来问你要更多信息。 于是，GitHub上骂声一片。 最狠的一刀来自AMD的AI负责人Stella Laurenzo。 她在GitHub上翻出6852个会话的日志，实测Claude的思考量比2月之前掉了67%，撂下一句： Claude已经没法被信任，去干复杂的工程活了。 Claude已经没法被信任 起初，大家还以为是自己的提示词没写好，或者哪里配置错了。折腾半天才恍然大悟：问题根本不在自己身上，是Anthropic悄悄改了一个设置。 3月4日，为了压低延迟，他们把Claude Code里的Effort选项，默认档位从high降到了medium。 官方更新日志里也写了，可大多数人并没注意到，他们只是感觉到，手里的模型无缘无故好像变蠢了。 扛了一个月，Anthropic才在4月7日把默认档位调回去，还给所有订阅用户重置了一次用量额度。 而多数人这时才知道，这个开关一直就在自己手边，它在暗中决定着：AI到底肯不肯为你满血干活。 Model换的是脑子，Effort换的是态度 Anthropic官方的拆解，可以简单总结为这样一句话： Model换的是脑子，Effort换的是态度。 先说Model，它换的是脑子。 每个模型背后是一套「冻结的权重」，它的能力和知识，在训练结束那一刻就被焊死了：只读、不可改。 这意味着，你推理时喂进去的提示词、CLAUDE.md、贴进上下文的代码，全都改变不了它的这套权重：你可以引导它，却没法「训练」它。 换模型，本质就是换一整套权重来接你的活，所以它解决的是「会不会」的问题。 一个在模型训练时还不存在的库，你把文档整篇喂给它，它能现学现用，可那只对这一次请求管用，模型本身一个字都没记住，转头就忘。 它偶尔会一本正经地调用一个根本不存在的API，也是同一个道理。那并非查漏了，是权重照着训练里的老套路，硬拼出一串东西。 再往底层看一眼，就更清楚了。你写的const x = await fetch，在模型眼里先被切成一个个token，每个换成词表里的一个数字。 图源：Anthropic官方博文 你写的一行代码，被切成token后各自对应词表里的一个整数：const是1078，await是2597，词表约10万个。模型拿到的从来不是文字，是这串数字。 模型不是一口气吐出整段答案的。它一次只预测一个token，接上去，再把整串重新算一遍，预测下一个。一段两百个token的回复，就是两百次完整的运算。 你等的时间、你烧的钱，大头全在这个循环里。 再说Effort，更换的是「态度」。 很多人以为高Effort就是「多想几秒」，错了。 它管的是Claude在这次任务上到底投入多少工作量：读几个文件、跑不跑测试、要不要额外验证、要不要把一个多步骤任务一路推到底再回来找你。 说白了：低Effort的Claude，倾向于快速回复，然后反过来问你要更多上下文，能不动手就不动手；高Effort的Claude，倾向于自己去翻信息、多调几次工具、一口气把长任务链跑完。 Effort在Claude Code里分成好几档，别把它当成一条死板的token预算线。 它是个行为信号，告诉Claude这活得干到多彻底、多有把握才算完，文本回复、工具调用、扩展思考，全在它的管辖范围里。 官方还放了一张示意图：同一条prompt，高Effort能比低Effort多吐大约7倍的token。多出来的那些，全花在读文件、跑验证、反复确认上了。 图源：Anthropic官方博文 同一条prompt，高Effort路径生成的token约为低Effort的7倍，多出的全花在读文件、跑验证、反复确认上。 这里藏着一个反直觉的结论：小模型开高Effort，完全可能干翻大模型开低Effort。 不会，还是不够努力 知道了分工，真正有用的，是官方给的那套判断框架。 图源：Anthropic官方博文 官方判断框架：Claude做错了，先问它是不够聪明还是不够努力，再决定换模型还是加Effort。 Claude干砸了，先别急着动模型选项。 第一步永远是回头查上下文：prompt说清楚了吗？该给的工具给了吗？CLAUDE.md配对了吗？大多数所谓「AI变笨」，根子都在这儿，不在模型选项上。 上下文确实没问题、它还是错，就问自己一句：它是不会，还是不够努力？ 「不够努力」，很好判断：该读的文件跳过了、测试没跑、重构干到一半跑回来问你：它缺的不是脑子，是投入。 这是Effort的事，可以往上调一档。 如果「不会」，则是另一种情形：你上下文给足了，它也明显尽力了，可还是错，换个说法再试一遍还是错。 这时候任你怎么加Effort都白搭，这是模型的事：就要换更强的。 官方还打了个特别好懂的比方。 Sonnet，是个有一整个下午的全能选手。 它会把你的代码从头读到尾，跑一遍、再验一遍，最后是真把你这摊活儿吃透了。 Opus，是只给你五分钟的专家。它带来的是你代码库里压根没有的经验，见过的坑、该绕的雷，全是解过一堆同类问题攒下的直觉。可五分钟就那么点时间，只够它扫一眼，不能扫遍所有文件。 Fable，是所有人都卡住了才请得动的专科。哪怕只给五分钟，它也能一眼揪出别人谁都没看出的那处毛病。 当然，这位专家每个token也最贵，得留给真正没人能接的硬骨头。 所以才有那个反常识的结论： 一个Sonnet开高Effort，在不少活儿上真能干过Opus开低Effort。小模型配上充足上下文和高投入，能扛下的事比你想象的要多得多。 图源：Anthropic官方博文 长任务、多步骤活上，Fable拉开最大差距，官方测试里有些任务Opus和Sonnet开到任何Effort都够不着。 卷完模型排行榜，给AI派活成了硬手艺 这篇官方解读，表面上是教你调参，背后是一个重要的转向： AI编程的竞争，正在从「谁的模型更强」，转向「谁更会调度智能体」。 过去很简单，人挑一个最强的模型，剩下的全交给它。 现在不一样了。你得像个项目经理那样，给不同的模型派不同的角色、定不同的投入档位： 简单的改动交给Sonnet挂低档，秒回还省钱；大型重构上强模型加高档；要长时间自己跑的智能体任务，强模型配足Effort。 这些操作，不仅能把活干得更好，省下来的，都是真金白银的token账单。 Claude Code的Effort菜单里多出的那档ultracode，就是把这套「调度」做进了产品。 选中它，Claude拿到的是xhigh的火力，外加一项授权：遇到实质性的活儿，自己掂量要不要拉起一支智能体队伍，把任务拆下去并行干。 回头看3月那场「变笨」风波。 它能惊动整个社区，恰恰因为大多数人还停在「换模型」的老思路里，对手边这个更要命的Effort选项浑然不觉。 只看模型排行的时代正在过去，调度模型，正在成为核心手艺。 谁先学会给AI派活，谁就能抢先一步，用上那个真正肯为你卖力的Claude。否则，你手里再贵的模型，也只是一个更贵的搜索框。 这样，你烧的每一分token，才算真花在了刀刃上。 参考资料： https://claude.com/blog/claude-model-and-effort-level-in-claude-code https://x.com/ClaudeDevs/status/2074900291062034618?s=20 https://platform.claude.com/docs/en/managed-agents/multi-agent 编辑：元宇 本文来自微信公众号“新智元”，作者：ASI启示录，36氪经授权发布。",
-      "imageUrl": "https://img.36krcdn.com/hsossms/20260712/v2_b77ea2d60b684a10ac185e0ffbb5c0f8@5579416_oswg84131oswg1080oswg460_img_000?x-oss-process=image/format,jpg/interlace,1",
-      "source": "36氪",
-      "publishedAt": "2026-07-12T05:47:23.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/p/3892222176574211?f=rss",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783826547812_3f64b4d7",
-      "title": "百度AI将携智能体全家桶亮相WAIC 2026",
-      "summary": "36氪获悉，在即将在上海开幕的世界人工智能大会（WAIC 2026）上，百度AI将携智能体全家桶亮相，全方位呈现智能体从技术升级、应用开发到产业赋能的最新成果。同时，百度“芯云模体”全栈AI产品矩阵也将在WAIC现场发布新升级，集中展示百度AI从底层技术创新到产业场景、个人应用的规模化落地进展。",
-      "content": "36氪获悉，在即将在上海开幕的世界人工智能大会（WAIC 2026）上，百度AI将携智能体全家桶亮相，全方位呈现智能体从技术升级、应用开发到产业赋能的最新成果。同时，百度“芯云模体”全栈AI产品矩阵也将在WAIC现场发布新升级，集中展示百度AI从底层技术创新到产业场景、个人应用的规模化落地进展。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-07-12T03:19:28.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://36kr.com/newsflashes/3892090766539268?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
