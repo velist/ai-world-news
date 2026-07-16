@@ -1,9 +1,81 @@
 {
   "success": true,
-  "timestamp": "2026-07-16T02:56:02Z",
-  "total": 30,
+  "timestamp": "2026-07-16T14:05:16Z",
+  "total": 27,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1784210607633_6cfc710b",
+      "title": "“我现在干得还行，但劝你别进来！”AI 蜜月期要结束了：打工人变成“快乐的行尸走肉”",
+      "summary": "“我现在干得还行，但劝你别进来！”AI 蜜月期要结束了：打工人变成“快乐的行尸走肉”",
+      "content": "“我现在干得还行，但劝你别进来！”AI 蜜月期要结束了：打工人变成“快乐的行尸走肉”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-16T18:47:21.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/IZIwV2Qia1X1q6RQvDxW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784210608035_614a4be0",
+      "title": "中国AI编程的入口之战，Qoder先拿下半壁江山",
+      "summary": "中国AI编程的入口之战，Qoder先拿下半壁江山",
+      "content": "中国AI编程的入口之战，Qoder先拿下半壁江山",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-16T18:40:36.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/vMEl57NogYIZXKY5bwUj?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784210608498_07d6bb16",
+      "title": "反转？Linus 亲自为 AI 站台并怒怼反对派：AI和编译器一样是工具，不爽就walk away",
+      "summary": "反转？Linus 亲自为 AI 站台并怒怼反对派：AI和编译器一样是工具，不爽就walk away",
+      "content": "反转？Linus 亲自为 AI 站台并怒怼反对派：AI和编译器一样是工具，不爽就walk away",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-16T17:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/6WyXSL8U09AT6dWV1RNq?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784210608935_36a2c091",
+      "title": "谷歌 Genkit 推出 Agents API：支持分离式任务轮次与人机协同",
+      "summary": "谷歌 Genkit 推出 Agents API：支持分离式任务轮次与人机协同",
+      "content": "谷歌 Genkit 推出 Agents API：支持分离式任务轮次与人机协同",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-16T16:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/ckLEtt7bN6AAURuEjfFF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784210609144_309d2418",
+      "title": "Harness Engineering  构建可靠 Agent",
+      "summary": "Harness Engineering  构建可靠 Agent",
+      "content": "Harness Engineering  构建可靠 Agent",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-16T15:56:04.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/4a2B42u4btbcGi6295ut?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784210604625_9ec889e0",
+      "title": "AIDC步入GW时代，未来数据中心怎么建？丨ToB产业观察",
+      "summary": "AIDC步入GW时代，未来数据中心怎么建？丨ToB产业观察",
+      "content": "GW时代的AIDC建设已经不仅是一场军备竞赛，而是一场系统工程能力的终极考验。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-16T10:04:22.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8067651.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1784170456036_c69b27f7",
       "title": "从 AI Coding 到 AI Native SDLC：企业级人机协同研发范式的演进与落地｜AICon深圳",
@@ -15,18 +87,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/H8IqlmqWsza0ev6KvvGm?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784170456583_fbf9b839",
-      "title": "Slack 推出智能体驱动型端到端测试，提升 UI 自动化测试稳定性",
-      "summary": "Slack 推出智能体驱动型端到端测试，提升 UI 自动化测试稳定性",
-      "content": "Slack 推出智能体驱动型端到端测试，提升 UI 自动化测试稳定性",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-16T09:28:20.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/fZWtgSqGaILoEMGmk0s2?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1784170464219_bd5ab683",
@@ -77,6 +137,18 @@
       "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1784210610756_dd292072",
+      "title": "WAIC 最热闹的时刻，我们帮你筛掉噪音",
+      "summary": "WAIC 最热闹的时刻，我们帮你筛掉噪音",
+      "content": "WAIC 最热闹的时刻，我们帮你筛掉噪音",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-15T16:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/PvrHDsA3SK724SzGZXjr?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1784170452250_7422dd69",
       "title": "一个诺奖经济学家，为什么会坐进一家AI公司的\"权力顶端\"？",
       "summary": "一个诺奖经济学家，为什么会坐进一家AI公司的\"权力顶端\"？",
@@ -122,30 +194,6 @@
       "publishedAt": "2026-07-15T10:48:44.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8066225.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784170459340_dfe18959",
-      "title": "当编码不再是瓶颈：跨越 Coding Agent 规模化后的流程与成本双困局｜AICon深圳",
-      "summary": "当编码不再是瓶颈：跨越 Coding Agent 规模化后的流程与成本双困局｜AICon深圳",
-      "content": "当编码不再是瓶颈：跨越 Coding Agent 规模化后的流程与成本双困局｜AICon深圳",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-15T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/1JIiNLEgyJ2UEPwS825r?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784170459877_8fe42490",
-      "title": "Kubernetes AI 辅助项目维护方案：恪守人为责任优先原则",
-      "summary": "Kubernetes AI 辅助项目维护方案：恪守人为责任优先原则",
-      "content": "Kubernetes AI 辅助项目维护方案：恪守人为责任优先原则",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-15T09:43:44.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/mKDCAL0Tr0AaaXJlPIrE?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -245,18 +293,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1784170460426_fd44f136",
-      "title": "Claude Artifacts 一夜打通“全网公开分享+多人编辑”，AI 交付闭环彻底杀疯了",
-      "summary": "Claude Artifacts 一夜打通“全网公开分享+多人编辑”，AI 交付闭环彻底杀疯了",
-      "content": "Claude Artifacts 一夜打通“全网公开分享+多人编辑”，AI 交付闭环彻底杀疯了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-14T22:01:15.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Pqcx0ktTdljvoQ3OMxze?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1784037247448_0b1a2895",
       "title": "Agentic Enterprise：Snowflake AI 如何重新定义工作 ｜ Summit 2026",
       "summary": "Agentic Enterprise：Snowflake AI 如何重新定义工作 ｜ Summit 2026...",
@@ -281,7 +317,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1784170438230_0",
+      "id": "news_1784210594653_0",
       "title": "Large language models often prioritize Western moral values, overlooking other cultures",
       "summary": "Large language artificial intelligence models, such as ChatGPT, often misjudge what people outside the West might value as a moral priority, according...",
       "content": "Large language artificial intelligence models, such as ChatGPT, often misjudge what people outside the West might value as a moral priority, according to our new research published in the Proceedings of the National Academy of Sciences.\nIn 2024 we as... [4585 chars]",
@@ -290,78 +326,6 @@
       "publishedAt": "2026-07-14T14:05:41.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.upi.com/Voices/2026/07/14/large-language-models-AI-Western-moral-values/4761784036496/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1784037239221_5e9ba697",
-      "title": "烟台这座老工业城市，在AI时代跑出了两只大牛股",
-      "summary": "烟台这座老工业城市，在AI时代跑出了两只大牛股",
-      "content": "杰瑞股份与冰轮环境，老登变小登",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-14T10:58:18.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8064246.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784037240832_ba09e8d8",
-      "title": "物理AI，让自动驾驶迎来了“第二春”",
-      "summary": "当字节跳动带着它的“世界模型”团队悄然叩响自动驾驶大门时，一个被行业讨论了近十年的命题，突然换了种全新的念法。这一次，颠覆它的不是更贵的传感器、更大的车队，而是一套能“脑补”物理世界运行规律的数字大脑。",
-      "content": "当字节跳动带着它的“世界模型”团队悄然叩响自动驾驶大门时，一个被行业讨论了近十年的命题，突然换了种全新的念法。这一次，颠覆它的不是更贵的传感器、更大的车队，而是一套能“脑补”物理世界运行规律的数字大脑。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-14T10:58:10.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8064199.html",
-      "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784037242203_1c2f8e83",
-      "title": "AI大厂进军医药，但资本市场等不了十年",
-      "summary": "AI大厂进军医药，但资本市场等不了十年",
-      "content": "医药，成了AI最诱人也最难兑现的故事。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-14T10:58:06.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8064038.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784037242752_4ddd9a14",
-      "title": "LibTV把100+AI视频魔法，封装进了这个全球最大的Skill商店里｜测评",
-      "summary": "LibTV把100+AI视频魔法，封装进了这个全球最大的Skill商店里｜测评",
-      "content": "1天，做一支韦斯安德森AI短片",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-14T10:58:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8064076.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784037243661_67677695",
-      "title": "AI下半场，买“云”不买“芯”？",
-      "summary": "AI下半场，买“云”不买“芯”？",
-      "content": "AI下半场，买“云”不买“芯”？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-14T10:57:58.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8063945.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784170438792_1",
-      "title": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT",
-      "summary": "Kalshi, the start-up that lets users wager on almost anything, has struck a partnership with the artificial intelligence company OpenAI to show World ...",
-      "content": "Kalshi, the start-up that lets users wager on almost anything, has struck a partnership with the artificial intelligence company OpenAI to show World Cup prediction market data in ChatGPT search results.\nThe tie-up, which has not been promoted public... [2276 chars]",
-      "imageUrl": "https://static01.nyt.com/images/2026/07/13/multimedia/13biz-kalshi-openai-kqcj/13biz-kalshi-openai-kqcj-facebookJumbo.jpg",
-      "source": "The New York Times",
-      "publishedAt": "2026-07-14T03:34:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html",
       "aiInsight": ""
     }
   ]
