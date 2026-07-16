@@ -1,20 +1,92 @@
 {
   "success": true,
-  "timestamp": "2026-07-15T13:53:23Z",
+  "timestamp": "2026-07-16T02:56:02Z",
   "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1784123495742_dd292072",
-      "title": "WAIC 最热闹的时刻，我们帮你筛掉噪音",
-      "summary": "WAIC 最热闹的时刻，我们帮你筛掉噪音",
-      "content": "WAIC 最热闹的时刻，我们帮你筛掉噪音",
+      "id": "news_1784170456036_c69b27f7",
+      "title": "从 AI Coding 到 AI Native SDLC：企业级人机协同研发范式的演进与落地｜AICon深圳",
+      "summary": "从 AI Coding 到 AI Native SDLC：企业级人机协同研发范式的演进与落地｜AICon深圳...",
+      "content": "从 AI Coding 到 AI Native SDLC：企业级人机协同研发范式的演进与落地｜AICon深圳",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-15T16:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/PvrHDsA3SK724SzGZXjr?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-07-16T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/H8IqlmqWsza0ev6KvvGm?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784170456583_fbf9b839",
+      "title": "Slack 推出智能体驱动型端到端测试，提升 UI 自动化测试稳定性",
+      "summary": "Slack 推出智能体驱动型端到端测试，提升 UI 自动化测试稳定性",
+      "content": "Slack 推出智能体驱动型端到端测试，提升 UI 自动化测试稳定性",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-16T09:28:20.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/fZWtgSqGaILoEMGmk0s2?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784170464219_bd5ab683",
+      "title": "OpenAI GPT-5.6 智商首破 130 天才线，比 99% 人类都聪明",
+      "summary": "见证历史！如今，全世界 99% 的人类，在 IQ 这方面竟拼不过一个 AI。在 Tracking AI 最新离线 IQ 测试中，GPT-5.6「全家桶」多个版本，齐刷刷地飙到了 136 分。 这是 LLM 第一次，把 IQ 推过了 130 这道坎。",
+      "content": "见证历史！如今，全世界 99% 的人类，在 IQ 这方面竟拼不过一个 AI。在 Tracking AI 最新离线 IQ 测试中，GPT-5.6「全家桶」多个版本，齐刷刷地飙到了 136 分。 这是 LLM 第一次，把 IQ 推过了 130 这道坎。在人类的智商分布里，130 分是「天才」的起跑线，全球仅有大约 1% 的人能站上去。换言之，GPT-5.6 要比 99% 的人类还聪明。 GPT-5.6 狂刷 136 分，IQ 首破「天才线」 这个「智商」，含金量有多高？ 实际上，Tracking AI 手里有两套题。 一套是公开的 Mensa Norway 风格测试，网上人人能做，模型早就刷到 140 多分了。 另一套，是它自己攒的「离线题库」。不公开、防泄题，专门用来堵住「模型提前背过答案」的漏洞。 GPT-5.6 这次拿下 136 分，破的正是这套最难、最防作弊的离线题。 在这份离线排行榜上，GPT-5.6 的一众变体（连视觉版都算上）集体冲到 136 分，把身后所有对手甩开了一大截。 紧咬在后面的，是 Claude-5 Fable，130 分。 再往下，GPT-5.6 LUNA Max、Claude-4.8 Opus 这些名字，还在 117 到 123 分之间打转。 要知道，130 这道门槛之前一直没被跨过去。 过去一年里，从 o3 到各家旗舰，一茬又一茬的模型冲上来，全卡在 130 的门口，谁也没能真正踏进「天才区间」。 GPT-5.6，是第一个把门踹开的。 而且它不是单枪匹马上分，SOL、TERRA 一整个家族集体飙到 136，连视觉版都没掉队。 在 Reddit 上，一位开发者亲自下场测试，最终体感 GPT-5.6 明显要比 GPT-5.5 的智商更高。 在如下的测试题中，GPT-5.6 均在最短时间内，拿下了出色的成绩。 一个分数可能难以令人信服，那么，GPT-5.6 离开考场、真刀真枪干活时是什么样？ 光有分不够，把 GPT-5.6 拉去干活 开发者 Amir Bohlooli 拿同一个物理模拟 prompt，同时喂给 Fable 5 和 GPT-5.6 Sol，本以为会被 Fable 碾压，结果反被 GPT 惊到。 它选了粒子流体模拟，物理按真实时间推进而非每帧盲跑固定运算，CSS、界面、渲染全塞进一个 HTML 文件，还自动托管成可分享网页。一句话，一个成品。 Ramanpal Singh 同样用了一句 prompt，造出一个基于 RAG 的客服工单系统。 四种角色、管理后台、可嵌入组件，还能自动给投诉分类、识别情绪、起草回复。 这样的 app 它一口气造了 5 个，成本只有 Fable 5 的零头。 最有画面感的，是 Claire Vo 的桥段。 几天前，她卡在一个 bug 上，以为是自己代码写崩了，换到 GPT-5.6 Sol 后只甩下一句「我就是不信搞不定」。 Sol 一次修好，还顺手让别的模型也跑通了。 她的评价一针见血，Fable 死磕技术上的绝对精确，反而作茧自缚，Sol 的务实却把活干成了。 不得不说，AI 会做题，和 AI 能救场，中间隔着一整个真实项目。 这算 AGI 吗？ 有网友表示，「对 99% 的人来说，这已经是 AGI 了」。 冷静下来看，这 136 分，是 Tracking AI 一个特定的离线 / Mensa Norway 风格测试跑出来的。 它测的，主要是抽象模式识别、逻辑推理这一类「标准化认知」。 问题在于：IQ 测试，本来就不是为大模型量身定做的。 一张 Mensa 卷子，测不出一个模型的事实可靠性，测不出它的工具调用能力，也测不出它在真实职业场景里到底靠不靠谱。 它只是切下了「智能」的一个薄片，然后告诉你，这一片有多亮。 不过，人们上手后的实测，恰恰给出了另一半答案：GPT-5.6 好像，正在把「会做题」和「会做事」这两件事，慢慢拧到一起。 标准化测试里的题目，模型多半在训练数据里见过千百遍；真正见功夫的，是那些它从没遇到、也无处抄答案的新问题。 谁能在那儿稳住，谁才配得上「智商」这两个字。 参考资料： https://x.com/davidpattersonx/status/2077049232490672458 https://trackingai.org/ 相关阅读： 《OpenAI 最强 AI 模型：GPT-5.6 系列登场，编程跑分超 Claude Mythos 5》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/859d5233-e5d0-4cfc-b135-854c9aba0c70.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-07-16T02:51:14.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/977/353.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784170464467_c56abf37",
+      "title": "教育部增设 27 个职业教育新专业：明年开始招生，涉人形机器人、车联网等领域",
+      "summary": "IT之家 7 月 16 日消息，今天（16 日），教育部发布新增补的 27 个职业教育本专科专业，其中，高职专科专业 9 个、职业本科专业 18 个，涉及 14 个专业大类，20 个专业类。新增专业将于 2027 年开始招生。",
+      "content": "IT之家 7 月 16 日消息，今天（16 日），教育部发布新增补的 27 个职业教育本专科专业，其中，高职专科专业 9 个、职业本科专业 18 个，涉及 14 个专业大类，20 个专业类。新增专业将于 2027 年开始招生。 据IT之家了解，此次专业目录增补紧扣国家“十五五”规划纲要和《教育发展“十五五”规划》部署，紧密围绕建设现代化产业体系、促进服务业优质高效发展，精准对接新产业、新业态、新场景、新模式，锚定高技能人才培养，重点增设一批数字经济、低空经济、人工智能、高端装备、城市更新以及民生紧缺等领域专业。 聚焦服务业扩能提质行动，在生产性服务业领域，新增技术经纪服务、低空运输工程技术等职业本科专业，助力产业向价值链高端延伸；在生活性服务业领域，布局婴幼儿家庭养育与指导、旅居康养运营与管理等高职专科专业，补齐民生服务领域技能人才短板。 针对机器人工程技术人员等新职业，增设人形机器人工程技术、数字孪生工程技术、车联网通信技术等职业本专科专业；围绕氢能、储能等绿色能源领域，布局氢能工程技术职业本科专业、储能材料装备智能运维技术高职专科专业，精准填补前沿领域技能人才缺口。 本次专业增补充分依托行业产教融合共同体、市域产教联合体，将产业一线真实需求、企业核心诉求转化为专业设置依据。如依托城市更新行业产教融合共同体，精准摸排土建领域建筑体检、结构加固、智能化改造等人才缺口，增设城市更新设计技术职业本科专业。 依托德阳重大技术装备制造市域产教联合体，深挖装备制造领域设备故障诊断、精密探伤、智能质检等岗位刚需，增补智能无损检测技术职业本科专业。 依托职业教育高技能人才集群培养计划，服务高原铁路等重大工程、城市更新等重大战略、托育养老等民生领域，增补一批急需紧缺专业。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-07-16T02:30:56.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/977/336.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784170450499_e379879e",
+      "title": "算力奔赴太空，航天AI开启产业新周期",
+      "summary": "算力奔赴太空，航天AI开启产业新周期",
+      "content": "太空算力板块逆势上涨，AI与航天融合趋势凸显，技术突破与产业变革推动产业转型",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-16T01:23:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8066555.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784170451722_d9960833",
+      "title": "你还在手写 Prompt？聪明的人早就用上了循环工程，AI 的自动驾驶时代来了",
+      "summary": "你还在手写 Prompt？聪明的人早就用上了循环工程，AI 的自动驾驶时代来了",
+      "content": "什么是循环工程，如何使用循环工程",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-16T00:10:34.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8066456.html",
+      "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784170452250_7422dd69",
+      "title": "一个诺奖经济学家，为什么会坐进一家AI公司的\"权力顶端\"？",
+      "summary": "一个诺奖经济学家，为什么会坐进一家AI公司的\"权力顶端\"？",
+      "content": "前美联储主席、2022年诺贝尔经济学奖得主本·伯南克，加入了Anthropic。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-15T13:47:49.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8066710.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1784123503657_d260c8d3",
@@ -41,18 +113,6 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1784123497070_01ee008f",
-      "title": "WordPress 7.0 发布：内置 AI 基础能力、改进管理后台与设计套件",
-      "summary": "WordPress 7.0 发布：内置 AI 基础能力、改进管理后台与设计套件",
-      "content": "WordPress 7.0 发布：内置 AI 基础能力、改进管理后台与设计套件",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-15T11:29:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/VAUIReF3N4Z4SkcosaYN?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1784123492496_0bc79a26",
       "title": "字节入局物理AI，第二波“盛宴”开启？",
       "summary": "字节入局物理AI，第二波“盛宴”开启？",
@@ -62,6 +122,30 @@
       "publishedAt": "2026-07-15T10:48:44.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8066225.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784170459340_dfe18959",
+      "title": "当编码不再是瓶颈：跨越 Coding Agent 规模化后的流程与成本双困局｜AICon深圳",
+      "summary": "当编码不再是瓶颈：跨越 Coding Agent 规模化后的流程与成本双困局｜AICon深圳",
+      "content": "当编码不再是瓶颈：跨越 Coding Agent 规模化后的流程与成本双困局｜AICon深圳",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-15T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/1JIiNLEgyJ2UEPwS825r?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784170459877_8fe42490",
+      "title": "Kubernetes AI 辅助项目维护方案：恪守人为责任优先原则",
+      "summary": "Kubernetes AI 辅助项目维护方案：恪守人为责任优先原则",
+      "content": "Kubernetes AI 辅助项目维护方案：恪守人为责任优先原则",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-15T09:43:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/mKDCAL0Tr0AaaXJlPIrE?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -161,16 +245,16 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1784123498946_0a4e95d7",
-      "title": "治理 Agentic Enterprise：营销领导者当下必须知道的事 ｜ 技术趋势",
-      "summary": "治理 Agentic Enterprise：营销领导者当下必须知道的事 ｜ 技术趋势",
-      "content": "治理 Agentic Enterprise：营销领导者当下必须知道的事 ｜ 技术趋势",
+      "id": "news_1784170460426_fd44f136",
+      "title": "Claude Artifacts 一夜打通“全网公开分享+多人编辑”，AI 交付闭环彻底杀疯了",
+      "summary": "Claude Artifacts 一夜打通“全网公开分享+多人编辑”，AI 交付闭环彻底杀疯了",
+      "content": "Claude Artifacts 一夜打通“全网公开分享+多人编辑”，AI 交付闭环彻底杀疯了",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-14T18:40:43.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/kMa4NtkHgLNFMJ02bIjJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-07-14T22:01:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Pqcx0ktTdljvoQ3OMxze?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1784037247448_0b1a2895",
@@ -185,18 +269,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1784123499640_822963bd",
-      "title": "AlloyDB 推出代理模型，用数据库本地推理替代外部大模型调用",
-      "summary": "AlloyDB 推出代理模型，用数据库本地推理替代外部大模型调用",
-      "content": "AlloyDB 推出代理模型，用数据库本地推理替代外部大模型调用",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-14T16:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/9RKrYlX2xWPNabO3ErVj?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1784037248646_d3505e8b",
       "title": "SpaceX联手Cursor的首个AI产品曝光！全能办公智能体内测中，ChatGPT Work迎来劲敌",
       "summary": "SpaceX联手Cursor的首个AI产品曝光！全能办公智能体内测中，ChatGPT Work迎来劲敌...",
@@ -209,7 +281,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1784123480986_0",
+      "id": "news_1784170438230_0",
       "title": "Large language models often prioritize Western moral values, overlooking other cultures",
       "summary": "Large language artificial intelligence models, such as ChatGPT, often misjudge what people outside the West might value as a moral priority, according...",
       "content": "Large language artificial intelligence models, such as ChatGPT, often misjudge what people outside the West might value as a moral priority, according to our new research published in the Proceedings of the National Academy of Sciences.\nIn 2024 we as... [4585 chars]",
@@ -281,7 +353,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1784123480511_1",
+      "id": "news_1784170438792_1",
       "title": "OpenAI Is Showing Kalshi’s World Cup Odds in ChatGPT",
       "summary": "Kalshi, the start-up that lets users wager on almost anything, has struck a partnership with the artificial intelligence company OpenAI to show World ...",
       "content": "Kalshi, the start-up that lets users wager on almost anything, has struck a partnership with the artificial intelligence company OpenAI to show World Cup prediction market data in ChatGPT search results.\nThe tie-up, which has not been promoted public... [2276 chars]",
@@ -290,78 +362,6 @@
       "publishedAt": "2026-07-14T03:34:35.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.nytimes.com/2026/07/13/technology/kalshi-openai-chatgpt-world-cup-odds.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1783997371831_1948a416",
-      "title": "三星 Dremo & Minimo 儿童机器人斩获红点最佳概念设计奖项：子母 AI 套件，企鹅造型",
-      "summary": "IT之家 7 月 14 日消息，三星电子今天（7 月 14 日）发布公告，宣布在红点设计大奖：设计概念（Red Dot Award: Design Concept）中荣获 8 项荣誉，其中 2 项获得“Best of the Best”奖项。",
-      "content": "IT之家 7 月 14 日消息，三星电子今天（7 月 14 日）发布公告，宣布在红点设计大奖：设计概念（Red Dot Award: Design Concept）中荣获 8 项荣誉，其中 2 项获得“Best of the Best”奖项。 IT之家注：红点设计大奖是由德国北威州设计中心组织的设计奖项，始于 1955 年，覆盖产品设计、设计概念、品牌与传播设计 3 个类别。 在最新大奖活动中，三星电子斩获 8 项大奖，其中三星家用电器配件和三星儿童机器人 Dremo & Minimo 荣获“红点设计概念最佳奖”（Best of the Best）。 三星家用电器配件概念主要通过颜色，直观地帮助用户识别耗材的管理和处理方法，半永久部件标为灰色，可回收部件标为绿色，一般废弃物标为棕色，该颜色系统让用户无需额外说明，即可识别耗材的处理方式。 例如，空气净化器和吸尘器的某些滤芯属于需要定期更换的耗材，三星采用与管理类型相对应的颜色编码系统，方便消费者轻松区分不同的处理方法和处置方式。 而 Dremo & Minimo 是一款儿童概念机器人，用户可以为孩子创建专属 AI 角色，设置名字、性格和声音。Dremo 是家用的主机机器人，而 Minimo 则是便携式版本，可以随时随地保持连接。 除 2 项最高奖外，另有 6 个结合人工智能的概念获得红点奖项，例如 AI Beauty Mirror 可扫描面部并分析皮肤状况。Panorama UX 可根据用户特征和实时情境调整界面。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/a19bd7c2-6efa-4e76-a24d-39854c47d09c.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-07-14T02:20:03.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/976/321.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783997351910_a704f55b",
-      "title": "AI应用的“最后一公里”，模型再强也绕不开数据困境丨ToB产业观察",
-      "summary": "AI应用的“最后一公里”，模型再强也绕不开数据困境丨ToB产业观察",
-      "content": "AI竞争的下半场，拼的不再是模型，而是企业数据基础设施。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-14T02:10:53.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8063772.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783997371863_2bef6810",
-      "title": "三星健康被指存“霸王条款”：拒绝 AI 训练授权恐失去备份能力",
-      "summary": "IT之家 7 月 14 日消息，科技媒体 Neowin 昨日（7 月 13 日）发布博文，报道称三星健康（Samsung Health）新增选项，用户若不同意其健康数据用于训练 AI，可能无法备份数据且被威胁删除数据。",
-      "content": "IT之家 7 月 14 日消息，科技媒体 Neowin 昨日（7 月 13 日）发布博文，报道称三星健康（Samsung Health）新增选项，用户若不同意其健康数据用于训练 AI，可能无法备份数据且被威胁删除数据。 在三星健康应用设置中，三星新增“同意将健康数据用于人工智能训练和建模”的选项，并强制用户在备份信息前同意这些条款，从而让三星具备相关权力，收集用户个人健康数据用于训练 AI 以及优化算法。 IT之家附上相关截图如下： 用户尝试关闭该选项后，应用会弹出警告信息阻止您操作： 退出此协议？ 用户将无法将健康数据同步到其三星账户，并且在适用法律要求保留范围之外，用户的相关健康数据会被删除。我们将在规定的保留期限结束后立即删除这些数据。 三星表示，该公司计划收集睡眠、用药、医疗记录和生理周期追踪详情四类数据，通过改进的机器学习算法来分析健康状况，从而“提升三星健康”的应用体验。三星还表示，部分收集到的数据将由人工（可能是三星员工或第三方承包商）进行审核。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/7fd163d1-c168-4daa-9f17-f94ea5bdb334.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-07-14T02:07:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/976/309.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783997352806_f0530806",
-      "title": "苹果41页状纸怒告OpenAI“偷家”：硅谷无间道引爆AI硬件之战",
-      "summary": "苹果41页状纸怒告OpenAI“偷家”：硅谷无间道引爆AI硬件之战",
-      "content": "面试带零件、离职钻漏洞、LINE密谋，41页诉状里的硅谷“谍战剧”。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-14T01:43:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8063036.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1783997355064_86152f79",
-      "title": "十分之一成本的中国模型，正在重塑全球AI版图",
-      "summary": "十分之一成本的中国模型，正在重塑全球AI版图",
-      "content": "扛不住天价Token，美企转向中国AI。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-14T00:07:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8062448.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784123480850_2",
-      "title": "Pritzker signs new laws on birth control, AI regulations, play-based learning",
-      "summary": "SPRINGFIELD – Gov. JB Pritzker signed 31 new laws on Friday as he continues evaluating measures passed in the spring session, including bills banning ...",
-      "content": "SPRINGFIELD – Gov. JB Pritzker signed 31 new laws on Friday as he continues evaluating measures passed in the spring session, including bills banning certain ingredients from cosmetics and correct the state’s property tax laws.\nAccess to birth contro... [5001 chars]",
-      "imageUrl": "https://www.shawlocal.com/resizer/v2/U5KLHYSM6JHF7LMOM76475U5EA.png?auth=61967006eb0db365e001a33c442c9ef3be13801594f56f7909ce889b5dc86d47&width=1200&height=630&focal=1078%2C129",
-      "source": "Shaw Local Enewspapers",
-      "publishedAt": "2026-07-13T19:37:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.shawlocal.com/news/2026/07/13/pritzker-signs-new-laws-on-birth-control-ai-regulations-play-based-learning/",
       "aiInsight": ""
     }
   ]
