@@ -1,32 +1,116 @@
 {
   "success": true,
-  "timestamp": "2026-07-22T02:59:27Z",
-  "total": 25,
+  "timestamp": "2026-07-22T14:07:32Z",
+  "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1784689061001_3029a991",
-      "title": "支付宝 xUI -- “阿宝”背后的 Agentic 终端交互引擎｜AICon深圳",
-      "summary": "支付宝 xUI -- “阿宝”背后的 Agentic 终端交互引擎｜AICon深圳",
-      "content": "支付宝 xUI -- “阿宝”背后的 Agentic 终端交互引擎｜AICon深圳",
+      "id": "news_1784729146140_81809111",
+      "title": "加速 AI Readiness：借助 Snowflake CoWork 从数据走向实时答案 ｜ Summit 2026",
+      "summary": "加速 AI Readiness：借助 Snowflake CoWork 从数据走向实时答案 ｜ Summit 2026...",
+      "content": "加速 AI Readiness：借助 Snowflake CoWork 从数据走向实时答案 ｜ Summit 2026",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-22T10:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/OJ0K1cGSLUNW0i07JGfL?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-07-22T21:49:23.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/l6UhmOLGpL7Q4bHlsRXy?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784729146953_73b3cf5f",
+      "title": "驱动 Agentic Enterprise：让企业上下文转化为可治理的 Agentic 行动 ｜ 技术趋势",
+      "summary": "驱动 Agentic Enterprise：让企业上下文转化为可治理的 Agentic 行动 ｜ 技术趋势...",
+      "content": "驱动 Agentic Enterprise：让企业上下文转化为可治理的 Agentic 行动 ｜ 技术趋势",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-22T18:44:59.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/shzCr5FsOcHUyBc8CEsj?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1784689061537_6b018c51",
-      "title": "跟上 AI 的节奏：为演进式架构构建上下文存储库",
-      "summary": "跟上 AI 的节奏：为演进式架构构建上下文存储库",
-      "content": "跟上 AI 的节奏：为演进式架构构建上下文存储库",
+      "id": "news_1784729147610_21a89bfc",
+      "title": "OpenAI承认为了偷答案，GPT-5.6 Sol 一路“杀进”生产系统：AI自主攻击时代真的来了",
+      "summary": "OpenAI承认为了偷答案，GPT-5.6 Sol 一路“杀进”生产系统：AI自主攻击时代真的来了",
+      "content": "OpenAI承认为了偷答案，GPT-5.6 Sol 一路“杀进”生产系统：AI自主攻击时代真的来了",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-22T09:50:52.000Z",
+      "publishedAt": "2026-07-22T17:46:50.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/XEta3vMDDHVIeS6qQe2P?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/P8G7TAsIP0rkeFFLxAf0?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784729148042_54f4191a",
+      "title": "云原生基础设施正成为可信代理式 AI 的基础",
+      "summary": "云原生基础设施正成为可信代理式 AI 的基础",
+      "content": "云原生基础设施正成为可信代理式 AI 的基础",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-22T16:25:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/oM4mt43K2Ss3Qd7zdhhr?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784729148515_e346ee1a",
+      "title": "西部数据 Tim Rausch：AI不是只有GPU，数据最终还要回到存储系统",
+      "summary": "西部数据 Tim Rausch：AI不是只有GPU，数据最终还要回到存储系统",
+      "content": "西部数据 Tim Rausch：AI不是只有GPU，数据最终还要回到存储系统",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-22T14:12:17.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/d5wZmCfW9GSEA7FMg40C?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784729137121_66d00a59",
+      "title": "OpenAI拟推出新企业软件OpenAI Presence",
+      "summary": "据报道，OpenAI即将推出一款名为OpenAI Presence的新企业软件，旨在自动化客户支持、销售及其他业务的部分流程。",
+      "content": "据报道，OpenAI即将推出一款名为OpenAI Presence的新企业软件，旨在自动化客户支持、销售及其他业务的部分流程。（界面）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-07-22T12:40:01.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3906781667202434?f=rss",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784729141053_eb37c6f0",
+      "title": "Why Japan Has Become a Graveyard for China’s Bubble Tea Kings",
+      "summary": "After conquering Southeast Asia, Chinese bubble tea giants like Mixue, Nayuki, and Heytea set their sights on Japan, aiming to replicate their aggress...",
+      "content": "After conquering Southeast Asia, Chinese bubble tea giants like Mixue, Nayuki, and Heytea set their sights on Japan, aiming to replicate their aggressive, scale-driven playbooks. Instead, they hit an operational brick wall. Facing steep cost structures, ingrained consumer habits favoring mini-sized coffee, and a mature retail landscape, China’s high-speed \"volume game\" has faltered—forcing brands to reassess their global expansion tactics.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-22T11:03:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8075658.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784729141789_5e258f32",
+      "title": "AI内容全球化：短剧、影视与互动内容的下一程 ｜WAIC2026",
+      "summary": "AI内容全球化：短剧、影视与互动内容的下一程 ｜WAIC2026",
+      "content": "AI重塑内容生产，商业化走向全球化叙事与细分市场。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-22T10:47:21.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8075471.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784729143427_7d8e6d5e",
+      "title": "连达芬奇手术机器人都开始降本了！",
+      "summary": "连达芬奇手术机器人都开始降本了！",
+      "content": "一份亮眼到近乎无可挑剔的财报，为何换来的却是资本市场的当头一棒?",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-22T09:15:14.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8074923.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1784689067236_d382613b",
@@ -89,6 +173,30 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1784729129409_0",
+      "title": "OpenAI says its AI technology acted on its own in an 'unprecedented' hack of another company :: WRAL.com",
+      "summary": "ChatGPT maker OpenAI said Tuesday that its artificial intelligence system hacked into another AI company on its own in what the company called an “unp...",
+      "content": "ChatGPT maker OpenAI said Tuesday that its artificial intelligence system hacked into another AI company on its own in what the company called an “unprecedented cyber incident.”\n“We had a significant security incident during evaluation of our models,... [1778 chars]",
+      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/07/061c6a74-5ae6-5072-af63-d142a81899a6.jpeg",
+      "source": "EUROPE SAYS",
+      "publishedAt": "2026-07-22T00:15:24.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.europesays.com/3145825/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1784729129558_1",
+      "title": "Massachusetts to expand AI learning opportunities with $500K investment",
+      "summary": "As artificial intelligence expands across K-12 schools, Massachusetts announced a new $500,000 public-private investment in AI applied learning opport...",
+      "content": "As artificial intelligence expands across K-12 schools, Massachusetts announced a new $500,000 public-private investment in AI applied learning opportunities for hundreds of students, the Healey-Driscoll administration announced Tuesday.\n“I’m happy t... [4831 chars]",
+      "imageUrl": "https://www.bostonherald.com/wp-content/uploads/2026/05/GOVERNORSCOUNCILMTGmrs01_16965a.jpg?w=1024&h=740",
+      "source": "The Boston Herald",
+      "publishedAt": "2026-07-22T00:13:56.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.bostonherald.com/2026/07/21/massachusetts-to-expand-ai-learning-opportunities-with-500k-investment/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1784689056995_379da272",
       "title": "China’s Emotional AI Market Faces a $2.5 Billion Reality Check",
       "summary": "UBTECH’s U1 robot sparked record pre-orders, but market jitters and strict data privacy rules are putting the emerging sector to the test....",
@@ -99,6 +207,30 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8074643.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1784729130317_3",
+      "title": "OpenAI Says Its AI Caused Hugging Face Cyber Breach (1)",
+      "summary": "Skip to content Bloomberg the Company & Its Products The Company & its Products Bloomberg Terminal Demo Request Bloomberg Anywhere Remote Login Bloomb...",
+      "content": "OpenAI said its artificial intelligence models were able to compromise the internal systems of startup Hugging Face Inc., offering an early glimpse of how AI systems could fuel new cybersecurity threats.\nThe company said in a blog post Tuesday that s... [387 chars]",
+      "imageUrl": "https://news-cdn.bindg.com/indg/assets/news/images/Fallback-image.webp",
+      "source": "Bloomberg Tax News",
+      "publishedAt": "2026-07-21T21:13:26.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://news.bloombergtax.com/daily-tax-report/openai-says-its-ai-caused-hugging-face-cyber-breach-1",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1784729129141_4",
+      "title": "OpenAI’s Altman to Brief US Officials on Next Wave of AI Models",
+      "summary": "OpenAI Chief Executive Officer Sam Altman plans to brief the Trump administration and US lawmakers next week on the upcoming generation of artificial ...",
+      "content": "OpenAI Chief Executive Officer Sam Altman plans to brief the Trump administration and US lawmakers next week on the upcoming generation of artificial intelligence models as the US works to create a process to review the safety of cutting-edge AI syst... [378 chars]",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/ilA0OMGlngTU/v1/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-21T15:35:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-07-21/openai-s-altman-to-brief-us-officials-on-next-wave-of-ai-models",
+      "aiInsight": ""
     },
     {
       "id": "news_1784642561435_61261e50",
@@ -161,6 +293,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1784729129128_5",
+      "title": "Self-Improving AI Models Look Genuinely Scary",
+      "summary": "More than a hundred protestors marched between the San Francisco headquarters of Anthropic PBC and OpenAI earlier this month, calling for a pause on t...",
+      "content": "More than a hundred protestors marched between the San Francisco headquarters of Anthropic PBC and OpenAI earlier this month, calling for a pause on the race to improve artificial intelligence. Take one look at their paint-scrawled signs — “Pls do no... [421 chars]",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iUwDOfVyUUqk/v2/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-07-21T03:00:20.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bloomberg.com/opinion/articles/2026-07-21/self-improving-ai-models-look-genuinely-scary",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1784603644809_bbf0e451",
       "title": "1024合一，壁仞科技在WAIC扔出一枚“光”炸弹",
       "summary": "1024合一，壁仞科技在WAIC扔出一枚“光”炸弹",
@@ -185,7 +329,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1784689044593_0",
+      "id": "news_1784729129055_6",
       "title": "Chinese AI model rivals ChatGPT, jolting Silicon Valley",
       "summary": "Another powerful new artificial intelligence model from China took the U.S. tech industry by surprise Friday, the latest sign that Chinese startups th...",
       "content": "Another powerful new artificial intelligence model from China took the U.S. tech industry by surprise Friday, the latest sign that Chinese startups that publicly release their “open-source” AI technology are making the California titans of AI sweat.\n... [4672 chars]",
@@ -219,90 +363,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/cm9JyEjFfV4toUJabQ80?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784556928451_670b08ea",
-      "title": "AI 红利分层，“底座夯实”的团队获益最高——《DevData 2026 研发效能基准报告》正式发布！",
-      "summary": "AI 红利分层，“底座夯实”的团队获益最高——《DevData 2026 研发效能基准报告》正式发布！...",
-      "content": "AI 红利分层，“底座夯实”的团队获益最高——《DevData 2026 研发效能基准报告》正式发布！",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-20T14:27:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/qgQoeipS5mb1feHBpTpp?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784556918354_a1da21fe",
-      "title": "世界杯的终场哨，AI竞赛的发令枪",
-      "summary": "海信连续三届以官方赞助商身份登场，角色却在悄然进化：从“提供设备”到“赛事共建”，再到本届世界杯的“技术合伙人”。",
-      "content": "海信连续三届以官方赞助商身份登场，角色却在悄然进化：从“提供设备”到“赛事共建”，再到本届世界杯的“技术合伙人”。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-20T11:55:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8071707.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784556919180_0ed88eaa",
-      "title": "YC掌门人最新分享：AI时代，永远不要做一次性工作",
-      "summary": "YC掌门人最新分享：AI时代，永远不要做一次性工作",
-      "content": "如果你重复交代同一件事两次，意味着你的管理失败了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-20T10:42:40.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8071908.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784556919490_2f7905f5",
-      "title": "这才是Agent的正确打开方式——写在“碰一下”升级之际",
-      "summary": "这才是Agent的正确打开方式——写在“碰一下”升级之际",
-      "content": "物理世界Agent网络的第一步，走出去了。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-20T10:20:52.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8072253.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784556920809_ef5b3cd2",
-      "title": "AI硬件，开始为Agent重做｜OpenFuture",
-      "summary": "AI硬件，开始为Agent重做｜OpenFuture",
-      "content": "最终的前进方向是搭建出一个与硬件相对解耦的、适用范围更广的AgentOS。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-20T09:06:45.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8072001.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784518407753_de1756ed",
-      "title": "百度昆仑芯 M100 实物首次展出：面向大模型推理进行针对性优化，延续自研 XPU 理念",
-      "summary": "IT之家 7 月 20 日消息，2026 世界人工智能大会正在举行中，央视新闻前天刊播《智汇上海共赴 AI 新未来》，百度昆仑芯科技自主研发新品 M100 芯片实物首次在央视报道中公开亮相。",
-      "content": "IT之家 7 月 20 日消息，2026 世界人工智能大会正在举行中，央视新闻前天刊播《智汇上海共赴 AI 新未来》，百度昆仑芯科技自主研发新品 M100 芯片实物首次在央视报道中公开亮相。 据介绍，M100 芯片是昆仑芯科技今年推出的第四代 AI 芯片产品，延续自研 XPU 架构理念，面向大模型推理时代需求进行了针对性优化，主打通用、高效和经济产品力，为 AI 计算提供全新选择。 同时，昆仑芯还在 WAIC 2026 展示了芯片、加速卡、整机和超节点等产品矩阵。其中 32/64 卡超节点产品及 256 卡超节点集群被列为重点展示对象，是国内率先实现量产交付的超节点产品之一。 据IT之家此前报道，昆仑芯 M100、M300 芯片于 2025 年 11 月发布，前者针对大规模推理场景优化设计，主打“极致性价比”；后者面向超大规模多模态模型的训练和推理需求，主打“极致性能”。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/ff1c312d-0dbb-452e-b2df-2d93998a3a12.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-07-20T03:21:18.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/978/920.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1784518390564_93076721",
-      "title": "工信部：将加快出台人工智能+软件行动方案",
-      "summary": "7月20日，国务院新闻办公室举行新闻发布会，介绍2026年上半年工业和信息化发展情况。工业和信息化部新闻发言人、运行监测协调局局长陶青表示，软件是新一代信息技术的灵魂，是数字经济发展的重要基础，是制造强国、网络强国、数字中国建设的关键支撑。",
-      "content": "7月20日，国务院新闻办公室举行新闻发布会，介绍2026年上半年工业和信息化发展情况。工业和信息化部新闻发言人、运行监测协调局局长陶青表示，软件是新一代信息技术的灵魂，是数字经济发展的重要基础，是制造强国、网络强国、数字中国建设的关键支撑。下一步我们将按照国家软件发展战略部署，持续增强关键软件产品和服务供给能力，加快出台人工智能+软件行动方案，推动软件开发智能化转型，软件产品及服务智能化升级和智能体软件新业态的培育，持续提升开源基础设施在项目孵化、供应链安全治理、新兴场景探索、海外市场落地等方面的能力，加快推动国家级人工智能开源社区成长为新兴技术的创新策源地和软硬件产品落地的重要场景。（证券时报）",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "36氪",
-      "publishedAt": "2026-07-20T03:03:25.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://36kr.com/newsflashes/3903399623542657?f=rss",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
