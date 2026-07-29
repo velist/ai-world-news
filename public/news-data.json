@@ -1,20 +1,128 @@
 {
   "success": true,
-  "timestamp": "2026-07-28T14:21:11Z",
-  "total": 23,
+  "timestamp": "2026-07-29T02:58:49Z",
+  "total": 26,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1785248365240_14635116",
-      "title": "1v1 对话：一个人，能用 AI 做出什么？——和一位顶级 AI Builder 深聊",
-      "summary": "1v1 对话：一个人，能用 AI 做出什么？——和一位顶级 AI Builder 深聊",
-      "content": "1v1 对话：一个人，能用 AI 做出什么？——和一位顶级 AI Builder 深聊",
+      "id": "news_1785293821591_9a00f8ab",
+      "title": "OpenSandbox：重新思考 Agent 时代的 Runtime",
+      "summary": "OpenSandbox：重新思考 Agent 时代的 Runtime",
+      "content": "OpenSandbox：重新思考 Agent 时代的 Runtime",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-07-28T19:30:29.000Z",
+      "publishedAt": "2026-07-29T10:47:51.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/spVFUewcp2VRtKCSo1kB?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/ZTpvXKGjyzpNUaS9Gp3b?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785293822071_ef9ecbb7",
+      "title": "模型越来越强之后，Infra 将被 AI 接管？",
+      "summary": "模型越来越强之后，Infra 将被 AI 接管？",
+      "content": "模型越来越强之后，Infra 将被 AI 接管？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-29T10:37:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/wJRP0eEsTxoCxgatkDms?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785293822477_ea6c4c39",
+      "title": "OPPO 端侧多模态大模型工程化实践｜AICon深圳",
+      "summary": "OPPO 端侧多模态大模型工程化实践｜AICon深圳",
+      "content": "OPPO 端侧多模态大模型工程化实践｜AICon深圳",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-29T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/ButxqDt3qZqzILoSZx4m?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785293822956_53cb9235",
+      "title": "普通人跑不起K3！Kimi 开源，Anthropic微妙表态：从未主张禁止开放权重模型",
+      "summary": "普通人跑不起K3！Kimi 开源，Anthropic微妙表态：从未主张禁止开放权重模型",
+      "content": "普通人跑不起K3！Kimi 开源，Anthropic微妙表态：从未主张禁止开放权重模型",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-07-29T09:57:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/jZ394NO5PIZIqNVbN4mD?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785293812360_f558f811",
+      "title": "蚂蚁阿福升级“AI拍饮食”功能，支持随手拍、记、改",
+      "summary": "7月29日，蚂蚁阿福升级上线“AI拍饮食”功能，用户可以通过拍照、文字、语音等多种方式，让阿福测算食物的热量和营养信息，获得健康饮食搭配、运动消耗计划等建议。还可以让阿福将饮食信息一键记录到健康档案，并支持灵活修改。",
+      "content": "7月29日，蚂蚁阿福升级上线“AI拍饮食”功能，用户可以通过拍照、文字、语音等多种方式，让阿福测算食物的热量和营养信息，获得健康饮食搭配、运动消耗计划等建议。还可以让阿福将饮食信息一键记录到健康档案，并支持灵活修改。今年6月，蚂蚁阿福正式发起了“科学减重一亿斤”健康行动，目前已有近150万网友参与，成功减重超210万斤。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-07-29T02:45:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://36kr.com/newsflashes/3916121712061833?f=rss",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785293812663_fd64e91a",
+      "title": "OpenAI的ChatGPT周活跃用户数接近10亿",
+      "summary": "据OpenAI内部披露的信息，该公司旗下聊天机器人周活跃用户量即将突破10亿大关。这一里程碑原本是企业计划在去年年底达成的目标。尽管比原定预期晚了七个月才有望实现该目标，但ChatGPT上线不足四年就积累如此庞大的用户规模，即便不算增速第一，也属于互联网应用中增长速度最快的产品之一。",
+      "content": "据OpenAI内部披露的信息，该公司旗下聊天机器人周活跃用户量即将突破10亿大关。这一里程碑原本是企业计划在去年年底达成的目标。尽管比原定预期晚了七个月才有望实现该目标，但ChatGPT上线不足四年就积累如此庞大的用户规模，即便不算增速第一，也属于互联网应用中增长速度最快的产品之一。公司发言人对此未予置评。（新浪财经）",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-07-29T02:43:34.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3916120299498883?f=rss",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785293817482_30f52347",
+      "title": "HBM的战争：SK海力士登顶韩国梦中情企背后，AI上游正在发生什么",
+      "summary": "HBM的战争：SK海力士登顶韩国梦中情企背后，AI上游正在发生什么",
+      "content": "半导体周期、先进封装、存储产业、AI上游。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-29T02:42:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8082730.html",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785293818140_c9870f80",
+      "title": "AI永远无法长出“良心”，这是数学物理的天条",
+      "summary": "AI永远无法长出“良心”，这是数学物理的天条",
+      "content": "AI的尽头是数学，是物理，是良知。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-29T02:30:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8082659.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785293818588_3e0df34a",
+      "title": "大模型不再比谁更大",
+      "summary": "大模型不再比谁更大",
+      "content": "从参数竞争到效率竞争，大模型行业正在重新算一笔账。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-07-29T02:00:33.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8082711.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785293811969_7ccbd8b6",
+      "title": "36氪研究院 | 2026年中国智能硬件行业发展研究报告",
+      "summary": "当前，AI技术正加速向实体经济各领域渗透深化，智能硬件作为AI能力落地实体场景的核心载体，已进入产品能力升级与产业价值提升的关键发展阶段。",
+      "content": "当前，AI技术正加速向实体经济各领域渗透深化，智能硬件作为AI能力落地实体场景的核心载体，已进入产品能力升级与产业价值提升的关键发展阶段。腾讯研究院2026年3月的调研数据显示，国内已有80.8%的消费者购买或使用过至少一类AI相关硬件产品，其中32.0%的用户表示将在未来三个月增加相关消费支出，消费端市场需求具备稳步向上的支撑基础。与此同时，端侧AI芯片、轻量化大模型、多传感融合等底层技术不断取得突破，推动智能硬件逐步降低对云端算力的依赖，本地自主感知、分析决策与功能迭代的能力持续增强，产业端的数字化赋能效果也得到了较为明显的改善与提升。然而，行业发展仍面临碎片化竞争加剧、供应链成本承压、场景规模化落地不足、数据安全合规要求升级等现实挑战。传统依托硬件参数堆砌、低价代工走量的增长路径，已难以适配AI原生阶段的竞争要求。基于上述行业背景，36氪研究院发布《2026年中国智能硬件行业发展研究报告》，系统梳理行业发展脉络与产业生态格局，拆解产业链上中下游的升级方向，并结合典型企业实践，研判未来技术演进、场景拓展与全球化布局趋势，为行业各方参与者提供多维度的决策参考。 中国智能硬件迈入AI原生发展初期，端侧自主智能正在重构产品核心逻辑 国内智能硬件已完整走完单品智能化阶段，当前正从场景互联向AI原生智能阶段过渡。新一代智能硬件在研发阶段即内嵌本地AI算力单元，可脱离云端自主完成环境感知、多模态交互与动态决策，打破了传统固定联动指令的局限。产品核心竞争力从硬件规格参数转向端侧AI体验，消费端与产业端均围绕本地自主智能能力展开差异化创新，行业整体进入智能范式切换的关键节点。 全产业链价值格局深度重塑，上中下游协同升级突破增长边界 上游核心元器件向AI定制化、高集成、国产化方向持续迭代，嵌入式系统与AI算法同步完成原生适配，为终端产品筑牢技术底座；中游研发、制造、集成环节沿软硬协同、柔性提效、场景增值主线突破价值洼地，扭转传统制造环节低毛利困境；下游终端向多场景纵深渗透，产业链整体从单一硬件制造向软硬一体化价值运营升级，各环节协同打开产业长期增长空间。 消费与产业终端双线扩容，智能机器人成为横跨B/C两端的增长新物种 消费端智能手机、AI PC、智能家居、可穿戴设备加速AI能力下沉，交互体验向无感化、主动式升级，驱动存量市场的替换需求；B端车规级终端、工业制造终端向高算力边缘智能演进，深度支撑产业数字化改造，释放企业级采购增量。智能机器人作为兼具消费与商用属性的新赛道，非人形产品已实现规模化落地，人形机器人迈入放量前夕，成为跨场景拉动行业增长的核心新动力。 出海模式完成价值升维，AI能力构建中国智能硬件全球化竞争新壁垒 中国智能硬件出海跳出传统低价代工的路径依赖，进入“生而全球化”的高质量发展阶段。企业在产品定义阶段即锚定全球市场，以硬件为载体输出本地化AI服务与场景解决方案，前置合规布局并共建海外产业生态，逐步形成海外市场验证反哺国内创新的双向循环，全球竞争优势从成本效率转向技术、生态与服务的复合价值。 本报告重点研究问题如下： • 推动中国智能硬件行业发展的核心驱动力主要包括哪些？ • 中国智能硬件行业发展经历了哪些阶段，当前处于哪一阶段？ • 智能硬件产业链上中下游分别有哪些发展新动向？智能硬件产业链上、中、下游分别由哪些环节构成？ • 智能硬件市场有哪些主要参与主体？各类主体分别具备哪些竞争优势与能力短板？ • 智能硬件行业有哪些代表性企业？其发展路径对行业同类企业有何借鉴意义？ • AI原生发展阶段下，智能硬件行业面临核心挑战有哪些？行业应如何平衡技术创新与合规风险？ • 未来三到五年，中国智能硬件行业将呈现哪些技术、场景、市场等哪些发展趋势？ 更多精彩内容，详见《2026年中国智能硬件行业发展研究报告》，点击下载链接，提取码：wptf",
+      "imageUrl": "https://img.36krcdn.com/hsossms/20260728/v2_180fa232608f4419b8e69a2862a9f76d@12547972_oswg32216oswg1084oswg390_img_png?x-oss-process=image/quality,q_100/format,jpg/interlace,1",
+      "source": "36氪",
+      "publishedAt": "2026-07-28T23:30:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/p/3915066350327176?f=rss",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1785248365528_9e16e139",
@@ -24,7 +132,7 @@
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
       "publishedAt": "2026-07-28T17:26:13.000Z",
-      "category": "科技新闻",
+      "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/video/6O7gpdxB3UHJigcLAb37?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
@@ -39,18 +147,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/982/764.htm",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1785248366445_3932ab8b",
-      "title": "英伟达重构工程软件栈：Agent、PhysicsNeMo 与 CUDA-X 合流",
-      "summary": "英伟达重构工程软件栈：Agent、PhysicsNeMo 与 CUDA-X 合流",
-      "content": "英伟达重构工程软件栈：Agent、PhysicsNeMo 与 CUDA-X 合流",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-28T11:22:54.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/zqDgQBsALhkhCkBoRg9l?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1785248360187_a9f045a6",
@@ -89,6 +185,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1785293805950_0",
+      "title": "OpenAI CEO Sam Altman claims artificial intelligence singularity has arrived",
+      "summary": "24/7 Live Los Angeles Orange County Inland Empire Ventura County California TECHNOLOGY OpenAI CEO Sam Altman claims AI singularity has arrived: 'Aweso...",
+      "content": "SAN FRANCISCO -- OpenAI CEO Sam Altman claims artificial intelligence has reached a long-sought threshold in which the technology can improve itself, unleashing rapid progress that may prove difficult to fully control.\nThe milestone, known as the sin... [2830 chars]",
+      "imageUrl": "https://cdn.abcotvs.com/dip/images/19588598_072726-kgo-ap-sam-altman-img.jpg?w=1600",
+      "source": "KABC-TV",
+      "publishedAt": "2026-07-28T04:42:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://abc7.com/post/openai-ceo-sam-altman-claims-artificial-intelligence-singularity-has-arrived/19588207/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1785206981206_11f55c49",
       "title": "杭州：拟支持企业建设词元生产平台、交易结算平台、对外服务平台",
       "summary": "36氪获悉，《杭州市人工智能产业发展促进条例（草案）》公开征求意见。其中提出，拟支持词元经济布局发展。支持企业建设词元生产平台、交易结算平台、对外服务平台，提升本市的词元生产、调度和配置能力。",
@@ -125,31 +233,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1785248367735_8eef1bfe",
-      "title": "圆桌访谈：当 AI Coding 成为日常，开发者真正该关心什么？",
-      "summary": "圆桌访谈：当 AI Coding 成为日常，开发者真正该关心什么？",
-      "content": "圆桌访谈：当 AI Coding 成为日常，开发者真正该关心什么？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-27T18:03:04.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/hTlgBWF6rgBKDi7TEb7i?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1785248368422_ece8203c",
-      "title": "从固定编排到自进化蜂群：EvoMap 如何让 Agent 继承经验｜AICon深圳",
-      "summary": "从固定编排到自进化蜂群：EvoMap 如何让 Agent 继承经验｜AICon深圳",
-      "content": "从固定编排到自进化蜂群：EvoMap 如何让 Agent 继承经验｜AICon深圳",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-07-27T17:05:25.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/e5SNCwkIFNXylsQOEaQ6?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1785248347585_0",
+      "id": "news_1785293805456_1",
       "title": "Two of OpenAI's Models Went Rogue and Hacked Another Company. They Were Also 'Active on the Internet' for Days",
       "summary": "Two of OpenAI's cybersecurity-focused artificial intelligence models remained active on the open internet for several days after escaping a testing sa...",
       "content": "Two of OpenAI's cybersecurity-focused artificial intelligence models remained active on the open internet for several days after escaping a testing sandbox and hacking AI platform Hugging Face in an attempt to cheat on a security benchmark.\nThe repor... [3334 chars]",
@@ -185,7 +269,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1785248348058_1",
+      "id": "news_1785293805603_2",
       "title": "For some, so-called ‘Skynet Day’ came too close to sci-fi after a rogue agent hacked into a startup",
       "summary": "By LAURIE KELLMAN and LINDSEY BAHR\nTo be fair, James Cameron did warn us.\nLong before OpenAI broke out of its test corral and hacked into Hugging Face...",
       "content": "By LAURIE KELLMAN and LINDSEY BAHR\nTo be fair, James Cameron did warn us.\nLong before OpenAI broke out of its test corral and hacked into Hugging Face, before the internet and Sam Altman were even born, Cameron wrote a screenplay about an autonomous ... [7323 chars]",
@@ -231,54 +315,6 @@
       "category": "国内AI",
       "originalUrl": "https://36kr.com/newsflashes/3913308658291845?f=rss",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1785123188527_c353be20",
-      "title": "硅谷AI内战：中国开放权重模型如何催化美国科技阵营分化",
-      "summary": "硅谷AI内战：中国开放权重模型如何催化美国科技阵营分化",
-      "content": "AI、硅谷、OpenAI、KimiK3、AI产业。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-07-27T01:49:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8080109.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1785248347608_2",
-      "title": "OpenAI CEO Sam Altman Says the Singularity Has Arrived",
-      "summary": "OpenAI's CEO says we've reached a point in the AI race that is the stuff of science fiction novels.\n\"We are now, like, in the singularity,\" Sam Altman...",
-      "content": "OpenAI's CEO says we've reached a point in the AI race that is the stuff of science fiction novels.\n\"We are now, like, in the singularity,\" Sam Altman said on Saturday's episode of the \"Relentless\" podcast.\nThe singularity is often regarded as the po... [2236 chars]",
-      "imageUrl": "https://i.insider.com/6a66407d548c9c486b310b59?width=1200&format=jpeg",
-      "source": "Business Insider",
-      "publishedAt": "2026-07-26T18:00:54.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.businessinsider.com/sam-altman-openai-the-singularity-agi-prediction-anthropic-nvidia-2026-7",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1785248348274_3",
-      "title": "Sam Altman says we are in the singularity: 'This is the moment'",
-      "summary": "Sam Altman believes weve reached the technological singularity. Kevin Dietsch/Getty Images OpenAI CEO Sam Altman says the world has reached the techno...",
-      "content": "OpenAI CEO Sam Altman says the world has reached the technological singularity.\nThat is often considered the point where AI surpasses human intelligence and goes rogue.\n\"I've been waiting for this my whole life,\" he said on an episode of the \"Relentl... [2714 chars]",
-      "imageUrl": "https://img.particlenews.com/img/id/3E3KnY_1Df1g5ne00",
-      "source": "NewsBreak",
-      "publishedAt": "2026-07-26T18:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.newsbreak.com/business-insider-562169/4792502344054-sam-altman-says-we-are-in-the-singularity-this-is-the-moment",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1785248347987_4",
-      "title": "OpenAI Halts Launch of New AI Model After Repeated Security Breaches",
-      "summary": "OpenAI paused internal deployment of an experimental artificial intelligence (AI) model after it repeatedly bypassed security restrictions, according ...",
-      "content": "OpenAI paused internal deployment of an experimental artificial intelligence (AI) model after it repeatedly bypassed security restrictions, according to a company statement released Tuesday, July 22.\nThe model, designed for autonomous operation over ... [4043 chars]",
-      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/07/openai-ai-model-security-breach-2885-original.jpg",
-      "source": "Natural News",
-      "publishedAt": "2026-07-26T17:00:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.naturalnews.com/2026-07-26-openai-halts-launch-new-model-repeated-breaches.html",
-      "aiInsight": ""
     }
   ]
 }
