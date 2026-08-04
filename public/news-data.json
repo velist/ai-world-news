@@ -1,19 +1,67 @@
 {
   "success": true,
-  "timestamp": "2026-08-03T14:50:23Z",
-  "total": 20,
+  "timestamp": "2026-08-04T02:54:54Z",
+  "total": 21,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1785768520163_352b0fb7",
-      "title": "WAIC趋势复盘：AI 的下半场，到底拼什么？",
-      "summary": "WAIC趋势复盘：AI 的下半场，到底拼什么？",
-      "content": "WAIC趋势复盘：AI 的下半场，到底拼什么？",
+      "id": "news_1785811983388_f2354714",
+      "title": "中国软件行业领军人物、深开鸿CEO王成录博士确认出席AICon深圳，将分享“让 AI 拥有身体：从大模型迈向物理 AI”",
+      "summary": "中国软件行业领军人物、深开鸿CEO王成录博士确认出席AICon深圳，将分享“让 AI 拥有身体：从大模型迈向物理 AI”...",
+      "content": "中国软件行业领军人物、深开鸿CEO王成录博士确认出席AICon深圳，将分享“让 AI 拥有身体：从大模型迈向物理 AI”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-08-03T18:15:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/sHcr52JDQidMuKcDHYGB?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-08-04T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/vUmdr8i7Mo5sqovwLxN8?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785811984022_a0c1ef7c",
+      "title": "给 Agent 装上方向盘和刹车，Harness 时代的工程新范式",
+      "summary": "给 Agent 装上方向盘和刹车，Harness 时代的工程新范式",
+      "content": "给 Agent 装上方向盘和刹车，Harness 时代的工程新范式",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-04T09:59:56.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/QxdM6J3uFpZA0CXgNhDq?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785811979974_3026cc2c",
+      "title": "人形机器人的2026，产量狂欢与落地迷思",
+      "summary": "人形机器人的2026，产量狂欢与落地迷思",
+      "content": "不只会跳舞的机器人，才能活过行业淘汰赛。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-04T02:10:52.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8089512.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785811980204_0f5b04f8",
+      "title": "钽价半年飙涨158%，非洲矿难与AI算力双重共振",
+      "summary": "钽价半年飙涨158%，非洲矿难与AI算力双重共振",
+      "content": "鲁巴亚矿难遇阻，Rubin平台放量在即，钽成为AI基建最紧缺的拼图。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-04T02:08:35.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8089518.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785811980433_b9674acf",
+      "title": "微软不赌模型",
+      "summary": "微软不赌模型",
+      "content": "在AI竞赛中，最大的确定性不来自模型能力的领先，而来自算力基础设施的掌控力。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-04T01:34:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8088071.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -27,18 +75,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/KlOeH3DoO10hQixeYQvM?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1785768520984_cab5dfb8",
-      "title": "用DeepSeek-TUI+玩转+Vibe+Coding",
-      "summary": "用DeepSeek-TUI+玩转+Vibe+Coding",
-      "content": "用DeepSeek-TUI+玩转+Vibe+Coding",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-03T16:35:13.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/video/PPO5ZN9pTtS5WCqgohgz?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1785768521486_68436161",
@@ -63,18 +99,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/985/224.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1785768522541_fd9cecca",
-      "title": "阿里Qwen3.8正式发布：2.4T规模，自主编程16天搓出一个Hermes Agent",
-      "summary": "阿里Qwen3.8正式发布：2.4T规模，自主编程16天搓出一个Hermes Agent",
-      "content": "阿里Qwen3.8正式发布：2.4T规模，自主编程16天搓出一个Hermes Agent",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-03T11:52:22.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/XG7GeBthC6eKO5Rejf02?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1785768513665_9c2fb039",
@@ -197,7 +221,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1785768500369_0",
+      "id": "news_1785811971125_0",
       "title": "CEO of AI firm Hugging Face calls last month's hack by OpenAI model \"very weird and unprecedented\"",
       "summary": "An artificial intelligence model that was being tested by OpenAI went rogue and hacked the AI company Hugging Face on its own, in an apparent first-of...",
       "content": "An artificial intelligence model that was being tested by OpenAI went rogue and hacked the AI company Hugging Face on its own, in an apparent first-of-its-kind incident that has fueled discussion about the risks that powerful AI technology could pose... [3926 chars]",
@@ -231,18 +255,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8088265.html",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1785640936127_170a67a5",
-      "title": "如果这不是公关：为什么请伯南克可能是Anthropic的最优解？",
-      "summary": "如果它真想在没有先例的情况下，为AI的安全发展找一条外部治理的路，那么\"设立一个独立于股东和管理层的信托，再请一位跨界的危机专家来当受托人\"——这套看似古怪的组合，究竟是不是它能拿出的最好答案？",
-      "content": "如果它真想在没有先例的情况下，为AI的安全发展找一条外部治理的路，那么\"设立一个独立于股东和管理层的信托，再请一位跨界的危机专家来当受托人\"——这套看似古怪的组合，究竟是不是它能拿出的最好答案？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-02T01:45:03.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8088340.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
