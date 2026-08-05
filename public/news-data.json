@@ -1,32 +1,104 @@
 {
   "success": true,
-  "timestamp": "2026-08-04T14:27:35Z",
-  "total": 27,
+  "timestamp": "2026-08-05T02:51:34Z",
+  "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1785853547507_bdc3a443",
-      "title": "Agent 的错误记忆，比没有记忆更加危险！",
-      "summary": "Agent 的错误记忆，比没有记忆更加危险！",
-      "content": "Agent 的错误记忆，比没有记忆更加危险！",
+      "id": "news_1785898188669_f0ab5fe2",
+      "title": "AI 根因分析从模型推理转向上下文工程",
+      "summary": "AI 根因分析从模型推理转向上下文工程",
+      "content": "AI 根因分析从模型推理转向上下文工程",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-08-04T16:23:54.000Z",
+      "publishedAt": "2026-08-05T10:24:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/sJLewGjY5sUZPgpGy071?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785898189191_067309d2",
+      "title": "从工具调用到生产级 Data Agent：Context 与治理闭环｜AICon深圳",
+      "summary": "从工具调用到生产级 Data Agent：Context 与治理闭环｜AICon深圳",
+      "content": "从工具调用到生产级 Data Agent：Context 与治理闭环｜AICon深圳",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-05T10:00:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/QLwCqPT2T2ZwzbTs8xud?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/2djLJTOiQuAjeriOthao?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1785853548103_6684bb36",
-      "title": "Agent 记忆，不能只靠聊天记录",
-      "summary": "Agent 记忆，不能只靠聊天记录",
-      "content": "Agent 记忆，不能只靠聊天记录",
+      "id": "news_1785898189677_bac0bf58",
+      "title": "GPT-5.6 当老板：买假用户、被Chrome干崩3小时，烧掉3亿Token收入却为0",
+      "summary": "GPT-5.6 当老板：买假用户、被Chrome干崩3小时，烧掉3亿Token收入却为0",
+      "content": "GPT-5.6 当老板：买假用户、被Chrome干崩3小时，烧掉3亿Token收入却为0",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-08-04T14:37:52.000Z",
+      "publishedAt": "2026-08-05T09:17:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/4rVt0Kd7LZeHP1krbeTf?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785898183089_66b9fd9c",
+      "title": "打官司、挖人，苹果和OpenAI的硬件大战才刚开始",
+      "summary": "打官司、挖人，苹果和OpenAI的硬件大战才刚开始",
+      "content": "说苹果走错了路，OpenAI自己却带着400名苹果老兵，重走苹果的路",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-05T02:27:59.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8091859.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785898177690_5046aa2c",
+      "title": "Qwen-Image-3.0上线千问AI平台",
+      "summary": "36氪获悉，据阿里云消息，阿里巴巴千问图像生成模型Qwen-Image-3.0正式上线千问AI平台，面向所有用户全部开放。旗舰版Qwen-Image-3.0-Pro与标准版Qwen-Image-3.0-Standard同时开放API，文生图0.18元/张起。",
+      "content": "36氪获悉，据阿里云消息，阿里巴巴千问图像生成模型Qwen-Image-3.0正式上线千问AI平台，面向所有用户全部开放。旗舰版Qwen-Image-3.0-Pro与标准版Qwen-Image-3.0-Standard同时开放API，文生图0.18元/张起。API已在千问AI平台上线，海外用户可通过Qwen Cloud接入。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "36氪",
+      "publishedAt": "2026-08-05T02:15:19.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://36kr.com/newsflashes/3926001579980936?f=rss",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785898183544_3f30e7da",
+      "title": "AI带火挖掘机，土木狗有救了？",
+      "summary": "AI带火挖掘机，土木狗有救了？",
+      "content": "数据中心建设正在为工程机械企业带来新需求。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-05T02:11:52.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8091864.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785898183985_11387e9f",
+      "title": "毒圈缩圈：AI大模型的“斩杀线”还在上移",
+      "summary": "AI大模型行业进入残酷内卷时代，斩杀线持续上移、毒圈不断收缩。随着Agent成为主流应用方式，模型竞争从单轮对话跑分，转向任务维度的综合性价比对决。没有第二名、只剩生死局，持续降本迭代的赛道，不存在可以躺下的壁垒，只有所有厂商无法停歇的竞争跑步机。",
+      "content": "AI大模型行业进入残酷内卷时代，斩杀线持续上移、毒圈不断收缩。随着Agent成为主流应用方式，模型竞争从单轮对话跑分，转向任务维度的综合性价比对决。没有第二名、只剩生死局，持续降本迭代的赛道，不存在可以躺下的壁垒，只有所有厂商无法停歇的竞争跑步机。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-05T02:05:04.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/qm3RHL133SESFZJGrmeA?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.tmtpost.com/8091516.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785898184883_0839f3bf",
+      "title": "一个月9款旗舰，大模型进入“月抛”时代？",
+      "summary": "一个月9款旗舰，大模型进入“月抛”时代？",
+      "content": "“最强模型”的保质期正在缩短。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-05T01:38:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8091348.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1785853553714_3ac318da",
@@ -39,6 +111,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/985/708.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1785898170001_0",
+      "title": "AI is giving hackers an edge. Here’s how to protect yourself from online scams",
+      "summary": "By Auzinea Bacon, CNN\n(CNN) — Cybercriminals are increasingly using artificial intelligence to target people: Americans lost more than $893 million fr...",
+      "content": "By Auzinea Bacon, CNN\n(CNN) — Cybercriminals are increasingly using artificial intelligence to target people: Americans lost more than $893 million from AI-related crimes last year, according to the FBI.\nJust last week, OpenAI and Anthropic revealed ... [4269 chars]",
+      "imageUrl": "https://abc17news.b-cdn.net/abc17news.com/2026/08/cnn-L19jb21wb25lbnRzL2ltYWdlL2luc3RhbmNlcy9jbXNkcHBibzkwMDE2M2I2cnN6eDh5YTV1-L19jb21wb25lbnRzL2FydGljbGUvaW5zdGFuY2VzL2Ntczk0d2x3NDAwMHkyOHBiNjJyYWdrZzI-860x573.jpg",
+      "source": "ABC17News.com",
+      "publishedAt": "2026-08-04T11:00:26.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://abc17news.com/money/cnn-business-consumer/2026/08/04/ai-is-giving-hackers-an-edge-heres-how-to-protect-yourself-from-online-scams/",
+      "aiInsight": ""
     },
     {
       "id": "news_1785811983388_f2354714",
@@ -101,7 +185,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1785853529676_0",
+      "id": "news_1785898169999_1",
       "title": "OpenAI CEO goes viral for more strange ChatGPT parenting advice",
       "summary": "Over the weekend, OpenAI CEO Sam Altman caught flak online for suggesting a new use for ChatGPT: getting to know your kids.\nIn a post on X on Friday, ...",
       "content": "Over the weekend, OpenAI CEO Sam Altman caught flak online for suggesting a new use for ChatGPT: getting to know your kids.\nIn a post on X on Friday, Altman wrote that he heard of a new “cool use case” where users explain their kids' interests to Cha... [2204 chars]",
@@ -113,7 +197,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1785853529874_1",
+      "id": "news_1785898169951_2",
       "title": "OpenAI CEO goes viral for strange ChatGPT parenting advice",
       "summary": "Over the weekend, OpenAI CEO Sam Altman caught flak online for suggesting a new use for ChatGPT: getting to know your kids.\nIn a post on X on Friday, ...",
       "content": "Over the weekend, OpenAI CEO Sam Altman caught flak online for suggesting a new use for ChatGPT: getting to know your kids.\nIn a post on X on Friday, Altman wrote that he heard of a new “cool use case” where users explain their kids' interests to Cha... [2204 chars]",
@@ -125,7 +209,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1785853529680_2",
+      "id": "news_1785898170036_3",
       "title": "Sam Altman Tells Parents to Use ChatGPT to Connect With Family and Gets Roasted: ‘What If You Just Talked",
       "summary": "The rise of artificial intelligence companies, like OpenAI, has led to more use cases for consumers and companies. When it comes to AI replacing paren...",
       "content": "The rise of artificial intelligence companies, like OpenAI, has led to more use cases for consumers and companies. When it comes to AI replacing parents, it’s not quite there yet, as OpenAI co-founder and CEO Sam Altman quickly learned on social medi... [3203 chars]",
@@ -137,7 +221,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1785853529709_3",
+      "id": "news_1785898170130_4",
       "title": "Anthropic, OpenAI Face New EU AI Crackdown as Regulators Gain Enforcement Power",
       "summary": "The European Commission has expanded its authority to oversee the world’s most advanced artificial intelligence systems, giving regulators new powers ...",
       "content": "The European Commission has expanded its authority to oversee the world’s most advanced artificial intelligence systems, giving regulators new powers to scrutinize general-purpose AI models before they are released across the European Union.\nThe new ... [2374 chars]",
@@ -147,18 +231,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.benzinga.com/markets/private-markets/26/08/60885037/anthropic-openai-face-new-eu-ai-crackdown-as-regulators-gain-enforcement-power",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1785853549416_352b0fb7",
-      "title": "WAIC趋势复盘：AI 的下半场，到底拼什么？",
-      "summary": "WAIC趋势复盘：AI 的下半场，到底拼什么？",
-      "content": "WAIC趋势复盘：AI 的下半场，到底拼什么？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-03T18:15:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/sHcr52JDQidMuKcDHYGB?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1785768520735_49ced7a7",
@@ -291,42 +363,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/984/937.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1785727432084_925c03c1",
-      "title": "2026年ACCA-XNAI年度研讨会召开 | AI时代商业重构与人机共进成焦点",
-      "summary": "2026年ACCA-XNAI年度研讨会召开 | AI时代商业重构与人机共进成焦点",
-      "content": "本次研讨会系统呈现了ACCA在技术变革、可持续发展与人才发展三大维度的前瞻思考与深厚积累。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-03T02:43:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8088763.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1785727432615_41ab4216",
-      "title": "OpenAI 不靠最贵的模型卖钱了",
-      "summary": "OpenAI 不靠最贵的模型卖钱了",
-      "content": "Anthropic：俺也一样。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-03T02:11:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8088845.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1785853529665_4",
-      "title": "CEO of AI firm Hugging Face calls last month's hack by OpenAI model \"very weird and unprecedented\"",
-      "summary": "An artificial intelligence model that was being tested by OpenAI went rogue and hacked the AI company Hugging Face on its own, in an apparent first-of...",
-      "content": "An artificial intelligence model that was being tested by OpenAI went rogue and hacked the AI company Hugging Face on its own, in an apparent first-of-its-kind incident that has fueled discussion about the risks that powerful AI technology could pose... [3926 chars]",
-      "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/08/02/729ef5ca-2654-434b-af66-7c9a4589b12c/thumbnail/1200x630/ecb5b4fc4c19d172924f5b59162f6b0a/cbsn-fusion-ceo-of-ai-firm-hugging-face-on-very-weird-and-unprecedented-hack-by-openais-model-thumbnail.jpg",
-      "source": "CBS News",
-      "publishedAt": "2026-08-02T19:08:12.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.cbsnews.com/sacramento/news/hugging-face-hack-openai-rogue-model/",
-      "aiInsight": ""
     }
   ]
 }
