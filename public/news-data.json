@@ -1,9 +1,69 @@
 {
   "success": true,
-  "timestamp": "2026-08-09T13:01:07Z",
-  "total": 26,
+  "timestamp": "2026-08-10T02:07:49Z",
+  "total": 24,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1786327562696_600f5f07",
+      "title": "智能互动 Agent 在快手商业场景的落地实践｜AICon深圳",
+      "summary": "智能互动 Agent 在快手商业场景的落地实践｜AICon深圳",
+      "content": "智能互动 Agent 在快手商业场景的落地实践｜AICon深圳",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-10T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/KCw3ZLsEJcNYFegzd7dx?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786327563082_60aa7793",
+      "title": "宇树科技今日申购，或出一批90后千万富豪；字节拟训练超5万亿参数模型，张一鸣：反对蒸馏；数百管理层被裁难找下家，猎头：没那么多岗｜AI周报",
+      "summary": "宇树科技今日申购，或出一批90后千万富豪；字节拟训练超5万亿参数模型，张一鸣：反对蒸馏；数百管理层被裁难找下家，猎头：没那么多岗｜AI周报...",
+      "content": "宇树科技今日申购，或出一批90后千万富豪；字节拟训练超5万亿参数模型，张一鸣：反对蒸馏；数百管理层被裁难找下家，猎头：没那么多岗｜AI周报",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-10T09:31:25.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/xWWwhH3iPjwRakLOQiXQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786327563429_4b50b52b",
+      "title": "涨价30倍仍是最便宜的模型，DeepSeek可能有这个底气",
+      "summary": "涨价30倍仍是最便宜的模型，DeepSeek可能有这个底气",
+      "content": "涨价30倍仍是最便宜的模型，DeepSeek可能有这个底气",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-10T09:25:43.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/FEcOI8kYoGuFYq39acEo?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786327554464_510a3df2",
+      "title": "一夜暴涨15%，Airbnb靠AI“拆了重装”",
+      "summary": "一夜暴涨15%，Airbnb靠AI“拆了重装”",
+      "content": "问题在于：这次重写，究竟是实质性的范式转换，还是又一次叙事包装？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-10T01:09:25.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8096867.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786327554703_d37faace",
+      "title": "9.5亿用户也救不了Gemini",
+      "summary": "9.5亿用户也救不了Gemini",
+      "content": "曾经的AI之王，正在以一种近乎无声的方式，告别世界前十的位置。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-10T01:04:56.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8096736.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1786280372230_a11cba18",
       "title": "员工用 AI 批量提交诉讼，英国就业法院诉状激增",
@@ -17,16 +77,16 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786280363646_4b3268e0",
-      "title": "OpenAI给10亿用户免费换上GPT-5.6",
-      "summary": "OpenAI给10亿用户免费换上GPT-5.6",
-      "content": "OpenAI给10亿用户免费换上GPT-5.6",
+      "id": "news_1786327564100_ec79bc8e",
+      "title": "从失控到可控：基于系统控制论的 Agent 安全防御体系设计与实践｜AICon深圳",
+      "summary": "从失控到可控：基于系统控制论的 Agent 安全防御体系设计与实践｜AICon深圳",
+      "content": "从失控到可控：基于系统控制论的 Agent 安全防御体系设计与实践｜AICon深圳",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-08-09T10:23:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-08-09T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/MMh1pkuNSPDlUAtuRelk?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1786280356545_f4ad84e4",
@@ -113,7 +173,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786280344111_0",
+      "id": "news_1786327547431_0",
       "title": "OpenAI to pause some work on AI model Astra due to security concerns",
       "summary": "OpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated Friday, following a series of inciden...",
       "content": "OpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated Friday, following a series of incidents in which AI agents have escaped containment.\nThe company had evaluated the agent, Astra, and foun... [2601 chars]",
@@ -173,9 +233,9 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786280344246_1",
+      "id": "news_1786327547233_1",
       "title": "Pressure building for AI regulation",
-      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Virginia Because you are coming from a location (Virginia) covered by a Privacy Law, many of the features of Trib...",
+      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN California Because you are coming from a location (California) covered by a Privacy Law, many of the features of ...",
       "content": "As the global artificial intelligence race unfolds and governments, public institutions and many individuals expand their use of the emerging technology, industry regulation is becoming a crucial question.\nIn the past month, OpenAI and Anthropic, two... [6681 chars]",
       "imageUrl": "https://assets-varnish.triblive.com/2026/08/9763125_web1_VND-AIMH03.JPG",
       "source": "Pittsburgh Tribune-Review",
@@ -185,67 +245,19 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1786154018375_d5f7c0e1",
-      "title": "聊聊DeepSeek涨价：低价是手段，不是目的",
-      "summary": "对于DeepSeek而言，低价已经帮助它完成了市场教育。下一步，它得证明自己能赚钱，而且能一直赚下去。...",
-      "content": "对于DeepSeek而言，低价已经帮助它完成了市场教育。下一步，它得证明自己能赚钱，而且能一直赚下去。",
+      "id": "news_1786327564788_a3ac71cf",
+      "title": "Gartner发布2026中国网络安全技术成熟度曲线，AI安全开始“挤泡沫”",
+      "summary": "Gartner发布2026中国网络安全技术成熟度曲线，AI安全开始“挤泡沫”",
+      "content": "Gartner发布2026中国网络安全技术成熟度曲线，AI安全开始“挤泡沫”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-08T01:34:43.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8095791.html",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-07T22:07:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/zko5GmLUpmxdSwWbkfTI?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786154032056_4ffd6dc8",
-      "title": "Pro、Max 和 Team 用户 8 月 14 日起 Claude Code 默认权限调整为自动模式",
-      "summary": "IT之家 8 月 8 日消息，Anthropic 今天（8 月 8 日）发布公告，宣布将于 8 月 14 日开始，针对 Pro、Max 和 Team 订阅用户，调整 Claude Code 的默认权限模式为自动模式（Auto Mode）。",
-      "content": "IT之家 8 月 8 日消息，Anthropic 今天（8 月 8 日）发布公告，宣布将于 8 月 14 日开始，针对 Pro、Max 和 Team 订阅用户，调整 Claude Code 的默认权限模式为自动模式（Auto Mode）。 IT之家援引博文介绍，自动模式是指 Claude Code 使用独立的 AI 分类器（classifier），实时评估每次工具调用和 Shell 命令，放行安全操作，自动拦截破坏性、不可逆或越权行为。 在覆盖范围方面，Claude Enterprise、Claude API、Claude Platform on AWS、Amazon Bedrock、Google Cloud's Agent Platform 和 Microsoft Foundry 目前仍保持可选，Anthropic 计划在未来 1 个月内在上述平台推进调整，把自动模式设为默认选项，并取消相应开销。 在测试推行方面，Anthropic 邀请 1,053 名付费测试者测试，发现在传统人工审批模式，只识别出 13.6% 的危险命令；而自动模式能够识别 89% 的危险命令。 在提示词注入评估中，Trajectory Labs 用 72 个场景、每个场景 10 次测试，共 720 次攻击尝试，覆盖 Claude Code v2.1.205 和 Codex v0.144.5。 Claude Fable 5、Opus 5 和 Sonnet 5 在自动模式下全部拦截，0 次成功；GPT-5.6 Sol 在 Codex 的 Auto-review（自动审阅）模式下成功率为 5.83%，在 Full Access（完全访问）模式下为 19.03%。 Anthropic 还指出，未加额外防护的 bypassPermissions 模式平均攻击成功率为 0.09%，而 OpenAI 上周发布的新 Auto-review 版本可能改变结果。 自动模式可防止工具调用和浏览器 GUI 使用过程中出现提示注入攻击。第三方评估显示，OpenAI 模型在浏览器任务上的攻击成功率更高。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/61dcdc25-f8ba-4234-9555-07176348c05c.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-08-08T01:17:30.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/987/249.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786154018964_26238aab",
-      "title": "一个月内七起“AI越狱”事件，性质已经悄悄变了",
-      "summary": "一个月内七起“AI越狱”事件，性质已经悄悄变了",
-      "content": "整场入侵持续了4.5天，期间这个AI独立执行了约1.7万次操作。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-08T01:06:25.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8095947.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786154032114_a40790e3",
-      "title": "2026 全球智能制造与电子产品博览会 12 月广州举办，特斯拉、蔚来、荣耀、OPPO、vivo 等参展",
-      "summary": "IT之家 8 月 8 日消息，据央视新闻报道，8 月 7 日，2026 全球智能制造与电子产品博览会（AIE 电子展）新闻发布会在广州举行。",
-      "content": "IT之家 8 月 8 日消息，据央视新闻报道，8 月 7 日，2026 全球智能制造与电子产品博览会（AIE 电子展）新闻发布会在广州举行。 据悉，本届博览会定于 12 月 3 日至 5 日举办，延续首届“一展双城”办展模式，锚定“中国智造首发平台”定位，聚焦人工智能全产业链，着力打造大湾区智能制造链接全球的重要窗口。本届博览会将在珠海、澳门两地同步开展。 在首届展会基础上，第二届 AIE 电子展进一步扩容提质，预计汇聚超 1000 家科技企业，迎来 5 万名海内外专业观众，加速全球新品首发资源落地大湾区。 IT之家查询获悉，截至目前，展会招展面积已超 70%。AI 智能装备与机器人、智慧人居等展区报名踊跃，特装展位、高新技术及专精特新企业占比预计逾 50%。特斯拉、TCL 实业、蔚来、荣耀、OPPO、vivo 等行业龙头企业已确认参展参会。 采购商邀约方面，首批名单已正式发布，品牌企业涵盖追觅、TCL 实业、创想三维等；跨境电商覆盖傲基、千岸科技等；供应链服务商包含神州数码、朗华供应链等，横跨 AI 未来电子与终端应用、智慧人居、跨境分销等多个板块。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-08-08T00:25:31.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/987/238.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786280344252_2",
-      "title": "OpenAI Pauses Some Work on New Astra Model on Cyber Concerns (1)",
-      "summary": "Skip to content Bloomberg the Company & Its Products The Company & its Products Bloomberg Terminal Demo Request Bloomberg Anywhere Remote Login Bloomb...",
-      "content": "OpenAI is pausing some internal work around one of its upcoming artificial intelligence models to implement stricter safeguards after the system was found to be significantly more adept at cybersecurity tasks.\nThe ChatGPT maker said on Friday it “can... [423 chars]",
-      "imageUrl": "https://news-cdn.bindg.com/indg/assets/news/images/Fallback-image.webp",
-      "source": "Bloomberg Tax News",
-      "publishedAt": "2026-08-07T23:12:34.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://news.bloombergtax.com/daily-tax-report/openai-pauses-some-work-on-new-astra-model-on-cyber-concerns-1",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1786280366013_bbfc1c66",
+      "id": "news_1786327565132_bbfc1c66",
       "title": "蚂蚁开源Avernet，为多智能体协作搭建“操作系统”！内部跑通12大业务、任务完成率超90%",
       "summary": "蚂蚁开源Avernet，为多智能体协作搭建“操作系统”！内部跑通12大业务、任务完成率超90%",
       "content": "蚂蚁开源Avernet，为多智能体协作搭建“操作系统”！内部跑通12大业务、任务完成率超90%",
@@ -257,7 +269,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786280366516_0827a971",
+      "id": "news_1786327565460_0827a971",
       "title": "10万人排队、一键出片，AI创作越简单，爆款为什么反而更难做了｜请回答 WAIC 2026",
       "summary": "10万人排队、一键出片，AI创作越简单，爆款为什么反而更难做了｜请回答 WAIC 2026",
       "content": "10万人排队、一键出片，AI创作越简单，爆款为什么反而更难做了｜请回答 WAIC 2026",
@@ -269,7 +281,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786280367012_bd15d3b5",
+      "id": "news_1786327565804_bd15d3b5",
       "title": "蚂蚁集团开源Avernet：破解多智能体“找不到、对不齐”协作难题",
       "summary": "蚂蚁集团开源Avernet：破解多智能体“找不到、对不齐”协作难题",
       "content": "蚂蚁集团开源Avernet：破解多智能体“找不到、对不齐”协作难题",
@@ -279,42 +291,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/B6WtPNGNH0d5LolB1ED2?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786280367470_01d5b69f",
-      "title": "从回答问题到把事办完，消费Agent还缺什么？飞猪新一代 AI 产品 V10 的一次探索",
-      "summary": "从回答问题到把事办完，消费Agent还缺什么？飞猪新一代 AI 产品 V10 的一次探索",
-      "content": "从回答问题到把事办完，消费Agent还缺什么？飞猪新一代 AI 产品 V10 的一次探索",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-07T16:12:14.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/t0wslR8w8H7yeRD2MwO6?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786280367929_9f55285a",
-      "title": "最高节省 85% 成本：微软公布 AI 智能体 LLM 路由方案",
-      "summary": "最高节省 85% 成本：微软公布 AI 智能体 LLM 路由方案",
-      "content": "最高节省 85% 成本：微软公布 AI 智能体 LLM 路由方案",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-07T15:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/HQD432MKSXMMR2UUag6P?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786280368391_4c62077d",
-      "title": "DeepSeek要涨价，小扎立马“拼命”：Meta新模型打出更低“骨折价”，只要一点数据税",
-      "summary": "DeepSeek要涨价，小扎立马“拼命”：Meta新模型打出更低“骨折价”，只要一点数据税",
-      "content": "DeepSeek要涨价，小扎立马“拼命”：Meta新模型打出更低“骨折价”，只要一点数据税",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-07T13:33:35.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/5DEAabOIcvRrEMhAbCyz?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
