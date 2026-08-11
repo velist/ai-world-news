@@ -1,56 +1,68 @@
 {
   "success": true,
-  "timestamp": "2026-08-10T13:19:27Z",
-  "total": 19,
+  "timestamp": "2026-08-11T02:03:10Z",
+  "total": 18,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1786367857502_6866b0ff",
-      "title": "当 human in the loop 变成“闭着眼睛点确认”，企业Agent 安全还能靠谁？",
-      "summary": "当 human in the loop 变成“闭着眼睛点确认”，企业Agent 安全还能靠谁？",
-      "content": "当 human in the loop 变成“闭着眼睛点确认”，企业Agent 安全还能靠谁？",
+      "id": "news_1786413679842_afca09b7",
+      "title": "企业 AI Native 研发流程升级与重塑｜AICon深圳",
+      "summary": "企业 AI Native 研发流程升级与重塑｜AICon深圳",
+      "content": "企业 AI Native 研发流程升级与重塑｜AICon深圳",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-08-10T17:29:12.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/5qWsLD6JV8N2zDgGuhK9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786367858071_1a275cd5",
-      "title": "微软正式发布 Agent Framework Harness 和 Hosted Agents",
-      "summary": "微软正式发布 Agent Framework Harness 和 Hosted Agents",
-      "content": "微软正式发布 Agent Framework Harness 和 Hosted Agents",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-10T17:14:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/aDEJegvNSKwvue2JZ0yI?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786367858668_13ff03ec",
-      "title": "AI推理规模上升后，华为开始重新定义“存储”的位置",
-      "summary": "AI推理规模上升后，华为开始重新定义“存储”的位置",
-      "content": "AI推理规模上升后，华为开始重新定义“存储”的位置",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-10T15:24:04.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/qBHKWa0AabfP0Fs8rGrk?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786367859222_a2acb6ab",
-      "title": "33% 增速、126% 留存：Snowflake 用一份财报，把“AI落地难”讲成了印钞机故事",
-      "summary": "33% 增速、126% 留存：Snowflake 用一份财报，把“AI落地难”讲成了印钞机故事",
-      "content": "33% 增速、126% 留存：Snowflake 用一份财报，把“AI落地难”讲成了印钞机故事",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-10T14:26:35.000Z",
+      "publishedAt": "2026-08-11T10:00:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/lWRKAhlso9f7OobiGXDI?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/gmMSLtDO3XOy1UwCMdov?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786413680379_61427960",
+      "title": "开源LangAlpha正式发布：金融领域的Claude Code，用自然语言驱动投研工作流",
+      "summary": "开源LangAlpha正式发布：金融领域的Claude Code，用自然语言驱动投研工作流",
+      "content": "开源LangAlpha正式发布：金融领域的Claude Code，用自然语言驱动投研工作流",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-11T09:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/q1f3Na2a1MhhGqSETlUm?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786413690503_d02899c2",
+      "title": "DeepSeek 被曝偷偷给用户取外号，AI 回应称只是临时“打标签”、不会记忆",
+      "summary": "IT之家 8 月 11 日消息，有网友 8 月 10 日在社交平台发文称，DeepSeek 在深度思考模式里会偷偷给人取外号，比如“墨墨”，相关话题冲上热搜。",
+      "content": "IT之家 8 月 11 日消息，有网友 8 月 10 日在社交平台发文称，DeepSeek 在深度思考模式里会偷偷给人取外号，比如“墨墨”，相关话题冲上热搜。 DeepSeek 在询问中回复称：“取外号”的真相是“打标签”，在这个推理过程中，确实会在心里临时给问题打个标签，比如：“这位用户喜欢刨根问底”（对应你）、“这位在故意刁难我”（对应某些测试题）。但这绝对不叫“偷偷取外号”，而是“上下文占位符”。它不会存储，不会记忆，更不会带任何嘲讽或贬义的情感色彩，仅仅是为了帮自己理清回答的侧重点。 IT之家提醒，相关回复内容为 AI 回复，并非 DeepSeek 工作人员给出的回应。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/2d9d738a-04db-42a9-832c-3e9a155f3940.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-08-11T01:50:17.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/988/136.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786413690515_99f7d159",
+      "title": "Anthropic Claude Sonnet 5 模型将维持首发优惠价，不再恢复原价",
+      "summary": "IT之家 8 月 11 日消息，Anthropic 当地时间 10 日宣布，其今年 6 月末推出的 Claude Sonnet 5 人工智能模型未来将永久性维持首发期推广优惠价，原定 9 月 1 日生效的原价已被取消。",
+      "content": "IT之家 8 月 11 日消息，Anthropic 当地时间 10 日宣布，其今年 6 月末推出的 Claude Sonnet 5 人工智能模型未来将永久性维持首发期推广优惠价，原定 9 月 1 日生效的原价已被取消。 Claude Sonnet 5 的当前价格为每百万 Token（词元）输入 2 美元、每百万 Token（词元）输出 10 美元。此前计划实施的“原价”为 3 美元 / 15 美元，即上涨 50%。 相关阅读： 《中美 AI 大模型竞争加剧：OpenAI 等海外巨头大幅降价对标 Kimi、DeepSeek》 延伸阅读 Claude Sonnet 5 于 2026 年 6 月 30 日发布，是 Anthropic 迄今最具代理能力的 Sonnet 模型。该模型拥有 100 万 Token 的上下文窗口，最大输出 128K Token，知识截止日期为 2026 年 1 月。相比前代 Sonnet 4.6，在推理、工具使用、编程和知识工作方面均有显著提升，在智能体搜索评测 BrowseComp、计算机使用评测 OSWorld-Verified 等项目中表现优异，部分任务性能接近旗舰级 Opus 4.8。在 SWE-bench Verified 编程评测中，Sonnet 5 取得了 85.20% 的分数。 对于企业客户和代理 AI 开发者而言，API 价格能否长期稳定正成为部署 AI 工作流的重要考量。在代码开发、研究和浏览器自动化等场景中，代理任务通常需要多轮模型调用，Token 成本会随任务复杂度快速累积。Anthropic 此次取消涨价，为已基于 Sonnet 5 搭建工作流的企业提供了更稳定的长期成本预期，这也被视为 Anthropic 在 AI 模型竞争中从单纯性能比拼转向综合成本竞争力策略的一部分。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/8e401b70-8341-45c3-8370-e26afdaa41e8.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-08-11T01:46:15.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/988/132.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786413690528_19159553",
+      "title": "前 OpenAI 机器人部门主管 Caitlin Kalinowski 加入 Anthropic，还曾在苹果开发 Mac Pro",
+      "summary": "IT之家 8 月 11 日消息，Caitlin Kalinowski 的 LinkedIn 个人资料显示，这位曾领导 OpenAI 机器人项目的专家已加入 Anthropic，担任技术人员，从事研究工作。 其个人网站页面显示，Caitlin 是一位硬件和机器人领域的资深高管。",
+      "content": "IT之家 8 月 11 日消息，Caitlin Kalinowski 的 LinkedIn 个人资料显示，这位曾领导 OpenAI 机器人项目的专家已加入 Anthropic，担任技术人员，从事研究工作。 其个人网站页面显示，Caitlin 是一位硬件和机器人领域的资深高管。她为处于早期阶段、致力于硬件、机器人和人工智能交叉领域开发的团队提供咨询服务，并担任 Axon 公司的董事会成员。 此前，她曾领导 OpenAI 的机器人硬件业务、Meta 的 AR / VR 硬件业务，以及苹果公司的 Mac Pro 和 MacBook Air 项目。 Caitlin 的加入，暗示 Anthropic 正在向机器人 / 物理 AI 方向进行研究探索。 而 OpenAI CEO 萨姆 · 奥尔特曼（Sam Altman）今年 6 月在 X 平台发布 OpenAI Robotics 招聘信息，称公司正在招聘优秀的全栈硬件、运营、系统及机器学习工程师，研发和制造出对人类社会有用的机器人。 IT之家获悉，奥尔特曼表示，人工智能应当能够在现实世界中帮助人类。短期内，OpenAI 专注于利用机器人来协助技术娴熟的工人建设未来的基础设施；从长远来看，OpenAI 希望每个人都能拥有属于自己的机器人，从而满足自己的各种需求。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/ee076314-0918-4b53-869c-20b383df9ea0.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-08-11T01:31:29.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/988/128.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1786367853655_3cf58b05",
@@ -63,6 +75,30 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8097997.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786413684869_600f5f07",
+      "title": "智能互动 Agent 在快手商业场景的落地实践｜AICon深圳",
+      "summary": "智能互动 Agent 在快手商业场景的落地实践｜AICon深圳",
+      "content": "智能互动 Agent 在快手商业场景的落地实践｜AICon深圳",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-10T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/KCw3ZLsEJcNYFegzd7dx?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786413668002_0",
+      "title": "area classrooms, it’s not just students who are learning",
+      "summary": "School systems around the D.C. region are beginning to embrace artificial intelligence in different ways.\nIn Prince George’s County, Maryland, AI is b...",
+      "content": "School systems around the D.C. region are beginning to embrace artificial intelligence in different ways.\nIn Prince George’s County, Maryland, AI is being used to help students improve their storytelling skills. In Virginia’s Fairfax and Prince Willi... [4425 chars]",
+      "imageUrl": "https://wtop.com/wp-content/uploads/2026/01/Polling_AI_In_the_Workspace_64507-scaled-e1786351912368.jpg",
+      "source": "WTOP",
+      "publishedAt": "2026-08-10T09:35:59.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://wtop.com/education/2026/08/when-it-comes-to-ai-in-dc-area-classrooms-its-not-just-students-who-are-learning/",
+      "aiInsight": ""
     },
     {
       "id": "news_1786327563082_60aa7793",
@@ -110,18 +146,6 @@
       "publishedAt": "2026-08-09T11:28:14.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/987/602.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786367864593_4b3268e0",
-      "title": "OpenAI给10亿用户免费换上GPT-5.6",
-      "summary": "OpenAI给10亿用户免费换上GPT-5.6",
-      "content": "OpenAI给10亿用户免费换上GPT-5.6",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-09T10:23:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/RXRuR3TN9msNMAUWRtCl?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -194,42 +218,6 @@
       "publishedAt": "2026-08-09T03:32:58.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8096485.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786240908157_1f61a9f6",
-      "title": "AI 浪潮催生高薪数据中心岗位，美国电工、安装工等需求大增",
-      "summary": "IT之家 8 月 9 日消息，Indeed 的一项最新研究显示，如今美国增长最快的一些科技岗位，已经不再局限于传统的软件开发人员，而是包括电工、安装工、维护人员以及负责建设 AI 数据中心的工程师。 过去两年，美国数据中心相关职位的招聘信息数量增加了一倍以上，而同期美国整体招聘岗位数量却有所下降。",
-      "content": "IT之家 8 月 9 日消息，Indeed 的一项最新研究显示，如今美国增长最快的一些科技岗位，已经不再局限于传统的软件开发人员，而是包括电工、安装工、维护人员以及负责建设 AI 数据中心的工程师。 过去两年，美国数据中心相关职位的招聘信息数量增加了一倍以上，而同期美国整体招聘岗位数量却有所下降。如今，美国每 1,000 个招聘岗位中，就有约 6 个与数据中心有关，是 2023 年这一比例的 3 倍。 数据中心带来的就业增长也正在突破硅谷的范围。大型科技公司正加大在美国其他地区的招聘力度，例如俄亥俄州哥伦布、密西西比州杰克逊和内华达州里诺等城市，当地招聘信息中与数据中心相关的岗位占比都大幅上升。 目前，约四分之一的数据中心招聘岗位属于安装和维护人员。这些岗位的时薪通常比行业外类似工作高出约 10 美元（IT之家注：现汇率约合 67.7 元人民币）。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/4/f0ab67e6-9e71-4d95-ac65-31fa692dae0a.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-08-09T01:35:05.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/987/490.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786367844384_0",
-      "title": "OpenAI to pause some work on AI model Astra due to security concerns",
-      "summary": "OpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated Friday, following a series of inciden...",
-      "content": "OpenAI will pause some work on an artificial intelligence model because of security concerns, the company stated Friday, following a series of incidents in which AI agents have escaped containment.\nThe company had evaluated the agent, Astra, and foun... [2601 chars]",
-      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/08/1786213286_3333.jpg",
-      "source": "EUROPE SAYS",
-      "publishedAt": "2026-08-08T18:21:16.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.europesays.com/3182788/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1786240893796_bf922313",
-      "title": "Link-X Demo Day 2026 ：AI 创业向下扎根、向外延伸、向内深入",
-      "summary": "8月8日，“Link-X Demo Day 2026（创新项目展示日）——Spark Moment·灵光一闪”活动在北京中关村国际技术交易中心举行。",
-      "content": "8月8日，“Link-X Demo Day 2026（创新项目展示日）——Spark Moment·灵光一闪”活动在北京中关村国际技术交易中心举行。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-08T14:24:52.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8096463.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
