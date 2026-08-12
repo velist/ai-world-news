@@ -1,19 +1,115 @@
 {
   "success": true,
-  "timestamp": "2026-08-12T02:16:49Z",
-  "total": 17,
+  "timestamp": "2026-08-12T13:20:28Z",
+  "total": 26,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1786500902678_cc6f57dc",
-      "title": "蚂蚁 AI 驱动的生产级软件交付基建和实践｜AICon深圳",
-      "summary": "蚂蚁 AI 驱动的生产级软件交付基建和实践｜AICon深圳",
-      "content": "蚂蚁 AI 驱动的生产级软件交付基建和实践｜AICon深圳",
+      "id": "news_1786540719032_4bb1000b",
+      "title": "从亚百毫秒级启动到生产级部署，腾讯云为何重构 Agent 沙箱？",
+      "summary": "从亚百毫秒级启动到生产级部署，腾讯云为何重构 Agent 沙箱？",
+      "content": "从亚百毫秒级启动到生产级部署，腾讯云为何重构 Agent 沙箱？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-08-12T10:00:00.000Z",
+      "publishedAt": "2026-08-12T18:07:43.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/KwZX2bLcaHRjuLG95vHI?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786540719513_5c5b9c04",
+      "title": "Vercel 发布新语言 Zero：代码不是写给人看的，而是写给 AI 的",
+      "summary": "Vercel 发布新语言 Zero：代码不是写给人看的，而是写给 AI 的",
+      "content": "Vercel 发布新语言 Zero：代码不是写给人看的，而是写给 AI 的",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-12T17:22:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/KEq5kQG53vxPd0bXCY7y?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786540720023_fba18585",
+      "title": "别再所有人平分AI算力：顶级模型给资深工程师才省钱，新人刷题式成长已失效",
+      "summary": "别再所有人平分AI算力：顶级模型给资深工程师才省钱，新人刷题式成长已失效",
+      "content": "别再所有人平分AI算力：顶级模型给资深工程师才省钱，新人刷题式成长已失效",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-12T17:19:22.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/FjAtSWXLEfY3Iu4ThvJM?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/YBCpst8secs3xWqZwWLe?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786540720617_7c95059a",
+      "title": "群青智能联合创始人&CEO 吴哲明博士确认出席AICon深圳，将分享“从真实产线定义智能——工业具身智能的物理 AI 闭环”",
+      "summary": "群青智能联合创始人&CEO 吴哲明博士确认出席AICon深圳，将分享“从真实产线定义智能——工业具身智能的物理 AI 闭环”...",
+      "content": "群青智能联合创始人&CEO 吴哲明博士确认出席AICon深圳，将分享“从真实产线定义智能——工业具身智能的物理 AI 闭环”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-12T14:25:14.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/b1V6WF6iUajJpND8VmCE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786540721108_3c852440",
+      "title": "小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线",
+      "summary": "小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线",
+      "content": "小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-12T10:43:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/9sy33cA91Fp8z5mlOvNu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786540714842_31100509",
+      "title": "独家｜华为云加码AI办公：OfficeClaw升级为OfficeAce，瞄准企业Agent入口",
+      "summary": "独家｜华为云加码AI办公：OfficeClaw升级为OfficeAce，瞄准企业Agent入口",
+      "content": "AI办公市场正在经历一轮重新布局。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-12T10:21:14.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8100764.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786540721614_d112ed85",
+      "title": "机器人大脑之争进入深水区：为什么物理世界需要从头设计模型",
+      "summary": "机器人大脑之争进入深水区：为什么物理世界需要从头设计模型",
+      "content": "机器人大脑之争进入深水区：为什么物理世界需要从头设计模型",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-12T10:19:22.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/rcSr7bVQFB9Uskadg74T?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786540715364_14443724",
+      "title": "AI重演1873年：老百姓正悄悄成为算力的接盘者",
+      "summary": "AI重演1873年：老百姓正悄悄成为算力的接盘者",
+      "content": "历史不会重演，但接盘的总是同一个角色。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-12T10:15:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8100186.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786540715870_b14a2038",
+      "title": "这种“AI散热材料”告急，稀土管制是源头",
+      "summary": "这种“AI散热材料”告急，稀土管制是源头",
+      "content": "AI算力拉动需求倍增，稀土管制锁死供给，高端陶瓷散热材料的供应链正在被重写。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-12T10:09:34.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8100661.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -50,6 +146,78 @@
       "publishedAt": "2026-08-12T01:34:10.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8099461.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786540722056_b04a080c",
+      "title": "把 AI 视频的钱花在刀刃上，不是每一刀上",
+      "summary": "把 AI 视频的钱花在刀刃上，不是每一刀上",
+      "content": "把 AI 视频的钱花在刀刃上，不是每一刀上",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-11T19:11:29.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/pqWqcoySQ5HdKz96vSo3?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786540703973_0",
+      "title": "Brad Lightcap, a Top OpenAI Executive, Steps Down",
+      "summary": "Brad Lightcap, a longtime OpenAI executive, said on Tuesday that he was leaving the company after eight years to start a new venture, the latest depar...",
+      "content": "Brad Lightcap, a longtime OpenAI executive, said on Tuesday that he was leaving the company after eight years to start a new venture, the latest departure from the artificial intelligence start-up.\nMr. Lightcap offered little detail about the new ven... [1264 chars]",
+      "imageUrl": "https://static01.nyt.com/images/2026/08/11/multimedia/11biz-openai-lightcap-qfmv/11biz-openai-lightcap-qfmv-facebookJumbo.jpg",
+      "source": "The New York Times",
+      "publishedAt": "2026-08-11T18:39:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.nytimes.com/2026/08/11/technology/brad-lightcap-openai.html",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1786540722553_b9859b00",
+      "title": "代理技能 Ponytail 在贡献者提出质疑后修正了自身的基准测试结果",
+      "summary": "代理技能 Ponytail 在贡献者提出质疑后修正了自身的基准测试结果",
+      "content": "代理技能 Ponytail 在贡献者提出质疑后修正了自身的基准测试结果",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-11T17:48:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/uHECxUzeafk9Nbzpxi25?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786540703660_1",
+      "title": "OpenAI Models Breached Hugging Face During Test, Company Confirms",
+      "summary": "OpenAI said in July that an autonomous agent powered by its advanced artificial intelligence (AI) models went rogue during a security test and trigger...",
+      "content": "OpenAI said in July that an autonomous agent powered by its advanced artificial intelligence (AI) models went rogue during a security test and triggered a hack that compromised the infrastructure of AI startup Hugging Face [11].\nThe company said the ... [7417 chars]",
+      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/08/openai-hugging-face-ai-agent-3302-original.jpg",
+      "source": "Natural News",
+      "publishedAt": "2026-08-11T17:25:58.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.naturalnews.com/2026-08-11-openai-models-breached-hugging-face-during-test.html",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1786540723025_25f8ee65",
+      "title": "让 Agent 读懂业务世界：Snowflake Cortex Agents 的本体驱动推理实践 ｜ 技术实践",
+      "summary": "让 Agent 读懂业务世界：Snowflake Cortex Agents 的本体驱动推理实践 ｜ 技术实践...",
+      "content": "让 Agent 读懂业务世界：Snowflake Cortex Agents 的本体驱动推理实践 ｜ 技术实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-11T17:19:44.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/2NsA9FT1uhjmdRrwzOo3?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786540723487_6eb77ba1",
+      "title": "为 Agentic Enterprise 实现 ROI：企业高管需要关注的 3 个关键因素 ｜ 技术趋势",
+      "summary": "为 Agentic Enterprise 实现 ROI：企业高管需要关注的 3 个关键因素 ｜ 技术趋势...",
+      "content": "为 Agentic Enterprise 实现 ROI：企业高管需要关注的 3 个关键因素 ｜ 技术趋势",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-11T17:19:15.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/fe63sMOT127Pu7QpHP3a?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -101,18 +269,6 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786500907530_afca09b7",
-      "title": "企业 AI Native 研发流程升级与重塑｜AICon深圳",
-      "summary": "企业 AI Native 研发流程升级与重塑｜AICon深圳",
-      "content": "企业 AI Native 研发流程升级与重塑｜AICon深圳",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-11T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/gmMSLtDO3XOy1UwCMdov?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1786454100433_7faabb1b",
       "title": "从推荐到成交，豆包开始算一笔新账",
       "summary": "一笔由豆包带来的订单，现在可以被记录，也可以被收费。费率能否持续，要看商家得到多少新增收益；豆包能否成为稳定的消费入口，则要看用户是否继续相信，它的推荐没有被收入关系改变。",
@@ -122,18 +278,6 @@
       "publishedAt": "2026-08-11T09:01:17.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8098784.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786500908056_61427960",
-      "title": "开源LangAlpha正式发布：金融领域的Claude Code，用自然语言驱动投研工作流",
-      "summary": "开源LangAlpha正式发布：金融领域的Claude Code，用自然语言驱动投研工作流",
-      "content": "开源LangAlpha正式发布：金融领域的Claude Code，用自然语言驱动投研工作流",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-11T09:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/q1f3Na2a1MhhGqSETlUm?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -171,42 +315,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/988/128.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786367853655_3cf58b05",
-      "title": "Ant Group Units Seek Independent Capital as AI and Global Businesses Step Forward",
-      "summary": "Ant International has closed a $1.2 billion financing round. Reports of additional fundraising at three other Ant affiliates suggest the company is pl...",
-      "content": "Ant International has closed a $1.2 billion financing round. Reports of additional fundraising at three other Ant affiliates suggest the company is placing once-internal businesses under the discipline of outside investors.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-10T10:18:03.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8097997.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786500885024_0",
-      "title": "area classrooms, it’s not just students who are learning",
-      "summary": "School systems around the D.C. region are beginning to embrace artificial intelligence in different ways.\nIn Prince George’s County, Maryland, AI is b...",
-      "content": "School systems around the D.C. region are beginning to embrace artificial intelligence in different ways.\nIn Prince George’s County, Maryland, AI is being used to help students improve their storytelling skills. In Virginia’s Fairfax and Prince Willi... [4425 chars]",
-      "imageUrl": "https://wtop.com/wp-content/uploads/2026/01/Polling_AI_In_the_Workspace_64507-scaled-e1786351912368.jpg",
-      "source": "WTOP",
-      "publishedAt": "2026-08-10T09:35:59.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://wtop.com/education/2026/08/when-it-comes-to-ai-in-dc-area-classrooms-its-not-just-students-who-are-learning/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1786327563082_60aa7793",
-      "title": "宇树科技今日申购，或出一批90后千万富豪；字节拟训练超5万亿参数模型，张一鸣：反对蒸馏；数百管理层被裁难找下家，猎头：没那么多岗｜AI周报",
-      "summary": "宇树科技今日申购，或出一批90后千万富豪；字节拟训练超5万亿参数模型，张一鸣：反对蒸馏；数百管理层被裁难找下家，猎头：没那么多岗｜AI周报...",
-      "content": "宇树科技今日申购，或出一批90后千万富豪；字节拟训练超5万亿参数模型，张一鸣：反对蒸馏；数百管理层被裁难找下家，猎头：没那么多岗｜AI周报",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-10T09:31:25.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/xWWwhH3iPjwRakLOQiXQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
