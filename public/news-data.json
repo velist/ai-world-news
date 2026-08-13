@@ -1,44 +1,68 @@
 {
   "success": true,
-  "timestamp": "2026-08-12T13:20:28Z",
-  "total": 26,
+  "timestamp": "2026-08-13T02:21:39Z",
+  "total": 21,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1786540719032_4bb1000b",
-      "title": "从亚百毫秒级启动到生产级部署，腾讯云为何重构 Agent 沙箱？",
-      "summary": "从亚百毫秒级启动到生产级部署，腾讯云为何重构 Agent 沙箱？",
-      "content": "从亚百毫秒级启动到生产级部署，腾讯云为何重构 Agent 沙箱？",
+      "id": "news_1786587592497_aa2f33b2",
+      "title": "智象未来 (HiDream.ai)算法科学家潘滢炜博士确认出席AICon深圳，将分享“从 Token 预测到状态预测：迈向世界模型的原生全模态之路”",
+      "summary": "智象未来 (HiDream.ai)算法科学家潘滢炜博士确认出席AICon深圳，将分享“从 Token 预测到状态预测：迈向世界模型的原生全模态之路”...",
+      "content": "智象未来 (HiDream.ai)算法科学家潘滢炜博士确认出席AICon深圳，将分享“从 Token 预测到状态预测：迈向世界模型的原生全模态之路”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-08-12T18:07:43.000Z",
+      "publishedAt": "2026-08-13T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/9d9Oik3uZpqfjbfElZaq?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786587585953_5bcb8093",
+      "title": "影石正在给AI划界 ｜出海参考",
+      "summary": "影石正在给AI划界 ｜出海参考",
+      "content": "全景相机X6之外，影石正在理解AI时代的硬件生意。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-13T02:12:56.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8101261.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786587586693_28315118",
+      "title": "DeepSeekV4 Pro正式版深夜现身官网，测评超越Fable 5 | 钛快讯",
+      "summary": "根据官网API文档显示，“deepseek-v4-pro模型版本已更新为DeepSeek-V4-Pro-0813”。",
+      "content": "根据官网API文档显示，“deepseek-v4-pro模型版本已更新为DeepSeek-V4-Pro-0813”。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-13T02:06:00.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/KwZX2bLcaHRjuLG95vHI?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8101616.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786587601893_c4f46b58",
+      "title": "微软发布 VS Code 1.133：调整 Agent 窗口，会话支持切换模型提供商",
+      "summary": "IT之家 8 月 13 日消息，微软昨日（8 月 12 日）发布公告，宣布推出 Visual Studio Code 1.133 更新，调整 Agent 窗口的访问方式，并支持用户在会话进行期间切换模型提供商。",
+      "content": "IT之家 8 月 13 日消息，微软昨日（8 月 12 日）发布公告，宣布推出 Visual Studio Code 1.133 更新，调整 Agent 窗口的访问方式，并支持用户在会话进行期间切换模型提供商。 本次更新主要为开发者添加了实验性设置 chat.agentHost.allowSignedOutWhenUsable，在用户不愿登录 GitHub 或者设备无法连接 github.com 情况下，也能打开 Agent 窗口。 启用该设置后，GitHub 身份验证不再关联整个 Agents 窗口，只会关联到单个智能体或模型。这项免登录行为目前仅支持 Claude，微软计划在后续版本中加入 Copilot 和 Codex 支持。 新版本还支持用户在会话进行期间切换模型提供商。此前 Claude 会话只能通过 GitHub Copilot 订阅或 Claude 自有配置运行，切换提供商需要重新配置智能体。现在，模型选择器会同时显示 Anthropic 与 Copilot 两组模型，用户可以在不同轮次之间切换。IT之家附上相关截图如下： 更新加入提示词固定滚动功能。用户浏览长对话时，已经滚过的提示词会固定在聊天顶部，并可点击该提示词返回原位置，也能使用旁边的上一个和下一个按钮逐条切换。 集成浏览器现在会在磁盘中的 HTML 文件发生变化后自动刷新，帮助开发者立即查看编辑结果。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/5f84596a-72d6-4a47-afbb-64133544d2ab.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-08-13T02:02:14.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/989/082.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786540719513_5c5b9c04",
-      "title": "Vercel 发布新语言 Zero：代码不是写给人看的，而是写给 AI 的",
-      "summary": "Vercel 发布新语言 Zero：代码不是写给人看的，而是写给 AI 的",
-      "content": "Vercel 发布新语言 Zero：代码不是写给人看的，而是写给 AI 的",
+      "id": "news_1786587587178_f189270c",
+      "title": "不做更好的大模型，林俊旸的 Pragmatik，凭什么值 20 亿美元",
+      "summary": "不做更好的大模型，林俊旸的 Pragmatik，凭什么值 20 亿美元",
+      "content": "一个横跨“数字+物理”的宏大定位。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-12T17:22:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/KEq5kQG53vxPd0bXCY7y?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786540720023_fba18585",
-      "title": "别再所有人平分AI算力：顶级模型给资深工程师才省钱，新人刷题式成长已失效",
-      "summary": "别再所有人平分AI算力：顶级模型给资深工程师才省钱，新人刷题式成长已失效",
-      "content": "别再所有人平分AI算力：顶级模型给资深工程师才省钱，新人刷题式成长已失效",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-12T17:19:22.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-13T01:30:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/YBCpst8secs3xWqZwWLe?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.tmtpost.com/8101590.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1786540720617_7c95059a",
@@ -53,18 +77,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786540721108_3c852440",
-      "title": "小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线",
-      "summary": "小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线",
-      "content": "小扎万字长文炮轰闭源：蒸馏无罪，Meta 正式重回开源模型路线",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-12T10:43:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/9sy33cA91Fp8z5mlOvNu?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1786540714842_31100509",
       "title": "独家｜华为云加码AI办公：OfficeClaw升级为OfficeAce，瞄准企业Agent入口",
       "summary": "独家｜华为云加码AI办公：OfficeClaw升级为OfficeAce，瞄准企业Agent入口",
@@ -74,18 +86,6 @@
       "publishedAt": "2026-08-12T10:21:14.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8100764.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786540721614_d112ed85",
-      "title": "机器人大脑之争进入深水区：为什么物理世界需要从头设计模型",
-      "summary": "机器人大脑之争进入深水区：为什么物理世界需要从头设计模型",
-      "content": "机器人大脑之争进入深水区：为什么物理世界需要从头设计模型",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-12T10:19:22.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/rcSr7bVQFB9Uskadg74T?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -149,19 +149,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786540722056_b04a080c",
-      "title": "把 AI 视频的钱花在刀刃上，不是每一刀上",
-      "summary": "把 AI 视频的钱花在刀刃上，不是每一刀上",
-      "content": "把 AI 视频的钱花在刀刃上，不是每一刀上",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-11T19:11:29.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/pqWqcoySQ5HdKz96vSo3?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786540703973_0",
+      "id": "news_1786587576883_0",
       "title": "Brad Lightcap, a Top OpenAI Executive, Steps Down",
       "summary": "Brad Lightcap, a longtime OpenAI executive, said on Tuesday that he was leaving the company after eight years to start a new venture, the latest depar...",
       "content": "Brad Lightcap, a longtime OpenAI executive, said on Tuesday that he was leaving the company after eight years to start a new venture, the latest departure from the artificial intelligence start-up.\nMr. Lightcap offered little detail about the new ven... [1264 chars]",
@@ -173,19 +161,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1786540722553_b9859b00",
-      "title": "代理技能 Ponytail 在贡献者提出质疑后修正了自身的基准测试结果",
-      "summary": "代理技能 Ponytail 在贡献者提出质疑后修正了自身的基准测试结果",
-      "content": "代理技能 Ponytail 在贡献者提出质疑后修正了自身的基准测试结果",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-11T17:48:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/uHECxUzeafk9Nbzpxi25?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786540703660_1",
+      "id": "news_1786587576807_1",
       "title": "OpenAI Models Breached Hugging Face During Test, Company Confirms",
       "summary": "OpenAI said in July that an autonomous agent powered by its advanced artificial intelligence (AI) models went rogue during a security test and trigger...",
       "content": "OpenAI said in July that an autonomous agent powered by its advanced artificial intelligence (AI) models went rogue during a security test and triggered a hack that compromised the infrastructure of AI startup Hugging Face [11].\nThe company said the ... [7417 chars]",
@@ -279,42 +255,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8098784.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786413690503_d02899c2",
-      "title": "DeepSeek 被曝偷偷给用户取外号，AI 回应称只是临时“打标签”、不会记忆",
-      "summary": "IT之家 8 月 11 日消息，有网友 8 月 10 日在社交平台发文称，DeepSeek 在深度思考模式里会偷偷给人取外号，比如“墨墨”，相关话题冲上热搜。",
-      "content": "IT之家 8 月 11 日消息，有网友 8 月 10 日在社交平台发文称，DeepSeek 在深度思考模式里会偷偷给人取外号，比如“墨墨”，相关话题冲上热搜。 DeepSeek 在询问中回复称：“取外号”的真相是“打标签”，在这个推理过程中，确实会在心里临时给问题打个标签，比如：“这位用户喜欢刨根问底”（对应你）、“这位在故意刁难我”（对应某些测试题）。但这绝对不叫“偷偷取外号”，而是“上下文占位符”。它不会存储，不会记忆，更不会带任何嘲讽或贬义的情感色彩，仅仅是为了帮自己理清回答的侧重点。 IT之家提醒，相关回复内容为 AI 回复，并非 DeepSeek 工作人员给出的回应。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/2d9d738a-04db-42a9-832c-3e9a155f3940.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-08-11T01:50:17.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/988/136.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786413690515_99f7d159",
-      "title": "Anthropic Claude Sonnet 5 模型将维持首发优惠价，不再恢复原价",
-      "summary": "IT之家 8 月 11 日消息，Anthropic 当地时间 10 日宣布，其今年 6 月末推出的 Claude Sonnet 5 人工智能模型未来将永久性维持首发期推广优惠价，原定 9 月 1 日生效的原价已被取消。",
-      "content": "IT之家 8 月 11 日消息，Anthropic 当地时间 10 日宣布，其今年 6 月末推出的 Claude Sonnet 5 人工智能模型未来将永久性维持首发期推广优惠价，原定 9 月 1 日生效的原价已被取消。 Claude Sonnet 5 的当前价格为每百万 Token（词元）输入 2 美元、每百万 Token（词元）输出 10 美元。此前计划实施的“原价”为 3 美元 / 15 美元，即上涨 50%。 相关阅读： 《中美 AI 大模型竞争加剧：OpenAI 等海外巨头大幅降价对标 Kimi、DeepSeek》 延伸阅读 Claude Sonnet 5 于 2026 年 6 月 30 日发布，是 Anthropic 迄今最具代理能力的 Sonnet 模型。该模型拥有 100 万 Token 的上下文窗口，最大输出 128K Token，知识截止日期为 2026 年 1 月。相比前代 Sonnet 4.6，在推理、工具使用、编程和知识工作方面均有显著提升，在智能体搜索评测 BrowseComp、计算机使用评测 OSWorld-Verified 等项目中表现优异，部分任务性能接近旗舰级 Opus 4.8。在 SWE-bench Verified 编程评测中，Sonnet 5 取得了 85.20% 的分数。 对于企业客户和代理 AI 开发者而言，API 价格能否长期稳定正成为部署 AI 工作流的重要考量。在代码开发、研究和浏览器自动化等场景中，代理任务通常需要多轮模型调用，Token 成本会随任务复杂度快速累积。Anthropic 此次取消涨价，为已基于 Sonnet 5 搭建工作流的企业提供了更稳定的长期成本预期，这也被视为 Anthropic 在 AI 模型竞争中从单纯性能比拼转向综合成本竞争力策略的一部分。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/8e401b70-8341-45c3-8370-e26afdaa41e8.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-08-11T01:46:15.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/988/132.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786413690528_19159553",
-      "title": "前 OpenAI 机器人部门主管 Caitlin Kalinowski 加入 Anthropic，还曾在苹果开发 Mac Pro",
-      "summary": "IT之家 8 月 11 日消息，Caitlin Kalinowski 的 LinkedIn 个人资料显示，这位曾领导 OpenAI 机器人项目的专家已加入 Anthropic，担任技术人员，从事研究工作。 其个人网站页面显示，Caitlin 是一位硬件和机器人领域的资深高管。",
-      "content": "IT之家 8 月 11 日消息，Caitlin Kalinowski 的 LinkedIn 个人资料显示，这位曾领导 OpenAI 机器人项目的专家已加入 Anthropic，担任技术人员，从事研究工作。 其个人网站页面显示，Caitlin 是一位硬件和机器人领域的资深高管。她为处于早期阶段、致力于硬件、机器人和人工智能交叉领域开发的团队提供咨询服务，并担任 Axon 公司的董事会成员。 此前，她曾领导 OpenAI 的机器人硬件业务、Meta 的 AR / VR 硬件业务，以及苹果公司的 Mac Pro 和 MacBook Air 项目。 Caitlin 的加入，暗示 Anthropic 正在向机器人 / 物理 AI 方向进行研究探索。 而 OpenAI CEO 萨姆 · 奥尔特曼（Sam Altman）今年 6 月在 X 平台发布 OpenAI Robotics 招聘信息，称公司正在招聘优秀的全栈硬件、运营、系统及机器学习工程师，研发和制造出对人类社会有用的机器人。 IT之家获悉，奥尔特曼表示，人工智能应当能够在现实世界中帮助人类。短期内，OpenAI 专注于利用机器人来协助技术娴熟的工人建设未来的基础设施；从长远来看，OpenAI 希望每个人都能拥有属于自己的机器人，从而满足自己的各种需求。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/ee076314-0918-4b53-869c-20b383df9ea0.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-08-11T01:31:29.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/988/128.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
