@@ -1,20 +1,116 @@
 {
   "success": true,
-  "timestamp": "2026-08-14T02:17:11Z",
-  "total": 20,
+  "timestamp": "2026-08-14T13:17:09Z",
+  "total": 26,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1786673725161_4ae47112",
-      "title": "涛思数据创始人&CEO陶建辉博士确认出席AICon深圳，将分享“大模型在工业场景落地的挑战与实践”",
-      "summary": "涛思数据创始人&CEO陶建辉博士确认出席AICon深圳，将分享“大模型在工业场景落地的挑战与实践”",
-      "content": "涛思数据创始人&CEO陶建辉博士确认出席AICon深圳，将分享“大模型在工业场景落地的挑战与实践”",
+      "id": "news_1786713318693_a09d2511",
+      "title": "DeepSeek 把 Harness 开源了：模型、工具、Agent Loop 全是插件",
+      "summary": "DeepSeek 把 Harness 开源了：模型、工具、Agent Loop 全是插件",
+      "content": "DeepSeek 把 Harness 开源了：模型、工具、Agent Loop 全是插件",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-08-14T10:00:00.000Z",
+      "publishedAt": "2026-08-14T14:38:24.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/de9AljWc4ejW2KAyW8dD?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786713319232_eeb2c43f",
+      "title": "从“工具”到“同事”——AI 时代的产品进化",
+      "summary": "从“工具”到“同事”——AI 时代的产品进化",
+      "content": "从“工具”到“同事”——AI 时代的产品进化",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-14T14:37:37.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Uiz6Ovab2eKT0T9q3Nzp?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/ABCk0CzDtSKMHbPXCdWF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786713319722_bf1a320d",
+      "title": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
+      "summary": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
+      "content": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-14T14:34:30.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/XpFUaftcEE3iLgGzYGZi?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786713320322_af4d1963",
+      "title": "从“会用”到“驾驭”：AI Coding 进入生产环境的真实碰撞",
+      "summary": "从“会用”到“驾驭”：AI Coding 进入生产环境的真实碰撞",
+      "content": "从“会用”到“驾驭”：AI Coding 进入生产环境的真实碰撞",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-14T14:28:52.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/ydy2QDIAzQ1L314UH4qc?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786713320734_a1e857c7",
+      "title": "Rust 给 AI 编程立新规：能帮你看，不能替你写，用多了还会“熔断”",
+      "summary": "Rust 给 AI 编程立新规：能帮你看，不能替你写，用多了还会“熔断”",
+      "content": "Rust 给 AI 编程立新规：能帮你看，不能替你写，用多了还会“熔断”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-14T14:24:20.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/4t8SKMGI28buD345I2Ta?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786713321118_28fb4dec",
+      "title": "AI 正在重塑故障处理流程，但棘手问题仍需人类解决",
+      "summary": "AI 正在重塑故障处理流程，但棘手问题仍需人类解决",
+      "content": "AI 正在重塑故障处理流程，但棘手问题仍需人类解决",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-14T13:54:40.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/dxzigmlmI6BN4MWqYNI2?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786713321958_73140960",
+      "title": "走进 CTO 圆桌：构建 AI 原生组织的工程领导者经验分享 | 技术趋势",
+      "summary": "走进 CTO 圆桌：构建 AI 原生组织的工程领导者经验分享 | 技术趋势",
+      "content": "走进 CTO 圆桌：构建 AI 原生组织的工程领导者经验分享 | 技术趋势",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-14T11:30:09.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/cFMO2oN8SyaR9vuUVUeQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786713322372_4c3f8b8b",
+      "title": "AI 智能体开始参与交付，谁来证明它没有“动手脚”？IBM 与 Red Hat 给出一套新方案",
+      "summary": "AI 智能体开始参与交付，谁来证明它没有“动手脚”？IBM 与 Red Hat 给出一套新方案",
+      "content": "AI 智能体开始参与交付，谁来证明它没有“动手脚”？IBM 与 Red Hat 给出一套新方案",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-14T10:35:35.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/AJz1m242RSJLpXpsC1eg?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786713315760_f1a4a021",
+      "title": "OpenAI关掉Atlas，AI浏览器输给了谁？",
+      "summary": "OpenAI关掉Atlas，AI浏览器输给了谁？",
+      "content": "一场被高估的“入口革命”。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-14T10:31:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8103854.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1786673733751_e91dbc07",
@@ -65,7 +161,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786673708331_0",
+      "id": "news_1786713323182_d79b2d98",
+      "title": "从“开放模型”到“开放生态”，AI 开源进入下半场",
+      "summary": "从“开放模型”到“开放生态”，AI 开源进入下半场",
+      "content": "从“开放模型”到“开放生态”，AI 开源进入下半场",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-13T18:21:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/oEMzispbWkEP8TtKdUtf?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786713306672_0",
       "title": "Massachusetts teen accused of killing mother, brother with help from ChatGPT",
       "summary": "A suburban Boston teenager murdered his mother and brother after using artificial intelligence “for theoretical ideas or fantasies regarding killing h...",
       "content": "A suburban Boston teenager murdered his mother and brother after using artificial intelligence “for theoretical ideas or fantasies regarding killing his family,” authorities said Wednesday.\nArjun Aravind, 17, of the affluent bedroom community of Acto... [1483 chars]",
@@ -77,7 +185,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1786673708289_1",
+      "id": "news_1786713306032_1",
       "title": "'Big Short' investor Steve Eisman sees an Achilles heel in the AI boom",
       "summary": "Steve Eisman is warning that the artificial intelligence boom has become increasingly dependent on the fortunes of just two companies: OpenAI and Anth...",
       "content": "Steve Eisman is warning that the artificial intelligence boom has become increasingly dependent on the fortunes of just two companies: OpenAI and Anthropic.\nThe investor, best known for his bet against the housing market ahead of the global financial... [1468 chars]",
@@ -206,42 +314,6 @@
       "publishedAt": "2026-08-12T14:25:14.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/b1V6WF6iUajJpND8VmCE?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786540714842_31100509",
-      "title": "独家｜华为云加码AI办公：OfficeClaw升级为OfficeAce，瞄准企业Agent入口",
-      "summary": "独家｜华为云加码AI办公：OfficeClaw升级为OfficeAce，瞄准企业Agent入口",
-      "content": "AI办公市场正在经历一轮重新布局。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-12T10:21:14.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8100764.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786540715364_14443724",
-      "title": "AI重演1873年：老百姓正悄悄成为算力的接盘者",
-      "summary": "AI重演1873年：老百姓正悄悄成为算力的接盘者",
-      "content": "历史不会重演，但接盘的总是同一个角色。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-12T10:15:38.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8100186.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786540715870_b14a2038",
-      "title": "这种“AI散热材料”告急，稀土管制是源头",
-      "summary": "这种“AI散热材料”告急，稀土管制是源头",
-      "content": "AI算力拉动需求倍增，稀土管制锁死供给，高端陶瓷散热材料的供应链正在被重写。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-12T10:09:34.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8100661.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
