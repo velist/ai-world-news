@@ -1,20 +1,44 @@
 {
   "success": true,
-  "timestamp": "2026-08-16T12:49:01Z",
-  "total": 21,
+  "timestamp": "2026-08-17T01:37:24Z",
+  "total": 19,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1786884434099_8e1c5c51",
-      "title": "从代码生成到研发闭环：AI Coding 在金融科技 SDLC 中的落地实践｜AICon深圳",
-      "summary": "从代码生成到研发闭环：AI Coding 在金融科技 SDLC 中的落地实践｜AICon深圳",
-      "content": "从代码生成到研发闭环：AI Coding 在金融科技 SDLC 中的落地实践｜AICon深圳",
+      "id": "news_1786930529949_67f24016",
+      "title": "Pony.ai and Uber Set Their Sights on More Than 2,000 Robotaxis in Europe",
+      "summary": "A Chinese autonomous-driving company and a global ride-hailing platform have agreed to expand a quiet pilot in Zagreb into a multi-city fleet. The pla...",
+      "content": "A Chinese autonomous-driving company and a global ride-hailing platform have agreed to expand a quiet pilot in Zagreb into a multi-city fleet. The plan is ambitious on paper. Whether it can clear Europe’s regulatory thicket and cover its costs is the harder question.",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-16T10:00:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-17T00:55:07.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/LflwIiIVHRZlakxDgexC?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8105342.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786930521336_0",
+      "title": "Commentary: Generation raised by technology must shape AI's future",
+      "summary": "Sidnie Duncan is a rising senior at Virginia Tech, where she is pursuing a Bachelor of Science in Environmental Conservation and Society. She was an A...",
+      "content": "Sidnie Duncan is a rising senior at Virginia Tech, where she is pursuing a Bachelor of Science in Environmental Conservation and Society. She was an Advocacy and Outreach Fellow with the Chesapeake Climate Action Network for summer 2026.\nLove\n0\nFunny... [259 chars]",
+      "imageUrl": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/4/5b/45bfd2a7-3e09-4774-a4ef-0fdf83ac087e/6a7f3fae8cd1a.preview.png?crop=788%2C414%2C77%2C63",
+      "source": "Roanoke Times",
+      "publishedAt": "2026-08-16T08:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://roanoke.com/opinion/column/article_45bfd2a7-3e09-4774-a4ef-0fdf83ac087e.html",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1786930521473_1",
+      "title": "Tuberville talks to ChatGPT on long drives: ‘You don’t know whether or not they’re 100% right’",
+      "summary": "U.S. Sen. Tommy Tuberville says he has a conversational partner on long drives across Alabama - the artificial intelligence tool ChatGPT.\nTuberville w...",
+      "content": "U.S. Sen. Tommy Tuberville says he has a conversational partner on long drives across Alabama - the artificial intelligence tool ChatGPT.\nTuberville was one of several federal lawmakers and staffers who told The Washington Post how they use A.I.\nThe ... [1593 chars]",
+      "imageUrl": "https://www.al.com/resizer/v2/N4AM5SPUGVCADHXF56LWKDPCFA.jpg?auth=5f679d340f09fbcb48a33cb9c65a809793c1a866f510f0122bfb07801a21cde8&width=1280&smart=true&quality=90",
+      "source": "AL.com",
+      "publishedAt": "2026-08-16T01:39:50.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.al.com/news/2026/08/tuberville-talks-to-chatgpt-on-long-drives-you-dont-know-whether-or-not-theyre-100-right.html",
+      "aiInsight": ""
     },
     {
       "id": "news_1786844284515_8ab9d2ee",
@@ -53,7 +77,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786884418831_0",
+      "id": "news_1786930534899_ae1fdef9",
+      "title": "Cloudflare Computer 发布：让 AI 智能体拥有持久化运行环境",
+      "summary": "Cloudflare Computer 发布：让 AI 智能体拥有持久化运行环境",
+      "content": "Cloudflare Computer 发布：让 AI 智能体拥有持久化运行环境",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-15T21:52:31.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/RaKIH7E4lA9uQ4Iasltb?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1786930521382_2",
       "title": "AI Chatbots Spread Through Congress With Little Oversight, Officials Say",
       "summary": "Congressional staff in both chambers have been cleared to use commercial artificial intelligence (AI) chatbots – including OpenAI's ChatGPT, Microsoft...",
       "content": "Congressional staff in both chambers have been cleared to use commercial artificial intelligence (AI) chatbots – including OpenAI's ChatGPT, Microsoft Copilot, Google Gemini and Anthropic's Claude – for official work, according to officials and inter... [4128 chars]",
@@ -77,7 +113,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786884419046_1",
+      "id": "news_1786930521523_3",
       "title": "Teen charged with murder of mother and brother used ChatGPT to create ‘fantasy stories’ about killing family, officials say",
       "summary": "A Massachusetts teen charged in the double murder of his mother and younger brother had used the artificial intelligence chatbot ChatGPT to search for...",
       "content": "A Massachusetts teen charged in the double murder of his mother and younger brother had used the artificial intelligence chatbot ChatGPT to search for “theoretical ideas or fantasy stories” about the killing of his family, prosecutors have said.\nA pl... [3040 chars]",
@@ -87,18 +123,6 @@
       "category": "科技新闻",
       "originalUrl": "https://edition.cnn.com/2026/08/15/us/arjun-aravind-massachusetts-killing-chatgpt-hnk",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1786884435256_02166ed1",
-      "title": "面向多模态推理的高效长上下文建模｜AICon深圳",
-      "summary": "面向多模态推理的高效长上下文建模｜AICon深圳",
-      "content": "面向多模态推理的高效长上下文建模｜AICon深圳",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-15T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/OgbViICigja8tasE0lwi?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1786797854718_fdf6846c",
@@ -125,7 +149,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786884418884_2",
+      "id": "news_1786930521522_4",
       "title": "SpaceX completes $60B buy of Cursor",
       "summary": "SpaceX has completed a $60 billion acquisition of artificial intelligence coding startup Cursor, a key part of Elon Musk's bid to gain ground on rival...",
       "content": "SpaceX has completed a $60 billion acquisition of artificial intelligence coding startup Cursor, a key part of Elon Musk's bid to gain ground on rivals Anthropic PBC and OpenAI.\nThe deal became effective on Aug. 14, according to a regulatory filing, ... [1940 chars]",
@@ -137,7 +161,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1786884418867_3",
+      "id": "news_1786930521461_5",
       "title": "Chinese AI Models Outperform Restricted U.S. Systems in Bitcoin Security Work, Developers Say",
       "summary": "Bitcoin developers and company leaders say they are relying on Chinese open-source artificial intelligence (AI) models because OpenAI and Anthropic re...",
       "content": "Bitcoin developers and company leaders say they are relying on Chinese open-source artificial intelligence (AI) models because OpenAI and Anthropic restrict legitimate defensive security work, according to statements cited by Bitcoin Magazine.\nRob Ha... [6465 chars]",
@@ -149,67 +173,31 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1786757150998_ff07e508",
-      "title": "AI真能替你订房改签了，你敢把账号交给它吗？",
-      "summary": "AI真能替你订房改签了，你敢把账号交给它吗？",
-      "content": "旅行AI终于不再“嘴替”了",
+      "id": "news_1786930536026_7fb3f199",
+      "title": "33%增速、126%留存：Snowflake 用一份财报，把“AI落地难”讲成了印钞机故事",
+      "summary": "33%增速、126%留存：Snowflake 用一份财报，把“AI落地难”讲成了印钞机故事",
+      "content": "33%增速、126%留存：Snowflake 用一份财报，把“AI落地难”讲成了印钞机故事",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-15T01:03:00.000Z",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-15T00:19:32.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8104085.html",
+      "originalUrl": "https://www.infoq.cn/article/55mbodVKkHgiHYqfqkFG?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786757151696_e81b9a6d",
-      "title": "豆包开始收12%过路费，GEO又要狂欢了？",
-      "summary": "豆包开始收12%过路费，GEO又要狂欢了？",
-      "content": "整个AI搜索行业，被一脚踹进了Agentic Commerce时代。",
+      "id": "news_1786930536520_83aa04cc",
+      "title": "AI 圈上演神级互撕！Codex、Claude Code 两位负责人公开对喷",
+      "summary": "AI 圈上演神级互撕！Codex、Claude Code 两位负责人公开对喷",
+      "content": "AI 圈上演神级互撕！Codex、Claude Code 两位负责人公开对喷",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-15T01:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8104312.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786757164644_43709fb9",
-      "title": "“虾虾大脑”升级：荣耀 YOYO Claw 官宣接入智谱最新发布的 GLM-5.3 大模型",
-      "summary": "IT之家 8 月 15 日消息，荣耀全场景软件主理人 @荣耀席迎军 昨晚宣布，荣耀 YOYO Claw 正式接入智谱最新发布的 GLM-5.3 大模型，“虾虾大脑”全新升级。",
-      "content": "IT之家 8 月 15 日消息，荣耀全场景软件主理人 @荣耀席迎军 昨晚宣布，荣耀 YOYO Claw 正式接入智谱最新发布的 GLM-5.3 大模型，“虾虾大脑”全新升级。 通过更大规模、更长周期、更多样任务环境的后训练，GLM-5.3 进一步释放模型能力上限：编程能力较上一代提升 50%，并在多项公开基准测试中取得开源模型第一；在代码审查、漏洞发现等网络安全任务中，能力也进一步提升，表现更加优秀。 据IT之家此前报道，在今年 4 月的荣耀 PC 新品技术沟通会上，荣耀版“龙虾”YOYO Claw 发布。官方在现场进行了多个场景演示，包括媒体运营助虾、3D 打印虾等。 另外，YOYO Claw 于 3 月 27 日开启封测，支持跨端执行任务，也可以选择“荣耀虾”进行养殖，包括荣耀 PC、荣耀 Pad 设备。此外，YOYO Claw 也能连接第三方龙虾，包括其他设备上的 OpenClaw。 作为参考，智谱昨日正式发布 GLM-5.3，与 GLM-5.2 相比，基座模型没变，但通过后训练 Scaling 大大提高了模型的智能上界：数十倍的长程任务环境、更丰富多样的环境类型、超长的后训练时间。 相比前代，GLM-5.3 的新能力包括： 更强的编程能力。GLM-5.3 是编程能力最强的开源模型，在内部自建体感评测中较 GLM-5.2 提升 50%，在包括 Terminal Bench 3.0、Agents' Last Exam (CLI) 在内的公开基准测试中取得开源第一。 网络安全能力。在白盒代码审查与漏洞发现等安全任务中，GLM-5.3 的表现持平 Mythos 5，展现出面向网络安全防御场景的强大潜力。 后训练 Scaling。上述全部提升都来自后训练。基于 IndexShare、SAO、以及持续演进的新一代 Slime 框架，智谱在与 GLM-5.2 完全相同基座上高效推进强化学习，可能智谱还远未开发出这个基座的智能上界。 开源。智谱将在发布两周后开放模型权重，此前完成安全评估与模型加固。 相关阅读： 《智谱正式发布 GLM-5.3：编程能力最强开源模型，较 GLM-5.2 提升 50%》 《荣耀版“龙虾”YOYO Claw 发布：出厂预制 23 个子虾，Token 消耗降低 50%》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/0ecd8c85-2976-4c76-8ccc-1a1a666682e9.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-08-15T00:54:23.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/989/989.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786757152171_e40ae6ac",
-      "title": "DeepSeek Harness，“杀死”Agent黑箱",
-      "summary": "DeepSeek Harness，“杀死”Agent黑箱",
-      "content": "Model+Harness=Agent",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-15T00:25:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8104305.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786884418694_4",
-      "title": "Sacramento-area school district promotes AI literacy in the classroom",
-      "summary": "Artificial intelligence is becoming part of the classroom at San Juan Unified, where teachers and students are learning how to use the technology.\nAt ...",
-      "content": "Artificial intelligence is becoming part of the classroom at San Juan Unified, where teachers and students are learning how to use the technology.\nAt Del Dayo Elementary, teacher Kathleen Record is heading into another school year with AI in her clas... [2680 chars]",
-      "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/08/14/8a994413-3141-4597-8623-9449edc61eab/thumbnail/1200x630/0a96e778814c0958c198a37d6aad5e57/for-web-ai-in-classroom.jpg",
-      "source": "CBS News",
-      "publishedAt": "2026-08-15T00:15:55.000Z",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-14T23:41:55.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.cbsnews.com/sacramento/news/sacramento-area-school-district-embraces-ai-in-the-classroom/",
-      "aiInsight": ""
+      "originalUrl": "https://www.infoq.cn/article/YWXm26HRwC9ySEGZ9Lpp?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786884436951_a09d2511",
+      "id": "news_1786930537003_a09d2511",
       "title": "DeepSeek 把 Harness 开源了：模型、工具、Agent Loop 全是插件",
       "summary": "DeepSeek 把 Harness 开源了：模型、工具、Agent Loop 全是插件",
       "content": "DeepSeek 把 Harness 开源了：模型、工具、Agent Loop 全是插件",
@@ -221,7 +209,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786884437493_eeb2c43f",
+      "id": "news_1786930537719_eeb2c43f",
       "title": "从“工具”到“同事”——AI 时代的产品进化",
       "summary": "从“工具”到“同事”——AI 时代的产品进化",
       "content": "从“工具”到“同事”——AI 时代的产品进化",
@@ -233,7 +221,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1786884438021_bf1a320d",
+      "id": "news_1786930538199_bf1a320d",
       "title": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
       "summary": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
       "content": "DeepSeek + Pi 王炸组合跑赢 Claude Code？Pi创始人：这套组合我早押中了",
@@ -243,18 +231,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/XpFUaftcEE3iLgGzYGZi?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786757152649_959b0552",
-      "title": "创·问｜Aibee爱笔智能林元庆：“结硬寨，打呆战”，通向物理世界AGI",
-      "summary": "本期主角是Aibee爱笔智能创始人兼CEO 林元庆博士。爱笔智能专注于线下空间数字化与智能化，融合计算机视觉、自然语言理解、大数据分析、机器人学等多模态 AI 技术，帮助线下空间实现全面的数字化，走向智能化的运营、管理和触达。",
-      "content": "本期主角是Aibee爱笔智能创始人兼CEO 林元庆博士。爱笔智能专注于线下空间数字化与智能化，融合计算机视觉、自然语言理解、大数据分析、机器人学等多模态 AI 技术，帮助线下空间实现全面的数字化，走向智能化的运营、管理和触达。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-14T13:29:43.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8104183.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
