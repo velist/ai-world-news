@@ -1,9 +1,141 @@
 {
   "success": true,
-  "timestamp": "2026-08-18T01:27:17Z",
-  "total": 11,
+  "timestamp": "2026-08-18T12:55:45Z",
+  "total": 22,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1787057636516_f3c5a5ec",
+      "title": "Snowflake CoCo AI 成本优化指南：7 个关键方法 | 技术实践",
+      "summary": "Snowflake CoCo AI 成本优化指南：7 个关键方法 | 技术实践",
+      "content": "Snowflake CoCo AI 成本优化指南：7 个关键方法 | 技术实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-18T16:29:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/pOfV96f9DHG9Cw1KQAZB?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787057636979_eff829b1",
+      "title": "阿里云的野心，不在 Agent Builder",
+      "summary": "阿里云的野心，不在 Agent Builder",
+      "content": "阿里云的野心，不在 Agent Builder",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-18T15:32:44.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/QekQuwv8UhxAcrOFgKM8?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787057637409_2e7baf42",
+      "title": "世界人工智能开源大赛（GOAI）初赛评审正式启动，全球AI创新项目进入首轮遴选",
+      "summary": "世界人工智能开源大赛（GOAI）初赛评审正式启动，全球AI创新项目进入首轮遴选",
+      "content": "世界人工智能开源大赛（GOAI）初赛评审正式启动，全球AI创新项目进入首轮遴选",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-18T13:22:04.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/gC7CU8lbYmha1QPMvqP7?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787057637834_97a0842c",
+      "title": "DeepSeek Harness 怎么入门？这套极简教程用一个项目给你讲清楚",
+      "summary": "DeepSeek Harness 怎么入门？这套极简教程用一个项目给你讲清楚",
+      "content": "DeepSeek Harness 怎么入门？这套极简教程用一个项目给你讲清楚",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-18T12:43:32.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/1EP0hwuqRzccrWArR7GJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787057638261_9c1f26d6",
+      "title": "模型跑起来之后：视觉 AI 还需要哪些系统能力？",
+      "summary": "模型跑起来之后：视觉 AI 还需要哪些系统能力？",
+      "content": "模型跑起来之后：视觉 AI 还需要哪些系统能力？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-18T11:17:47.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/LLrRNFqoYHPWGNSPslWm?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787057638680_0266d4a9",
+      "title": "Cloudflare 推出 Precursor，通过持续性行为分析识别恶意机器人与 AI 自动化程序",
+      "summary": "Cloudflare 推出 Precursor，通过持续性行为分析识别恶意机器人与 AI 自动化程序...",
+      "content": "Cloudflare 推出 Precursor，通过持续性行为分析识别恶意机器人与 AI 自动化程序",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-18T10:58:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/7QNfsJhpgskMtVllCpWJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787057639106_ca1fb981",
+      "title": "Agentic AI 在普惠健康险的创新与实践｜AICon深圳",
+      "summary": "Agentic AI 在普惠健康险的创新与实践｜AICon深圳",
+      "content": "Agentic AI 在普惠健康险的创新与实践｜AICon深圳",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-18T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/3MxCwCyMpwcWjpvKJ7u4?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787057631554_1f101c01",
+      "title": "英伟达开始给电做担保了：1050亿美元押注8GW算力的电力账",
+      "summary": "英伟达这一步，标志着一个判断被正式确认：AI竞赛的下半场，胜负手不在制程，在电力。谁先把电的问题解决，谁就先解锁下一轮算力扩张。 对供电链条上的公司来说，这既是天量的订单预期，也是一次价值重估——过去数据中心电源被当成\"配套件\"，如今它成了卡住8GW落地的关键路径。",
+      "content": "英伟达这一步，标志着一个判断被正式确认：AI竞赛的下半场，胜负手不在制程，在电力。谁先把电的问题解决，谁就先解锁下一轮算力扩张。 对供电链条上的公司来说，这既是天量的订单预期，也是一次价值重估——过去数据中心电源被当成\"配套件\"，如今它成了卡住8GW落地的关键路径。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-18T09:21:54.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8107418.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787057632401_51d3618e",
+      "title": "腾讯的AI Capex，还可以更高",
+      "summary": "腾讯的AI Capex，还可以更高",
+      "content": "硬的东西，比软的故事更值得信任。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-18T08:04:57.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8106867.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787057632822_aa11f60c",
+      "title": "AI中转站的生死一梦",
+      "summary": "AI中转站的生死一梦",
+      "content": "一边是名人砸钱入场、媒体争相报道，一边是普通从业者排队进局子、社交账号连夜注销。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-18T07:50:06.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8107107.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787057633519_76802ec9",
+      "title": "AI代码过剩后，给代码“冲厕所”的公司贵了十倍",
+      "summary": "AI代码过剩后，给代码“冲厕所”的公司贵了十倍",
+      "content": "AI越会写代码，Blacksmith需要跑的机器反而越多。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-18T07:47:26.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8107004.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1787016335210_12c7c883",
       "title": "OpenAI 前高管：相信 AI 能治愈所有疾病，但光靠大模型远远不够",
@@ -15,6 +147,30 @@
       "category": "AI趣味新闻",
       "originalUrl": "https://www.ithome.com/0/990/910.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787057639548_23e127cd",
+      "title": "当 AI 遇见 FinOps：Snowflake 如何为 AI 时代重新定义成本管理 | 技术趋势",
+      "summary": "当 AI 遇见 FinOps：Snowflake 如何为 AI 时代重新定义成本管理 | 技术趋势",
+      "content": "当 AI 遇见 FinOps：Snowflake 如何为 AI 时代重新定义成本管理 | 技术趋势",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-17T18:47:40.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/0MLCGOPXzzILTxB8CORk?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787057622722_0",
+      "title": "OpenAI to Fund Think Tank’s Study On Options for Taxing AI",
+      "summary": "Skip to content Bloomberg the Company & Its Products The Company & its Products Bloomberg Terminal Demo Request Bloomberg Anywhere Remote Login Bloomb...",
+      "content": "OpenAI awarded a grant to a US-based global tax think tank to study approaches to taxing artificial intelligence and how wider adoption of the technology would affect individual and corporate incomes.\nThe Tax Foundation will use the grant to conduct ... [396 chars]",
+      "imageUrl": "https://bwrite-static.bloombergindustry.com/dims4/default/44943aa/2147483647/crop/6098x2350+0+157/resize/960x370%3E/quality/90/?url=https%3A%2F%2Fbloomberg-bna-brightspot.s3.us-east-1.amazonaws.com%2F80%2F4b%2F316eebe443dc98e8aa12f7d3c3c3%2Fgettyimages-2032109653-1.jpg",
+      "source": "Bloomberg Tax News",
+      "publishedAt": "2026-08-17T18:09:06.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://news.bloombergtax.com/daily-tax-report/openai-to-fund-think-tanks-study-on-options-for-taxing-ai",
+      "aiInsight": ""
     },
     {
       "id": "news_1786971102679_3005b4ff",
@@ -111,30 +267,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8105342.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787016313163_1",
-      "title": "Commentary: Generation raised by technology must shape AI's future",
-      "summary": "Sidnie Duncan is a rising senior at Virginia Tech, where she is pursuing a Bachelor of Science in Environmental Conservation and Society. She was an A...",
-      "content": "Sidnie Duncan is a rising senior at Virginia Tech, where she is pursuing a Bachelor of Science in Environmental Conservation and Society. She was an Advocacy and Outreach Fellow with the Chesapeake Climate Action Network for summer 2026.\nLove\n0\nFunny... [259 chars]",
-      "imageUrl": "https://bloximages.newyork1.vip.townnews.com/roanoke.com/content/tncms/assets/v3/editorial/4/5b/45bfd2a7-3e09-4774-a4ef-0fdf83ac087e/6a7f3fae8cd1a.preview.png?crop=788%2C414%2C77%2C63",
-      "source": "Roanoke Times",
-      "publishedAt": "2026-08-16T08:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://roanoke.com/opinion/column/article_45bfd2a7-3e09-4774-a4ef-0fdf83ac087e.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1787016312931_2",
-      "title": "Tuberville talks to ChatGPT on long drives: ‘You don’t know whether or not they’re 100% right’",
-      "summary": "U.S. Sen. Tommy Tuberville says he has a conversational partner on long drives across Alabama - the artificial intelligence tool ChatGPT.\nTuberville w...",
-      "content": "U.S. Sen. Tommy Tuberville says he has a conversational partner on long drives across Alabama - the artificial intelligence tool ChatGPT.\nTuberville was one of several federal lawmakers and staffers who told The Washington Post how they use A.I.\nThe ... [1593 chars]",
-      "imageUrl": "https://www.al.com/resizer/v2/N4AM5SPUGVCADHXF56LWKDPCFA.jpg?auth=5f679d340f09fbcb48a33cb9c65a809793c1a866f510f0122bfb07801a21cde8&width=1280&smart=true&quality=90",
-      "source": "AL.com",
-      "publishedAt": "2026-08-16T01:39:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.al.com/news/2026/08/tuberville-talks-to-chatgpt-on-long-drives-you-dont-know-whether-or-not-theyre-100-right.html",
-      "aiInsight": ""
     }
   ]
 }
