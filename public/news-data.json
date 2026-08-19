@@ -1,68 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-08-18T12:55:45Z",
-  "total": 22,
+  "timestamp": "2026-08-19T01:29:11Z",
+  "total": 17,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1787057636516_f3c5a5ec",
-      "title": "Snowflake CoCo AI 成本优化指南：7 个关键方法 | 技术实践",
-      "summary": "Snowflake CoCo AI 成本优化指南：7 个关键方法 | 技术实践",
-      "content": "Snowflake CoCo AI 成本优化指南：7 个关键方法 | 技术实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-18T16:29:05.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/pOfV96f9DHG9Cw1KQAZB?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787057636979_eff829b1",
-      "title": "阿里云的野心，不在 Agent Builder",
-      "summary": "阿里云的野心，不在 Agent Builder",
-      "content": "阿里云的野心，不在 Agent Builder",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-18T15:32:44.000Z",
+      "id": "news_1787102845796_c835c9d7",
+      "title": "智谱 GLM-5.3 模型 API 上线，权重下周五开源",
+      "summary": "IT之家 8 月 19 日消息，智谱今日宣布，GLM-5.3 API 即日起正式上线。模型擅长复杂编码、防御性网络安全以及长程任务。",
+      "content": "IT之家 8 月 19 日消息，智谱今日宣布，GLM-5.3 API 即日起正式上线。模型擅长复杂编码、防御性网络安全以及长程任务。 官方称，GLM-5.3 在全球权威的 Artificial Analysis Intelligence Index（AA 综合智能指数）中取得 60 分，进入全球前沿模型能力区间，与 Claude Fable 5、GPT-5.6 Sol 等闭源旗舰模型处于同一水平，并与 Kimi K3 并列开源模型第一。 AA 指数覆盖知识、推理、编码、智能体等多项评测，衡量模型在真实复杂任务中的综合能力 在达到同档智能水平的同时，GLM-5.3 以更小的参数规模与更低的调用成本，显著降低了前沿模型能力的使用门槛。 图中，纵轴为 Artificial Analysis 智能指数，横轴为完成单个任务的平均成本。GLM-5.3 以前沿旗舰模型中最低的单任务成本，处于高智能、低成本的最具吸引力区间，同时将前沿模型“智能 — 成本”的帕累托前沿大幅推进。 官方称，GLM-5.3 追求的不只是智能上限，也致力于提升单位成本所能获得的智能。随着 API 正式开放，前沿智能将进入更多开发者、企业和知识工作者的真实工作场景。 据IT之家了解，GLM-5.3 与上一代 GLM-5.2 沿用同一基础模型，性能提升主要来自后训练。 目前，GLM-5.3 已接入 ZCode 等编码平台，并纳入 GLM Coding Plan。API 已开放调用，定价与 GLM-5.2 保持不变。模型权重将于下周五开源。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/e0576e1e-331c-4ef9-a0b2-10b46a20184c.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-08-19T01:10:56.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/QekQuwv8UhxAcrOFgKM8?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.ithome.com/0/991/417.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787057637409_2e7baf42",
-      "title": "世界人工智能开源大赛（GOAI）初赛评审正式启动，全球AI创新项目进入首轮遴选",
-      "summary": "世界人工智能开源大赛（GOAI）初赛评审正式启动，全球AI创新项目进入首轮遴选",
-      "content": "世界人工智能开源大赛（GOAI）初赛评审正式启动，全球AI创新项目进入首轮遴选",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-18T13:22:04.000Z",
+      "id": "news_1787102829007_0",
+      "title": "OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot",
+      "summary": "SAN FRANCISCO (AP) — OpenAI is launching a version of ChatGPT designed for teenagers — the first generation to grow up with artificial intelligence — ...",
+      "content": "SAN FRANCISCO (AP) — OpenAI is launching a version of ChatGPT designed for teenagers — the first generation to grow up with artificial intelligence — who are already using it for schoolwork, questions about daily life and even companionship.\nThe San ... [457 chars]",
+      "imageUrl": "https://images.ajc.com/resizer/v2/AYHXZIARHRDIDDGQAPSH52EJ4Q.jpg?auth=bda178861afaa519b1f7dc3c599dbec30b2c12cf0a18c0503ac8a360e5c68ff4&width=1200&height=630&smart=true",
+      "source": "The Atlanta Journal-Constitution",
+      "publishedAt": "2026-08-18T11:12:45.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/gC7CU8lbYmha1QPMvqP7?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787057637834_97a0842c",
-      "title": "DeepSeek Harness 怎么入门？这套极简教程用一个项目给你讲清楚",
-      "summary": "DeepSeek Harness 怎么入门？这套极简教程用一个项目给你讲清楚",
-      "content": "DeepSeek Harness 怎么入门？这套极简教程用一个项目给你讲清楚",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-18T12:43:32.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/1EP0hwuqRzccrWArR7GJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787057638261_9c1f26d6",
-      "title": "模型跑起来之后：视觉 AI 还需要哪些系统能力？",
-      "summary": "模型跑起来之后：视觉 AI 还需要哪些系统能力？",
-      "content": "模型跑起来之后：视觉 AI 还需要哪些系统能力？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-18T11:17:47.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/LLrRNFqoYHPWGNSPslWm?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.ajc.com/news/2026/08/openai-launches-chatgpt-for-teens-promising-a-more-age-appropriate-chatbot/",
+      "aiInsight": ""
     },
     {
       "id": "news_1787057638680_0266d4a9",
@@ -77,18 +41,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787057639106_ca1fb981",
-      "title": "Agentic AI 在普惠健康险的创新与实践｜AICon深圳",
-      "summary": "Agentic AI 在普惠健康险的创新与实践｜AICon深圳",
-      "content": "Agentic AI 在普惠健康险的创新与实践｜AICon深圳",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-18T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/3MxCwCyMpwcWjpvKJ7u4?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1787057631554_1f101c01",
       "title": "英伟达开始给电做担保了：1050亿美元押注8GW算力的电力账",
       "summary": "英伟达这一步，标志着一个判断被正式确认：AI竞赛的下半场，胜负手不在制程，在电力。谁先把电的问题解决，谁就先解锁下一轮算力扩张。 对供电链条上的公司来说，这既是天量的订单预期，也是一次价值重估——过去数据中心电源被当成\"配套件\"，如今它成了卡住8GW落地的关键路径。",
@@ -99,6 +51,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8107418.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787102827667_2",
+      "title": "AI school for grades 1-8 at Drew University",
+      "summary": "EDUCATION Drew University first U.S. college with AI-driven school for grades 1-8 William Westhoven Morristown Daily Record Aug. 18, 2026, 4:35 a.m. E...",
+      "content": "One of New Jersey's most prestigious universities is about to open its doors for eager students who have yet to even reach high school.\nDrew University in Madison has announced the launch of The Drew School for grades 1 to 8. Opening for the fall sem... [2663 chars]",
+      "imageUrl": "https://www.northjersey.com/gcdn/authoring/authoring-images/2026/08/14/PMOR/91305118007-491479333-18507005047040189-33295527804507648-n.jpg?crop=1439,811,x0,y74&width=1439&height=811&format=pjpg&auto=webp",
+      "source": "Northjersey.Com",
+      "publishedAt": "2026-08-18T08:35:47.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.northjersey.com/story/news/education/2026/08/18/ai-school-for-grades-1-8-at-drew-university-madison-higher-education/91303053007/",
+      "aiInsight": ""
     },
     {
       "id": "news_1787057632401_51d3618e",
@@ -149,19 +113,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787057639548_23e127cd",
-      "title": "当 AI 遇见 FinOps：Snowflake 如何为 AI 时代重新定义成本管理 | 技术趋势",
-      "summary": "当 AI 遇见 FinOps：Snowflake 如何为 AI 时代重新定义成本管理 | 技术趋势",
-      "content": "当 AI 遇见 FinOps：Snowflake 如何为 AI 时代重新定义成本管理 | 技术趋势",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-17T18:47:40.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/0MLCGOPXzzILTxB8CORk?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787057622722_0",
+      "id": "news_1787102828664_4",
       "title": "OpenAI to Fund Think Tank’s Study On Options for Taxing AI",
       "summary": "Skip to content Bloomberg the Company & Its Products The Company & its Products Bloomberg Terminal Demo Request Bloomberg Anywhere Remote Login Bloomb...",
       "content": "OpenAI awarded a grant to a US-based global tax think tank to study approaches to taxing artificial intelligence and how wider adoption of the technology would affect individual and corporate incomes.\nThe Tax Foundation will use the grant to conduct ... [396 chars]",
@@ -254,18 +206,6 @@
       "publishedAt": "2026-08-17T09:07:05.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8105947.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1786930529949_67f24016",
-      "title": "Pony.ai and Uber Set Their Sights on More Than 2,000 Robotaxis in Europe",
-      "summary": "A Chinese autonomous-driving company and a global ride-hailing platform have agreed to expand a quiet pilot in Zagreb into a multi-city fleet. The pla...",
-      "content": "A Chinese autonomous-driving company and a global ride-hailing platform have agreed to expand a quiet pilot in Zagreb into a multi-city fleet. The plan is ambitious on paper. Whether it can clear Europe’s regulatory thicket and cover its costs is the harder question.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-17T00:55:07.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8105342.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
