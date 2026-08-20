@@ -1,20 +1,80 @@
 {
   "success": true,
-  "timestamp": "2026-08-20T01:28:01Z",
+  "timestamp": "2026-08-20T12:58:22Z",
   "total": 22,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1787189173884_62545cb8",
-      "title": "随着 AI 生成的代码日益增多，GitHub Code Quality 聚焦可维护性",
-      "summary": "随着 AI 生成的代码日益增多，GitHub Code Quality 聚焦可维护性",
-      "content": "随着 AI 生成的代码日益增多，GitHub Code Quality 聚焦可维护性",
+      "id": "news_1787230591475_4634619a",
+      "title": "CFP 开放 | KCD 杭州站邀您共议 Agent 时代的云原生、可观测与大模型推理",
+      "summary": "CFP 开放 | KCD 杭州站邀您共议 Agent 时代的云原生、可观测与大模型推理",
+      "content": "CFP 开放 | KCD 杭州站邀您共议 Agent 时代的云原生、可观测与大模型推理",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-08-20T09:16:00.000Z",
+      "publishedAt": "2026-08-20T19:03:02.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/ELr08T70hyUzfUolgw5g?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/LpNjOA7au7WIhTBmVcJo?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787230592562_50fd4abd",
+      "title": "你的 Coding Agent 有多大价值，取决于它对你的数据了解多少 | 技术实践",
+      "summary": "你的 Coding Agent 有多大价值，取决于它对你的数据了解多少 | 技术实践",
+      "content": "你的 Coding Agent 有多大价值，取决于它对你的数据了解多少 | 技术实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-20T16:12:45.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/CPidTC2YJ7AvlU7jUgiq?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787230592992_a8b5cf8a",
+      "title": "将Pod作为worker而非智能体：在Kubernetes上重新思考AI智能体的部署单元",
+      "summary": "将Pod作为worker而非智能体：在Kubernetes上重新思考AI智能体的部署单元",
+      "content": "将Pod作为worker而非智能体：在Kubernetes上重新思考AI智能体的部署单元",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-20T12:50:54.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/u2O9k3QiZkeIbqJ7GsPw?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787230598682_de048297",
+      "title": "树莓派为 Raspberry Pi CM5 推出编程夹具，简化大规模部署工作",
+      "summary": "IT之家 8 月 20 日消息，Raspberry Pi（树莓派）官方当地时间 19 日宣布为 Raspberry Pi Compute Module 5 (CM5) 计算模块核心板推出编程烧录夹具（治具）。",
+      "content": "IT之家 8 月 20 日消息，Raspberry Pi（树莓派）官方当地时间 19 日宣布为 Raspberry Pi Compute Module 5 (CM5) 计算模块核心板推出编程烧录夹具（治具）。 该设备可简化大规模商业化部署 Raspberry Pi CM5 时的配置工作流程：用户在为编程夹具设计好操作系统和安全配置后，仅需将其与被操作的计算模块连接妥当，然后按下夹具便可自动化完成安全启动、全盘加密、裸操作系统安装等常规配置步骤。 Raspberry Pi Compute Module 5 编程夹具定价 600 美元（IT之家注：现汇率约合 4,048 元人民币），现已开放订购。 相关阅读： 《树莓派推出 Raspberry Pi CM5 计算模块和配套 IO 板》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/6800e7c2-0940-48ea-a4be-b60951a091a7.png",
+      "source": "IT之家",
+      "publishedAt": "2026-08-20T12:39:33.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/992/342.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787230588488_4024d86a",
+      "title": "阿里AI进入分化期：云业务加速兑现，应用业务等待商业模式｜ 看财报",
+      "summary": "阿里AI进入分化期：云业务加速兑现，应用业务等待商业模式｜ 看财报",
+      "content": "阿里开始按照AI产业链重新组织资源，把算力、模型和应用放进更清晰的业务框架中。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-20T10:43:52.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8110834.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787230593423_f6129910",
+      "title": "蚂蚁 AI 驱动的生产级软件交付基建和实践｜AICon深圳",
+      "summary": "蚂蚁 AI 驱动的生产级软件交付基建和实践｜AICon深圳",
+      "content": "蚂蚁 AI 驱动的生产级软件交付基建和实践｜AICon深圳",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-20T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/FjAtSWXLEfY3Iu4ThvJM?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787189182901_269f71f4",
@@ -29,6 +89,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1787230594787_d2050eee",
+      "title": "OpenAI 因安全问题突然停训GPT-6！网友：当你造出一个神，就不可能再给它拴上绳子",
+      "summary": "OpenAI 因安全问题突然停训GPT-6！网友：当你造出一个神，就不可能再给它拴上绳子",
+      "content": "OpenAI 因安全问题突然停训GPT-6！网友：当你造出一个神，就不可能再给它拴上绳子",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-19T20:14:12.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/BLfF9zUGrzpqJ5QbSBJD?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1787144069510_84f6def7",
       "title": "明道云举办首届 Real AI Contest，面向真实落地的企业 AI 应用",
       "summary": "明道云举办首届 Real AI Contest，把已经走完这段距离的团队放到同一套标准下比一次，现金总奖池 ¥80,000，报名免费。",
@@ -39,6 +111,18 @@
       "category": "国外AI",
       "originalUrl": "https://xie.infoq.cn/article/6724ff083cc2192487d818695?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787230579176_0",
+      "title": "Parents grappling with teen AI use in school, learning impact",
+      "summary": "There’s one item on many teens’ back-to-school supply lists you won’t find in stores — and at some schools, not even in the classroom.\nSeven in ten te...",
+      "content": "There’s one item on many teens’ back-to-school supply lists you won’t find in stores — and at some schools, not even in the classroom.\nSeven in ten teens use artificial intelligence tools for schoolwork, according to a new survey from Common Sense Me... [2255 chars]",
+      "imageUrl": "https://media.nbcboston.com/2026/08/GettyImages-1242701087.jpg?quality=85&strip=all&crop=0px%2C0px%2C8256px%2C4644px&resize=1200%2C675",
+      "source": "NBC10 Boston",
+      "publishedAt": "2026-08-19T15:34:43.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.nbcboston.com/news/national-international/teens-ai-use-school-parents-grappling-impact-learning/4000426/",
+      "aiInsight": ""
     },
     {
       "id": "news_1787189168427_2ba0f9cf",
@@ -77,7 +161,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787189159255_0",
+      "id": "news_1787230580179_1",
       "title": "Preserving Methods for Trustworthy Artificial Intelligence",
       "summary": "A body of trustworthy AI research addresses interpretability, privacy, and robustness through rule-based modeling, federated learning, and adversarial...",
       "content": "A body of trustworthy AI research addresses interpretability, privacy, and robustness through rule-based modeling, federated learning, and adversarial defense. The studies explore how AI systems can improve predictive performance while maintaining ex... [4238 chars]",
@@ -137,7 +221,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787189159707_1",
+      "id": "news_1787230579201_2",
       "title": "OpenAI introduces ChatGPT for Teens",
       "summary": "OpenAI on Tuesday introduced a version of ChatGPT designed for teenagers — the first generation to grow up with artificial intelligence — who are alre...",
       "content": "OpenAI on Tuesday introduced a version of ChatGPT designed for teenagers — the first generation to grow up with artificial intelligence — who are already using it for schoolwork, questions about daily life and even companionship.\nThe San Francisco-ba... [1381 chars]",
@@ -149,7 +233,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1787189158555_2",
+      "id": "news_1787230579112_3",
       "title": "OpenAI introduces ChatGPT for Teens, promising a more age",
       "summary": "SAN FRANCISCO (AP) — OpenAI on Tuesday introduced a version of ChatGPT designed for teenagers — the first generation to grow up with artificial intell...",
       "content": "SAN FRANCISCO (AP) — OpenAI on Tuesday introduced a version of ChatGPT designed for teenagers — the first generation to grow up with artificial intelligence — who are already using it for schoolwork, questions about daily life and even companionship.... [5205 chars]",
@@ -161,7 +245,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1787189158462_3",
+      "id": "news_1787230579220_4",
       "title": "OpenAI is hardening AI testing and training in light of hacking incidents",
       "summary": "OpenAI is unveiling new, stronger security safeguards around its training and testing in light of new model capabilities and a spate of incidents in w...",
       "content": "OpenAI is unveiling new, stronger security safeguards around its training and testing in light of new model capabilities and a spate of incidents in which artificial intelligence systems hacked into other companies.\nThe company first disclosed in Jul... [3039 chars]",
@@ -173,7 +257,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1787189158644_4",
+      "id": "news_1787230579416_5",
       "title": "OpenAI launches ChatGPT for Teens, promising a more age-appropriate chatbot",
       "summary": "By BARBARA ORTUTAY, Associated Press\nSAN FRANCISCO — OpenAI is launching a version of ChatGPT designed for teenagers — the first generation to grow up...",
       "content": "By BARBARA ORTUTAY, Associated Press\nSAN FRANCISCO — OpenAI is launching a version of ChatGPT designed for teenagers — the first generation to grow up with artificial intelligence — who are already using it for schoolwork, questions about daily life ... [4250 chars]",
@@ -183,90 +267,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.mercurynews.com/2026/08/18/openai-chatgpt-for-teens/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1787189158616_5",
-      "title": "OpenAI launches ChatGPT for Teens, with content restrictions and study help",
-      "summary": "SAN FRANCISCO (AP) — OpenAI on Tuesday introduced a version of ChatGPT designed for teenagers — the first generation to grow up with artificial intell...",
-      "content": "SAN FRANCISCO (AP) — OpenAI on Tuesday introduced a version of ChatGPT designed for teenagers — the first generation to grow up with artificial intelligence — who are already using it for schoolwork, questions about daily life and even companionship.... [5072 chars]",
-      "imageUrl": "https://dims.apnews.com/dims4/default/dac14d9/2147483647/strip/true/crop/5528x3683+0+1/resize/980x653!/quality/90/?url=https%3A%2F%2Fassets.apnews.com%2F3b%2F20%2Fd1295eaec574c794c75462f2f71e%2F1abc9013b203420db69e659b54093dea",
-      "source": "The Associated Press",
-      "publishedAt": "2026-08-18T11:00:56.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://apnews.com/article/openai-chatgpt-teens-ai-safety-650cb35591de6546054d6c4e73b3290a",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1787057638680_0266d4a9",
-      "title": "Cloudflare 推出 Precursor，通过持续性行为分析识别恶意机器人与 AI 自动化程序",
-      "summary": "Cloudflare 推出 Precursor，通过持续性行为分析识别恶意机器人与 AI 自动化程序...",
-      "content": "Cloudflare 推出 Precursor，通过持续性行为分析识别恶意机器人与 AI 自动化程序",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-18T10:58:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/7QNfsJhpgskMtVllCpWJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787057631554_1f101c01",
-      "title": "英伟达开始给电做担保了：1050亿美元押注8GW算力的电力账",
-      "summary": "英伟达这一步，标志着一个判断被正式确认：AI竞赛的下半场，胜负手不在制程，在电力。谁先把电的问题解决，谁就先解锁下一轮算力扩张。 对供电链条上的公司来说，这既是天量的订单预期，也是一次价值重估——过去数据中心电源被当成\"配套件\"，如今它成了卡住8GW落地的关键路径。",
-      "content": "英伟达这一步，标志着一个判断被正式确认：AI竞赛的下半场，胜负手不在制程，在电力。谁先把电的问题解决，谁就先解锁下一轮算力扩张。 对供电链条上的公司来说，这既是天量的订单预期，也是一次价值重估——过去数据中心电源被当成\"配套件\"，如今它成了卡住8GW落地的关键路径。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-18T09:21:54.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8107418.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787144053581_4",
-      "title": "AI school for grades 1-8 at Drew University",
-      "summary": "EDUCATION Drew University first U.S. college with AI-driven school for grades 1-8 William Westhoven Morristown Daily Record Aug. 18, 2026, 4:35 a.m. E...",
-      "content": "One of New Jersey's most prestigious universities is about to open its doors for eager students who have yet to even reach high school.\nDrew University in Madison has announced the launch of The Drew School for grades 1 to 8. Opening for the fall sem... [2663 chars]",
-      "imageUrl": "https://www.northjersey.com/gcdn/authoring/authoring-images/2026/08/14/PMOR/91305118007-491479333-18507005047040189-33295527804507648-n.jpg?crop=1439,811,x0,y74&width=1439&height=811&format=pjpg&auto=webp",
-      "source": "Northjersey.Com",
-      "publishedAt": "2026-08-18T08:35:47.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.northjersey.com/story/news/education/2026/08/18/ai-school-for-grades-1-8-at-drew-university-madison-higher-education/91303053007/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1787057632401_51d3618e",
-      "title": "腾讯的AI Capex，还可以更高",
-      "summary": "腾讯的AI Capex，还可以更高",
-      "content": "硬的东西，比软的故事更值得信任。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-18T08:04:57.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8106867.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787057632822_aa11f60c",
-      "title": "AI中转站的生死一梦",
-      "summary": "AI中转站的生死一梦",
-      "content": "一边是名人砸钱入场、媒体争相报道，一边是普通从业者排队进局子、社交账号连夜注销。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-18T07:50:06.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8107107.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787057633519_76802ec9",
-      "title": "AI代码过剩后，给代码“冲厕所”的公司贵了十倍",
-      "summary": "AI代码过剩后，给代码“冲厕所”的公司贵了十倍",
-      "content": "AI越会写代码，Blacksmith需要跑的机器反而越多。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-18T07:47:26.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8107004.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
