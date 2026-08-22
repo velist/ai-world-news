@@ -1,20 +1,56 @@
 {
   "success": true,
-  "timestamp": "2026-08-22T01:27:01Z",
-  "total": 9,
+  "timestamp": "2026-08-22T12:48:26Z",
+  "total": 16,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1787361910242_74578e4d",
-      "title": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
-      "summary": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
-      "content": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
+      "id": "news_1787402799747_42d407bf",
+      "title": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异",
+      "summary": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异...",
+      "content": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-08-22T09:05:00.000Z",
+      "publishedAt": "2026-08-22T15:15:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/IBYDTeu3rse9tH3549wf?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787402809701_6b00ccd2",
+      "title": "研究人员曝光美国 NASA 地面控制软件 AIT-GUI 存在严重安全漏洞，可导致黑客向飞船发送任意指令",
+      "summary": "IT之家 8 月 22 日消息，安全公司 Cycode 发文，称 NASA 地面数据系统框架 AMMOS Instrument Toolkit 的网页控制界面 AIT-GUI 存在严重安全漏洞，相应漏洞 GitHub 漏洞追踪编号为 GHSA-p9r8-2q67-fp86，CVSS 严重性评分达到 ...",
+      "content": "IT之家 8 月 22 日消息，安全公司 Cycode 发文，称 NASA 地面数据系统框架 AMMOS Instrument Toolkit 的网页控制界面 AIT-GUI 存在严重安全漏洞，相应漏洞 GitHub 漏洞追踪编号为 GHSA-p9r8-2q67-fp86，CVSS 严重性评分达到 9.4 分。 IT之家获悉，AMMOS Instrument Toolkit 系统框架由美国 NASA 与喷气推进实验室（JPL）开发，主要用于地面站与航天器、科学仪器之间的指令上传以及遥测数据下载等功能。 本次曝出的安全漏洞主要源于 AIT-GUI 缺少身份验证、权限控制以及跨站请求伪造（CSRF）防护，同时服务器默认会监听所有网络接口，因此黑客甚至无需直接入侵系统，只需通过钓鱼方式诱导操作员打开恶意网页，就可能利用浏览器触发 AIT-GUI 执行操作。 研究人员指出，黑客可以利用该漏洞向飞船和科学仪器的指令总线下达任意指令，同时还能够执行服务器端脚本和命令。如果相关系统被部署在能够访问外部网络的环境中，漏洞可能进一步扩大攻击面，对地面站以及与其连接的航天器、科学仪器造成潜在风险。 目前，开发团队已于 8 月 12 日发布修复漏洞的 2.5.2 版本，解决了相应问题。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/90db4b62-4274-4c1e-8074-a99c292f35ff.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-08-22T11:53:08.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/CQhb4TOREpEZshtqWZMy?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/0/993/085.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787402795828_1f9c337e",
+      "title": "3万亿美元隐形债务浮出水面：“AI基建潮”会引发下一场次贷危机吗？",
+      "summary": "3万亿美元隐形债务浮出水面：“AI基建潮”会引发下一场次贷危机吗？",
+      "content": "真实需求不能阻止泡沫，现金流才能偿还债务。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-22T10:26:13.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8112363.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787402796370_a3dd9806",
+      "title": "WRC2026深度观察：机器人行业，正在去表演化、去差异化",
+      "summary": "WRC2026深度观察：机器人行业，正在去表演化、去差异化",
+      "content": "看似火热的WRC展会之下，人形机器人的创新红利正在悄悄消退。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-22T02:11:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8112444.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787361920023_4bbc50f7",
@@ -41,6 +77,66 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1787402801410_8c37b64e",
+      "title": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
+      "summary": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
+      "content": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-21T19:34:36.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/jlTfe57D4r0Juzpz8Fk5?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787402801866_4d24e182",
+      "title": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
+      "summary": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
+      "content": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/aGfkSN1YlmLrUQMPea9L?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787402802451_8c30d233",
+      "title": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
+      "summary": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
+      "content": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-21T16:47:55.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/9x1ohAMlMpMCLdygg8Yf?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787402802932_43764229",
+      "title": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
+      "summary": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
+      "content": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-21T14:25:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/v44qVA7JeYOckqlztLMP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787402803402_766350db",
+      "title": "“Anthropic不再是AI圈的信仰”",
+      "summary": "“Anthropic不再是AI圈的信仰”",
+      "content": "“Anthropic不再是AI圈的信仰”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-21T11:04:26.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/hfJrKqqoww06UYcygUrJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1787316935231_4699294d",
       "title": "撞名Anthropic的“外挂”刷屏：让“DeepSeek V4‑Pro碾压 Fable 5”但无人能复现，Token开销反而翻倍",
       "summary": "撞名Anthropic的“外挂”刷屏：让“DeepSeek V4‑Pro碾压 Fable 5”但无人能复现，Token开销反而翻倍...",
@@ -50,6 +146,18 @@
       "publishedAt": "2026-08-21T11:01:37.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/MKDQBpGhC5Uu3pB4kMbC?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787402804314_18150e9d",
+      "title": "OpenAI 之后又是 Anthropic，Claude 将攻击延伸至公共互联网",
+      "summary": "OpenAI 之后又是 Anthropic，Claude 将攻击延伸至公共互联网",
+      "content": "OpenAI 之后又是 Anthropic，Claude 将攻击延伸至公共互联网",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-21T10:25:50.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/9FZ8z60yB4tS4WQEP4dw?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -87,30 +195,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8110962.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787230598682_de048297",
-      "title": "树莓派为 Raspberry Pi CM5 推出编程夹具，简化大规模部署工作",
-      "summary": "IT之家 8 月 20 日消息，Raspberry Pi（树莓派）官方当地时间 19 日宣布为 Raspberry Pi Compute Module 5 (CM5) 计算模块核心板推出编程烧录夹具（治具）。",
-      "content": "IT之家 8 月 20 日消息，Raspberry Pi（树莓派）官方当地时间 19 日宣布为 Raspberry Pi Compute Module 5 (CM5) 计算模块核心板推出编程烧录夹具（治具）。 该设备可简化大规模商业化部署 Raspberry Pi CM5 时的配置工作流程：用户在为编程夹具设计好操作系统和安全配置后，仅需将其与被操作的计算模块连接妥当，然后按下夹具便可自动化完成安全启动、全盘加密、裸操作系统安装等常规配置步骤。 Raspberry Pi Compute Module 5 编程夹具定价 600 美元（IT之家注：现汇率约合 4,048 元人民币），现已开放订购。 相关阅读： 《树莓派推出 Raspberry Pi CM5 计算模块和配套 IO 板》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/6800e7c2-0940-48ea-a4be-b60951a091a7.png",
-      "source": "IT之家",
-      "publishedAt": "2026-08-20T12:39:33.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/992/342.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787230588488_4024d86a",
-      "title": "阿里AI进入分化期：云业务加速兑现，应用业务等待商业模式｜ 看财报",
-      "summary": "阿里AI进入分化期：云业务加速兑现，应用业务等待商业模式｜ 看财报",
-      "content": "阿里开始按照AI产业链重新组织资源，把算力、模型和应用放进更清晰的业务框架中。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-20T10:43:52.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8110834.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
