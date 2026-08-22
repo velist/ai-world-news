@@ -1,9 +1,33 @@
 {
   "success": true,
-  "timestamp": "2026-08-21T12:57:20Z",
-  "total": 17,
+  "timestamp": "2026-08-22T01:27:01Z",
+  "total": 9,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1787361910242_74578e4d",
+      "title": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
+      "summary": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
+      "content": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-22T09:05:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/CQhb4TOREpEZshtqWZMy?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787361920023_4bbc50f7",
+      "title": "Rust 1.98 发布：打破代数运算性能瓶颈，编译器可重排更多运算",
+      "summary": "IT之家 8 月 22 日消息，科技媒体 Linuxiac 昨日（8 月 21 日）发布博文，报道称 Rust 团队更新推出 1.98 版本，重点加入面向 f32 和 f64 浮点类型的“代数浮点”（algebraic floating-point）方法，同时加快整数格式化，并稳定多项标准库 API...",
+      "content": "IT之家 8 月 22 日消息，科技媒体 Linuxiac 昨日（8 月 21 日）发布博文，报道称 Rust 团队更新推出 1.98 版本，重点加入面向 f32 和 f64 浮点类型的“代数浮点”（algebraic floating-point）方法，同时加快整数格式化，并稳定多项标准库 API。 本次更新重点针对 f32 和 f64 浮点数引入了全新的代数运算方法（包括 algebraic_add、algebraic_sub、algebraic_mul、algebraic_div 以及 algebraic_rem）。 在传统的 IEEE 754 标准下，由于浮点数加法不具备严格的结合律，编译器在优化时无法重新排序运算顺序，这曾导致 Rust 在处理简单的点积运算时，性能速度是 C++ 的八分之一。 新引入的代数方法允许开发者在特定代码块中告知编译器：该部分可以遵循实数的代数性质进行激进重排与并行计算。这一改动不仅大幅增强了循环向量化（SIMD）的能力，成倍提升了数值计算效率，而且不会引发未定义行为（UB）。 在底层工具链方面，Rust 1.98.0 为所有原生整数类型带来了全新的 format_into 方法，并同步稳定了 NumBuffer 类型。该方法通过直接将整数格式化写入预分配的透明缓冲区中，完全绕过了传统的动态分发（Dynamic Dispatch），其执行效率已能与业界知名的 itoa 依赖库相媲美，极大地减少了不必要的性能损耗。 同时，新版本更新了 ManuallyDrop 的官方文档，为 ManuallyDrop 与 Box 的交互提供了长期的稳定性保证。这一修改明确承诺：在显式释放 Box 后移动其外层 ManuallyDrop 包裹结构的操作，在未来将彻底告别未定义行为风险。 IT之家附上相关截图如下：",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/1eda1c81-eae6-42f8-b8eb-0cde78d04838.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-08-22T01:12:36.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/992/912.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1787316932044_ab891cd0",
       "title": "神秘“Ox Alpha”突袭 OpenRouter，性能超过 Fable 5？全网盲猜智谱 or 小米",
@@ -17,66 +41,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787316932564_8c37b64e",
-      "title": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
-      "summary": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
-      "content": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T19:34:36.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/jlTfe57D4r0Juzpz8Fk5?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787316933091_4d24e182",
-      "title": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
-      "summary": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
-      "content": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T17:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/aGfkSN1YlmLrUQMPea9L?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787316933608_8c30d233",
-      "title": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
-      "summary": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
-      "content": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T16:47:55.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/9x1ohAMlMpMCLdygg8Yf?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787316934111_43764229",
-      "title": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
-      "summary": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
-      "content": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T14:25:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/v44qVA7JeYOckqlztLMP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787316934683_766350db",
-      "title": "“Anthropic不再是AI圈的信仰”",
-      "summary": "“Anthropic不再是AI圈的信仰”",
-      "content": "“Anthropic不再是AI圈的信仰”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T11:04:26.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/hfJrKqqoww06UYcygUrJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1787316935231_4699294d",
       "title": "撞名Anthropic的“外挂”刷屏：让“DeepSeek V4‑Pro碾压 Fable 5”但无人能复现，Token开销反而翻倍",
       "summary": "撞名Anthropic的“外挂”刷屏：让“DeepSeek V4‑Pro碾压 Fable 5”但无人能复现，Token开销反而翻倍...",
@@ -86,18 +50,6 @@
       "publishedAt": "2026-08-21T11:01:37.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/MKDQBpGhC5Uu3pB4kMbC?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787316935736_18150e9d",
-      "title": "OpenAI 之后又是 Anthropic，Claude 将攻击延伸至公共互联网",
-      "summary": "OpenAI 之后又是 Anthropic，Claude 将攻击延伸至公共互联网",
-      "content": "OpenAI 之后又是 Anthropic，Claude 将攻击延伸至公共互联网",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T10:25:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/9FZ8z60yB4tS4WQEP4dw?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -137,18 +89,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787316936269_4634619a",
-      "title": "CFP 开放 | KCD 杭州站邀您共议 Agent 时代的云原生、可观测与大模型推理",
-      "summary": "CFP 开放 | KCD 杭州站邀您共议 Agent 时代的云原生、可观测与大模型推理",
-      "content": "CFP 开放 | KCD 杭州站邀您共议 Agent 时代的云原生、可观测与大模型推理",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-20T19:03:02.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/LpNjOA7au7WIhTBmVcJo?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1787230598682_de048297",
       "title": "树莓派为 Raspberry Pi CM5 推出编程夹具，简化大规模部署工作",
       "summary": "IT之家 8 月 20 日消息，Raspberry Pi（树莓派）官方当地时间 19 日宣布为 Raspberry Pi Compute Module 5 (CM5) 计算模块核心板推出编程烧录夹具（治具）。",
@@ -171,42 +111,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8110834.html",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787189182901_269f71f4",
-      "title": "国产液电混驱超人形机器人首秀：身高达 4 米，突破从公斤级到千吨级力量限制",
-      "summary": "IT之家 8 月 20 日消息，据央视新闻报道，2026 世界机器人大会昨天（8 月 19 日）在北京开幕，汇聚了全球机器人领域重大成果和首发新品。超 3,000 件展品亮相 2026 世界机器人大会，其中有一群希望能勇闯危险禁区的机器人。",
-      "content": "IT之家 8 月 20 日消息，据央视新闻报道，2026 世界机器人大会昨天（8 月 19 日）在北京开幕，汇聚了全球机器人领域重大成果和首发新品。超 3,000 件展品亮相 2026 世界机器人大会，其中有一群希望能勇闯危险禁区的机器人。从火场灭火、排爆处置，到高空作业、高危工业巡检，以科技力量替代作业人员直面风险。 报道中出现了一台首次公开展示的液电混驱超人形机器人。该机器人身高约 4 米，随着灵巧手舒展张开，呈现出一种与普通人形机器人不同的力量感。 利用数字液压技术与电机相融合，该机器人可以突破从公斤级到千吨级的力量限制，而这位“巨人”瞄准的正是核电运维、深海作业、物流搬运等一些“艰难险重”的场景。 参展商杨涛介绍称，比如像深海的开发、核环境，这些都可以利用灵巧手臂以及大负载的机器人来替代人。 除了体型庞大的巨型机器人，身手灵巧的机器狗同样希望大显身手，承担起高危环境作业任务。在危险的矿山环境，机器狗相当于智能安全员，它搭载着激光雷达、红外摄像头、气体传感器等多种设备，可以进入人难以到达的高危空区和巷道，采集多维环境数据并综合处理，为矿山安全决策提供可靠的数据依据。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/766d268c-658e-4ac8-ae9a-b159477891cc.png",
-      "source": "IT之家",
-      "publishedAt": "2026-08-20T01:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/991/899.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787144069510_84f6def7",
-      "title": "明道云举办首届 Real AI Contest，面向真实落地的企业 AI 应用",
-      "summary": "明道云举办首届 Real AI Contest，把已经走完这段距离的团队放到同一套标准下比一次，现金总奖池 ¥80,000，报名免费。",
-      "content": "明道云举办首届 Real AI Contest，把已经走完这段距离的团队放到同一套标准下比一次，现金总奖池 ¥80,000，报名免费。 点击查看原文>",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-19T15:50:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://xie.infoq.cn/article/6724ff083cc2192487d818695?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787316917936_1",
-      "title": "Parents grappling with teen AI use in school, learning impact",
-      "summary": "There’s one item on many teens’ back-to-school supply lists you won’t find in stores — and at some schools, not even in the classroom.\nSeven in ten te...",
-      "content": "There’s one item on many teens’ back-to-school supply lists you won’t find in stores — and at some schools, not even in the classroom.\nSeven in ten teens use artificial intelligence tools for schoolwork, according to a new survey from Common Sense Me... [2255 chars]",
-      "imageUrl": "https://media.nbcboston.com/2026/08/GettyImages-1242701087.jpg?quality=85&strip=all&crop=0px%2C0px%2C8256px%2C4644px&resize=1200%2C675",
-      "source": "NBC10 Boston",
-      "publishedAt": "2026-08-19T15:34:43.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.nbcboston.com/news/national-international/teens-ai-use-school-parents-grappling-impact-learning/4000426/",
-      "aiInsight": ""
     }
   ]
 }
