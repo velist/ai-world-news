@@ -1,9 +1,93 @@
 {
   "success": true,
-  "timestamp": "2026-08-23T01:41:09Z",
-  "total": 10,
+  "timestamp": "2026-08-23T12:50:00Z",
+  "total": 18,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1787489259620_58eb0d9a",
+      "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+      "summary": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+      "content": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-23T17:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787489260249_485f5a08",
+      "title": "向量数据库要被取代？DynamoDB 开始原生支持 AI 搜索",
+      "summary": "向量数据库要被取代？DynamoDB 开始原生支持 AI 搜索",
+      "content": "向量数据库要被取代？DynamoDB 开始原生支持 AI 搜索",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-23T14:09:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/9YicfQysexJdmx11xG4m?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787489253573_fbb7d6b2",
+      "title": "豆包将推WorkBuddy类产品，飞书十年积累正在组件化",
+      "summary": "豆包将推WorkBuddy类产品，飞书十年积累正在组件化",
+      "content": "豆包团队最快将于下周推出一款对标腾讯WorkBuddy的办公类产品",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-23T12:31:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8113359.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787489254150_ae12463e",
+      "title": "伯南克加盟Anthropic：一个救火队长，守得住AI的门吗？",
+      "summary": "伯南克的加盟，象征价值远大于实质价值。 他的能力边界、制度定位、身份绑定，三重局限决定了——他既堵不住AI核心风险的源头，也真正独立不起来，说到底更像IPO周期和合规叙事里的一件\"信用道具\"。",
+      "content": "伯南克的加盟，象征价值远大于实质价值。 他的能力边界、制度定位、身份绑定，三重局限决定了——他既堵不住AI核心风险的源头，也真正独立不起来，说到底更像IPO周期和合规叙事里的一件\"信用道具\"。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-23T08:13:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8113322.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787489254676_8792cb78",
+      "title": "阿里七年来最大的资本运作",
+      "summary": "极度烧钱、重资产的AI军备竞赛，已经不能纯靠自由现金流来支撑了。阿里的自由现金流已经连续两个季度转负。 财报会上阿里CFO徐宏说，必须capex先行，800亿配股，就是给这句话一个及时的注脚。而吴泳铭的三年回本\"狂言\"，也有了资本的重量。",
+      "content": "极度烧钱、重资产的AI军备竞赛，已经不能纯靠自由现金流来支撑了。阿里的自由现金流已经连续两个季度转负。 财报会上阿里CFO徐宏说，必须capex先行，800亿配股，就是给这句话一个及时的注脚。而吴泳铭的三年回本\"狂言\"，也有了资本的重量。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-23T08:03:42.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8113306.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787489255829_086a6f61",
+      "title": "世界模型站上风口，机器人距离“真正干活”还有多远？",
+      "summary": "模型需要真实场景产生数据，但真实场景又需要足够成熟的模型和能够算得过来的成本，才愿意大规模部署机器人。...",
+      "content": "模型需要真实场景产生数据，但真实场景又需要足够成熟的模型和能够算得过来的成本，才愿意大规模部署机器人。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-23T03:11:25.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8113119.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787489256137_4dc0f5c0",
+      "title": "26岁离开10亿私募，一个交易天才与他的AI Trading创业｜独家对话",
+      "summary": "26岁离开10亿私募，一个交易天才与他的AI Trading创业｜独家对话",
+      "content": "一个人就是一支AI 交易团队。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-23T02:42:45.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8111128.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1787449170029_0508874d",
       "title": "哈佛商学院推出 699 美元创业训练营，讲师 AI 数字分身提供路演反馈",
@@ -53,18 +137,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787449161568_74578e4d",
-      "title": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
-      "summary": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
-      "content": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-22T09:05:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/CQhb4TOREpEZshtqWZMy?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1787402796370_a3dd9806",
       "title": "WRC2026深度观察：机器人行业，正在去表演化、去差异化",
       "summary": "WRC2026深度观察：机器人行业，正在去表演化、去差异化",
@@ -101,28 +173,52 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787316935231_4699294d",
-      "title": "撞名Anthropic的“外挂”刷屏：让“DeepSeek V4‑Pro碾压 Fable 5”但无人能复现，Token开销反而翻倍",
-      "summary": "撞名Anthropic的“外挂”刷屏：让“DeepSeek V4‑Pro碾压 Fable 5”但无人能复现，Token开销反而翻倍...",
-      "content": "撞名Anthropic的“外挂”刷屏：让“DeepSeek V4‑Pro碾压 Fable 5”但无人能复现，Token开销反而翻倍",
+      "id": "news_1787489262428_8c37b64e",
+      "title": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
+      "summary": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
+      "content": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T11:01:37.000Z",
+      "publishedAt": "2026-08-21T19:34:36.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/MKDQBpGhC5Uu3pB4kMbC?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/jlTfe57D4r0Juzpz8Fk5?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787316928443_a88391c9",
-      "title": "腾讯“测试中”的Agent钱包，被亚马逊抢先了",
-      "summary": "腾讯“测试中”的Agent钱包，被亚马逊抢先了",
-      "content": "亚马逊AgentCore Payments正式进入GA阶段，可以代替用户直接付钱",
+      "id": "news_1787489262960_4d24e182",
+      "title": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
+      "summary": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
+      "content": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-21T09:53:31.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8111610.html",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-21T17:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/aGfkSN1YlmLrUQMPea9L?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787489263504_8c30d233",
+      "title": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
+      "summary": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
+      "content": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-21T16:47:55.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/9x1ohAMlMpMCLdygg8Yf?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787489264092_43764229",
+      "title": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
+      "summary": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
+      "content": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-21T14:25:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/v44qVA7JeYOckqlztLMP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
