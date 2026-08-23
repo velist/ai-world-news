@@ -1,9 +1,21 @@
 {
   "success": true,
-  "timestamp": "2026-08-22T12:48:26Z",
-  "total": 16,
+  "timestamp": "2026-08-23T01:41:09Z",
+  "total": 10,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1787449170029_0508874d",
+      "title": "哈佛商学院推出 699 美元创业训练营，讲师 AI 数字分身提供路演反馈",
+      "summary": "IT之家 8 月 23 日消息，随着哈佛商学院（HBS）寻求扩大自身影响力，其开始借助 AI 虚拟形象为学生提供个性化反馈。 这些 AI 虚拟形象由一家名为 HeyGen 的初创公司打造，目前已被纳入哈佛商学院为创业者推出的 HBS Foundry 训练营。",
+      "content": "IT之家 8 月 23 日消息，随着哈佛商学院（HBS）寻求扩大自身影响力，其开始借助 AI 虚拟形象为学生提供个性化反馈。 这些 AI 虚拟形象由一家名为 HeyGen 的初创公司打造，目前已被纳入哈佛商学院为创业者推出的 HBS Foundry 训练营。这项课程为期 8 周，收费 699 美元（IT之家注：现汇率约合 4,710 元人民币）。 该项目每周都会安排教师进行直播授课，但在模拟路演和董事会会议等实践环节中，真正负责向学员提供反馈的却是这些 AI 虚拟形象。 《纽约时报》记者 Sarah Kessler 亲自体验了这一服务。她向一个由 AI 生成的 Flybridge Capital 联合创始人 Jeff Bussgang 虚拟版本进行了创业项目演示。 Kessler 提出的项目是打造一个“香蕉版 Uber”，结果无论是真实的 Bussgang，还是他的 AI 数字分身，似乎都对这个想法不太满意。不过，Kessler 表示，在听她进行演示时，这个虚拟版本脸上一直保持着一种明显有些僵硬的微笑。 项目负责人 Katharina Rings 表示，她最初设想的 AI 功能其实更接近于聊天机器人。不过，在哈佛商学院推出试用版本后，学生们反馈称，他们希望获得一种引导性更强、更具互动性的体验。 尽管一些大学生并不掩饰自己对 AI 的反感，但 Foundry 项目的参与者告诉 Kessler，他们其实很喜欢这些 AI 虚拟形象。 至于 Bussgang 本人，他也承认自己的数字分身多少有点“诡异”，但他表示：“我的学生们很喜欢它。”",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/25a74bfc-51c3-4adf-a230-a4795d79df22.gif",
+      "source": "IT之家",
+      "publishedAt": "2026-08-22T23:58:11.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/993/131.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1787402799747_42d407bf",
       "title": "Cloudflare 推出 Agent Tracing：支持截断限制，不同框架的 Payload 默认记录策略存在差异",
@@ -38,6 +50,18 @@
       "publishedAt": "2026-08-22T10:26:13.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8112363.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787449161568_74578e4d",
+      "title": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
+      "summary": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
+      "content": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-22T09:05:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/CQhb4TOREpEZshtqWZMy?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -77,66 +101,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787402801410_8c37b64e",
-      "title": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
-      "summary": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
-      "content": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T19:34:36.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/jlTfe57D4r0Juzpz8Fk5?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787402801866_4d24e182",
-      "title": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
-      "summary": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
-      "content": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T17:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/aGfkSN1YlmLrUQMPea9L?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787402802451_8c30d233",
-      "title": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
-      "summary": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
-      "content": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T16:47:55.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/9x1ohAMlMpMCLdygg8Yf?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787402802932_43764229",
-      "title": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
-      "summary": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
-      "content": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T14:25:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/v44qVA7JeYOckqlztLMP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787402803402_766350db",
-      "title": "“Anthropic不再是AI圈的信仰”",
-      "summary": "“Anthropic不再是AI圈的信仰”",
-      "content": "“Anthropic不再是AI圈的信仰”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T11:04:26.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/hfJrKqqoww06UYcygUrJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1787316935231_4699294d",
       "title": "撞名Anthropic的“外挂”刷屏：让“DeepSeek V4‑Pro碾压 Fable 5”但无人能复现，Token开销反而翻倍",
       "summary": "撞名Anthropic的“外挂”刷屏：让“DeepSeek V4‑Pro碾压 Fable 5”但无人能复现，Token开销反而翻倍...",
@@ -146,18 +110,6 @@
       "publishedAt": "2026-08-21T11:01:37.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/MKDQBpGhC5Uu3pB4kMbC?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787402804314_18150e9d",
-      "title": "OpenAI 之后又是 Anthropic，Claude 将攻击延伸至公共互联网",
-      "summary": "OpenAI 之后又是 Anthropic，Claude 将攻击延伸至公共互联网",
-      "content": "OpenAI 之后又是 Anthropic，Claude 将攻击延伸至公共互联网",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T10:25:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/9FZ8z60yB4tS4WQEP4dw?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -171,30 +123,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8111610.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787276199960_26257130",
-      "title": "谷歌开源端侧模型家族 Gemma 总下载量破 10 亿次，派生超 10 万个变体",
-      "summary": "IT之家 8 月 21 日消息，Google（谷歌）当地时间 20 日宣布，其开源端侧模型家族 Gemma 的总下载量已突破 10 亿次；开发者在过去两年间发布了超过 10 万个 Gemma 模型变体，构成了一个被谷歌称为 \"Gemmaverse\" 的创新生态系统。",
-      "content": "IT之家 8 月 21 日消息，Google（谷歌）当地时间 20 日宣布，其开源端侧模型家族 Gemma 的总下载量已突破 10 亿次；开发者在过去两年间发布了超过 10 万个 Gemma 模型变体，构成了一个被谷歌称为 \"Gemmaverse\" 的创新生态系统。 谷歌列举了多个 Gemma 家族应用场景：从太空本地图像分析、医疗报告标准数字化、癌症创新治疗方案再到动物语言识别，Gemma 家族模型正实实在在地提升人类发展质量。 谷歌将在 GitHub 上推出 Awesome Gemma 代码库，这一 Gemmaverse 官方精选目录收录了最好的社区项目、微调、教程、开发者工具。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/2b91cf6a-d0ba-44ac-be9e-c9f0cfcff588.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-08-21T01:06:05.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/992/441.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787276189576_9ad16df7",
-      "title": "AI货架上的人脸，100元到10000元",
-      "summary": "AI货架上的人脸，100元到10000元",
-      "content": "被复制的，不只是脸。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-21T00:58:41.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8110962.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
