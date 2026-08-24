@@ -1,32 +1,56 @@
 {
   "success": true,
-  "timestamp": "2026-08-23T12:50:00Z",
-  "total": 18,
+  "timestamp": "2026-08-24T01:39:11Z",
+  "total": 20,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1787489259620_58eb0d9a",
-      "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
-      "summary": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
-      "content": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-23T17:00:00.000Z",
+      "id": "news_1787535451572_e9e63c23",
+      "title": "CYBERLEEK 威胁泄露《GTA 6》完整版本为假消息",
+      "summary": "IT之家 8 月 24 日消息，8 月 22 日，外媒 Insider Gaming 撰写了一篇关于 CYBERLEEK 组织向 Rockstar Games 和 Take-Two Interactive 发出威胁的报道，该威胁声称：如果这些公司不放弃对该团体的法律追诉，他们将发布《侠盗猎车手 6》...",
+      "content": "IT之家 8 月 24 日消息，8 月 22 日，外媒 Insider Gaming 撰写了一篇关于 CYBERLEEK 组织向 Rockstar Games 和 Take-Two Interactive 发出威胁的报道，该威胁声称：如果这些公司不放弃对该团体的法律追诉，他们将发布《侠盗猎车手 6》（GTA 6）的完整构建版本。 然而，这篇文章所依据的图片和言论事后被证明是伪造的，是由众多模仿 CYBERLEEK 行为的人之一出于某种原因制造并在网上传播的。目前原始报道已被删除。 然而IT之家注意到，在最近几个小时里，一位名叫 MoistCr1TiKaL 的创作者上传了一段视频，大篇幅讨论了这篇报道及其背后的内容，甚至将文章的截图用作视频缩略图。虽然视频大体上符合逻辑，但却是基于虚假内容制作，这显然进一步助长了错误报道在社交圈中的传播。 目前没有任何证据确认 CYBERLEEK 确实拥有《GTA 6》的完整构建版本。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/7195812f-0498-4647-bd2b-f1d532511b9b.png",
+      "source": "IT之家",
+      "publishedAt": "2026-08-24T01:26:50.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/0/993/359.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787535437510_aed5b468",
+      "title": "机器人运动会现场：有人破纪录，有人“骨折”了",
+      "summary": "机器人运动会现场：有人破纪录，有人“骨折”了",
+      "content": "机器人会跑、会跳、会打拳，但比赛现场最忙的人，可能是维修工程师。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-24T01:17:43.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8113496.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787489260249_485f5a08",
-      "title": "向量数据库要被取代？DynamoDB 开始原生支持 AI 搜索",
-      "summary": "向量数据库要被取代？DynamoDB 开始原生支持 AI 搜索",
-      "content": "向量数据库要被取代？DynamoDB 开始原生支持 AI 搜索",
+      "id": "news_1787535438081_95481e28",
+      "title": "AI办公助手，没有葵花宝典：五款应用万字实测报告",
+      "summary": "AI办公助手，没有葵花宝典：五款应用万字实测报告",
+      "content": "AI办公助手，没有葵花宝典：五款应用万字实测报告",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-23T14:09:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-24T01:12:59.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/9YicfQysexJdmx11xG4m?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8113654.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787535451622_b0b3b0ca",
+      "title": "人形机器人运动会跳远冠军出炉，天骄队跳出 7.97 米夺冠",
+      "summary": "IT之家 8 月 24 日消息，据央视新闻报道，8 月 23 日晚，在第二届世界人形机器人运动会的跳远决赛中，天骄队机器人跳出 7.97 米的成绩，夺得金牌。",
+      "content": "IT之家 8 月 24 日消息，据央视新闻报道，8 月 23 日晚，在第二届世界人形机器人运动会的跳远决赛中，天骄队机器人跳出 7.97 米的成绩，夺得金牌。 天骄队机器人三次试跳成绩分别为 7.32 米、7.62 米、7.97 米，成绩逐次提升；天卓队以 7.24 米夺银，天工队以 7.19 米获铜。IT之家附现场视频如下：",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/bb0cf20a-b577-43e7-889d-8e06e550219a.png",
+      "source": "IT之家",
+      "publishedAt": "2026-08-24T01:01:50.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/993/348.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787489253573_fbb7d6b2",
@@ -39,6 +63,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8113359.html",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787535429119_0",
+      "title": "‘We are hitting a different chapter’: OpenAI leader warns of threat of ‘persistent’ AI cyber-attacks",
+      "summary": "A senior leader at OpenAI has said people should prepare to defend against “ongoing, persistent” cyber-attacks from AIs, as cutting-edge artificial in...",
+      "content": "A senior leader at OpenAI has said people should prepare to defend against “ongoing, persistent” cyber-attacks from AIs, as cutting-edge artificial intelligence models gain advanced capabilities to plan and launch offensives.\nThe leading AI company t... [7148 chars]",
+      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/08/1787473113_3333.jpg",
+      "source": "EUROPE SAYS",
+      "publishedAt": "2026-08-23T08:18:26.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.europesays.com/3210651/",
+      "aiInsight": ""
     },
     {
       "id": "news_1787489254150_ae12463e",
@@ -137,6 +173,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1787535445614_74578e4d",
+      "title": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
+      "summary": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
+      "content": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-22T09:05:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/CQhb4TOREpEZshtqWZMy?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1787402796370_a3dd9806",
       "title": "WRC2026深度观察：机器人行业，正在去表演化、去差异化",
       "summary": "WRC2026深度观察：机器人行业，正在去表演化、去差异化",
@@ -149,19 +197,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787361920023_4bbc50f7",
-      "title": "Rust 1.98 发布：打破代数运算性能瓶颈，编译器可重排更多运算",
-      "summary": "IT之家 8 月 22 日消息，科技媒体 Linuxiac 昨日（8 月 21 日）发布博文，报道称 Rust 团队更新推出 1.98 版本，重点加入面向 f32 和 f64 浮点类型的“代数浮点”（algebraic floating-point）方法，同时加快整数格式化，并稳定多项标准库 API...",
-      "content": "IT之家 8 月 22 日消息，科技媒体 Linuxiac 昨日（8 月 21 日）发布博文，报道称 Rust 团队更新推出 1.98 版本，重点加入面向 f32 和 f64 浮点类型的“代数浮点”（algebraic floating-point）方法，同时加快整数格式化，并稳定多项标准库 API。 本次更新重点针对 f32 和 f64 浮点数引入了全新的代数运算方法（包括 algebraic_add、algebraic_sub、algebraic_mul、algebraic_div 以及 algebraic_rem）。 在传统的 IEEE 754 标准下，由于浮点数加法不具备严格的结合律，编译器在优化时无法重新排序运算顺序，这曾导致 Rust 在处理简单的点积运算时，性能速度是 C++ 的八分之一。 新引入的代数方法允许开发者在特定代码块中告知编译器：该部分可以遵循实数的代数性质进行激进重排与并行计算。这一改动不仅大幅增强了循环向量化（SIMD）的能力，成倍提升了数值计算效率，而且不会引发未定义行为（UB）。 在底层工具链方面，Rust 1.98.0 为所有原生整数类型带来了全新的 format_into 方法，并同步稳定了 NumBuffer 类型。该方法通过直接将整数格式化写入预分配的透明缓冲区中，完全绕过了传统的动态分发（Dynamic Dispatch），其执行效率已能与业界知名的 itoa 依赖库相媲美，极大地减少了不必要的性能损耗。 同时，新版本更新了 ManuallyDrop 的官方文档，为 ManuallyDrop 与 Box 的交互提供了长期的稳定性保证。这一修改明确承诺：在显式释放 Box 后移动其外层 ManuallyDrop 包裹结构的操作，在未来将彻底告别未定义行为风险。 IT之家附上相关截图如下：",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/1eda1c81-eae6-42f8-b8eb-0cde78d04838.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-08-22T01:12:36.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/992/912.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787316932044_ab891cd0",
+      "id": "news_1787535446373_ab891cd0",
       "title": "神秘“Ox Alpha”突袭 OpenRouter，性能超过 Fable 5？全网盲猜智谱 or 小米",
       "summary": "神秘“Ox Alpha”突袭 OpenRouter，性能超过 Fable 5？全网盲猜智谱 or 小米...",
       "content": "神秘“Ox Alpha”突袭 OpenRouter，性能超过 Fable 5？全网盲猜智谱 or 小米",
@@ -173,7 +209,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787489262428_8c37b64e",
+      "id": "news_1787535446874_8c37b64e",
       "title": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
       "summary": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
       "content": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
@@ -185,7 +221,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787489262960_4d24e182",
+      "id": "news_1787535447354_4d24e182",
       "title": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
       "summary": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
       "content": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
@@ -197,7 +233,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787489263504_8c30d233",
+      "id": "news_1787535447858_8c30d233",
       "title": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
       "summary": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
       "content": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
@@ -207,18 +243,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/9x1ohAMlMpMCLdygg8Yf?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787489264092_43764229",
-      "title": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
-      "summary": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
-      "content": "Vercel Zero 引发争议：AI 时代真的需要一门新语言吗？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T14:25:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/v44qVA7JeYOckqlztLMP?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
