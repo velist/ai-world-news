@@ -1,9 +1,93 @@
 {
   "success": true,
-  "timestamp": "2026-08-24T01:39:11Z",
-  "total": 20,
+  "timestamp": "2026-08-24T12:59:32Z",
+  "total": 21,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1787576262888_288870cf",
+      "title": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
+      "summary": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
+      "content": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-24T15:43:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/2IBWc7BuB2qoGao5tlQT?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787576257819_da53f173",
+      "title": "说好AI三年回本，阿里转头找股东要800亿“救急”？",
+      "summary": "说好AI三年回本，阿里转头找股东要800亿“救急”？",
+      "content": "AI是印钞机，怎么最后印的是新股？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-24T12:18:43.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8113703.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787576258283_8c8e084d",
+      "title": "说好“多模态不是主线”的梁文锋，怎么转头就发了个Vision模型？",
+      "summary": "说好“多模态不是主线”的梁文锋，怎么转头就发了个Vision模型？",
+      "content": "多模态这事上，梁文锋还是梁文锋，但他学会了放低姿态。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-24T12:17:47.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8114555.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787576258744_b73ac057",
+      "title": "机器人会干活了，但还没学会“别多管闲事”",
+      "summary": "行业一直给机器人的运动和作业能力分级，却没有给机器人“介入人的生活”分级。文章提出自主交互的三级框架： - L1：接受明确指令，被动响应 - L2：理解事件和状态，提供选择 - L3：在限定条件下主动介入，并在越界前交还给人。",
+      "content": "行业一直给机器人的运动和作业能力分级，却没有给机器人“介入人的生活”分级。文章提出自主交互的三级框架： - L1：接受明确指令，被动响应 - L2：理解事件和状态，提供选择 - L3：在限定条件下主动介入，并在越界前交还给人。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-24T12:16:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8114648.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787576263498_667732f0",
+      "title": "Netflix 开源了一个用于因果推理的智能代理工作流",
+      "summary": "Netflix 开源了一个用于因果推理的智能代理工作流",
+      "content": "Netflix 开源了一个用于因果推理的智能代理工作流",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-24T10:44:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/4h2jb2eOcBrP5AG5hLYt?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787576264081_2e1be3a0",
+      "title": "完全相信AI代码的Uncle Bob，坦诚这条路还没走通",
+      "summary": "完全相信AI代码的Uncle Bob，坦诚这条路还没走通",
+      "content": "完全相信AI代码的Uncle Bob，坦诚这条路还没走通",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-24T10:16:52.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/ogFMPSyD3LqR9RtbIRky?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787576264511_f6f17d90",
+      "title": "DeepSeek 再度调价；英伟达AI服务器涨价超 15%；“AI红娘”承诺三年不结婚就退款，前 Kimi搜索负责人创业目标：拉高10%结婚率 | AI周报",
+      "summary": "DeepSeek 再度调价；英伟达AI服务器涨价超 15%；“AI红娘”承诺三年不结婚就退款，前 Kimi搜索负责人创业目标：拉高10%结婚率 | AI周报...",
+      "content": "DeepSeek 再度调价；英伟达AI服务器涨价超 15%；“AI红娘”承诺三年不结婚就退款，前 Kimi搜索负责人创业目标：拉高10%结婚率 | AI周报",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-24T10:11:16.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/ONGSA7k86LcxFyU64N2z?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1787535451572_e9e63c23",
       "title": "CYBERLEEK 威胁泄露《GTA 6》完整版本为假消息",
@@ -53,6 +137,30 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1787576264906_58eb0d9a",
+      "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+      "summary": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+      "content": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-23T17:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787576265296_485f5a08",
+      "title": "向量数据库要被取代？DynamoDB 开始原生支持 AI 搜索",
+      "summary": "向量数据库要被取代？DynamoDB 开始原生支持 AI 搜索",
+      "content": "向量数据库要被取代？DynamoDB 开始原生支持 AI 搜索",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-23T14:09:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/9YicfQysexJdmx11xG4m?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1787489253573_fbb7d6b2",
       "title": "豆包将推WorkBuddy类产品，飞书十年积累正在组件化",
       "summary": "豆包将推WorkBuddy类产品，飞书十年积累正在组件化",
@@ -65,7 +173,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787535429119_0",
+      "id": "news_1787576250639_0",
       "title": "‘We are hitting a different chapter’: OpenAI leader warns of threat of ‘persistent’ AI cyber-attacks",
       "summary": "A senior leader at OpenAI has said people should prepare to defend against “ongoing, persistent” cyber-attacks from AIs, as cutting-edge artificial in...",
       "content": "A senior leader at OpenAI has said people should prepare to defend against “ongoing, persistent” cyber-attacks from AIs, as cutting-edge artificial intelligence models gain advanced capabilities to plan and launch offensives.\nThe leading AI company t... [7148 chars]",
@@ -147,102 +255,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/IBYDTeu3rse9tH3549wf?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787402809701_6b00ccd2",
-      "title": "研究人员曝光美国 NASA 地面控制软件 AIT-GUI 存在严重安全漏洞，可导致黑客向飞船发送任意指令",
-      "summary": "IT之家 8 月 22 日消息，安全公司 Cycode 发文，称 NASA 地面数据系统框架 AMMOS Instrument Toolkit 的网页控制界面 AIT-GUI 存在严重安全漏洞，相应漏洞 GitHub 漏洞追踪编号为 GHSA-p9r8-2q67-fp86，CVSS 严重性评分达到 ...",
-      "content": "IT之家 8 月 22 日消息，安全公司 Cycode 发文，称 NASA 地面数据系统框架 AMMOS Instrument Toolkit 的网页控制界面 AIT-GUI 存在严重安全漏洞，相应漏洞 GitHub 漏洞追踪编号为 GHSA-p9r8-2q67-fp86，CVSS 严重性评分达到 9.4 分。 IT之家获悉，AMMOS Instrument Toolkit 系统框架由美国 NASA 与喷气推进实验室（JPL）开发，主要用于地面站与航天器、科学仪器之间的指令上传以及遥测数据下载等功能。 本次曝出的安全漏洞主要源于 AIT-GUI 缺少身份验证、权限控制以及跨站请求伪造（CSRF）防护，同时服务器默认会监听所有网络接口，因此黑客甚至无需直接入侵系统，只需通过钓鱼方式诱导操作员打开恶意网页，就可能利用浏览器触发 AIT-GUI 执行操作。 研究人员指出，黑客可以利用该漏洞向飞船和科学仪器的指令总线下达任意指令，同时还能够执行服务器端脚本和命令。如果相关系统被部署在能够访问外部网络的环境中，漏洞可能进一步扩大攻击面，对地面站以及与其连接的航天器、科学仪器造成潜在风险。 目前，开发团队已于 8 月 12 日发布修复漏洞的 2.5.2 版本，解决了相应问题。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/90db4b62-4274-4c1e-8074-a99c292f35ff.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-08-22T11:53:08.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/993/085.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787402795828_1f9c337e",
-      "title": "3万亿美元隐形债务浮出水面：“AI基建潮”会引发下一场次贷危机吗？",
-      "summary": "3万亿美元隐形债务浮出水面：“AI基建潮”会引发下一场次贷危机吗？",
-      "content": "真实需求不能阻止泡沫，现金流才能偿还债务。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-22T10:26:13.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8112363.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787535445614_74578e4d",
-      "title": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
-      "summary": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
-      "content": "JetBrains详细阐述了控制AI支出快速增长的首批举措",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-22T09:05:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/CQhb4TOREpEZshtqWZMy?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787402796370_a3dd9806",
-      "title": "WRC2026深度观察：机器人行业，正在去表演化、去差异化",
-      "summary": "WRC2026深度观察：机器人行业，正在去表演化、去差异化",
-      "content": "看似火热的WRC展会之下，人形机器人的创新红利正在悄悄消退。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-22T02:11:05.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8112444.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787535446373_ab891cd0",
-      "title": "神秘“Ox Alpha”突袭 OpenRouter，性能超过 Fable 5？全网盲猜智谱 or 小米",
-      "summary": "神秘“Ox Alpha”突袭 OpenRouter，性能超过 Fable 5？全网盲猜智谱 or 小米...",
-      "content": "神秘“Ox Alpha”突袭 OpenRouter，性能超过 Fable 5？全网盲猜智谱 or 小米",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T19:41:49.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/3MNJh5F34GSsRQJJWJzY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787535446874_8c37b64e",
-      "title": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
-      "summary": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
-      "content": "DeepSeek 发布多模态模型，“小鲸鱼”长出了眼睛",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T19:34:36.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/jlTfe57D4r0Juzpz8Fk5?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787535447354_4d24e182",
-      "title": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
-      "summary": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
-      "content": "本地运行、支持视觉与工具调用：Meta 开源智能体模型",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T17:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/aGfkSN1YlmLrUQMPea9L?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787535447858_8c30d233",
-      "title": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
-      "summary": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
-      "content": "不跟风、不堆模型，百度靠什么突围AI办公赛道？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-21T16:47:55.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/9x1ohAMlMpMCLdygg8Yf?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
