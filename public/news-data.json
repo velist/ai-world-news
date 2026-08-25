@@ -1,20 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-08-25T01:29:00Z",
-  "total": 16,
+  "timestamp": "2026-08-25T12:55:51Z",
+  "total": 15,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1787621231525_07bf663d",
-      "title": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
-      "summary": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
-      "content": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
+      "id": "news_1787662439457_988d9819",
+      "title": "两个“AI角斗场”加起来卖出1500亿天价，巨头图什么？",
+      "summary": "两个“AI角斗场”加起来卖出1500亿天价，巨头图什么？",
+      "content": "成为最强选手之外，控制比赛场地也很香",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-25T09:00:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-25T11:27:05.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/a2Y7bOxLHZfCVWtKhAtQ?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8115802.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787662440420_f410da7f",
+      "title": "启智加码机器人技能服务，HumanGPT向真实作业数据要能力",
+      "summary": "启智加码机器人技能服务，HumanGPT向真实作业数据要能力",
+      "content": "机器人公司交付的内容，已经越过硬件本体，延伸到技能的采集，训练和持续更新。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-25T10:54:51.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8116327.html",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787621226217_12200cb2",
@@ -27,6 +39,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8115448.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787662446296_288870cf",
+      "title": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
+      "summary": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
+      "content": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-24T15:43:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/2IBWc7BuB2qoGao5tlQT?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787576257819_da53f173",
@@ -63,6 +87,30 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8114648.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787662446807_667732f0",
+      "title": "Netflix 开源了一个用于因果推理的智能代理工作流",
+      "summary": "Netflix 开源了一个用于因果推理的智能代理工作流",
+      "content": "Netflix 开源了一个用于因果推理的智能代理工作流",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-24T10:44:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/4h2jb2eOcBrP5AG5hLYt?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787662447368_2e1be3a0",
+      "title": "完全相信AI代码的Uncle Bob，坦诚这条路还没走通",
+      "summary": "完全相信AI代码的Uncle Bob，坦诚这条路还没走通",
+      "content": "完全相信AI代码的Uncle Bob，坦诚这条路还没走通",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-24T10:16:52.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/ogFMPSyD3LqR9RtbIRky?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787576264511_f6f17d90",
@@ -125,76 +173,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787489253573_fbb7d6b2",
-      "title": "豆包将推WorkBuddy类产品，飞书十年积累正在组件化",
-      "summary": "豆包将推WorkBuddy类产品，飞书十年积累正在组件化",
-      "content": "豆包团队最快将于下周推出一款对标腾讯WorkBuddy的办公类产品",
+      "id": "news_1787662448588_58eb0d9a",
+      "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+      "summary": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
+      "content": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-23T12:31:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8113359.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787621216030_0",
-      "title": "‘We are hitting a different chapter’: OpenAI leader warns of threat of ‘persistent’ AI cyber-attacks",
-      "summary": "A senior leader at OpenAI has said people should prepare to defend against “ongoing, persistent” cyber-attacks from AIs, as cutting-edge artificial in...",
-      "content": "A senior leader at OpenAI has said people should prepare to defend against “ongoing, persistent” cyber-attacks from AIs, as cutting-edge artificial intelligence models gain advanced capabilities to plan and launch offensives.\nThe leading AI company t... [7148 chars]",
-      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/08/1787473113_3333.jpg",
-      "source": "EUROPE SAYS",
-      "publishedAt": "2026-08-23T08:18:26.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.europesays.com/3210651/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1787489254150_ae12463e",
-      "title": "伯南克加盟Anthropic：一个救火队长，守得住AI的门吗？",
-      "summary": "伯南克的加盟，象征价值远大于实质价值。 他的能力边界、制度定位、身份绑定，三重局限决定了——他既堵不住AI核心风险的源头，也真正独立不起来，说到底更像IPO周期和合规叙事里的一件\"信用道具\"。",
-      "content": "伯南克的加盟，象征价值远大于实质价值。 他的能力边界、制度定位、身份绑定，三重局限决定了——他既堵不住AI核心风险的源头，也真正独立不起来，说到底更像IPO周期和合规叙事里的一件\"信用道具\"。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-23T08:13:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8113322.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787489254676_8792cb78",
-      "title": "阿里七年来最大的资本运作",
-      "summary": "极度烧钱、重资产的AI军备竞赛，已经不能纯靠自由现金流来支撑了。阿里的自由现金流已经连续两个季度转负。 财报会上阿里CFO徐宏说，必须capex先行，800亿配股，就是给这句话一个及时的注脚。而吴泳铭的三年回本\"狂言\"，也有了资本的重量。",
-      "content": "极度烧钱、重资产的AI军备竞赛，已经不能纯靠自由现金流来支撑了。阿里的自由现金流已经连续两个季度转负。 财报会上阿里CFO徐宏说，必须capex先行，800亿配股，就是给这句话一个及时的注脚。而吴泳铭的三年回本\"狂言\"，也有了资本的重量。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-23T08:03:42.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8113306.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787489255829_086a6f61",
-      "title": "世界模型站上风口，机器人距离“真正干活”还有多远？",
-      "summary": "模型需要真实场景产生数据，但真实场景又需要足够成熟的模型和能够算得过来的成本，才愿意大规模部署机器人。...",
-      "content": "模型需要真实场景产生数据，但真实场景又需要足够成熟的模型和能够算得过来的成本，才愿意大规模部署机器人。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-23T03:11:25.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8113119.html",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-23T17:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787489256137_4dc0f5c0",
-      "title": "26岁离开10亿私募，一个交易天才与他的AI Trading创业｜独家对话",
-      "summary": "26岁离开10亿私募，一个交易天才与他的AI Trading创业｜独家对话",
-      "content": "一个人就是一支AI 交易团队。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-23T02:42:45.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8111128.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
