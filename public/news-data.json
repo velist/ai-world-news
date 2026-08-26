@@ -1,9 +1,45 @@
 {
   "success": true,
-  "timestamp": "2026-08-25T12:55:51Z",
-  "total": 15,
+  "timestamp": "2026-08-26T01:39:06Z",
+  "total": 12,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1787708231145_53079377",
+      "title": "雄安“一人公司”涌动：被大厂裁员的P7，用AI组装自己的“资本梦”",
+      "summary": "雄安“一人公司”涌动：被大厂裁员的P7，用AI组装自己的“资本梦”",
+      "content": "“当一个人就是一家公司，技术杠杆是蜜糖，也是砒霜。”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-26T01:19:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8116290.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787708231404_11ad8375",
+      "title": "现在是MCN做AI的最佳时机",
+      "summary": "一个共识是，不论擅长的是内容、流量还是商业化，AI时代都可以把擅长方向更高效、低成本再做一遍。而当下，随着一批AI账号的商业价值得到验证，一个急需抓住的窗口期已经打开。",
+      "content": "一个共识是，不论擅长的是内容、流量还是商业化，AI时代都可以把擅长方向更高效、低成本再做一遍。而当下，随着一批AI账号的商业价值得到验证，一个急需抓住的窗口期已经打开。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-26T01:05:22.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8116606.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787708241421_ef933f38",
+      "title": "在职约 17 个月：曝 OpenAI 数据中心负责人马隆已离职",
+      "summary": "IT之家 8 月 26 日消息，CNBC 今天（8 月 26 日）发布博文，报道称 OpenAI 数据中心负责人克里斯 · 马隆（Chris Malone）已经离职，是近期一系列核心高管出走事件的最新一起。",
+      "content": "IT之家 8 月 26 日消息，CNBC 今天（8 月 26 日）发布博文，报道称 OpenAI 数据中心负责人克里斯 · 马隆（Chris Malone）已经离职，是近期一系列核心高管出走事件的最新一起。 IT之家查询领英（LinkedIn）资料，马隆于 2025 年 3 月加入 OpenAI 担任数据中心负责人，在职约 17 个月。他曾深度参与和主导了公司庞大的算力基础设施扩建计划（如与甲骨文、软银合作的 Stargate 星际之门项目）。 在加入 OpenAI 之前，他是业内的资深基础设施专家。他曾担任 Meta 杰出工程师（2020–2025），以及 Google 杰出工程师兼高级总监（2008–2020），长期负责管理数据中心架构、IT 硬件研发、供电及冷却系统。此外，他拥有麻省理工学院（MIT）的机械工程博士学位。 OpenAI 公司随后向 CNBC 发布声明： 我们最近重组了基础设施组织架构，以支持我们工作的规模和速度。我们拥有一支实力雄厚、经验丰富的数据中心团队，领导层清晰明确，并具备执行我们计划所需的技术专长。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/628ac5bf-b963-4590-b6b1-5326976515b9.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-08-26T00:19:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/994/324.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1787662439457_988d9819",
       "title": "两个“AI角斗场”加起来卖出1500亿天价，巨头图什么？",
@@ -29,6 +65,18 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1787708234514_07bf663d",
+      "title": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
+      "summary": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
+      "content": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-25T09:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/a2Y7bOxLHZfCVWtKhAtQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1787621226217_12200cb2",
       "title": "Tesla Adds a Chinese Large Model to Its China Cars for the First Time",
       "summary": "The company has begun rolling out ByteDance’s Doubao model inside its China vehicle software, a rare departure from its preference for in-house system...",
@@ -39,18 +87,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8115448.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787662446296_288870cf",
-      "title": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
-      "summary": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
-      "content": "多个 AI 智能体“同住”一台 EC2：AgentCore 推出持久计算",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-24T15:43:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/2IBWc7BuB2qoGao5tlQT?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787576257819_da53f173",
@@ -89,30 +125,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787662446807_667732f0",
-      "title": "Netflix 开源了一个用于因果推理的智能代理工作流",
-      "summary": "Netflix 开源了一个用于因果推理的智能代理工作流",
-      "content": "Netflix 开源了一个用于因果推理的智能代理工作流",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-24T10:44:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/4h2jb2eOcBrP5AG5hLYt?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787662447368_2e1be3a0",
-      "title": "完全相信AI代码的Uncle Bob，坦诚这条路还没走通",
-      "summary": "完全相信AI代码的Uncle Bob，坦诚这条路还没走通",
-      "content": "完全相信AI代码的Uncle Bob，坦诚这条路还没走通",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-24T10:16:52.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/ogFMPSyD3LqR9RtbIRky?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1787576264511_f6f17d90",
       "title": "DeepSeek 再度调价；英伟达AI服务器涨价超 15%；“AI红娘”承诺三年不结婚就退款，前 Kimi搜索负责人创业目标：拉高10%结婚率 | AI周报",
       "summary": "DeepSeek 再度调价；英伟达AI服务器涨价超 15%；“AI红娘”承诺三年不结婚就退款，前 Kimi搜索负责人创业目标：拉高10%结婚率 | AI周报...",
@@ -125,55 +137,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787535451572_e9e63c23",
-      "title": "CYBERLEEK 威胁泄露《GTA 6》完整版本为假消息",
-      "summary": "IT之家 8 月 24 日消息，8 月 22 日，外媒 Insider Gaming 撰写了一篇关于 CYBERLEEK 组织向 Rockstar Games 和 Take-Two Interactive 发出威胁的报道，该威胁声称：如果这些公司不放弃对该团体的法律追诉，他们将发布《侠盗猎车手 6》...",
-      "content": "IT之家 8 月 24 日消息，8 月 22 日，外媒 Insider Gaming 撰写了一篇关于 CYBERLEEK 组织向 Rockstar Games 和 Take-Two Interactive 发出威胁的报道，该威胁声称：如果这些公司不放弃对该团体的法律追诉，他们将发布《侠盗猎车手 6》（GTA 6）的完整构建版本。 然而，这篇文章所依据的图片和言论事后被证明是伪造的，是由众多模仿 CYBERLEEK 行为的人之一出于某种原因制造并在网上传播的。目前原始报道已被删除。 然而IT之家注意到，在最近几个小时里，一位名叫 MoistCr1TiKaL 的创作者上传了一段视频，大篇幅讨论了这篇报道及其背后的内容，甚至将文章的截图用作视频缩略图。虽然视频大体上符合逻辑，但却是基于虚假内容制作，这显然进一步助长了错误报道在社交圈中的传播。 目前没有任何证据确认 CYBERLEEK 确实拥有《GTA 6》的完整构建版本。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/7195812f-0498-4647-bd2b-f1d532511b9b.png",
-      "source": "IT之家",
-      "publishedAt": "2026-08-24T01:26:50.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/0/993/359.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787535437510_aed5b468",
-      "title": "机器人运动会现场：有人破纪录，有人“骨折”了",
-      "summary": "机器人运动会现场：有人破纪录，有人“骨折”了",
-      "content": "机器人会跑、会跳、会打拳，但比赛现场最忙的人，可能是维修工程师。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-24T01:17:43.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8113496.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787535438081_95481e28",
-      "title": "AI办公助手，没有葵花宝典：五款应用万字实测报告",
-      "summary": "AI办公助手，没有葵花宝典：五款应用万字实测报告",
-      "content": "AI办公助手，没有葵花宝典：五款应用万字实测报告",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-24T01:12:59.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8113654.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787535451622_b0b3b0ca",
-      "title": "人形机器人运动会跳远冠军出炉，天骄队跳出 7.97 米夺冠",
-      "summary": "IT之家 8 月 24 日消息，据央视新闻报道，8 月 23 日晚，在第二届世界人形机器人运动会的跳远决赛中，天骄队机器人跳出 7.97 米的成绩，夺得金牌。",
-      "content": "IT之家 8 月 24 日消息，据央视新闻报道，8 月 23 日晚，在第二届世界人形机器人运动会的跳远决赛中，天骄队机器人跳出 7.97 米的成绩，夺得金牌。 天骄队机器人三次试跳成绩分别为 7.32 米、7.62 米、7.97 米，成绩逐次提升；天卓队以 7.24 米夺银，天工队以 7.19 米获铜。IT之家附现场视频如下：",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/bb0cf20a-b577-43e7-889d-8e06e550219a.png",
-      "source": "IT之家",
-      "publishedAt": "2026-08-24T01:01:50.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/993/348.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787662448588_58eb0d9a",
+      "id": "news_1787708236842_58eb0d9a",
       "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
       "summary": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
       "content": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
