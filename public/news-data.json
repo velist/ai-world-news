@@ -1,9 +1,117 @@
 {
   "success": true,
-  "timestamp": "2026-08-26T01:39:06Z",
-  "total": 12,
+  "timestamp": "2026-08-26T13:02:16Z",
+  "total": 16,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1787749227208_30cebe95",
+      "title": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
+      "summary": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
+      "content": "DeepSeek 开源 Harness：AI 智能体基础设施开始“拆分”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-26T16:26:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/vS7tpsLPdevZhMKdtxei?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787749227701_e92916c3",
+      "title": "不懂算法的工厂老兵，在 AMD 锐龙 AI Max+ 395上跑出工业智能体",
+      "summary": "不懂算法的工厂老兵，在 AMD 锐龙 AI Max+ 395上跑出工业智能体",
+      "content": "不懂算法的工厂老兵，在 AMD 锐龙 AI Max+ 395上跑出工业智能体",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-26T16:00:40.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/RJDrRaDC1drafw0Kvoki?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787749228141_a9ad8e8d",
+      "title": "WhatsApp 测试 AI 反诈：消息无需上传云端",
+      "summary": "WhatsApp 测试 AI 反诈：消息无需上传云端",
+      "content": "WhatsApp 测试 AI 反诈：消息无需上传云端",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-26T15:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/wAVlMqVg7fqPjXAyFDjC?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787749228840_599f90c6",
+      "title": "企业级多智能体架构搭建与应用能力·人才培养项目",
+      "summary": "企业级多智能体架构搭建与应用能力·人才培养项目",
+      "content": "企业级多智能体架构搭建与应用能力·人才培养项目",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-26T14:21:28.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/minibook/NZapvO5FpWP185SRLjvj?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787749237652_bad46574",
+      "title": "阿里通义 Qwen3.8-Flash 发布开源：125B 参数 MoE 模型，训练成本仅为前代 1/9",
+      "summary": "IT之家 8 月 26 日消息，阿里通义千问团队今晚正式发布了 Qwen3.8-Flash。通义团队同时发布了 Qwen3.8-Flash-Next 的开源权重，Next 新架构将是全新一代 Qwen4 系列模型的雏形。",
+      "content": "IT之家 8 月 26 日消息，阿里通义千问团队今晚正式发布了 Qwen3.8-Flash。通义团队同时发布了 Qwen3.8-Flash-Next 的开源权重，Next 新架构将是全新一代 Qwen4 系列模型的雏形。 这是一个多模态 MoE 模型，主模型参数量为 125B，额外配备 51B 的 N-gram Embedding，每 token 激活 6B 参数。它原生支持 262,144 tokens 上下文，并可通过 YaRN 扩展至 1M tokens。 据介绍，Qwen3.8-Flash 围绕四个方向进行了系统升级： 在 Attention 方面，采用 GDN（Gated DeltaNet）+ QSA（Qwen Sparse Attention）混合架构。GDN 负责高效压缩历史信息，QSA 则通过轻量级 Indexer 在 micro-block 粒度上筛选重要上下文，显著降低长序列 Attention 开销。面对 1M token 的超长上下文，QSA 的 Attention Kernel 在 Prefill 和 Decode 阶段分别实现最高 7.6 倍和 4.9 倍的加速。 在 Residual 方面，引入 Gated Residual（GR）机制，将残差流扩展为 4 条并行分支，通过动态 Gate 控制信息读写。残差状态支持 FP8 存储，大幅降低访存开销。 在 Embedding 方面，引入 51B 参数的 N-gram Embedding，利用局部上下文查表扩展模型容量。这些参数可卸载至 Host Memory，通过异步 Prefetch 与模型计算重叠，不长期占用 GPU 显存。 在 Optimization 方面，采用 Muon Optimizer，并针对正交化精度、参数分工及融合矩阵拆分等策略进行优化。针对新架构重新拟合了 Scaling Law。 性能与成本 相比 Qwen3.7-Plus，Qwen3.8-Flash 的训练成本仅约为前者的九分之一，但在编码和办公任务上具备更强能力。 在 6B 激活参数下，Qwen3.8-Flash-Next-Base 在 14 个 benchmark 中的 8 个上取得最优结果，包括 MMLU-Pro、SuperGPQA、BBH、SWEBench-Pretrain、MGSM 与 MMMU。 模型表现 纯文本： 多模态： 模型结构： Base 模型表现： 可用性与定价 IT之家从官方获悉，Qwen3.8-Flash 即将上线千问 AI 平台，对外提供 API 服务，定价为每百万 Tokens 输入 1 元、输出 3 元。 模型权重已于北京时间 8 月 26 日 23:00 在 Hugging Face 与 ModelScope 平台开源，同步发布 FP8 量化版本。Qwen3.8-Flash-Next 默认支持 1M 上下文并内置官方工具。 参考资料： 技术报告：https://github.com/ QwenLM / Qwen3.8-Flash-Next / blob / main / tech_report.pdf 技术博客：https://qwen.ai/ blog?id=qwen3.8-flash-next Hugging Face：https://huggingface.co/Qwen/Qwen3.8-Flash-Next?spm=a2ty_o06.30285417.0.0.1d73c921FsyOPe&amp;amp;amp;file=Qwen3.8-Flash-Next ModelScope：https://modelscope.cn/models/Qwen/Qwen3.8-Flash-Next?spm=a2ty_o06.30285417.0.0.1d73c921XAP2dV&amp;amp;amp;file=Qwen3.8-Flash-Next",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/b9918d75-2049-4b99-aae9-1c44ec0c5471.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-08-26T12:39:50.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/994/735.htm",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787749237675_22619ee1",
+      "title": "猪猪侠首部 AIGC 科幻冒险动画《猪猪侠之失控纪元》定档 8 月 28 日芒果 TV 独播",
+      "summary": "IT之家 8 月 26 日消息，猪猪侠官方微博宣布，猪猪侠首部 AIGC 科幻冒险动画 ——《猪猪侠之失控纪元》定档 8 月 28 日芒果 TV 独家播出。 突破经典全新升级，猪猪侠带领伙伴解锁科幻时空冒险新世界观。以陪伴为初心，以成长为内核，跟着猪猪侠开启一场热血又治愈的跨时空奇遇！",
+      "content": "IT之家 8 月 26 日消息，猪猪侠官方微博宣布，猪猪侠首部 AIGC 科幻冒险动画 ——《猪猪侠之失控纪元》定档 8 月 28 日芒果 TV 独家播出。 突破经典全新升级，猪猪侠带领伙伴解锁科幻时空冒险新世界观。以陪伴为初心，以成长为内核，跟着猪猪侠开启一场热血又治愈的跨时空奇遇！ IT之家查询获悉，本片将聚焦 AI 议题，讲述爱宠菜包离世后，猪猪侠选择用科技让它“回来”，却意外闯入十年后的失控未来的故事。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/a2ce5460-0dd9-443b-b568-9542b2ef9f62.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-08-26T12:25:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/994/731.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787749223907_cf685719",
+      "title": "大厂竞逐AI办公助手，蒙牛先跑出一个落地样本",
+      "summary": "大厂竞逐AI办公助手，蒙牛先跑出一个落地样本",
+      "content": "蒙牛让200名业务骨干自建AI应用。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-26T10:58:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8118009.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787749229256_9a2e7998",
+      "title": "技术革命：为 Agentic AI 时代做好准备 | 技术趋势",
+      "summary": "技术革命：为 Agentic AI 时代做好准备 | 技术趋势",
+      "content": "技术革命：为 Agentic AI 时代做好准备 | 技术趋势",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-26T10:20:43.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/8ouuK09WuWA7Up35W9vb?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787749229696_3dacc8b6",
+      "title": "Grab 借助 AI 代理将机械性分析的工作量从 44% 降至 30%",
+      "summary": "Grab 借助 AI 代理将机械性分析的工作量从 44% 降至 30%",
+      "content": "Grab 借助 AI 代理将机械性分析的工作量从 44% 降至 30%",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-26T10:10:29.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/LqdtQ5sKYcEAzhCNNToE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1787708231145_53079377",
       "title": "雄安“一人公司”涌动：被大厂裁员的P7，用AI组装自己的“资本梦”",
@@ -41,6 +149,18 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1787749214542_0",
+      "title": "Now OpenAI’s former head of data centers is out.",
+      "summary": "All the latest updates on AI data centers\nSee all Stories\nR\nThe Verge\nNow OpenAI’s former head of data centers is out.\nThe Wall Street Journal and Blo...",
+      "content": "All the latest updates on AI data centers\nSee all Stories\nR\nThe Verge\nNow OpenAI’s former head of data centers is out.\nThe Wall Street Journal and Bloomberg report that Chris Malone, a “key executive” leading OpenAI’s massive build-out plans, left th... [705 chars]",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
+      "source": "The Verge",
+      "publishedAt": "2026-08-25T21:22:41.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/984747/now-openais-former-head-of-data-centers-is-out",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1787662439457_988d9819",
       "title": "两个“AI角斗场”加起来卖出1500亿天价，巨头图什么？",
       "summary": "两个“AI角斗场”加起来卖出1500亿天价，巨头图什么？",
@@ -65,18 +185,6 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787708234514_07bf663d",
-      "title": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
-      "summary": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
-      "content": "SpaceXAI 推出面向自主 AI 智能代理的 Grok Bot",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-25T09:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/a2Y7bOxLHZfCVWtKhAtQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1787621226217_12200cb2",
       "title": "Tesla Adds a Chinese Large Model to Its China Cars for the First Time",
       "summary": "The company has begun rolling out ByteDance’s Doubao model inside its China vehicle software, a rare departure from its preference for in-house system...",
@@ -87,66 +195,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8115448.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787576257819_da53f173",
-      "title": "说好AI三年回本，阿里转头找股东要800亿“救急”？",
-      "summary": "说好AI三年回本，阿里转头找股东要800亿“救急”？",
-      "content": "AI是印钞机，怎么最后印的是新股？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-24T12:18:43.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8113703.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787576258283_8c8e084d",
-      "title": "说好“多模态不是主线”的梁文锋，怎么转头就发了个Vision模型？",
-      "summary": "说好“多模态不是主线”的梁文锋，怎么转头就发了个Vision模型？",
-      "content": "多模态这事上，梁文锋还是梁文锋，但他学会了放低姿态。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-24T12:17:47.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8114555.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787576258744_b73ac057",
-      "title": "机器人会干活了，但还没学会“别多管闲事”",
-      "summary": "行业一直给机器人的运动和作业能力分级，却没有给机器人“介入人的生活”分级。文章提出自主交互的三级框架： - L1：接受明确指令，被动响应 - L2：理解事件和状态，提供选择 - L3：在限定条件下主动介入，并在越界前交还给人。",
-      "content": "行业一直给机器人的运动和作业能力分级，却没有给机器人“介入人的生活”分级。文章提出自主交互的三级框架： - L1：接受明确指令，被动响应 - L2：理解事件和状态，提供选择 - L3：在限定条件下主动介入，并在越界前交还给人。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-24T12:16:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8114648.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787576264511_f6f17d90",
-      "title": "DeepSeek 再度调价；英伟达AI服务器涨价超 15%；“AI红娘”承诺三年不结婚就退款，前 Kimi搜索负责人创业目标：拉高10%结婚率 | AI周报",
-      "summary": "DeepSeek 再度调价；英伟达AI服务器涨价超 15%；“AI红娘”承诺三年不结婚就退款，前 Kimi搜索负责人创业目标：拉高10%结婚率 | AI周报...",
-      "content": "DeepSeek 再度调价；英伟达AI服务器涨价超 15%；“AI红娘”承诺三年不结婚就退款，前 Kimi搜索负责人创业目标：拉高10%结婚率 | AI周报",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-24T10:11:16.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/ONGSA7k86LcxFyU64N2z?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787708236842_58eb0d9a",
-      "title": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
-      "summary": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
-      "content": "亚马逊云科技开源 Dogwood：给 AI 智能体的工具调用立规矩",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-23T17:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/cwj5Ikvhqu5mKH22zKsO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
