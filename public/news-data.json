@@ -1,9 +1,45 @@
 {
   "success": true,
-  "timestamp": "2026-08-27T08:27:22Z",
-  "total": 18,
+  "timestamp": "2026-08-27T22:03:55Z",
+  "total": 21,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1787868124580_a7b26611",
+      "title": "世界人工智能开源大赛（GOAI）初赛评审结果暨晋级名单公告",
+      "summary": "世界人工智能开源大赛（GOAI）初赛评审结果暨晋级名单公告",
+      "content": "世界人工智能开源大赛（GOAI）初赛评审结果暨晋级名单公告",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-27T17:56:39.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Y410fSRGi67fUrNUuzYb?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787868125215_1989ae50",
+      "title": "给 Agent 做“CT”：大规模 Agent 的可观测与质量保障体系",
+      "summary": "给 Agent 做“CT”：大规模 Agent 的可观测与质量保障体系",
+      "content": "给 Agent 做“CT”：大规模 Agent 的可观测与质量保障体系",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-27T17:52:32.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/QqDSrCEGWitk7kkJg7Kj?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787868125623_9507bf6a",
+      "title": "Cloudflare 利用 AI 智能体将 Astro GitHub 问题减少 85%",
+      "summary": "Cloudflare 利用 AI 智能体将 Astro GitHub 问题减少 85%",
+      "content": "Cloudflare 利用 AI 智能体将 Astro GitHub 问题减少 85%",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-27T17:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/iJu3eUyEhEI373KeYhYN?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1787819134375_c2f52dce",
       "title": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor",
@@ -29,16 +65,40 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787819136021_5b1fc3e2",
-      "title": "如何把 Agent 的判断与行动变成可恢复的软件事实 | KDC 工程补篇",
-      "summary": "如何把 Agent 的判断与行动变成可恢复的软件事实 | KDC 工程补篇",
-      "content": "如何把 Agent 的判断与行动变成可恢复的软件事实 | KDC 工程补篇",
+      "id": "news_1787868120941_88c530d8",
+      "title": "AI办公之争：腾讯、阿里、字节在牌桌上亮出的第一张牌，是各自的组织架构",
+      "summary": "AI办公、组织架构 、腾讯WorkBuddy、阿里千问办公 、字节豆包、飞书、AI产品 、组织变革、互联网巨头...",
+      "content": "AI办公、组织架构 、腾讯WorkBuddy、阿里千问办公 、字节豆包、飞书、AI产品 、组织变革、互联网巨头",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-27T10:00:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-27T10:20:43.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8118691.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787868121389_bccc43ce",
+      "title": "874亿，全球最大AI开源社区要卖了",
+      "summary": "874亿，全球最大AI开源社区要卖了",
+      "content": "AI圈的“GitHub”要卖了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-27T10:20:36.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8118864.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787868121851_c1b09c00",
+      "title": "China's Tech Giants Pour Billions in AI Infrastructure in Q2",
+      "summary": "When Chinese cloud providers’ ROIC is only 13%–20%, while their U.S. peers across the ocean can earn 25%–50%, in what form will the gap in returns on ...",
+      "content": "When Chinese cloud providers’ ROIC is only 13%–20%, while their U.S. peers across the ocean can earn 25%–50%, in what form will the gap in returns on AI computing-power investment between China and the United States ultimately converge?",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-27T09:20:06.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/AkgUFEFE4uG7WIlqaO2g?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.tmtpost.com/8119172.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787819129837_4118b8b5",
@@ -89,7 +149,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787819120566_0",
+      "id": "news_1787868113066_0",
+      "title": "OpenAI releases final report on AI hacking incident",
+      "summary": "Aug. 26 (UPI) -- OpenAI released a final report Wednesday on a July incident in which its artificial intelligence agents hacked into another company's...",
+      "content": "Aug. 26 (UPI) -- OpenAI released a final report Wednesday on a July incident in which its artificial intelligence agents hacked into another company's systems, saying it considers the episode \"a warning shot\" for the company and the world.\nThe incide... [1918 chars]",
+      "imageUrl": "https://cdnph.upi.com/sv/ph/og/upi_com/2421787784896/2026/1/a73648ec6a9de3add134a88fb759b08a/v1.5/OpenAI-releases-final-report-on-AI-hacking-incident.jpg",
+      "source": "UPI News",
+      "publishedAt": "2026-08-26T23:04:50.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.upi.com/Top_News/US/2026/08/26/open-ai-releases-report-on-hugging-face-hack/2421787784896/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1787868113311_1",
       "title": "OpenAI claims its new chips can outperform Nvidia processors in tests",
       "summary": "By Dina Bass, Bloomberg\nOpenAI said that its new Jalapeno chips performed better than Nvidia Corp.’s current lineup during testing, underscoring the c...",
       "content": "By Dina Bass, Bloomberg\nOpenAI said that its new Jalapeno chips performed better than Nvidia Corp.’s current lineup during testing, underscoring the company’s progress developing AI processors in-house.\nIn the tests, the Jalapeno processor led in two... [4862 chars]",
@@ -101,7 +173,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1787819120666_1",
+      "id": "news_1787868113075_2",
       "title": "Mt. Lebanon High School at forefront of responsible AI use in education",
       "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Washington Because you are coming from a location (Washington) covered by a Privacy Law, many of the features of ...",
       "content": "When ChatGPT launched in 2022, thrusting a powerful AI tool into everyday life, Mt. Lebanon High School Principal Joel Thompson took note. He knew his staff needed to develop ethical and responsible ways to respond to artificial intelligence.\n“We nee... [2297 chars]",
@@ -183,42 +255,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/994/324.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787819120327_2",
-      "title": "Now OpenAI’s former head of data centers is out.",
-      "summary": "All the latest updates on AI data centers\nSee all Stories\nR\nThe Verge\nNow OpenAI’s former head of data centers is out.\nThe Wall Street Journal and Blo...",
-      "content": "All the latest updates on AI data centers\nSee all Stories\nR\nThe Verge\nNow OpenAI’s former head of data centers is out.\nThe Wall Street Journal and Bloomberg report that Chris Malone, a “key executive” leading OpenAI’s massive build-out plans, left th... [705 chars]",
-      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/02/STK155_OPEN_AI_2025_CVirgiia_D.jpg?quality=90&strip=all&crop=0%2C10.732984293194%2C100%2C78.534031413613&w=1200",
-      "source": "The Verge",
-      "publishedAt": "2026-08-25T21:22:41.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/984747/now-openais-former-head-of-data-centers-is-out",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1787662439457_988d9819",
-      "title": "两个“AI角斗场”加起来卖出1500亿天价，巨头图什么？",
-      "summary": "两个“AI角斗场”加起来卖出1500亿天价，巨头图什么？",
-      "content": "成为最强选手之外，控制比赛场地也很香",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-25T11:27:05.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8115802.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787662440420_f410da7f",
-      "title": "启智加码机器人技能服务，HumanGPT向真实作业数据要能力",
-      "summary": "启智加码机器人技能服务，HumanGPT向真实作业数据要能力",
-      "content": "机器人公司交付的内容，已经越过硬件本体，延伸到技能的采集，训练和持续更新。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-25T10:54:51.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8116327.html",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
