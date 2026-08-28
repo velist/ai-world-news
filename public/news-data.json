@@ -1,21 +1,9 @@
 {
   "success": true,
-  "timestamp": "2026-08-28T10:28:13Z",
-  "total": 29,
+  "timestamp": "2026-08-28T22:00:05Z",
+  "total": 20,
   "source": "multi-api-grok-cleaned",
   "data": [
-    {
-      "id": "news_1787912786624_7545e95c",
-      "title": "下一层抽象：从UX角度思考Agentic OS的样貌",
-      "summary": "下一层抽象：从UX角度思考Agentic OS的样貌",
-      "content": "下一层抽象：从UX角度思考Agentic OS的样貌",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T18:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/c4zPz7WHXryL5Erw7xop?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
     {
       "id": "news_1787912787249_ae6e187d",
       "title": "腾讯混元 Hy4 preview 开源，参与“训练自己”！WorkBuddy实测：有了小型团队交付实力，但还得有人盯",
@@ -29,76 +17,40 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787912787803_beb9dae9",
-      "title": "大模型和硬件之间，长出了一层新生意",
-      "summary": "大模型和硬件之间，长出了一层新生意",
-      "content": "大模型和硬件之间，长出了一层新生意",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T15:57:35.000Z",
+      "id": "news_1787954302169_93c6ee2a",
+      "title": "OpenAI 开发“持久模式”智能体，Codex 将能够主动、长时间干活",
+      "summary": "IT之家 8 月 28 日消息，当地时间 27 日，据《连线》杂志报道，OpenAI 在开发一种更主动、能够长时间持续工作的 Codex，希望让旗舰 AI 智能体不再局限于等待用户下达任务。",
+      "content": "IT之家 8 月 28 日消息，当地时间 27 日，据《连线》杂志报道，OpenAI 在开发一种更主动、能够长时间持续工作的 Codex，希望让旗舰 AI 智能体不再局限于等待用户下达任务。 《连线》检查 Codex 近期的代码变更后发现，OpenAI 近几天开始在 Codex 命令行版本中加入“持久模式”。Codex 命令行工具的代码改动默认公开，OpenAI 的新功能通常也会先在这里出现，之后再扩展到 Codex 桌面应用和 ChatGPT Work 等产品。 持久模式目前仍处于测试阶段，尚未大范围开放，也没有正式发布。OpenAI 发言人也已确认，公司确实在测试该功能，但近期没有上线计划。 OpenAI 核心产品负责人蒂博 · 索蒂奥表示：“OpenAI 的文化非常自下而上，大家会在开源代码库里尝试很多不同的东西，那里有点像我们共同的试验场。” 持久模式出现在 Codex 的“推理强度”菜单中，用户可以在模型回答问题前决定投入多少算力、Token 和时间。 同时，持久模式或为 OpenAI 目前资源消耗最高的设置之一。启用后，Codex 会持续工作，直到被置于休眠状态。目前其他模式即使任务没有完成，通常也会在几分钟或几小时后停止运行。 OpenAI 还为持久模式设计了一项名为“主动性”的能力。根据代码中的系统提示，智能体回答完用户的问题后不能把任务视为结束，而是需要主动为自己安排后续工作。智能体可以跨会话继续执行这些任务，并结合过去与用户的互动以及“对用户的了解”，自行判断下一步该做什么。 系统甚至支持智能体在用户没有提出请求时主动发送消息，不过要求尽量少用。 OpenAI 同时为这种持续工作的智能体划定了权限边界。持久模式不会扩大智能体原本拥有的操作权限，如果需要修改用户自身系统之外的内容，必须先得到用户批准。 “主动性”功能所在的代码并非 Codex 终端工具专用部分，而是位于 Codex 共享核心中。报道认为，此举说明 OpenAI 或计划把这套能力带到更多产品中去。 据IT之家了解，OpenAI CEO 萨姆 · 奥尔特曼近期多次公开谈到，希望最终把 ChatGPT 变成一个能够主动行动、持续运行的 AI 智能体。OpenAI 也希望借此提高最先进模型的使用率，因为目前真正使用这些模型的仍只是 ChatGPT 庞大用户群中的一小部分。 OpenAI 此前已经多次尝试主动型 AI 产品，始终没有真正打开市场。譬如，去年推出的 Pulse 会在用户睡觉期间生成晨间简报，今年夏初却已被叫停。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/5/09cfe19b-2ca3-4871-b140-9d44a4686eec.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-08-28T15:53:34.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/995/818.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787954302198_484bb574",
+      "title": "OpenAI 提交新请愿书，要求驳回苹果诉讼",
+      "summary": "IT之家 8 月 28 日消息，据科技媒体 MacObserver 今天报道，OpenAI 近日向法院提交申请，要求彻底驳回苹果的窃密诉讼。 OpenAI 方面表示，苹果的指控缺乏实际证据，更多是基于推测而不是确凿证据。",
+      "content": "IT之家 8 月 28 日消息，据科技媒体 MacObserver 今天报道，OpenAI 近日向法院提交申请，要求彻底驳回苹果的窃密诉讼。 OpenAI 方面表示，苹果的指控缺乏实际证据，更多是基于推测而不是确凿证据。 据IT之家了解，本起诉讼源于前苹果、现 OpenAI 员工 Chang Liu 和 Tang Tan。两人曾被苹果指控窃取商业机密，并教授新入职 OpenAI 的员工如何规避苹果安全检查。 但这两名被告表示，他们保留离职文件的理由是帮助 OpenAI 新员工遵守安全规定，并未为了获取或传播苹果商业机密。 同时 OpenAI 法律团队认为，苹果实际上是要求法官猜测事情究竟如何发生，没有提供确凿证据。并且他们并没有拿出前员工滥用机密信息的情报，也没有明确证据表明苹果因泄密遭受了经济损失。 随着 OpenAI 提交最新版驳回申请，双方已分别阐述各自的核心观点。法院将于 10 月 1 日召开听证会，审理 OpenAI 的驳回申请。 如果法院最终支持 OpenAI 的请求，那么这起诉讼可能会被永久驳回，苹果之后将无法用同一个案件向法院起诉。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/7/89a45a52-7ee9-4f47-915f-e28f94aaa787.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-08-28T15:19:20.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/IROW9KWVs4zSCByU8wQE?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/0/995/810.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1787954302225_8d442ea5",
+      "title": "美团 CEO 王兴：AI 模型和产品将用于支持主业发展，我们不会成为“Token 工厂”",
+      "summary": "IT之家 8 月 28 日消息，据新浪财经今天报道，美团 CEO 今天在公司二季度财报电话会议中表示，AI 对美团是一次组织、产品和工作流程的全面升级。 王兴表示：“我们始终认为，AI 能力的长期价值，是能否真正进入真实工作流、解决真实问题，并形成长期稳定的基础设施能力。",
+      "content": "IT之家 8 月 28 日消息，据新浪财经今天报道，美团 CEO 今天在公司二季度财报电话会议中表示，AI 对美团是一次组织、产品和工作流程的全面升级。 王兴表示：“我们始终认为，AI 能力的长期价值，是能否真正进入真实工作流、解决真实问题，并形成长期稳定的基础设施能力。与此同时，全国产化训练和推理能力，也帮助我们在长期成本以及基础设施可控性上建立了更强优势。” 他继续说道：“我们不会成为 Token 工厂，我们的模型和 AI 产品将用于支持我们的主业，提升用户、商户体验和公司经营效率。” IT之家注意到，美团曾于今年 6 月末发布新一代万亿参数大模型 LongCat-2.0。该模型宣称是业界首个在五万卡国产算力集群上完成全流程训练与推理的万亿参数模型（总参数 1.6 T，平均激活约 48 B，动态范围 33B~56B），从零开始预训练，原生支持 1M 超长上下文。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/adf782d0-a8eb-4261-9a23-a13db6e8423b.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-08-28T15:08:35.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/995/807.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787912788086_49a7ff08",
-      "title": "2026年中国企业AI转型洞察报告",
-      "summary": "2026年中国企业AI转型洞察报告",
-      "content": "2026年中国企业AI转型洞察报告",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T15:53:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/minibook/oYXpDApcpvvgHIOzIOXp?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787912788637_9e42a147",
-      "title": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
-      "summary": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
-      "content": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T15:36:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/A0CMcU7UVsMQreKPcKOw?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787912789174_9aab7034",
-      "title": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
-      "summary": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
-      "content": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T14:20:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/REPGvBlF661I4hRmvV8J?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787912789723_3c1e3a9a",
-      "title": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "summary": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "content": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T14:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/JDYKJmiY9vTRSw47t15a?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787912790282_83dfa516",
-      "title": "你的 Agent 已经上线生产环境，下一步怎么办？ | 技术实践",
-      "summary": "你的 Agent 已经上线生产环境，下一步怎么办？ | 技术实践",
-      "content": "你的 Agent 已经上线生产环境，下一步怎么办？ | 技术实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T11:53:03.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/mKFB15kPm6Uw8fNG4Y7e?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787912795332_cd4dd605",
@@ -137,7 +89,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787912771449_0",
+      "id": "news_1787954283317_0",
       "title": "AI can help with tutoring, but it can’t replace your tutor, study says",
       "summary": "Artificial intelligence programs might know more than your average regular tutor, and they can definitely help kids improve their learning when they’r...",
       "content": "Artificial intelligence programs might know more than your average regular tutor, and they can definitely help kids improve their learning when they’re being tutored, but a new study finds that they can’t replace the tutor by themselves. It’s another... [3330 chars]",
@@ -149,7 +101,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1787912770855_1",
+      "id": "news_1787954279330_1",
       "title": "OpenAI and 100 others warn that window to defend against AI attacks is narrowing",
       "summary": "SAN FRANCISCO — A wave of cyberattacks driven by artificial intelligence is coming, and companies have a narrow window to defend themselves.\nThat was ...",
       "content": "SAN FRANCISCO — A wave of cyberattacks driven by artificial intelligence is coming, and companies have a narrow window to defend themselves.\nThat was the message of an open letter published Thursday by OpenAI and more than 100 major technology compan... [2677 chars]",
@@ -161,7 +113,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1787912771176_2",
+      "id": "news_1787954279391_2",
       "title": "Major tech companies call for defensive surge to defeat AI-driven hacks",
       "summary": "Major tech companies including OpenAI, Anthropic, Microsoft, Alphabet and Amazon are calling for a society-wide defensive surge to defeat what they de...",
       "content": "Major tech companies including OpenAI, Anthropic, Microsoft, Alphabet and Amazon are calling for a society-wide defensive surge to defeat what they describe as an impending wave of hacks driven by artificial intelligence.\nIn a joint letter issued Thu... [1073 chars]",
@@ -281,9 +233,9 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787912770944_3",
+      "id": "news_1787954278889_3",
       "title": "OpenAI releases final report on AI hacking incident",
-      "summary": "Aug. 26 (UPI) -- OpenAI released a final report Wednesday on a July incident in which its artificial intelligence agents hacked into another company's...",
+      "summary": "Aug. 28 (UPI) -- A federal appeals court on Friday ruled against a policy by ICE that greatly expanded detention for migrants living in the country fo...",
       "content": "Aug. 26 (UPI) -- OpenAI released a final report Wednesday on a July incident in which its artificial intelligence agents hacked into another company's systems, saying it considers the episode \"a warning shot\" for the company and the world.\nThe incide... [1918 chars]",
       "imageUrl": "https://cdnph.upi.com/sv/ph/og/upi_com/2421787784896/2026/1/a73648ec6a9de3add134a88fb759b08a/v1.5/OpenAI-releases-final-report-on-AI-hacking-incident.jpg",
       "source": "UPI News",
@@ -291,66 +243,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.upi.com/Top_News/US/2026/08/26/open-ai-releases-report-on-hugging-face-hack/2421787784896/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1787912770838_4",
-      "title": "OpenAI claims its new chips can outperform Nvidia processors in tests",
-      "summary": "By Dina Bass, Bloomberg\nOpenAI said that its new Jalapeno chips performed better than Nvidia Corp.’s current lineup during testing, underscoring the c...",
-      "content": "By Dina Bass, Bloomberg\nOpenAI said that its new Jalapeno chips performed better than Nvidia Corp.’s current lineup during testing, underscoring the company’s progress developing AI processors in-house.\nIn the tests, the Jalapeno processor led in two... [4862 chars]",
-      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2026/06/Artificial_Intelligence_Politics_56521.jpg?w=2000&h=1333",
-      "source": "The Mercury News",
-      "publishedAt": "2026-08-26T15:11:55.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.mercurynews.com/2026/08/26/openai-claims-its-new-chips-can-outperform-nvidia-processors-in-tests/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1787912770935_5",
-      "title": "Mt. Lebanon High School at forefront of responsible AI use in education",
-      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Virginia Because you are coming from a location (Virginia) covered by a Privacy Law, many of the features of Trib...",
-      "content": "When ChatGPT launched in 2022, thrusting a powerful AI tool into everyday life, Mt. Lebanon High School Principal Joel Thompson took note. He knew his staff needed to develop ethical and responsible ways to respond to artificial intelligence.\n“We nee... [2297 chars]",
-      "imageUrl": "https://assets-varnish.triblive.com/2026/08/9883137_web1_ptr-MtLeboHS.jpg",
-      "source": "Pittsburgh Tribune-Review",
-      "publishedAt": "2026-08-26T14:48:03.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://triblive.com/local/south-hills/mt-lebanon-high-school-at-forefront-of-responsible-ai-use-in-education/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1787749237652_bad46574",
-      "title": "阿里通义 Qwen3.8-Flash 发布开源：125B 参数 MoE 模型，训练成本仅为前代 1/9",
-      "summary": "IT之家 8 月 26 日消息，阿里通义千问团队今晚正式发布了 Qwen3.8-Flash。通义团队同时发布了 Qwen3.8-Flash-Next 的开源权重，Next 新架构将是全新一代 Qwen4 系列模型的雏形。",
-      "content": "IT之家 8 月 26 日消息，阿里通义千问团队今晚正式发布了 Qwen3.8-Flash。通义团队同时发布了 Qwen3.8-Flash-Next 的开源权重，Next 新架构将是全新一代 Qwen4 系列模型的雏形。 这是一个多模态 MoE 模型，主模型参数量为 125B，额外配备 51B 的 N-gram Embedding，每 token 激活 6B 参数。它原生支持 262,144 tokens 上下文，并可通过 YaRN 扩展至 1M tokens。 据介绍，Qwen3.8-Flash 围绕四个方向进行了系统升级： 在 Attention 方面，采用 GDN（Gated DeltaNet）+ QSA（Qwen Sparse Attention）混合架构。GDN 负责高效压缩历史信息，QSA 则通过轻量级 Indexer 在 micro-block 粒度上筛选重要上下文，显著降低长序列 Attention 开销。面对 1M token 的超长上下文，QSA 的 Attention Kernel 在 Prefill 和 Decode 阶段分别实现最高 7.6 倍和 4.9 倍的加速。 在 Residual 方面，引入 Gated Residual（GR）机制，将残差流扩展为 4 条并行分支，通过动态 Gate 控制信息读写。残差状态支持 FP8 存储，大幅降低访存开销。 在 Embedding 方面，引入 51B 参数的 N-gram Embedding，利用局部上下文查表扩展模型容量。这些参数可卸载至 Host Memory，通过异步 Prefetch 与模型计算重叠，不长期占用 GPU 显存。 在 Optimization 方面，采用 Muon Optimizer，并针对正交化精度、参数分工及融合矩阵拆分等策略进行优化。针对新架构重新拟合了 Scaling Law。 性能与成本 相比 Qwen3.7-Plus，Qwen3.8-Flash 的训练成本仅约为前者的九分之一，但在编码和办公任务上具备更强能力。 在 6B 激活参数下，Qwen3.8-Flash-Next-Base 在 14 个 benchmark 中的 8 个上取得最优结果，包括 MMLU-Pro、SuperGPQA、BBH、SWEBench-Pretrain、MGSM 与 MMMU。 模型表现 纯文本： 多模态： 模型结构： Base 模型表现： 可用性与定价 IT之家从官方获悉，Qwen3.8-Flash 即将上线千问 AI 平台，对外提供 API 服务，定价为每百万 Tokens 输入 1 元、输出 3 元。 模型权重已于北京时间 8 月 26 日 23:00 在 Hugging Face 与 ModelScope 平台开源，同步发布 FP8 量化版本。Qwen3.8-Flash-Next 默认支持 1M 上下文并内置官方工具。 参考资料： 技术报告：https://github.com/ QwenLM / Qwen3.8-Flash-Next / blob / main / tech_report.pdf 技术博客：https://qwen.ai/ blog?id=qwen3.8-flash-next Hugging Face：https://huggingface.co/Qwen/Qwen3.8-Flash-Next?spm=a2ty_o06.30285417.0.0.1d73c921FsyOPe&amp;amp;amp;file=Qwen3.8-Flash-Next ModelScope：https://modelscope.cn/models/Qwen/Qwen3.8-Flash-Next?spm=a2ty_o06.30285417.0.0.1d73c921XAP2dV&amp;amp;amp;file=Qwen3.8-Flash-Next",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/b9918d75-2049-4b99-aae9-1c44ec0c5471.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-08-26T12:39:50.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/994/735.htm",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787749237675_22619ee1",
-      "title": "猪猪侠首部 AIGC 科幻冒险动画《猪猪侠之失控纪元》定档 8 月 28 日芒果 TV 独播",
-      "summary": "IT之家 8 月 26 日消息，猪猪侠官方微博宣布，猪猪侠首部 AIGC 科幻冒险动画 ——《猪猪侠之失控纪元》定档 8 月 28 日芒果 TV 独家播出。 突破经典全新升级，猪猪侠带领伙伴解锁科幻时空冒险新世界观。以陪伴为初心，以成长为内核，跟着猪猪侠开启一场热血又治愈的跨时空奇遇！",
-      "content": "IT之家 8 月 26 日消息，猪猪侠官方微博宣布，猪猪侠首部 AIGC 科幻冒险动画 ——《猪猪侠之失控纪元》定档 8 月 28 日芒果 TV 独家播出。 突破经典全新升级，猪猪侠带领伙伴解锁科幻时空冒险新世界观。以陪伴为初心，以成长为内核，跟着猪猪侠开启一场热血又治愈的跨时空奇遇！ IT之家查询获悉，本片将聚焦 AI 议题，讲述爱宠菜包离世后，猪猪侠选择用科技让它“回来”，却意外闯入十年后的失控未来的故事。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/a2ce5460-0dd9-443b-b568-9542b2ef9f62.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-08-26T12:25:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/994/731.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787749223907_cf685719",
-      "title": "大厂竞逐AI办公助手，蒙牛先跑出一个落地样本",
-      "summary": "大厂竞逐AI办公助手，蒙牛先跑出一个落地样本",
-      "content": "蒙牛让200名业务骨干自建AI应用。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-26T10:58:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8118009.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
