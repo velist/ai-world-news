@@ -1,32 +1,32 @@
 {
   "success": true,
-  "timestamp": "2026-08-29T06:28:50Z",
-  "total": 28,
+  "timestamp": "2026-08-29T16:30:58Z",
+  "total": 17,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1787984821337_ea0b6c37",
-      "title": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
-      "summary": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
-      "content": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
+      "id": "news_1788020960262_2b684b9d",
+      "title": "国家数据局：截至 7 月底，我国智算总规模达到 245 万 PFLOPS",
+      "summary": "IT之家 8 月 29 日消息，据新华社报道，8 月 29 日，国家数据局相关负责人在 2026 中国国际大数据产业博览会主题交流活动上表示，截至 2026 年 7 月底，全国智算总规模达 245 万 PFLOPS（FP16），八大国家算力枢纽和三个算电协同发展区已建成智算规模占全国比重超 85%，...",
+      "content": "IT之家 8 月 29 日消息，据新华社报道，8 月 29 日，国家数据局相关负责人在 2026 中国国际大数据产业博览会主题交流活动上表示，截至 2026 年 7 月底，全国智算总规模达 245 万 PFLOPS（FP16），八大国家算力枢纽和三个算电协同发展区已建成智算规模占全国比重超 85%，已有 145 万 PFLOPS 智能算力纳入国家级监测调度平台监测范围，算力资源集约化利用、一体化调度能力不断增强。 IT之家注：PFLOPS（PetaFLOPS）代表每秒执行 1000 万亿次浮点运算。 下一步，国家数据局将继续优化算力布局提升供给能力，强化监测调度提高利用效率，深化算电协同，培育产业生态，全面推动算力高质量发展。 此外，国家数据发展研究院院长胡坚波 28 日在 2026 中国国际大数据产业博览会开幕式上表示，智能体应用带动词元服务加速发展。2025 年，我国智能体专利授权量超过 3400 件，增速是上一年的两倍以上，创新步伐明显加快。 相关阅读： 《2025 年我国智能体专利授权量超过 3400 件，增速是上一年两倍以上》",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-29T13:19:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/3R8f57Bow3B4kEBkPv5J?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "IT之家",
+      "publishedAt": "2026-08-29T14:08:47.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/996/044.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787984822091_c508ca02",
-      "title": "Agent 时代，为什么有人开始重新造 Google？",
-      "summary": "Agent 时代，为什么有人开始重新造 Google？",
-      "content": "Agent 时代，为什么有人开始重新造 Google？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-29T12:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/KbbHdAQFxQM7AJIYMLqR?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1788020960275_7902186c",
+      "title": "Anthropic 揭示“AI 训练 AI”新方法，比人类研究员成本更低、速度更快",
+      "summary": "IT之家 8 月 29 日消息，用 AI 模型训练其他 AI 模型，正成为新一代 AI 实验室重点探索的方向。当地时间 28 日，Anthropic 研究员计划的一名研究人员展示了这种思路真正落地后可能呈现的样子。",
+      "content": "IT之家 8 月 29 日消息，用 AI 模型训练其他 AI 模型，正成为新一代 AI 实验室重点探索的方向。当地时间 28 日，Anthropic 研究员计划的一名研究人员展示了这种思路真正落地后可能呈现的样子。 Anthropic 发布了最新论文《自动化研究员能够可靠缓解对齐失效》，介绍如何利用 AI 系统改善模型在一系列对齐基准测试中的表现。研究团队针对 10 种具体的失调行为设置测试，自动化系统最终让全部 10 项指标都有所改善，同时没有牺牲模型的整体能力。 这套系统由 Anthropic 研究员计划成员陈岳翰（音译）领导开发，工作流程与传统科研相似。自动化系统会先查阅已有文献，提出训练方法，再按照方案训练模型 30 分钟，并通过多轮尝试逐步提高测试成绩。有效方案会留下，无效方案则被淘汰，使整个研究过程能够快速扩大规模。 论文指出，总体来看，这些结果初步证明，自动化对齐后训练有望在近期成为一种真正可行的方法。 这项研究也向递归自我改进迈出了一步，而许多人把递归自我改进视为 AI 发展的下一个重要阶段。如果 AI 模型能够改进自身的对齐训练方法，那么进一步改进更广泛的训练流程也并非没有可能。到了那一步，人类 AI 研究人员甚至可能逐渐失去存在的必要。 论文也直接比较了自动化对齐研究员（AAR）和人类研究人员的表现：“最优秀的 AAR 方法平均只需 6 小时，就能超过经验丰富的人类研究人员提出的方案。人类引导的研究方向，并不会导致更强的表现。” 成本差距同样明显。“AAR 每小时只需要大约 4 美元（IT之家注：现汇率约合 27 元人民币）的 API 推理成本，而我们支付给人类研究人员的费用是每小时 150 美元（现汇率约合 1,011 元人民币）。” 不过这套方法仍有明显限制。自动化系统的效果首先取决于基准测试能否准确反映真正的对齐目标，即使测试本身可靠，建立和长期维护这些基准仍需要大量投入。自动化研究员依赖的研究文献同样需要持续维护和扩充。 参考 Automated researchers can reliably mitigate alignment failures",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/cea6ae3a-35f7-4d7b-b5dc-6c6060f5afe3.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-08-29T13:25:27.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/996/038.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787984816261_e337c916",
@@ -89,18 +89,6 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787984822765_7545e95c",
-      "title": "下一层抽象：从UX角度思考Agentic OS的样貌",
-      "summary": "下一层抽象：从UX角度思考Agentic OS的样貌",
-      "content": "下一层抽象：从UX角度思考Agentic OS的样貌",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T18:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/c4zPz7WHXryL5Erw7xop?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1787912787249_ae6e187d",
       "title": "腾讯混元 Hy4 preview 开源，参与“训练自己”！WorkBuddy实测：有了小型团队交付实力，但还得有人盯",
       "summary": "腾讯混元 Hy4 preview 开源，参与“训练自己”！WorkBuddy实测：有了小型团队交付实力，但还得有人盯...",
@@ -113,30 +101,6 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787984823669_beb9dae9",
-      "title": "大模型和硬件之间，长出了一层新生意",
-      "summary": "大模型和硬件之间，长出了一层新生意",
-      "content": "大模型和硬件之间，长出了一层新生意",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T15:57:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/IROW9KWVs4zSCByU8wQE?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787984823886_49a7ff08",
-      "title": "2026年中国企业AI转型洞察报告",
-      "summary": "2026年中国企业AI转型洞察报告",
-      "content": "2026年中国企业AI转型洞察报告",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T15:53:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/minibook/oYXpDApcpvvgHIOzIOXp?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1787954302169_93c6ee2a",
       "title": "OpenAI 开发“持久模式”智能体，Codex 将能够主动、长时间干活",
       "summary": "IT之家 8 月 28 日消息，当地时间 27 日，据《连线》杂志报道，OpenAI 在开发一种更主动、能够长时间持续工作的 Codex，希望让旗舰 AI 智能体不再局限于等待用户下达任务。",
@@ -147,18 +111,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/995/818.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787984824346_9e42a147",
-      "title": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
-      "summary": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
-      "content": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T15:36:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/A0CMcU7UVsMQreKPcKOw?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787954302198_484bb574",
@@ -183,30 +135,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/995/807.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787984824784_9aab7034",
-      "title": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
-      "summary": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
-      "content": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T14:20:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/REPGvBlF661I4hRmvV8J?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787984825214_3c1e3a9a",
-      "title": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "summary": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "content": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T14:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/JDYKJmiY9vTRSw47t15a?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787912795332_cd4dd605",
@@ -245,7 +173,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787984808664_0",
+      "id": "news_1788020937230_0",
       "title": "AI can help with tutoring, but it can’t replace your tutor, study says",
       "summary": "Artificial intelligence programs might know more than your average regular tutor, and they can definitely help kids improve their learning when they’r...",
       "content": "Artificial intelligence programs might know more than your average regular tutor, and they can definitely help kids improve their learning when they’re being tutored, but a new study finds that they can’t replace the tutor by themselves. It’s another... [3330 chars]",
@@ -257,7 +185,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1787984807547_1",
+      "id": "news_1788020934433_1",
       "title": "OpenAI and 100 others warn that window to defend against AI attacks is narrowing",
       "summary": "SAN FRANCISCO — A wave of cyberattacks driven by artificial intelligence is coming, and companies have a narrow window to defend themselves.\nThat was ...",
       "content": "SAN FRANCISCO — A wave of cyberattacks driven by artificial intelligence is coming, and companies have a narrow window to defend themselves.\nThat was the message of an open letter published Thursday by OpenAI and more than 100 major technology compan... [2677 chars]",
@@ -279,66 +207,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.nbcnews.com/tech/security/major-tech-companies-call-defensive-surge-defeat-ai-driven-hacks-rcna594780",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1787819134375_c2f52dce",
-      "title": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor",
-      "summary": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor...",
-      "content": "Azure DevOps Remote MCP 服务器正式发布，暂不支持 Claude、ChatGPT 及 Cursor",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-27T15:27:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/SvTBvljtvGctvWPQRqr7?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787819135375_377cdec6",
-      "title": "非结构化数据的结构化处理：基于 Snowflake Cortex AI Functions | 技术实践",
-      "summary": "非结构化数据的结构化处理：基于 Snowflake Cortex AI Functions | 技术实践...",
-      "content": "非结构化数据的结构化处理：基于 Snowflake Cortex AI Functions | 技术实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-27T14:02:54.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Xw6Nlqq7N2J0CKA0ehx8?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787868120941_88c530d8",
-      "title": "AI办公之争：腾讯、阿里、字节在牌桌上亮出的第一张牌，是各自的组织架构",
-      "summary": "AI办公、组织架构 、腾讯WorkBuddy、阿里千问办公 、字节豆包、飞书、AI产品 、组织变革、互联网巨头...",
-      "content": "AI办公、组织架构 、腾讯WorkBuddy、阿里千问办公 、字节豆包、飞书、AI产品 、组织变革、互联网巨头",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-27T10:20:43.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8118691.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787868121389_bccc43ce",
-      "title": "874亿，全球最大AI开源社区要卖了",
-      "summary": "874亿，全球最大AI开源社区要卖了",
-      "content": "AI圈的“GitHub”要卖了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-27T10:20:36.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8118864.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787868121851_c1b09c00",
-      "title": "China's Tech Giants Pour Billions in AI Infrastructure in Q2",
-      "summary": "When Chinese cloud providers’ ROIC is only 13%–20%, while their U.S. peers across the ocean can earn 25%–50%, in what form will the gap in returns on ...",
-      "content": "When Chinese cloud providers’ ROIC is only 13%–20%, while their U.S. peers across the ocean can earn 25%–50%, in what form will the gap in returns on AI computing-power investment between China and the United States ultimately converge?",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-27T09:20:06.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8119172.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
