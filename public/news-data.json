@@ -1,9 +1,21 @@
 {
   "success": true,
-  "timestamp": "2026-08-29T16:30:58Z",
-  "total": 17,
+  "timestamp": "2026-08-30T04:39:19Z",
+  "total": 23,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1788064646356_63a3f94c",
+      "title": "谁在给 AI 付账单：八大科技巨头的万亿投注版图",
+      "summary": "谁在给 AI 付账单：八大科技巨头的万亿投注版图",
+      "content": "有人当金主，有人造铲子，有人守入口——谁在为这场万亿AI赌局买单？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-30T01:34:35.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8121824.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1788020960262_2b684b9d",
       "title": "国家数据局：截至 7 月底，我国智算总规模达到 245 万 PFLOPS",
@@ -27,6 +39,30 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/0/996/038.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788064649844_ea0b6c37",
+      "title": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
+      "summary": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
+      "content": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-29T13:19:17.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/3R8f57Bow3B4kEBkPv5J?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788064650328_c508ca02",
+      "title": "Agent 时代，为什么有人开始重新造 Google？",
+      "summary": "Agent 时代，为什么有人开始重新造 Google？",
+      "content": "Agent 时代，为什么有人开始重新造 Google？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-29T12:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/KbbHdAQFxQM7AJIYMLqR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787984816261_e337c916",
@@ -89,6 +125,18 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1788064650793_7545e95c",
+      "title": "下一层抽象：从UX角度思考Agentic OS的样貌",
+      "summary": "下一层抽象：从UX角度思考Agentic OS的样貌",
+      "content": "下一层抽象：从UX角度思考Agentic OS的样貌",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-28T18:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/c4zPz7WHXryL5Erw7xop?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1787912787249_ae6e187d",
       "title": "腾讯混元 Hy4 preview 开源，参与“训练自己”！WorkBuddy实测：有了小型团队交付实力，但还得有人盯",
       "summary": "腾讯混元 Hy4 preview 开源，参与“训练自己”！WorkBuddy实测：有了小型团队交付实力，但还得有人盯...",
@@ -101,6 +149,30 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1788064651786_beb9dae9",
+      "title": "大模型和硬件之间，长出了一层新生意",
+      "summary": "大模型和硬件之间，长出了一层新生意",
+      "content": "大模型和硬件之间，长出了一层新生意",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-28T15:57:35.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/IROW9KWVs4zSCByU8wQE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788064652007_49a7ff08",
+      "title": "2026年中国企业AI转型洞察报告",
+      "summary": "2026年中国企业AI转型洞察报告",
+      "content": "2026年中国企业AI转型洞察报告",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-28T15:53:42.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/minibook/oYXpDApcpvvgHIOzIOXp?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1787954302169_93c6ee2a",
       "title": "OpenAI 开发“持久模式”智能体，Codex 将能够主动、长时间干活",
       "summary": "IT之家 8 月 28 日消息，当地时间 27 日，据《连线》杂志报道，OpenAI 在开发一种更主动、能够长时间持续工作的 Codex，希望让旗舰 AI 智能体不再局限于等待用户下达任务。",
@@ -111,6 +183,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/0/995/818.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788064652440_9e42a147",
+      "title": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
+      "summary": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
+      "content": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-28T15:36:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/A0CMcU7UVsMQreKPcKOw?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787954302198_484bb574",
@@ -135,6 +219,30 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/995/807.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788064652890_9aab7034",
+      "title": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
+      "summary": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
+      "content": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-28T14:20:17.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/REPGvBlF661I4hRmvV8J?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788064653343_3c1e3a9a",
+      "title": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
+      "summary": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
+      "content": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-28T14:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/JDYKJmiY9vTRSw47t15a?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1787912795332_cd4dd605",
@@ -171,42 +279,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8120746.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788020937230_0",
-      "title": "AI can help with tutoring, but it can’t replace your tutor, study says",
-      "summary": "Artificial intelligence programs might know more than your average regular tutor, and they can definitely help kids improve their learning when they’r...",
-      "content": "Artificial intelligence programs might know more than your average regular tutor, and they can definitely help kids improve their learning when they’re being tutored, but a new study finds that they can’t replace the tutor by themselves. It’s another... [3330 chars]",
-      "imageUrl": "https://wtop.com/wp-content/uploads/2023/10/Education_Financial_Literacy_50017-scaled.jpg",
-      "source": "WTOP",
-      "publishedAt": "2026-08-27T20:51:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://wtop.com/local/2026/08/ai-can-help-with-tutoring-but-it-cant-replace-your-tutor-study-says/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1788020934433_1",
-      "title": "OpenAI and 100 others warn that window to defend against AI attacks is narrowing",
-      "summary": "SAN FRANCISCO — A wave of cyberattacks driven by artificial intelligence is coming, and companies have a narrow window to defend themselves.\nThat was ...",
-      "content": "SAN FRANCISCO — A wave of cyberattacks driven by artificial intelligence is coming, and companies have a narrow window to defend themselves.\nThat was the message of an open letter published Thursday by OpenAI and more than 100 major technology compan... [2677 chars]",
-      "imageUrl": "https://www.pressdemocrat.com/wp-content/uploads/2026/08/unnamed-file-1764_2f7d05.jpg?w=2000&h=1333",
-      "source": "Santa Rosa Press Democrat",
-      "publishedAt": "2026-08-27T20:29:59.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.pressdemocrat.com/2026/08/27/openai-and-100-others-warn-that-window-to-defend-against-ai-attacks-is-narrowing-2/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1787954279391_2",
-      "title": "Major tech companies call for defensive surge to defeat AI-driven hacks",
-      "summary": "Major tech companies including OpenAI, Anthropic, Microsoft, Alphabet and Amazon are calling for a society-wide defensive surge to defeat what they de...",
-      "content": "Major tech companies including OpenAI, Anthropic, Microsoft, Alphabet and Amazon are calling for a society-wide defensive surge to defeat what they describe as an impending wave of hacks driven by artificial intelligence.\nIn a joint letter issued Thu... [1073 chars]",
-      "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-04/260430-openai-rs-4b7945.jpg",
-      "source": "NBC News",
-      "publishedAt": "2026-08-27T20:04:22.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.nbcnews.com/tech/security/major-tech-companies-call-defensive-surge-defeat-ai-driven-hacks-rcna594780",
-      "aiInsight": ""
     }
   ]
 }
