@@ -1,9 +1,69 @@
 {
   "success": true,
-  "timestamp": "2026-08-30T16:24:01Z",
-  "total": 16,
+  "timestamp": "2026-08-31T04:43:27Z",
+  "total": 22,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1788151295573_bb76f75b",
+      "title": "长鑫存储起诉美国防部；Anthropic面试流程曝光，额度明升暗降引众怒；网易推出带薪“宠物陪护假” | AI周报",
+      "summary": "长鑫存储起诉美国防部；Anthropic面试流程曝光，额度明升暗降引众怒；网易推出带薪“宠物陪护假” | AI周报...",
+      "content": "长鑫存储起诉美国防部；Anthropic面试流程曝光，额度明升暗降引众怒；网易推出带薪“宠物陪护假” | AI周报",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-31T10:20:53.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/8Ot7gRMNDMICpCW2Rk34?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788151302005_44242ca8",
+      "title": "腾讯混元：Hy4 preview 调用激增，WorkBuddy 已紧急扩容",
+      "summary": "IT之家 8 月 31 日消息，腾讯混元今日发文称，自 2026 年 8 月 28 日混元 Hy4 preview 在 WorkBuddy 首发接入以来，凭借其 Agent 能力的显著提升，受到了广大用户与开发者的积极体验和热情反馈，上线首日即在 WorkBuddy 任务队列中出现排队情况，对此深表...",
+      "content": "IT之家 8 月 31 日消息，腾讯混元今日发文称，自 2026 年 8 月 28 日混元 Hy4 preview 在 WorkBuddy 首发接入以来，凭借其 Agent 能力的显著提升，受到了广大用户与开发者的积极体验和热情反馈，上线首日即在 WorkBuddy 任务队列中出现排队情况，对此深表歉意。 公告显示，为保障用户的使用体验，腾讯混元已针对 Hy4 preview 推理集群进行紧急扩容，并将持续动态调配资源。但受限于高端算力总量与高峰并发集中，仍不排除个别时段会继续出现排队情况。 如遇到排队，建议用户可以考虑如下过渡方案： 切换到 Hy3 等其他模型继续使用：Hy3 当前 WorkBuddy 限免将延长至 2026 年 9 月 30 日 23:59 。 非紧急需求错峰在晚间时段使用。 关于 Hy4 preview 限免的两点说明： 每日免费额度有限：Hy4 preview 限免至 9 月 10 日 23:59 ，因资源有限，期间平台对每位用户分配了每日免费额度。触发限频后，页面会提示重置恢复时间。 Hy4 preview 为大语言模型，暂不具备图像 / 视频等多模态生成能力。当你在 WorkBuddy 里发起生图、视频等多模态任务时，系统会自动切换到其他多模态模型执行，该部分按正常规则消耗积分，不占用 Hy4 preview 免费额度。 IT之家注意到，腾讯官方 8 月 28 日发布了 Hy4 preview，总参数 770 B，激活参数 49 B，上下文长度 1M。官方表示，Hy4 preview 在模型尺寸、上下文长度、数据规模上都进行了显著的扩展，预训练和后训练的共同进步带来了智能水平的又一次巨大提升，稳居开源模型第一梯队。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/f54c1531-95b6-4997-b375-05d7cd2a915b.png",
+      "source": "IT之家",
+      "publishedAt": "2026-08-31T04:22:39.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/996/414.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788151291990_cca70712",
+      "title": "AI 牌桌，阿里 800 亿押的是什么",
+      "summary": "AI 牌桌，阿里 800 亿押的是什么",
+      "content": "AI 重塑了流量入口格局，而阿里也要对手牌重新排序。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-31T02:34:07.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8122266.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788151292196_c3a3ae8d",
+      "title": "大模型领域跑出新玩家，StartLux-27B本地大模型打赢DeepSeek V4 Flash",
+      "summary": "大模型领域跑出新玩家，StartLux-27B本地大模型打赢DeepSeek V4 Flash",
+      "content": "本地大模型上牌桌，性能正面硬刚DeepSeek。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-31T02:04:43.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8122427.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788151292911_bb8142e9",
+      "title": "Alibaba Launches AI Song Generator HappyShrimp, Echoing Old Xiami Brand",
+      "summary": "Alibaba has released HappyShrimp 1.0, an AI model that converts natural-language prompts into complete songs, and paired the launch with a partnership...",
+      "content": "Alibaba has released HappyShrimp 1.0, an AI model that converts natural-language prompts into complete songs, and paired the launch with a partnership involving Taihe Music Group. The product draws on branding linked to the former Xiami streaming service, which shut down in 2021, as the company expands its consumer generative-AI offerings.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-08-31T01:27:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8122395.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1788106935734_a0bd9fff",
       "title": "消息称字节跳动豆包大模型 2.2 将推迟发布，原计划 8 月推出",
@@ -15,6 +75,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/996/239.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788151285129_0",
+      "title": "This may be the first academic profession to see its work taken over by AI",
+      "summary": "In early August, top mathematicians gathered at the offices of ChatGPT maker OpenAI in San Francisco for a summit on an existential question: What wil...",
+      "content": "In early August, top mathematicians gathered at the offices of ChatGPT maker OpenAI in San Francisco for a summit on an existential question: What will be left for human math experts to do if artificial intelligence soon leaves them all behind?\n“I th... [9990 chars]",
+      "imageUrl": "https://www.inquirer.com/resizer/v2/RWVBO6HGOF6A3ZXCFDEBILDAKQ.jpg?auth=f492c9d7e806a2251472a55c846497ca17d1aeae8d5c75f7e219391815ce63da&width=760&height=507&smart=true",
+      "source": "The Philadelphia Inquirer",
+      "publishedAt": "2026-08-30T11:30:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.inquirer.com/business/math-ai-human-mathematicians-jobs-20260830.html",
+      "aiInsight": ""
     },
     {
       "id": "news_1788106925647_616f880b",
@@ -65,6 +137,30 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1788151295961_ea0b6c37",
+      "title": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
+      "summary": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
+      "content": "一句话找图，低清图再增强：HarmonyOS7 视觉 AI 如何走进真实应用",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-29T13:19:17.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/3R8f57Bow3B4kEBkPv5J?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788151296325_c508ca02",
+      "title": "Agent 时代，为什么有人开始重新造 Google？",
+      "summary": "Agent 时代，为什么有人开始重新造 Google？",
+      "content": "Agent 时代，为什么有人开始重新造 Google？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-29T12:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/KbbHdAQFxQM7AJIYMLqR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1787984816261_e337c916",
       "title": "273号文最大的溢出效应：AI随访成「刚需」",
       "summary": "随访病种扩围、复杂度上升，AI可承接工作量数倍放大。这四类玩家已就位，但铺区县只是门票，专科纵深与支付闭环才是分水岭。",
@@ -101,31 +197,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1787984830148_4e601386",
-      "title": "智谱开源 GLM-5.3 模型权重，主打智能体编程与网络防御",
-      "summary": "IT之家 8 月 29 日消息，智谱官方昨晚宣布开源 GLM-5.3 模型权重，已正式开放下载，支持本地运行与个性化定制。该模型擅长复杂编码、防御性网络安全以及长程任务。 智谱 Z.ai 负责人李子玄表示，该模型使用需要遵循 GLM-5.3 许可协议，支持本地部署、模型微调及商业化使用。",
-      "content": "IT之家 8 月 29 日消息，智谱官方昨晚宣布开源 GLM-5.3 模型权重，已正式开放下载，支持本地运行与个性化定制。该模型擅长复杂编码、防御性网络安全以及长程任务。 智谱 Z.ai 负责人李子玄表示，该模型使用需要遵循 GLM-5.3 许可协议，支持本地部署、模型微调及商业化使用。仅当年营业额超过 100 亿美元（现汇率约合 674.21 亿元人民币）的机构拟将 GLM-5.3 作为外部模型服务对外提供时，才必须进行安全审查。 鉴于该模型在网络安全方面具备先进能力，我们在公开发布模型权重之前，专门追加了两周全面的安全评估。 根据官方此前公布的数据，GLM-5.3 在全球权威的 Artificial Analysis Intelligence Index（AA 综合智能指数）中取得 60 分，进入全球前沿模型能力区间，与 Claude Fable 5、GPT-5.6 Sol 等闭源旗舰模型处于同一水平，并与 Kimi K3 并列开源模型第一。 ▲ AA 指数覆盖知识、推理、编码、智能体等多项评测，衡量模型在真实复杂任务中的综合能力 在达到同档智能水平的同时，GLM-5.3 以更小的参数规模与更低的调用成本，显著降低了前沿模型能力的使用门槛。 IT之家附开源链接： HuggingFace：https://huggingface.co/zai-org/GLM-5.3 ModelScope：https://modelscope.cn/models/ZhipuAI/GLM-5.3/ 相关阅读： 《智谱正式发布 GLM-5.3：编程能力最强开源模型，较 GLM-5.2 提升 50%》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/76d8306b-6b64-4b92-bd9f-45b43fd59356.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-08-29T04:31:21.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/0/995/896.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1787984830213_395fa2b3",
-      "title": "国家数据局：全国已建成高质量数据集超 12.6 万个，总体量超 1815PB",
-      "summary": "IT之家 8 月 29 日消息，据央视新闻昨日报道，2026 中国国际大数据产业博览会正在贵州贵阳举行。国家数据局相关负责人表示，全国已建成高质量数据集超 12.6 万个，为人工智能发展提供支撑。",
-      "content": "IT之家 8 月 29 日消息，据央视新闻昨日报道，2026 中国国际大数据产业博览会正在贵州贵阳举行。国家数据局相关负责人表示，全国已建成高质量数据集超 12.6 万个，为人工智能发展提供支撑。 高质量数据集，是指经过采集、加工等数据处理，可直接用于开发和训练人工智能模型、能有效提升模型性能的数据的集合。 国家数据局最新数据显示，截至今年 8 月，全国已建成高质量数据集超过 12.6 万个，总体量超过 1815PB（IT之家注：1PB=1024TB），较今年一季度末大幅增长超 89%。 国家数据集管理服务系统自今年 4 月上线以来，已发布数据集超 1700 个，我国数据供给规模不断提升。 此外，本届数博会首次举办“数据集市”，95 家数据企业带来精品数据产品 253 个，进一步促进供数方和用数方的精准对接。",
+      "id": "news_1788151296741_7545e95c",
+      "title": "下一层抽象：从UX角度思考Agentic OS的样貌",
+      "summary": "下一层抽象：从UX角度思考Agentic OS的样貌",
+      "content": "下一层抽象：从UX角度思考Agentic OS的样貌",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-08-29T03:59:25.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/995/893.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "InfoQ中文",
+      "publishedAt": "2026-08-28T18:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/c4zPz7WHXryL5Erw7xop?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788106929937_ae6e187d",
+      "id": "news_1788151297096_ae6e187d",
       "title": "腾讯混元 Hy4 preview 开源，参与“训练自己”！WorkBuddy实测：有了小型团队交付实力，但还得有人盯",
       "summary": "腾讯混元 Hy4 preview 开源，参与“训练自己”！WorkBuddy实测：有了小型团队交付实力，但还得有人盯...",
       "content": "腾讯混元 Hy4 preview 开源，参与“训练自己”！WorkBuddy实测：有了小型团队交付实力，但还得有人盯",
@@ -137,7 +221,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788106930318_beb9dae9",
+      "id": "news_1788151297513_beb9dae9",
       "title": "大模型和硬件之间，长出了一层新生意",
       "summary": "大模型和硬件之间，长出了一层新生意",
       "content": "大模型和硬件之间，长出了一层新生意",
@@ -149,7 +233,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788106930487_49a7ff08",
+      "id": "news_1788151297674_49a7ff08",
       "title": "2026年中国企业AI转型洞察报告",
       "summary": "2026年中国企业AI转型洞察报告",
       "content": "2026年中国企业AI转型洞察报告",
@@ -161,7 +245,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788106930863_9e42a147",
+      "id": "news_1788151298018_9e42a147",
       "title": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
       "summary": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
       "content": "规模化 AI 代码审查：LinkedIn 的多智能体方案",
@@ -173,7 +257,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788106931214_9aab7034",
+      "id": "news_1788151298382_9aab7034",
       "title": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
       "summary": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
       "content": "从方案走向运行｜世界人工智能开源大赛（GOAI）复赛作品提交正式开启",
@@ -183,18 +267,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/REPGvBlF661I4hRmvV8J?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788106931563_3c1e3a9a",
-      "title": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "summary": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "content": "Cloudflare 发布 Kitesurf，一款面向 AI 智能智能体的浏览器引擎",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-28T14:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/JDYKJmiY9vTRSw47t15a?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
