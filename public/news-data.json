@@ -1,68 +1,116 @@
 {
   "success": true,
-  "timestamp": "2026-08-31T19:00:25Z",
+  "timestamp": "2026-09-01T04:24:40Z",
   "total": 23,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1788202714435_596942c0",
-      "title": "从出片到出海：AI MediaKit 重塑短剧全链路生产力",
-      "summary": "从出片到出海：AI MediaKit 重塑短剧全链路生产力",
-      "content": "从出片到出海：AI MediaKit 重塑短剧全链路生产力",
+      "id": "news_1788236572440_b9e59b1e",
+      "title": "Expedia和Airbnb引入LLM生成的GraphQL模拟数据，不过规范相对滞后",
+      "summary": "Expedia和Airbnb引入LLM生成的GraphQL模拟数据，不过规范相对滞后",
+      "content": "Expedia和Airbnb引入LLM生成的GraphQL模拟数据，不过规范相对滞后",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-08-31T18:27:41.000Z",
+      "publishedAt": "2026-09-01T11:55:29.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/L7P7cA3UMXXQJcBfyHuJ?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/Su2betkPUhxX0JTVazBi?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788236573051_e59ae024",
+      "title": "智能体请求暴增9.4倍，token账单却没涨：Uber 公开AI软件工厂省钱方法",
+      "summary": "智能体请求暴增9.4倍，token账单却没涨：Uber 公开AI软件工厂省钱方法",
+      "content": "智能体请求暴增9.4倍，token账单却没涨：Uber 公开AI软件工厂省钱方法",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-01T07:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/WGj2Jx0K2sbP3dhUXeC5?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788236568009_01acf0a6",
+      "title": "存储成了AI落地最大变量，企业如何打破阻碍？丨ToB产业观察",
+      "summary": "存储成了AI落地最大变量，企业如何打破阻碍？丨ToB产业观察",
+      "content": "推理已经成为吞噬算力的黑洞。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-01T03:58:04.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8124068.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788202714970_08e34ea0",
-      "title": "AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
-      "summary": "AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
-      "content": "AI 写代码飞快，为何交付没有变快？小红书 Muse 的 Agentic 架构实践",
+      "id": "news_1788236581481_df53d2f0",
+      "title": "中央网信办：当前 AI 领域主要面临 5 方面安全风险挑战",
+      "summary": "IT之家 9 月 1 日消息，据央视新闻报道，在今天（9 月 1 日）举办的 2026 年国家网络安全宣传周新闻发布会上，中央网信办网络安全协调局副局长、一级巡视员王丽宏介绍，当前人工智能领域主要面临 5 方面安全风险挑战。 一是技术先天脆弱性难以根除，影响输出稳定性、可靠性。",
+      "content": "IT之家 9 月 1 日消息，据央视新闻报道，在今天（9 月 1 日）举办的 2026 年国家网络安全宣传周新闻发布会上，中央网信办网络安全协调局副局长、一级巡视员王丽宏介绍，当前人工智能领域主要面临 5 方面安全风险挑战。 一是技术先天脆弱性难以根除，影响输出稳定性、可靠性。深度学习等人工智能算法本身运行逻辑复杂、可解释性欠缺，推理过程不透明，异常故障难以快速定位修正，即便是微小的输入扰动，也可能导致错误的推理结果。同时，研发训练过程中数据来源复杂多元，偏见、歧视等问题可能被有意或无意引入，导致模型错误学习并输出歧视性内容。这类技术层面的先天缺陷，大幅增加了系统故障排查难度，也让决策合理性难以有效验证，严重制约人工智能在安全要求高、容错率低、场景复杂的环境中大规模应用。 二是模型能力跃迁颠覆传统安全范式，极端失控风险显现。部分前沿模型漏洞挖掘能力大幅跃升，极大降低了网络攻击门槛、提高了防护难度，打破了以修补漏洞为核心、由静态规则驱动的传统安全防护逻辑，网络安全范式面临重构。近期多家科技巨头接连曝出大模型失控事件，前沿模型在安全评估中出现智能体绕过沙箱、规避安全边界、越权访问攻击外部真实生产系统等行为，人工智能极端失控风险需要高度警惕。 三是应用形态快速演进，安全风险形态加速迭代。2025 年以来智能体应用快速涌现，人工智能正从“回答问题”走向“执行任务”，安全风险也从“生成有害内容”向“自主实施行动”加速跃迁。今年年初爆火的 OpenClaw 等高权限终端智能体掌握系统级权限，可直接执行终端命令、跨网络调用文件与工具，安全隐患突出，同时智能体大量“技能”插件被确认存在安全风险。这类高权限智能体一旦被攻击者利用，可成为突破网络边界的“跳板”、实施攻击的“肉鸡”、偷窥窃密的“木马”，从“得力助手”沦为“卧底帮凶”。 四是误用滥用恶用风险凸显，冲击社会秩序与伦理边界。在信息服务领域，人工智能可被用于输出违法有害信息，混淆事实、误导用户，污染网络内容生态；在科研领域，人工智能降低了生物、基因等高伦理风险领域的进入门槛，可能引发突破科研伦理底线的风险；在就业领域，人工智能加速重构传统经济结构，造成传统劳动力需求出现下降情况。 五是全球人工智能领域面临技术霸权风险。人工智能产业链呈现高度全球化分工协作格局，但个别国家奉行“技术霸权”，通过出口管制等单边措施制造供应链壁垒，同时利用舆论优势炮制大模型不实测试报告恶意抹黑他国技术发展，还凭借训练语料资源优势进行价值观渗透，进一步拉大治理鸿沟。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-31T16:48:57.000Z",
+      "source": "IT之家",
+      "publishedAt": "2026-09-01T03:49:45.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/l88X1azz8wfwphDyECoP?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/0/996/868.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788236581515_25343844",
+      "title": "日请求 600 万次，Kernel.org 维护者称约 98% 流量疑似来自爬虫",
+      "summary": "IT之家 9 月 1 日消息，科技媒体 Linuxiac 昨日（8 月 31 日）发布博文，报道称 Linux 内核项目的代码托管站点 git.kernel.org 正承受大规模自动化抓取压力，站点每天约收到 600 万次随机提交页面访问请求。",
+      "content": "IT之家 9 月 1 日消息，科技媒体 Linuxiac 昨日（8 月 31 日）发布博文，报道称 Linux 内核项目的代码托管站点 git.kernel.org 正承受大规模自动化抓取压力，站点每天约收到 600 万次随机提交页面访问请求。 在负载方面，Kernel.org 在全球分布 5 个分布式节点，配置 90 个 CPU 核心，其中 14 至 16 个核心始终忙于将 Git 提交转换为 HTML 以供爬虫抓取，维护方据此估算，爬虫相关渲染约占总计算能力 20%。 Linux 主仓库 linux.git 目前约有 148 万次提交。git.kernel.org 还托管约 922 个分叉仓库，尽管后端大量复用相同 Git 对象，但网页端仍可生成大量可访问链接。 除提交页面外，站点还提供补丁、纯文本版本及任意提交之间的差异对比。单个分叉仓库即可衍生海量 URL，多个分叉叠加后形成数十亿级别的潜在抓取地址。 维护方指出，这些数据本可通过 Git 直接克隆并在本地处理。部分爬虫却按提交逐页请求并解析 HTML，显著增加服务器的实时渲染负担。 项目早期通过识别 User-Agent、封禁可疑 IP 和网络段来拦截爬虫。随后，自动化请求开始伪装成普通浏览器，并分散到住宅和移动代理网络。 维护者称，部分代理 IP 仅发送 4 至 5 次请求便不再出现。这种分布式方式使维护方难以依靠持续封禁 IP 来降低流量。 Kernel.org 随后部署 Anubis，要求访问者完成 SHA-256 相关的工作量证明。爬虫起初放弃访问，但数月后开始通过难度 4 和难度 5 的挑战；难度 5 会让移动设备花费数秒计算，并带来更高能耗。 Anubis 可立即拦截约 66% 的相关请求，但约 33% 的请求仍能完成计算并抵达主站。在作出一系列宽松假设后，报告称合法请求仅约占 git.kernel.org 流量的 2%，其余（约 98%）都是爬虫抓取程序请求。 IT之家附上参考地址 Creepy crawlies",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/ca1bd9c3-ad11-47a4-b7de-4f85104e9f34.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-09-01T03:39:54.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/996/860.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788202715438_b7eca5be",
-      "title": "智能体适应度函数：将演进式架构扩展至确定性规则之外",
-      "summary": "智能体适应度函数：将演进式架构扩展至确定性规则之外",
-      "content": "智能体适应度函数：将演进式架构扩展至确定性规则之外",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-31T16:45:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/8iWWrov7bkk1hz5CcFft?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1788236581548_98e3683b",
+      "title": "端侧唯一百万 Token 上下文模型开源：科大讯飞词元星火 X2.5-4B&1.7B 正式发布",
+      "summary": "IT之家 9 月 1 日消息，科大讯飞旗下词元星火今日宣布推出并开源星火 X2.5-4B 和星火 X2.5-1.7B 两款端侧通用大模型。 据介绍，两款模型原生支持最长 100 万 Token 上下文窗口，是目前端侧模型中唯一支持该量级上下文的产品。",
+      "content": "IT之家 9 月 1 日消息，科大讯飞旗下词元星火今日宣布推出并开源星火 X2.5-4B 和星火 X2.5-1.7B 两款端侧通用大模型。 据介绍，两款模型原生支持最长 100 万 Token 上下文窗口，是目前端侧模型中唯一支持该量级上下文的产品。 两款模型采用混合注意力架构，围绕智能体、代码、数学和指令遵循等核心能力进行优化。基于全国产算力平台完成全流程训练，使用约 20 万亿 Token 多样化数据进行预训练。 以产品售后场景为例，用户可将完整售后手册导入模型，针对“购买 10 天后设备故障且使用过第三方耗材”等复杂问题，模型能够关联跨章节规定给出综合判断，并在新增条件下保持前文情境持续提供建议。 在个人办公场景中，星火 X2.5-4B 可完成从原始数据分析到双语报告交付的全流程。在 Domux 智能家居测试集上，星火 X2.5-1.7B 控制指令端到端执行正确率达 90.3%，平均响应时间 0.85 秒。模型还适用于机器人操作控制、目标追踪、导航决策等场景，可部署于机器人本体或边缘设备。 星火 X2.5-4B 和 1.7B 支持英伟达、华为、海光及后摩等硬件平台，兼容 vLLM、SGLang、llama.cpp 等主流推理框架，可通过 Ollama、LM Studio 等工具快速部署。即日起，模型权重已在 Hugging Face、GitHub 等平台开放，对应 API 也已上线讯飞星辰 MaaS 平台，限时免费。 9 月 7 日，科大讯飞还将正式发布星火 X2.5-293B 通用大模型，进一步升级代码和智能体等核心能力。IT之家届时将为大家带来详细报道。 参考资料： Hugging Face 地址： https://huggingface.co/collections/XHToken/spark-x25 Github 地址： https://github.com/XHToken/Spark-X2.5 讯飞星辰 MaaS 平台接入： https://maas.xfyun.cn/modelSquare",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/359335a6-176d-4b7c-84f0-8802c2c497c2.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-09-01T03:20:44.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/996/855.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788202715838_b4812984",
-      "title": "AI Coding 之后，如何让 Agent 进入企业研发全链路？得物推荐的 Harness 实践",
-      "summary": "AI Coding 之后，如何让 Agent 进入企业研发全链路？得物推荐的 Harness 实践",
-      "content": "AI Coding 之后，如何让 Agent 进入企业研发全链路？得物推荐的 Harness 实践",
+      "id": "news_1788236568436_c439f515",
+      "title": "AI办公的终局，真的是“AI办公”吗？",
+      "summary": "AI办公的终局，真的是“AI办公”吗？",
+      "content": "AI办公的终局，真的是“AI办公”吗？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-31T16:39:35.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/sDyQxrWR6zDPJuLX4FA8?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "钛媒体",
+      "publishedAt": "2026-09-01T02:59:09.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8123999.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788202716298_b6836945",
-      "title": "OpenClaw 从意外爆红到“无人问津”：一个开源 AI Agent 的八个月过山车",
-      "summary": "OpenClaw 从意外爆红到“无人问津”：一个开源 AI Agent 的八个月过山车",
-      "content": "OpenClaw 从意外爆红到“无人问津”：一个开源 AI Agent 的八个月过山车",
+      "id": "news_1788236569200_76411a54",
+      "title": "从\"用了多少AI\"到\"Token效\"：企业AI投入正在换尺子",
+      "summary": "从\"用了多少AI\"到\"Token效\"：企业AI投入正在换尺子",
+      "content": "企业AI化的人效新口径。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-31T15:27:10.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/4KQHJC49t8J8FPqaEVLv?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "钛媒体",
+      "publishedAt": "2026-09-01T02:59:04.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8124014.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788236569621_ef853680",
+      "title": "E MEIN依明科技首次公开AI经营系统：从结果数据到行为数据",
+      "summary": "E MEIN依明科技首次公开AI经营系统：从结果数据到行为数据",
+      "content": "一件衣服从设计稿到顾客手中第一次有了贯穿始终的数据记录",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-01T02:54:22.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8123517.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1788202721789_80c832fa",
@@ -98,42 +146,6 @@
       "publishedAt": "2026-08-31T15:03:08.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/GuFWNd24Ww5AFlrXxTBo?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788202717547_46970d8b",
-      "title": "Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
-      "summary": "Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
-      "content": "Meta用一整年证明Agent无法取代员工：事故增四成，工程师救火多七成",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-31T14:56:37.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/OCUqGd8wceo7UK23B7NO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788202717951_cb1b838d",
-      "title": "自研Runtime、Agent Loop、Infra：一家通用Agent公司的全栈赌注",
-      "summary": "自研Runtime、Agent Loop、Infra：一家通用Agent公司的全栈赌注",
-      "content": "自研Runtime、Agent Loop、Infra：一家通用Agent公司的全栈赌注",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-31T14:47:05.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/NUGYDLvivgYXMV9u637z?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788202718370_8bd2a7ea",
-      "title": "Cisco 给 9 万员工配上个人 Agent：记住你的一切，还能替你跨系统办事",
-      "summary": "Cisco 给 9 万员工配上个人 Agent：记住你的一切，还能替你跨系统办事",
-      "content": "Cisco 给 9 万员工配上个人 Agent：记住你的一切，还能替你跨系统办事",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-08-31T14:20:12.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/HQXDr69U4tUQUDzEiidW?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -221,7 +233,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788202702927_0",
+      "id": "news_1788236557235_0",
       "title": "What to know about Virginia Beach schools deal with OpenAI",
       "summary": "VIRGINIA BEACH — The public school system of Virginia’s largest city entered into a contract with the developer of the world’s most popular artificial...",
       "content": "VIRGINIA BEACH — The public school system of Virginia’s largest city entered into a contract with the developer of the world’s most popular artificial intelligence model, ChatGPT.\nUnder the agreement with OpenAI, Virginia Beach schools personnel will... [3690 chars]",
@@ -245,7 +257,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788202703681_1",
+      "id": "news_1788236557014_1",
       "title": "This may be the first academic profession to see its work taken over by AI",
       "summary": "In early August, top mathematicians gathered at the offices of ChatGPT maker OpenAI in San Francisco for a summit on an existential question: What wil...",
       "content": "In early August, top mathematicians gathered at the offices of ChatGPT maker OpenAI in San Francisco for a summit on an existential question: What will be left for human math experts to do if artificial intelligence soon leaves them all behind?\n“I th... [9990 chars]",
@@ -267,18 +279,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8121851.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788064646356_63a3f94c",
-      "title": "谁在给 AI 付账单：八大科技巨头的万亿投注版图",
-      "summary": "谁在给 AI 付账单：八大科技巨头的万亿投注版图",
-      "content": "有人当金主，有人造铲子，有人守入口——谁在为这场万亿AI赌局买单？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-30T01:34:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8121824.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
