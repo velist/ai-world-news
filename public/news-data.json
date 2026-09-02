@@ -1,32 +1,92 @@
 {
   "success": true,
-  "timestamp": "2026-09-01T16:21:29Z",
+  "timestamp": "2026-09-02T03:47:09Z",
   "total": 25,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1788279579385_46150d16",
-      "title": "云原生弹性的能力，迁移成为 Agent 时代的数据基座能力之一？",
-      "summary": "云原生弹性的能力，迁移成为 Agent 时代的数据基座能力之一？",
-      "content": "云原生弹性的能力，迁移成为 Agent 时代的数据基座能力之一？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-01T21:24:38.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/QflJXpVJK5DqeoOgsY3D?utm_source=rss&utm_medium=article",
+      "id": "news_1788320723015_82b966fd",
+      "title": "阿里千问 Qwen3.8-Max-0902 版本模型发布，拿下前端编程总榜冠军",
+      "summary": "IT之家 9 月 2 日消息，阿里千问今日宣布 Qwen3.8-Max 模型升级到 0902 版本。 官方围绕编程（Coding）和专业办公（Cowork），对 Qwen3.8-Max 进行了进一步的后训练，使得模型整体性能再度突破，更适合企业真实复杂任务、科研、长周期任务等。",
+      "content": "IT之家 9 月 2 日消息，阿里千问今日宣布 Qwen3.8-Max 模型升级到 0902 版本。 官方围绕编程（Coding）和专业办公（Cowork），对 Qwen3.8-Max 进行了进一步的后训练，使得模型整体性能再度突破，更适合企业真实复杂任务、科研、长周期任务等。 在 CodeArena 前端编程总榜中，Qwen3.8-Max 提升 22 分至 1691 分夺得冠军。这说明，Qwen3.8-Max 拥有更强的智能体编程能力，在多步推理、工具调用、端到端 app 生成方面均刷新了全球模型的新上限。 同时，CodeArena 更新的模型性价比榜单（帕累托前沿）显示，Qwen3.8-Max-0902 新版本每百万 Tokens 综合平均价格为 5 美元（IT之家注：现汇率约合 33.7 元人民币），而当前性能排名第二和第三的模型百万 Tokens 综合价格分别为 20 美元（现汇率约合 134.7 元人民币）和 12 美元（现汇率约合 80.8 元人民币）。 现在，全新的 Qwen3.8-Max-0902 版本模型已上线千问 AI 平台对外提供 API 服务，并且第一时间接入千问办公、Qoder、千问 App，供所有企业、开发者和用户们使用。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/7d24ee15-7ff2-4c18-916e-80c1fd679d49.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-09-02T03:11:18.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/997/270.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788279580173_de892c3e",
-      "title": "3名开发者做出来的副业项目，半年冲进 4万人！亚马逊云科技把内部 Agent 工作台开源了",
-      "summary": "3名开发者做出来的副业项目，半年冲进 4万人！亚马逊云科技把内部 Agent 工作台开源了",
-      "content": "3名开发者做出来的副业项目，半年冲进 4万人！亚马逊云科技把内部 Agent 工作台开源了",
+      "id": "news_1788320713926_4ae40486",
+      "title": "豆包，字节的新赔率",
+      "summary": "豆包，字节的新赔率",
+      "content": "昨天，字节提高了赔率。今天，它又在提醒离场的人，什么东西不能带走。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-01T19:57:24.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-02T03:11:12.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8124936.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788320723025_a4c56e71",
+      "title": "协作表格有“历史记录”：微软 Excel 用 AI 梳理变化，明晰谁改的、改了什么",
+      "summary": "IT之家 9 月 2 日消息，科技媒体 NeoWin 昨日（9 月 1 日）发布博文，报道称微软面向多人协作工作簿追溯修改，为 Excel 推出 Change History（变更历史）功能。",
+      "content": "IT之家 9 月 2 日消息，科技媒体 NeoWin 昨日（9 月 1 日）发布博文，报道称微软面向多人协作工作簿追溯修改，为 Excel 推出 Change History（变更历史）功能。 IT之家附上相关演示视频如下： 在官方博文中，微软指出 Excel 工作簿常因数据更新、需求变化和多人同步编辑而持续变化。时间拉长后，团队往往难以快速确认某项数据何时被修改、由谁修改，以及该改动是否影响其他计算结果。 微软因此引入 Change History 功能，通过读取 Excel 已有编辑记录，并结合 Copilot 的推理能力生成修改说明。用户可通过自然语言提问，了解工作簿在特定时间段内发生的重要变化。 该功能可汇总具体修改内容、修改产生的影响和相关编辑者。原文未披露该功能支持的最长历史追溯周期、可处理的工作簿规模，以及响应时间等性能参数。 此外该功能会通过不同颜色，标记用户编辑和 Copilot 辅助修改，团队成员可据此快速识别某项异常是来自人工操作，还是来自 AI 辅助生成的修改。 微软还展示了更细粒度的回滚能力，用户可要求 Copilot 撤销某位协作者在 AI 辅助下完成的改动，同时保留该协作者独立完成的手动编辑。 在 Excel 公式出现异常后，Copilot 可帮助用户分析近期哪些修改可能导致公式失效。该能力将公式排错与工作簿修改历史关联，减少用户在大量单元格和版本记录中逐项比对的工作。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/88fe0af7-a2d4-4097-8fdf-02a8b3efb160.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-09-02T03:06:39.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Um4rVTweSFXAiwdGLFVB?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/0/997/267.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788320714192_dc7d810c",
+      "title": "上海交大连文昭：机器人进实验室，先把100件事做可靠",
+      "summary": "上海交大连文昭：机器人进实验室，先把100件事做可靠",
+      "content": "对实验室场景的探索，是我们走向物理世界的开端。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-02T02:55:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8125495.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788320723037_e0efc09f",
+      "title": "谷歌 AI 图片设计工具 Pics 上线，Docs / Slides 办公套件可直接调用修图",
+      "summary": "IT之家 9 月 2 日消息，谷歌昨日（9 月 1 日）发布博文，宣布正式上线 AI 图像设计与编辑工具 Google Pics。用户可通过 pics.new 使用网页版，也可在 Google Docs 和 Google Slides 中直接调用编辑器。",
+      "content": "IT之家 9 月 2 日消息，谷歌昨日（9 月 1 日）发布博文，宣布正式上线 AI 图像设计与编辑工具 Google Pics。用户可通过 pics.new 使用网页版，也可在 Google Docs 和 Google Slides 中直接调用编辑器。 IT之家曾于今年 5 月报道，在 2026 年 I/O 开发者大会上，谷歌推出 AI 图像生成与设计工具 Google Pics，主要用途包括制作活动邀请函、海报等视觉内容。 该工具由 Nano Banana 图像生成模型驱动，个人用户可通过 Google AI Pro、Google AI Ultra 和 Google AI Pro for Education 账户使用该工具。 企业用户则可在 Workspace Business Standard、Business Plus、Enterprise Standard 和 Enterprise Plus 套餐中陆续获得访问权限。 编辑方式上，Google Pics 不要求用户从空白画布开始设计。用户可输入提示词生成图片，也可上传已有素材后继续修改，支持导入本地文件、Google Drive 和 Google Photos 素材。 在 Google Docs 或 Google Slides 中，用户点击现有图片即可打开 Pics 的覆盖式编辑界面，无需离开当前标签页。谷歌表示，未来数周推出的更新还将允许用户从 Google Drive 直接拖放文件至 Pics。 Google Pics 内置精确对象分割功能。用户可在图片中选定某一物体，并单独移动、缩放或调整样式，同时尽量不改变周围背景。 该工具还可处理图像中的文字元素。用户可修改文字内容，或翻译为其他语言，并保留原有字体和视觉排版。Google Pics 同时支持批量编辑、实时协作，以及将图像增强至 2K 或 4K 分辨率。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/d10e19a4-4e0c-4617-840c-d791a565509d.png",
+      "source": "IT之家",
+      "publishedAt": "2026-09-02T02:53:44.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/0/997/263.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788320714975_b0bc2444",
+      "title": "Naure最新研究：当AI成为你的写作助手，人类的语言多样性正在系统性萎缩",
+      "summary": "Naure最新研究：当AI成为你的写作助手，人类的语言多样性正在系统性萎缩",
+      "content": "AI在提升“可读性”的同时，可能也在削弱我们对人类的“可读性”。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-02T01:28:51.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8123815.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788320716022_fc5b0f1a",
+      "title": "一个人，十五年，他想重写医疗AI的底层逻辑",
+      "summary": "一个人，十五年，他想重写医疗AI的底层逻辑",
+      "content": "把生命数学形式化，然后通过AI来解决这个数学问题",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-01T23:41:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8125079.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1788279580710_0f6456c9",
@@ -50,18 +110,6 @@
       "publishedAt": "2026-09-01T14:07:19.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8124037.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788279581111_c248dca5",
-      "title": "从2999份作品出发：GOAI四大赛道的AI创新观察",
-      "summary": "从2999份作品出发：GOAI四大赛道的AI创新观察",
-      "content": "从2999份作品出发：GOAI四大赛道的AI创新观察",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-01T12:54:15.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/fovhGGuNSwa7tG44WBFm?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -255,54 +303,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/0/996/414.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788151291990_cca70712",
-      "title": "AI 牌桌，阿里 800 亿押的是什么",
-      "summary": "AI 牌桌，阿里 800 亿押的是什么",
-      "content": "AI 重塑了流量入口格局，而阿里也要对手牌重新排序。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-31T02:34:07.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8122266.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788151292196_c3a3ae8d",
-      "title": "大模型领域跑出新玩家，StartLux-27B本地大模型打赢DeepSeek V4 Flash",
-      "summary": "大模型领域跑出新玩家，StartLux-27B本地大模型打赢DeepSeek V4 Flash",
-      "content": "本地大模型上牌桌，性能正面硬刚DeepSeek。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-31T02:04:43.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8122427.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788151292911_bb8142e9",
-      "title": "Alibaba Launches AI Song Generator HappyShrimp, Echoing Old Xiami Brand",
-      "summary": "Alibaba has released HappyShrimp 1.0, an AI model that converts natural-language prompts into complete songs, and paired the launch with a partnership...",
-      "content": "Alibaba has released HappyShrimp 1.0, an AI model that converts natural-language prompts into complete songs, and paired the launch with a partnership involving Taihe Music Group. The product draws on branding linked to the former Xiami streaming service, which shut down in 2021, as the company expands its consumer generative-AI offerings.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-08-31T01:27:03.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8122395.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788279568016_0",
-      "title": "What to know about Virginia Beach schools deal with OpenAI",
-      "summary": "VIRGINIA BEACH — The public school system of Virginia’s largest city entered into a contract with the developer of the world’s most popular artificial...",
-      "content": "VIRGINIA BEACH — The public school system of Virginia’s largest city entered into a contract with the developer of the world’s most popular artificial intelligence model, ChatGPT.\nUnder the agreement with OpenAI, Virginia Beach schools personnel will... [3690 chars]",
-      "imageUrl": "https://www.pilotonline.com/wp-content/uploads/2024/05/TVP-Z-OP-OPENAI-LAWSUIT.jpg?w=2000&h=1333",
-      "source": "Norfolk Virginian-Pilot",
-      "publishedAt": "2026-08-30T18:44:55.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.pilotonline.com/2026/08/30/vb-schools-openai-deal/",
-      "aiInsight": ""
     }
   ]
 }
