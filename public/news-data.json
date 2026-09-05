@@ -1,9 +1,69 @@
 {
   "success": true,
-  "timestamp": "2026-09-05T03:46:56Z",
+  "timestamp": "2026-09-05T14:54:54Z",
   "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1788619992890_3504289c",
+      "title": "全球首例：我国完成人工智能超声机器人引导下先天性心脏病封堵术",
+      "summary": "IT之家 9 月 5 日消息，9 月 5 日上午，解放军总医院第六医学中心心血管病医学部成功完成人工智能超声机器人引导下先天性心脏病介入封堵术。经权威机构科技查新，该手术为全球首例同类智能技术临床应用，标志着智能影像机器人在结构性心脏病微创介入领域取得突破性进展。",
+      "content": "IT之家 9 月 5 日消息，9 月 5 日上午，解放军总医院第六医学中心心血管病医学部成功完成人工智能超声机器人引导下先天性心脏病介入封堵术。经权威机构科技查新，该手术为全球首例同类智能技术临床应用，标志着智能影像机器人在结构性心脏病微创介入领域取得突破性进展。 据介绍，本次手术患者为 48 岁男性，确诊房间隔缺损。因其缺损边缘解剖条件较差，多家医院评估建议外科开胸治疗，患者希望接受微创介入手术，遂转诊至该中心心血管病医学部。 该类复杂病例手术难点集中，传统手术高度依赖超声医师手持超声扫查，即便经验丰富的超声医师配合手术，依靠传统手持超声操作，也会面临探头稳定性受限、复杂解剖靶点识别难度高的客观挑战。 官方表示，本次手术投用的人工智能超声机器人系统，为第六医学中心朱航主任团队与清华科研团队联合研发的创新成果，突破了传统介入机器人仅能实现器械递送的局限，真正实现影像识别与手术操作的双向智能协同。 IT之家获悉，该系统可通过机械臂完成稳定自主超声扫查，依托人工智能算法自动甄别病灶、精准勾勒缺损边界，实时构建心脏三维解剖模型、规划安全手术路径，将以往依赖医师经验的二维人工判读，升级为标准化、精准化、可复现的三维智能导航模式。 手术过程中，智能机器人全程自主完成影像采集、病灶定位与实时导航，辅助手术团队精准匹配、顺利植入封堵器，有效规避人为操作偏差，大幅提升了复杂先心病介入手术的精准度与安全性，优化了手术流程、缩短了手术时长，为高难度复杂微创介入手术提供了全新技术支撑。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/aeb34169-929d-4af1-ba2e-b9493377fd80.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-09-05T13:11:10.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/0/998/823.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788619992944_426e4f3e",
+      "title": "大模型厂商纷纷“卖 Token”，消息称 Kimi、MiniMax 等即将在天猫开店",
+      "summary": "IT之家 9 月 5 日消息，上海证券报今天（5 日）独家获悉，Kimi、MiniMax、阶跃星辰等多家大模型厂商也都在与天猫接洽中，未来将入驻天猫开设官方旗舰店，开售 Token 订阅套餐产品。 本月 2 日，国产 AI 大模型厂商智谱正式入驻天猫，开设“智谱旗舰店”。",
+      "content": "IT之家 9 月 5 日消息，上海证券报今天（5 日）独家获悉，Kimi、MiniMax、阶跃星辰等多家大模型厂商也都在与天猫接洽中，未来将入驻天猫开设官方旗舰店，开售 Token 订阅套餐产品。 本月 2 日，国产 AI 大模型厂商智谱正式入驻天猫，开设“智谱旗舰店”。用户可在淘宝 App 搜索“智谱旗舰店”进店下单。店铺目前已上架智谱 GLM Coding Plan 订阅套餐，基于 GLM-5.3 模型，并适配 ZCode、Claude Code、Codex 等 20 余款主流 Agent。 IT之家注：此前大模型厂商主要通过官网等自有渠道销售订阅产品。智谱此次入驻天猫，意味着大模型订阅服务开始进入传统电商平台的消费场景。 本月 3 日，天猫上线 Token 充值中心，首批接入阿里云、智谱、Kimi、MiniMax、DeepSeek 等国产大模型厂商。其中，阿里云和智谱为品牌官方旗舰店，剩余三家目前为代理模式。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-09-05T12:52:13.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/0/998/822.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788619980962_42791f7e",
+      "title": "从能用到抢入口，AI办公大考才刚开始",
+      "summary": "从能用到抢入口，AI办公大考才刚开始",
+      "content": "没有终局，只有持续进化。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-05T11:17:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8129098.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788619981516_d6d775a3",
+      "title": "WorkBuddy开放平台这天，我算了一笔Token账",
+      "summary": "这些持续消耗的 Token，究竟由谁来买单？当AI开始“建生态”，这些Agent创造的价值，又能否覆盖它们消耗的成本？",
+      "content": "这些持续消耗的 Token，究竟由谁来买单？当AI开始“建生态”，这些Agent创造的价值，又能否覆盖它们消耗的成本？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-05T11:07:55.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8128334.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788619982631_61518a66",
+      "title": "从AI家电到新物种比拼，IFA 2026成了中国科技的欧洲年会",
+      "summary": "从AI家电到新物种比拼，IFA 2026成了中国科技的欧洲年会",
+      "content": "IFA 2026，告别故事，这里不只是要展示未来是什么样，也在检验谁有能力把未来变成生意。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-05T10:05:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8129450.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1788579914889_5166e3c9",
       "title": "马斯克 SpaceXAI 拓展 Grok Bot 至 iPad 和安卓，让 AI 智能体全天候组队干活",
@@ -53,6 +113,42 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1788619986191_a3d8d588",
+      "title": "鸿蒙 AI Coding 的研发新范式与工程实践",
+      "summary": "鸿蒙 AI Coding 的研发新范式与工程实践",
+      "content": "鸿蒙 AI Coding 的研发新范式与工程实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-04T22:18:30.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/4C4RQUGPhAXgcx8G64ab?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788619970972_0",
+      "title": "California’s Rob Bonta investigating OpenAI over Hugging Face hack",
+      "summary": "The hack of startup Hugging Face, which OpenAI disclosed in July, was an unprecedented breach in which AI agents created by OpenAI effectively went ro...",
+      "content": "The hack of startup Hugging Face, which OpenAI disclosed in July, was an unprecedented breach in which AI agents created by OpenAI effectively went rogue during internal testing, accessing the open internet. A further investigation conducted with Ope... [1708 chars]",
+      "imageUrl": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2F05%2F21%2F247d87e7448f92d956cf518e286a%2Fcalifornia-sheriff-ballot-seizure-5774.jpg",
+      "source": "POLITICO",
+      "publishedAt": "2026-09-04T21:13:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.politico.com/news/2026/09/04/california-investigation-openai-hugging-face-hack-01065800",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1788619971069_1",
+      "title": "OpenAI and Anthropic Get 80% of Revenue From 1% of Customers",
+      "summary": "At Anthropic, that concentration has a name attached to it. Coding tools Cursor and GitHub Copilot alone drove roughly $1.2 billion of the company’s $...",
+      "content": "At Anthropic, that concentration has a name attached to it. Coding tools Cursor and GitHub Copilot alone drove roughly $1.2 billion of the company’s $5 billion revenue milestone last year, close to a quarter of total revenue from just two customers, ... [3284 chars]",
+      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/09/Big-Tech-AI-spending.png",
+      "source": "EUROPE SAYS",
+      "publishedAt": "2026-09-04T17:32:18.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.europesays.com/3232946/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1788537760510_148b9274",
       "title": "日本电机巨头尼得科确认存在 844 起擅自变更制造工序等不当行为，社长岸田光哉致歉",
       "summary": "IT之家 9 月 4 日消息，据共同社报道，日本电机巨头尼得科 Nidec 今日公布了关于产品质量问题的调查委员会报告。 调查委员会认定存在 844 起擅自变更制造工序等不当行为，并指出达成业绩目标及削减成本等压力是原因之一。",
@@ -89,7 +185,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788579895252_0",
+      "id": "news_1788619971196_2",
       "title": "6 Astra, its most powerful AI model with advanced cybersecurity capabilities",
       "summary": "OpenAI on Thursday unveiled GPT-6 Astra, a new frontier AI model that CEO Sam Altman says represents a major jump in what people can hand off to artif...",
       "content": "OpenAI on Thursday unveiled GPT-6 Astra, a new frontier AI model that CEO Sam Altman says represents a major jump in what people can hand off to artificial intelligence. The release arrives with an unusual twist: Astra is so capable at cybersecurity ... [4223 chars]",
@@ -135,30 +231,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.infoq.cn/article/6Jc130IN2OaXqsPDIzmJ?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788579909903_84a411fc",
-      "title": "向总决赛进发｜GOAI复赛评审正式启动",
-      "summary": "向总决赛进发｜GOAI复赛评审正式启动",
-      "content": "向总决赛进发｜GOAI复赛评审正式启动",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-04T10:14:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/bOI6y8Tdr714CWa5CcxR?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788579910307_6d2b9fa0",
-      "title": "谷歌云发布 AI 智能体，简化数据库生命周期管理",
-      "summary": "谷歌云发布 AI 智能体，简化数据库生命周期管理",
-      "content": "谷歌云发布 AI 智能体，简化数据库生命周期管理",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-04T09:21:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/iV0rsPyO5XZDJ7797hLJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1788493660453_4e954979",
@@ -245,11 +317,23 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788579894468_1",
+      "id": "news_1788619988813_55d46df9",
+      "title": "当 Agent 走出 App：WorkBuddy 的朋友圈开始向外生长",
+      "summary": "当 Agent 走出 App：WorkBuddy 的朋友圈开始向外生长",
+      "content": "当 Agent 走出 App：WorkBuddy 的朋友圈开始向外生长",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-03T21:19:20.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/vogOaCpOeNfe0hjAXfzy?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788619970560_3",
       "title": "OpenAI Launches New Astra Model Amid Growing Scrutiny Over Agents' Safety",
       "summary": "LOADINGERROR LOADING\nSAN FRANCISCO, Sept 3 (Reuters) - OpenAI on Thursday unveiled a new artificial intelligence model it calls its best yet but cauti...",
       "content": "LOADINGERROR LOADING\nSAN FRANCISCO, Sept 3 (Reuters) - OpenAI on Thursday unveiled a new artificial intelligence model it calls its best yet but cautioned that it also sometimes attempts to evade human monitoring, even as the company faces growing sc... [3775 chars]",
-      "imageUrl": "https://img.huffingtonpost.com/asset/6a99cc0d1700005fc0d44659.jpeg?cache=yjn30HTEbJ&ops=1200_630",
+      "imageUrl": "https://img.huffingtonpost.com/asset/6a99cc0d1700005fc0d44659.jpeg?cache=vEQtjMS9JA&ops=1200_630",
       "source": "HuffPost",
       "publishedAt": "2026-09-03T19:37:16.000Z",
       "category": "科技新闻",
@@ -257,7 +341,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1788579894585_2",
+      "id": "news_1788619970566_4",
       "title": "OpenAI Says Artificial General Intelligence Is Here. Bernie Sanders Is Calling For a Pause of AI Development.",
       "summary": "Senator Bernie Sanders called for an immediate pause on AI development, citing the different instances in which models have gone rogue in the past wee...",
       "content": "Senator Bernie Sanders called for an immediate pause on AI development, citing the different instances in which models have gone rogue in the past weeks.\n\"If the leaders of the major AI companies acknowledge that they are losing control of their extr... [2791 chars]",
@@ -269,7 +353,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1788579894790_3",
+      "id": "news_1788619970765_5",
       "title": "OpenAI debuts GPT-6 Astra, says it triggered security measures",
       "summary": "OpenAI released its newest and most powerful model, called GPT-6 Astra, to a limited set of customers Thursday, labeling it the world’s most intellige...",
       "content": "OpenAI released its newest and most powerful model, called GPT-6 Astra, to a limited set of customers Thursday, labeling it the world’s most intelligent AI system and the first model to trigger advanced internal safety protections given its cyber cap... [5038 chars]",
@@ -279,90 +363,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.nbcnews.com/tech/tech-news/openai-debuts-gpt-6-astra-security-measures-rcna595940",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1788579894212_4",
-      "title": "ChatGPT, Claude and Gemini are all down as thousands of users experience outages",
-      "summary": "OpenAI, Anthropic and Google were grappling with service problems Thursday, disrupting several of the tech giants’ massive popular artificial intellig...",
-      "content": "OpenAI, Anthropic and Google were grappling with service problems Thursday, disrupting several of the tech giants’ massive popular artificial intelligence products.\nOpenAI said it was investigating “elevated errors across ChatGPT and Codex,” with the... [1002 chars]",
-      "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/09/chatgpt-comp.jpg?quality=75&strip=all&w=1200",
-      "source": "New York Post",
-      "publishedAt": "2026-09-03T15:25:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://nypost.com/2026/09/03/business/chatgpt-claude-and-gemini-are-all-down-as-thousands-of-users-experience-outages/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1788451641309_8305a8e1",
-      "title": "谷歌 DeepMind 发布 WeatherNext 3：分辨率最高 5 公里，号称全球最先进、精准 AI 天气预报模型",
-      "summary": "IT之家 9 月 3 日消息，谷歌 DeepMind 和 Google Research 今天宣布推出 WeatherNext 3 ，号称是目前最先进、最准确的全球气象模型。该模型可直接从实时观测中学习，能够为影响人类的天气事件提供更及时、更本地化的预测。",
-      "content": "IT之家 9 月 3 日消息，谷歌 DeepMind 和 Google Research 今天宣布推出 WeatherNext 3 ，号称是目前最先进、最准确的全球气象模型。该模型可直接从实时观测中学习，能够为影响人类的天气事件提供更及时、更本地化的预测。 该模型可以原始卫星数据为基础，每小时生成一次高分辨率预报，为全球谷歌产品提供可靠的天气预报。 根据介绍，天气预报的实用性往往取决于细节，以及时间和空间的分辨率。WeatherNext 3 可生成多种空间分辨率的每小时预报，从广阔的全球风型到局部地形都能保持物理一致性。 借助 WeatherNext 3，谷歌能够以 5 公里分辨率呈现温度、湿度等关键地表变量，其他地表变量分辨率为 10 公里，风速等大气变量分辨率为 25 公里。 WeatherNext 3 通过接入实时全球地球静止卫星数据拼图，让模型能够获得丰富、持续更新的大气视图，使模型可以每小时生成一次新预报，每次预报都基于最新的卫星观测数据，最高分辨率可达 5 公里。 这一点至关重要，因为极端天气往往发展迅速。当风暴、锋面或降水系统突然出现时，快速更新周期和更高分辨率能够提供更早、更详细的洞察，帮助人们采取有效应对措施。 WeatherNext 3 采用稀疏气象站观测数据训练，这使得模型能够在 5 公里网格上生成全球预报，并充分考虑地形等区域细节。这一突破对于拉美、非洲、亚太地区尤其重要。由于传统区域模型需要高昂的超级计算成本，这些地区历史上一直缺乏高分辨率天气预报。该模型将为这些地区数十亿人和本地企业带来本地化、高保真天气预报。 除了提升分辨率和预报频率，该模型还专门针对可再生能源生产引入了针对性预测。模型可以预测 100 米高度（IT之家注：大致对应风力涡轮机高度）的风速，从而精准预测风电产量，同时还能提供高分辨率云量和太阳辐射数据，帮助太阳能电场估算地面接收到的光照。 这些数据对于全球清洁能源规划至关重要，能够帮助电网运营商和可再生能源开发商准确预测清洁能源资产的发电量，并匹配用户需求。 即日起，WeatherNext 3 将正式为谷歌搜索、Gemini 应用、谷歌地图、谷歌地图平台气象 API 和谷歌 Earth Engine 提供气象能力支持。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/42926b37-9db9-406f-ac3e-294b53f0242d.png",
-      "source": "IT之家",
-      "publishedAt": "2026-09-03T15:15:52.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/998/198.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788451641348_5fe586d6",
-      "title": "ChatGPT、Grok、Claude、Cursor 集体突发故障",
-      "summary": "IT之家 9 月 3 日消息，据IT之家网友投稿反馈，ChatGPT、Grok、Claude、Cursor 等多款 AI 模型今晚突发故障。此外，用户请求 Codex 会出现“404 Not Found”错误。",
-      "content": "IT之家 9 月 3 日消息，据IT之家网友投稿反馈，ChatGPT、Grok、Claude、Cursor 等多款 AI 模型今晚突发故障。此外，用户请求 Codex 会出现“404 Not Found”错误。 IT之家查询 Downdetector 报告获悉，美国用户使用 OpenAI、Claude、Grok、Cursor 服务时均出现问题。目前已有超过 12,000 份用户报告指出 OpenAI 存在问题，关于 Claude 的问题报告约有 1,200 份，关于 Grok 的问题报告约有 1,000 份。 各方回应： OpenAI：ChatGPT 和 Codex 目前正出现问题。 Anthropic：正在调查 Claude 出现的错误，将致力于修复工作。 SpaceXAI：Grok 目前出现故障，正在调查服务中断。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/dddb6950-fde2-4323-b8c4-19ae1c06e7f4.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-09-03T15:07:21.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/0/998/195.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788579894884_5",
-      "title": "Nvidia inks $13 billion deal to buy the AI startup that was hacked by OpenAI",
-      "summary": "By Clare Duffy, CNN\nNew York (CNN) — Nvidia announced on Thursday that it will buy artificial intelligence startup Hugging Face for $12.9 billion, a m...",
-      "content": "By Clare Duffy, CNN\nNew York (CNN) — Nvidia announced on Thursday that it will buy artificial intelligence startup Hugging Face for $12.9 billion, a massive bet by the chipmaker to expand the reach of open-source AI technology.\nHugging Face, a servic... [3269 chars]",
-      "imageUrl": "https://abc17news.b-cdn.net/abc17news.com/2026/09/cnn-L19jb21wb25lbnRzL2ltYWdlL2luc3RhbmNlcy9jbXRsamN0cmUwMDIxMjdxZ2FjZHdndHVr-L19jb21wb25lbnRzL2FydGljbGUvaW5zdGFuY2VzL2NtdGxqY3RyZTAwMjIyN3FnNHFnbDY5aWQ-860x573.jpg",
-      "source": "ABC17News.com",
-      "publishedAt": "2026-09-03T13:07:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://abc17news.com/money/cnn-business-consumer/2026/09/03/nvidia-is-buying-the-ai-startup-that-was-hacked-by-openai-for-nearly-13-billion/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1788493649784_2",
-      "title": "Nvidia is buying the AI startup that was hacked by OpenAI for nearly $13 billion",
-      "summary": "Nvidia announced on Thursday that it will buy artificial intelligence startup Hugging Face for $12.9 billion, a massive bet by the chipmaker to expand...",
-      "content": "Nvidia announced on Thursday that it will buy artificial intelligence startup Hugging Face for $12.9 billion, a massive bet by the chipmaker to expand the reach of open-source AI technology.\nHugging Face, a service for hosting and accessing open-sour... [2976 chars]",
-      "imageUrl": "https://media.cnn.com/api/v1/images/stellar/prod/breaking-news-1-5x.png?c=16x9&q=w_800,c_fill",
-      "source": "Cable News Network",
-      "publishedAt": "2026-09-03T13:07:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://edition.cnn.com/2026/09/03/tech/nvidia-hugging-face-ai-acquisition",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1788451628258_a680409e",
-      "title": "独家｜耐士劳新任总裁落棋三子：户外庭院品牌归拢、自研激光雷达、布局四足狗",
-      "summary": "对于李建来说，耐士劳过去是一家产品公司，未来有望变成一家技术和场景驱动的机器人生态公司。接下来的考验不是推出多少新品，而是公司能否在设想的发展路径上持续跑通。",
-      "content": "对于李建来说，耐士劳过去是一家产品公司，未来有望变成一家技术和场景驱动的机器人生态公司。接下来的考验不是推出多少新品，而是公司能否在设想的发展路径上持续跑通。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-03T11:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8127496.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788451628552_73c0d949",
-      "title": "阿里花1000亿搞AI，美图花不到5个亿",
-      "summary": "阿里花1000亿搞AI，美图花不到5个亿",
-      "content": "不追求通用AI，专注于细分垂直领域中的体验。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-03T10:06:41.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8126354.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
