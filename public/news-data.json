@@ -1,20 +1,80 @@
 {
   "success": true,
-  "timestamp": "2026-09-09T03:57:57Z",
-  "total": 27,
+  "timestamp": "2026-09-09T16:17:26Z",
+  "total": 23,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1788926168725_93becfc3",
-      "title": "Open Code Review：百万真实任务验证的确定性工程与 Agent 协同｜QCon上海",
-      "summary": "Open Code Review：百万真实任务验证的确定性工程与 Agent 协同｜QCon上海",
-      "content": "Open Code Review：百万真实任务验证的确定性工程与 Agent 协同｜QCon上海",
+      "id": "news_1788970534837_b835c41a",
+      "title": "当 Agent 开始写应用，数据库也得换一套打法",
+      "summary": "当 Agent 开始写应用，数据库也得换一套打法",
+      "content": "当 Agent 开始写应用，数据库也得换一套打法",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-09T10:00:00.000Z",
+      "publishedAt": "2026-09-09T18:27:41.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/owxMsObP9h1wFcRqW000?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/TxjbzYQUeBtvESSHrRFh?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788970535035_6b2054c5",
+      "title": "面向 Agent 开发的数据库新范式 | 腾讯云数据库 DBTalk",
+      "summary": "面向 Agent 开发的数据库新范式 | 腾讯云数据库 DBTalk",
+      "content": "面向 Agent 开发的数据库新范式 | 腾讯云数据库 DBTalk",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-09T18:17:24.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/video/xXRz8UJAdS3S51AqOchf?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788970535573_3c28e00a",
+      "title": "Shopify 推出 Gisting 新技术：将大模型系统提示词压缩为主旨词元",
+      "summary": "Shopify 推出 Gisting 新技术：将大模型系统提示词压缩为主旨词元",
+      "content": "Shopify 推出 Gisting 新技术：将大模型系统提示词压缩为主旨词元",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-09T16:30:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/WlJkEfJxMgaK9o91ow2Z?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788970536003_9c6ff679",
+      "title": "百度把Agent推进家庭：百度搭子接入小度，从“管家”走向“办事”和“创造”",
+      "summary": "百度把Agent推进家庭：百度搭子接入小度，从“管家”走向“办事”和“创造”",
+      "content": "百度把Agent推进家庭：百度搭子接入小度，从“管家”走向“办事”和“创造”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-09T15:44:01.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/B2trh9hRTevk90IxzLXx?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788970536809_c0404f91",
+      "title": "如何在人工智能时代开展严谨且可持续的人工审核",
+      "summary": "如何在人工智能时代开展严谨且可持续的人工审核",
+      "content": "如何在人工智能时代开展严谨且可持续的人工审核",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-09T14:01:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Qf5dY8QyzRUZaeA9JG5Z?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788970531922_53533bab",
+      "title": "GPT Image 2.5来了，OpenAI开始抄Banana的作业",
+      "summary": "GPT Image 2.5来了，OpenAI开始抄Banana的作业",
+      "content": "大力加强了改图能力。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-09T10:59:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8133662.html",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1788926177083_2a7aa771",
@@ -53,6 +113,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1788970523940_0",
+      "title": "OpenAI says AI solved one of math's hardest problems in days",
+      "summary": "OpenAI said Tuesday that one of its unreleased artificial intelligence models had solved a mathematical puzzle that has eluded mathematicians for gene...",
+      "content": "OpenAI said Tuesday that one of its unreleased artificial intelligence models had solved a mathematical puzzle that has eluded mathematicians for generations, in a claim which also drew a fight with rival researchers over credit.\nResearchers at OpenA... [3498 chars]",
+      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/09/https3A2F2Fmedia.zenfs_.com2Fen2Fafp.com_.sg2F28f84f903fdd91bb97fdeaedeeb0992c.jpg",
+      "source": "EUROPE SAYS",
+      "publishedAt": "2026-09-09T00:43:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.europesays.com/3240896/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1788926165540_d4c2d0d0",
       "title": "长胶陷阱：为什么优秀的AI系统必须懂得“不优化”什么",
       "summary": "长胶陷阱：为什么优秀的AI系统必须懂得“不优化”什么",
@@ -63,6 +135,42 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8133417.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1788970523245_1",
+      "title": "What's Going On With OpenAI And The Navier",
+      "summary": "News AI What's going on with OpenAI and the Navier-Stokes controversy? Artificial intelligence has solved a major mathematics problem, but credit for ...",
+      "content": "First, some background. The Millennium Prize Problems are a group of seven complex questions established by the Clay Mathematics Institute in 2000. The organization is offering a reward of $1 million for solutions to each of these questions, all of w... [2651 chars]",
+      "imageUrl": "https://www.engadget.com/img/gallery/whats-going-on-with-openai-and-the-navier-stokes-controversy/l-intro-1788905065.jpg",
+      "source": "Engadget",
+      "publishedAt": "2026-09-08T22:11:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.engadget.com/2253393/whats-going-on-with-openai-and-the-navier-stokes-controversy/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1788970523730_2",
+      "title": "The DoD reportedly asked OpenAI to provide military AI that rarely declined to cooperate.",
+      "summary": "H\nExternal Link\nThe DoD reportedly asked OpenAI to provide military AI that rarely declined to cooperate.\nThe Intercept, citing documents it had seen,...",
+      "content": "H\nExternal Link\nThe DoD reportedly asked OpenAI to provide military AI that rarely declined to cooperate.\nThe Intercept, citing documents it had seen, reported that the Pentagon requested a custom version of OpenAI’s technology with “minimal refusal ... [627 chars]",
+      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/verge-placeholder_f212b3.png?quality=90&strip=all&crop=0,0.13712291199202,100,99.725754176016",
+      "source": "The Verge",
+      "publishedAt": "2026-09-08T21:55:57.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/991862/the-dod-reportedly-asked-openai-to-provide-military-ai-that-rarely-declined-to-cooperate",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1788970523458_3",
+      "title": "Wall Street Lunch: Huang Declares 'AGI Has Arrived' After OpenAI's GPT-6 Astra Launch",
+      "summary": "Listen below or on the go on Apple Podcasts and Spotify\nJensen Huang declares artificial general intelligence after GPT-6 Astra. (0:15) IonQ raises it...",
+      "content": "Listen below or on the go on Apple Podcasts and Spotify\nJensen Huang declares artificial general intelligence after GPT-6 Astra. (0:15) IonQ raises its outlook. (2:02) Pepsi moves beyond chips and soda in an Ozempic world. (2:19)\nThis is an abridged ... [3609 chars]",
+      "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1370479417/image_1370479417.jpg?io=getty-c-w1536",
+      "source": "Seeking Alpha",
+      "publishedAt": "2026-09-08T16:17:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://seekingalpha.com/article/4943849-wall-street-lunch-nvidias-huang-declares-agi-has-arrived-after-openais-gpt-6-astra-launch",
+      "aiInsight": ""
     },
     {
       "id": "news_1788884438720_53c10649",
@@ -77,18 +185,6 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788926171140_93e75ce0",
-      "title": "AI Coding 在大型客户端工程中的落地实践——从通才模型到专才 Agent｜QCon上海",
-      "summary": "AI Coding 在大型客户端工程中的落地实践——从通才模型到专才 Agent｜QCon上海",
-      "content": "AI Coding 在大型客户端工程中的落地实践——从通才模型到专才 Agent｜QCon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-08T11:10:18.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/zmiQaFpdA993WFozmTt3?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1788884427435_36ac56ba",
       "title": "大模型的Token生意，终究没绕过天猫",
       "summary": "大模型的Token生意，终究没绕过天猫",
@@ -101,7 +197,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788926155266_0",
+      "id": "news_1788970523355_4",
       "title": "The Pentagon Asked OpenAI for Artificial Intelligence Designed to Rarely Say No",
       "summary": "The Pentagon Asked OpenAI for Artificial Intelligence Designed to Rarely Say No The U.S. military’s desire for an AI tool with “minimal refusal rates”...",
       "content": "The Department of Defense asked OpenAI to provide the U.S. military with a special version of its artificial intelligence technology designed to turn down the Pentagon’s requests as infrequently as possible, according to documents obtained by The Int... [7547 chars]",
@@ -111,18 +207,6 @@
       "category": "科技新闻",
       "originalUrl": "https://theintercept.com/2026/09/08/pentagon-openai-military-contract/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1788926171566_1f874d1c",
-      "title": "OpenClaw 2.0 发布：简化配置，支持智能体协作",
-      "summary": "OpenClaw 2.0 发布：简化配置，支持智能体协作",
-      "content": "OpenClaw 2.0 发布：简化配置，支持智能体协作",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-08T09:11:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/hOJ5r8sQvQsGvm0KNHTd?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1788839491328_aac7c413",
@@ -185,7 +269,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1788926155661_1",
+      "id": "news_1788970523351_5",
       "title": "OpenAI top scientist urges ‘extreme caution’ with pace of AI",
       "summary": "News National business OpenAI top scientist urges ‘extreme caution’ with pace of AI Sept. 7, 2026 Updated Mon., Sept. 7, 2026 at 4:33 p.m. This pictur...",
       "content": "OpenAI’s top scientist has warned that artificial intelligence is evolving so rapidly that it is becoming increasingly difficult for humans to understand and control, and said he expects AI labs to voluntarily slow development for safety reasons.\nIn ... [2768 chars]",
@@ -194,138 +278,6 @@
       "publishedAt": "2026-09-07T18:01:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.spokesman.com/stories/2026/sep/07/openai-top-scientist-urges-extreme-caution-with-pa/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1788802488520_1fd6a192",
-      "title": "“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness",
-      "summary": "“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness...",
-      "content": "“薄 Agent Loop，厚 Control Plane”：TiDB 用数据库思维重做 Harness",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-07T16:10:35.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/38uc758e24YV4LUpAs77?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788802489694_1f44d49b",
-      "title": "阿里前销售总监在美失踪逾半月后确认身亡；5天10万元！外国高管涌入中国“工厂游”；传DeepSeek计划采购16万颗昇腾芯片｜AI周报",
-      "summary": "阿里前销售总监在美失踪逾半月后确认身亡；5天10万元！外国高管涌入中国“工厂游”；传DeepSeek计划采购16万颗昇腾芯片｜AI周报...",
-      "content": "阿里前销售总监在美失踪逾半月后确认身亡；5天10万元！外国高管涌入中国“工厂游”；传DeepSeek计划采购16万颗昇腾芯片｜AI周报",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-07T14:05:35.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/boiE7qfjxSQjHKUtevvp?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788926155335_2",
-      "title": "OpenAI has sent EU incident report on hijacked German website, Commission says",
-      "summary": "Sept 7 (Reuters) - U.S. artificial intelligence firm OpenAI has sent the ​European Commission a report ‌regarding a hijack of a German website by rogu...",
-      "content": "Sept 7 (Reuters) - U.S. artificial intelligence firm OpenAI has sent the ​European Commission a report ‌regarding a hijack of a German website by rogue agents, a ​Commission spokesperson said on ​Monday.\nReuters reported that a swarm ⁠of rogue OpenAI... [556 chars]",
-      "imageUrl": "https://www.reuters.com/resizer/v2/NC6QO2KCIVKX3P74THGM2D7VIU.jpg?auth=9bb716b22c89d5f969825963912d98184ea683e97cae18bb6cc40833b6b641e5&height=1005&width=1920&quality=80&smart=true",
-      "source": "Reuters",
-      "publishedAt": "2026-09-07T10:56:37.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.reuters.com/business/openai-has-sent-eu-incident-report-hijacked-german-website-commission-says-2026-09-07/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1788802481183_81614c42",
-      "title": "AI Video Generation Crosses Real-Time Threshold, Enabling Continuous Streams and Interactive Stories",
-      "summary": "AI Video Generation Crosses Real-Time Threshold, Enabling Continuous Streams and Interactive Stories...",
-      "content": "Faster-than-playback generation from models such as MiniMax H3 Max is shifting AI video from batch production to continuous, interactive media. Early experiments show chat-driven infinite livestreams and near-zero-latency narrative games, though consistency, cost and safety remain open constraints.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-07T10:44:03.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8131491.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788802481568_ac12b2db",
-      "title": "AI and the Evolution of Value Investing: A Conversation with Zhong Zhaomin",
-      "summary": "The breakout of generative artificial intelligence is reshaping corporate models and global markets. As information becomes ubiquitous and technologic...",
-      "content": "The breakout of generative artificial intelligence is reshaping corporate models and global markets. As information becomes ubiquitous and technological iterations accelerate, established competitive moats face constant redefinition. Yet for Zhong Zhaomin, founder of Oriental Marathon Investment Management, the AI revolution does not render value investing obsolete; it transforms its methods while leaving its core principles intact.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-07T10:40:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8131485.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788802481932_a02c8607",
-      "title": "新Qoder“不止于编程”，阿里AI办公赛马又起",
-      "summary": "新Qoder“不止于编程”，阿里AI办公赛马又起",
-      "content": "吴泳铭的AI大局，陈宇森接的住吗？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-07T10:13:16.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8130900.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788802482305_cd6387ac",
-      "title": "AIGC标识一周年：当李飞飞把真假边界抹平，只有信用分层追得上",
-      "summary": "市场把AIGC标识一周年读成合规成本账，误读了制度底色。当Atlas把生成精度推到肉眼难辨，惩罚治理已触顶。本文以历史同构与信号理论证明：标识不是惩罚烙印，而是信用存单——C2PA溯源市场正从20.6亿向51.2亿美元扩容，信用分层才是下一阶红利。",
-      "content": "市场把AIGC标识一周年读成合规成本账，误读了制度底色。当Atlas把生成精度推到肉眼难辨，惩罚治理已触顶。本文以历史同构与信号理论证明：标识不是惩罚烙印，而是信用存单——C2PA溯源市场正从20.6亿向51.2亿美元扩容，信用分层才是下一阶红利。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-07T09:57:56.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8130806.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788802482912_c27c4f33",
-      "title": "机器人触觉的爆发前夜：五大技术路线、数据困局与模型之争",
-      "summary": "机器人触觉的爆发前夜：五大技术路线、数据困局与模型之争",
-      "content": "让机器人学习“人类的第一语言”。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-07T09:52:15.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8131169.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788802483276_2da9360d",
-      "title": "模型负责上天，三个“野心家”负责把AI落地",
-      "summary": "模型负责上天，三个“野心家”负责把AI落地",
-      "content": "黄仁勋、马斯克、孙正义，抢着做AI的“脏活”。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-07T09:36:20.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8130980.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788802483477_58dc1e91",
-      "title": "DeepSeek千兆瓦雄心，遭遇电力现实",
-      "summary": "DeepSeek千兆瓦雄心，遭遇电力现实",
-      "content": "算力在抢电，还没有想好怎么接。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-07T09:36:14.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8131016.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788926155276_3",
-      "title": "Nvidia’s Jensen Huang Says ‘AGI Has Arrived’ with OpenAI’s GPT-6 Astra",
-      "summary": "Nvidia (NVDA) CEO Jensen Huang says artificial general intelligence (AGI) has arrived with OpenAI ’s latest AI model, GPT-6 Astra . AGI refers to AI t...",
-      "content": "Nvidia (NVDA) CEO Jensen Huang says artificial general intelligence (AGI) has arrived with OpenAI’s latest AI model, GPT-6 Astra. AGI refers to AI that can understand, learn, and perform a wide range of tasks at a level comparable to or beyond human ... [2135 chars]",
-      "imageUrl": "https://blog.tipranks.com/wp-content/uploads/2026/09/image-617.png?utm_source=markets.businessinsider.com&utm_medium=referral",
-      "source": "Markets Insider",
-      "publishedAt": "2026-09-07T05:59:43.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://markets.businessinsider.com/news/stocks/nvidia-s-jensen-huang-says-agi-has-arrived-with-openai-s-gpt-6-astra-1036526079",
       "aiInsight": ""
     }
   ]
