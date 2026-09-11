@@ -1,56 +1,68 @@
 {
   "success": true,
-  "timestamp": "2026-09-10T16:08:28Z",
-  "total": 27,
+  "timestamp": "2026-09-11T03:53:27Z",
+  "total": 19,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1789056401289_e0c98efa",
-      "title": "Snowflake 落地中国两年：迈向智能体企业时代，关键在上下文",
-      "summary": "Snowflake 落地中国两年：迈向智能体企业时代，关键在上下文",
-      "content": "Snowflake 落地中国两年：迈向智能体企业时代，关键在上下文",
+      "id": "news_1789098699957_37a25876",
+      "title": "从「构建 AI」到「驾驭 AI」，如何搞定 AI 深水区的 6 个工程问题？",
+      "summary": "从「构建 AI」到「驾驭 AI」，如何搞定 AI 深水区的 6 个工程问题？",
+      "content": "从「构建 AI」到「驾驭 AI」，如何搞定 AI 深水区的 6 个工程问题？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-10T19:57:48.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/RCa5y6tvZXbjGKeLSGZt?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789056402255_b7c9210d",
-      "title": "PayPal谈 Agentic Commerce：AI智能体将如何进入跨境支付场景？",
-      "summary": "PayPal谈 Agentic Commerce：AI智能体将如何进入跨境支付场景？",
-      "content": "PayPal谈 Agentic Commerce：AI智能体将如何进入跨境支付场景？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-10T17:16:06.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/8t2vJHOc5srUyQqSlO9m?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789056402722_fed0a743",
-      "title": "推理成为新中心、Agent把生产级问题提前：AI Infra 的边界正在被重写",
-      "summary": "推理成为新中心、Agent把生产级问题提前：AI Infra 的边界正在被重写",
-      "content": "推理成为新中心、Agent把生产级问题提前：AI Infra 的边界正在被重写",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-10T17:15:13.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/YBvKfhWu90StYj4SJVIV?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789056403166_871c7cd3",
-      "title": "参数几乎翻倍，推理反而更省：DeepSeek V4.1-Flash 重构 KV Cache",
-      "summary": "参数几乎翻倍，推理反而更省：DeepSeek V4.1-Flash 重构 KV Cache",
-      "content": "参数几乎翻倍，推理反而更省：DeepSeek V4.1-Flash 重构 KV Cache",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-10T17:06:25.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/sbaJrAa8VTIRKIPCpKlo?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-09-11T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/PyUlLla6MWSSoRLiDKbu?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789098700475_0954fb91",
+      "title": "1300 Star！开源文档框架 Blume 冲上 GitHub 趋势榜：零配置、免脚手架，一键生成文档网站",
+      "summary": "1300 Star！开源文档框架 Blume 冲上 GitHub 趋势榜：零配置、免脚手架，一键生成文档网站...",
+      "content": "1300 Star！开源文档框架 Blume 冲上 GitHub 趋势榜：零配置、免脚手架，一键生成文档网站",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-11T09:15:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/DtxID7YaDp3o3QRcOTYj?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789098707458_73d12545",
+      "title": "微软 VS Code 1.137 发布：为宠物征名、按小时 / 日 / 周调度 AI 智能体任务",
+      "summary": "IT之家 9 月 11 日消息，微软昨日（9 月 10 日）发布公告，宣布推出 Visual Studio Code 1.137 版本，可帮助用户自动化重复性工作、在工作区中继续快速聊天，以及在不离开客服窗口的情况下处理 GitHub 问题和拉取请求。",
+      "content": "IT之家 9 月 11 日消息，微软昨日（9 月 10 日）发布公告，宣布推出 Visual Studio Code 1.137 版本，可帮助用户自动化重复性工作、在工作区中继续快速聊天，以及在不离开客服窗口的情况下处理 GitHub 问题和拉取请求。 本次更新主要聚焦增强 AI 智能体能力，推出 5 项主要新功能，其中 3 项仍处于实验或预览阶段。核心功能包括 Automations（预览）、Voice Mode（实验）、快速聊天转工作区、GitHub Issue / PR 集成以及 VS Code 宠物互动功能。 Automations 方面，用户可以根据使用需求，在手动触发之外，也可以按小时、每日或每周自动执行 AI 智能体任务。IT之家附上相关视频如下： 用户可通过启用 chat.automations.enabled 设置，在 Agents 窗口侧边栏选择 Automations，使用预设模板（如追踪变更、分类 Issue、查找 Bug）或自定义提示词与调度计划。该功能目前处于预览阶段，正逐步向用户推送。 新版 1.137 增强 Voice Mode 的语音交互能力，用户可通过语音与智能体对话，并在智能体工作时随时打断或重定向任务。 启用 agents.voice.enabled 设置后，点击聊天输入框的 Voice Mode 按钮即可使用，支持推送通话快捷键中断智能体响应。 Voice Mode 可识别当前会话状态，回答关于运行中会话、所选模型及附加文件的问题，管理员可通过关闭 Copilot 预览功能禁用该特性。 除了上述功能，快速聊天现可无缝转入工作区会话。用户可在 Agents 窗口发起不与工作区关联的快速聊天，若对话涉及具体项目，可要求 Copilot 智能体附加本地文件夹并继续同一聊天。 转换后，聊天保留原标题、对话历史与当前请求，智能体在 workspace 设置完成后自动继续访问项目文件。此功能目前仅限 Copilot 框架使用。 在 GitHub 集成方面，Agents 窗口现可直接查看 Issue 与 Pull Request 详情，即使未打开对应仓库。用户需在默认配置文件中安装 GitHub Pull Requests 扩展，并启用 extensions.experimental.enableAgentsWindowCapability 设置。 点击 github.com 的 Issue 或 PR 链接，无需切换浏览器，详情将直接在 Agents 窗口打开。此外，任何聊天输入框均可通过 Add Context 菜单附加 GitHub Issue 或 PR 作为上下文。 微软同步推出 VS Code 宠物命名竞赛。该实验功能提供一个交互式宠物伙伴，在用户与智能体工作时作出反应，通过聊天输入 / vscode-pet 即可激活。命名征集活动从 9 月 10 日持续至 9 月 17 日，用户可提交命名建议。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/779cb328-84f5-46e9-afa1-debbf44bb15a.png",
+      "source": "IT之家",
+      "publishedAt": "2026-09-11T03:26:54.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/001/147.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789098696031_951a36c5",
+      "title": "AI六小虎IPO大年：中美谁先爬过算力成本那道坎",
+      "summary": "AI六小虎IPO大年：中美谁先爬过算力成本那道坎",
+      "content": "当\"大模型六小虎\"的招股书被摊在聚光灯下，一个被统称掩盖太久的事实开始浮现。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-11T02:50:32.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8130885.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789098707498_a2a1d0c9",
+      "title": "葡萄牙非营利组织 D3 提起欧洲首例社交媒体成瘾性设计集体诉讼",
+      "summary": "IT之家 9 月 11 日消息，葡萄牙非营利组织 Defesa dos Direitos Digitais（意为“数字权利捍卫”，简称为 D3）当地时间昨日宣布，已在今年早些时候针对 Facebook、Instagram、TikTok、YouTube 四大平台提起欧洲首例社交媒体成瘾性设计集体诉讼。",
+      "content": "IT之家 9 月 11 日消息，葡萄牙非营利组织 Defesa dos Direitos Digitais（意为“数字权利捍卫”，简称为 D3）当地时间昨日宣布，已在今年早些时候针对 Facebook、Instagram、TikTok、YouTube 四大平台提起欧洲首例社交媒体成瘾性设计集体诉讼。 图源：Pexels D3 表示，社交媒体平台掌握了海量个人信息，并基于这些资源构建了无限滚动、自动播放、个性化算法推荐等培养用户成瘾行为的“黑暗模式”，这减少了用户独立决策的空间，并助长了强迫性使用模式。 D3 同时强调，社交媒体平台的“注意力经济”商业模式已构成普遍性的剥削。该受到惩罚的应该是平台本身，而不是受到其影响的人群。比起限制未成年人社交媒体使用，更应该要求平台改弦更张，打造健康、高效且具有教育意义的生态系统。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/2b73b50a-b5f9-4a4b-afb4-0a1009e67094.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-09-11T02:49:18.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/1/001/138.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789056394169_459d0805",
@@ -75,30 +87,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8135640.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789056403625_bfd5a055",
-      "title": "14岁上清华、普林斯顿最年轻终身教授王梦迪：AI 尚未发现新的基础科学｜附完整演讲",
-      "summary": "14岁上清华、普林斯顿最年轻终身教授王梦迪：AI 尚未发现新的基础科学｜附完整演讲",
-      "content": "14岁上清华、普林斯顿最年轻终身教授王梦迪：AI 尚未发现新的基础科学｜附完整演讲",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-10T12:46:57.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/d0NzJlH20aPXVmsZHdjW?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789056404067_2618d4a6",
-      "title": "Airbnb 采用服务端驱动架构，身份验证代码量减少 60%",
-      "summary": "Airbnb 采用服务端驱动架构，身份验证代码量减少 60%",
-      "content": "Airbnb 采用服务端驱动架构，身份验证代码量减少 60%",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-10T12:46:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/CKpxx7ZtuZ7wLJ1CqF0i?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789012548910_59821676",
@@ -173,7 +161,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789056385836_0",
+      "id": "news_1789098684947_0",
       "title": "Reading scores slide amid worries that AI is shortcutting learning",
       "summary": "A new report shows declining student performance in reading and math, highlighting digital distractions and the rise of artificial intelligence as are...",
       "content": "A new report shows declining student performance in reading and math, highlighting digital distractions and the rise of artificial intelligence as areas of concern.\nThe report from the Organisation for Economic Co-operation and Development showed tha... [4017 chars]",
@@ -185,7 +173,19 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1789056386690_1",
+      "id": "news_1789098685465_1",
+      "title": "Leveraging prompt-driven generative AI for systematic reviews in digital psychiatry: A stage-matched comparative proof-of-concept for healthcare researchers and clinicians",
+      "summary": "Introduction\nSystematic literature reviews (SLRs) are foundational to evidence-based medicine [1,2], informing clinical guidelines, healthcare decisio...",
+      "content": "Introduction\nSystematic literature reviews (SLRs) are foundational to evidence-based medicine [1,2], informing clinical guidelines, healthcare decision-making, and policy development. However, the exponential growth of biomedical, psychiatry, and dig... [40828 chars]",
+      "imageUrl": "https://journals.plos.org/digitalhealth/article/figure/image?id=10.1371/journal.pdig.0001666.g003&size=inline",
+      "source": "PLOS (Public Library of Science)",
+      "publishedAt": "2026-09-10T00:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://journals.plos.org/digitalhealth/article?id=10.1371%2Fjournal.pdig.0001666",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1789098685462_2",
       "title": "Anthropic researcher resigns with warning about the dangers of AI development",
       "summary": "An Anthropic researcher said he is resigning from the company over concerns the artificial intelligence firm and its competitors are not acting respon...",
       "content": "An Anthropic researcher said he is resigning from the company over concerns the artificial intelligence firm and its competitors are not acting responsibly in AI development, echoing concerns raised inside and outside of the industry about the techno... [326 chars]",
@@ -230,102 +230,6 @@
       "publishedAt": "2026-09-09T08:43:27.000Z",
       "category": "国外AI",
       "originalUrl": "https://edition.cnn.com/2026/09/09/business/openai-millennium-problems-navier-stokes-hnk",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1788926177083_2a7aa771",
-      "title": "已修复：OpenAI 的 ChatGPT 生图功能出现故障，持续约 7.5 小时",
-      "summary": "IT之家 9 月 9 日消息，OpenAI 官方状态页面显示，从北京时间 9 月 8 日 22:32 到 9 月 9 日 05:59，旗下 ChatGPT 和 Images API 的图像生成功能出现故障，持续约 7 小时 27 分钟。",
-      "content": "IT之家 9 月 9 日消息，OpenAI 官方状态页面显示，从北京时间 9 月 8 日 22:32 到 9 月 9 日 05:59，旗下 ChatGPT 和 Images API 的图像生成功能出现故障，持续约 7 小时 27 分钟。 IT之家附上相关截图如下： 本次故障主要涉及 ChatGPT 的图像生成功能，以及面向开发者的 Images API。OpenAI 称，用户提交图像生成请求时出现更高频率的错误。 此外文件上传处理也受到影响，部分文件可能显示已完成上传，但仍停留在处理状态，暂时无法访问；另一些上传请求可能直接失败。 用户在提交图像生成提示词后，也可能看到系统返回错误。OpenAI 尚未披露故障的具体技术原因、受影响用户数量和预计恢复时间。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/d2f5b408-5329-4f04-b091-6b88b6278083.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-09-09T03:49:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/000/135.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788926163333_a2f20104",
-      "title": "AI Companions Remain Emotionally Thin While Japanese Users Pay Deeply for Scripted Intimacy",
-      "summary": "Even as generative chat tools proliferate, they struggle to deliver the recognition and sustained narrative that people seek from social connection, w...",
-      "content": "Even as generative chat tools proliferate, they struggle to deliver the recognition and sustained narrative that people seek from social connection, while a demanding Japanese audience has become the clearest test of whether anyone will pay for the illusion at scale.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-09T03:25:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8133822.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1788926164781_914e7574",
-      "title": "沃尔玛、Ulta以及其他能够凭借AI脱颖而出的零售商",
-      "summary": "TD Cowen表示，随着人工智能改变购物体验和运营模式，沃尔玛、Ulta Beauty、开市客以及BJ’s等零售商具备良好条件，有望从中受益。",
-      "content": "TD Cowen表示，随着人工智能改变购物体验和运营模式，沃尔玛、Ulta Beauty、开市客以及BJ’s等零售商具备良好条件，有望从中受益。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-09T01:35:57.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8133671.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789012534823_3",
-      "title": "OpenAI says AI solved one of math's hardest problems in days",
-      "summary": "OpenAI said Tuesday that one of its unreleased artificial intelligence models had solved a mathematical puzzle that has eluded mathematicians for gene...",
-      "content": "OpenAI said Tuesday that one of its unreleased artificial intelligence models had solved a mathematical puzzle that has eluded mathematicians for generations, in a claim which also drew a fight with rival researchers over credit.\nResearchers at OpenA... [3498 chars]",
-      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/09/https3A2F2Fmedia.zenfs_.com2Fen2Fafp.com_.sg2F28f84f903fdd91bb97fdeaedeeb0992c.jpg",
-      "source": "EUROPE SAYS",
-      "publishedAt": "2026-09-09T00:43:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.europesays.com/3240896/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1788926165540_d4c2d0d0",
-      "title": "长胶陷阱：为什么优秀的AI系统必须懂得“不优化”什么",
-      "summary": "长胶陷阱：为什么优秀的AI系统必须懂得“不优化”什么",
-      "content": "好的反馈循环是从现实中学习，但学习并不意味着吸收现实产生的一切。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-08T23:53:09.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8133417.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789012534168_4",
-      "title": "What's Going On With OpenAI And The Navier",
-      "summary": "News AI What's going on with OpenAI and the Navier-Stokes controversy? Artificial intelligence has solved a major mathematics problem, but credit for ...",
-      "content": "First, some background. The Millennium Prize Problems are a group of seven complex questions established by the Clay Mathematics Institute in 2000. The organization is offering a reward of $1 million for solutions to each of these questions, all of w... [2651 chars]",
-      "imageUrl": "https://www.engadget.com/img/gallery/whats-going-on-with-openai-and-the-navier-stokes-controversy/l-intro-1788905065.jpg",
-      "source": "Engadget",
-      "publishedAt": "2026-09-08T22:11:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.engadget.com/2253393/whats-going-on-with-openai-and-the-navier-stokes-controversy/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789012534163_5",
-      "title": "The DoD reportedly asked OpenAI to provide military AI that rarely declined to cooperate.",
-      "summary": "H\nExternal Link\nThe DoD reportedly asked OpenAI to provide military AI that rarely declined to cooperate.\nThe Intercept, citing documents it had seen,...",
-      "content": "H\nExternal Link\nThe DoD reportedly asked OpenAI to provide military AI that rarely declined to cooperate.\nThe Intercept, citing documents it had seen, reported that the Pentagon requested a custom version of OpenAI’s technology with “minimal refusal ... [627 chars]",
-      "imageUrl": "https://platform.theverge.com/wp-content/uploads/sites/2/2025/01/verge-placeholder_f212b3.png?quality=90&strip=all&crop=0,0.13712291199202,100,99.725754176016",
-      "source": "The Verge",
-      "publishedAt": "2026-09-08T21:55:57.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.theverge.com/ai-artificial-intelligence/991862/the-dod-reportedly-asked-openai-to-provide-military-ai-that-rarely-declined-to-cooperate",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789012534133_6",
-      "title": "Wall Street Lunch: Huang Declares 'AGI Has Arrived' After OpenAI's GPT-6 Astra Launch",
-      "summary": "Listen below or on the go on Apple Podcasts and Spotify\nJensen Huang declares artificial general intelligence after GPT-6 Astra. (0:15) IonQ raises it...",
-      "content": "Listen below or on the go on Apple Podcasts and Spotify\nJensen Huang declares artificial general intelligence after GPT-6 Astra. (0:15) IonQ raises its outlook. (2:02) Pepsi moves beyond chips and soda in an Ozempic world. (2:19)\nThis is an abridged ... [3609 chars]",
-      "imageUrl": "https://static.seekingalpha.com/cdn/s3/uploads/getty_images/1370479417/image_1370479417.jpg?io=getty-c-w1536",
-      "source": "Seeking Alpha",
-      "publishedAt": "2026-09-08T16:17:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://seekingalpha.com/article/4943849-wall-street-lunch-nvidias-huang-declares-agi-has-arrived-after-openais-gpt-6-astra-launch",
       "aiInsight": ""
     }
   ]
