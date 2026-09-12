@@ -1,19 +1,115 @@
 {
   "success": true,
-  "timestamp": "2026-09-11T16:12:20Z",
-  "total": 27,
+  "timestamp": "2026-09-12T03:56:11Z",
+  "total": 25,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1789143032902_5eca3434",
-      "title": "AI Coding 提速之后，如何补上稳定性“最后一公里”？快手柯南 AI 实践",
-      "summary": "AI Coding 提速之后，如何补上稳定性“最后一公里”？快手柯南 AI 实践",
-      "content": "AI Coding 提速之后，如何补上稳定性“最后一公里”？快手柯南 AI 实践",
+      "id": "news_1789185266104_6aebf7d8",
+      "title": "两个 Token 就让 Kimi“变成”Claude？前Google DeepMind研究员意外撞上大模型的蒸馏疑云",
+      "summary": "两个 Token 就让 Kimi“变成”Claude？前Google DeepMind研究员意外撞上大模型的蒸馏疑云...",
+      "content": "两个 Token 就让 Kimi“变成”Claude？前Google DeepMind研究员意外撞上大模型的蒸馏疑云",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T21:06:08.000Z",
+      "publishedAt": "2026-09-12T10:19:25.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/GhA2VWxo6JTGyKIb7KdT?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789185266604_b1efa9a2",
+      "title": "模型一模一样，Token 却相差 70 倍？三项实测揭开 AI 编程工具的成本黑洞",
+      "summary": "模型一模一样，Token 却相差 70 倍？三项实测揭开 AI 编程工具的成本黑洞",
+      "content": "模型一模一样，Token 却相差 70 倍？三项实测揭开 AI 编程工具的成本黑洞",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-12T10:13:44.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/oPSaLpULlAxGxTbYXlXO?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789185267092_4291bbdc",
+      "title": "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
+      "summary": "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
+      "content": "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-12T10:08:50.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/rlXYaPUjVR0fffbQK3Iz?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/G7cublzVyXFOUX3vpz1t?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789185267603_6e1bc133",
+      "title": "从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海",
+      "summary": "从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海",
+      "content": "从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-12T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/hk3WB50fAOMDg55YVaaW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789185276465_cc35ba55",
+      "title": "月之暗面：网传创始人及员工信息纯属虚构，已向公安机关报案",
+      "summary": "IT之家 9 月 12 日消息，月之暗面官微今日发布声明，回应网络流传的相关信息。声明称，网传关于公司创始人及员工的信息纯属虚构，系恶意造谣。 月之暗面表示，公司已第一时间向公安机关报案，将依法追究相关造谣者的法律责任。声明同时呼吁公众不信谣、不传谣。",
+      "content": "IT之家 9 月 12 日消息，月之暗面官微今日发布声明，回应网络流传的相关信息。声明称，网传关于公司创始人及员工的信息纯属虚构，系恶意造谣。 月之暗面表示，公司已第一时间向公安机关报案，将依法追究相关造谣者的法律责任。声明同时呼吁公众不信谣、不传谣。 截至IT之家发稿，公安机关尚未就此事发布通报，月之暗面也未进一步披露案件细节。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/443578f2-a088-49e5-a9cd-7020a0c40e0e.png",
+      "source": "IT之家",
+      "publishedAt": "2026-09-12T03:37:13.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/1/001/537.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789185260117_c0e38925",
+      "title": "蚂蚁阿福：1.5亿用户背后，健康AI的烧钱与造血",
+      "summary": "蚂蚁阿福：1.5亿用户背后，健康AI的烧钱与造血",
+      "content": "蚂蚁阿福、健康AI 、AI医疗、用户留存 、烧钱换增长、蚂蚁保、阿里健康、好大夫在线",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-12T02:43:01.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8137230.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789185260668_b8502f13",
+      "title": "智谱和MiniMax，进入“低价增长”时代",
+      "summary": "智谱和MiniMax，进入“低价增长”时代",
+      "content": "DeepSeek再降价，模型公司的高增长被打折。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-12T02:42:53.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8137263.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789185261253_0cd67323",
+      "title": "OpenAI把Codex“拆开卖了”",
+      "summary": "OpenAI把Codex“拆开卖了”",
+      "content": "Agent = Model + Harness",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-12T02:42:50.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8137691.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789185276501_c374cb34",
+      "title": "苹果公布 SimpleDesign 蛋白质设计模型，可联合生成序列与三维结构",
+      "summary": "IT之家 9 月 12 日消息，苹果公司的研究人员本月初公布了一项名为 SimpleDesign 的蛋白质设计模型，相关研究论文以预印本形式发布在 arxiv 上。 该模型能够联合生成蛋白质的氨基酸序列和三维结构，采用直接在原始数据上训练的方式，省去了传统多阶段训练流程中的中间表示转换环节。",
+      "content": "IT之家 9 月 12 日消息，苹果公司的研究人员本月初公布了一项名为 SimpleDesign 的蛋白质设计模型，相关研究论文以预印本形式发布在 arxiv 上。 该模型能够联合生成蛋白质的氨基酸序列和三维结构，采用直接在原始数据上训练的方式，省去了传统多阶段训练流程中的中间表示转换环节。 研究人员在论文中提到，现有不少蛋白质联合设计模型需要先训练自编码器，将蛋白质结构转换为离散的潜在表示，再训练生成模型处理这些表示。SimpleDesign 直接使用氨基酸序列和连续三维坐标进行端到端训练。 这项研究延续了苹果此前 SimpleFold 项目的技术思路。SimpleFold 通过流匹配模型，根据氨基酸序列直接预测蛋白质三维结构。SimpleDesign 则将这一简化架构扩展至蛋白质设计任务，不仅预测结构，还尝试同时生成能够形成相应结构的氨基酸序列。 研究团队使用了超过 200 万组蛋白质序列与结构配对数据，主要来自 AFESM 数据集。该数据集整合了 AlphaFold 数据库的预测结构及其他样本。训练过程中，模型会随机遮盖氨基酸序列中的部分内容，同时向对应的三维结构添加噪声。 通过调整序列和结构的破坏程度，模型可以学习不同的蛋白质任务。当序列基本完整而结构受到较大干扰时，任务类似于蛋白质折叠，即根据已知序列恢复结构；当结构基本完整而序列被大量遮盖时，则类似于逆折叠，即生成能够形成指定结构的氨基酸序列。 当序列与结构同时受到部分破坏时，模型需要联合处理两类信息，从而学习蛋白质序列与结构的协同设计。 IT之家注：蛋白质折叠是指氨基酸链形成特定三维结构的过程，逆折叠则是根据目标结构寻找可能对应的氨基酸序列。 根据研究结果，SimpleDesign 在蛋白质联合设计、结构生成和序列生成等基准测试中取得了具有竞争力的表现。研究人员还发现，该模型能够生成具有合理形态的蛋白质结构，生成的氨基酸序列整体质量与多数竞品多模态模型相当或更好。 不过，论文目前仅报告了计算机评估结果。研究团队尚未通过实验验证生成蛋白质能否实际折叠、发挥功能或在生物系统中安全运行，因此这些结果还不能直接证明模型设计出的蛋白质具备实际应用能力。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/ce483a34-da49-4812-bc8d-01b75dfcd613.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-09-12T02:15:21.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/1/001/521.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -29,43 +125,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789143033968_432ddf23",
-      "title": "“我们在拿生命做赌注”：造AI的人为何开始密集预警？",
-      "summary": "“我们在拿生命做赌注”：造AI的人为何开始密集预警？",
-      "content": "“我们在拿生命做赌注”：造AI的人为何开始密集预警？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T19:08:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/FA80wgNMOwCRrXsSIAwX?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789143034517_e76b011a",
-      "title": "AI Coding 的下一步不是写得更快，而是可验收：蚂蚁数科 Harness 工程实践",
-      "summary": "AI Coding 的下一步不是写得更快，而是可验收：蚂蚁数科 Harness 工程实践",
-      "content": "AI Coding 的下一步不是写得更快，而是可验收：蚂蚁数科 Harness 工程实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T18:15:19.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/A2IFuW8yiYhRqXizT5Uu?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789143035008_8e735dad",
-      "title": "当 AI 写出更多代码，企业为什么没有跑得更快？| JDD 大会现场观察",
-      "summary": "当 AI 写出更多代码，企业为什么没有跑得更快？| JDD 大会现场观察",
-      "content": "当 AI 写出更多代码，企业为什么没有跑得更快？| JDD 大会现场观察",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T16:10:31.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Y02WwW92ZqjLXQQvIWWi?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789143035493_84040ced",
+      "id": "news_1789185270650_84040ced",
       "title": "Netflix 采用开源 Flink Autoscaler，支撑超 3 万个流式作业",
       "summary": "Netflix 采用开源 Flink Autoscaler，支撑超 3 万个流式作业",
       "content": "Netflix 采用开源 Flink Autoscaler，支撑超 3 万个流式作业",
@@ -75,6 +135,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/8JZ9IdSIxo18dcz6pZG6?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789185249337_0",
+      "title": "Senators from both parties question OpenAI on breach of AI startup Hugging Face",
+      "summary": "JavaScript is disabled In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload th...",
+      "content": "WASHINGTON (AP) — Lawmakers worried about the existential risk posed by new artificial intelligence products demanded information from OpenAI on Thursday with separate queries that underscored growing concerns in Washington about the technology's pot... [3341 chars]",
+      "imageUrl": "https://d3i6fh83elv35t.cloudfront.net/static/2026/09/2026-07-29T143016Z_2036873086_RC2QNMA53UC1_RTRMADP_3_HEALTH-CORONAVIRUS-USA-FAUCI-1024x683.jpg",
+      "source": "PBS News",
+      "publishedAt": "2026-09-11T13:56:42.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.pbs.org/newshour/politics/senators-from-both-parties-question-openai-on-breach-of-ai-startup-hugging-face",
+      "aiInsight": ""
     },
     {
       "id": "news_1789143035988_cb050f33",
@@ -101,18 +173,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789143036510_2240637b",
-      "title": "刘震云对话马毅：人写不出来、想不到的作品，AI 模仿不了｜附完整对话",
-      "summary": "刘震云对话马毅：人写不出来、想不到的作品，AI 模仿不了｜附完整对话",
-      "content": "刘震云对话马毅：人写不出来、想不到的作品，AI 模仿不了｜附完整对话",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T13:00:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Z5ddgQ63RixMXCVzqgq7?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1789143029390_5bb931ff",
       "title": "DeepSeek V4.1 Flash上线，崔添翼加入“义父之战”",
       "summary": "DeepSeek V4.1 Flash上线，崔添翼加入“义父之战”",
@@ -123,18 +183,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8135584.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789143037019_a909f4e1",
-      "title": "AMD 发布锐龙AI Max PRO 400 系列，端侧智能体走向多模型协同",
-      "summary": "AMD 发布锐龙AI Max PRO 400 系列，端侧智能体走向多模型协同",
-      "content": "AMD 发布锐龙AI Max PRO 400 系列，端侧智能体走向多模型协同",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T12:30:38.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/NizuOkFpcOPgbeClC4uL?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789098700475_0954fb91",
@@ -183,18 +231,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/1/001/138.htm",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789143018192_0",
-      "title": "Senators from both parties question OpenAI on breach of AI startup Hugging Face",
-      "summary": "By KEVIN FREKING\nWASHINGTON (AP) — Lawmakers worried about the existential risk posed by new artificial intelligence products demanded information fro...",
-      "content": "By KEVIN FREKING\nWASHINGTON (AP) — Lawmakers worried about the existential risk posed by new artificial intelligence products demanded information from OpenAI on Thursday with separate queries that underscored growing concerns in Washington about the... [3213 chars]",
-      "imageUrl": "https://www.bostonherald.com/wp-content/uploads/2026/09/Education_AI_Literacy_35547.jpg?w=2000&h=1333",
-      "source": "The Boston Herald",
-      "publishedAt": "2026-09-10T23:53:39.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bostonherald.com/2026/09/10/congress-artificial-intelligence/",
-      "aiInsight": ""
     },
     {
       "id": "news_1789056394169_459d0805",
@@ -267,66 +303,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8134523.html",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789012556516_b8acf9d9",
-      "title": "蚂蚁国际联合 Visa、万事达卡合作开发 AI 支付新标准",
-      "summary": "IT之家 9 月 10 日消息，蚂蚁国际预计消费者和企业将越来越多地使用 AI 智能体完成交易，于是今日宣布与 Visa 和 Mastercard 万事达卡达成合作，共同制定 AI 支付的新标准。",
-      "content": "IT之家 9 月 10 日消息，蚂蚁国际预计消费者和企业将越来越多地使用 AI 智能体完成交易，于是今日宣布与 Visa 和 Mastercard 万事达卡达成合作，共同制定 AI 支付的新标准。 据 CNBC 报道，三方在声明中援引麦肯锡的预测称，到 2030 年，AI 智能体预计将处理全球 3 万亿至 5 万亿美元的消费者商业交易。 蚂蚁国际首席创新官杨江明表示，AI 智能体存在“幻觉”的可能性，这意味着“我们需要确保人们感到安全”。他称：“信任是 AI 转型的基础。” 此次合作的核心是一个名为“Know-Your-Agent”（KYA）的互操作性框架。据 BusinessWire 发布的官方新闻稿，该框架旨在帮助卡组织、数字钱包生态系统、智能体平台和市场在保持各自验证和决策流程的前提下，基于共同原则简化 AI 智能体的入驻和识别。 据路透社报道，该框架允许卡网络、数字钱包、智能体平台和在线市场在维护各自审批和风险管理流程的同时，跨不同支付生态系统识别受信任的 AI 智能体。 三方此前已分别推出各自的协议：Visa 的 Trusted Agent Protocol、Mastercard 的 Verifiable Intent，以及蚂蚁国际的 Agentic Mobile Protocol。此次合作将探索向共同原则靠拢的机会。 据 BusinessWire 报道，KYA 框架围绕三个核心要素展开：跨网络运营商可追溯性，即每个智能体都关联到经过验证的运营商、持卡人或企业 / 组织；共享认证要求，即每个智能体都需通过安全和行为评估；持续交易监控，即结合身份和交易信号对智能体进行持续评估。 杨江明向 CNBC 解释了互操作性的实际意义：“如果一个 AI 智能体在蚂蚁这边注册了，就不需要在 Visa、Mastercard 再注册一次。” 据路透社报道，蚂蚁国际、Mastercard 和 Visa 将通过新加坡金融管理局召集的 BuildFin.ai 平台展开协作。该平台汇集金融机构、技术提供商和研究人员，共同开发金融服务的 AI 解决方案。 万事达卡首席数字官 Pablo Fourez 表示：“KYA 框架之间的互操作性对于智能体商务实现规模化至关重要。”他强调，商家和支付处理商需要一种一致的方式来识别哪些 AI 智能体是可信的。 Visa 增长产品与战略合作全球主管 Rubail Birwadker 表示，随着 AI 智能体在人们发现和购买商品的过程中扮演更重要的角色，“信任必须与它们同步扩展”。 从市场背景看，Visa 和 Mastercard 在发达经济体的交易中占据主导地位，而许多发展中经济体更倾向于使用电子钱包。据 CNBC 报道，超过 50 个电子钱包已与蚂蚁国际合作，而且后者还运营着国际版支付宝 Alipay+ 系统。 据支付处理公司 Worldpay 的数据，2025 年数字钱包占全球电子商务价值的 56% 和销售点价值的 33%，对应超过 13 万亿美元（IT之家注：现汇率约合 87.43 万亿元人民币）的消费支出。其中，销售点（POS）指消费者在实体商户处完成支付交易的场景。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/467489c7-447e-4320-8bed-64ba7d164bc3.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-09-10T03:17:15.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/000/625.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789012544891_259e62fd",
-      "title": "免费的代价：中国开源大模型出海为什么开始收费",
-      "summary": "免费的代价：中国开源大模型出海为什么开始收费",
-      "content": "智谱、月之暗面、MiniMax 同期出海，路径各不相同。共同点是：开源许可证正在成为收费工具。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-10T03:07:52.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8134994.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789098684947_0",
-      "title": "Reading scores slide amid worries that AI is shortcutting learning",
-      "summary": "A new report shows declining student performance in reading and math, highlighting digital distractions and the rise of artificial intelligence as are...",
-      "content": "A new report shows declining student performance in reading and math, highlighting digital distractions and the rise of artificial intelligence as areas of concern.\nThe report from the Organisation for Economic Co-operation and Development showed tha... [4017 chars]",
-      "imageUrl": "https://wjla.com/resources/media2/16x9/5305/1320/166x284/90/698e881c-8190-421b-9d25-efbc674d6e28-GettyImages1218865458.jpg",
-      "source": "WJLA",
-      "publishedAt": "2026-09-10T00:11:21.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://wjla.com/news/nation-world/reading-scores-slide-amid-worries-that-ai-is-shortcutting-learning-oecd-student-performance",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789098685465_1",
-      "title": "Leveraging prompt-driven generative AI for systematic reviews in digital psychiatry: A stage-matched comparative proof-of-concept for healthcare researchers and clinicians",
-      "summary": "Introduction\nSystematic literature reviews (SLRs) are foundational to evidence-based medicine [1,2], informing clinical guidelines, healthcare decisio...",
-      "content": "Introduction\nSystematic literature reviews (SLRs) are foundational to evidence-based medicine [1,2], informing clinical guidelines, healthcare decision-making, and policy development. However, the exponential growth of biomedical, psychiatry, and dig... [40828 chars]",
-      "imageUrl": "https://journals.plos.org/digitalhealth/article/figure/image?id=10.1371/journal.pdig.0001666.g003&size=inline",
-      "source": "PLOS (Public Library of Science)",
-      "publishedAt": "2026-09-10T00:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://journals.plos.org/digitalhealth/article?id=10.1371%2Fjournal.pdig.0001666",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789098685462_2",
-      "title": "Anthropic researcher resigns with warning about the dangers of AI development",
-      "summary": "An Anthropic researcher said he is resigning from the company over concerns the artificial intelligence firm and its competitors are not acting respon...",
-      "content": "An Anthropic researcher said he is resigning from the company over concerns the artificial intelligence firm and its competitors are not acting responsibly in AI development, echoing concerns raised inside and outside of the industry about the techno... [326 chars]",
-      "imageUrl": "https://images.ajc.com/resizer/v2/7EQBX2GYAFAC3NLOQ6BDEHQHGY.jpg?auth=123f876618fb44669a71259299969afb49184b458897fd6148ad53587d5e8fc3&width=1200&height=630&smart=true",
-      "source": "The Atlanta Journal-Constitution",
-      "publishedAt": "2026-09-09T19:02:47.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ajc.com/news/2026/09/anthropic-researcher-resigns-with-warning-about-the-dangers-of-ai-development/",
-      "aiInsight": ""
     }
   ]
 }
