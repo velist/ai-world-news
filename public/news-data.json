@@ -1,20 +1,56 @@
 {
   "success": true,
-  "timestamp": "2026-09-13T04:05:04Z",
+  "timestamp": "2026-09-13T15:56:01Z",
   "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1789272199987_df46570b",
-      "title": "Figma 如何利用 AI 代理提升安全性",
-      "summary": "Figma 如何利用 AI 代理提升安全性",
-      "content": "Figma 如何利用 AI 代理提升安全性",
+      "id": "news_1789314851960_9de5d70d",
+      "title": "‌FreeCORE：TrueNAS 衍生分支，在 FreeBSD 系统上维护与之深度整合的虚拟化、Jails 容器与 OpenZFS 文件系统‌",
+      "summary": "‌FreeCORE：TrueNAS 衍生分支，在 FreeBSD 系统上维护与之深度整合的虚拟化、Jails 容器与 OpenZFS 文件系统‌...",
+      "content": "‌FreeCORE：TrueNAS 衍生分支，在 FreeBSD 系统上维护与之深度整合的虚拟化、Jails 容器与 OpenZFS 文件系统‌",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-13T10:00:00.000Z",
+      "publishedAt": "2026-09-13T16:00:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/eS4M9XEPmLbkxksCyAye?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/TDav5ojS854dZKyfJmhI?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789314860589_2b25dfd9",
+      "title": "蚂蚁灵波开源三款 LingBot-World 2.0 世界模型：Small 参数 1.3B 面向消费级单卡 GPU 设计",
+      "summary": "IT之家 9 月 13 日消息，继今年 7 月开源 LingBot-World 2.0 14B 模型后，蚂蚁灵波科技本周进一步开源三款模型：LingBot-World 2.0 Small（1.3B）、LingBot-World 2.0 Bidirectional 和 LingBot-World 2....",
+      "content": "IT之家 9 月 13 日消息，继今年 7 月开源 LingBot-World 2.0 14B 模型后，蚂蚁灵波科技本周进一步开源三款模型：LingBot-World 2.0 Small（1.3B）、LingBot-World 2.0 Bidirectional 和 LingBot-World 2.0 Causal Pretrain。 据介绍，LingBot-World 2.0 是一个实时交互世界模型。模型支持小时级连续生成，并可以响应攻击、射箭、施法、射击等角色动作，以及下雪、下雨等环境事件。在更高算力与相应推理配置下，LingBot-World 2.0 可进一步达到 720P / 60FPS 的高清实时体验。 而本次开源的 LingBot-World 2.0 Small 采用 1.3B 参数规模，面向消费级单卡 GPU 设计，可在单卡上实现实时生成。官方称个人开发者、高校实验室和小型团队也可以从本地体验和复现开始，进一步探索交互方式、推理优化与场景应用。 LingBot-World 2.0 Bidirectional 面向实时世界模型训练，提供高质量的蒸馏源；LingBot-World 2.0 Causal Pretrain 面向后训练、评测和场景适配，提供因果预训练底座。 IT之家附相关链接： 项目主页：https://technology.robbyant.com/lingbot-world-v2 Hugging Face：https://huggingface.co/robbyant/lingbot-world-v2 魔搭社区：https://www.modelscope.cn/collections/Robbyant/LingBot-World-V2 代码：https://github.com/robbyant/lingbot-world-v2 技术报告：https://arxiv.org/abs/2607.07534",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-09-13T14:34:46.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/001/863.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789314860672_92754c7e",
+      "title": "专为缓解程序员视疲劳设计，英特尔保留 One Mono 开源字体项目",
+      "summary": "IT之家 9 月 13 日消息，英特尔推翻了此前的决定，不再搁置其专为开发者打造的开源字体 One Mono 项目。本周早些时候，该字体的 GitHub 代码仓库已被归档，但据消息，英特尔现已恢复该项目，并有可能继续维护。这次暂停项目原本是英特尔大范围收缩开源相关工作的一环。",
+      "content": "IT之家 9 月 13 日消息，英特尔推翻了此前的决定，不再搁置其专为开发者打造的开源字体 One Mono 项目。本周早些时候，该字体的 GitHub 代码仓库已被归档，但据消息，英特尔现已恢复该项目，并有可能继续维护。这次暂停项目原本是英特尔大范围收缩开源相关工作的一环。Phoronix 网站报道称，英特尔正在关停那些开发停滞，或是负责员工已经离职的项目。 据IT之家了解，One Mono 是一款等宽字体，所有字符横向宽度一致，于 2023 年正式推出。英特尔联合字体设计工作室 Frere-Jones Type 与营销机构 VMLY&R 共同完成开发，设计阶段，团队邀请低视力及法定失明的开发者参与实测，找出那些在阅读代码时容易混淆的字符。 英特尔在项目介绍中写道：“我们注意到低视力开发者群体缺少合适字体，为此设计了 Intel One Mono 字体，最大化提升可读性，缓解开发者的视觉疲劳，减少编码错误。” 这款字体加入多项优化可读性的设计，着重区分外形相近的字母与代码符号。例如，小写字母 e 和大写字母 G 被设计成差异更大的造型，方便辨认；同时拉大大小写字母的高度差，延长升部与降部笔画，让代码块更容易阅读。此外，该字体支持 200 多种使用拉丁字母的语言，提供细体、常规、中等、粗体四种字重，并配有对应的斜体。 如前文所述，One Mono 采用开源协议发布，开发者可以自由使用和修改。可惜这款字体自 2024 年后就没有重大更新，2025 年仅对说明文档（Readme）做了少量改动。所以仓库被归档本在预料之中，尤其英特尔当时正在清理所有不再活跃开发的项目。目前这款字体躲过了这次英特尔开源项目清理，项目虽然暂时没有新动态，但这次复活意味着这款面向程序员的字体终究没有被放弃。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/8eb3bcb0-fa9a-4c9c-a6c6-60c238c5489a.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-09-13T13:29:51.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/001/852.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789314846976_97448295",
+      "title": "一年后agent可能组建僵尸网络，四巨头齐呼刹车",
+      "summary": "一年后agent可能组建僵尸网络，四巨头齐呼刹车",
+      "content": "OpenAI把安全摆到IPO之前，Meta暂时站在另一边。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-13T12:20:20.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8138378.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789272200606_2a8b29b6",
@@ -29,6 +65,30 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1789314847832_e606f68d",
+      "title": "科技巨头呼吁AI减速，马斯克、奥特曼等罕见赞同",
+      "summary": "科技巨头呼吁AI减速，马斯克、奥特曼等罕见赞同",
+      "content": "或许，想要放缓的不是AI的速度。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-13T07:34:25.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8138286.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789314848478_698cf55a",
+      "title": "独家对话吴德周：从工具到Agent，AI眼镜的竞争逻辑变了",
+      "summary": "独家对话吴德周：从工具到Agent，AI眼镜的竞争逻辑变了",
+      "content": "“要活下来，必须转向垂直场景。”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-13T05:15:46.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8138191.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1789272194263_0d3d53fc",
       "title": "Dario自曝RSI已成真，奥特曼同日光速跟进",
       "summary": "Anthropic CEO Dario Amodei 罕见发文，亲口承认递归自我改进已在全行业发生，并预测6到12个月内失控的AI Agent集群可能接管整个互联网，造成数千亿美元损失。他提出一套三步刹车法，OpenAI 奥特曼同日光速跟进。",
@@ -39,6 +99,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8138094.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789314838772_0",
+      "title": "Altman says OpenAI will not go public in 2026, citing safety concerns",
+      "summary": "Sign In Home News Politics White House Senate House Campaigns Policy 2026 Election Opinion Editorials Op-Eds In Focus Restoring America Magazine Watch...",
+      "content": "OpenAI CEO Sam Altman said in an interview released on Saturday the artificial intelligence company will not go public until at least 2027 as the industry coalesces around calls for safety measures.\nWhile speaking with Fortune’s Alyson Shontell, Altm... [459 chars]",
+      "imageUrl": "https://www.washingtonexaminer.com/wp-content/uploads/2026/07/AP23077616650673-e1784294798616.jpg?resize=1200,683",
+      "source": "Washington Examiner",
+      "publishedAt": "2026-09-13T02:39:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.washingtonexaminer.com/policy/technology/4725082/altman-openai-not-public-2026-safety-concerns/",
+      "aiInsight": ""
     },
     {
       "id": "news_1789272194560_50d6e327",
@@ -87,6 +159,42 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8138103.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789314839668_1",
+      "title": "Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up",
+      "summary": "NEW YORK (AP) — The CEO of Anthropic said Saturday the artificial-intelligence industry should slow its fast-moving development to give safety measure...",
+      "content": "NEW YORK (AP) — The CEO of Anthropic said Saturday the artificial-intelligence industry should slow its fast-moving development to give safety measures time to catch up. Without such a slowdown, Dario Amodei warned that within six to 12 months, AI co... [575 chars]",
+      "imageUrl": "https://images.ajc.com/resizer/v2/2VL6MJUZOZBJLDOR2SWH2ONXKM.jpg?auth=639d570477b0be990947bfcfe8ca35cc8ca9ab8b55f20e1121df37f6dfd63bc6&width=1200&height=630&smart=true",
+      "source": "The Atlanta Journal-Constitution",
+      "publishedAt": "2026-09-12T21:51:52.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ajc.com/news/2026/09/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1789314838614_2",
+      "title": "OpenAI IPO will not happen in 2026 amid AI safety fears, Altman says",
+      "summary": "News National business OpenAI IPO will not happen in 2026 amid AI safety fears, Altman says Sept. 12, 2026 Updated Sat., Sept. 12, 2026 at 4:54 p.m. F...",
+      "content": "LOS ANGELES – OpenAI will not go public in 2026, CEO Sam Altman said in a Fortune interview published Saturday, citing safety concerns over artificial intelligence.\n“I actually think that, given everything happening with safety, right ​now would be a... [2205 chars]",
+      "imageUrl": "https://thumb.spokesman.com/sTJQukuGGk29kp9z6GsYNxy1F_I=/2400x1260/smart/media.spokesman.com/photos/2026/09/12/6aa5e5dd083e7.image.jpg",
+      "source": "Spokane Spokesman-Review",
+      "publishedAt": "2026-09-12T20:38:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.spokesman.com/stories/2026/sep/12/openai-ipo-will-not-happen-in-2026-amid-ai-safety-/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1789314853505_9d9b9a2b",
+      "title": "AI的新用法，被这群 Builder 带到了外滩大会开发者日",
+      "summary": "AI的新用法，被这群 Builder 带到了外滩大会开发者日",
+      "content": "AI的新用法，被这群 Builder 带到了外滩大会开发者日",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-12T20:35:26.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/i1FJsYNhNM4wwV78ANhL?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789226275550_d2d2d424",
@@ -147,42 +255,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/GhA2VWxo6JTGyKIb7KdT?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789272202252_b1efa9a2",
-      "title": "模型一模一样，Token 却相差 70 倍？三项实测揭开 AI 编程工具的成本黑洞",
-      "summary": "模型一模一样，Token 却相差 70 倍？三项实测揭开 AI 编程工具的成本黑洞",
-      "content": "模型一模一样，Token 却相差 70 倍？三项实测揭开 AI 编程工具的成本黑洞",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-12T10:13:44.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/oPSaLpULlAxGxTbYXlXO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789272202713_4291bbdc",
-      "title": "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
-      "summary": "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
-      "content": "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-12T10:08:50.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/G7cublzVyXFOUX3vpz1t?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789272203174_6e1bc133",
-      "title": "从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海",
-      "summary": "从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海",
-      "content": "从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-12T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/hk3WB50fAOMDg55YVaaW?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789226261337_513030ab",
@@ -269,6 +341,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1789314855880_5eca3434",
+      "title": "AI Coding 提速之后，如何补上稳定性“最后一公里”？快手柯南 AI 实践",
+      "summary": "AI Coding 提速之后，如何补上稳定性“最后一公里”？快手柯南 AI 实践",
+      "content": "AI Coding 提速之后，如何补上稳定性“最后一公里”？快手柯南 AI 实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-11T21:06:08.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/rlXYaPUjVR0fffbQK3Iz?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1789143033470_826ae0ac",
       "title": "怒斥加密货币是旁氏骗局、放弃80%就业机会也不用 AI 写代码！Kotlin“J神”：AI 会让工程师变成可替换的齿轮",
       "summary": "怒斥加密货币是旁氏骗局、放弃80%就业机会也不用 AI 写代码！Kotlin“J神”：AI 会让工程师变成可替换的齿轮...",
@@ -279,90 +363,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/QPRcUdPGic5r8Ws8R1gM?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789272181589_0",
-      "title": "Hawley adds OpenAI to his probe of artificial intelligence",
-      "summary": "Joe Holleman | Post-Dispatch\nPolitical correspondent/columnist\nGet email notifications on {{subject}} daily!\nYour notification has been saved.\nThere w...",
-      "content": "Joe Holleman | Post-Dispatch\nPolitical correspondent/columnist\nGet email notifications on {{subject}} daily!\nYour notification has been saved.\nThere was a problem saving your notification.\n{{description}}\nEmail notifications are only sent once a day,... [959 chars]",
-      "imageUrl": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/c/9f/c9fd8fd0-2239-59d4-87ea-b7d04b8a4f45/6a9050870e21f.image.jpg?crop=1762%2C925%2C0%2C0&resize=1200%2C630&order=crop%2Cresize",
-      "source": "St. Louis Post-Dispatch",
-      "publishedAt": "2026-09-11T20:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.stltoday.com/news/local/column/joe-holleman/article_a0aea00c-fb17-4599-ac15-ab94d48073af.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789272182015_1",
-      "title": "Senators from both parties question OpenAI on breach of AI startup Hugging Face",
-      "summary": "WASHINGTON (AP) — Lawmakers worried about the existential risk posed by new artificial intelligence products demanded information from OpenAI on Thurs...",
-      "content": "WASHINGTON (AP) — Lawmakers worried about the existential risk posed by new artificial intelligence products demanded information from OpenAI on Thursday with separate queries that underscored growing concerns in Washington about the technology's pot... [3341 chars]",
-      "imageUrl": "https://img.particlenews.com/img/id/41s70C_1F40OQ3d00",
-      "source": "NewsBreak",
-      "publishedAt": "2026-09-11T17:56:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.newsbreak.com/pbs-newshour-513240/4880809023024-senators-from-both-parties-question-openai-on-breach-of-ai-startup-hugging-face",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789272181579_2",
-      "title": "Anthropic Researcher Quits AI Industry, Citing Fears of Uncontrollable Systems",
-      "summary": "Artificial intelligence (AI) researcher Jacob Coxon resigned from his position on Tuesday, Sept. 8 – warning that leading AI companies are gambling wi...",
-      "content": "Artificial intelligence (AI) researcher Jacob Coxon resigned from his position on Tuesday, Sept. 8 – warning that leading AI companies are gambling with public safety.\nIn a series of posts on X, Coxon – who has worked at both OpenAI and Anthropic – s... [6271 chars]",
-      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/09/ai-safety-uncontrollable-ai-artificial-general-intelligence-4059-original.jpg",
-      "source": "Natural News",
-      "publishedAt": "2026-09-11T17:31:33.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.naturalnews.com/2026-09-11-anthropic-researcher-quits-citing-fears-uncontrollable-ai.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789143035988_cb050f33",
-      "title": "AI 有了“工号”，数据平台长出了手：我在 Snowflake World Tour 看到的三个变化",
-      "summary": "AI 有了“工号”，数据平台长出了手：我在 Snowflake World Tour 看到的三个变化...",
-      "content": "AI 有了“工号”，数据平台长出了手：我在 Snowflake World Tour 看到的三个变化",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T13:36:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/RLdCKyW7YNb8ybDKlQ5d?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789143028848_b59bae97",
-      "title": "AI末日论者停不下末日论调，是时候听听他们怎么说了",
-      "summary": "AI末日论者停不下末日论调，是时候听听他们怎么说了",
-      "content": "与新技术相关的末日式设想，已经是延续了一个多世纪的传统。但这一次，也许真的会不一样。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-11T13:12:05.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8137504.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789143029390_5bb931ff",
-      "title": "DeepSeek V4.1 Flash上线，崔添翼加入“义父之战”",
-      "summary": "DeepSeek V4.1 Flash上线，崔添翼加入“义父之战”",
-      "content": "DeepSeek V4.1 Flash全面替代V4 Pro，价格也按Flash算。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-11T12:58:49.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8135584.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789098700475_0954fb91",
-      "title": "1300 Star！开源文档框架 Blume 冲上 GitHub 趋势榜：零配置、免脚手架，一键生成文档网站",
-      "summary": "1300 Star！开源文档框架 Blume 冲上 GitHub 趋势榜：零配置、免脚手架，一键生成文档网站...",
-      "content": "1300 Star！开源文档框架 Blume 冲上 GitHub 趋势榜：零配置、免脚手架，一键生成文档网站",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T09:15:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/DtxID7YaDp3o3QRcOTYj?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
