@@ -1,20 +1,92 @@
 {
   "success": true,
-  "timestamp": "2026-09-12T15:19:33Z",
-  "total": 29,
+  "timestamp": "2026-09-13T04:05:04Z",
+  "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1789226267241_9d9b9a2b",
-      "title": "AI的新用法，被这群 Builder 带到了外滩大会开发者日",
-      "summary": "AI的新用法，被这群 Builder 带到了外滩大会开发者日",
-      "content": "AI的新用法，被这群 Builder 带到了外滩大会开发者日",
+      "id": "news_1789272199987_df46570b",
+      "title": "Figma 如何利用 AI 代理提升安全性",
+      "summary": "Figma 如何利用 AI 代理提升安全性",
+      "content": "Figma 如何利用 AI 代理提升安全性",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-12T20:35:26.000Z",
+      "publishedAt": "2026-09-13T10:00:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/i1FJsYNhNM4wwV78ANhL?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/eS4M9XEPmLbkxksCyAye?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789272200606_2a8b29b6",
+      "title": "Read, Don&#39;t Write: 重塑大模型评价体系，构建全自动、可进化的“探测式”评测管线｜QCon上海",
+      "summary": "Read, Don&#39;t Write: 重塑大模型评价体系，构建全自动、可进化的“探测式”评测管线｜QCon上海...",
+      "content": "Read, Don&#39;t Write: 重塑大模型评价体系，构建全自动、可进化的“探测式”评测管线｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-13T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/0kYhxXxhOXhxGATe64ec?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789272194263_0d3d53fc",
+      "title": "Dario自曝RSI已成真，奥特曼同日光速跟进",
+      "summary": "Anthropic CEO Dario Amodei 罕见发文，亲口承认递归自我改进已在全行业发生，并预测6到12个月内失控的AI Agent集群可能接管整个互联网，造成数千亿美元损失。他提出一套三步刹车法，OpenAI 奥特曼同日光速跟进。",
+      "content": "Anthropic CEO Dario Amodei 罕见发文，亲口承认递归自我改进已在全行业发生，并预测6到12个月内失控的AI Agent集群可能接管整个互联网，造成数千亿美元损失。他提出一套三步刹车法，OpenAI 奥特曼同日光速跟进。本文拆解最强对手为何在减速上突然达成一致，以及这次刹车真正争夺的东西是可验证性。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-13T02:59:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8138094.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789272194560_50d6e327",
+      "title": "乌兰察布：一个北方小城如何成为“Token之都”？",
+      "summary": "乌兰察布：一个北方小城如何成为“Token之都”？",
+      "content": "蒙西电网的历史包袱，变成了乌兰察布AI算力爆发的制度红利。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-13T02:28:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8137132.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789272194855_83271afb",
+      "title": "大众拥有的第一个机器人，可能是只“鸭子”",
+      "summary": "大众拥有的第一个机器人，可能是只“鸭子”",
+      "content": "我们的第一个机器人，可能不是来自“宇树”们。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-13T02:15:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8138116.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789272195410_f61a2fa8",
+      "title": "说“投诉”就接通，AI客服到底在防谁？",
+      "summary": "说“投诉”就接通，AI客服到底在防谁？",
+      "content": "AI客服，真的能让人崩溃。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-13T01:50:22.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8138050.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789272195995_bd1ef2b4",
+      "title": "AI基建让建筑产业链再度“复生”？",
+      "summary": "AI基建让建筑产业链再度“复生”？",
+      "content": "这一波工业基建，能不能复刻当年地产黄金时代的全民红利？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-13T01:50:17.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8138103.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789226275550_d2d2d424",
@@ -75,6 +147,42 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/GhA2VWxo6JTGyKIb7KdT?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789272202252_b1efa9a2",
+      "title": "模型一模一样，Token 却相差 70 倍？三项实测揭开 AI 编程工具的成本黑洞",
+      "summary": "模型一模一样，Token 却相差 70 倍？三项实测揭开 AI 编程工具的成本黑洞",
+      "content": "模型一模一样，Token 却相差 70 倍？三项实测揭开 AI 编程工具的成本黑洞",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-12T10:13:44.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/oPSaLpULlAxGxTbYXlXO?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789272202713_4291bbdc",
+      "title": "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
+      "summary": "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
+      "content": "V4.1 Flash全面超越，开发者为何还在喷 DeepSeek：缺的不是能力，是软件工程思维",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-12T10:08:50.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/G7cublzVyXFOUX3vpz1t?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789272203174_6e1bc133",
+      "title": "从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海",
+      "summary": "从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海",
+      "content": "从沙箱到执行边界：蚂蚁 AI Agent 的大规模企业级实践｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-12T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/hk3WB50fAOMDg55YVaaW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789226261337_513030ab",
@@ -161,18 +269,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789226269518_5eca3434",
-      "title": "AI Coding 提速之后，如何补上稳定性“最后一公里”？快手柯南 AI 实践",
-      "summary": "AI Coding 提速之后，如何补上稳定性“最后一公里”？快手柯南 AI 实践",
-      "content": "AI Coding 提速之后，如何补上稳定性“最后一公里”？快手柯南 AI 实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T21:06:08.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/rlXYaPUjVR0fffbQK3Iz?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1789143033470_826ae0ac",
       "title": "怒斥加密货币是旁氏骗局、放弃80%就业机会也不用 AI 写代码！Kotlin“J神”：AI 会让工程师变成可替换的齿轮",
       "summary": "怒斥加密货币是旁氏骗局、放弃80%就业机会也不用 AI 写代码！Kotlin“J神”：AI 会让工程师变成可替换的齿轮...",
@@ -185,43 +281,19 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789226251833_0",
+      "id": "news_1789272181589_0",
       "title": "Hawley adds OpenAI to his probe of artificial intelligence",
       "summary": "Joe Holleman | Post-Dispatch\nPolitical correspondent/columnist\nGet email notifications on {{subject}} daily!\nYour notification has been saved.\nThere w...",
-      "content": "Joe Holleman | Post-Dispatch\nPolitical correspondent/columnist\nGet email notifications on {{subject}} daily!\nYour notification has been saved.\nThere was a problem saving your notification.\n{{description}}\nEmail notifications are only sent once a day,... [374 chars]",
+      "content": "Joe Holleman | Post-Dispatch\nPolitical correspondent/columnist\nGet email notifications on {{subject}} daily!\nYour notification has been saved.\nThere was a problem saving your notification.\n{{description}}\nEmail notifications are only sent once a day,... [959 chars]",
       "imageUrl": "https://bloximages.newyork1.vip.townnews.com/stltoday.com/content/tncms/assets/v3/editorial/c/9f/c9fd8fd0-2239-59d4-87ea-b7d04b8a4f45/6a9050870e21f.image.jpg?crop=1762%2C925%2C0%2C0&resize=1200%2C630&order=crop%2Cresize",
       "source": "St. Louis Post-Dispatch",
-      "publishedAt": "2026-09-11T19:30:00.000Z",
+      "publishedAt": "2026-09-11T20:00:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.stltoday.com/news/local/column/joe-holleman/article_a0aea00c-fb17-4599-ac15-ab94d48073af.html",
       "aiInsight": ""
     },
     {
-      "id": "news_1789226270313_432ddf23",
-      "title": "“我们在拿生命做赌注”：造AI的人为何开始密集预警？",
-      "summary": "“我们在拿生命做赌注”：造AI的人为何开始密集预警？",
-      "content": "“我们在拿生命做赌注”：造AI的人为何开始密集预警？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T19:08:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/FA80wgNMOwCRrXsSIAwX?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789226270769_e76b011a",
-      "title": "AI Coding 的下一步不是写得更快，而是可验收：蚂蚁数科 Harness 工程实践",
-      "summary": "AI Coding 的下一步不是写得更快，而是可验收：蚂蚁数科 Harness 工程实践",
-      "content": "AI Coding 的下一步不是写得更快，而是可验收：蚂蚁数科 Harness 工程实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T18:15:19.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/A2IFuW8yiYhRqXizT5Uu?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789226251335_1",
+      "id": "news_1789272182015_1",
       "title": "Senators from both parties question OpenAI on breach of AI startup Hugging Face",
       "summary": "WASHINGTON (AP) — Lawmakers worried about the existential risk posed by new artificial intelligence products demanded information from OpenAI on Thurs...",
       "content": "WASHINGTON (AP) — Lawmakers worried about the existential risk posed by new artificial intelligence products demanded information from OpenAI on Thursday with separate queries that underscored growing concerns in Washington about the technology's pot... [3341 chars]",
@@ -233,7 +305,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1789226251325_2",
+      "id": "news_1789272181579_2",
       "title": "Anthropic Researcher Quits AI Industry, Citing Fears of Uncontrollable Systems",
       "summary": "Artificial intelligence (AI) researcher Jacob Coxon resigned from his position on Tuesday, Sept. 8 – warning that leading AI companies are gambling wi...",
       "content": "Artificial intelligence (AI) researcher Jacob Coxon resigned from his position on Tuesday, Sept. 8 – warning that leading AI companies are gambling with public safety.\nIn a series of posts on X, Coxon – who has worked at both OpenAI and Anthropic – s... [6271 chars]",
@@ -243,30 +315,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.naturalnews.com/2026-09-11-anthropic-researcher-quits-citing-fears-uncontrollable-ai.html",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1789226271237_8e735dad",
-      "title": "当 AI 写出更多代码，企业为什么没有跑得更快？| JDD 大会现场观察",
-      "summary": "当 AI 写出更多代码，企业为什么没有跑得更快？| JDD 大会现场观察",
-      "content": "当 AI 写出更多代码，企业为什么没有跑得更快？| JDD 大会现场观察",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T16:10:31.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Y02WwW92ZqjLXQQvIWWi?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789226271626_84040ced",
-      "title": "Netflix 采用开源 Flink Autoscaler，支撑超 3 万个流式作业",
-      "summary": "Netflix 采用开源 Flink Autoscaler，支撑超 3 万个流式作业",
-      "content": "Netflix 采用开源 Flink Autoscaler，支撑超 3 万个流式作业",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-11T14:40:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/8JZ9IdSIxo18dcz6pZG6?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789143035988_cb050f33",
@@ -315,42 +363,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/DtxID7YaDp3o3QRcOTYj?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789098707458_73d12545",
-      "title": "微软 VS Code 1.137 发布：为宠物征名、按小时 / 日 / 周调度 AI 智能体任务",
-      "summary": "IT之家 9 月 11 日消息，微软昨日（9 月 10 日）发布公告，宣布推出 Visual Studio Code 1.137 版本，可帮助用户自动化重复性工作、在工作区中继续快速聊天，以及在不离开客服窗口的情况下处理 GitHub 问题和拉取请求。",
-      "content": "IT之家 9 月 11 日消息，微软昨日（9 月 10 日）发布公告，宣布推出 Visual Studio Code 1.137 版本，可帮助用户自动化重复性工作、在工作区中继续快速聊天，以及在不离开客服窗口的情况下处理 GitHub 问题和拉取请求。 本次更新主要聚焦增强 AI 智能体能力，推出 5 项主要新功能，其中 3 项仍处于实验或预览阶段。核心功能包括 Automations（预览）、Voice Mode（实验）、快速聊天转工作区、GitHub Issue / PR 集成以及 VS Code 宠物互动功能。 Automations 方面，用户可以根据使用需求，在手动触发之外，也可以按小时、每日或每周自动执行 AI 智能体任务。IT之家附上相关视频如下： 用户可通过启用 chat.automations.enabled 设置，在 Agents 窗口侧边栏选择 Automations，使用预设模板（如追踪变更、分类 Issue、查找 Bug）或自定义提示词与调度计划。该功能目前处于预览阶段，正逐步向用户推送。 新版 1.137 增强 Voice Mode 的语音交互能力，用户可通过语音与智能体对话，并在智能体工作时随时打断或重定向任务。 启用 agents.voice.enabled 设置后，点击聊天输入框的 Voice Mode 按钮即可使用，支持推送通话快捷键中断智能体响应。 Voice Mode 可识别当前会话状态，回答关于运行中会话、所选模型及附加文件的问题，管理员可通过关闭 Copilot 预览功能禁用该特性。 除了上述功能，快速聊天现可无缝转入工作区会话。用户可在 Agents 窗口发起不与工作区关联的快速聊天，若对话涉及具体项目，可要求 Copilot 智能体附加本地文件夹并继续同一聊天。 转换后，聊天保留原标题、对话历史与当前请求，智能体在 workspace 设置完成后自动继续访问项目文件。此功能目前仅限 Copilot 框架使用。 在 GitHub 集成方面，Agents 窗口现可直接查看 Issue 与 Pull Request 详情，即使未打开对应仓库。用户需在默认配置文件中安装 GitHub Pull Requests 扩展，并启用 extensions.experimental.enableAgentsWindowCapability 设置。 点击 github.com 的 Issue 或 PR 链接，无需切换浏览器，详情将直接在 Agents 窗口打开。此外，任何聊天输入框均可通过 Add Context 菜单附加 GitHub Issue 或 PR 作为上下文。 微软同步推出 VS Code 宠物命名竞赛。该实验功能提供一个交互式宠物伙伴，在用户与智能体工作时作出反应，通过聊天输入 / vscode-pet 即可激活。命名征集活动从 9 月 10 日持续至 9 月 17 日，用户可提交命名建议。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/779cb328-84f5-46e9-afa1-debbf44bb15a.png",
-      "source": "IT之家",
-      "publishedAt": "2026-09-11T03:26:54.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/1/001/147.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789098696031_951a36c5",
-      "title": "AI六小虎IPO大年：中美谁先爬过算力成本那道坎",
-      "summary": "AI六小虎IPO大年：中美谁先爬过算力成本那道坎",
-      "content": "当\"大模型六小虎\"的招股书被摊在聚光灯下，一个被统称掩盖太久的事实开始浮现。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-11T02:50:32.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8130885.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789098707498_a2a1d0c9",
-      "title": "葡萄牙非营利组织 D3 提起欧洲首例社交媒体成瘾性设计集体诉讼",
-      "summary": "IT之家 9 月 11 日消息，葡萄牙非营利组织 Defesa dos Direitos Digitais（意为“数字权利捍卫”，简称为 D3）当地时间昨日宣布，已在今年早些时候针对 Facebook、Instagram、TikTok、YouTube 四大平台提起欧洲首例社交媒体成瘾性设计集体诉讼。",
-      "content": "IT之家 9 月 11 日消息，葡萄牙非营利组织 Defesa dos Direitos Digitais（意为“数字权利捍卫”，简称为 D3）当地时间昨日宣布，已在今年早些时候针对 Facebook、Instagram、TikTok、YouTube 四大平台提起欧洲首例社交媒体成瘾性设计集体诉讼。 图源：Pexels D3 表示，社交媒体平台掌握了海量个人信息，并基于这些资源构建了无限滚动、自动播放、个性化算法推荐等培养用户成瘾行为的“黑暗模式”，这减少了用户独立决策的空间，并助长了强迫性使用模式。 D3 同时强调，社交媒体平台的“注意力经济”商业模式已构成普遍性的剥削。该受到惩罚的应该是平台本身，而不是受到其影响的人群。比起限制未成年人社交媒体使用，更应该要求平台改弦更张，打造健康、高效且具有教育意义的生态系统。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/2b73b50a-b5f9-4a4b-afb4-0a1009e67094.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-09-11T02:49:18.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/001/138.htm",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
