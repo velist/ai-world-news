@@ -1,56 +1,92 @@
 {
   "success": true,
-  "timestamp": "2026-09-14T17:58:16Z",
-  "total": 30,
+  "timestamp": "2026-09-15T04:12:33Z",
+  "total": 25,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1789408587300_61454e10",
-      "title": "AI 负责创造，人来干脏活，这事儿能否停一下？",
-      "summary": "AI 负责创造，人来干脏活，这事儿能否停一下？",
-      "content": "AI 负责创造，人来干脏活，这事儿能否停一下？",
+      "id": "news_1789445442986_0dfa9bb0",
+      "title": "Meta 打造“组织第二大脑”智能体的设计思路",
+      "summary": "Meta 打造“组织第二大脑”智能体的设计思路",
+      "content": "Meta 打造“组织第二大脑”智能体的设计思路",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-15T00:08:00.000Z",
+      "publishedAt": "2026-09-15T11:21:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/4OXJdfB36TpMRdvrVgIc?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789445443658_6bfbacf5",
+      "title": "从 Trace 到规模化实时评估：面向生产流量的 Agent 可观测实践｜QCon上海",
+      "summary": "从 Trace 到规模化实时评估：面向生产流量的 Agent 可观测实践｜QCon上海",
+      "content": "从 Trace 到规模化实时评估：面向生产流量的 Agent 可观测实践｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-15T10:08:44.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/556HrGKWUqWSg7NM3YT3?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789445439241_d0beb68a",
+      "title": "阿莫迪口嗨AI减速，这边Opus 5.2疑似已灰测",
+      "summary": "阿莫迪口嗨AI减速，这边Opus 5.2疑似已灰测",
+      "content": "倡议归倡议，竞争不能停。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-15T04:00:55.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/CKzbmAxb1lLuu4geZuHy?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8140043.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789408588120_ca2503fc",
-      "title": "发长文预警 AI 风险后，Dario 首次专访回应：AI 不能停，但必须慢下来",
-      "summary": "发长文预警 AI 风险后，Dario 首次专访回应：AI 不能停，但必须慢下来",
-      "content": "发长文预警 AI 风险后，Dario 首次专访回应：AI 不能停，但必须慢下来",
+      "id": "news_1789445439682_da52214c",
+      "title": "瑞士医疗企业Scanvio Medical研发AI辅助妇科超声诊断软件，提高子宫内膜异位症诊断效率",
+      "summary": "瑞士医疗企业Scanvio Medical研发AI辅助妇科超声诊断软件，提高子宫内膜异位症诊断效率",
+      "content": "实时解析妇科超声影像。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-14T21:54:49.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-15T03:55:52.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/fsZQ39K4Cd79vaUkFz7F?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8140119.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789408588626_ab2e5b91",
-      "title": "Arm 推出 AI Portal：当 AI 应用从“模型可用”走向“平台可用”",
-      "summary": "Arm 推出 AI Portal：当 AI 应用从“模型可用”走向“平台可用”",
-      "content": "Arm 推出 AI Portal：当 AI 应用从“模型可用”走向“平台可用”",
+      "id": "news_1789445440191_71f68e8b",
+      "title": "高瓴创投90后大牛，空降DeepSeek当CFO",
+      "summary": "高瓴创投90后大牛，空降DeepSeek当CFO",
+      "content": "DeepSeek敲定新任CFO。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-14T21:50:38.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/xD9oWbebhcjwgHz1oEfa?utm_source=rss&utm_medium=article",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-15T03:48:10.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8140058.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789408589127_c10a24bc",
-      "title": "不下班的经营者：把 LLM-as-Judge 做成会自我校准的评估闭环｜QCon上海",
-      "summary": "不下班的经营者：把 LLM-as-Judge 做成会自我校准的评估闭环｜QCon上海",
-      "content": "不下班的经营者：把 LLM-as-Judge 做成会自我校准的评估闭环｜QCon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-14T16:26:11.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/LoKvL75PL8g48hD3UNCE?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1789445431720_0",
+      "title": "Trump dismisses new AI guardrails, says there is a 'SICK conspiracy' against AI and data centers",
+      "summary": "WASHINGTON (AP) — President Donald Trump said Monday that he would be a sufficient guardrail against rogue artificial intelligence, claiming that any ...",
+      "content": "WASHINGTON (AP) — President Donald Trump said Monday that he would be a sufficient guardrail against rogue artificial intelligence, claiming that any efforts to limit the technology was part of a “SICK conspiracy.”\nTrump was pushing back against call... [542 chars]",
+      "imageUrl": "https://images.ajc.com/resizer/v2/2FFQGQLRDBHUDPSOIW4QLXLLBA.jpg?auth=6aff0caf954c1a79b607d36ca12544d7a796d7d390fda28e014bc647f4012a93&width=1200&height=630&smart=true",
+      "source": "The Atlanta Journal-Constitution",
+      "publishedAt": "2026-09-14T14:41:36.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ajc.com/news/2026/09/trump-dismisses-new-ai-guardrails-says-there-is-a-sick-conspiracy-against-ai-and-data-centers/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1789445430667_1",
+      "title": "After tech leaders share AI worries, Trump points to ‘stakes’ in intel battle against China",
+      "summary": "DUBLIN — President Donald Trump on Sunday played down the need for his administration to check the development of artificial intelligence, saying he w...",
+      "content": "DUBLIN — President Donald Trump on Sunday played down the need for his administration to check the development of artificial intelligence, saying he worried about ceding America’s edge over China in a global competition and that winning would help ad... [6325 chars]",
+      "imageUrl": "https://www.silive.com/resizer/v2/7XGQM67BRNAJHNNOVZGZBWVH5Q.jpg?auth=42d6d65638695ac6703b944aa78dd015272ce6a67658b37db326aea96529110f&width=1280&smart=true&quality=90",
+      "source": "Staten Island Advance",
+      "publishedAt": "2026-09-14T14:15:41.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.silive.com/nation/2026/09/after-tech-leaders-share-ai-worries-trump-points-to-stakes-in-intel-battle-against-china.html",
+      "aiInsight": ""
     },
     {
       "id": "news_1789408596702_34cc8694",
@@ -65,18 +101,6 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789408589666_21478a77",
-      "title": "openJiuwen 首发双维度 RSI 框架，AI 自修改，落地办公智能体，算力亲和助力又快又省",
-      "summary": "openJiuwen 首发双维度 RSI 框架，AI 自修改，落地办公智能体，算力亲和助力又快又省",
-      "content": "openJiuwen 首发双维度 RSI 框架，AI 自修改，落地办公智能体，算力亲和助力又快又省",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-14T13:40:36.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/JghIFNXBNVSAfbgbR4S9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1789408596711_b3f23038",
       "title": "微软发布 37 页人文主义 AI 行为准则：强调“人比 AI 重要”，拒绝追逐无边界超级智能",
       "summary": "IT之家 9 月 14 日消息，随着各界对 AI 模型发展的安全担忧不断加剧，微软于今日发布了一份长达 37 页的“人文主义 AI 行为准则”。上周末，Anthropic 首席执行官达里奥 · 阿莫代伊（Dario Amodei）呼吁各方协同放缓 AI 研发进度。",
@@ -89,16 +113,16 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789408590167_26f92239",
-      "title": "GitLab 警告称，AI 代理的沙箱安全性取决于其网络访问的安全性",
-      "summary": "GitLab 警告称，AI 代理的沙箱安全性取决于其网络访问的安全性",
-      "content": "GitLab 警告称，AI 代理的沙箱安全性取决于其网络访问的安全性",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-14T13:09:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/XLzpR2brCNW2VgYuuYJk?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1789445431236_2",
+      "title": "China, Michael Burry, and Yann LeCun reject OpenAI and Anthropic calls to slow AI development; LeCun calls warnings ‘fake’",
+      "summary": "China has rejected calls from some of America’s most prominent AI executives to slow the development of advanced artificial intelligence, putting Beij...",
+      "content": "China has rejected calls from some of America’s most prominent AI executives to slow the development of advanced artificial intelligence, putting Beijing on the same side of a widening debate as investor Michael Burry and former Meta AI chief Yann Le... [5580 chars]",
+      "imageUrl": "https://techstartups.com/wp-content/uploads/2024/06/Anthropic.jpg",
+      "source": "TechStartups.com",
+      "publishedAt": "2026-09-14T11:54:48.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://techstartups.com/2026/09/14/china-michael-burry-and-yann-lecun-reject-openai-and-anthropic-calls-to-slow-ai-development-lecun-calls-warnings-fake/",
+      "aiInsight": ""
     },
     {
       "id": "news_1789408583882_081e1140",
@@ -161,7 +185,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789408572725_0",
+      "id": "news_1789445430596_4",
       "title": "Dario Amodei needs to face his own duty to prevent AI-mageddon",
       "summary": "“Stop us before we doom humanity” is how tech kingpins Dario Amodei and Sam Altman present what amounts to a call for Uncle Sam to permanently lock in...",
       "content": "“Stop us before we doom humanity” is how tech kingpins Dario Amodei and Sam Altman present what amounts to a call for Uncle Sam to permanently lock in their companies’ leadership in AI.\nNo one much doubts that Anthropic and OpenAI are the cutting-edg... [1877 chars]",
@@ -221,7 +245,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789408573210_1",
+      "id": "news_1789445430423_5",
       "title": "Trump brushes off AI doomsaying to guard US lead over China",
       "summary": "By Maggie Eastland and Courtney Subramanian, Bloomberg News\nIn June 2024, during a campaign stop in Las Vegas, then-candidate Donald Trump got a glimp...",
       "content": "By Maggie Eastland and Courtney Subramanian, Bloomberg News\nIn June 2024, during a campaign stop in Las Vegas, then-candidate Donald Trump got a glimpse of the technology that would come to define his second presidential term.\nOpenAI co-founder Greg ... [13859 chars]",
@@ -245,7 +269,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789408572960_2",
+      "id": "news_1789445430538_6",
       "title": "OpenAI AI agents were linked to a cyberattack on RubyGems before the Hugging Face incident",
       "summary": "Artificial intelligence agents being tested by OpenAI were involved in a previously undisclosed cyberattack against RubyGems in May, an incident that ...",
       "content": "Artificial intelligence agents being tested by OpenAI were involved in a previously undisclosed cyberattack against RubyGems in May, an incident that is now raising uncomfortable questions about how much control humans really have over increasingly a... [3363 chars]",
@@ -279,90 +303,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8138191.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789272194263_0d3d53fc",
-      "title": "Dario自曝RSI已成真，奥特曼同日光速跟进",
-      "summary": "Anthropic CEO Dario Amodei 罕见发文，亲口承认递归自我改进已在全行业发生，并预测6到12个月内失控的AI Agent集群可能接管整个互联网，造成数千亿美元损失。他提出一套三步刹车法，OpenAI 奥特曼同日光速跟进。",
-      "content": "Anthropic CEO Dario Amodei 罕见发文，亲口承认递归自我改进已在全行业发生，并预测6到12个月内失控的AI Agent集群可能接管整个互联网，造成数千亿美元损失。他提出一套三步刹车法，OpenAI 奥特曼同日光速跟进。本文拆解最强对手为何在减速上突然达成一致，以及这次刹车真正争夺的东西是可验证性。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-13T02:59:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8138094.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789408573800_3",
-      "title": "Altman says OpenAI will not go public in 2026, citing safety concerns",
-      "summary": "Sign In Home News Politics White House Senate House Campaigns Policy 2026 Election Opinion Editorials Op-Eds In Focus Restoring America Magazine Watch...",
-      "content": "OpenAI CEO Sam Altman said in an interview released on Saturday that the artificial intelligence company will not go public until at least 2027 as the industry coalesces around calls for safety measures.\nWhile speaking with Fortune’s Alyson Shontell,... [466 chars]",
-      "imageUrl": "https://www.washingtonexaminer.com/wp-content/uploads/2026/09/GettyImages-2293904083.jpg?resize=1200,683",
-      "source": "Washington Examiner",
-      "publishedAt": "2026-09-13T02:39:08.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.washingtonexaminer.com/policy/technology/4725082/altman-openai-not-public-2026-safety-concerns/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789272194560_50d6e327",
-      "title": "乌兰察布：一个北方小城如何成为“Token之都”？",
-      "summary": "乌兰察布：一个北方小城如何成为“Token之都”？",
-      "content": "蒙西电网的历史包袱，变成了乌兰察布AI算力爆发的制度红利。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-13T02:28:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8137132.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789272194855_83271afb",
-      "title": "大众拥有的第一个机器人，可能是只“鸭子”",
-      "summary": "大众拥有的第一个机器人，可能是只“鸭子”",
-      "content": "我们的第一个机器人，可能不是来自“宇树”们。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-13T02:15:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8138116.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789272195410_f61a2fa8",
-      "title": "说“投诉”就接通，AI客服到底在防谁？",
-      "summary": "说“投诉”就接通，AI客服到底在防谁？",
-      "content": "AI客服，真的能让人崩溃。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-13T01:50:22.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8138050.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789272195995_bd1ef2b4",
-      "title": "AI基建让建筑产业链再度“复生”？",
-      "summary": "AI基建让建筑产业链再度“复生”？",
-      "content": "这一波工业基建，能不能复刻当年地产黄金时代的全民红利？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-13T01:50:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8138103.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789408573348_4",
-      "title": "Anthropic CEO Dario Amodei says AI industry needs to give safety measures time to catch up",
-      "summary": "NEW YORK (AP) — The CEO of Anthropic said Saturday the artificial-intelligence industry should slow its fast-moving development to give safety measure...",
-      "content": "NEW YORK (AP) — The CEO of Anthropic said Saturday the artificial-intelligence industry should slow its fast-moving development to give safety measures time to catch up. Without such a slowdown, Dario Amodei warned that within six to 12 months, AI co... [575 chars]",
-      "imageUrl": "https://images.ajc.com/resizer/v2/2VL6MJUZOZBJLDOR2SWH2ONXKM.jpg?auth=639d570477b0be990947bfcfe8ca35cc8ca9ab8b55f20e1121df37f6dfd63bc6&width=1200&height=630&smart=true",
-      "source": "The Atlanta Journal-Constitution",
-      "publishedAt": "2026-09-12T21:51:52.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ajc.com/news/2026/09/anthropic-ceo-dario-amodei-says-ai-industry-needs-to-give-safety-measures-time-to-catch-up/",
-      "aiInsight": ""
     }
   ]
 }
