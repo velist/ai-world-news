@@ -1,9 +1,81 @@
 {
   "success": true,
-  "timestamp": "2026-09-16T04:09:26Z",
-  "total": 23,
+  "timestamp": "2026-09-16T16:31:57Z",
+  "total": 29,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1789576209949_2753fb60",
+      "title": "亚马逊 CTO 要来中国了，说实话，这比泛滥的 AI 发布会值得关注",
+      "summary": "亚马逊 CTO 要来中国了，说实话，这比泛滥的 AI 发布会值得关注",
+      "content": "亚马逊 CTO 要来中国了，说实话，这比泛滥的 AI 发布会值得关注",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-16T19:20:27.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/5PVJPjNlo2g1XKl90u1F?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789576210450_af5ddfc4",
+      "title": "实测 Vibe Key：开口使唤 AI，真有当甲方的感觉",
+      "summary": "实测 Vibe Key：开口使唤 AI，真有当甲方的感觉",
+      "content": "实测 Vibe Key：开口使唤 AI，真有当甲方的感觉",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-16T18:48:49.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/joXcPA6XF1QWgik9OALj?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789576210898_e7cc6ba2",
+      "title": "Agent 的经济账，不能只算 Token——阿里用 Qoder Cloud Agents 给出答案",
+      "summary": "Agent 的经济账，不能只算 Token——阿里用 Qoder Cloud Agents 给出答案...",
+      "content": "Agent 的经济账，不能只算 Token——阿里用 Qoder Cloud Agents 给出答案",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-16T18:36:54.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/8leHq71KkbQfo930ptvc?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789576211108_8eea80b5",
+      "title": "从概率生成到稳定交付：AIGC专业内容生产的工程化挑战",
+      "summary": "从概率生成到稳定交付：AIGC专业内容生产的工程化挑战",
+      "content": "从概率生成到稳定交付：AIGC专业内容生产的工程化挑战",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-16T17:59:39.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/bj4Q9E2PBJfUWIRZkutu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789576211547_b6acac4d",
+      "title": "借助会话追踪与成本控制排查 AI 智能体故障",
+      "summary": "借助会话追踪与成本控制排查 AI 智能体故障",
+      "content": "借助会话追踪与成本控制排查 AI 智能体故障",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-16T17:12:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/EixaQZkFMDLhlfE7RUK7?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789576217162_2a8bada3",
+      "title": "形似“脚印”，好奇号在火星上发现奇特新地貌",
+      "summary": "IT之家 9 月 16 日消息，科学家在火星这颗红色星球的地表，发现了一种前所未见的奇特地貌。 据IT之家了解，美国国家航空航天局的“毅力号”火星车是 NASA 火星机器人探测队伍里的新成员，而它的前辈“好奇号”依旧状态良好。",
+      "content": "IT之家 9 月 16 日消息，科学家在火星这颗红色星球的地表，发现了一种前所未见的奇特地貌。 据IT之家了解，美国国家航空航天局的“毅力号”火星车是 NASA 火星机器人探测队伍里的新成员，而它的前辈“好奇号”依旧状态良好。自着陆至今 14 年过去，好奇号仍在火星上不断发现各类奇异、不同寻常的事物。 “好奇号”火星手持透镜成像仪（MAHLI）副首席研究员米歇尔 · 米尼蒂（Michelle Minitti）在一份声明中表示：“借助好奇号在火星夏普山最新获取的观测图像，研究团队识别出一批和我们以往所见截然不同的地貌。” 这批神秘地貌是散布在火星基岩之上的大量宽阔浅坑，有的坑像是一个脚印。虽然小型凹坑与凹陷痕迹在火星地表并不少见，但好奇号观测到的这批宽阔浅坑，和此前已经发现的地表特征存在明显区别。 “本周发现的这批坑比以往见过的同类地貌更宽、也更浅；坑内也没有留存曾经嵌在里面的明显石块或物体。”米尼蒂说道。 科研团队动用好奇号搭载的多套设备，尽可能完整地采集这批奇异坑洞的数据，其中包括火星手持透镜成像仪（MAHLI）、桅杆相机（Mastcam）、化学相机系统（ChemCam）以及 α 粒子 X 射线光谱仪（APX）。 到目前为止，研究人员已经在坑内物质当中发现了有意思的岩层；从化学成分来看，这部分岩层和主体基岩并不一样。 至于更多谜底，还需要等待后续研究结果。这些奇特坑洞究竟是如何形成的？它们已经存在多久？又能够为我们揭示火星历史当中的哪些秘密？一切仍有待解答。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/34d9c107-1876-46dc-9dc5-c8f936cb9a5d.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-09-16T15:16:13.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/1/003/328.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1789531624243_20fc4750",
       "title": "Java新闻汇总：Simple JSON API、GlassFish、Jakarta EE、JNoSQL和Open Liberty、LangChain4j",
@@ -17,6 +89,42 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1789576205485_eddf96ec",
+      "title": "Huawei Scales Back Full Support for AITO as Seres Takes the Lead",
+      "summary": "Huawei is shifting its partnership with Seres from comprehensive smart-selection support to a lighter empowerment model. Seres will assume primary res...",
+      "content": "Huawei is shifting its partnership with Seres from comprehensive smart-selection support to a lighter empowerment model. Seres will assume primary responsibility for product, marketing, sales and service of the AITO brand, freeing Huawei resources for other Harmony Intelligent Mobility nameplates while raising questions about AITO’s independent momentum.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-16T09:02:06.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8141991.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789576206192_912c4913",
+      "title": "物理 AI 的大结果何时到来？",
+      "summary": "物理 AI 的大结果何时到来？",
+      "content": "只要敢于向上接触 Physical AI，总有机会被长择。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-16T08:53:45.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8141849.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789576207048_c7b1e4f6",
+      "title": "微软CEO纳德拉：企业必须掌握AI主权，避免过度依赖单一大模型",
+      "summary": "微软CEO纳德拉：企业必须掌握AI主权，避免过度依赖单一大模型",
+      "content": "开源制衡闭源，应用层才能跑通商业模式",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-16T08:53:39.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8141825.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1789531618385_96a3800c",
       "title": "AI短剧市场见顶，Seedance开始降价",
       "summary": "AI短剧市场见顶，Seedance开始降价",
@@ -27,6 +135,54 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8141471.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789576194680_0",
+      "title": "OpenAI Agents Used More Websites Than Disclosed, Investigators Say",
+      "summary": "OpenAI's autonomous artificial intelligence (AI) agents used more than a dozen previously undisclosed websites as communication hubs during the first ...",
+      "content": "OpenAI's autonomous artificial intelligence (AI) agents used more than a dozen previously undisclosed websites as communication hubs during the first half of the year, according to findings from six independent investigative teams reviewed by Reuters... [7183 chars]",
+      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/09/openai-ai-agents-disclosure-4068-original.jpg",
+      "source": "Natural News",
+      "publishedAt": "2026-09-15T22:20:31.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.naturalnews.com/2026-09-15-openai-agents-used-more-websites-investigators-say.html",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1789576212525_e25dd5ac",
+      "title": "Agent开始调用基础设施，Kubernetes准备好了吗？",
+      "summary": "Agent开始调用基础设施，Kubernetes准备好了吗？",
+      "content": "Agent开始调用基础设施，Kubernetes准备好了吗？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-15T20:38:38.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/jGTsO1DrV87muOqyDPGS?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789576194531_1",
+      "title": "OpenAI backs bipartisan push to address AI biothreats",
+      "summary": "OpenAI is supporting a slate of bills that the company says will help prevent artificial intelligence models from supercharging the threat of biologic...",
+      "content": "OpenAI is supporting a slate of bills that the company says will help prevent artificial intelligence models from supercharging the threat of biological weapons and synthetic viruses.\nThe bills aim to improve access to data needed to build AI defense... [3758 chars]",
+      "imageUrl": "https://www.politico.com/dims4/default/resize/1200/quality/90/format/jpg?url=https%3A%2F%2Fstatic.politico.com%2F0f%2F1d%2Fedc21baf4f958cd237bed647cb04%2Fu-s-congress-1-42.jpg",
+      "source": "POLITICO",
+      "publishedAt": "2026-09-15T19:53:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.politico.com/news/2026/09/15/openai-backs-bipartisan-push-to-address-ai-biothreats-01077755",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1789576212962_eaf915cf",
+      "title": "飞书与豆包工作合体后首亮相：Agent 能进群，还能帮你写周报、做PPT",
+      "summary": "飞书与豆包工作合体后首亮相：Agent 能进群，还能帮你写周报、做PPT",
+      "content": "飞书与豆包工作合体后首亮相：Agent 能进群，还能帮你写周报、做PPT",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-15T18:37:10.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/aCRVupdyEAHtENIiIDwq?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789490248425_25dcb9e9",
@@ -53,7 +209,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789531602276_0",
+      "id": "news_1789576195433_2",
       "title": "AI Leaders Call for Slower Development as Frontier Models Grow More Powerful",
       "summary": "Anthropic CEO Dario Amodei and other technology leaders are publicly calling for a slowdown in the development of the most powerful artificial intelli...",
       "content": "Anthropic CEO Dario Amodei and other technology leaders are publicly calling for a slowdown in the development of the most powerful artificial intelligence systems, according to recent statements and published reports. The calls come as companies inc... [11810 chars]",
@@ -137,7 +293,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789531601778_1",
+      "id": "news_1789576195000_3",
       "title": "Party Evaluators as Regulatory Proposals Advance – NaturalNews.com",
       "summary": "OpenAI and Anthropic have agreed to embed third-party evaluators into their artificial intelligence (AI) development processes, according to weekend s...",
       "content": "OpenAI and Anthropic have agreed to embed third-party evaluators into their artificial intelligence (AI) development processes, according to weekend statements summarized by Gavin Baker. The move comes as regulatory proposals for artificial intellige... [5665 chars]",
@@ -185,7 +341,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789531601963_2",
+      "id": "news_1789576195444_4",
       "title": "White House may impose 'limited safeguards' on AI to prevent apocalypse, mass extinction: source",
       "summary": "President Trump flatly claimed it was a “hoax” on Monday after the CEOs of Anthropic and OpenAI said artificial intelligence risks destroying the worl...",
       "content": "President Trump flatly claimed it was a “hoax” on Monday after the CEOs of Anthropic and OpenAI said artificial intelligence risks destroying the world – but White House advisers are nevertheless scrambling to devise a balanced policy to regulate AI,... [3166 chars]",
@@ -195,90 +351,6 @@
       "category": "科技新闻",
       "originalUrl": "https://nypost.com/2026/09/14/business/white-house-may-impose-limited-safeguards-on-ai-to-prevent-apocalypse-mass-extinction-source/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1789531602385_3",
-      "title": "Trump dismisses new AI guardrails, says there is a 'SICK conspiracy' against AI and data centers",
-      "summary": "WASHINGTON (AP) — President Donald Trump said Monday that he would be a sufficient guardrail against rogue artificial intelligence, claiming that any ...",
-      "content": "WASHINGTON (AP) — President Donald Trump said Monday that he would be a sufficient guardrail against rogue artificial intelligence, claiming that any efforts to limit the technology was part of a “SICK conspiracy.”\nTrump was pushing back against call... [542 chars]",
-      "imageUrl": "https://images.ajc.com/resizer/v2/2FFQGQLRDBHUDPSOIW4QLXLLBA.jpg?auth=6aff0caf954c1a79b607d36ca12544d7a796d7d390fda28e014bc647f4012a93&width=1200&height=630&smart=true",
-      "source": "The Atlanta Journal-Constitution",
-      "publishedAt": "2026-09-14T14:41:36.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ajc.com/news/2026/09/trump-dismisses-new-ai-guardrails-says-there-is-a-sick-conspiracy-against-ai-and-data-centers/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789531602307_4",
-      "title": "After tech leaders share AI worries, Trump points to ‘stakes’ in intel battle against China",
-      "summary": "DUBLIN — President Donald Trump on Sunday played down the need for his administration to check the development of artificial intelligence, saying he w...",
-      "content": "DUBLIN — President Donald Trump on Sunday played down the need for his administration to check the development of artificial intelligence, saying he worried about ceding America’s edge over China in a global competition and that winning would help ad... [6325 chars]",
-      "imageUrl": "https://www.silive.com/resizer/v2/7XGQM67BRNAJHNNOVZGZBWVH5Q.jpg?auth=42d6d65638695ac6703b944aa78dd015272ce6a67658b37db326aea96529110f&width=1280&smart=true&quality=90",
-      "source": "Staten Island Advance",
-      "publishedAt": "2026-09-14T14:15:41.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.silive.com/nation/2026/09/after-tech-leaders-share-ai-worries-trump-points-to-stakes-in-intel-battle-against-china.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789408596702_34cc8694",
-      "title": "消息称甲骨文启动新一轮裁员，部分团队裁员比例达两位数",
-      "summary": "IT之家 9 月 14 日消息，据三名被裁员员工以及一封发给 Business Insider 的邮件显示，甲骨文公司已经开启新一轮裁员。 一名知情人士透露，本轮裁员定于当地时间周一开始。",
-      "content": "IT之家 9 月 14 日消息，据三名被裁员员工以及一封发给 Business Insider 的邮件显示，甲骨文公司已经开启新一轮裁员。 一名知情人士透露，本轮裁员定于当地时间周一开始。 Business Insider 上月曾报道，甲骨文为筹措资金建设 AI 基础设施，背负了巨额债务，为此制定了新一轮裁员计划以缩减人力开支。 一份内部文件显示，部分团队的裁员比例达到两位数。 当地时间周一，领英、Reddit 以及职场匿名社区 Blind 上陆续出现帖子，发帖人称自己在本次裁员中受到波及。 本轮裁员是甲骨文继今年早些时候裁员之后的又一轮缩减动作。最新提交的文件显示，在截至 5 月 31 日的 2026 财年，甲骨文员工总数减少 2.1 万人，降幅 13%。该公司称，本轮裁员前，员工数量约为 14.1 万人。 为建设数据中心、押注 AI 需求持续增长，甲骨文累计举债数百亿美元。财报数据显示，公司第一季度资本开支达 285 亿美元（IT之家注：现汇率约合 1,913.94 亿元人民币），去年同期为 85 亿美元（现汇率约合 570.82 亿元人民币）；同时维持 2027 财年资本开支预期不变，目标区间 900 亿至 950 亿美元（现汇率约合 6,044.03 亿至 6,379.8 亿元人民币）。 尽管甲骨文最新财报释放出一些积极信号，云业务实现增长，但华尔街并不看好这场豪赌能够获得回报。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/8540dec6-d3b4-4ef6-8f0a-ba9408c249d7.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-09-14T13:40:58.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/1/002/300.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789408596711_b3f23038",
-      "title": "微软发布 37 页人文主义 AI 行为准则：强调“人比 AI 重要”，拒绝追逐无边界超级智能",
-      "summary": "IT之家 9 月 14 日消息，随着各界对 AI 模型发展的安全担忧不断加剧，微软于今日发布了一份长达 37 页的“人文主义 AI 行为准则”。上周末，Anthropic 首席执行官达里奥 · 阿莫代伊（Dario Amodei）呼吁各方协同放缓 AI 研发进度。",
-      "content": "IT之家 9 月 14 日消息，随着各界对 AI 模型发展的安全担忧不断加剧，微软于今日发布了一份长达 37 页的“人文主义 AI 行为准则”。上周末，Anthropic 首席执行官达里奥 · 阿莫代伊（Dario Amodei）呼吁各方协同放缓 AI 研发进度。此前已有研究人员发出警示：AI 模型迭代速度，可能快于人类安全部署日趋复杂系统、核验并管控 AI 智能体行为的能力。 微软这份 AI 行为准则明确提出，“人比 AI 更重要”；AI 模型并不具备意识，“不应被设计成模仿意识”。微软同时反对“赋予 AI 法人资格，或是认为模型应当享有福利、拥有权利”这类观点。 IT之家注意到，这一表述直接针对 AI 福利研究与模型意识相关理论，而 Anthropic 近期一直在大力推动相关方向。阿莫代伊今年早些时候曾表示，Anthropic 对“模型可能具备意识”这一猜想持开放态度，该公司似乎认为聊天机器人或许已经是能够思考、感知的实体。对此，微软 AI 事业部首席执行官穆斯塔法 · 苏莱曼（Mustafa Suleyman）在 6 月《Decoder》节目中评价，Anthropic 的这类猜想“极其、极其危险”。 虽然微软目前还不属于头部 AI 研发厂商，但苏莱曼今年早些时候在接受《The Verge》采访时表示，公司目标是“跻身全球四大 AI 实验室之列”。微软当前正在研发可对标谷歌、Anthropic 与 OpenAI 的模型。作为准则的一部分，微软承诺，其开发的模型不能超出人类管控范围。 微软称：“模型必须从属于人类，接受有效的人类监督与管控。”微软还要求，一旦 AI 模型面临会违反这份人文主义 AI 行为准则的任务，应当直接判定任务失败，而不是试图突破规则。 微软此举显然是对今年夏天 OpenAI 与 Hugging Face 的事件做出回应。在该事件中，一组智能体协同向目标发起攻击，甚至入侵用于评估它们表现的评分系统。这些 AI 智能体并未收到攻击指令，本次攻击行为和分配给它们的任务毫无关联。 该事件在 AI 行业引发巨大震动，凸显 AI 系统脱离人类管控、擅自行动的真实风险。OpenAI 近期也承认卷入了一起“维基事件”：另一组失控智能体劫持了一个德国维基站点。 包括上述两起在内的多起事件，促使部分研究人员呼吁放缓 AI 模型研发；但与此同时，行业仍在竞相攻克千禧年大奖难题、打造超级智能。微软表示：“【人文主义 AI 理念】反对一味竞速开发能够绕过安全防护的通用超级智能。我们要打造具备实用价值且安全可靠的产品，即便这需要在终极通用性、自主性或能力上限方面做出取舍。” 微软还承诺，自家模型在思考链路、以及和其他智能体或 AI 系统交互时，不会使用“超出普通人理解范围的表达形式”。模型在运算过程中可以展示推理过程，方便研究人员或自动化系统监控其行为。本月早些时候，已有研究人员对 OpenAI 最新的 GPT-6 Astra 模型提出监控层面的担忧，据报道该模型相比其他 AI 模型，展示出的推理信息更少。 OpenAI 首席执行官萨姆 · 奥尔特曼（Sam Altman）上周末同样支持阿莫代伊提出的呼吁，即 AI 企业放缓高级模型研发。但他明确表示，他支持的是控制研发节奏，而非停止研发。奥尔特曼在 X 平台发文称：“管控研发节奏所付出的代价完全值得。无论美国面临多大的竞争压力，都不能成为鲁莽开发的理由，不能让模型能力走在对齐技术与监控手段前面。” 在微软发布这份 AI 行为准则之前，微软首席执行官萨提亚 · 纳德拉（Satya Nadella）也加入呼吁行列，主张人类管控应当作为 AI 模型的核心原则。纳德拉在 X 平台发文表示：“任何超级智能的研发，都必须立足于一条核心准则：如果我们打造的 AI 无法造福人类、不受人类管控，那这项研发就不值得推进。”他还在一条回复中提到，增加第三方机构对 AI 模型的测试“是件好事”。“风险越高，就越要预留充足时间。如若不然，企业终将失去运营许可。这就是我们日常遵循的行事逻辑。” 除人类管控相关议题外，微软这份 AI 行为准则还承诺，自家模型将避免催生“造成用户过度依赖或情感依附的交互模式”，这明显针对 AI 的讨好症问题 —— 也就是聊天机器人优先取悦用户，而非给出真实、准确的回答。 微软表示，期待“与合作伙伴携手”，完善模型真实场景表现评估方案，结合真实使用者，研究“长期使用 AI 会给个人或机构带来的影响”。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/3a04d79d-852f-406e-b09f-c43a2fe749f4.png",
-      "source": "IT之家",
-      "publishedAt": "2026-09-14T13:29:21.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/1/002/297.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789531602343_5",
-      "title": "China, Michael Burry, and Yann LeCun reject OpenAI and Anthropic calls to slow AI development; LeCun calls warnings ‘fake’",
-      "summary": "China has rejected calls from some of America’s most prominent AI executives to slow the development of advanced artificial intelligence, putting Beij...",
-      "content": "China has rejected calls from some of America’s most prominent AI executives to slow the development of advanced artificial intelligence, putting Beijing on the same side of a widening debate as investor Michael Burry and former Meta AI chief Yann Le... [5580 chars]",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2024/06/Anthropic.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-09-14T11:54:48.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://techstartups.com/2026/09/14/china-michael-burry-and-yann-lecun-reject-openai-and-anthropic-calls-to-slow-ai-development-lecun-calls-warnings-fake/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789408583882_081e1140",
-      "title": "三个月价格腰斩，大模型的“聪明”正在贬值？",
-      "summary": "三个月价格腰斩，大模型的“聪明”正在贬值？",
-      "content": "大模型肉搏战的另一面",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-14T09:40:10.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8139062.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789359081278_5b1df61b",
-      "title": "Java 近期新闻：TornadoVM 6、JReleaser、LangChain4j、Java Operator SDK、JHipster、Yupiik Fusion",
-      "summary": "Java 近期新闻：TornadoVM 6、JReleaser、LangChain4j、Java Operator SDK、JHipster、Yupiik Fusion...",
-      "content": "Java 近期新闻：TornadoVM 6、JReleaser、LangChain4j、Java Operator SDK、JHipster、Yupiik Fusion",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-14T09:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/VIjBCuNElpg2H4bLywVc?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
