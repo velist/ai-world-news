@@ -1,9 +1,141 @@
 {
   "success": true,
-  "timestamp": "2026-09-17T04:15:40Z",
-  "total": 27,
+  "timestamp": "2026-09-17T16:37:31Z",
+  "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1789662984099_7e1ebc3b",
+      "title": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
+      "summary": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
+      "content": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-17T19:29:09.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/jXliIdDVTYDAtm73EoSU?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789662984666_c9185a90",
+      "title": "9 月 20 日杭州｜FDE 在现场：从 AI 组织进化到客户现场，企业 AI 到底卡在哪里？",
+      "summary": "9 月 20 日杭州｜FDE 在现场：从 AI 组织进化到客户现场，企业 AI 到底卡在哪里？",
+      "content": "9 月 20 日杭州｜FDE 在现场：从 AI 组织进化到客户现场，企业 AI 到底卡在哪里？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-17T16:00:18.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Yz8Ad81rFlGEYMKVsKRJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789662985083_7d4cbdab",
+      "title": "边说话边推理、边聊天边调用工具，谷歌 Gemini 3.8 Live 要攻克语音 Agent 的沉默时刻",
+      "summary": "边说话边推理、边聊天边调用工具，谷歌 Gemini 3.8 Live 要攻克语音 Agent 的沉默时刻...",
+      "content": "边说话边推理、边聊天边调用工具，谷歌 Gemini 3.8 Live 要攻克语音 Agent 的沉默时刻",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-17T15:33:13.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/HWTj56QXAtdSar5YGp32?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789662985490_144ff49f",
+      "title": "汪涛详解华为AI战略：算力为核心，昇腾960提前登场，PB级 KV Cache把基础设施推入新阶段",
+      "summary": "汪涛详解华为AI战略：算力为核心，昇腾960提前登场，PB级 KV Cache把基础设施推入新阶段",
+      "content": "汪涛详解华为AI战略：算力为核心，昇腾960提前登场，PB级 KV Cache把基础设施推入新阶段",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-17T15:23:47.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/bmducufWEHZZRxEYjM4l?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789662990477_4e657056",
+      "title": "不到一个月连破两道千禧年大奖难题？消息称 OpenAI 即将攻克霍奇猜想",
+      "summary": "IT之家 9 月 17 日消息，今天（17 日）晚间，据《The Information》援引一名了解解法的人士消息称，OpenAI 已接近攻克“千禧年大奖难题”中的另一道题。这组著名数学难题共有 7 道，此前引发争议的“纳维-斯托克斯存在性与光滑性问题”也是其中之一。",
+      "content": "IT之家 9 月 17 日消息，今天（17 日）晚间，据《The Information》援引一名了解解法的人士消息称，OpenAI 已接近攻克“千禧年大奖难题”中的另一道题。这组著名数学难题共有 7 道，此前引发争议的“纳维-斯托克斯存在性与光滑性问题”也是其中之一。 据这名人士透露，OpenAI 员工预计，下一道“霍奇猜想”有望在不久后得到解决。 IT之家注：霍奇猜想研究的是由多项式方程定义的几何形状中，某些几何特征能否始终用更简单的代数结构来描述。不过，即使找到解法，OpenAI 可能也不会立即公布。公司正考虑如何与数学界合作发布消息，避免再次酿成公关危机。 据悉，OpenAI 为了解决纳维-斯托克斯问题，或已花掉数百万美元。前述人士透露，OpenAI 当时使用的是下一款预训练模型的一个变体，代号为“Doug”。 部分 OpenAI 研究人员认为，继软件工程之后，数学是大模型最自然的下一块试验场。两者有一个重要共同点：都依赖一步步的逻辑推理，而且结果往往可以自动验证对错。一些研究人员甚至判断，过去一年席卷软件工程领域的自动化进程，未来 6 至 9 个月也可能在数学领域上演。 攻克高难度数学问题还有另一层意义：推动机器学习研究本身实现自动化。机器学习研究离不开大量数学，而研究自动化又是 AI 开发商迈向“AI 开发 AI”的重要一步，这种能力通常被称为递归式自我改进。 让前沿模型挑战从未有人解决过的数学难题，也能帮助研究人员判断模型究竟进展到了什么程度，以及复杂推理能力有多强。如果模型能够攻克纳维-斯托克斯问题和霍奇猜想这种级别的难题，也可能说明它们有能力处理生物学、化学等领域中难度相当的问题。 当地时间 9 月 8 日，OpenAI 宣布其内部未公开的 AI 模型（性能远超最新发布的 GPT-6 Astra）已成功解决“纳维-斯托克斯存在性与光滑性问题”（Navier-Stokes existence and smoothness problem），这是克莱数学研究所（Clay Mathematics Institute）于 2000 年提出的七个“千禧年大奖难题”之一。 相关阅读： 《继 Claude 尝试攻克黎曼猜想后：OpenAI 宣布用 10000 个 AI 智能体 88 小时攻克千禧年大奖难题，陶哲轩既点赞又担忧》",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-09-17T14:30:25.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/003/858.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789662985938_2636d46e",
+      "title": "vivo 把 Agent 做进操作系统：6000 多项原子技能开放调用，AgentOS 预览版亮相",
+      "summary": "vivo 把 Agent 做进操作系统：6000 多项原子技能开放调用，AgentOS 预览版亮相",
+      "content": "vivo 把 Agent 做进操作系统：6000 多项原子技能开放调用，AgentOS 预览版亮相",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-17T12:37:53.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/hbZAEa6iQbq5rcUWbUi4?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789662956998_a98fe1f6",
+      "title": "万亿市场背后，AI数据基础设施的竞赛已经开始",
+      "summary": "万亿市场背后，AI数据基础设施的竞赛已经开始",
+      "content": "模型能力快速逼近应用需求的同时，数据正在成为企业AI规模化落地的新瓶颈。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-17T11:36:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8143760.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789662967663_f292a4d8",
+      "title": "机器人开始制造机器人了？万台产能背后残酷大考才刚开始",
+      "summary": "机器人开始制造机器人了？万台产能背后残酷大考才刚开始",
+      "content": "10 分钟下线一台人形机器人，可是量产不等于商业化通关。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-17T11:34:40.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8143691.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789662972836_8d8840da",
+      "title": "端侧AI之战正式打响",
+      "summary": "端侧AI之战正式打响",
+      "content": "端侧AI商业化加速，企业聚焦轻量模型与硬件开发，智能硬件迎来升级浪潮。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-17T11:34:30.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8143618.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789662978208_050adde3",
+      "title": "当AI开始算账：一家算力企业的“智企”实践样本丨2026 ITValue Summit 数字价值年会",
+      "summary": "当AI开始算账：一家算力企业的“智企”实践样本丨2026 ITValue Summit 数字价值年会",
+      "content": "刘宏云的发言里，最有个性的一个判断是：企业架构正在迎来换代。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-17T10:41:29.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8143846.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789662981118_51905eb6",
+      "title": "宠物AI硬件，最天然的“钉子”，最难验证的答案",
+      "summary": "宠物不会说话，让主人产生了理解它的需求；同样因为宠物不会说话，没有人能轻易证明AI的解释究竟对不对。...",
+      "content": "宠物不会说话，让主人产生了理解它的需求；同样因为宠物不会说话，没有人能轻易证明AI的解释究竟对不对。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-17T10:02:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8143737.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1789618430870_9d3d08d3",
       "title": "Snowflake World Tour 上海站 Keynote——Snowflake 企业级智能体",
@@ -15,6 +147,30 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/video/81qDfiHlpMYmNUg269l8?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789662929840_0",
+      "title": "OpenAI flags new concerning AI behavior, to track model misalignment regularly",
+      "summary": "OpenAI has disclosed six reports of “unexpected or concerning” behavior in artificial-intelligence models as the debate on AI safety becomes increasin...",
+      "content": "OpenAI has disclosed six reports of “unexpected or concerning” behavior in artificial-intelligence models as the debate on AI safety becomes increasingly heated.\nThe AI company also said Wednesday it was introducing a new framework for tracking, prob... [577 chars]",
+      "imageUrl": "https://images.ajc.com/resizer/v2/73SI3OLSLJEHDPDJCYU6WO2FIQ.jpg?auth=043e4369ab17a0c47618aa45b5f5d8e1ad4239707b054778811dc0b2072b36ee&width=1200&height=630&smart=true",
+      "source": "The Atlanta Journal-Constitution",
+      "publishedAt": "2026-09-17T04:31:41.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ajc.com/news/2026/09/openai-flags-new-concerning-ai-behavior-to-track-model-misalignment-regularly/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1789662928575_1",
+      "title": "The king and AI: UK monarch Charles meets with artificial intelligence leaders",
+      "summary": "King Charles III is meeting with senior leaders from OpenAI, Anthropic, Google DeepMind and Nvidia to discuss artificial intelligence. LONDON (AP) &md...",
+      "content": "King Charles III is meeting with senior leaders from OpenAI, Anthropic, Google DeepMind and Nvidia to discuss artificial intelligence.\nLONDON (AP) — King Charles III is meeting Thursday with senior leaders from OpenAI, Anthropic, Google DeepMind and ... [3236 chars]",
+      "imageUrl": "https://media.breitbart.com/media/2026/09/wi/ap/britain-france-2934-britain-france-britain-king-charles-iii-attends-viewing-of-bayeux-tapestry-640x335.jpg",
+      "source": "Breitbart News Network",
+      "publishedAt": "2026-09-17T04:04:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.breitbart.com/news/the-king-and-ai-uk-monarch-charles-meets-with-artificial-intelligence-leaders/",
+      "aiInsight": ""
     },
     {
       "id": "news_1789618427225_e877a9f6",
@@ -101,7 +257,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789618417933_0",
+      "id": "news_1789662928083_2",
       "title": "OpenAI says it’s working with Anthropic, Google on AI safety",
       "summary": "By Maggie Eastland, Bloomberg News\nOpenAI is working on steps to address artificial intelligence safety issues with its top competitors Anthropic PBC ...",
       "content": "By Maggie Eastland, Bloomberg News\nOpenAI is working on steps to address artificial intelligence safety issues with its top competitors Anthropic PBC and Google DeepMind, escalating industry efforts to respond to a groundswell of concern that the tec... [3505 chars]",
@@ -113,7 +269,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1789618418364_1",
+      "id": "news_1789662928633_3",
       "title": "OpenAI and AARP to launch AI scam-spotting tour for older Americans",
       "summary": "TECH Artificial Intelligence Add Topic Exclusive: OpenAI launches road tour to educate older Americans on AI Greta Reich USA TODAY Updated Sept. 16, 2...",
       "content": "OpenAI and AARP will travel to 10 cities across the United States on Sept. 16 to teach older Americans how to use AI to spot scams.\nThe tour coincides with a report released by OpenAI on Sept. 16 estimating that 24.7 million people worldwide use Chat... [3989 chars]",
@@ -161,7 +317,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789618418086_2",
+      "id": "news_1789662928709_4",
       "title": "OpenAI to partner with rivals on safety",
       "summary": "OpenAI is working on steps to address artificial intelligence safety issues with its top competitors Anthropic PBC and Google DeepMind, escalating ind...",
       "content": "OpenAI is working on steps to address artificial intelligence safety issues with its top competitors Anthropic PBC and Google DeepMind, escalating industry efforts to respond to a groundswell of concern that the technology poses an economic and secur... [2847 chars]",
@@ -185,7 +341,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789618418127_3",
+      "id": "news_1789662928469_5",
       "title": "OpenAI Agents Used More Websites Than Disclosed, Investigators Say",
       "summary": "OpenAI's autonomous artificial intelligence (AI) agents used more than a dozen previously undisclosed websites as communication hubs during the first ...",
       "content": "OpenAI's autonomous artificial intelligence (AI) agents used more than a dozen previously undisclosed websites as communication hubs during the first half of the year, according to findings from six independent investigative teams reviewed by Reuters... [7183 chars]",
@@ -197,7 +353,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1789618417653_4",
+      "id": "news_1789662928239_6",
       "title": "OpenAI backs bipartisan push to address AI biothreats",
       "summary": "OpenAI is supporting a slate of bills that the company says will help prevent artificial intelligence models from supercharging the threat of biologic...",
       "content": "OpenAI is supporting a slate of bills that the company says will help prevent artificial intelligence models from supercharging the threat of biological weapons and synthetic viruses.\nThe bills aim to improve access to data needed to build AI defense... [3758 chars]",
@@ -206,126 +362,6 @@
       "publishedAt": "2026-09-15T19:53:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.politico.com/news/2026/09/15/openai-backs-bipartisan-push-to-address-ai-biothreats-01077755",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789490248425_25dcb9e9",
-      "title": "Meta One 订阅服务上线：专为“AI 重度用户”、创作者、商业用户准备，最高档每月 499 美元",
-      "summary": "IT之家 9 月 15 日消息，Meta 今天（15 日）晚间宣布上线的 Meta One 套餐，把 Facebook、Instagram 和 WhatsApp 等独立订阅与更高的 AI 使用额度打包销售，面向“AI 重度用户”及创作者、商业用户。",
-      "content": "IT之家 9 月 15 日消息，Meta 今天（15 日）晚间宣布上线的 Meta One 套餐，把 Facebook、Instagram 和 WhatsApp 等独立订阅与更高的 AI 使用额度打包销售，面向“AI 重度用户”及创作者、商业用户。 Meta 强调，旗下应用和 Meta AI 的基础核心功能仍可免费使用，Facebook、Instagram 和 WhatsApp 订阅也不会强制与 Meta One 捆绑购买。未来，Edits、AI 眼镜等产品也会陆续加入套餐。 个人用户可以选择 Core 和 Premium 两档，月费分别为 7.99 美元（IT之家注：现汇率约合 53.7 元人民币）和 19.99 美元（现汇率约合 134.4 元人民币）。两者都包含 Instagram Plus、WhatsApp Plus 和 Facebook Plus，并提供更多 Meta AI 媒体内容生成额度。 针对创作者和企业，Meta One 的月费从 14.99 美元（现汇率约合 100.8 元人民币）一直到 499 美元（现汇率约合 3,356 元人民币）不等。这些套餐同样覆盖 Meta 旗下各应用订阅，同时根据档位增加加粗关注按钮、认证徽章、搜索结果排名提升、仿冒账号监测等功能： Essential（每月 14.99 美元，现汇率约合 100.8 元人民币）： 主要用于建立可信身份并赢得新受众信任，提供账号管理工具和更多 WhatsApp Meta Business Agent 使用额度，可全天候自动回复客户。此外还包括认证徽章、WhatsApp Business 认证频道和冒充账号保护，通过身份认证后，可以帮助其他用户确认账号属于本人或企业。 Advanced（每月 49.99 美元，现汇率约合 336.2 元人民币）： 加入更多专业运营工具，包括最多提前 30 天安排限时动态、在非付费帖子和 Reels 中添加链接、导出数据分析结果，以及获得更深入的受众洞察。企业还可以让团队成员在无需共享密码的情况下管理账号，并在 WhatsApp 上连接更多设备、获得更多企业广播额度和 Meta Business Agent 回复额度。 Expert（每月 149 美元，现汇率约合 1,002 元人民币）和 Max（每月 499 美元，现汇率约合 3,356 元人民币）： 主要面向需要扩大运营规模的团队，提供最高级别的功能权限，以及更高的 Meta Business Agent 使用容量。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/920768e2-5aa0-4109-9b08-5111430d4644.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-09-15T15:57:09.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/1/002/818.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789490248466_b4013f8d",
-      "title": "中文互联网基础语料 4.0 发布：数据量 120GB，为大模型训练和 AI 发展提供可信数据支撑",
-      "summary": "IT之家 9 月 15 日消息，据中国网络空间安全协会官方公众号，9 月 15 日（今天）下午，在济南召开的 2026 年国家网络安全宣传周人工智能安全治理分论坛上，中文互联网基础语料 4.0 正式向社会发布，数据量 120GB，并在“中文互联网语料资源平台”上线。",
-      "content": "IT之家 9 月 15 日消息，据中国网络空间安全协会官方公众号，9 月 15 日（今天）下午，在济南召开的 2026 年国家网络安全宣传周人工智能安全治理分论坛上，中文互联网基础语料 4.0 正式向社会发布，数据量 120GB，并在“中文互联网语料资源平台”上线。 据IT之家了解，用户登录中国网络空间安全协会官网（点此前往），点击“中文互联网语料资源平台”链接，通过注册、认证等程序，即可下载或联系获取相关数据。 在中央网信办指导下，中国网络空间安全协会联合国家互联网应急中心，会同百度、中科闻歌、开普云、拓尔思、科大讯飞、知乎等单位，在前期发布中文互联网基础语料 1.0、2.0 和 3.0 的基础上，依托网安协会人工智能安全治理专委会建立的语料共建共享机制，汇聚一批新的高质量可信数据，经过一系列严格细致的数据加工处理措施，形成并对社会发布中文互联网基础语料 4.0，数据量 120GB，为大模型训练和人工智能发展提供可信数据支撑。 网安协会负责人表示，中文互联网基础语料 4.0 是社会各界协同共建高质量中文语料的重要阶段性成果，进一步丰富了国内高质量中文语料供给体系。下一步，协会将继续联合国家互联网应急中心等单位，联动各行业领域深化中文互联网基础语料建设，持续为人工智能产业高质量发展筑牢数据底座。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/467ec10e-76d9-4a64-b67c-27b7c9fb1d91.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-09-15T14:49:09.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/002/795.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789618417947_5",
-      "title": "AI Leaders Call for Slower Development as Frontier Models Grow More Powerful",
-      "summary": "Anthropic CEO Dario Amodei and other technology leaders are publicly calling for a slowdown in the development of the most powerful artificial intelli...",
-      "content": "Anthropic CEO Dario Amodei and other technology leaders are publicly calling for a slowdown in the development of the most powerful artificial intelligence systems, according to recent statements and published reports. The calls come as companies inc... [11810 chars]",
-      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/09/anthropic-dario-amodei-artificial-intelligence-4121-original.jpg",
-      "source": "Natural News",
-      "publishedAt": "2026-09-15T11:48:45.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.naturalnews.com/2026-09-15-ai-leaders-slower-development-frontier-models-grow-powerful.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1789490230055_4916fa54",
-      "title": "当Agent进入组织 飞书重新设计了一遍协同办公",
-      "summary": "飞书披露，2026年上半年，其年度经常性收入增速达到去年同期的2.5倍，超过九成新增客户同步采购飞书AI产品。",
-      "content": "飞书披露，2026年上半年，其年度经常性收入增速达到去年同期的2.5倍，超过九成新增客户同步采购飞书AI产品。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-15T11:27:05.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8141020.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789490230554_c1cc483b",
-      "title": "Atlas用3D重建开路，世界模型进入可测量的新阶段",
-      "summary": "Atlas用3D重建开路，世界模型进入可测量的新阶段",
-      "content": "机器人感知世界的方式正在被重新定义。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-15T10:07:31.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8140715.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789490231236_2f591453",
-      "title": "虹膜支付，何时才能跳出AI眼镜的演示噱头？",
-      "summary": "虹膜支付，何时才能跳出AI眼镜的演示噱头？",
-      "content": "线下人脸支付都没能真正走进大众日常，虹膜支付的市场空间到底在哪？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-15T09:59:05.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8140677.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789490231970_6673eb94",
-      "title": "AI 让智能硬件卖得更贵，但增长消失了",
-      "summary": "AI 让智能硬件卖得更贵，但增长消失了",
-      "content": "补贴退潮之后，智能硬件需要回答：用户凭什么为噱头付费？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-15T09:59:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8140671.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789490232747_4346d613",
-      "title": "外滩大会复盘观察：AI新经济真正的考题是供给狂飙之后需求去哪里",
-      "summary": "外滩大会复盘观察：AI新经济真正的考题是供给狂飙之后需求去哪里",
-      "content": "AI放大供给优势，“供强需弱”真会成为长期宿命吗？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-15T09:58:49.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8140585.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789490235722_1de18392",
-      "title": "AI开始预测人类：83亿虚拟人格、数字社会，与一门押注未来的生意",
-      "summary": "AI开始预测人类：83亿虚拟人格、数字社会，与一门押注未来的生意",
-      "content": "当AI开始模拟整个人类社会。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-09-15T09:52:20.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8140649.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789618418110_6",
-      "title": "Party Evaluators as Regulatory Proposals Advance – NaturalNews.com",
-      "summary": "OpenAI and Anthropic have agreed to embed third-party evaluators into their artificial intelligence (AI) development processes, according to weekend s...",
-      "content": "OpenAI and Anthropic have agreed to embed third-party evaluators into their artificial intelligence (AI) development processes, according to weekend statements summarized by Gavin Baker. The move comes as regulatory proposals for artificial intellige... [5665 chars]",
-      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/09/third-party-evaluators-ai-regulation-openai-4130-original.jpg",
-      "source": "Natural News",
-      "publishedAt": "2026-09-15T04:41:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.naturalnews.com/2026-09-15-artificial-intelligence-labs-weigh-third-party-evaluators.html",
       "aiInsight": ""
     }
   ]
