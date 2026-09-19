@@ -1,20 +1,56 @@
 {
   "success": true,
-  "timestamp": "2026-09-18T16:09:10Z",
-  "total": 30,
+  "timestamp": "2026-09-19T03:57:55Z",
+  "total": 28,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1789747645523_8f78e48f",
-      "title": "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署",
-      "summary": "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署",
-      "content": "Grab 智能体框架 LLM-Kit 加速 AI 智能体生产部署",
+      "id": "news_1789790165688_2db7d157",
+      "title": "单个机柜到底能跑多少个 Agent？答案不在 GPU 身上",
+      "summary": "单个机柜到底能跑多少个 Agent？答案不在 GPU 身上",
+      "content": "单个机柜到底能跑多少个 Agent？答案不在 GPU 身上",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-18T18:00:00.000Z",
+      "publishedAt": "2026-09-19T10:55:19.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/AFC40lL0yaxVCDvBRFOK?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/brH7TRcHB9evl32KQJkY?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789790166189_f8a585cd",
+      "title": "从算子调优到推理自治：构建 MaaS 场景下的 AI Inference 自动优化闭环｜QCon上海",
+      "summary": "从算子调优到推理自治：构建 MaaS 场景下的 AI Inference 自动优化闭环｜QCon上海...",
+      "content": "从算子调优到推理自治：构建 MaaS 场景下的 AI Inference 自动优化闭环｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-19T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/G4tlQvg2IsabE0v1RDOE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789790161530_51a13366",
+      "title": "Gemini 4 Pro疑似泄露，“AI减速”又成空话",
+      "summary": "Gemini 4 Pro疑似泄露，“AI减速”又成空话",
+      "content": "RSI正在逼近，三巨头谁也没停。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-19T02:54:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8145550.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789790162354_2d0c0531",
+      "title": "AI办公，自费上班打工人的第一笔“首付”",
+      "summary": "AI办公，自费上班打工人的第一笔“首付”",
+      "content": "谁能抢占下打工人的桌面。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-19T02:00:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8145186.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789747646070_65dec7da",
@@ -29,30 +65,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789747646556_deaa645f",
-      "title": "唐杰、GLM团队长文披露智谱RSI最新进展：GLM-5.3已摸到门槛，“正一步步走向取代我们”",
-      "summary": "唐杰、GLM团队长文披露智谱RSI最新进展：GLM-5.3已摸到门槛，“正一步步走向取代我们”",
-      "content": "唐杰、GLM团队长文披露智谱RSI最新进展：GLM-5.3已摸到门槛，“正一步步走向取代我们”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-18T16:48:30.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/O1uIfJx3CF5SZz3ayuaI?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789747647459_c6602c8a",
-      "title": "微软借助 AI 单月修补超千个安全漏洞",
-      "summary": "微软借助 AI 单月修补超千个安全漏洞",
-      "content": "微软借助 AI 单月修补超千个安全漏洞",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-18T14:48:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/eluArohETBhwjjYZRoMG?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1789747655505_c212f0dd",
       "title": "“AI 教父”辛顿参与联署公开信：科技巨头应保证第三方评估人员工作无干预、受保护",
       "summary": "IT之家 9 月 18 日消息，据《商业内幕》今天（18 日）晚间报道，由多家监督组织组成的 AI 评估机构论坛发布了一封公开信，为第三方风险评估划出一套最低条件，认为 Anthropic 和 OpenAI 等 AI 实验室只有满足特定的要求，才能与外部评估机构开展更有效的合作。",
@@ -63,30 +75,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/1/004/330.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789747647944_5912a3b9",
-      "title": "被热议的RSI，39 年前就已诞生？现代人工智能之父复盘RSI的漫长探索",
-      "summary": "被热议的RSI，39 年前就已诞生？现代人工智能之父复盘RSI的漫长探索",
-      "content": "被热议的RSI，39 年前就已诞生？现代人工智能之父复盘RSI的漫长探索",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-18T12:35:43.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/wbpy0Kv3tB32jEPV6Cg0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789747648394_5a317e69",
-      "title": "6.5亿美元押注“AI研究AI”：一群顶级研究员想造出“自我进化”的超级智能",
-      "summary": "6.5亿美元押注“AI研究AI”：一群顶级研究员想造出“自我进化”的超级智能",
-      "content": "6.5亿美元押注“AI研究AI”：一群顶级研究员想造出“自我进化”的超级智能",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-18T12:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/da8jMox7ikdNmD2vYyTm?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789747639306_8c3e6597",
@@ -110,6 +98,18 @@
       "publishedAt": "2026-09-18T10:16:04.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8144821.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1789790170172_28a3a33d",
+      "title": "让 Agent 越用越强：AReaL 2.0 构建 Agent 在线强化学习闭环｜QCon上海",
+      "summary": "让 Agent 越用越强：AReaL 2.0 构建 Agent 在线强化学习闭环｜QCon上海",
+      "content": "让 Agent 越用越强：AReaL 2.0 构建 Agent 在线强化学习闭环｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-18T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/x2FmIeCkeDYUV66BNj3g?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -233,7 +233,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789747628509_0",
+      "id": "news_1789790153508_0",
       "title": "As AI behavior raises concerns, ex-researcher Jacob Coxon warns what may lie ahead",
       "summary": "JavaScript is disabled In order to continue, we need to verify that you're not a robot. This requires JavaScript. Enable JavaScript and then reload th...",
       "content": "Amna Nawaz:\nAs leaders of the world's largest AI companies are publicly calling for a collective slowdown of the technology's development, late yesterday, OpenAI announced it had discovered six new instances of unexpected or concerning behavior by it... [10319 chars]",
@@ -245,19 +245,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1789747649738_7e1ebc3b",
-      "title": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
-      "summary": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
-      "content": "百度智能云首发产业智能体操作系统，要实现 AI 的商业和技术飞轮",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-17T19:29:09.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/jXliIdDVTYDAtm73EoSU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1789747629086_1",
+      "id": "news_1789790153311_1",
       "title": "OpenAI flags more concerning new AI behavior, vows to track it more closely",
       "summary": "(AP) - OpenAI has disclosed six reports of “unexpected or concerning” behavior in artificial-intelligence models as the debate on AI safety becomes in...",
       "content": "(AP) - OpenAI has disclosed six reports of “unexpected or concerning” behavior in artificial-intelligence models as the debate on AI safety becomes increasingly heated.\nThe AI company also said Wednesday it was introducing a new framework for trackin... [2340 chars]",
@@ -269,7 +257,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1789747628820_2",
+      "id": "news_1789790153455_2",
       "title": "The king and AI: UK monarch Charles meets artificial intelligence leaders as safety concerns swirl",
       "summary": "LONDON (AP) — King Charles III on Thursday urged senior leaders from OpenAI, Anthropic, Google DeepMind and Nvidia to make sure that artificial intell...",
       "content": "LONDON (AP) — King Charles III on Thursday urged senior leaders from OpenAI, Anthropic, Google DeepMind and Nvidia to make sure that artificial intelligence remains under control and in the service of people and the planet.\nThe gathering in Scotland ... [3202 chars]",
@@ -281,7 +269,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1789747628193_3",
+      "id": "news_1789790153511_3",
       "title": "King Charles warns top AI leaders of 'existential dangers,' offers proposals to rein in technology",
       "summary": "King Charles III on Thursday urged senior leaders from OpenAI, Anthropic, Google DeepMind and Nvidia to make sure that artificial intelligence remains...",
       "content": "King Charles III on Thursday urged senior leaders from OpenAI, Anthropic, Google DeepMind and Nvidia to make sure that artificial intelligence remains under control and in the service of people and the planet.\nThe gathering in Scotland was convened t... [3166 chars]",
@@ -291,18 +279,6 @@
       "category": "国外AI",
       "originalUrl": "https://nypost.com/2026/09/17/business/king-charles-warns-top-ai-leaders-of-existential-dangers-offers-proposals-to-rein-in-technology/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1789747650189_c9185a90",
-      "title": "9 月 20 日杭州｜FDE 在现场：从 AI 组织进化到客户现场，企业 AI 到底卡在哪里？",
-      "summary": "9 月 20 日杭州｜FDE 在现场：从 AI 组织进化到客户现场，企业 AI 到底卡在哪里？",
-      "content": "9 月 20 日杭州｜FDE 在现场：从 AI 组织进化到客户现场，企业 AI 到底卡在哪里？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-17T16:00:18.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Yz8Ad81rFlGEYMKVsKRJ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1789662985083_7d4cbdab",
@@ -329,7 +305,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1789747629046_4",
+      "id": "news_1789790152809_4",
       "title": "OpenAI flags concerning new AI behavior and vows to track it more closely",
       "summary": "24/7 Live Los Angeles Orange County Inland Empire Ventura County California TECHNOLOGY OpenAI flags concerning new AI behavior and vows to track it mo...",
       "content": "SAN FRANCISCO -- OpenAI has disclosed six reports of \"unexpected or concerning\" behavior in artificial intelligence models as the debate on AI safety becomes increasingly heated.\nThe AI company also said Wednesday it was introducing a new framework f... [2603 chars]",
@@ -341,7 +317,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1789747628591_5",
+      "id": "news_1789790153209_5",
       "title": "OpenAI Flags 6 New Incidents of ‘Concerning’ Behavior and Unveils Plan to Track It",
       "summary": "OpenAI has disclosed six new incidents of “unexpected or concerning” behavior by its artificial intelligence models. As industry worries swell over th...",
       "content": "OpenAI has disclosed six new incidents of “unexpected or concerning” behavior by its artificial intelligence models. As industry worries swell over the technology’s rapid progress, the company also unveiled a new framework for tracking and reporting ... [4763 chars]",
