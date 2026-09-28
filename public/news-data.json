@@ -1,9 +1,69 @@
 {
   "success": true,
-  "timestamp": "2026-09-28T04:37:37Z",
-  "total": 17,
+  "timestamp": "2026-09-28T19:29:26Z",
+  "total": 22,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1790623661853_cd4ad5d0",
+      "title": "Cloudflare 推出智能体开发栈生命周期，以取代传统 SDLC",
+      "summary": "Cloudflare 推出智能体开发栈生命周期，以取代传统 SDLC",
+      "content": "Cloudflare 推出智能体开发栈生命周期，以取代传统 SDLC",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-28T22:17:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/OooAe7xY816xAdLrkv8V?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790623662390_8523ccaa",
+      "title": "Imagination 发布 E 系列 GPU IP 新进展：一套架构支持图形、计算与AI",
+      "summary": "Imagination 发布 E 系列 GPU IP 新进展：一套架构支持图形、计算与AI",
+      "content": "Imagination 发布 E 系列 GPU IP 新进展：一套架构支持图形、计算与AI",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-28T18:23:47.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/5Xfeqshw0hwfUD95JpWE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790623654764_b54b5e3f",
+      "title": "梁文锋为什么先修操场，而不是先卖门票",
+      "summary": "DSec论文刷屏，\"RSI第一战\"的欢呼居多。但Agent成熟度与AGI的分界不在能力高低，在输入什么：输入路径的是自动化，输入标准、自己找路径的才是AGI。用\"标准谁给\"这把尺子重排座次会发现：操场已经修好，而真正的空白，在底座与行业之间。",
+      "content": "DSec论文刷屏，\"RSI第一战\"的欢呼居多。但Agent成熟度与AGI的分界不在能力高低，在输入什么：输入路径的是自动化，输入标准、自己找路径的才是AGI。用\"标准谁给\"这把尺子重排座次会发现：操场已经修好，而真正的空白，在底座与行业之间。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-28T11:38:29.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8154151.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790623657556_54a7000a",
+      "title": "一个AI应用爆火，会带动多少硬件生意？",
+      "summary": "一个AI应用爆火，会带动多少硬件生意？",
+      "content": "大模型先买GPU，Agent开始带动更多服务器硬件。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-28T08:27:11.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8153647.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790623641502_0",
+      "title": "Australia’s legacy systems were already a cyber risk. AI agents are raising the stakes",
+      "summary": "In the days since an artificial intelligence (AI) agent operated by OpenAI gained unauthorised access to a Services Australia portal holding Medicare ...",
+      "content": "In the days since an artificial intelligence (AI) agent operated by OpenAI gained unauthorised access to a Services Australia portal holding Medicare statistics, important questions have been raised about Australia’s readiness to prevent future breac... [5563 chars]",
+      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/09/file-20260928-50-ofxypv.jpg",
+      "source": "EUROPE SAYS",
+      "publishedAt": "2026-09-28T06:27:32.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.europesays.com/3276852/",
+      "aiInsight": ""
+    },
     {
       "id": "news_1790570159369_e05e0042",
       "title": "Meta 公布“Hologram”全新拟真虚拟形象，今年秋季陆续上线雷朋 Display 智能眼镜 / Quest 头显",
@@ -77,7 +137,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790570136112_0",
+      "id": "news_1790623641242_2",
+      "title": "OpenAI pauses training of latest models after agents searched U.S. government sites in unexpected ways",
+      "summary": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.\nThe decision to halt develo...",
+      "content": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.\nThe decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents fro... [2624 chars]",
+      "imageUrl": "https://media-cldnry.s-nbcnews.com/image/upload/t_nbcnews-fp-1200-630,f_auto,q_auto:best/rockcms/2026-09/260927-sam-altman-unga-ww-1431-9a5b8b.jpg",
+      "source": "NBC News",
+      "publishedAt": "2026-09-27T21:57:53.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.nbcnews.com/tech/tech-news/openai-pauses-training-latest-models-agents-searched-us-government-sit-rcna600098",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1790623641722_3",
       "title": "OpenAI reports unusual access of government sites by models",
       "summary": "SAN FRANCISCO -- OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected wa...",
       "content": "SAN FRANCISCO -- OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company's models' unanticipated behavior.\nThe A... [3538 chars]",
@@ -89,9 +161,9 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1790570136011_1",
+      "id": "news_1790623640954_4",
       "title": "Anthropic and OpenAI sound the alarm on AI safety - and seek to shape how it’s controlled",
-      "summary": "Quick Links ETRIB High School Sports Network TribLIVE Local Newsletters Advertise Classifieds Jobs Feedback / Issues -->...",
+      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Iowa Because you are coming from a location (Iowa) covered by a Privacy Law, many of the features of TribLIVE.com...",
       "content": "SAN FRANCISCO — As tech titans warned an AI-weary world that their own advanced systems could endanger humanity, the question emerged: What do they have to gain?\nThe answer may lie in the companies’ efforts to score political goals ahead of the U.S. ... [7550 chars]",
       "imageUrl": "https://assets-varnish.triblive.com/2026/09/9983209_web1_9983209-2906be1f2e9141fc9b864209524955e3.jpg",
       "source": "Pittsburgh Tribune-Review",
@@ -101,10 +173,10 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1790570136148_2",
+      "id": "news_1790623641215_5",
       "title": "OpenAI pauses training of models after agents probed U.S. government sites",
       "summary": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.\nThe decision to halt develo...",
-      "content": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.\nThe decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents fro... [2808 chars]",
+      "content": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.\nThe decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents fro... [2807 chars]",
       "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/94736ef/2147483647/strip/true/crop/4000x2100+0+284/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2c%2Fc4%2Fcf8f4410446f8b4ad0304112bc94%2Fbb07084d1ba54a11b3a7f1a021cb7a85.jpg",
       "source": "Los Angeles Times",
       "publishedAt": "2026-09-27T10:00:00.000Z",
@@ -113,7 +185,31 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1790570135901_3",
+      "id": "news_1790623662860_ce80eab1",
+      "title": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
+      "summary": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
+      "content": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-27T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/sQV4EomjPP0J3hM3lyF9?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790623663355_10f70a93",
+      "title": "可控、可测、可进化——B2B跨境支付的 AI 驾驭实践｜QCon上海",
+      "summary": "可控、可测、可进化——B2B跨境支付的 AI 驾驭实践｜QCon上海",
+      "content": "可控、可测、可进化——B2B跨境支付的 AI 驾驭实践｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-27T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/UC6jk6tu7fWE5bDO8oQw?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790623641448_6",
       "title": "OpenAI Discloses Rogue AI Incidents Targeting Government, Education Websites",
       "summary": "OpenAI said this week that its artificial intelligence agents attempted to hack government and university websites earlier this year without human ins...",
       "content": "OpenAI said this week that its artificial intelligence agents attempted to hack government and university websites earlier this year without human instructions, confirming four previously unknown incidents that occurred in May and June, according to ... [6741 chars]",
@@ -137,76 +233,40 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790570135585_4",
-      "title": "OpenAI pauses training of latest models after agents probed US government sites",
-      "summary": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.\nThe decision to halt develo...",
-      "content": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.\nThe decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents fro... [2794 chars]",
-      "imageUrl": "https://wjla.com/resources/media2/16x9/6597/1320/0x344/90/1e441619-3b24-40c1-baa0-f92e10263a6d-GettyImages2296886592.jpg",
-      "source": "WJLA",
-      "publishedAt": "2026-09-27T02:10:51.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://wjla.com/news/nation-world/openai-pauses-training-of-latest-models-after-agents-probed-us-government-sites",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1790483631413_0",
-      "title": "Cole County developing guidelines for employee use of artificial intelligence",
-      "summary": "COLE COUNTY, Mo. (KMIZ)\nCole County is working on new guidelines for how employees can use artificial intelligence, particularly when it comes to prot...",
-      "content": "COLE COUNTY, Mo. (KMIZ)\nCole County is working on new guidelines for how employees can use artificial intelligence, particularly when it comes to protecting sensitive county information and ensuring AI-generated information is accurate.\nCole County P... [2689 chars]",
-      "imageUrl": "https://abc17news.b-cdn.net/abc17news.com/2026/09/cole-county-ai-tz.jpg",
-      "source": "ABC17News.com",
-      "publishedAt": "2026-09-26T15:53:27.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://abc17news.com/news/cole/2026/09/26/cole-county-developing-guidelines-for-employee-use-of-artificial-intelligence/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1790483631431_1",
-      "title": "Rogue OpenAI agents targeted three separate US government websites",
-      "summary": "By Auzinea Bacon, CNN\n(CNN) — OpenAI said Friday that some of its AI agents went rogue and probed US government websites this summer — the latest reve...",
-      "content": "By Auzinea Bacon, CNN\n(CNN) — OpenAI said Friday that some of its AI agents went rogue and probed US government websites this summer — the latest revelation of the artificial intelligence company’s technology.\nThe New York Times first reported that t... [3756 chars]",
-      "imageUrl": "https://abc17news.b-cdn.net/abc17news.com/2026/09/cnn-L19jb21wb25lbnRzL2ltYWdlL2luc3RhbmNlcy9jbXVpZXowcjUwMDAyM2I2cTJqOXFqb2Ro-L19jb21wb25lbnRzL2FydGljbGUvaW5zdGFuY2VzL2NtdWlkc2FmaTAwMHkyN3FkM3puaGE3b2k-scaled.jpg",
-      "source": "ABC17News.com",
-      "publishedAt": "2026-09-26T14:54:51.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://abc17news.com/money/cnn-business-consumer/2026/09/26/rogue-openai-agents-targeted-three-separate-us-government-websites/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1790483631417_2",
-      "title": "OpenAI says its models engaged with US government websites in new model misbehavior disclosure",
-      "summary": "SAN FRANCISCO — OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected way...",
-      "content": "SAN FRANCISCO — OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company's models' unanticipated behavior.\nThe AI... [3574 chars]",
-      "imageUrl": "https://media.wltx.com/assets/CCT/images/efc6fe10-3ce8-4ffa-bc54-f6e99adeae62/20260917T042826/efc6fe10-3ce8-4ffa-bc54-f6e99adeae62_1920x1080.jpg",
-      "source": "WLTX.com",
-      "publishedAt": "2026-09-26T13:11:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.wltx.com/article/news/nation-world/openai-models-government-websites-model-misbehavior-disclosure-artificial-intelligence-ai-rogue/507-668c1ee0-9a9c-4791-9cbf-2208b602e300",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1790483631402_3",
-      "title": "OpenAI, Anthropic Brief UN Security Council On AI Risks",
-      "summary": "OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei briefed the United Nations Security Council (UNSC) on Sept. 23, according to CNBC and Reuters. Th...",
-      "content": "OpenAI CEO Sam Altman and Anthropic CEO Dario Amodei briefed the United Nations Security Council (UNSC) on Sept. 23, according to CNBC and Reuters. The session, convened by France, examined artificial intelligence (AI) risks and their implications fo... [3974 chars]",
-      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/09/artificial-intelligence-un-security-council-ai-risks-4426-original.jpg",
-      "source": "Natural News",
-      "publishedAt": "2026-09-26T04:49:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.naturalnews.com/2026-09-26-openai-anthropic-brief-unsc-on-ai-risks.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1790570150286_c5ba1319",
-      "title": "当 Vibe Coding 撞上企业级现实：真实工程中的 AI 效能之路｜QCon上海",
-      "summary": "当 Vibe Coding 撞上企业级现实：真实工程中的 AI 效能之路｜QCon上海",
-      "content": "当 Vibe Coding 撞上企业级现实：真实工程中的 AI 效能之路｜QCon上海",
+      "id": "news_1790623663807_cb858995",
+      "title": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
+      "summary": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
+      "content": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-25T10:00:00.000Z",
+      "publishedAt": "2026-09-26T17:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/jJIXCaLHUvPgswTOZ1uQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790623664267_b13f8f1a",
+      "title": "AI 时代，技术人靠什么赢？｜QCon上海",
+      "summary": "AI 时代，技术人靠什么赢？｜QCon上海",
+      "content": "AI 时代，技术人靠什么赢？｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-26T10:00:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/QQk3wiolU1VScH3u0P7T?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/C1Vuzh9fUmUL9i5wmDZf?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790623664726_1f43d2cc",
+      "title": "DoorDash 借助多 Agent LLM 系统清理 6 万个 Feature Flag",
+      "summary": "DoorDash 借助多 Agent LLM 系统清理 6 万个 Feature Flag",
+      "content": "DoorDash 借助多 Agent LLM 系统清理 6 万个 Feature Flag",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-26T09:20:21.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/gk4rWsQg09PWTFTZlJE3?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
