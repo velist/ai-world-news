@@ -1,56 +1,152 @@
 {
   "success": true,
-  "timestamp": "2026-09-29T05:05:38Z",
-  "total": 23,
+  "timestamp": "2026-09-29T18:00:48Z",
+  "total": 29,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1790658233101_01a3635d",
-      "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-      "summary": "AI 数据平台，要补的恰恰是“模型不知道的事”",
-      "content": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+      "id": "news_1790704743057_7510bd3b",
+      "title": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
+      "summary": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
+      "content": "Agent 不只烧 Token：为什么 Agent Sandbox 正在变得重要？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-29T11:24:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/uwfvFTWwH5Qupo2lBxF6?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1790658233852_aa8140c5",
-      "title": "自主数据工程：迈向真正智能体成熟度的五个阶段 ｜ 技术趋势",
-      "summary": "自主数据工程：迈向真正智能体成熟度的五个阶段 ｜ 技术趋势",
-      "content": "自主数据工程：迈向真正智能体成熟度的五个阶段 ｜ 技术趋势",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-29T10:36:23.000Z",
+      "publishedAt": "2026-09-29T18:36:43.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/AmYfVbwTlVyApFszqKx3?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/he0zFgEyStxF9kOh70AP?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790658234363_e970be2d",
-      "title": "AI 驱动复杂业务漏洞挖掘：从业务规则建模到攻击路径验证｜QCon上海",
-      "summary": "AI 驱动复杂业务漏洞挖掘：从业务规则建模到攻击路径验证｜QCon上海",
-      "content": "AI 驱动复杂业务漏洞挖掘：从业务规则建模到攻击路径验证｜QCon上海",
+      "id": "news_1790704743604_40e88f05",
+      "title": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
+      "summary": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
+      "content": "Agent 编程能力从 10% 飙到 70%，Anthropic 新模型却遭遇灵魂拷问：我什么时候才会用它？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-29T10:00:00.000Z",
+      "publishedAt": "2026-09-29T18:07:09.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/PSvHjyoJTC9bSLWYxpfF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790704744139_191dc064",
+      "title": "上下文优势：AI 增长战略缺失的关键拼图 ｜ 技术趋势",
+      "summary": "上下文优势：AI 增长战略缺失的关键拼图 ｜ 技术趋势",
+      "content": "上下文优势：AI 增长战略缺失的关键拼图 ｜ 技术趋势",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-29T18:00:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/mDiczbGJpHNMU6e0qBX1?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/ftFzzJ6jgxha7grHHLjf?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790658234905_51a59f12",
-      "title": "Token价格一降再降，但不会让边缘AI退场：企业算力账越来越细",
-      "summary": "Token价格一降再降，但不会让边缘AI退场：企业算力账越来越细",
-      "content": "Token价格一降再降，但不会让边缘AI退场：企业算力账越来越细",
+      "id": "news_1790704751477_dd74923a",
+      "title": "OpenAI Codex CLI 升级支持语音对话，更新终端界面",
+      "summary": "IT之家 9 月 30 日消息，在北京时间 9 月 30 日凌晨 1 点举行的 OpenAI DevDay 2026 活动中，OpenAI 宣布 Codex CLI 迎来焕新升级。 Codex CLI 现已支持语音对话，用户可以直接与 Codex 对话来启动任务并引导任务推进。",
+      "content": "IT之家 9 月 30 日消息，在北京时间 9 月 30 日凌晨 1 点举行的 OpenAI DevDay 2026 活动中，OpenAI 宣布 Codex CLI 迎来焕新升级。 Codex CLI 现已支持语音对话，用户可以直接与 Codex 对话来启动任务并引导任务推进。 借助全新的 /agents 视图，用户可以将工作分配给多个智能体，并轻松跟踪多项任务的进度。 OpenAI 还改进了日常工作流程，包括编辑提示词、恢复会话以及新增内置工作树支持，同时更新了终端界面，让界面更简洁、长会话更易读。 IT之家获悉，本次更新适用于所有套餐。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/ef4a00f9-0f4b-4991-894f-2ab24f196393.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-09-29T17:56:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/008/526.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790704751802_d956d529",
+      "title": "最高每秒 300 个词元：OpenAI 推出 GPT‑6 Astra Ultrafast 服务",
+      "summary": "IT之家 9 月 30 日消息，在今天召开的 2026 年 OpenAI 开发者日活动日中，官方推出 Ultrafast 全新服务层级，在 Codex 中可提供最高 8 倍词元（Token）生成速度，在 API 调用时最高可以实现 6 倍生成速度。",
+      "content": "IT之家 9 月 30 日消息，在今天召开的 2026 年 OpenAI 开发者日活动日中，官方推出 Ultrafast 全新服务层级，在 Codex 中可提供最高 8 倍词元（Token）生成速度，在 API 调用时最高可以实现 6 倍生成速度。 API 调用费用方面，IT之家查询官方信息，附上售价如下： 模型价格类型短上下文（输入＜ 272K Token）长上下文（输入＞ 272K Token） gpt-6-astra输入（Input）$60.00 / 1M tokens$120.00 / 1M tokens gpt-6-astra缓存输入（Cached input）$6.00 / 1M tokens$12.00 / 1M tokens gpt-6-astra缓存写入（Cache writes）$75.00 / 1M tokens$150.00 / 1M tokens gpt-6-astra输出（Output）$300.00 / 1M tokens$450.00 / 1M tokens 缓存写入（Cached input write）：第一次把一段输入内容保存进提示词缓存，通常需要支付“写入缓存”的费用。 缓存输入（Cached input）：之后的请求重复使用已经保存的那部分输入，通常按更低价格计费。 OpenAI 官宣 GPT‑6 Astra Ultrafast 在 Codex 中可以实现每秒 300 个词元，目前已开放 API 调用，Pro 500 订阅和企业用户可以在 ChatGPT Work 和 Codex 中体验，官方表示后续将会跟进推出 GPT-6.1 Sol Ultrafast。 Ultrafast 的价值在于“更强模型”与“实时响应”兼得，过去要实现接近实时的速度，往往需要换用更小或更专用模型；而 Ultrafast 试图在保持 GPT‑5.6 Sol 能力的前提下，把“每秒有用工作量”做大，从而更适合事件响应、实时客服、交易 / 市场快讯生成、交互式编码等场景。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/2bf6d6d5-3136-461c-b6fe-457af47e8fc9.png",
+      "source": "IT之家",
+      "publishedAt": "2026-09-29T17:43:14.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/1/008/524.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790704751834_fe935546",
+      "title": "OpenAI 在 Codex 上线 GPT-6.1 Sol 模型：性能接近 Astra，价格仅为 1/5",
+      "summary": "IT之家 9 月 30 日消息，在今天召开的 OpenAI 开发者日活动中，官方在 Codex 和 ChatGPT Work 中推出 GPT 6.1 Sol 模型，官方表示：“GPT-6.1 Sol 在处理复杂任务时，性能接近 Astra，但成本低于 Astra。",
+      "content": "IT之家 9 月 30 日消息，在今天召开的 OpenAI 开发者日活动中，官方在 Codex 和 ChatGPT Work 中推出 GPT 6.1 Sol 模型，官方表示：“GPT-6.1 Sol 在处理复杂任务时，性能接近 Astra，但成本低于 Astra。” IT之家翻译官方介绍如下： GPT-6.1 Sol 在处理复杂任务时，性能接近 Astra，但成本低于 Astra。它适用于代码、应用程序和文档中重复性、长时间运行的任务。可用性取决于您的套餐、客户端和工作区设置。 定价方面，根据 @LuminaBench 透露信息： 每 100 万 tokens 输入费用为 2 美元（IT之家注：现汇率约合 13.4 元人民币）， 每 100 万 tokens 缓存输入费用为 0.1 美元（现汇率约合 0.67 元人民币）， 每 100 万 tokens 输出费用为 10 美元（现汇率约合 67.2 元人民币）。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/8f044d1f-0eed-48b4-bb36-34be8d8262f7.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-09-29T17:20:45.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/008/522.htm",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790704744378_b33640b3",
+      "title": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+      "summary": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+      "content": "金句抢先看 | 每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-29T09:50:11.000Z",
+      "publishedAt": "2026-09-29T17:06:48.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/HsaJfo3DKR9XC0LeeV30?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790704744919_42104962",
+      "title": "大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
+      "summary": "大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
+      "content": "大模型下沉车规芯片：超六成的车企座舱，为何选中了同一个“端侧大脑”？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-29T15:49:30.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/XF5kZxV681STVDrzsstj?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/O5pKYU5hfR2DgrXP6zRE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790704751867_ffd47757",
+      "title": "阿里 Qoder 平台 Qwen3.8-Flash 限时免费活动延期，10 月之后继续用",
+      "summary": "IT之家 9 月 29 日消息，根据 Qoder 官方公告，阿里 Qwen3.8-Flash 限时免费活动已延期 —— 原定 2026 年 9 月 30 日 23:59:59 结束，现改为 10 月 1 日起继续免费（结束时间未定）。",
+      "content": "IT之家 9 月 29 日消息，根据 Qoder 官方公告，阿里 Qwen3.8-Flash 限时免费活动已延期 —— 原定 2026 年 9 月 30 日 23:59:59 结束，现改为 10 月 1 日起继续免费（结束时间未定）。 该活动自 2026 年 9 月 18 日 10:00 起面向 Qoder 新老个人用户开放。活动期间，Qwen3.8-Flash 计费系数由 0.1× 降至 0.0×，调用不消耗 Credits，自动生效，无需领取。 IT之家注：Credits 是 Qoder 平台用于模型调用的计费点数。免费账号及 Credits 余额为 0 的账号也可参与，已领取的每日 100 通用 Credits 不会被该模型扣减。 适用产品包括 Qoder、Qoder IDE、Qoder JetBrains 插件、Qoder CLI、QoderWake、Qoder Cloud Agents、Qoder Mobile 和 Qoder 网页版。 阿里云 Qwen3.8-Flash 被描述为兼顾响应速度与使用成本的多模态模型，支持代码编写、长文档处理和图像理解，并具备工具调用能力。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/85585214-f093-49f9-929f-05b69700454b.png",
+      "source": "IT之家",
+      "publishedAt": "2026-09-29T14:51:10.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/1/008/506.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790704737814_4cde4510",
+      "title": "Agent扎堆金融：一场真正的AI大考开始了",
+      "summary": "Agent扎堆金融：一场真正的AI大考开始了",
+      "content": "一场金库门口的AI落地大考。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-29T10:03:29.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8155852.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790704738725_c4837755",
+      "title": "十年蜕变之作，荣耀Magic9系列写下越级答案",
+      "summary": "从“掌中阿莱，视频之王”的影像突破，到Agentic OS的系统重构，再到阿尔法战略的体系化兑现，荣耀Magic9系列翻开的不只是产品新一页，更是一个AI终端生态公司的新一页。",
+      "content": "从“掌中阿莱，视频之王”的影像突破，到Agentic OS的系统重构，再到阿尔法战略的体系化兑现，荣耀Magic9系列翻开的不只是产品新一页，更是一个AI终端生态公司的新一页。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-29T10:02:40.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8155188.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790704739711_7586ff93",
+      "title": "Agent进入企业核心业务，模型之外还有多少难题？",
+      "summary": "Agent进入企业核心业务，模型之外还有多少难题？",
+      "content": "企业在把任务交给 Agent的那一刻，也交出了一部分决策权。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-29T10:01:57.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8155430.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1790658243568_75169236",
@@ -101,6 +197,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1790704445382_0",
+      "title": "OpenAI delays latest model over security concerns, as industry faces new safety pressures",
+      "summary": "OpenAI said Monday it was delaying the release of a new artificial intelligence model out of security concerns voiced by its researchers, the latest i...",
+      "content": "OpenAI said Monday it was delaying the release of a new artificial intelligence model out of security concerns voiced by its researchers, the latest in the company’s effort to decelerate the pace of the technology’s advance.\nOpenAI’s decision to hold... [2697 chars]",
+      "imageUrl": "https://wtop.com/wp-content/uploads/2026/09/Open_AI_Safety__4766-scaled.jpg",
+      "source": "WTOP",
+      "publishedAt": "2026-09-29T01:46:50.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://wtop.com/national/2026/09/openai-delays-latest-model-over-security-concerns-as-industry-faces-new-safety-pressures/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1790623654764_b54b5e3f",
       "title": "梁文锋为什么先修操场，而不是先卖门票",
       "summary": "DSec论文刷屏，\"RSI第一战\"的欢呼居多。但Agent成熟度与AGI的分界不在能力高低，在输入什么：输入路径的是自动化，输入标准、自己找路径的才是AGI。用\"标准谁给\"这把尺子重排座次会发现：操场已经修好，而真正的空白，在底座与行业之间。",
@@ -113,10 +221,10 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790658215565_0",
+      "id": "news_1790704442944_2",
       "title": "Are OpenAI Agents Going Rogue, or Is OpenAI?",
       "summary": "The recent Hugging Face hack, in which hundreds of OpenAI agents “went rogue” during a cybersecurity evaluation, spent days breaching an outside compa...",
-      "content": "The recent Hugging Face hack, in which hundreds of OpenAI agents “went rogue” during a cybersecurity evaluation, spent days breaching an outside company’s systems, and hid evidence of what was happening, helped break the conversation about AI risk in... [12093 chars]",
+      "content": "The recent Hugging Face hack, in which hundreds of OpenAI agents “went rogue” during a cybersecurity evaluation, spent days breaching an outside company’s systems, and hid evidence of what was happening, helped break the conversation about AI risk in... [12110 chars]",
       "imageUrl": "https://pyxis.nymag.com/v1/imgs/04c/e2d/9c8a29954ca390ecfa9311ea89ee53d900-altman-stage-screentime.1x.rsocial.w1200.jpg",
       "source": "New York Magazine",
       "publishedAt": "2026-09-28T09:00:26.000Z",
@@ -137,7 +245,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790658215886_1",
+      "id": "news_1790704443225_3",
       "title": "Australia’s legacy systems were already a cyber risk. AI agents are raising the stakes",
       "summary": "In the days since an artificial intelligence (AI) agent operated by OpenAI gained unauthorised access to a Services Australia portal holding Medicare ...",
       "content": "In the days since an artificial intelligence (AI) agent operated by OpenAI gained unauthorised access to a Services Australia portal holding Medicare statistics, important questions have been raised about Australia’s readiness to prevent future breac... [5563 chars]",
@@ -221,7 +329,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790658215738_2",
+      "id": "news_1790704443347_4",
       "title": "Foundation model-powered deep learning of endometrial histology for predicting the cumulative live birth of an in vitro fertilization cycle",
       "summary": "Introduction\nThe global birth rate remains low as many countries report their birth rate lower than the replacement level of 2.1 births per woman. The...",
       "content": "Introduction\nThe global birth rate remains low as many countries report their birth rate lower than the replacement level of 2.1 births per woman. The current cumulative live birth rate per cycle remained at ~30–40% only [1] despite advancements in i... [44357 chars]",
@@ -242,42 +350,6 @@
       "publishedAt": "2026-09-27T21:57:53.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.nbcnews.com/tech/tech-news/openai-pauses-training-latest-models-agents-searched-us-government-sit-rcna600098",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1790658215227_4",
-      "title": "OpenAI reports unusual access of government sites by models",
-      "summary": "SAN FRANCISCO -- OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected wa...",
-      "content": "SAN FRANCISCO -- OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company's models' unanticipated behavior.\nThe A... [3538 chars]",
-      "imageUrl": "https://wehco.media.clients.ellingtoncms.com/imports/adg/photos/213738832_213737924-bb07084d1ba54a11b3a7f1a021cb7a85_t1200.jpg?57a0c2296240c280e9492005c3cad63e7cbe80f4",
-      "source": "Arkansas Online",
-      "publishedAt": "2026-09-27T10:37:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.arkansasonline.com/news/2026/sep/27/openai-reports-unusual-access-of-government-sites/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1790658215182_5",
-      "title": "Anthropic and OpenAI sound the alarm on AI safety - and seek to shape how it’s controlled",
-      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Virginia Because you are coming from a location (Virginia) covered by a Privacy Law, many of the features of Trib...",
-      "content": "SAN FRANCISCO — As tech titans warned an AI-weary world that their own advanced systems could endanger humanity, the question emerged: What do they have to gain?\nThe answer may lie in the companies’ efforts to score political goals ahead of the U.S. ... [7550 chars]",
-      "imageUrl": "https://assets-varnish.triblive.com/2026/09/9983209_web1_9983209-2906be1f2e9141fc9b864209524955e3.jpg",
-      "source": "Pittsburgh Tribune-Review",
-      "publishedAt": "2026-09-27T10:15:39.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://triblive.com/news/world/anthropic-and-openai-sound-the-alarm-on-ai-safety-and-seek-to-shape-how-its-controlled/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1790658215401_6",
-      "title": "OpenAI pauses training of models after agents probed U.S. government sites",
-      "summary": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.\nThe decision to halt develo...",
-      "content": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.\nThe decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents fro... [2807 chars]",
-      "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/94736ef/2147483647/strip/true/crop/4000x2100+0+284/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2c%2Fc4%2Fcf8f4410446f8b4ad0304112bc94%2Fbb07084d1ba54a11b3a7f1a021cb7a85.jpg",
-      "source": "Los Angeles Times",
-      "publishedAt": "2026-09-27T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.latimes.com/world-nation/story/2026-09-27/openai-pauses-training-of-models-after-agents-probed-u-s-government-sites",
       "aiInsight": ""
     }
   ]
