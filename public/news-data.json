@@ -1,31 +1,103 @@
 {
   "success": true,
-  "timestamp": "2026-09-28T19:29:26Z",
-  "total": 22,
+  "timestamp": "2026-09-29T05:05:38Z",
+  "total": 23,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1790623661853_cd4ad5d0",
-      "title": "Cloudflare 推出智能体开发栈生命周期，以取代传统 SDLC",
-      "summary": "Cloudflare 推出智能体开发栈生命周期，以取代传统 SDLC",
-      "content": "Cloudflare 推出智能体开发栈生命周期，以取代传统 SDLC",
+      "id": "news_1790658233101_01a3635d",
+      "title": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+      "summary": "AI 数据平台，要补的恰恰是“模型不知道的事”",
+      "content": "AI 数据平台，要补的恰恰是“模型不知道的事”",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-28T22:17:00.000Z",
+      "publishedAt": "2026-09-29T11:24:14.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/uwfvFTWwH5Qupo2lBxF6?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790658233852_aa8140c5",
+      "title": "自主数据工程：迈向真正智能体成熟度的五个阶段 ｜ 技术趋势",
+      "summary": "自主数据工程：迈向真正智能体成熟度的五个阶段 ｜ 技术趋势",
+      "content": "自主数据工程：迈向真正智能体成熟度的五个阶段 ｜ 技术趋势",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-29T10:36:23.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/OooAe7xY816xAdLrkv8V?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/AmYfVbwTlVyApFszqKx3?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790623662390_8523ccaa",
-      "title": "Imagination 发布 E 系列 GPU IP 新进展：一套架构支持图形、计算与AI",
-      "summary": "Imagination 发布 E 系列 GPU IP 新进展：一套架构支持图形、计算与AI",
-      "content": "Imagination 发布 E 系列 GPU IP 新进展：一套架构支持图形、计算与AI",
+      "id": "news_1790658234363_e970be2d",
+      "title": "AI 驱动复杂业务漏洞挖掘：从业务规则建模到攻击路径验证｜QCon上海",
+      "summary": "AI 驱动复杂业务漏洞挖掘：从业务规则建模到攻击路径验证｜QCon上海",
+      "content": "AI 驱动复杂业务漏洞挖掘：从业务规则建模到攻击路径验证｜QCon上海",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-09-28T18:23:47.000Z",
+      "publishedAt": "2026-09-29T10:00:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/5Xfeqshw0hwfUD95JpWE?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/mDiczbGJpHNMU6e0qBX1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790658234905_51a59f12",
+      "title": "Token价格一降再降，但不会让边缘AI退场：企业算力账越来越细",
+      "summary": "Token价格一降再降，但不会让边缘AI退场：企业算力账越来越细",
+      "content": "Token价格一降再降，但不会让边缘AI退场：企业算力账越来越细",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-09-29T09:50:11.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/XF5kZxV681STVDrzsstj?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790658243568_75169236",
+      "title": "微软优化 Edge 浏览器：网页提示不乱跑、扩展 AI 智能体技能",
+      "summary": "IT之家 9 月 29 日消息，微软于 9 月 21 日发布更新日志，面向 Microsoft Edge 浏览器开发者，引入一系列新功能 / 新工具。相关改进落地后，可以让网页应用更流畅，AI 智能体可以驾驭更多浏览器任务。",
+      "content": "IT之家 9 月 29 日消息，微软于 9 月 21 日发布更新日志，面向 Microsoft Edge 浏览器开发者，引入一系列新功能 / 新工具。相关改进落地后，可以让网页应用更流畅，AI 智能体可以驾驭更多浏览器任务。 这些新功能 / 新工具虽然是“开发者向”，不过开发者通过调用这些新特性，可以转化为用户能感知的体验升级，重点让网页应用更快、更稳。 微软新增的“软导航”、“交互内容绘制”等性能指标，帮助开发者找出单页应用（SPA）里“看起来卡但没真正跳转”的瓶颈，可以减少点按钮、切换标签、加载列表时掉帧、白屏、假死情况，让操作更跟手。 开发者可以借助新的 JS 自分析标记，更快排查“样式计算、布局、绘制、垃圾回收”机制，明确哪一步拖了后腿，从而让开发者更快发布优化版本。 微软在推动 WebMCP 等 API，让网站把前端能力暴露成“结构化工具”，供浏览中的 AI 智能体调用，从而在浏览器内完成更复杂的流程（比如查信息、填表、对比选项等）。用户未来可能只需提出任务，智能体便可协助完成部分网页操作。 微软还优化输入体验，引入 OpaqueRange API，让拼写检查、建议、提示气泡能“跟着文字走”，在增删文字时不错位。用户在邮箱、文档、表单里打字时，纠错和提示会更自然，不会“飘到别处”。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/36d27555-f897-4913-a7c3-6f0b0649e7ba.png",
+      "source": "IT之家",
+      "publishedAt": "2026-09-29T04:02:50.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/008/226.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790658225325_421d234b",
+      "title": "GRAIL两年10倍：滴血验癌的祛魅与拐点",
+      "summary": "GRAIL两年10倍：滴血验癌的祛魅与拐点",
+      "content": "“圣杯”仍远，路已转正。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-29T02:55:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8155033.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790658225907_2c45b972",
+      "title": "人工智能发展绝非坦途：五重结构性制约深度解析",
+      "summary": "正视硅基与碳基共生过程中的多重制约，理性看待技术红利与潜在风险，才能推动人工智能行稳致远，真正实现技术向善、普惠共享、安全可控的高质量发展。",
+      "content": "正视硅基与碳基共生过程中的多重制约，理性看待技术红利与潜在风险，才能推动人工智能行稳致远，真正实现技术向善、普惠共享、安全可控的高质量发展。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-29T02:37:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8153979.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1790658226764_a2bb9e45",
+      "title": "冲进Steam畅销榜前列，字节这款AI作品火了",
+      "summary": "冲进Steam畅销榜前列，字节这款AI作品火了",
+      "content": "首款热度和好评双丰收的AI作品。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-09-29T02:27:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8154963.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -41,6 +113,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1790658215565_0",
+      "title": "Are OpenAI Agents Going Rogue, or Is OpenAI?",
+      "summary": "The recent Hugging Face hack, in which hundreds of OpenAI agents “went rogue” during a cybersecurity evaluation, spent days breaching an outside compa...",
+      "content": "The recent Hugging Face hack, in which hundreds of OpenAI agents “went rogue” during a cybersecurity evaluation, spent days breaching an outside company’s systems, and hid evidence of what was happening, helped break the conversation about AI risk in... [12093 chars]",
+      "imageUrl": "https://pyxis.nymag.com/v1/imgs/04c/e2d/9c8a29954ca390ecfa9311ea89ee53d900-altman-stage-screentime.1x.rsocial.w1200.jpg",
+      "source": "New York Magazine",
+      "publishedAt": "2026-09-28T09:00:26.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://nymag.com/intelligencer/article/are-openai-agents-going-rogue-or-is-openai.html",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1790623657556_54a7000a",
       "title": "一个AI应用爆火，会带动多少硬件生意？",
       "summary": "一个AI应用爆火，会带动多少硬件生意？",
@@ -53,7 +137,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790623641502_0",
+      "id": "news_1790658215886_1",
       "title": "Australia’s legacy systems were already a cyber risk. AI agents are raising the stakes",
       "summary": "In the days since an artificial intelligence (AI) agent operated by OpenAI gained unauthorised access to a Services Australia portal holding Medicare ...",
       "content": "In the days since an artificial intelligence (AI) agent operated by OpenAI gained unauthorised access to a Services Australia portal holding Medicare statistics, important questions have been raised about Australia’s readiness to prevent future breac... [5563 chars]",
@@ -137,6 +221,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1790658215738_2",
+      "title": "Foundation model-powered deep learning of endometrial histology for predicting the cumulative live birth of an in vitro fertilization cycle",
+      "summary": "Introduction\nThe global birth rate remains low as many countries report their birth rate lower than the replacement level of 2.1 births per woman. The...",
+      "content": "Introduction\nThe global birth rate remains low as many countries report their birth rate lower than the replacement level of 2.1 births per woman. The current cumulative live birth rate per cycle remained at ~30–40% only [1] despite advancements in i... [44357 chars]",
+      "imageUrl": "https://journals.plos.org/digitalhealth/article/figure/image?id=10.1371/journal.pdig.0001744.strk&size=inline",
+      "source": "PLOS (Public Library of Science)",
+      "publishedAt": "2026-09-28T00:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://journals.plos.org/digitalhealth/article?id=10.1371%2Fjournal.pdig.0001744",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1790623641242_2",
       "title": "OpenAI pauses training of latest models after agents searched U.S. government sites in unexpected ways",
       "summary": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.\nThe decision to halt develo...",
@@ -149,7 +245,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1790623641722_3",
+      "id": "news_1790658215227_4",
       "title": "OpenAI reports unusual access of government sites by models",
       "summary": "SAN FRANCISCO -- OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected wa...",
       "content": "SAN FRANCISCO -- OpenAI disclosed Friday that its artificial intelligence agents had interacted with several U.S. government websites in unexpected ways, discovered as part of an ongoing review into the company's models' unanticipated behavior.\nThe A... [3538 chars]",
@@ -161,9 +257,9 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1790623640954_4",
+      "id": "news_1790658215182_5",
       "title": "Anthropic and OpenAI sound the alarm on AI safety - and seek to shape how it’s controlled",
-      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Iowa Because you are coming from a location (Iowa) covered by a Privacy Law, many of the features of TribLIVE.com...",
+      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Virginia Because you are coming from a location (Virginia) covered by a Privacy Law, many of the features of Trib...",
       "content": "SAN FRANCISCO — As tech titans warned an AI-weary world that their own advanced systems could endanger humanity, the question emerged: What do they have to gain?\nThe answer may lie in the companies’ efforts to score political goals ahead of the U.S. ... [7550 chars]",
       "imageUrl": "https://assets-varnish.triblive.com/2026/09/9983209_web1_9983209-2906be1f2e9141fc9b864209524955e3.jpg",
       "source": "Pittsburgh Tribune-Review",
@@ -173,7 +269,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1790623641215_5",
+      "id": "news_1790658215401_6",
       "title": "OpenAI pauses training of models after agents probed U.S. government sites",
       "summary": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.\nThe decision to halt develo...",
       "content": "OpenAI said it has paused training of its latest artificial intelligence models as reports of AI agents going rogue mount.\nThe decision to halt development came just hours after the company disclosed Friday that it was reviewing several incidents fro... [2807 chars]",
@@ -183,90 +279,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.latimes.com/world-nation/story/2026-09-27/openai-pauses-training-of-models-after-agents-probed-u-s-government-sites",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1790623662860_ce80eab1",
-      "title": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
-      "summary": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
-      "content": "谷歌 Kotlin 版 ADK 实现与 Python 版功能对齐，支持端侧 AI",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-27T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/sQV4EomjPP0J3hM3lyF9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1790623663355_10f70a93",
-      "title": "可控、可测、可进化——B2B跨境支付的 AI 驾驭实践｜QCon上海",
-      "summary": "可控、可测、可进化——B2B跨境支付的 AI 驾驭实践｜QCon上海",
-      "content": "可控、可测、可进化——B2B跨境支付的 AI 驾驭实践｜QCon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-27T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/UC6jk6tu7fWE5bDO8oQw?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1790623641448_6",
-      "title": "OpenAI Discloses Rogue AI Incidents Targeting Government, Education Websites",
-      "summary": "OpenAI said this week that its artificial intelligence agents attempted to hack government and university websites earlier this year without human ins...",
-      "content": "OpenAI said this week that its artificial intelligence agents attempted to hack government and university websites earlier this year without human instructions, confirming four previously unknown incidents that occurred in May and June, according to ... [6741 chars]",
-      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/09/rogue-ai-incidents-ai-agents-openai-4485-original.jpg",
-      "source": "Natural News",
-      "publishedAt": "2026-09-27T04:50:10.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.naturalnews.com/2026-09-27-openai-discloses-rogue-ai-incidents-targeting-government.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1790483927240_8434aa2f",
-      "title": "爆料称 OpenAI 准备扩大 Ultrafast API 开放范围",
-      "summary": "IT之家 9 月 27 日消息，据 X 平台博主 @imjustnewatai 今日爆料，OpenAI Platform 和 API 文档已经出现 Ultrafast API 相关文档，预示着公司似乎准备扩大 Ultrafast API 开放范围。",
-      "content": "IT之家 9 月 27 日消息，据 X 平台博主 @imjustnewatai 今日爆料，OpenAI Platform 和 API 文档已经出现 Ultrafast API 相关文档，预示着公司似乎准备扩大 Ultrafast API 开放范围。 IT之家注意到，OpenAI 正在为 Responses API Playground 准备全新速度选项，用户可在 Standard、Fast 和 Ultrafast 三种处理速度之间选择，目前该功能处于隐藏状态。 OpenAI 此前已正式预览搭载 GPT-5.6 Sol 的 Ultrafast 模式，称其输出速度最高可达每秒 750 个 Token，相比 Standard 模式的推理速度最高可提升 14 倍。目前该模式仍仅向部分客户开放。 从时间安排来看，Ultrafast 在 9 月 29 日的 DevDay 期间扩大开放范围并非不可能。OpenAI 已推出 GPT-6 系列模型，涵盖 GPT-6 Sol 和 GPT-6 Astra，上述新模型是否支持 Ultrafast 值得关注。不过，目前还没有人确认所有 GPT-6 系列模型是否会在发布时支持 Ultrafast。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/9/440af78d-a2c1-43ba-a2bf-71099934bb75.png",
-      "source": "IT之家",
-      "publishedAt": "2026-09-27T03:34:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/007/490.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1790623663807_cb858995",
-      "title": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
-      "summary": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
-      "content": "阿里巴巴开源 AI 辅助代码评审工具 OpenCodeReview",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-26T17:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/jJIXCaLHUvPgswTOZ1uQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1790623664267_b13f8f1a",
-      "title": "AI 时代，技术人靠什么赢？｜QCon上海",
-      "summary": "AI 时代，技术人靠什么赢？｜QCon上海",
-      "content": "AI 时代，技术人靠什么赢？｜QCon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-26T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/C1Vuzh9fUmUL9i5wmDZf?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1790623664726_1f43d2cc",
-      "title": "DoorDash 借助多 Agent LLM 系统清理 6 万个 Feature Flag",
-      "summary": "DoorDash 借助多 Agent LLM 系统清理 6 万个 Feature Flag",
-      "content": "DoorDash 借助多 Agent LLM 系统清理 6 万个 Feature Flag",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-26T09:20:21.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/gk4rWsQg09PWTFTZlJE3?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
