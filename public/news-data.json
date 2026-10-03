@@ -1,9 +1,33 @@
 {
   "success": true,
-  "timestamp": "2026-10-02T17:42:49Z",
-  "total": 17,
+  "timestamp": "2026-10-03T04:38:35Z",
+  "total": 18,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1791002207595_6aa36aa5",
+      "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "summary": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "content": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-03T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791002193663_0",
+      "title": "Former congressman James Langevin lands a role advising OpenAI",
+      "summary": "The bigger picture: OpenAI is one of the companies at the center of a growing debate over how – and how aggressively – the government should regulate ...",
+      "content": "Former congressman James Langevin has agreed to join a government advisory board created by OpenAI, the maker of ChatpGPT and one of the leading artificial intelligence companies in the world, according to people familiar with the arrangement.\nThe de... [1922 chars]",
+      "imageUrl": "https://bostonglobe-prod.cdn.arcpublishing.com/resizer/v2/QQI77HJMPWZ4V7UD7XFJTBRPME.jpg?auth=a788b92ac474498aa3e9341b2c68933f083cde6a95141e616e7769b65722f7c2&width=1440",
+      "source": "The Boston Globe",
+      "publishedAt": "2026-10-02T13:38:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bostonglobe.com/2026/10/02/metro/james-langevin-joins-openai-advisory-board-ai-regulation-ri/",
+      "aiInsight": ""
+    },
     {
       "id": "news_1790962859433_1d28d893",
       "title": "Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
@@ -15,6 +39,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/eRbEA3dMd58RNPqp5D8S?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791002208841_38137c06",
+      "title": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
+      "summary": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
+      "content": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-02T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/DEyrayxufObhpoeZgOKT?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1790917071918_8b26e133",
@@ -65,7 +101,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790962846631_0",
+      "id": "news_1791002193275_1",
       "title": "California attorney general subpoenas OpenAI over incidents involving its AI models",
       "summary": "California Attorney General Rob Bonta has issued a subpoena to OpenAI following a series of incidents involving the company's artificial intelligence ...",
       "content": "California Attorney General Rob Bonta has issued a subpoena to OpenAI following a series of incidents involving the company's artificial intelligence models.\nBonta announced last month that the California Department of Justice was investigating an in... [2942 chars]",
@@ -101,7 +137,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790962847255_1",
+      "id": "news_1791002193339_2",
       "title": "A timeline of developments in AI safety since the attack on Hugging Face",
       "summary": "In one alarming announcement after another, artificial intelligence companies in recent months have shared examples of their technology acting in ways...",
       "content": "In one alarming announcement after another, artificial intelligence companies in recent months have shared examples of their technology acting in ways that appeared to evade instructions from humans.\nThe episodes have highlighted the vulnerabilities ... [4463 chars]",
@@ -111,6 +147,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.ajc.com/news/2026/09/a-timeline-of-developments-in-ai-safety-since-the-attack-on-hugging-face/",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1791002209977_9f0dfea1",
+      "title": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
+      "summary": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
+      "content": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-01T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1790917061594_fc6ee8ec",
@@ -137,31 +185,7 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790962847034_4",
-      "title": "Federal Trade Commission launches broad investigation into Anthropic, OpenAI",
-      "summary": "The Federal Trade Commission has opened a broad investigation into the safety of artificial intelligence systems made by Anthropic and OpenAI, a senio...",
-      "content": "The Federal Trade Commission has opened a broad investigation into the safety of artificial intelligence systems made by Anthropic and OpenAI, a senior agency official said Wednesday.\nThe full extent of the probe was not clear, but the FTC has wide a... [2697 chars]",
-      "imageUrl": "https://www.adn.com/resizer/v2/W4ZW6QMAIXH7Q3XI245FKMQM7U.jpg?smart=true&auth=a49af29f19874f9b2018b177c965f0cebf95ffc5a4a82a9951972ec5b10aaad7&width=1200&height=630",
-      "source": "Anchorage Daily News",
-      "publishedAt": "2026-09-30T23:27:30.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.adn.com/nation-world/2026/09/30/federal-trade-commission-launches-broad-investigation-into-anthropic-openai/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1790962846827_5",
-      "title": "FTC launches broad investigation into Anthropic, OpenAI",
-      "summary": "News National business FTC launches broad investigation into Anthropic, OpenAI Sept. 30, 2026 Updated Wed., Sept. 30, 2026 at 6:57 p.m. Add Spokesman-...",
-      "content": "The Federal Trade Commission has opened a broad investigation into the safety of artificial intelligence systems made by Anthropic and OpenAI, a senior agency official said Wednesday.\nThe full extent of the probe was not clear, but the FTC has wide a... [2697 chars]",
-      "imageUrl": "https://thumb.spokesman.com/K2kuEELQVYJmNqMecqSUgqpGZ48=/2400x1260/smart/media.spokesman.com/graphics/2020/08/sr_placeholder.png",
-      "source": "Spokane Spokesman-Review",
-      "publishedAt": "2026-09-30T22:02:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.spokesman.com/stories/2026/sep/30/ftc-launches-broad-investigation-into-anthropic-op/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1790962861064_6dd80e71",
+      "id": "news_1791002210501_6dd80e71",
       "title": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
       "summary": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
       "content": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
@@ -173,7 +197,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790962861447_ec29189a",
+      "id": "news_1791002211014_ec29189a",
       "title": "GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
       "summary": "GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
       "content": "GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
@@ -185,19 +209,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790962847048_6",
-      "title": "FTC is investigating OpenAI and Anthropic over possible risks to consumers",
-      "summary": "24/7 Live Los Angeles Orange County Inland Empire Ventura County California TECHNOLOGY FTC is investigating OpenAI and Anthropic over possible risks t...",
-      "content": "SAN FRANCISCO -- The U.S. Federal Trade Commission has opened an investigation into OpenAI, Anthropic and other artificial intelligence companies over dangers their technology may pose to consumers, the agency said Wednesday.\nThe AI giants and other ... [1076 chars]",
-      "imageUrl": "https://cdn.abcotvs.com/dip/images/19588598_072726-kgo-ap-sam-altman-img.jpg?w=1600",
-      "source": "KABC-TV",
-      "publishedAt": "2026-09-30T20:22:54.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://abc7.com/post/ftc-is-investigating-openai-anthropic-possible-risks-consumers/19893032/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1790962862140_68af439c",
+      "id": "news_1791002211546_68af439c",
       "title": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
       "summary": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
       "content": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
