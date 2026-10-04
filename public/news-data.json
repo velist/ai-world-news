@@ -1,9 +1,57 @@
 {
   "success": true,
-  "timestamp": "2026-10-03T16:02:02Z",
-  "total": 14,
+  "timestamp": "2026-10-04T05:09:41Z",
+  "total": 11,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1791090471632_cb4fb780",
+      "title": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+      "summary": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+      "content": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-04T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/M4mgbKf4RDv5AKTwQvFH?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791090467288_a9eca023",
+      "title": "无人机已经是优等生，机器人为什么还要载人",
+      "summary": "无人机已经是优等生，机器人为什么还要载人",
+      "content": "机器人终究没有放过欢乐谷，很多人看到了关羽骑着机器牛马招摇过市，只不过，这速度还没我奶奶遛弯快？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-04T03:50:27.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8158866.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791090458113_0",
+      "title": "Tea Party activist says ChatGPT school shooting demands AI guardrails",
+      "summary": "A conservative political activist who has been deeply entrenched in right-wing politics for decades is calling on the government to implement safety g...",
+      "content": "A conservative political activist who has been deeply entrenched in right-wing politics for decades is calling on the government to implement safety guardrails on artificial intelligence (AI), especially when it comes to protecting children and ensur... [5383 chars]",
+      "imageUrl": "https://static.foxnews.com/foxnews.com/content/uploads/2026/10/amy-kremer-pro-human-assembly-washington.jpg",
+      "source": "Fox News",
+      "publishedAt": "2026-10-03T13:00:54.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.foxnews.com/politics/maga-mom-dire-warning-tech-guardrails-trump-pedal-metal-race-china",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1791090472134_6aa36aa5",
+      "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "summary": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "content": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-03T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1791043212344_de00c39f",
       "title": "AI正在造AI",
@@ -29,7 +77,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791043200272_0",
+      "id": "news_1791090458564_1",
       "title": "Former congressman James Langevin lands a role advising OpenAI",
       "summary": "The bigger picture: OpenAI is one of the companies at the center of a growing debate over how – and how aggressively – the government should regulate ...",
       "content": "Former congressman James Langevin has agreed to join a government advisory board created by OpenAI, the maker of ChatpGPT and one of the leading artificial intelligence companies in the world, according to people familiar with the arrangement.\nThe de... [1922 chars]",
@@ -53,67 +101,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790917071918_8b26e133",
-      "title": "Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef",
-      "summary": "IT之家 10 月 2 日消息，当地时间 10 月 1 日，Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef（谱号），包含 Clef 与 Clef-flash 两款模型。",
-      "content": "IT之家 10 月 2 日消息，当地时间 10 月 1 日，Cloudflare 推出基于 Qwen 的开源多模态决策模型 Clef（谱号），包含 Clef 与 Clef-flash 两款模型。 在 Jev 决策指数（Jev Decision Index）的基准评测中（Decision Index 0.2.1），Clef 处于领先地位；这两款模型完全兼容 Jev-API，方便开发者进行测试验证。 此外，Cloudflare 还发布了全新的强化学习产品。借助该产品，客户还可以针对自身的具体业务场景，对 Clef 进行定制化微调。 据悉，Clef 选用 Qwen 作为基座模型，其中 Clef 基于 Qwen3.8-27B、Clef-flash 基于 Qwen3.5-9B。 据介绍，Clef 原生配备了视觉编码器，能够直接解析图像输入并对视觉内容进行判别分类；而目前的 Jev 仅支持纯文本分类。Clef 将上下文窗口拓展至 64k（相比之下 Jev 为 32k），这使得开发者能够为模型载入更为丰富的系统输入状态，从而实现更全面的综合判定。 官方表示，Clef 具备高精度与强劲的综合性能，在多项基准测试中均展现出比肩甚至超越同类模型的竞争实力。基准测试详情参见下表： IT之家附开源链接： https://huggingface.co/Cloudflare/clef",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/bb899fc6-b4f0-41e9-87e0-dbc64037ce9d.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-10-02T04:45:28.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/009/262.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1790917071973_97d3045b",
-      "title": "自由度 7 → 13：波士顿动力升级 Atlas 机械手，可操控钻头 / 拧螺丝等",
-      "summary": "IT之家 10 月 2 日消息，波士顿动力（Boston Dynamics）公司昨日（10 月 1 日）发布公告，宣布升级其高端机器人 Atlas 的机械手能力，自由度从 7 个提升至 13 个，并展示操控钻头等能力。 IT之家注：自由度指机械系统能够独立运动的方向或关节数量。",
-      "content": "IT之家 10 月 2 日消息，波士顿动力（Boston Dynamics）公司昨日（10 月 1 日）发布公告，宣布升级其高端机器人 Atlas 的机械手能力，自由度从 7 个提升至 13 个，并展示操控钻头等能力。 IT之家注：自由度指机械系统能够独立运动的方向或关节数量。机械手的自由度越多，手指、拇指和关节可执行的独立动作通常越丰富。工业机器人常依靠多个自由度完成抓取、旋转、定位和装配任务。 波士顿动力机械工程师 Dylan Thrush 表示，Atlas 机械手的自由度从 7 个增至 13 个后，会进一步增加可控制的独立动作维度，手部可完成更多独立关节动作。 新机械手采用 1 个拇指和 3 根额外手指。波士顿动力称，增加第 5 根手指会提高结构复杂度，也会增加能耗。 在官方演示中，新机械手操控钻头、单手移动两个高尔夫球以及拧螺丝等。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/18382bd2-f92e-4be3-94b5-24c2afa69306.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-10-02T04:10:22.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/009/256.htm",
+      "id": "news_1791090473124_38137c06",
+      "title": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
+      "summary": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
+      "content": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-02T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/DEyrayxufObhpoeZgOKT?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1790917060134_8765d9af",
-      "title": "OpenAI 新文章把超级智能拉回执行层，十亿个爱因斯坦也要有人去采矿",
-      "summary": "OpenAI 新文章把超级智能拉回执行层，十亿个爱因斯坦也要有人去采矿",
-      "content": "机器智能最大的用武之地，可能是那些枯燥、庞大、重复的执行工作。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-02T02:32:28.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8158249.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1790917060601_54f31096",
-      "title": "deepseek为什么要在此时拥抱华为？",
-      "summary": "deepseek为什么要在此时拥抱华为？",
-      "content": "这不是一次适配，这是一次搬家。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-02T01:56:11.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8158082.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791043199601_1",
-      "title": "California attorney general subpoenas OpenAI over incidents involving its AI models",
-      "summary": "California Attorney General Rob Bonta has issued a subpoena to OpenAI following a series of incidents involving the company's artificial intelligence ...",
-      "content": "California Attorney General Rob Bonta has issued a subpoena to OpenAI following a series of incidents involving the company's artificial intelligence models.\nBonta announced last month that the California Department of Justice was investigating an in... [2942 chars]",
-      "imageUrl": "https://assets3.cbsnewsstatic.com/hub/i/r/2026/09/22/f6325d35-187c-429b-abf8-39ffcd03457f/thumbnail/1200x630/94c55610099ea28dc92e28da20d973ed/gettyimages-2295204273.jpg",
-      "source": "CBS News",
-      "publishedAt": "2026-10-01T21:43:17.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.cbsnews.com/sacramento/news/openai-subpoena-californa-ai-artificial-intelligence-hugging-face/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1791043218837_575333ff",
+      "id": "news_1791090473599_575333ff",
       "title": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
       "summary": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移...",
       "content": "刚刚，Gemini 4 Argon 发布：多项基测碾压 GPT-6 Astra，已参与谷歌 80 万行内核代码迁移",
@@ -125,7 +125,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791043219403_9f0dfea1",
+      "id": "news_1791090474054_9f0dfea1",
       "title": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
       "summary": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
       "content": "生成即合规：Agentic AIGC 驱动的广告素材修复实践｜QCon上海",
@@ -135,42 +135,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/TLjNcyBg9Z72HV5kJ2kp?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791043220453_6dd80e71",
-      "title": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
-      "summary": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
-      "content": "谷歌开源面向自主 AI 代理的 Kubernetes 风格编排器 AX",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-30T20:40:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/M6BRTrsyJvUg8y0M0kyh?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791043220943_ec29189a",
-      "title": "GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
-      "summary": "GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
-      "content": "GitLab Duo 通过微软 Foundry 扩展自托管 AI 选项",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-30T20:37:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/cA9rSEGKphbJHIiTQKMv?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791043221479_68af439c",
-      "title": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
-      "summary": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
-      "content": "DeepSeek 开源昇腾平台基础设施组件，覆盖 TileLang、计算库与分布式通信库",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-09-30T19:40:16.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/t5i2Yv2z0LwIbK36lteR?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
