@@ -1,9 +1,57 @@
 {
   "success": true,
-  "timestamp": "2026-10-04T16:43:43Z",
-  "total": 8,
+  "timestamp": "2026-10-05T04:55:44Z",
+  "total": 17,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1791176036612_40ac9478",
+      "title": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "summary": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "content": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-05T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/yVWAQGCZCzI838JESA1b?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791176029765_f619a850",
+      "title": "9秒删库，700个AI失控，豪掷513亿买不来安全？",
+      "summary": "9秒删库，700个AI失控，豪掷513亿买不来安全？",
+      "content": "AI从工具变成同事，安全就从选项变成前提。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-05T00:50:47.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8153885.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791176030670_895019bd",
+      "title": "AI社交出海，中国团队又开始“整活”了",
+      "summary": "AI社交出海，中国团队又开始“整活”了",
+      "content": "国庆长假，试试不一样的AI陪伴",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-04T13:50:10.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8158954.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791176031520_2a284f96",
+      "title": "Anthropic被曝秘密游说梵蒂冈，AI为什么要与宗教搭上关系？",
+      "summary": "Anthropic被曝秘密游说梵蒂冈，AI为什么要与宗教搭上关系？",
+      "content": "Anthropic精心谋划的顶层伦理战略布局",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-04T13:49:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8158986.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1791132116283_c3e24fee",
       "title": "乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物”",
@@ -14,6 +62,54 @@
       "publishedAt": "2026-10-04T13:20:18.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/1/009/728.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791176022322_0",
+      "title": "St. Paul public schools plan for students with AI",
+      "summary": "One question guides David Gundale, principal of Open World Learning Community in St. Paul, through the new world of generative artificial intelligence...",
+      "content": "One question guides David Gundale, principal of Open World Learning Community in St. Paul, through the new world of generative artificial intelligence: “How do we make sure that we are creating an environment where kids are getting smarter and more c... [8341 chars]",
+      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/10/1791109637-768x483.jpeg",
+      "source": "EUROPE SAYS",
+      "publishedAt": "2026-10-04T10:27:15.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.europesays.com/3289299/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1791176037419_cb4fb780",
+      "title": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+      "summary": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+      "content": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-04T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/M4mgbKf4RDv5AKTwQvFH?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791176032034_9e89b429",
+      "title": "当AI开始制造AI",
+      "summary": "当AI开始参与制造下一代AI，研发成果可能反过来加快研发，递归自我改进成为巨头争夺的新方向。但更快未必更好，谁定义进步，谁守住安全边界？企业害怕落后的理由，也不能替代我们对这场加速是否值得的独立判断。",
+      "content": "当AI开始参与制造下一代AI，研发成果可能反过来加快研发，递归自我改进成为巨头争夺的新方向。但更快未必更好，谁定义进步，谁守住安全边界？企业害怕落后的理由，也不能替代我们对这场加速是否值得的独立判断。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-04T08:38:42.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8158979.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791176032497_b6f54f5c",
+      "title": "RSI再创奇迹！StartLux推出开源决策模型StartLux-Decision，38项基准中31项高于Jev",
+      "summary": "在独立的Decision Index 0.2.1评测中，27B版本得分63.88，38项基准中有31项高于Jev 1.13；在上海人工智能实验室（上海AI实验室）发布Intern-Decision时采用的七项评测中，27B平均准确率达到91.82%，同样高于Jev的88.74%。",
+      "content": "在独立的Decision Index 0.2.1评测中，27B版本得分63.88，38项基准中有31项高于Jev 1.13；在上海人工智能实验室（上海AI实验室）发布Intern-Decision时采用的七项评测中，27B平均准确率达到91.82%，同样高于Jev的88.74%。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-04T08:32:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8158976.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -29,7 +125,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791132090189_0",
+      "id": "news_1791176022334_2",
       "title": "One of Steven Spielberg’s Most Divisive Sci",
       "summary": "It’s fair to say artificial intelligence is a lot less fictional than it first felt 25 years ago, but thankfully ChatGPT, Claude and Grok haven’t been...",
       "content": "It’s fair to say artificial intelligence is a lot less fictional than it first felt 25 years ago, but thankfully ChatGPT, Claude and Grok haven’t been looking for the Blue Fairy lately, just threatening to become self-aware. Steven Spielberg tried to... [2351 chars]",
@@ -41,7 +137,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1791132089186_1",
+      "id": "news_1791176022550_3",
       "title": "Tea Party activist says ChatGPT school shooting demands AI guardrails",
       "summary": "A conservative political activist who has been deeply entrenched in right-wing politics for decades is calling on the government to implement safety g...",
       "content": "A conservative political activist who has been deeply entrenched in right-wing politics for decades is calling on the government to implement safety guardrails on artificial intelligence (AI), especially when it comes to protecting children and ensur... [5383 chars]",
@@ -51,6 +147,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.foxnews.com/politics/maga-mom-dire-warning-tech-guardrails-trump-pedal-metal-race-china",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1791176038114_6aa36aa5",
+      "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "summary": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "content": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-03T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1791043212344_de00c39f",
@@ -77,7 +185,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791132107327_1d28d893",
+      "id": "news_1791176038677_1d28d893",
       "title": "Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
       "summary": "Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出...",
       "content": "Andrew Kelley 专访：他为何创建 Zig、禁止 AI 贡献以及将 Zig 从 GitHub 移出",
@@ -89,7 +197,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791132107920_38137c06",
+      "id": "news_1791176039152_38137c06",
       "title": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
       "summary": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
       "content": "别再给 Agent 一个“毛坯房”了：构建 Agent 拎包入住的开发环境实践｜QCon上海",
