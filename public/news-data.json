@@ -1,9 +1,69 @@
 {
   "success": true,
-  "timestamp": "2026-10-05T20:34:00Z",
-  "total": 12,
+  "timestamp": "2026-10-06T05:42:43Z",
+  "total": 19,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1791265254355_d6a45f50",
+      "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "summary": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "content": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-06T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791265262094_c63d8acd",
+      "title": "为防范 AI 深度伪造，意大利总理梅洛尼申请将自己的声音注册为商标",
+      "summary": "IT之家 10 月 6 日消息，据路透社报道，公开档案显示，意大利总理焦尔吉娅 · 梅洛尼已经向欧盟知识产权局（EUIPO）提交申请，希望将自己的声音注册成为商标，以此防范由 AI 生成的深度伪造内容。",
+      "content": "IT之家 10 月 6 日消息，据路透社报道，公开档案显示，意大利总理焦尔吉娅 · 梅洛尼已经向欧盟知识产权局（EUIPO）提交申请，希望将自己的声音注册成为商标，以此防范由 AI 生成的深度伪造内容。 图源：梅洛尼 X 账号 欧盟知识产权局网站上这份申请的日期为 10 月 5 日，梅洛尼办公室也证实了该申请。申请材料当中附带一段时长 4 秒的录音，录音里她用意大利语重复说了两遍：“我是焦尔吉娅 · 梅洛尼。” “Io sono Giorgia（我是焦尔吉娅）”正是她 2021 年自传的书名。这句话源自梅洛尼 2019 年在一场政治集会上的著名发言，甚至还曾经被改编成迪斯科舞曲。 近些年来，经过篡改的梅洛尼影像多次在网络上流传，部分还被网友当作真实内容转发。其中就有一张伪造图片，画面当中的她身着内衣坐在床上。 IT之家注意到，梅洛尼曾公开谴责这类伪造内容，认为其目的就是散布虚假信息、针对个人进行攻击；她呼吁网民在转发网络内容之前务必先核实真伪。她也曾表示，自己尚有能力维护自身权益，但很多普通人却做不到。 目前这份提交给欧盟知识产权局的商标申请仍处在审核阶段。 意大利媒体报道称，即便该项声音商标申请最终获准，单凭这一项商标权依旧无法完全阻止他人利用她的语音制作 AI 深度伪造音频。不过它能够给那些试图复刻其嗓音的造假者增设更多法律障碍。 早在 2024 年，梅洛尼就已经对一名撒丁岛男子提起民事诉讼，指控该男子使用她的面部生成并在网上发布深度伪造色情图片。这起案件目前仍在意大利法院审理当中。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/af479a37-67fa-452f-8650-94df8905f8ff.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-10-06T04:58:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/1/009/979.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791265250038_2d60a305",
+      "title": "重塑苹果设计团队核心地位，特努斯瞄准下一个十年竞争",
+      "summary": "而当设计团队地位被再次拔高，乃至可能成为苹果产品开发起点，那么苹果在AI时代能否复刻iPhone神迹，用全新产品范式开启下一个十年，我们拭目以待。",
+      "content": "而当设计团队地位被再次拔高，乃至可能成为苹果产品开发起点，那么苹果在AI时代能否复刻iPhone神迹，用全新产品范式开启下一个十年，我们拭目以待。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-06T04:31:54.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8159881.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791265250777_69eb9377",
+      "title": "AI 越来越强，公司为什么还是做不快？",
+      "summary": "AI 越来越强，公司为什么还是做不快？",
+      "content": "成果看起来越完整，剩下的工作越容易被误解为拖延。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-06T04:31:52.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8159894.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791265251287_e4a0a01f",
+      "title": "想改造工厂的机器人，先被工厂改造了",
+      "summary": "想改造工厂的机器人，先被工厂改造了",
+      "content": "Figure 02跳进芬兰熔炉，其在宝马工厂产线留下的故障记录却进入了下一代设计。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-06T03:56:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8159783.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1791232331857_17feee86",
       "title": "OpenAI 将在欧盟为 ChatGPT 和 Codex 文本输出添加隐形水印",
@@ -27,6 +87,42 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/1/009/901.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791265239714_0",
+      "title": "Sam Altman says world should accept some risks for AI benefits",
+      "summary": "OpenAI CEO Sam Altman said artificial intelligence should remain widely available, arguing the technology's benefits are worth accepting some risks.\nI...",
+      "content": "OpenAI CEO Sam Altman said artificial intelligence should remain widely available, arguing the technology's benefits are worth accepting some risks.\nIn an interview with Politico's Decoded newsletter, Altman said he believes \"the world should accept ... [3024 chars]",
+      "imageUrl": "https://assets.foxnews.com/liveblog/fn/prod/images/2026/10/201da0d93ded7e1883b49afcfbddf6a7.jpg",
+      "source": "Fox News",
+      "publishedAt": "2026-10-05T10:32:50.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.foxnews.com/live-news/ai-super-intelligence-trump-altman-10-05",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1791265254909_40ac9478",
+      "title": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "summary": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "content": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-05T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/yVWAQGCZCzI838JESA1b?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791265239119_1",
+      "title": "AI whistleblowers join Google, Meta, OpenAI at NYC hearing",
+      "summary": "24/7 Live Los Angeles Orange County Inland Empire Ventura County California TECHNOLOGY Tech leaders, AI whistleblowers to face NYC Council questions a...",
+      "content": "MANHATTAN -- Some of the biggest names in artificial intelligence are set to appear before the New York City Council on Monday as lawmakers consider a series of proposals aimed at regulating the rapidly expanding technology.\nThe hearing will begin wi... [2913 chars]",
+      "imageUrl": "https://cdn.abcotvs.com/dip/images/19909398_100526-wabc-city-council-AI-hearing-img.jpg?w=1600",
+      "source": "KABC-TV",
+      "publishedAt": "2026-10-05T08:56:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://abc7.com/post/google-meta-openai-among-firms-appearing-nyc-ai-hearing/19909409/",
+      "aiInsight": ""
     },
     {
       "id": "news_1791176029765_f619a850",
@@ -77,7 +173,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791232312326_0",
+      "id": "news_1791265239956_2",
       "title": "St. Paul public schools plan for students with AI",
       "summary": "One question guides David Gundale, principal of Open World Learning Community in St. Paul, through the new world of generative artificial intelligence...",
       "content": "One question guides David Gundale, principal of Open World Learning Community in St. Paul, through the new world of generative artificial intelligence: “How do we make sure that we are creating an environment where kids are getting smarter and more c... [8341 chars]",
@@ -87,6 +183,18 @@
       "category": "科技新闻",
       "originalUrl": "https://www.europesays.com/3289299/",
       "aiInsight": ""
+    },
+    {
+      "id": "news_1791265255465_cb4fb780",
+      "title": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+      "summary": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+      "content": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-04T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/M4mgbKf4RDv5AKTwQvFH?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1791176032034_9e89b429",
@@ -113,31 +221,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791090467288_a9eca023",
-      "title": "无人机已经是优等生，机器人为什么还要载人",
-      "summary": "无人机已经是优等生，机器人为什么还要载人",
-      "content": "机器人终究没有放过欢乐谷，很多人看到了关羽骑着机器牛马招摇过市，只不过，这速度还没我奶奶遛弯快？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-04T03:50:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8158866.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791232312355_2",
-      "title": "One of Steven Spielberg’s Most Divisive Sci",
-      "summary": "It’s fair to say artificial intelligence is a lot less fictional than it first felt 25 years ago, but thankfully ChatGPT, Claude and Grok haven’t been...",
-      "content": "It’s fair to say artificial intelligence is a lot less fictional than it first felt 25 years ago, but thankfully ChatGPT, Claude and Grok haven’t been looking for the Blue Fairy lately, just threatening to become self-aware. Steven Spielberg tried to... [2351 chars]",
-      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/10/1791067005.jpeg",
-      "source": "EUROPE SAYS",
-      "publishedAt": "2026-10-03T22:36:43.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.europesays.com/3288324/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1791232324344_6aa36aa5",
+      "id": "news_1791265255986_6aa36aa5",
       "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
       "summary": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
       "content": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
