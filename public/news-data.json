@@ -1,19 +1,43 @@
 {
   "success": true,
-  "timestamp": "2026-10-06T05:42:43Z",
-  "total": 19,
+  "timestamp": "2026-10-06T18:11:18Z",
+  "total": 15,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1791265254355_d6a45f50",
-      "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
-      "summary": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
-      "content": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "id": "news_1791310178016_afb65bf8",
+      "title": "杨利伟：中国空间站将成全球开放实验平台，下半年迎来首批外籍航天员",
+      "summary": "IT之家 10 月 6 日消息，据央视新闻报道，当地时间 5 日，在 77 届国际宇航大会（IAC 2026）上，中国首飞航天员、航天英雄、现任中国载人航天工程副总设计师杨利伟表示，中国空间站将成为一个面向全球科学家开放的实验平台。",
+      "content": "IT之家 10 月 6 日消息，据央视新闻报道，当地时间 5 日，在 77 届国际宇航大会（IAC 2026）上，中国首飞航天员、航天英雄、现任中国载人航天工程副总设计师杨利伟表示，中国空间站将成为一个面向全球科学家开放的实验平台。 杨利伟透露，中国空间站后续可在科学研究、航天员培训、提供飞行机会，以及科普教育等方面，开展深化合作。 IT之家从原报道获悉，中国空间站将在今年下半年，迎来首批外籍航天员。杨利伟介绍道：“这两名巴基斯坦的预备航天员，在整个训练过程当中，表现非常优异，正在和中国航天员进行配合训练。按照计划，一名巴基斯坦航天员将作为载荷专家，执行短期飞行任务。” 此外，就中国载人登月计划，杨利伟表示，中国希望与各国展开合作交流。“将开展月球科学的研究与开发，建设月球的科研站。”",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/815639c3-79e9-45a0-b182-a8fccd1f84d6.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-10-06T13:48:19.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/1/010/107.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791310165274_98094dbe",
+      "title": "论AI从沙盒中逃逸的必然性",
+      "summary": "沙盒逃逸不是意外，而是必然：优化器的搜索空间永远大于防御方的约束空间，未被认识的通道迟早被撞开。文章以四起真实逃逸为据论证——逃逸无需意识，只需\"完成任务\"；越界也不等于失控，可靠解是能响应的检测—关停回路。",
+      "content": "沙盒逃逸不是意外，而是必然：优化器的搜索空间永远大于防御方的约束空间，未被认识的通道迟早被撞开。文章以四起真实逃逸为据论证——逃逸无需意识，只需\"完成任务\"；越界也不等于失控，可靠解是能响应的检测—关停回路。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-06T10:00:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-06T10:44:13.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8159807.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791310165950_0efffedd",
+      "title": "全球AI消费调查：仅有1%超级玩家在养活AI圈",
+      "summary": "全球AI消费调查：仅有1%超级玩家在养活AI圈",
+      "content": "AI的流量帝国，是靠极少数人用真金白银撑起来的。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-06T10:44:06.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8159928.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -65,6 +89,30 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1791310157378_0",
+      "title": "OpenAI is piloting a 'mission interview' for candidates",
+      "summary": "The company is currently introducing it as a new pilot program, starting with the marketing and human resources teams, OpenAI told Fortune on Monday. ...",
+      "content": "The company is currently introducing it as a new pilot program, starting with the marketing and human resources teams, OpenAI told Fortune on Monday. The goal is to give job candidates a dedicated space to talk about how they will contribute to OpenA... [1782 chars]",
+      "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2297777301-e1791234048908.jpg?resize=1200,600",
+      "source": "Fortune",
+      "publishedAt": "2026-10-06T00:58:19.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://fortune.com/2026/10/05/openai-piloting-mission-interview-for-job-candidates/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1791310156794_1",
+      "title": "OpenAI's Sam Altman says AI benefits justify accepting some risks",
+      "summary": "OpenAI CEO Sam Altman said in an interview on Sunday that the benefits of artificial intelligence (AI) are enough to justify accepting some risks and ...",
+      "content": "OpenAI CEO Sam Altman said in an interview on Sunday that the benefits of artificial intelligence (AI) are enough to justify accepting some risks and suggesting that the public should continue to have broad access to the emerging technology.\n\"We beli... [2778 chars]",
+      "imageUrl": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/07/0/0/sam-altman-openai-cyber-incident.jpg?ve=1&tl=1",
+      "source": "Fox Business",
+      "publishedAt": "2026-10-05T19:34:25.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.foxbusiness.com/technology/openais-sam-altman-says-ai-benefits-justify-accepting-some-risks",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1791232331857_17feee86",
       "title": "OpenAI 将在欧盟为 ChatGPT 和 Codex 文本输出添加隐形水印",
       "summary": "IT之家 10 月 5 日消息，OpenAI 今日宣布，为配合《欧盟人工智能法案》的内容透明要求，未来几周将在欧盟地区符合条件的 ChatGPT 和 Codex 文本输出中加入机器可识别的隐形水印。 据介绍，文本水印技术名为 textGrain（文本粒水印），会在模型选词过程中嵌入不可见的统计信号。",
@@ -89,7 +137,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791265239714_0",
+      "id": "news_1791310157262_2",
       "title": "Sam Altman says world should accept some risks for AI benefits",
       "summary": "OpenAI CEO Sam Altman said artificial intelligence should remain widely available, arguing the technology's benefits are worth accepting some risks.\nI...",
       "content": "OpenAI CEO Sam Altman said artificial intelligence should remain widely available, arguing the technology's benefits are worth accepting some risks.\nIn an interview with Politico's Decoded newsletter, Altman said he believes \"the world should accept ... [3024 chars]",
@@ -101,19 +149,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1791265254909_40ac9478",
-      "title": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
-      "summary": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
-      "content": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-05T10:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/yVWAQGCZCzI838JESA1b?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791265239119_1",
+      "id": "news_1791310157107_3",
       "title": "AI whistleblowers join Google, Meta, OpenAI at NYC hearing",
       "summary": "24/7 Live Los Angeles Orange County Inland Empire Ventura County California TECHNOLOGY Tech leaders, AI whistleblowers to face NYC Council questions a...",
       "content": "MANHATTAN -- Some of the biggest names in artificial intelligence are set to appear before the New York City Council on Monday as lawmakers consider a series of proposals aimed at regulating the rapidly expanding technology.\nThe hearing will begin wi... [2913 chars]",
@@ -137,55 +173,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791176030670_895019bd",
-      "title": "AI社交出海，中国团队又开始“整活”了",
-      "summary": "AI社交出海，中国团队又开始“整活”了",
-      "content": "国庆长假，试试不一样的AI陪伴",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-04T13:50:10.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8158954.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791176031520_2a284f96",
-      "title": "Anthropic被曝秘密游说梵蒂冈，AI为什么要与宗教搭上关系？",
-      "summary": "Anthropic被曝秘密游说梵蒂冈，AI为什么要与宗教搭上关系？",
-      "content": "Anthropic精心谋划的顶层伦理战略布局",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-04T13:49:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8158986.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791132116283_c3e24fee",
-      "title": "乐山大佛景区回应网传“掏耳朵”养护作业视频：系 AI 合成，佛耳内并无所谓“杂物”",
-      "summary": "IT之家 10 月 4 日消息，近期网络上流传一段所谓“乐山大佛开展养护作业”短视频，其中显示文保工人正在给大佛“掏耳朵”，佛耳里掏出鸽子和腐叶，鼻孔里清理出大量腐叶等物质，旁边还有一只猴子在佛身上上蹿下跳，猴子还抢工人的安全帽戴在自己头上。",
-      "content": "IT之家 10 月 4 日消息，近期网络上流传一段所谓“乐山大佛开展养护作业”短视频，其中显示文保工人正在给大佛“掏耳朵”，佛耳里掏出鸽子和腐叶，鼻孔里清理出大量腐叶等物质，旁边还有一只猴子在佛身上上蹿下跳，猴子还抢工人的安全帽戴在自己头上。 对此，乐山大佛文物保护（景区）管委会回应媒体“四川观察”，称相应视频不实，系他人 AI 生成，不是乐山大佛景区里的真实场景。希望广大网友不信谣、不传谣。 乐山大佛文物保护（景区）管委会数字化信息中心副主任陈芮透露，“2026 年以来乐山大佛总计开展 5 次保养维护，其中第 5 次是 9 月 20 日至 25 日，主要内容包含岩体表面微损伤修复、微生物清理、表层植被清除等，与视频内容无关。同时，大佛耳鼻内并无杂物需要清理，乐山大佛所在的凌云山片区目前没有猴子。” IT之家注意到，根据《互联网信息服务深度合成管理规定》《生成式人工智能服务管理暂行办法》，AI 生成内容严禁伪造事实误导公众，必须标注显著 AI 标识。同时，我国《网络安全法》《文物保护法》明确禁止编造传播文物相关虚假信息；散布谣言扰乱公共秩序的，依据《治安管理处罚法》可处以拘留、罚款。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/7d3df272-3b64-4d78-8d52-fdc5b207ab26.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-10-04T13:20:18.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/009/728.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791265239956_2",
-      "title": "St. Paul public schools plan for students with AI",
-      "summary": "One question guides David Gundale, principal of Open World Learning Community in St. Paul, through the new world of generative artificial intelligence...",
-      "content": "One question guides David Gundale, principal of Open World Learning Community in St. Paul, through the new world of generative artificial intelligence: “How do we make sure that we are creating an environment where kids are getting smarter and more c... [8341 chars]",
-      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/10/1791109637-768x483.jpeg",
-      "source": "EUROPE SAYS",
-      "publishedAt": "2026-10-04T10:27:15.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.europesays.com/3289299/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1791265255465_cb4fb780",
+      "id": "news_1791310171538_cb4fb780",
       "title": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
       "summary": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
       "content": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
@@ -194,42 +182,6 @@
       "publishedAt": "2026-10-04T10:00:00.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/M4mgbKf4RDv5AKTwQvFH?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791176032034_9e89b429",
-      "title": "当AI开始制造AI",
-      "summary": "当AI开始参与制造下一代AI，研发成果可能反过来加快研发，递归自我改进成为巨头争夺的新方向。但更快未必更好，谁定义进步，谁守住安全边界？企业害怕落后的理由，也不能替代我们对这场加速是否值得的独立判断。",
-      "content": "当AI开始参与制造下一代AI，研发成果可能反过来加快研发，递归自我改进成为巨头争夺的新方向。但更快未必更好，谁定义进步，谁守住安全边界？企业害怕落后的理由，也不能替代我们对这场加速是否值得的独立判断。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-04T08:38:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8158979.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791176032497_b6f54f5c",
-      "title": "RSI再创奇迹！StartLux推出开源决策模型StartLux-Decision，38项基准中31项高于Jev",
-      "summary": "在独立的Decision Index 0.2.1评测中，27B版本得分63.88，38项基准中有31项高于Jev 1.13；在上海人工智能实验室（上海AI实验室）发布Intern-Decision时采用的七项评测中，27B平均准确率达到91.82%，同样高于Jev的88.74%。",
-      "content": "在独立的Decision Index 0.2.1评测中，27B版本得分63.88，38项基准中有31项高于Jev 1.13；在上海人工智能实验室（上海AI实验室）发布Intern-Decision时采用的七项评测中，27B平均准确率达到91.82%，同样高于Jev的88.74%。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-04T08:32:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8158976.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791265255986_6aa36aa5",
-      "title": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
-      "summary": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
-      "content": "企业级 Agent Infra 架构实践：从安全沙箱到网络管控与身份治理｜QCon上海",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-03T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/bLB8RQ6sd3ZGQts0D4tP?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
