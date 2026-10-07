@@ -1,9 +1,57 @@
 {
   "success": true,
-  "timestamp": "2026-10-06T18:11:18Z",
-  "total": 15,
+  "timestamp": "2026-10-07T05:13:28Z",
+  "total": 24,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1791349896158_99fc96c6",
+      "title": "半年净利暴增96%，重回中国台湾首富宝座，郭台铭靠AI赚翻了",
+      "summary": "半年净利暴增96%，重回中国台湾首富宝座，郭台铭靠AI赚翻了",
+      "content": "郭台铭靠 AI重回中国台湾首富之位 。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-07T04:36:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8148632.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791349897113_99422a84",
+      "title": "网球机器人火了，但好生意要从“有效付费小时”算起",
+      "summary": "网球人口增长、陪练稀缺、资本加码，网球机器人迎来机会。但出货量只能证明有人买，有效付费小时才检验生意能否持续。",
+      "content": "网球人口增长、陪练稀缺、资本加码，网球机器人迎来机会。但出货量只能证明有人买，有效付费小时才检验生意能否持续。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-07T04:35:37.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8160190.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791349897595_8f6db31a",
+      "title": "Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？",
+      "summary": "未来的胜负手，不在于谁的参数更高，而在于谁能更深地融入真实的创作生产流程，成为创作者离不开的生产工具。...",
+      "content": "未来的胜负手，不在于谁的参数更高，而在于谁能更深地融入真实的创作生产流程，成为创作者离不开的生产工具。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-07T04:35:32.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8160182.html",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791349898882_dee7623b",
+      "title": "好产品也会丢单，Palantir 旧访谈翻红：企业级 AI 订单，拼的不只是模型",
+      "summary": "好产品也会丢单，Palantir 旧访谈翻红：企业级 AI 订单，拼的不只是模型",
+      "content": "人们对一件事的认知，有时比客观情况更能左右决策。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-07T02:54:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8160164.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1791310178016_afb65bf8",
       "title": "杨利伟：中国空间站将成全球开放实验平台，下半年迎来首批外籍航天员",
@@ -15,6 +63,18 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/1/010/107.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791349886480_0",
+      "title": "OpenAI CEO Altman: AI Benefits Require Accepting Some Harms",
+      "summary": "OpenAI CEO Sam Altman said the world should accept some harmful outcomes from artificial intelligence (AI) in exchange for the technology's benefits, ...",
+      "content": "OpenAI CEO Sam Altman said the world should accept some harmful outcomes from artificial intelligence (AI) in exchange for the technology's benefits, according to an interview with Politico's \"Decoded\" podcast published Monday, Oct. 5.\nAltman framed ... [5221 chars]",
+      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/10/sam-altman-openai-artificial-intelligence-risks-4790-4a8aa69b-original.jpg",
+      "source": "Natural News",
+      "publishedAt": "2026-10-06T10:53:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.naturalnews.com/2026-10-06-altman-ai-benefits-require-accepting-some-harms.html",
+      "aiInsight": ""
     },
     {
       "id": "news_1791310165274_98094dbe",
@@ -39,6 +99,42 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8159928.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791349886324_1",
+      "title": "Inside the high-stakes AI race between Anthropic, OpenAI",
+      "summary": "In September 2022, a group of OpenAI managers gathered at a resort near Yosemite, in California, for a retreat. They were told to expect a team-buildi...",
+      "content": "In September 2022, a group of OpenAI managers gathered at a resort near Yosemite, in California, for a retreat. They were told to expect a team-building event around a bonfire. Some brought blankets and marshmallows. Then, five figures emerged from t... [7222 chars]",
+      "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/newspress-collage-caxameae3-1791247543394.jpg?quality=75&strip=all&1791233212&w=1200",
+      "source": "New York Post",
+      "publishedAt": "2026-10-06T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://nypost.com/2026/10/06/tech/inside-the-high-stakes-ai-race-between-anthropic-openai/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1791349903935_d6a45f50",
+      "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "summary": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "content": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-06T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791349886338_2",
+      "title": "Andrew Garfield as Sam Altman in OpenAI Saga",
+      "summary": "Andrew Garfield is now in his early 40s, but when he lollops around with his rubber limbs flapping every which way and a happy-go-lucky smile plastere...",
+      "content": "Andrew Garfield is now in his early 40s, but when he lollops around with his rubber limbs flapping every which way and a happy-go-lucky smile plastered across this face — he’s like a goofy Pied Piper trailed by enchanted tech bros — you might swear h... [8488 chars]",
+      "imageUrl": "https://www.hollywoodreporter.com/wp-content/uploads/2026/09/Andrew-Garfield-as-Sam-Altman-and-Yura-Borisov-as-Ilya-Sutskever-in-ARTIFICIAL.Courtesy-of-NEON.-H-2026-.jpg?w=1296&h=730&crop=1",
+      "source": "The Hollywood Reporter",
+      "publishedAt": "2026-10-06T07:00:32.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.hollywoodreporter.com/movies/movie-reviews/artificial-review-andrew-garfield-luca-guadagnino-open-ai-1236723005/",
+      "aiInsight": ""
     },
     {
       "id": "news_1791265262094_c63d8acd",
@@ -89,6 +185,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1791349886032_3",
+      "title": "OpenAI is piloting a ‘mission interview’ for candidates",
+      "summary": "The company is currently introducing it as a new pilot program, starting with the marketing and human resources teams, OpenAI told Fortune on Monday. ...",
+      "content": "The company is currently introducing it as a new pilot program, starting with the marketing and human resources teams, OpenAI told Fortune on Monday. The goal is to give job candidates a dedicated space to talk about how they will contribute to OpenA... [1779 chars]",
+      "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2297777301-e1791234048908.jpg?resize=1200,600",
+      "source": "Fortune",
+      "publishedAt": "2026-10-06T00:58:19.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://fortune.com/2026/10/05/openai-piloting-mission-interview-for-job-candidates/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1791310157378_0",
       "title": "OpenAI is piloting a 'mission interview' for candidates",
       "summary": "The company is currently introducing it as a new pilot program, starting with the marketing and human resources teams, OpenAI told Fortune on Monday. ...",
@@ -101,7 +209,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1791310156794_1",
+      "id": "news_1791349886864_4",
       "title": "OpenAI's Sam Altman says AI benefits justify accepting some risks",
       "summary": "OpenAI CEO Sam Altman said in an interview on Sunday that the benefits of artificial intelligence (AI) are enough to justify accepting some risks and ...",
       "content": "OpenAI CEO Sam Altman said in an interview on Sunday that the benefits of artificial intelligence (AI) are enough to justify accepting some risks and suggesting that the public should continue to have broad access to the emerging technology.\n\"We beli... [2778 chars]",
@@ -137,7 +245,7 @@
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791310157262_2",
+      "id": "news_1791349886679_5",
       "title": "Sam Altman says world should accept some risks for AI benefits",
       "summary": "OpenAI CEO Sam Altman said artificial intelligence should remain widely available, arguing the technology's benefits are worth accepting some risks.\nI...",
       "content": "OpenAI CEO Sam Altman said artificial intelligence should remain widely available, arguing the technology's benefits are worth accepting some risks.\nIn an interview with Politico's Decoded newsletter, Altman said he believes \"the world should accept ... [3024 chars]",
@@ -149,7 +257,19 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1791310157107_3",
+      "id": "news_1791349904415_40ac9478",
+      "title": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "summary": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "content": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-05T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/yVWAQGCZCzI838JESA1b?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791349886206_6",
       "title": "AI whistleblowers join Google, Meta, OpenAI at NYC hearing",
       "summary": "24/7 Live Los Angeles Orange County Inland Empire Ventura County California TECHNOLOGY Tech leaders, AI whistleblowers to face NYC Council questions a...",
       "content": "MANHATTAN -- Some of the biggest names in artificial intelligence are set to appear before the New York City Council on Monday as lawmakers consider a series of proposals aimed at regulating the rapidly expanding technology.\nThe hearing will begin wi... [2913 chars]",
@@ -161,19 +281,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1791176029765_f619a850",
-      "title": "9秒删库，700个AI失控，豪掷513亿买不来安全？",
-      "summary": "9秒删库，700个AI失控，豪掷513亿买不来安全？",
-      "content": "AI从工具变成同事，安全就从选项变成前提。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-05T00:50:47.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8153885.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791310171538_cb4fb780",
+      "id": "news_1791349904878_cb4fb780",
       "title": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
       "summary": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
       "content": "Agent 的记忆不在对话里：把企业数仓沉淀为可治理的共享语义记忆｜QCon上海",
