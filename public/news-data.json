@@ -1,9 +1,129 @@
 {
   "success": true,
-  "timestamp": "2026-10-07T18:44:11Z",
-  "total": 21,
+  "timestamp": "2026-10-08T05:23:53Z",
+  "total": 27,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1791436924117_94769e40",
+      "title": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
+      "summary": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
+      "content": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-08T11:43:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/s2Rt9t0yqUFk6VYV33Mh?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791436924751_324284f1",
+      "title": "AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
+      "summary": "AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
+      "content": "AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-08T11:08:39.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/aJ7cgaNqf4pXVtbbtYiv?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791436925215_caecf790",
+      "title": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
+      "summary": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
+      "content": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-08T10:35:29.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/0wk4G4cZwbHgYdeNoQPV?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791436925902_f069da37",
+      "title": "代码交给AI，心流却回来了：Codex负责人不再怀念手写时代",
+      "summary": "代码交给AI，心流却回来了：Codex负责人不再怀念手写时代",
+      "content": "代码交给AI，心流却回来了：Codex负责人不再怀念手写时代",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-08T09:35:10.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/rLaX4DEMuRxqW135ZSSC?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791436918647_ce91118d",
+      "title": "一次同意，二十一次缺席",
+      "summary": "一次点击同意，带来了二十一个月的自动扣款。授权仍在生效，人的注意力却早已离开。文章从自动续费出发，结合人脸识别误判与医疗AI研究，讨论为何保留人工审核，并不等于保留独立判断，以及如何通过清晰的授权边界、有效提醒和纠错退出机制，让人能在自动运行的流程中重新介入。",
+      "content": "一次点击同意，带来了二十一个月的自动扣款。授权仍在生效，人的注意力却早已离开。文章从自动续费出发，结合人脸识别误判与医疗AI研究，讨论为何保留人工审核，并不等于保留独立判断，以及如何通过清晰的授权边界、有效提醒和纠错退出机制，让人能在自动运行的流程中重新介入。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-08T04:17:40.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8160632.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791436919127_359b5a0a",
+      "title": "数据中心，正在拆掉Token时代的旧围墙",
+      "summary": "数据中心，正在拆掉Token时代的旧围墙",
+      "content": "AI算力竞争开始告别堆硬件，从比拼训练爆发力转向Token产出效率。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-08T04:17:36.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8160868.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791436919589_3a3364d8",
+      "title": "谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长",
+      "summary": "谁在给大模型出题、卖题、判卷？聊聊AI数据行业的野蛮生长",
+      "content": "这个行业究竟在卖什么？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-08T03:24:52.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8160841.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791436920049_87b5d3aa",
+      "title": "从Siri到Muse，我们如何一步步把生活交给AI",
+      "summary": "Siri要追赶一个由自己开启的do engine愿景。新晋的Muse们也需要经历一个不断完善可靠性、安全性和经济性的过程。",
+      "content": "Siri要追赶一个由自己开启的do engine愿景。新晋的Muse们也需要经历一个不断完善可靠性、安全性和经济性的过程。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-08T03:17:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8160467.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791436920553_3aa275b2",
+      "title": "90后站上C位：姚顺雨、罗福莉、刘大一恒、陈宇森、周畅们接管国产大模型",
+      "summary": "90后站上C位：姚顺雨、罗福莉、刘大一恒、陈宇森、周畅们接管国产大模型",
+      "content": "国产大模型迎来90后接管时代。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-08T02:43:42.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8160735.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791436921013_24aa89d3",
+      "title": "GPT-6全球上线、Claude Haiku 5.5降价，这个假期AI圈也没停",
+      "summary": "GPT-6全球上线、Claude Haiku 5.5降价，这个假期AI圈也没停",
+      "content": "成本压下来之后，下一个阶段比什么？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-08T01:51:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8160689.html",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1791398539807_61289384",
       "title": "谁在捧杀Utopai X？",
@@ -17,7 +137,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791398528288_0",
+      "id": "news_1791436910935_0",
+      "title": "Penn State Announces New Artificial Intelligence Grants For Faculty",
+      "summary": "Penn State faculty can now apply for two grants from the AI Center of Excellence for Teaching and Learning designed to support integrating artificial ...",
+      "content": "Penn State faculty can now apply for two grants from the AI Center of Excellence for Teaching and Learning designed to support integrating artificial intelligence into teaching and learning, the university announced on September 30.\nThe AI in Institu... [1557 chars]",
+      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/10/1791360562-768x512.jpeg",
+      "source": "EUROPE SAYS",
+      "publishedAt": "2026-10-07T08:09:19.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.europesays.com/3295460/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1791436910563_1",
       "title": "Report: Voters Use ChatGPT and Other Chatbots for Midterm Ballot Research, Raising Bias and Privacy Concerns",
       "summary": "Forty-year-old Adam Johnson sat on his porch in Morgantown, West Virginia one September evening and worked through his midterm ballot with ChatGPT, an...",
       "content": "Forty-year-old Adam Johnson sat on his porch in Morgantown, West Virginia one September evening and worked through his midterm ballot with ChatGPT, an artificial intelligence (AI) chatbot owned by OpenAI, according to an NPR report published Monday, ... [6928 chars]",
@@ -77,7 +209,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791398528785_1",
+      "id": "news_1791436910891_2",
       "title": "Artificial Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers",
       "summary": "Artificial, the new comedy-drama about OpenAI and the artificial intelligence arms race, is a movie of weird walks.\nAs OpenAI cofounder Ilya Sutskever...",
       "content": "Artificial, the new comedy-drama about OpenAI and the artificial intelligence arms race, is a movie of weird walks.\nAs OpenAI cofounder Ilya Sutskever, Russian actor Yuri Borisov clomps around, like a geeky Frankensteinian monster. As the controversi... [6647 chars]",
@@ -86,6 +218,18 @@
       "publishedAt": "2026-10-06T18:45:39.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1791436910190_3",
+      "title": "'Artificial' Gives Us the Beginning of the AI-Fueled End. It's Terrifying",
+      "summary": "Historians chronicling the decline and fall of humanity will have any number of key moments to point to as the beginning of the end. But a handful mig...",
+      "content": "Historians chronicling the decline and fall of humanity will have any number of key moments to point to as the beginning of the end. But a handful might single out an innocuous meeting at the University of Toronto in 2003. A 17-year-old named Ilya Su... [7812 chars]",
+      "imageUrl": "https://www.rollingstone.com/wp-content/uploads/2026/10/Artificial_NYFF.jpg?w=1500&h=900&crop=1",
+      "source": "Rolling Stone",
+      "publishedAt": "2026-10-06T16:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.rollingstone.com/tv-movies/tv-movie-reviews/artificial-review-andrew-garfield-sam-altman-1235636707/",
       "aiInsight": ""
     },
     {
@@ -101,7 +245,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791398528437_2",
+      "id": "news_1791436911020_4",
       "title": "OpenAI CEO Altman: AI Benefits Require Accepting Some Harms",
       "summary": "OpenAI CEO Sam Altman said the world should accept some harmful outcomes from artificial intelligence (AI) in exchange for the technology's benefits, ...",
       "content": "OpenAI CEO Sam Altman said the world should accept some harmful outcomes from artificial intelligence (AI) in exchange for the technology's benefits, according to an interview with Politico's \"Decoded\" podcast published Monday, Oct. 5.\nAltman framed ... [5221 chars]",
@@ -137,7 +281,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791398528803_3",
+      "id": "news_1791436911219_5",
       "title": "Inside the high-stakes AI race between Anthropic, OpenAI",
       "summary": "In September 2022, a group of OpenAI managers gathered at a resort near Yosemite, in California, for a retreat. They were told to expect a team-buildi...",
       "content": "In September 2022, a group of OpenAI managers gathered at a resort near Yosemite, in California, for a retreat. They were told to expect a team-building event around a bonfire. Some brought blankets and marshmallows. Then, five figures emerged from t... [7222 chars]",
@@ -149,7 +293,19 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1791398528165_4",
+      "id": "news_1791436926325_d6a45f50",
+      "title": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "summary": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "content": "AI + SRE ≠ AISRE：AI 如何真正进入生产运维闭环｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-06T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/u70P77XPmsXmRBciu6fL?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791436910256_6",
       "title": "Andrew Garfield as Sam Altman in OpenAI Saga",
       "summary": "Andrew Garfield is now in his early 40s, but when he lollops around with his rubber limbs flapping every which way and a happy-go-lucky smile plastere...",
       "content": "Andrew Garfield is now in his early 40s, but when he lollops around with his rubber limbs flapping every which way and a happy-go-lucky smile plastered across this face — he’s like a goofy Pied Piper trailed by enchanted tech bros — you might swear h... [8586 chars]",
@@ -161,91 +317,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1791265262094_c63d8acd",
-      "title": "为防范 AI 深度伪造，意大利总理梅洛尼申请将自己的声音注册为商标",
-      "summary": "IT之家 10 月 6 日消息，据路透社报道，公开档案显示，意大利总理焦尔吉娅 · 梅洛尼已经向欧盟知识产权局（EUIPO）提交申请，希望将自己的声音注册成为商标，以此防范由 AI 生成的深度伪造内容。",
-      "content": "IT之家 10 月 6 日消息，据路透社报道，公开档案显示，意大利总理焦尔吉娅 · 梅洛尼已经向欧盟知识产权局（EUIPO）提交申请，希望将自己的声音注册成为商标，以此防范由 AI 生成的深度伪造内容。 图源：梅洛尼 X 账号 欧盟知识产权局网站上这份申请的日期为 10 月 5 日，梅洛尼办公室也证实了该申请。申请材料当中附带一段时长 4 秒的录音，录音里她用意大利语重复说了两遍：“我是焦尔吉娅 · 梅洛尼。” “Io sono Giorgia（我是焦尔吉娅）”正是她 2021 年自传的书名。这句话源自梅洛尼 2019 年在一场政治集会上的著名发言，甚至还曾经被改编成迪斯科舞曲。 近些年来，经过篡改的梅洛尼影像多次在网络上流传，部分还被网友当作真实内容转发。其中就有一张伪造图片，画面当中的她身着内衣坐在床上。 IT之家注意到，梅洛尼曾公开谴责这类伪造内容，认为其目的就是散布虚假信息、针对个人进行攻击；她呼吁网民在转发网络内容之前务必先核实真伪。她也曾表示，自己尚有能力维护自身权益，但很多普通人却做不到。 目前这份提交给欧盟知识产权局的商标申请仍处在审核阶段。 意大利媒体报道称，即便该项声音商标申请最终获准，单凭这一项商标权依旧无法完全阻止他人利用她的语音制作 AI 深度伪造音频。不过它能够给那些试图复刻其嗓音的造假者增设更多法律障碍。 早在 2024 年，梅洛尼就已经对一名撒丁岛男子提起民事诉讼，指控该男子使用她的面部生成并在网上发布深度伪造色情图片。这起案件目前仍在意大利法院审理当中。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/af479a37-67fa-452f-8650-94df8905f8ff.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-10-06T04:58:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/009/979.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791265250038_2d60a305",
-      "title": "重塑苹果设计团队核心地位，特努斯瞄准下一个十年竞争",
-      "summary": "而当设计团队地位被再次拔高，乃至可能成为苹果产品开发起点，那么苹果在AI时代能否复刻iPhone神迹，用全新产品范式开启下一个十年，我们拭目以待。",
-      "content": "而当设计团队地位被再次拔高，乃至可能成为苹果产品开发起点，那么苹果在AI时代能否复刻iPhone神迹，用全新产品范式开启下一个十年，我们拭目以待。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-06T04:31:54.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8159881.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791265250777_69eb9377",
-      "title": "AI 越来越强，公司为什么还是做不快？",
-      "summary": "AI 越来越强，公司为什么还是做不快？",
-      "content": "成果看起来越完整，剩下的工作越容易被误解为拖延。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-06T04:31:52.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8159894.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791265251287_e4a0a01f",
-      "title": "想改造工厂的机器人，先被工厂改造了",
-      "summary": "想改造工厂的机器人，先被工厂改造了",
-      "content": "Figure 02跳进芬兰熔炉，其在宝马工厂产线留下的故障记录却进入了下一代设计。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-06T03:56:44.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8159783.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791398528191_5",
-      "title": "OpenAI is piloting a ‘mission interview’ for candidates",
-      "summary": "The company is currently introducing it as a new pilot program, starting with the marketing and human resources teams, OpenAI told Fortune on Monday. ...",
-      "content": "The company is currently introducing it as a new pilot program, starting with the marketing and human resources teams, OpenAI told Fortune on Monday. The goal is to give job candidates a dedicated space to talk about how they will contribute to OpenA... [1779 chars]",
-      "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2297777301-e1791234048908.jpg?resize=1200,600",
-      "source": "Fortune",
-      "publishedAt": "2026-10-06T00:58:19.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://fortune.com/2026/10/05/openai-piloting-mission-interview-for-job-candidates/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1791310157378_0",
-      "title": "OpenAI is piloting a 'mission interview' for candidates",
-      "summary": "The company is currently introducing it as a new pilot program, starting with the marketing and human resources teams, OpenAI told Fortune on Monday. ...",
-      "content": "The company is currently introducing it as a new pilot program, starting with the marketing and human resources teams, OpenAI told Fortune on Monday. The goal is to give job candidates a dedicated space to talk about how they will contribute to OpenA... [1782 chars]",
-      "imageUrl": "https://fortune.com/img-assets/wp-content/uploads/2026/10/GettyImages-2297777301-e1791234048908.jpg?resize=1200,600",
-      "source": "Fortune",
-      "publishedAt": "2026-10-06T00:58:19.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://fortune.com/2026/10/05/openai-piloting-mission-interview-for-job-candidates/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1791398528190_6",
-      "title": "OpenAI's Sam Altman says AI benefits justify accepting some risks",
-      "summary": "OpenAI CEO Sam Altman said in an interview on Sunday that the benefits of artificial intelligence (AI) are enough to justify accepting some risks and ...",
-      "content": "OpenAI CEO Sam Altman said in an interview on Sunday that the benefits of artificial intelligence (AI) are enough to justify accepting some risks and suggesting that the public should continue to have broad access to the emerging technology.\n\"We beli... [2778 chars]",
-      "imageUrl": "https://a57.foxnews.com/static.foxbusiness.com/foxbusiness.com/content/uploads/2026/07/0/0/sam-altman-openai-cyber-incident.jpg?ve=1&tl=1",
-      "source": "Fox Business",
-      "publishedAt": "2026-10-05T19:34:25.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.foxbusiness.com/technology/openais-sam-altman-says-ai-benefits-justify-accepting-some-risks",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1791398547034_40ac9478",
+      "id": "news_1791436926799_40ac9478",
       "title": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
       "summary": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
       "content": "DataAgent - 快手大数据生产与分析的智能化探索之路｜QCon上海",
