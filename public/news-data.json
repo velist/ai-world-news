@@ -1,20 +1,68 @@
 {
   "success": true,
-  "timestamp": "2026-10-08T18:42:37Z",
-  "total": 16,
+  "timestamp": "2026-10-09T05:27:22Z",
+  "total": 18,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1791484845859_d0502c5f",
-      "title": "谷歌借助 AI 与差分模糊测试将 C 语言依赖库改写为 Rust",
-      "summary": "谷歌借助 AI 与差分模糊测试将 C 语言依赖库改写为 Rust",
-      "content": "谷歌借助 AI 与差分模糊测试将 C 语言依赖库改写为 Rust",
+      "id": "news_1791523531861_f6906b6e",
+      "title": "从 Demo 到生产：AI Agent 缺的到底是什么？",
+      "summary": "从 Demo 到生产：AI Agent 缺的到底是什么？",
+      "content": "从 Demo 到生产：AI Agent 缺的到底是什么？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-08T17:12:00.000Z",
+      "publishedAt": "2026-10-09T11:13:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/PLEWse6sEviMN99iLE93?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791523532365_83bd363d",
+      "title": "Kimi 现代高速开源治理的 AI Native 实践｜QCon上海",
+      "summary": "Kimi 现代高速开源治理的 AI Native 实践｜QCon上海",
+      "content": "Kimi 现代高速开源治理的 AI Native 实践｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-09T10:00:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/LVsjSV4pIlh3Liz0KZZE?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/832RV3o8ireEdJpO9H4v?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791523540929_a3713f84",
+      "title": "JetBrains 编程 AI 模型 Mellum2.1 发布：高负载推理吞吐量近 Qwen3.5-9B 两倍",
+      "summary": "IT之家 10 月 9 日消息，JetBrains 昨日（10 月 8 日）发布博文，宣布上线 Mellum2.1 模型，重点增强智能体编程能力。该模型延续 Mellum2 的 12B 混合专家架构，拥有 2.5B 活跃参数，并继续采用 Apache 2.0 许可证发布。",
+      "content": "IT之家 10 月 9 日消息，JetBrains 昨日（10 月 8 日）发布博文，宣布上线 Mellum2.1 模型，重点增强智能体编程能力。该模型延续 Mellum2 的 12B 混合专家架构，拥有 2.5B 活跃参数，并继续采用 Apache 2.0 许可证发布。 Mellum2.1 主要升级预训练后的强化学习阶段，从短期收尾环节扩展为训练主体，并在数学、算法竞赛、科学、工具使用和软件工程等任务中补充训练数据。 JetBrains 为该模型搭建了内部强化学习环境基础设施，在训练期间启动数百万个沙盒，覆盖数千个环境。此外在训练前，团队还筛选了开放数据集，剔除测试缺陷、不可验证答案及难度失当的任务。 升级后，Mellum2.1 可探索代码库、编辑文件并检查自身修改。JetBrains 称，其最大改进出现在智能体编程领域，模型可识别失败测试的根因，起草修复方案并验证结果。 在性能方面，Mellum2.1 与 Mellum2 架构一致，速度保持不变，多 Token 预测（MTP）进一步提升响应速度。单请求场景下，MTP 使其速度提高约 1.6 倍。 JetBrains 将 Mellum2.1 与 Mellum2、Qwen3.5-9B 及 Gemma 4 E4B 在相同评估设置下比较。结果显示，高负载时 Mellum2.1 的推理吞吐 Token 数量接近 Qwen3.5-9B 的两倍，并在编程、算法竞赛、数学、工具调用和通用知识等维度均有提升。IT之家附上相关截图如下： Mellum2.1 现已登陆 Hugging Face，支持本地或自有基础设施部署，让企业可将代码和数据保留在自身环境中。官方后续还将会推出面向 llama.cpp、Ollama 和 LM Studio 的 GGUF 版本，以及 vLLM 的 MTP 推测解码组件。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/724a5933-1a60-4e82-ad4e-2162fb72bacf.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-10-09T04:59:08.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/1/010/905.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791523541060_ffc80391",
+      "title": "苦 Adobe 高价订阅久矣？四人团队借 AI 开发免费开源“平替”ArtCraft 套件",
+      "summary": "IT之家 10 月 9 日消息，多年来，无论是插画师、摄影师，还是设计师和视频剪辑师，都很难摆脱 Adobe 的控制。 Adobe 旗下的 Creative Suite 软件套装长期因订阅费用高昂而饱受诟病。在后来更名为 Creative Cloud 的过程中，软件也失去了真正的离线使用能力。",
+      "content": "IT之家 10 月 9 日消息，多年来，无论是插画师、摄影师，还是设计师和视频剪辑师，都很难摆脱 Adobe 的控制。 Adobe 旗下的 Creative Suite 软件套装长期因订阅费用高昂而饱受诟病。在后来更名为 Creative Cloud 的过程中，软件也失去了真正的离线使用能力。高昂的订阅费和对软件的依赖，让艺术家及其他创意工作者长期难以摆脱 Adobe。 尽管不少企业曾试图挑战 Adobe，但始终难以撼动 Creative Cloud 的市场地位。当地时间 8 日，据外媒 Futurism 报道，改变局面的，是美国佐治亚州亚特兰大的一个四人团队：借助 AI 生成代码，开发出一套 Adobe 软件的替代产品 ArtCraft。 这套产品免费且开源，旗下多款应用与 Adobe 的经典编辑软件十分相似。其中，PhotoCraft 对标 Photoshop，号称“一款你早就知道怎么用的开源图像编辑器”；LightCraft 则希望取代摄影师常用的专业照片处理软件 Lightroom，主打“无需注册账户、无需云服务、不收集遥测数据、无需订阅”。 据IT之家了解，ArtCraft 的目标并不复杂：通过逆向工程重新开发 Adobe 的各类软件，保留相近的功能，同时去掉用户不喜欢的部分：不再需要云端联网功能，也不用每个月支付高昂的订阅费。 ArtCraft 旗下所有应用仍在开发，部分尚处早期 Alpha 测试阶段。 ArtCraft 主要依靠 AI 生成代码的开发方式，也引起了一些人的担忧。一名 Reddit 用户在“FuckAdobe”版块评论称，ArtCraft 的成果确实令人印象深刻，AI 也让快速开发原型容易了许多，但原型做得快，不代表最终产品就足够成熟、稳定。 也有不少人根本不在乎软件是怎么开发出来的，只想早日告别 Adobe。 另一篇 Reddit 帖子的评论区里，一名网友写道：“简单试了一下，简直太棒了。”另一名网友则抱怨：“早就该彻底告别 Adobe 了。”",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/61889eeb-3a0f-4166-8911-d10331b7de62.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-10-09T03:45:21.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.ithome.com/1/010/856.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791523520133_0",
+      "title": "ChatGPT Adds GPT-6 For Everyone, Featuring Dynamic Maps And Diagrams",
+      "summary": "OpenAI has officially expanded access to its flagship GPT-6 model , rolling out the next-generation artificial intelligence system to all ChatGPT tier...",
+      "content": "OpenAI has officially expanded access to its flagship GPT-6 model, rolling out the next-generation artificial intelligence system to all ChatGPT tiers, including members on the Free and Go plans. Initially introduced last month exclusively for paying... [1600 chars]",
+      "imageUrl": "https://i0.wp.com/cdnbunny.ubergizmo.com/wp-content/uploads/2026/09/chatgpt-scaled.jpg",
+      "source": "Ubergizmo",
+      "publishedAt": "2026-10-08T15:00:37.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ubergizmo.com/2026/10/chatgpt-adds-gpt-6-for-everyone-featuring-dynamic-maps-and-diagrams/",
+      "aiInsight": ""
     },
     {
       "id": "news_1791484846551_1288edf5",
@@ -27,6 +75,54 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/3MSU3CcJuh0XjHDyjhXj?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791523534148_94769e40",
+      "title": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
+      "summary": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
+      "content": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-08T11:43:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/s2Rt9t0yqUFk6VYV33Mh?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791523534595_abfd920c",
+      "title": "AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
+      "summary": "AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
+      "content": "AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-08T11:08:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/aJ7cgaNqf4pXVtbbtYiv?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791523535121_caecf790",
+      "title": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
+      "summary": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
+      "content": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-08T10:35:29.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/0wk4G4cZwbHgYdeNoQPV?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791523519961_1",
+      "title": "Andrew Garfield 'Got a Bit Scared' of ChatGPT After Playing Sam Altman",
+      "summary": "Portraying OpenAI CEO Sam Altman in the upcoming film \"Artificial\" didn't make Andrew Garfield an AI enthusiast.\nIn fact, Garfield said it had the opp...",
+      "content": "Portraying OpenAI CEO Sam Altman in the upcoming film \"Artificial\" didn't make Andrew Garfield an AI enthusiast.\nIn fact, Garfield said it had the opposite effect during an interview with Variety published on Tuesday.\n\"I got a bit scared. I felt a li... [1854 chars]",
+      "imageUrl": "https://i.insider.com/6ac6533b1ba1ce8fa8f283bf?width=1200&format=jpeg",
+      "source": "Business Insider",
+      "publishedAt": "2026-10-08T09:47:01.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.businessinsider.com/andrew-garfield-scared-chat-gpt-ai-playing-sam-altman-artificial-2026-10",
+      "aiInsight": ""
     },
     {
       "id": "news_1791436918647_ce91118d",
@@ -113,7 +209,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791484835905_0",
+      "id": "news_1791523520564_2",
       "title": "Penn State Announces New Artificial Intelligence Grants For Faculty",
       "summary": "Penn State faculty can now apply for two grants from the AI Center of Excellence for Teaching and Learning designed to support integrating artificial ...",
       "content": "Penn State faculty can now apply for two grants from the AI Center of Excellence for Teaching and Learning designed to support integrating artificial intelligence into teaching and learning, the university announced on September 30.\nThe AI in Institu... [1557 chars]",
@@ -122,78 +218,6 @@
       "publishedAt": "2026-10-07T08:09:19.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.europesays.com/3295460/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1791484835626_1",
-      "title": "Report: Voters Use ChatGPT and Other Chatbots for Midterm Ballot Research, Raising Bias and Privacy Concerns",
-      "summary": "Forty-year-old Adam Johnson sat on his porch in Morgantown, West Virginia one September evening and worked through his midterm ballot with ChatGPT, an...",
-      "content": "Forty-year-old Adam Johnson sat on his porch in Morgantown, West Virginia one September evening and worked through his midterm ballot with ChatGPT, an artificial intelligence (AI) chatbot owned by OpenAI, according to an NPR report published Monday, ... [6928 chars]",
-      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/10/ai-chatbots-midterm-elections-voter-research-4788-943a8d9d-original.jpg",
-      "source": "Natural News",
-      "publishedAt": "2026-10-07T05:10:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.naturalnews.com/2026-10-07-report-voters-use-chatbots-midterm-ballot-research.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1791349896158_99fc96c6",
-      "title": "半年净利暴增96%，重回中国台湾首富宝座，郭台铭靠AI赚翻了",
-      "summary": "半年净利暴增96%，重回中国台湾首富宝座，郭台铭靠AI赚翻了",
-      "content": "郭台铭靠 AI重回中国台湾首富之位 。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-07T04:36:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8148632.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791349897113_99422a84",
-      "title": "网球机器人火了，但好生意要从“有效付费小时”算起",
-      "summary": "网球人口增长、陪练稀缺、资本加码，网球机器人迎来机会。但出货量只能证明有人买，有效付费小时才检验生意能否持续。",
-      "content": "网球人口增长、陪练稀缺、资本加码，网球机器人迎来机会。但出货量只能证明有人买，有效付费小时才检验生意能否持续。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-07T04:35:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8160190.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791349897595_8f6db31a",
-      "title": "Claude、GPT“跨界”做视频，Seedance们的护城河还牢吗？",
-      "summary": "未来的胜负手，不在于谁的参数更高，而在于谁能更深地融入真实的创作生产流程，成为创作者离不开的生产工具。...",
-      "content": "未来的胜负手，不在于谁的参数更高，而在于谁能更深地融入真实的创作生产流程，成为创作者离不开的生产工具。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-07T04:35:32.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8160182.html",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791349898882_dee7623b",
-      "title": "好产品也会丢单，Palantir 旧访谈翻红：企业级 AI 订单，拼的不只是模型",
-      "summary": "好产品也会丢单，Palantir 旧访谈翻红：企业级 AI 订单，拼的不只是模型",
-      "content": "人们对一件事的认知，有时比客观情况更能左右决策。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-07T02:54:38.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8160164.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791484834903_2",
-      "title": "Artificial Roasts AI’s Creators—and Sends a Dark Warning About Its Dangers",
-      "summary": "Artificial, the new comedy-drama about OpenAI and the artificial intelligence arms race, is a movie of weird walks.\nAs OpenAI cofounder Ilya Sutskever...",
-      "content": "Artificial, the new comedy-drama about OpenAI and the artificial intelligence arms race, is a movie of weird walks.\nAs OpenAI cofounder Ilya Sutskever, Russian actor Yuri Borisov clomps around, like a geeky Frankensteinian monster. As the controversi... [6647 chars]",
-      "imageUrl": "https://media.wired.com/photos/6abeb0c6be4bdb85e3b4d7e4/191:100/w_1280,c_limit/Artificial-NYFF-Screening-Culture.jpg",
-      "source": "WIRED",
-      "publishedAt": "2026-10-06T18:45:39.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.wired.com/story/artificial-roasts-ais-creators-and-sends-a-dark-warning-about-its-dangers/",
       "aiInsight": ""
     }
   ]
