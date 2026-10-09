@@ -1,31 +1,115 @@
 {
   "success": true,
-  "timestamp": "2026-10-09T05:27:22Z",
-  "total": 18,
+  "timestamp": "2026-10-09T18:12:51Z",
+  "total": 22,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1791523531861_f6906b6e",
-      "title": "从 Demo 到生产：AI Agent 缺的到底是什么？",
-      "summary": "从 Demo 到生产：AI Agent 缺的到底是什么？",
-      "content": "从 Demo 到生产：AI Agent 缺的到底是什么？",
+      "id": "news_1791569463043_4d8fd4ab",
+      "title": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
+      "summary": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧...",
+      "content": "Codex 和 Claude Code 都跑偏了，前 OpenAI 研究员称 Jev 出现前 AI 世界是个悲剧",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-09T11:13:00.000Z",
+      "publishedAt": "2026-10-09T17:39:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/e0iQfJNgepz7VigRdD61?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791569463620_2d964b1f",
+      "title": "OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的",
+      "summary": "OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的",
+      "content": "OpenAI 高管亲述：我们是怎么在一周内做出 Jev 竞品的",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-09T17:24:31.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/IRqoPz4cNONlNFBolD9V?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791569464108_9ff1563e",
+      "title": "@ 一下就能派活？谷歌推出办公 Agent，拥有独立账号、能够创建子 Agent，还能调用 Claude",
+      "summary": "@ 一下就能派活？谷歌推出办公 Agent，拥有独立账号、能够创建子 Agent，还能调用 Claude...",
+      "content": "@ 一下就能派活？谷歌推出办公 Agent，拥有独立账号、能够创建子 Agent，还能调用 Claude",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-09T17:15:07.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/PLEWse6sEviMN99iLE93?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/490gIS9Bk0NmylN7GIt1?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791523532365_83bd363d",
-      "title": "Kimi 现代高速开源治理的 AI Native 实践｜QCon上海",
-      "summary": "Kimi 现代高速开源治理的 AI Native 实践｜QCon上海",
-      "content": "Kimi 现代高速开源治理的 AI Native 实践｜QCon上海",
+      "id": "news_1791569464608_878bdb39",
+      "title": "AI 落地，此刻发生 ｜1024 模力工场 AI 社区日，首批报名开启",
+      "summary": "AI 落地，此刻发生 ｜1024 模力工场 AI 社区日，首批报名开启",
+      "content": "AI 落地，此刻发生 ｜1024 模力工场 AI 社区日，首批报名开启",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-09T10:00:00.000Z",
+      "publishedAt": "2026-10-09T16:59:33.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/832RV3o8ireEdJpO9H4v?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/RicHewwNF5jacSMQNy6O?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791569470363_7d399ac1",
+      "title": "小米发布 MiMo-V2.5-Pro 模型下线通知，可替换为 V2.6 版本",
+      "summary": "IT之家 10 月 9 日消息，小米今日发布 MiMo-V2.5-Pro、MiMo-V2.5 模型下线通知。随着 MiMo V2.6 系列全面上线并稳定运行，建议尽快迁移至推理能力更强、性价比更高的新模型。",
+      "content": "IT之家 10 月 9 日消息，小米今日发布 MiMo-V2.5-Pro、MiMo-V2.5 模型下线通知。随着 MiMo V2.6 系列全面上线并稳定运行，建议尽快迁移至推理能力更强、性价比更高的新模型。 下线模型及系统替换模型： mimo-v2.5-pro → 替换为 mimo-v2.6-pro mimo-v2.5 → 替换为 mimo-v2.6-flash 下线时间安排： 2026 年 10 月 14 日 18:00（UTC+8）：待下线模型自动切换为新版本模型，调用 MiMo-V2.5-Pro、MiMo-V2.5 的请求将自动转发至对应的 V2.6 模型，并按照新版模型计价。 2026 年 10 月 21 日 10:00（UTC+8）：旧模型下线，旧版本模型名称失效，调用旧版本模型名称的请求将会收到报错，务必在此之前，完成模型替换并充分测试验证。 IT之家注意到，小米 9 月 22 日凌晨正式发布并开源了全新的 Xiaomi MiMo-V2.6 系列，包含 Pro 与 Flash 两个原生全模态模型。 MiMo-V2.6 系列沿用 V2.5 系列的 API 定价：Flash 为每百万词元输入 1 元、每百万输出 2 元；Pro 为 3 元和 6 元，并提供 99% 缓存折扣。在同等智能水平下，价格仅为海外模型的 1/20 至 1/60。 相关阅读： 《小米 MiMo-V2.6 发布：Pro 与 Flash 双版本价格不变，超越 Kimi K3、GLM-5.3 成为当前 AA 指数排名最高的开源模型》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/40c862e8-ae31-48ac-9ef4-e710c21b5fb7.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-10-09T14:48:35.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/1/011/146.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791569465059_7f25a47f",
+      "title": "全球最大独立 AI 原生影视公司，开始打破工具与制片厂的边界",
+      "summary": "全球最大独立 AI 原生影视公司，开始打破工具与制片厂的边界",
+      "content": "全球最大独立 AI 原生影视公司，开始打破工具与制片厂的边界",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-09T14:03:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/ZxZMY50COGlUNHLSAEUo?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791569457181_da702ccd",
+      "title": "Robotaxi Races Shift From Tech Specs to Partnerships",
+      "summary": "In 2026 the leading Robotaxi operators are no longer competing mainly on test miles or demonstration flash. Policy openings, cheaper sensors and stron...",
+      "content": "In 2026 the leading Robotaxi operators are no longer competing mainly on test miles or demonstration flash. Policy openings, cheaper sensors and stronger models have turned pure technical lead into an entry ticket. The new contest is over who can assemble manufacturing, operations and demand into a working business.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-09T10:28:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8163126.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791569458997_c0c23c0b",
+      "title": "AI平均3小时完成一个数学证明，科研进入大通胀时代？",
+      "summary": "AI平均3小时完成一个数学证明，科研进入大通胀时代？",
+      "content": "数学的潘多拉魔盒打开了。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-09T10:18:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8162938.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791569459506_55808456",
+      "title": "暴跌20%、苹果也崩盘，AI越火PC日子越难过",
+      "summary": "暴跌20%、苹果也崩盘，AI越火PC日子越难过",
+      "content": "连苹果都扛不住AI的反噬，",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-09T10:08:30.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8162940.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -53,7 +137,31 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791523520133_0",
+      "id": "news_1791569448610_0",
+      "title": "What’s likely to move the market",
+      "summary": "Stocks @ Night is a daily newsletter delivered after hours, giving you a first look at tomorrow and last look at today. Sign up for free to receive it...",
+      "content": "Stocks @ Night is a daily newsletter delivered after hours, giving you a first look at tomorrow and last look at today. Sign up for free to receive it directly in your inbox. Here's what CNBC TV's producers were watching as the artificial intelligenc... [1892 chars]",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108286764-1775145809651-gettyimages-2265481115-260307_lax_183.jpeg?v=1791503247&w=1920&h=1080",
+      "source": "CNBC",
+      "publishedAt": "2026-10-08T23:47:52.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.cnbc.com/2026/10/08/fridays-big-stock-stories-whats-likely-to-move-the-market.html",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1791569466457_d0502c5f",
+      "title": "谷歌借助 AI 与差分模糊测试将 C 语言依赖库改写为 Rust",
+      "summary": "谷歌借助 AI 与差分模糊测试将 C 语言依赖库改写为 Rust",
+      "content": "谷歌借助 AI 与差分模糊测试将 C 语言依赖库改写为 Rust",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-08T17:12:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/LVsjSV4pIlh3Liz0KZZE?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791569448538_1",
       "title": "ChatGPT Adds GPT-6 For Everyone, Featuring Dynamic Maps And Diagrams",
       "summary": "OpenAI has officially expanded access to its flagship GPT-6 model , rolling out the next-generation artificial intelligence system to all ChatGPT tier...",
       "content": "OpenAI has officially expanded access to its flagship GPT-6 model, rolling out the next-generation artificial intelligence system to all ChatGPT tiers, including members on the Free and Go plans. Initially introduced last month exclusively for paying... [1600 chars]",
@@ -77,43 +185,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791523534148_94769e40",
-      "title": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
-      "summary": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
-      "content": "苹果筑起的权限高墙，被 Meta AI 助手“借道”绕过",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-08T11:43:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/s2Rt9t0yqUFk6VYV33Mh?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791523534595_abfd920c",
-      "title": "AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
-      "summary": "AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
-      "content": "AICon 北京 2026 议题征集启动：寻找把 AI 做进真实生产的人",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-08T11:08:38.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/aJ7cgaNqf4pXVtbbtYiv?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791523535121_caecf790",
-      "title": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
-      "summary": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
-      "content": "海外开源模型重新提速：“美版 DeepSeek”第一次交卷，Mistral同时亮牌",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-08T10:35:29.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/0wk4G4cZwbHgYdeNoQPV?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791523519961_1",
+      "id": "news_1791569448048_2",
       "title": "Andrew Garfield 'Got a Bit Scared' of ChatGPT After Playing Sam Altman",
       "summary": "Portraying OpenAI CEO Sam Altman in the upcoming film \"Artificial\" didn't make Andrew Garfield an AI enthusiast.\nIn fact, Garfield said it had the opp...",
       "content": "Portraying OpenAI CEO Sam Altman in the upcoming film \"Artificial\" didn't make Andrew Garfield an AI enthusiast.\nIn fact, Garfield said it had the opposite effect during an interview with Variety published on Tuesday.\n\"I got a bit scared. I felt a li... [1854 chars]",
@@ -195,30 +267,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8160689.html",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791398539807_61289384",
-      "title": "谁在捧杀Utopai X？",
-      "summary": "谁在捧杀Utopai X？",
-      "content": "把一个后训练模型吹成原生独立AI模型，是一场巨大的公关灾难。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-07T09:42:07.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8160338.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791523520564_2",
-      "title": "Penn State Announces New Artificial Intelligence Grants For Faculty",
-      "summary": "Penn State faculty can now apply for two grants from the AI Center of Excellence for Teaching and Learning designed to support integrating artificial ...",
-      "content": "Penn State faculty can now apply for two grants from the AI Center of Excellence for Teaching and Learning designed to support integrating artificial intelligence into teaching and learning, the university announced on September 30.\nThe AI in Institu... [1557 chars]",
-      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/10/1791360562-768x512.jpeg",
-      "source": "EUROPE SAYS",
-      "publishedAt": "2026-10-07T08:09:19.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.europesays.com/3295460/",
-      "aiInsight": ""
     }
   ]
 }
