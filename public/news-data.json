@@ -1,20 +1,92 @@
 {
   "success": true,
-  "timestamp": "2026-10-10T17:12:37Z",
-  "total": 30,
+  "timestamp": "2026-10-11T05:00:33Z",
+  "total": 29,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1791652252328_0569efd3",
-      "title": "模型开放之后，AI能力为什么仍难以复用？",
-      "summary": "模型开放之后，AI能力为什么仍难以复用？",
-      "content": "模型开放之后，AI能力为什么仍难以复用？",
+      "id": "news_1791694725588_31361186",
+      "title": "利用 AI 代码智能体优化软件架构的五种方法",
+      "summary": "利用 AI 代码智能体优化软件架构的五种方法",
+      "content": "利用 AI 代码智能体优化软件架构的五种方法",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-10T17:10:50.000Z",
+      "publishedAt": "2026-10-11T10:04:31.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/soRObi5sjdTTUM95zLJK?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791694726307_4fa4284e",
+      "title": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+      "summary": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+      "content": "AI 时代的移动端稳定性保障 —— 柯南 AI Agent 实践｜QCon上海",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-11T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/FTtTLqvzJeMiE03IowFP?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791694720184_d9d5b8a8",
+      "title": "请来Claude老祖，谷歌能借Agent翻身吗？",
+      "summary": "请来Claude老祖，谷歌能借Agent翻身吗？",
+      "content": "agent底座之争，OpenAI又被针对了。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-11T04:50:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8164268.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791694720700_3576ea9c",
+      "title": "抱歉，AI眼镜目前仍是个“鸡肋”",
+      "summary": "AI眼镜出货量高速增长，却仍未找到不可替代的核心价值。从硬件、交互到隐私，真正决定其未来的，不是能做多少事，而是什么事情必须由眼镜来做。",
+      "content": "AI眼镜出货量高速增长，却仍未找到不可替代的核心价值。从硬件、交互到隐私，真正决定其未来的，不是能做多少事，而是什么事情必须由眼镜来做。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-11T04:44:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/rKRPT18fGxtjipPAeaLa?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8164235.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791694721347_f17749aa",
+      "title": "Manus被AI大厂重新定价",
+      "summary": "Manus被AI大厂重新定价",
+      "content": "Meta退单后，Manus的身价还涨了？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-11T04:38:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8164195.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791694735394_83638844",
+      "title": "国家安全部揭秘为何接陌生来电先沉默三秒，称数秒语音样本可能被不法分子用于 AI 声纹克隆",
+      "summary": "IT之家 10 月 11 日消息，近期，一条“接到陌生来电先沉默三秒”的提醒在社交平台刷屏。据国家安全部披露，不法分子在接通受害者电话后，可能刻意保持沉默，诱使受害者回应。短短数秒的语音样本，就可能被不法分子用于 AI 声纹克隆，进而冒充身份实施诈骗等违法犯罪行为。",
+      "content": "IT之家 10 月 11 日消息，近期，一条“接到陌生来电先沉默三秒”的提醒在社交平台刷屏。据国家安全部披露，不法分子在接通受害者电话后，可能刻意保持沉默，诱使受害者回应。短短数秒的语音样本，就可能被不法分子用于 AI 声纹克隆，进而冒充身份实施诈骗等违法犯罪行为。 国家安全部提到，从声纹到人脸，从虹膜到步态，AI 技术正在把最难以更改的生物特征，变成可以被采集、复制、加工利用的数据。个人信息安全面临的已不再是简单的泄露风险，而是新型的深度威胁。 过度采集，无感窃取信息。AI 依托强大的图像和语音解析能力，可从网络公开素材中批量提取标准化生物特征。部分不法 App 或平台会以“刷脸”验证等名义，过度采集、无感抓拍用户面部与声纹数据。 深度伪造，滋生新型犯罪。在 AI 时代，一张照片加几秒语音，就能克隆出以假乱真的“数字分身”。从“熟人”视频借钱到网络造谣，深度伪造不再只是技术演示，而是日益成为不法分子滥用的新手段。当眼见不再为“实”、耳听不再为“真”，深度伪造乱象持续冲击网络空间信任，威胁群众财产与信息安全。 信息整合，推断还原隐私。部分研究表明，AI 可依托人脸影像推测部分体态与生理特征，结合步态数据可辅助分析年龄、识别情绪倾向。不法分子若获取相关数据库，可结合基因数据锁定个人身份、推断亲属关系。境外间谍情报机关可能将此作为渗透策反的突破口，精准锁定目标人群，进而实施危害国家安全的活动。 IT之家提醒：最高人民法院明确，非法获取、出售或提供人脸照片、视频等公民个人信息，情节严重的，构成侵犯公民个人信息罪。法律红线不容触碰，违法必被追究责任。大家注意辨别用途、范围、信息保护措施等，谨记“非必要不提供”原则，警惕不法分子设置的各类隐私采集陷阱。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/41226019-12b0-4e81-9d23-f3b641587b1b.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-10-11T03:06:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/1/011/574.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791694712163_0",
+      "title": "A timeline of developments in AI safety since the attack on Hugging Face",
+      "summary": "In one alarming announcement after another, artificial intelligence companies in recent months have shared examples of their technology acting in ways...",
+      "content": "In one alarming announcement after another, artificial intelligence companies in recent months have shared examples of their technology acting in ways that appeared to evade instructions from humans.\nThe episodes have highlighted the vulnerabilities ... [6900 chars]",
+      "imageUrl": "https://bc.gmg.io/image/upload/c_thumb,q_auto,w_700,f_jpg/media/gmg/APVSVWELYZHU5NOXHHX6ZRUOAI.jpg?api_key=clickondetroit_06f87fefb2123598",
+      "source": "WDIV ClickOnDetroit",
+      "publishedAt": "2026-10-10T16:41:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.clickondetroit.com/business/2026/09/30/a-timeline-of-developments-in-ai-safety-since-the-attack-on-hugging-face/",
+      "aiInsight": ""
     },
     {
       "id": "news_1791652245548_fc41a938",
@@ -29,18 +101,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791652252865_85f8bc2e",
-      "title": "Rails 之父 DHH 狂吹 Rust 快 150 倍，被开发者翻代码后群嘲",
-      "summary": "Rails 之父 DHH 狂吹 Rust 快 150 倍，被开发者翻代码后群嘲",
-      "content": "Rails 之父 DHH 狂吹 Rust 快 150 倍，被开发者翻代码后群嘲",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-10T15:24:10.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/jri7etqXIv2dp6RsiSHh?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1791652246132_1a191e49",
       "title": "医疗影像走到分叉口：谁在为「AI读片」买单？",
       "summary": "技术跑到了专家水平，收费规则还停在「不单独计价」。医疗影像AI分两条路，谁先跑通，看谁先找到一个按结果付钱的买方。",
@@ -53,54 +113,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791652253490_1ea32ed0",
-      "title": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
-      "summary": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
-      "content": "CLAUDE.md 还是 AGENTS.md？Anthropic 的答案是：以后都不用",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-10T15:18:57.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/MAo3KoDWm9FGIcKau9AK?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791652253934_f9d302e0",
-      "title": "10 秒视频很惊艳，为什么 AI 做一部短剧还是这么难？",
-      "summary": "10 秒视频很惊艳，为什么 AI 做一部短剧还是这么难？",
-      "content": "10 秒视频很惊艳，为什么 AI 做一部短剧还是这么难？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-10T14:24:52.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/8g9tlaqJFUPrb4oGO00A?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791652254331_34d718de",
-      "title": "Pallas 内核怎么调优？Google 给出的答案是“少信模型，多看寄存器”",
-      "summary": "Pallas 内核怎么调优？Google 给出的答案是“少信模型，多看寄存器”",
-      "content": "Pallas 内核怎么调优？Google 给出的答案是“少信模型，多看寄存器”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-10T14:22:04.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/kVJUKEcbqhpL2qwpp2Eq?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791652254781_20081cb7",
-      "title": "从 Coding 到 Running：AI Native SRE Agent 的工程实践",
-      "summary": "从 Coding 到 Running：AI Native SRE Agent 的工程实践",
-      "content": "从 Coding 到 Running：AI Native SRE Agent 的工程实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-10T14:13:49.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/o9XwsHUvCjL3eHKT7YPU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1791652255192_ea0061eb",
       "title": "比 Astra 还贵！GPT-6.1 Sol 极速版上线，社区吐槽：“500 美元套餐都撑不过一天”",
       "summary": "比 Astra 还贵！GPT-6.1 Sol 极速版上线，社区吐槽：“500 美元套餐都撑不过一天”...",
@@ -111,18 +123,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/soBOt9TSckGlJlBS519y?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791652255613_3156a236",
-      "title": "企业AI 走向生产环境，如何避免新一轮技术锁定",
-      "summary": "企业AI 走向生产环境，如何避免新一轮技术锁定",
-      "content": "企业AI 走向生产环境，如何避免新一轮技术锁定",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-10T13:08:22.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/kPhRafpM3Wr6umvUBPQV?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1791652246595_49eaf821",
@@ -245,7 +245,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791652235566_0",
+      "id": "news_1791694711572_1",
       "title": "Nvidia Stock (NVDA) Struggles After OpenAI Revenue Disclosure",
       "summary": "The stock of chipmaker Nvidia (NVDA) is down 1% a day after artificial intelligence (AI) startup OpenAI disclosed revised revenue figures that have ra...",
       "content": "The stock of chipmaker Nvidia (NVDA) is down 1% a day after artificial intelligence (AI) startup OpenAI disclosed revised revenue figures that have rattled investors. The decline on Oct. 9 comes after NVDA stock dropped 3% in the previous trading ses... [2311 chars]",
@@ -293,7 +293,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791652235475_1",
+      "id": "news_1791694711487_2",
       "title": "I gave Meta’s Muse and OpenAI’s Dots my passwords for a week",
       "summary": "“Let me ask Mark and Sam.”\nFor a week, it was my answer to everything, and my friends and family groaned every time.\nMark and Sam are my assistants—th...",
       "content": "“Let me ask Mark and Sam.”\nFor a week, it was my answer to everything, and my friends and family groaned every time.\nMark and Sam are my assistants—they make grocery lists, organize e-mails, run errands and the like. But no, 22-year-old journalists a... [9634 chars]",
@@ -351,18 +351,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/1/010/905.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791523541060_ffc80391",
-      "title": "苦 Adobe 高价订阅久矣？四人团队借 AI 开发免费开源“平替”ArtCraft 套件",
-      "summary": "IT之家 10 月 9 日消息，多年来，无论是插画师、摄影师，还是设计师和视频剪辑师，都很难摆脱 Adobe 的控制。 Adobe 旗下的 Creative Suite 软件套装长期因订阅费用高昂而饱受诟病。在后来更名为 Creative Cloud 的过程中，软件也失去了真正的离线使用能力。",
-      "content": "IT之家 10 月 9 日消息，多年来，无论是插画师、摄影师，还是设计师和视频剪辑师，都很难摆脱 Adobe 的控制。 Adobe 旗下的 Creative Suite 软件套装长期因订阅费用高昂而饱受诟病。在后来更名为 Creative Cloud 的过程中，软件也失去了真正的离线使用能力。高昂的订阅费和对软件的依赖，让艺术家及其他创意工作者长期难以摆脱 Adobe。 尽管不少企业曾试图挑战 Adobe，但始终难以撼动 Creative Cloud 的市场地位。当地时间 8 日，据外媒 Futurism 报道，改变局面的，是美国佐治亚州亚特兰大的一个四人团队：借助 AI 生成代码，开发出一套 Adobe 软件的替代产品 ArtCraft。 这套产品免费且开源，旗下多款应用与 Adobe 的经典编辑软件十分相似。其中，PhotoCraft 对标 Photoshop，号称“一款你早就知道怎么用的开源图像编辑器”；LightCraft 则希望取代摄影师常用的专业照片处理软件 Lightroom，主打“无需注册账户、无需云服务、不收集遥测数据、无需订阅”。 据IT之家了解，ArtCraft 的目标并不复杂：通过逆向工程重新开发 Adobe 的各类软件，保留相近的功能，同时去掉用户不喜欢的部分：不再需要云端联网功能，也不用每个月支付高昂的订阅费。 ArtCraft 旗下所有应用仍在开发，部分尚处早期 Alpha 测试阶段。 ArtCraft 主要依靠 AI 生成代码的开发方式，也引起了一些人的担忧。一名 Reddit 用户在“FuckAdobe”版块评论称，ArtCraft 的成果确实令人印象深刻，AI 也让快速开发原型容易了许多，但原型做得快，不代表最终产品就足够成熟、稳定。 也有不少人根本不在乎软件是怎么开发出来的，只想早日告别 Adobe。 另一篇 Reddit 帖子的评论区里，一名网友写道：“简单试了一下，简直太棒了。”另一名网友则抱怨：“早就该彻底告别 Adobe 了。”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/61889eeb-3a0f-4166-8911-d10331b7de62.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-10-09T03:45:21.000Z",
-      "category": "AI趣味新闻",
-      "originalUrl": "https://www.ithome.com/1/010/856.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
