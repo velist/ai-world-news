@@ -1,32 +1,56 @@
 {
   "success": true,
-  "timestamp": "2026-10-13T06:14:39Z",
-  "total": 21,
+  "timestamp": "2026-10-13T19:07:52Z",
+  "total": 23,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1791871974230_5443dc93",
-      "title": "20年技术品牌建设都成浮云：编程智能体如何选择其首选工具",
-      "summary": "20年技术品牌建设都成浮云：编程智能体如何选择其首选工具",
-      "content": "20年技术品牌建设都成浮云：编程智能体如何选择其首选工具",
+      "id": "news_1791918361085_4681c25c",
+      "title": "Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕",
+      "summary": "Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕",
+      "content": "Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-13T11:56:10.000Z",
+      "publishedAt": "2026-10-13T18:32:43.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791918361491_b6d06714",
+      "title": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
+      "summary": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
+      "content": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-13T17:41:43.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/MrxaqhrQBMrZTcSGEgL1?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791871974815_88c6ff75",
-      "title": "GitHub新晋顶流REA：当大模型能逆向一切，软件行业还剩什么？",
-      "summary": "GitHub新晋顶流REA：当大模型能逆向一切，软件行业还剩什么？",
-      "content": "GitHub新晋顶流REA：当大模型能逆向一切，软件行业还剩什么？",
+      "id": "news_1791918362114_73344362",
+      "title": "修复漏洞的 PR 刚提交，攻击几分钟后就来了：AI 正在击穿开源安全流程",
+      "summary": "修复漏洞的 PR 刚提交，攻击几分钟后就来了：AI 正在击穿开源安全流程",
+      "content": "修复漏洞的 PR 刚提交，攻击几分钟后就来了：AI 正在击穿开源安全流程",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-13T11:40:05.000Z",
+      "publishedAt": "2026-10-13T17:25:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/BEJ6IXREBoXspGmXRQHj?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/R7OkT6DCUifdCQqAvwtJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791918350459_0",
+      "title": "Meta Releases Muse Wonder AI Model, Claims It Can Equal ChatGPT and Claude",
+      "summary": "Meta Platforms released a new artificial intelligence (AI) model called Muse Wonder on Monday, Oct. 12, saying it matches OpenAI's ChatGPT and Anthrop...",
+      "content": "Meta Platforms released a new artificial intelligence (AI) model called Muse Wonder on Monday, Oct. 12, saying it matches OpenAI's ChatGPT and Anthropic's Claude on coding and financial or legal tasks.\nThe release marks Meta's first frontier model re... [3999 chars]",
+      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/10/meta-muse-wonder-artificial-intelligence-model-chatgpt-5011-1791875960809-020cd152-original.jpg",
+      "source": "Natural News",
+      "publishedAt": "2026-10-13T04:36:46.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.naturalnews.com/2026-10-13-meta-platforms-releases-muse-wonder-ai-model.html",
+      "aiInsight": ""
     },
     {
       "id": "news_1791871967507_73549d08",
@@ -101,7 +125,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791871957125_0",
+      "id": "news_1791918350624_1",
       "title": "Who’s responsible when AI goes rogue - and what happens when users do, too?",
       "summary": "Editor’s Note : This story contains mentions of suicide and sexual abuse. When an artificial intelligence chatbot assists a crime, it’s not always cle...",
       "content": "Editor’s Note: This story contains mentions of suicide and sexual abuse.\nWhen an artificial intelligence chatbot assists a crime, it’s not always clear who should be held responsible.\nIn September, OpenAI reported instances in which autonomous AI age... [7840 chars]",
@@ -245,7 +269,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791871956610_1",
+      "id": "news_1791918350120_2",
       "title": "'Artificial's Ike Barinholtz On His \"Menacing\" Elon Musk Performance",
       "summary": "As Luca Guadagnino explored the rise of AI in Artificial, Ike Barinholtz explored the psyche of Elon Musk with his portrayal of the OpenAI co-founder....",
       "content": "As Luca Guadagnino explored the rise of AI in Artificial, Ike Barinholtz explored the psyche of Elon Musk with his portrayal of the OpenAI co-founder.\nWhile discussing how he got into character as Musk, the actor explained what made his performance “... [948 chars]",
