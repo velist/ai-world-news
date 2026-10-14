@@ -1,47 +1,71 @@
 {
   "success": true,
-  "timestamp": "2026-10-13T19:07:52Z",
-  "total": 23,
+  "timestamp": "2026-10-14T04:16:35Z",
+  "total": 22,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1791918361085_4681c25c",
-      "title": "Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕",
-      "summary": "Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕",
-      "content": "Meta 新模型杀回AI第一梯队，Alexandr Wang 亲述 Muse 7个月翻身内幕",
+      "id": "news_1791951287763_abcbc506",
+      "title": "无问芯穹联合创始人戴国浩博士确认出席QCon上海，分享Agentic Infra 技术探索与实践",
+      "summary": "无问芯穹联合创始人戴国浩博士确认出席QCon上海，分享Agentic Infra 技术探索与实践",
+      "content": "无问芯穹联合创始人戴国浩博士确认出席QCon上海，分享Agentic Infra 技术探索与实践",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-13T18:32:43.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/2QXm6PqYYX57AOxTYyO0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791918361491_b6d06714",
-      "title": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
-      "summary": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
-      "content": "Claude 开始自己写程序管理 Agent 了：Anthropic 披露动态工作流架构",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-13T17:41:43.000Z",
+      "publishedAt": "2026-10-14T10:00:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/8La5gsJVOOF5BvFiLAUF?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/EVQ0s2JRvxZyo9f9gSg6?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791918362114_73344362",
-      "title": "修复漏洞的 PR 刚提交，攻击几分钟后就来了：AI 正在击穿开源安全流程",
-      "summary": "修复漏洞的 PR 刚提交，攻击几分钟后就来了：AI 正在击穿开源安全流程",
-      "content": "修复漏洞的 PR 刚提交，攻击几分钟后就来了：AI 正在击穿开源安全流程",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-13T17:25:00.000Z",
+      "id": "news_1791951294897_3516303d",
+      "title": "Elgato 首款无线麦克风 Wave Go 发布，支持领夹与手持模式",
+      "summary": "IT之家 10 月 14 日消息，CORSAIR（海盗船）旗下内容创作品牌 Elgato 德国当地时间昨日发布了其首款无线麦克风设备 Wave Go。这一产品支持领夹与手持模式，适配多样化的录音场景。",
+      "content": "IT之家 10 月 14 日消息，CORSAIR（海盗船）旗下内容创作品牌 Elgato 德国当地时间昨日发布了其首款无线麦克风设备 Wave Go。这一产品支持领夹与手持模式，适配多样化的录音场景。 Wave Go 套件包括领夹发射器、USB-C 接收器、与发射器配套的智能手柄、2 个磁吸固定点、挡风罩、USB-C 线材和收纳盒。其发射器可搭配磁吸固定点以单独的领夹式使用，也可与智能手柄组成完整的手持麦克风。 Elgato 表示，Wave Go 可提供更接近广播麦克风的音质。其采用电容式拾音头，内置 EQ Shift 音频配置调整功能、自动增益功能，还拥有限幅器和低切滤波器。此外，其 2 种使用模式均针对相应场景进行了优化。 Elgato Wave Go 麦克风建议零售价为 99.99 美元（IT之家注：现汇率约合 670.4 元人民币）。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/b113b20e-8b50-4887-a2bc-9b611d0b8689.png",
+      "source": "IT之家",
+      "publishedAt": "2026-10-14T03:52:31.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/R7OkT6DCUifdCQqAvwtJ?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/1/012/792.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791918350459_0",
+      "id": "news_1791951283356_1b4a7acf",
+      "title": "当二十年老牌行情软件遇上 AI：大智慧的智能化跃迁之路",
+      "summary": "对大智慧而言，这场改造的意义不只是在产品里加了一个 AI 对话框，而是重新定义了金融软件与用户的关系。从提供数据的工具变为理解需求的伙伴。",
+      "content": "对大智慧而言，这场改造的意义不只是在产品里加了一个 AI 对话框，而是重新定义了金融软件与用户的关系。从提供数据的工具变为理解需求的伙伴。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-14T01:47:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8166729.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791951283926_642f129c",
+      "title": "所有App都在塞AI，但用户已经烦了",
+      "summary": "所有App都在塞AI，但用户已经烦了",
+      "content": "Al还没成熟，但所有App都必须上场了。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-14T01:02:43.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8167377.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791951291057_5443dc93",
+      "title": "20年技术品牌建设都成浮云：编程智能体如何选择其首选工具",
+      "summary": "20年技术品牌建设都成浮云：编程智能体如何选择其首选工具",
+      "content": "20年技术品牌建设都成浮云：编程智能体如何选择其首选工具",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-13T11:56:10.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/MrxaqhrQBMrZTcSGEgL1?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1791951271905_0",
       "title": "Meta Releases Muse Wonder AI Model, Claims It Can Equal ChatGPT and Claude",
       "summary": "Meta Platforms released a new artificial intelligence (AI) model called Muse Wonder on Monday, Oct. 12, saying it matches OpenAI's ChatGPT and Anthrop...",
       "content": "Meta Platforms released a new artificial intelligence (AI) model called Muse Wonder on Monday, Oct. 12, saying it matches OpenAI's ChatGPT and Anthropic's Claude on coding and financial or legal tasks.\nThe release marks Meta's first frontier model re... [3999 chars]",
@@ -125,7 +149,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1791918350624_1",
+      "id": "news_1791951272918_1",
       "title": "Who’s responsible when AI goes rogue - and what happens when users do, too?",
       "summary": "Editor’s Note : This story contains mentions of suicide and sexual abuse. When an artificial intelligence chatbot assists a crime, it’s not always cle...",
       "content": "Editor’s Note: This story contains mentions of suicide and sexual abuse.\nWhen an artificial intelligence chatbot assists a crime, it’s not always clear who should be held responsible.\nIn September, OpenAI reported instances in which autonomous AI age... [7840 chars]",
@@ -243,42 +267,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/1/011/850.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791781986774_7e8a6211",
-      "title": "松下与谷歌合作，共同打造家庭安防解决方案",
-      "summary": "IT之家 10 月 12 日消息，Panasonic（松下）当地时间本月 6 日宣布与 Google（谷歌）达成合作协议：双方将结合松下在可视对讲和监控领域的专业技术、谷歌在 GenAI 与云方面的优势共同开发新一代家庭安防解决方案。",
-      "content": "IT之家 10 月 12 日消息，Panasonic（松下）当地时间本月 6 日宣布与 Google（谷歌）达成合作协议：双方将结合松下在可视对讲和监控领域的专业技术、谷歌在 GenAI 与云方面的优势共同开发新一代家庭安防解决方案。 松下在新闻稿中坦诚，日本入室盗窃犯罪近年来手段日益复杂、暴力程度逐步上升，家庭安防需求快速增长。而现有的安防解决方案无法做到有的放矢，为住户带来了不必要的“垃圾”信息处理负担。 松下和谷歌将围绕以下四个主题开展联合开发： 利用基于人工智能的视频分析技术，通过高精度识别可疑行为和异常事件，实现高级异常检测 根据家庭成员构成和生活方式，通过定制化的通知和推荐，优化用户个性化体验 通过云集成实现简单直观的用户体验，从而降低运营负担 通过软件更新和云人工智能的进步带来的功能增强，持续演进，从而创造长期价值",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/4e21e651-e695-42ba-8865-5f9f8bae8f86.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-10-12T03:56:09.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/011/840.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791781975436_eaf982f1",
-      "title": "Chinese Appliance Brands Gain in Europe, But Share Alone Is Fragile",
-      "summary": "Chinese firms dominated exhibitor ranks at IFA Berlin and lifted air-conditioner share in Europe. Much of the jump tracks a severe heat wave and thin ...",
-      "content": "Chinese firms dominated exhibitor ranks at IFA Berlin and lifted air-conditioner share in Europe. Much of the jump tracks a severe heat wave and thin local capacity. Lasting advantage will depend less on export volume than on brands, channels and interoperable systems built on the ground.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-12T03:06:03.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8164986.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1791918350120_2",
-      "title": "'Artificial's Ike Barinholtz On His \"Menacing\" Elon Musk Performance",
-      "summary": "As Luca Guadagnino explored the rise of AI in Artificial, Ike Barinholtz explored the psyche of Elon Musk with his portrayal of the OpenAI co-founder....",
-      "content": "As Luca Guadagnino explored the rise of AI in Artificial, Ike Barinholtz explored the psyche of Elon Musk with his portrayal of the OpenAI co-founder.\nWhile discussing how he got into character as Musk, the actor explained what made his performance “... [948 chars]",
-      "imageUrl": "https://deadline.com/wp-content/uploads/2026/10/Ike-Barinholtz-Elon-Musk-2-shot.jpg?w=1024",
-      "source": "Deadline",
-      "publishedAt": "2026-10-11T22:21:10.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://deadline.com/2026/10/artificial-ike-barinholtz-menacing-elon-musk-performance-1237154451/",
-      "aiInsight": ""
     }
   ]
 }
