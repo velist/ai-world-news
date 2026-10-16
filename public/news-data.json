@@ -1,32 +1,92 @@
 {
   "success": true,
-  "timestamp": "2026-10-16T03:55:55Z",
-  "total": 20,
+  "timestamp": "2026-10-16T16:24:42Z",
+  "total": 25,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1792122848637_9c50e350",
-      "title": "Pizza Bot：开源的后台 AI 智能体收件箱",
-      "summary": "Pizza Bot：开源的后台 AI 智能体收件箱",
-      "content": "Pizza Bot：开源的后台 AI 智能体收件箱",
+      "id": "news_1792167773194_10483ad2",
+      "title": "聚焦 AI 场景落地与 FDE 创新，2026 人工智能产业大会专项活动在济南举行",
+      "summary": "聚焦 AI 场景落地与 FDE 创新，2026 人工智能产业大会专项活动在济南举行",
+      "content": "聚焦 AI 场景落地与 FDE 创新，2026 人工智能产业大会专项活动在济南举行",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-16T11:06:00.000Z",
+      "publishedAt": "2026-10-16T17:45:51.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/1XtKjZ1OCyrYTCmb4Zkb?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792167773956_6243e89e",
+      "title": "AI 生成的代码，怎么才能进得了工程体系？",
+      "summary": "AI 生成的代码，怎么才能进得了工程体系？",
+      "content": "AI 生成的代码，怎么才能进得了工程体系？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-16T16:56:30.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/aMgWFmwZ2HoZDtw1g0MQ?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/8iKz8xNQvxDfeuxH1QLA?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792167774504_66a005b0",
+      "title": "范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”",
+      "summary": "范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”",
+      "content": "范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-16T16:38:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/VZPlIIdGRg062mgwJe5y?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792167775255_ec8b1101",
+      "title": "Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
+      "summary": "Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
+      "content": "Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-16T11:53:14.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/hQOHf1ZXoBs7uMpWJQss?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1792122849231_1b0a6278",
-      "title": "AI 写完代码，谁来验证？手淘 TEKO “写—验—修”自主闭环的工程实践｜QCon上海",
-      "summary": "AI 写完代码，谁来验证？手淘 TEKO “写—验—修”自主闭环的工程实践｜QCon上海",
-      "content": "AI 写完代码，谁来验证？手淘 TEKO “写—验—修”自主闭环的工程实践｜QCon上海",
+      "id": "news_1792167769160_644b8bb8",
+      "title": "Muse能带火国内个人AI智能体吗？",
+      "summary": "Muse能带火国内个人AI智能体吗？",
+      "content": "Muse能带火国内个人AI智能体吗？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-16T10:00:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-16T09:33:28.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/t3XbHewuN37fsodaprUC?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.tmtpost.com/8171318.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792167769604_75168c7f",
+      "title": "硅谷AI杀疯了，DeepSeek们的性价比还剩多少？",
+      "summary": "硅谷AI杀疯了，DeepSeek们的性价比还剩多少？",
+      "content": "硅谷羊毛薅爽了，国产大模型贵得“烧心”？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-16T08:58:45.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8170871.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792167770045_d129fc27",
+      "title": "字节腾讯阿里扎堆个人Agent：谁先跑出中国版Muse？",
+      "summary": "字节腾讯阿里扎堆个人Agent：谁先跑出中国版Muse？",
+      "content": "个人Agent虚火一场？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-16T08:39:55.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8170874.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1792122856347_2eb9de5f",
@@ -65,6 +125,42 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1792167776723_1b0e7cb4",
+      "title": "拍照和翻译救不了AI眼镜？千问2218元起推新硬件，要抢现实世界里的上下文",
+      "summary": "拍照和翻译救不了AI眼镜？千问2218元起推新硬件，要抢现实世界里的上下文",
+      "content": "拍照和翻译救不了AI眼镜？千问2218元起推新硬件，要抢现实世界里的上下文",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-15T23:06:01.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/wMMAbsA4UOtYlAl1fH4T?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792167759906_0",
+      "title": "States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults",
+      "summary": "HARRISBURG, Pa. (AP) — At least eight states are suing artificial intelligence giant OpenAI, saying the company's popular chatbot model violated state...",
+      "content": "HARRISBURG, Pa. (AP) — At least eight states are suing artificial intelligence giant OpenAI, saying the company's popular chatbot model violated state consumer protection laws by hurting children and deceiving adults in what prosecutors described as ... [5243 chars]",
+      "imageUrl": "https://s.hdnux.com/photos/01/67/50/66/31362459/3/rawImage.jpg",
+      "source": "SFGATE",
+      "publishedAt": "2026-10-15T22:26:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.sfgate.com/business/article/states-sue-ai-giant-openai-saying-its-popular-22478787.php",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1792167760615_1",
+      "title": "States sue AI giant OpenAI, saying ChatGPT is hurting children and deceiving adults",
+      "summary": "HARRISBURG, Pa. (AP) — At least eight states are suing artificial intelligence giant OpenAI, saying the company’s popular chatbot model violated state...",
+      "content": "HARRISBURG, Pa. (AP) — At least eight states are suing artificial intelligence giant OpenAI, saying the company’s popular chatbot model violated state consumer protection laws by hurting children and deceiving adults.\nThe company’s chatbot model, Cha... [2508 chars]",
+      "imageUrl": "https://gray-weau-prod.gtv-cdn.com/resizer/v2/5GK2MOHZLZHHRGERTURNE6WYRA.jpg?auth=ead6af567ec454d2825483dffe7e523d971131b1166f4c66d7d24453d7cf9e52&width=1200&height=600&smart=true",
+      "source": "WEAU",
+      "publishedAt": "2026-10-15T21:00:37.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.weau.com/2026/10/15/states-sue-ai-giant-openai-saying-chatgpt-is-hurting-children-deceiving-adults/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1792082587940_9f7ac84e",
       "title": "阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统",
       "summary": "阶跃星辰开放 Step 5 Preview 权重：长程 Agent 的竞争，延伸到上下文管理与训练系统...",
@@ -77,7 +173,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1792122850894_fd780c3a",
+      "id": "news_1792167777644_fd780c3a",
       "title": "蚂蚁百灵开源 560B 模型 Ling-3.0-flash：0.19 美元搞定复杂工作流",
       "summary": "蚂蚁百灵开源 560B 模型 Ling-3.0-flash：0.19 美元搞定复杂工作流",
       "content": "蚂蚁百灵开源 560B 模型 Ling-3.0-flash：0.19 美元搞定复杂工作流",
@@ -87,6 +183,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/SxQO3Aw6JCTgNMTGPPE8?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792167760345_2",
+      "title": "States sue AI giant OpenAI, saying its chatbot hurts children",
+      "summary": "HARRISBURG, Pa. — At least eight states are suing artificial intelligence giant OpenAI, saying the company’s popular chatbot model violated state cons...",
+      "content": "HARRISBURG, Pa. — At least eight states are suing artificial intelligence giant OpenAI, saying the company’s popular chatbot model violated state consumer protection laws by hurting children and deceiving adults.\nThe company’s chatbot model, ChatGPT,... [2503 chars]",
+      "imageUrl": "https://www.chicagotribune.com/wp-content/uploads/2026/10/OpenAI_States_Lawsuit_2_244.jpg?w=2000&h=1333",
+      "source": "Chicago Tribune",
+      "publishedAt": "2026-10-15T18:20:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.chicagotribune.com/2026/10/15/states-lawsuit-openai/",
+      "aiInsight": ""
     },
     {
       "id": "news_1792082603650_8123f6f6",
@@ -111,18 +219,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/1/013/680.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792122831535_0",
-      "title": "States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults",
-      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Virginia Because you are coming from a location (Virginia) covered by a Privacy Law, many of the features of Trib...",
-      "content": "HARRISBURG — At least eight states are suing artificial intelligence giant OpenAI, saying the company’s popular chatbot model violated state consumer protection laws by hurting children and deceiving adults.\nThe company’s chatbot model, ChatGPT, is g... [2498 chars]",
-      "imageUrl": "https://assets-varnish.triblive.com/2026/10/10038442_web1_8200950-190c2c6605b746309afd1afabc0db94e.jpg",
-      "source": "Pittsburgh Tribune-Review",
-      "publishedAt": "2026-10-15T13:19:56.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://triblive.com/news/world/states-sue-ai-giant-openai-saying-its-popular-chatbot-is-hurting-children-and-deceiving-adults/",
-      "aiInsight": ""
     },
     {
       "id": "news_1792082579910_6cf1f193",
@@ -207,42 +303,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8169930.html",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792122832217_2",
-      "title": "'AI godfather' worries we're creating 'alien beings' with artificial intelligence, with pesky moral implications",
-      "summary": "Geoffrey Hinton is a computer scientist known for his foundational work in AI, specifically when it comes to neural networks (ie, approaching machine-...",
-      "content": "Geoffrey Hinton is a computer scientist known for his foundational work in AI, specifically when it comes to neural networks (ie, approaching machine-learning a bit like our fleshy brain-learning). As such, he’s been described as the ‘AI godfather’. ... [4108 chars]",
-      "imageUrl": "https://www.europesays.com/wp-content/uploads/2026/10/1791993101.jpeg",
-      "source": "EUROPE SAYS",
-      "publishedAt": "2026-10-14T15:51:38.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.europesays.com/3310263/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1792122831533_3",
-      "title": "OpenAI Vows Not to Use Trade Secrets Allegedly Taken From Apple",
-      "summary": "OpenAI agreed not to use trade secrets that Apple Inc. claims were stolen by employees who defected from the iPhone maker to the artificial intelligen...",
-      "content": "OpenAI agreed not to use trade secrets that Apple Inc. claims were stolen by employees who defected from the iPhone maker to the artificial intelligence startup while a legal fight between the companies plays out.\nThe ChatGPT maker made the voluntary... [364 chars]",
-      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iitm8hBKh9Ts/v1/1200x800.jpg",
-      "source": "Bloomberg",
-      "publishedAt": "2026-10-14T10:30:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.bloomberg.com/news/articles/2026-10-14/apple-openai-head-to-court-in-high-stakes-ai-trade-secret-fight",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1792122832183_4",
-      "title": "Hidden Recording Device Found in OpenAI Office, Saudi National Arrested",
-      "summary": "OpenAI said Tuesday, Oct. 13, that it discovered a sophisticated recording device hidden inside one of its offices and used its own artificial intelli...",
-      "content": "OpenAI said Tuesday, Oct. 13, that it discovered a sophisticated recording device hidden inside one of its offices and used its own artificial intelligence (AI) models to identify the employee who planted it, according to a company statement posted o... [7473 chars]",
-      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/10/openai-hidden-recording-device-fbi-arrest-5106-455818d9-original.jpg",
-      "source": "Natural News",
-      "publishedAt": "2026-10-14T05:00:32.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.naturalnews.com/2026-10-14-hidden-recording-device-found-in-openai-office.html",
-      "aiInsight": ""
     }
   ]
 }
