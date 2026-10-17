@@ -1,9 +1,21 @@
 {
   "success": true,
-  "timestamp": "2026-10-17T03:45:15Z",
+  "timestamp": "2026-10-17T15:18:51Z",
   "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1792250225648_bc11d1bb",
+      "title": "Akka 在 65 个开源项目中测试基于规格的 AI 交付",
+      "summary": "Akka 在 65 个开源项目中测试基于规格的 AI 交付",
+      "content": "Akka 在 65 个开源项目中测试基于规格的 AI 交付",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-17T15:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/uGNQwpOt5GGAKm2XlEZC?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1792208622129_a6aac60b",
       "title": "The World Is Not a Dataset - Building AI Systems That Continuously Learn from Reality｜QCon上海",
@@ -26,6 +38,54 @@
       "publishedAt": "2026-10-17T10:00:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/AF1qxLVCRls3R6MdWwBh?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792250219708_7d03adaf",
+      "title": "上下文争夺，为何成了办公AI新战场？",
+      "summary": "上下文争夺，为何成了办公AI新战场？",
+      "content": "从内部协作到客户经营，办公AI加速进化",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-17T09:29:19.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8171629.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792250220489_b6f84f2f",
+      "title": "通用大模型正在重做机器人的研发与交付",
+      "summary": "通用大模型正在重做机器人的研发与交付",
+      "content": "VLA没有死，死的是旧分工。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-17T09:29:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8171971.html",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792250221347_c76e8f01",
+      "title": "20多年前革软件命的Salesforce，要被AI革命了？",
+      "summary": "20多年前革软件命的Salesforce，要被AI革命了？",
+      "content": "让出入口，守住业务，用AI交付重建护城河。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-17T09:29:03.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8171970.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792250222143_73f5948a",
+      "title": "我被AI诈骗盯上了",
+      "summary": "我被AI诈骗盯上了",
+      "content": "当诈骗用上AI，照片、声音、视频都不是真的。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-17T05:36:15.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8171813.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -101,28 +161,64 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1792208624975_9c50e350",
-      "title": "Pizza Bot：开源的后台 AI 智能体收件箱",
-      "summary": "Pizza Bot：开源的后台 AI 智能体收件箱",
-      "content": "Pizza Bot：开源的后台 AI 智能体收件箱",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-16T11:06:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/aMgWFmwZ2HoZDtw1g0MQ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1792250208214_0",
+      "title": "OpenAI Poaches Another SpaceX Sales Lead Focused on AI",
+      "summary": "OpenAI has hired SpaceX’s Graham Seamans to lead sales for the firm’s cybersecurity business, the latest in a string of hires from Elon Musk’s artific...",
+      "content": "OpenAI has hired SpaceX’s Graham Seamans to lead sales for the firm’s cybersecurity business, the latest in a string of hires from Elon Musk’s artificial intelligence venture.\nSeamans, who had led xAI’s sales team since August 2025 and was part of th... [334 chars]",
+      "imageUrl": "https://assets.bwbx.io/images/users/iqjWHBFdfxIU/iDKwc8sXvZ4A/v0/1200x800.jpg",
+      "source": "Bloomberg",
+      "publishedAt": "2026-10-16T21:36:22.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.bloomberg.com/news/articles/2026-10-16/openai-poaches-another-spacex-sales-lead-focused-on-ai",
+      "aiInsight": ""
     },
     {
-      "id": "news_1792208625373_1b0a6278",
-      "title": "AI 写完代码，谁来验证？手淘 TEKO “写—验—修”自主闭环的工程实践｜QCon上海",
-      "summary": "AI 写完代码，谁来验证？手淘 TEKO “写—验—修”自主闭环的工程实践｜QCon上海",
-      "content": "AI 写完代码，谁来验证？手淘 TEKO “写—验—修”自主闭环的工程实践｜QCon上海",
+      "id": "news_1792250227369_10483ad2",
+      "title": "聚焦 AI 场景落地与 FDE 创新，2026 人工智能产业大会专项活动在济南举行",
+      "summary": "聚焦 AI 场景落地与 FDE 创新，2026 人工智能产业大会专项活动在济南举行",
+      "content": "聚焦 AI 场景落地与 FDE 创新，2026 人工智能产业大会专项活动在济南举行",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-16T10:00:00.000Z",
+      "publishedAt": "2026-10-16T17:45:51.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/1XtKjZ1OCyrYTCmb4Zkb?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792250227920_6243e89e",
+      "title": "AI 生成的代码，怎么才能进得了工程体系？",
+      "summary": "AI 生成的代码，怎么才能进得了工程体系？",
+      "content": "AI 生成的代码，怎么才能进得了工程体系？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-16T16:56:30.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/t3XbHewuN37fsodaprUC?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/8iKz8xNQvxDfeuxH1QLA?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792250228419_66a005b0",
+      "title": "范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”",
+      "summary": "范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”",
+      "content": "范式智能联合睿思智联推出开源一站式生产级AI部署平台 “模域ModelSphere”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-16T16:38:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/VZPlIIdGRg062mgwJe5y?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792250229103_ec8b1101",
+      "title": "Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
+      "summary": "Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
+      "content": "Pi 抛出全新 Agent Harness，还把自己骂了一年的 MCP 装进了核心",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-16T11:53:14.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/hQOHf1ZXoBs7uMpWJQss?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1792167769160_644b8bb8",
@@ -197,7 +293,19 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1792208593974_0",
+      "id": "news_1792250230712_1b0e7cb4",
+      "title": "拍照和翻译救不了AI眼镜？千问2218元起推新硬件，要抢现实世界里的上下文",
+      "summary": "拍照和翻译救不了AI眼镜？千问2218元起推新硬件，要抢现实世界里的上下文",
+      "content": "拍照和翻译救不了AI眼镜？千问2218元起推新硬件，要抢现实世界里的上下文",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-15T23:06:01.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/wMMAbsA4UOtYlAl1fH4T?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792250209356_1",
       "title": "OpenAI engineer who is charged with planting bug advised Saudis",
       "summary": "Details about Alfozan are emerging after OpenAI disclosed Tuesday that it had discovered a hidden recording device in a conference room in one of its ...",
       "content": "SAN FRANCISCO — The OpenAI engineer who was charged this week with planting a secret recording device at the artificial intelligence company said he helped advise government agencies in Saudi Arabia on technology, and was listed as a partner at a ven... [4787 chars]",
@@ -209,7 +317,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1792208593072_1",
+      "id": "news_1792250208621_2",
       "title": "States sue AI giant OpenAI, saying its popular chatbot is hurting children and deceiving adults",
       "summary": "HARRISBURG, Pa. (AP) — At least eight states are suing artificial intelligence giant OpenAI, saying the company's popular chatbot model violated state...",
       "content": "HARRISBURG, Pa. (AP) — At least eight states are suing artificial intelligence giant OpenAI, saying the company's popular chatbot model violated state consumer protection laws by hurting children and deceiving adults in what prosecutors described as ... [5243 chars]",
@@ -221,7 +329,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1792208593740_2",
+      "id": "news_1792250209229_3",
       "title": "States sue AI giant OpenAI, saying ChatGPT is hurting children and deceiving adults",
       "summary": "HARRISBURG, Pa. (AP) — At least eight states are suing artificial intelligence giant OpenAI, saying the company’s popular chatbot model violated state...",
       "content": "HARRISBURG, Pa. (AP) — At least eight states are suing artificial intelligence giant OpenAI, saying the company’s popular chatbot model violated state consumer protection laws by hurting children and deceiving adults.\nThe company’s chatbot model, Cha... [2508 chars]",
@@ -245,7 +353,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1792208593276_3",
+      "id": "news_1792250208530_4",
       "title": "States sue AI giant OpenAI, saying its chatbot hurts children",
       "summary": "HARRISBURG, Pa. — At least eight states are suing artificial intelligence giant OpenAI, saying the company’s popular chatbot model violated state cons...",
       "content": "HARRISBURG, Pa. — At least eight states are suing artificial intelligence giant OpenAI, saying the company’s popular chatbot model violated state consumer protection laws by hurting children and deceiving adults.\nThe company’s chatbot model, ChatGPT,... [2503 chars]",
@@ -255,114 +363,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.chicagotribune.com/2026/10/15/states-lawsuit-openai/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1792082603650_8123f6f6",
-      "title": "苹果营销主管谈 OpenAI 硬件：我们没感到有威胁，相比追逐 AGI 更重视用户隐私与日常使用体验",
-      "summary": "IT之家 10 月 16 日消息，除了苹果 CEO 约翰・特努斯（John Ternus）之外，《时代》今日还采访到了苹果全球营销高级副总裁格雷格・乔斯维亚克（Greg Joswiak）。 当谈及 OpenAI 的硬件计划时，他表示，苹果并不担心 OpenAI 进军硬件领域带来的竞争。",
-      "content": "IT之家 10 月 16 日消息，除了苹果 CEO 约翰・特努斯（John Ternus）之外，《时代》今日还采访到了苹果全球营销高级副总裁格雷格・乔斯维亚克（Greg Joswiak）。 当谈及 OpenAI 的硬件计划时，他表示，苹果并不担心 OpenAI 进军硬件领域带来的竞争。“我们并未感受到威胁。我们能够实现这样的软硬件整合，这意味着我们可以创造比其他任何人都更好的体验。” 乔斯维亚克还谈到了苹果对人工智能产品的定位。他表示，苹果并不是专门为那些执着于追求超级智能的 AI 爱好者开发产品。“我们欢迎他们使用我们的产品，但他们不是我们的目标用户。我们的目标是让普通人的日常生活变得更好。” 《时代》指出，苹果虽然正在训练自有 AI 模型，但在前沿 AI 技术方面仍与行业领先者存在差距。苹果高管并未将重点放在追逐 AGI 上，而是强调打造个性化、注重隐私且能够帮助普通用户的 AI 体验。 乔斯维亚克将部分狂热 AI 追随者称为“lunatic fringe”（IT之家注：常用来指代少数极端分子、狂热派或少数顽固派），并以此与苹果面向日常用户的产品定位作对比。 苹果长期强调硬件、软件和服务之间的整合能力。乔斯维亚克表示，公司认为，通过整合设备、操作系统和服务，可以提供具有差异化的用户体验。 与此同时，OpenAI 正在探索硬件产品，但其具体产品形态及市场表现仍有待观察。 相关阅读： 《苹果 CEO 特努斯登上〈时代〉周刊封面：谈公司未来 50 年，iPhone Duo 入选 2026 年度“最佳发明”》 《特努斯谈早期折叠屏手机：感觉“有点廉价、质量也不怎么样”，苹果早在 2011 年就开始探索相关技术》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/b6d9359e-3171-453d-9a18-a0b5fc38a998.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-10-15T16:02:39.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/013/683.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792082603700_50966725",
-      "title": "全球首家 AI 眼镜无人自助体验店登陆中国香港，乐奇 Rokid 打造",
-      "summary": "IT之家 10 月 15 日消息，AI+AR 智能眼镜品牌乐奇 Rokid 今日宣布，全球首家 AI 眼镜无人自助体验店于中国香港尖沙咀海港城正式开幕。 这是乐奇 Rokid 首间海外旗舰店，还是 AI 眼镜品类全球首个以“自助体验”为核心的零售空间。",
-      "content": "IT之家 10 月 15 日消息，AI+AR 智能眼镜品牌乐奇 Rokid 今日宣布，全球首家 AI 眼镜无人自助体验店于中国香港尖沙咀海港城正式开幕。 这是乐奇 Rokid 首间海外旗舰店，还是 AI 眼镜品类全球首个以“自助体验”为核心的零售空间。 根据市场调查机构 Counterpoint Research 最新报告，乐奇 Rokid 于 2026 年上半年以 41% 的出货量，居全球 AI 与 AR 眼镜市场首位。 IT之家获悉，乐奇 Rokid 全球首家 AI 眼镜无人自助体验店位于香港海港城海洋中心三楼，店内设八个沉浸式体验专区。 体验店采用全自助模式，不设导购跟随，消费者不受话术压力。每个体验区均配备一块兼具镜子功能的交互屏幕，并与一副乐奇 AI 眼镜（Rokid Glasses）实现能力互通。 该款 AI 眼镜仅重 49 克，集拍摄、提词、翻译、导航、AI 问答等多项核心功能于一身。消费者进店后，可按照交互屏幕指引自主佩戴，并独立完成多项功能体验。 镜片上直接浮现翻译字幕、演讲提词、导航箭头；语音可唤起 AI 助手，第一视角随时拍摄。 乐奇 Rokid 副总裁，国际及港澳台业务负责人邵华强现场表示：消费习惯正在发生巨大变化。新一代消费者希望拥有安静、不受打扰的空间，可以自由探索产品，按照自己节奏去感受，而不是被导购持续跟进。自主沉浸式体验，已经成为新的消费需求。 据其介绍，过去 AI 眼镜最大的瓶颈是认知门槛：消费者没见过、没摸过、不知道怎么用。而乐奇 Rokid 将整个体验流程标准化：屏幕引导、体验动线、机械臂取货。这套操作链路可快速推广至全球商圈，让 AI 眼镜从需要讲解的科技产品，变成人人可自助体验的日常消费品。 体验完成后，可自助购买并通过机械臂取货",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/5742db36-d1a8-4df1-a78e-e93e7b109234.png",
-      "source": "IT之家",
-      "publishedAt": "2026-10-15T15:38:57.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/013/680.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792082579910_6cf1f193",
-      "title": "100万+ 内部GPU+免费午饭，盛大想把“超级个体”弹射上天",
-      "summary": "100万+ 内部GPU+免费午饭，盛大想把“超级个体”弹射上天",
-      "content": "给AI创业者发100万，盛大的算盘是什么？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-15T11:01:36.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8170112.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792082580825_52e5fd93",
-      "title": "OPPO决定 把 AI“外包” 给 Manus",
-      "summary": "OPPO决定 把 AI“外包” 给 Manus",
-      "content": "ColorOS 7.7亿用户，养不出一个原生Agent？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-15T10:22:38.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8168726.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792082581527_59cff001",
-      "title": "“机器人之眼”收入成谜，股东套现7.8亿，奥比中光278倍PE谁在买单？",
-      "summary": "“机器人之眼”收入成谜，股东套现7.8亿，奥比中光278倍PE谁在买单？",
-      "content": "净利降三成，机构定增浮亏24%，奥比中光冲刺港股胜算几何？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-15T10:21:28.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8168985.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792082582236_ce91be16",
-      "title": "AI搞科研，到底在替谁打工？",
-      "summary": "AI 在科研里到底替谁打工？替博士生打工，替教授打工，替药企的现金流打工，也替人类文明里最贵的东西打工——时间。",
-      "content": "AI 在科研里到底替谁打工？替博士生打工，替教授打工，替药企的现金流打工，也替人类文明里最贵的东西打工——时间。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-15T10:21:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8170092.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792082582686_fad4697d",
-      "title": "Agent热潮带火端侧AI，“奇点时刻”还有多远？",
-      "summary": "Agent热潮带火端侧AI，“奇点时刻”还有多远？",
-      "content": "AI从云端向边端转移的背后，是算力的下沉，以及由此带来的行业格局之变。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-15T10:12:11.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8170161.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792082583529_e2108f78",
-      "title": "AI短剧渗透6亿人，长视频平台终于坐不住了",
-      "summary": "AI短剧渗透6亿人，长视频平台终于坐不住了",
-      "content": "长视频平台有哪些AI布局？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-15T10:00:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8170047.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792082584350_703964c4",
-      "title": "腾讯字节阿里，争抢下一个AI入口",
-      "summary": "腾讯字节阿里，争抢下一个AI入口",
-      "content": "腾讯字节阿里，争抢下一个AI入口",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-15T09:32:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8169930.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
