@@ -1,9 +1,69 @@
 {
   "success": true,
-  "timestamp": "2026-10-23T16:47:43Z",
-  "total": 30,
+  "timestamp": "2026-10-24T03:59:28Z",
+  "total": 25,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1792814266622_7fe49063",
+      "title": "英伟达黄仁勋开炮：“AI 毁灭人类”纯属捏造，是博眼球的廉价炒作",
+      "summary": "IT之家 10 月 24 日消息，法新社于 10 月 22 日发布博文，报道称在柏林举行的公司会议上，英伟达首席执行官黄仁勋再度抨击“AI 毁灭人类”言论，认为其是无稽之谈，更多是为了制造头条新闻而进行的“捏造”和“廉价”炒作。",
+      "content": "IT之家 10 月 24 日消息，法新社于 10 月 22 日发布博文，报道称在柏林举行的公司会议上，英伟达首席执行官黄仁勋再度抨击“AI 毁灭人类”言论，认为其是无稽之谈，更多是为了制造头条新闻而进行的“捏造”和“廉价”炒作。 IT之家翻译黄仁勋相关言论内容如下： 当你听到说 AI 将会终结人类文明时，请不要相信这个言论。这些言论靠“捏造”和“廉价”炒作，博得“头条新闻”，但绝非事实。 今年 9 月在接受《纽约时报》采访时，英伟达首席执行官黄仁勋也表达了相同观点，当前行业和民众对 AI 的恐慌情绪已经过头了，并认为当前 AI 不一定会替代职业，但会首先替代任务。 针对某些科学专家认为“AI 会在 10 年内毁灭人类”观点，黄仁勋表示：“他们的所有预测都错了，所谓的 10% 概率既没有科学依据，也没有研究支持…… 这些预测只会伤人。” 黄仁勋呼吁外界以“负责任的乐观态度”看待 AI，表示如果人们关心人类之后的未来与可持续发展，现在正是“构建人工智能”的最佳时机。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-10-24T02:56:44.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/1/017/326.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792814266665_4f16990e",
+      "title": "悉尼一男子告诉 Claude“自己想枪击托儿所”，被警方逮捕",
+      "summary": "IT之家 10 月 24 日消息，澳大利亚悉尼一名男子戴维 · 兰 · 萨克雷向 Anthropic 的聊天机器人 Claude 透露，自己想杀害住所附近一家托儿所的儿童，随后被警方逮捕。",
+      "content": "IT之家 10 月 24 日消息，澳大利亚悉尼一名男子戴维 · 兰 · 萨克雷向 Anthropic 的聊天机器人 Claude 透露，自己想杀害住所附近一家托儿所的儿童，随后被警方逮捕。 据《悉尼先驱晨报》报道，29 岁的萨克雷与 Claude 的对话引起了国际刑警组织注意，随后于当地时间 18 日被警方拘留。警方指控他利用通信服务实施骚扰、恐吓或冒犯行为，涉嫌违反澳大利亚刑法。 检方提交的文件显示，萨克雷曾对 Claude 说：“我现在就想去附近的韦斯特菲尔德购物中心，朝当地的托儿所开枪扫射。” 报道提到，国际刑警组织通过什么途径获取了聊天记录，以及 Anthropic 是否主动向国际刑警组织提供了对话内容，目前均不清楚。 萨克雷不仅谈到了袭击当地托儿所、大规模杀害儿童，还在对话中提到了纳维德 · 阿克拉姆。 IT之家注：阿克拉姆被控于 2025 年 12 月在悉尼邦迪海滩举行的犹太教光明节庆祝活动中发动袭击，造成 15 人死亡，是该案的恐怖袭击嫌疑人。 检察官在法庭上指出：“他就是想像邦迪那名涉嫌实施恐怖袭击的男子一样，在悉尼大开杀戒。通过他与聊天机器人的对话，我们可以了解他究竟在想什么。” 萨克雷的辩护律师则称，当事人只是情绪失控，借聊天机器人发泄不满。律师解释说，萨克雷患有耳部感染，因此感到压力和烦躁，所说的话根本不能当真。 他还强调，萨克雷一直以为自己与 Claude 的对话属于私人交流。据《悉尼先驱晨报》报道，萨克雷将接受心理健康评估。 IT之家获悉，AI 聊天机器人正逐渐成为一些陷入有害妄想、执念或思维紊乱的用户倾诉心事的对象，也由此引发担忧。 已有多起犯罪事件被认为与当事人长期使用聊天机器人存在关联，包括一起杀人后自杀案，以及 2025 年美国佛罗里达州立大学枪击案、今年 2 月的加拿大塔布勒岭校园枪击案等大规模枪击事件。 部分跟踪骚扰者以及存在偏执、过度迷恋等问题的人，也会从随时回应、倾向于顺从用户的 AI 聊天机器人那里获得支持。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/8/1e195bb1-abae-442f-91b7-513513573f36.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-10-24T02:54:58.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/1/017/325.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792814252927_66ecfe0f",
+      "title": "A Sabotaged Model Run, a Fired Intern, and a $30 Million Second Act",
+      "summary": "In 2024, a ByteDance video-model team lost months to failures that looked like physics breaking. Engineers later traced the chaos to hidden code linke...",
+      "content": "In 2024, a ByteDance video-model team lost months to failures that looked like physics breaking. Engineers later traced the chaos to hidden code linked to a rival intern. He was dismissed and sued. Two years on, after raising nearly $30 million, he called the episode rough justice—and the argument reignited.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-24T02:53:04.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8180275.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792814253423_180b7bc7",
+      "title": "机器人领域的OpenAI，来了？",
+      "summary": "机器人领域的OpenAI，来了？",
+      "content": "PI开始卖「机器人大脑」。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-24T01:15:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8179875.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792814254148_1207c3ee",
+      "title": "擎天柱的手，到底有多难造？",
+      "summary": "拾起并交接眼镜这个简单动作，集中暴露人形机器人灵巧手的难点：构型、传力、抓握稳定、触觉感知、力矩控制、磨损耐久多环节相互制约。纸面参数不等于实用能力，工业场景下持续可靠作业，仍是灵巧手需要翻越的门槛。",
+      "content": "拾起并交接眼镜这个简单动作，集中暴露人形机器人灵巧手的难点：构型、传力、抓握稳定、触觉感知、力矩控制、磨损耐久多环节相互制约。纸面参数不等于实用能力，工业场景下持续可靠作业，仍是灵巧手需要翻越的门槛。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-24T01:01:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8179850.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1792773957884_b84e380b",
       "title": "刘铁岩、诺奖、图灵奖得主等嘉宾共话AI的下一个十年：Transformer一统天下之后，AI的下一张王牌是什么？",
@@ -15,90 +75,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/UmD4aAerZEts8sZ5t791?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792773958428_44d1b8f9",
-      "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-      "summary": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-      "content": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T17:53:09.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792773959017_8580724b",
-      "title": "PostgreSQL 19 发不出来？AI“找茬”太快，人类修Bug的速度跟不上了",
-      "summary": "PostgreSQL 19 发不出来？AI“找茬”太快，人类修Bug的速度跟不上了",
-      "content": "PostgreSQL 19 发不出来？AI“找茬”太快，人类修Bug的速度跟不上了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T17:48:25.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Q6mgHWCSqV6KeZzee3NT?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792773959598_f087966b",
-      "title": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
-      "summary": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
-      "content": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T17:40:09.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Lo9TLlRdvy4II38yaex0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792773960372_d02b9c58",
-      "title": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
-      "summary": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
-      "content": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T17:35:04.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/sI3z2UMCrB5PPVDWTsLo?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792773960866_156ae4f9",
-      "title": "AI 赋能开发，Spotify 月代码变更量翻倍",
-      "summary": "AI 赋能开发，Spotify 月代码变更量翻倍",
-      "content": "AI 赋能开发，Spotify 月代码变更量翻倍",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T16:27:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/rVqEbaXeaJ91UWlQF4F9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792773961335_8602f6b2",
-      "title": "千问蒋冠军：Personal Agent技术框架，需要模型、记忆与生态协同推进",
-      "summary": "千问蒋冠军：Personal Agent技术框架，需要模型、记忆与生态协同推进",
-      "content": "千问蒋冠军：Personal Agent技术框架，需要模型、记忆与生态协同推进",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T15:45:32.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/6EJRFIef67xr3x6vyCJa?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792773961894_7382b84e",
-      "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
-      "summary": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
-      "content": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T15:11:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1792773968438_a3760d60",
@@ -125,28 +101,16 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1792773962411_b35f294d",
-      "title": "Xcode 27.2 推出对智能体友好、有效减少合并冲突的 JSON 项目配置格式",
-      "summary": "Xcode 27.2 推出对智能体友好、有效减少合并冲突的 JSON 项目配置格式",
-      "content": "Xcode 27.2 推出对智能体友好、有效减少合并冲突的 JSON 项目配置格式",
+      "id": "news_1792814262768_e8b9bc6c",
+      "title": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
+      "summary": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
+      "content": "讯飞发布新一代端到端交互模型：语音大模型调用量暴涨20倍，端侧已实现约70%云端能力",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T13:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/7ResdjAZYy8yltOh6drM?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792773963031_d15feb1e",
-      "title": "决策模型也有专用推理引擎了：StartLux 开源 Prism，单卡最高提速 5.3 倍",
-      "summary": "决策模型也有专用推理引擎了：StartLux 开源 Prism，单卡最高提速 5.3 倍",
-      "content": "决策模型也有专用推理引擎了：StartLux 开源 Prism，单卡最高提速 5.3 倍",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T12:03:49.000Z",
+      "publishedAt": "2026-10-23T11:39:27.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/reksyo9EBAcP11Ns2GTO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/Md0kdMxGI6flIbZXH1yg?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1792773951625_557c3a8f",
@@ -221,7 +185,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1792773941092_0",
+      "id": "news_1792814245062_0",
       "title": "Chinese AI firm DeepSeek raises $15B in latest challenge to OpenAI, Anthropic: report",
       "summary": "Chinese artificial intelligence firm DeepSeek raked in $15 billion in a fresh fundraising round as it looks to challenge US-based labs like OpenAI and...",
       "content": "Chinese artificial intelligence firm DeepSeek raked in $15 billion in a fresh fundraising round as it looks to challenge US-based labs like OpenAI and Anthropic, according to a report.\nThe Hangzhou, China-based firm – one of several open-source conte... [1730 chars]",
@@ -257,7 +221,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1792773941327_1",
+      "id": "news_1792814245838_1",
       "title": "Companies Are Licensing Workplace Emails, Slack Messages to AI Developers, Often Without Employee Knowledge",
       "summary": "Companies are increasingly licensing internal emails, Slack messages and documents to artificial intelligence developers, often without the knowledge ...",
       "content": "Companies are increasingly licensing internal emails, Slack messages and documents to artificial intelligence developers, often without the knowledge of the employees whose communications generate the data, according to reports from Business Insider ... [3348 chars]",
@@ -329,7 +293,7 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1792773940867_2",
+      "id": "news_1792814245509_2",
       "title": "On Main Street, Goldman Sachs makes a big bet on AI",
       "summary": "Artificial intelligence is already a huge business for Wall Street. But how is it playing on Main Street?\nGoldman Sachs, as part of a philanthropic ef...",
       "content": "Artificial intelligence is already a huge business for Wall Street. But how is it playing on Main Street?\nGoldman Sachs, as part of a philanthropic effort, is spending big in an attempt to help ensure smaller employers get in on it. The bank announce... [5665 chars]",
@@ -339,30 +303,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.nbcnews.com/business/ceo-interviews/goldman-sachs-small-business-ai-institute-rcna604621",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1792641701154_c2add64d",
-      "title": "王腾详解今日宜休 ISHO iFlow AI 温控系统：无感监测、智能控温、双区独立",
-      "summary": "IT之家 10 月 22 日消息，今天（22 日）上午，今日宜休科技公司创始人 @王腾Thomas 发文详细介绍了今日宜休的第二款产品 ——ISHO iFlow AI 温控系统。 王腾表示，该产品可实现无感监测、智能控温、双区独立，将提供从无感监测到睡眠干预的全新解决方案。",
-      "content": "IT之家 10 月 22 日消息，今天（22 日）上午，今日宜休科技公司创始人 @王腾Thomas 发文详细介绍了今日宜休的第二款产品 ——ISHO iFlow AI 温控系统。 王腾表示，该产品可实现无感监测、智能控温、双区独立，将提供从无感监测到睡眠干预的全新解决方案。其中，床笠负责感知用户睡眠状态和实时温度，主机负责计算和调温，再通过水循环来调节床笠表面温度。不同睡眠阶段匹配不同的温控策略，使得每个用户可以入睡更快、深睡更深、浅睡更稳。无需更换现有床垫，套上即用。 根据王腾今天早些时候的介绍，该产品为深睡与精力恢复而生，能够实现睡眠的主动进化，带来从无感监测到睡眠干预的全新解决方案。“不习惯佩戴设备入睡的朋友，以及想更好提升深睡质量精力恢复水平的朋友，可以关注一下。ISHO Flow 智能温控系统想做的，不是简单制冷、制热，而是让温控跟随完整睡眠周期动态适配，减少夜里温度带来的打扰，帮大家睡得更安稳。” 据IT之家此前报道，今日宜休的首场发布会“ISHO 今日宜休 AI 睡眠科技生态产品发布会”定档 10 月 29 日 19:00 举行，首款产品为 ISHO Ring 今日宜休智能戒指。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/db9e5d0f-a651-4771-a666-20ed255d111d.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-10-22T03:52:32.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/016/324.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792641674035_bf1f198d",
-      "title": "从“卖分子”到“卖平台”：这单BD改了中国AI制药的站位",
-      "summary": "这既是礼来首次押注AI驱动的脂质纳米颗粒技术，也是国内首个生成式AI-LNP出海大单、全球规模领先的肝外靶向LNP平台合作。礼来采购的，是一套能够持续产出新技术方案的系统能力。",
-      "content": "这既是礼来首次押注AI驱动的脂质纳米颗粒技术，也是国内首个生成式AI-LNP出海大单、全球规模领先的肝外靶向LNP平台合作。礼来采购的，是一套能够持续产出新技术方案的系统能力。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-22T00:41:59.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8176585.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
