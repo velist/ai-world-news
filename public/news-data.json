@@ -1,9 +1,33 @@
 {
   "success": true,
-  "timestamp": "2026-10-24T15:41:23Z",
-  "total": 25,
+  "timestamp": "2026-10-25T03:58:56Z",
+  "total": 14,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1792900619327_9459ae90",
+      "title": "Java 近期新闻：Grails 8、Open Liberty、GlassFish、Infinispan、LangChain4j、Spock",
+      "summary": "Java 近期新闻：Grails 8、Open Liberty、GlassFish、Infinispan、LangChain4j、Spock...",
+      "content": "Java 近期新闻：Grails 8、Open Liberty、GlassFish、Infinispan、LangChain4j、Spock",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-25T09:06:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/BHWP4JJDeExZZWsifFlg?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1792900628451_d1815781",
+      "title": "三名被解雇的 OpenAI 安全研究员否认泄密，怀疑因推动 AI 透明度被针对",
+      "summary": "IT之家 10 月 25 日消息，三名因涉嫌泄密被解雇的 OpenAI 安全研究员道出了他们一方的说辞。",
+      "content": "IT之家 10 月 25 日消息，三名因涉嫌泄密被解雇的 OpenAI 安全研究员道出了他们一方的说辞。托梅克 · 科尔巴克（Tomek Korbak）、米基塔 · 巴莱斯尼（Mikita Balesni）与王茉莉（Jasmine Wang）否认泄露机密信息，质疑解雇他们的官方理由，并猜测这件事和他们一直倡导提升 AI 系统透明度有关。 OpenAI 经过内部调查，认定三人违反敏感信息管理规定，将他们辞退。在被解雇之前，这三人都曾公开发表过关于 AI 风险的观点。 IT之家注意到，在接受《华尔街日报》采访时，几名研究员对官方说法提出反驳。OpenAI 向该报表示，解雇一事和他们提出的安全顾虑无关。但三名研究员称，公司从未以书面形式告知他们究竟是哪些信息被不当处理。他们还担心，这个事件会让独立安全审计人员不愿再和 AI 企业合作。 《华尔街日报》的报道还原了这场冲突的起因。OpenAI 安全团队怀疑三人向一名外部安全研究员泄露了公司内部模型架构细节，要求他们解锁个人手机。调查人员在手机里发现了开启阅后即焚功能的 Signal 聊天记录。一周之后，三人同时被解雇。OpenAI 表示 Signal 并非公司认可的通讯工具，但强调这并不是解雇的理由。科尔巴克则反驳，阅后即焚消息在硅谷本就是常规安全做法。 争议焦点：是否允许核查 AI 的推理步骤 这场争执的核心是一个影响深远的技术问题：AI 企业是否应当允许外部人员查看模型的思考过程。推理型模型会在内部的“思维链”暂存区记录解题的中间步骤，企业和安全研究员依靠这些记录，理解模型做出判断的逻辑。 在 2025 年的一篇论文中，巴莱斯尼、科尔巴克、王茉莉联合多家 AI 实验室的顶尖研究者，呼吁持续保留这项可核查能力。今年夏天，这个问题变得更加紧迫：多家 AI 公司内部开始讨论一类新模型 —— 思考时间更长，但记录下来的中间步骤更少。巴莱斯尼在公司内部提出异议，转发了当时红杉研究院（Redwood Research）首席科学家瑞安 · 格林布拉特（Ryan Greenblatt）的相关提案。 科尔巴克也和格林布拉特保持频繁沟通。二人通过 Slack 和 Signal 协作，共同分析一起备受关注的事件：OpenAI 智能体攻击 Hugging Face 事件。格林布拉特受 METR 委托，负责这项独立调查。 一篇关于 Astra 的报道，触发了内部调查 9 月 1 日，The Information 刊发报道，称 OpenAI 新模型 Astra 能力更强，但暴露出来的推理过程更少。这次合作就此成为麻烦的导火索。当时 OpenAI 首席科学家雅各布 · 帕霍茨基（Jakub Pachocki）在 X 平台评价这篇报道逻辑混乱，但他本人此前就曾警示，整个行业正在竞相研发难以监控的模型。 《华尔街日报》称，几周之后 OpenAI 启动内部泄密调查。巴莱斯尼说，调查人员认定格林布拉特是消息外泄的接收方，要求调取他们之间的 Signal 聊天记录。格林布拉特否认向记者传递过机密信息。 针对王茉莉的指控则单独成立：OpenAI 称她多次访问一名高管的邮箱。她的解释是，自己早在近一年前就申请取消这项权限；上个月只是误点开一封敏感邮件，没有转发、传播内容，并且第一时间上报了该失误。OpenAI 表示，权限本身不是问题所在。 科尔巴克认为事件带来的负面影响远不止他们三人。他说，现在同事们不敢和外部人员交流，也不敢在内部提出安全隐患。三名研究员已经致信 OpenAI 董事会，呼吁加强和外部安全机构的合作。 另外一份刚发布的现场审计报告，也对 OpenAI 的安全流程提出质疑。METR 与红杉研究院的审计人员在核查中发现 OpenAI 基础设施存在大量安全漏洞，但 OpenAI 把最终报告将近一半内容做了涂黑处理。 OpenAI 也发布了一份新安全架构报告，这套架构运行时断开互联网。公司称相关漏洞已经修复，并于 10 月初恢复模型训练，还表示很快会公布多项新的外部合作。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/69901f4c-3370-432b-87da-c71b859a7373.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-10-25T03:28:57.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/017/563.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1792856373718_a34180f6",
       "title": "中国信通院：6 月国内词元日均消耗量约 500 万亿，是 2025 年 12 月的近 4 倍",
@@ -89,90 +113,6 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1792856366525_44d1b8f9",
-      "title": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-      "summary": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-      "content": "AI Agent 正在改写 CPU 的价值：当 Token 变成行动，算力竞争不再只是拼 GPU",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T17:53:09.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/AkDgwN6h72cqUOJ35Zok?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792856366995_8580724b",
-      "title": "PostgreSQL 19 发不出来？AI“找茬”太快，人类修Bug的速度跟不上了",
-      "summary": "PostgreSQL 19 发不出来？AI“找茬”太快，人类修Bug的速度跟不上了",
-      "content": "PostgreSQL 19 发不出来？AI“找茬”太快，人类修Bug的速度跟不上了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T17:48:25.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Q6mgHWCSqV6KeZzee3NT?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792856367453_f087966b",
-      "title": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
-      "summary": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
-      "content": "“让Token不空转”，讯飞如何把Agent推进企业核心流程",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T17:40:09.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/Lo9TLlRdvy4II38yaex0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792856367937_d02b9c58",
-      "title": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
-      "summary": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
-      "content": "奥特曼最新 45 分钟访谈：一年不写代码、压力大到不想起床，还嫌 ChatGPT 太谄媚",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T17:35:04.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/sI3z2UMCrB5PPVDWTsLo?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792856368338_156ae4f9",
-      "title": "AI 赋能开发，Spotify 月代码变更量翻倍",
-      "summary": "AI 赋能开发，Spotify 月代码变更量翻倍",
-      "content": "AI 赋能开发，Spotify 月代码变更量翻倍",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T16:27:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/rVqEbaXeaJ91UWlQF4F9?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792856368752_8602f6b2",
-      "title": "千问蒋冠军：Personal Agent技术框架，需要模型、记忆与生态协同推进",
-      "summary": "千问蒋冠军：Personal Agent技术框架，需要模型、记忆与生态协同推进",
-      "content": "千问蒋冠军：Personal Agent技术框架，需要模型、记忆与生态协同推进",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T15:45:32.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/6EJRFIef67xr3x6vyCJa?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792856369185_7382b84e",
-      "title": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
-      "summary": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
-      "content": "GitLab 19.4 发布，新增目标驱动型智能体，强化成本控制",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T15:11:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/c6KGCCmGuad5wbAcCG61?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1792773968438_a3760d60",
       "title": "OpenAI 联合研究机构部署数千个 AI 智能体：32 分钟分析数百万个小鼠脑细胞，相当于人类数月时间",
       "summary": "IT之家 10 月 23 日消息，OpenAI 联合 PerturbAI 和斯克里普斯研究所（Scripps Research），利用数千个 AI 智能体分析数百万个小鼠脑细胞的生物学数据，整个分析过程仅耗时 32 分钟。",
@@ -195,30 +135,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/1/017/268.htm",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792856369596_b35f294d",
-      "title": "Xcode 27.2 推出对智能体友好、有效减少合并冲突的 JSON 项目配置格式",
-      "summary": "Xcode 27.2 推出对智能体友好、有效减少合并冲突的 JSON 项目配置格式",
-      "content": "Xcode 27.2 推出对智能体友好、有效减少合并冲突的 JSON 项目配置格式",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T13:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/7ResdjAZYy8yltOh6drM?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792856370132_d15feb1e",
-      "title": "决策模型也有专用推理引擎了：StartLux 开源 Prism，单卡最高提速 5.3 倍",
-      "summary": "决策模型也有专用推理引擎了：StartLux 开源 Prism，单卡最高提速 5.3 倍",
-      "content": "决策模型也有专用推理引擎了：StartLux 开源 Prism，单卡最高提速 5.3 倍",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-23T12:03:49.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/reksyo9EBAcP11Ns2GTO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1792773951625_557c3a8f",
@@ -255,54 +171,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8179336.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792728280418_e2156d2f",
-      "title": "报告称 2026 年国内大模型均价翻倍，每秒吞吐量也翻倍",
-      "summary": "IT之家 10 月 23 日消息，中国信息通信研究院（简称“中国信通院”）人工智能研究所、人工智能大模型及软硬件评测工业和信息化部重点实验室和中国人工智能产业发展联盟，今日（10 月 23 日）联合发布《大模型词元服务性能监测报告（2026 年）》。",
-      "content": "IT之家 10 月 23 日消息，中国信息通信研究院（简称“中国信通院”）人工智能研究所、人工智能大模型及软硬件评测工业和信息化部重点实验室和中国人工智能产业发展联盟，今日（10 月 23 日）联合发布《大模型词元服务性能监测报告（2026 年）》。 报告称，随着大模型技术的迅速迭代，词元（Token）服务成为从技术走向应用的关键点，我国日均词元调用量持续攀升，2026 年 6 月，国内词元日均消耗量约 500 万亿，是 2025 年 12 月的近 4 倍。 产业中越来越多的 MaaS（Model as a Service，模型即服务）平台厂商通过公有云 API 方式供给大模型词元服务。然而用户对词元服务性能缺乏直观的判断依据，且面临选型困难等各类问题。 报告基于 2026 年 1-8 月的监测数据，围绕各平台词元服务调用成功率、吞吐速度、首词时延、稳定性、价格、上下文窗口等维度开展分析，对比原厂大模型官方平台，以及 DeepSeek、Qwen、GLM、Kimi 四款开源模型在第三方平台上的性能差异，进一步分析影响词元服务性能的关键因素，总结产业核心观察，明确下一步工作计划，旨在为用户选型提供参考，并为产业界优化服务能力提供方向指引。 1. 国内词元服务每秒吞吐量较 2025 年翻倍，仍低于国外 报告提出，8 月份国内各模型平均 TPS（每秒输出词元数）达到 78.23（个 / 秒），与 2025 年均值 38.25（个 / 秒）相比实现翻倍。但 8 月份国外典型模型的 TPS 均值为 112.82（个 / 秒），与 2025 年 12 月的 51.35（个 / 秒）相比，提升亦超过一倍，整体优于国内。 所有大模型词元服务月均 TPS 2. 词元服务时延有所增加，国内外趋势一致 报告提出，今年以来，国内各模型的平均 TTFT（首词时延）呈现持续提升态势，8 月份均值达到 1.26 秒，相较于 2025 年平均值 0.78 秒明显增加。但同时 8 月份国外典型模型 TTFT 平均值达到 2.08 秒，相比 4 月份 1.04 秒亦明显增加。 值得注意的是，TTFT 上升并非单纯的性能退化，而是伴随着模型参数量增加、上下文长度增加、调用量增加等多种因素同步产生的结果。 所有大模型词元服务的月均 TTFT 3. 2026 年词元服务价格明显回升 报告提出，经历了过去两年价格战后，2026 年国内外模型服务价格明显上涨。国内 2025 下半年归一化均价为 6.8 元，而今年以来均价为 13.46 元，涨幅接近 1 倍。但国外价格仍高于国内，2026 年以来发布的典型模型平均归一价格约为 117.8 元。 国内原厂大模型发布时归一化价格趋势图 4. 模型上下文长度不断向百万级长度扩展 报告提出，被监测的模型中，上下文长度达到 1M（1 百万词元）的模型占比 47.8%，200K 及以上的合计达 95.7%，相比 2025 年底的占比提高超过 76 个百分点，而低于 200K 的模型占比持续减少。 国内大模型上下文长度占比情况 5. 开源模型词元服务性能提升显著，同一模型在不同平台性能波动较大 报告提出，5 月份更新了 4 款开源模型的新版本进行监测，结果显示 TPS 持续提升，TTFT 时延不断压缩。例如 8 月份 DeepSeek-V4-Pro 的 TPS 已达到 DeepSeek-V3.2 的 2 倍。 时延方面，5 月份主要模型完成换代升级后，TTFT 普遍出现阶段性上升，随着推理优化措施落地，时延指标逐步回落至换代前水平。 同时，4 款模型在不同平台上的 TPS、TTFT、调用成功率表现不一。部分第三方平台性能明显优于官方平台提供的模型服务，同一模型在不同平台间的 TPS 差距最大可接近一倍。各平台对相同模型的推理加速、优化策略、成本控制不同，是造成性能分化的主要原因。 开源模型性能综合对比图",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/e7c2da2b-fb58-4058-b299-c90025b9c9e1.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-10-23T03:51:58.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/016/876.htm",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792728268703_6552eec3",
-      "title": "RISC-V中国峰会在深圳开幕：车规芯片已量产上车，AI与数据中心仍在补软件",
-      "summary": "RISC-V中国峰会在深圳开幕：车规芯片已量产上车，AI与数据中心仍在补软件",
-      "content": "RISC-V各方向推进速度并不一致",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-23T03:41:14.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8178185.html",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792728269484_6a1126d6",
-      "title": "人形机器人租金暴跌，厂商为什么还在铺渠道？",
-      "summary": "更多门店只能让更多人看见机器人，不能让机器人自动获得工作。机器人渠道真正成熟的标志，不是又开出多少家4S店，而是每多交付一台机器人，不必再多配一名跟在旁边的工程师。",
-      "content": "更多门店只能让更多人看见机器人，不能让机器人自动获得工作。机器人渠道真正成熟的标志，不是又开出多少家4S店，而是每多交付一台机器人，不必再多配一名跟在旁边的工程师。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-23T03:20:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8177860.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792856357126_0",
-      "title": "Chinese AI firm DeepSeek raises $15B in latest challenge to OpenAI, Anthropic: report",
-      "summary": "Chinese artificial intelligence firm DeepSeek raked in $15 billion in a fresh fundraising round as it looks to challenge US-based labs like OpenAI and...",
-      "content": "Chinese artificial intelligence firm DeepSeek raked in $15 billion in a fresh fundraising round as it looks to challenge US-based labs like OpenAI and Anthropic, according to a report.\nThe Hangzhou, China-based firm – one of several open-source conte... [1730 chars]",
-      "imageUrl": "https://nypost.com/wp-content/uploads/sites/2/2026/10/146089829.jpg?quality=75&strip=all&w=1200",
-      "source": "New York Post",
-      "publishedAt": "2026-10-22T16:43:48.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://nypost.com/2026/10/22/business/chinese-ai-firm-deepseek-raises-15b-in-latest-challenge-to-openai-anthropic-report/",
-      "aiInsight": ""
     }
   ]
 }
