@@ -1,19 +1,151 @@
 {
   "success": true,
-  "timestamp": "2026-10-27T17:47:15Z",
-  "total": 25,
+  "timestamp": "2026-10-28T04:54:42Z",
+  "total": 27,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1793123127896_0da43630",
-      "title": "Azure Container Apps Express在新的通用沙箱层上正式发布",
-      "summary": "Azure Container Apps Express在新的通用沙箱层上正式发布",
-      "content": "Azure Container Apps Express在新的通用沙箱层上正式发布",
+      "id": "news_1793163175292_2ee6786f",
+      "title": "智能指数得分创新高！蚂蚁百灵开源Ling-3.1-flash-1019：让Personal Agent走向真实业务",
+      "summary": "智能指数得分创新高！蚂蚁百灵开源Ling-3.1-flash-1019：让Personal Agent走向真实业务...",
+      "content": "智能指数得分创新高！蚂蚁百灵开源Ling-3.1-flash-1019：让Personal Agent走向真实业务",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-27T17:17:00.000Z",
+      "publishedAt": "2026-10-28T12:13:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/wIuu0NSaLSaqJJpXVExD?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793163175971_b9ddfdb4",
+      "title": "轻量化异构双臂 × VLA/世界模型：家庭服务具身机器人的落地实践",
+      "summary": "轻量化异构双臂 × VLA/世界模型：家庭服务具身机器人的落地实践",
+      "content": "轻量化异构双臂 × VLA/世界模型：家庭服务具身机器人的落地实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-28T12:05:43.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/ChONW7EYk5Vuj0VF7AkZ?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/7yOK6Ri9Dt4VfITmA7Vb?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793163176409_f8e32ddc",
+      "title": "GPT-6.1 Terra 发布：比旗舰快 3 倍，价格仅1/10！事实错误率暴降近 70%",
+      "summary": "GPT-6.1 Terra 发布：比旗舰快 3 倍，价格仅1/10！事实错误率暴降近 70%",
+      "content": "GPT-6.1 Terra 发布：比旗舰快 3 倍，价格仅1/10！事实错误率暴降近 70%",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-28T10:37:05.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/28VVsANi9FBYRKfUz8vA?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793163168147_5d51c598",
+      "title": "豆包不如先做老年机",
+      "summary": "豆包不如先做老年机",
+      "content": "老年群体是努比亚和豆包重合度相当高的消费群体",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-28T04:17:17.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8183800.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793163183960_c9994d34",
+      "title": "“编程面试已死”：Anthropic 称 AI 时代编程题已无法筛选程序员",
+      "summary": "IT之家 10 月 28 日消息，Anthropic 招聘经理、Claude 相关产品工程负责人 Felix Rieseberg 本月表示，他已在其团队的招聘流程中取消传统编程题面试。他在社交平台发文称：“编程面试已经死了，至少对我的团队而言。",
+      "content": "IT之家 10 月 28 日消息，Anthropic 招聘经理、Claude 相关产品工程负责人 Felix Rieseberg 本月表示，他已在其团队的招聘流程中取消传统编程题面试。他在社交平台发文称：“编程面试已经死了，至少对我的团队而言。” Rieseberg 认为当 Claude 已能轻松完成小型 React 挑战，甚至处理底层汇编问题后，继续用编程题筛选工程师，就像继续考问汇编语言一样失去意义。面试结果衡量的更多是 AI 的能力，而非在真实工作中，候选人可能表现出的判断力、产品品味和协作能力。 他同时向初级工程师提出一个颇为大胆的建议：在“执行力成本”大幅下降的 AI 时代，资历不再天然决定影响力。与其等待完整的产品需求文档、跨部门审批或设计师与产品经理的资源支持，不如瞄准具体业务目标，利用新人视角和 AI 工具，在一个周末做出一个可运行的单点原型，用成果争取组织支持。他将这一逻辑概括为“饥饿胜过资历”。 相关阅读： 《别学编程了！Anthropic CEO 直言：代码工作快速消失，人类应该学弹钢琴》",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/05feece0-96d9-41fe-953d-d512b4ec8c87.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-10-28T04:10:37.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/018/876.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793163184029_55ff0071",
+      "title": "OpenAI 宣布三项重大科学突破，科研界却不满其成果发布方式",
+      "summary": "IT之家 10 月 28 日消息，OpenAI 于当地时间周一宣布，公司在数学、计算机科学与物理学领域取得了引人瞩目的突破，同时称自身正在调整成果发布的沟通方式。不过，尽管看起来做出了路线修正，接受 The Verge 采访的科研人员对这家公司的行事方式却愈发感到厌烦。",
+      "content": "IT之家 10 月 28 日消息，OpenAI 于当地时间周一宣布，公司在数学、计算机科学与物理学领域取得了引人瞩目的突破，同时称自身正在调整成果发布的沟通方式。不过，尽管看起来做出了路线修正，接受 The Verge 采访的科研人员对这家公司的行事方式却愈发感到厌烦。 IT之家注意到，过去几个月，OpenAI 和数学界之间一直摩擦不断。十月初，该公司一次性抛出数百篇预印本，让数学家群体疲于应对。这一次，OpenAI 表示会和担任“引导人”的领域专家合作，确定发布最新成果的合适方式。 三项成果分别针对数学、计算机科学、物理学领域中若干最重要的未解难题，一部分延续了 OpenAI 此前的研究方向，另一部分则开辟了新的研究路线。根据这些“引导人”给出的建议，三项成果采用了各不相同的发布方案：数学方向的成果直接放出 AI 生成的推导内容，“交由学界研究者自主组织力量去解读这项结论”；计算机科学方向的成果，OpenAI 会组建外部研究小组来负责解读；而物理学方向的成果暂不对外公开，OpenAI 称将交由外部专家团队决定后续的发布形式。 这项数学成果十分震撼，据称已经在全部维度上证明了挂谷猜想（Kakeya conjecture）。简单来说，这个问题研究的是：想要让一根针或者一支铅笔朝向各个方向旋转，最少需要多大的空间。今年早些时候，数学家王虹正是凭借三维版本猜想的证明等成果，斩获了菲尔兹奖这一重量级奖项。布朗大学数学教授布伦丹 · 哈塞特（Brendan Hassett）表示，OpenAI 给出的结论“看起来有充分依据”，但他同时强调自己还没有核验 Lean 形式化证明，也就是依靠计算机校验结论的这套形式体系。 物理学方向的成果围绕标准模型展开，标准模型是物理学当中最成熟、完备的理论框架。研究聚焦量子色动力学，该理论描述四大基本作用力之一的强核力，以及它和杨-米尔斯理论之间的关联；杨-米尔斯理论也是现代粒子物理学的基石，同时属于七大千禧年大奖难题之一，不过 OpenAI 的这项研究并没有解决悬而未决的“质量间隙”问题。 最后一项成果宣称证伪了指数时间假说。这是理论计算机科学领域被广泛认可的一个假设：部分问题无法找到远快于暴力枚举的求解方案。该假说和 P 对 NP 问题紧密相关，后者同样是千禧年大奖难题，也是该领域最知名的未解问题之一，核心是探讨那些答案很容易核验的问题，本身是否也能快速求解。 由于各项成果的公开程度不一，并且这类成果的验证门槛极高，科研人员很难完整评判这些结论。就算拿到全部资料，核验工作也需要大量时间。但接受采访的专家表示，这些成果值得认真对待，不少人评价它们“分量巨大”“属于重大突破”“意义深远”。 科研人员固然为这些科学进展感到振奋，但同时也对 OpenAI 的做法感到恼火。在过去数月接连接收大量 AI 产出的研究结论之后，这种疲惫感早已十分熟悉。很多研究者希望整个学界能够集中精力，投入到繁重的核验工作当中，同时质疑 OpenAI 为何还要增设门槛，亲自挑选专家来把控整个流程。 接受采访的大部分专家，对 OpenAI 征询外部研究者意见的做法表示认可，但他们提出：公开发表研究结论，就意味着应当把相关材料开放给所有人核验。高等研究院研究员康斯坦丁 · 科格勒（Constantin Kogler）说：“相比之前一次性放出几百篇，这次只公布三项成果，我认可这样的发布节奏。”但他不认同把查阅权限限定在 OpenAI 选定的专家范围内。他表示：“没有道理一开始只允许少数知名科学家查看内容。” 得克萨斯大学奥斯汀分校物理学教授安德烈亚斯 · 卡赫（Andreas Karch）称：“由他们亲自挑选专家团队，这件事非常糟糕。大型实验室本身已经拥有足够大的话语权，不该由它们来决定谁有资格参与、谁被排除在外。”卡赫一开始提议，可以通过遴选机制挑选研究者，不过他也承认，最终入选的人选大概率依旧是顶尖学者。之后他又提出疑问：为什么不能直接同步放出证明材料，再配套专家解读小组。“这样既能让所有人都有机会接触内容，同时也能体现他们希望让成果被理解、被重视的态度。” 就在 OpenAI 官宣前一天，数学与人工智能咨询专家组（AGMAI）刚刚发文，专门警示这种信息管控行为。专家组表示：“我们不建议 AI 企业采用这种模式。”他们认为，优先向特定人群开放内容并无必要，这种做法会借用被选中研究者的声望，还会带来访问权限不均、遴选存在偏向、进度无故推迟等一系列风险。专家组给出的方案是：AI 实验室应当把成果上传至学术预印平台，附上形式化证明、选题说明，同时提供资金和配套支持，帮助学界解读这些结论。 在这批新成果公布之后，AGMAI 敦促 OpenAI“立即公开发布这项物理学成果对应的自然语言文稿与 Lean 形式化证明”： 这些既是物理学的核心问题，也是重要的数学问题。量子杨-米尔斯理论的存在性属于千禧年大奖难题，而四维相互作用量子场论的构建，数十年来一直是数学物理领域的目标。 我们十分尊重 OpenAI 邀请来牵头这项工作的科学家。但正如我们此前声明所说，成果的解读应当在公开环境下推进，所有人拥有同等的访问权限。OpenAI 称推迟发布是为了完成 Lean 形式化证明。按照他们自己的说法，这项工作如今已经完成，从科学层面来说，没有理由继续延后发布。 哈塞特认为，把成果完全公开也有利于推动科学发展，帮助 AI 这类新工具得到更广泛的接纳。“世界各地多个研究团队一同钻研这些结论，能让有需要的研究者更快上手使用这些新工具。” 想要找到一种沟通方式，让 OpenAI 正在涉足的各个学科的研究者都满意，或许本身就不现实。OpenAI 表示正在尝试不同方案，也承认每种方式都存在取舍。斯坦福大学数学家贾里德 · 杜克 · 利希特曼（Jared Duker Lichtman）说：“我的感受是，无论选择哪一种方案，总会有人感到不满。我们只是要找到争议最小的方式。” 佐治亚理工学院数学教授何晓宇（Xiaoyu He）认为，问题远比发布形式更深层。“成果本身非常亮眼，但在我看来，他们只是在刻意表现自己负责、审慎的态度，却回避了核心矛盾：这些基础性难题被 AI 快速攻克，全程缺少人类研究者的贡献，而且产出的证明文本很难阅读、难以核验。”",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/8ad2304d-c61b-4004-9483-e1a55ca43342.png",
+      "source": "IT之家",
+      "publishedAt": "2026-10-28T03:27:59.000Z",
+      "category": "AI趣味新闻",
+      "originalUrl": "https://www.ithome.com/1/018/818.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793163168821_e374a829",
+      "title": "Claude 的账单，金主先看不下去了",
+      "summary": "Claude 的账单，金主先看不下去了",
+      "content": "Anthropic 已经演示了它的天花板在哪",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-28T03:08:42.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8183902.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793163169971_62b8bdb6",
+      "title": "DeepSeek登顶全球第一，一场“账单碾压”的胜利",
+      "summary": "DeepSeek登顶全球第一，一场“账单碾压”的胜利",
+      "content": "行业在狂欢，AI在狂飙",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-28T02:28:10.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8183777.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793163170438_4d04c027",
+      "title": "AI重构跨境支付：效率、风控与Agent商业时代",
+      "summary": "AI重构跨境支付：效率、风控与Agent商业时代",
+      "content": "AI重构跨境支付：效率、风控与Agent商业时代",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-28T02:04:40.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8184157.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793163170893_2d8260bb",
+      "title": "基层演员，AI刀下第一鬼",
+      "summary": "基层演员，AI刀下第一鬼",
+      "content": "2026年，AI进入院线，演员行业面临洗牌，AI冲击下表演艺术与标准化劳动对立，从业者承受压力。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-28T01:43:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8184110.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793163171544_7374640c",
+      "title": "AI Floods China’s Ad Feeds—and Platforms Fight Back With AI",
+      "summary": "Fake faces, cheap product clips, and rule-skirting story ads are pouring into short-video commerce. Platforms are answering with automated review syst...",
+      "content": "Fake faces, cheap product clips, and rule-skirting story ads are pouring into short-video commerce. Platforms are answering with automated review systems. Honest advertisers are stuck paying for the cleanup.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-28T01:31:04.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8184159.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793163172006_712a5ebe",
+      "title": "小微灰度的第130天：小程序正在被拆成零件，交给微信的AI",
+      "summary": "小微灰度的第130天：小程序正在被拆成零件，交给微信的AI",
+      "content": "“未完成接入的小程序，将无法被微信 AI 推荐及调用。”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-28T01:03:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8183962.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -27,18 +159,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.ithome.com/1/018/696.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793123128418_a95b57b6",
-      "title": "TypeSafe AI发布Jev：一种只返回类型化概率而非文本的决策模型",
-      "summary": "TypeSafe AI发布Jev：一种只返回类型化概率而非文本的决策模型",
-      "content": "TypeSafe AI发布Jev：一种只返回类型化概率而非文本的决策模型",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-27T15:22:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/3o7gwgKJt2SbH8AhdpkU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793123122372_02bf1223",
@@ -89,7 +209,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793123112281_0",
+      "id": "news_1793163159964_0",
       "title": "Paxton Sues OpenAI, Altman Over ChatGPT Risks",
       "summary": "Texas Attorney General Ken Paxton, a Republican, sued OpenAI and CEO Sam Altman on Friday, accusing the company of failing to warn consumers about pot...",
       "content": "Texas Attorney General Ken Paxton, a Republican, sued OpenAI and CEO Sam Altman on Friday, accusing the company of failing to warn consumers about potential dangers from its artificial intelligence models, according to the complaint.\nThe lawsuit, fil... [5988 chars]",
@@ -149,42 +269,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793123128971_e7f00e43",
-      "title": "让 AI 从需求一路干到上线，软件开发组织要变了？",
-      "summary": "让 AI 从需求一路干到上线，软件开发组织要变了？",
-      "content": "让 AI 从需求一路干到上线，软件开发组织要变了？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-26T18:08:13.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/b32Mw2zaPrxyJ6ChePD5?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793123129607_6042e4f5",
-      "title": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
-      "summary": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
-      "content": "30 个 Agent 背后：花椒如何建设可持续演进的企业 AI 能力？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-26T15:05:27.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/O7lcxqKD2avRPbNoMmtg?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793123130078_b7b8c228",
-      "title": "模型好选，搜索难做：一个投研Agent的两年开发历程",
-      "summary": "模型好选，搜索难做：一个投研Agent的两年开发历程",
-      "content": "模型好选，搜索难做：一个投研Agent的两年开发历程",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-26T14:57:35.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/NrUkJExfuuFOICsjVYbb?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1793039418361_5d82eccf",
       "title": "网易《逆水寒：新世界》将推“自拍模式”，可自定义动作、邀请 AI 门客 NPC 合照",
       "summary": "IT之家 10 月 26 日消息，网易《逆水寒：新世界》首个大型资料片【苗疆蛊事】将于 10 月 30 日正式开启，将首次采用双线更新的框架。",
@@ -197,7 +281,7 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793123112613_1",
+      "id": "news_1793163159649_2",
       "title": "AI companies are barreling toward huge Wall Street debuts. A look at the biggest players",
       "summary": "Some of the leading artificial intelligence companies are moving toward initial public offerings at eye-popping valuations. Anthropic and OpenAI are l...",
       "content": "Some of the leading artificial intelligence companies are moving toward initial public offerings at eye-popping valuations. Anthropic and OpenAI are looking to go public to access more capital in the race to shape the technology’s future.\nThe enormou... [4500 chars]",
@@ -209,7 +293,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1793123112676_2",
+      "id": "news_1793163160437_3",
       "title": "Anthropic files for potentially the biggest IPO ever even as CEO warns of risk to humanity from AI",
       "summary": "SAN FRANCISCO (AP) — Artificial intelligence giant Anthropic filed paperwork Monday for what could be the biggest initial public offering of stock eve...",
       "content": "SAN FRANCISCO (AP) — Artificial intelligence giant Anthropic filed papers Monday for what could be the biggest initial public offering of stock ever even as its top executive warns that advanced AI could pose an existential threat to humanity.\nThe fi... [1726 chars]",
@@ -242,66 +326,6 @@
       "publishedAt": "2026-10-26T11:29:41.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8182406.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792987289730_90f4e76c",
-      "title": "China’s Overseas Short-Drama Trade Shifts From Sets to Platforms",
-      "summary": "Vertical short dramas once depended on rushed live shoots in Los Angeles. Generative video has collapsed production budgets, pushed work back to China...",
-      "content": "Vertical short dramas once depended on rushed live shoots in Los Angeles. Generative video has collapsed production budgets, pushed work back to China, and favored apps that can distribute at scale. ByteDance is testing a free, ad-supported model overseas. Makers without distribution are losing leverage.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-26T03:19:05.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8181687.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792987305997_01a4365c",
-      "title": "王腾：ISHO 今日宜休，目标用 5-10 年时间成为全球领先的 AI 睡眠科技品牌",
-      "summary": "IT之家 10 月 26 日消息，ISHO 今日宜休今日发布了第一支品牌理念片。公司创始人王腾发文，介绍了对 ISHO 今日宜休品牌和产品的思考。 他表示，从决定创业的第一天起，就明确了一件事：ISHO 今日宜休，希望打造一个 AI 睡眠科技生态，帮助更多用户能够更好的恢复和拥有好状态。",
-      "content": "IT之家 10 月 26 日消息，ISHO 今日宜休今日发布了第一支品牌理念片。公司创始人王腾发文，介绍了对 ISHO 今日宜休品牌和产品的思考。 他表示，从决定创业的第一天起，就明确了一件事：ISHO 今日宜休，希望打造一个 AI 睡眠科技生态，帮助更多用户能够更好的恢复和拥有好状态。我们背靠中国优秀的工程师资源和顶级的产业链能力，目标用 5-10 年的时间成为全球领先的 AI 睡眠科技品牌。 王腾透露，ISHO 在亚洲、北美、欧洲、大洋洲、中东等地的 27 个国家或地区提交了商标注册，其中俄罗斯、沙特阿拉伯、阿联酋、新加坡、菲律宾、澳大利亚等多个国家和地区已经获批取得注册，其余国家品牌落地也在顺利推进中。 他还分享了自己创业之后的感受，称这些年，很多行业都很卷：卷价格、卷效率，也卷工作时间。自己过去也经常熬夜加班，真正开始研究睡眠之后和对比海外的科技品牌时，反而越来越相信，好的产品不应该建立在无休止的透支之上。 据IT之家此前报道，ISHO 今日宜休 AI 睡眠科技生态产品发布会定档 10 月 29 日 19:00 举行。届时将推出 ISHO Ring 今日宜休智能戒指、AI 温控系统等。 相关阅读： 《王腾创业首款产品：ISHO Ring 今日宜休智能戒指配置曝光，全球首发同品类性能最强 MCU》 《王腾详解今日宜休 ISHO iFlow AI 温控系统：无感监测、智能控温、双区独立》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/556548cc-e93e-4f86-b606-de8856406f01.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-10-26T03:17:36.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/017/809.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792987290266_7fd3b5a3",
-      "title": "硅谷AI精英相亲局：男方交800美元，只为查验女方的“AI公司成分”",
-      "summary": "因为在这片被大模型彻底&ldquo;夺舍&rdquo;的土地上，人类的终极浪漫已经被重新定义。爱情、荷尔蒙与风花雪月，正在被一行行冰冷的代码、算力指标的比拼以及残酷的价值观站队所取代。",
-      "content": "在这个局里，最硬核的择偶标准不是颜值，不是年薪，也不是你的房子买在帕洛阿尔托还是旧金山市区，而是——你在哪家AI公司上班，以及你对AI的底层立场。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-26T02:59:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8180998.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792987290765_ff359bf7",
-      "title": "AI的双11迷局：商家忙买单，用户只薅羊毛",
-      "summary": "AI的双11迷局：商家忙买单，用户只薅羊毛",
-      "content": "AI购物到底来没来？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-26T02:41:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8181455.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1792987291785_d0a3b6c6",
-      "title": "从“天感地算”到“天数天算”：中国企业在太空布局算力枢纽",
-      "summary": "传统航天 “天感地算” 模式下，95% 太空数据因带宽限制被废弃。国内多支科研与商业团队发力**天数天算**，实现卫星在轨 AI 计算、只传有效决策。从数据收集到太空决策，中国太空算力组网加速落地，开启商业航天智能化新变革。",
-      "content": "传统航天 “天感地算” 模式下，95% 太空数据因带宽限制被废弃。国内多支科研与商业团队发力**天数天算**，实现卫星在轨 AI 计算、只传有效决策。从数据收集到太空决策，中国太空算力组网加速落地，开启商业航天智能化新变革。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-26T01:54:08.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8181256.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
