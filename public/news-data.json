@@ -1,43 +1,115 @@
 {
   "success": true,
-  "timestamp": "2026-10-28T18:09:42Z",
+  "timestamp": "2026-10-29T05:04:47Z",
   "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1793210872058_7654831e",
-      "title": "不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程",
-      "summary": "不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程",
-      "content": "不再逐个生成 Token：扩散模型迈向 35B，开始挑战 Agent 编程",
+      "id": "news_1793250181217_987f7519",
+      "title": "微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑",
+      "summary": "微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑",
+      "content": "微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-28T22:53:53.000Z",
+      "publishedAt": "2026-10-29T13:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Lg6RgMudjiWIVQllmz8a?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793250181984_70a30324",
+      "title": "AI 用起来了，业务价值谁来打分？",
+      "summary": "AI 用起来了，业务价值谁来打分？",
+      "content": "AI 用起来了，业务价值谁来打分？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-29T10:37:25.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/LLbRSSwTyvqTpFsaJs3v?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793250182473_6265837e",
+      "title": "从三天Demo到一个月全员可用：小红书企业级AI助理Seal的规模化实践",
+      "summary": "从三天Demo到一个月全员可用：小红书企业级AI助理Seal的规模化实践",
+      "content": "从三天Demo到一个月全员可用：小红书企业级AI助理Seal的规模化实践",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-29T09:58:08.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/eOqH5GJ5R6UuZGtlhL53?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793250182911_a664b8e2",
+      "title": "活动回顾｜InfoQ AI 侦察团的实战一天：企业 AI 如何走向落地？",
+      "summary": "活动回顾｜InfoQ AI 侦察团的实战一天：企业 AI 如何走向落地？",
+      "content": "活动回顾｜InfoQ AI 侦察团的实战一天：企业 AI 如何走向落地？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-29T09:55:47.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/g7TTtqzU1qyQXooXFQGN?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793250183371_2406192f",
+      "title": "亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动仍待解决",
+      "summary": "亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动仍待解决",
+      "content": "亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动仍待解决",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-29T08:00:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/0tgCLAMXFiFo0Dco5P9m?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/YmgmEh686wTClmj3PY8o?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793210872547_c32aed37",
-      "title": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
-      "summary": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
-      "content": "别再只写提示词了，开始真正雇用智能体：智能体企业管理实践 ｜ 技术实践",
+      "id": "news_1793250174887_d836c91f",
+      "title": "AI裁员背后：消失的不只是工作，还有年轻人的机会",
+      "summary": "企业用AI省下的人工成本已经写进财报，但裁员公告远远装不下这场变化。那些没有被招聘的人、逐渐消失的职业入口，以及技术收益的重新分配，正在成为更大的问题。",
+      "content": "企业用AI省下的人工成本已经写进财报，但裁员公告远远装不下这场变化。那些没有被招聘的人、逐渐消失的职业入口，以及技术收益的重新分配，正在成为更大的问题。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-28T22:05:40.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/II91QKxeaEg7RuZR2rrf?utm_source=rss&utm_medium=article",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-29T04:53:18.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8185164.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793250175401_5f2eb508",
+      "title": "人形机器人，要出大结果了",
+      "summary": "人形机器人，要出大结果了",
+      "content": "AI正在长出手脚，美国的优势在于更聪明的大脑，中国则拥有最强最完善的身体。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-29T04:44:22.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8185839.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793210872987_872611a1",
-      "title": "当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势",
-      "summary": "当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势",
-      "content": "当 AI 智能体代表用户行动时，企业治理将面临哪些新问题？ ｜ 技术趋势",
+      "id": "news_1793250189801_3f8cfee4",
+      "title": "腾讯推出跨应用 AI 协同体系 Buddy One：打通腾讯多款办公产品，共享 WorkBuddy Agent 底座",
+      "summary": "IT之家 10 月 29 日消息，在今日举行的腾讯全球数字生态大会上，腾讯正式官宣发布面向个人用户的跨应用 AI 协同体系 —— Buddy One。 IT之家获悉，该体系打通腾讯文档、腾讯会议、腾讯网盘、ima 等办公协同产品，共享 WorkBuddy Agent 底座，并统一账号和积分池。",
+      "content": "IT之家 10 月 29 日消息，在今日举行的腾讯全球数字生态大会上，腾讯正式官宣发布面向个人用户的跨应用 AI 协同体系 —— Buddy One。 IT之家获悉，该体系打通腾讯文档、腾讯会议、腾讯网盘、ima 等办公协同产品，共享 WorkBuddy Agent 底座，并统一账号和积分池。 官方表示，WorkBuddy PC 端更新到 5.9.0 及以上版本，关联账号即可使用。后续还将支持记忆共享，也会有更多产品陆续加入。 据悉，Buddy One 账号打通之后，使用 WorkBuddy 时不用再反复授权，也不用手动复制粘贴上下文。 打开 WorkBuddy PC 端，点击左下角的个人入口，进入“设置” → “个人主页” → “前往管理中心”，关联要用的腾讯文档、腾讯会议、ima、腾讯网盘账号。 关联之后，不用再指定去哪个应用里找。直接说需求，WorkBuddy 会检索并整合用户已授权的文档、会议和知识库内容，生成附带来源的回答。检索时会调用“Buddy One 全应用搜索”，命中的资料会标明来自哪个应用，比如 ima、腾讯文档或 WorkBuddy 资料库。 加入 Buddy One 后，WorkBuddy 积分默认升级为 Buddy One 积分，可以在 WorkBuddy、腾讯文档、ima、腾讯网盘中通用。余额共享：在哪个应用里消耗，余额都会同步减少。套餐内积分、活动赠送积分和自行购买的积分，都包含在内。 腾讯同时推出了 Buddy One VIP 会员套餐，连续包月 700 元 / 月。一次开通即享 WorkBuddy 旗舰版、腾讯会议专业版和腾讯文档超级会员 Plus；套餐还包含跨应用共享的 AI 积分与 1TB 存储空间，可在 WorkBuddy、腾讯文档、ima 和腾讯网盘中通用。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/9a102145-0a09-48e6-beee-0ae4729f6a7b.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-10-29T04:24:43.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/1/019/412.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793250176590_5c160d7f",
+      "title": "Optimus的第一份工作是插枪：人形机器人的主战场，从来不在工厂",
+      "summary": "人形机器人正在批量进工厂，市场叙事是“替代产线工人”。本文给出反共识判断：标准场景早被传送带与机械臂吃透，进厂只是练兵；真正的主战场，是非标服务业的“移动缝隙”。机器负责干活，人负责生活。",
+      "content": "人形机器人正在批量进工厂，市场叙事是“替代产线工人”。本文给出反共识判断：标准场景早被传送带与机械臂吃透，进厂只是练兵；真正的主战场，是非标服务业的“移动缝隙”。机器负责干活，人负责生活。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-28T21:39:45.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/CxWoiprQltg8YXmwmghd?utm_source=rss&utm_medium=article",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-29T03:32:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8185429.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -51,30 +123,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/bXKVgLdpf7HONYHIi6Su?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793210873862_c67cd0ca",
-      "title": "Meta 利用私有处理技术将机密计算扩展至 AI 眼镜",
-      "summary": "Meta 利用私有处理技术将机密计算扩展至 AI 眼镜",
-      "content": "Meta 利用私有处理技术将机密计算扩展至 AI 眼镜",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-28T19:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/r1ibrq9kmZ1qFAWAtzJf?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793210874572_96ccd4ca",
-      "title": "大客户直接打1折、模型四个月降价80%：大模型价格战没有退路",
-      "summary": "大客户直接打1折、模型四个月降价80%：大模型价格战没有退路",
-      "content": "大客户直接打1折、模型四个月降价80%：大模型价格战没有退路",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-28T18:14:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/ejtljxPixrIuUsGYi5xa?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793210874986_12b01ad0",
@@ -99,18 +147,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/1/019/237.htm",
       "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793210875607_2384d3d5",
-      "title": "模型越来越强，落地却处处卡关？14位行业大佬拆解难题｜1024 模力工场 · AI社区日圆满收官",
-      "summary": "模型越来越强，落地却处处卡关？14位行业大佬拆解难题｜1024 模力工场 · AI社区日圆满收官",
-      "content": "模型越来越强，落地却处处卡关？14位行业大佬拆解难题｜1024 模力工场 · AI社区日圆满收官",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-28T16:57:57.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/cJsKydV5kDNIwZr38UtT?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793210867520_59e6f245",
@@ -173,9 +209,9 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793210860542_0",
+      "id": "news_1793250163561_0",
       "title": "Pennsylvania Senate bill aims to keep teachers, not AI, at forefront of classroom learning",
-      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Washington Because you are coming from a location (Washington) covered by a Privacy Law, many of the features of ...",
+      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Iowa Because you are coming from a location (Iowa) covered by a Privacy Law, many of the features of TribLIVE.com...",
       "content": "Neil English believes artificial intelligence should have a supporting role in the classroom but never be the star.\n“We believe it has potential to enhance teaching and learning,” said English, River­view School District superintendent. “It should se... [5032 chars]",
       "imageUrl": "https://assets-varnish.triblive.com/2026/10/10042717_web1_vnd-classroomAI0-3-102726.JPG",
       "source": "Pittsburgh Tribune-Review",
@@ -293,11 +329,11 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793210860065_1",
+      "id": "news_1793250163687_1",
       "title": "OpenAI just scooped human researchers on a million-dollar quantum math problem",
       "summary": "If you’ve been keeping up with news in the math world, the story will sound strikingly familiar, right down to its cast of characters.\nUsing a proprie...",
-      "content": "If you’ve been keeping up with news in the math world, the story will sound strikingly familiar, right down to its cast of characters.\nUsing a proprietary internal large language model (LLM), OpenAI just released a result mathematicians have been cha... [8633 chars]",
-      "imageUrl": "https://static.scientificamerican.com/dam/asset/be949c97-6aba-446d-bd3a-f2e111fa9566/Quantum-AI-math-blob.jpeg?m=1793125613.1&w=1200",
+      "content": "If you’ve been keeping up with news in the math world, the story will sound strikingly familiar, right down to its cast of characters.\nUsing a proprietary internal large language model (LLM), OpenAI just released a result mathematicians have been cha... [8729 chars]",
+      "imageUrl": "https://static.scientificamerican.com/dam/asset/be949c97-6aba-446d-bd3a-f2e111fa9566/Quantum-AI-math-blob.jpeg?m=1793127414.515&w=1200",
       "source": "Scientific American",
       "publishedAt": "2026-10-27T18:10:00.000Z",
       "category": "国外AI",
@@ -327,42 +363,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8183550.html",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793123123197_babdbdf1",
-      "title": "乐奇Rokid发布三款AI穿戴新品，拓展显示与交互方案",
-      "summary": "10月27日，乐奇Rokid推出AI眼镜Rokid Glasses 2、全彩AI眼镜Rokid Color和交互戒指Rokid Ring...",
-      "content": "10月27日，乐奇Rokid推出AI眼镜Rokid Glasses 2、全彩AI眼镜Rokid Color和交互戒指Rokid Ring",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-27T10:23:12.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8183616.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793123123968_ee18747a",
-      "title": "AI短剧：流水线上的打工人不得不说的秘密",
-      "summary": "AI短剧：流水线上的打工人不得不说的秘密",
-      "content": "投身AI短剧的人，没有梦想，只有对于流量的饥渴",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-27T10:19:27.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8183174.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793123124658_45e47320",
-      "title": "Kimi额度的问题，Anthropic找到了解决办法",
-      "summary": "Kimi额度的问题，Anthropic找到了解决办法",
-      "content": "你的额度为什么不经用？大半都在给子Agent“开无效会议”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-27T10:19:24.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8183235.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
