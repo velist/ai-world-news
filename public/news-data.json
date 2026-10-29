@@ -1,68 +1,92 @@
 {
   "success": true,
-  "timestamp": "2026-10-29T05:04:47Z",
+  "timestamp": "2026-10-29T18:17:23Z",
   "total": 30,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1793250181217_987f7519",
-      "title": "微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑",
-      "summary": "微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑",
-      "content": "微软承诺将 Maia 推向数吉瓦级推理部署，但其效率指标引发质疑",
+      "id": "news_1793297734161_422abcf5",
+      "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+      "summary": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+      "content": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-29T13:00:00.000Z",
+      "publishedAt": "2026-10-29T20:13:07.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Lg6RgMudjiWIVQllmz8a?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793250181984_70a30324",
-      "title": "AI 用起来了，业务价值谁来打分？",
-      "summary": "AI 用起来了，业务价值谁来打分？",
-      "content": "AI 用起来了，业务价值谁来打分？",
+      "id": "news_1793297734835_87a020f3",
+      "title": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
+      "summary": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
+      "content": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-29T10:37:25.000Z",
+      "publishedAt": "2026-10-29T18:00:23.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/LLbRSSwTyvqTpFsaJs3v?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/aK6ADSkIvwf265yc8PuT?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793250182473_6265837e",
-      "title": "从三天Demo到一个月全员可用：小红书企业级AI助理Seal的规模化实践",
-      "summary": "从三天Demo到一个月全员可用：小红书企业级AI助理Seal的规模化实践",
-      "content": "从三天Demo到一个月全员可用：小红书企业级AI助理Seal的规模化实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-29T09:58:08.000Z",
+      "id": "news_1793297743062_b2f5bb62",
+      "title": "盖洛普研究：美国员工的工作投入度降至历史新低，远程办公者降幅最大",
+      "summary": "IT之家 10 月 29 日消息，据科技媒体 TechRadar 今天报道，盖洛普（Gallup）最新研究报告显示，美国员工的工作投入度降至历史新低。远程办公和混合办公的人更加缺乏工作热情，而对 AI 缺乏明确认知也正在影响员工的工作满意度。",
+      "content": "IT之家 10 月 29 日消息，据科技媒体 TechRadar 今天报道，盖洛普（Gallup）最新研究报告显示，美国员工的工作投入度降至历史新低。远程办公和混合办公的人更加缺乏工作热情，而对 AI 缺乏明确认知也正在影响员工的工作满意度。 该机构指出，2026 年第三季度，美国员工的工作投入度为 29%，降至 2011 年以来最低水平。作为对比，2020 年美国工作投入度指标为 36%，2024 年降至 31%。 IT之家注意到，与上一季度相比，全远程办公员工的工作投入度下降了 5 个百分点，混合办公员工下降了 2 个百分点。相比之下，现场办公员工的工作投入度仅下降 1 个百分点。 同时盖洛普已在此前发现，在工作性质允许远程办公的岗位中，全远程办公、混合办公的人，相比现场办公对工作预期的感受程度更差。 至于 AI 方面盖洛普认为，今年早些时候的研究显示，员工对 AI 的态度以及工作投入度可能有所回暖，如今这种趋势已经逆转。调查显示，将 AI 融入工作流的企业中，员工投入度与尚未采用 AI 的企业基本相当。与此同时，远程办公员工再次表现出较低的满意度和工作投入度。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/cb16b78c-da24-4ff9-a619-532051cbd83d.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-10-29T15:28:29.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/eOqH5GJ5R6UuZGtlhL53?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/1/019/794.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793250182911_a664b8e2",
-      "title": "活动回顾｜InfoQ AI 侦察团的实战一天：企业 AI 如何走向落地？",
-      "summary": "活动回顾｜InfoQ AI 侦察团的实战一天：企业 AI 如何走向落地？",
-      "content": "活动回顾｜InfoQ AI 侦察团的实战一天：企业 AI 如何走向落地？",
+      "id": "news_1793297735301_8a2cb774",
+      "title": "生产级 AI：隐性故障、工程落地与智能体治理",
+      "summary": "生产级 AI：隐性故障、工程落地与智能体治理",
+      "content": "生产级 AI：隐性故障、工程落地与智能体治理",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-29T09:55:47.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/g7TTtqzU1qyQXooXFQGN?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793250183371_2406192f",
-      "title": "亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动仍待解决",
-      "summary": "亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动仍待解决",
-      "content": "亚马逊云科技开源智能体“决策器”和“安全箱”，但并发与冷启动仍待解决",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-29T08:00:00.000Z",
+      "publishedAt": "2026-10-29T15:21:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/YmgmEh686wTClmj3PY8o?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/tsyyFmCmzphHw4gWy7Fo?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793297729802_dc540202",
+      "title": "钛媒体「2026 EDGE AWARDS 全球创新评选」正式启动，AI 进入下一阶段，价值该如何衡量？",
+      "summary": "钛媒体「2026 EDGE AWARDS 全球创新评选」正式启动，AI 进入下一阶段，价值该如何衡量？",
+      "content": "申报通道已开启，可通过海报下方「立即自荐」提交",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-29T10:49:22.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8185865.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793297730336_98dfa9f5",
+      "title": "Agentic Cloud，阿里云如何接住模型之后的生意",
+      "summary": "阿里云因此把能力建设延伸到模型训练与推理，智能体的构建与运行，以及企业数据的组织和使用，相比采购一项产品，企业得到的是一套可以共同工作的基础设施。",
+      "content": "阿里云因此把能力建设延伸到模型训练与推理，智能体的构建与运行，以及企业数据的组织和使用，相比采购一项产品，企业得到的是一套可以共同工作的基础设施。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-29T10:45:28.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8182516.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793297730835_582193a3",
+      "title": "AI引发影视大迁徙：李世民下山、马景涛飞天、张艺兴远赴美国",
+      "summary": "AI引发影视大迁徙：李世民下山、马景涛飞天、张艺兴远赴美国",
+      "content": "凛冬已至，各谋生路。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-29T10:15:36.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8186403.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793250174887_d836c91f",
@@ -101,6 +125,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1793297702861_0",
+      "title": "One Tech Tip: How to get started with AI agents, and which are best for specific tasks",
+      "summary": "Agentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in ...",
+      "content": "Agentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in the surging market for consumer-friendly AI agents.\nWhile the leading AI labs have offered tools wit... [5319 chars]",
+      "imageUrl": "https://wtop.com/wp-content/uploads/2026/09/Open_AI_Conference_33846-scaled.jpg",
+      "source": "WTOP",
+      "publishedAt": "2026-10-29T04:02:10.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://wtop.com/national/2026/10/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks/",
+      "aiInsight": ""
+    },
+    {
       "id": "news_1793250176590_5c160d7f",
       "title": "Optimus的第一份工作是插枪：人形机器人的主战场，从来不在工厂",
       "summary": "人形机器人正在批量进工厂，市场叙事是“替代产线工人”。本文给出反共识判断：标准场景早被传送带与机械臂吃透，进厂只是练兵；真正的主战场，是非标服务业的“移动缝隙”。机器负责干活，人负责生活。",
@@ -123,6 +159,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/bXKVgLdpf7HONYHIi6Su?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793297720996_1",
+      "title": "The AI money loop: How Nvidia, AI companies, neoclouds, and Wall Street are financing the AI boom",
+      "summary": "Nearly four years after OpenAI forever changed artificial intelligence with the launch of ChatGPT, cracks are emerging in the AI boom, and Wall Street...",
+      "content": "Nearly four years after OpenAI forever changed artificial intelligence with the launch of ChatGPT, cracks are emerging in the AI boom, and Wall Street is taking notice.\nIn mid-October, yields on some of Nvidia-backed CoreWeave’s bonds surged past 16%... [22337 chars]",
+      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/10/The-AI-money-loop-How-Nvidia-AI-companies-neoclouds-and-Wall-Street-are-financing-the-AI-boom-1-960x602.jpg",
+      "source": "TechStartups.com",
+      "publishedAt": "2026-10-28T20:26:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://techstartups.com/2026/10/28/the-ai-money-loop-how-nvidia-ai-companies-neoclouds-and-wall-street-are-financing-the-ai-boom/",
+      "aiInsight": ""
     },
     {
       "id": "news_1793210874986_12b01ad0",
@@ -209,7 +257,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793250163561_0",
+      "id": "news_1793297701791_2",
       "title": "Pennsylvania Senate bill aims to keep teachers, not AI, at forefront of classroom learning",
       "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Iowa Because you are coming from a location (Iowa) covered by a Privacy Law, many of the features of TribLIVE.com...",
       "content": "Neil English believes artificial intelligence should have a supporting role in the classroom but never be the star.\n“We believe it has potential to enhance teaching and learning,” said English, River­view School District superintendent. “It should se... [5032 chars]",
@@ -315,54 +363,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8184159.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793163172006_712a5ebe",
-      "title": "小微灰度的第130天：小程序正在被拆成零件，交给微信的AI",
-      "summary": "小微灰度的第130天：小程序正在被拆成零件，交给微信的AI",
-      "content": "“未完成接入的小程序，将无法被微信 AI 推荐及调用。”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-28T01:03:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8183962.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793250163687_1",
-      "title": "OpenAI just scooped human researchers on a million-dollar quantum math problem",
-      "summary": "If you’ve been keeping up with news in the math world, the story will sound strikingly familiar, right down to its cast of characters.\nUsing a proprie...",
-      "content": "If you’ve been keeping up with news in the math world, the story will sound strikingly familiar, right down to its cast of characters.\nUsing a proprietary internal large language model (LLM), OpenAI just released a result mathematicians have been cha... [8729 chars]",
-      "imageUrl": "https://static.scientificamerican.com/dam/asset/be949c97-6aba-446d-bd3a-f2e111fa9566/Quantum-AI-math-blob.jpeg?m=1793127414.515&w=1200",
-      "source": "Scientific American",
-      "publishedAt": "2026-10-27T18:10:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.scientificamerican.com/article/openai-just-scooped-human-researchers-on-a-million-dollar-quantum-math-problem/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1793123133921_e0958c24",
-      "title": "Meta AI 负责人罗希特 · 帕特尔离职创业，打造微软 Office 替代方案 Ndoc",
-      "summary": "IT之家 10 月 27 日消息，据科技媒体 TechCrunch 今天报道，Meta 人工智能负责人罗希特 · 帕特尔（Rohit Patel）已经离开公司，他曾在 Meta 从事 AI 研发工作八年，并担任 Meta 超级智能实验室负责人。",
-      "content": "IT之家 10 月 27 日消息，据科技媒体 TechCrunch 今天报道，Meta 人工智能负责人罗希特 · 帕特尔（Rohit Patel）已经离开公司，他曾在 Meta 从事 AI 研发工作八年，并担任 Meta 超级智能实验室负责人。 据报道，帕特尔已创立 Ndoc 公司，他将开发一款原生 AI 办公软件，旨在取代微软 Office 和谷歌 Workspace。 这名前 Meta 研究员希望，Ndoc 不能只是叠加在现有工作流的 AI 工具，而是要改变人们使用各种工具的碎片化现状。例如大家经常要来回切换 Excel、Word、PowerPoint 和 Tableau 等软件，还要不断把内容复制粘贴到 ChatGPT 中。 Ndoc 的目标是将上述所有工作流整合到统一空间之中，让所有人都能轻松办公。 据悉，Ndoc 在同一界面中整合了三个主要模块。「Stage」用于展示关键内容，如幻灯片、仪表盘、模拟结果和迷你应用；「Narrative」用于呈现分析内容、带编号的引用、生成图表，以及解释数据背后原因；「Model」则用于存放底层数据集和 Python 脚本。 在实际使用中，用户可以上传数据集让 Ndoc 分析，并根据结果撰写说明性文本。这款软件更远大的目标是“重新定义文件”，其文档可导出为独立的“.ndoc.html”文件，然后在所有浏览器打开。帕特尔希望将这种格式开源，让其他开发者也能使用。 帕特尔是近期离开 Meta 的众多高管和研究员之一。此前，Meta 全球事务负责人乔尔 · 卡普兰（Joel Kaplan）、AI 研究员安德鲁 · 塔洛克（IT之家注：Andrew Tulloch），以及负责工作场景 AI 产品的负责人艾米莉 · 道尔顿 · 史密斯（Emily Dalton Smith）均已离职。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/5c8b52dc-fac0-4b68-8f41-aa01dd27b005.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-10-27T15:27:53.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/018/696.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793123122372_02bf1223",
-      "title": "“跑高分”不等于“能交付”：AI排行榜正在经历一场信用重估",
-      "summary": "“跑高分”不等于“能交付”：AI排行榜正在经历一场信用重估",
-      "content": "旧榜跑分逼近满分，新榜实战却集体不及格。当大模型评测本身变成生意，企业选型正从看排名转向算成本账。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-27T10:42:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8183550.html",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
