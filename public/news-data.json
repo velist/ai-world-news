@@ -1,44 +1,80 @@
 {
   "success": true,
-  "timestamp": "2026-10-30T05:03:49Z",
-  "total": 28,
+  "timestamp": "2026-10-30T17:55:12Z",
+  "total": 24,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1793336518657_69b02281",
-      "title": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
-      "summary": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
-      "content": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
+      "id": "news_1793382802698_cf4ed776",
+      "title": "AI+垂类Agent：任务跑得久、工具用得熟，撑不起Agent公司长期竞争力｜贝联珠贯创始人兼CEO 毕玄分享",
+      "summary": "AI+垂类Agent：任务跑得久、工具用得熟，撑不起Agent公司长期竞争力｜贝联珠贯创始人兼CEO 毕玄分享...",
+      "content": "AI+垂类Agent：任务跑得久、工具用得熟，撑不起Agent公司长期竞争力｜贝联珠贯创始人兼CEO 毕玄分享",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-30T11:22:00.000Z",
+      "publishedAt": "2026-10-30T19:27:01.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/FJqN3mFVyN1lMqHOiegs?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/sCKczimP9lSEl0rgJ7VY?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793336519236_04ec4319",
-      "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
-      "summary": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
-      "content": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+      "id": "news_1793382803225_26e680d4",
+      "title": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
+      "summary": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
+      "content": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-30T10:04:10.000Z",
+      "publishedAt": "2026-10-30T18:53:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/f3FdeDczctAdHMhvBdKw?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793382803443_3c635370",
+      "title": "2026年AI技术演进与2027年趋势前瞻报告",
+      "summary": "2026年AI技术演进与2027年趋势前瞻报告",
+      "content": "2026年AI技术演进与2027年趋势前瞻报告",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-30T14:41:36.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/minibook/lmVM6XjSDMpMb6QTbK0l?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793382798532_47d56769",
+      "title": "OpenAI又出数学大结果，陶哲轩：数学不该被AI“掠夺式开采”",
+      "summary": "OpenAI又出数学大结果，陶哲轩：数学不该被AI“掠夺式开采”",
+      "content": "AI野蛮人敲门，数学界难寻白衣骑士。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-30T11:00:28.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8187753.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793382798771_8b23bab1",
+      "title": "百度搜索实现递归自我进化，百度App的价值正在被重新定义",
+      "summary": "百度搜索实现递归自我进化，百度App的价值正在被重新定义",
+      "content": "个性化，行动力，再加上长程性，这三件事逐渐成为公认的衡量指标。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-30T10:21:19.000Z",
       "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8187710.html",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793336519700_d1877bb4",
-      "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
-      "summary": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
-      "content": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "id": "news_1793382799249_e8dfd4a4",
+      "title": "Anthropic会成为人类历史上最值钱的公司吗？",
+      "summary": "Anthropic会成为人类历史上最值钱的公司吗？",
+      "content": "Anthropic会成为人类历史上最值钱的公司吗？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-30T09:23:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "钛媒体",
+      "publishedAt": "2026-10-30T09:34:54.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8187623.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793336526757_00893904",
@@ -101,7 +137,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793336507335_0",
+      "id": "news_1793382789691_0",
       "title": "California’s artificial intelligence bill has gaps. Lawmakers plan to fill them",
       "summary": "By Stephen Hobbs, The Sacramento Bee\nSACRAMENTO — A rogue action by OpenAI’s artificial intelligence models this summer to break into another company ...",
       "content": "By Stephen Hobbs, The Sacramento Bee\nSACRAMENTO — A rogue action by OpenAI’s artificial intelligence models this summer to break into another company was not considered a “critical safety incident,” under a California law regulating the technology.\nT... [3102 chars]",
@@ -113,7 +149,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1793336507124_1",
+      "id": "news_1793382790021_1",
       "title": "Generated Findings in Mathematics, Computer Science and Physics – NaturalNews.com",
       "summary": "OpenAI said its artificial intelligence systems produced findings in mathematics, computer science and physics, according to a report by Quartz [1]. T...",
       "content": "OpenAI said its artificial intelligence systems produced findings in mathematics, computer science and physics, according to a report by Quartz [1]. The company described three discoveries in which it said its AI models generated results across the t... [5669 chars]",
@@ -197,7 +233,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793336507834_2",
+      "id": "news_1793382790284_2",
       "title": "One Tech Tip: How to get started with AI agents, and which are best for specific tasks",
       "summary": "Agentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in ...",
       "content": "Agentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in the surging market for consumer-friendly AI agents.\nWhile the leading AI labs have offered tools wit... [5319 chars]",
@@ -233,7 +269,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793336507525_3",
+      "id": "news_1793382790066_3",
       "title": "The AI money loop: How Nvidia, AI companies, neoclouds, and Wall Street are financing the AI boom",
       "summary": "Nearly four years after OpenAI forever changed artificial intelligence with the launch of ChatGPT, cracks are emerging in the AI boom, and Wall Street...",
       "content": "Nearly four years after OpenAI forever changed artificial intelligence with the launch of ChatGPT, cracks are emerging in the AI boom, and Wall Street is taking notice.\nIn mid-October, yields on some of Nvidia-backed CoreWeave’s bonds surged past 16%... [22337 chars]",
@@ -255,90 +291,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/mFXr0u4z0XftUGUg5Wm7?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793210879107_dc06fab0",
-      "title": "Artificial Analysis Intelligence Index v5 基准上线，DeepSeek V4.1 Flash 1017 为 FrontierCode 2.0 开源模型最高成绩",
-      "summary": "IT之家 10 月 29 日消息，Artificial Analysis 昨日发布了 Intelligence Index v5，这是该机构自 2026 年 1 月 v4 上线以来幅度最大的一次基准重构。",
-      "content": "IT之家 10 月 29 日消息，Artificial Analysis 昨日发布了 Intelligence Index v5，这是该机构自 2026 年 1 月 v4 上线以来幅度最大的一次基准重构。 最直接的变化是，60% 的评测权重首次建立在私有测试集或隐藏答案之上，用于压缩公开题库被模型训练数据“污染”的空间，减少了各厂商为了跑分而跑分的“注水”测试项目。 该指数仍由九项评测构成，包括知识工作、编码、科学、通用能力各占 25%。其中编码 25% 的权重里，Cognition 于同日发布的 FrontierCode 2.0 独占 15%，Terminal-Bench 4.0 占 10%。 其中最值得关注的 FrontierCode 2.0 完全换了一套评分逻辑。132 项任务全部来自真实开源仓库，模型提交的代码改动不再只由单元测试是否通过来判定，而是由该仓库的维护者按“是否愿意合并这个 PR”来打分，任何一项阻塞性检查失败即记零分。 Cognition 在 6 月推出 FrontierCode 初版时就强调，传统基准只检查代码能否跑通，而合并决策还涉及改动范围是否克制、风格是否与代码库一致、回归风险是否可控等测试无法完全覆盖的维度。v5 将这一基准升级到 2.0 并纳入主指数，等于把“可合并性”而非“可运行性”推到了编码能力评价的中心。 在这一口径下，DeepSeek V4.1-Flash 1017（max）在 FrontierCode 2.0 上录得 28%，是所有已发布权重模型中得分最高的一个。 Kimi K3.1 Pro 以 25.5% 紧随其后，但其完整权重按月之暗面官方博客的表述，要到 11 月 4 日前才发布，AA 在 v5 报告中将其标注为“weights not yet released”。 谷歌 Gemini 4 Argon（high）为 25.7%，GPT-6 Luna 为 25.2%，均低于 DeepSeek V4.1 Flash。需要说明的是，这一成绩位于 FrontierCode 2.0 单项之内；在 Intelligence Index v5 的综合得分上，DeepSeek V4.1 Flash 与 GLM-5.3 同为 32 分，仍落后榜首 Claude Opus 5.5（58 分）26 分，且低于 Claude Haiku 5.5 的 36 分。 Artificial Analysis 指出，v5 真正加剧的是开源与闭源前沿之间的整体距离。v4.3 时，最强开源模型与榜首的差距是 3 分；v5 把大部分公开题换成私有题、并大幅加重智能体实战任务的比重之后，这一差距扩大到 12 分。Kimi K3.1 Pro 以 46 分成为名义上最强的开源权重模型，但它尚未发布权重；已发布权重的模型中，32 分是当前的天花板。 差距在 HLE-Diamond 和 Terminal-Bench-Science 两项上最为刺眼：Kimi K3.1 Pro 分别为 37% 和 34%，而 Claude Opus 5.5 在 HLE-Diamond 上为 68%，GPT-6 Astra 在 Terminal-Bench-Science 上为 63%。 v5 并没有让开源模型“一夜变差”，它改变的是测量的东西 —— 当题目不再公开、评分不再只看通过率，那些依靠公开题库优化出来的分数被系统性地挤掉了水分。 另一个被 v5 放大的变量是“努力值”（思考等级）的成本优势。Claude Opus 5.5 从低努力档到 max 档跨越 23 分，单任务成本从 0.98 美元升至 10.04 美元，相差约 10 倍。 Claude Sonnet 5.5 在不同努力档之间的分差从 v4.3 的 20 分扩大到 29 分，GPT-6.1 Sol 的跨度翻倍至 20 分。这意味着同一模型在“省钱模式”和“全力模式”下的表现差距，已经大到不像一个模型。 在得分最高的十款模型中，GPT-6.1 Terra 的每任务成本最低，为 0.96 美元，Claude Fable 5.1 最高，为 13.04 美元，相差超过 13 倍。 与 v5 同步推出的 Progress Index v1 则处理另一个问题：当基准本身每隔几个月就换一次，不同年代的模型如何放在同一把尺子上比较。Progress Index 将 2022 年 11 月以来发布的主要语言模型映射到一个连续的能力尺度上，其设计参考了 Epoch AI 的 Epoch Capabilities Index 的方法。Intelligence Index 继续作为衡量“当下前沿”的主指标，Progress Index 则用于观察“能力随时间如何演进”，两者回答的是不同问题。 实际上，v5 的九项评测中没有任何一个模型全部领先：Claude Opus 5.5 拿下 FrontierCode 2.0、HLE-Diamond 和 AA-Omniscience 三项，GPT-6 Astra 在 Terminal-Bench-Science 和 CritPt v2 困难子集上居首，Kimi K3.1 Pro 在 Terminal-Bench 4.0 上以 67% 领先，单项优势的分散程度比总分排名更值得注意。 相关阅读： 《国产最强 DeepSeek V4.1 Flash-1017 登顶 Agent Arena 开源榜，总榜第 11》 《DeepSeek V4.1 Flash 发力，中美顶尖模型 LiveBench 跑分差距缩至 3%》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/17c625f9-32d1-44ad-9b68-c4e7b73e579e.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-10-28T17:06:21.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/019/237.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793210867520_59e6f245",
-      "title": "DSH测试文件“泄密”，DeepSeek V5就要来了？",
-      "summary": "DSH测试文件“泄密”，DeepSeek V5就要来了？",
-      "content": "DSH测试文件出现三个deepseek-v5模型，或为占位符",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-28T12:19:41.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8184852.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793163175292_2ee6786f",
-      "title": "智能指数得分创新高！蚂蚁百灵开源Ling-3.1-flash-1019：让Personal Agent走向真实业务",
-      "summary": "智能指数得分创新高！蚂蚁百灵开源Ling-3.1-flash-1019：让Personal Agent走向真实业务...",
-      "content": "智能指数得分创新高！蚂蚁百灵开源Ling-3.1-flash-1019：让Personal Agent走向真实业务",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-28T12:13:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/wIuu0NSaLSaqJJpXVExD?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793210867946_fbecfe7d",
-      "title": "当DeepSeek成为一种亚文化",
-      "summary": "当DeepSeek成为一种亚文化",
-      "content": "当DeepSeek成为一种亚文化",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-28T11:58:12.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8184563.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793210868829_488d9d15",
-      "title": "当上下文成为产业共识，金蝶灵基把ERP变成Agent的认知底座",
-      "summary": "当上下文成为产业共识，金蝶灵基把ERP变成Agent的认知底座",
-      "content": "产品发布仅五个月，客户价值的可信度、人机交互的边界等，需要靠工程能力与客户校验共同推进。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-28T09:28:49.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8184285.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793210869255_8a2ed914",
-      "title": "短剧的通胀危机：为何AI没有让内容生意更好赚钱？",
-      "summary": "短剧的通胀危机：为何AI没有让内容生意更好赚钱？",
-      "content": "在淘金热里卖水始终是好生意，但最好的生意是拥有金矿，或者拥有那条河。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-28T09:22:35.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8184741.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793336506998_4",
-      "title": "Pennsylvania Senate bill aims to keep teachers, not AI, at forefront of classroom learning",
-      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Iowa Because you are coming from a location (Iowa) covered by a Privacy Law, many of the features of TribLIVE.com...",
-      "content": "Neil English believes artificial intelligence should have a supporting role in the classroom but never be the star.\n“We believe it has potential to enhance teaching and learning,” said English, River­view School District superintendent. “It should se... [5032 chars]",
-      "imageUrl": "https://assets-varnish.triblive.com/2026/10/10042717_web1_vnd-classroomAI0-3-102726.JPG",
-      "source": "Pittsburgh Tribune-Review",
-      "publishedAt": "2026-10-28T05:30:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://triblive.com/local/valley-news-dispatch/pennsylvania-senate-bill-aims-to-keep-teachers-not-ai-at-forefront-of-classroom-learning/",
-      "aiInsight": ""
     }
   ]
 }
