@@ -1,32 +1,92 @@
 {
   "success": true,
-  "timestamp": "2026-10-29T18:17:23Z",
-  "total": 30,
+  "timestamp": "2026-10-30T05:03:49Z",
+  "total": 28,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1793297734161_422abcf5",
-      "title": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
-      "summary": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
-      "content": "谷歌赢了 AI 排行榜，却没赢下华尔街：Gemini 4 Carbon 登顶背后的昂贵代价",
+      "id": "news_1793336518657_69b02281",
+      "title": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
+      "summary": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
+      "content": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-29T20:13:07.000Z",
+      "publishedAt": "2026-10-30T11:22:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/FJqN3mFVyN1lMqHOiegs?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793336519236_04ec4319",
+      "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+      "summary": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+      "content": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-30T10:04:10.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793336519700_d1877bb4",
+      "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "summary": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "content": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-30T09:23:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793336526757_00893904",
+      "title": "Reddit 大调整：浏览内容需先登录，以防范 AI 爬虫",
+      "summary": "IT之家 10 月 30 日消息，Reddit 的界面和使用体验即将迎来巨大变化，而且这不单单是平台昨天公布的“为你推荐”和“关注”信息流改版那么简单。Reddit 正在筹划一项影响深远的调整，这可能会从根本上改变数百万用户访问这个平台的方式。",
+      "content": "IT之家 10 月 30 日消息，Reddit 的界面和使用体验即将迎来巨大变化，而且这不单单是平台昨天公布的“为你推荐”和“关注”信息流改版那么简单。Reddit 正在筹划一项影响深远的调整，这可能会从根本上改变数百万用户访问这个平台的方式。 今日早些时候，Reddit 首席执行官史蒂夫 · 赫夫曼（Steve Huffman）宣布，平台将逐步转向以登录浏览为主的模式，用户对这项调整普遍感到不满。 这个 2005 年上线的社区平台，长期以来都支持游客无需登录即可浏览内容。当然，游客无法享受登录用户的全部功能，但除了旧版界面 old.reddit 和年龄限制内容之外，原本可以自由浏览。而现在，Reddit 打算改掉这个规则。 赫夫曼给出了推行这项改动的理由。他写道，转向登录优先模式可以优化内容个性化推荐、提升用户互动，方便平台投放更贴合用户的广告，而最重要的一点，是阻止 AI 模型爬取站内内容。 赫夫曼在 Reddit 第三季度致股东信中写道： 转向以登录浏览为主的模式，能够让用户获得最好的 Reddit 使用体验，找到和自己最相关的内容与社区。这对业务也更有利，我们能拿到更多用于广告定向的用户信号，登录状态通常也会带来更高的活跃度。同时，这有助于保护 Reddit 极具价值的内容数据集，让我们更好地适配全球陆续出台的新规。 根据该公司第三季度股东信，2026 年第三季度，Reddit 日均独立访问用户为 1.303 亿人，其中游客访客 7680 万人，登录用户 5350 万人。也就是说，上一季度 59% 的活跃用户都是以游客身份访问平台。换句话说，这次改动影响的将是大部分日活用户，而不只是一小部分人群。 好在 Reddit 并不会把所有内容都设置成登录才能查看。在介绍登录与游客浏览的权限边界时，赫夫曼表示，Reddit 首页会继续对所有人开放。 首页支持游客访问，这点很实用，也很重要。当然，我们希望用户能够分享帖子，也希望从搜索引擎或者外部链接跳转过来的访客，可以看到链接指向的内容。 不出所料，这项计划没能得到用户认可，赫夫曼帖子下方的评论充分体现了这一点。有人提问，以后临时查找解决方案时，会不会频繁弹出登录拦截弹窗，赫夫曼回应称，公司还需要测试，找到合适的平衡点。他补充说：“通过分享链接或者搜索跳转来的一次性访客，并不是这次调整的主要针对对象。” IT之家注意到，还有不少用户认为，平台应该把精力放在新增功能、优化现有体验上，而不是提高访问门槛。部分用户担忧 Reddit 会变成 X 或者 Pinterest 那样，点开别人分享的链接，直接弹出登录提示。 赫夫曼表示，公司还在摸索合适的权限划分方案，接下来几个月会在美国以外的部分市场，测试不同的落地方式。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/5fa8492e-024b-4b68-bdd6-ccbd89217157.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-10-30T03:58:54.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/dXwHCW7kjGX1kjPqtla9?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.ithome.com/1/019/988.htm",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793297734835_87a020f3",
-      "title": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
-      "summary": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
-      "content": "AI+增长：员工提效了，企业为什么没多赚钱？｜上海鲸阙AI联合创始人 沈涛分享",
+      "id": "news_1793336514563_cab2164a",
+      "title": "OpenAI健康板块负责人：AI医疗健康的上限和下限",
+      "summary": "OpenAI健康板块负责人：AI医疗健康的上限和下限",
+      "content": "从救人到越界，只有一步之遥。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-29T18:00:23.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-30T03:48:24.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/aK6ADSkIvwf265yc8PuT?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8186695.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793336515269_517c80c7",
+      "title": "谷歌暴跌、亚马逊失血、微软发债：AI 基建竞赛进入分水岭",
+      "summary": "三大云巨头算力售罄排到 2028 年，却同时交出多年首见的负自由现金流，这一轮 AI 竞赛的分水岭，是市场开始只为回报付钱。",
+      "content": "三大云巨头算力售罄排到 2028 年，却同时交出多年首见的负自由现金流，这一轮 AI 竞赛的分水岭，是市场开始只为回报付钱。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-30T02:30:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8187079.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793336515671_12ebcd71",
+      "title": "智元创新日：从卖机器人到卖Worken",
+      "summary": "智元创新日：从卖机器人到卖Worken",
+      "content": "Worken（有效智能工时）＝活跃机器人数量 × 自主工作时长 × 产出效能比。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-30T02:18:47.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8187159.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793297743062_b2f5bb62",
@@ -41,16 +101,28 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793297735301_8a2cb774",
-      "title": "生产级 AI：隐性故障、工程落地与智能体治理",
-      "summary": "生产级 AI：隐性故障、工程落地与智能体治理",
-      "content": "生产级 AI：隐性故障、工程落地与智能体治理",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-29T15:21:00.000Z",
+      "id": "news_1793336507335_0",
+      "title": "California’s artificial intelligence bill has gaps. Lawmakers plan to fill them",
+      "summary": "By Stephen Hobbs, The Sacramento Bee\nSACRAMENTO — A rogue action by OpenAI’s artificial intelligence models this summer to break into another company ...",
+      "content": "By Stephen Hobbs, The Sacramento Bee\nSACRAMENTO — A rogue action by OpenAI’s artificial intelligence models this summer to break into another company was not considered a “critical safety incident,” under a California law regulating the technology.\nT... [3102 chars]",
+      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2026/10/202610282202MCT_____PHOTO____US-NEWS-CALIF-AI-BILL-FILEPIC-GET_a7c24c.jpg?w=2000&h=1354",
+      "source": "The Mercury News",
+      "publishedAt": "2026-10-29T14:51:59.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/tsyyFmCmzphHw4gWy7Fo?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.mercurynews.com/2026/10/29/californias-artificial-intelligence-bill-has-gaps-lawmakers-plan-to-fill-them-3-2/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1793336507124_1",
+      "title": "Generated Findings in Mathematics, Computer Science and Physics – NaturalNews.com",
+      "summary": "OpenAI said its artificial intelligence systems produced findings in mathematics, computer science and physics, according to a report by Quartz [1]. T...",
+      "content": "OpenAI said its artificial intelligence systems produced findings in mathematics, computer science and physics, according to a report by Quartz [1]. The company described three discoveries in which it said its AI models generated results across the t... [5669 chars]",
+      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/10/ai-generated-findings-openai-mathematics-5888-1010b902-original.jpg",
+      "source": "Natural News",
+      "publishedAt": "2026-10-29T11:10:18.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.naturalnews.com/2026-10-29-ai-generated-findings-mathematics-computer-science-physics.html",
+      "aiInsight": ""
     },
     {
       "id": "news_1793297729802_dc540202",
@@ -125,7 +197,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793297702861_0",
+      "id": "news_1793336507834_2",
       "title": "One Tech Tip: How to get started with AI agents, and which are best for specific tasks",
       "summary": "Agentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in ...",
       "content": "Agentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in the surging market for consumer-friendly AI agents.\nWhile the leading AI labs have offered tools wit... [5319 chars]",
@@ -161,7 +233,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793297720996_1",
+      "id": "news_1793336507525_3",
       "title": "The AI money loop: How Nvidia, AI companies, neoclouds, and Wall Street are financing the AI boom",
       "summary": "Nearly four years after OpenAI forever changed artificial intelligence with the launch of ChatGPT, cracks are emerging in the AI boom, and Wall Street...",
       "content": "Nearly four years after OpenAI forever changed artificial intelligence with the launch of ChatGPT, cracks are emerging in the AI boom, and Wall Street is taking notice.\nIn mid-October, yields on some of Nvidia-backed CoreWeave’s bonds surged past 16%... [22337 chars]",
@@ -257,7 +329,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793297701791_2",
+      "id": "news_1793336506998_4",
       "title": "Pennsylvania Senate bill aims to keep teachers, not AI, at forefront of classroom learning",
       "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Iowa Because you are coming from a location (Iowa) covered by a Privacy Law, many of the features of TribLIVE.com...",
       "content": "Neil English believes artificial intelligence should have a supporting role in the classroom but never be the star.\n“We believe it has potential to enhance teaching and learning,” said English, River­view School District superintendent. “It should se... [5032 chars]",
@@ -267,102 +339,6 @@
       "category": "国外AI",
       "originalUrl": "https://triblive.com/local/valley-news-dispatch/pennsylvania-senate-bill-aims-to-keep-teachers-not-ai-at-forefront-of-classroom-learning/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1793163168147_5d51c598",
-      "title": "豆包不如先做老年机",
-      "summary": "豆包不如先做老年机",
-      "content": "老年群体是努比亚和豆包重合度相当高的消费群体",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-28T04:17:17.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8183800.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793163183960_c9994d34",
-      "title": "“编程面试已死”：Anthropic 称 AI 时代编程题已无法筛选程序员",
-      "summary": "IT之家 10 月 28 日消息，Anthropic 招聘经理、Claude 相关产品工程负责人 Felix Rieseberg 本月表示，他已在其团队的招聘流程中取消传统编程题面试。他在社交平台发文称：“编程面试已经死了，至少对我的团队而言。",
-      "content": "IT之家 10 月 28 日消息，Anthropic 招聘经理、Claude 相关产品工程负责人 Felix Rieseberg 本月表示，他已在其团队的招聘流程中取消传统编程题面试。他在社交平台发文称：“编程面试已经死了，至少对我的团队而言。” Rieseberg 认为当 Claude 已能轻松完成小型 React 挑战，甚至处理底层汇编问题后，继续用编程题筛选工程师，就像继续考问汇编语言一样失去意义。面试结果衡量的更多是 AI 的能力，而非在真实工作中，候选人可能表现出的判断力、产品品味和协作能力。 他同时向初级工程师提出一个颇为大胆的建议：在“执行力成本”大幅下降的 AI 时代，资历不再天然决定影响力。与其等待完整的产品需求文档、跨部门审批或设计师与产品经理的资源支持，不如瞄准具体业务目标，利用新人视角和 AI 工具，在一个周末做出一个可运行的单点原型，用成果争取组织支持。他将这一逻辑概括为“饥饿胜过资历”。 相关阅读： 《别学编程了！Anthropic CEO 直言：代码工作快速消失，人类应该学弹钢琴》",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/05feece0-96d9-41fe-953d-d512b4ec8c87.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-10-28T04:10:37.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/1/018/876.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793163184029_55ff0071",
-      "title": "OpenAI 宣布三项重大科学突破，科研界却不满其成果发布方式",
-      "summary": "IT之家 10 月 28 日消息，OpenAI 于当地时间周一宣布，公司在数学、计算机科学与物理学领域取得了引人瞩目的突破，同时称自身正在调整成果发布的沟通方式。不过，尽管看起来做出了路线修正，接受 The Verge 采访的科研人员对这家公司的行事方式却愈发感到厌烦。",
-      "content": "IT之家 10 月 28 日消息，OpenAI 于当地时间周一宣布，公司在数学、计算机科学与物理学领域取得了引人瞩目的突破，同时称自身正在调整成果发布的沟通方式。不过，尽管看起来做出了路线修正，接受 The Verge 采访的科研人员对这家公司的行事方式却愈发感到厌烦。 IT之家注意到，过去几个月，OpenAI 和数学界之间一直摩擦不断。十月初，该公司一次性抛出数百篇预印本，让数学家群体疲于应对。这一次，OpenAI 表示会和担任“引导人”的领域专家合作，确定发布最新成果的合适方式。 三项成果分别针对数学、计算机科学、物理学领域中若干最重要的未解难题，一部分延续了 OpenAI 此前的研究方向，另一部分则开辟了新的研究路线。根据这些“引导人”给出的建议，三项成果采用了各不相同的发布方案：数学方向的成果直接放出 AI 生成的推导内容，“交由学界研究者自主组织力量去解读这项结论”；计算机科学方向的成果，OpenAI 会组建外部研究小组来负责解读；而物理学方向的成果暂不对外公开，OpenAI 称将交由外部专家团队决定后续的发布形式。 这项数学成果十分震撼，据称已经在全部维度上证明了挂谷猜想（Kakeya conjecture）。简单来说，这个问题研究的是：想要让一根针或者一支铅笔朝向各个方向旋转，最少需要多大的空间。今年早些时候，数学家王虹正是凭借三维版本猜想的证明等成果，斩获了菲尔兹奖这一重量级奖项。布朗大学数学教授布伦丹 · 哈塞特（Brendan Hassett）表示，OpenAI 给出的结论“看起来有充分依据”，但他同时强调自己还没有核验 Lean 形式化证明，也就是依靠计算机校验结论的这套形式体系。 物理学方向的成果围绕标准模型展开，标准模型是物理学当中最成熟、完备的理论框架。研究聚焦量子色动力学，该理论描述四大基本作用力之一的强核力，以及它和杨-米尔斯理论之间的关联；杨-米尔斯理论也是现代粒子物理学的基石，同时属于七大千禧年大奖难题之一，不过 OpenAI 的这项研究并没有解决悬而未决的“质量间隙”问题。 最后一项成果宣称证伪了指数时间假说。这是理论计算机科学领域被广泛认可的一个假设：部分问题无法找到远快于暴力枚举的求解方案。该假说和 P 对 NP 问题紧密相关，后者同样是千禧年大奖难题，也是该领域最知名的未解问题之一，核心是探讨那些答案很容易核验的问题，本身是否也能快速求解。 由于各项成果的公开程度不一，并且这类成果的验证门槛极高，科研人员很难完整评判这些结论。就算拿到全部资料，核验工作也需要大量时间。但接受采访的专家表示，这些成果值得认真对待，不少人评价它们“分量巨大”“属于重大突破”“意义深远”。 科研人员固然为这些科学进展感到振奋，但同时也对 OpenAI 的做法感到恼火。在过去数月接连接收大量 AI 产出的研究结论之后，这种疲惫感早已十分熟悉。很多研究者希望整个学界能够集中精力，投入到繁重的核验工作当中，同时质疑 OpenAI 为何还要增设门槛，亲自挑选专家来把控整个流程。 接受采访的大部分专家，对 OpenAI 征询外部研究者意见的做法表示认可，但他们提出：公开发表研究结论，就意味着应当把相关材料开放给所有人核验。高等研究院研究员康斯坦丁 · 科格勒（Constantin Kogler）说：“相比之前一次性放出几百篇，这次只公布三项成果，我认可这样的发布节奏。”但他不认同把查阅权限限定在 OpenAI 选定的专家范围内。他表示：“没有道理一开始只允许少数知名科学家查看内容。” 得克萨斯大学奥斯汀分校物理学教授安德烈亚斯 · 卡赫（Andreas Karch）称：“由他们亲自挑选专家团队，这件事非常糟糕。大型实验室本身已经拥有足够大的话语权，不该由它们来决定谁有资格参与、谁被排除在外。”卡赫一开始提议，可以通过遴选机制挑选研究者，不过他也承认，最终入选的人选大概率依旧是顶尖学者。之后他又提出疑问：为什么不能直接同步放出证明材料，再配套专家解读小组。“这样既能让所有人都有机会接触内容，同时也能体现他们希望让成果被理解、被重视的态度。” 就在 OpenAI 官宣前一天，数学与人工智能咨询专家组（AGMAI）刚刚发文，专门警示这种信息管控行为。专家组表示：“我们不建议 AI 企业采用这种模式。”他们认为，优先向特定人群开放内容并无必要，这种做法会借用被选中研究者的声望，还会带来访问权限不均、遴选存在偏向、进度无故推迟等一系列风险。专家组给出的方案是：AI 实验室应当把成果上传至学术预印平台，附上形式化证明、选题说明，同时提供资金和配套支持，帮助学界解读这些结论。 在这批新成果公布之后，AGMAI 敦促 OpenAI“立即公开发布这项物理学成果对应的自然语言文稿与 Lean 形式化证明”： 这些既是物理学的核心问题，也是重要的数学问题。量子杨-米尔斯理论的存在性属于千禧年大奖难题，而四维相互作用量子场论的构建，数十年来一直是数学物理领域的目标。 我们十分尊重 OpenAI 邀请来牵头这项工作的科学家。但正如我们此前声明所说，成果的解读应当在公开环境下推进，所有人拥有同等的访问权限。OpenAI 称推迟发布是为了完成 Lean 形式化证明。按照他们自己的说法，这项工作如今已经完成，从科学层面来说，没有理由继续延后发布。 哈塞特认为，把成果完全公开也有利于推动科学发展，帮助 AI 这类新工具得到更广泛的接纳。“世界各地多个研究团队一同钻研这些结论，能让有需要的研究者更快上手使用这些新工具。” 想要找到一种沟通方式，让 OpenAI 正在涉足的各个学科的研究者都满意，或许本身就不现实。OpenAI 表示正在尝试不同方案，也承认每种方式都存在取舍。斯坦福大学数学家贾里德 · 杜克 · 利希特曼（Jared Duker Lichtman）说：“我的感受是，无论选择哪一种方案，总会有人感到不满。我们只是要找到争议最小的方式。” 佐治亚理工学院数学教授何晓宇（Xiaoyu He）认为，问题远比发布形式更深层。“成果本身非常亮眼，但在我看来，他们只是在刻意表现自己负责、审慎的态度，却回避了核心矛盾：这些基础性难题被 AI 快速攻克，全程缺少人类研究者的贡献，而且产出的证明文本很难阅读、难以核验。”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/2/8ad2304d-c61b-4004-9483-e1a55ca43342.png",
-      "source": "IT之家",
-      "publishedAt": "2026-10-28T03:27:59.000Z",
-      "category": "AI趣味新闻",
-      "originalUrl": "https://www.ithome.com/1/018/818.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793163168821_e374a829",
-      "title": "Claude 的账单，金主先看不下去了",
-      "summary": "Claude 的账单，金主先看不下去了",
-      "content": "Anthropic 已经演示了它的天花板在哪",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-28T03:08:42.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8183902.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793163169971_62b8bdb6",
-      "title": "DeepSeek登顶全球第一，一场“账单碾压”的胜利",
-      "summary": "DeepSeek登顶全球第一，一场“账单碾压”的胜利",
-      "content": "行业在狂欢，AI在狂飙",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-28T02:28:10.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8183777.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793163170438_4d04c027",
-      "title": "AI重构跨境支付：效率、风控与Agent商业时代",
-      "summary": "AI重构跨境支付：效率、风控与Agent商业时代",
-      "content": "AI重构跨境支付：效率、风控与Agent商业时代",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-28T02:04:40.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8184157.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793163170893_2d8260bb",
-      "title": "基层演员，AI刀下第一鬼",
-      "summary": "基层演员，AI刀下第一鬼",
-      "content": "2026年，AI进入院线，演员行业面临洗牌，AI冲击下表演艺术与标准化劳动对立，从业者承受压力。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-28T01:43:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8184110.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793163171544_7374640c",
-      "title": "AI Floods China’s Ad Feeds—and Platforms Fight Back With AI",
-      "summary": "Fake faces, cheap product clips, and rule-skirting story ads are pouring into short-video commerce. Platforms are answering with automated review syst...",
-      "content": "Fake faces, cheap product clips, and rule-skirting story ads are pouring into short-video commerce. Platforms are answering with automated review systems. Honest advertisers are stuck paying for the cleanup.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-28T01:31:04.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8184159.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
