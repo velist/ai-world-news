@@ -1,19 +1,55 @@
 {
   "success": true,
-  "timestamp": "2026-10-31T04:52:03Z",
-  "total": 21,
+  "timestamp": "2026-10-31T17:04:48Z",
+  "total": 16,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1793422212780_5aa600a5",
-      "title": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
-      "summary": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
-      "content": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
+      "id": "news_1793466177495_02cc4254",
+      "title": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+      "summary": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+      "content": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-31T08:00:00.000Z",
+      "publishedAt": "2026-10-31T16:15:46.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/4qjamMQLVIoZvytUQwpI?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793466180121_35637703",
+      "title": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
+      "summary": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
+      "content": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-31T14:49:01.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/acC46slIVKJg1O0ac8w4?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793466174068_31257b32",
+      "title": "老干妈给所有想用AI的企业“上”了一课",
+      "summary": "老干妈给所有想用AI的企业“上”了一课",
+      "content": "情绪宣泄，究竟能改变什么？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-31T12:18:03.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/fcdAAd69U452t9b39rLU?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8188545.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793466174943_b7a8a02f",
+      "title": "预测失效的那刻，存储行业撞见物理AI的边界",
+      "summary": "预测失效的那刻，存储行业撞见物理AI的边界",
+      "content": "先锚定具身智能想要抵达的终局，再反向推导底层基础设施需要具备怎样的能力上限。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-31T11:57:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8188551.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -41,16 +77,28 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793422214893_69b02281",
-      "title": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
-      "summary": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
-      "content": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
+      "id": "news_1793466181158_26e680d4",
+      "title": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
+      "summary": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
+      "content": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-30T11:22:00.000Z",
+      "publishedAt": "2026-10-30T18:53:48.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/f3FdeDczctAdHMhvBdKw?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793466181370_3c635370",
+      "title": "2026年AI技术演进与2027年趋势前瞻报告",
+      "summary": "2026年AI技术演进与2027年趋势前瞻报告",
+      "content": "2026年AI技术演进与2027年趋势前瞻报告",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-30T14:41:36.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/FJqN3mFVyN1lMqHOiegs?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/minibook/lmVM6XjSDMpMb6QTbK0l?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793382798532_47d56769",
@@ -77,7 +125,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793422201250_0",
+      "id": "news_1793466164584_0",
       "title": "One Tech Tip: How to get started with AI agents, and which are best for specific tasks",
       "summary": "By KAITLYN HUAMANI\nAgentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies goi...",
       "content": "By KAITLYN HUAMANI\nAgentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in the surging market for consumer-friendly AI agents.\nWhile the leading AI labs hav... [5497 chars]",
@@ -87,18 +135,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.courant.com/2026/10/30/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1793422215373_04ec4319",
-      "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
-      "summary": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
-      "content": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-30T10:04:10.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793382799249_e8dfd4a4",
@@ -111,18 +147,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8187623.html",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793422215845_d1877bb4",
-      "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
-      "summary": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
-      "content": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-30T09:23:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793336526757_00893904",
@@ -171,90 +195,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8187159.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793297743062_b2f5bb62",
-      "title": "盖洛普研究：美国员工的工作投入度降至历史新低，远程办公者降幅最大",
-      "summary": "IT之家 10 月 29 日消息，据科技媒体 TechRadar 今天报道，盖洛普（Gallup）最新研究报告显示，美国员工的工作投入度降至历史新低。远程办公和混合办公的人更加缺乏工作热情，而对 AI 缺乏明确认知也正在影响员工的工作满意度。",
-      "content": "IT之家 10 月 29 日消息，据科技媒体 TechRadar 今天报道，盖洛普（Gallup）最新研究报告显示，美国员工的工作投入度降至历史新低。远程办公和混合办公的人更加缺乏工作热情，而对 AI 缺乏明确认知也正在影响员工的工作满意度。 该机构指出，2026 年第三季度，美国员工的工作投入度为 29%，降至 2011 年以来最低水平。作为对比，2020 年美国工作投入度指标为 36%，2024 年降至 31%。 IT之家注意到，与上一季度相比，全远程办公员工的工作投入度下降了 5 个百分点，混合办公员工下降了 2 个百分点。相比之下，现场办公员工的工作投入度仅下降 1 个百分点。 同时盖洛普已在此前发现，在工作性质允许远程办公的岗位中，全远程办公、混合办公的人，相比现场办公对工作预期的感受程度更差。 至于 AI 方面盖洛普认为，今年早些时候的研究显示，员工对 AI 的态度以及工作投入度可能有所回暖，如今这种趋势已经逆转。调查显示，将 AI 融入工作流的企业中，员工投入度与尚未采用 AI 的企业基本相当。与此同时，远程办公员工再次表现出较低的满意度和工作投入度。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/cb16b78c-da24-4ff9-a619-532051cbd83d.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-10-29T15:28:29.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/019/794.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793422201257_1",
-      "title": "California’s artificial intelligence bill has gaps. Lawmakers plan to fill them",
-      "summary": "By Stephen Hobbs, The Sacramento Bee\nSACRAMENTO — A rogue action by OpenAI’s artificial intelligence models this summer to break into another company ...",
-      "content": "By Stephen Hobbs, The Sacramento Bee\nSACRAMENTO — A rogue action by OpenAI’s artificial intelligence models this summer to break into another company was not considered a “critical safety incident,” under a California law regulating the technology.\nT... [3102 chars]",
-      "imageUrl": "https://www.mercurynews.com/wp-content/uploads/2026/10/202610282202MCT_____PHOTO____US-NEWS-CALIF-AI-BILL-FILEPIC-GET_a7c24c.jpg?w=2000&h=1354",
-      "source": "The Mercury News",
-      "publishedAt": "2026-10-29T14:51:59.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.mercurynews.com/2026/10/29/californias-artificial-intelligence-bill-has-gaps-lawmakers-plan-to-fill-them-3-2/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1793422201078_2",
-      "title": "Generated Findings in Mathematics, Computer Science and Physics – NaturalNews.com",
-      "summary": "OpenAI said its artificial intelligence systems produced findings in mathematics, computer science and physics, according to a report by Quartz [1]. T...",
-      "content": "OpenAI said its artificial intelligence systems produced findings in mathematics, computer science and physics, according to a report by Quartz [1]. The company described three discoveries in which it said its AI models generated results across the t... [5669 chars]",
-      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/10/ai-generated-findings-openai-mathematics-5888-1010b902-original.jpg",
-      "source": "Natural News",
-      "publishedAt": "2026-10-29T11:10:18.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.naturalnews.com/2026-10-29-ai-generated-findings-mathematics-computer-science-physics.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1793297729802_dc540202",
-      "title": "钛媒体「2026 EDGE AWARDS 全球创新评选」正式启动，AI 进入下一阶段，价值该如何衡量？",
-      "summary": "钛媒体「2026 EDGE AWARDS 全球创新评选」正式启动，AI 进入下一阶段，价值该如何衡量？",
-      "content": "申报通道已开启，可通过海报下方「立即自荐」提交",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-29T10:49:22.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8185865.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793297730336_98dfa9f5",
-      "title": "Agentic Cloud，阿里云如何接住模型之后的生意",
-      "summary": "阿里云因此把能力建设延伸到模型训练与推理，智能体的构建与运行，以及企业数据的组织和使用，相比采购一项产品，企业得到的是一套可以共同工作的基础设施。",
-      "content": "阿里云因此把能力建设延伸到模型训练与推理，智能体的构建与运行，以及企业数据的组织和使用，相比采购一项产品，企业得到的是一套可以共同工作的基础设施。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-29T10:45:28.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8182516.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793297730835_582193a3",
-      "title": "AI引发影视大迁徙：李世民下山、马景涛飞天、张艺兴远赴美国",
-      "summary": "AI引发影视大迁徙：李世民下山、马景涛飞天、张艺兴远赴美国",
-      "content": "凛冬已至，各谋生路。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-29T10:15:36.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8186403.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793250174887_d836c91f",
-      "title": "AI裁员背后：消失的不只是工作，还有年轻人的机会",
-      "summary": "企业用AI省下的人工成本已经写进财报，但裁员公告远远装不下这场变化。那些没有被招聘的人、逐渐消失的职业入口，以及技术收益的重新分配，正在成为更大的问题。",
-      "content": "企业用AI省下的人工成本已经写进财报，但裁员公告远远装不下这场变化。那些没有被招聘的人、逐渐消失的职业入口，以及技术收益的重新分配，正在成为更大的问题。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-29T04:53:18.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8185164.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
