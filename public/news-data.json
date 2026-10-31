@@ -1,9 +1,33 @@
 {
   "success": true,
-  "timestamp": "2026-10-30T17:55:12Z",
-  "total": 24,
+  "timestamp": "2026-10-31T04:52:03Z",
+  "total": 21,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1793422212780_5aa600a5",
+      "title": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
+      "summary": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
+      "content": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-31T08:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/fcdAAd69U452t9b39rLU?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793422209228_a8451466",
+      "title": "大厂减市场预算，加AI预算",
+      "summary": "大厂减市场预算，加AI预算",
+      "content": "当一家公司能用模型解释增长，它就不需要再用媒体预算解释增长。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-10-31T03:53:33.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8188331.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1793382802698_cf4ed776",
       "title": "AI+垂类Agent：任务跑得久、工具用得熟，撑不起Agent公司长期竞争力｜贝联珠贯创始人兼CEO 毕玄分享",
@@ -17,28 +41,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793382803225_26e680d4",
-      "title": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
-      "summary": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
-      "content": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
+      "id": "news_1793422214893_69b02281",
+      "title": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
+      "summary": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
+      "content": "谷歌推出 EnvHarness，支持自进化智能体动态环境学习",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-30T18:53:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/f3FdeDczctAdHMhvBdKw?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793382803443_3c635370",
-      "title": "2026年AI技术演进与2027年趋势前瞻报告",
-      "summary": "2026年AI技术演进与2027年趋势前瞻报告",
-      "content": "2026年AI技术演进与2027年趋势前瞻报告",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-30T14:41:36.000Z",
+      "publishedAt": "2026-10-30T11:22:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/minibook/lmVM6XjSDMpMb6QTbK0l?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.infoq.cn/article/FJqN3mFVyN1lMqHOiegs?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793382798532_47d56769",
@@ -65,6 +77,30 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1793422201250_0",
+      "title": "One Tech Tip: How to get started with AI agents, and which are best for specific tasks",
+      "summary": "By KAITLYN HUAMANI\nAgentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies goi...",
+      "content": "By KAITLYN HUAMANI\nAgentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in the surging market for consumer-friendly AI agents.\nWhile the leading AI labs hav... [5497 chars]",
+      "imageUrl": "https://www.courant.com/wp-content/uploads/2026/10/Open_AI_Conference_33846.jpg?w=1999&h=1333",
+      "source": "Hartford Courant",
+      "publishedAt": "2026-10-30T10:05:52.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.courant.com/2026/10/30/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1793422215373_04ec4319",
+      "title": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+      "summary": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+      "content": "腾讯 AI Lab 又一核心骨干去向确认！“王者绝悟”前技术负责人叶德珩加入字节 Seed",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-30T10:04:10.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/u23wUVUDcFqL7hLBWXuW?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1793382799249_e8dfd4a4",
       "title": "Anthropic会成为人类历史上最值钱的公司吗？",
       "summary": "Anthropic会成为人类历史上最值钱的公司吗？",
@@ -75,6 +111,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8187623.html",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793422215845_d1877bb4",
+      "title": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "summary": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "content": "Chainguard 推出面向 AI 编码智能体的安全工作区与安全校验能力",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-30T09:23:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/UNli8x0wc8XUNjI5ETya?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793336526757_00893904",
@@ -137,7 +185,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793382789691_0",
+      "id": "news_1793422201257_1",
       "title": "California’s artificial intelligence bill has gaps. Lawmakers plan to fill them",
       "summary": "By Stephen Hobbs, The Sacramento Bee\nSACRAMENTO — A rogue action by OpenAI’s artificial intelligence models this summer to break into another company ...",
       "content": "By Stephen Hobbs, The Sacramento Bee\nSACRAMENTO — A rogue action by OpenAI’s artificial intelligence models this summer to break into another company was not considered a “critical safety incident,” under a California law regulating the technology.\nT... [3102 chars]",
@@ -149,7 +197,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1793382790021_1",
+      "id": "news_1793422201078_2",
       "title": "Generated Findings in Mathematics, Computer Science and Physics – NaturalNews.com",
       "summary": "OpenAI said its artificial intelligence systems produced findings in mathematics, computer science and physics, according to a report by Quartz [1]. T...",
       "content": "OpenAI said its artificial intelligence systems produced findings in mathematics, computer science and physics, according to a report by Quartz [1]. The company described three discoveries in which it said its AI models generated results across the t... [5669 chars]",
@@ -207,90 +255,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8185164.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793250175401_5f2eb508",
-      "title": "人形机器人，要出大结果了",
-      "summary": "人形机器人，要出大结果了",
-      "content": "AI正在长出手脚，美国的优势在于更聪明的大脑，中国则拥有最强最完善的身体。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-29T04:44:22.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8185839.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793250189801_3f8cfee4",
-      "title": "腾讯推出跨应用 AI 协同体系 Buddy One：打通腾讯多款办公产品，共享 WorkBuddy Agent 底座",
-      "summary": "IT之家 10 月 29 日消息，在今日举行的腾讯全球数字生态大会上，腾讯正式官宣发布面向个人用户的跨应用 AI 协同体系 —— Buddy One。 IT之家获悉，该体系打通腾讯文档、腾讯会议、腾讯网盘、ima 等办公协同产品，共享 WorkBuddy Agent 底座，并统一账号和积分池。",
-      "content": "IT之家 10 月 29 日消息，在今日举行的腾讯全球数字生态大会上，腾讯正式官宣发布面向个人用户的跨应用 AI 协同体系 —— Buddy One。 IT之家获悉，该体系打通腾讯文档、腾讯会议、腾讯网盘、ima 等办公协同产品，共享 WorkBuddy Agent 底座，并统一账号和积分池。 官方表示，WorkBuddy PC 端更新到 5.9.0 及以上版本，关联账号即可使用。后续还将支持记忆共享，也会有更多产品陆续加入。 据悉，Buddy One 账号打通之后，使用 WorkBuddy 时不用再反复授权，也不用手动复制粘贴上下文。 打开 WorkBuddy PC 端，点击左下角的个人入口，进入“设置” → “个人主页” → “前往管理中心”，关联要用的腾讯文档、腾讯会议、ima、腾讯网盘账号。 关联之后，不用再指定去哪个应用里找。直接说需求，WorkBuddy 会检索并整合用户已授权的文档、会议和知识库内容，生成附带来源的回答。检索时会调用“Buddy One 全应用搜索”，命中的资料会标明来自哪个应用，比如 ima、腾讯文档或 WorkBuddy 资料库。 加入 Buddy One 后，WorkBuddy 积分默认升级为 Buddy One 积分，可以在 WorkBuddy、腾讯文档、ima、腾讯网盘中通用。余额共享：在哪个应用里消耗，余额都会同步减少。套餐内积分、活动赠送积分和自行购买的积分，都包含在内。 腾讯同时推出了 Buddy One VIP 会员套餐，连续包月 700 元 / 月。一次开通即享 WorkBuddy 旗舰版、腾讯会议专业版和腾讯文档超级会员 Plus；套餐还包含跨应用共享的 AI 积分与 1TB 存储空间，可在 WorkBuddy、腾讯文档、ima 和腾讯网盘中通用。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/9a102145-0a09-48e6-beee-0ae4729f6a7b.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-10-29T04:24:43.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/019/412.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793382790284_2",
-      "title": "One Tech Tip: How to get started with AI agents, and which are best for specific tasks",
-      "summary": "Agentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in ...",
-      "content": "Agentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in the surging market for consumer-friendly AI agents.\nWhile the leading AI labs have offered tools wit... [5319 chars]",
-      "imageUrl": "https://wtop.com/wp-content/uploads/2026/09/Open_AI_Conference_33846-scaled.jpg",
-      "source": "WTOP",
-      "publishedAt": "2026-10-29T04:02:10.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://wtop.com/national/2026/10/one-tech-tip-how-to-get-started-with-ai-agents-and-which-are-best-for-specific-tasks/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1793250176590_5c160d7f",
-      "title": "Optimus的第一份工作是插枪：人形机器人的主战场，从来不在工厂",
-      "summary": "人形机器人正在批量进工厂，市场叙事是“替代产线工人”。本文给出反共识判断：标准场景早被传送带与机械臂吃透，进厂只是练兵；真正的主战场，是非标服务业的“移动缝隙”。机器负责干活，人负责生活。",
-      "content": "人形机器人正在批量进工厂，市场叙事是“替代产线工人”。本文给出反共识判断：标准场景早被传送带与机械臂吃透，进厂只是练兵；真正的主战场，是非标服务业的“移动缝隙”。机器负责干活，人负责生活。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-29T03:32:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8185429.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793210873437_04bd2348",
-      "title": "Instagram 采用原生 AI 架构对用户界面进行了现代化改造，将 token 成本降低了 33%",
-      "summary": "Instagram 采用原生 AI 架构对用户界面进行了现代化改造，将 token 成本降低了 33%...",
-      "content": "Instagram 采用原生 AI 架构对用户界面进行了现代化改造，将 token 成本降低了 33%",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-28T21:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/bXKVgLdpf7HONYHIi6Su?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793382790066_3",
-      "title": "The AI money loop: How Nvidia, AI companies, neoclouds, and Wall Street are financing the AI boom",
-      "summary": "Nearly four years after OpenAI forever changed artificial intelligence with the launch of ChatGPT, cracks are emerging in the AI boom, and Wall Street...",
-      "content": "Nearly four years after OpenAI forever changed artificial intelligence with the launch of ChatGPT, cracks are emerging in the AI boom, and Wall Street is taking notice.\nIn mid-October, yields on some of Nvidia-backed CoreWeave’s bonds surged past 16%... [22337 chars]",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2026/10/The-AI-money-loop-How-Nvidia-AI-companies-neoclouds-and-Wall-Street-are-financing-the-AI-boom-1-960x602.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-10-28T20:26:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://techstartups.com/2026/10/28/the-ai-money-loop-how-nvidia-ai-companies-neoclouds-and-wall-street-are-financing-the-ai-boom/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1793210874986_12b01ad0",
-      "title": "Anthropic 内部系统被 AI Agent 12 小时攻破！会议记录、员工薪酬、内部模型讨论遭访问",
-      "summary": "Anthropic 内部系统被 AI Agent 12 小时攻破！会议记录、员工薪酬、内部模型讨论遭访问...",
-      "content": "Anthropic 内部系统被 AI Agent 12 小时攻破！会议记录、员工薪酬、内部模型讨论遭访问",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-28T17:54:54.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/mFXr0u4z0XftUGUg5Wm7?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
