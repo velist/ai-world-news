@@ -1,32 +1,20 @@
 {
   "success": true,
-  "timestamp": "2026-10-31T17:04:48Z",
-  "total": 16,
+  "timestamp": "2026-11-01T05:16:19Z",
+  "total": 10,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1793466177495_02cc4254",
-      "title": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-      "summary": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
-      "content": "每天上千万次创建：Agent Sandbox 为什么会成为新算力形态？",
+      "id": "news_1793510068463_26dae31b",
+      "title": "如果 AI 幻觉也有预算，超支之后该怎么办？",
+      "summary": "如果 AI 幻觉也有预算，超支之后该怎么办？",
+      "content": "如果 AI 幻觉也有预算，超支之后该怎么办？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-10-31T16:15:46.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/4qjamMQLVIoZvytUQwpI?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793466180121_35637703",
-      "title": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
-      "summary": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
-      "content": "当AI从“会想”走向“会干”——腾讯云与英特尔共筑Agentic AI执行新底座",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-31T14:49:01.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/acC46slIVKJg1O0ac8w4?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-11-01T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/z8vQa2zzGyLiTxIZ8PXH?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793466174068_31257b32",
@@ -50,6 +38,18 @@
       "publishedAt": "2026-10-31T11:57:24.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8188551.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1793510071618_5aa600a5",
+      "title": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
+      "summary": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
+      "content": "终于不是 AI 了：Lambda 直接运行 Express，API Gateway 还需要吗？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-10-31T08:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/fcdAAd69U452t9b39rLU?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -77,30 +77,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793466181158_26e680d4",
-      "title": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
-      "summary": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
-      "content": "AI+社区：「模力工场」连接AI供需，补上信任缺口｜极客邦科技创始人兼CEO 霍太稳分享",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-30T18:53:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/f3FdeDczctAdHMhvBdKw?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793466181370_3c635370",
-      "title": "2026年AI技术演进与2027年趋势前瞻报告",
-      "summary": "2026年AI技术演进与2027年趋势前瞻报告",
-      "content": "2026年AI技术演进与2027年趋势前瞻报告",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-10-30T14:41:36.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/minibook/lmVM6XjSDMpMb6QTbK0l?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1793382798532_47d56769",
       "title": "OpenAI又出数学大结果，陶哲轩：数学不该被AI“掠夺式开采”",
       "summary": "OpenAI又出数学大结果，陶哲轩：数学不该被AI“掠夺式开采”",
@@ -125,7 +101,7 @@
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1793466164584_0",
+      "id": "news_1793510054516_0",
       "title": "One Tech Tip: How to get started with AI agents, and which are best for specific tasks",
       "summary": "By KAITLYN HUAMANI\nAgentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies goi...",
       "content": "By KAITLYN HUAMANI\nAgentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in the surging market for consumer-friendly AI agents.\nWhile the leading AI labs hav... [5497 chars]",
@@ -147,54 +123,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8187623.html",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793336526757_00893904",
-      "title": "Reddit 大调整：浏览内容需先登录，以防范 AI 爬虫",
-      "summary": "IT之家 10 月 30 日消息，Reddit 的界面和使用体验即将迎来巨大变化，而且这不单单是平台昨天公布的“为你推荐”和“关注”信息流改版那么简单。Reddit 正在筹划一项影响深远的调整，这可能会从根本上改变数百万用户访问这个平台的方式。",
-      "content": "IT之家 10 月 30 日消息，Reddit 的界面和使用体验即将迎来巨大变化，而且这不单单是平台昨天公布的“为你推荐”和“关注”信息流改版那么简单。Reddit 正在筹划一项影响深远的调整，这可能会从根本上改变数百万用户访问这个平台的方式。 今日早些时候，Reddit 首席执行官史蒂夫 · 赫夫曼（Steve Huffman）宣布，平台将逐步转向以登录浏览为主的模式，用户对这项调整普遍感到不满。 这个 2005 年上线的社区平台，长期以来都支持游客无需登录即可浏览内容。当然，游客无法享受登录用户的全部功能，但除了旧版界面 old.reddit 和年龄限制内容之外，原本可以自由浏览。而现在，Reddit 打算改掉这个规则。 赫夫曼给出了推行这项改动的理由。他写道，转向登录优先模式可以优化内容个性化推荐、提升用户互动，方便平台投放更贴合用户的广告，而最重要的一点，是阻止 AI 模型爬取站内内容。 赫夫曼在 Reddit 第三季度致股东信中写道： 转向以登录浏览为主的模式，能够让用户获得最好的 Reddit 使用体验，找到和自己最相关的内容与社区。这对业务也更有利，我们能拿到更多用于广告定向的用户信号，登录状态通常也会带来更高的活跃度。同时，这有助于保护 Reddit 极具价值的内容数据集，让我们更好地适配全球陆续出台的新规。 根据该公司第三季度股东信，2026 年第三季度，Reddit 日均独立访问用户为 1.303 亿人，其中游客访客 7680 万人，登录用户 5350 万人。也就是说，上一季度 59% 的活跃用户都是以游客身份访问平台。换句话说，这次改动影响的将是大部分日活用户，而不只是一小部分人群。 好在 Reddit 并不会把所有内容都设置成登录才能查看。在介绍登录与游客浏览的权限边界时，赫夫曼表示，Reddit 首页会继续对所有人开放。 首页支持游客访问，这点很实用，也很重要。当然，我们希望用户能够分享帖子，也希望从搜索引擎或者外部链接跳转过来的访客，可以看到链接指向的内容。 不出所料，这项计划没能得到用户认可，赫夫曼帖子下方的评论充分体现了这一点。有人提问，以后临时查找解决方案时，会不会频繁弹出登录拦截弹窗，赫夫曼回应称，公司还需要测试，找到合适的平衡点。他补充说：“通过分享链接或者搜索跳转来的一次性访客，并不是这次调整的主要针对对象。” IT之家注意到，还有不少用户认为，平台应该把精力放在新增功能、优化现有体验上，而不是提高访问门槛。部分用户担忧 Reddit 会变成 X 或者 Pinterest 那样，点开别人分享的链接，直接弹出登录提示。 赫夫曼表示，公司还在摸索合适的权限划分方案，接下来几个月会在美国以外的部分市场，测试不同的落地方式。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/10/5fa8492e-024b-4b68-bdd6-ccbd89217157.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-10-30T03:58:54.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/019/988.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793336514563_cab2164a",
-      "title": "OpenAI健康板块负责人：AI医疗健康的上限和下限",
-      "summary": "OpenAI健康板块负责人：AI医疗健康的上限和下限",
-      "content": "从救人到越界，只有一步之遥。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-30T03:48:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8186695.html",
-      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793336515269_517c80c7",
-      "title": "谷歌暴跌、亚马逊失血、微软发债：AI 基建竞赛进入分水岭",
-      "summary": "三大云巨头算力售罄排到 2028 年，却同时交出多年首见的负自由现金流，这一轮 AI 竞赛的分水岭，是市场开始只为回报付钱。",
-      "content": "三大云巨头算力售罄排到 2028 年，却同时交出多年首见的负自由现金流，这一轮 AI 竞赛的分水岭，是市场开始只为回报付钱。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-30T02:30:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8187079.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793336515671_12ebcd71",
-      "title": "智元创新日：从卖机器人到卖Worken",
-      "summary": "智元创新日：从卖机器人到卖Worken",
-      "content": "Worken（有效智能工时）＝活跃机器人数量 × 自主工作时长 × 产出效能比。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-10-30T02:18:47.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8187159.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
