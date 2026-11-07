@@ -1,9 +1,93 @@
 {
   "success": true,
-  "timestamp": "2026-11-07T05:22:55Z",
-  "total": 22,
+  "timestamp": "2026-11-07T17:39:52Z",
+  "total": 23,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1794073089647_12f19eb2",
+      "title": "Claude Max 订阅套餐使用额度被指“虚标”，Anthropic 辩词未获法官采纳",
+      "summary": "IT之家 11 月 7 日消息，美国联邦治安法官谢文辉（Alex Tse）裁定，Anthropic 必须继续应对 Claude Max 套餐使用额度涉嫌误导消费者的主要指控。据 Courthouse News 报道，谢文辉周五驳回了案件中的其他几项诉求。",
+      "content": "IT之家 11 月 7 日消息，美国联邦治安法官谢文辉（Alex Tse）裁定，Anthropic 必须继续应对 Claude Max 套餐使用额度涉嫌误导消费者的主要指控。据 Courthouse News 报道，谢文辉周五驳回了案件中的其他几项诉求。 Anthropic 宣传称，月费 100 美元（IT之家注：现汇率约合 668.6 元人民币）和 200 美元（现汇率约合 1,337 元人民币）的 Max 套餐，使用额度分别是 Pro 套餐的 5 倍和 20 倍。但今年 6 月提起诉讼的消费者指控，如果按整周计算，实际额度远远达不到宣传中的倍数。 两名原告卡尔 · 卡恩和所罗门 · 史密斯计算发现，以 Claude 的一款模型为例，200 美元（现汇率约合 1,337 元人民币）套餐的每周额度只有 Pro 套餐的 6 倍，100 美元（现汇率约合 668.6 元人民币）套餐则为 3.5 倍。 问题出在额度计算方式上。Max 用户每 5 小时的使用额度确实可以达到 Pro 用户的 5 倍或 20 倍，但每周的使用上限并没有同比例增加。 Anthropic 辩称，消费者应该明白，宣传中的倍数指的是单次使用周期的额度，并援引帮助页面作为依据。谢文辉并未采纳这一说法。裁决书写道：“Anthropic 对单次使用周期的说明，需要从 claude.com 的主要销售页面点击两次链接才能看到。” 谢文辉认为，既然消费者按月支付订阅费，就有理由认为 Anthropic 承诺的使用额度也是按月计算。因此，原告可以继续追究 Anthropic 涉嫌过失性虚假陈述和违约的责任。 相关阅读： 《美国消费者指控 Claude Max 订阅套餐额度“虚标”，拟对 Anthropic 发起集体诉讼》",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-11-07T14:57:42.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/1/023/824.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794073089685_6296ab89",
+      "title": "GitHub 推出新 Git 存储架构：内部测试单个代码仓库支持 5000 个智能体同时协作，每秒处理 7200 次推送",
+      "summary": "IT之家 11 月 7 日消息，当地时间 11 月 5 日，GitHub 发布博文，称上周在 GitHub Universe 大会上，正式公布了全新的 Git 存储架构，代号“Rubicon”。 官方表示，该架构不仅具备每秒处理数千次写入的能力，还能实现读取按需水平扩展。",
+      "content": "IT之家 11 月 7 日消息，当地时间 11 月 5 日，GitHub 发布博文，称上周在 GitHub Universe 大会上，正式公布了全新的 Git 存储架构，代号“Rubicon”。 官方表示，该架构不仅具备每秒处理数千次写入的能力，还能实现读取按需水平扩展。经内部压力测试验证，新架构能够在保持极低读取延迟的同时，支持单个代码仓库容纳 5000 个智能体（Agent）并发协作，并承受每秒高达 7200 次的代码推送。 IT之家获悉，该架构目前已经开启小范围定向内测（limited private preview），并计划于明年初逐步扩大开放范围。 据介绍，如今 GitHub 上最繁忙的代码仓库，其单秒写入峰值最多也不过数十次，且往往呈现短暂脉冲式的突发状态。然而，随着越来越多的研发工作交由全天候高并发运行的 AI 智能体处理，预计在未来一年内，这种瞬时突发将演变为常态化的持续高吞吐负载。 每一次代码推送（Push）都会级联触发更多的读取请求：CI 流水线即刻启动、部署系统拉取最新提交，其他协同智能体也会同步获取代码作为上下文。这种读操作的扇出扩散（Read Fan-out），随着写入频率的攀升，对平台整体流量产生了极为显著的放大效应。 在流量分布曲线最顶端的头部仓库中，这一趋势已然显现。下方图表展示了 GitHub 上某个典型代码仓库在 3 月至 5 月期间的日请求量变化 —— 短短两个月内，其流量便激增了约 4 倍；此后至今，其访问增长更始终维持着陡峭的指数级上升轨迹。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/12066f19-72f5-46c9-86b6-4343d5cb8997.jpg?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-11-07T14:57:23.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/023/823.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794073078788_56d0eb02",
+      "title": "双十一，把购物交给了 AI 们，结果居然集体翻车？",
+      "summary": "双十一，把购物交给了 AI 们，结果居然集体翻车？",
+      "content": "价格是真的，但不一定是对的商品",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-07T08:36:32.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8196807.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794073079268_6a63c95b",
+      "title": "“不想打工”的人形机器人，在仓库里吃灰 | 潮向",
+      "summary": "“不想打工”的人形机器人，在仓库里吃灰 | 潮向",
+      "content": "问题不是机器人还能翻多高，是离车间还有多远。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-07T08:36:29.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8196856.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794073080333_edf24747",
+      "title": "AI漫剧多赚钱？对话从业者揭内幕：播放1万挣5块，多数人是牛马",
+      "summary": "AI漫剧多赚钱？对话从业者揭内幕：播放1万挣5块，多数人是牛马",
+      "content": "AI漫剧多赚钱？对话从业者揭内幕：播放1万挣5块，多数人是牛马",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-07T08:36:24.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8196816.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794073068722_0",
+      "title": "OpenAI Hires Former Army Secretary Dan Driscoll",
+      "summary": "OpenAI has hired former Army Secretary Dan Driscoll to serve as a senior counselor for national security modernization, the company announced Monday, ...",
+      "content": "OpenAI has hired former Army Secretary Dan Driscoll to serve as a senior counselor for national security modernization, the company announced Monday, according to The Hill [1]. The role is a newly created position focused on how artificial intelligen... [6281 chars]",
+      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/11/openai-dan-driscoll-defense-department-6193-44ed4c7f-original.jpg",
+      "source": "Natural News",
+      "publishedAt": "2026-11-06T22:41:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.naturalnews.com/2026-11-06-openai-hires-former-army-secretary-dan-driscoll.html",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1794073068792_1",
+      "title": "OpenAI, Arm, Qualcomm, Box execs react to midterm sell-off concerns",
+      "summary": "Michael Nagle | Bloomberg | Getty Images\nAs a post-midterm rally Wednesday turned into a steep sell-off Thursday, tech executives sought to look throu...",
+      "content": "Michael Nagle | Bloomberg | Getty Images\nAs a post-midterm rally Wednesday turned into a steep sell-off Thursday, tech executives sought to look through the notion that potential data center constraints could be catastrophic for their businesses.\nIn ... [3723 chars]",
+      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108527793-1793972802519-108527793-1793909522550-gettyimages-2303212023-NASDAQ_MARKETSITE.jpg?v=1793972812&w=1920&h=1080",
+      "source": "CNBC",
+      "publishedAt": "2026-11-06T18:27:19.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html",
+      "aiInsight": ""
+    },
     {
       "id": "news_1793991968275_c2bcc41a",
       "title": "Cloudflare 与 VoidZero 联合推出 tsrs：由 AI 生成的 TypeScript 编译器 Rust 移植版",
@@ -15,6 +99,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/lGoA1ZSw6ojeh68GVlBl?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794073083935_42dc62a7",
+      "title": "DigitalOcean 推出学习与数据服务，帮助 AI 智能体进行自我迭代",
+      "summary": "DigitalOcean 推出学习与数据服务，帮助 AI 智能体进行自我迭代",
+      "content": "DigitalOcean 推出学习与数据服务，帮助 AI 智能体进行自我迭代",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-06T15:25:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/upfROwtEl8R75H24D13J?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793991976559_d271397a",
@@ -41,16 +137,16 @@
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794028869592_8d16de05",
-      "title": "智能体 Harness 的演进：从链、图到代码化",
-      "summary": "智能体 Harness 的演进：从链、图到代码化",
-      "content": "智能体 Harness 的演进：从链、图到代码化",
+      "id": "news_1794073084410_713d278d",
+      "title": "从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务？",
+      "summary": "从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务？",
+      "content": "从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-06T13:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/B7tsA5tjD08k2gd0OtXd?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-11-06T14:34:37.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/azhgYaRTIjsSSVfA8AaU?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793944218555_9ad17e44",
@@ -75,18 +171,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8195043.html",
       "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794028872067_1c439a8f",
-      "title": "AI Native 企业研发工具链：架构重构与持续演进｜AICon北京",
-      "summary": "AI Native 企业研发工具链：架构重构与持续演进｜AICon北京",
-      "content": "AI Native 企业研发工具链：架构重构与持续演进｜AICon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-06T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/4IUSd2wP28ua4Jd5fHG2?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793991963371_b4baa1bc",
@@ -123,30 +207,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8196254.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794028872583_6bf6c3af",
-      "title": "AI 狂烧 2000亿美元，谷歌全球启动“自愿买断”计划：最高补偿12个月工资",
-      "summary": "AI 狂烧 2000亿美元，谷歌全球启动“自愿买断”计划：最高补偿12个月工资",
-      "content": "AI 狂烧 2000亿美元，谷歌全球启动“自愿买断”计划：最高补偿12个月工资",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-06T08:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/vMSj216sQUhmeDH4H0G7?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794028873088_2dd7b167",
-      "title": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
-      "summary": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
-      "content": "当 Coding Agent 走进研发团队：我们打造并开源了自进化研发平台 LoopForge",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-06T07:14:48.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/QGaIWSgd9uwx2WGw0yFv?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1793944224707_21ff7c9a",
@@ -218,54 +278,6 @@
       "publishedAt": "2026-11-06T02:57:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8195586.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793907802427_bb4c6742",
-      "title": "DeepSeek Harness：日活跃用户达 154 万、日消耗 Token 约 92 万亿，将建设官方插件市场",
-      "summary": "IT之家 11 月 5 日消息，DeepSeek Harness 官方今晚公布了 DeepSeek Harness 产品与社区的进展，并介绍了面向插件作者的支持计划。",
-      "content": "IT之家 11 月 5 日消息，DeepSeek Harness 官方今晚公布了 DeepSeek Harness 产品与社区的进展，并介绍了面向插件作者的支持计划。 8 月 13 日，DeepSeek Harness v0.1 版本上线；9 月 29 日，DeepSeek Harness 桌面端正式发布。截至 11 月 4 日，以使用官方 API 的用户为统计范围，DeepSeek Harness 日活跃用户已达 154 万，日消耗 Token 约 92 万亿。 IT之家获悉，DeepSeek Harness 发布至今，第三方插件数量已增至约 3.5 万个，约 60% 的活跃用户制作或安装了至少一款第三方插件。 官方表示，将会进一步提升插件 API 的稳定性与兼容性，完善插件安全机制，并建设官方插件市场，让插件作者更方便地上传插件、用户更方便地找到自己所需插件。 同时，DeepSeek Harness 也正在筹备面向插件作者的支持计划，通过 Token 激励、技术交流与作品推荐，支持新想法的探索与已有作品的完善。具体的支持方式，将结合社区的实际需求与反馈逐步完善。 此外，官方也欢迎创业团队和企业通过 DeepSeek Harness 插件接入产品、服务与专业能力，探索合作可能。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/748899dc-21f2-4569-8145-92c8e5d431e6.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-11-05T14:48:49.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/023/011.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793907790340_dda7d54a",
-      "title": "AI安全背后的哲学思想，有效利他主义如何影响硅谷？（上篇）",
-      "summary": "AI安全背后的哲学思想，有效利他主义如何影响硅谷？（上篇）",
-      "content": "从哲学思想到AI主导权之战",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-05T10:30:32.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8194754.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793907791028_171c973b",
-      "title": "China’s Standalone Battery Boom Pays Equipment Makers First",
-      "summary": "Grid-side storage is filling provincial project lists and tender books. The revenue stack looks rich in slide decks. In practice, suppliers and a few ...",
-      "content": "Grid-side storage is filling provincial project lists and tender books. The revenue stack looks rich in slide decks. In practice, suppliers and a few well-sited plants are getting paid; most owners are still waiting on the model to work.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-05T10:12:05.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8195020.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1793907791440_1311f381",
-      "title": "海外收入占比据报达50%，Seedance争夺AI视频的商业入口 ｜出海参考",
-      "summary": "海外收入占比据报达50%，Seedance争夺AI视频的商业入口 ｜出海参考",
-      "content": "只有当用户能够把Seedance稳定地纳入制作预算，其商业化增长才有更可持续的基础。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-05T09:45:50.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8194483.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
