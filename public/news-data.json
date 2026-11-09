@@ -1,31 +1,91 @@
 {
   "success": true,
-  "timestamp": "2026-11-08T17:49:36Z",
-  "total": 22,
+  "timestamp": "2026-11-09T05:31:44Z",
+  "total": 21,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1794160066194_2dd84244",
-      "title": "Agent 越用越多，企业为何仍不够 AI Native？",
-      "summary": "Agent 越用越多，企业为何仍不够 AI Native？",
-      "content": "Agent 越用越多，企业为何仍不够 AI Native？",
+      "id": "news_1794202194585_674cfa96",
+      "title": "开发者每周借助 AI 节约数十小时的比例在一年内从 68% 降至 26%",
+      "summary": "开发者每周借助 AI 节约数十小时的比例在一年内从 68% 降至 26%",
+      "content": "开发者每周借助 AI 节约数十小时的比例在一年内从 68% 降至 26%",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-09T00:08:00.000Z",
+      "publishedAt": "2026-11-09T13:14:31.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/sdqHapplv45dQguTJ415?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794202195491_c4d45a3c",
+      "title": "Harness 已经很准了，为什么还需要一个 Agent Native Database",
+      "summary": "Harness 已经很准了，为什么还需要一个 Agent Native Database",
+      "content": "Harness 已经很准了，为什么还需要一个 Agent Native Database",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-09T10:44:00.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/YZx670AAiudsqZjx3UNo?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/49JGp1l7v97riBlPpZ1q?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794160066633_de33f920",
-      "title": "AI 生成视频何时才能告别“抽卡”？藏在高效生成背后的返工与成本难题",
-      "summary": "AI 生成视频何时才能告别“抽卡”？藏在高效生成背后的返工与成本难题",
-      "content": "AI 生成视频何时才能告别“抽卡”？藏在高效生成背后的返工与成本难题",
+      "id": "news_1794202196341_ee30a8b2",
+      "title": "2.5小时一个零日，400多个root提权：Linux被AI挖成了筛子，人类逆向几周才看懂一个",
+      "summary": "2.5小时一个零日，400多个root提权：Linux被AI挖成了筛子，人类逆向几周才看懂一个",
+      "content": "2.5小时一个零日，400多个root提权：Linux被AI挖成了筛子，人类逆向几周才看懂一个",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-08T16:19:44.000Z",
+      "publishedAt": "2026-11-09T10:25:36.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/xd9o6TyQ8GLON3dmiWpG?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/6kuDZAK0IFkKviGrGzIR?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794202196781_094430d3",
+      "title": "从“能写代码”到“能交付”：腾讯轻量云 LoopForge 多 Agent 编排实践｜AICon北京",
+      "summary": "从“能写代码”到“能交付”：腾讯轻量云 LoopForge 多 Agent 编排实践｜AICon北京...",
+      "content": "从“能写代码”到“能交付”：腾讯轻量云 LoopForge 多 Agent 编排实践｜AICon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-09T10:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/wUArox9MHiAoyWPgRxpp?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794202200819_e282f114",
+      "title": "IDC：2026 年全球灵巧手出货量约 2.5 万台，中国厂商占比超 85%",
+      "summary": "IT之家 11 月 9 日消息，IDC 今日发布报告，随着人形机器人与具身智能产业发展，灵巧手的竞争已从自由度、抓握力等硬件参数，延伸至精细操作、感知控制及与具身智能模型的协同能力。当前灵巧手核心需求集中在人形机器人配套、科研教育与具身智能数据采集方向，工业等规模化应用仍处于探索阶段。",
+      "content": "IT之家 11 月 9 日消息，IDC 今日发布报告，随着人形机器人与具身智能产业发展，灵巧手的竞争已从自由度、抓握力等硬件参数，延伸至精细操作、感知控制及与具身智能模型的协同能力。当前灵巧手核心需求集中在人形机器人配套、科研教育与具身智能数据采集方向，工业等规模化应用仍处于探索阶段。 IDC 预计，2026 年全球灵巧手出货量约 2.5 万台，该数据不含厂商向自有机器人产品的内部配套出货；其中中国厂商出货量占全球市场的比例预计超过 85%，在全球灵巧手市场占据重要地位。 报告称，目前灵巧手行业仍处于发展初期，后续增长将受机器人应用进展、产品成本及商业化落地速度等因素共同影响。 从硬件参数竞赛转向综合操作能力比拼。目前灵巧手主流技术路线包含腱绳驱动、直驱、连杆驱动及混合驱动四类，不同方案在结构紧凑性、灵活性、力量传递、成本和维护等方面各有取舍，尚未形成统一技术方向。技术路线的选择不仅取决于硬件设计，也与目标任务和应用需求密切相关。 在硬件参数之外，触觉感知和操作控制同样是核心竞争维度。灵巧手需要感知接触状态、作用力及物体变化，并据此动态调整动作；当前触觉传感器在信号稳定性、一致性和感知精度等方面仍有改进空间，自由度较高并不必然意味着操作能力更强，感知与控制能力的权重持续提升。行业竞争正从单一硬件指标，延伸至可控性、精细操作能力，以及与机器人本体、具身智能模型的协同表现，不同技术路线的竞争结果将更多取决于对具体任务的适配程度，而非单一参数高低。 当前核心需求集中于人形机器人配套与科研场景，工业落地仍待验证。现阶段人形机器人配套、科研教育，以及具身智能模型研发与数据采集是灵巧手的主要需求方向；工业制造、物流等场景正探索其在复杂抓取、物体姿态调整和多品种操作任务中的应用潜力，但整体仍处于应用探索阶段。 报告还称，灵巧手并不意味着能够全面替代传统夹爪：对于物体形态固定、任务重复性高、节拍要求严格的生产环节，传统夹爪往往具备结构简单、成本较低和易于维护等优势。灵巧手的价值更多体现在需要多指协同、精细接触或较强操作灵活性的任务中，实际优势仍需结合具体工艺评估。 此外，从研发样机走向持续运行阶段，灵巧手仍需解决可靠性、环境适应性和维护成本等问题，复杂机械结构、多关节驱动及传感器集成提升了设计与维护难度，粉尘、接触磨损及长期运行也可能影响产品表现。对实际应用而言，单次成功完成动作并不足够，用户更关注设备能否在真实环境中持续、稳定地完成任务，以及效率提升能否覆盖设备、维护和集成成本。 IDC 认为，未来三年灵巧手将从“路线探索”进入“工程化竞争”阶段，市场竞争将围绕四大方向展开： 一是市场需求将从研发与数据采集向具体任务应用拓展，短期内科研教育、人形机器人配套及具身智能数据采集仍是核心需求，工业制造、物流、服务等场景需进一步验证实际应用价值； 二是技术竞争从硬件参数转向结构设计与综合操作能力，不同驱动路线将长期并存，产品竞争涉及电机、电控、减速器、丝杠等核心部件的设计优化，以及结构紧凑性、驱动性能和可靠性的平衡，视触觉感知、精细控制及与具身智能模型的协同能力将直接影响实际操作表现； 三是竞争从硬件本体向模型、数据与技能协同延伸，操作模型、数据资源、技能库及开发工具逐渐成为厂商布局重点，厂商差异将体现在能否将硬件、模型、数据和技能有效结合，并转化为稳定的任务执行效果； 四是可靠性、成本和交付能力将影响市场竞争格局，随着用户从研发测试走向实际应用，厂商需要解决长期运行、产品一致性、维护和成本控制等问题。 总体来看，未来三年灵巧手市场仍将处于多种技术路线并存、应用持续验证的阶段。行业竞争的关键不在于某一种驱动路线率先胜出，而在于厂商能否围绕具体任务，将结构设计、核心部件、感知控制、模型和数据有效结合，并在操作性能、可靠性与综合成本之间取得平衡。灵巧手能否从研发与测试走向更广泛的商业应用，最终仍需由真实场景中的任务表现来检验。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/7b31a8a6-2b08-4cfc-a037-9ae56db70855.png",
+      "source": "IT之家",
+      "publishedAt": "2026-11-09T05:08:01.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/024/146.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794202200969_29dbe038",
+      "title": "Anthropic 揭秘科学家用 Claude 都干啥：大多用来分析数据和写作",
+      "summary": "IT之家 11 月 9 日消息，Anthropic 近日发布研究报告，显示科学家主要将 Claude 用于数据分析和写作，收集数据、生成研究假设则较少使用 AI。",
+      "content": "IT之家 11 月 9 日消息，Anthropic 近日发布研究报告，显示科学家主要将 Claude 用于数据分析和写作，收集数据、生成研究假设则较少使用 AI。 IT之家了解到，Anthropic 此次研究使用了 2026 年 8 月 2 日至 9 月 30 日的 20.7 万次科研会话，其中包含 12.9 万次 Claude 对话和 Cowork 会话，以及 7.8 万次 Claude Code 会话。系统只保留并研究会话所属的学科、研究子领域和具体任务等分类标签，不会提取或保存研究数据、假设、实验方法、初步发现或未发表论文等具体内容。所有结果均以汇总形式呈现，以保护隐私。 从学科来看，计算机科学、数学和统计学等领域的研究人员会更频繁地使用 Claude，医疗健康以及需要在实验室开展工作的物理科学领域则相对较少。 在 Claude 科研会话中，计算机科学（IT之家注：CS）占比最高，达到 11.9%；工程学和医学分别占 8.4% 和 7.7%。如果将各学科的研究人员规模纳入考量，计算机科学、数学和统计学的 Claude 使用比例仍明显高于其研究人员占比。 Claude Code 的使用分布则更加集中于定量研究领域。CS 研究人员仅占全球研究人员总数的 4.3%，贡献 Claude Code 科研会话的 32.7%。AI 与 ML 的使用情况同样突出：该领域研究人员仅占全球总数的 1.2%，却占 Claude 科研会话的 5%，占 Claude Code 科研会话的 15.2%。 相比之下，艺术、人文和部分社科的 Claude 用量相对较低。Anthropic 认为，不同学科的 Claude 用量不仅与人群基数有关，也与研究任务是否适合 AI 密切相关。 在具体研究任务方面，数据分析和写作是科学家最常借助 Claude 完成的工作。 报告显示，数据分析占 Claude 科研会话的 33.7%，占 Claude Code 科研会话的 48.1%。作为对照，研究人员通常将 27.6% 的工作时间用于数据分析。写作与沟通任务占 Claude 科研会话的 32%，也明显高于研究人员在这类任务上投入的时间比例（16%）。 相比之下，数据收集任务占研究人员工作时间的 28.6%，但仅占 Claude 科研会话的 11.5%、Claude Code 会话的 11.9%。研究构思与假设生成任务的占比则更低，分别为 4.2% 和 2.1%，而研究人员投入这类工作的时间占比为 7.1%。 Anthropic 还对 528 名科学家开展了问卷调查，受访者主要来自生命科学和健康科学领域，且均属于积极使用 AI 的研究人员。调查结果与实际会话数据基本一致：受访者最常使用 AI 的场景是数据分析和写作，而数据收集、研究构思及假设生成的使用程度相对较低。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/93e3f44a-d03a-4a80-80e0-bc7b043f3210.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-11-09T03:41:26.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/1/024/111.htm",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794202191384_39bf6886",
+      "title": "AI会撞上的下一堵墙可能是水",
+      "summary": "AI会撞上的下一堵墙可能是水",
+      "content": "世界经济论坛的报告估计，全球约45%的数据中心设施位于高水压力地区",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-09T01:20:50.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8197774.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -41,16 +101,16 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794160067045_4f1b7a47",
-      "title": "顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访",
-      "summary": "顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访",
-      "content": "顶尖 AI 实验室正在成为“人才黑洞”！Claude Code 团队工程师离职后首次受访",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-08T15:03:06.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/Qs0pJ5M43c56hdozHiR0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1794202181735_0",
+      "title": "How to get started with AI agents, which are best for specific tasks",
+      "summary": "By KAITLYN HUAMANI, AP Technology Writer\nAgentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic a...",
+      "content": "By KAITLYN HUAMANI, AP Technology Writer\nAgentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in the surging market for consumer-friendly AI agents.\nWhile t... [5515 chars]",
+      "imageUrl": "https://www.baltimoresun.com/wp-content/uploads/2026/11/Open_AI_Conference_33846.jpg?w=2000&h=1333",
+      "source": "Baltimore Sun",
+      "publishedAt": "2026-11-08T15:20:11.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.baltimoresun.com/2026/11/08/tech-tip-ai-agents/",
+      "aiInsight": ""
     },
     {
       "id": "news_1794160071297_2a6b692a",
@@ -89,6 +149,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1794202198667_6ee7c6b4",
+      "title": "从约束到进化：Ontology 与 AI 自迭代的实践｜AICon北京",
+      "summary": "从约束到进化：Ontology 与 AI 自迭代的实践｜AICon北京",
+      "content": "从约束到进化：Ontology 与 AI 自迭代的实践｜AICon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-08T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/sy9XMK3zJ3jPwHBN5fQV?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1794160063434_25a51df2",
       "title": "从资本密集到人力密集：全球AI的瓶颈，卡在缺乏“电工”",
       "summary": "AI 基建瓶颈几经转移：从 GPU、电力、电气设备，如今落到电工等施工人力。资本可买断设备排期，却无法压缩技工数年培养周期。这场 AI 竞赛，正从资本密集转向人力密集，人力供给约束，或将决定算力扩张长期上限。",
@@ -113,7 +185,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794160054592_0",
+      "id": "news_1794202181460_1",
       "title": "Openai President Greg Brockman Death Will Become Optional Thanks to AI",
       "summary": "Greg Brockman, OpenAIs co-founder and president, told an audience at a WSJ Tech event that artificial intelligence could deliver major medical breakth...",
       "content": "Greg Brockman, OpenAI’s co-founder and president, told an audience at a WSJ Tech event that artificial intelligence could deliver major medical breakthroughs within the next year and a half, and that death itself might eventually become optional.\nTec... [2910 chars]",
@@ -183,90 +255,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8196816.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794160054782_1",
-      "title": "OpenAI Hires Former Army Secretary Dan Driscoll",
-      "summary": "OpenAI has hired former Army Secretary Dan Driscoll to serve as a senior counselor for national security modernization, the company announced Monday, ...",
-      "content": "OpenAI has hired former Army Secretary Dan Driscoll to serve as a senior counselor for national security modernization, the company announced Monday, according to The Hill [1]. The role is a newly created position focused on how artificial intelligen... [6281 chars]",
-      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/11/openai-dan-driscoll-defense-department-6193-44ed4c7f-original.jpg",
-      "source": "Natural News",
-      "publishedAt": "2026-11-06T22:41:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.naturalnews.com/2026-11-06-openai-hires-former-army-secretary-dan-driscoll.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1794160054917_2",
-      "title": "OpenAI bugging suspect Alfozan pleads not guilty",
-      "summary": "The Saudi national charged with planting a listening device in the headquarters of OpenAI while he worked there pleaded not guilty on Friday during an...",
-      "content": "The Saudi national charged with planting a listening device in the headquarters of OpenAI while he worked there pleaded not guilty on Friday during an appearance in San Francisco federal court.\nAbdulrahman Alfozan, 35, was sent back to jail after the... [1810 chars]",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108405226-1792009363242-2026-10-13T224936Z_547248141_RC2F2OAXO3WE_RTRMADP_3_OPENAI-SPYING-FBI.JPG?v=1792415233&w=1920&h=1080",
-      "source": "CNBC",
-      "publishedAt": "2026-11-06T19:29:54.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.cnbc.com/2026/11/06/openai-bugging-alfozan-saudi.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1794160055228_3",
-      "title": "OpenAI, Arm, Qualcomm, Box execs react to midterm sell-off concerns",
-      "summary": "Michael Nagle | Bloomberg | Getty Images\nAs a post-midterm rally Wednesday turned into a steep sell-off Thursday, tech executives sought to look throu...",
-      "content": "Michael Nagle | Bloomberg | Getty Images\nAs a post-midterm rally Wednesday turned into a steep sell-off Thursday, tech executives sought to look through the notion that potential data center constraints could be catastrophic for their businesses.\nIn ... [3723 chars]",
-      "imageUrl": "https://image.cnbcfm.com/api/v1/image/108527793-1793972802519-108527793-1793909522550-gettyimages-2303212023-NASDAQ_MARKETSITE.jpg?v=1793972812&w=1920&h=1080",
-      "source": "CNBC",
-      "publishedAt": "2026-11-06T18:27:19.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.cnbc.com/2026/11/06/tech-executives-ai-data-center-selloff-midterms.html",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1794160067828_c2bcc41a",
-      "title": "Cloudflare 与 VoidZero 联合推出 tsrs：由 AI 生成的 TypeScript 编译器 Rust 移植版",
-      "summary": "Cloudflare 与 VoidZero 联合推出 tsrs：由 AI 生成的 TypeScript 编译器 Rust 移植版...",
-      "content": "Cloudflare 与 VoidZero 联合推出 tsrs：由 AI 生成的 TypeScript 编译器 Rust 移植版",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-06T17:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/lGoA1ZSw6ojeh68GVlBl?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794160068200_42dc62a7",
-      "title": "DigitalOcean 推出学习与数据服务，帮助 AI 智能体进行自我迭代",
-      "summary": "DigitalOcean 推出学习与数据服务，帮助 AI 智能体进行自我迭代",
-      "content": "DigitalOcean 推出学习与数据服务，帮助 AI 智能体进行自我迭代",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-06T15:25:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/upfROwtEl8R75H24D13J?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794160068564_713d278d",
-      "title": "从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务？",
-      "summary": "从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务？",
-      "content": "从混元研发体系重构到 MaaS 推理优化，模型能力如何走向真实业务？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-06T14:34:37.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/azhgYaRTIjsSSVfA8AaU?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794160068968_8d16de05",
-      "title": "智能体 Harness 的演进：从链、图到代码化",
-      "summary": "智能体 Harness 的演进：从链、图到代码化",
-      "content": "智能体 Harness 的演进：从链、图到代码化",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-06T13:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/B7tsA5tjD08k2gd0OtXd?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
