@@ -1,9 +1,93 @@
 {
   "success": true,
-  "timestamp": "2026-11-10T06:43:22Z",
-  "total": 24,
+  "timestamp": "2026-11-10T19:47:26Z",
+  "total": 23,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1794339933429_34679eda",
+      "title": "接大模型别再自己配 Key、搭代理了，火山引擎 IGA Pages 一步搞定",
+      "summary": "接大模型别再自己配 Key、搭代理了，火山引擎 IGA Pages 一步搞定",
+      "content": "接大模型别再自己配 Key、搭代理了，火山引擎 IGA Pages 一步搞定",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-10T18:58:56.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/juu2R26yD8B6ABUEQuWB?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794339933635_c375637b",
+      "title": "面向 AI Native 的数据库技术演进 | 腾讯云数据库 DBTalk",
+      "summary": "面向 AI Native 的数据库技术演进 | 腾讯云数据库 DBTalk",
+      "content": "面向 AI Native 的数据库技术演进 | 腾讯云数据库 DBTalk",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-10T15:53:17.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/video/W1VS3q3eMAosMwrHb1k4?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794339938951_6be0d9c3",
+      "title": "MiniMax 开源 H3-Image 生图模型，10 秒就能生成一张 4K 图像",
+      "summary": "IT之家 11 月 10 日消息，今天（10 日）深夜，MiniMax 宣布，MiniMax H3-Image 正式发布并开放权重。这是一款衍生自 H3 的图像生成模型，其具备文本生成图像、图像参考和图像编辑能力。",
+      "content": "IT之家 11 月 10 日消息，今天（10 日）深夜，MiniMax 宣布，MiniMax H3-Image 正式发布并开放权重。这是一款衍生自 H3 的图像生成模型，其具备文本生成图像、图像参考和图像编辑能力。 IT之家从官方介绍获悉，其能够在 10 秒内生成一张 4096 x 4096 像素、约 16 MP（4K）的高分辨率图像，同时呈现丰富、真实的细节，并具备优秀的指令遵循和多参考图理解能力。 MiniMax 称，在 H3 预训练赋予的广泛图像能力基础上，H3-Image 进一步强化了整个后训练链路，在数据、强化学习、步数压缩、PE、部署优化等方面做了许多扎实的工作。这些工作的组合，使得 MiniMax H3-image 同时具备了速度、画面质量、指令遵循三个方面的竞争力： 相比于主流的 100 万像素或者 400 万像素，1600 万像素（16MP，4096×4096）的图片在细节上具备显著优势。MiniMax H3-Image 在 10s 内生成 16MP 的高规格图像，速度可达市面主流水平的 5 倍。 画面细节和真实感可以显著拓宽模型的使用范围。有别于常见的“AI 感”，H3-Image 能够提供丰富的画面细节和“极强的真实感”。 模型提供了“开源模型中最强”的指令遵循能力，最多支持 16 张参考图片。 发布首周，MiniMax 还将针对 16MP 及以上规格的生成请求提供官方价格的五折优惠。 Hugging Face: https://huggingface.co/MiniMaxAI/MiniMax-H3-Image API: https://platform.minimax.cn/docs/guides/image-generation MiniMax Code: https://code.minimax.cn/about",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/9357fee0-620c-4a72-aa3d-9b9e762a4435.png?x-bce-process=image/format,f_auto",
+      "source": "IT之家",
+      "publishedAt": "2026-11-10T15:25:52.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/1/025/191.htm",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794339934202_8293d647",
+      "title": "成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5",
+      "summary": "成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5",
+      "content": "成本仅1/3！Meta 新模型 Muse Ember 硬刚 Claude Haiku 5.5",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-10T15:22:09.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/Ou4l4aD7zvUzXWXsWJfY?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794339934638_f5214d9e",
+      "title": "DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了",
+      "summary": "DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了...",
+      "content": "DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-10T15:20:56.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/Y7lTO7Q1M8oN5JhxhirK?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794339939012_a1b3cb08",
+      "title": "消息称苹果计划明年上半年为 iPad Air 换用 OLED 面板，预计仍为 60Hz 刷新率",
+      "summary": "IT之家 11 月 10 日消息，据外媒 DigiTimes 报道，苹果计划于 2027 年（明年）上半年为 iPad Air 换用 OLED 面板。 据报道，新款 iPad Air 预计将采用与 OLED iPad mini 相同的单层 OLED 发光结构，以及低温多晶硅（LTPS）背板技术。",
+      "content": "IT之家 11 月 10 日消息，据外媒 DigiTimes 报道，苹果计划于 2027 年（明年）上半年为 iPad Air 换用 OLED 面板。 据报道，新款 iPad Air 预计将采用与 OLED iPad mini 相同的单层 OLED 发光结构，以及低温多晶硅（LTPS）背板技术。相比之下，现款 iPad Pro 使用双层 OLED 发光结构，以提升屏幕亮度，采用低温多晶氧化物（LTPO）背板技术。 此外，OLED 版 iPad Air 预计仍将采用 60Hz 刷新率，不会支持 ProMotion 技术，这项功能将继续作为 iPad Pro 系列的专属卖点。 供应链方面，三星显示预计将为新款 iPad Air 提供大部分 OLED 面板。京东方也正在争取“其中一种尺寸”的面板订单，但仍需要通过苹果的供应商认证。 DigiTimes 援引业内预测称，2027 年苹果 iPad Air 和 iPad mini 的出货量预计分别为 400 万至 500 万台，iPad Pro 则为 300 万至 400 万台。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/4af3b47e-a473-421b-93da-48c8c22ca35b.png",
+      "source": "IT之家",
+      "publishedAt": "2026-11-10T14:30:34.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/1/025/179.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794339930474_a94f6c7c",
+      "title": "Chinese Short Dramas Own Overseas Attention but Not Yet the Profits",
+      "summary": "Vertical micro-dramas from Chinese teams now command extreme mobile engagement abroad. The real product is a paid-hook, ad-bought industrial system, n...",
+      "content": "Vertical micro-dramas from Chinese teams now command extreme mobile engagement abroad. The real product is a paid-hook, ad-bought industrial system, not cultural soft power. Thin margins, rising user-acquisition costs, and copycats will decide whether the boom becomes a lasting business.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-10T12:00:06.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8200340.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1794292898016_5be3de49",
       "title": "openJiuwen首发Agent Device Foundation，重新定义Agent与物理世界的交互方式",
@@ -14,30 +98,6 @@
       "publishedAt": "2026-11-10T11:56:55.000Z",
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/dLF01VxLUZpLX40Wmlv7?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794292898700_0ee69cde",
-      "title": "硅谷疯炒 AI 自我进化，李飞飞、Jeff Dean 齐泼冷水：无限加速不可信",
-      "summary": "硅谷疯炒 AI 自我进化，李飞飞、Jeff Dean 齐泼冷水：无限加速不可信",
-      "content": "硅谷疯炒 AI 自我进化，李飞飞、Jeff Dean 齐泼冷水：无限加速不可信",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-10T11:28:43.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/mZlISiZL9c1eurrsZRpo?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794292899202_633b67ca",
-      "title": "触觉也能 Token 化！蚂蚁灵波发布通用触觉模型，把“具身原生”推进到机器人指尖",
-      "summary": "触觉也能 Token 化！蚂蚁灵波发布通用触觉模型，把“具身原生”推进到机器人指尖",
-      "content": "触觉也能 Token 化！蚂蚁灵波发布通用触觉模型，把“具身原生”推进到机器人指尖",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-10T10:40:29.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/W7VPoeNBPX4y2u72WAGM?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -53,16 +113,16 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794292900839_c5132d11",
-      "title": "Airbnb 借助 Chronon 将推荐延迟从两天缩短至秒级",
-      "summary": "Airbnb 借助 Chronon 将推荐延迟从两天缩短至秒级",
-      "content": "Airbnb 借助 Chronon 将推荐延迟从两天缩短至秒级",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-10T09:11:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/yuRNB72KsEbjGYSkV7FY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1794338964313_0",
+      "title": "Australia to launch AI safety regulator after OpenAI's breach of a government portal",
+      "summary": "Australia plans to create an artificial intelligence safety regulator in response to a breach of an Australian health department website by an OpenAI ...",
+      "content": "Australia plans to create an artificial intelligence safety regulator in response to a breach of an Australian health department website by an OpenAI agent in June.\nMELBOURNE, Australia (AP) — Australia plans to create an artificial intelligence safe... [2682 chars]",
+      "imageUrl": "https://media.breitbart.com/media/2026/11/wi/ap/australia-artificial-intelligence-95-australia-artificial-intelligence-australian-prime-minister-640x335.jpg",
+      "source": "Breitbart News Network",
+      "publishedAt": "2026-11-10T06:15:47.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.breitbart.com/news/australia-to-launch-ai-safety-regulator-after-openais-breach-of-a-government-portal/",
+      "aiInsight": ""
     },
     {
       "id": "news_1794292890103_109ce105",
@@ -218,78 +278,6 @@
       "publishedAt": "2026-11-09T01:20:50.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8197774.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794160071263_7bbdd8e1",
-      "title": "古尔曼称苹果 CEO 特努斯“上任三把火”，敦促软件主管费德里吉大胆搞 AI",
-      "summary": "IT之家 11 月 8 日消息，彭博社记者马克 · 古尔曼在今天（8 日）晚间更新的《Power On》时事通讯中披露，苹果新任 CEO 约翰 · 特努斯敦促软件工程主管克雷格 · 费德里吉加快 AI 业务发展，采取更大胆的策略，目标是将 Siri 升级为能够自主替用户完成任务的 AI 智能体。",
-      "content": "IT之家 11 月 8 日消息，彭博社记者马克 · 古尔曼在今天（8 日）晚间更新的《Power On》时事通讯中披露，苹果新任 CEO 约翰 · 特努斯敦促软件工程主管克雷格 · 费德里吉加快 AI 业务发展，采取更大胆的策略，目标是将 Siri 升级为能够自主替用户完成任务的 AI 智能体。 上周的财报电话会议上，特努斯对苹果的 AI 业务表现得相当乐观。谈及新版 Siri 时特努斯更是自信十足：苹果终于实现了多年来的设想，公司 AI 业务迎来了新篇章。“我们对收到的评价和反馈非常满意，也非常高兴看到越来越多的用户能够体验到它。” 但在苹果内部，特努斯的态度却截然不同。他深知苹果仍远远落后于竞争对手。最近几周，特努斯与去年接替原 AI 负责人、掌管苹果 AI 业务的费德里吉举行了一次闭门会议。 特努斯希望苹果在 AI 领域有更大的作为，也对费德里吉未能像竞争对手那样积极拥抱 AI 感到不满，因此要求他加快开发进度，不能满足于仅仅完成 Siri 必要的功能升级。 费德里吉至今仍被认为是 AI 怀疑论者，担心其对隐私、安全、社会和就业造成的影响。但无论是费德里吉还是苹果，都唯有面对已经发生变化的行业环境。 面对 OpenAI、Meta、谷歌、Anthropic 等公司引领的 AI 浪潮，苹果不再有过去那般可以选择置身事外的实力。 苹果软件部门长期存在的管理问题也因此受到关注。费德里吉习惯亲自参与会议和重大决策，一些员工认为，这种管理方式让不同意见很难获得支持。他还经常与持反对意见的人激烈辩论，凭借对技术细节的熟悉程度和出色的辩论能力，反驳自己不赞同的提案。 IT之家从报道中获悉，这种做法有时令软件工程和设计团队成员感到不满，一些人认为，自己很难影响产品的最终发展方向。 费德里吉偏好短期规划也是一个问题。他通常只制定未来 12 至 18 个月的计划，而苹果硬件部门习惯提前数年规划产品。两种工作方式有时难以协调，不仅拖慢产品开发，还可能导致初代产品的功能和设计不够大胆。 苹果希望让硬件与 AI 软件的开发更加紧密地结合，因此，如何协调两个部门的规划方式，将成为特努斯的一项重要任务。虽然苹果在硬件设计和工程方面仍处于行业领先地位，但软件发展并非总能跟上硬件的步伐。 尽管如此，费德里吉也有能力解决其他高管难以处理的问题。去年，苹果发现原 AI 负责人约翰 · 詹南德雷亚无法兑现公司对 Siri 的承诺后，改由费德里吉接管开发工作，并在相对较短的时间内推出了能够正常运行的新版助手。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/6/5c0b1601-a4ed-42be-995d-dd7d98374842.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-11-08T15:36:53.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/1/024/013.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794292879896_0",
-      "title": "How to get started with AI agents, which are best for specific tasks",
-      "summary": "By KAITLYN HUAMANI, AP Technology Writer\nAgentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic a...",
-      "content": "By KAITLYN HUAMANI, AP Technology Writer\nAgentic artificial intelligence is gaining popularity far beyond tech circles, with Meta, OpenAI, Anthropic and other companies going head-to-head in the surging market for consumer-friendly AI agents.\nWhile t... [5515 chars]",
-      "imageUrl": "https://www.baltimoresun.com/wp-content/uploads/2026/11/Open_AI_Conference_33846.jpg?w=2000&h=1333",
-      "source": "Baltimore Sun",
-      "publishedAt": "2026-11-08T15:20:11.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.baltimoresun.com/2026/11/08/tech-tip-ai-agents/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1794160071297_2a6b692a",
-      "title": "蚂蚁集团：旗下 AI 助手灵光用户数量已突破 2000 万，2.0 版本上线一周已帮助用户管理超 116 万项事务",
-      "summary": "IT之家 11 月 8 日消息，蚂蚁集团旗下 AI 助手灵光宣布：自今年 10 月 27 日灵光 2.0 上线以来，一周内已帮助用户管理超 116 万项事务，执行超 360 万次任务。灵光用户已突破 2000 万。",
-      "content": "IT之家 11 月 8 日消息，蚂蚁集团旗下 AI 助手灵光宣布：自今年 10 月 27 日灵光 2.0 上线以来，一周内已帮助用户管理超 116 万项事务，执行超 360 万次任务。灵光用户已突破 2000 万。 参考IT之家先前报道，蚂蚁集团于 10 月 27 日发布灵光 2.0，其最大特性是 AI 介入任务的起点进一步前移。 过去，用户需要先发现问题、提出需求，再由 AI 执行；如今，在获得用户授权后，灵光能够结合已接入的信息与服务，主动识别潜在需求，并发起分析、监测和跟进，并在需要用户关注的节点及时提醒。AI 不再只是等待指令的工具，而开始成为能够持续管理事务的助手。 除此之外，灵光 2.0 还接入了蚂蚁 APASS，作为 AI 时代跨智能体、跨设备、跨应用与服务场景的统一账号和安全管理基础设施，APASS 将身份认证、意图安全和隐私保护纳入 Agent 执行流程，通过授权密钥与 Agent 分离托管等机制，让智能体在不直接接触授权密钥的情况下执行任务。用户可随时查看、调整或撤销授权，让智能体在授权范围内办事。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/5083a7f4-1102-4fa3-984c-1f1dceba7e69.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-11-08T14:47:23.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/024/010.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794160061232_05f36616",
-      "title": "华为、OpenAI、字节等科技巨头为何都要插手制药？",
-      "summary": "华为、OpenAI、字节等科技巨头为何都要插手制药？",
-      "content": "为何科技巨头都要插手制药？以及，AI到底能给制药带来多大改变？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-08T12:13:38.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8197608.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794160062284_083cdfbc",
-      "title": "中石油60%控股，与宇树、泛界合设公司，油气机器人“验收权”不能交给外部厂商",
-      "summary": "中石油60%控股，与宇树、泛界合设公司，油气机器人“验收权”不能交给外部厂商",
-      "content": "中石油控股三方合营，锚定油气具身机器人标准定义。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-08T12:09:29.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8197535.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794160063434_25a51df2",
-      "title": "从资本密集到人力密集：全球AI的瓶颈，卡在缺乏“电工”",
-      "summary": "AI 基建瓶颈几经转移：从 GPU、电力、电气设备，如今落到电工等施工人力。资本可买断设备排期，却无法压缩技工数年培养周期。这场 AI 竞赛，正从资本密集转向人力密集，人力供给约束，或将决定算力扩张长期上限。",
-      "content": "AI 基建瓶颈几经转移：从 GPU、电力、电气设备，如今落到电工等施工人力。资本可买断设备排期，却无法压缩技工数年培养周期。这场 AI 竞赛，正从资本密集转向人力密集，人力供给约束，或将决定算力扩张长期上限。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-08T06:55:09.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8194549.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
