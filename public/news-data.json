@@ -1,20 +1,56 @@
 {
   "success": true,
-  "timestamp": "2026-11-12T06:34:08Z",
-  "total": 21,
+  "timestamp": "2026-11-12T19:44:25Z",
+  "total": 19,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1794465138074_4ed42532",
-      "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
-      "summary": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
-      "content": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
+      "id": "news_1794512550629_92d2c82f",
+      "title": "Chinese Workers Are Paying Their Own AI Bills to Stay Productive",
+      "summary": "Generative AI has become daily infrastructure for millions of office and professional users in China. Employers rarely reimburse the subscriptions and...",
+      "content": "Generative AI has become daily infrastructure for millions of office and professional users in China. Employers rarely reimburse the subscriptions and API spend. Token costs are rising, getting harder to predict, and turning into a quiet second rent on the job.",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-12T13:00:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-12T13:42:07.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8203536.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794512551088_49b6e3ff",
+      "title": "今天起，豆包工作接入更多模型了",
+      "summary": "11月12日，豆包工作宣布正式接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型，并推出限时特惠计划。",
+      "content": "11月12日，豆包工作宣布正式接入 Kimi K3.1 Pro、GLM 5.3、DeepSeek V4.1 Flash 等多款第三方模型，并推出限时特惠计划。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-12T13:23:33.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8202629.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794512551614_559b2f13",
+      "title": "实测百度文心5.5 Flash Preview：审美依然在线，编程全力争先",
+      "summary": "实测百度文心5.5 Flash Preview：审美依然在线，编程全力争先",
+      "content": "百度发布最新基础模型，编程、3D 建模、知识工作、内容创作等表现突出。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-12T13:23:09.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8202831.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794512552058_d18965b3",
+      "title": "Alibaba’s Chip Unit Heads for Hong Kong With Cloud Still in the Way",
+      "summary": "Alibaba plans to list T-Head in Hong Kong after eight years inside the group. The unit has real silicon and a slice of China’s AI accelerator market. ...",
+      "content": "Alibaba plans to list T-Head in Hong Kong after eight years inside the group. The unit has real silicon and a slice of China’s AI accelerator market. Investors still cannot see a clean chip-company P&L, because most demand runs through Alibaba Cloud.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-12T11:46:05.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.tmtpost.com/8203405.html",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1794465138666_a1c0cd92",
@@ -26,18 +62,6 @@
       "publishedAt": "2026-11-12T11:00:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/E7QKIMUz3h0G0IE5Paii?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794465139264_8d06f6e0",
-      "title": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
-      "summary": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
-      "content": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-12T10:23:32.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/7Pecd1CshYIMvCTeBhrm?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -74,6 +98,30 @@
       "publishedAt": "2026-11-11T21:05:37.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794512561155_7f842df9",
+      "title": "上下文也是成本：Agent 效率优化的新思路 ｜ 技术趋势",
+      "summary": "上下文也是成本：Agent 效率优化的新思路 ｜ 技术趋势",
+      "content": "上下文也是成本：Agent 效率优化的新思路 ｜ 技术趋势",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-11T19:05:46.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/iaCUbU8Fwz6G6bDlQ9BV?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794512561759_fb4c13b2",
+      "title": "从 AI 工具到业务落地：兰州安宁 OPC 大会将聚焦 FDE 实践与企业 AI 转型",
+      "summary": "从 AI 工具到业务落地：兰州安宁 OPC 大会将聚焦 FDE 实践与企业 AI 转型",
+      "content": "从 AI 工具到业务落地：兰州安宁 OPC 大会将聚焦 FDE 实践与企业 AI 转型",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-11T18:36:17.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/P2UWjVdAmPzOBaxd0v4f?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -161,9 +209,9 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794465125391_1",
+      "id": "news_1794512543020_1",
       "title": "OpenAI Third-Quarter Revenue Soars Nearly 50% to $10 Billion",
-      "summary": "News National business OpenAI Third-Quarter Revenue Soars Nearly 50% to $10 Billion Nov. 10, 2026 Updated Tue., Nov. 10, 2026 at 9:04 p.m. Add Spokesm...",
+      "summary": "OpenAI’s quarterly revenue hit $10 billion for the first time in the three months ending in September, according to a person familiar with the matter,...",
       "content": "OpenAI’s quarterly revenue hit $10 billion for the first time in the three months ending in September, according to a person familiar with the matter, driven by strong demand for its latest artificial intelligence software.\nThe ChatGPT maker’s revenu... [1363 chars]",
       "imageUrl": "https://thumb.spokesman.com/vVgvYYoxSTqCs3UQTGGx65bqAtY=/2400x1260/smart/filters:format(jpeg):fill(white)/media.spokesman.com/graphics/2020/08/sr_placeholder.png",
       "source": "Spokane Spokesman-Review",
@@ -173,7 +221,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1794465126055_2",
+      "id": "news_1794512543222_2",
       "title": "Australia to launch AI safety regulator after OpenAI's breach",
       "summary": "To share the story of your loved one, you can submit an obituary using any of the following methods:\nEmail: Please include the information from our Ob...",
       "content": "To share the story of your loved one, you can submit an obituary using any of the following methods:\nEmail: Please include the information from our Obituary Checklist (referenced below) to obits@pioneerpress.com.\nOnline: Use our Self-Service Portal f... [6694 chars]",
@@ -183,78 +231,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.twincities.com/2026/11/10/australia-ai-safety-regulator/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1794339938951_6be0d9c3",
-      "title": "MiniMax 开源 H3-Image 生图模型，10 秒就能生成一张 4K 图像",
-      "summary": "IT之家 11 月 10 日消息，今天（10 日）深夜，MiniMax 宣布，MiniMax H3-Image 正式发布并开放权重。这是一款衍生自 H3 的图像生成模型，其具备文本生成图像、图像参考和图像编辑能力。",
-      "content": "IT之家 11 月 10 日消息，今天（10 日）深夜，MiniMax 宣布，MiniMax H3-Image 正式发布并开放权重。这是一款衍生自 H3 的图像生成模型，其具备文本生成图像、图像参考和图像编辑能力。 IT之家从官方介绍获悉，其能够在 10 秒内生成一张 4096 x 4096 像素、约 16 MP（4K）的高分辨率图像，同时呈现丰富、真实的细节，并具备优秀的指令遵循和多参考图理解能力。 MiniMax 称，在 H3 预训练赋予的广泛图像能力基础上，H3-Image 进一步强化了整个后训练链路，在数据、强化学习、步数压缩、PE、部署优化等方面做了许多扎实的工作。这些工作的组合，使得 MiniMax H3-image 同时具备了速度、画面质量、指令遵循三个方面的竞争力： 相比于主流的 100 万像素或者 400 万像素，1600 万像素（16MP，4096×4096）的图片在细节上具备显著优势。MiniMax H3-Image 在 10s 内生成 16MP 的高规格图像，速度可达市面主流水平的 5 倍。 画面细节和真实感可以显著拓宽模型的使用范围。有别于常见的“AI 感”，H3-Image 能够提供丰富的画面细节和“极强的真实感”。 模型提供了“开源模型中最强”的指令遵循能力，最多支持 16 张参考图片。 发布首周，MiniMax 还将针对 16MP 及以上规格的生成请求提供官方价格的五折优惠。 Hugging Face: https://huggingface.co/MiniMaxAI/MiniMax-H3-Image API: https://platform.minimax.cn/docs/guides/image-generation MiniMax Code: https://code.minimax.cn/about",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/9357fee0-620c-4a72-aa3d-9b9e762a4435.png?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-11-10T15:25:52.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/025/191.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794339934638_f5214d9e",
-      "title": "DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了",
-      "summary": "DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了...",
-      "content": "DeepSeek Harness 日活154万，官方开始给插件作者发Token：Agent 生态要靠开发者了",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-10T15:20:56.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/Y7lTO7Q1M8oN5JhxhirK?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794339939012_a1b3cb08",
-      "title": "消息称苹果计划明年上半年为 iPad Air 换用 OLED 面板，预计仍为 60Hz 刷新率",
-      "summary": "IT之家 11 月 10 日消息，据外媒 DigiTimes 报道，苹果计划于 2027 年（明年）上半年为 iPad Air 换用 OLED 面板。 据报道，新款 iPad Air 预计将采用与 OLED iPad mini 相同的单层 OLED 发光结构，以及低温多晶硅（LTPS）背板技术。",
-      "content": "IT之家 11 月 10 日消息，据外媒 DigiTimes 报道，苹果计划于 2027 年（明年）上半年为 iPad Air 换用 OLED 面板。 据报道，新款 iPad Air 预计将采用与 OLED iPad mini 相同的单层 OLED 发光结构，以及低温多晶硅（LTPS）背板技术。相比之下，现款 iPad Pro 使用双层 OLED 发光结构，以提升屏幕亮度，采用低温多晶氧化物（LTPO）背板技术。 此外，OLED 版 iPad Air 预计仍将采用 60Hz 刷新率，不会支持 ProMotion 技术，这项功能将继续作为 iPad Pro 系列的专属卖点。 供应链方面，三星显示预计将为新款 iPad Air 提供大部分 OLED 面板。京东方也正在争取“其中一种尺寸”的面板订单，但仍需要通过苹果的供应商认证。 DigiTimes 援引业内预测称，2027 年苹果 iPad Air 和 iPad mini 的出货量预计分别为 400 万至 500 万台，iPad Pro 则为 300 万至 400 万台。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/4af3b47e-a473-421b-93da-48c8c22ca35b.png",
-      "source": "IT之家",
-      "publishedAt": "2026-11-10T14:30:34.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/025/179.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794339930474_a94f6c7c",
-      "title": "Chinese Short Dramas Own Overseas Attention but Not Yet the Profits",
-      "summary": "Vertical micro-dramas from Chinese teams now command extreme mobile engagement abroad. The real product is a paid-hook, ad-bought industrial system, n...",
-      "content": "Vertical micro-dramas from Chinese teams now command extreme mobile engagement abroad. The real product is a paid-hook, ad-bought industrial system, not cultural soft power. Thin margins, rising user-acquisition costs, and copycats will decide whether the boom becomes a lasting business.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-10T12:00:06.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8200340.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794292898016_5be3de49",
-      "title": "openJiuwen首发Agent Device Foundation，重新定义Agent与物理世界的交互方式",
-      "summary": "openJiuwen首发Agent Device Foundation，重新定义Agent与物理世界的交互方式...",
-      "content": "openJiuwen首发Agent Device Foundation，重新定义Agent与物理世界的交互方式",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-10T11:56:55.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/dLF01VxLUZpLX40Wmlv7?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794292899744_9349fbe1",
-      "title": "ADD 资产驱动开发：让 AI Coding 懂业务、守规范、稳架构、实现端到端交付｜AICon北京",
-      "summary": "ADD 资产驱动开发：让 AI Coding 懂业务、守规范、稳架构、实现端到端交付｜AICon北京...",
-      "content": "ADD 资产驱动开发：让 AI Coding 懂业务、守规范、稳架构、实现端到端交付｜AICon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-10T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/rsMuS4cuc2ir68ulGgEs?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
