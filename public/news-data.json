@@ -1,9 +1,57 @@
 {
   "success": true,
-  "timestamp": "2026-11-12T19:44:25Z",
-  "total": 19,
+  "timestamp": "2026-11-13T05:53:25Z",
+  "total": 21,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1794549095236_f0a5f612",
+      "title": "Docker 呼吁通过隔离与治理保障智能体安全",
+      "summary": "Docker 呼吁通过隔离与治理保障智能体安全",
+      "content": "Docker 呼吁通过隔离与治理保障智能体安全",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-13T11:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794549096118_590256df",
+      "title": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
+      "summary": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
+      "content": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-13T09:17:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/joYjCTbwWFSkbACK5lje?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794549090860_5b169fd7",
+      "title": "Cookiy Labs创始人董有超：AI掌控生产之后，企业为什么还要向真人咨询？",
+      "summary": "让AI在需要人类经验时能够找到人，让提供经验的人获得授权和回报，让企业在做决定之前看到真实的人如何反应。",
+      "content": "让AI在需要人类经验时能够找到人，让提供经验的人获得授权和回报，让企业在做决定之前看到真实的人如何反应。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-13T04:32:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8201722.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794549091743_4bf3d25f",
+      "title": "Cheap AI Tracks Are Crowding Human Arrangers Out of China’s Playlist Economy",
+      "summary": "Chinese music platforms now add more than 100,000 songs a day, and a rising share is machine-made. Clients who once paid thousands for an arrangement ...",
+      "content": "Chinese music platforms now add more than 100,000 songs a day, and a rising share is machine-made. Clients who once paid thousands for an arrangement now shop for a few hundred yuan and a menu of AI drafts. The middle of the profession is getting squeezed; the top and the pure commodity layers are sorting out differently.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-13T03:33:04.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8204075.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1794512550629_92d2c82f",
       "title": "Chinese Workers Are Paying Their Own AI Bills to Stay Productive",
@@ -41,6 +89,18 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1794549097067_4ed42532",
+      "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
+      "summary": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
+      "content": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-12T13:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1794512552058_d18965b3",
       "title": "Alibaba’s Chip Unit Heads for Hong Kong With Cloud Still in the Way",
       "summary": "Alibaba plans to list T-Head in Hong Kong after eight years inside the group. The unit has real silicon and a slice of China’s AI accelerator market. ...",
@@ -62,6 +122,18 @@
       "publishedAt": "2026-11-12T11:00:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/E7QKIMUz3h0G0IE5Paii?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794549098530_8d06f6e0",
+      "title": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
+      "summary": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
+      "content": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-12T10:23:32.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/7Pecd1CshYIMvCTeBhrm?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -98,30 +170,6 @@
       "publishedAt": "2026-11-11T21:05:37.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794512561155_7f842df9",
-      "title": "上下文也是成本：Agent 效率优化的新思路 ｜ 技术趋势",
-      "summary": "上下文也是成本：Agent 效率优化的新思路 ｜ 技术趋势",
-      "content": "上下文也是成本：Agent 效率优化的新思路 ｜ 技术趋势",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-11T19:05:46.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/iaCUbU8Fwz6G6bDlQ9BV?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794512561759_fb4c13b2",
-      "title": "从 AI 工具到业务落地：兰州安宁 OPC 大会将聚焦 FDE 实践与企业 AI 转型",
-      "summary": "从 AI 工具到业务落地：兰州安宁 OPC 大会将聚焦 FDE 实践与企业 AI 转型",
-      "content": "从 AI 工具到业务落地：兰州安宁 OPC 大会将聚焦 FDE 实践与企业 AI 转型",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-11T18:36:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/P2UWjVdAmPzOBaxd0v4f?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -207,30 +255,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8198782.html",
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794512543020_1",
-      "title": "OpenAI Third-Quarter Revenue Soars Nearly 50% to $10 Billion",
-      "summary": "OpenAI’s quarterly revenue hit $10 billion for the first time in the three months ending in September, according to a person familiar with the matter,...",
-      "content": "OpenAI’s quarterly revenue hit $10 billion for the first time in the three months ending in September, according to a person familiar with the matter, driven by strong demand for its latest artificial intelligence software.\nThe ChatGPT maker’s revenu... [1363 chars]",
-      "imageUrl": "https://thumb.spokesman.com/vVgvYYoxSTqCs3UQTGGx65bqAtY=/2400x1260/smart/filters:format(jpeg):fill(white)/media.spokesman.com/graphics/2020/08/sr_placeholder.png",
-      "source": "Spokane Spokesman-Review",
-      "publishedAt": "2026-11-10T23:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.spokesman.com/stories/2026/nov/10/openai-third-quarter-revenue-soars-nearly-50-to-10/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1794512543222_2",
-      "title": "Australia to launch AI safety regulator after OpenAI's breach",
-      "summary": "To share the story of your loved one, you can submit an obituary using any of the following methods:\nEmail: Please include the information from our Ob...",
-      "content": "To share the story of your loved one, you can submit an obituary using any of the following methods:\nEmail: Please include the information from our Obituary Checklist (referenced below) to obits@pioneerpress.com.\nOnline: Use our Self-Service Portal f... [6694 chars]",
-      "imageUrl": "https://www.twincities.com/wp-content/uploads/2026/11/Australia_Artificial_Intelligence__95_3.jpg?w=2000&h=1333",
-      "source": "St. Paul Pioneer Press",
-      "publishedAt": "2026-11-10T22:37:58.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.twincities.com/2026/11/10/australia-ai-safety-regulator/",
-      "aiInsight": ""
     }
   ]
 }
