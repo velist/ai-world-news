@@ -1,32 +1,80 @@
 {
   "success": true,
-  "timestamp": "2026-11-13T05:53:25Z",
-  "total": 21,
+  "timestamp": "2026-11-13T19:26:37Z",
+  "total": 16,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1794549095236_f0a5f612",
-      "title": "Docker 呼吁通过隔离与治理保障智能体安全",
-      "summary": "Docker 呼吁通过隔离与治理保障智能体安全",
-      "content": "Docker 呼吁通过隔离与治理保障智能体安全",
+      "id": "news_1794597886783_28cbb5ab",
+      "title": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
+      "summary": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
+      "content": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-13T11:00:00.000Z",
+      "publishedAt": "2026-11-13T20:54:12.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/video/FwbOyyfoAmkQPMTItMDN?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794549096118_590256df",
-      "title": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
-      "summary": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
-      "content": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
+      "id": "news_1794597888422_b4f32d0b",
+      "title": "智能互动 Agent 在快手商业场景的落地实践",
+      "summary": "智能互动 Agent 在快手商业场景的落地实践",
+      "content": "智能互动 Agent 在快手商业场景的落地实践",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-13T09:17:00.000Z",
+      "publishedAt": "2026-11-13T19:00:00.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794597889606_1e615cb5",
+      "title": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
+      "summary": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
+      "content": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-13T17:06:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794597895261_73b077d4",
+      "title": "DeepSeek 发布全家桶应用 API：开发者将能 1:1 复刻完整 DeepSeek App",
+      "summary": "IT之家 11 月 13 日消息，今天（13 日）晚间，DeepSeek 宣布正式开放全家桶应用 API：在原有 API 中开启对应参数，即可获得深度思考搜索、文件输入等对话功能；语音及相关底层能力也已开放独立接口（含 OCR、ASR、TTS 等），支持单独或组合调用。",
+      "content": "IT之家 11 月 13 日消息，今天（13 日）晚间，DeepSeek 宣布正式开放全家桶应用 API：在原有 API 中开启对应参数，即可获得深度思考搜索、文件输入等对话功能；语音及相关底层能力也已开放独立接口（含 OCR、ASR、TTS 等），支持单独或组合调用。 开发者可以在自己的应用中轻松实现复杂的对话功能，甚至 1:1 复刻出完整的 DeepSeek App。 本次更新将 DeepSeek App 的各项交互功能直接整合进原有 API。开启对应参数后，相关工具调用与上下文拼接均由服务端自动完成。 目前，V4.1-Flash 模型（deepseek-flash）已在 Messages、Responses 与 Chat Completions 接口下支持以下能力： 联网搜索：在非思考模式下，打开 deepseek_web_search 工具后，模型可根据提问自动发起网页或图片搜索并附引用作答； 深度思考搜索：在思考模式下，打开 deepseek_web_search 工具后，模型可在多步推理中自主联网搜索与阅读链接； 文件输入：支持上传 PDF、Office、图片等格式的文件，完成纯文本提取或图文混排解析后，拼入对话上下文供模型作答； 阅读链接：将 deepseek_read_url 工具打开后，模型可自动识别用户消息中的链接，抓取网页内容并结合上下文作答； 模型安全：开启安全校验参数后，DeepSeek 将提供基础风控，审核模型输入输出，命中风险时返回拒答标识。如您对外提供应用服务，请务必开启该参数，并承担内容安全审核、大模型登记、AI 标识等义务。 此外，为方便开发者更灵活地接入自有工作流，上述底层能力及语音能力均支持作为独立接口单独调用，包括：Search、Fetch、OCR、ASR、TTS。 使用上述接口，开发者即可实现与 DeepSeek App 基本一致的功能。为直观演示这一效果，DeepSeek 基于新版 API 构建并开源了一份轻量的前端 Demo，支持直接导入 DeepSeek 历史对话。 Demo 体验入口：https://cdn.deepseek.com/chat-demo 示例代码入口：https://github.com/deepseek-ai/chat-demo 据IT之家了解，用户调用 DeepSeek API 使用扩展能力时，除收取 Token 费用外，也将收取相关工具的调用费用。 文字 / 图片搜索：5 元 / 千次 网页抓取：5 元 / 千次 文字识别：1.5 元 / 千页 语音识别：限时 5 折，优惠后 0.39 元 / 小时 语音合成：限时 5 折，优惠后 1.5 元 / 万字符",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/8a3043ca-da5b-4bef-8eb0-3818501b4b31.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-11-13T14:29:06.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/1/026/960.htm",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794597883091_6f82174c",
+      "title": "China’s Internet Giants Are Listing AI Units Because the Parent Stock Will Not Price Them",
+      "summary": "Alibaba, Baidu, and Kuaishou are sending chip and model assets to separate markets. The subsidiaries attract lofty private or target valuations; the p...",
+      "content": "Alibaba, Baidu, and Kuaishou are sending chip and model assets to separate markets. The subsidiaries attract lofty private or target valuations; the parents do not. Spin-offs buy a public price tag without removing the cost or the control.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-13T10:52:05.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/joYjCTbwWFSkbACK5lje?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.tmtpost.com/8204635.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794597883623_a5c0f358",
+      "title": "Anthropic想给算力债“找下家”",
+      "summary": "Anthropic想给算力债“找下家”",
+      "content": "为了5180亿美元的“算力房租”，Anthropic冲击史上最大IPO。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-13T09:56:33.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8203967.html",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1794549090860_5b169fd7",
@@ -89,18 +137,6 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794549097067_4ed42532",
-      "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
-      "summary": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
-      "content": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-12T13:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1794512552058_d18965b3",
       "title": "Alibaba’s Chip Unit Heads for Hong Kong With Cloud Still in the Way",
       "summary": "Alibaba plans to list T-Head in Hong Kong after eight years inside the group. The unit has real silicon and a slice of China’s AI accelerator market. ...",
@@ -122,18 +158,6 @@
       "publishedAt": "2026-11-12T11:00:00.000Z",
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/E7QKIMUz3h0G0IE5Paii?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794549098530_8d06f6e0",
-      "title": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
-      "summary": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
-      "content": "InfoQ 2026 年趋势报告：AI、ML与数据工程",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-12T10:23:32.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/7Pecd1CshYIMvCTeBhrm?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -171,90 +195,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794425114420_662957b4",
-      "title": "谷歌 DeepMind 发布 AlphaGenome 2 基因序列模型：识别致病变异能力提升近一倍",
-      "summary": "IT之家 11 月 11 日消息，谷歌 DeepMind 发布新一代 DNA 序列模型 AlphaGenome 2，可预测 DNA 序列及其变异对特定人体细胞类型的影响，为科研人员挖掘疾病的细胞驱动因素提供全新工具。",
-      "content": "IT之家 11 月 11 日消息，谷歌 DeepMind 发布新一代 DNA 序列模型 AlphaGenome 2，可预测 DNA 序列及其变异对特定人体细胞类型的影响，为科研人员挖掘疾病的细胞驱动因素提供全新工具。 人体每个细胞携带相同的 DNA 蓝图，但不同细胞类型会通过开关不同基因完成特定功能。全球的人类细胞图谱项目已对数百万细胞的基因表达进行绘制，但预测细微 DNA 变异如何影响细胞基因表达，仍是尚未解决的难题。 此前谷歌已推出初代 AlphaGenome，可预测 DNA 变异对宽泛组织的分子活性影响，并推出了覆盖人类基因组全部 90 亿种单字母变异预测的 AlphaGenome Atlas，助力罕见病、复杂性状与基础生物学研究。 AlphaGenome 2 从宽泛组织平均水平缩小至单个细胞类型与状态，并重构了模型架构，变异预测性能实现阶跃式提升，可捕捉宽泛组织模型中遗漏的疾病相关细胞中的变异效应，还能对模型未见过的细胞与疾病状态做出预测。 据IT之家了解，相比此前的最优模型，AlphaGenome 2 能识别出近两倍数量的、可改变细胞内基因表达的变异。该模型基于 68 类组织的超过 1 亿个单细胞图谱训练，将静态细胞图谱转化为人类遗传学的预测引擎。目前该模型已通过 AlphaGenome API 面向非商业研究开放，商业研究则处于私密预览阶段。 初代 AlphaGenome 可一次性读取百万字母长度的 DNA 序列，同步预测多类组织、数千项实验的相关属性。这种并行方式效率较高，但会分散模型的计算能力，难以捕捉近缘细胞类型之间的细微差异。 谷歌对模型处理细胞类型的逻辑进行了根本性重构。AlphaGenome 2 不再采用并行预测模式，而是条件式模型，单次仅针对一种条件（组织、细胞类型或细胞状态）预测 DNA 效应。除百万字母长度的 DNA 序列外，模型在架构的每个阶段都将目标生物条件作为输入，能够学习同一段 DNA 在不同细胞类型中的读取差异。 条件式架构还支持跨模态数据填充，可预测缺失的实验数据。模型会将细胞的生物状态与输出结果分离，若科研人员仅输入单细胞基因活性这类单类测量数据，AlphaGenome 2 即可预测染色质可及性等未测量属性，帮助科研人员规划后续实验方向。 AlphaGenome 2 同时基于人类与小鼠的组织块、单细胞数据完成训练，纳入了超过 1.07 亿个单细胞图谱。跳出初代模型的组织块平均水平后，该模型可解析心肌、血液免疫细胞等特化细胞内部的活性，挖掘仅在特定细胞类型中发挥作用的关键 DNA 变异。 该模型保留了初代模型支持的基因表达、组蛋白修饰、染色质可及性等核心 DNA 功能实验指标，还新增了备受需求的 DNA 甲基化预测能力。 AlphaGenome 2 在特定细胞的基因调控预测方面性能显著提升，可帮助科研人员精准定位疾病相关变异。 细胞特异性提升：在训练数据未覆盖的基因组区域，AlphaGenome 2 可更好解释同一组织内不同细胞类型间的基因表达差异，能够追踪人体造血干细胞成熟为红细胞、免疫细胞谱系过程中基因表达的连续变化。 变异效应预测提升：在覆盖 28 类原代免疫细胞的 TenK10K 大型单细胞数据集测试中，AlphaGenome 2 识别到的因果变异占比达 30%、基因效应方向判断准确率达 43%，相比初代 AlphaGenome 的 16%、23% 接近翻倍，可帮助科研人员发现此前被忽略的候选变异。 精准定位疾病相关变异：此前一项里程碑研究发现，一段远端调控序列的变异会通过过度激活肠道免疫巨噬细胞中的 ETS2 基因，诱发炎症性肠病。AlphaGenome 2 在计算层面复现了该结论，精准定位到该因果变异，证明其仅会选择性提升肠道巨噬细胞的 ETS2 基因活性，对其他细胞类型与基因几乎无影响。 AlphaGenome 2 无需重新训练，即可泛化到全新的单细胞实验场景。科研人员仅需上传数十个细胞的单细胞 RNA 测序基因活性快照，模型即可将其压缩为细胞状态表征，作为条件输入处理从未见过的细胞状态，性能可媲美甚至超过直接在对应数据集上训练或微调的模型。 该能力让 AlphaGenome 2 可预测疾病、疫苗接种等场景下全新细胞状态的变异效应与基因调控规律。例如在针对新冠 mRNA 疫苗的未见过的单细胞数据测试中，AlphaGenome 2 可区分疫苗激活的免疫 T 细胞与静息状态 T 细胞，还揭示了与新冠重症相关的变异，在细胞激活状态下对基因活性的干扰更强 —— 这种效应在未激活细胞中会被完全遗漏。 搭建人类遗传学与单细胞生物学的关联，是理解疾病的重要路径。其中的关键环节，是将全基因组关联研究（GWAS）发现的数千种性状、疾病相关变异，与日益完善的人体单细胞图谱建立对应关系。 为避免科研人员自行开展大规模计算，谷歌已预先计算了 AlphaGenome 2 针对数百种人类细胞与组织条件下、性状相关变异的预测结果，解决两大核心难题： 真实人类细胞类型中的增强子-基因关联映射：大量疾病相关变异位于名为增强子的远端调控序列中，效应难以追踪。由于 CRISPR 实验大多使用稳定的实验室培养细胞系，科研人员往往缺乏人体特定细胞的调控关联图谱。AlphaGenome 2 将增强子-基因映射能力拓展至人脑星形胶质细胞等原代人体细胞，帮助科研人员定位疾病发生的特定细胞中，调控变异与靶基因的对应关系。 精准定位 GWAS 因果变异及其作用细胞：全基因组关联研究通常标记出与疾病关联的宽泛 DNA 片段，科研人员往往无法高置信度地定位具体的因果变异、靶基因与作用细胞类型。在身高、2 型糖尿病等多种复杂性状的分析中，AlphaGenome 2 的预计算变异评分可帮助定位最相关的特定变异与细胞类型，在置信度充足时，模型还可准确预测变异是上调还是下调基因活性，为理解基因的致病作用提供关键线索。 随着科研人员在单细胞层面绘制更多人体图谱，AI 模型的性能将持续提升。谷歌正与惠康桑格研究所等机构开展持续合作，计划对更广泛的人类细胞类型、发育谱系、扰动细胞状态开展分析，期待全球科研人员借助 AlphaGenome 2 的细胞特异性预测能力，挖掘基因变异在不同细胞中的作用规律，揭示基础生物学与疾病的相关机制。 目前 AlphaGenome 2 与表达条件交互式 Colab 教程已通过 AlphaGenome API 面向非商业研究开放，商业研究处于私密预览阶段。不久后，谷歌还将在智能体开发平台 Google Antigravity 中推出 AlphaGenome 2 Skills，结合 Gemini 4 等智能体科学工具，助力科研人员加速研究进程、取得新发现。 官方提示：AlphaGenome 与 AlphaGenome 2 仅用于研究用途，尚未经过临床或诊断用途的验证与审批。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/0bdc0c3c-c350-45b2-90a3-3ef99af68dc4.png",
-      "source": "IT之家",
-      "publishedAt": "2026-11-11T15:19:51.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/1/025/822.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794425114454_7f4cb590",
-      "title": "Adobe 公布四项 AI 实验项目：照片秒变 3D 场景，还能通过聊天设计 AI 角色",
-      "summary": "IT之家 11 月 11 日消息，每年举办的 Adobe MAX 大会上，Adobe 展示的最令人印象深刻的技术之一，往往是那些仍处于实验阶段、尚未正式推出的创新功能。",
-      "content": "IT之家 11 月 11 日消息，每年举办的 Adobe MAX 大会上，Adobe 展示的最令人印象深刻的技术之一，往往是那些仍处于实验阶段、尚未正式推出的创新功能。今天，该公司公布了最新一批实验项目：它们能够将普通图片转换为可探索的 3D 场景，通过与 AI 角色对话来设计角色形象，还能让照片编辑变成简单的复制粘贴操作。 首先是非常奇特的 Project Screen Test 项目，其旨在让用户更轻松地创建 AI 生成角色，并将其应用于视频内容。 IT之家注意到，与传统方式不同，用户不再只是通过文字提示词描述角色应该如何说话、如何表现，而是可以直接与角色对话，在类似演员试镜的环境中对其进行指导。 使用时，用户首先需要描述角色的一些基本性格特征，例如“焦虑、害羞、笨拙”等，并为角色设置声音。声音可以从预设选项中选择，也可以通过文字提示词描述，或者上传一段音频样本，让 AI 以此为参考。 随后，用户可以像通过 FaceTime 与人视频通话一样，与 AI 角色展开对话，进一步完善其人物设定，包括成长背景、性格、目标、缺点、恐惧，以及一些独特的动作习惯等。 完成角色设计后，用户还可以描述希望角色置身其中的环境或情景，生成相应的动态试镜视频。 目前，Project Screen Test 仍然是一项独立的创意实验，尚不清楚其未来是否会被整合进 Adobe 现有的 AI 视频工具中。 从实际效果来看，与许多缺乏灵魂的 AI 动画角色相比，这项工具生成的角色拥有更加鲜明、连贯的个性。不过，这恰恰也是它存在的意义：与传统动画制作相比，AI 视频生成能够提供的创作控制权要少得多。在传统动画中，角色的每一个细节都经过创作者有意识的设计，而 AI 生成的角色很难做到这一点。 另一个项目是 Project Sight Span，它能够将普通照片和图片转换为可供用户探索的 3D 空间，从而重新调整画面的构图和视角。 这项技术可以生成原始画面之外的物体和背景，将一张平面图片扩展成完整的三维环境。即使用户转动视角，查看原本被拍摄者遮挡的背后区域，系统生成的内容也能与原始画面自然衔接。 不过，在 3D 环境中浏览时，画面中的物体和背景会显得像素化，细节也不够清晰。但当用户选定最终视角后，系统便会恢复相应画面的分辨率。 Sight Span 支持各种平面图像，包括照片、绘画和插画，同时能够保留并复现原作品的艺术风格。即使用户调整照片中人物的纹身位置或面部特征，这些细节依然能够令人惊讶地保持辨识度，并与原始参考图像高度一致。 这项技术有点像苹果 Spatial Reframing 空间重构功能的强化版：用户不仅可以更加大幅度地调整画面中的元素，甚至能够彻底改变拍摄角度。不过，经过如此大幅度调整后，最终作品似乎也已经不太适合继续称为一张照片了。 Project Sound Bender 则是一项 AI 音频混音功能，用户可以像在色轮上移动光标一样，自由调整视频中的音效。 使用时，用户只需上传一段视频，并通过文字提示词描述想要的声音效果，例如“冒着气泡的科幻炼金锅声音”。Sound Bender 随后会自动生成相应音效，并将其与视频同步。 与此同时，工具还会提供一个方形声音控制面板，让用户实时调整音效。面板的四个角会自动分配不同类型的 AI 生成声音，例如密集的咕噜声和气泡爆裂声、岩石沸腾般的轰鸣声、带有音高变化的电子音，以及噼啪作响的电火花声。 用户可以在面板上拖动光标，自由选择希望突出的声音类型，也可以分别为四个角设置不同的音效。 Adobe 展示的第四个项目是 Project Rinse Repeat，它能够让用户复制已经完成的编辑操作，并自动将相同的处理效果应用到同一张照片中的其他人物或物体上。 例如，用户花费大量时间为照片中的某个人物进行磨皮，去除痘痘和皮肤瑕疵后，Rinse Repeat 就可以根据用户已经完成的具体修改，自动将类似处理应用到合影中的其他人物身上。 这项功能也可以用于商业营销图片。例如，用户可以为产品添加阴影效果，即使其他产品的形状和尺寸不同，系统也能自动适配相应的阴影。 Rinse Repeat 基于 Photoshop 构建。值得注意的是，应用到其他人物或物体上的编辑效果仍然完全可编辑，因为工具会调用 Photoshop 原生功能重新创建这些修改，而不是简单地将处理后的图像覆盖上去。 需要注意的是，这些名为“Sneaks”的项目目前都只是技术预览，未来有可能被开发成 Adobe Creative Cloud 应用或 Firefly 平台中的正式工具，但并不保证所有项目最终都会推出。 不过，这些项目几乎全部围绕 Adobe 的生成式 AI 技术展开。考虑到 AI 工具如今已经成为 Adobe 增长战略的核心，至少有一部分实验功能最终正式上线的可能性相当高。 无论这些 AI 实验看起来有多么新奇或有趣，它们也释放出一个值得关注的信号：如果这些工具足够实用，未来 AI 就有可能取代创意专业人士目前使用的部分工具和素材库，而不管他们对这项技术抱有怎样复杂的态度。 这些实验项目还有一个显著的共同点：它们都在尝试降低照片编辑、视频制作和音频混音等复杂工作流程的使用门槛，让操作变得更加直观、互动性更强。 某些功能甚至看起来有点像玩具，但它们实际上能够帮助用户完成创意项目中的实际修改。 Adobe 资深首席研究科学家高塔姆 · 迈索尔（Gautham Mysore）在接受 The Verge 采访时表示：“让这些交互方式变得更加直观，同时也是为了让经验丰富的创作者获得更精准的控制能力。Sound Bender 的声音探索功能，以及 Sight Span 的摄像机视角调整功能，都展示了专业人士如何运用自己的判断力，更直接地调整和完善最终效果。如何让创作意图与实际控制能力更紧密地结合起来，正是我们目前探索的重要方向。”",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/4d686645-2b49-44a7-bb6a-df8573626e3f.jpg?x-bce-process=image/format,f_auto",
-      "source": "IT之家",
-      "publishedAt": "2026-11-11T14:32:05.000Z",
-      "category": "AI趣味新闻",
-      "originalUrl": "https://www.ithome.com/1/025/815.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794425114514_bf6fd7d7",
-      "title": "DeepL 推出旗下最逼真语音 AI 翻译模型 Aure，实时复现说话者语气起伏、情绪流转等",
-      "summary": "IT之家 11 月 11 日消息，当地时间 11 月 11 日，DeepL 推出语音 AI 翻译模型 Aure，官方称这是其迄今最具动态感、表现最逼真的语音 AI（Voice AI）模型，不过该模型暂不支持中文。",
-      "content": "IT之家 11 月 11 日消息，当地时间 11 月 11 日，DeepL 推出语音 AI 翻译模型 Aure，官方称这是其迄今最具动态感、表现最逼真的语音 AI（Voice AI）模型，不过该模型暂不支持中文。 据介绍，作为 DeepL Voice 的底层驱动核心，Aure 能够持续动态适配翻译语音，实时复现说话者的语气起伏、情绪流转、重音强调及语速快慢。使得语音翻译不仅局限于传递字面词句，更能完整保留赋予人类对话自然度与感染力的个性特色、细腻情感及丰富表达。 官方表示，Aure 建立在 DeepL 近期推出的声音保留技术基础之上。该技术使人们能够以自己辨识度极高的原声音色跨语言交流，摆脱了千篇一律的机械合成音。如果说这一突破成功保留了说话者的音色特征，那么 Aure 则更进一步：它能全程捕捉声音在对话中的动态起伏与即时反应，将人类自然言语中更多的自发性与真实神韵注入实时翻译中。 Aure 已支持 DeepL Voice 网页会议版、DeepL Voice 面对面交谈版以及 DeepL 语音 API。该模型首发支持英语、德语、西班牙语、法语、意大利语、日语、葡萄牙语及韩语，后续将逐步拓展至更多语种。对于 Aure 尚未支持的语言，DeepL Voice 会自动使用之前的语音模型。 IT之家附官网链接： https://www.deepl.com/zh/products/voice/aure",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-11-11T14:06:51.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/025/810.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794425103615_c145fe6f",
-      "title": "Kimi开始\"出租\"数字员工：Agent计价锚点，正从软件预算滑向人力预算",
-      "summary": "月之暗面发布托管智能体，市场多解读为\"功能升级\"。本文判断：这不是产品迭代，是用工形态重构——AI厂商正从\"卖token\"转向\"租数字员工\"。基于\"动态性\"原理，本文提出三层形态租买决策框架，揭示计价锚点正从IT预算滑向人力预算。通用场景租是主航道，但买不会消失；垂直场景进入混合态。",
-      "content": "月之暗面发布托管智能体，市场多解读为\"功能升级\"。本文判断：这不是产品迭代，是用工形态重构——AI厂商正从\"卖token\"转向\"租数字员工\"。基于\"动态性\"原理，本文提出三层形态租买决策框架，揭示计价锚点正从IT预算滑向人力预算。通用场景租是主航道，但买不会消失；垂直场景进入混合态。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-11T08:42:32.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8201187.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794425104442_e2e681e6",
-      "title": "Shengshu’s First AI Feature Film Misses the Mark as Its Hong Kong IPO Nears",
-      "summary": "China’s first AI-assisted theatrical film posted weak box office just as Shengshu Technology prepares a Hong Kong listing. The company is strong in co...",
-      "content": "China’s first AI-assisted theatrical film posted weak box office just as Shengshu Technology prepares a Hong Kong listing. The company is strong in controllable video generation and is reframing itself as a world-model play. Investors are asking for revenue, not demos.",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-11T08:41:04.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8201282.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794425104918_aee3e97e",
-      "title": "AI短剧混战：大厂争夺的是剧本，还是下一代流量入口",
-      "summary": "AI短剧混战：大厂争夺的是剧本，还是下一代流量入口",
-      "content": "大厂真正握在手里的是三件事：什么内容能上线、上线后能拿到多少流量、按什么比例结算。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-11T07:17:24.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8201130.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794425105391_7c91499a",
-      "title": "中国55%的Token烧在短剧，美国58%烧在代码：Token的流向，暴露了AI的两种“活法”",
-      "summary": "本文通过核验 GitHub Copilot 用户与付费订阅数据、AI 短剧算力成本，厘清行业容易混淆的两组关键数字，对比流量型与生产力型 AI 的差异，拆解 Token 流向背后的商业逻辑，剥离行业流传的不实叙事，还原当下 AI 产业真实的付费与成本面貌。",
-      "content": "本文通过核验 GitHub Copilot 用户与付费订阅数据、AI 短剧算力成本，厘清行业容易混淆的两组关键数字，对比流量型与生产力型 AI 的差异，拆解 Token 流向背后的商业逻辑，剥离行业流传的不实叙事，还原当下 AI 产业真实的付费与成本面貌。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-11T06:35:11.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8198782.html",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
