@@ -1,44 +1,56 @@
 {
   "success": true,
-  "timestamp": "2026-11-13T19:26:37Z",
-  "total": 16,
+  "timestamp": "2026-11-14T05:42:47Z",
+  "total": 20,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1794597886783_28cbb5ab",
-      "title": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
-      "summary": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
-      "content": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
+      "id": "news_1794634857771_be56d3ae",
+      "title": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
+      "summary": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突...",
+      "content": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-13T20:54:12.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/FwbOyyfoAmkQPMTItMDN?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-11-14T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794597888422_b4f32d0b",
-      "title": "智能互动 Agent 在快手商业场景的落地实践",
-      "summary": "智能互动 Agent 在快手商业场景的落地实践",
-      "content": "智能互动 Agent 在快手商业场景的落地实践",
+      "id": "news_1794634858971_bce4c37d",
+      "title": "从提效到扩能：AI 驱动小团队的能力突破与组织演进｜AICon北京",
+      "summary": "从提效到扩能：AI 驱动小团队的能力突破与组织演进｜AICon北京",
+      "content": "从提效到扩能：AI 驱动小团队的能力突破与组织演进｜AICon北京",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-13T19:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-11-14T10:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/eTz8pt2LoALMvzvxj4aa?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794597889606_1e615cb5",
-      "title": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
-      "summary": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
-      "content": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-13T17:06:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1794634844271_0",
+      "title": "OpenAI joins push to curb China’s access to AI chips and chipmaking tools",
+      "summary": "OpenAI is backing a bipartisan effort in Congress to block China’s access to artificial intelligence chips and curb China’s access to chipmaking equip...",
+      "content": "OpenAI is backing a bipartisan effort in Congress to block China’s access to artificial intelligence chips and curb China’s access to chipmaking equipment, adding support to legislation gaining momentum after the scandal that toppled Jensen Huang as ... [5757 chars]",
+      "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/63d0337/2147483647/strip/true/crop/2000x1050+0+142/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff4%2Fff%2F381684e0ec692376ac71f257cded%2F1x-1.jpg",
+      "source": "Los Angeles Times",
+      "publishedAt": "2026-11-13T17:23:04.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.latimes.com/business/story/2026-11-13/openai-joins-push-to-curb-chinas-access-to-ai-chips-chipmaking-tools",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1794634844509_1",
+      "title": "Why Anthropic’s Dario Amodei Has Angered OpenAI and Other A.I. Peers",
+      "summary": "Nvidia C.E.O. Resigns Interim Chief Executive The Fall of Jensen Huang Search for New Leader Can Nvidia Still Thrive? Regulation Concerns You have a p...",
+      "content": "Dario Amodei, the chief executive of Anthropic, was becoming a nuisance for his fellow technology industry executives.\nAnthropic and OpenAI, the leading artificial intelligence companies, were lobbying the White House to prevent some A.I. models from... [1923 chars]",
+      "imageUrl": "https://static01.nyt.com/images/2026/09/03/business/00anthropic-knives-out/00anthropic-knives-out-facebookJumbo.jpg",
+      "source": "The New York Times",
+      "publishedAt": "2026-11-13T15:09:04.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.nytimes.com/2026/11/13/technology/anthropic-dario-amodei-ai-openai.html",
+      "aiInsight": ""
     },
     {
       "id": "news_1794597895261_73b077d4",
@@ -51,6 +63,42 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/1/026/960.htm",
       "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794634844628_2",
+      "title": "Meta AI smart glasses being tested by 21 Penn State profs",
+      "summary": "--> NOTICE OF YOUR PRIVACY RIGHTS IN Virginia Because you are coming from a location (Virginia) covered by a Privacy Law, many of the features of Trib...",
+      "content": "A group of 21 Penn State award-winning professors are testing out Meta’s artificial intelligence-enabled smart glasses.\nThe Teaching and Learning with Technology part of Penn State University Libraries awarded its 2026 Faculty Engagement Awards, and ... [3628 chars]",
+      "imageUrl": "https://assets-varnish.triblive.com/2026/11/10126572_web1_AP24269673931951.jpg",
+      "source": "Pittsburgh Tribune-Review",
+      "publishedAt": "2026-11-13T11:19:39.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://triblive.com/local/regional/meta-ai-smart-glasses-being-tested-by-21-penn-state-profs/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1794634844538_3",
+      "title": "SoftBank Reports $7 Billion Quarterly Loss Linked to AI Data Center Investments",
+      "summary": "SoftBank Group reported a quarterly loss of approximately $7 billion as heavy financing costs, advance payments for U.S. data center projects and decl...",
+      "content": "SoftBank Group reported a quarterly loss of approximately $7 billion as heavy financing costs, advance payments for U.S. data center projects and declining investment valuations weighed on the Japanese technology conglomerate, according to Reuters [2... [5754 chars]",
+      "imageUrl": "https://www.naturalnews.com/wp-content/uploads/sites/91/2026/11/softbank-ai-data-centers-quarterly-loss-6630-6013cad7-original.jpg",
+      "source": "Natural News",
+      "publishedAt": "2026-11-13T11:14:38.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.naturalnews.com/2026-11-13-softbank-quarterly-loss-linked-ai-data-center-investments.html",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1794634862540_f0a5f612",
+      "title": "Docker 呼吁通过隔离与治理保障智能体安全",
+      "summary": "Docker 呼吁通过隔离与治理保障智能体安全",
+      "content": "Docker 呼吁通过隔离与治理保障智能体安全",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-13T11:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/1pCuIRtm5HYwTyR4fIhA?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1794597883091_6f82174c",
@@ -75,6 +123,18 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8203967.html",
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794634863225_590256df",
+      "title": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
+      "summary": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
+      "content": "谷歌推出 LiteRT Tensor API，用于构建、定制与优化端侧机器学习模型",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-13T09:17:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/joYjCTbwWFSkbACK5lje?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1794549090860_5b169fd7",
@@ -137,6 +197,18 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1794634864195_4ed42532",
+      "title": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
+      "summary": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
+      "content": "智能体 AI 架构中记忆、知识与上下文的系统化方案",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-12T13:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/COuPKpA6rTf05C6JM10y?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1794512552058_d18965b3",
       "title": "Alibaba’s Chip Unit Heads for Hong Kong With Cloud Still in the Way",
       "summary": "Alibaba plans to list T-Head in Hong Kong after eight years inside the group. The unit has real silicon and a slice of China’s AI accelerator market. ...",
@@ -171,30 +243,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.infoq.cn/article/V5Fwpg9gOBefx6xADcdd?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794465134655_c044ac0d",
-      "title": "机器人要进工厂，光靠机器人公司还不够",
-      "summary": "机器人公司负责造机器人，但服装厂和机床企业已经开始参与产品与模型研发。从晨风的真实工位测试，到创造力与智元的联合开发，制造企业究竟在为机器人提供什么？",
-      "content": "机器人公司负责造机器人，但服装厂和机床企业已经开始参与产品与模型研发。从晨风的真实工位测试，到创造力与智元的联合开发，制造企业究竟在为机器人提供什么？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-12T05:17:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8202019.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794425108891_93ab3527",
-      "title": "谷歌最强模型 Gemini 4 Carbon 全面开放：一夜重写 OpenCode 桌面应用、价格仅为 Fable 5.2 的 1/4",
-      "summary": "谷歌最强模型 Gemini 4 Carbon 全面开放：一夜重写 OpenCode 桌面应用、价格仅为 Fable 5.2 的 1/4...",
-      "content": "谷歌最强模型 Gemini 4 Carbon 全面开放：一夜重写 OpenCode 桌面应用、价格仅为 Fable 5.2 的 1/4",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-11T21:05:37.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/YiANe38yfSYitvZOtab0?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
