@@ -1,32 +1,104 @@
 {
   "success": true,
-  "timestamp": "2026-11-16T05:41:49Z",
-  "total": 25,
+  "timestamp": "2026-11-16T21:50:34Z",
+  "total": 23,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1794807600891_431ac46f",
-      "title": "AI 硬件能玩出多少新花样？这场黑客松正在寻找 20 支开发者团队",
-      "summary": "AI 硬件能玩出多少新花样？这场黑客松正在寻找 20 支开发者团队",
-      "content": "AI 硬件能玩出多少新花样？这场黑客松正在寻找 20 支开发者团队",
+      "id": "news_1794865727296_f16b653c",
+      "title": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
+      "summary": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
+      "content": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-16T10:28:58.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/ExwZoqvAjY423YKaXcpw?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "publishedAt": "2026-11-16T16:42:41.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/LjVeWVAsBWwaiifdMRiu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794807602050_0a175a14",
-      "title": "Super Agent 进群：今年11.11，多了个会主动干活的“数字人队长”",
-      "summary": "Super Agent 进群：今年11.11，多了个会主动干活的“数字人队长”",
-      "content": "Super Agent 进群：今年11.11，多了个会主动干活的“数字人队长”",
+      "id": "news_1794865728586_54c25c60",
+      "title": "Docker Sandbox Kit规范：将AI智能体权限打包为OCI镜像",
+      "summary": "Docker Sandbox Kit规范：将AI智能体权限打包为OCI镜像",
+      "content": "Docker Sandbox Kit规范：将AI智能体权限打包为OCI镜像",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-16T08:00:00.000Z",
+      "publishedAt": "2026-11-16T16:22:11.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/myl5Mcw3iyCYv3ZJ3hwQ?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/yV89L6iMCqSLDHeSoLxo?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794865729829_f69d8312",
+      "title": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
+      "summary": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%...",
+      "content": "DeepSeek又来掀桌子了！官方App全套能力开放API，联网搜索价格不到OpenAI、Claude的8%",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-16T14:38:24.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/NWmk4epBL0jPAUtpKSKb?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794865730751_04f47c26",
+      "title": "腾讯混元发布Hy4 flash，单任务成本仅为 Hy4 的 5%",
+      "summary": "腾讯混元发布Hy4 flash，单任务成本仅为 Hy4 的 5%",
+      "content": "腾讯混元发布Hy4 flash，单任务成本仅为 Hy4 的 5%",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-16T14:23:27.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/ejVJGwMvIIvplY8yio5r?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794865720893_02d742b9",
+      "title": "AI变量下的多线博弈，面板行业迎来新卡位战",
+      "summary": "过去，企业需要思考如何生产更多、更便宜的屏幕。AI时代，则需要思考如何生产更有价值、更符合未来需求的屏幕。",
+      "content": "过去，企业需要思考如何生产更多、更便宜的屏幕。AI时代，则需要思考如何生产更有价值、更符合未来需求的屏幕。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-16T11:30:16.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8206976.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794865722335_751e4cc3",
+      "title": "华为云发布CloudRobo具身世界模型的同时也打出了三张底牌",
+      "summary": "华为云发布CloudRobo具身世界模型的同时也打出了三张底牌",
+      "content": "本次华为云打出的三张牌，给具身智能行业带来了一些新的可能性。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-16T10:36:51.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8206773.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794865722901_d941d4a7",
+      "title": "永不停歇的资本开支，换不回存储公司一夜安眠",
+      "summary": "能确定的是，AI可以改变存储芯片的需求结构，却不会让行业竞争变得轻松。技术要持续迭代，产线要不断升级，企业还得在价格波动中维持投入。",
+      "content": "能确定的是，AI可以改变存储芯片的需求结构，却不会让行业竞争变得轻松。技术要持续迭代，产线要不断升级，企业还得在价格波动中维持投入。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-16T10:16:37.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8206582.html",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794865710992_0",
+      "title": "Anthropic promises to pursue humanity's benefit. Its IPO filing gives it wiggle room",
+      "summary": "When Anthropic goes public on Wall Street, the new pressure to deliver profits will test a commitment it has made since its founding: to prioritize hu...",
+      "content": "When Anthropic goes public on Wall Street, the new pressure to deliver profits will test a commitment it has made since its founding: to prioritize humanity's benefit as it develops artificial intelligence.\nThe San Francisco startup, which plans an i... [303 chars]",
+      "imageUrl": "https://images.ajc.com/resizer/v2/YC5T7AKICNCIPMRKLYQAR2OBWE.jpg?auth=ef0df29cc3a41802f8bbd3acc3d897eb7425f85a08b9b8d5bb056e9ce8fe4f4b&width=1200&height=630&smart=true",
+      "source": "The Atlanta Journal-Constitution",
+      "publishedAt": "2026-11-16T07:03:10.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ajc.com/news/2026/11/anthropic-promises-to-pursue-humanitys-benefit-its-ipo-filing-gives-it-wiggle-room/",
+      "aiInsight": ""
     },
     {
       "id": "news_1794807612286_8c541a5b",
@@ -137,6 +209,18 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1794865733291_638c1886",
+      "title": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
+      "summary": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
+      "content": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-15T15:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1794767970324_d644e414",
       "title": "开源盘古模型 openPangu-2.1-Pro 上线华为云，围绕 Agent 开发、AI 编码、推理优化方向能力升级",
       "summary": "IT之家 11 月 15 日消息，华为云今日宣布，华为云 MaaS 模型即服务平台正式上线开源盘古模型 openPangu-2.1-Pro。",
@@ -146,30 +230,6 @@
       "publishedAt": "2026-11-15T13:16:54.000Z",
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/1/027/450.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794807603610_7852eac3",
-      "title": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
-      "summary": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
-      "content": "闭环 AI 自我进化：从 Skill、Harness 到模型训练与评估｜AICon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-15T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/fZSEkDatL9xajG8PVi7G?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794807604368_4b392183",
-      "title": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
-      "summary": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
-      "content": "GitLab 19.5 发布，将智能体开发纳入可治理的 DevOps 平台能力",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-15T09:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/0IpE2EOypcqMFtL7z4z1?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
@@ -219,90 +279,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8205600.html",
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794678529591_3ea065f2",
-      "title": "“像一大群蜜蜂”：亚马逊 Prime Air 送货无人机噪音过大，遭当地居民投诉",
-      "summary": "IT之家 11 月 14 日消息，据休斯顿纪事报报道，亚马逊旗下的超快无人机配送服务 Prime Air 曾承诺，无论是午间零食、日用百货还是紧急医疗用品，只要重量在 5 磅（IT之家注：约 2.3 千克）以内，最快都能在 30 分钟内通过空中直送消费者家门口，然而当地居民对该服务并不买账。",
-      "content": "IT之家 11 月 14 日消息，据休斯顿纪事报报道，亚马逊旗下的超快无人机配送服务 Prime Air 曾承诺，无论是午间零食、日用百货还是紧急医疗用品，只要重量在 5 磅（IT之家注：约 2.3 千克）以内，最快都能在 30 分钟内通过空中直送消费者家门口，然而当地居民对该服务并不买账。 在亚马逊开展该项服务的得克萨斯州各社区中，噪音污染已成为居民频繁投诉的焦点。 “刚推出时，这确实挺酷、挺新奇的，但现在简直快把我逼疯了。”当地居民表示，“这听起来就像一大群蜜蜂在耳边盘旋，音量比普通的蜂群大得多，而且从早到晚响个不停。”自 Prime Air 无人机进驻该地区以来，当地居民针对噪音污染的投诉便接连不断。 “理查森眼下经历的一切很快就会在全美各地上演，到那时人们终将相信我们的话 —— 让这么多无人机整天在头顶飞来飞去，确实是一个极其严重的问题。”一位理查森居民在接受纽约时报采访时说道。 亚马逊在一份声明中回应称，公司一直虚心听取理查森等城市居民的早期反馈，已派遣团队与当地居民及市政领导层会面，并据此调整了飞行运营方案。 “在包裹投递阶段，无人机的音量低于停靠在路边怠速运转的配送卡车，且仅持续约 30 秒，”亚马逊方面表示，“而在高空巡航阶段，其声响仅相当于低档位运行的窗式风扇，通常在室内根本听不到。” 亚马逊同时强调，外界对其 Prime Air 无人机以及“30 分钟内送达”服务的总体评价“压倒性地积极”。 除噪音外，部分居民还对无人机导航摄像头带来的隐私问题以及个别投递失误（如包裹落入泳池、无人机擦撞建筑等）表示担忧。 对此，亚马逊已采取将出港飞行最低平均高度提升至 225 英尺（约 68.6 米）、允许居民申请在系统地图中模糊自家住宅图像等改进措施。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-11-14T14:09:32.000Z",
-      "category": "AI趣味新闻",
-      "originalUrl": "https://www.ithome.com/1/027/239.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794634857771_be56d3ae",
-      "title": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
-      "summary": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突...",
-      "content": "AI 自动写 PR，模型反而最简单：Inkitt 如何应对 Webhook 重复、CI 失败与合并冲突",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-14T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/YRXscVHsTh0g6CVCJJ0D?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794807605872_bce4c37d",
-      "title": "从提效到扩能：AI 驱动小团队的能力突破与组织演进｜AICon北京",
-      "summary": "从提效到扩能：AI 驱动小团队的能力突破与组织演进｜AICon北京",
-      "content": "从提效到扩能：AI 驱动小团队的能力突破与组织演进｜AICon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-14T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/eTz8pt2LoALMvzvxj4aa?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794678522267_3b7212b4",
-      "title": "AI时代，公司越来越扁平，也越来越官僚",
-      "summary": "AI时代，公司越来越扁平，也越来越官僚",
-      "content": "未来最有活力的公司，也许不是每件事都管得最细的公司，而是有人敢说：这条规则，该改了。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-14T07:21:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8205239.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794807606089_28cbb5ab",
-      "title": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
-      "summary": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
-      "content": "从快速部署到记忆共享，数据库如何支撑 Agent 应用？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-13T20:54:12.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/FwbOyyfoAmkQPMTItMDN?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794807606854_b4f32d0b",
-      "title": "智能互动 Agent 在快手商业场景的落地实践",
-      "summary": "智能互动 Agent 在快手商业场景的落地实践",
-      "content": "智能互动 Agent 在快手商业场景的落地实践",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-13T19:00:00.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/e0aglHW78pZuik3CWqdo?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794807607424_1e615cb5",
-      "title": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
-      "summary": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
-      "content": "容器隔离还不够：Edera 从虚拟机监控器层限制 AI 智能体",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-13T17:06:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/MU0txcPXXuGdGKBNa6a2?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
