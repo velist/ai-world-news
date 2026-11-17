@@ -1,32 +1,140 @@
 {
   "success": true,
-  "timestamp": "2026-11-16T21:50:34Z",
-  "total": 23,
+  "timestamp": "2026-11-17T07:18:31Z",
+  "total": 29,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1794865727296_f16b653c",
-      "title": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
-      "summary": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
-      "content": "DigitalOcean Managed Agents为AI智能体提供托管云基础设施",
+      "id": "news_1794899803782_3cfa51ad",
+      "title": "“AI生成的代码必须开源！”开发者吵翻了，被开源代码喂大的Anthropic怕是第一个不同意",
+      "summary": "“AI生成的代码必须开源！”开发者吵翻了，被开源代码喂大的Anthropic怕是第一个不同意",
+      "content": "“AI生成的代码必须开源！”开发者吵翻了，被开源代码喂大的Anthropic怕是第一个不同意",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-16T16:42:41.000Z",
+      "publishedAt": "2026-11-17T15:09:45.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/LjVeWVAsBWwaiifdMRiu?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/m5arrx8021zHVI0ybFtI?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794899804820_cdcaa451",
+      "title": "Agent演示惊艳，一进生产就不好用：SAP直指企业AI落地的最大幻觉",
+      "summary": "Agent演示惊艳，一进生产就不好用：SAP直指企业AI落地的最大幻觉",
+      "content": "Agent演示惊艳，一进生产就不好用：SAP直指企业AI落地的最大幻觉",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-17T15:00:05.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/AsfcqUsutpSlPIBE1ok9?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794865728586_54c25c60",
-      "title": "Docker Sandbox Kit规范：将AI智能体权限打包为OCI镜像",
-      "summary": "Docker Sandbox Kit规范：将AI智能体权限打包为OCI镜像",
-      "content": "Docker Sandbox Kit规范：将AI智能体权限打包为OCI镜像",
+      "id": "news_1794899805617_37fe9931",
+      "title": "Google Cloud API Gateway 推出面向实时 AI 应用的流式处理",
+      "summary": "Google Cloud API Gateway 推出面向实时 AI 应用的流式处理",
+      "content": "Google Cloud API Gateway 推出面向实时 AI 应用的流式处理",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-16T16:22:11.000Z",
+      "publishedAt": "2026-11-17T14:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/X2WRCQI4NorJVEvpgX5B?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794899806420_c4d23d5a",
+      "title": "Spring 近期资讯：Boot、Framework、Data、Security、Modulith 和 AI 的首个候选版本",
+      "summary": "Spring 近期资讯：Boot、Framework、Data、Security、Modulith 和 AI 的首个候选版本...",
+      "content": "Spring 近期资讯：Boot、Framework、Data、Security、Modulith 和 AI 的首个候选版本",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-17T12:42:35.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/uCmKjbkjjkW17olm7smj?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794899807255_12aeaf12",
+      "title": "openEuler 进军 Agentic Infra！主席熊伟：不讲大故事，先解决真问题",
+      "summary": "openEuler 进军 Agentic Infra！主席熊伟：不讲大故事，先解决真问题",
+      "content": "openEuler 进军 Agentic Infra！主席熊伟：不讲大故事，先解决真问题",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-17T10:41:20.000Z",
       "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/yV89L6iMCqSLDHeSoLxo?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/JhBUwv1pHR3S986Ih0iJ?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794899808064_7a8273f8",
+      "title": "从 SDLC 到 ADLC：宝洁的 AI 原生组织实验",
+      "summary": "从 SDLC 到 ADLC：宝洁的 AI 原生组织实验",
+      "content": "从 SDLC 到 ADLC：宝洁的 AI 原生组织实验",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-17T10:15:13.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/prRYMYmhOvSY9EaMz8Oc?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794899809662_049a01c3",
+      "title": "AMD 高管：AI 不会取代超级计算机，高精度计算仍不可替代",
+      "summary": "IT之家 11 月 17 日消息，科技媒体 Tom's Hardware 昨日（11 月 16 日）发布博文，报道称 AMD 负责高性能计算（HPC）与主权 AI 的企业副总裁 Scott Tease 表示，多数 HPC 研究机构已经认识到，AI“永远不会取代”传统高性能计算。",
+      "content": "IT之家 11 月 17 日消息，科技媒体 Tom's Hardware 昨日（11 月 16 日）发布博文，报道称 AMD 负责高性能计算（HPC）与主权 AI 的企业副总裁 Scott Tease 表示，多数 HPC 研究机构已经认识到，AI“永远不会取代”传统高性能计算。即便 AI 应用持续扩张，依赖双精度 FP64 的高精度科学计算仍将长期存在。 图源：AMD Tease 指出，AI 擅长处理低精度、容错度较高的数据，适合模型训练、推理和快速筛选；但气候模拟、核能、材料、流体力学、化学与国家安全等前沿研究，为了保证复杂仿真结果的可靠性与可重复性，仍需要 FP64 级别的数值精度。 IT之家援引博文介绍，Tease 主张认为，未来科研算力不应是“AI 取代 HPC”，而应构建异构计算体系，协同连接 CPU、GPU、AI 加速器、传统超级计算机与量子计算机，让系统自动判断哪些任务交给 AI、哪些交给 GPU 加速、哪些必须进入量子环境。 图源：IBM 在探索方面，AMD 正与 IBM 在橡树岭国家实验室推进试点，将 AMD 的“经典”计算栈、Umbra HPC 系统与 IBM 的 129 量子比特 Quantum Nighthawk 量子计算机接入橡树岭领导计算设施，希望探索量子纠错、AI 辅助科研和传统仿真的融合路径，并评估未来混合量子系统所需的架构、软件与工作流。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/bbce07e0-9214-41fb-9c0a-ea667bfbaabc.png",
+      "source": "IT之家",
+      "publishedAt": "2026-11-17T06:34:57.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/1/028/245.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794899799308_239072e5",
+      "title": "Huang Leaves Nvidia. Chinese AI Buyers and Suppliers Feel It Next",
+      "summary": "Jensen Huang has resigned as Nvidia’s CEO amid personal scandals, rattling a company long identified with one leader. For Chinese firms, the shock run...",
+      "content": "Jensen Huang has resigned as Nvidia’s CEO amid personal scandals, rattling a company long identified with one leader. For Chinese firms, the shock runs through export policy, GPU supply, overseas rental capacity, and domestic substitution. Tighter controls and delivery risk may accelerate local chips—even as advanced training hardware remains hard to replace.",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-17T01:54:04.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8207932.html",
+      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1794899788870_0",
+      "title": "California Sues OpenAI Over A.I. Safety Issues",
+      "summary": "California sued OpenAI on Monday, accusing the company of putting the public at risk by failing to put appropriate safeguards on its artificial intell...",
+      "content": "California sued OpenAI on Monday, accusing the company of putting the public at risk by failing to put appropriate safeguards on its artificial intelligence.\nThe lawsuit is the latest broadside at the company, which — along with other tech industry p... [1594 chars]",
+      "imageUrl": "https://static01.nyt.com/images/2026/11/16/multimedia/16biz-openai-lawsuit-hfo-fzkh/16biz-openai-lawsuit-hfo-fzkh-facebookJumbo.jpg",
+      "source": "The New York Times",
+      "publishedAt": "2026-11-16T18:47:13.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.nytimes.com/2026/11/16/technology/california-openai-ai-safety.html",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1794899788809_1",
+      "title": "California sues OpenAI, alleges it endangered the public by building AI without safeguards",
+      "summary": "California sued OpenAI on Monday, alleging it failed to rein in powerful, potentially dangerous artificial intelligence technology.\nCalifornia Atty. G...",
+      "content": "California sued OpenAI on Monday, alleging it failed to rein in powerful, potentially dangerous artificial intelligence technology.\nCalifornia Atty. Gen. Rob Bonta’s office said the San Francisco-based company behind ChatGPT “misled and endangered th... [3962 chars]",
+      "imageUrl": "https://ca-times.brightspotcdn.com/dims4/default/df3d203/2147483647/strip/true/crop/5088x2671+0+360/resize/1200x630!/quality/75/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F51%2F77%2Fae8bfda74a6c85523b3482005e3e%2F2297747497.jpg",
+      "source": "Los Angeles Times",
+      "publishedAt": "2026-11-16T18:42:49.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.latimes.com/california/story/2026-11-16/california-sues-openai-alleging-it-endangered-public-by-developing-ai-without-safeguards",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1794899789636_2",
+      "title": "backed startup Goodfire amid AI security concerns",
+      "summary": "OpenAI considered acquiring Goodfire, an Anthropic-backed startup working to decode how artificial intelligence models think, for more than $5 billion...",
+      "content": "OpenAI considered acquiring Goodfire, an Anthropic-backed startup working to decode how artificial intelligence models think, for more than $5 billion as the ChatGPT maker grappled with security incidents involving its own AI systems.\nThe potential d... [4023 chars]",
+      "imageUrl": "https://techstartups.com/wp-content/uploads/2025/09/OPenAI.jpg",
+      "source": "TechStartups.com",
+      "publishedAt": "2026-11-16T15:07:51.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://techstartups.com/2026/11/16/openai-considered-5-billion-plus-acquisition-of-anthropic-backed-startup-goodfire-amid-ai-security-concerns/",
+      "aiInsight": ""
     },
     {
       "id": "news_1794865729829_f69d8312",
@@ -41,16 +149,16 @@
       "aiInsight": "从技术发展角度看，国际AI巨头的技术突破引领着全球AI发展方向。从行业影响来看，这将影响全球AI产业格局和技术标准制定。未来趋势方面，未来国际AI竞争将更加激烈，技术创新速度将持续加快。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794865730751_04f47c26",
-      "title": "腾讯混元发布Hy4 flash，单任务成本仅为 Hy4 的 5%",
-      "summary": "腾讯混元发布Hy4 flash，单任务成本仅为 Hy4 的 5%",
-      "content": "腾讯混元发布Hy4 flash，单任务成本仅为 Hy4 的 5%",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-16T14:23:27.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/ejVJGwMvIIvplY8yio5r?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "id": "news_1794899788812_3",
+      "title": "SF: California Sues Openai For Testing Autonomous Ai Tools It Could Not Control",
+      "summary": "The state of California accused the artificial intelligence company OpenAI of creating a public nuisance on Monday for building AI tools that the comp...",
+      "content": "The state of California accused the artificial intelligence company OpenAI of creating a public nuisance on Monday for building AI tools that the company could not control and could pose a cyber security risk to the public.\nState Attorney General Rob... [2335 chars]",
+      "imageUrl": "https://s.hdnux.com/photos/01/67/75/02/31445161/3/rawImage.jpg",
+      "source": "SFGATE",
+      "publishedAt": "2026-11-16T12:17:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.sfgate.com/news/bayarea/article/sf-california-sues-openai-for-testing-autonomous-22533966.php",
+      "aiInsight": ""
     },
     {
       "id": "news_1794865720893_02d742b9",
@@ -89,7 +197,7 @@
       "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794865710992_0",
+      "id": "news_1794899789827_4",
       "title": "Anthropic promises to pursue humanity's benefit. Its IPO filing gives it wiggle room",
       "summary": "When Anthropic goes public on Wall Street, the new pressure to deliver profits will test a commitment it has made since its founding: to prioritize hu...",
       "content": "When Anthropic goes public on Wall Street, the new pressure to deliver profits will test a commitment it has made since its founding: to prioritize humanity's benefit as it develops artificial intelligence.\nThe San Francisco startup, which plans an i... [303 chars]",
@@ -209,18 +317,6 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1794865733291_638c1886",
-      "title": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
-      "summary": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
-      "content": "Yelp AI 助手融合原生 UI 与服务端驱动 UI",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-15T15:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/1N801doFOEl2Swqey5Jy?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
       "id": "news_1794767970324_d644e414",
       "title": "开源盘古模型 openPangu-2.1-Pro 上线华为云，围绕 Agent 开发、AI 编码、推理优化方向能力升级",
       "summary": "IT之家 11 月 15 日消息，华为云今日宣布，华为云 MaaS 模型即服务平台正式上线开源盘古模型 openPangu-2.1-Pro。",
@@ -255,30 +351,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8205257.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794721196383_eff96c9c",
-      "title": "全球芯片股较峰值回撤近四成，AI泡沫破了吗？",
-      "summary": "全球芯片股较峰值回撤近四成，AI泡沫破了吗？",
-      "content": "非AI板块却创了新高。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-15T04:19:48.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8205717.html",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1794721197123_c4fa7351",
-      "title": "黄仁勋离职风波冷思考：中国AI自主化与海外依赖张力之辩",
-      "summary": "英伟达创始人兼CEO黄仁勋离职风波不只是一起涉及芯片转运和出口管制的调查，更折射出中国AI产业面临的现实处境...",
-      "content": "英伟达创始人兼CEO黄仁勋离职风波不只是一起涉及芯片转运和出口管制的调查，更折射出中国AI产业面临的现实处境",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-15T02:50:20.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8205600.html",
-      "aiInsight": "从技术发展角度看，AI芯片技术的发展直接影响着AI计算能力和效率的提升。从行业影响来看，这将加速AI在数据中心、边缘计算和消费电子领域的部署。未来趋势方面，未来AI芯片将更加注重能效比和专用化设计。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
