@@ -1,20 +1,104 @@
 {
   "success": true,
-  "timestamp": "2026-11-22T19:17:05Z",
-  "total": 17,
+  "timestamp": "2026-11-23T06:43:42Z",
+  "total": 20,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1795374914714_e1d17c28",
-      "title": "打造 AI 优先的销售与营销运营体系",
-      "summary": "打造 AI 优先的销售与营销运营体系",
-      "content": "打造 AI 优先的销售与营销运营体系",
+      "id": "news_1795416110003_b8e50dd9",
+      "title": "安谋科技发布“星辰100e” AIoT 原型平台，AI推理性能最高提升 340 倍",
+      "summary": "安谋科技发布“星辰100e” AIoT 原型平台，AI推理性能最高提升 340 倍",
+      "content": "安谋科技发布“星辰100e” AIoT 原型平台，AI推理性能最高提升 340 倍",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-22T17:41:49.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/mihBFvImttvJlSFUqC49?utm_source=rss&utm_medium=article",
+      "publishedAt": "2026-11-23T14:22:11.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/pdjVKiH3ONYjePlUDufv?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795416110752_ec9b0d4a",
+      "title": "亚马逊云科技推出Well-Architected Agent预览版",
+      "summary": "亚马逊云科技推出Well-Architected Agent预览版",
+      "content": "亚马逊云科技推出Well-Architected Agent预览版",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-23T14:16:59.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/LQuPgS5lcFDMEKhZSP5d?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795416111570_11e3b6bd",
+      "title": "姚顺雨团队回应一切：下一代混元将大幅扩参，RSI 仍处早期，最难解决的是“想太多”",
+      "summary": "姚顺雨团队回应一切：下一代混元将大幅扩参，RSI 仍处早期，最难解决的是“想太多”",
+      "content": "姚顺雨团队回应一切：下一代混元将大幅扩参，RSI 仍处早期，最难解决的是“想太多”",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-23T14:10:06.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/b4QKbFZaXvbK9hzcBhZV?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795416112156_5b93bea6",
+      "title": "「AI 圈有局」第 01 期｜5 场活动、12 个社区找到你的同路人",
+      "summary": "「AI 圈有局」第 01 期｜5 场活动、12 个社区找到你的同路人",
+      "content": "「AI 圈有局」第 01 期｜5 场活动、12 个社区找到你的同路人",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-23T11:42:34.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/uEfN9kdGsIMGkOgidVG7?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795416112763_cadcbcb9",
+      "title": "广告风控为何越审越强？轻量基座与审核 Agent 的协同进化实践｜AICon北京",
+      "summary": "广告风控为何越审越强？轻量基座与审核 Agent 的协同进化实践｜AICon北京",
+      "content": "广告风控为何越审越强？轻量基座与审核 Agent 的协同进化实践｜AICon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-23T11:31:44.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/8YT8bJElVYOuK0FvKG4o?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795416116294_9bc53776",
+      "title": "自变量发布具身基础模型 WALL-OSS-1.0，零样本真机成功率达 55.1%",
+      "summary": "IT之家 11 月 23 日消息，自变量今日发布新一代具身基础模型 WALL-OSS-1.0。该模型将预训练本身当作智能的来源，而非后续任务微调的起点。",
+      "content": "IT之家 11 月 23 日消息，自变量今日发布新一代具身基础模型 WALL-OSS-1.0。该模型将预训练本身当作智能的来源，而非后续任务微调的起点。 据介绍，这款模型的训练分为两个阶段：一阶段让动作数据前置加入训练，配合多模态数据，让“理解世界”和“动手干活”在同一套权重里成形；二阶段加入动作专家，学习精确、高效的动作生成。 IT之家注意到，该模型在 RoboDojo 榜单仿真赛道中位列单模型能力第一名，超越使用 Astra、Opus 5.5 等十万亿参数模型的 Agent 策略。多种真机测试中零样本成功率可达 55.1%。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "IT之家",
+      "publishedAt": "2026-11-23T06:06:12.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/030/890.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795416116329_bf5c9185",
+      "title": "智谱 GLM-5.4 模型发布，已上线 Coding Plan",
+      "summary": "IT之家 11 月 23 日消息，据IT之家小伙伴反馈，智谱官方运营人员发布消息，GLM-5.4 模型已经上线 Coding Plan。“过去三个月，我们同时激进的 Scaling Loop 和模型大小，大家首先看到的是 Loop Transformer 带来的惊喜。",
+      "content": "IT之家 11 月 23 日消息，据IT之家小伙伴反馈，智谱官方运营人员发布消息，GLM-5.4 模型已经上线 Coding Plan。“过去三个月，我们同时激进的 Scaling Loop 和模型大小，大家首先看到的是 Loop Transformer 带来的惊喜。GLM-5.4 新增视觉能力与更强的泛 Coding 能力。” 此外，V2、V3 及团队版用户使用 GLM-5.4 模型额度已提升至 1.5 倍，将模型名设置为 glm-5.4 即可。 GLM-5.4 模型的具体介绍信息暂未公布，不过已经能在 Coding Plan 的模型列表中看到，显示“1M”和“视觉”字样。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/ba8b370d-a03f-459c-8122-39bd1391764d.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-11-23T04:49:30.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.ithome.com/1/030/809.htm",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795416106288_ee14bcad",
+      "title": "迅合科技：在Excel和微信群里，给老板造一个Personal Agent",
+      "summary": "老板对决策的要求比普通人更高，对知识库和决策质量的要求也更高，过去这样的需求长期存在但没有得到很好解决。",
+      "content": "老板对决策的要求比普通人更高，对知识库和决策质量的要求也更高，过去这样的需求长期存在但没有得到很好解决。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-23T03:35:20.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.tmtpost.com/8209450.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1795374922815_f39723d2",
@@ -89,6 +173,18 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
+      "id": "news_1795416113555_24ffb815",
+      "title": "智能体身份国际标准化：体系布局与研制实践｜AICon北京",
+      "summary": "智能体身份国际标准化：体系布局与研制实践｜AICon北京",
+      "content": "智能体身份国际标准化：体系布局与研制实践｜AICon北京",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-22T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/721YPdyIZ1D8xz20D22C?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
       "id": "news_1795326807531_3caeb087",
       "title": "跨境收款之后，中国公司盯上智能体支付的新生意",
       "summary": "跨境收款之后，中国公司盯上智能体支付的新生意",
@@ -137,7 +233,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1795374903810_0",
+      "id": "news_1795416101439_0",
       "title": "UC gives students free access to ChatGPT despite faculty pushback",
       "summary": "The University of California is putting artificial intelligence in the driver’s seat of higher education, signing a $1.2 million-a-year deal with Open...",
       "content": "The University of California is putting artificial intelligence in the driver’s seat of higher education, signing a $1.2 million-a-year deal with OpenAI to give students access to ChatGPT and other AI tools — despite professors warning the technology... [3319 chars]",
@@ -147,66 +243,6 @@
       "category": "国外AI",
       "originalUrl": "https://nypost.com/2026/11/21/tech/uc-gives-students-free-access-to-chatgpt-despite-faculty-pushback/",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1795374917688_8a35363e",
-      "title": "智能体 AI 架构：当前挑战与未来机遇",
-      "summary": "智能体 AI 架构：当前挑战与未来机遇",
-      "content": "智能体 AI 架构：当前挑战与未来机遇",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-21T11:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/TrWuo2vEZRl2xB2XXZNX?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795374918425_3de3946a",
-      "title": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
-      "summary": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
-      "content": "TaoDesign 的知识工程实践：从设计资产到 Agent 持续进化｜AICon北京",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-21T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/vhoobUFbLs2hUlTBA4HZ?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795374919175_c2835bde",
-      "title": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
-      "summary": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
-      "content": "Entire Git Forge：面向编码智能体重构 Git 协作方式",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-21T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/6swrOq5xUXwVqrREwJwc?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795374919972_ff832d47",
-      "title": "“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多",
-      "summary": "“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多",
-      "content": "“美国大豆包”又发新模型，Neon 接入 Antigravity 后编程解题率升至三倍多",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-20T18:41:34.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/tDxNggErsJNeb53ZkYeF?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795374920532_c7c467ab",
-      "title": "华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一",
-      "summary": "华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一",
-      "content": "华为云开源昇腾原生具身世界模型CloudRobo-WM1.2，两项评测均列第一",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-20T18:19:11.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.infoq.cn/article/LCqRiGDSeMBfXo4iktdA?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
