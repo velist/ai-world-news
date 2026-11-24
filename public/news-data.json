@@ -1,56 +1,44 @@
 {
   "success": true,
-  "timestamp": "2026-11-24T09:11:57Z",
-  "total": 26,
+  "timestamp": "2026-11-24T22:09:56Z",
+  "total": 21,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1795511406129_91adc693",
-      "title": "当 AI 改变一切，下一步如何构建？",
-      "summary": "当 AI 改变一切，下一步如何构建？",
-      "content": "当 AI 改变一切，下一步如何构建？",
+      "id": "news_1795558083831_4445a56b",
+      "title": "DeepSeek限额，腾讯社交帝国松口气",
+      "summary": "DeepSeek限额，腾讯社交帝国松口气",
+      "content": "AI免费时代的成本与社交变局。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-24T14:12:36.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/iRm9lBSQj0OCvDdgLQrO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "source": "钛媒体",
+      "publishedAt": "2026-11-24T11:11:06.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8209876.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1795511407161_9177fc7e",
-      "title": "谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
-      "summary": "谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
-      "content": "谷歌发现，技术债务会通过“智能体分心”导致编码智能体偏离正轨",
+      "id": "news_1795558084716_60c6a330",
+      "title": "10.5亿现金全资拿下银球科技，斯菱智驱机器人转型再下重注",
+      "summary": "10.5亿现金全资拿下银球科技，斯菱智驱机器人转型再下重注",
+      "content": "先参股后控股分步落子，机器人第二增长曲线能否兑现仍待验证。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-24T13:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/sFmubmDWkulIOTBLX0Dr?utm_source=rss&utm_medium=article",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-24T11:02:50.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8216503.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1795511407399_49a9b282",
-      "title": "超越试点：销售管理者的 AI 转型行动指南",
-      "summary": "超越试点：销售管理者的 AI 转型行动指南",
-      "content": "超越试点：销售管理者的 AI 转型行动指南",
+      "id": "news_1795558085438_9477c0ec",
+      "title": "黄仁勋回归，AI泡沫是否继续？",
+      "summary": "黄仁勋回归，AI泡沫是否继续？",
+      "content": "一场关于AI商业价值的真正考验才刚刚开始。",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-24T12:36:05.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/UU3P37LW5IE6Xg4O0cSN?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795511408195_d73ed13d",
-      "title": "Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”",
-      "summary": "Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”",
-      "content": "Pinterest 让大模型取代多阶段聚类，但最大的提速来自“少推理”",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-24T11:00:00.000Z",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-24T09:46:00.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/vaEUVvWD9AIaFXZhzSMH?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+      "originalUrl": "https://www.tmtpost.com/8215280.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1795511401587_0d8e2b0a",
@@ -125,7 +113,31 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1795511392636_0",
+      "id": "news_1795558092621_e7a34308",
+      "title": "企业 AI 发展新趋势：推动 AI Agent 迈向规模化应用的新阶段",
+      "summary": "企业 AI 发展新趋势：推动 AI Agent 迈向规模化应用的新阶段",
+      "content": "企业 AI 发展新趋势：推动 AI Agent 迈向规模化应用的新阶段",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-23T19:52:07.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/its3v5OfmRuikL5SeWUu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795558092839_938a18bc",
+      "title": "AI 时代的数据工程：如何打造 AI 原生团队",
+      "summary": "AI 时代的数据工程：如何打造 AI 原生团队",
+      "content": "AI 时代的数据工程：如何打造 AI 原生团队",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-23T19:40:31.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/video/qWRo8T0IdKoI7RBuQwNd?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795558074049_0",
       "title": "OpenAI to pay AI experts up to $8,000 a month to help small businesses adopt AI",
       "summary": "OpenAI is offering AI experts up to $8,000 a month to help small businesses across America put artificial intelligence to work. The initiative, called...",
       "content": "OpenAI is offering AI experts up to $8,000 a month to help small businesses across America put artificial intelligence to work. The initiative, called OpenWorks, will pay technically skilled individuals and small teams to work directly with local bus... [4925 chars]",
@@ -137,7 +149,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1795511392690_1",
+      "id": "news_1795558073794_1",
       "title": "Big AI on Campus: U. of California Signs Systemwide Deal with OpenAI Despite Faculty Concerns",
       "summary": "The University of California has entered into a comprehensive agreement with OpenAI to provide artificial intelligence tools to hundreds of thousands ...",
       "content": "The University of California has entered into a comprehensive agreement with OpenAI to provide artificial intelligence tools to hundreds of thousands of students, faculty, and staff across its 10-campus system, joining other major California institut... [3090 chars]",
@@ -243,78 +255,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.tmtpost.com/8209450.html",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795374922815_f39723d2",
-      "title": "Oracle：已确保履行与 OpenAI 合同全部所需资金",
-      "summary": "IT之家 11 月 22 日消息，Oracle（甲骨文）当地时间本月 20 日表示，该企业已在本月初筹集到了履行与 OpenAI 交易的全部所需资金，与供应商进行的任何进一步私下讨论仅为补充选项。",
-      "content": "IT之家 11 月 22 日消息，Oracle（甲骨文）当地时间本月 20 日表示，该企业已在本月初筹集到了履行与 OpenAI 交易的全部所需资金，与供应商进行的任何进一步私下讨论仅为补充选项。 ▲ Abilene Oracle 称其与 OpenAI 在 AI 基础设施合作方面的进展迅速：位于美国得克萨斯州 Abilene 的园区已用于 GPT-6 Astra 的训练，整体接近完工；下一个 GW 级项目 Shackelford 已获得所有许可；NVIDIA Vera Rubin 机架交付工作正按计划进行，预计将在未来几周内完成。 ▲ Shackelford 该企业仍预计可在 FY2028H2 实现正的自由现金流，目标是在 FY2029 实现超过 300 亿美元（IT之家注：现汇率约合 2,008 亿元人民币）的自由现金流，并预计从届时起能够依靠自有资金支持未来增长。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/5484c5f8-414f-4b1a-b8a2-d2c006e8ecb2.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-11-22T14:24:17.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/030/715.htm",
-      "aiInsight": "从技术发展角度看，ChatGPT技术的发展展示了大语言模型在自然语言理解和生成方面的突破性进展。从行业影响来看，这将推动AI在内容创作、客户服务、教育等多个行业的广泛应用。未来趋势方面，未来ChatGPT类产品将更加智能化，能够处理更复杂的多模态任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795374911125_2c61190b",
-      "title": "从黄仁勋看AI时代的领导力：为什么有些企业能够实现指数级增长？",
-      "summary": "领导者的决策边界仍然比较有限。企业能够走多远，很大程度上取决于领导者本人能够看到多大的范围，以及能不能把个人判断变成组织能力。",
-      "content": "领导者的决策边界仍然比较有限。企业能够走多远，很大程度上取决于领导者本人能够看到多大的范围，以及能不能把个人判断变成组织能力。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-22T14:09:45.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8214129.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795374922861_01fca8ab",
-      "title": "MiniMax 利用最新内部模型破解多个密码学前沿方案，刷新国际挑战赛纪录",
-      "summary": "IT之家 11 月 22 日消息，MiniMax 今日宣布，近期，MiniMax 研究团队利用 MiniMax 最新内部模型对现代密码方案开展了系统性的自动化密码分析。 在测试中，模型发掘出了多处此前未知的算法构造缺陷，并将多项原本仅停留在论文理论层面的攻击，推进到了秒级至分钟级的可执行破解。",
-      "content": "IT之家 11 月 22 日消息，MiniMax 今日宣布，近期，MiniMax 研究团队利用 MiniMax 最新内部模型对现代密码方案开展了系统性的自动化密码分析。 在测试中，模型发掘出了多处此前未知的算法构造缺陷，并将多项原本仅停留在论文理论层面的攻击，推进到了秒级至分钟级的可执行破解。 IT之家获悉，相关进展主要涵盖三个方面： 针对历届 NIST（美国国家标准与技术研究院）国际密码标准化竞赛，该内部模型首次实际攻破了多个此前“尚无已知实际攻击”的候选算法； 针对近年发表于国际密码学顶会、顶刊的论文及竞赛优胜方案，该内部模型对多个历经同行评审的前沿方案实现了高效的密文伪造或密钥恢复，并刷新了新型分组密码的最高破解轮数纪录； 在求解作为公钥密码体系基石的经典数学困难问题时，该内部模型展现出将“挖掘隐含代数结构”与“系统级工程优化”相结合的能力，在国际公开挑战赛中首次攻克了数十个尚无公开解的高阶挑战实例，相比当前最优的求解算法实现了数百至数万倍的实测加速。 官方特别说明，本次研究聚焦于学术前沿方案、历史竞赛候选设计与公开参数挑战，相关发现不影响现行主流密码标准（如日常使用的 AES、RSA、SHA-256 等）的安全性。 遵循负责任的科学研究与安全披露原则，MiniMax 已提前将分析结果同步给相关方案的作者，并将上述实验中由 MiniMax 内部模型生成的推理轨迹加以整理与验证，以技术报告和代码的形式公开： https://github.com/MiniMax-AI/Research",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-11-22T13:23:38.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/030/711.htm",
-      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795374922907_7d1280db",
-      "title": "B站就“AI 大肥鱼”智能体账号泛滥发布调查问卷，征集治理意见",
-      "summary": "IT之家 11 月 22 日消息，近期B站出现大量爱好者设置的 AI 智能体账号，这些账号通常以“大肥鱼”“小飞鲸”等昵称，使用 DeepSeek 鲸鱼娘等形象作为头像，在评论区广泛活跃。 对此，B站官方账号“哔哩哔哩社区小管家”于 11 月 20 日发布《关于 AI“大肥鱼”你怎么看？",
-      "content": "IT之家 11 月 22 日消息，近期B站出现大量爱好者设置的 AI 智能体账号，这些账号通常以“大肥鱼”“小飞鲸”等昵称，使用 DeepSeek 鲸鱼娘等形象作为头像，在评论区广泛活跃。 对此，B站官方账号“哔哩哔哩社区小管家”于 11 月 20 日发布《关于 AI“大肥鱼”你怎么看？》治理意见征询，面向用户征集对 AI 账号及相关行为的意见，并表示将根据反馈推进后续治理行动。 IT之家注意到，AI 智能体“井喷”现象最初源自一位爱好者创建的“Claude 大小姐在运营”账号，该账号选题、视频制作及日常运营均由 AI 完成。在引起一定反响后，平台开始陆续出现“DeepSeek 鲸鱼娘在运营”等 AI 智能体账号，例如“DeepSeek 鲸鱼娘在运营”首条视频播放量便超过了 300 万次。 随着相关玩法受到关注，越来越多用户开始制作 AI 智能体账号，这些账号不仅会在视频评论区发布内容，还会相互艾特、互动和捧场。与此同时，部分用户对大量 AI 评论感到困扰，甚至专门开发了名为“大肥鱼清除计划”的插件，用于屏蔽相关 AI 评论。 综合本次“哔哩哔哩社区小管家”视频公告，官方倡议用户文明使用 AI 智能体账号，在名称、签名等显著位置标明 AI 身份，合理控制 AI 内容发布频率，避免 AI 内容在真人社区中大量发布、干扰正常交流，后续平台还将根据问卷反馈推进 AI 智能体账号治理行动。 document.write(\"\"); document.getElementById(\"vote2410\").innerHTML = voteStr;",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/8f358ec4-bcfe-4751-953f-37b067d23ace.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-11-22T11:44:18.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/030/702.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795374911534_433c028e",
-      "title": "拆解大厂财报：谁最舍得为AI花钱？",
-      "summary": "拆解大厂财报：谁最舍得为AI花钱？",
-      "content": "四家大厂的业务线里，算力、模型服务和AI工具已经形成可以辨认的收入模式。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-22T11:05:18.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8212870.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795326813472_00fffd39",
-      "title": "亚马逊云科技推出 TorchNeuron，可以直接在 AWS Trainium 上运行 PyTorch 模型，无需任何修改",
-      "summary": "亚马逊云科技推出 TorchNeuron，可以直接在 AWS Trainium 上运行 PyTorch 模型，无需任何修改...",
-      "content": "亚马逊云科技推出 TorchNeuron，可以直接在 AWS Trainium 上运行 PyTorch 模型，无需任何修改",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-22T10:00:00.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/XhtWUmaolJECUhPX2jzY?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
