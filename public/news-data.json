@@ -1,9 +1,141 @@
 {
   "success": true,
-  "timestamp": "2026-11-24T22:09:56Z",
-  "total": 21,
+  "timestamp": "2026-11-25T07:47:36Z",
+  "total": 27,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1795592745544_22eb27db",
+      "title": "Netflix 基于运维数据打造知识图谱，实现 AI 可观测性",
+      "summary": "Netflix 基于运维数据打造知识图谱，实现 AI 可观测性",
+      "content": "Netflix 基于运维数据打造知识图谱，实现 AI 可观测性",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-25T14:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/lVQK4fTxIJYZL2sZee2O?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795592746599_58c9f73c",
+      "title": "GLM-5.4 编程能力暴涨、3D惊艳，但推理变久了？智谱押注双路线：首发Loop架构，下一代继续 Scaling",
+      "summary": "GLM-5.4 编程能力暴涨、3D惊艳，但推理变久了？智谱押注双路线：首发Loop架构，下一代继续 Scaling...",
+      "content": "GLM-5.4 编程能力暴涨、3D惊艳，但推理变久了？智谱押注双路线：首发Loop架构，下一代继续 Scaling",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-25T13:27:15.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.infoq.cn/article/gXU31yBa9HMEe19PxHVB?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795592747376_283c9c16",
+      "title": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
+      "summary": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
+      "content": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-25T13:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/YAc2TqCHc09kAFF1A7BS?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795592748247_2bdffe17",
+      "title": "Octop 托管 CodeBuddy 实战：打造 7×24 小时在线的 AI 程序员",
+      "summary": "Octop 托管 CodeBuddy 实战：打造 7×24 小时在线的 AI 程序员",
+      "content": "Octop 托管 CodeBuddy 实战：打造 7×24 小时在线的 AI 程序员",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-25T10:30:02.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/cgiP7vstrXKH94L1zj76?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795592749063_1c8dac2b",
+      "title": "用 Super-agent 的理念，拆解 Octop 团队模式",
+      "summary": "用 Super-agent 的理念，拆解 Octop 团队模式",
+      "content": "用 Super-agent 的理念，拆解 Octop 团队模式",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-25T10:28:44.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/xJVcbBYI4m86a9TIA6HH?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795592749703_03ceb5d3",
+      "title": "Clipto首席科学家韩玫已确认出席 AICon北京，分享Agent 的长上下文从哪里来",
+      "summary": "Clipto首席科学家韩玫已确认出席 AICon北京，分享Agent 的长上下文从哪里来",
+      "content": "Clipto首席科学家韩玫已确认出席 AICon北京，分享Agent 的长上下文从哪里来",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-25T10:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/XpM5q7sE88iSlxNsRrVu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795592753194_a27a2972",
+      "title": "小鹏图灵 AI 智驾官宣推出付费订阅服务：2027 年第二季度开始，老车主权益终身不变",
+      "summary": "IT之家 11 月 25 日现场消息，在今日的「Origin 原点」2026 小鹏科技日活动中，小鹏集团董事长、CEO 何小鹏宣布，小鹏图灵 AI 智驾将于 2027 年第二季度面向全球新购车用户提供订阅服务，服务开启前下订用户，智驾权益终身不变。",
+      "content": "IT之家 11 月 25 日现场消息，在今日的「Origin 原点」2026 小鹏科技日活动中，小鹏集团董事长、CEO 何小鹏宣布，小鹏图灵 AI 智驾将于 2027 年第二季度面向全球新购车用户提供订阅服务，服务开启前下订用户，智驾权益终身不变。 何小鹏解释称，智驾并不是一劳永逸的一次性开发，而是需要长期训练、持续迭代，因此在整个行业里的确有非常多的智能驾驶公司都陆续推出了智驾订阅服务，以支持智驾更好地研发与迭代。何小鹏认为，健康且合理的商业模型是维持用户体验不断提升的关键。 何小鹏还称，在今年前三季度，很多行业伙伴的研发费用基本上保持不变，甚至还有少量的下行。但是，小鹏的研发投入继续同比大幅增长 31%。 IT之家在发布会现场获悉，具体的订阅方案与细则，小鹏会在明年向大家宣布。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/a76ae370-ceb2-4f6d-8e5c-78525a257c2c.jpg",
+      "source": "IT之家",
+      "publishedAt": "2026-11-25T07:10:28.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.ithome.com/1/032/138.htm",
+      "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795592753247_e6e09c9b",
+      "title": "已知首个只住深海的樽海鞘：水下机器人发现新物种，身体近乎透明",
+      "summary": "IT之家 11 月 25 日消息，科技媒体 phys 今天（11 月 25 日）发布博文，报道称美国蒙特雷湾水族馆研究所（MBARI）的研究人员借助先进水下机器人，确认了一种全新樽海鞘物种，名为玻璃樽海鞘（Vitreosalpa gemini）。",
+      "content": "IT之家 11 月 25 日消息，科技媒体 phys 今天（11 月 25 日）发布博文，报道称美国蒙特雷湾水族馆研究所（MBARI）的研究人员借助先进水下机器人，确认了一种全新樽海鞘物种，名为玻璃樽海鞘（Vitreosalpa gemini）。 IT之家查询公开资料，樽海鞘是尾索动物亚门海樽纲的海洋浮游生物，体呈透明桶状，通过环状肌肉带收缩喷水移动，广泛分布于全球寒冷海域，以南大洋最为常见。 而本次发现玻璃樽海鞘（Vitreosalpa gemini）是目前已知第一种完全生活在深海的樽海鞘，相关成果已发表于《海洋生物多样性》。此前已知约 50 种樽海鞘大多栖息在近海或较浅水层；而玻璃樽海鞘则被发现于 280 米至 2,200 米的“暮光带”（twilight）和“午夜带”（midnight），即阳光难以抵达的深海区域。 研究团队 20 多年前便在蒙特雷湾深水区注意到这种陌生生物。借助遥控潜水器，他们在蒙特雷峡谷、太平洋西北海域及加利福尼亚湾累计记录了数千次观测，采集标本并完成形态学与分子分析，最终确认其为独立新属、新种。 玻璃樽海鞘身体纤细、组织含水量极高，游动缓慢，摄食和代谢速率也远低于生活在表层的近亲。由于深海缺乏阳光，它不像其他樽海鞘那样以浮游植物为食，而主要依靠有机碎屑和单细胞原生动物等“海洋雪”生存。 在繁殖方面，这种樽海鞘会在单体和群体阶段间交替：单体个体可持续形成由数十个繁殖克隆体组成的链状结构；群体阶段则能产生罕见的“双胞胎胚胎”。",
+      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/fa20a736-7030-4750-a3f6-09b45bfb7a4a.png",
+      "source": "IT之家",
+      "publishedAt": "2026-11-25T06:54:59.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.ithome.com/1/032/128.htm",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795592733925_0",
+      "title": "Anthropic and OpenAI Staff Worried Models Becoming Too Powerful to Ever Release, Report",
+      "summary": "Employees at two major artificial intelligence companies are concerned about the powerful new models being cooked up in the lab ... which some believe...",
+      "content": "Employees at two major artificial intelligence companies are concerned about the powerful new models being cooked up in the lab ... which some believe should never be released to the public.\nAxios says its reporters have spoken to more than two dozen... [1010 chars]",
+      "imageUrl": "https://imagez.tmz.com/image/1a/16by9/2026/11/24/1a3416ef14a64163a9a2ef6d252ee022_xl.jpg",
+      "source": "TMZ",
+      "publishedAt": "2026-11-24T17:03:30.000Z",
+      "category": "国际AI",
+      "originalUrl": "https://www.tmz.com/2026/11/24/anthropic-and-openai-employees-worried-models-becoming-too-powerful/",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1795592734179_1",
+      "title": "California's colleges look to build their own AI as UC signs fresh OpenAI deal",
+      "summary": "California's public colleges and universities are weighing whether to build their own AI infrastructure rather than depend on commercial providers.\nCr...",
+      "content": "California's public colleges and universities are weighing whether to build their own AI infrastructure rather than depend on commercial providers.\nCredit: Volodimir Zozulinskyi/Shutterstock\nCalifornia's three public higher education systems are expl... [658 chars]",
+      "imageUrl": "https://www.scientific-computing.com/themes/custom/bootstrap_sass_lse/images/faviconSCW.ico",
+      "source": "Scientific Computing World",
+      "publishedAt": "2026-11-24T15:46:30.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.scientific-computing.com/article/californias-colleges-look-build-their-own-ai-uc-signs-fresh-openai-deal",
+      "aiInsight": ""
+    },
+    {
+      "id": "news_1795592751302_91adc693",
+      "title": "当 AI 改变一切，下一步如何构建？",
+      "summary": "当 AI 改变一切，下一步如何构建？",
+      "content": "当 AI 改变一切，下一步如何构建？",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-24T14:12:36.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/iRm9lBSQj0OCvDdgLQrO?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1795558083831_4445a56b",
       "title": "DeepSeek限额，腾讯社交帝国松口气",
@@ -113,31 +245,7 @@
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1795558092621_e7a34308",
-      "title": "企业 AI 发展新趋势：推动 AI Agent 迈向规模化应用的新阶段",
-      "summary": "企业 AI 发展新趋势：推动 AI Agent 迈向规模化应用的新阶段",
-      "content": "企业 AI 发展新趋势：推动 AI Agent 迈向规模化应用的新阶段",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-23T19:52:07.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/its3v5OfmRuikL5SeWUu?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795558092839_938a18bc",
-      "title": "AI 时代的数据工程：如何打造 AI 原生团队",
-      "summary": "AI 时代的数据工程：如何打造 AI 原生团队",
-      "content": "AI 时代的数据工程：如何打造 AI 原生团队",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-23T19:40:31.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/video/qWRo8T0IdKoI7RBuQwNd?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795558074049_0",
+      "id": "news_1795592734601_2",
       "title": "OpenAI to pay AI experts up to $8,000 a month to help small businesses adopt AI",
       "summary": "OpenAI is offering AI experts up to $8,000 a month to help small businesses across America put artificial intelligence to work. The initiative, called...",
       "content": "OpenAI is offering AI experts up to $8,000 a month to help small businesses across America put artificial intelligence to work. The initiative, called OpenWorks, will pay technically skilled individuals and small teams to work directly with local bus... [4925 chars]",
@@ -149,7 +257,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1795558073794_1",
+      "id": "news_1795592734064_3",
       "title": "Big AI on Campus: U. of California Signs Systemwide Deal with OpenAI Despite Faculty Concerns",
       "summary": "The University of California has entered into a comprehensive agreement with OpenAI to provide artificial intelligence tools to hundreds of thousands ...",
       "content": "The University of California has entered into a comprehensive agreement with OpenAI to provide artificial intelligence tools to hundreds of thousands of students, faculty, and staff across its 10-campus system, joining other major California institut... [3090 chars]",
@@ -219,42 +327,6 @@
       "category": "国外AI",
       "originalUrl": "https://www.tmtpost.com/8211898.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795416116294_9bc53776",
-      "title": "自变量发布具身基础模型 WALL-OSS-1.0，零样本真机成功率达 55.1%",
-      "summary": "IT之家 11 月 23 日消息，自变量今日发布新一代具身基础模型 WALL-OSS-1.0。该模型将预训练本身当作智能的来源，而非后续任务微调的起点。",
-      "content": "IT之家 11 月 23 日消息，自变量今日发布新一代具身基础模型 WALL-OSS-1.0。该模型将预训练本身当作智能的来源，而非后续任务微调的起点。 据介绍，这款模型的训练分为两个阶段：一阶段让动作数据前置加入训练，配合多模态数据，让“理解世界”和“动手干活”在同一套权重里成形；二阶段加入动作专家，学习精确、高效的动作生成。 IT之家注意到，该模型在 RoboDojo 榜单仿真赛道中位列单模型能力第一名，超越使用 Astra、Opus 5.5 等十万亿参数模型的 Agent 策略。多种真机测试中零样本成功率可达 55.1%。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "IT之家",
-      "publishedAt": "2026-11-23T06:06:12.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.ithome.com/1/030/890.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795416116329_bf5c9185",
-      "title": "智谱 GLM-5.4 模型发布，已上线 Coding Plan",
-      "summary": "IT之家 11 月 23 日消息，据IT之家小伙伴反馈，智谱官方运营人员发布消息，GLM-5.4 模型已经上线 Coding Plan。“过去三个月，我们同时激进的 Scaling Loop 和模型大小，大家首先看到的是 Loop Transformer 带来的惊喜。",
-      "content": "IT之家 11 月 23 日消息，据IT之家小伙伴反馈，智谱官方运营人员发布消息，GLM-5.4 模型已经上线 Coding Plan。“过去三个月，我们同时激进的 Scaling Loop 和模型大小，大家首先看到的是 Loop Transformer 带来的惊喜。GLM-5.4 新增视觉能力与更强的泛 Coding 能力。” 此外，V2、V3 及团队版用户使用 GLM-5.4 模型额度已提升至 1.5 倍，将模型名设置为 glm-5.4 即可。 GLM-5.4 模型的具体介绍信息暂未公布，不过已经能在 Coding Plan 的模型列表中看到，显示“1M”和“视觉”字样。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/ba8b370d-a03f-459c-8122-39bd1391764d.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-11-23T04:49:30.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.ithome.com/1/030/809.htm",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795416106288_ee14bcad",
-      "title": "迅合科技：在Excel和微信群里，给老板造一个Personal Agent",
-      "summary": "老板对决策的要求比普通人更高，对知识库和决策质量的要求也更高，过去这样的需求长期存在但没有得到很好解决。",
-      "content": "老板对决策的要求比普通人更高，对知识库和决策质量的要求也更高，过去这样的需求长期存在但没有得到很好解决。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-23T03:35:20.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.tmtpost.com/8209450.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
