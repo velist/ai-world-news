@@ -1,20 +1,56 @@
 {
   "success": true,
-  "timestamp": "2026-11-25T07:47:36Z",
-  "total": 27,
+  "timestamp": "2026-11-25T21:25:54Z",
+  "total": 19,
   "source": "multi-api-grok-cleaned",
   "data": [
     {
-      "id": "news_1795592745544_22eb27db",
-      "title": "Netflix 基于运维数据打造知识图谱，实现 AI 可观测性",
-      "summary": "Netflix 基于运维数据打造知识图谱，实现 AI 可观测性",
-      "content": "Netflix 基于运维数据打造知识图谱，实现 AI 可观测性",
+      "id": "news_1795641844339_59039ba3",
+      "title": "比黑客入侵更难防的，是 AI 正在执行的“合法操作”：企业安全防线，可能守错了地方",
+      "summary": "比黑客入侵更难防的，是 AI 正在执行的“合法操作”：企业安全防线，可能守错了地方",
+      "content": "比黑客入侵更难防的，是 AI 正在执行的“合法操作”：企业安全防线，可能守错了地方",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
       "source": "InfoQ中文",
-      "publishedAt": "2026-11-25T14:00:00.000Z",
+      "publishedAt": "2026-11-25T18:52:47.000Z",
       "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/lVQK4fTxIJYZL2sZee2O?utm_source=rss&utm_medium=article",
+      "originalUrl": "https://www.infoq.cn/article/LwwdlrNGE3tbxPO1wIcT?utm_source=rss&utm_medium=article",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795641845657_5c805b5d",
+      "title": "“我比黄仁勋更早看到英伟达的未来”！AI 教父回击黄仁勋，直言大规模失业是 AI 巨头赚钱的副作用",
+      "summary": "“我比黄仁勋更早看到英伟达的未来”！AI 教父回击黄仁勋，直言大规模失业是 AI 巨头赚钱的副作用",
+      "content": "“我比黄仁勋更早看到英伟达的未来”！AI 教父回击黄仁勋，直言大规模失业是 AI 巨头赚钱的副作用",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-25T18:45:29.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/6i2DoIJiaTcKyR0UyurQ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795641846750_d3c50b09",
+      "title": "阿福学会“望闻问切”背后，真实医疗需求正在重塑百灵大模型",
+      "summary": "阿福学会“望闻问切”背后，真实医疗需求正在重塑百灵大模型",
+      "content": "阿福学会“望闻问切”背后，真实医疗需求正在重塑百灵大模型",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-25T18:22:30.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/V7VOeFvEPLrHAN2EFmUa?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，大语言模型技术的进步标志着AI理解和生成能力的显著提升。从行业影响来看，这对知识工作、创意产业和智能助手市场将产生深远影响。未来趋势方面，预计未来大模型将向更高效、更专业化的方向发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795641848382_8c52489b",
+      "title": "2026年IDEA 大会：AI时代编程语言将深刻影响软件能力交付上限",
+      "summary": "2026年IDEA 大会：AI时代编程语言将深刻影响软件能力交付上限",
+      "content": "2026年IDEA 大会：AI时代编程语言将深刻影响软件能力交付上限",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-25T15:44:25.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/ad1ILH2yFyN1HighXoFF?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1795592746599_58c9f73c",
@@ -29,52 +65,16 @@
       "aiInsight": "从技术发展角度看，AI编程助手技术展现了代码理解、生成和优化的强大能力。从行业影响来看，这将显著提升软件开发效率，降低编程门槛。未来趋势方面，未来AI将更深度参与软件开发全流程，推动编程范式变革。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1795592747376_283c9c16",
-      "title": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
-      "summary": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
-      "content": "谷歌开源环境质量智能体 AQuA，用于诊断生产环境 AI 智能体故障",
+      "id": "news_1795641840489_0b32da0a",
+      "title": "豆包侧边栏放进购物入口：大厂AI，只做翻译，不当主人",
+      "summary": "豆包侧边栏放进购物入口：大厂AI，只做翻译，不当主人",
+      "content": "AI翻译层、豆包购物、大厂AI入口战、独立变现、超级App",
       "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-25T13:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/YAc2TqCHc09kAFF1A7BS?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795592748247_2bdffe17",
-      "title": "Octop 托管 CodeBuddy 实战：打造 7×24 小时在线的 AI 程序员",
-      "summary": "Octop 托管 CodeBuddy 实战：打造 7×24 小时在线的 AI 程序员",
-      "content": "Octop 托管 CodeBuddy 实战：打造 7×24 小时在线的 AI 程序员",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-25T10:30:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/cgiP7vstrXKH94L1zj76?utm_source=rss&utm_medium=article",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-25T10:23:05.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8216992.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795592749063_1c8dac2b",
-      "title": "用 Super-agent 的理念，拆解 Octop 团队模式",
-      "summary": "用 Super-agent 的理念，拆解 Octop 团队模式",
-      "content": "用 Super-agent 的理念，拆解 Octop 团队模式",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-25T10:28:44.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/xJVcbBYI4m86a9TIA6HH?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795592749703_03ceb5d3",
-      "title": "Clipto首席科学家韩玫已确认出席 AICon北京，分享Agent 的长上下文从哪里来",
-      "summary": "Clipto首席科学家韩玫已确认出席 AICon北京，分享Agent 的长上下文从哪里来",
-      "content": "Clipto首席科学家韩玫已确认出席 AICon北京，分享Agent 的长上下文从哪里来",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-25T10:00:00.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.infoq.cn/article/XpM5q7sE88iSlxNsRrVu?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1795592753194_a27a2972",
@@ -96,12 +96,12 @@
       "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/fa20a736-7030-4750-a3f6-09b45bfb7a4a.png",
       "source": "IT之家",
       "publishedAt": "2026-11-25T06:54:59.000Z",
-      "category": "科技新闻",
+      "category": "国外AI",
       "originalUrl": "https://www.ithome.com/1/032/128.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1795592733925_0",
+      "id": "news_1795641831995_0",
       "title": "Anthropic and OpenAI Staff Worried Models Becoming Too Powerful to Ever Release, Report",
       "summary": "Employees at two major artificial intelligence companies are concerned about the powerful new models being cooked up in the lab ... which some believe...",
       "content": "Employees at two major artificial intelligence companies are concerned about the powerful new models being cooked up in the lab ... which some believe should never be released to the public.\nAxios says its reporters have spoken to more than two dozen... [1010 chars]",
@@ -113,7 +113,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1795592734179_1",
+      "id": "news_1795641832303_1",
       "title": "California's colleges look to build their own AI as UC signs fresh OpenAI deal",
       "summary": "California's public colleges and universities are weighing whether to build their own AI infrastructure rather than depend on commercial providers.\nCr...",
       "content": "California's public colleges and universities are weighing whether to build their own AI infrastructure rather than depend on commercial providers.\nCredit: Volodimir Zozulinskyi/Shutterstock\nCalifornia's three public higher education systems are expl... [658 chars]",
@@ -123,18 +123,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.scientific-computing.com/article/californias-colleges-look-build-their-own-ai-uc-signs-fresh-openai-deal",
       "aiInsight": ""
-    },
-    {
-      "id": "news_1795592751302_91adc693",
-      "title": "当 AI 改变一切，下一步如何构建？",
-      "summary": "当 AI 改变一切，下一步如何构建？",
-      "content": "当 AI 改变一切，下一步如何构建？",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "InfoQ中文",
-      "publishedAt": "2026-11-24T14:12:36.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.infoq.cn/article/iRm9lBSQj0OCvDdgLQrO?utm_source=rss&utm_medium=article",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1795558083831_4445a56b",
@@ -243,90 +231,6 @@
       "category": "科技新闻",
       "originalUrl": "https://www.ithome.com/1/031/245.htm",
       "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795592734601_2",
-      "title": "OpenAI to pay AI experts up to $8,000 a month to help small businesses adopt AI",
-      "summary": "OpenAI is offering AI experts up to $8,000 a month to help small businesses across America put artificial intelligence to work. The initiative, called...",
-      "content": "OpenAI is offering AI experts up to $8,000 a month to help small businesses across America put artificial intelligence to work. The initiative, called OpenWorks, will pay technically skilled individuals and small teams to work directly with local bus... [4925 chars]",
-      "imageUrl": "https://techstartups.com/wp-content/uploads/2025/09/OPenAI.jpg",
-      "source": "TechStartups.com",
-      "publishedAt": "2026-11-23T18:49:02.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://techstartups.com/2026/11/23/openai-to-pay-ai-experts-up-to-8000-a-month-to-help-small-businesses-adopt-ai/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1795592734064_3",
-      "title": "Big AI on Campus: U. of California Signs Systemwide Deal with OpenAI Despite Faculty Concerns",
-      "summary": "The University of California has entered into a comprehensive agreement with OpenAI to provide artificial intelligence tools to hundreds of thousands ...",
-      "content": "The University of California has entered into a comprehensive agreement with OpenAI to provide artificial intelligence tools to hundreds of thousands of students, faculty, and staff across its 10-campus system, joining other major California institut... [3090 chars]",
-      "imageUrl": "https://media.breitbart.com/media/2026/11/Sam-Altman-wins-over-UC-640x335.jpg",
-      "source": "Breitbart News Network",
-      "publishedAt": "2026-11-23T16:27:52.000Z",
-      "category": "科技新闻",
-      "originalUrl": "https://www.breitbart.com/politics/2026/11/23/big-ai-on-campus-u-of-california-signs-systemwide-deal-with-openai-despite-faculty-concerns/",
-      "aiInsight": ""
-    },
-    {
-      "id": "news_1795477052625_f2d0d62e",
-      "title": "800万对1000万，腾讯字节又在AI办公杠上了",
-      "summary": "800万对1000万，腾讯字节又在AI办公杠上了",
-      "content": "不是产品的胜负，而是存量生态的比拼",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-23T10:36:11.000Z",
-      "category": "国内AI",
-      "originalUrl": "https://www.tmtpost.com/8214502.html",
-      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795477053294_25192938",
-      "title": "新鲜感之后，陪伴机器人如何被用起来？",
-      "summary": "新鲜感之后，陪伴机器人如何被用起来？",
-      "content": "新鲜感退去之后，这些主打陪伴的机器人还有多少被家庭继续使用，又有谁愿意为此持续付费。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-23T09:39:16.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8212446.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795477053742_cd955fdc",
-      "title": "机器人公司老板当自媒体，图什么？",
-      "summary": "机器人公司老板当自媒体，图什么？",
-      "content": "机器人圈的老板们做自媒体，本身就是创业的一部分。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-23T09:08:46.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8214356.html",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795477054153_d49036f7",
-      "title": "AI不懂情绪，但跑出了七种新生意",
-      "summary": "AI不懂情绪，但跑出了七种新生意",
-      "content": "AI不懂情绪，但跑出了七种新生意",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-23T09:08:43.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8214426.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795477054641_5068d138",
-      "title": "现金流不会说谎：AI 把中国科技巨头逼进了同一场考试",
-      "summary": "11 月 19 日，腾讯绩后第二个交易日，股价跌近 6%，盘中触及 350.4 港元，创 2024 年 8 月以来新低。触发抛售的不是收入&mdash;&mdash;2073 亿元的季度营收仍增长了 8%&mdash;&mdash;而是一行在利润表下方更靠下的数字：经营活动现金净额，26 亿元。",
-      "content": "AI重资产投入正改写中国科技巨头的现金流格局。",
-      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
-      "source": "钛媒体",
-      "publishedAt": "2026-11-23T08:34:57.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.tmtpost.com/8211898.html",
-      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
