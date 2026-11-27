@@ -1,9 +1,93 @@
 {
   "success": true,
-  "timestamp": "2026-11-26T21:12:40Z",
-  "total": 17,
+  "timestamp": "2026-11-27T07:36:21Z",
+  "total": 25,
   "source": "multi-api-grok-cleaned",
   "data": [
+    {
+      "id": "news_1795764869327_9c000725",
+      "title": "给 AI 编码智能体装上知识库，反而更费 Token？JioHotstar 测完六种方案，文件搜索依然能打",
+      "summary": "给 AI 编码智能体装上知识库，反而更费 Token？JioHotstar 测完六种方案，文件搜索依然能打...",
+      "content": "给 AI 编码智能体装上知识库，反而更费 Token？JioHotstar 测完六种方案，文件搜索依然能打",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-27T15:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/Ql4GGMIEqA3bI2W2lh7h?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795764870088_6372584d",
+      "title": "DoorDash利用AI智能体将生鲜杂货复购延迟从16秒降至2秒",
+      "summary": "DoorDash利用AI智能体将生鲜杂货复购延迟从16秒降至2秒",
+      "content": "DoorDash利用AI智能体将生鲜杂货复购延迟从16秒降至2秒",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-27T13:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/2uDBVKjk3kJXRb6CqQfu?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795764865086_2460cd0e",
+      "title": "AIDC进入GW时代，数据中心正在换一种活法",
+      "summary": "AIDC进入GW时代，数据中心正在换一种活法",
+      "content": "柔性不是妥协，而是在负载、技术与环境的不确定中，找到更高层次的确定性。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-27T05:36:13.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8218918.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795764865295_12d3112b",
+      "title": "腾讯阿里百度集体交账，AI进入兑现期",
+      "summary": "腾讯阿里百度集体交账，AI进入兑现期",
+      "content": "AI投入热，何以要算长远账。",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-27T04:52:19.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8219613.html",
+      "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795764865489_50da08f2",
+      "title": "时隔一年，小鹏机器人再登台，何小鹏又哽咽了！",
+      "summary": "时隔一年，小鹏机器人再登台，何小鹏又哽咽了！",
+      "content": "时隔一年，小鹏机器人再登台，何小鹏又哽咽了！",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-27T04:51:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8219499.html",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795764865680_492d8969",
+      "title": "实测智谱GLM5.4｜雷霆大思考：想得确实多，干活确实慢",
+      "summary": "实测智谱GLM5.4｜雷霆大思考：想得确实多，干活确实慢",
+      "content": "实测智谱GLM5.4｜雷霆大思考：想得确实多，干活确实慢",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-27T04:51:52.000Z",
+      "category": "国内AI",
+      "originalUrl": "https://www.tmtpost.com/8219494.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795764866388_80f7d83c",
+      "title": "一场物理AI闭门会里的三层“温差”",
+      "summary": "一场物理AI闭门会里的三层“温差”",
+      "content": "一份调研、四道考题，和“一手托两方”的答案",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "钛媒体",
+      "publishedAt": "2026-11-27T03:27:53.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.tmtpost.com/8218564.html",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
     {
       "id": "news_1795727450396_dc500047",
       "title": "破发不算最疼，Claude Code核心班底被OpenAI疯狂收割才是：Anthropic的编程王座悬了？",
@@ -39,6 +123,42 @@
       "category": "国内AI",
       "originalUrl": "https://www.ithome.com/1/033/125.htm",
       "aiInsight": "从技术发展角度看，中国科技巨头在AI领域的布局体现了技术自主创新的重要性。从行业影响来看，这将推动中国AI产业的快速发展和国际竞争力提升。未来趋势方面，未来中国AI企业将在全球AI生态系统中发挥更重要作用。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795764871959_16adb44a",
+      "title": "Snowflake CoCo 再进化：让数据开发进入 Agent 自主执行时代 ｜ 技术趋势",
+      "summary": "Snowflake CoCo 再进化：让数据开发进入 Agent 自主执行时代 ｜ 技术趋势",
+      "content": "Snowflake CoCo 再进化：让数据开发进入 Agent 自主执行时代 ｜ 技术趋势",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-26T14:56:46.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/vfmBDlfQRRfHq4Jyi5b6?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795764872419_cef4c29f",
+      "title": "Uber 推出安全 AI 框架：对 AI 智能体进行全生命周期治理",
+      "summary": "Uber 推出安全 AI 框架：对 AI 智能体进行全生命周期治理",
+      "content": "Uber 推出安全 AI 框架：对 AI 智能体进行全生命周期治理",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-26T14:00:00.000Z",
+      "category": "科技新闻",
+      "originalUrl": "https://www.infoq.cn/article/xA3g2i0VtTZIOVePMedY?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
+    },
+    {
+      "id": "news_1795764873161_839c1539",
+      "title": "Cohere 的研究结果表明，自托管开放权重模型仍然需出站控制",
+      "summary": "Cohere 的研究结果表明，自托管开放权重模型仍然需出站控制",
+      "content": "Cohere 的研究结果表明，自托管开放权重模型仍然需出站控制",
+      "imageUrl": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=400&fit=crop",
+      "source": "InfoQ中文",
+      "publishedAt": "2026-11-26T13:00:00.000Z",
+      "category": "国外AI",
+      "originalUrl": "https://www.infoq.cn/article/bzWoHP0FGUBSTBuP5xVJ?utm_source=rss&utm_medium=article",
+      "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
       "id": "news_1795727446236_7019eaed",
@@ -137,7 +257,7 @@
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     },
     {
-      "id": "news_1795727439079_0",
+      "id": "news_1795764858489_0",
       "title": "AI could threaten Bitcoin’s cryptography before quantum computers do",
       "summary": "Recent mathematical breakthroughs from OpenAI and Anthropic have raised concerns that artificial intelligence could threaten the cryptographic systems...",
       "content": "Recent mathematical breakthroughs from OpenAI and Anthropic have raised concerns that artificial intelligence could threaten the cryptographic systems securing Bitcoin and other cryptocurrencies well before quantum computers become powerful enough to... [5364 chars]",
@@ -149,7 +269,7 @@
       "aiInsight": ""
     },
     {
-      "id": "news_1795727438373_1",
+      "id": "news_1795764857826_1",
       "title": "Wide Restrictions on AI Development – NaturalNews.com",
       "summary": "OpenAI chief scientist Jakub Pachocki called on artificial intelligence developers to adopt common limits on how far their models can advance, accordi...",
       "content": "OpenAI chief scientist Jakub Pachocki called on artificial intelligence developers to adopt common limits on how far their models can advance, according to a Nov. 22 post published on OpenAI's website.\nPachocki proposed that developers commit to \"not... [6482 chars]",
@@ -183,30 +303,6 @@
       "category": "国内AI",
       "originalUrl": "https://www.tmtpost.com/8216992.html",
       "aiInsight": "从技术发展角度看，该技术发展体现了AI在特定领域的应用创新。从行业影响来看，这将为相关行业带来新的机遇和挑战。未来趋势方面，未来AI技术将更加成熟，应用场景将不断扩展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795592753194_a27a2972",
-      "title": "小鹏图灵 AI 智驾官宣推出付费订阅服务：2027 年第二季度开始，老车主权益终身不变",
-      "summary": "IT之家 11 月 25 日现场消息，在今日的「Origin 原点」2026 小鹏科技日活动中，小鹏集团董事长、CEO 何小鹏宣布，小鹏图灵 AI 智驾将于 2027 年第二季度面向全球新购车用户提供订阅服务，服务开启前下订用户，智驾权益终身不变。",
-      "content": "IT之家 11 月 25 日现场消息，在今日的「Origin 原点」2026 小鹏科技日活动中，小鹏集团董事长、CEO 何小鹏宣布，小鹏图灵 AI 智驾将于 2027 年第二季度面向全球新购车用户提供订阅服务，服务开启前下订用户，智驾权益终身不变。 何小鹏解释称，智驾并不是一劳永逸的一次性开发，而是需要长期训练、持续迭代，因此在整个行业里的确有非常多的智能驾驶公司都陆续推出了智驾订阅服务，以支持智驾更好地研发与迭代。何小鹏认为，健康且合理的商业模型是维持用户体验不断提升的关键。 何小鹏还称，在今年前三季度，很多行业伙伴的研发费用基本上保持不变，甚至还有少量的下行。但是，小鹏的研发投入继续同比大幅增长 31%。 IT之家在发布会现场获悉，具体的订阅方案与细则，小鹏会在明年向大家宣布。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/a76ae370-ceb2-4f6d-8e5c-78525a257c2c.jpg",
-      "source": "IT之家",
-      "publishedAt": "2026-11-25T07:10:28.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/032/138.htm",
-      "aiInsight": "从技术发展角度看，自动驾驶技术融合了计算机视觉、深度学习和传感器技术。从行业影响来看，这将革命性地改变交通运输行业和城市规划模式。未来趋势方面，未来自动驾驶将向更高级别的无人驾驶和智慧交通发展。这一发展对于推动AI技术进步和产业应用具有重要意义。"
-    },
-    {
-      "id": "news_1795592753247_e6e09c9b",
-      "title": "已知首个只住深海的樽海鞘：水下机器人发现新物种，身体近乎透明",
-      "summary": "IT之家 11 月 25 日消息，科技媒体 phys 今天（11 月 25 日）发布博文，报道称美国蒙特雷湾水族馆研究所（MBARI）的研究人员借助先进水下机器人，确认了一种全新樽海鞘物种，名为玻璃樽海鞘（Vitreosalpa gemini）。",
-      "content": "IT之家 11 月 25 日消息，科技媒体 phys 今天（11 月 25 日）发布博文，报道称美国蒙特雷湾水族馆研究所（MBARI）的研究人员借助先进水下机器人，确认了一种全新樽海鞘物种，名为玻璃樽海鞘（Vitreosalpa gemini）。 IT之家查询公开资料，樽海鞘是尾索动物亚门海樽纲的海洋浮游生物，体呈透明桶状，通过环状肌肉带收缩喷水移动，广泛分布于全球寒冷海域，以南大洋最为常见。 而本次发现玻璃樽海鞘（Vitreosalpa gemini）是目前已知第一种完全生活在深海的樽海鞘，相关成果已发表于《海洋生物多样性》。此前已知约 50 种樽海鞘大多栖息在近海或较浅水层；而玻璃樽海鞘则被发现于 280 米至 2,200 米的“暮光带”（twilight）和“午夜带”（midnight），即阳光难以抵达的深海区域。 研究团队 20 多年前便在蒙特雷湾深水区注意到这种陌生生物。借助遥控潜水器，他们在蒙特雷峡谷、太平洋西北海域及加利福尼亚湾累计记录了数千次观测，采集标本并完成形态学与分子分析，最终确认其为独立新属、新种。 玻璃樽海鞘身体纤细、组织含水量极高，游动缓慢，摄食和代谢速率也远低于生活在表层的近亲。由于深海缺乏阳光，它不像其他樽海鞘那样以浮游植物为食，而主要依靠有机碎屑和单细胞原生动物等“海洋雪”生存。 在繁殖方面，这种樽海鞘会在单体和群体阶段间交替：单体个体可持续形成由数十个繁殖克隆体组成的链状结构；群体阶段则能产生罕见的“双胞胎胚胎”。",
-      "imageUrl": "https://img.ithome.com/newsuploadfiles/2026/11/fa20a736-7030-4750-a3f6-09b45bfb7a4a.png",
-      "source": "IT之家",
-      "publishedAt": "2026-11-25T06:54:59.000Z",
-      "category": "国外AI",
-      "originalUrl": "https://www.ithome.com/1/032/128.htm",
-      "aiInsight": "从技术发展角度看，智能机器人和Agent技术结合了AI决策、运动控制和环境感知能力。从行业影响来看，这将在制造业、服务业和家庭生活中创造新的应用场景。未来趋势方面，未来机器人将更加智能化、人性化，能够承担更复杂的任务。这一发展对于推动AI技术进步和产业应用具有重要意义。"
     }
   ]
 }
